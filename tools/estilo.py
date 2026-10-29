@@ -82,7 +82,7 @@ a.cat{display:inline-flex;align-items:center;min-height:24px}a.cat:hover{text-de
  .manchete{grid-area:manchete}.pub-topo{grid-area:pubtopo}.ultimas{grid-area:ultimas}.faixas{grid-area:faixas}.opinioes{grid-area:opinioes}.cta-news{grid-area:cta}
 }
 .manchete{padding:0;overflow:hidden;border-top:4px solid var(--c)}
-.manchete a{display:grid;text-decoration:none}
+.manchete a{display:grid;text-decoration:none}.manchete .btn{display:inline-flex;justify-self:start}
 .manchete figure{background:#e9e6df}
 .manchete img{width:100%%;aspect-ratio:16/9;object-fit:cover}
 .manchete .txt{padding:16px 18px 20px;display:grid;gap:10px;align-content:start}
