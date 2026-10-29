@@ -15,8 +15,8 @@ jobs:
       - uses: actions/setup-node@v5
         with: {node-version: "22"}
       - run: pip install -r requirements.txt
-      - name: Padrão editorial (conteúdo real e exemplos)
-        run: python3 tools/editorial/checar.py && python3 tools/editorial/checar.py --exemplo
+      - name: Padrão editorial (notícias e estudos)
+        run: python3 tools/noticias/checar_noticia.py && python3 tools/estudos/checar_estudo.py
       - name: Testes (Python e Worker)
         run: python3 -m unittest discover -s tests -v && node --test tests/worker.test.mjs
       - name: Build local e checagem de SEO

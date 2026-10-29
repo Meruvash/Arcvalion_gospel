@@ -1,70 +1,69 @@
-"""Cria o rascunho de uma matéria em conteudo/artigos/<slug>.json, já no formato do padrão editorial.
+"""Cria o esqueleto de uma notícia ou de um estudo bíblico no padrão editorial, com status "rascunho".
 
-Uso: python3 tools/novo.py <editoria> <tipo> "<título>" [--autor <slug>]
-     tipos: noticia, analise, opiniao, explicativo, patrocinado
-O arquivo nasce com status "rascunho": não aparece no site. Depois de preencher, rode
-python3 tools/editorial/checar.py conteudo/artigos/<slug>.json e, com tudo certo, peça a revisão
-(status "revisao"). Só uma pessoa revisora publica, com tools/publicar.py.
+Uso:
+  python3 tools/novo.py noticia <categoria> "<título>"     -> conteudo/noticias/<hoje>-<slug>.json
+  python3 tools/novo.py estudo "<título>"                  -> conteudo/estudos/<slug>.json
+Depois de preencher: python3 tools/noticias/checar_noticia.py <arquivo> (ou tools/estudos/checar_estudo.py) e
+"status": "revisao". Só uma pessoa revisora publica, com tools/publicar.py.
 """
 import json
 import re
 import sys
 import unicodedata
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import portal  # noqa: E402
 
+PARADAS = {"a", "o", "e", "de", "da", "do", "das", "dos", "em", "um", "uma", "para", "com", "no", "na", "que", "por"}
+
 
 def slugify(t):
     t = unicodedata.normalize("NFKD", t.lower()).encode("ascii", "ignore").decode()
-    palavras = [p for p in re.sub(r"[^a-z0-9]+", " ", t).split() if p not in {"a", "o", "e", "de", "da", "do", "das", "dos", "em", "um", "uma", "para", "com", "no", "na"}]
-    return "-".join(palavras[:9])
+    return "-".join([p for p in re.sub(r"[^a-z0-9]+", " ", t).split() if p not in PARADAS][:9])
 
 
-def esqueleto(editoria, tipo, titulo, autor=""):
-    a = {"slug": slugify(titulo), "status": "rascunho", "tipo": tipo, "editoria": editoria, "titulo": titulo,
-         "linha_fina": "", "corpo": ["Parágrafo 1", {"intertitulo": "Intertítulo opcional"},
-                                     {"citacao": "Frase exata, como está na fonte", "autor": "Nome de quem disse", "cargo": "cargo", "fonte": 0}],
-         "fontes": [{"nome": "Nome da fonte (órgão, documento, veículo)", "url": "https://", "data": "DD/MM/AAAA", "tipo": "primaria"}],
-         "autor": autor, "tags": [], "imagem": {"arquivo": "", "credito": "", "alt": ""},
-         "ia": {"usada": False, "uso": ""}}
-    if tipo in ("noticia", "analise"):
-        a["lide"] = ""
-    if tipo == "noticia":
-        a["analise"] = ""
-    if tipo == "opiniao" and not autor:
-        a["colaborador"] = {"nome": "", "descricao": ""}
-    if tipo == "patrocinado":
-        a["patrocinador"] = {"nome": "", "url": ""}
-    if tipo == "explicativo":
-        a["faq"] = []
-        if editoria == "fe-e-biblia":
-            a["referencias_biblicas"] = []
-            a["versao_biblica"] = ""
-    return a
+def noticia(categoria, titulo):
+    hoje = datetime.now(timezone(timedelta(hours=-3))).date().isoformat()
+    return f"{hoje}-{slugify(titulo)}.json", {
+        "slug": slugify(titulo), "data": hoje, "categoria": categoria, "status": "rascunho", "titulo": titulo,
+        "lide": "", "corpo": [""], "fontes": [{"nome": "", "url": "https://", "data": "DD/MM/AAAA", "tipo": "primaria"}],
+        "imagem": None, "crivo": {"pontos": 0, "criterios": []}, "selo": "Informativo", "instituicao": "",
+        "por_que_importa": "", "numeros": [["", "", ""], ["", "", ""]], "no_brasil": "",
+        "critica": [{"fonte": "", "texto": "", "citacao": False}], "para_quem": [""], "nao_e_para": [], "veredito": "",
+        "estudos": [], "ia": {"usada": True, "uso": ""}}
+
+
+def estudo(titulo):
+    return f"{slugify(titulo)}.json", {
+        "slug": slugify(titulo), "status": "rascunho", "titulo": titulo, "passagem": "", "sigla": "", "livro": "",
+        "testamento": "Novo Testamento", "genero": "Evangelho", "nivel": 1, "tempo_min": 20, "selo": "Ótimo para começar",
+        "tagline": "", "lede": "", "descricao": "", "imagem": None,
+        "versiculo_chave": {"texto": "", "referencia": "", "traducao": ""},
+        "estrutura": [["", ""]], "estrutura_resumo": "", "contexto": [""], "aplicacao": [""], "destaques": [["", ""]],
+        "atencao": [["Moderada", "", ""]], "perfil": [["Contexto histórico", 3], ["Aplicação prática", 3]],
+        "formatos": [["Sozinho", "", 2], ["Em família", "", 2], ["Em grupo", "", 2]], "para_quem": [""], "nao_e_para": [],
+        "dica": "", "traducoes": "", "relacionadas": "", "comparacoes": [], "versiculos": [], "veredito": "",
+        "ficha": [["Livro", ""], ["Autor", ""], ["Capítulos", ""]], "fontes": [["", "https://", ""]], "consulta": "",
+        "legenda": "", "ia": {"usada": True, "uso": ""}}
 
 
 def main(args):
-    autor = ""
-    if "--autor" in args:
-        i = args.index("--autor")
-        autor = args[i + 1]
-        args = args[:i] + args[i + 2:]
-    if len(args) != 3:
-        sys.exit(__doc__)
-    editoria, tipo, titulo = args
     portal.iniciar()
-    if not portal.editoria(editoria):
-        sys.exit(f"Editoria inexistente: {editoria}. Opções: {', '.join(x['slug'] for x in portal.EDITORIAS)}")
-    if tipo not in portal.TIPOS:
-        sys.exit(f"Tipo inválido: {tipo}. Opções: {', '.join(portal.TIPOS)}")
-    a = esqueleto(editoria, tipo, titulo, autor)
-    arq = portal.CONTEUDO / "artigos" / f"{a['slug']}.json"
+    if len(args) == 3 and args[0] == "noticia":
+        if not portal.editoria(args[1]):
+            sys.exit(f"Categoria inexistente: {args[1]}. Opções: {', '.join(x['slug'] for x in portal.EDITORIAS)}")
+        nome, dados, pasta = *noticia(args[1], args[2]), "noticias"
+    elif len(args) == 2 and args[0] == "estudo":
+        nome, dados, pasta = *estudo(args[1]), "estudos"
+    else:
+        sys.exit(__doc__)
+    arq = portal.CONTEUDO / pasta / nome
     if arq.exists():
         sys.exit(f"Já existe: {arq.relative_to(portal.ROOT)}")
     arq.parent.mkdir(parents=True, exist_ok=True)
-    arq.write_text(json.dumps(a, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    arq.write_text(json.dumps(dados, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"ok rascunho criado: {arq.relative_to(portal.ROOT)}")
 
 

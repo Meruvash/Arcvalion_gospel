@@ -114,7 +114,7 @@ def problemas_config(producao=False):
     if producao:
         if SITE.endswith(".example"):
             erros.append("portal.json: url ainda é o domínio provisório (.example); configure o domínio real")
-        # sem revisor o site pode ir ao ar vazio; cada matéria continua exigindo revisor (editorial/checar.py)
+        # sem revisor o site pode ir ao ar vazio; cada matéria continua exigindo revisor (noticias/checar_noticia.py)
     return erros
 
 
