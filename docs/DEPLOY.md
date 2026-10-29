@@ -31,7 +31,26 @@ Testes: `python3 -m unittest discover -s tests -v`, `node --test tests/worker.te
    isolamento, `build.py --producao`, `checar_seo.py` e grava o `CNAME` a partir de `config/portal.json`.
 3. Depois de no ar: `python3 tools/indexnow.py` (Bing e outros) e envio do `sitemap.xml` no Search Console.
 
-Alternativa equivalente: qualquer hospedagem estática (Cloudflare Pages, Netlify) servindo `publico/`.
+## Deploy do site (Cloudflare Pages, gratuito com repositório privado)
+
+Escolhido em 29/10/2026: o repositório continua privado no GitHub e o Cloudflare Pages lê dele.
+
+1. dash.cloudflare.com → Workers & Pages → Create → Pages → Connect to Git → autorize o GitHub só para o repositório do portal.
+2. Configuração do build:
+   - Production branch: `main`
+   - Framework preset: None
+   - Build command: `pip install -r requirements.txt && python3 tools/build.py --producao --sem-og`
+   - Build output directory: `publico`
+   - Variável de ambiente: `PYTHON_VERSION` = `3.12`
+3. Para não publicar sem aprovação: em Settings → Builds & deployments, deixe **Automatic deployments** desligado
+   até o lançamento e publique pelo botão "Retry deployment"/"Create deployment".
+4. O build de produção falha de propósito enquanto faltarem domínio, responsável editorial, e-mail e revisor
+   (`config/portal.json` e `config/equipe.json`).
+5. Domínio: Custom domains → Set up a custom domain. Sem domínio próprio, o endereço `<projeto>.pages.dev`
+   funciona: use-o como `url` em `config/portal.json`.
+
+Os cartões de prévia (Playwright) não rodam no build da Cloudflare (`--sem-og`): a matéria usa a própria foto
+como imagem de compartilhamento. O arquivo `CNAME` e o workflow Deploy do GitHub não são usados nesse caminho.
 
 ## Domínio
 
