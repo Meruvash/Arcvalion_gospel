@@ -78,9 +78,15 @@ def endereco(configurado):
         return os.environ["SITE_URL"].rstrip("/")
     cf = os.environ.get("CF_PAGES_URL", "")
     host = urlparse(cf).hostname or ""
-    if host.endswith(".pages.dev") and urlparse(configurado).hostname.endswith((".github.io", ".example")):
+    provisorio = urlparse(configurado).hostname.endswith((".github.io", ".example"))
+    if host.endswith(".pages.dev") and provisorio:
         partes = host.split(".")
         return "https://" + ".".join(partes[-3:])
+    if os.environ.get("WORKERS_CI") and provisorio:
+        # Workers Builds não informa o endereço do site: serve na raiz do domínio, sem o caminho do github.io.
+        # Defina SITE_URL (variável do build) ou o url de config/portal.json com o endereço *.workers.dev.
+        print("⚠️ build no Cloudflare Workers sem SITE_URL: links internos funcionam, mas canonical e sitemap ficam com o endereço provisório")
+        return "https://" + urlparse(configurado).hostname
     return configurado.rstrip("/")
 
 

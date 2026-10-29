@@ -1,0 +1,12 @@
+// Hospedagem do SITE no Cloudflare (Worker só com arquivos estáticos; o projeto "arcvalion" do painel).
+// O build (Settings > Build) roda: pip install -r requirements.txt && python3 tools/build.py --producao --sem-og
+// e o deploy roda: npx wrangler deploy  (publica a pasta publico/). O serviço de comentários é outro, em worker/.
+{
+  "name": "arcvalion",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./publico",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
