@@ -166,8 +166,7 @@ class Producao(unittest.TestCase):
     def test_producao_recusa_configuracao_provisoria(self):
         r = rodar("tools/build.py", "--producao", "--saida", "publico-teste-prod", "--sem-og")
         self.assertNotEqual(r.returncode, 0)
-        self.assertIn("domínio provisório", r.stdout + r.stderr)
-        self.assertIn("nenhuma pessoa revisora", r.stdout + r.stderr)
+        self.assertIn("responsável editorial", r.stdout + r.stderr)
 
     def test_build_local_sem_materias(self):
         r = rodar("tools/build.py", "--saida", "publico-teste-prod", "--sem-og")

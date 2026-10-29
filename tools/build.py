@@ -624,12 +624,13 @@ def gerados(tipo, pre):
 
 
 def build_404():
-    pre = "/"
+    # servida em qualquer profundidade: caminhos absolutos a partir da raiz do site (com o caminho-base, se houver)
+    pre = portal.BASE + "/"
     corpo = f"""{cabecalho(pre, "")}
 <main id="conteudo" class="in"><div class="doc"><section class="bloco">
  <h1>Página não encontrada</h1>
  <p class="lf">O endereço pode ter mudado ou sido digitado errado.</p>
- <div class="corpo"><ul><li><a href="/">Página inicial</a></li><li><a href="/noticias/">Todas as notícias</a></li>{"".join(f'<li><a href="/{x["slug"]}/">{e(x["nome"])}</a></li>' for x in portal.visiveis())}</ul></div>
+ <div class="corpo"><ul><li><a href="{pre}">Página inicial</a></li><li><a href="{pre}noticias/">Todas as notícias</a></li>{"".join(f'<li><a href="{pre}{x["slug"]}/">{e(x["nome"])}</a></li>' for x in portal.visiveis())}</ul></div>
 </section></div></main>
 {rodape(pre, "")}"""
     escrever("404.html", pagina(f"Página não encontrada | {portal.NOME}", "Página não encontrada.", "", f"{portal.SITE}/marca/capa.png", pre, corpo, indexavel=False))

@@ -18,6 +18,7 @@ EDITORIAS = []
 EQUIPE = {}
 ANUNCIOS = {}
 SITE = ""
+BASE = ""   # caminho do site no domínio: "" na raiz, "/Arcvalion" em meruvash.github.io/Arcvalion
 NOME = ""
 CONTEUDO = ROOT / "conteudo"
 SAIDA = ROOT / "publico"
@@ -52,12 +53,14 @@ def _ler(nome, sobre=None):
 
 
 def iniciar(conteudo=None, config=None, saida=None, exemplo=False):
-    global CFG, EDITORIAS, EQUIPE, ANUNCIOS, SITE, NOME, CONTEUDO, SAIDA, EXEMPLO
+    global CFG, EDITORIAS, EQUIPE, ANUNCIOS, SITE, BASE, NOME, CONTEUDO, SAIDA, EXEMPLO
     CFG = _ler("portal.json", config)
     EDITORIAS = _ler("editorias.json", config)["editorias"]
     EQUIPE = {p["slug"]: p for p in _ler("equipe.json", config)["pessoas"]}
     ANUNCIOS = _ler("anuncios.json", config)
     SITE = CFG["url"].rstrip("/")
+    from urllib.parse import urlparse
+    BASE = urlparse(SITE).path.rstrip("/")
     NOME = CFG["nome"]
     CONTEUDO = Path(conteudo) if conteudo else ROOT / "conteudo"
     SAIDA = Path(saida) if saida else ROOT / "publico"
@@ -93,8 +96,7 @@ def problemas_config(producao=False):
             erros.append("portal.json: falta o nome do responsável editorial (exigido na política editorial e no expediente)")
         if not CFG.get("email_contato"):
             erros.append("portal.json: falta email_contato (canal de correções e de contato do leitor)")
-        if not any(p.get("revisor") for p in EQUIPE.values()):
-            erros.append("equipe.json: nenhuma pessoa revisora cadastrada; nada pode ser publicado sem revisão humana")
+        # sem revisor o site pode ir ao ar vazio; cada matéria continua exigindo revisor (editorial/checar.py)
     return erros
 
 

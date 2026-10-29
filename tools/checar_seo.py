@@ -94,6 +94,8 @@ def links(saida, rel, s):
             if not u or u.startswith(("http://", "https://", "mailto:", "#", "data:", "tel:")):
                 continue
             caminho = unquote(urlparse(u).path)
+            if portal.BASE and caminho.startswith(portal.BASE + "/"):
+                caminho = caminho[len(portal.BASE):]
             dest = (saida / caminho.lstrip("/")) if caminho.startswith("/") else (base / caminho)
             if caminho.endswith("/") or dest.is_dir():
                 dest = dest / "index.html"
