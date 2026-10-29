@@ -1,0 +1,52 @@
+{
+ "_ajuda": "Licenças de foto por fonte, lidas por tools/fotos.py. 'uso': livre (reprodução jornalística liberada com crédito), cc (licença Creative Commons conferida foto a foto), proibido (nunca usar sem contrato). Domínio que não está aqui entra como 'a confirmar': a foto aparece na folha, mas só é aprovada com --licenca e --credito escritos por quem conferiu. 'credito' usa {autor} quando a página traz o nome de quem fotografou. 'sem_derivacao': licença ND, a foto não pode ser recortada nem montada. Conferido em 29/10/2026; releia a política se ela mudar.",
+ "fontes": {
+  "agenciabrasil.ebc.com.br": {
+   "nome": "Agência Brasil",
+   "uso": "livre",
+   "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+   "credito": "Foto: {autor}/Agência Brasil",
+   "politica": "https://agenciabrasil.ebc.com.br/sobre",
+   "aviso": "Fotos de agências parceiras (Reuters, AFP etc.) publicadas pela Agência Brasil não entram nessa política."
+  },
+  "www12.senado.leg.br": {
+   "nome": "Agência Senado",
+   "uso": "livre",
+   "licenca": "Reprodução livre com citação da Agência Senado e do autor, sem descaracterizar o conteúdo",
+   "credito": "Foto: {autor}/Agência Senado",
+   "politica": "https://www12.senado.leg.br/assessoria-de-imprensa/politica-de-uso"
+  },
+  "www.camara.leg.br": {
+   "nome": "Câmara dos Deputados",
+   "uso": "livre",
+   "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+   "credito": "Foto: {autor}/Câmara dos Deputados",
+   "politica": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/noticias-e-fotografias"
+  },
+  "www.gov.br": {
+   "nome": "Governo Federal (gov.br)",
+   "uso": "livre",
+   "licenca": "CC BY-ND 3.0 (rodapé do gov.br)",
+   "credito": "Foto: {autor}/gov.br",
+   "politica": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias",
+   "sem_derivacao": true,
+   "aviso": "Sem derivações: não recorte nem monte; prefira fotos com 1200 px ou mais (a versão do Discover não precisa ser montada)."
+  },
+  "commons.wikimedia.org": {
+   "nome": "Wikimedia Commons",
+   "uso": "cc",
+   "licenca": "conferida foto a foto (CC0, CC BY, CC BY-SA ou domínio público)",
+   "credito": "Foto: {autor} · {licenca} · Wikimedia Commons",
+   "politica": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+  }
+ },
+ "terceiros": "\\b(Reuters|AFP|Associated Press|AP Photo|EFE|Getty|Shutterstock|Folhapress|Estadão Conteúdo|Agência O Globo|Alamy|iStock|Adobe Stock|ANSA|DPA)\\b",
+ "commons_temas": {
+  "_ajuda": "Categorias do Wikimedia Commons para assuntos que voltam sempre (prédios, instituições, símbolos). Uso: tools/fotos.py buscar <slug> --tema congresso. As licenças são conferidas foto a foto.",
+  "congresso": ["National Congress of Brazil"],
+  "stf": ["Supreme Federal Court of Brazil"],
+  "planalto": ["Palácio do Planalto"],
+  "biblia": ["Bibles"],
+  "cristo-redentor": ["Christ the Redeemer (statue)"]
+ }
+}

@@ -64,7 +64,8 @@ aquilo, se a frase citada existe, se a foto é do fato certo) é responsabilidad
 ```
 
 `revisao` e `publicado_em` são gravados por `tools/publicar.py`, não à mão. A foto fica em `conteudo/imagens/`
-(mínimo 800 px de largura; o Discover recomenda 1200 px). Imagem gerada por IA não ilustra notícia.
+(mínimo 800 px de largura; o Discover recomenda 1200 px). Imagem gerada por IA não ilustra notícia. Fontes de foto,
+licenças e o robô `tools/fotos.py`: `docs/FOTOS.md`.
 
 ## Escrita
 

@@ -25,7 +25,7 @@ Fica de fora: boato, "fontes dizem", post de rede social sem confirmação, rele
 - `fontes`: link, data de consulta e `tipo` (primaria/secundaria); notícia precisa de ao menos uma primária.
 - `ia`: `{"usada": true, "uso": "pesquisa, organização e primeira versão do texto"}`.
 - Título informativo, sem exclamação, caixa alta ou caça-clique. Nada de adjetivo de torcida (detonou, lacrou, humilhou).
-- Foto: só real, com licença e crédito (divulgação oficial, banco de imagens licenciado, Wikimedia Commons com a licença). **Nunca imagem gerada por IA.** Sem foto adequada, deixe `imagem` vazio e avise.
+- Foto: só real, com licença e crédito. **Nunca imagem gerada por IA.** Rode `python3 tools/fotos.py buscar <slug>` (procura nas páginas das `fontes`; `--url` para outra página oficial, `--tema` para o Commons), abra `.cache/fotos/<slug>/folha.jpg` com Read, escolha pelo que a foto mostra (o fato certo, sem texto por cima) e grave com `python3 tools/fotos.py aprovar <slug> <n> --alt "..."`. Candidata "a confirmar" ou BLOQ não é aprovada pela IA: deixe para a redação. Sem foto adequada, deixe `imagem` vazio e avise. Regras e fontes em `docs/FOTOS.md`.
 - Política: relate posições de todos os lados envolvidos com a fonte de cada uma; a linha conservadora do portal aparece na escolha de pautas e na seção de opinião, não na distorção do fato.
 
 `python3 tools/editorial/checar.py conteudo/artigos/<slug>.json` precisa passar (rascunho mostra 📝 com o que falta). Quando estiver completo, troque `status` para `"revisao"`.

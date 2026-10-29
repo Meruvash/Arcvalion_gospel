@@ -223,5 +223,45 @@ class Configuracao(unittest.TestCase):
         self.assertNotIn(portal.EDITORIAS[0]["slug"], [x["slug"] for x in portal.visiveis()])
 
 
+class Fotos(unittest.TestCase):
+    """Robô de fotos (tools/fotos.py), sem rede: robots.txt, licença por fonte, crédito e extração da página."""
+
+    def setUp(self):
+        portal.iniciar()
+        import fotos
+        self.f = fotos
+
+    def test_robots(self):
+        r = self.f.Robots("User-agent: *\nDisallow: /privado\nAllow: /privado/fotos\nCrawl-delay: 5\n", 200)
+        self.assertFalse(r.pode("https://x.org/privado/doc"))
+        self.assertTrue(r.pode("https://x.org/privado/fotos/a.jpg"))
+        self.assertEqual(r.delay, 5)
+        self.assertFalse(self.f.Robots("", 503).pode("https://x.org/"))  # servidor fora do ar: não entra
+        self.assertTrue(self.f.Robots("", 404).pode("https://x.org/"))   # sem robots.txt: liberado
+
+    def test_licenca_e_credito(self):
+        ab = self.f.regra("https://agenciabrasil.ebc.com.br/geral/noticia/x")
+        self.assertEqual(ab["uso"], "livre")
+        self.assertEqual(self.f.regra("https://www2.camara.leg.br/x")["nome"], "Câmara dos Deputados")
+        self.assertEqual(self.f.montar_credito(ab, "Foto: Fulana de Tal/Agência Brasil")[0], "Foto: Fulana de Tal/Agência Brasil")
+        self.assertEqual(self.f.montar_credito(ab, "")[0], "Foto: Agência Brasil")
+        self.assertIsNone(self.f.montar_credito(ab, "Foto: Reuters/Fulano")[0])  # agência de terceiros: bloqueada
+        self.assertEqual(self.f.montar_credito(self.f.regra("https://desconhecido.org/a"), "Foto: X")[0], "")  # a confirmar
+
+    def test_extrai_fotos_com_legenda(self):
+        html = ('<meta property="og:image" content="/f/capa.jpg"><img src="/f/logo.png" alt="logo">'
+                '<figure><img srcset="/f/a-300x200.jpg 300w, /f/a-1200x800.jpg 1200w" alt="Culto"><figcaption>Foto: Beltrano/Agência Senado</figcaption></figure>')
+        res = self.f.imagens_da_pagina(html, "https://www12.senado.leg.br/noticias/m")
+        urls = [c["url"] for c in res]
+        self.assertIn("https://www12.senado.leg.br/f/capa.jpg", urls)
+        self.assertIn("https://www12.senado.leg.br/f/a.jpg", urls)  # maior do srcset, sem o sufixo de miniatura
+        self.assertFalse(any("logo" in u for u in urls))
+        self.assertEqual(self.f.autor_do_credito(res[0]["legenda"]), "Beltrano")  # og:image herda o crédito da página
+
+    def test_aprovar_exige_alt(self):
+        with self.assertRaises(SystemExit):
+            self.f.aprovar("qualquer", 1, "curto")
+
+
 if __name__ == "__main__":
     unittest.main()
