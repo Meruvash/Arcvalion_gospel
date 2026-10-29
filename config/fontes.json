@@ -1,0 +1,15 @@
+{
+ "_ajuda": "Feeds lidos por tools/editorial/coletar.py para montar a pauta do dia (testados em 29/10/2026). A coleta só sugere: toda matéria precisa de apuração, fonte primária e revisão humana. 'editoria' é a sugestão de destino. 'filtro' (regex) deixa passar só itens do tema. Fontes que proíbem robôs ficam só para leitura pontual, citadas com link.",
+ "feeds": [
+  {"nome": "Agência Senado", "url": "https://www12.senado.leg.br/noticias/rss", "editoria": "politica-e-sociedade", "tipo": "primaria"},
+  {"nome": "Agência Câmara de Notícias", "url": "https://www.camara.leg.br/noticias/rss/ultimas-noticias", "editoria": "politica-e-sociedade", "tipo": "primaria"},
+  {"nome": "Planalto: notícias", "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/RSS", "editoria": "politica-e-sociedade", "tipo": "primaria"},
+  {"nome": "Banco Central: notícias", "url": "https://www.bcb.gov.br/api/feed/sitebcb/sitefeeds/noticias", "editoria": "economia-e-negocios", "tipo": "primaria"},
+  {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml", "editoria": "politica-e-sociedade", "tipo": "secundaria"},
+  {"nome": "CNBB", "url": "https://www.cnbb.org.br/feed/", "editoria": "noticias-gospel", "tipo": "primaria"},
+  {"nome": "Pew Research Center", "url": "https://www.pewresearch.org/feed/", "editoria": "noticias-gospel", "tipo": "primaria", "filtro": "relig|christian|evangel|church|faith"},
+  {"nome": "Lifeway Research", "url": "https://news.lifeway.com/feed/", "editoria": "noticias-gospel", "tipo": "primaria"},
+  {"nome": "Christianity Today", "url": "https://www.christianitytoday.com/feed/", "editoria": "noticias-gospel", "tipo": "secundaria"}
+ ],
+ "temas": "igreja|igrejas|evangélic|cristã|cristão|religios|liberdade religiosa|liberdade de expressão|família|famílias|criança|infância|adolesc|educação|escola|aborto|casamento|missões|missionári|pastor|bíblia|fé\\b|culto|templo|perseguição|gospel"
+}

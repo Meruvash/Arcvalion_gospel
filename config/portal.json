@@ -1,0 +1,40 @@
+{
+ "_ajuda": "Identidade do portal. Trocar o nome, o domínio ou as redes é só editar este arquivo e rodar python3 tools/build.py. Campos vazios simplesmente não aparecem no site. O build de produção (--producao) recusa os valores provisórios: domínio .example, responsável editorial e e-mail de contato vazios.",
+ "nome": "Portal Cristão",
+ "slogan": "Jornalismo, fé e sociedade.",
+ "descricao": "Informação com responsabilidade e uma perspectiva cristã sobre o Brasil e o mundo.",
+ "url": "https://portal-cristao.example",
+ "idioma": "pt-BR",
+ "fundacao": "2026",
+ "responsavel_editorial": {"nome": "", "cargo": "Editor responsável"},
+ "razao_social": "",
+ "cnpj": "",
+ "email_contato": "",
+ "email_comercial": "",
+ "email_correcoes": "",
+ "redes": {
+  "instagram": "",
+  "youtube": "",
+  "x": "",
+  "facebook": "",
+  "whatsapp_canal": "",
+  "telegram": ""
+ },
+ "analytics": {
+  "_ajuda": "cloudflare_token: medição sem cookies (carrega sempre). ga4_id: Google Analytics 4, só carrega depois do consentimento de medição.",
+  "cloudflare_token": "",
+  "ga4_id": ""
+ },
+ "verificacao": {"google": "", "bing": ""},
+ "indexnow_chave": "e6a19fbeb58d105a3023be74cd36764e",
+ "interacoes": {
+  "_ajuda": "API do Worker (worker/) e site key do Turnstile. Vazio = sem comentários, curtidas, newsletter e formulários online (os formulários viram link de e-mail).",
+  "api": "",
+  "turnstile": ""
+ },
+ "robots": {
+  "_ajuda": "bloquear_treino_ia: true acrescenta Disallow para robôs que coletam texto para treinar modelos (GPTBot, Google-Extended, CCBot etc.). Buscadores e assistentes que citam a fonte continuam liberados.",
+  "bloquear_treino_ia": false
+ },
+ "noticias_por_pagina": 24
+}

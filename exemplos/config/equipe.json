@@ -1,0 +1,19 @@
+{
+ "_ajuda": "Personagens FICTÍCIOS, só para a prévia de exemplo e os testes.",
+ "pessoas": [
+  {
+   "slug": "autora-exemplo",
+   "nome": "Autora de Exemplo",
+   "cargo": "Repórter (personagem fictícia)",
+   "bio": "Personagem fictícia usada para testar a página de autor e a assinatura das matérias.",
+   "revisor": false
+  },
+  {
+   "slug": "revisor-exemplo",
+   "nome": "Revisor de Exemplo",
+   "cargo": "Editor (personagem fictício)",
+   "bio": "Personagem fictício usado para testar o fluxo de revisão humana.",
+   "revisor": true
+  }
+ ]
+}

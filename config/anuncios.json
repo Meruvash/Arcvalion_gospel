@@ -1,0 +1,20 @@
+{
+ "_ajuda": "Espaços publicitários. Cada espaço reserva a altura antes de carregar (não empurra o texto, CLS zero) e mostra o rótulo 'Publicidade'. Sem anunciante, mostra o anúncio da casa (Anuncie conosco) se casa.ativo for true; com adsense_cliente e o slot preenchidos, carrega o Google AdSense só depois do consentimento de publicidade (LGPD). 'editorias' vazia = todas; 'fora_editorias' exclui. 'casa': false num espaço deixa o lugar só para anunciante real (sem anúncio da casa). Nunca há anúncio em conteúdo patrocinado, páginas institucionais ou matéria marcada com sem_anuncios.",
+ "ativo": true,
+ "rotulo": "Publicidade",
+ "adsense_cliente": "",
+ "casa": {
+  "ativo": true,
+  "titulo": "Anuncie para quem lê com atenção",
+  "texto": "Espaços por editoria, conteúdo patrocinado identificado e divulgação de eventos.",
+  "botao": "Anuncie conosco"
+ },
+ "espacos": [
+  {"id": "home-topo", "posicao": "home-topo", "descricao": "Faixa abaixo da manchete", "altura_celular": 100, "altura_computador": 90, "adsense_slot": "", "editorias": [], "fora_editorias": []},
+  {"id": "home-meio", "posicao": "home-meio", "descricao": "Entre as faixas das editorias", "altura_celular": 250, "altura_computador": 250, "adsense_slot": "", "editorias": [], "fora_editorias": []},
+  {"id": "lateral", "posicao": "lateral", "descricao": "Coluna lateral da home (só computador)", "altura_celular": 0, "altura_computador": 250, "adsense_slot": "", "editorias": [], "fora_editorias": []},
+  {"id": "editoria-topo", "posicao": "editoria-topo", "descricao": "Topo das páginas de editoria", "altura_celular": 100, "altura_computador": 90, "adsense_slot": "", "editorias": [], "fora_editorias": []},
+  {"id": "artigo-meio", "posicao": "artigo-meio", "descricao": "No meio do texto da matéria", "casa": false, "altura_celular": 250, "altura_computador": 250, "adsense_slot": "", "editorias": [], "fora_editorias": []},
+  {"id": "artigo-fim", "posicao": "artigo-fim", "descricao": "Depois do texto da matéria", "altura_celular": 250, "altura_computador": 90, "adsense_slot": "", "editorias": [], "fora_editorias": []}
+ ]
+}

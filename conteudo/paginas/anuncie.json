@@ -1,0 +1,17 @@
+{
+ "slug": "anuncie",
+ "titulo": "Anuncie conosco",
+ "descricao": "Publicidade, conteúdo patrocinado e divulgação de eventos no {nome}.",
+ "lide": "Fale com leitores que acompanham notícias, fé, família e sociedade com atenção, sem misturar publicidade e jornalismo.",
+ "secoes": [
+  {"titulo": "Formatos", "lista": [
+   "Banners responsivos em espaços fixos da página inicial, das editorias e das matérias, com segmentação por editoria.",
+   "Conteúdo patrocinado, produzido com o anunciante e identificado como publicidade em toda a página.",
+   "Divulgação de eventos na agenda, marcada como divulgação paga.",
+   "Patrocínio de newsletter e de séries especiais, sempre identificado."
+  ]},
+  {"titulo": "Espaços disponíveis", "gerado": "espacos"},
+  {"titulo": "Regras", "paragrafos": ["Anúncios não interferem na leitura: não cobrem o texto, não tocam som sozinhos e não empurram o conteúdo enquanto a página carrega. Anunciantes não aprovam nem alteram reportagens. Não aceitamos publicidade enganosa, de apostas, de conteúdo adulto ou que contrarie a nossa linha editorial. Veja a [política editorial](/politica-editorial/#publicidade)."]},
+  {"titulo": "Fale com o comercial", "paragrafos": ["Conte o que você quer divulgar, para quem e em que período. Enviamos as condições e as métricas de desempenho dos espaços."], "formulario": "comercial"}
+ ]
+}

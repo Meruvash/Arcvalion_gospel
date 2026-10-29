@@ -1,0 +1,12 @@
+{
+ "slug": "contato",
+ "titulo": "Fale conosco",
+ "descricao": "Fale com a redação do {nome}, peça uma correção ou divulgue um evento.",
+ "schema": "ContactPage",
+ "lide": "Escolha o assunto. Respondemos pelo e-mail que você informar.",
+ "secoes": [
+  {"id": "correcao", "titulo": "Pedir uma correção", "paragrafos": ["Informe o link da matéria e o que está errado. Se possível, indique a fonte da informação correta."], "formulario": "correcao"},
+  {"id": "evento", "titulo": "Divulgar um evento", "paragrafos": ["Congressos, conferências, shows, encontros e feiras cristãs entram na agenda depois de conferidos: data, local e organizador precisam ser confirmados. Divulgação paga é identificada como tal."], "formulario": "evento"},
+  {"id": "redacao", "titulo": "Falar com a redação", "paragrafos": ["Sugestões de pauta, informações e comentários sobre a cobertura."], "formulario": "geral"}
+ ]
+}

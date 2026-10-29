@@ -1,0 +1,7 @@
+{
+ "_ajuda": "Sobreposição FICTÍCIA para a prévia de exemplo: a API aponta para um domínio .invalid só para os formulários e comentários aparecerem no layout (nada é enviado de verdade).",
+ "email_contato": "contato@exemplo.invalid",
+ "responsavel_editorial": {"nome": "Revisor de Exemplo (personagem fictício)"},
+ "interacoes": {"api": "https://api.exemplo.invalid", "turnstile": ""},
+ "redes": {"instagram": "https://instagram.exemplo.invalid/", "youtube": "https://youtube.exemplo.invalid/"}
+}

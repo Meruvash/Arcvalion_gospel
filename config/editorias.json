@@ -1,0 +1,68 @@
+{
+ "_ajuda": "Editorias do portal. A ordem aqui é a ordem do menu e das faixas da página inicial. 'visivel': false tira a editoria do menu, da home e do sitemap sem apagar nada (as matérias continuam no ar no arquivo geral). Para criar uma editoria, acrescente um item; o slug vira o endereço (/<slug>/) e não pode coincidir com páginas institucionais. Cores: 'cor' é o texto e o filete (contraste mínimo 4,5:1 sobre branco), 'fundo' é a etiqueta clara.",
+ "editorias": [
+  {
+   "slug": "noticias-gospel",
+   "nome": "Notícias Gospel",
+   "menu": "Gospel",
+   "descricao": "Igrejas, lideranças, missões, liberdade religiosa e os acontecimentos do mundo evangélico no Brasil e no exterior.",
+   "cor": "#1d4f91",
+   "fundo": "#e4ecf7",
+   "visivel": true
+  },
+  {
+   "slug": "politica-e-sociedade",
+   "nome": "Política e Sociedade",
+   "menu": "Política",
+   "descricao": "Congresso Nacional, Presidência, Judiciário, legislação, políticas públicas, liberdade de expressão e educação.",
+   "cor": "#7a2335",
+   "fundo": "#f6e6e9",
+   "visivel": true
+  },
+  {
+   "slug": "familia-e-valores",
+   "nome": "Família e Valores",
+   "menu": "Família",
+   "descricao": "Educação dos filhos, casamento, comportamento, proteção da infância e os desafios da família hoje.",
+   "cor": "#2c6447",
+   "fundo": "#e3f1e9",
+   "visivel": true
+  },
+  {
+   "slug": "fe-e-biblia",
+   "nome": "Fé e Bíblia",
+   "menu": "Fé e Bíblia",
+   "descricao": "Estudos bíblicos, história do cristianismo, teologia e respostas às perguntas mais comuns sobre a fé.",
+   "cor": "#7b5410",
+   "fundo": "#f7eedb",
+   "visivel": true
+  },
+  {
+   "slug": "economia-e-negocios",
+   "nome": "Economia e Negócios",
+   "menu": "Economia",
+   "descricao": "Economia brasileira, empreendedorismo, finanças da família e os fatos econômicos que afetam o seu dia a dia.",
+   "cor": "#245a6b",
+   "fundo": "#e1eff3",
+   "visivel": true
+  },
+  {
+   "slug": "musica-e-cultura",
+   "nome": "Música e Cultura Cristã",
+   "menu": "Cultura",
+   "descricao": "Lançamentos musicais, artistas, literatura, cinema, entretenimento e cultura gospel.",
+   "cor": "#5f3b86",
+   "fundo": "#eee6f6",
+   "visivel": true
+  },
+  {
+   "slug": "eventos",
+   "nome": "Eventos",
+   "menu": "Eventos",
+   "descricao": "Congressos, conferências, shows, encontros e feiras cristãs, com data, local e como participar.",
+   "cor": "#8f4216",
+   "fundo": "#f8e9df",
+   "visivel": true
+  }
+ ]
+}

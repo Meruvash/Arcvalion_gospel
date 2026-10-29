@@ -1,0 +1,25 @@
+{
+ "slug": "sobre",
+ "titulo": "Quem somos",
+ "descricao": "O que é o {nome}, o que cobrimos e os princípios que orientam o nosso jornalismo.",
+ "schema": "AboutPage",
+ "lide": "{nome}: {descricao}",
+ "atualizado_em": "2026-10-29",
+ "secoes": [
+  {"titulo": "O que fazemos", "paragrafos": [
+   "O {nome} é um veículo jornalístico cristão, de orientação conservadora e sem vínculo com partidos políticos. Cobrimos o Brasil e o mundo com foco em notícias, política e sociedade, família, fé, economia, cultura e os acontecimentos do universo evangélico.",
+   "Nosso compromisso é com o leitor: informação apurada, com fontes identificáveis, contexto e separação clara entre o que é fato, o que é análise e o que é opinião."
+  ]},
+  {"titulo": "Editorias", "gerado": "editorias"},
+  {"titulo": "Nossos princípios", "lista": [
+   "Nenhuma notícia é inventada, e toda informação factual tem fonte identificável e verificável.",
+   "Declarações e citações são atribuídas a quem as fez, com o local onde foram publicadas.",
+   "Fato, análise e opinião aparecem separados e rotulados em cada página.",
+   "Publicidade, conteúdo patrocinado e links de afiliado são sempre identificados.",
+   "Erros confirmados são corrigidos na própria matéria, com data.",
+   "Não publicamos manchetes sensacionalistas para gerar cliques.",
+   "Ferramentas de inteligência artificial podem ajudar na pesquisa e na organização, mas todo conteúdo passa por revisão humana antes de ir ao ar."
+  ]},
+  {"titulo": "Quem responde pelo portal", "paragrafos": ["O responsável editorial é {responsavel}. A equipe completa está no [expediente](/expediente/), e as regras de apuração, correção e publicidade estão na [política editorial](/politica-editorial/)."]}
+ ]
+}

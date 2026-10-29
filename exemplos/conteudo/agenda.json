@@ -1,0 +1,59 @@
+{
+ "eventos": [
+  {
+   "nome": "Congresso de exemplo",
+   "inicio": "2026-11-14",
+   "fim": "2026-11-16",
+   "local": "Local fictício",
+   "cidade": "Cidade de Exemplo",
+   "uf": "EX",
+   "organizador": "Organização de exemplo",
+   "url": "https://evento.exemplo.invalid/",
+   "fonte": {
+    "nome": "Página fictícia do evento",
+    "url": "https://evento.exemplo.invalid/",
+    "data": "29/10/2026"
+   },
+   "confirmado": true
+  },
+  {
+   "nome": "Encontro on-line de exemplo",
+   "inicio": "2026-11-21",
+   "online": true,
+   "url": "https://online.exemplo.invalid/",
+   "organizador": "Organização de exemplo",
+   "fonte": {
+    "nome": "Página fictícia",
+    "url": "https://online.exemplo.invalid/",
+    "data": "29/10/2026"
+   },
+   "confirmado": true,
+   "materia": "exemplo-evento"
+  },
+  {
+   "nome": "Show de exemplo (divulgação paga)",
+   "inicio": "2026-12-05",
+   "local": "Arena fictícia",
+   "cidade": "Outra Cidade",
+   "uf": "EX",
+   "patrocinado": true,
+   "fonte": {
+    "nome": "Página fictícia",
+    "url": "https://show.exemplo.invalid/",
+    "data": "29/10/2026"
+   },
+   "confirmado": false
+  },
+  {
+   "nome": "Evento que já passou (não aparece)",
+   "inicio": "2026-10-01",
+   "cidade": "Cidade de Exemplo",
+   "uf": "EX",
+   "fonte": {
+    "nome": "Página fictícia",
+    "url": "https://antigo.exemplo.invalid/",
+    "data": "01/10/2026"
+   }
+  }
+ ]
+}

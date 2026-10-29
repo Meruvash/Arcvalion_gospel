@@ -1,0 +1,11 @@
+{
+ "slug": "expediente",
+ "titulo": "Expediente",
+ "descricao": "Quem faz o {nome}: responsável editorial, equipe e contatos.",
+ "lide": "Quem faz o {nome} e como falar com a redação.",
+ "secoes": [
+  {"titulo": "Redação", "gerado": "equipe"},
+  {"titulo": "Contatos", "lista": ["Redação e leitores: {email_contato}", "Correções: {email_correcoes}", "Comercial e publicidade: {email_comercial}"]},
+  {"titulo": "Empresa", "paragrafos": ["{razao_social}. CNPJ: {cnpj}."]}
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "slug": "newsletter",
+ "titulo": "Newsletter",
+ "descricao": "Receba por e-mail as principais notícias do {nome}, com fontes e contexto.",
+ "lide": "As principais notícias, com fontes e contexto, no seu e-mail. Escolha as editorias que quer receber.",
+ "secoes": [
+  {"titulo": "Inscreva-se", "formulario": "newsletter"},
+  {"titulo": "Como usamos o seu e-mail", "paragrafos": ["Usamos o seu e-mail só para enviar a newsletter e as editorias escolhidas. Não vendemos nem cedemos a sua inscrição. Você pode cancelar a qualquer momento pelo link no fim de cada mensagem ou escrevendo para {email_contato}. Mais detalhes na [Política de Privacidade](/privacidade/)."]}
+ ]
+}

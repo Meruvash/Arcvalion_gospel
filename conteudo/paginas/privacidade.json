@@ -1,0 +1,23 @@
+{
+ "slug": "privacidade",
+ "titulo": "Política de Privacidade",
+ "descricao": "Como o {nome} trata dados pessoais, conforme a Lei Geral de Proteção de Dados (LGPD).",
+ "lide": "Como tratamos os seus dados pessoais, conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018).",
+ "atualizado_em": "2026-10-29",
+ "secoes": [
+  {"titulo": "Quem é o controlador", "paragrafos": ["{razao_social}, CNPJ {cnpj}, responsável pelo {nome} ({url}). Contato para assuntos de privacidade e do encarregado de dados: {email_contato}."]},
+  {"titulo": "Que dados tratamos e para quê", "lista": [
+   "Navegação: dados técnicos agregados de visitas (páginas vistas, origem, tipo de aparelho), para saber o que é lido e melhorar o portal. Base legal: legítimo interesse (art. 7º, IX). Ferramentas que usam cookies, como o Google Analytics, só funcionam com o seu consentimento (art. 7º, I).",
+   "Newsletter e cadastro de leitores: e-mail, nome (opcional) e editorias escolhidas, para enviar as mensagens. Base legal: consentimento, registrado com data e com o texto aceito.",
+   "Formulários de contato, correção, eventos e comercial: nome, e-mail e a mensagem, para responder ao pedido. Base legal: consentimento e procedimentos preliminares a contrato, quando comercial.",
+   "Comentários: nome, texto e e-mail opcional (nunca publicado), para publicar e moderar. Não guardamos o endereço IP; usamos uma assinatura dele que muda todo dia, só para limitar abusos.",
+   "Publicidade: com o seu consentimento, anúncios do Google podem usar cookies. Sem consentimento, os espaços mostram apenas anúncios próprios, sem cookies de publicidade."
+  ]},
+  {"titulo": "Com quem compartilhamos", "paragrafos": ["Usamos fornecedores que tratam dados em nosso nome, como a hospedagem do site e do serviço de formulários e comentários, e, quando você permite, o Google (medição e anúncios). Não vendemos dados pessoais."]},
+  {"titulo": "Por quanto tempo guardamos", "paragrafos": ["Inscrições na newsletter: até você cancelar. Mensagens de contato: pelo tempo necessário para responder e por até 2 anos. Comentários: enquanto estiverem publicados ou até você pedir a exclusão. Métricas de publicidade são guardadas só de forma agregada, sem identificar pessoas."]},
+  {"titulo": "Seus direitos", "paragrafos": ["Você pode pedir confirmação do tratamento, acesso, correção, anonimização, portabilidade, eliminação dos dados tratados com consentimento, informação sobre compartilhamento e revogação do consentimento (art. 18 da LGPD), escrevendo para {email_contato}. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD)."]},
+  {"titulo": "Cookies e preferências", "paragrafos": ["O portal funciona sem cookies de terceiros. Quando houver medição com cookies ou anúncios do Google, pedimos a sua escolha antes de carregar qualquer um deles, e você pode mudar de ideia a qualquer momento em \"Preferências de privacidade\", no rodapé."]},
+  {"titulo": "Crianças e adolescentes", "paragrafos": ["Os formulários não se destinam a menores de 18 anos sem autorização de um responsável."]},
+  {"titulo": "Mudanças", "paragrafos": ["Quando esta política mudar, a data no topo da página será atualizada."]}
+ ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "portal-cristao-ferramentas",
+  "private": true,
+  "description": "Ferramentas de build (cartões de prévia, peças da marca) e testes de UX. O site em si não usa Node.",
+  "scripts": {
+    "test:worker": "node --test tests/worker.test.mjs",
+    "ux": "node tools/ux/validar.mjs && node tools/ux/fluxos.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.48.2"
+  }
+}

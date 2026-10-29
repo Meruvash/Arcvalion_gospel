@@ -1,0 +1,40 @@
+# Deploy no GitHub Pages. SÓ MANUAL (workflow_dispatch) até a aprovação do lançamento: nenhum push publica sozinho.
+# Pré-requisitos (docs/DEPLOY.md): Settings > Pages > Source = GitHub Actions; domínio em config/portal.json;
+# responsável editorial, e-mail e pelo menos uma pessoa revisora configurados (o build --producao recusa sem isso).
+name: Deploy
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - run: pip install -r requirements.txt
+      - run: npm install --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium
+      - run: python3 -m unittest discover -s tests && python3 tools/checar_isolamento.py
+      - run: python3 tools/build.py --producao && python3 tools/checar_seo.py publico
+      - name: Domínio próprio (CNAME)
+        run: python3 -c "import json;u=json.load(open('config/portal.json'))['url'];open('publico/CNAME','w').write(u.removeprefix('https://').rstrip('/'))"
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: publico}
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.d.outputs.page_url }}
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4

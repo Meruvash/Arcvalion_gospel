@@ -1,0 +1,13 @@
+{
+ "slug": "termos",
+ "titulo": "Termos de uso",
+ "descricao": "Condições de uso do {nome} e do seu conteúdo.",
+ "lide": "Condições para usar o {nome} e reproduzir o nosso conteúdo.",
+ "atualizado_em": "2026-10-29",
+ "secoes": [
+  {"titulo": "Conteúdo", "paragrafos": ["Textos, fotos próprias e arte do {nome} são protegidos por direitos autorais. Você pode compartilhar o link de qualquer matéria e citar trechos curtos com crédito e link para a página original. Reprodução integral depende de autorização por escrito.", "Fotos de terceiros seguem a licença indicada no crédito de cada imagem."]},
+  {"titulo": "Comentários e envios", "paragrafos": ["Quem comenta ou envia mensagens responde pelo que escreve. Comentários passam por moderação e podem não ser publicados se desrespeitarem a [política editorial](/politica-editorial/#comentarios)."]},
+  {"titulo": "Links externos", "paragrafos": ["Indicamos fontes e sites de terceiros para o leitor conferir a informação. Não respondemos pelo conteúdo desses sites."]},
+  {"titulo": "Contato", "paragrafos": ["Dúvidas sobre estes termos: {email_contato}."]}
+ ]
+}

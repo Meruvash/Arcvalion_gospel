@@ -1,0 +1,4 @@
+{
+ "_ajuda": "Pessoas reais da redação. Só quem está aqui com \"revisor\": true pode aprovar a publicação (tools/publicar.py --revisor <slug>). Matéria de opinião precisa de autor desta lista. Não cadastre nomes fictícios: a página de autor e os dados estruturados (schema.org Person) mostram estes dados ao público e aos buscadores. Modelo de item: {\"slug\": \"maria-silva\", \"nome\": \"Maria Silva\", \"cargo\": \"Editora-chefe\", \"bio\": \"Jornalista formada pela ..., cobre ... desde ...\", \"revisor\": true, \"redes\": [\"https://...\"]}",
+ "pessoas": []
+}

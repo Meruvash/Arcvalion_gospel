@@ -1,0 +1,20 @@
+# Serviço de interações do portal: recursos PRÓPRIOS (Worker, banco D1, Turnstile e domínio), nada compartilhado.
+# Passo a passo em docs/DEPLOY.md. Os valores PREENCHER_* só existem depois de criar os recursos na conta Cloudflare do portal.
+name = "portal-cristao-interacoes"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+
+[vars]
+ORIGEM = "https://PREENCHER_DOMINIO"     # domínio do site, igual ao url de config/portal.json
+NOME = "Portal Cristão"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "portal-cristao-interacoes"
+database_id = "PREENCHER_DEPOIS_DE_wrangler_d1_create"
+
+# Descomente depois de configurar o domínio na Cloudflare:
+# [[routes]]
+# pattern = "api.PREENCHER_DOMINIO"
+# custom_domain = true

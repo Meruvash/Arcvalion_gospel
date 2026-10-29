@@ -1,0 +1,14 @@
+# saída do build (o site é gerado no CI; nunca versionar)
+/publico/
+/publico-*/
+# cache de imagens, cartões de prévia e pauta
+.cache/
+__pycache__/
+node_modules/
+# credenciais nunca entram no repositório
+.env
+.env.*
+*.pem
+*.key
+.dev.vars
+worker/.wrangler/

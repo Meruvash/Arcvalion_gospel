@@ -1,0 +1,50 @@
+{
+ "slug": "exemplo-opiniao",
+ "status": "publicado",
+ "tipo": "opiniao",
+ "editoria": "politica-e-sociedade",
+ "titulo": "Exemplo de artigo de opinião assinado por colaborador",
+ "linha_fina": "Linha fina de exemplo, com o resumo da matéria em uma ou duas frases curtas para testar o layout.",
+ "corpo": [
+  "Este parágrafo é texto de demonstração, escrito só para conferir o layout do portal: tamanho de linha, espaçamento, quebra de títulos e comportamento no celular. Ele não descreve nenhum fato real, pessoa real ou instituição real.",
+  {
+   "intertitulo": "Intertítulo de exemplo"
+  },
+  "Este parágrafo é texto de demonstração, escrito só para conferir o layout do portal: tamanho de linha, espaçamento, quebra de títulos e comportamento no celular. Ele não descreve nenhum fato real, pessoa real ou instituição real.",
+  "Este parágrafo é texto de demonstração, escrito só para conferir o layout do portal: tamanho de linha, espaçamento, quebra de títulos e comportamento no celular. Ele não descreve nenhum fato real, pessoa real ou instituição real.",
+  "Este parágrafo é texto de demonstração, escrito só para conferir o layout do portal: tamanho de linha, espaçamento, quebra de títulos e comportamento no celular. Ele não descreve nenhum fato real, pessoa real ou instituição real."
+ ],
+ "fontes": [
+  {
+   "nome": "Fonte de exemplo 1 (domínio fictício)",
+   "url": "https://fonte-1.exemplo.invalid/documento",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Fonte de exemplo 2 (domínio fictício)",
+   "url": "https://fonte-2.exemplo.invalid/documento",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "autor": "",
+ "tags": [
+  "exemplo",
+  "politica"
+ ],
+ "imagem": null,
+ "ia": {
+  "usada": true,
+  "uso": "demonstração do quadro de transparência"
+ },
+ "revisao": {
+  "revisor": "revisor-exemplo",
+  "data": "2026-10-28T12:00:00-03:00"
+ },
+ "publicado_em": "2026-10-28T12:00:00-03:00",
+ "colaborador": {
+  "nome": "Colaborador de Exemplo",
+  "descricao": "personagem fictício usado para testar o layout de opinião"
+ }
+}
