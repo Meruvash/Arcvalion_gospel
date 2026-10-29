@@ -1,11 +1,12 @@
 {
- "_ajuda": "Feeds da rodada 1 da rotina de notícias (tools/editorial/coletar.py), testados em 29/10/2026. 'filtro': 'temas' deixa passar só itens dos temas do portal (campo temas); um regex próprio também vale. 'tipo' primaria = a própria instituição fala; secundaria = outro veículo (serve de pista: a notícia precisa da fonte primária). Fontes que proíbem robôs ficam só para leitura pontual.",
+ "_ajuda": "Feeds da rodada 1 da rotina de notícias (tools/editorial/coletar.py), testados em 29/10/2026. 'filtro': 'temas' deixa passar só itens dos temas do portal (campo temas); um regex próprio também vale. 'tipo' primaria = a própria instituição fala; secundaria = outro veículo (serve de pista: a notícia precisa da fonte primária). Fontes que proíbem robôs ficam só para leitura pontual. 'nivel' A = fonte de referência, B = pista (ver docs/FONTES.md).",
  "feeds": [
   {
    "nome": "Agência Senado",
    "url": "https://www12.senado.leg.br/noticias/rss",
    "editoria": "politica-e-sociedade",
    "tipo": "primaria",
+   "nivel": "A",
    "filtro": "temas"
   },
   {
@@ -13,6 +14,7 @@
    "url": "https://www.camara.leg.br/noticias/rss/ultimas-noticias",
    "editoria": "politica-e-sociedade",
    "tipo": "primaria",
+   "nivel": "A",
    "filtro": "temas"
   },
   {
@@ -20,6 +22,7 @@
    "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/RSS",
    "editoria": "politica-e-sociedade",
    "tipo": "primaria",
+   "nivel": "A",
    "filtro": "temas"
   },
   {
@@ -27,6 +30,7 @@
    "url": "https://www.bcb.gov.br/api/feed/sitebcb/sitefeeds/noticias",
    "editoria": "economia-e-negocios",
    "tipo": "primaria",
+   "nivel": "A",
    "filtro": "família|famílias|endividamento|juros|inflação|crédito|Pix"
   },
   {
@@ -34,76 +38,314 @@
    "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
    "editoria": "politica-e-sociedade",
    "tipo": "secundaria",
+   "nivel": "B",
    "filtro": "temas"
-  },
-  {
-   "nome": "Aliança Cristã Evangélica Brasileira",
-   "url": "https://aliancaevangelica.org.br/feed/",
-   "editoria": "noticias-gospel",
-   "tipo": "primaria"
-  },
-  {
-   "nome": "CGADB (Assembleias de Deus)",
-   "url": "https://www.cgadb.org.br/feed/",
-   "editoria": "noticias-gospel",
-   "tipo": "primaria"
   },
   {
    "nome": "CNBB",
    "url": "https://www.cnbb.org.br/feed/",
    "editoria": "noticias-gospel",
-   "tipo": "primaria"
-  },
-  {
-   "nome": "Vatican News (português)",
-   "url": "https://www.vaticannews.va/pt.rss.xml",
-   "editoria": "noticias-gospel",
    "tipo": "primaria",
-   "filtro": "Brasil|brasileir|perseguição|liberdade religiosa|família"
-  },
-  {
-   "nome": "Gospel Prime",
-   "url": "https://www.gospelprime.com.br/feed/",
-   "editoria": "noticias-gospel",
-   "tipo": "secundaria"
-  },
-  {
-   "nome": "Gospel Mais",
-   "url": "https://noticias.gospelmais.com.br/feed",
-   "editoria": "noticias-gospel",
-   "tipo": "secundaria"
-  },
-  {
-   "nome": "Comunhão",
-   "url": "https://comunhao.com.br/feed/",
-   "editoria": "noticias-gospel",
-   "tipo": "secundaria"
-  },
-  {
-   "nome": "Pleno News",
-   "url": "https://pleno.news/feed",
-   "editoria": "politica-e-sociedade",
-   "tipo": "secundaria",
-   "filtro": "temas"
-  },
-  {
-   "nome": "Christian Post",
-   "url": "https://www.christianpost.com/rss",
-   "editoria": "noticias-gospel",
-   "tipo": "secundaria"
-  },
-  {
-   "nome": "Christianity Today",
-   "url": "https://www.christianitytoday.com/feed/",
-   "editoria": "noticias-gospel",
-   "tipo": "secundaria"
+   "nivel": "A"
   },
   {
    "nome": "Pew Research Center",
    "url": "https://www.pewresearch.org/feed/",
    "editoria": "noticias-gospel",
    "tipo": "primaria",
-   "filtro": "relig|christian|evangel|church|faith"
+   "filtro": "relig|christian|evangel|church|faith",
+   "nivel": "A"
+  },
+  {
+   "nome": "Lifeway Research",
+   "url": "https://news.lifeway.com/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria",
+   "nivel": "A"
+  },
+  {
+   "nome": "Christianity Today",
+   "url": "https://www.christianitytoday.com/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Pleno News",
+   "url": "https://pleno.news/feed",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "filtro": "igreja|evangélic|cristã|cristão|pastor|gospel|católic|religios|perseguição|missionári|bíblia",
+   "nivel": "B"
+  },
+  {
+   "nome": "Guiame",
+   "url": "https://guiame.com.br/rss",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Canção Nova Notícias",
+   "url": "https://noticias.cancaonova.com/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Aliança Cristã Evangélica Brasileira",
+   "url": "https://aliancaevangelica.org.br/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria",
+   "nivel": "A"
+  },
+  {
+   "nome": "Notícias Adventistas",
+   "url": "https://noticias.adventistas.org/pt/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria",
+   "nivel": "A"
+  },
+  {
+   "nome": "ACN Brasil (Ajuda à Igreja que Sofre)",
+   "url": "https://www.acn.org.br/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "STF Notícias",
+   "url": "https://noticias.stf.jus.br/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "primaria",
+   "nivel": "A"
+  },
+  {
+   "nome": "Agência Brasil: Direitos Humanos",
+   "url": "https://agenciabrasil.ebc.com.br/rss/direitos-humanos/feed.xml",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "O Antagonista",
+   "url": "https://oantagonista.com.br/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Revista Crusoé",
+   "url": "https://crusoe.com.br/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Jovem Pan News",
+   "url": "https://jovempan.com.br/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "filtro": "igreja|evangélic|cristã|cristão|religios|liberdade religiosa|liberdade de expressão|família|aborto|escola|educação",
+   "nivel": "B"
+  },
+  {
+   "nome": "Poder360",
+   "url": "https://www.poder360.com.br/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "filtro": "igreja|evangélic|cristã|cristão|religios|liberdade religiosa|aborto|família|escola",
+   "nivel": "A"
+  },
+  {
+   "nome": "Veja",
+   "url": "https://veja.abril.com.br/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "filtro": "igreja|evangélic|cristã|cristão|religios|aborto|família",
+   "nivel": "B"
+  },
+  {
+   "nome": "Instituto Mises Brasil",
+   "url": "https://mises.org.br/feed/",
+   "editoria": "economia-e-negocios",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "The Christian Post",
+   "url": "https://www.christianpost.com/rss",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Christian Headlines (Crosswalk)",
+   "url": "https://www.crosswalk.com/headlines/rss.xml",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "The Pillar",
+   "url": "https://www.pillarcatholic.com/feed",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "A"
+  },
+  {
+   "nome": "National Catholic Register",
+   "url": "https://www.ncregister.com/feeds/general-news.xml",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "WORLD",
+   "url": "https://wng.org/feeds/rss/magazine.rss",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "International Christian Concern",
+   "url": "https://persecution.org/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Christian Daily International",
+   "url": "https://www.christiandaily.com/rss.xml",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Forum 18",
+   "url": "https://www.forum18.org/syndication/forum18.xml",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "A"
+  },
+  {
+   "nome": "USCIRF",
+   "url": "https://www.uscirf.gov/rss.xml",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria",
+   "nivel": "A"
+  },
+  {
+   "nome": "ERLC (Southern Baptist Convention)",
+   "url": "https://erlc.com/feed/",
+   "editoria": "familia-e-valores",
+   "tipo": "primaria",
+   "nivel": "A"
+  },
+  {
+   "nome": "The Gospel Coalition",
+   "url": "https://www.thegospelcoalition.org/feed/",
+   "editoria": "fe-e-biblia",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "First Things",
+   "url": "https://firstthings.com/feed/",
+   "editoria": "fe-e-biblia",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Relevant",
+   "url": "https://relevantmagazine.com/feed/",
+   "editoria": "musica-e-cultura",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Fox News",
+   "url": "https://moxie.foxnews.com/google-publisher/latest.xml",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|persecut|bible",
+   "nivel": "B"
+  },
+  {
+   "nome": "National Review",
+   "url": "https://www.nationalreview.com/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "filtro": "church|christian|evangelical|catholic|faith|relig|abortion|persecut",
+   "nivel": "B"
+  },
+  {
+   "nome": "Washington Examiner",
+   "url": "https://www.washingtonexaminer.com/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "filtro": "church|christian|evangelical|catholic|faith|relig|abortion|persecut",
+   "nivel": "B"
+  },
+  {
+   "nome": "The Dispatch",
+   "url": "https://thedispatch.com/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "filtro": "church|christian|evangelical|catholic|faith|relig|abortion",
+   "nivel": "B"
+  },
+  {
+   "nome": "The American Conservative",
+   "url": "https://www.theamericanconservative.com/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "filtro": "church|christian|catholic|faith|relig",
+   "nivel": "B"
+  },
+  {
+   "nome": "Brussels Signal",
+   "url": "https://brusselssignal.eu/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "filtro": "church|christian|catholic|faith|relig|abortion|family|persecut",
+   "nivel": "B"
+  },
+  {
+   "nome": "CGADB (Assembleias de Deus)",
+   "url": "https://www.cgadb.org.br/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria",
+   "nivel": "A"
+  },
+  {
+   "nome": "Vatican News (português)",
+   "url": "https://www.vaticannews.va/pt.rss.xml",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria",
+   "filtro": "Brasil|brasileir|perseguição|liberdade religiosa|família",
+   "nivel": "A"
+  },
+  {
+   "nome": "Gospel Prime",
+   "url": "https://www.gospelprime.com.br/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Gospel Mais",
+   "url": "https://noticias.gospelmais.com.br/feed",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
+  },
+  {
+   "nome": "Comunhão",
+   "url": "https://comunhao.com.br/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "B"
   }
  ],
  "temas": "igreja|igrejas|evangélic|cristã|cristão|religios|liberdade religiosa|liberdade de expressão|família|famílias|criança|infância|adolesc|educação|escola|aborto|casamento|missões|missionári|pastor|bíblia|fé\\b|culto|templo|perseguição|gospel"

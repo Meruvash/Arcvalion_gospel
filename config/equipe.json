@@ -1,4 +1,13 @@
 {
  "_ajuda": "Pessoas reais da redação. Só quem está aqui com \"revisor\": true pode aprovar a publicação (tools/publicar.py --revisor <slug>). Matéria de opinião precisa de autor desta lista. Não cadastre nomes fictícios: a página de autor e os dados estruturados (schema.org Person) mostram estes dados ao público e aos buscadores. Modelo de item: {\"slug\": \"maria-silva\", \"nome\": \"Maria Silva\", \"cargo\": \"Editora-chefe\", \"bio\": \"Jornalista formada pela ..., cobre ... desde ...\", \"revisor\": true, \"redes\": [\"https://...\"]}",
- "pessoas": []
+ "pessoas": [
+  {
+   "slug": "anderson-pelicioni-de-castro",
+   "nome": "Anderson Pelicioni de Castro",
+   "cargo": "Editor responsável",
+   "bio": "Advogado. É o responsável editorial do portal: lê e confere pessoalmente o que é publicado e aprova cada matéria antes de ir ao ar.",
+   "revisor": true,
+   "redes": []
+  }
+ ]
 }

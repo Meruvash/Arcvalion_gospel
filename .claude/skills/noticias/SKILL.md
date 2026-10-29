@@ -41,7 +41,7 @@ Uma nota por arquivo em `conteudo/noticias/<AAAA-MM-DD>-<assunto>.json`, no **pa
 
 Regras de texto (as do Elite, adaptadas): fato tem fonte, opinião tem dono; o tom opinativo só em Por que importa, Interessa a você se…, Pense duas vezes se… e Nossa opinião; título, lide, números, contexto e No Brasil são neutros. Em política, relate cada lado com a sua fonte; a perspectiva cristã e conservadora aparece na opinião e na escolha da pauta, nunca na distorção do fato. Nada de adjetivo de torcida (detonou, lacrou, humilhou). Citação literal só de frase que você leu na fonte. Loja de varejo não aparece no texto.
 
-**Foto é obrigatória** (skill `imagens`): `python3 tools/imagens/baixar.py <url> <slug>.jpg --credito "..." --pagina <url>`. Sem foto com licença, troque de notícia. Nunca gere imagem por IA.
+**Foto é obrigatória** (skill `imagens`): `python3 tools/fotos.py buscar <slug>` procura nas páginas das `fontes` da nota (e em `--url`, `--tema` ou `--commons`), monta `.cache/fotos/<slug>/folha.jpg`; abra a folha com Read, escolha pelo que a foto mostra e grave com `python3 tools/fotos.py aprovar <slug> <n> --alt "..."`. Candidata "a confirmar" ou bloqueada fica para a redação. Com o link exato de uma foto de licença conhecida, `python3 tools/imagens/baixar.py <url> <slug>.jpg --credito "..." --pagina <url>`. Sem foto com licença, troque de notícia. Nunca gere imagem por IA. Regras em `docs/FOTOS.md`.
 
 `python3 tools/noticias/checar_noticia.py conteudo/noticias/<arquivo>.json` precisa passar (os avisos de vício de texto pedem reescrita com um fato concreto).
 

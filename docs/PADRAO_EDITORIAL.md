@@ -42,5 +42,7 @@ Esqueleto da resenha do Elite: `titulo`, `passagem`, `sigla`, `livro`, `testamen
 `comparacoes`, `versiculos`, `veredito` (Para guardar), `ficha`, `fontes` (3 ou mais `[nome, link, uso]`), `consulta`,
 `legenda` (Instagram), `imagem` (domínio público ou licença livre), `ia`, `status`.
 
+Fotos: fontes, licenças e o robô `tools/fotos.py` em `docs/FOTOS.md`.
+
 Interpretação sempre com o nome de quem a defende; divergência entre tradições cristãs aparece como divergência;
 tradução da Bíblia sempre indicada.

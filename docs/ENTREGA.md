@@ -49,10 +49,10 @@ Geek, calendário da Ludopedia, guias e prêmios.
 ## 4. Estrutura do repositório
 
 ```
-config/          portal.json (identidade), editorias.json, equipe.json, anuncios.json, fontes.json
+config/          portal.json (identidade), editorias.json, equipe.json, anuncios.json, fontes.json, imagens.json
 conteudo/        artigos/*.json, imagens/, paginas/*.json (institucionais), agenda.json
 tools/           build.py, portal.py, layout.py, estilo.py, seo.py, imagens.py, anuncios.py, og.py,
-                 novo.py, publicar.py, checar_seo.py, checar_isolamento.py, indexnow.py, gerar_marca.py,
+                 novo.py, publicar.py, fotos.py, checar_seo.py, checar_isolamento.py, indexnow.py, gerar_marca.py,
                  editorial/ (checar.py, vicios.py, coletar.py), ux/ (validar.mjs, fluxos.mjs)
 assets/          fontes/ (OFL), marca/, js/ (busca, interações, formulários, privacidade, anúncios)
 worker/          src/index.js, schema.sql, wrangler.toml

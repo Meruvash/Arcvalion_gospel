@@ -20,6 +20,8 @@ python3 -m unittest discover -s tests && node --test tests/worker.test.mjs
 | `docs/ENTREGA.md` | resumo da entrega, funcionalidades, checklists de SEO e segurança, pendências |
 | `docs/PADRAO_EDITORIAL.md` | premissas editoriais, tipos de conteúdo e formato das matérias |
 | `docs/FLUXO_EDITORIAL.md` | do rascunho à publicação com revisão humana; correções |
+| `docs/FOTOS.md` | fontes de foto com licença conferida e o robô `tools/fotos.py` |
+| `docs/FONTES.md` | mapa de sites cristãos e conservadores para pauta, com feeds testados |
 | `docs/DEPLOY.md` | execução local, deploy, domínio, Worker, variáveis de ambiente |
 | `docs/ISOLAMENTO.md` | auditoria de separação em relação ao projeto de origem |
 | `docs/AUDITORIA_ELITE_BOARDGAMERS.md` | auditoria da arquitetura de origem |

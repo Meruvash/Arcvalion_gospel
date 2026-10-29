@@ -10,6 +10,7 @@ import html
 import json
 import re
 import sys
+import urllib.error
 import urllib.request
 import urllib.robotparser
 from datetime import datetime, timedelta, timezone
@@ -29,11 +30,18 @@ def permitido(url):
     host = urlparse(url)
     base = f"{host.scheme}://{host.netloc}"
     if base not in _ROBOS:
-        # lê o robots.txt com a identificação do robô (o leitor padrão do Python usa outra e alguns sites a bloqueiam)
-        rp = urllib.robotparser.RobotFileParser()
+        # lido com o nosso User-Agent: o rp.read() padrão se apresenta como Python-urllib, que muitos CDNs barram com 403,
+        # e o robotparser trata 403 como "proíbe tudo"
+        rp = urllib.robotparser.RobotFileParser(base + "/robots.txt")
         try:
-            with urllib.request.urlopen(urllib.request.Request(base + "/robots.txt", headers={"User-Agent": UA}), timeout=30) as r:
-                rp.parse(r.read().decode("utf-8", "ignore").splitlines())
+            rp.parse(baixar(base + "/robots.txt").decode("utf-8", "replace").splitlines())
+        except urllib.error.HTTPError as ex:
+            if ex.code in (401, 403):
+                rp.disallow_all = True  # barrou o nosso robô: é um não
+            elif ex.code >= 500:
+                rp.disallow_all = True  # servidor fora do ar: não entra (RFC 9309)
+            else:
+                rp.allow_all = True  # robots.txt ausente: tudo liberado
         except Exception:
             rp = None  # robots.txt inacessível: segue a regra geral (permitido), como os buscadores
         _ROBOS[base] = rp

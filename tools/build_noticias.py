@@ -302,11 +302,12 @@ def build_nota(n, ns, previa=False):
 </div></main>
 {rodape(pre, barra_leitura(texto_cp, url))}"""
     imgs = []
-    if im:
+    if im and not im.get("sem_derivacao"):  # licença sem derivação: nada de montar a versão 16:9 com fundo desfocado
         try:
             imgs.append(f"{portal.SITE}/{imagens.larga(im['arquivo'])}")
         except Exception as ex:
             print(f"  aviso: sem versão larga para {n['slug']} ({ex.__class__.__name__})")
+    if im:
         orig = f"{portal.SITE}/{imagens.publicar(im['arquivo'])}"
         if orig not in imgs:
             imgs.append(orig)
