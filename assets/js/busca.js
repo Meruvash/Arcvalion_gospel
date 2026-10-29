@@ -1,28 +1,29 @@
 // Busca do site: diálogo aberto pela lupa do cabeçalho, por "/" ou Ctrl+K (o disparador fica em tools/layout.py).
 // Só é baixado quando a busca abre; o índice (busca.json, gerado por tools/busca.py) vem junto.
 (() => {
-  const GRUPOS = [["n", "Notícias"], ["e", "Editorias"], ["p", "Autores"]];
+  const GRUPOS = [["n", "Notícias"], ["r", "Estudos bíblicos"], ["l", "Livros da Bíblia"]];
   const POR_GRUPO = 5;
   const norm = t => " " + t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
   const esc = t => t.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
   let pre = "", indice = null, carga = null, dlg, q, lista, status, volta, ativo = -1, opcoes = [], abertos = new Set();
 
   const css = `
-.busca-dlg{border:1px solid #e3e0d8;border-radius:14px;padding:0;margin:8vh auto auto;width:min(640px,calc(100% - 24px));max-height:84vh;background:#fff;color:#16202e;font:16px/1.45 "Public Sans",system-ui,sans-serif;box-shadow:0 20px 60px rgba(0,0,0,.3)}
-.busca-dlg::backdrop{background:rgba(18,41,74,.55)}
-.busca-dlg .bq-topo{display:flex;align-items:center;gap:8px;padding:10px 10px 10px 14px;border-bottom:1px solid #e3e0d8}
+.busca-dlg{border:1px solid #1e3a64;border-radius:14px;padding:0;margin:8vh auto auto;width:min(640px,calc(100% - 24px));max-height:84vh;background:#0f2242;color:#eceff3;font:16px/1.45 "Public Sans",system-ui,sans-serif;box-shadow:0 20px 60px rgba(5,14,30,.75)}
+.busca-dlg::backdrop{background:rgba(5,14,30,.75)}
+.busca-dlg .bq-topo{display:flex;align-items:center;gap:8px;padding:10px 10px 10px 14px;border-bottom:1px solid #1e3a64}
 .busca-dlg input{flex:1;min-width:0;font:inherit;font-size:16px;padding:10px 6px;border:0;background:transparent;color:inherit;outline:none}
-.busca-dlg input::placeholder{color:#5b6573}
+.busca-dlg input::placeholder{color:#8b93a0}
 .busca-dlg input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none}
-.busca-dlg .bq-x{flex:none;min-width:44px;min-height:44px;border:1px solid #c9c5ba;border-radius:10px;background:none;color:inherit;font:inherit;font-size:.85rem;font-weight:700;cursor:pointer}
-.busca-dlg .bq-x:hover{border-color:#12294a}
+.busca-dlg .bq-x{flex:none;min-width:44px;min-height:44px;border:1px solid #2e4d7a;border-radius:10px;background:none;color:inherit;font:inherit;font-size:.85rem;font-weight:700;cursor:pointer}
+.busca-dlg .bq-x:hover{border-color:#e3b23c}
 .busca-dlg .bq-res{overflow-y:auto;max-height:calc(84vh - 70px);padding:6px 6px 10px;overscroll-behavior:contain}
-.busca-dlg .bq-st{padding:14px 10px;color:#5b6573;font-size:.92rem}.busca-dlg .bq-st b{color:#16202e}
-.busca-dlg .bq-g{font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#8a6417;padding:12px 10px 4px}
+.busca-dlg .bq-st{padding:14px 10px;color:#a1a9b5;font-size:.92rem}.busca-dlg .bq-st b{color:#eceff3}
+.busca-dlg .bq-g{font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#e3b23c;padding:12px 10px 4px}
 .busca-dlg [role=option]{display:grid;gap:1px;padding:9px 10px;border-radius:8px;cursor:pointer;border-left:3px solid transparent;min-height:44px}
-.busca-dlg [role=option] b{font-weight:700}.busca-dlg [role=option] span{font-size:.84rem;color:#5b6573}
-.busca-dlg [role=option][aria-selected=true],.busca-dlg [role=option]:hover{background:#f1efe9;border-left-color:#12294a}
-.busca-dlg .bq-mais{color:#1d4f91;font-weight:700;font-size:.9rem}
+.busca-dlg [role=option] b{font-weight:700}.busca-dlg [role=option] span{font-size:.84rem;color:#a1a9b5}
+.busca-dlg [role=option] i{font-style:normal;font-size:.72rem;font-weight:800;color:#5fd18f;margin-left:6px}
+.busca-dlg [role=option][aria-selected=true],.busca-dlg [role=option]:hover{background:#17325a;border-left-color:#e3b23c}
+.busca-dlg .bq-mais{color:#8cb8ff;font-weight:700;font-size:.9rem}
 .busca-dlg .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:599px){.busca-dlg{margin:0;width:100%;max-width:none;max-height:100dvh;height:100dvh;border-radius:0;border:0}.busca-dlg .bq-res{max-height:calc(100dvh - 70px)}}`;
 
@@ -33,8 +34,8 @@
     dlg.setAttribute("aria-modal", "true");
     dlg.setAttribute("aria-labelledby", "bq-titulo");
     dlg.innerHTML = `<h2 id="bq-titulo" class="sr">Buscar no site</h2>
-<div class="bq-topo"><label for="bq-q" class="sr">Buscar notícias, editorias e autores</label>
-<input id="bq-q" type="search" role="combobox" aria-expanded="false" aria-controls="bq-lista" aria-autocomplete="list" autocomplete="off" enterkeyhint="go" placeholder="Assunto, nome ou palavra-chave">
+<div class="bq-topo"><label for="bq-q" class="sr">Buscar notícias, estudos bíblicos e livros da Bíblia</label>
+<input id="bq-q" type="search" role="combobox" aria-expanded="false" aria-controls="bq-lista" aria-autocomplete="list" autocomplete="off" enterkeyhint="go" placeholder="Assunto, estudo ou livro da Bíblia">
 <button type="button" class="bq-x">Fechar</button></div>
 <div class="bq-res"><p class="bq-st" role="status"></p><div id="bq-lista" role="listbox" aria-label="Resultados"></div></div>`;
     document.body.append(dlg);
@@ -59,7 +60,7 @@
     lista.innerHTML = ""; opcoes = []; ativo = -1; q.removeAttribute("aria-activedescendant");
     if (!indice) { status.textContent = "Carregando a busca…"; return; }
     if (norm(texto).length < 3) {
-      status.textContent = "Digite pelo menos três letras: assunto, nome de pessoa, igreja ou palavra-chave.";
+      status.textContent = "Busque por um assunto, um estudo bíblico ou o nome de um livro da Bíblia.";
       q.setAttribute("aria-expanded", "false"); return;
     }
     const frase = norm(texto);
@@ -68,7 +69,7 @@
     }));
     let html = "", total = 0;
     for (const [t, rotulo] of GRUPOS) {
-      const g = achados.filter(a => a.x.t === t).sort((a, b) => a.p - b.p || a.i - b.i);
+      const g = achados.filter(a => a.x.t === t).sort((a, b) => a.p - b.p || !!b.x.r - !!a.x.r || a.i - b.i);
       if (!g.length) continue;
       total += g.length;
       const mostra = abertos.has(t) ? g : g.slice(0, POR_GRUPO);
@@ -86,7 +87,7 @@
     lista.innerHTML = html;
     q.setAttribute("aria-expanded", total ? "true" : "false");
     status.innerHTML = total ? `${total} resultado${total > 1 ? "s" : ""}. Use as setas e Enter.`
-      : `Nada encontrado para <b>${esc(texto)}</b>. Tente uma palavra só, ou um sinônimo.`;
+      : `Nada encontrado para <b>${esc(texto)}</b>. Tente uma palavra só (por exemplo, “salmos”).`;
   }
 
   function marca(i) {

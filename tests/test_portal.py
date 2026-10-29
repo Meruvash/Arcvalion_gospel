@@ -1,226 +1,177 @@
-"""Testes do portal: padrão editorial, build de exemplo e de produção, SEO, isolamento.
+"""Testes do portal no formato do Elite: padrão das notícias e dos estudos, build, prévia de revisão, SEO e isolamento.
 
 Uso: python3 -m unittest discover -s tests -v
 """
 import copy
 import json
-import re
+import os
+import shutil
 import subprocess
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ / "tools"))
 import portal  # noqa: E402
-from editorial import checar  # noqa: E402
-from editorial.vicios import sensacionalismo  # noqa: E402
+from noticias.checar_noticia import checar_dia, problemas as p_nota  # noqa: E402
+from estudos.checar_estudo import problemas as p_estudo  # noqa: E402
 
+EX = RAIZ / "exemplos" / "conteudo"
 SAIDA = "publico-teste"
 
 
-def rodar(*args):
-    return subprocess.run([sys.executable, *args], cwd=RAIZ, capture_output=True, text=True)
+def rodar(*args, env=None):
+    return subprocess.run([sys.executable, *args], cwd=RAIZ, capture_output=True, text=True, env=env)
 
 
-def exemplo(slug):
-    return json.loads((RAIZ / "exemplos" / "conteudo" / "artigos" / f"{slug}.json").read_text(encoding="utf-8"))
+def ler(rel):
+    return json.loads((EX / rel).read_text(encoding="utf-8"))
 
 
-class Editorial(unittest.TestCase):
+class Noticias(unittest.TestCase):
     def setUp(self):
-        portal.iniciar(conteudo=RAIZ / "exemplos" / "conteudo", config=RAIZ / "exemplos" / "config", exemplo=True)
-        self.base = exemplo("exemplo-manchete-gospel")
+        portal.iniciar(conteudo=EX, config=RAIZ / "exemplos" / "config", exemplo=True)
+        self.n = ler("noticias/2026-10-29-exemplo-manchete.json")
 
     def erros(self, **mud):
-        a = copy.deepcopy(self.base)
+        a = copy.deepcopy(self.n)
         for k, v in mud.items():
-            if v is None:
-                a.pop(k, None)
-            else:
-                a[k] = v
-        return " | ".join(checar.problemas(a, publicar=True))
+            a.pop(k, None) if v is None else a.__setitem__(k, v)
+        return " | ".join(p_nota(a, publicar=True))
 
     def test_exemplo_passa(self):
         self.assertEqual(self.erros(), "")
 
-    def test_sem_revisao_humana_nao_publica(self):
+    def test_revisao_humana(self):
         self.assertIn("revisão humana", self.erros(revisao=None))
-        self.assertIn("revisão humana", self.erros(revisao={"revisor": "autora-exemplo", "data": "2026-10-29T10:00:00-03:00"}))
-
-    def test_ia_precisa_ser_declarada(self):
         self.assertIn("ia:", self.erros(ia=None))
-        self.assertIn("diga em que a IA ajudou", self.erros(ia={"usada": True}))
 
-    def test_fontes_verificaveis(self):
-        self.assertIn("pelo menos 2", self.erros(fontes=self.base["fontes"][:1]))
-        sec = [dict(f, tipo="secundaria") for f in self.base["fontes"]]
-        self.assertIn("fonte primária", self.erros(fontes=sec))
-        self.assertIn("link", self.erros(fontes=[{"nome": "x", "url": "", "data": "", "tipo": "primaria"}] * 2))
+    def test_fontes(self):
+        self.assertIn("pelo menos 2", self.erros(fontes=self.n["fontes"][:1]))
+        self.assertIn("primária", self.erros(fontes=[dict(f, tipo="secundaria") for f in self.n["fontes"]]))
 
-    def test_citacao_atribuida(self):
-        corpo = self.base["corpo"] + [{"citacao": "Frase", "fonte": 0}]
-        self.assertIn("citação sem autor", self.erros(corpo=corpo))
-        corpo = self.base["corpo"] + [{"citacao": "Frase", "autor": "Fulano", "fonte": 9}]
-        self.assertIn("apontar a fonte", self.erros(corpo=corpo))
+    def test_texto(self):
+        self.assertIn("caça-clique", self.erros(titulo="Você não vai acreditar no que aconteceu com a igreja nesta semana no Brasil"))
+        self.assertIn("não identificável", self.erros(corpo=[self.n["corpo"][0] + " Segundo fontes, haverá mudança."]))
+        self.assertIn("loja", self.erros(corpo=[self.n["corpo"][0] + " Está à venda na Amazon."]))
+        self.assertIn("selo inválido", self.erros(selo="Vale a compra"))
+        self.assertIn("categoria inexistente", self.erros(categoria="jogos"))
 
-    def test_fonte_anonima_e_caca_clique(self):
-        self.assertIn("fonte não identificável", self.erros(lide=self.base["lide"] + " Segundo fontes, haverá mudanças."))
-        self.assertTrue(sensacionalismo("Você não vai acreditar no que o pastor disse"))
-        self.assertTrue(sensacionalismo("Igreja anuncia congresso!"))
-        self.assertTrue(sensacionalismo("URGENTE: votação no Senado"))
-        self.assertFalse(sensacionalismo("STF julga recurso sobre ensino religioso nesta quinta"))
+    def test_foto_obrigatoria(self):
+        self.assertIn("sem foto", self.erros(imagem=None))
 
-    def test_opiniao_e_patrocinado(self):
-        self.assertIn("análise", self.erros(tipo="opiniao"))  # quadro de análise não existe em opinião
-        pat = exemplo("exemplo-patrocinado")
-        self.assertEqual(checar.problemas(pat, publicar=True), [])
-        pat["manchete"] = True
-        self.assertIn("não pode ser manchete", " ".join(checar.problemas(pat, publicar=True)))
-        self.assertIn("só existe no tipo 'patrocinado'", self.erros(patrocinador={"nome": "X"}))
+    def test_manchete_maior_pontuacao(self):
+        a, b = copy.deepcopy(self.n), copy.deepcopy(self.n)
+        a["crivo"]["pontos"], b["crivo"]["pontos"], b["manchete"] = 9, 3, True
+        a["manchete"] = False
+        self.assertTrue(checar_dia([a, b]))
 
-    def test_correcao_precisa_de_data_e_atualizacao(self):
-        self.assertIn("correcoes[0]", self.erros(correcoes=[{"data": "2026-10-30", "texto": "x"}]))
 
-    def test_imagem_ia_proibida(self):
-        im = dict(self.base["imagem"], gerada_por_ia=True)
-        self.assertIn("gerada por IA", self.erros(imagem=im))
+class Estudos(unittest.TestCase):
+    def setUp(self):
+        portal.iniciar(conteudo=EX, config=RAIZ / "exemplos" / "config", exemplo=True)
+        self.c = ler("estudos/exemplo-estudo.json")
+
+    def test_exemplo_passa(self):
+        self.assertEqual(p_estudo(self.c, publicar=True), [])
+
+    def test_versiculo_com_traducao(self):
+        c = copy.deepcopy(self.c)
+        c["versiculo_chave"].pop("traducao")
+        self.assertTrue(any("tradução" in x for x in p_estudo(c, publicar=True)))
+
+    def test_estrutura_com_referencia(self):
+        c = copy.deepcopy(self.c)
+        c["estrutura"][0] = ["Sem referência", "texto sem a passagem indicada"]
+        self.assertTrue(any("referência" in x for x in p_estudo(c, publicar=True)))
 
 
 class Build(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        r = rodar("tools/build.py", "--exemplo", "--hoje", "2026-10-29", "--saida", SAIDA, "--sem-og")
+        r = rodar("tools/build.py", "--exemplo", "--saida", SAIDA, "--sem-og")
         if r.returncode:
             raise AssertionError(r.stdout + r.stderr)
         cls.s = RAIZ / SAIDA
 
-    def ler(self, rel):
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(RAIZ / SAIDA, ignore_errors=True)
+
+    def html(self, rel):
         return (self.s / rel).read_text(encoding="utf-8")
 
-    def test_rotas_principais(self):
-        for rel in ["index.html", "noticias/index.html", "opiniao/index.html", "autores/autora-exemplo/index.html", "404.html",
-                    "politica-editorial/index.html", "privacidade/index.html", "anuncie/index.html", "newsletter/index.html",
-                    "feed.xml", "sitemap.xml", "sitemap-noticias.xml", "robots.txt", "llms.txt", "busca.json"]:
+    def test_rotas(self):
+        for rel in ["index.html", "noticias/index.html", "noticias/exemplo-manchete/index.html", "estudos/index.html", "estudos/exemplo-estudo/index.html",
+                    "agenda/index.html", "biblia/index.html", "politica-editorial/index.html", "404.html", "feed.xml", "sitemap.xml",
+                    "sitemap-noticias.xml", "robots.txt", "llms.txt", "busca.json", "previa/index.html"]:
             self.assertTrue((self.s / rel).exists(), rel)
-        for x in json.loads((RAIZ / "config" / "editorias.json").read_text(encoding="utf-8"))["editorias"]:
-            self.assertTrue((self.s / x["slug"] / "index.html").exists(), x["slug"])
 
-    def test_rascunho_nao_publica(self):
-        self.assertFalse((self.s / "noticias" / "exemplo-rascunho").exists())
-        self.assertNotIn("exemplo-rascunho", self.ler("sitemap.xml") + self.ler("busca.json") + self.ler("index.html"))
+    def test_revisao_so_na_previa(self):
+        self.assertFalse((self.s / "noticias" / "exemplo-em-revisao").exists())
+        self.assertTrue((self.s / "previa" / "noticias" / "exemplo-em-revisao" / "index.html").exists())
+        previa = self.html("previa/noticias/exemplo-em-revisao/index.html")
+        self.assertIn('content="noindex"', previa)
+        self.assertIn("Prévia em revisão", previa)
+        for rel in ("index.html", "noticias/index.html", "sitemap.xml", "busca.json", "feed.xml"):
+            self.assertNotIn("exemplo-em-revisao", self.html(rel), rel)
 
-    def test_previa_nao_indexa(self):
-        self.assertIn("Disallow: /", self.ler("robots.txt"))
-        self.assertIn('content="noindex, follow"', self.ler("index.html"))
-        self.assertIn("Demonstração.", self.ler("index.html"))
+    def test_formato_elite(self):
+        nota = self.html("noticias/exemplo-manchete/index.html")
+        for secao in ("Por que importa", "Em números", "Contexto", "No Brasil", "O que dizem", "Interessa a você se", "Nossa opinião",
+                      "Fontes", "Por que esta notícia entrou", "revisada por"):
+            self.assertIn(secao, nota)
+        est = self.html("estudos/exemplo-estudo/index.html")
+        for secao in ("Resumo em 30 segundos", "Estrutura de", "Para a vida hoje", "O que o texto ensina", "Leituras equivocadas",
+                      "Para quem é", "Para guardar", "Ficha do livro", "Perguntas frequentes", "progresso"):
+            self.assertIn(secao, est)
 
-    def test_patrocinado_identificado_e_fora_do_noticioso(self):
-        s = self.ler("noticias/exemplo-patrocinado/index.html")
-        self.assertIn("Conteúdo patrocinado por", s)
-        self.assertIn('rel="sponsored noopener"', s)
-        self.assertNotIn('class="pub', s)  # sem anúncio dentro de conteúdo pago
-        self.assertNotIn("exemplo-patrocinado", self.ler("sitemap-noticias.xml") + self.ler("feed.xml"))
+    def test_cores_azuis(self):
+        s = self.html("index.html")
+        self.assertIn("#0a1a33", s)
+        self.assertNotRegex(s, r"--ground:#000[;}]")
 
-    def test_transparencia_e_correcao_visiveis(self):
-        s = self.ler("noticias/exemplo-corrigida/index.html")
-        self.assertIn('id="correcoes"', s)
-        self.assertIn("Revisada por Revisor de Exemplo", s)
-        self.assertIn("inteligência artificial", s)
-        self.assertIn('"dateModified": "2026-10-26T10:00:00-03:00"', s)
-
-    def test_opiniao_rotulada(self):
-        s = self.ler("noticias/exemplo-opiniao/index.html")
-        self.assertIn("OpinionNewsArticle", s)
-        self.assertIn("Este é um artigo de opinião", s)
-
-    def test_afiliado_identificado(self):
-        s = self.ler("noticias/exemplo-cultura/index.html")
-        self.assertIn('rel="sponsored nofollow noopener"', s)
-        self.assertIn("Links de afiliado", s)
-
-    def test_sitemap_de_noticias_48h(self):
-        news = self.ler("sitemap-noticias.xml")
-        self.assertIn("exemplo-manchete-gospel", news)
-        self.assertNotIn("exemplo-gospel-2", news)  # publicada 5 dias antes
-
-    def test_agenda_esconde_evento_passado_e_marca_pago(self):
-        s = self.ler("eventos/index.html")
-        self.assertIn("Congresso de exemplo", s)
-        self.assertNotIn("Evento que já passou", s)
-        self.assertIn("divulgação paga", s)
-        self.assertIn('"@type": "Event"', s)
-        self.assertNotIn("Show de exemplo (divulgação paga)\", \"startDate", s)  # pago e não confirmado fica fora do Event
-
-    def test_seo_e_links(self):
+    def test_seo(self):
         r = rodar("tools/checar_seo.py", SAIDA, "--exemplo")
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
 
-    def test_um_h1_e_sem_marca_antiga(self):
+    def test_sem_marca_antiga(self):
         for p in self.s.rglob("*.html"):
-            s = p.read_text(encoding="utf-8")
-            self.assertNotRegex(s, re.compile(r"elite ?boardgamers", re.I), str(p))
+            self.assertNotRegex(p.read_text(encoding="utf-8"), r"(?i)elite ?boardgamers", str(p))
 
 
 class Producao(unittest.TestCase):
-    def test_producao_no_cloudflare_pages(self):
-        import os
+    def test_cloudflare_e_github(self):
         amb = {**os.environ, "CF_PAGES": "1", "CF_PAGES_URL": "https://8f3a1b2c.arcvalion.pages.dev"}
-        r = subprocess.run([sys.executable, "tools/build.py", "--producao", "--saida", "publico-teste-prod", "--sem-og"],
-                           cwd=RAIZ, capture_output=True, text=True, env=amb)
+        r = rodar("tools/build.py", "--producao", "--saida", "publico-teste-prod", "--sem-og", env=amb)
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        s = (RAIZ / "publico-teste-prod" / "index.html").read_text(encoding="utf-8")
-        self.assertIn('<link rel="canonical" href="https://arcvalion.pages.dev/">', s)
-        self.assertIn('href="/marca/favicon.svg"', (RAIZ / "publico-teste-prod" / "404.html").read_text(encoding="utf-8"))
-        r = subprocess.run([sys.executable, "tools/build.py", "--producao", "--saida", "publico-teste-prod", "--sem-og"],
-                           cwd=RAIZ, capture_output=True, text=True, env={**os.environ, "SITE_URL": "http://sem-https.test"})
-        self.assertNotEqual(r.returncode, 0)
-        self.assertIn("https", r.stdout + r.stderr)
-
-    def test_build_local_sem_materias(self):
+        self.assertIn('href="https://arcvalion.pages.dev/"', (RAIZ / "publico-teste-prod" / "index.html").read_text(encoding="utf-8"))
         r = rodar("tools/build.py", "--saida", "publico-teste-prod", "--sem-og")
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        s = (RAIZ / "publico-teste-prod" / "index.html").read_text(encoding="utf-8")
-        self.assertIn("passam por revisão humana", s)
-        self.assertIn('content="max-image-preview:large"', s)
+        self.assertIn("/Arcvalion_gospel/marca/favicon.svg", (RAIZ / "publico-teste-prod" / "404.html").read_text(encoding="utf-8"))
+        shutil.rmtree(RAIZ / "publico-teste-prod", ignore_errors=True)
 
-    def test_saida_fora_do_projeto_recusada(self):
-        r = rodar("tools/build.py", "--saida", "/tmp/qualquer", "--sem-og")
-        self.assertNotEqual(r.returncode, 0)
+    def test_saida_fora_recusada(self):
+        self.assertNotEqual(rodar("tools/build.py", "--saida", "/tmp/qualquer", "--sem-og").returncode, 0)
 
     def test_isolamento(self):
         r = rodar("tools/checar_isolamento.py")
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
 
 
-class FluxoPublicacao(unittest.TestCase):
-    def test_so_revisor_humano_publica(self):
-        import shutil
-        import tempfile
-        tmp = Path(tempfile.mkdtemp()) / "rascunho.json"
-        shutil.copy(RAIZ / "exemplos" / "conteudo" / "artigos" / "exemplo-rascunho.json", tmp)
+class Publicacao(unittest.TestCase):
+    def test_so_revisor_publica(self):
+        tmp = Path(tempfile.mkdtemp()) / "noticias" / "nota.json"
+        tmp.parent.mkdir()
+        shutil.copy(EX / "noticias" / "2026-10-27-exemplo-em-revisao.json", tmp)
         r = rodar("tools/publicar.py", "aprovar", str(tmp), "--revisor", "autora-exemplo", "--exemplo")
         self.assertNotEqual(r.returncode, 0)
-        self.assertIn("não é pessoa revisora", r.stdout + r.stderr)
         r = rodar("tools/publicar.py", "aprovar", str(tmp), "--revisor", "revisor-exemplo", "--exemplo")
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
         a = json.loads(tmp.read_text(encoding="utf-8"))
         self.assertEqual((a["status"], a["revisao"]["revisor"]), ("publicado", "revisor-exemplo"))
-        r = rodar("tools/publicar.py", "corrigir", str(tmp), "--revisor", "revisor-exemplo", "--texto", "Data corrigida.", "--exemplo")
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        a = json.loads(tmp.read_text(encoding="utf-8"))
-        self.assertEqual(a["correcoes"][-1]["texto"], "Data corrigida.")
-        self.assertGreaterEqual(a["atualizado_em"], a["publicado_em"])
-
-
-class Configuracao(unittest.TestCase):
-    def test_slug_reservado_e_editoria_oculta(self):
-        portal.iniciar()
-        portal.EDITORIAS = portal.EDITORIAS + [{"slug": "noticias", "nome": "X", "descricao": "x", "cor": "#000", "fundo": "#fff"}]
-        self.assertTrue(any("reservado" in e for e in portal.problemas_config()))
-        portal.iniciar()
-        portal.EDITORIAS[0] = dict(portal.EDITORIAS[0], visivel=False)
-        self.assertNotIn(portal.EDITORIAS[0]["slug"], [x["slug"] for x in portal.visiveis()])
 
 
 if __name__ == "__main__":

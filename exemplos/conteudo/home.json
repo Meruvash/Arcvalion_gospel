@@ -1,0 +1,19 @@
+{
+ "em_alta": [
+  {
+   "nome": "Assunto de exemplo",
+   "motivo": "Citado em notícia de exemplo",
+   "link": "noticias/exemplo-politica/"
+  }
+ ],
+ "campanhas": [
+  {
+   "nome": "Campanha de exemplo",
+   "organizacao": "Organização fictícia",
+   "onde": "Brasil · aberta",
+   "situacao": "Situação de exemplo",
+   "fonte": "Fonte fictícia, 29/10/2026",
+   "link": "https://exemplo.invalid/"
+  }
+ ]
+}

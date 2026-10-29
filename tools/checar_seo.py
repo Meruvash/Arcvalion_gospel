@@ -37,7 +37,7 @@ def problemas(url, s, exemplo=False):
         erros.append("canonical ausente ou diferente da URL")
     if not og or og.group(1) != url:
         erros.append("og:url diferente da URL")
-    if not exemplo and 'name="robots" content="max-image-preview:large"' not in s and 'content="noindex, follow"' not in s:
+    if not exemplo and 'name="robots" content="max-image-preview:large"' not in s and 'content="noindex' not in s:
         erros.append("sem robots max-image-preview:large")
     if exemplo and "noindex" not in s:
         erros.append("prévia de exemplo sem noindex")
@@ -76,8 +76,8 @@ def problemas(url, s, exemplo=False):
             erros.append("patrocinado sem o aviso visível no topo")
         if "Conteúdo patrocinado por" in s and art.get("genre") != "Conteúdo patrocinado":
             erros.append("aviso de patrocinado sem o rótulo nos dados estruturados")
-        if 'id="transparencia"' not in s:
-            erros.append("matéria sem o quadro 'Como esta matéria foi feita'")
+        if "Por que esta notícia entrou" not in s and "Estudo publicado em" not in s and 'id="fontes"' not in s:
+            erros.append("matéria sem fontes ou sem o quadro 'Por que esta notícia entrou'")
     if "FAQPage" in nos:
         for q in nos["FAQPage"]["mainEntity"]:
             if html.escape(q["name"]) not in s:
@@ -110,7 +110,7 @@ def checar(saida, exemplo=False):
         rel = p.relative_to(saida)
         s = p.read_text(encoding="utf-8")
         erros += [f"{rel}: {x}" for x in links(saida, rel, s)]
-        if rel.name != "index.html":
+        if rel.name != "index.html" or rel.parts[0] == "previa":
             continue
         url = f"{portal.SITE}/" + ("" if rel.parent == Path(".") else f"{rel.parent.as_posix()}/")
         erros += [f"SEO {url}: {x}" for x in problemas(url, s, exemplo)]

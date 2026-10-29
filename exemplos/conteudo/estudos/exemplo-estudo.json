@@ -1,0 +1,173 @@
+{
+ "slug": "exemplo-estudo",
+ "status": "publicado",
+ "titulo": "Estudo de exemplo",
+ "passagem": "Exemplo 1–3",
+ "sigla": "Ex",
+ "livro": "Gênesis",
+ "testamento": "Antigo Testamento",
+ "genero": "Narrativa",
+ "nivel": 1,
+ "tempo_min": 20,
+ "selo": "Ótimo para começar",
+ "tagline": "Frase de exemplo com doze palavras ou mais para testar o topo do estudo bíblico no portal.",
+ "lede": "Abertura de exemplo com quarenta palavras ou mais, escrita só para conferir o layout da página de estudo bíblico, a régua de informações, o selo e o espaçamento no celular e no computador, sem descrever nenhum conteúdo real de estudo.",
+ "descricao": "Estudo bíblico de exemplo para testar o layout.",
+ "imagem": {
+  "arquivo": "exemplo-estudo.jpg",
+  "credito": "Imagem abstrata de exemplo",
+  "alt": "Imagem abstrata"
+ },
+ "versiculo_chave": {
+  "texto": "Versículo de exemplo para testar o destaque.",
+  "referencia": "Exemplo 1:1",
+  "traducao": "tradução fictícia"
+ },
+ "estrutura": [
+  [
+   "Primeira parte",
+   "Exemplo 1:1-5. Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+  ],
+  [
+   "Segunda parte",
+   "Exemplo 2:1-9. Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+  ],
+  [
+   "Terceira parte",
+   "Exemplo 3:1-4. Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+  ]
+ ],
+ "estrutura_resumo": "Resumo de exemplo da estrutura do texto.",
+ "contexto": [
+  "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real.",
+  "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+ ],
+ "aplicacao": [
+  "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real.",
+  "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+ ],
+ "destaques": [
+  [
+   "Ensino de exemplo um",
+   "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+  ],
+  [
+   "Ensino de exemplo dois",
+   "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+  ],
+  [
+   "Ensino de exemplo três",
+   "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+  ]
+ ],
+ "atencao": [
+  [
+   "Leve",
+   "Leitura equivocada de exemplo",
+   "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+  ],
+  [
+   "Moderada",
+   "Outra leitura equivocada",
+   "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+  ]
+ ],
+ "perfil": [
+  [
+   "Contexto histórico",
+   4
+  ],
+  [
+   "Aplicação prática",
+   5
+  ],
+  [
+   "Profundidade teológica",
+   3
+  ]
+ ],
+ "formatos": [
+  [
+   "Sozinho",
+   "Formato de exemplo.",
+   3
+  ],
+  [
+   "Em família",
+   "Formato de exemplo.",
+   2
+  ],
+  [
+   "Em grupo",
+   "Formato de exemplo.",
+   3
+  ]
+ ],
+ "para_quem": [
+  "Quem quer conferir o layout",
+  "Quem testa o portal"
+ ],
+ "nao_e_para": [
+  "Quem procura estudo real"
+ ],
+ "dica": "Dica de exemplo.",
+ "traducoes": "Texto de exemplo sobre traduções.",
+ "relacionadas": "Texto de exemplo sobre passagens relacionadas.",
+ "comparacoes": [
+  [
+   "Outro estudo de exemplo",
+   "",
+   "Comparação de exemplo."
+  ]
+ ],
+ "versiculos": [
+  [
+   "Exemplo 1:1",
+   "Versículo de exemplo."
+  ]
+ ],
+ "veredito": "Conclusão de exemplo para o bloco Para guardar.",
+ "ficha": [
+  [
+   "Livro",
+   "Gênesis (exemplo)"
+  ],
+  [
+   "Autor",
+   "Autor de exemplo"
+  ],
+  [
+   "Capítulos",
+   "3"
+  ]
+ ],
+ "fontes": [
+  [
+   "Fonte de exemplo 1",
+   "https://a.exemplo.invalid/",
+   "uso de exemplo"
+  ],
+  [
+   "Fonte de exemplo 2",
+   "https://b.exemplo.invalid/",
+   "uso de exemplo"
+  ],
+  [
+   "Fonte de exemplo 3",
+   "https://c.exemplo.invalid/",
+   "uso de exemplo"
+  ]
+ ],
+ "consulta": "29/10/2026",
+ "legenda": "Legenda de exemplo para o Instagram.",
+ "cor": "#f0c24b",
+ "ia": {
+  "usada": true,
+  "uso": "demonstração"
+ },
+ "revisao": {
+  "revisor": "revisor-exemplo",
+  "data": "2026-10-29T08:00:00-03:00"
+ },
+ "publicado_em": "2026-10-29T07:00:00-03:00"
+}

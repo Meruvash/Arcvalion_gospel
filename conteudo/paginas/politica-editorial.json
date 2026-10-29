@@ -1,37 +1,84 @@
 {
  "slug": "politica-editorial",
  "titulo": "Política editorial",
- "descricao": "Como o {nome} apura, escreve, revisa, corrige e separa jornalismo, opinião e publicidade.",
- "lide": "As regras que seguimos para apurar, escrever, revisar, corrigir e separar jornalismo, opinião e publicidade.",
+ "descricao": "Como o {nome} escolhe, escreve, revisa, confere e corrige o que publica.",
+ "lide": "Como o {nome} escolhe, escreve, revisa, confere e corrige o que publica.",
  "atualizado_em": "2026-10-29",
  "secoes": [
-  {"titulo": "Quem responde pelo conteúdo", "paragrafos": ["O responsável editorial do {nome} é {responsavel}, que responde por tudo o que é publicado. A equipe está no [expediente](/expediente/)."]},
-  {"id": "verificacao", "titulo": "Apuração e fontes", "paragrafos": [
-   "Nenhuma notícia é inventada. Toda informação factual vem de fonte identificável e verificável: documentos oficiais, notas de instituições, entrevistas, dados públicos e outros veículos, sempre citados com link e data de consulta no quadro \"Como esta matéria foi feita\", no fim de cada página.",
-   "Toda notícia tem ao menos uma fonte primária. Não publicamos boatos, nem informações atribuídas a \"fontes\" sem identificação. Declarações e citações são atribuídas a quem as fez, com o cargo e o lugar onde foram publicadas.",
-   "Não reproduzimos nem parafraseamos superficialmente matérias de outros veículos. Quando outro veículo dá uma informação primeiro, damos o crédito e acrescentamos apuração, contexto ou dados próprios."
-  ]},
-  {"titulo": "Fato, análise e opinião", "paragrafos": [
-   "Cada matéria mostra o seu tipo no topo. Notícia relata fatos verificados. Análise interpreta fatos e é assinada. Opinião é o ponto de vista de quem assina e fica na seção [Opinião](/opiniao/); ela não representa necessariamente a posição do portal. Em algumas notícias, um quadro rotulado \"Por que importa · análise da redação\" explica o contexto, separado do relato.",
-   "Temos uma perspectiva cristã e conservadora, que orienta a escolha dos assuntos e as nossas opiniões, mas não muda os fatos. Ouvimos os lados envolvidos quando há divergência e não temos vínculo com partidos ou candidatos."
-  ]},
-  {"titulo": "Uso de inteligência artificial", "paragrafos": [
-   "Ferramentas de inteligência artificial podem ajudar a pesquisar, organizar informações e preparar uma primeira versão do texto. Nada vai ao ar sem revisão humana: uma pessoa da redação confere o texto contra as fontes e aprova a publicação. Cada matéria informa se houve uso de IA, para quê, e quem revisou.",
-   "Não usamos imagens geradas por IA para ilustrar notícias."
-  ]},
-  {"id": "correcoes", "titulo": "Correções e atualizações", "paragrafos": [
-   "Erros confirmados são corrigidos na própria matéria, com a data e a descrição do que mudou, no quadro \"Correções\". Quando a matéria ganha informação nova, mostramos a data da atualização ao lado da data de publicação.",
-   "Encontrou um erro? Use o [formulário de correção](/contato/#correcao) ou escreva para {email_correcoes}, com o link da página e, se possível, a fonte da informação correta."
-  ]},
-  {"id": "publicidade", "titulo": "Publicidade, patrocínio e afiliados", "paragrafos": [
-   "Jornalismo, opinião e conteúdo comercial são separados. Anúncios aparecem em espaços marcados como \"Publicidade\". Conteúdo patrocinado é identificado no topo, no rótulo e no texto, com o nome do patrocinador, e não é produzido pela redação. Patrocínio nunca vira manchete nem destaque editorial.",
-   "Algumas matérias podem ter links de afiliado, sempre avisados no próprio bloco. A escolha do que recomendamos é editorial e não depende de comissão. Anunciantes não aprovam nem alteram reportagens."
-  ]},
-  {"id": "destaques", "titulo": "Manchete e destaques", "paragrafos": ["A manchete e os destaques da página inicial são escolhidos pela edição pela relevância para o leitor, nunca por pagamento. Não usamos títulos sensacionalistas para gerar cliques."]},
-  {"id": "comentarios", "titulo": "Comentários", "so_com_api": true, "paragrafos": [
-   "Todo comentário passa por moderação antes de aparecer. Uma ferramenta de inteligência artificial faz a primeira leitura com regras públicas: publica os comentários respeitosos, descarta propaganda, golpe, ofensa, discurso de ódio e dados pessoais de terceiros, e encaminha para a redação tudo o que não for claro. Discordar do portal, com respeito, é bem-vindo.",
-   "Para comentar pedimos só um nome. O e-mail é opcional e nunca é publicado. Não guardamos o endereço IP: usamos apenas uma assinatura dele, que muda todo dia, para limitar abusos."
-  ]},
-  {"titulo": "Medição de audiência", "paragrafos": ["Medimos as visitas de forma agregada para saber quais páginas são lidas. Ferramentas que usam cookies só funcionam com o seu consentimento. Detalhes na [Política de Privacidade](/privacidade/)."]}
+  {
+   "titulo": "Quem responde pelo site",
+   "paragrafos": [
+    "O responsável editorial do {nome} é {responsavel}, que responde por tudo o que é publicado. A equipe está no [expediente](/expediente/)."
+   ]
+  },
+  {
+   "id": "verificacao",
+   "titulo": "Como o conteúdo é produzido",
+   "paragrafos": [
+    "Notícias e estudos bíblicos são redigidos com apoio de ferramentas de inteligência artificial, sempre a partir das fontes citadas em cada página. Nenhum texto vai ao ar sem fontes, e todo número, nome, cargo, data ou citação precisa estar numa delas.",
+    "Nada é publicado sem revisão humana: uma pessoa da redação confere o texto contra as fontes e aprova a publicação. Cada notícia diz, no fim, como foi feita e quem revisou."
+   ]
+  },
+  {
+   "titulo": "Como escolhemos as notícias",
+   "paragrafos": [
+    "Toda notícia passa por um crivo editorial. Fica de fora o que não tem fonte primária (boato, \"fontes dizem\", post sem confirmação), conteúdo pago ou release sem fato novo, notícia atrasada e assunto sem relação com a fé, a família e a sociedade.",
+    "O que passa recebe pontos por relevância para o leitor cristão no Brasil, como decisão de governo, Congresso ou tribunal com efeito sobre igrejas e famílias, liberdade religiosa, acontecimento do mundo evangélico ou confirmação por duas fontes independentes. A de maior pontuação vira a manchete, e cada notícia mostra no fim por que entrou."
+   ]
+  },
+  {
+   "id": "destaques",
+   "titulo": "Destaques da página inicial",
+   "paragrafos": [
+    "O bloco Destaques reúne os assuntos mais citados nas nossas notícias dos últimos 7 dias, cada um com o link de uma notícia sobre ele. Não é ranking de acessos nem espaço pago."
+   ]
+  },
+  {
+   "titulo": "Fato e opinião",
+   "paragrafos": [
+    "Os fatos vêm com fonte e data de consulta. A nossa opinião aparece separada, nas seções \"Por que importa\" e \"Nossa opinião\", sempre assinada pelo {nome}. A posição de lideranças, igrejas e instituições aparece com o nome de quem falou.",
+    "Temos uma perspectiva cristã e conservadora, sem vínculo com partidos ou candidatos. Ela orienta a escolha dos assuntos e as nossas opiniões, mas não muda os fatos."
+   ]
+  },
+  {
+   "titulo": "Estudos bíblicos",
+   "paragrafos": [
+    "Os estudos indicam sempre a passagem e a tradução da Bíblia citada. Interpretações de comentaristas e tradições aparecem com o nome de quem as defende. Quando há divergência séria entre tradições cristãs, o estudo diz isso."
+   ]
+  },
+  {
+   "titulo": "Imagens",
+   "paragrafos": [
+    "Usamos fotos oficiais de divulgação, fotos de agências com licença de uso, imagens de licença livre (como as da Wikimedia Commons) e obras de arte em domínio público, sempre com crédito. Não usamos imagens geradas por inteligência artificial para ilustrar notícias."
+   ]
+  },
+  {
+   "id": "publicidade",
+   "titulo": "Publicidade",
+   "paragrafos": [
+    "Publicidade e conteúdo patrocinado, quando houver, são identificados como tal e nunca viram notícia nem manchete. Anunciantes não aprovam nem alteram o que publicamos."
+   ]
+  },
+  {
+   "titulo": "Medição de visitas",
+   "paragrafos": [
+    "Contamos as visitas de forma agregada, sem identificar quem visita o site. Detalhes na [Política de Privacidade](/privacidade/)."
+   ]
+  },
+  {
+   "id": "comentarios",
+   "titulo": "Comentários",
+   "so_com_api": true,
+   "paragrafos": [
+    "Todo comentário passa por moderação antes de aparecer. Discordar com respeito é bem-vindo."
+   ]
+  },
+  {
+   "id": "correcoes",
+   "titulo": "Correções",
+   "paragrafos": [
+    "Encontrou um erro? Use o [formulário de correção](/contato/#correcao) ou escreva para {email_correcoes}, com o link da página e a fonte da informação correta. Erros confirmados são corrigidos na própria página, com a data e o que mudou."
+   ]
+  }
  ]
 }

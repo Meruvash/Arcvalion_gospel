@@ -1,0 +1,76 @@
+{
+ "slug": "exemplo-economia",
+ "data": "2026-10-29",
+ "categoria": "economia-e-negocios",
+ "status": "publicado",
+ "titulo": "Exemplo de notícia de economia e negócios para a grade do arquivo",
+ "lide": "Lide de exemplo com trinta e cinco palavras ou mais, escrito apenas para testar o layout da notícia, a quebra de linha da abertura e o tamanho do texto no celular, sem descrever nenhum fato real.",
+ "corpo": [
+  "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real. Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real.",
+  "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+ ],
+ "fontes": [
+  {
+   "nome": "Fonte de exemplo (domínio fictício)",
+   "url": "https://fonte.exemplo.invalid/a",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Outra fonte de exemplo",
+   "url": "https://outra.exemplo.invalid/b",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "imagem": {
+  "arquivo": "exemplo-economia.jpg",
+  "credito": "Imagem abstrata de exemplo",
+  "alt": "Imagem abstrata"
+ },
+ "crivo": {
+  "pontos": 5,
+  "criterios": [
+   "Critério de exemplo (2)"
+  ]
+ },
+ "selo": "Informativo",
+ "instituicao": "Instituição fictícia",
+ "por_que_importa": "Análise de exemplo: este parágrafo existe só para mostrar como o quadro de análise aparece separado do relato dos fatos na página da notícia, sempre assinado pela redação e nunca misturado ao contexto factual.",
+ "numeros": [
+  [
+   "10",
+   "número de exemplo",
+   "Fonte de exemplo"
+  ],
+  [
+   "2026",
+   "ano de exemplo",
+   "Fonte de exemplo"
+  ]
+ ],
+ "no_brasil": "Bloco de exemplo sobre o efeito no Brasil, com vinte e cinco palavras ou mais, para testar a faixa verde da página da notícia no layout do portal.",
+ "critica": [
+  {
+   "fonte": "Personagem de exemplo, cargo fictício",
+   "texto": "Posição de exemplo atribuída a uma personagem fictícia.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Interessa a quem quer conferir o layout"
+ ],
+ "nao_e_para": [
+  "Quem procura notícia real"
+ ],
+ "veredito": "Opinião de exemplo com vinte palavras ou mais, só para testar o bloco Nossa opinião e o selo da notícia na página do portal.",
+ "ia": {
+  "usada": true,
+  "uso": "demonstração"
+ },
+ "revisao": {
+  "revisor": "revisor-exemplo",
+  "data": "2026-10-29T08:00:00-03:00"
+ },
+ "publicado_em": "2026-10-29T11:00:00-03:00"
+}

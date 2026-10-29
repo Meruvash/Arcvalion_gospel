@@ -1,5 +1,5 @@
 {
- "_ajuda": "Editorias do portal. A ordem aqui é a ordem do menu e das faixas da página inicial. 'visivel': false tira a editoria do menu, da home e do sitemap sem apagar nada (as matérias continuam no ar no arquivo geral). Para criar uma editoria, acrescente um item; o slug vira o endereço (/<slug>/) e não pode coincidir com páginas institucionais. Cores: 'cor' é o texto e o filete (contraste mínimo 4,5:1 sobre branco), 'fundo' é a etiqueta clara.",
+ "_ajuda": "Editorias do portal. A ordem aqui é a ordem do menu e das faixas da página inicial. 'visivel': false tira a editoria do menu, da home e do sitemap sem apagar nada (as matérias continuam no ar no arquivo geral). Para criar uma editoria, acrescente um item; o slug vira o endereço (/<slug>/) e não pode coincidir com páginas institucionais. Cores: 'viva' é o filete e a etiqueta sobre o fundo azul (cartões do arquivo, faixas, cartão de prévia); 'cor' é o texto e o filete (contraste mínimo 4,5:1 sobre branco), 'fundo' é a etiqueta clara.",
  "editorias": [
   {
    "slug": "noticias-gospel",
@@ -8,7 +8,8 @@
    "descricao": "Igrejas, lideranças, missões, liberdade religiosa e os acontecimentos do mundo evangélico no Brasil e no exterior.",
    "cor": "#1d4f91",
    "fundo": "#e4ecf7",
-   "visivel": true
+   "visivel": true,
+   "viva": "#6ea8ff"
   },
   {
    "slug": "politica-e-sociedade",
@@ -17,7 +18,8 @@
    "descricao": "Congresso Nacional, Presidência, Judiciário, legislação, políticas públicas, liberdade de expressão e educação.",
    "cor": "#7a2335",
    "fundo": "#f6e6e9",
-   "visivel": true
+   "visivel": true,
+   "viva": "#f2a65a"
   },
   {
    "slug": "familia-e-valores",
@@ -26,7 +28,8 @@
    "descricao": "Educação dos filhos, casamento, comportamento, proteção da infância e os desafios da família hoje.",
    "cor": "#2c6447",
    "fundo": "#e3f1e9",
-   "visivel": true
+   "visivel": true,
+   "viva": "#3ddc84"
   },
   {
    "slug": "fe-e-biblia",
@@ -35,7 +38,8 @@
    "descricao": "Estudos bíblicos, história do cristianismo, teologia e respostas às perguntas mais comuns sobre a fé.",
    "cor": "#7b5410",
    "fundo": "#f7eedb",
-   "visivel": true
+   "visivel": true,
+   "viva": "#f0c24b"
   },
   {
    "slug": "economia-e-negocios",
@@ -44,7 +48,8 @@
    "descricao": "Economia brasileira, empreendedorismo, finanças da família e os fatos econômicos que afetam o seu dia a dia.",
    "cor": "#245a6b",
    "fundo": "#e1eff3",
-   "visivel": true
+   "visivel": true,
+   "viva": "#5fd3e0"
   },
   {
    "slug": "musica-e-cultura",
@@ -53,7 +58,8 @@
    "descricao": "Lançamentos musicais, artistas, literatura, cinema, entretenimento e cultura gospel.",
    "cor": "#5f3b86",
    "fundo": "#eee6f6",
-   "visivel": true
+   "visivel": true,
+   "viva": "#b493ff"
   },
   {
    "slug": "eventos",
@@ -62,7 +68,8 @@
    "descricao": "Congressos, conferências, shows, encontros e feiras cristãs, com data, local e como participar.",
    "cor": "#8f4216",
    "fundo": "#f8e9df",
-   "visivel": true
+   "visivel": true,
+   "viva": "#ff8f7a"
   }
  ]
 }
