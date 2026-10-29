@@ -1,0 +1,1 @@
+Origem: https://github.com/ChromeDevTools/chrome-devtools-mcp (commit 63170b1, v1.12.0), licença Apache-2.0. Usa o servidor MCP chrome-devtools de .mcp.json.

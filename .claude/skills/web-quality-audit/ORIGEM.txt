@@ -1,0 +1,1 @@
+Origem: https://github.com/addyosmani/web-quality-skills (commit afa8da9), licença MIT.

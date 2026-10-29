@@ -1,7 +1,7 @@
 {
  "slug": "comissao-aprova-continuidade-estudos-vitimas-violencia-escola",
  "data": "2026-10-29",
- "categoria": "familia-e-valores",
+ "categoria": "Família e Valores",
  "status": "revisao",
  "titulo": "Comissão da Câmara aprova regras para vítima de violência na escola continuar estudando",
  "lide": "A Comissão de Educação da Câmara dos Deputados aprovou em 28 de outubro o projeto de lei 2359/2026, que muda a Lei da Escuta Protegida para garantir que alunos vítimas de violência na escola ou por causa dela continuem estudando com rapidez e segurança.",
@@ -30,7 +30,7 @@
   }
  ],
  "imagem": {
-  "arquivo": "camara-pl-2359-violencia-escolas.jpg",
+  "arquivo": "capas/camara-pl-2359-violencia-escolas.jpg",
   "credito": "Foto: Kayo Magalhães/Câmara dos Deputados (foto de arquivo)",
   "alt": "Deputada Socorro Neri, relatora do projeto, discursa na tribuna da Câmara"
  },
@@ -41,7 +41,6 @@
   ]
  },
  "selo": "Boa notícia",
- "instituicao": "Câmara dos Deputados",
  "por_que_importa": "Hoje, quem sofre violência na escola muitas vezes é quem acaba saindo dela, perdendo o ano e os amigos. O projeto inverte a lógica: a vítima fica protegida e continua estudando. Para pais e para quem cuida de crianças na igreja, é uma proteção concreta, e não só um discurso.",
  "numeros": [
   [
@@ -86,5 +85,8 @@
  "ia": {
   "usada": true,
   "uso": "pesquisa nas fontes, organização dos fatos e primeira versão do texto"
- }
+ },
+ "jogos": [],
+ "editora": "Câmara dos Deputados",
+ "publicado_em": "2026-10-29T20:00:00-03:00"
 }

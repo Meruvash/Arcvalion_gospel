@@ -1,0 +1,22 @@
+{
+ "feeds": [
+  {"nome": "BoardGameWire", "url": "https://boardgamewire.com/index.php/feed/", "pais": "Reino Unido"},
+  {"nome": "Board Game Quest", "url": "https://www.boardgamequest.com/feed/", "pais": "EUA"},
+  {"nome": "Meeple Mountain", "url": "https://www.meeplemountain.com/feed/", "pais": "EUA"},
+  {"nome": "Spiel des Jahres", "url": "https://www.spiel-des-jahres.de/feed/", "pais": "Alemanha"},
+  {"nome": "Covil dos Jogos", "url": "https://www.covildosjogos.com.br/feed/", "pais": "Brasil"},
+  {"nome": "Devir Brasil", "url": "https://devir.com.br/category/jogos-tabuleiro/feed/", "pais": "Brasil"},
+  {"nome": "Laranja Cast", "url": "https://www.laranjacast.com.br/feed/", "pais": "Brasil", "filtro": true},
+  {"nome": "JWave", "url": "https://www.jwave.com.br/feed/", "pais": "Brasil", "filtro": true},
+  {"nome": "Vivente Andante", "url": "https://viventeandante.com/feed/", "pais": "Brasil", "filtro": true}
+ ],
+ "bluesky": [
+  {"nome": "W. Eric Martin (BGG News)", "handle": "wericmartin.bsky.social"},
+  {"nome": "BoardGameWire", "handle": "boardgamewire.bsky.social"},
+  {"nome": "Board Game Quest", "handle": "boardgamequest.bsky.social"},
+  {"nome": "Spiel des Jahres", "handle": "spiel-des-jahres.de"},
+  {"nome": "Meeple Mountain", "handle": "meeplemountain.com"}
+ ],
+ "filtro_tabuleiro": "tabuleiro|board ?game|boardgame|jogo de cartas|galápagos|devir|grok|meeplebr|ludopedia|catan|essen|kickstarter|gamefound|catarse|spiel des jahres|kennerspiel|golden geek|diversão offline",
+ "manual": ["BGG News (boardgamegeek.com/blog/1)", "Ludopedia: LudoNews e Rodada da semana nas editoras nacionais", "Galápagos: Spoiler Board e Instagram", "MeepleBR: Instagram", "Drops de Jogos", "Poltrona Nerd", "Shut Up & Sit Down", "Tabletop Gaming", "Wargamer", "Compara Jogos: Estação de Notícias"]
+}

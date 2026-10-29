@@ -13,6 +13,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import portal  # noqa: E402
+
+if not portal.CFG:  # importado pelo build_home.py do Elite, que não inicia a configuração
+    portal.iniciar()
 from editorial.vicios import avisos, sensacionalismo  # noqa: E402
 
 # selo da nota (a "Nossa opinião"): no Elite eram Vale a compra, Vale acompanhar, Para fãs do jogo base, Com ressalvas, Informativo
@@ -42,7 +45,7 @@ def textos(n):
 
 def checar_foto(n):
     im = n.get("imagem") or {}
-    arq = portal.CONTEUDO / "imagens" / im["arquivo"] if im.get("arquivo") else None
+    arq = portal.ROOT / "noticias" / im["arquivo"] if im.get("arquivo") else None  # como no Elite: noticias/capas/<arquivo>
     if not arq or not arq.is_file():
         return ["sem foto: notícia não sai sem foto (licença livre, divulgação oficial ou própria, com crédito)"]
     try:
@@ -80,8 +83,8 @@ def problemas(n, publicar=None):
     publicar = n.get("status", "publicado") in ("publicado",) if publicar is None else publicar
     if n.get("status", "rascunho") not in STATUS:
         erros.append(f"status inválido: {n.get('status')!r}")
-    if not portal.editoria(n.get("categoria", "")):
-        erros.append(f"categoria inexistente: {n.get('categoria')!r} (use o slug de uma editoria de config/editorias.json)")
+    if not portal.editoria(n.get("categoria", "")) and not any(x["nome"] == n.get("categoria") for x in portal.EDITORIAS):
+        erros.append(f"categoria inexistente: {n.get('categoria')!r} (use o nome de uma editoria de config/editorias.json)")
     for campo, (a, b) in FAIXAS.items():
         if not n.get(campo):
             erros.append(f"falta {campo}")

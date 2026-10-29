@@ -1,7 +1,7 @@
 {
  "slug": "canada-c41-barra-eutanasia-por-doenca-mental",
  "data": "2026-10-29",
- "categoria": "familia-e-valores",
+ "categoria": "Família e Valores",
  "status": "revisao",
  "manchete": true,
  "titulo": "Canadá apresenta projeto que barra eutanásia só por doença mental, mas libera pedido antecipado",
@@ -37,7 +37,7 @@
   }
  ],
  "imagem": {
-  "arquivo": "canada-c41-eutanasia.jpg",
+  "arquivo": "capas/canada-c41-eutanasia.jpg",
   "credito": "Foto: Saffron Blaze, via Wikimedia Commons (CC BY-SA 3.0)",
   "alt": "Bloco Central do Parlamento do Canadá, em Ottawa, com a Torre da Paz"
  },
@@ -49,7 +49,6 @@
   ]
  },
  "selo": "Para refletir",
- "instituicao": "Governo do Canadá",
  "por_que_importa": "Desde 2016 o Canadá permite e vem ampliando a morte assistida. Recuar na doença mental mostra que os alertas de médicos e famílias pesaram. Só que o mesmo projeto abre outra porta, a do pedido antecipado, e o debate sobre o valor da vida no fim dela continua aberto.",
  "numeros": [
   [
@@ -98,5 +97,8 @@
  "ia": {
   "usada": true,
   "uso": "pesquisa nas fontes, organização dos fatos e primeira versão do texto"
- }
+ },
+ "jogos": [],
+ "editora": "Governo do Canadá",
+ "publicado_em": "2026-10-29T20:00:00-03:00"
 }

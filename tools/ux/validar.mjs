@@ -1,6 +1,5 @@
 // Validação de layout e interação em várias larguras (Playwright).
-// Uso, com o site servido na raiz:  BASE=http://localhost:8765 node tools/ux/validar.mjs [pasta-de-saida]
-// (padrão: as páginas da prévia de exemplo; PAGINAS="/,/noticias/" troca a lista)
+// Uso, com o site servido na raiz:  node tools/ux/validar.mjs [pasta-de-saida]
 // Para cada página e largura: rolagem horizontal, alvos de toque menores que 24×24 px (WCAG 2.2, 2.5.8) e foco
 // visível nos primeiros elementos alcançados pelo Tab. Links dentro de frases contam como exceção da 2.5.8.
 import { createRequire } from "node:module";
@@ -10,7 +9,7 @@ const { chromium } = require("playwright");
 
 const BASE = process.env.BASE || "http://localhost:8080";
 const SAIDA = process.argv[2];
-const PAGINAS = (process.env.PAGINAS || "/,/noticias/,/noticias-gospel/,/eventos/,/opiniao/,/noticias/exemplo-manchete-gospel/,/noticias/exemplo-explica-biblia/,/noticias/exemplo-patrocinado/,/contato/,/newsletter/,/politica-editorial/,/autores/autora-exemplo/").split(",");
+const PAGINAS = ["/", "/noticias/", "/estudos/", "/root/", "/consulta/", "/lancamentos/", "/noticias/vantage-chega-ao-brasil/", "/politica-editorial/"];
 const LARGURAS = [320, 375, 390, 768, 1024, 1440];
 const TABS = 25;
 
@@ -18,7 +17,7 @@ const browser = await chromium.launch();
 const resultado = [];
 for (const w of LARGURAS) {
   const ctx = await browser.newContext({ viewport: { width: w, height: 800 } });
-  await ctx.route(/cloudflareinsights|exemplo\.invalid|googlesyndication|googletagmanager/, r => r.abort());
+  await ctx.route(/cloudflareinsights/, r => r.abort());
   const page = await ctx.newPage();
   for (const url of PAGINAS) {
     await page.goto(BASE + url, { waitUntil: "load" });

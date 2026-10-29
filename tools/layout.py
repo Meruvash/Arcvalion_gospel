@@ -1,11 +1,11 @@
 """Moldura comum a todas as páginas: cabeçalho, menu de seções e rodapé, num lugar só.
 
-Cópia do tools/layout.py do Elite Boardgamers (mesma marcação, mesmos botões, mesmos scripts). Muda só o que é da
-marca: nome, símbolo, Instagram e grupo do WhatsApp vêm de config/portal.json; sem link configurado, o botão some.
-O CSS fica em estilo_elite.py.
+Usado por build_home.py (home, notícias, política, 404), build_calendario.py, build_review.py, build_lista.py
+e build_consulta.py (que reescreve a moldura dentro de consulta/index.html). O CSS de cada página continua no
+próprio gerador; aqui fica só a marcação, para que links, rótulos e aria-current sejam iguais no site inteiro.
 """
-import portal
-
+INSTAGRAM = ""  # Instagram do portal: preencher
+WHATSAPP = ""  # grupo do WhatsApp do portal: preencher
 
 ICONES = {
     "jogadores": '<path d="M8 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8 1a3 3 0 1 0 0-6M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15.5 14.2c3 .4 5.5 2.8 5.5 5.8"/>',
@@ -26,37 +26,11 @@ ICONES = {
     "coracao": '<path d="M12 20s-7.5-4.6-9.3-9.2C1.4 7.4 3.6 4 7 4c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.4 0 5.6 3.4 4.3 6.8C19.5 15.4 12 20 12 20Z"/>',
     "busca": '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>',
     "balao": '<path d="M4 5h16v11H9l-5 4V5Z"/>',
-    "email": '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/>',
-    "livro": '<path d="M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5Z"/><path d="M12 6.5v13"/>',
-    "calendario": '<rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/>',
-    "cruz": '<path d="M12 3v18M7 8h10"/>',
-    "relogio": '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/>',
-    "nivel": '<path d="M4 20V14M10 20V9M16 20V4"/>',
-    "grupo": '<path d="M8 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8 1a3 3 0 1 0 0-6M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15.5 14.2c3 .4 5.5 2.8 5.5 5.8"/>',
     "compartilhar": '<circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M8.2 10.8l7.6-4.4M8.2 13.2l7.6 4.4"/>',
 }
 
-# (caminho a partir da raiz, rótulo) das seções do menu. Equivalências com o Elite: Resenhas → Estudos bíblicos,
-# Lançamentos → Agenda, Consulta Golden Geek → Livros da Bíblia.
-SECOES = [("noticias/", "Notícias"), ("estudos/", "Estudos bíblicos"), ("agenda/", "Agenda"), ("biblia/", "Livros da Bíblia")]
-
-# Símbolo da marca (livro aberto com uma cruz): desenho próprio e genérico, no lugar do logo em imagem do Elite.
-SIMBOLO = ('<svg class="simbolo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#12294a"/>'
-           '<path d="M16 12.2c-2.2-1.5-5.2-2-8.6-1.6v12.2c3.4-.4 6.4.1 8.6 1.6 2.2-1.5 5.2-2 8.6-1.6V10.6c-3.4-.4-6.4.1-8.6 1.6Z" fill="#fff"/>'
-           '<path d="M16 12.2v12.2" stroke="#12294a" stroke-width="1.2"/><path d="M16 4.5v6M13.4 6.8h5.2" stroke="#d6b25e" stroke-width="2" stroke-linecap="round"/></svg>')
-
-
-def instagram():
-    return (portal.CFG.get("redes") or {}).get("instagram", "")
-
-
-def whatsapp():
-    return (portal.CFG.get("redes") or {}).get("whatsapp_grupo", "") or (portal.CFG.get("redes") or {}).get("whatsapp_canal", "")
-
-
-def arroba():
-    u = instagram().rstrip("/")
-    return "@" + u.rsplit("/", 1)[-1] if u else ""
+# (caminho a partir da raiz, rótulo) das seções do menu
+SECOES = [("noticias/", "Notícias"), ("estudos/", "Estudos bíblicos"), ("lancamentos/", "Agenda"), ("consulta/", "Livros da Bíblia")]
 
 
 def icone(nome, cls="ic"):
@@ -66,7 +40,7 @@ def icone(nome, cls="ic"):
 # Disparador da busca: mostra a lupa e, no clique, em "/" ou em Ctrl+K, baixa busca.js (e o índice) pela primeira vez.
 # É o único JavaScript de busca na carga da página.
 DISPARADOR = ("(()=>{const b=document.querySelector('.busca-btn');let c;b.hidden=false;"
-              "const a=()=>{c=c||new Promise((r,j)=>{const s=document.createElement('script');s.src='PREjs/busca.js';s.onload=r;"
+              "const a=()=>{c=c||new Promise((r,j)=>{const s=document.createElement('script');s.src='PREbusca.js';s.onload=r;"
               "s.onerror=()=>{c=null;j()};document.head.append(s)});c.then(()=>abrirBusca('PRE'),()=>{})};"
               "b.addEventListener('click',a);addEventListener('keydown',e=>{const t=e.target,ed=t.isContentEditable||/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName);"
               "if((e.key==='/'&&!ed&&!e.ctrlKey&&!e.metaKey)||((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k')){e.preventDefault();a()}})})()")
@@ -85,13 +59,13 @@ CSS_COMPARTILHAR = (".cpw{position:relative;display:inline-block}"
                     "color:#14171c;font:inherit;font-size:.95rem;font-weight:700;text-align:left;text-decoration:none;cursor:pointer}"
                     ".cp-op:hover,.cp-op:focus-visible{background:#eef1f4;color:#14171c}.cp-op .ic{width:20px;height:20px}.cp-op.zap-op .ic{color:#157a43}"
                     ".cp-st{position:absolute;z-index:30;top:calc(100% + 8px);left:0;white-space:nowrap;margin:0;padding:6px 12px;border-radius:8px;"
-                    "background:#14171c;color:#fff;font-size:.85rem;font-weight:700}.cp-st:empty{display:none}.barra-lt .cp-st{top:auto;bottom:calc(100% + 8px)}"
+                    "background:#0a1a33;color:#fff;font-size:.85rem;font-weight:700}.cp-st:empty{display:none}.barra-lt .cp-st{top:auto;bottom:calc(100% + 8px)}"
                     # convite no fim do conteúdo
                     ".convite{display:flex;align-items:center;justify-content:space-between;gap:12px 20px;flex-wrap:wrap}"
                     ".convite .cv-t{margin:0;font-weight:800;font-size:1.1rem}.convite .cv-s{margin:2px 0 0;font-size:.92rem;opacity:.8}"
                     # barra de leitura: aparece depois de rolar e some perto do fim
                     ".barra-lt{position:fixed;z-index:25;left:50%;bottom:calc(12px + env(safe-area-inset-bottom));display:flex;align-items:center;gap:4px;padding:5px;"
-                    "border-radius:999px;background:#14171c;border:1px solid #3a3f48;box-shadow:0 8px 24px rgba(0,0,0,.35);"
+                    "border-radius:999px;background:#0a1a33;border:1px solid #2e4d7a;box-shadow:0 8px 24px rgba(0,0,0,.35);"
                     "transform:translate(-50%,0);transition:transform .25s ease,opacity .25s ease}"
                     ".barra-lt.fora{transform:translate(-50%,calc(100% + 24px));opacity:0;pointer-events:none}"
                     ".lt-b{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:8px 14px;border:0;border-radius:999px;background:none;"
@@ -122,19 +96,16 @@ CSS_INTERACOES = (".interacoes{display:grid;gap:14px}.interacoes[hidden]{display
                   ".com-form input,.com-form textarea{font:inherit;font-size:16px;font-weight:400;padding:10px 12px;border:1px solid #c8cdd5;border-radius:8px;background:#fff;color:#14171c}"
                   ".com-form textarea{resize:vertical;min-height:110px}"
                   ".com-form .isca{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}"
-                  ".com-form button{justify-self:start;min-height:44px;padding:10px 20px;border-radius:999px;border:0;background:#14171c;color:#fff;font:inherit;font-weight:800;cursor:pointer}"
+                  ".com-form button{justify-self:start;min-height:44px;padding:10px 20px;border-radius:999px;border:0;background:#0a1a33;color:#fff;font:inherit;font-weight:800;cursor:pointer}"
                   ".com-form button:disabled{opacity:.6}.com-aviso{margin:0;font-size:.82rem;color:#5a6270}.com-aviso a{color:#1f5fae}"
                   ".com-st{margin:0;font-weight:700;font-size:.92rem}.com-st:empty{display:none}.com-st.ok{color:#1b7a45}.com-st.erro{color:#a3223a}")
 
 # CSS comum a todas as páginas: botão de busca e respeito a prefers-reduced-motion (sem transições, animações,
 # rolagem suave nem os deslocamentos de hover/toque dos cartões e botões)
-CSS_BUSCA = (".busca-btn{display:grid;place-items:center;flex:none;width:44px;height:44px;padding:0;border:1px solid #3a3f48;border-radius:8px;"
+CSS_BUSCA = (".busca-btn{display:grid;place-items:center;flex:none;width:44px;height:44px;padding:0;border:1px solid #2e4d7a;border-radius:8px;"
              "background:none;color:#e9ecf1;cursor:pointer}.busca-btn:hover{border-color:#e3b23c;color:#e3b23c}.busca-btn[hidden]{display:none}"
              # alvo de toque mínimo de 24 px (WCAG 2.2, 2.5.8) nos links do rodapé comum
              "footer .in a{display:inline-flex;align-items:center;min-height:24px}"
-             ".marca{display:flex;align-items:center;gap:9px;color:#fff;text-decoration:none}.marca .simbolo{width:38px;height:38px;flex:none;border-radius:8px;box-shadow:0 0 0 1px rgba(255,255,255,.16)}"
-             ".marca .marca-n{font-weight:800;font-size:1.08rem;line-height:1.1;letter-spacing:-.01em;white-space:nowrap}"
-             "@media (max-width:420px){.marca .marca-n{font-size:.98rem}.marca .simbolo{width:34px;height:34px}}"
              + CSS_COMPARTILHAR + CSS_INTERACOES +
              # menu das seções sempre preso no topo; as outras barras presas ficam logo abaixo dele
              ":where(html){scroll-padding-top:calc(var(--nav-h,49px) + 12px)}"
@@ -161,15 +132,10 @@ def cabecalho(pre, atual="", sub=False):
     # primeiro item: a casinha, que volta à página inicial (marcada como página atual na própria home)
     casa = f'<li><a class="casa" href="{pre or './'}" aria-label="Página inicial"{" aria-current=\"page\"" if atual == "Início" else ""}>{icone("casa")}</a></li>'
     nav = casa + "".join(f'<li><a href="{pre}{h}"{f" aria-current=\"{marca}\"" if t == atual else ""}>{t}</a></li>' for h, t in SECOES)
-    import html as _h
-    ig = (f'<a class="ig" href="{instagram()}" target="_blank" rel="noopener" aria-label="Instagram {arroba()}">{icone("insta")}<span>{arroba()}</span></a>'
-          if instagram() else '<span class="ig" aria-hidden="true"></span>')
-    zap = (f'<a class="zap-mini" href="{whatsapp()}" target="_blank" rel="noopener" aria-label="Grupo do WhatsApp">{icone("zap")}<span>Grupo do WhatsApp</span></a>'
-           if whatsapp() else "")
-    return f"""{faixa_exemplo()}<header class="bar" id="topo"><div class="in">
- <a class="marca" href="{pre or './'}" aria-label="{_h.escape(portal.NOME)}: página inicial">{SIMBOLO}<span class="marca-n">{_h.escape(portal.NOME)}</span></a>
- {ig}
- {zap}
+    return f"""<header class="bar" id="topo"><div class="in">
+ <a class="marca" href="{pre or './'}"><img src="{pre}marca/portal-cristao.webp" width="318" height="254" alt="Portal Cristão: página inicial"></a>
+ {f'<a class="ig" href="{INSTAGRAM}" target="_blank" rel="noopener" aria-label="Instagram">{icone("insta")}<span>Instagram</span></a>' if INSTAGRAM else '<span class="ig"></span>'}
+ {f'<a class="zap-mini" href="{WHATSAPP}" target="_blank" rel="noopener" aria-label="Grupo do WhatsApp">{icone("zap")}<span>Grupo do WhatsApp</span></a>' if WHATSAPP else ''}
  <button type="button" class="busca-btn" aria-label="Buscar no site" aria-haspopup="dialog" aria-keyshortcuts="/ Control+K" hidden>{icone("busca")}</button>
 </div></header>
 <script>{DISPARADOR.replace("PRE", pre)}</script>
@@ -195,6 +161,7 @@ CSS_TRILHA = (".trilha{min-width:0;max-width:100%}.trilha ol{display:flex;align-
               ".trilha li:last-child::before{display:inline}")
 
 
+SITE = "https://meruvash.github.io/Arcvalion_gospel"
 
 # Sem JavaScript, o botão é um link para o WhatsApp; o script troca pelo menu do celular ou pela janelinha.
 JS_COMPARTILHAR = """(()=>{const pega=c=>({u:c.dataset.url||location.href,t:c.dataset.texto||document.title});
@@ -252,14 +219,15 @@ def barra_leitura(texto="", url="", interacao=True):
         extras = (f'<button type="button" class="lt-b curtir" aria-pressed="false" aria-label="Curtir">{icone("coracao")}<b class="n">–</b></button>'
                   f'<a class="lt-b" href="#comentarios">{icone("balao")}<span>Comentários</span></a>')
     return (f'<div class="barra-lt fora" role="region" aria-label="Ações da página">{extras}{botao_compartilhar(texto, url)}'
-            + (f'<a class="lt-grupo" href="{whatsapp()}" target="_blank" rel="noopener" aria-label="Entrar no grupo do WhatsApp">{icone("zap")}<span>Grupo</span></a>' if whatsapp() else "")
-            + '</div>'
+            + (f'<a class="lt-grupo" href="{WHATSAPP}" target="_blank" rel="noopener" aria-label="Entrar no grupo do WhatsApp">{icone("zap")}<span>Grupo</span></a>' if WHATSAPP else '') + '</div>'
             f'<script>{JS_LEITURA}</script>')
 
 
 def _config_interacoes():
-    # comentários e curtidas ficam desligados até config/portal.json ter a API (pedido de 29/10/2026: ainda não)
-    return portal.CFG.get("interacoes") or {}
+    import json
+    from pathlib import Path
+    arq = Path(__file__).resolve().parent.parent / "conteudo" / "interacoes.json"
+    return json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else {}
 
 
 def interacoes(pre, caminho, classe="bloco"):
@@ -284,84 +252,15 @@ def interacoes(pre, caminho, classe="bloco"):
   <p class="com-st" role="status"></p>
  </form>
 </section>
-<script src="{pre}js/interacoes.js" defer></script>"""
+<script src="{pre}interacoes.js" defer></script>"""
 
 
 def rodape(pre, barra=None):
     """Rodapé comum. `barra` é a barra fixa do pé da tela: por padrão, só Compartilhar; "" para nenhuma."""
     if barra is None:
         barra = barra_leitura(interacao=False)
-    import html as _h
-    redes = ((f'<a href="{instagram()}" target="_blank" rel="noopener">Instagram {arroba()}</a>' if instagram() else "")
-             + (f'<a href="{whatsapp()}" target="_blank" rel="noopener">Grupo do WhatsApp</a>' if whatsapp() else ""))
     return f"""<footer><div class="in">
- <span>{_h.escape(portal.NOME)}</span><a href="{pre}noticias/">Notícias</a><a href="{pre}estudos/">Estudos bíblicos</a><a href="{pre}agenda/">Agenda</a><a href="{pre}biblia/">Livros da Bíblia</a><a href="{pre}politica-editorial/">Política editorial</a><a href="{pre}expediente/">Expediente</a><a href="{pre}contato/">Fale conosco</a><a href="{pre}anuncie/">Anuncie</a><a href="{pre}privacidade/">Privacidade</a>
- {redes}<a href="{pre}feed.xml">RSS</a>
+ <span>Portal Cristão</span><a href="{pre}noticias/">Notícias</a><a href="{pre}estudos/">Estudos bíblicos</a><a href="{pre}lancamentos/">Agenda</a><a href="{pre}consulta/">Livros da Bíblia</a><a href="{pre}politica-editorial/">Política editorial</a>
+ {f'<a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a>' if INSTAGRAM else ''}{f'<a href="{WHATSAPP}" target="_blank" rel="noopener">Grupo do WhatsApp</a>' if WHATSAPP else ''}
 </div></footer>
 {barra}"""
-
-
-e = __import__("html").escape
-
-
-def faixa_exemplo():
-    """Aviso no topo das prévias (conteúdo fictício de exemplos/ ou matérias ainda em revisão)."""
-    if portal.EXEMPLO:
-        return ('<div class="exemplo" role="note"><b>Demonstração.</b> Prévia com textos fictícios de exemplo, só para conferir o layout. '
-                'Nada aqui é notícia real.</div>')
-    return ""
-
-
-def api():
-    return _config_interacoes().get("api", "")
-
-
-def formulario(tipo, pre, origem=""):
-    """Formulário de newsletter/cadastro de leitores ou de contato (comercial, evento, correção, geral).
-
-    Com a API configurada, envia para o Worker (com consentimento explícito e Turnstile). Sem ela, vira um link de
-    e-mail para o endereço configurado, ou um aviso de que o canal ainda não está aberto. Nenhum dado é enviado a
-    terceiros pelo navegador."""
-    cfg = portal.CFG
-    if not api():
-        email = cfg.get("email_comercial") if tipo == "comercial" else cfg.get("email_correcoes") if tipo == "correcao" else cfg.get("email_contato")
-        if tipo == "newsletter":
-            return '<p class="form-off">As inscrições na newsletter abrem em breve.</p>'
-        if email:
-            return f'<p class="form-off">Escreva para <a href="mailto:{e(email)}">{e(email)}</a>.</p>'
-        return '<p class="form-off">Este canal abre em breve.</p>'
-    ts = (cfg.get("interacoes") or {}).get("turnstile", "")
-    priv = f'<a href="{pre}privacidade/">Política de Privacidade</a>'
-    if tipo == "newsletter":
-        eds = "".join(f'<label class="op"><input type="checkbox" name="editorias" value="{x["slug"]}"> {e(x["nome"])}</label>' for x in portal.visiveis())
-        campos = (f'<label>Nome <small>(opcional)</small><input name="nome" maxlength="80" autocomplete="name"></label>'
-                  f'<label>E-mail<input name="email" type="email" required maxlength="120" autocomplete="email"></label>'
-                  f'<fieldset><legend>Assuntos que você quer receber <small>(opcional)</small></legend><div class="ops">{eds}</div></fieldset>')
-        consent = (f"Quero receber a newsletter do {e(portal.NOME)} por e-mail. Sei que posso cancelar a qualquer momento "
-                   f"pelo link em cada mensagem, e li a {priv}.")
-        botao = "Inscrever-me"
-    else:
-        extra = ""
-        if tipo == "comercial":
-            extra = '<label>Empresa ou igreja <small>(opcional)</small><input name="empresa" maxlength="120" autocomplete="organization"></label>'
-        elif tipo == "evento":
-            extra = ('<label>Nome do evento<input name="empresa" required maxlength="120"></label>'
-                     '<label>Data e cidade<input name="detalhe" required maxlength="160" placeholder="Ex.: 12 a 14/03/2027, Curitiba (PR)"></label>')
-        elif tipo == "correcao":
-            extra = '<label>Endereço da matéria<input name="detalhe" type="url" required maxlength="300" placeholder="https://"></label>'
-        campos = (f'<label>Nome<input name="nome" required minlength="2" maxlength="80" autocomplete="name"></label>'
-                  f'<label>E-mail<input name="email" type="email" required maxlength="120" autocomplete="email"></label>{extra}'
-                  f'<label>Mensagem<textarea name="mensagem" required minlength="10" maxlength="3000" rows="5"></textarea></label>')
-        consent = f"Autorizo o uso destes dados só para responder a esta mensagem, conforme a {priv}."
-        botao = "Enviar"
-    return f"""<form class="form-pc" data-api="{e(api())}" data-tipo="{tipo}" data-origem="{e(origem)}" data-turnstile="{e(ts)}">
- {campos}
- <label class="isca" aria-hidden="true">Site<input name="site" tabindex="-1" autocomplete="off"></label>
- <label class="consent"><input type="checkbox" name="consentimento" required> <span>{consent}</span></label>
- <div class="f-ts"></div>
- <button type="submit">{botao}</button>
- <p class="f-st" role="status"></p>
-</form>
-<script src="{pre}js/formularios.js" defer></script>"""
-
-

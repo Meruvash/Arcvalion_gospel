@@ -1,0 +1,21 @@
+# GitHub Pages: arquivos de trabalho que ficam no repositório, mas não são publicados no site.
+# Nada é apagado: as rotinas continuam lendo e escrevendo estes arquivos normalmente.
+# Para voltar a publicar algum, basta tirá-lo desta lista.
+exclude:
+  - seo
+  - docs
+  - worker
+  - PADRAO_EDITORIAL.md
+  - PAUTA_NOTICIAS.md
+  - PLANO_FOTOS.md
+  - PLANO_NOTICIAS.md
+  - PRODUCT.md
+  - README.md
+  - pauta.json
+  - conteudo
+  - tools
+  - lotes
+  - modelos
+  - triagem
+  - divulgacao
+  - sky-team/fotos/reservadas
