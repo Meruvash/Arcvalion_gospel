@@ -1,0 +1,102 @@
+{
+ "slug": "canada-c41-barra-eutanasia-por-doenca-mental",
+ "data": "2026-10-29",
+ "categoria": "familia-e-valores",
+ "status": "revisao",
+ "manchete": true,
+ "titulo": "Canadá apresenta projeto que barra eutanásia só por doença mental, mas libera pedido antecipado",
+ "lide": "O governo do Canadá apresentou em 27 de outubro o projeto C-41, que exclui por tempo indeterminado a morte assistida para quem tem apenas doença mental e, ao mesmo tempo, permite que adultos autorizem o procedimento com antecedência, antes de perder a capacidade de decidir.",
+ "corpo": [
+  "O projeto, chamado de Lei de Salvaguardas da Morte Assistida, foi apresentado pelo ministro da Justiça, Sean Fraser, ao lado da ministra da Saúde, Marjorie Michel. A exclusão da doença mental como única condição segue uma recomendação do Comitê Misto Especial do Parlamento, publicada em 17 de junho de 2026. A regra que hoje impede esse acesso venceria em 17 de março de 2027.",
+  "O pedido antecipado vale para adultos com diagnóstico de doença incurável que deve tirar a capacidade de decidir. Segundo o Ministério da Justiça, o procedimento não será automático: a pessoa ainda precisa cumprir todos os requisitos e estar em sofrimento intolerável no momento. Caberá a cada província decidir se oferece o pedido antecipado. O texto ainda precisa ser aprovado pelo Parlamento."
+ ],
+ "fontes": [
+  {
+   "nome": "Ministério da Justiça do Canadá: comunicado sobre o projeto C-41",
+   "url": "https://www.canada.ca/en/department-justice/news/2026/10/canada-moves-to-allow-advance-requests-for-maid-with-rigorous-safeguards.html",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "CP24/CTV News: Liberals table bill amending Canada's medical assistance in dying regime",
+   "url": "https://www.cp24.com/news/canada/2026/10/27/liberals-table-bill-amending-canadas-medical-assistance-in-dying-regime/",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Código Penal (Decreto-Lei 2.848/1940), artigos 121 e 122, no Planalto",
+   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Wikimedia Commons: Centre Block - Parliament Hill (foto)",
+   "url": "https://commons.wikimedia.org/wiki/File:Centre_Block_-_Parliament_Hill.jpg",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "imagem": {
+  "arquivo": "canada-c41-eutanasia.jpg",
+  "credito": "Foto: Saffron Blaze, via Wikimedia Commons (CC BY-SA 3.0)",
+  "alt": "Bloco Central do Parlamento do Canadá, em Ottawa, com a Torre da Paz"
+ },
+ "crivo": {
+  "pontos": 6,
+  "criterios": [
+   "Decisão de governo com efeito sobre famílias (4)",
+   "Confirmada por duas fontes independentes (2)"
+  ]
+ },
+ "selo": "Para refletir",
+ "instituicao": "Governo do Canadá",
+ "por_que_importa": "Desde 2016 o Canadá permite e vem ampliando a morte assistida. Recuar na doença mental mostra que os alertas de médicos e famílias pesaram. Só que o mesmo projeto abre outra porta, a do pedido antecipado, e o debate sobre o valor da vida no fim dela continua aberto.",
+ "numeros": [
+  [
+   "C-41",
+   "número do projeto, apresentado em 27/10/2026",
+   "Ministério da Justiça do Canadá"
+  ],
+  [
+   "17/03/2027",
+   "data em que venceria a exclusão atual da doença mental",
+   "CP24/CTV News"
+  ],
+  [
+   "67% a 69%",
+   "dos canadenses apoiam o pedido antecipado, segundo consulta nacional de 2025",
+   "Ministério da Justiça do Canadá"
+  ]
+ ],
+ "no_brasil": "No Brasil, não há previsão legal para a eutanásia: o caso pode ser enquadrado como homicídio (artigo 121 do Código Penal), e quem induz, instiga ou auxilia alguém a se suicidar comete crime (artigo 122). A decisão canadense não muda nada na lei brasileira.",
+ "critica": [
+  {
+   "fonte": "Krista Carr, diretora-executiva da Inclusion Canada, à CTV News (tradução livre)",
+   "texto": "Apoiamos de coração a decisão do governo de excluir permanentemente a doença mental. Por outro lado, estamos muito decepcionados com a expansão para os pedidos antecipados.",
+   "citacao": true,
+   "url": "https://www.cp24.com/news/canada/2026/10/27/liberals-table-bill-amending-canadas-medical-assistance-in-dying-regime/"
+  },
+  {
+   "fonte": "Alicia Duncan, escritora e filha de uma paciente que recebeu a morte assistida, à CTV News",
+   "texto": "Para Alicia Duncan, escritora e filha de uma paciente que recebeu a morte assistida, é irresponsável ampliar um sistema que já mostra falhas grandes, disse ela à CTV News.",
+   "citacao": false
+  },
+  {
+   "fonte": "Sean Fraser, ministro da Justiça do Canadá, no comunicado oficial",
+   "texto": "O ministro da Justiça, Sean Fraser, diz no comunicado oficial que o governo vai trabalhar com províncias e territórios na implementação, com salvaguardas rigorosas para proteger as pessoas.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Você acompanha o debate sobre eutanásia e cuidados no fim da vida",
+  "Você quer argumentos com fonte para conversar sobre o tema na igreja ou em casa"
+ ],
+ "nao_e_para": [
+  "Você procura uma decisão final: o texto ainda vai ser votado pelo Parlamento canadense"
+ ],
+ "veredito": "Vale acompanhar a votação. Excluir a doença mental é uma vitória de quem pediu cautela, mas o pedido antecipado leva a morte assistida a pessoas que não poderão confirmar a decisão no momento final. Para quem defende a vida, o projeto traz um avanço e um alerta.",
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, organização dos fatos e primeira versão do texto"
+ }
+}

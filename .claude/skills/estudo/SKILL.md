@@ -1,0 +1,14 @@
+---
+name: estudo
+description: Produz o próximo estudo bíblico do portal (o equivalente das resenhas do Elite Boardgamers) — escolha da passagem, pesquisa em comentários e obras de referência com fontes, texto no padrão dos estudos (docs/PADRAO_EDITORIAL.md), imagem em domínio público ou licença livre, legenda do Instagram e envio para revisão. Use quando pedirem "/estudo", "próximo estudo", "estudo de <passagem>".
+---
+
+# Estudo bíblico
+
+Mesma estrutura da resenha do Elite, com a passagem no lugar do jogo. Sai com `"status": "revisao"` (prévia) até aprovação humana.
+
+1. **Passagem.** Se o pedido não diz, escolha uma passagem ligada às notícias recentes (campo `estudos` das notas) ou aos temas mais buscados (Sermão do Monte, Salmo 23, Romanos 8, Gênesis 1, Fruto do Espírito, Parábolas). Confira em `conteudo/estudos/` que ainda não existe.
+2. **Pesquisa** com pelo menos 3 fontes com link: comentários bíblicos e dicionários de domínio público ou acesso aberto (Matthew Henry, Spurgeon, Bíblia de Estudo Genebra nas partes citadas pela editora, Dicionário Bíblico, artigos acadêmicos, sites das sociedades bíblicas). Toda interpretação vai com o nome de quem a defende; havendo divergência entre tradições, diga.
+3. **Texto** em `conteudo/estudos/<slug>.json` (ver docs/PADRAO_EDITORIAL.md, "Estudos bíblicos"): `titulo`, `passagem`, `sigla`, `livro` (nome como em /biblia/), `testamento`, `genero`, `nivel` (1 a 3), `tempo_min`, `selo`, `tagline`, `lede`, `descricao`, `versiculo_chave` (texto, referência e tradução, preferindo traduções em domínio público como a Almeida Revista e Corrigida de 1898/1969 nas partes livres, ou citação curta com crédito), `estrutura` (3 a 7 partes com referência), `contexto`, `aplicacao`, `destaques`, `atencao` (leituras equivocadas, com gravidade), `perfil`, `formatos`, `para_quem`, `nao_e_para`, `dica`, `traducoes`, `relacionadas`, `comparacoes`, `versiculos`, `veredito`, `ficha`, `fontes`, `consulta`, `legenda`, `ia`, `status: "revisao"`.
+4. **Imagem**: obra de arte em domínio público (Wikimedia Commons, com autor, ano e licença no crédito) ou foto de licença livre. Nunca imagem gerada por IA. `python3 tools/imagens/baixar.py`.
+5. `python3 tools/estudos/checar_estudo.py conteudo/estudos/<slug>.json`, `python3 tools/build.py`, Playwright em 390 px na prévia, commit e push. Resumo com o link da prévia e o comando de aprovação.

@@ -31,7 +31,7 @@ ORIGINAIS = {
 SEGREDOS = r"(sk-[A-Za-z0-9]{20,}|ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY|xox[bp]-[A-Za-z0-9-]+)"
 IGNORAR = {".git", ".cache", "node_modules"}
 # documentação pode citar o original (é o histórico da migração); este arquivo precisa listar os identificadores
-LIVRES = {"docs", "tools/checar_isolamento.py"}
+LIVRES = {"docs", ".claude", "CLAUDE.md", "tools/checar_isolamento.py"}  # documentação interna da migração (não vai para o site)
 TEXTO = {".py", ".js", ".mjs", ".json", ".html", ".xml", ".txt", ".md", ".toml", ".sql", ".yml", ".yaml", ".css", ".svg"}
 
 

@@ -1,0 +1,101 @@
+{
+ "slug": "pew-religiao-estavel-jovens-eua",
+ "data": "2026-10-29",
+ "categoria": "noticias-gospel",
+ "status": "revisao",
+ "titulo": "Pew: religião se estabiliza nos EUA, e os adultos mais jovens vão mais à igreja",
+ "lide": "Pesquisa do Pew Research Center divulgada em 28 de outubro mostra que a religião parou de encolher nos Estados Unidos desde 2020. Entre os adultos de 18 a 22 anos, 41% vão a cultos ao menos uma vez por mês, acima dos 33% da população adulta.",
+ "corpo": [
+  "Os índices de quem se identifica com uma religião (70% em 2026), ora todos os dias (47%) e frequenta cultos ao menos uma vez por mês (34%) ficaram praticamente iguais desde 2020, segundo o instituto. Em junho de 2026, 34% disseram ter ido a um culto presencial no último mês, o maior número desde julho de 2020.",
+  "O Pew destaca uma novidade: entre os mais jovens, os homens vão mais à igreja que as mulheres, 47% contra 35%. O instituto, porém, diz não ter evidência de que alguma geração tenha ficado mais religiosa, e o grupo de 23 a 26 anos está entre os menos religiosos já medidos."
+ ],
+ "fontes": [
+  {
+   "nome": "Pew Research Center: Religion Remains Stable in the U.S., With Mixed Signals for Young Adults",
+   "url": "https://www.pewresearch.org/religion/2026/10/28/religion-remains-stable-in-the-us-with-mixed-signals-for-young-adults/",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Pew Research Center: Most Americans' Religious Lives Haven't Changed Much in Recent Years",
+   "url": "https://www.pewresearch.org/short-reads/2026/10/28/most-americans-religious-lives-havent-changed-much-in-recent-years/",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Religion News Service, via Word&Way: Amid Mixed Pew Findings, Youngest Adults Outpace Parents' Generation",
+   "url": "https://wordandway.org/2026/10/28/amid-mixed-pew-findings-youngest-adults-outpace-parents-generation-in-worship-attendance/",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Wikimedia Commons: culto na Salem Baptist Church of Chicago (foto)",
+   "url": "https://commons.wikimedia.org/wiki/File:James_Meeks_delivers_%22Surviving_Basic_Training%22_sermon_to_Salem_Baptist_Church_Congregation_at_House_of_Hope_in_2022_IMG_09.png",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "imagem": {
+  "arquivo": "pew-religiao-jovens-eua.jpg",
+  "credito": "Foto: Salem Baptist Church of Chicago, via Wikimedia Commons (CC BY 3.0)",
+  "alt": "Congregação de pé durante culto na Salem Baptist Church, em Chicago, em 2022"
+ },
+ "crivo": {
+  "pontos": 5,
+  "criterios": [
+   "Dado novo de pesquisa sobre fé e família (3)",
+   "Confirmada por duas fontes independentes (2)"
+  ]
+ },
+ "selo": "Boa notícia",
+ "instituicao": "Pew Research Center",
+ "por_que_importa": "Durante anos, a manchete foi a mesma: a igreja americana perde gente. Os números agora param de cair, e a geração mais nova volta aos bancos com mais frequência que a anterior. Não é avivamento, avisa o próprio instituto, mas é um freio que muita gente dava como impossível.",
+ "numeros": [
+  [
+   "41%",
+   "dos adultos de 18 a 22 anos vão a cultos ao menos uma vez por mês",
+   "Pew Research Center"
+  ],
+  [
+   "33%",
+   "de todos os adultos dos EUA fazem o mesmo",
+   "Pew Research Center"
+  ],
+  [
+   "47% x 35%",
+   "homens e mulheres de 18 a 22 anos que vão ao culto todo mês",
+   "Pew Research Center"
+  ],
+  [
+   "5.835",
+   "adultos acompanhados de 2020 a 2025 no estudo de longo prazo",
+   "Pew Research Center"
+  ]
+ ],
+ "no_brasil": "A pesquisa ouviu apenas adultos dos Estados Unidos e não traz dados sobre o Brasil. Os números servem de referência para igrejas brasileiras que trabalham com jovens, mas não descrevem a realidade daqui.",
+ "critica": [
+  {
+   "fonte": "Chip Rotolo, pesquisador do Pew Research Center, ao Religion News Service (tradução livre)",
+   "texto": "É a primeira vez que vemos os homens jovens parecerem um pouco mais religiosos que as mulheres jovens em algumas medidas.",
+   "citacao": true,
+   "url": "https://wordandway.org/2026/10/28/amid-mixed-pew-findings-youngest-adults-outpace-parents-generation-in-worship-attendance/"
+  },
+  {
+   "fonte": "Pew Research Center, no relatório",
+   "texto": "No relatório, o Pew Research Center diz que não há como saber se os adultos mais jovens vão manter esse padrão ou rompê-lo com a idade.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Você trabalha com jovens na igreja e quer dados para planejar",
+  "Você ouve falar em avivamento entre jovens e quer saber o que os números mostram"
+ ],
+ "nao_e_para": [
+  "Você procura dados do Brasil: a pesquisa é só dos Estados Unidos"
+ ],
+ "veredito": "Boa notícia com os pés no chão. A presença dos jovens nos cultos subiu e a queda geral parou, mas o próprio Pew pede cautela. Para as igrejas, o recado é claro: quem chegou precisa encontrar discipulado de verdade para ficar.",
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, organização dos fatos e primeira versão do texto"
+ }
+}

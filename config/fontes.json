@@ -1,15 +1,110 @@
 {
- "_ajuda": "Feeds lidos por tools/editorial/coletar.py para montar a pauta do dia (testados em 29/10/2026). A coleta só sugere: toda matéria precisa de apuração, fonte primária e revisão humana. 'editoria' é a sugestão de destino. 'filtro' (regex) deixa passar só itens do tema. Fontes que proíbem robôs ficam só para leitura pontual, citadas com link.",
+ "_ajuda": "Feeds da rodada 1 da rotina de notícias (tools/editorial/coletar.py), testados em 29/10/2026. 'filtro': 'temas' deixa passar só itens dos temas do portal (campo temas); um regex próprio também vale. 'tipo' primaria = a própria instituição fala; secundaria = outro veículo (serve de pista: a notícia precisa da fonte primária). Fontes que proíbem robôs ficam só para leitura pontual.",
  "feeds": [
-  {"nome": "Agência Senado", "url": "https://www12.senado.leg.br/noticias/rss", "editoria": "politica-e-sociedade", "tipo": "primaria"},
-  {"nome": "Agência Câmara de Notícias", "url": "https://www.camara.leg.br/noticias/rss/ultimas-noticias", "editoria": "politica-e-sociedade", "tipo": "primaria"},
-  {"nome": "Planalto: notícias", "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/RSS", "editoria": "politica-e-sociedade", "tipo": "primaria"},
-  {"nome": "Banco Central: notícias", "url": "https://www.bcb.gov.br/api/feed/sitebcb/sitefeeds/noticias", "editoria": "economia-e-negocios", "tipo": "primaria"},
-  {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml", "editoria": "politica-e-sociedade", "tipo": "secundaria"},
-  {"nome": "CNBB", "url": "https://www.cnbb.org.br/feed/", "editoria": "noticias-gospel", "tipo": "primaria"},
-  {"nome": "Pew Research Center", "url": "https://www.pewresearch.org/feed/", "editoria": "noticias-gospel", "tipo": "primaria", "filtro": "relig|christian|evangel|church|faith"},
-  {"nome": "Lifeway Research", "url": "https://news.lifeway.com/feed/", "editoria": "noticias-gospel", "tipo": "primaria"},
-  {"nome": "Christianity Today", "url": "https://www.christianitytoday.com/feed/", "editoria": "noticias-gospel", "tipo": "secundaria"}
+  {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/rss",
+   "editoria": "politica-e-sociedade",
+   "tipo": "primaria",
+   "filtro": "temas"
+  },
+  {
+   "nome": "Agência Câmara de Notícias",
+   "url": "https://www.camara.leg.br/noticias/rss/ultimas-noticias",
+   "editoria": "politica-e-sociedade",
+   "tipo": "primaria",
+   "filtro": "temas"
+  },
+  {
+   "nome": "Planalto: notícias",
+   "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/RSS",
+   "editoria": "politica-e-sociedade",
+   "tipo": "primaria",
+   "filtro": "temas"
+  },
+  {
+   "nome": "Banco Central: notícias",
+   "url": "https://www.bcb.gov.br/api/feed/sitebcb/sitefeeds/noticias",
+   "editoria": "economia-e-negocios",
+   "tipo": "primaria",
+   "filtro": "família|famílias|endividamento|juros|inflação|crédito|Pix"
+  },
+  {
+   "nome": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "filtro": "temas"
+  },
+  {
+   "nome": "Aliança Cristã Evangélica Brasileira",
+   "url": "https://aliancaevangelica.org.br/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "CGADB (Assembleias de Deus)",
+   "url": "https://www.cgadb.org.br/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "CNBB",
+   "url": "https://www.cnbb.org.br/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Vatican News (português)",
+   "url": "https://www.vaticannews.va/pt.rss.xml",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria",
+   "filtro": "Brasil|brasileir|perseguição|liberdade religiosa|família"
+  },
+  {
+   "nome": "Gospel Prime",
+   "url": "https://www.gospelprime.com.br/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Gospel Mais",
+   "url": "https://noticias.gospelmais.com.br/feed",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Comunhão",
+   "url": "https://comunhao.com.br/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Pleno News",
+   "url": "https://pleno.news/feed",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "filtro": "temas"
+  },
+  {
+   "nome": "Christian Post",
+   "url": "https://www.christianpost.com/rss",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Christianity Today",
+   "url": "https://www.christianitytoday.com/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Pew Research Center",
+   "url": "https://www.pewresearch.org/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "primaria",
+   "filtro": "relig|christian|evangel|church|faith"
+  }
  ],
  "temas": "igreja|igrejas|evangélic|cristã|cristão|religios|liberdade religiosa|liberdade de expressão|família|famílias|criança|infância|adolesc|educação|escola|aborto|casamento|missões|missionári|pastor|bíblia|fé\\b|culto|templo|perseguição|gospel"
 }

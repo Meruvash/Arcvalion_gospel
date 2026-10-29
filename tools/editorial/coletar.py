@@ -1,7 +1,7 @@
 """Coleta de pauta: lê os feeds de config/fontes.json e grava uma lista de candidatas para a redação avaliar.
 
 Uso: python3 tools/editorial/coletar.py [--dias 2]
-Saída: .cache/pauta/<AAAA-MM-DD>.md (fora do site e do Git). Portado da ideia de tools/noticias/coletar.py do original:
+Saída: .cache/pauta/<AAAA-MM-DD>.md (fora do site e do Git). É a rodada 1 da skill noticias. Portado da ideia de tools/noticias/coletar.py do original:
 respeita o robots.txt de cada site, identifica o robô no User-Agent e só ordena candidatas (itens dos temas do portal
 primeiro, fontes primárias antes). Não escreve matéria nem publica nada: a apuração e a redação seguem o padrão
 editorial, e a publicação depende de revisão humana (tools/publicar.py).
@@ -29,9 +29,11 @@ def permitido(url):
     host = urlparse(url)
     base = f"{host.scheme}://{host.netloc}"
     if base not in _ROBOS:
-        rp = urllib.robotparser.RobotFileParser(base + "/robots.txt")
+        # lê o robots.txt com a identificação do robô (o leitor padrão do Python usa outra e alguns sites a bloqueiam)
+        rp = urllib.robotparser.RobotFileParser()
         try:
-            rp.read()
+            with urllib.request.urlopen(urllib.request.Request(base + "/robots.txt", headers={"User-Agent": UA}), timeout=30) as r:
+                rp.parse(r.read().decode("utf-8", "ignore").splitlines())
         except Exception:
             rp = None  # robots.txt inacessível: segue a regra geral (permitido), como os buscadores
         _ROBOS[base] = rp
@@ -86,7 +88,7 @@ def main(args):
         except Exception as ex:
             avisos.append(f"{f['nome']}: falhou ({ex.__class__.__name__})")
             continue
-        filtro = re.compile(f["filtro"], re.I) if f.get("filtro") else None
+        filtro = temas if f.get("filtro") == "temas" else re.compile(f["filtro"], re.I) if f.get("filtro") else None
         for titulo, link, resumo, quando in lista:
             if quando and quando < limite:
                 continue

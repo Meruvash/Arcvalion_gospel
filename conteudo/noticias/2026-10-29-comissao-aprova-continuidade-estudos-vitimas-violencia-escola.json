@@ -1,0 +1,90 @@
+{
+ "slug": "comissao-aprova-continuidade-estudos-vitimas-violencia-escola",
+ "data": "2026-10-29",
+ "categoria": "familia-e-valores",
+ "status": "revisao",
+ "titulo": "Comissão da Câmara aprova regras para vítima de violência na escola continuar estudando",
+ "lide": "A Comissão de Educação da Câmara dos Deputados aprovou em 28 de outubro o projeto de lei 2359/2026, que muda a Lei da Escuta Protegida para garantir que alunos vítimas de violência na escola ou por causa dela continuem estudando com rapidez e segurança.",
+ "corpo": [
+  "Pelo texto da relatora, deputada Socorro Neri (PP-AC), a prioridade é manter o aluno na mesma escola, com segurança reforçada. Se for preciso, ele pode mudar de turma, de turno ou de escola, com vaga e matrícula imediatas. A falta temporária de documentos não pode impedir a frequência, e o estudante mantém as atividades já feitas no ano letivo.",
+  "O projeto prevê ainda apoio pedagógico individual, prazos de avaliação flexíveis e sigilo sobre os dados do aluno e as circunstâncias da violência. A transferência não pode ser automática. A proposta, do deputado licenciado Romero Rodrigues (PB), segue para a Comissão de Constituição e Justiça e, se aprovada, pode ir direto ao Senado."
+ ],
+ "fontes": [
+  {
+   "nome": "Agência Câmara de Notícias: Comissão aprova regras para garantir continuidade dos estudos de vítimas de violência nas escolas",
+   "url": "https://www.camara.leg.br/noticias/1314884-comissao-aprova-regras-para-garantir-continuidade-dos-estudos-de-vitimas-de-violencia-nas-escolas",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, dados abertos: PL 2359/2026 (ementa e tramitação)",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2624049",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Lei nº 13.431/2017 (Lei da Escuta Protegida), no Planalto",
+   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13431.htm",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "imagem": {
+  "arquivo": "camara-pl-2359-violencia-escolas.jpg",
+  "credito": "Foto: Kayo Magalhães/Câmara dos Deputados (foto de arquivo)",
+  "alt": "Deputada Socorro Neri, relatora do projeto, discursa na tribuna da Câmara"
+ },
+ "crivo": {
+  "pontos": 4,
+  "criterios": [
+   "Decisão do Congresso com efeito sobre famílias e a proteção da infância (4)"
+  ]
+ },
+ "selo": "Boa notícia",
+ "instituicao": "Câmara dos Deputados",
+ "por_que_importa": "Hoje, quem sofre violência na escola muitas vezes é quem acaba saindo dela, perdendo o ano e os amigos. O projeto inverte a lógica: a vítima fica protegida e continua estudando. Para pais e para quem cuida de crianças na igreja, é uma proteção concreta, e não só um discurso.",
+ "numeros": [
+  [
+   "PL 2359/2026",
+   "número do projeto, apresentado em 12/05/2026",
+   "Câmara dos Deputados, dados abertos"
+  ],
+  [
+   "Lei 13.431",
+   "de 2017, a Lei da Escuta Protegida, que o projeto altera",
+   "Planalto"
+  ],
+  [
+   "CCJ",
+   "próxima comissão a analisar o texto, em caráter conclusivo",
+   "Agência Câmara de Notícias"
+  ]
+ ],
+ "no_brasil": "O projeto tramita em caráter conclusivo: se a Comissão de Constituição e Justiça aprovar, o texto segue para o Senado sem precisar passar pelo plenário da Câmara. Para virar lei, precisa ser aprovado pelas duas Casas e sancionado.",
+ "critica": [
+  {
+   "fonte": "Deputada Socorro Neri (PP-AC), relatora, à Agência Câmara",
+   "texto": "A transferência automática e não fundamentada pode configurar, em si, uma forma de violência institucional.",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1314884-comissao-aprova-regras-para-garantir-continuidade-dos-estudos-de-vitimas-de-violencia-nas-escolas"
+  },
+  {
+   "fonte": "Deputada Socorro Neri (PP-AC), relatora, à Agência Câmara",
+   "texto": "Crianças e adolescentes que vivenciam situações de violência na escola frequentemente se veem diante de uma escolha cruel.",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1314884-comissao-aprova-regras-para-garantir-continuidade-dos-estudos-de-vitimas-de-violencia-nas-escolas"
+  }
+ ],
+ "para_quem": [
+  "Você é pai, mãe ou responsável por criança em idade escolar",
+  "Você atua no ministério infantil ou com adolescentes e quer saber dos direitos deles"
+ ],
+ "nao_e_para": [
+  "Você procura uma lei em vigor: o projeto ainda passa pela CCJ e pelo Senado"
+ ],
+ "veredito": "Boa notícia para as famílias. Proteger a vítima sem tirá-la da escola é o certo, e o texto ainda cuida do sigilo e do apoio nos estudos. Vale acompanhar a CCJ e o Senado para que a proposta não fique parada na gaveta.",
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, organização dos fatos e primeira versão do texto"
+ }
+}
