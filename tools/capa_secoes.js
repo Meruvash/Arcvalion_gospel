@@ -39,7 +39,7 @@ p{font-size:25px;line-height:1.35;color:#cdd3de}
 </style></head><body>
 <div class="grid">${imgs.map(f => `<img src="data:image/${f.endsWith('.webp') ? 'webp' : 'jpeg'};base64,${b64(f)}">`).join('')}</div>
 <div class="fade"></div>
-<div class="txt"><div class="brand">♛ ELITE BOARDGAMERS</div><h1 style="font-size:${titulo.length > 10 ? 72 : 96}px">${titulo}</h1><p>${texto}</p><div class="n">${selo}</div></div>
+<div class="txt"><div class="brand">✝ PORTAL CRISTÃO</div><h1 style="font-size:${titulo.length > 10 ? 72 : 96}px">${titulo}</h1><p>${texto}</p><div class="n">${selo}</div></div>
 </body></html>`;
 
 (async () => {

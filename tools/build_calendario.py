@@ -39,7 +39,7 @@ SITUACAO = {
     "em-desenvolvimento": ("dev", "Em desenvolvimento", 4),
 }
 FILTRO_SITUACAO = [("", "Todas"), ("lancado", "Lançados"), ("pre", "Pré-venda"), ("financ", "Financiamento"), ("anunciado", "Anunciados")]
-FILTRO_TIPO = [("", "Tudo"), ("jogo", "Jogos"), ("exp", "Expansões"), ("rpg", "RPG")]
+FILTRO_TIPO = [("", "Tudo"), ("jogo", "Eventos"), ("exp", "Lançamentos"), ("rpg", "Outros")]
 MES_CURTO = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
 
 
@@ -224,7 +224,7 @@ JS = """<script>
   const itens = $$('.grade-cal li'), meses = $$('.mes'), chipsMes = $$('.trilho .chip');
   const busca = $('#busca'), caixa = $('.busca'), cont = $('.contagem'), vazio = $('.vazio');
   const NOMES = Object.fromEntries(meses.map(m => [m.dataset.mes, m.dataset.nome]));
-  const TIPOS = { jogo: 'Jogo', exp: 'Expansão', rpg: 'RPG', outro: 'Outros' };
+  const TIPOS = { jogo: 'Evento', exp: 'Lançamento', rpg: 'Outro', outro: 'Outros' };
   // texto da busca (nome + editora, sem acento) tirado do próprio cartão
   const BUSCA = new Map(itens.map(li => [li, norm(li.querySelector('.nome').textContent + ' ' + li.querySelector('.ed').textContent)]));
   // Sem âncora, a página abre no topo com o mês corrente selecionado; o ano inteiro fica no chip "Ano todo".
@@ -302,10 +302,10 @@ JS = """<script>
     const acoes = [];
     if (d.noticia) acoes.push(`<a class="pri" href="${d.noticia}">Ler a notícia da Elite</a>`);
     if (d.resenha) acoes.push(`<a class="pri" href="${d.resenha}">Ler a nossa resenha</a>`);
-    acoes.push(`<a class="${acoes.length ? 'sec' : 'pri'}" href="${d.ludopedia}" target="_blank" rel="noopener">Ver o jogo na Ludopedia</a>`);
+    acoes.push(`<a class="${acoes.length ? 'sec' : 'pri'}" href="${d.ludopedia}" target="_blank" rel="noopener">Ver a fonte</a>`);
     if (d.topico) acoes.push(`<a class="sec" href="${d.topico}" target="_blank" rel="noopener">Tópico oficial na Ludopedia</a>`);
     $('.acoes', dlg).innerHTML = acoes.join('');
-    $('.cpw', dlg).dataset.texto = `${d.nome} (${d.editora}): lançamento no Brasil, no calendário da Portal Cristão`;
+    $('.cpw', dlg).dataset.texto = `${d.nome} (${d.editora}), na agenda do Portal Cristão`;
     $('.cp-st', dlg).textContent = '';
     history.replaceState(null, '', '#' + li.id);
     dlg.showModal();
@@ -362,16 +362,16 @@ def build(ano=None):
 
     atualizado = max(datetime.fromtimestamp((ROOT / "conteudo" / "lancamentos" / f"{m}.json").stat().st_mtime) for m in rotulos)
     pre = "../"
-    corpo = f"""{cabecalho(pre, "Lançamentos")}
+    corpo = f"""{cabecalho(pre, "Agenda")}
 <main id="conteudo" class="in cal">
  <div class="cal-topo">
-  <h1>Lançamentos de {ano} no Brasil</h1>
-  <p>{len(por_id)} jogos, expansões e RPGs das editoras brasileiras, mês a mês. Toque num jogo para ver os detalhes.</p>
-  <p class="fonte">Dados e capas do <a href="https://ludopedia.com.br/lancamentos" target="_blank" rel="noopener">calendário da Ludopedia</a>, consultado em {atualizado:%d/%m/%Y}. Datas previstas pelas editoras podem mudar.</p>
+  <h1>Agenda cristã de {ano}</h1>
+  <p>{f"{len(por_id)} eventos e lançamentos cristãos no Brasil, mês a mês. Toque num item para ver os detalhes." if por_id else "Eventos, congressos e lançamentos cristãos no Brasil, mês a mês. A agenda é montada só com datas confirmadas em fonte oficial e ainda não tem itens."}</p>
+  <p class="fonte">Cada item traz a fonte, consultada em {atualizado:%d/%m/%Y}. Datas previstas pelos organizadores podem mudar.</p>
  </div>
  <div class="ctrl">
-  <nav class="atalhos" aria-label="Seções do site"><a href="{pre}">Início</a><a href="{pre}noticias/">Notícias</a><a href="{pre}estudos/">Resenhas</a><a href="{pre}consulta/">Consulta Golden Geek</a></nav>
-  <div class="busca"><input id="busca" type="search" placeholder="Buscar jogo ou editora" aria-label="Buscar jogo ou editora" autocomplete="off" enterkeyhint="search"><button type="button" class="limpa" aria-label="Limpar busca">×</button></div>
+  <nav class="atalhos" aria-label="Seções do site"><a href="{pre}">Início</a><a href="{pre}noticias/">Notícias</a><a href="{pre}estudos/">Estudos bíblicos</a><a href="{pre}consulta/">Livros da Bíblia</a></nav>
+  <div class="busca"><input id="busca" type="search" placeholder="Buscar evento ou organizador" aria-label="Buscar evento ou organizador" autocomplete="off" enterkeyhint="search"><button type="button" class="limpa" aria-label="Limpar busca">×</button></div>
   <div class="trilho" role="group" aria-label="Mês">{"".join(chips)}</div>
   <div class="filtros" role="group" aria-label="Filtros">{filtros}</div>
  </div>
@@ -387,15 +387,15 @@ def build(ano=None):
   <div class="topo"><div class="capa2"></div><div><h2 id="ficha-nome"></h2><p class="ed2"></p></div></div>
   <dl><dt>Previsto para</dt><dd class="v-mes"></dd><dt>Situação</dt><dd class="v-st"></dd><dt>Tipo</dt><dd class="v-tipo"></dd></dl>
   <div class="acoes"></div>
-  <div class="cp-ficha">{botao_compartilhar("Lançamento no Brasil, no calendário da Portal Cristão", "", "Compartilhar este jogo", mini=True)}</div>
-  <p class="nota-fonte">Dados do calendário da Ludopedia.</p>
+  <div class="cp-ficha">{botao_compartilhar("Na agenda do Portal Cristão", "", "Compartilhar", mini=True)}</div>
+  <p class="nota-fonte">Datas confirmadas na fonte oficial de cada item.</p>
  </div>
 </dialog>
 {rodape(pre)}
 {JS}"""
     url = f"{SITE}/lancamentos/"
-    titulo = f"Lançamentos de jogos de tabuleiro {ano} no Brasil | Portal Cristão"
-    descricao = f"Calendário com os {len(por_id)} lançamentos de {ano} das editoras brasileiras: jogos de tabuleiro, expansões e RPGs, mês a mês, com capa, editora e situação."
+    titulo = f"Agenda cristã {ano}: eventos e lançamentos no Brasil | Portal Cristão"
+    descricao = f"Agenda de {ano} com eventos, congressos e lançamentos cristãos no Brasil, mês a mês, com data, organizador e fonte."
     ld = seo.script(seo.trilha(("Início", f"{SITE}/"), ("Lançamentos", url)))
     html = pagina(titulo, descricao, url, capa_secao("lancamentos"), pre, corpo, head_extra="\n" + CSS_CAL, jsonld=ld)
     html = html.replace("<body>", f'<body data-agora="{agora}" data-ano="{ano}">', 1)

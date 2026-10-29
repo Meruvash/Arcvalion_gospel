@@ -5,7 +5,7 @@ description: Verificação diária do portal (cópia da verificação das 22h do
 
 # Verificação diária
 
-1. `python3 tools/noticias/checar_noticia.py`, `python3 tools/estudos/checar_estudo.py`, `python3 tools/build.py`, `python3 tools/checar_seo.py publico`, `python3 tools/checar_isolamento.py`.
+1. `python3 tools/noticias/checar_noticia.py`, `python3 tools/estudos/checar_estudo.py`, `python3 tools/build_home.py`, `python3 tools/checar_seo.py`, `python3 tools/checar_isolamento.py`.
 2. Para cada nota e estudo em revisão ou publicado nas últimas 24 h: abra as fontes (WebFetch respeitando robots.txt) e confira nomes, cargos, datas, números, votações, nomes de projetos de lei, referências bíblicas e citações literais. Confira se a foto é do fato certo e tem licença e crédito.
 3. Confira a separação: fato no relato; opinião só em Por que importa e Nossa opinião; posições atribuídas; nenhuma fonte anônima; título sem sensacionalismo.
 4. Erro em nota **em revisão**: corrija no JSON com a fonte certa e rode o build. Erro em matéria **publicada**: proponha o texto e o comando `python3 tools/publicar.py corrigir <arquivo> --revisor <slug> --texto "..."` para a pessoa revisora aprovar.

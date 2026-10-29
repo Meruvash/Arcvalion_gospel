@@ -1,6 +1,7 @@
 # Deploy no GitHub Pages: a cada push na main (publicação aprovada em 29/10/2026) e pelo botão "Run workflow".
-# Pré-requisito (feito em 29/10/2026): Settings > Pages > Source = GitHub Actions; domínio em config/portal.json;
-# responsável editorial, e-mail e pelo menos uma pessoa revisora configurados (o build --producao recusa sem isso).
+# Como no Elite, o site é gerado na raiz do repositório por tools/build_home.py; aqui ele é gerado de novo e a raiz
+# é publicada sem os arquivos de trabalho (tools, conteudo, docs, worker, exemplos e a lista "exclude" do _config.yml).
+# Notas com "status": "revisao" saem só em /previa/ (noindex); nada vai ao ar sem a aprovação da pessoa revisora.
 name: Deploy
 on:
   push:
@@ -18,6 +19,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
+        with: {fetch-depth: 0}   # o sitemap usa o histórico do git para a data da lista de livros
       - uses: actions/setup-python@v6
         with: {python-version: "3.12"}
       - uses: actions/setup-node@v5
@@ -25,12 +27,17 @@ jobs:
       - run: pip install -r requirements.txt
       - run: npm install --no-audit --no-fund
       - run: npx playwright install --with-deps chromium
-      - run: python3 -m unittest discover -s tests && python3 tools/checar_isolamento.py
-      - run: python3 tools/build.py --producao && python3 tools/checar_seo.py publico
-      - name: Domínio próprio (CNAME), só quando não for o endereço github.io
-        run: python3 -c "import json;h=json.load(open('config/portal.json'))['url'].removeprefix('https://').split('/')[0];h.endswith('github.io') or open('publico/CNAME','w').write(h)"
+      - name: Padrão editorial, testes e isolamento
+        run: |
+          python3 tools/noticias/checar_noticia.py && python3 tools/estudos/checar_estudo.py
+          python3 -m unittest discover -s tests
+          python3 tools/checar_isolamento.py
+      - name: Gerar o site na raiz
+        run: python3 tools/build_home.py && python3 tools/checar_seo.py && python3 tools/checar_isolamento.py
+      - name: Montar a pasta publicada (raiz sem os arquivos de trabalho)
+        run: python3 tools/montar_publicacao.py _site
       - uses: actions/upload-pages-artifact@v3
-        with: {path: publico}
+        with: {path: _site}
   deploy:
     needs: build
     runs-on: ubuntu-24.04

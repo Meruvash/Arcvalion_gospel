@@ -1,0 +1,6 @@
+# Portal Cristão: todos os robôs de busca e de IA são bem-vindos.
+User-agent: *
+Allow: /
+
+Sitemap: https://meruvash.github.io/Arcvalion_gospel/sitemap.xml
+Sitemap: https://meruvash.github.io/Arcvalion_gospel/sitemap-noticias.xml

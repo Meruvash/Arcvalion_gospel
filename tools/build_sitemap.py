@@ -87,6 +87,8 @@ def fontes():
     paginas = []
     for p in sorted((ROOT / "conteudo" / "noticias").glob("*.json")):
         n = json.loads(p.read_text(encoding="utf-8"))
+        if n.get("status", "publicado") != "publicado":  # nota em revisão fica só na prévia (noindex)
+            continue
         n.pop("publicado_em", None)
         n_pub = json.loads(p.read_text(encoding="utf-8")).get("publicado_em")
         paginas.append(("noticia", f"{SITE}/noticias/{n['slug']}/", ROOT / "noticias" / n["slug"] / "index.html", assinatura(n), n_pub))
@@ -170,7 +172,7 @@ def build():
     for p in sorted((ROOT / "conteudo" / "noticias").glob("*.json")):
         n = json.loads(p.read_text(encoding="utf-8"))
         url = f"{SITE}/noticias/{n['slug']}/"
-        if n.get("publicado_em") and url in novo and datetime.fromisoformat(n["publicado_em"]) >= limite:
+        if n.get("status", "publicado") == "publicado" and n.get("publicado_em") and url in novo and datetime.fromisoformat(n["publicado_em"]) >= limite:
             recentes.append((n["publicado_em"], url, n["titulo"]))
     noticias = "".join(
         f"""  <url><loc>{escape(u)}</loc><news:news><news:publication><news:name>Portal Cristão</news:name><news:language>pt</news:language></news:publication>"""
@@ -195,7 +197,7 @@ def atualizar():
             if "/noticias/" in url:
                 for p in (ROOT / "conteudo" / "noticias").glob(f"*{slug}.json"):
                     n = json.loads(p.read_text(encoding="utf-8"))
-                    if n["slug"] == slug:
+                    if n["slug"] == slug and n.get("status", "publicado") == "publicado":
                         build_home.build_nota(n)
             elif (ROOT / "conteudo" / f"{slug}.json").exists():
                 c = json.loads((ROOT / "conteudo" / f"{slug}.json").read_text(encoding="utf-8"))

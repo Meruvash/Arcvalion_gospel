@@ -1,4 +1,4 @@
-"""Escreve no HTML de consulta/index.html a lista do Golden Geek que o JavaScript monta no navegador.
+"""Escreve no HTML de consulta/index.html a lista dos livros da Bíblia que o JavaScript monta no navegador.
 
 Uso: python3 tools/build_consulta.py   (também roda no fim de build_home.py)
 Também reescreve o cabeçalho, o menu e o rodapé com a moldura comum de tools/layout.py.
@@ -17,7 +17,6 @@ import json  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ARQ = ROOT / "consulta" / "index.html"
-PLACE = ["1º", "2º", "3º"]
 
 
 def esc(s):
@@ -26,7 +25,7 @@ def esc(s):
 
 
 def mapa_resenhas(nomes):
-    """Jogos do Golden Geek que têm resenha (mesmo nome normalizado que um apelido da resenha): slug e outros nomes."""
+    """Livros da Bíblia que têm estudo (mesmo nome normalizado que um apelido da resenha): slug e outros nomes."""
     por_nome = resenhas_por_nome()
     mapa = {}
     for n in nomes:
@@ -45,10 +44,10 @@ def tabela(s, resenhas):
         if not linha:
             continue
         y, c, g = linha.split(" | ")
-        rows += [{"y": y, "c": c, "p": i + 1, "n": n} for i, n in enumerate(g.split("; "))]
-    occ = {}
-    for r in rows:
-        occ.setdefault(r["n"], []).append(r)
+        for x in g.split("; "):
+            n, k = x.split("=")
+            rows.append({"y": y, "c": c, "p": len(rows) + 1, "n": n, "k": int(k)})
+    plural = lambda q, um, varios: f"{q} {um if q == 1 else varios}"
     body, key = "", None
     for r in rows:
         k = r["y"] + "|" + r["c"]
@@ -56,29 +55,31 @@ def tabela(s, resenhas):
             if key is not None:
                 body += "</tbody>"
             key = k
-            en = f'<span class="ge">{esc(oficial[r["c"]])}</span>' if r["c"] in oficial else ""
-            body += f'<tbody><tr class="grp"><th colspan="2"><span class="gy">{r["y"]}</span><span class="gc">{esc(r["c"])}</span>{en}</th></tr>'
-        n = len(occ[r["n"]])
-        badge = f'<button type="button" class="multi" data-g="{esc(r["n"])}" title="Ver todas as aparições">{n} aparições</button>' if n > 1 else ""
-        res = f'<a class="res" href="../{resenhas[r["n"]]["r"]}/">Ler resenha</a>' if r["n"] in resenhas else ""
-        body += (f'<tr class="row{" first" if r["p"] == 1 else ""}">'
-                 f'<td class="pos">{PLACE[r["p"] - 1]}</td><td class="g">{esc(r["n"])}{badge}{res}</td></tr>')
+            grupo = [x for x in rows if x["y"] == r["y"] and x["c"] == r["c"]]
+            en = oficial.get(r["c"]) or f'{plural(len(grupo), "livro", "livros")} · {plural(sum(x["k"] for x in grupo), "capítulo", "capítulos")}'
+            body += f'<tbody><tr class="grp"><th colspan="2"><span class="gy">{r["y"]}</span><span class="gc">{esc(r["c"])}</span><span class="ge">{esc(en)}</span></th></tr>'
+        res = f'<a class="res" href="../{resenhas[r["n"]]["r"]}/">Ler estudo</a>' if r["n"] in resenhas else ""
+        body += (f'<tr class="row"><td class="pos">{r["p"]}º</td><td class="g">{esc(r["n"])}{res}'
+                 f'<span class="cap">{plural(r["k"], "capítulo", "capítulos")}</span></td></tr>')
     body += "</tbody>"
-    total = f'{len(rows)} {"resultado" if len(rows) == 1 else "resultados"}'
-    return f"<table><thead><tr><th>Colocação</th><th>Jogo</th></tr></thead>{body}</table>", total
+    caps = sum(r["k"] for r in rows)
+    total = f'{plural(len(rows), "livro", "livros")} · {caps:,} {"capítulo" if caps == 1 else "capítulos"}'.replace(",", ".")
+    return f"<table><thead><tr><th>Ordem</th><th>Livro</th></tr></thead>{body}</table>", total
 
 
 def build():
     s = ARQ.read_text(encoding="utf-8")
     raw = re.search(r"const RAW = `(.*?)`", s, re.S).group(1)
-    resenhas = mapa_resenhas({n for linha in raw.strip().split("\n") if linha.strip() for n in linha.strip().split(" | ")[2].split("; ")})
+    resenhas = mapa_resenhas({x.split("=")[0] for linha in raw.strip().split("\n") if linha.strip() for x in linha.strip().split(" | ")[2].split("; ")})
     html_tabela, total = tabela(s, resenhas)
-    novo = re.sub(r'<div id="out">.*?</div>(?=\n\n <a class="zap")', lambda _: f'<div id="out">{html_tabela}</div>', s, count=1, flags=re.S)
+    novo = re.sub(r'<div id="out">.*?</div>(?=\s*(?:<a class="zap"|<section class="notas">))', lambda _: f'<div id="out">{html_tabela}</div>', s, count=1, flags=re.S)
     # moldura comum do site (tools/layout.py)
-    novo = re.sub(r'<header class="(?:top)?bar".*?</nav>', lambda _: cabecalho("../", "Consulta Golden Geek"), novo, count=1, flags=re.S)
+    # (o script do menu que segue o </nav> entra junto, para não se repetir a cada geração)
+    novo = re.sub(r'<header class="(?:top)?bar".*?</nav>(?:\s*<script>\(\(\)=>\{const n=document\.querySelector\(\'\.nav\'\).*?</script>)*',
+                  lambda _: cabecalho("../", "Livros da Bíblia"), novo, count=1, flags=re.S)
     novo = re.sub(r'(?:<style id="moldura">.*?</style>\n)?</head>', lambda _: f'<style id="moldura">{CSS_BUSCA}</style>\n</head>', novo, count=1, flags=re.S)
     # compartilhar a lista do jeito que está filtrada (o endereço guarda ano, categoria e pesquisa)
-    cp = botao_compartilhar("Consulta Golden Geek 2015–2025 na Portal Cristão", "", "Compartilhar", mini=True)
+    cp = botao_compartilhar("Livros da Bíblia no Portal Cristão", "", "Compartilhar", mini=True)
     novo = re.sub(r'<!--cp-->.*?<!--/cp-->', lambda _: f'<!--cp-->{cp}<!--/cp-->', novo, count=1, flags=re.S)
     # rodapé + barra de compartilhar do pé da tela (entre marcadores, para ser trocada inteira na próxima geração)
     novo = re.sub(r'<footer>.*?</footer>(?:\s*<!--lt-->.*?<!--/lt-->)?', lambda _: rodape("../", "\n<!--lt-->" + barra_leitura(interacao=False) + "<!--/lt-->"),

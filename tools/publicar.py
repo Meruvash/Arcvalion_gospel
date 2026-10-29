@@ -11,7 +11,7 @@ Uso:
       tira a matéria do site (status "despublicado"); o arquivo e o histórico ficam no repositório.
 
 O revisor precisa estar em config/equipe.json com "revisor": true. Rotinas de IA não usam este script:
-elas só escrevem rascunhos (premissa 6, revisão humana antes da publicação). Depois: python3 tools/build.py.
+elas só escrevem rascunhos (premissa 6, revisão humana antes da publicação). Depois: python3 tools/build_home.py.
 """
 import argparse
 import json
@@ -87,7 +87,7 @@ def main(argv=None):
         if erros:
             sys.exit("Não publicado; corrija antes:\n - " + "\n - ".join(erros))
     arq.write_text(json.dumps(a, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"ok {ar.acao}: {arq.name} (revisor: {p['nome']}). Agora rode python3 tools/build.py")
+    print(f"ok {ar.acao}: {arq.name} (revisor: {p['nome']}). Agora rode python3 tools/build_home.py")
 
 
 if __name__ == "__main__":

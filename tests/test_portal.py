@@ -19,7 +19,6 @@ from noticias.checar_noticia import checar_dia, problemas as p_nota  # noqa: E40
 from estudos.checar_estudo import problemas as p_estudo  # noqa: E402
 
 EX = RAIZ / "exemplos" / "conteudo"
-SAIDA = "publico-teste"
 
 
 def rodar(*args, env=None):
@@ -88,74 +87,119 @@ class Estudos(unittest.TestCase):
         self.assertTrue(any("referência" in x for x in p_estudo(c, publicar=True)))
 
 
+def copia_do_site(exemplos=False):
+    """Cópia temporária do repositório para rodar o build do Elite (tools/build_home.py) sem mexer na raiz.
+
+    Com exemplos=True, troca as notícias pelas FICTÍCIAS de exemplos/ (uma publicada por revisor-exemplo e uma em
+    revisão) e a equipe pela de exemplos/config: serve só para testar a página de nota publicada."""
+    tmp = Path(tempfile.mkdtemp()) / "site"
+    lixo = shutil.ignore_patterns(".git", "node_modules", ".cache", "__pycache__", "_site", "publico*")
+    shutil.copytree(RAIZ, tmp, ignore=lixo)
+    if exemplos:
+        for p in (tmp / "conteudo" / "noticias").glob("*.json"):
+            p.unlink()
+        for p in (EX / "noticias").glob("*.json"):
+            shutil.copy(p, tmp / "conteudo" / "noticias" / p.name)
+        for p in (EX / "imagens").glob("*.jpg"):
+            shutil.copy(p, tmp / "noticias" / p.name)
+        shutil.copy(RAIZ / "exemplos" / "config" / "equipe.json", tmp / "config" / "equipe.json")
+    r = subprocess.run([sys.executable, "tools/build_home.py"], cwd=tmp, capture_output=True, text=True)
+    if r.returncode:
+        raise AssertionError(r.stdout + r.stderr)
+    return tmp
+
+
 class Build(unittest.TestCase):
+    """Build do Elite com o conteúdo real: as notas em revisão só podem aparecer em /previa/ (noindex)."""
+
     @classmethod
     def setUpClass(cls):
-        r = rodar("tools/build.py", "--exemplo", "--saida", SAIDA, "--sem-og")
-        if r.returncode:
-            raise AssertionError(r.stdout + r.stderr)
-        cls.s = RAIZ / SAIDA
+        cls.s = copia_do_site()
+        cls.revisao = [json.loads(p.read_text(encoding="utf-8"))["slug"] for p in (RAIZ / "conteudo" / "noticias").glob("*.json")
+                       if json.loads(p.read_text(encoding="utf-8")).get("status") == "revisao"]
 
     @classmethod
     def tearDownClass(cls):
-        shutil.rmtree(RAIZ / SAIDA, ignore_errors=True)
+        shutil.rmtree(cls.s.parent, ignore_errors=True)
 
     def html(self, rel):
         return (self.s / rel).read_text(encoding="utf-8")
 
     def test_rotas(self):
-        for rel in ["index.html", "noticias/index.html", "noticias/exemplo-manchete/index.html", "estudos/index.html", "estudos/exemplo-estudo/index.html",
-                    "agenda/index.html", "biblia/index.html", "politica-editorial/index.html", "404.html", "feed.xml", "sitemap.xml",
-                    "sitemap-noticias.xml", "robots.txt", "llms.txt", "busca.json", "previa/index.html"]:
+        for rel in ["index.html", "noticias/index.html", "estudos/index.html", "lancamentos/index.html", "consulta/index.html",
+                    "politica-editorial/index.html", "404.html", "sitemap.xml", "sitemap-noticias.xml", "robots.txt", "llms.txt",
+                    "busca.json", "favicon.svg", "marca/portal-cristao.webp"]:
             self.assertTrue((self.s / rel).exists(), rel)
 
     def test_revisao_so_na_previa(self):
-        self.assertFalse((self.s / "noticias" / "exemplo-em-revisao").exists())
-        self.assertTrue((self.s / "previa" / "noticias" / "exemplo-em-revisao" / "index.html").exists())
-        previa = self.html("previa/noticias/exemplo-em-revisao/index.html")
-        self.assertIn('content="noindex"', previa)
-        self.assertIn("Prévia em revisão", previa)
-        for rel in ("index.html", "noticias/index.html", "sitemap.xml", "busca.json", "feed.xml"):
-            self.assertNotIn("exemplo-em-revisao", self.html(rel), rel)
+        for slug in self.revisao:
+            self.assertFalse((self.s / "noticias" / slug).exists(), slug)
+            previa = self.html(f"previa/noticias/{slug}/index.html")
+            self.assertIn('content="noindex"', previa)
+            for rel in ("index.html", "noticias/index.html", "sitemap.xml", "sitemap-noticias.xml", "busca.json", "llms.txt"):
+                self.assertNotIn(slug, self.html(rel), rel)
+            self.assertFalse(list((self.s / "img").rglob(f"*{slug}*")), slug)  # sem cartão público de prévia
 
-    def test_formato_elite(self):
-        nota = self.html("noticias/exemplo-manchete/index.html")
-        for secao in ("Por que importa", "Em números", "Contexto", "No Brasil", "O que dizem", "Interessa a você se", "Nossa opinião",
-                      "Fontes", "Por que esta notícia entrou", "revisada por"):
-            self.assertIn(secao, nota)
-        est = self.html("estudos/exemplo-estudo/index.html")
-        for secao in ("Resumo em 30 segundos", "Estrutura de", "Para a vida hoje", "O que o texto ensina", "Leituras equivocadas",
-                      "Para quem é", "Para guardar", "Ficha do livro", "Perguntas frequentes", "progresso"):
-            self.assertIn(secao, est)
+    def test_livros_da_biblia(self):
+        s = self.html("consulta/index.html")
+        self.assertIn("66 livros · 1.189 capítulos", s)
+        raw = s.split("const RAW = `", 1)[1].split("`", 1)[0]
+        caps = {"Antigo Testamento": 0, "Novo Testamento": 0}
+        livros = {"Antigo Testamento": 0, "Novo Testamento": 0}
+        for linha in raw.strip().split("\n"):
+            t, _, g = linha.split(" | ")
+            for x in g.split("; "):
+                livros[t] += 1
+                caps[t] += int(x.split("=")[1])
+        self.assertEqual((livros, caps), ({"Antigo Testamento": 39, "Novo Testamento": 27}, {"Antigo Testamento": 929, "Novo Testamento": 260}))
 
     def test_cores_azuis(self):
         s = self.html("index.html")
         self.assertIn("#0a1a33", s)
-        self.assertNotRegex(s, r"--ground:#000[;}]")
-
-    def test_seo(self):
-        r = rodar("tools/checar_seo.py", SAIDA, "--exemplo")
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertNotRegex(s, r"background:#000[;}]")
 
     def test_sem_marca_antiga(self):
         for p in self.s.rglob("*.html"):
-            self.assertNotRegex(p.read_text(encoding="utf-8"), r"(?i)elite ?boardgamers", str(p))
+            if "exemplos" in p.parts or "docs" in p.parts:
+                continue
+            self.assertNotRegex(p.read_text(encoding="utf-8"), r"(?i)elite ?boardgamers|eliteboardgamers|golden geek", str(p))
+
+    def test_publicacao_sem_arquivos_de_trabalho(self):
+        r = subprocess.run([sys.executable, "tools/montar_publicacao.py", "_site"], cwd=self.s, capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        site = self.s / "_site"
+        self.assertTrue((site / "index.html").exists())
+        for rel in ("tools", "conteudo", "docs", "worker", "exemplos", "config", "pauta.json", "CLAUDE.md", ".git"):
+            self.assertFalse((site / rel).exists(), rel)
+        shutil.rmtree(site)
+
+    def test_seo(self):
+        r = subprocess.run([sys.executable, "tools/checar_seo.py"], cwd=self.s, capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+
+
+class NotaPublicada(unittest.TestCase):
+    """Página de nota publicada no formato do Elite, com as notas FICTÍCIAS de exemplos/ numa cópia temporária."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.s = copia_do_site(exemplos=True)
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.s.parent, ignore_errors=True)
+
+    def test_formato_elite(self):
+        nota = (self.s / "noticias" / "exemplo-manchete" / "index.html").read_text(encoding="utf-8")
+        for secao in ("Por que importa", "Fontes"):
+            self.assertIn(secao, nota)
+        self.assertNotIn('content="noindex"', nota)
+        self.assertIn("exemplo-manchete", (self.s / "index.html").read_text(encoding="utf-8"))
+        self.assertFalse((self.s / "noticias" / "exemplo-em-revisao").exists())
+        self.assertTrue((self.s / "previa" / "noticias" / "exemplo-em-revisao" / "index.html").exists())
 
 
 class Producao(unittest.TestCase):
-    def test_cloudflare_e_github(self):
-        amb = {**os.environ, "CF_PAGES": "1", "CF_PAGES_URL": "https://8f3a1b2c.arcvalion.pages.dev"}
-        r = rodar("tools/build.py", "--producao", "--saida", "publico-teste-prod", "--sem-og", env=amb)
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        self.assertIn('href="https://arcvalion.pages.dev/"', (RAIZ / "publico-teste-prod" / "index.html").read_text(encoding="utf-8"))
-        r = rodar("tools/build.py", "--saida", "publico-teste-prod", "--sem-og")
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        self.assertIn("/Arcvalion_gospel/marca/favicon.svg", (RAIZ / "publico-teste-prod" / "404.html").read_text(encoding="utf-8"))
-        shutil.rmtree(RAIZ / "publico-teste-prod", ignore_errors=True)
-
-    def test_saida_fora_recusada(self):
-        self.assertNotEqual(rodar("tools/build.py", "--saida", "/tmp/qualquer", "--sem-og").returncode, 0)
-
     def test_isolamento(self):
         r = rodar("tools/checar_isolamento.py")
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)

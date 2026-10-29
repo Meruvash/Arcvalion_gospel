@@ -10,8 +10,9 @@ da migração está em `docs/`.
 
 ```bash
 pip install -r requirements.txt
-python3 exemplos/gerar.py && python3 tools/build.py --exemplo   # prévia fictícia em publico-exemplo/
-python3 tools/build.py                                           # site real em publico/
+python3 tools/build_home.py                                      # site gerado na raiz (código de front-end do Elite)
+python3 tools/checar_seo.py && python3 tools/checar_isolamento.py
+python3 tools/montar_publicacao.py _site                         # o que o deploy publica (raiz sem arquivos de trabalho)
 python3 -m unittest discover -s tests && node --test tests/worker.test.mjs
 ```
 

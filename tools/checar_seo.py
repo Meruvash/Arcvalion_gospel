@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://meruvash.github.io/Arcvalion_gospel"
 PROIBIDOS = {"Review", "AggregateRating", "Product", "Offer", "Rating"}
-FORA = {".git", ".cache", ".claude", ".impeccable", "tools", "conteudo", "modelos", "lotes", "triagem"}
+FORA = {".git", ".cache", ".claude", ".impeccable", "tools", "conteudo", "modelos", "lotes", "triagem", "exemplos", "node_modules", "docs", "worker", "_site"}
 
 
 def tipos(no):
@@ -74,6 +74,10 @@ def checar(erros):
     for p in sorted(ROOT.rglob("index.html")):
         rel = p.relative_to(ROOT)
         if FORA & set(rel.parts):
+            continue
+        if rel.parts[0] == "previa":  # prévia de revisão: não vai para busca, então só precisa do noindex
+            if 'content="noindex"' not in p.read_text(encoding="utf-8"):
+                erros.append(f"SEO {rel}: prévia de revisão sem noindex")
             continue
         url = f"{SITE}/" + ("" if rel.parent == Path(".") else f"{rel.parent.as_posix()}/")
         erros += [f"SEO {url}: {x}" for x in problemas(url, p.read_text(encoding="utf-8"))]

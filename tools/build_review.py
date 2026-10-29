@@ -164,7 +164,7 @@ def noticias_do_jogo(c, n=5):
     notas = []
     for p in (ROOT / "conteudo" / "noticias").glob("*.json"):
         nota = json.loads(p.read_text(encoding="utf-8"))
-        if any(j.get("resenha") == c["slug"] for j in nota.get("jogos", [])):
+        if nota.get("status", "publicado") == "publicado" and any(j.get("resenha") == c["slug"] for j in nota.get("jogos", [])):
             notas.append(nota)
     if not notas:
         return ""

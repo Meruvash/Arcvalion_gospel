@@ -35,7 +35,7 @@ jobs:
         env:
           SITE_URL: ${{ vars.SITE_URL }}
           WORKERS_CI: "1"   # sem SITE_URL, serve na raiz (o endereço provisório do github.io tem caminho)
-        run: python3 tools/build.py --producao --sem-og && python3 tools/checar_seo.py publico
+        run: python3 tools/build_home.py && python3 tools/checar_seo.py && python3 tools/montar_publicacao.py publico
       - name: Publicar no Cloudflare
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

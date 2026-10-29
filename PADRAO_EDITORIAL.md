@@ -89,7 +89,7 @@ Pedido do usuário: a resenha precisa gerar reação e compartilhamento. O tom d
 4. **Justiça na mesma página.** A resenha ácida reconhece o que o jogo faz bem em `funciona`, com o mesmo cuidado. O selo segue as regras de sempre: o tom não muda o selo, e opinião forte não é desculpa para "Não recomendado".
 5. **Frase pronta para compartilhar.** Pelo menos uma frase curta e citável no veredito (capital social: o leitor compartilha para parecer entendido), e a legenda fecha com uma pergunta que provoque resposta.
 6. **Inteligente, não grosseiro.** Nada de palavrão, xingamento ou deboche fácil. Comparações concretas e inesperadas ("reunião de condomínio", "peça de ficção") funcionam melhor que adjetivos.
-7. **Nada inventado para causar.** Se a pesquisa não sustenta a polêmica, o tom fica firme mas sem a tese contrária. A opinião é da Elite Boardgamers e precisa ser defensável.
+7. **Nada inventado para causar.** Se a pesquisa não sustenta a polêmica, o tom fica firme mas sem a tese contrária. A opinião é da Portal Cristão e precisa ser defensável.
 8. **Voz: "a gente".** Tom de conversa, mas a voz é do site: "a gente", nunca "eu". Nunca cite o nome de Gervais nem de outro humorista no texto; é só a estrutura.
 9. **Nada de muleta.** A mesma piada no máximo uma vez por resenha; o preço entra no máximo três vezes nas partes de opinião (além do item de preço). Bordões de uma resenha não se repetem na seguinte: "Olha", "Isso não é uma crítica. Bom, é um pouco", "Ou outros amigos" e similares valem uma vez e depois saem do repertório. Repita as técnicas, não as frases.
 10. **Sem palavrão e sem alvo vulnerável.** Gervais xinga e às vezes mira em grupos de pessoas; aqui não. Nada de piada com doença, deficiência, aparência, origem ou religião.
@@ -145,14 +145,14 @@ Foto de outra edição não reprova: entra com o aviso no crédito (`"Imagem: �
 
 # Padrão editorial das notícias (v1)
 
-A notícia da Elite Boardgamers não repete o release: diz o que aconteceu, por que importa para quem joga no Brasil, o que a crítica acha e o que a gente recomenda. Herda do padrão das resenhas a regra de ouro: **fato tem fonte, opinião tem dono**. Conferido por `tools/noticias/checar_noticia.py`; `tools/build_home.py` não publica nota que não passa.
+A notícia da Portal Cristão não repete o release: diz o que aconteceu, por que importa para quem joga no Brasil, o que a crítica acha e o que a gente recomenda. Herda do padrão das resenhas a regra de ouro: **fato tem fonte, opinião tem dono**. Conferido por `tools/noticias/checar_noticia.py`; `tools/build_home.py` não publica nota que não passa.
 
 | Campo (em `conteudo/noticias/<data>-<assunto>.json`) | Seção da página | Regra |
 |---|---|---|
 | `titulo` | título | 8 a 16 palavras: o fato e quem, sem caça-clique. |
 | `selo` | selo da nota | Um de: **Vale a compra**, **Vale acompanhar**, **Para fãs do jogo base**, **Com ressalvas**, **Informativo**. |
 | `lide` | abertura | 35 a 70 palavras: o fato, quando, onde e a ligação com o Brasil. |
-| `por_que_importa` | Por que importa | 30 a 70 palavras de **análise nossa**, assinada pela Elite Boardgamers: o que a notícia muda para o leitor. |
+| `por_que_importa` | Por que importa | 30 a 70 palavras de **análise nossa**, assinada pela Portal Cristão: o que a notícia muda para o leitor. |
 | `numeros` | Em números | 2 a 4 itens `[valor, rótulo, fonte]`. Só número com fonte; preço sempre com data. |
 | `corpo` | Contexto | 1 a 3 parágrafos, 40 a 200 palavras: o que o leitor precisa saber para entender. |
 | `no_brasil` | No Brasil | 25 a 80 palavras: editora nacional, preço com data, disponibilidade, ou a falta de edição nacional. |

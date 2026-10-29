@@ -1,7 +1,7 @@
 """Confere uma notícia contra o padrão editorial das notícias (docs/PADRAO_EDITORIAL.md).
 
 Uso: python3 tools/noticias/checar_noticia.py [conteudo/noticias/<arquivo>.json ...]  (sem argumentos, todas)
-Sai com erro se alguma nota não passar; tools/build.py usa a mesma função e se recusa a publicar.
+Sai com erro se alguma nota não passar; tools/build_home.py usa a mesma função e se recusa a publicar.
 Cópia do checar_noticia.py do Elite Boardgamers (mesmas faixas de palavras, selos, crivo, foto obrigatória, regra da
 manchete e vícios de texto), trocadas as regras de jogos (edição nacional, Ludopedia) pelas do jornalismo cristão:
 fonte primária identificável, citação atribuída, nada de fonte anônima nem de caça-clique, revisão humana registrada.
@@ -45,7 +45,9 @@ def textos(n):
 
 def checar_foto(n):
     im = n.get("imagem") or {}
-    arq = portal.ROOT / "noticias" / im["arquivo"] if im.get("arquivo") else None  # como no Elite: noticias/capas/<arquivo>
+    # como no Elite: noticias/capas/<arquivo>; o conteúdo fictício de exemplos/ guarda as fotos em exemplos/conteudo/imagens
+    pasta = portal.CONTEUDO / "imagens" if portal.EXEMPLO else portal.ROOT / "noticias"
+    arq = pasta / im["arquivo"] if im.get("arquivo") else None
     if not arq or not arq.is_file():
         return ["sem foto: notícia não sai sem foto (licença livre, divulgação oficial ou própria, com crédito)"]
     try:

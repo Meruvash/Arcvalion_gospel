@@ -101,7 +101,9 @@ def cartao_resenha(c):
 
 def todos():
     sys.path.insert(0, str(ROOT / "tools"))
-    cartoes = [cartao_noticia(json.loads(p.read_text(encoding="utf-8"))) for p in sorted((ROOT / "conteudo" / "noticias").glob("*.json"))]
+    ns = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((ROOT / "conteudo" / "noticias").glob("*.json"))]
+    # nota em revisão não ganha cartão público (a prévia usa a foto da própria nota)
+    cartoes = [cartao_noticia(n) for n in ns if n.get("status", "publicado") == "publicado"]
     pauta = json.loads((ROOT / "pauta.json").read_text(encoding="utf-8"))
     for pub in pauta["publicadas"]:
         slug = pub["url"].rstrip("/").split("/")[-1]

@@ -10,16 +10,19 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
+        with: {fetch-depth: 0}
       - uses: actions/setup-python@v6
         with: {python-version: "3.12"}
       - uses: actions/setup-node@v5
         with: {node-version: "22"}
       - run: pip install -r requirements.txt
+      - run: npm install --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium
       - name: Padrão editorial (notícias e estudos)
         run: python3 tools/noticias/checar_noticia.py && python3 tools/estudos/checar_estudo.py
       - name: Testes (Python e Worker)
         run: python3 -m unittest discover -s tests -v && node --test tests/worker.test.mjs
-      - name: Build local e checagem de SEO
-        run: python3 tools/build.py --sem-og && python3 tools/checar_seo.py publico
+      - name: Build do site (formato do Elite, na raiz) e checagem de SEO
+        run: python3 tools/build_home.py && python3 tools/checar_seo.py
       - name: Isolamento em relação ao projeto de origem
         run: python3 tools/checar_isolamento.py

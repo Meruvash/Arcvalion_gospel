@@ -1,10 +1,10 @@
 """Gera busca.json: o índice da busca do site (botão de lupa no cabeçalho, tools/layout.py + busca.js).
 
 Uso: python3 tools/busca.py   (também roda no fim de build_home.py)
-Um registro por resenha, notícia, jogo do Golden Geek e lançamento do ano, só com nome, apelidos e uma linha
+Um registro por estudo, notícia, livro da Bíblia e item da agenda do ano, só com nome, apelidos e uma linha
 de contexto. Os apelidos (nome em português e em inglês) saem apenas dos dados do próprio site: nome da resenha,
 nome da edição brasileira (og_titulo), série da pauta e os nomes entre parênteses das editoras na ficha.
-Não há ID do BGG nem da Ludopedia nas resenhas e no Golden Geek: o cruzamento é pelo nome normalizado.
+O cruzamento entre estudos e notícias é pelo nome normalizado.
 """
 import json
 import re
@@ -17,7 +17,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_review import ROOT, campo, nome_br  # noqa: E402
 
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
-PLACE = ["1º", "2º", "3º"]
 # parênteses da "Editora no Brasil" que não são nome de jogo (datas, observações sobre a edição)
 NAO_E_NOME = re.compile(r"\d{4}|lançad|edição|edições|segundo|português|/", re.I)
 
@@ -84,21 +83,20 @@ def build():
 
     for p in sorted((ROOT / "conteudo" / "noticias").glob("*.json"), reverse=True):
         n = json.loads(p.read_text(encoding="utf-8"))
+        if n.get("status", "publicado") != "publicado":  # nota em revisão não entra na busca
+            continue
         extra = [a for j in n.get("jogos", []) for a in [j["nome"], *cruza(j["nome"])[1]]]
         d = datetime.fromisoformat(n["data"])
         regs.append(reg("n", n["titulo"], f'{d.day} de {MESES[d.month - 1]} · {n["categoria"]}', f'noticias/{n["slug"]}/', extra))
 
-    # Golden Geek: um registro por jogo, com as aparições na linha de contexto
+    # Livros da Bíblia (consulta/): um registro por livro, com grupo, testamento e capítulos na linha de contexto
     raw = re.search(r"const RAW = `(.*?)`", (ROOT / "consulta" / "index.html").read_text(encoding="utf-8"), re.S).group(1)
-    gg = {}
     for linha in raw.strip().split("\n"):
-        y, cat, nomes = linha.strip().split(" | ")
-        for i, nome in enumerate(nomes.split("; ")):
-            gg.setdefault(nome, []).append(f"{cat} {y} ({PLACE[i]})")
-    for nome, ap in gg.items():
-        slug, nomes = cruza(nome)
-        s = ap[0] + (f" e mais {len(ap) - 1}" if len(ap) > 1 else "")
-        regs.append(reg("g", nome, s, "consulta/?jogo=" + nome, nomes, slug))
+        y, cat, livros = linha.strip().split(" | ")
+        for livro in livros.split("; "):
+            nome, caps = livro.split("=")
+            s = f'{cat} · {y} · {caps} {"capítulo" if caps == "1" else "capítulos"}'
+            regs.append(reg("g", nome, s, "consulta/?livro=" + nome))
 
     # lançamentos do ano, como no calendário (mesmo jogo em dois meses fica no mais recente)
     from build_calendario import carregar, situacao, tipo

@@ -51,7 +51,7 @@ Regras de texto (as do Elite, adaptadas): fato tem fonte, opinião tem dono; o t
 
 ## 5. Build e prévia
 
-1. `python3 tools/build.py` e `python3 tools/checar_seo.py publico`.
+1. `python3 tools/build_home.py` e `python3 tools/checar_seo.py`.
 2. Confira no celular (Playwright, 390 px) a `/previa/` e cada nota: sem rolagem lateral, foto certa, crédito visível.
 3. Commit e push na `main` do repositório do portal: `Notícias de <dd/mm/aaaa> para revisão: <títulos curtos>`. O deploy publica o site com as notas só na prévia.
 4. Escreva em `conteudo/chamadas.json` a `chamada` e a `pergunta` de cada nota (regras de "Chamadas para redes" do padrão). Depois da aprovação, `python3 tools/divulgacao.py` gera os textos de WhatsApp, Telegram e Instagram.

@@ -1,7 +1,7 @@
 // Busca do site: diálogo aberto pela lupa do cabeçalho, por "/" ou Ctrl+K (o disparador fica em tools/layout.py).
 // Só é baixado quando a busca abre; o índice (busca.json, gerado por tools/busca.py) vem junto.
 (() => {
-  const GRUPOS = [["r", "Resenhas"], ["n", "Notícias"], ["g", "Consulta Golden Geek"], ["l", "Lançamentos do ano"]];
+  const GRUPOS = [["r", "Resenhas"], ["n", "Notícias"], ["g", "Livros da Bíblia"], ["l", "Lançamentos do ano"]];
   const POR_GRUPO = 5;
   const norm = t => " " + t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
   const esc = t => t.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);

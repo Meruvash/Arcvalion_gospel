@@ -1,6 +1,6 @@
 """Gera o conteúdo FICTÍCIO de exemplos/ (prévia de layout e testes). Nada aqui é notícia nem estudo real.
 
-Uso: python3 exemplos/gerar.py   e depois   python3 tools/build.py --exemplo
+Uso: python3 exemplos/gerar.py   (conteúdo fictício para os testes)
 Textos dizem que são demonstração, fontes apontam para o domínio reservado .invalid, imagens são abstratas.
 """
 import json

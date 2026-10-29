@@ -1,5 +1,5 @@
 {
- "_ajuda": "Identidade do portal. Trocar o nome, o domínio ou as redes é só editar este arquivo e rodar python3 tools/build.py. Campos vazios simplesmente não aparecem no site. O build de produção (--producao) recusa os valores provisórios: domínio .example, responsável editorial e e-mail de contato vazios.",
+ "_ajuda": "Identidade do portal. Trocar o nome, o domínio ou as redes é só editar este arquivo e rodar python3 tools/build_home.py. Campos vazios simplesmente não aparecem no site. O build de produção (--producao) recusa os valores provisórios: domínio .example, responsável editorial e e-mail de contato vazios.",
  "nome": "Portal Cristão",
  "slogan": "Jornalismo, fé e sociedade.",
  "descricao": "Informação com responsabilidade e uma perspectiva cristã sobre o Brasil e o mundo.",

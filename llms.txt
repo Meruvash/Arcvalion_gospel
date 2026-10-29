@@ -1,0 +1,13 @@
+# Portal Cristão
+
+> Portal brasileiro de notícias com fonte e data e de estudos bíblicos, em português, com uma perspectiva cristã sobre o Brasil e o mundo: fé e igreja, política e sociedade, família e valores, economia, música e cultura cristã e eventos.
+
+Responsável editorial: Anderson Pelicioni de Castro, que lê e aprova pessoalmente tudo o que é publicado. Toda notícia e todo estudo listam as fontes consultadas, com data.
+
+## Seções e referências
+
+- [Arquivo de notícias](https://meruvash.github.io/Arcvalion_gospel/noticias/)
+- [Estudos bíblicos](https://meruvash.github.io/Arcvalion_gospel/estudos/)
+- [Agenda cristã](https://meruvash.github.io/Arcvalion_gospel/lancamentos/): eventos e lançamentos com data confirmada
+- [Livros da Bíblia](https://meruvash.github.io/Arcvalion_gospel/consulta/): os 66 livros do cânon protestante, com testamento, grupo e capítulos
+- [Política editorial](https://meruvash.github.io/Arcvalion_gospel/politica-editorial/): como pesquisamos, escolhemos e corrigimos

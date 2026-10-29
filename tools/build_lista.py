@@ -213,14 +213,14 @@ def build():
     ck = lambda nome, rotulo: f'<label class="ck"><input type="checkbox" name="{nome}"><span>{rotulo} <small class="n"></small></span></label>'  # noqa: E731
     filtros = f"""<div class="barra-f" id="barra-f" hidden>
   <button type="button" class="btn-filtro" id="abrir-f" aria-haspopup="dialog" aria-controls="dlg-f">
-   <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg><span>Filtrar resenhas</span><b class="badge" id="n-ativos" hidden></b>
+   <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg><span>Filtrar estudos</span><b class="badge" id="n-ativos" hidden></b>
   </button>
-  <span class="resumo-f" id="resumo-f" aria-live="polite">{len(conteudos)} resenhas</span>
+  <span class="resumo-f" id="resumo-f" aria-live="polite">{len(conteudos)} estudos</span>
  </div>
  <div class="ativos" id="ativos" aria-label="Filtros ativos" role="group" hidden></div>
  <dialog class="folha" id="dlg-f" aria-labelledby="t-f">
   <form class="filtros" id="filtros" role="search">
-   <header class="folha-h"><h2 id="t-f">Filtrar resenhas</h2><button type="button" class="fechar" id="fechar-f" aria-label="Fechar filtros"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></header>
+   <header class="folha-h"><h2 id="t-f">Filtrar estudos</h2><button type="button" class="fechar" id="fechar-f" aria-label="Fechar filtros"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></header>
    <div class="folha-b">
     <input class="busca" type="search" name="q" placeholder="Buscar jogo pelo nome" autocomplete="off" aria-label="Buscar jogo pelo nome">
     <fieldset><legend>Jogadores</legend>{chip("jogadores", [(n, n if n < 6 else "6+") for n in range(1, 7)])}
@@ -240,10 +240,10 @@ def build():
     </div></details>
     <label class="f">Ordenar por<select name="ordem"><option value="">Mais recentes</option><option value="nota">Nota BGG</option><option value="leve">Mais leve</option><option value="pesado">Mais pesado</option><option value="curto">Mais curto</option><option value="preco">Menor preço</option></select></label>
    </div>
-   <footer class="folha-p"><button type="reset" class="limpar">Limpar</button><button type="button" class="ver" id="ver-f">Ver {len(conteudos)} resenhas</button></footer>
+   <footer class="folha-p"><button type="reset" class="limpar">Limpar</button><button type="button" class="ver" id="ver-f">Ver {len(conteudos)} estudos</button></footer>
   </form>
  </dialog>
- <div class="vazio" id="vazio" hidden><p>Nenhuma resenha com esses filtros.</p><div class="sugere" id="sugere"></div><button type="button" class="limpar" id="limpar2">Limpar todos os filtros</button></div>"""
+ <div class="vazio" id="vazio" hidden><p>Nenhum estudo com esses filtros.</p><div class="sugere" id="sugere"></div><button type="button" class="limpar" id="limpar2">Limpar todos os filtros</button></div>"""
     n = len(slugs)
     return f"""<!doctype html>
 <html lang="pt-BR">
@@ -253,8 +253,8 @@ def build():
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<title>Resenhas Portal Cristão</title>
-<meta name="description" content="Resenhas de jogos de tabuleiro premiados, com fontes: o que funciona, pontos de atenção e para quem é cada jogo.">
+<title>Estudos bíblicos | Portal Cristão</title>
+<meta name="description" content="Estudos bíblicos com fontes: contexto, estrutura, aplicação e leituras equivocadas de cada passagem.">
 <link rel="canonical" href="{SITE}/estudos/">
 <meta name="robots" content="max-image-preview:large">
 <meta property="og:site_name" content="Portal Cristão">
@@ -373,20 +373,19 @@ footer .in{{display:flex;flex-wrap:wrap;gap:10px 20px;padding-top:18px;padding-b
 </style>
 </head>
 <body>
-{cabecalho("../", "Resenhas")}
+{cabecalho("../", "Estudos bíblicos")}
 <main class="in">
  <section class="topo">
-  <h1>Resenhas de jogos premiados</h1>
-  <p class="lede">{n} resenhas com fontes: como funciona, o que funciona, pontos de atenção e para quem é cada jogo. Só entram jogos premiados no Golden Geek, Spiel des Jahres, Kennerspiel, As d'Or e Deutscher Spiele Preis. Não sabe por onde começar? Veja o <a class="guia-link" href="../jogos-de-tabuleiro/">guia de jogos de tabuleiro</a>, com os melhores para iniciantes, para dois, para festa e mais.</p>
+  <h1>Estudos bíblicos</h1>
+  <p class="lede">{f"{n} {'estudo' if n == 1 else 'estudos'} com fontes: contexto, estrutura, aplicação e leituras equivocadas de cada passagem." if n else "Os primeiros estudos estão em preparação e passam pela revisão do responsável editorial antes de serem publicados."} Para se localizar, veja os <a class="guia-link" href="../consulta/">66 livros da Bíblia</a>, com testamento, grupo e capítulos.</p>
  </section>
- {filtros}
+ {filtros if n else ""}
  <ul class="grid" id="lista">
 {cards} </ul>
-  <a class="zap zap-fim" href="{WHATSAPP}" target="_blank" rel="noopener">{icone("zap")}<span><b>Entre no grupo do WhatsApp</b><small>Receba as novas resenhas e converse sobre jogos</small></span></a>
+  {f'<a class="zap zap-fim" href="{WHATSAPP}" target="_blank" rel="noopener">{icone("zap")}<span><b>Entre no grupo do WhatsApp</b><small>Receba os novos estudos e as notícias do dia</small></span></a>' if WHATSAPP else ""}
 </main>
 {rodape("../")}
-<script>
-{JS_FILTROS}</script>
+{f"<script>{chr(10)}{JS_FILTROS}</script>" if n else ""}
 {seo.ANALYTICS}
 </body>
 </html>

@@ -422,29 +422,29 @@ def build_politica():
   <p><b>Anderson Pelicioni de Castro</b>, advogado, é o responsável editorial do Portal Cristão. Ele lê e verifica pessoalmente tudo o que é publicado.</p>
  </div></section>
  <section class="bloco"><h2>Como o conteúdo é produzido</h2><div class="corpo">
-  <p>Notícias e resenhas são redigidas com apoio de ferramentas de inteligência artificial, sempre a partir das fontes citadas em cada página. Nenhum texto vai ao ar sem fontes, e todo número, prêmio, preço ou data precisa estar numa delas.</p>
+  <p>Notícias e estudos bíblicos são redigidos com apoio de ferramentas de inteligência artificial, sempre a partir das fontes citadas em cada página. Nenhum texto vai ao ar sem fontes, e todo número, nome ou data precisa estar numa delas. Nenhum texto é publicado sem a aprovação do responsável editorial: até lá, fica numa prévia fora das buscas.</p>
   <p>Todos os dias, à noite, o que foi publicado é conferido de novo contra as fontes. Dado que não se confirma sai do texto ou passa a constar como "não confirmado nas fontes consultadas".</p>
  </div></section>
  <section class="bloco"><h2>Como escolhemos as notícias</h2><div class="corpo">
   <p>Toda notícia passa por um crivo editorial. Fica de fora o que não tem fonte primária (boato, vazamento ou "fontes dizem"), conteúdo pago ou release sem fato novo, notícia atrasada e assunto sem relação com fé, família, igreja e sociedade.</p>
-  <p>O que passa recebe pontos por relevância para quem joga no Brasil, como lançamento confirmado no país, prêmio importante ou confirmação por duas fontes independentes. Publicamos pelo menos 5 notícias por dia, sem limite: entra tudo o que passa pelas eliminatórias. Quando não há cinco notícias com 5 pontos ou mais, pesquisamos de novo em outras fontes, primeiro nas brasileiras e depois em mais uma leva de fontes diferentes. A de maior pontuação vira a manchete, e cada notícia mostra no fim por que entrou.</p>
+  <p>O que passa recebe pontos por relevância para o leitor cristão no Brasil, como fonte primária oficial, efeito concreto na vida das famílias e das igrejas ou confirmação por duas fontes independentes. A de maior pontuação vira a manchete, e cada notícia mostra no fim por que entrou.</p>
  </div></section>
  <section class="bloco" id="destaques"><h2>Destaques da página inicial</h2><div class="corpo">
-  <p>O bloco Destaques reúne os jogos mais citados nas nossas notícias dos últimos 7 dias, cada um com o link de uma notícia sobre ele. Não é um ranking de acessos nem de vendas: o site não usa dados de visitas para montar essa lista.</p>
+  <p>O bloco Destaques reúne os temas mais citados nas nossas notícias dos últimos 7 dias, cada um com o link de uma notícia sobre ele. Não é um ranking de acessos nem de vendas: o site não usa dados de visitas para montar essa lista.</p>
  </div></section>
  <section class="bloco"><h2>Fato e opinião</h2><div class="corpo">
   <p>Os fatos vêm com fonte e data de consulta. A nossa opinião aparece separada, nas seções "Por que importa" e "Nossa opinião". A opinião de outros veículos aparece sempre com o nome de quem a deu.</p>
   <p>Os estudos bíblicos indicam sempre a passagem e a tradução da Bíblia citada. Interpretações aparecem com o nome de quem as defende, e divergências entre tradições cristãs aparecem como divergências.</p>
  </div></section>
  <section class="bloco"><h2>Imagens</h2><div class="corpo">
-  <p>Usamos fotos oficiais de divulgação das editoras, imagens de licença livre ou fotos nossas, sempre com crédito.</p>
+  <p>Usamos fotos oficiais de órgãos públicos e de divulgação, imagens de licença livre ou fotos nossas, sempre com crédito. Não usamos imagens geradas por inteligência artificial nas matérias.</p>
  </div></section>
- <section class="bloco"><h2>Medição de visitas</h2><div class="corpo">
+{''' <section class="bloco"><h2>Medição de visitas</h2><div class="corpo">
   <p>Contamos as visitas com o Cloudflare Web Analytics, que não usa cookies e não identifica quem visita o site. Os números servem só para saber quais páginas são lidas e melhorar o conteúdo.</p>
- </div></section>
+ </div></section>''' if seo.ANALYTICS else ""}
 {SECAO_COMENTARIOS if _config_interacoes().get("api") else ""}
  <section class="bloco"><h2>Correções</h2><div class="corpo">
-  <p>Encontrou um erro? Mande uma mensagem no Instagram <a href="{INSTAGRAM}" target="_blank" rel="noopener">@portalcristao</a> com o link da página e a fonte da informação correta. Erros confirmados são corrigidos na própria página.</p>
+  <p>Encontrou um erro? {f'Mande uma mensagem no <a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a>' if INSTAGRAM else 'Avise o responsável editorial'}, com o link da página e a fonte da informação correta. Erros confirmados são corrigidos na própria página.</p>
  </div></section>
 </div></main>
 {rodape(pre)}"""
@@ -654,8 +654,8 @@ def build_home():
  <div class="grade">
   {manchete}
   <section class="bloco ultimas"><h2>Últimas notícias <a href="noticias/">Ver todas ({len(ns)})</a></h2><ul class="lista-n">{itens}</ul></section>
-  <aside class="lado"><section class="bloco alta"><h2>Destaques <a href="politica-editorial/#destaques" aria-label="Critério dos destaques">Critério</a></h2><p class="crit-h">Os jogos mais citados nas nossas notícias dos últimos 7 dias.</p><ol class="hot">{alta}</ol></section>
-  <section class="bloco agenda"><h2>Agenda</h2><ul>{agenda}</ul></section></aside>
+  {f'''<aside class="lado">{f'<section class="bloco alta"><h2>Destaques <a href="politica-editorial/#destaques" aria-label="Critério dos destaques">Critério</a></h2><p class="crit-h">Os temas mais citados nas nossas notícias dos últimos 7 dias.</p><ol class="hot">{alta}</ol></section>' if alta else ''}
+  {f'<section class="bloco agenda"><h2>Agenda</h2><ul>{agenda}</ul></section>' if agenda else ''}</aside>''' if alta or agenda else ''}
   {f'<section class="bloco brasil" id="chegando"><h2>Lançamentos gospel · {e(rotulo.lower())} <a href="lancamentos/#{mes}">Agenda completa</a></h2><ul class="capas">{capas}</ul></section>' if jogos else ''}
   {f'<section class="bloco financ"><h2>Missões e campanhas</h2><ul>{financ}</ul></section>' if financ else ''}
   {f'<section class="bloco resenhas"><h2>Últimos estudos bíblicos <a href="estudos/">Ver todos</a></h2><ul class="res">{res}</ul></section>' if res else ''}
@@ -687,7 +687,7 @@ def relacionadas(n, limite=3):
     cands = []
     for p in (ROOT / "conteudo" / "noticias").glob("*.json"):
         o = json.loads(p.read_text(encoding="utf-8"))
-        if o["slug"] == n["slug"]:
+        if o["slug"] == n["slug"] or o.get("status", "publicado") != "publicado":  # nota em revisão não aparece
             continue
         comum = len(jogos & {j.get("resenha") or j["nome"] for j in o.get("jogos", [])})
         if comum or o["categoria"] == n["categoria"]:
@@ -778,10 +778,6 @@ if __name__ == "__main__":
         build_nota(n, previa=True)
     print("ok index.html e", len(notas()), "notícias")
     # guias "Melhores jogos para…" antes das resenhas: o balão do perfil só liga para guia que existe
-    import build_guias
-    print("ok guias:", len(build_guias.build()), "páginas em /jogos-de-tabuleiro/")
-    import build_premios
-    print("ok", build_premios.build())
     import build_llms
     print("ok", build_llms.build())
     # resenhas mostram "Notícias sobre este jogo": regera as publicadas para incluir notas novas
@@ -790,10 +786,12 @@ if __name__ == "__main__":
         slug = pub["url"].rstrip("/").split("/")[-1]
         (ROOT / slug / "index.html").write_text(build_review.build(json.loads((ROOT / "conteudo" / f"{slug}.json").read_text(encoding="utf-8"))), encoding="utf-8")
     import build_lista
+    (ROOT / "estudos").mkdir(exist_ok=True)
     (ROOT / "estudos" / "index.html").write_text(build_lista.build(), encoding="utf-8")
     print("ok estudos/index.html")
-    import build_consulta
-    print("ok consulta/index.html:", build_consulta.build())
+    if (ROOT / "consulta" / "index.html").exists():
+        import build_consulta
+        print("ok consulta/index.html:", build_consulta.build())
     import build_calendario
     print("ok lancamentos/index.html: %d lançamentos, %d sem capa" % build_calendario.build())
     import busca
