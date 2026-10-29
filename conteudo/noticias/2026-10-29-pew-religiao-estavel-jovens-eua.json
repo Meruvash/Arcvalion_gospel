@@ -2,7 +2,7 @@
  "slug": "pew-religiao-estavel-jovens-eua",
  "data": "2026-10-29",
  "categoria": "Notícias Gospel",
- "status": "revisao",
+ "status": "publicado",
  "titulo": "Pew: religião se estabiliza nos EUA, e os adultos mais jovens vão mais à igreja",
  "lide": "Pesquisa do Pew Research Center divulgada em 28 de outubro mostra que a religião parou de encolher nos Estados Unidos desde 2020. Entre os adultos de 18 a 22 anos, 41% vão a cultos ao menos uma vez por mês, acima dos 33% da população adulta.",
  "corpo": [
@@ -99,5 +99,10 @@
  },
  "jogos": [],
  "editora": "Pew Research Center",
- "publicado_em": "2026-10-29T20:00:00-03:00"
+ "publicado_em": "2026-10-29T20:47:33-03:00",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-29T20:47:33-03:00",
+  "modo": "automatica"
+ }
 }

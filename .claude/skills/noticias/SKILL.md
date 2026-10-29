@@ -5,7 +5,7 @@ description: Monta a edição diária de notícias do portal — coleta (feeds d
 
 # Edição diária de notícias
 
-Meta da fase de teste: **3 notas por dia** que passem nos eliminatórios e no padrão (o Elite publica no mínimo 5). As três rodadas de pesquisa servem para chegar a 3 notas com **5 pontos ou mais**. **Nada é publicado pela rotina**: as notas saem com `"status": "revisao"` e aparecem só em `/previa/` (fora do Google), até uma pessoa revisora aprovar (`tools/publicar.py aprovar ... --revisor <slug>`).
+Meta da fase de teste: **3 notas por dia** que passem nos eliminatórios e no padrão (o Elite publica no mínimo 5). As três rodadas de pesquisa servem para chegar a 3 notas com **5 pontos ou mais**. **A rotina publica sozinha** (ordem do responsável editorial, 29/10/2026): cada nota é escrita com `"status": "revisao"`, passa em `tools/noticias/checar_noticia.py` e é publicada com `python3 tools/publicar.py aprovar <arquivo> --revisor anderson-pelicioni-de-castro --automatica`. Nota que não passa no validador não é publicada. A conferência é diária (ferramenta de revisão das 18h e skill `verificacao`).
 
 ## 1. Coletar, em até três rodadas
 
@@ -49,10 +49,11 @@ Regras de texto (as do Elite, adaptadas): fato tem fonte, opinião tem dono; o t
 
 `conteudo/home.json`: `em_alta` (Destaques: assuntos mais citados nas notas dos últimos 7 dias, cada um ligado a uma nota com o assunto no título) e `campanhas` (Missões e campanhas, com fonte). `conteudo/agenda.json`: eventos com data, local e fonte; tire o que passou.
 
-## 5. Build e prévia
+## 5. Publicação e build
 
-1. `python3 tools/build_home.py` e `python3 tools/checar_seo.py`.
-2. Confira no celular (Playwright, 390 px) a `/previa/` e cada nota: sem rolagem lateral, foto certa, crédito visível.
-3. Commit e push na `main` do repositório do portal: `Notícias de <dd/mm/aaaa> para revisão: <títulos curtos>`. O deploy publica o site com as notas só na prévia.
-4. Escreva em `conteudo/chamadas.json` a `chamada` e a `pergunta` de cada nota (regras de "Chamadas para redes" do padrão). Depois da aprovação, `python3 tools/divulgacao.py` gera os textos de WhatsApp, Telegram e Instagram.
-5. Resumo para a redação: rodadas feitas e o que cada uma achou, as notas (título, selo, pontos, fonte primária), a manchete, o que ficou de fora e por quê, o link de cada prévia (`<site>/previa/noticias/<slug>/`) e o comando de aprovação.
+1. Para cada nota que passou no validador: `python3 tools/publicar.py aprovar conteudo/noticias/<arquivo>.json --revisor anderson-pelicioni-de-castro --automatica`.
+2. `python3 tools/build_home.py` e `python3 tools/checar_seo.py`.
+3. Confira no celular (Playwright, 390 px) a home e cada nota: sem rolagem lateral, foto certa, crédito visível.
+4. Commit e push na `main` do repositório do portal: `Notícias de <dd/mm/aaaa>: <títulos curtos>`. O deploy publica o site.
+5. Escreva em `conteudo/chamadas.json` a `chamada` e a `pergunta` de cada nota (regras de "Chamadas para redes" do padrão). `python3 tools/divulgacao.py` gera os textos de WhatsApp, Telegram e Instagram.
+6. Resumo para a redação: rodadas feitas e o que cada uma achou, as notas publicadas (título, selo, pontos, fonte primária, link), a manchete e o que ficou de fora e por quê.

@@ -23,8 +23,9 @@ def build():
         "sobre o Brasil e o mundo: fé e igreja, política e sociedade, família e valores, economia, música e cultura "
         "cristã e eventos.",
         "",
-        "Responsável editorial: Anderson Pelicioni de Castro, que lê e aprova pessoalmente tudo o que é publicado. "
-        "Toda notícia e todo estudo listam as fontes consultadas, com data.",
+        "Responsável editorial: Anderson Pelicioni de Castro, que confere o site diariamente. "
+        "Toda notícia e todo estudo listam as fontes consultadas, com data, e passam por checagem automática do padrão "
+        "editorial antes de ir ao ar.",
     ]
     ns = sorted((n for n in (json.loads(p.read_text(encoding="utf-8")) for p in (ROOT / "conteudo" / "noticias").glob("*.json"))
                  if n.get("status", "publicado") == "publicado"),  # nota em revisão fica fora

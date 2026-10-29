@@ -10,8 +10,8 @@ Uso:
   python3 tools/publicar.py despublicar <arquivo.json> --revisor <slug> --motivo "..."
       tira a matéria do site (status "despublicado"); o arquivo e o histórico ficam no repositório.
 
-O revisor precisa estar em config/equipe.json com "revisor": true. Rotinas de IA não usam este script:
-elas só escrevem rascunhos (premissa 6, revisão humana antes da publicação). Depois: python3 tools/build_home.py.
+O revisor precisa estar em config/equipe.json com "revisor": true. Desde 29/10/2026, por ordem do responsável editorial,
+as rotinas de IA publicam sozinhas com --automatica (a aprovação fica registrada como automática). Depois: python3 tools/build_home.py.
 """
 import argparse
 import json
@@ -50,6 +50,8 @@ def main(argv=None):
     ap.add_argument("--texto")
     ap.add_argument("--motivo")
     ap.add_argument("--agendar")
+    ap.add_argument("--automatica", action="store_true",
+                    help="aprovação automática autorizada pelo responsável editorial (29/10/2026): fica registrada como tal")
     ap.add_argument("--exemplo", action="store_true", help=argparse.SUPPRESS)
     ar = ap.parse_args(argv)
     if ar.exemplo:
@@ -64,7 +66,7 @@ def main(argv=None):
     hora = agora()
     if ar.acao == "aprovar":
         a["status"] = "publicado"
-        a["revisao"] = {"revisor": ar.revisor, "data": hora}
+        a["revisao"] = {"revisor": ar.revisor, "data": hora, **({"modo": "automatica"} if ar.automatica else {})}
         a["publicado_em"] = datetime.fromisoformat(ar.agendar).replace(tzinfo=FUSO).isoformat() if ar.agendar else hora
         if "data" in a:
             a["data"] = a["publicado_em"][:10]

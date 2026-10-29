@@ -69,7 +69,7 @@ def notas():
         if not n.get("publicado_em"):
             n["publicado_em"] = publicado_em(p)
             p.write_text(json.dumps(n, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-        if n.get("status") == "revisao":  # revisão humana antes de publicar (premissa do portal): vai só para a prévia
+        if n.get("status") == "revisao":  # ainda não aprovada (tools/publicar.py, automática desde 29/10/2026): vai só para a prévia
             PREVIA.append(n)
             continue
         if n.get("status", "publicado") != "publicado":
@@ -419,10 +419,10 @@ def build_politica():
   <p class="lide">Como a Portal Cristão escolhe, escreve, confere e corrige o que publica.</p>
  </article>
  <section class="bloco"><h2>Quem responde pelo site</h2><div class="corpo">
-  <p><b>Anderson Pelicioni de Castro</b>, advogado, é o responsável editorial do Portal Cristão. Ele lê e verifica pessoalmente tudo o que é publicado.</p>
+  <p><b>Anderson Pelicioni de Castro</b>, advogado, é o responsável editorial do Portal Cristão. Ele responde pelo que é publicado e confere o site todos os dias.</p>
  </div></section>
  <section class="bloco"><h2>Como o conteúdo é produzido</h2><div class="corpo">
-  <p>Notícias e estudos bíblicos são redigidos com apoio de ferramentas de inteligência artificial, sempre a partir das fontes citadas em cada página. Nenhum texto vai ao ar sem fontes, e todo número, nome ou data precisa estar numa delas. Nenhum texto é publicado sem a aprovação do responsável editorial: até lá, fica numa prévia fora das buscas.</p>
+  <p>Notícias e estudos bíblicos são redigidos com apoio de ferramentas de inteligência artificial, sempre a partir das fontes citadas em cada página. Nenhum texto vai ao ar sem fontes, e todo número, nome ou data precisa estar numa delas. O texto só é publicado depois de passar pela checagem automática do padrão editorial (fontes, foto com licença, separação entre fato e opinião). O responsável editorial confere o site todos os dias e corrige o que for preciso.</p>
   <p>Todos os dias, à noite, o que foi publicado é conferido de novo contra as fontes. Dado que não se confirma sai do texto ou passa a constar como "não confirmado nas fontes consultadas".</p>
  </div></section>
  <section class="bloco"><h2>Como escolhemos as notícias</h2><div class="corpo">
@@ -531,7 +531,7 @@ def build_home():
     resto = [n for n in ns if n is not m]
     # sem notícia publicada ainda (tudo em revisão): no lugar da manchete, a apresentação do portal
     manchete = bloco_manchete(m, pre) if m else ('<article class="bloco manchete"><div class="txt"><span class="kick">Portal Cristão</span>'
-                                                  '<h1 class="m-tit">Jornalismo, fé e sociedade</h1><p>As primeiras notícias estão em revisão e entram aqui assim que forem aprovadas.</p></div></article>')
+                                                  '<h1 class="m-tit">Jornalismo, fé e sociedade</h1><p>As primeiras notícias entram aqui assim que forem publicadas.</p></div></article>')
     def item(n, pre):
         return f"""<li data-cat="{CATEGORIAS.get(n['categoria'], 'outras')}"><a href="noticias/{n['slug']}/"{'' if n.get("imagem") else ' class="sem-img"'}>{f'<img src="{miniatura(ROOT / "noticias" / n["imagem"]["arquivo"], pre)}" width="76" height="76" alt="" loading="lazy">' if n.get("imagem") else f'<span class="sem">{icone("dica")}</span>'}
    <div><span class="cat {CAT_CLASSE.get(n['categoria'], 'mercado')}">{e(n['categoria'])}</span> <span class="meta">{linha_data(n, data_curta(n['data']))}</span>
@@ -714,7 +714,7 @@ def build_nota(n, previa=False):
     sc = SELO_CLASSE[n["selo"]]
     leia = "".join(f'<li><a href="{pre}noticias/{o["slug"]}/">{e(o["titulo"])}</a></li>' for o in relacionadas(n))
     aviso = ('<div style="background:#ffe3e3;color:#7a1f1f;padding:8px 16px;text-align:center;font-size:.9rem"><b>Prévia em revisão.</b> '
-             'Esta notícia ainda não foi publicada: espera a revisão humana da redação. Não compartilhe.</div>') if previa else ""
+             'Esta notícia ainda não foi publicada: espera a checagem do padrão editorial. Não compartilhe.</div>') if previa else ""
     corpo = f"""{aviso}{cabecalho(pre, "Notícias", sub=True)}
 <main id="conteudo" class="in"><div class="nota">
  {trilha(("Início", pre), ("Notícias", f"{pre}noticias/"), (e(n["titulo"]), ""))}

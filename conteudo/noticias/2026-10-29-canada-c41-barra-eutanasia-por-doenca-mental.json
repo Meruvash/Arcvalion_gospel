@@ -2,7 +2,7 @@
  "slug": "canada-c41-barra-eutanasia-por-doenca-mental",
  "data": "2026-10-29",
  "categoria": "Família e Valores",
- "status": "revisao",
+ "status": "publicado",
  "manchete": true,
  "titulo": "Canadá apresenta projeto que barra eutanásia só por doença mental, mas libera pedido antecipado",
  "lide": "O governo do Canadá apresentou em 27 de outubro o projeto C-41, que exclui por tempo indeterminado a morte assistida para quem tem apenas doença mental e, ao mesmo tempo, permite que adultos autorizem o procedimento com antecedência, antes de perder a capacidade de decidir.",
@@ -100,5 +100,10 @@
  },
  "jogos": [],
  "editora": "Governo do Canadá",
- "publicado_em": "2026-10-29T20:00:00-03:00"
+ "publicado_em": "2026-10-29T20:47:33-03:00",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-29T20:47:33-03:00",
+  "modo": "automatica"
+ }
 }

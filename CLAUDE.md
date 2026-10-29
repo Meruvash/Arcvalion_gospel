@@ -1,8 +1,10 @@
 # Regras para agentes neste repositório
 
-- **A IA não publica sozinha.** As rotinas (skills `noticias`, `estudo`) gravam com `"status": "revisao"`, que só aparece em /previa/.
-  Publicar, corrigir ou despublicar é decisão de pessoa revisora de `config/equipe.json`; rode `tools/publicar.py` só quando essa
-  pessoa aprovar explicitamente, na conversa, cada matéria pelo nome, e use o slug dela em `--revisor`.
+- **Publicação automática** (ordem de Anderson Pelicioni de Castro, responsável editorial, em 29/10/2026): as rotinas
+  (skills `noticias`, `estudo`) publicam sozinhas o que passa nos validadores, com
+  `python3 tools/publicar.py aprovar <arquivo> --revisor anderson-pelicioni-de-castro --automatica`, que registra a
+  aprovação como automática (não como leitura humana). A conferência é diária, pela ferramenta de revisão das 18h e
+  pela skill `verificacao`; correção ou despublicação de matéria no ar segue com `tools/publicar.py`.
 - Nada inventado: todo fato com fonte identificável (link + data); citação literal só de frase lida na fonte.
 - Não edite HTML gerado: como no Elite, o site sai de `tools/build_home.py` (na raiz do repositório) a partir de `conteudo/`, `config/`, `pauta.json` e `consulta/index.html` (bloco RAW dos livros). O deploy publica a raiz sem os arquivos de trabalho (`tools/montar_publicacao.py`).
 - Nunca use imagem gerada por IA em matéria. Nunca coloque segredo no repositório (ver `docs/DEPLOY.md`).
