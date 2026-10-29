@@ -564,7 +564,7 @@ def preencher(texto, pre="../"):
         if v is None:
             return m.group(0)
         if not v:
-            return '<span class="pend">[a definir em config/portal.json]</span>'
+            return '<span class="pend">a definir</span>'
         if m.group(1).startswith("email"):
             return f'<a href="mailto:{e(v)}">{e(v)}</a>'
         return e(v)
@@ -774,6 +774,8 @@ def main(argv=None):
     erros = portal.problemas_config(producao=ar.producao)
     if erros:
         sys.exit("Configuração com problema:\n - " + "\n - ".join(erros))
+    for aviso in portal.avisos_config() if not ar.exemplo else []:
+        print("⚠️ " + aviso)
     HOJE = date.fromisoformat(ar.hoje) if ar.hoje else datetime.now(FUSO).date()
     if ar.sem_og:
         import og

@@ -163,10 +163,19 @@ class Build(unittest.TestCase):
 
 
 class Producao(unittest.TestCase):
-    def test_producao_recusa_configuracao_provisoria(self):
-        r = rodar("tools/build.py", "--producao", "--saida", "publico-teste-prod", "--sem-og")
+    def test_producao_no_cloudflare_pages(self):
+        import os
+        amb = {**os.environ, "CF_PAGES": "1", "CF_PAGES_URL": "https://8f3a1b2c.arcvalion.pages.dev"}
+        r = subprocess.run([sys.executable, "tools/build.py", "--producao", "--saida", "publico-teste-prod", "--sem-og"],
+                           cwd=RAIZ, capture_output=True, text=True, env=amb)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        s = (RAIZ / "publico-teste-prod" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('<link rel="canonical" href="https://arcvalion.pages.dev/">', s)
+        self.assertIn('href="/marca/favicon.svg"', (RAIZ / "publico-teste-prod" / "404.html").read_text(encoding="utf-8"))
+        r = subprocess.run([sys.executable, "tools/build.py", "--producao", "--saida", "publico-teste-prod", "--sem-og"],
+                           cwd=RAIZ, capture_output=True, text=True, env={**os.environ, "SITE_URL": "http://sem-https.test"})
         self.assertNotEqual(r.returncode, 0)
-        self.assertIn("responsável editorial", r.stdout + r.stderr)
+        self.assertIn("https", r.stdout + r.stderr)
 
     def test_build_local_sem_materias(self):
         r = rodar("tools/build.py", "--saida", "publico-teste-prod", "--sem-og")

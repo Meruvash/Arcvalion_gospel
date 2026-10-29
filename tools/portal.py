@@ -58,7 +58,7 @@ def iniciar(conteudo=None, config=None, saida=None, exemplo=False):
     EDITORIAS = _ler("editorias.json", config)["editorias"]
     EQUIPE = {p["slug"]: p for p in _ler("equipe.json", config)["pessoas"]}
     ANUNCIOS = _ler("anuncios.json", config)
-    SITE = CFG["url"].rstrip("/")
+    SITE = endereco(CFG["url"])
     from urllib.parse import urlparse
     BASE = urlparse(SITE).path.rstrip("/")
     NOME = CFG["nome"]
@@ -66,6 +66,22 @@ def iniciar(conteudo=None, config=None, saida=None, exemplo=False):
     SAIDA = Path(saida) if saida else ROOT / "publico"
     EXEMPLO = exemplo
     return CFG
+
+
+def endereco(configurado):
+    """Endereço público do site. SITE_URL no ambiente manda; no build do Cloudflare Pages, se a configuração ainda
+    tiver um endereço provisório (github.io ou .example), usa o endereço de produção do projeto (<projeto>.pages.dev),
+    tirado de CF_PAGES_URL (https://<id-do-deploy>.<projeto>.pages.dev)."""
+    import os
+    from urllib.parse import urlparse
+    if os.environ.get("SITE_URL"):
+        return os.environ["SITE_URL"].rstrip("/")
+    cf = os.environ.get("CF_PAGES_URL", "")
+    host = urlparse(cf).hostname or ""
+    if host.endswith(".pages.dev") and urlparse(configurado).hostname.endswith((".github.io", ".example")):
+        partes = host.split(".")
+        return "https://" + ".".join(partes[-3:])
+    return configurado.rstrip("/")
 
 
 def editoria(slug):
@@ -77,7 +93,7 @@ def visiveis():
 
 
 def problemas_config(producao=False):
-    """Erros de configuração. Em produção também recusa os valores provisórios."""
+    """Erros que impedem o build. Dados institucionais que faltam (responsável, e-mail) são avisos: veja avisos_config()."""
     erros = []
     slugs = [e["slug"] for e in EDITORIAS]
     if len(slugs) != len(set(slugs)):
@@ -92,12 +108,20 @@ def problemas_config(producao=False):
     if producao:
         if SITE.endswith(".example"):
             erros.append("portal.json: url ainda é o domínio provisório (.example); configure o domínio real")
-        if not CFG.get("responsavel_editorial", {}).get("nome"):
-            erros.append("portal.json: falta o nome do responsável editorial (exigido na política editorial e no expediente)")
-        if not CFG.get("email_contato"):
-            erros.append("portal.json: falta email_contato (canal de correções e de contato do leitor)")
         # sem revisor o site pode ir ao ar vazio; cada matéria continua exigindo revisor (editorial/checar.py)
     return erros
+
+
+def avisos_config():
+    """Dados que o site mostra como "a definir" até serem preenchidos; não bloqueiam a publicação."""
+    avisos = []
+    if not CFG.get("responsavel_editorial", {}).get("nome"):
+        avisos.append("portal.json: falta o nome do responsável editorial (aparece como 'a definir' no expediente e na política editorial)")
+    if not CFG.get("email_contato"):
+        avisos.append("portal.json: falta email_contato (canal de correções e de contato do leitor)")
+    if not any(p.get("revisor") for p in EQUIPE.values()):
+        avisos.append("equipe.json: nenhuma pessoa revisora cadastrada; nenhuma matéria pode ser publicada até cadastrar")
+    return avisos
 
 
 def url(caminho=""):
