@@ -33,7 +33,16 @@ from layout import (botao_compartilhar, cabecalho, convite_compartilhar, formula
 from editorial.checar import checar_conjunto, problemas  # noqa: E402
 
 e = html.escape
-FUSO = ZoneInfo("America/Sao_Paulo")
+def _fuso():
+    """Horário de Brasília; sem base de fusos no sistema (alguns servidores de build), usa -03:00 fixo (sem horário de verão desde 2019)."""
+    try:
+        return ZoneInfo("America/Sao_Paulo")
+    except Exception:
+        from datetime import timedelta, timezone as tz
+        return tz(timedelta(hours=-3), "BRT")
+
+
+FUSO = _fuso()
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
 MES_CURTO = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
 HOJE = None

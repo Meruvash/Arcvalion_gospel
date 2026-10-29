@@ -24,7 +24,17 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import portal  # noqa: E402
 from editorial.checar import problemas  # noqa: E402
 
-FUSO = ZoneInfo("America/Sao_Paulo")
+
+def _fuso():
+    """Horário de Brasília; sem base de fusos no sistema (alguns servidores de build), usa -03:00 fixo (sem horário de verão desde 2019)."""
+    try:
+        return ZoneInfo("America/Sao_Paulo")
+    except Exception:
+        from datetime import timedelta, timezone as tz
+        return tz(timedelta(hours=-3), "BRT")
+
+
+FUSO = _fuso()
 
 
 def agora():

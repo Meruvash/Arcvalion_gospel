@@ -12,8 +12,6 @@ import hashlib
 import shutil
 from pathlib import Path
 
-from PIL import Image, ImageFilter
-
 import portal
 
 CACHE = portal.ROOT / ".cache" / "img"
@@ -39,6 +37,7 @@ def publicar(arquivo):
 
 
 def _variante(src, largura):
+    from PIL import Image
     nome = f"{src.stem}-{_hash(src)}-{largura}.webp"
     cache = CACHE / nome
     if not cache.exists():
@@ -55,6 +54,7 @@ def _variante(src, largura):
 
 def dimensoes(arquivo):
     try:
+        from PIL import Image
         with Image.open(fonte(arquivo)) as im:
             return im.size
     except Exception:
@@ -83,6 +83,7 @@ def miniatura(arquivo, pre, largura=200):
 
 def larga(arquivo):
     """Caminho relativo (à raiz do site) da versão 1200×675; foto que já tem 1200 px volta como está."""
+    from PIL import Image, ImageFilter
     src = fonte(arquivo)
     with Image.open(src) as im:
         if im.width >= LARG:
