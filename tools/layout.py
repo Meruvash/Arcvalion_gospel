@@ -6,6 +6,8 @@ próprio gerador; aqui fica só a marcação, para que links, rótulos e aria-cu
 """
 INSTAGRAM = ""  # Instagram do portal: preencher
 WHATSAPP = ""  # grupo do WhatsApp do portal: preencher
+# e-mail da redação (config/portal.json): rodapé e pedidos de correção; vazio, o link não aparece
+EMAIL = __import__("json").loads((__import__("pathlib").Path(__file__).resolve().parent.parent / "config" / "portal.json").read_text(encoding="utf-8")).get("email_contato", "")
 
 ICONES = {
     "jogadores": '<path d="M8 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8 1a3 3 0 1 0 0-6M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15.5 14.2c3 .4 5.5 2.8 5.5 5.8"/>',
@@ -261,6 +263,6 @@ def rodape(pre, barra=None):
         barra = barra_leitura(interacao=False)
     return f"""<footer><div class="in">
  <span>Portal Cristão</span><a href="{pre}noticias/">Notícias</a><a href="{pre}estudos/">Estudos bíblicos</a><a href="{pre}lancamentos/">Agenda</a><a href="{pre}consulta/">Livros da Bíblia</a><a href="{pre}politica-editorial/">Política editorial</a>
- {f'<a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a>' if INSTAGRAM else ''}{f'<a href="{WHATSAPP}" target="_blank" rel="noopener">Grupo do WhatsApp</a>' if WHATSAPP else ''}
+ {f'<a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a>' if INSTAGRAM else ''}{f'<a href="{WHATSAPP}" target="_blank" rel="noopener">Grupo do WhatsApp</a>' if WHATSAPP else ''}{f'<a href="mailto:{EMAIL}">Contato</a>' if EMAIL else ''}
 </div></footer>
 {barra}"""

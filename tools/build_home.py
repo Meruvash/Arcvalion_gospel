@@ -23,7 +23,7 @@ from build_sitemap import lastmod_registrado  # noqa: E402
 from build_review import INSTAGRAM, ROOT, SITE, WHATSAPP, e, icone, versao  # noqa: E402
 from og import url_cartao  # noqa: E402
 from layout import _config_interacoes, barra_leitura, botao_compartilhar, convite_compartilhar, interacoes  # noqa: E402
-from layout import CSS_BUSCA, CSS_TRILHA, cabecalho, rodape, trilha  # noqa: E402
+from layout import CSS_BUSCA, CSS_TRILHA, EMAIL, cabecalho, rodape, trilha  # noqa: E402
 from noticias.checar_noticia import checar_dia, problemas  # noqa: E402
 
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
@@ -444,7 +444,7 @@ def build_politica():
  </div></section>''' if seo.ANALYTICS else ""}
 {SECAO_COMENTARIOS if _config_interacoes().get("api") else ""}
  <section class="bloco"><h2>Correções</h2><div class="corpo">
-  <p>Encontrou um erro? {f'Mande uma mensagem no <a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a>' if INSTAGRAM else 'Avise o responsável editorial'}, com o link da página e a fonte da informação correta. Erros confirmados são corrigidos na própria página.</p>
+  <p>Encontrou um erro? {f'Mande uma mensagem no <a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a>' if INSTAGRAM else (f'Escreva para <a href="mailto:{EMAIL}">{EMAIL}</a>' if EMAIL else 'Avise o responsável editorial')}, com o link da página e a fonte da informação correta. Erros confirmados são corrigidos na própria página.</p>
  </div></section>
 </div></main>
 {rodape(pre)}"""
