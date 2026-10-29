@@ -4,9 +4,7 @@
 # "Edit Cloudflare Workers") e CLOUDFLARE_ACCOUNT_ID.
 name: Cloudflare
 on:
-  push:
-    branches: [main]
-  workflow_dispatch:
+  workflow_dispatch:   # opcional: o site é publicado pelo GitHub Pages (deploy.yml)
 permissions:
   contents: read
 concurrency:
