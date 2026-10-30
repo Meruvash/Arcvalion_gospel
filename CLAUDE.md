@@ -3,7 +3,7 @@
 - **Publicação automática** (ordem de Anderson Pelicioni de Castro, responsável editorial, em 29/10/2026): as rotinas
   (skills `noticias`, `estudo`) publicam sozinhas o que passa nos validadores, com
   `python3 tools/publicar.py aprovar <arquivo> --revisor anderson-pelicioni-de-castro --automatica`, que registra a
-  aprovação como automática (não como leitura humana). A conferência é diária, pela ferramenta de revisão das 18h e
+  aprovação como automática (não como leitura humana). A conferência é diária, pela verificação noturna das 21h (tarefa agendada) e
   pela skill `verificacao`; correção ou despublicação de matéria no ar segue com `tools/publicar.py`.
 - **Linha editorial pentecostal** (pedido de 30/10/2026): o portal é cristão pentecostal e os estudos dizem onde estão (seção "Nossa posição", referência na Declaração de Fé das Assembleias de Deus), respeitando e relatando com fidelidade os outros lados. Ver `docs/PADRAO_EDITORIAL.md`, "Linha editorial pentecostal".
 - Nada inventado: todo fato com fonte identificável (link + data); citação literal só de frase lida na fonte.
