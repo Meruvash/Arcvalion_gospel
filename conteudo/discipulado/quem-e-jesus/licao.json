@@ -1,9 +1,8 @@
 {
- "numero": 1,
  "slug": "quem-e-jesus",
  "titulo": "Quem é Jesus Cristo?",
  "ideia_central": "Jesus é Deus que veio morar entre nós como ser humano, para nos mostrar quem Deus é e nos salvar.",
- "descricao": "Lição 1 do Discipulado: o que o começo do Evangelho de João diz sobre quem é Jesus, por que ele veio e o que quer dizer segui-lo hoje, em linguagem simples.",
+ "descricao": "O que o começo do Evangelho de João diz sobre quem é Jesus, por que ele veio e o que quer dizer segui-lo hoje, em linguagem simples.",
  "tempo_min": 40,
  "imagem": {
   "arquivo": "discipulado-quem-e-jesus.jpg",

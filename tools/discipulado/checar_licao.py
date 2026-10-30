@@ -1,7 +1,7 @@
 """Confere uma lição do Discipulado contra o padrão da coleção (docs/discipulado/padrao-editorial.md e padrao-de-escrita.md).
 
-Uso: python3 tools/discipulado/checar_licao.py [conteudo/discipulado/<NN-slug>/licao.json ...]   (sem argumentos, todas)
-Cada lição é uma pasta conteudo/discipulado/<NN-slug>/ com licao.json (dados de publicação), aluno.md (texto do aluno),
+Uso: python3 tools/discipulado/checar_licao.py [conteudo/discipulado/<slug>/licao.json ...]   (sem argumentos, todas)
+Cada lição é uma pasta conteudo/discipulado/<slug>/ com licao.json (dados de publicação), aluno.md (texto do aluno),
 discipulador.md (guia) e dossie.md (pesquisa); auditoria.md só nas lições que tiveram auditoria (a Lição 1; o processo
 simplificado de 30/10/2026 dispensa). O texto do aluno passa no medidor
 de legibilidade (tools/discipulado/legibilidade.py) ou traz a justificativa num comentário <!-- justificativa: ... -->.
@@ -32,7 +32,7 @@ def sem_comentarios(t):
 
 
 def pasta_da(c):
-    return portal.CONTEUDO / "discipulado" / f'{c.get("numero", 0):02d}-{c.get("slug", "")}'
+    return portal.CONTEUDO / "discipulado" / c.get("slug", "")
 
 
 def problemas(c, publicar=None, pasta=None):
@@ -42,10 +42,10 @@ def problemas(c, publicar=None, pasta=None):
     for campo in ("slug", "titulo", "descricao", "ideia_central"):
         if not c.get(campo):
             erros.append(f"falta {campo}")
-    if not isinstance(c.get("numero"), int) or c["numero"] < 1:
-        erros.append("numero: a próxima lição da sequência (1, 2, 3...)")
-    # tema escolhido pelo que as pessoas perguntam (decisão do editor, 30/10/2026); a Lição 1 veio da lista antiga
-    if c.get("numero", 0) > 1:
+    if "numero" in c:
+        erros.append("numero: as lições não são numeradas (decisão do editor, 30/10/2026)")
+    # tema escolhido pelo que as pessoas perguntam (decisão do editor, 30/10/2026); a primeira lição veio da lista antiga
+    if (c.get("publicado_em") or "9999") >= "2026-10-31":
         rel = c.get("relevancia") or {}
         ev = rel.get("evidencias") or []
         if not rel.get("pergunta") or not ev or any(not str(x.get("url", "")).startswith("http") or not x.get("dado") for x in ev):
@@ -112,7 +112,7 @@ def problemas(c, publicar=None, pasta=None):
 
 
 def licoes():
-    return sorted((portal.CONTEUDO / "discipulado").glob("[0-9][0-9]-*/licao.json"))
+    return sorted((portal.CONTEUDO / "discipulado").glob("*/licao.json"))
 
 
 if __name__ == "__main__":

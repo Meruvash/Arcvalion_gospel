@@ -1,17 +1,17 @@
 # Glossário da coleção
 
-Cada termo teológico introduzido na coleção entra aqui com a lição em que foi explicado e a explicação exata usada. Toda lição posterior usa a mesma explicação. O redator atualiza este arquivo ao fim de cada lição.
+Cada termo teológico introduzido na coleção entra aqui com a lição em que foi explicado (pelo título) e a explicação exata usada. Toda lição posterior usa a mesma explicação. O redator atualiza este arquivo ao fim de cada lição.
 
-Formato: **termo** (Lição N): explicação em uma ou duas frases, do jeito que apareceu no texto do aluno.
+Formato: **termo** ("Título da lição"): explicação em uma ou duas frases, do jeito que apareceu no texto do aluno.
 
-- **Palavra (Verbo)** (Lição 1): nome que João dá a Jesus. "A palavra é o jeito de uma pessoa mostrar o que pensa e o que sente. Jesus é o jeito de Deus se mostrar para nós." Algumas Bíblias dizem "o Verbo", que é a mesma coisa.
-- **Encarnação** (Lição 1): "Deus se tornou gente. Ele não parou de ser Deus, mas passou a sentir fome, sede, cansaço e tristeza. Os cristãos chamam isso de encarnação."
-- **Filho de Deus** (Lição 1): "Chamar Jesus de Filho de Deus não quer dizer que ele veio depois. Quer dizer que ele é Deus, igual ao Pai."
-- **Messias / Cristo** (Lição 1): Messias quer dizer "ungido", aquele que recebeu o azeite (o sinal de que Deus tinha escolhido o rei); o povo esperava o Salvador que Deus tinha prometido. "Cristo" é a mesma palavra, em grego.
-- **Evangelho** (Lição 1): "boa notícia"; é o nome dos quatro livros da Bíblia que contam a vida de Jesus.
-- **Apóstolo** (Lição 1): um dos primeiros mensageiros de Jesus (Paulo é chamado assim).
-- **Profeta** (Lição 1): pessoa que Deus escolhia para levar a sua mensagem ao povo.
-- **Vida eterna** (Lição 1): a vida com Deus, que começa agora e não acaba com a morte.
-- **Versículo** (Lição 1): frase com número dentro de um capítulo; "João 1:14" quer dizer livro de João, capítulo 1, versículo 14. (A Lição 5 aprofunda.)
+- **Palavra (Verbo)** ("Quem é Jesus Cristo?"): nome que João dá a Jesus. "A palavra é o jeito de uma pessoa mostrar o que pensa e o que sente. Jesus é o jeito de Deus se mostrar para nós." Algumas Bíblias dizem "o Verbo", que é a mesma coisa.
+- **Encarnação** ("Quem é Jesus Cristo?"): "Deus se tornou gente. Ele não parou de ser Deus, mas passou a sentir fome, sede, cansaço e tristeza. Os cristãos chamam isso de encarnação."
+- **Filho de Deus** ("Quem é Jesus Cristo?"): "Chamar Jesus de Filho de Deus não quer dizer que ele veio depois. Quer dizer que ele é Deus, igual ao Pai."
+- **Messias / Cristo** ("Quem é Jesus Cristo?"): Messias quer dizer "ungido", aquele que recebeu o azeite (o sinal de que Deus tinha escolhido o rei); o povo esperava o Salvador que Deus tinha prometido. "Cristo" é a mesma palavra, em grego.
+- **Evangelho** ("Quem é Jesus Cristo?"): "boa notícia"; é o nome dos quatro livros da Bíblia que contam a vida de Jesus.
+- **Apóstolo** ("Quem é Jesus Cristo?"): um dos primeiros mensageiros de Jesus (Paulo é chamado assim).
+- **Profeta** ("Quem é Jesus Cristo?"): pessoa que Deus escolhia para levar a sua mensagem ao povo.
+- **Vida eterna** ("Quem é Jesus Cristo?"): a vida com Deus, que começa agora e não acaba com a morte.
+- **Versículo** ("Quem é Jesus Cristo?"): frase com número dentro de um capítulo; "João 1:14" quer dizer livro de João, capítulo 1, versículo 14. 
 
-Termos adiados: **graça** (a NTLH de João 1 diz "amor"; explicar na Lição 2); **Trindade** (só uma frase no guia da Lição 1; explicar na Lição 9).
+Termos adiados: **graça** (a NTLH de João 1 diz "amor"; explicar numa lição própria); **Trindade** (só uma frase no guia de "Quem é Jesus Cristo?"; explicar numa lição sobre o Espírito Santo).
