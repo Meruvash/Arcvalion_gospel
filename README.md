@@ -1,7 +1,7 @@
 # O Paladino
 
 Portal jornalístico cristão e conservador: notícias, política e sociedade, família, fé e Bíblia, economia,
-cultura cristã e eventos. *Jornalismo, fé e sociedade. Informação com responsabilidade e uma perspectiva cristã
+cultura cristã e eventos. *Jornalismo com princípios. Fé, cultura e sociedade. Informação com responsabilidade e uma perspectiva cristã
 sobre o Brasil e o mundo.* O nome é provisório e configurável em `config/portal.json`.
 
 Site estático gerado por Python (JSON → HTML), sem framework, com um Worker da Cloudflare para comentários,

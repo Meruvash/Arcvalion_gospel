@@ -75,11 +75,13 @@
   }
  ],
  "para_quem": [
-  "Você é pai, mãe ou responsável por criança em idade escolar",
-  "Você atua no ministério infantil ou com adolescentes e quer saber dos direitos deles"
+  "Se virar lei, o aluno vítima de violência fica, de preferência, na mesma escola, com segurança reforçada; se precisar, muda de turma, de turno ou de escola, com vaga e matrícula imediatas",
+  "Se virar lei, a falta temporária de documentos não impede a frequência, e as atividades já feitas no ano letivo continuam valendo",
+  "Se virar lei, o aluno terá apoio pedagógico individual, prazos de avaliação flexíveis e sigilo sobre os seus dados e sobre o caso"
  ],
  "nao_e_para": [
-  "Você procura uma lei em vigor: o projeto ainda passa pela CCJ e pelo Senado"
+  "Ainda não é lei: o projeto passa pela Comissão de Constituição e Justiça, depois pelo Senado, e precisa de sanção",
+  "A transferência de escola não pode ser automática"
  ],
  "veredito": "Boa notícia para as famílias. Proteger a vítima sem tirá-la da escola é o certo, e o texto ainda cuida do sigilo e do apoio nos estudos. Vale acompanhar a CCJ e o Senado para que a proposta não fique parada na gaveta.",
  "ia": {
@@ -91,7 +93,7 @@
  "publicado_em": "2026-10-29T20:47:33-03:00",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-29T20:47:33-03:00",
-  "modo": "automatica"
- }
+  "data": "2026-10-29T21:09:35-03:00"
+ },
+ "atualizado_em": "2026-10-29T21:09:35-03:00"
 }

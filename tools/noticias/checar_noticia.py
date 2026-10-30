@@ -104,8 +104,8 @@ def problemas(n, publicar=None):
     crit = n.get("critica", [])
     if len(crit) > 3 or any(not c.get("fonte") or not c.get("texto") for c in crit) or (not crit and n.get("selo") != "Informativo"):
         erros.append("o que dizem: 1 a 3 posições com fonte e texto (só nota Informativo pode sair sem)")
-    if not 1 <= len(n.get("para_quem", [])) <= 3 or len(n.get("nao_e_para", [])) > 3:
-        erros.append("para_quem: 1 a 3 itens; nao_e_para: até 3")
+    if not 1 <= len(n.get("para_quem", [])) <= 3 or not 1 <= len(n.get("nao_e_para", [])) <= 3:
+        erros.append("para_quem (O que muda para você): 1 a 3 itens; nao_e_para (Pontos de atenção): 1 a 3 itens")
     fontes = n.get("fontes", [])
     if len(fontes) < 2 or any(not f.get("url") or not f.get("data") or not f.get("nome") for f in fontes):
         erros.append("fontes: pelo menos 2, com nome, link e data")

@@ -531,7 +531,7 @@ def build_home():
     resto = [n for n in ns if n is not m]
     # sem notícia publicada ainda (tudo em revisão): no lugar da manchete, a apresentação do portal
     manchete = bloco_manchete(m, pre) if m else ('<article class="bloco manchete"><div class="txt"><span class="kick">O Paladino</span>'
-                                                  '<h1 class="m-tit">Jornalismo, fé e sociedade</h1><p>As primeiras notícias entram aqui assim que forem publicadas.</p></div></article>')
+                                                  '<h1 class="m-tit">Jornalismo com princípios</h1><p>As primeiras notícias entram aqui assim que forem publicadas.</p></div></article>')
     def item(n, pre):
         return f"""<li data-cat="{CATEGORIAS.get(n['categoria'], 'outras')}"><a href="noticias/{n['slug']}/"{'' if n.get("imagem") else ' class="sem-img"'}>{f'<img src="{miniatura(ROOT / "noticias" / n["imagem"]["arquivo"], pre)}" width="76" height="76" alt="" loading="lazy">' if n.get("imagem") else f'<span class="sem">{icone("dica")}</span>'}
    <div><span class="cat {CAT_CLASSE.get(n['categoria'], 'mercado')}">{e(n['categoria'])}</span> <span class="meta">{linha_data(n, data_curta(n['data']))}</span>
@@ -660,11 +660,11 @@ def build_home():
   {f'<section class="bloco financ"><h2>Missões e campanhas</h2><ul>{financ}</ul></section>' if financ else ''}
   {f'<section class="bloco resenhas"><h2>Últimos estudos bíblicos <a href="estudos/">Ver todos</a></h2><ul class="res">{res}</ul></section>' if res else ''}
   <section class="bloco comunidade"><p>Notícias com fonte e data e estudos bíblicos, todos os dias. Entre no grupo para receber as novidades.</p>
-   <div class="acoes">{f'<a class="btn zap" href="{WHATSAPP}" target="_blank" rel="noopener">{icone("zap")}Entrar no grupo do WhatsApp</a>' if WHATSAPP else ''}{f'<a class="btn ig" href="{INSTAGRAM}" target="_blank" rel="noopener">{icone("insta")}Instagram</a>' if INSTAGRAM else ''}{botao_compartilhar("O Paladino: jornalismo, fé e sociedade. Notícias com fonte e estudos bíblicos.", f"{SITE}/", "Compartilhar o site")}</div></section>
+   <div class="acoes">{f'<a class="btn zap" href="{WHATSAPP}" target="_blank" rel="noopener">{icone("zap")}Entrar no grupo do WhatsApp</a>' if WHATSAPP else ''}{f'<a class="btn ig" href="{INSTAGRAM}" target="_blank" rel="noopener">{icone("insta")}Instagram</a>' if INSTAGRAM else ''}{botao_compartilhar("O Paladino: jornalismo com princípios. Notícias com fonte e estudos bíblicos.", f"{SITE}/", "Compartilhar o site")}</div></section>
  </div>
 </main>
 {rodape(pre)}"""
-    titulo = "O Paladino: jornalismo, fé e sociedade"
+    titulo = "O Paladino: jornalismo com princípios"
     descr = f"{m['titulo'] if m else 'O Paladino'}. Notícias com fonte e data, estudos bíblicos e a agenda cristã, com uma perspectiva cristã sobre o Brasil e o mundo."
     # 404: servida pelo GitHub Pages em qualquer profundidade, por isso os caminhos são absolutos ("/")
     RAIZ = urlparse(SITE).path.rstrip("/") + "/"  # o site mora em /Arcvalion_gospel/ no GitHub Pages
@@ -729,7 +729,7 @@ def build_nota(n, previa=False):
  <section class="bloco"><h2>Contexto</h2><div class="corpo">{"".join(f"<p>{e(p)}</p>" for p in n['corpo'])}</div></section>
  <section class="bloco brasil-n"><h2>No Brasil</h2><p>{e(n['no_brasil'])}</p></section>
  <section class="bloco"><h2>O que diz a crítica</h2>{f'<ul class="crit">{critica}</ul>' if critica else '<p class="corpo">Ainda não encontramos resenha publicada por veículo especializado.</p>'}</section>
- <section class="bloco quem"><div><h2>Interessa a você se…</h2><ul class="ok">{sim}</ul></div>{f'<div><h2>Pense duas vezes se…</h2><ul class="no">{nao}</ul></div>' if nao else ""}</section>
+ <section class="bloco quem"><div><h2>O que muda para você</h2><ul class="ok">{sim}</ul></div>{f'<div><h2>Pontos de atenção</h2><ul class="no">{nao}</ul></div>' if nao else ""}</section>
  <section class="bloco veredito {sc}"><h2>Nossa opinião</h2><span class="selo {sc}">{e(n['selo'])}</span><p>{e(n['veredito'])}</p></section>
  {convite_compartilhar(texto_cp, url, "Conhece alguém que vai gostar?", "Mande esta notícia para a turma.")}
  {interacoes(pre, f"/noticias/{n['slug']}/")}

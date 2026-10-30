@@ -86,11 +86,13 @@
   }
  ],
  "para_quem": [
-  "Você trabalha com jovens na igreja e quer dados para planejar",
-  "Você ouve falar em avivamento entre jovens e quer saber o que os números mostram"
+  "Quem trabalha com jovens na igreja ganha um número de referência: nos Estados Unidos, 41% dos adultos de 18 a 22 anos vão a cultos ao menos uma vez por mês, contra 33% da população adulta",
+  "Entre os mais jovens, os homens vão mais à igreja que as mulheres (47% contra 35%), um dado para pensar o trabalho com rapazes e moças nos grupos de jovens"
  ],
  "nao_e_para": [
-  "Você procura dados do Brasil: a pesquisa é só dos Estados Unidos"
+  "A pesquisa ouviu só adultos dos Estados Unidos e não traz dados do Brasil",
+  "O próprio Pew diz não ter evidência de que alguma geração tenha ficado mais religiosa",
+  "O grupo de 23 a 26 anos está entre os menos religiosos já medidos"
  ],
  "veredito": "Boa notícia com os pés no chão. A presença dos jovens nos cultos subiu e a queda geral parou, mas o próprio Pew pede cautela. Para as igrejas, o recado é claro: quem chegou precisa encontrar discipulado de verdade para ficar.",
  "ia": {
@@ -102,7 +104,7 @@
  "publicado_em": "2026-10-29T20:47:33-03:00",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-29T20:47:33-03:00",
-  "modo": "automatica"
- }
+  "data": "2026-10-29T21:09:35-03:00"
+ },
+ "atualizado_em": "2026-10-29T21:09:35-03:00"
 }
