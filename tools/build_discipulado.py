@@ -25,7 +25,7 @@ CSS_DISC = """<style>
 .nota .licao h2{margin-top:6px}.nota .licao .corpo{max-width:66ch}
 .nota .licao blockquote{margin:0;padding:12px 16px;border-left:4px solid var(--gold);background:#f6f4ee;border-radius:0 8px 8px 0;display:grid;gap:8px}
 .nota .licao blockquote p{color:var(--paper-ink)}
-.nota .licao h3{font-size:1.05rem;margin-top:6px}.nota .licao ul,.nota .licao ol{display:grid;gap:8px;padding-left:22px}
+.nota .licao h3,.nota .licao h4{font-size:1.1rem;line-height:1.3;margin-top:10px}.nota .licao ul,.nota .licao ol{display:grid;gap:8px;padding-left:22px}
 .nota .licao ul{list-style:disc}.nota .licao small,.nota .licao .credito-b{font-size:.82rem;color:var(--paper-muted)}
 .nota .num-l{display:inline-block;font-size:.8rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--paper-muted)}
 .nota .meta-e{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.88rem;color:var(--paper-muted);margin-top:6px}
@@ -145,7 +145,7 @@ def build(c, pasta_src):
     else:
         modificado = lastmod_registrado(url, {k: v for k, v in c.items() if k != "publicado_em"})
         ld = seo.script(seo.artigo("Article", url, c["titulo"], c["descricao"], img, c["publicado_em"], modificado), trilha_ld)
-    (pasta / "index.html").write_text(pagina(f'{c["titulo"]} | Discipulado | O Paladino', c["descricao"], "" if previa else url, img,
+    (pasta / "index.html").write_text(pagina(f'{c.get("titulo_seo") or c["titulo"]} | O Paladino', c["descricao"], "" if previa else url, img,
                                              pre, corpo, "article", CSS_DISC, ld), encoding="utf-8")
     return pasta / "index.html"
 

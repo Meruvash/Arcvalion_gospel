@@ -16,8 +16,9 @@ import portal  # noqa: E402
 from discipulado.legibilidade import META_ALUNO, META_GUIA, analisar, falhas  # noqa: E402
 
 # seções obrigatórias do texto do aluno, na ordem (padrao-editorial.md, seção 7); o título é o "# " do arquivo
-SECOES_ALUNO = ["O que vamos aprender?", "Para começar", "Texto bíblico principal", "Entendendo a Palavra", "Entendendo melhor",
-                "A fé na vida real", "Vamos conversar?", "Desafio da semana", "Para guardar no coração", "Resumindo"]
+# estrutura editorial do estudo (diretriz do editor, 30/10/2026); o título é o "# " do arquivo
+SECOES_ALUNO = ["Questão central", "Introdução", "Fundamentação bíblica", "Desenvolvimento", "Aplicação prática",
+                "Perguntas para reflexão", "Resumo", "Continue aprendendo", "Referências"]
 CREDITO_NTLH = "Nova Tradução na Linguagem de Hoje"
 TRAVESSOES = ("—", "–")
 NOTA_MINIMA = 85
@@ -77,11 +78,13 @@ def problemas(c, publicar=None, pasta=None):
             erros.append("aluno.md: seções '## ' na ordem do padrão: " + " | ".join(SECOES_ALUNO))
         if CREDITO_NTLH not in limpo:
             erros.append("aluno.md: texto bíblico na NTLH com a linha de crédito da SBB")
+        if re.search(r"(?i)\b(lição|estudo) (anterior|seguinte)\b|na próxima lição|como vimos (na|no) (lição|estudo)", limpo):
+            erros.append("aluno.md: o estudo é autossuficiente; nada de remeter a lição anterior ou seguinte")
         if re.search(r"\[(verificada|parcial|não verificada)\]", limpo):
             erros.append("aluno.md: marcas de verificação ficam no dossiê e no guia, não no texto do aluno")
-        n = palavras(re.sub(r"^>.*$", "", limpo, flags=re.M))  # sem o texto bíblico em citação
-        if not 1000 <= n <= 1500:
-            erros.append(f"aluno.md: {n} palavras fora das citações (padrão: 1.000 a 1.500)")
+        n = palavras(re.sub(r"^>.*$", "", limpo.split("## Referências")[0], flags=re.M))  # sem citação bíblica e sem a lista de referências
+        if not 1200 <= n <= 2600:
+            erros.append(f"aluno.md: {n} palavras fora das citações (padrão: 1.200 a 2.600)")
         f = falhas(analisar(aluno, META_ALUNO), META_ALUNO)
         if f and "justificativa:" not in aluno:
             erros.append("aluno.md reprovado no medidor de legibilidade: " + "; ".join(f))
