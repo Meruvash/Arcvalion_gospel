@@ -1,0 +1,230 @@
+{
+ "slug": "pl-pt-boicote-politico-prisao-ressalva-igrejas",
+ "data": "2026-10-30",
+ "categoria": "politica-e-sociedade",
+ "status": "revisao",
+ "opiniao_forte": true,
+ "selo": "Motivo de alerta",
+ "titulo": "Projeto do PT pune boicote político com prisão; ressalva a igrejas ficou só na justificativa",
+ "lide": "A bancada do PT na Câmara protocolou em 29 de outubro o PL 5.689/2026, do líder Pedro Uczai (SC) e mais 64 deputados. O texto cria o crime de discriminação por voto ou convicção política, com 2 a 5 anos de reclusão para quem fizer ou compartilhar listas para boicote ou demissão, e 3 a 6 anos quando for pelas redes sociais.",
+ "por_que_importa": "Na justificativa, os autores dizem proteger a liberdade de expressão, a escolha de consumo e as entidades confessionais. O artigo protocolado não traz nenhuma dessas proteções. Numa lei penal vale o que está no artigo, não a intenção do autor: do jeito que está, quem repassar no grupo da igreja uma lista de lojas 'para não comprar' por causa de política pode pegar de 3 a 6 anos.",
+ "numeros": [
+  [
+   "65",
+   "deputados assinam o projeto, encabeçado pelo líder do PT, Pedro Uczai",
+   "Poder360, 29/10/2026; Câmara dos Deputados"
+  ],
+  [
+   "2 a 5 anos",
+   "de reclusão para quem elaborar, divulgar ou compartilhar lista para boicote ou demissão por voto",
+   "PL 5.689/2026, art. 203-A"
+  ],
+  [
+   "3 a 6 anos",
+   "quando a lista, o constrangimento ou a incitação for feita por redes sociais, aplicativos ou imprensa",
+   "PL 5.689/2026, art. 203-A, § 2º"
+  ],
+  [
+   "1.937",
+   "denúncias de assédio eleitoral registradas pelo MPT até o dia seguinte à eleição, citadas na justificativa",
+   "PL 5.689/2026, justificação"
+  ]
+ ],
+ "corpo": [
+  "O novo artigo 203-A do Código Penal pune também quem demitir ou deixar de contratar por causa do voto, exigir que o empregado revele em quem votou, ameaçar alguém de inclusão em lista e induzir ou incitar publicamente essas condutas. A pena sobe de um terço até a metade se houver três ou mais pessoas coordenadas, cinco ou mais vítimas, perda de emprego ou renda, uso de cargo público ou acordo entre empresários. O projeto ainda inclui o voto e a convicção política na lei que proíbe discriminação no trabalho (Lei 9.029/1995).",
+  "A justificativa diz que o § 4º preserva a liberdade de expressão, de imprensa e a escolha individual de consumo, e ressalva funções em partidos, gabinetes e entidades de finalidade política, sindical ou confessional. No texto protocolado, porém, o § 4º diz só que as penas valem sem prejuízo das de violência e ameaça. A exceção que o projeto põe na Lei 9.029 remete a um inciso III do § 4º, que não existe no artigo."
+ ],
+ "no_brasil": "No Senado, o PL 2.885/2022, de Renan Calheiros, prevê de 1 a 3 anos para boicote por orientação política. O novo projeto da Câmara tem pena maior e alcança redes sociais. Os autores citam o caso de Cafelândia (SP), em que autores de lista de boicote de 2022 só foram condenados em 2025, pelo crime de perseguição.",
+ "critica": [
+  {
+   "fonte": "Deputado Zeca Dirceu (PT-PR), signatário, em seu site",
+   "texto": "É inaceitável que alguém seja ameaçado de perder o emprego, impedido de trabalhar ou exposto a boicotes porque fez uma escolha política.",
+   "citacao": true,
+   "url": "https://zecadirceu.com.br/pt-propoe-ate-seis-anos-de-prisao-por-discriminacao-politica-zeca-dirceu-defende-medida/"
+  },
+  {
+   "fonte": "Justificação do PL 5.689/2026",
+   "texto": "Os autores afirmam que a lei atual responde de modo fragmentário: a perseguição exige reiteração, a boicotagem do Código Penal exige violência, e a coação eleitoral não alcança a retaliação pelo voto já dado. Citam as listas de 1933 contra judeus na Alemanha e as listas negras do macarthismo como exemplos do uso dessas listas.",
+   "citacao": false
+  },
+  {
+   "fonte": "Justificação do PL 5.689/2026, sobre o alcance do crime",
+   "texto": "O § 4º delimita o alcance do tipo para preservar a liberdade de expressão, a liberdade de imprensa e a escolha individual de consumo",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187414"
+  }
+ ],
+ "para_quem": [
+  "Pastores e membros: se o texto passar como está, compartilhar em grupo de mensagens uma lista de comerciantes para boicote por motivo político vira crime com pena de 3 a 6 anos; escolher sozinho onde comprar não está no artigo",
+  "Igrejas e escolas confessionais: a ressalva para quem exige afinidade com a missão da entidade está prometida na justificativa, mas não no artigo; vale cobrar a correção dos autores",
+  "Trabalhador e empregador: demitir por causa do voto já é discriminação combatida pelo MPT na Justiça do Trabalho; o projeto acrescenta a prisão"
+ ],
+ "nao_e_para": [
+  "É projeto recém-protocolado: ainda não tem relator nem comissões definidas, e o texto pode ser corrigido ou substituído",
+  "A divergência entre o § 4º e a justificativa foi conferida no inteiro teor publicado pela Câmara em 29/10; não há, até 30/10, versão corrigida",
+  "O MPT registrou mais denúncias depois da eleição; o número de 1.937 é o citado na justificativa, até 26/10"
+ ],
+ "veredito": "A gente é contra demitir alguém pelo voto, e a lei trabalhista já serve para isso. Mas um projeto que diz na justificativa proteger a escolha de consumo e as igrejas, e esquece de escrever a proteção no artigo, entrega ao juiz o que deveria estar na lei. Antes de prender por boicote, que os autores corrijam o texto.",
+ "versiculo": {
+  "texto": "Antes, importa obedecer a Deus do que aos homens",
+  "referencia": "Atos 5.29",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados: PL 5.689/2026, inteiro teor (apresentação em 29/10/2026, 9h52)",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187414",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: ficha do PL 5.689/2026 (autor Pedro Uczai, PT-SC)",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649499",
+   "data": "30/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Poder360: PT propõe prisão de até 6 anos por discriminação política no trabalho (29/10/2026)",
+   "url": "https://www.poder360.com.br/poder-congresso/pt-propoe-prisao-de-ate-6-anos-por-discriminacao-politica-no-trabalho/",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Claudio Dantas: PT propõe prisão de até 6 anos por discriminação política no trabalho (30/10/2026)",
+   "url": "https://claudiodantas.com.br/pt-prisao-discriminacao-politica-trabalho/",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Site do deputado Zeca Dirceu: PT propõe até seis anos de prisão por discriminação política",
+   "url": "https://zecadirceu.com.br/pt-propoe-ate-seis-anos-de-prisao-por-discriminacao-politica-zeca-dirceu-defende-medida/",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Mural de pautas do Ancapsu: PT propõe prisão de até 6 anos por discriminação política no trabalho (pauta sugerida pelo público)",
+   "url": "https://ancap.su/site/noticias",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 67,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "liberdade",
+   "porque": "O fato é sobre liberdade de expressão e de consciência: o projeto cria crime para listas, boicote e incitação por motivo político, sem a ressalva prometida a entidades confessionais"
+  },
+  "origem": {
+   "nome": "Mural de pautas do Ancapsu (Claudio Dantas)",
+   "url": "https://claudiodantas.com.br/pt-prisao-discriminacao-politica-trabalho/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Projeto de lei recém-protocolado, sem relator; efeito ainda futuro, embora assinado por 65 deputados da bancada do governo"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Liberdade de expressão e de consciência no Brasil, com efeito direto sobre igrejas e entidades confessionais: núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Protocolado em 29/10, menos de 48 horas antes, no meio da onda de boicotes depois da eleição"
+   },
+   "comprovacao": {
+    "pontos": 15,
+    "porque": "Inteiro teor lido no site da Câmara e dados do projeto conferidos no serviço oficial da Câmara; confirmação independente por Poder360 e Claudio Dantas"
+   },
+   "originalidade": {
+    "pontos": 10,
+    "porque": "Mostra o que nenhuma cobertura deu: a proteção à escolha de consumo e às entidades confessionais está na justificativa, mas não no artigo, e a exceção remete a um inciso que não existe"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 7,
+    "viral": 5,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: inteiro teor do projeto (2)",
+    "Ato de poder: projeto da bancada do governo, com 65 assinaturas (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Emoção de alta ativação: espanto (1)",
+    "Personagem com nome: Pedro Uczai e Zeca Dirceu (1)",
+    "Contraria a narrativa: a proteção prometida não está no texto (1)",
+    "Moeda social: detalhe do texto que a cobertura não deu (1)",
+    "Utilidade: igrejas sabem o que cobrar dos autores (1)",
+    "Pede resposta do cristão: acompanhar e cobrar a correção (1)",
+    "Rende estudo: liberdade de consciência e autoridade (1)",
+    "Passagem bíblica que um pastor usaria: Atos 5.29 (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "PT propõe prisão de até 6 anos por discriminação política no trabalho",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / liberdade de expressão",
+  "coleta": "2026-10-30",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em documento primário",
+   "contradicoes": "Justificação (pág. 4-5) descreve um § 4º com salvaguardas que o artigo não tem; parágrafo único proposto para a Lei 9.029 remete a 'inciso III do § 4º do art. 203-A', inexistente no texto protocolado.",
+   "sem_confirmacao": "se os autores vão apresentar versão corrigida"
+  },
+  "duplicidade": {
+   "grupo": "PL 5.689/2026",
+   "itens": [
+    "Mural do Ancapsu (pauta)",
+    "Poder360 29/10",
+    "Claudio Dantas 30/10",
+    "Brasil 247 29/10",
+    "Zeca Dirceu 29/10"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-10-30-pl-intolerancia-politica-boicote-demissao (PL 2.885/2022, do Senado: outro projeto)"
+  },
+  "revisao_humana": "obrigatória: pedido do responsável editorial em 30/10/2026 (aprovar antes de publicar); Opinião Forte sobre projeto de lei",
+  "seo": {
+   "intencao": "entender o projeto que pune boicote e demissão por voto",
+   "entidades": [
+    "PL 5.689/2026",
+    "Pedro Uczai",
+    "Zeca Dirceu",
+    "PT",
+    "Câmara dos Deputados",
+    "Lei 9.029/1995"
+   ],
+   "termos": [
+    "boicote político crime",
+    "discriminação por voto",
+    "lista de boicote",
+    "liberdade religiosa"
+   ],
+   "atualizacao": "acompanhar despacho às comissões e eventual versão corrigida"
+  }
+ },
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do inteiro teor, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a crítica mira o texto do projeto (o que está e o que falta no artigo), não os deputados; não se atribui intenção a ninguém ('esquece de escrever' descreve a diferença entre justificativa e artigo, conferida no inteiro teor). O exemplo do grupo da igreja descreve a conduta do caput (compartilhar lista com fim de boicote) com a pena do § 2º; a nota deixa claro que a escolha individual de consumo não está no artigo. O argumento dos autores aparece com a citação literal do signatário e a paráfrase da justificativa.",
+ "imagem": {
+  "arquivo": "capas/pl-pt-boicote-politico-prisao-ressalva-igrejas.jpg",
+  "credito": "Foto: Thiago Cristino/Câmara dos Deputados",
+  "alt": "Vista do plenário da Câmara dos Deputados durante sessão, com deputados circulando entre as bancadas (foto de arquivo)",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/10/img20261028163528536.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1314703-reeleicao-de-lula-e-viagem-de-flavio-bolsonaro-aos-eua-repercutem-no-plenario"
+ },
+ "publicado_em": "2026-10-30T16:12:56+00:00"
+}
