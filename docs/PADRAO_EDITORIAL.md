@@ -23,7 +23,7 @@ fato certo?) é da pessoa revisora, que aprova com `tools/publicar.py`.
 | `veredito` | Nossa opinião | 20 a 60 palavras: o **posicionamento do portal** sobre o fato ("a gente apoia/concorda/cobra/discorda…"), o porquê e um conselho concreto. **Sem versículo no texto** (pedido de 30/10/2026; o validador recusa referência bíblica aqui) |
 | `versiculo` | fim da Nossa opinião | opcional: `{texto, referencia, traducao}`, sai embaixo do posicionamento, em linha separada. Só quando a passagem cabe sem forçar |
 | `fontes` | Fontes | 2 ou mais, com nome, link, data e `tipo` (pelo menos uma `primaria`) |
-| `crivo` | Por que esta notícia entrou | pontos (0 a 20), trilha, eixos, portal de origem e critérios (`docs/CRIVO_NOTICIAS.md`); manchete = maior pontuação do dia |
+| `crivo` | Por que esta notícia entrou | motor de relevância de 0 a 100 (`config/relevancia.json`, `docs/CRIVO_NOTICIAS.md`, seção 4): pontos, trilha, abrangência, origem e os 5 critérios com o porquê; manchete = maior pontuação do dia, com 70 ou mais |
 | `instituicao` | linha de data | quem fez o fato (Senado, CGADB, Pew…) |
 | `imagem` | foto | obrigatória: arquivo em `conteudo/imagens/`, crédito com licença, `alt`; nunca IA |
 | `estudos` | Estudos citados | `[{nome, estudo: <slug>}]` |

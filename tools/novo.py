@@ -29,7 +29,8 @@ def noticia(categoria, titulo):
     return f"{hoje}-{slugify(titulo)}.json", {
         "slug": slugify(titulo), "data": hoje, "categoria": categoria, "status": "rascunho", "titulo": titulo,
         "lide": "", "corpo": [""], "fontes": [{"nome": "", "url": "https://", "data": "DD/MM/AAAA", "tipo": "primaria"}],
-        "imagem": None, "crivo": {"pontos": 0, "criterios": []}, "selo": "Informativo", "instituicao": "",
+        "imagem": None, "crivo": {"escala": 100, "pontos": 0, "trilha": "quente", "abrangencia": "nacional",
+                                    "criterios": {k: {"pontos": 0, "porque": ""} for k in ("impacto", "afinidade", "atualidade", "comprovacao", "originalidade")}}, "selo": "Informativo", "instituicao": "",
         "por_que_importa": "", "numeros": [["", "", ""], ["", "", ""]], "no_brasil": "",
         "critica": [{"fonte": "", "texto": "", "citacao": False}], "para_quem": [""], "nao_e_para": [], "veredito": "",
         "estudos": [], "ia": {"usada": True, "uso": ""}}

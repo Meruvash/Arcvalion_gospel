@@ -25,6 +25,7 @@ from og import url_cartao  # noqa: E402
 from layout import _config_interacoes, barra_leitura, botao_compartilhar, convite_compartilhar, interacoes  # noqa: E402
 from layout import CSS_BUSCA, CSS_TRILHA, EMAIL, cabecalho, rodape, trilha  # noqa: E402
 from noticias.checar_noticia import checar_dia, problemas  # noqa: E402
+import portal  # noqa: E402  (iniciado pelo checar_noticia)
 
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
 SELO_CLASSE = {"Boa notícia": "compra", "Vale acompanhar": "acompanhar", "Para refletir": "fas", "Motivo de alerta": "ressalvas", "Informativo": "info"}
@@ -340,7 +341,7 @@ footer .in{display:flex;flex-wrap:wrap;gap:10px 20px;padding-top:18px;padding-bo
 .nota .brasil-n{background:var(--faixa-verde);border:1px solid #17432c;border-left:4px solid #3ddc84;--paper-ink:#eceff3;--paper-muted:#8fd3ae;--acc:#3ddc84}
 .nota .brasil-n p{color:#dcefe4}
 .nota .crivo{background:var(--faixa-escura);border:1px solid #1e3a64;--paper-ink:#eceff3;--paper-muted:#a7afbb}
-.nota .crivo p{color:#c9cfd8}
+.nota .crivo p,.nota .crivo li{color:#c9cfd8}.nota .crivo ul{margin-top:8px;display:grid;gap:4px;padding-left:18px;font-size:.85rem}
 """
 
 
@@ -701,6 +702,20 @@ def relacionadas(n, limite=3):
     return [o for *_, o in cands[:limite]]
 
 
+def por_que_entrou(n):
+    """Seção "Por que esta notícia entrou": a nota de 0 a 100 do motor de relevância, critério a critério, com o porquê."""
+    c = n["crivo"]
+    if c.get("escala") != 100:  # nota de antes do motor de 0 a 100: mostra o crivo antigo, como foi publicado
+        return (f'<section class="bloco crivo"><h2>Por que esta notícia entrou</h2><p><b>{c["pontos"]} pontos no crivo editorial</b>'
+                f'{":" if c.get("criterios") else ""} {e("; ".join(c.get("criterios") or []) or "(nenhum critério de pontuação)")}.</p></section>')
+    nomes = {k["chave"]: (k["nome"], k["peso"]) for k in portal.RELEVANCIA["criterios"]}
+    itens = "".join(f'<li><b>{e(nomes[k][0])} {v["pontos"]}/{nomes[k][1]}</b>: {e(v["porque"])}</li>'
+                    for k, v in c["criterios"].items() if k in nomes)
+    faixa = next(nome for minimo, nome in portal.RELEVANCIA["faixas"] if c["pontos"] >= minimo)
+    return (f'<section class="bloco crivo"><h2>Por que esta notícia entrou</h2><p><b>{c["pontos"]} de 100 pontos no crivo editorial'
+            f' ({e(faixa)})</b></p><ul>{itens}</ul></section>')
+
+
 def versiculo(n):
     """Versículo opcional da Nossa opinião: sai embaixo do posicionamento, nunca no meio dele (pedido de 30/10/2026)."""
     v = n.get("versiculo")
@@ -751,7 +766,7 @@ def build_nota(n, previa=False):
  {f'<section class="bloco"><h2>Jogos citados</h2><div class="jogos">{jogos}</div></section>' if jogos else ""}
  {f'<section class="bloco leia"><h2>Leia também</h2><ul>{leia}</ul></section>' if leia else ""}
  <section class="bloco fontes"><h2>Fontes</h2><ul>{fontes}</ul></section>
- <section class="bloco crivo"><h2>Por que esta notícia entrou</h2><p><b>{n['crivo']['pontos']} pontos no crivo editorial</b>{":" if n['crivo']['criterios'] else ""} {e("; ".join(n['crivo']['criterios']) or "(nenhum critério de pontuação)")}.</p></section>
+ {por_que_entrou(n)}
 </div></main>
 {rodape(pre, barra_leitura(texto_cp, url))}"""
     out = ROOT / ("previa" if previa else "") / "noticias" / n["slug"] / "index.html"

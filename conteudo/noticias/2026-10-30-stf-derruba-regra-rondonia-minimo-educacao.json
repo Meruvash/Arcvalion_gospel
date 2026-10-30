@@ -97,67 +97,44 @@
   }
  ],
  "crivo": {
-  "pontos": 12,
+  "escala": 100,
+  "pontos": 77,
   "trilha": "quente",
   "abrangencia": "rondonia",
-  "eixos": {
-   "valor": 8,
-   "viral": 2,
-   "cristao": 2
-  },
   "origem": {
    "nome": "Rondônia Dinâmica",
    "url": "https://www.rondoniadinamica.com/noticias/2026/10/moraes-derruba-regra-de-rondonia-que-permitia-contabilizar-despesas-da-educacao-pagas-ate-o-fim-do-ano-seguinte,257599.shtml"
   },
-  "criterios": [
-   "Documento primário: íntegra da decisão do STF (2)",
-   "Ato de poder: decisão do STF sobre lei estadual (2)",
-   "Proximidade: Rondônia (2)",
-   "Número forte com fonte oficial: 24,66% em 2021 (1)",
-   "Duas fontes independentes: STF e Rondônia Dinâmica (1)",
-   "Moeda social: documento lido na íntegra, com o contexto das contas de 2021 que os portais não deram (1)",
-   "Utilidade: pais e conselhos podem cobrar o demonstrativo anual (1)",
-   "Passagem bíblica sem forçar: 2 Coríntios 8.21 (2)"
-  ]
+  "criterios": {
+   "impacto": {
+    "pontos": 23,
+    "porque": "Decisão do STF tira da lei estadual a regra que contava no piso de 25% gastos pagos no ano seguinte; vale para toda a rede estadual, mas ainda cabe agravo e não há valor público do efeito"
+   },
+   "afinidade": {
+    "pontos": 18,
+    "porque": "Poder público de Rondônia e educação dos filhos: núcleo do portal, com efeito indireto no leitor (régua das contas, não serviço na escola)"
+   },
+   "atualidade": {
+    "pontos": 13,
+    "porque": "Decisão assinada em 20/10 e publicada no DJe em 26/10, noticiada em 29/10: dentro de 7 dias, sem prazo próximo"
+   },
+   "comprovacao": {
+    "pontos": 15,
+    "porque": "Íntegra da decisão e andamento lidos no portal do STF, lei federal conferida no texto da decisão, parecer do MP de Contas lido"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Acrescenta o número de 2021 (24,66%) e a tese do TJ-RO, que os portais locais não deram"
+   }
+  }
  },
  "curadoria": {
-  "_nota": "Teste das novas diretrizes (motor 0 a 100, pedido de 30/10/2026). Registro de auditoria da escolha; ainda não lido pelo build.",
+  "_nota": "Piloto do motor de 0 a 100 (30/10/2026): a pontuação está em 'crivo'; aqui ficam verificação, duplicidade e SEO.",
   "titulo_original": "Moraes derruba regra de Rondônia que permitia contabilizar despesas da educação pagas até o fim do ano seguinte",
   "nucleo": "C - Porto Velho e Rondônia",
   "categoria": "Judiciário / finanças da educação",
   "publicacao_original": "2026-10-29T11:41-04:00",
   "coleta": "2026-10-30",
-  "relevancia": {
-   "total": 77,
-   "faixa": "alta relevância (70 a 84)",
-   "criterios": {
-    "impacto_publico": [
-     23,
-     30,
-     "muda a régua do piso de 25% de toda a rede estadual; sem valor público do efeito por ano"
-    ],
-    "afinidade": [
-     18,
-     25,
-     "Rondônia, educação e família; STF é tema central do público"
-    ],
-    "atualidade": [
-     13,
-     20,
-     "decisão de 20/10, DJe de 26/10, noticiada em 29/10; ainda sem repercussão nem recurso"
-    ],
-    "comprovacao": [
-     15,
-     15,
-     "íntegra da decisão e andamento lidos no STF; lei federal conferida"
-    ],
-    "originalidade": [
-     8,
-     10,
-     "contexto das contas de 2021 (24,66%) e o lado do TJ-RO, ausentes nos portais"
-    ]
-   }
-  },
   "verificacao": {
    "grau_de_confianca": "alto",
    "status": "fato comprovado em documento primário",

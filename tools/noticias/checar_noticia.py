@@ -32,29 +32,51 @@ REF_BIBLICA = re.compile(r"\b(?:[1-3] ?)?[A-ZÁÉÍÓÚ][a-záéíóúâêôãõ
 TRADUCOES = {"ARC", "ARA", "NVI", "NAA", "NVT", "ACF", "NTLH", "AS21", "KJA"}
 FOTO_MIN = 500
 MINIMO = 3   # notas por dia na fase de teste (o Elite usa 5)
-# crivo de 0 a 20 (docs/CRIVO_NOTICIAS.md): teto de cada eixo e nota mínima para publicar
-EIXOS = {"valor": 8, "viral": 7, "cristao": 5}
+# crivo editorial: motor de relevância de 0 a 100 (config/relevancia.json, pedido de 30/10/2026; substituiu o de 0 a 20)
 TRILHAS = {"quente", "atemporal"}
 ABRANGENCIAS = {"nacional", "rondonia", "porto-velho", "internacional"}
-CORTE = 8
 
 
-def checar_crivo(c):
-    """Notas com 'eixos' seguem o crivo de 0 a 20; as antigas, só com 'pontos', continuam valendo."""
-    if not isinstance(c.get("pontos"), int):
-        return ["crivo sem pontos"]
-    if "eixos" not in c:
-        return []
-    erros = []
-    eixos = c["eixos"] if isinstance(c["eixos"], dict) else {}
-    for nome, teto in EIXOS.items():
-        v = eixos.get(nome)
-        if not isinstance(v, int) or not 0 <= v <= teto:
-            erros.append(f"crivo: eixo {nome!r} precisa ser inteiro de 0 a {teto}")
-    if not erros and sum(eixos[k] for k in EIXOS) != c["pontos"]:
-        erros.append(f"crivo: pontos ({c['pontos']}) diferente da soma dos eixos ({sum(eixos[k] for k in EIXOS)})")
-    if not erros and c["pontos"] < CORTE:
-        erros.append(f"crivo: {c['pontos']} pontos, abaixo do corte de {CORTE} (docs/CRIVO_NOTICIAS.md)")
+def faixa(pontos):
+    """Nome da faixa de relevância (config/relevancia.json): prioridade máxima, alta, moderada, baixa."""
+    return next(nome for minimo, nome in portal.RELEVANCIA["faixas"] if pontos >= minimo)
+
+
+def checar_config(r):
+    """Os pesos podem mudar na configuração, mas precisam somar 100."""
+    soma = sum(c["peso"] for c in r["criterios"])
+    return [] if soma == 100 else [f"config/relevancia.json: os pesos somam {soma}, precisam somar 100"]
+
+
+def checar_crivo(c, data=""):
+    """Motor de relevância: cada critério de 0 até o peso, com justificativa em fatos concretos; o total decide se a nota
+    sai (publicar_se_faltar), e a comprovação tem piso próprio, porque pontuação alta não substitui verificação.
+    Notas de antes da vigência só precisam da estrutura: o corte não é aplicado a quem já estava no ar."""
+    r = portal.RELEVANCIA
+    erros = checar_config(r)
+    if c.get("escala") != 100 and data < r["vigencia"]:  # crivo antigo (0 a 20) de nota que já estava no ar
+        return erros + ([] if isinstance(c.get("pontos"), int) else ["crivo sem pontos"])
+    if c.get("escala") != 100 or not isinstance(c.get("pontos"), int):
+        return erros + ["crivo: use o motor de 0 a 100 ({\"escala\": 100, \"pontos\", \"criterios\": {...}}), docs/CRIVO_NOTICIAS.md"]
+    crit = c.get("criterios") if isinstance(c.get("criterios"), dict) else {}
+    soma = 0
+    for k in r["criterios"]:
+        item = crit.get(k["chave"]) if isinstance(crit.get(k["chave"]), dict) else {}
+        v = item.get("pontos")
+        if not isinstance(v, int) or not 0 <= v <= k["peso"]:
+            erros.append(f"crivo: {k['nome']} ({k['chave']}) precisa ser inteiro de 0 a {k['peso']}")
+            continue
+        soma += v
+        if len(str(item.get("porque", "")).split()) < r["justificativa_min_palavras"]:
+            erros.append(f"crivo: justifique {k['nome']} com os elementos concretos da pauta ('porque')")
+    if not erros and soma != c["pontos"]:
+        erros.append(f"crivo: pontos ({c['pontos']}) diferente da soma dos critérios ({soma})")
+    if not erros and data >= r["vigencia"]:
+        if c["pontos"] < r["publicar_se_faltar"]:
+            erros.append(f"crivo: {c['pontos']} pontos ({faixa(c['pontos'])}), abaixo do corte de {r['publicar_se_faltar']}")
+        if crit["comprovacao"]["pontos"] < r["comprovacao_minima"]:
+            erros.append(f"crivo: comprovação {crit['comprovacao']['pontos']}, abaixo do mínimo de {r['comprovacao_minima']}: "
+                         "volte à apuração (fonte oficial, documento ou segunda reportagem independente)")
     if c.get("trilha") not in TRILHAS:
         erros.append("crivo: 'trilha' precisa ser quente ou atemporal")
     if c.get("abrangencia") not in ABRANGENCIAS:
@@ -183,7 +205,7 @@ def problemas(n, publicar=None):
             erros.append(f"citação literal de {c.get('fonte')!r} sem 'url' da página onde a frase está")
     if publicar or n.get("status") == "revisao":
         erros += checar_foto(n)
-    erros += checar_crivo(n.get("crivo") or {})
+    erros += checar_crivo(n.get("crivo") or {}, n.get("data", ""))
     # crivo jurídico (30/10/2026): opinião forte sem abrir espaço para processo
     erros += risco_juridico(n)[0]
     if (publicar or n.get("status") == "revisao") and len(str(n.get("checagem_juridica", "")).split()) < 12:
@@ -203,9 +225,14 @@ def checar_dia(ns):
     for n in ns:
         por_dia.setdefault(n["data"], []).append(n)
     for dia, lista in por_dia.items():
-        pts = [n["crivo"].get("pontos", 0) for n in lista]
-        if any(n.get("manchete") and n["crivo"].get("pontos", 0) < max(pts) for n in lista):
+        # as notas de antes da vigência têm crivo de 0 a 20: a manchete se compara com as notas da mesma escala
+        escala = lambda x: x["crivo"].get("escala", 20)  # noqa: E731
+        if any(n.get("manchete") and n["crivo"].get("pontos", 0) < max(o["crivo"].get("pontos", 0) for o in lista if escala(o) == escala(n))
+               for n in lista):
             erros.append(f"{dia}: a manchete precisa ser a nota de maior pontuação do dia")
+        piso = portal.RELEVANCIA.get("manchete", 0)
+        if dia >= portal.RELEVANCIA.get("vigencia", "") and any(n.get("manchete") and n["crivo"].get("pontos", 0) < piso for n in lista):
+            erros.append(f"{dia}: manchete precisa de {piso} pontos ou mais no crivo de 0 a 100")
         fortes = sum(bool(n.get("opiniao_forte")) for n in lista)
         if len(lista) >= 5 and fortes < 2 * (len(lista) // 5):
             erros.append(f"{dia}: {fortes} de {len(lista)} notas com Opinião Forte; o padrão é 2 de cada 5")

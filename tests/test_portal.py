@@ -68,20 +68,52 @@ class Noticias(unittest.TestCase):
         a["manchete"] = False
         self.assertTrue(checar_dia([a, b]))
 
-    def test_crivo_de_vinte_pontos(self):
-        def crivo(**mud):
-            c = {"pontos": 15, "trilha": "quente", "abrangencia": "nacional", "eixos": {"valor": 6, "viral": 5, "cristao": 4},
-                 "origem": {"nome": "The Christian Post", "url": "https://www.christianpost.com/"}}
-            c.update(mud)
-            return self.erros(crivo=c)
-        self.assertEqual(crivo(), "")
-        self.assertIn("soma dos eixos", crivo(pontos=16))
-        self.assertIn("de 0 a 7", crivo(pontos=17, eixos={"valor": 6, "viral": 8, "cristao": 3}))
-        self.assertIn("abaixo do corte", crivo(pontos=7, eixos={"valor": 4, "viral": 2, "cristao": 1}))
-        self.assertIn("trilha", crivo(trilha="morna"))
-        self.assertIn("abrangencia", crivo(abrangencia="europa"))
-        self.assertIn("origem", crivo(origem={"nome": "Daily Wire"}))
-        self.assertEqual(self.erros(crivo={"pontos": 5}), "")  # nota antiga, sem eixos, continua valendo
+    def crivo100(self, impacto=25, afinidade=20, atualidade=17, comprovacao=13, originalidade=5, **mud):
+        """Crivo de 0 a 100 (config/relevancia.json) de uma nota fictícia de depois da vigência."""
+        pts = {"impacto": impacto, "afinidade": afinidade, "atualidade": atualidade, "comprovacao": comprovacao, "originalidade": originalidade}
+        c = {"escala": 100, "pontos": sum(pts.values()), "trilha": "quente", "abrangencia": "nacional",
+             "origem": {"nome": "Exemplo", "url": "https://example.org/"},
+             "criterios": {k: {"pontos": v, "porque": "fato fictício de teste com efeito concreto descrito"} for k, v in pts.items()}}
+        c.update(mud)
+        return c
+
+    def test_crivo_de_cem_pontos(self):
+        dia = "2026-11-02"
+        erros = lambda c: self.erros(crivo=c, data=dia)  # noqa: E731
+        self.assertEqual(erros(self.crivo100()), "")  # 80: alta relevância
+        self.assertIn("soma dos critérios", erros(self.crivo100(pontos=81)))
+        self.assertIn("de 0 a 30", erros(self.crivo100(impacto=31)))
+        sem_porque = self.crivo100()
+        sem_porque["criterios"]["impacto"]["porque"] = "importante"
+        self.assertIn("justifique Impacto público", erros(sem_porque))
+        # declaração sem consequência, de outro país: baixa prioridade, não entra
+        self.assertIn("abaixo do corte de 60", erros(self.crivo100(impacto=2, afinidade=12, atualidade=13, comprovacao=12, originalidade=5)))
+        # pontuação alta não substitui verificação: só uma reportagem, sem confirmação
+        self.assertIn("comprovação 5", erros(self.crivo100(impacto=30, afinidade=25, atualidade=20, comprovacao=5, originalidade=10)))
+        self.assertIn("motor de 0 a 100", erros({"pontos": 15, "eixos": {"valor": 6, "viral": 5, "cristao": 4}}))
+        self.assertIn("trilha", erros(self.crivo100(trilha="morna")))
+        self.assertEqual(self.erros(crivo={"pontos": 5}), "")  # nota de antes da vigência mantém o crivo antigo
+
+    def test_manchete_do_motor(self):
+        a, b = copy.deepcopy(self.n), copy.deepcopy(self.n)
+        for x in (a, b):
+            x["data"] = "2026-11-02"
+        a["crivo"], b["crivo"] = self.crivo100(), self.crivo100(impacto=5, afinidade=20, atualidade=17, comprovacao=13, originalidade=8)
+        a["manchete"], b["manchete"] = False, True
+        self.assertIn("maior pontuação", " ".join(checar_dia([a, b])))
+        a["manchete"], b["manchete"] = True, False
+        self.assertEqual(checar_dia([a, b]), [])
+        a["crivo"] = self.crivo100(impacto=15, afinidade=15, atualidade=17, comprovacao=13, originalidade=5)  # 65
+        b["crivo"] = self.crivo100(impacto=10, afinidade=15, atualidade=17, comprovacao=13, originalidade=5)
+        self.assertIn("70 pontos", " ".join(checar_dia([a, b])))
+
+    def test_pesos_configuraveis(self):
+        from noticias.checar_noticia import checar_config, faixa
+        self.assertEqual(checar_config(portal.RELEVANCIA), [])
+        torto = copy.deepcopy(portal.RELEVANCIA)
+        torto["criterios"][0]["peso"] = 40
+        self.assertIn("somam 110", checar_config(torto)[0])
+        self.assertEqual([faixa(p) for p in (90, 77, 55, 30)], ["prioridade máxima", "alta relevância", "relevância moderada", "baixa prioridade"])
 
     def test_fonte_local(self):
         loc = lambda d: {"nome": d, "url": f"https://{d}/noticia/x", "data": "30/10/2026", "tipo": "reportagem_local"}  # noqa: E731

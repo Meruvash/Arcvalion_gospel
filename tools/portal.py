@@ -17,6 +17,7 @@ CFG = {}
 EDITORIAS = []
 EQUIPE = {}
 ANUNCIOS = {}
+RELEVANCIA = {}
 SITE = ""
 BASE = ""   # caminho do site no domínio: "" na raiz, "/Arcvalion" em meruvash.github.io/Arcvalion
 NOME = ""
@@ -53,11 +54,12 @@ def _ler(nome, sobre=None):
 
 
 def iniciar(conteudo=None, config=None, saida=None, exemplo=False):
-    global CFG, EDITORIAS, EQUIPE, ANUNCIOS, SITE, BASE, NOME, CONTEUDO, SAIDA, EXEMPLO
+    global CFG, EDITORIAS, EQUIPE, ANUNCIOS, RELEVANCIA, SITE, BASE, NOME, CONTEUDO, SAIDA, EXEMPLO
     CFG = _ler("portal.json", config)
     EDITORIAS = _ler("editorias.json", config)["editorias"]
     EQUIPE = {p["slug"]: p for p in _ler("equipe.json", config)["pessoas"]}
     ANUNCIOS = _ler("anuncios.json", config)
+    RELEVANCIA = _ler("relevancia.json", config)  # motor de relevância das notícias (0 a 100)
     SITE = endereco(CFG["url"])
     from urllib.parse import urlparse
     BASE = urlparse(SITE).path.rstrip("/")

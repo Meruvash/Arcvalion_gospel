@@ -3,7 +3,7 @@
 Pedido do responsável editorial em 30/10/2026: as primeiras notas saíram fracas e genéricas (comissão da Câmara,
 pesquisa do Pew). A pauta passa a nascer em **portais conservadores consolidados** dos EUA e do Brasil, traduzida e
 reescrita por nós, com duas trilhas (**quente** e **atemporal**) e com o nosso toque: a relevância cristã do fato.
-Este documento diz onde procurar, o que elimina uma pauta, como pontuar (0 a 20) e como escrever o toque.
+Este documento diz onde procurar, o que elimina uma pauta, como pontuar (motor de relevância de 0 a 100, desde 31/10/2026) e como escrever o toque.
 Modelo do crivo: o do Elite Boardgamers (eliminatórios, depois pontos; manchete é a maior nota do dia).
 
 Teste de 30/10/2026, com notícias reais: `docs/TESTE_CRIVO_2026-10-30.md`.
@@ -113,68 +113,70 @@ reservados: só com autorização por escrito (`fotos.py local` com a licença d
 8. **Sem foto com licença** (regra das notícias, `docs/FOTOS.md`). Foto do portal de origem não serve.
 9. **Já publicada por nós**, mesmo vinda de outro portal.
 
-## 4. Pontuação (0 a 20)
+## 4. Pontuação: motor de relevância (0 a 100)
 
-Cada linha é uma pergunta de sim ou não, para duas pessoas chegarem à mesma nota. Some os três eixos.
+Pedido do responsável editorial em 30/10/2026: o crivo de 0 a 20 deixava passar muita coisa fraca, porque somava
+potencial de viralização e "versículo que cabe" com o mesmo peso de fato com consequência. Vale a partir de
+**31/10/2026**; as notas publicadas antes guardam o crivo antigo. A avaliação que motivou a troca está em
+`docs/AVALIACAO_CRIVO_2026-10-30.md`.
 
-### A. Valor jornalístico (até 8)
+Os pesos, as réguas e os cortes ficam em **`config/relevancia.json`** (mudam sem mexer no código; os pesos precisam
+somar 100). Cada critério recebe de 0 até o peso, com o **porquê em fatos concretos da pauta** (não "é importante":
+"decisão já vale para a rede estadual inteira"). Use a régua do critério para chegar ao número.
 
-| Pergunta | Pontos |
-|---|---|
-| Há **documento primário** com link na nota (processo, decisão, lei, relatório, vídeo integral)? | 2 |
-| É **decisão ou ato de quem tem poder** (tribunal, Congresso, governo, plebiscito, denominação grande) ou atinge milhares de pessoas? | 2 |
-| **Proximidade**: é de Rondônia ou Porto Velho, ou é nacional? (Internacional só ganha estes pontos se o mesmo projeto, decisão ou caso estiver aqui ou afetar brasileiros diretamente) | 2 |
-| Tem **número forte com fonte** (pesquisa com ficha técnica, estatística oficial)? | 1 |
-| Está confirmada por **duas fontes independentes**? | 1 |
+| Critério | Peso | Régua (pontos mínimos da faixa) |
+|---|---|---|
+| Impacto público | 30 | 25: muda regra, direito ou dinheiro público já valendo para um estado, o país ou milhares (decisão, lei sancionada, decreto, votação concluída) · 15: efeito concreto numa cidade, comunidade ou grupo (serviço essencial, obra, ato do prefeito, decisão de denominação ou convenção nacional) · 5: efeito possível ou futuro (projeto em tramitação, ação sem julgamento, pesquisa) · 0: declaração, evento, homenagem, polêmica |
+| Afinidade com o público | 25 | 20: núcleo do portal com efeito direto no leitor (igreja e liberdade religiosa no Brasil; poder público de Rondônia e Porto Velho; vida, família, educação) · 10: tema do portal com efeito indireto (outro país, debate sem caso aqui) · 0: lateral |
+| Atualidade e urgência | 20 | 17: até 48 h, ou prazo, votação ou julgamento nos próximos dias · 10: até 7 dias · 5: mais antigo com desdobramento ou gancho de calendário · 0: sem novidade |
+| Qualidade da comprovação | 15 | 13: documento primário lido na íntegra e confirmação independente · 9: fonte oficial ou duas reportagens próprias independentes · 5: uma reportagem própria · 0: agregador, republicação ou declaração sem prova |
+| Originalidade e aprofundamento | 10 | 8: acrescenta fato, número ou contexto que as fontes não deram · 4: síntese com contexto próprio · 0: reescrita de uma fonte |
 
-### B. Potencial de viralização (até 7)
+Regras que o número não muda:
+- **Pontuação alta não substitui verificação.** Comprovação abaixo de **9** não publica, qualquer que seja o total:
+  volte à apuração. Acusação grave, conteúdo jurídico sensível ou fato contestado pede revisão humana antes de sair.
+- **Volume não é relevância.** Cinco portais repetindo a mesma nota de assessoria valem uma fonte: agrupe por
+  acontecimento, ache a origem e pontue o acontecimento, não as manchetes.
+- **Declaração sem consequência fica embaixo**: uma decisão judicial com efeito concreto pontua mais que a fala genérica
+  de um político, e uma pesquisa de outro país pontua pouco em impacto, por mais que viralize.
+- **Interesse público vence preferência.** Fato verdadeiro e relevante entra mesmo quando desfavorável a quem está
+  perto da linha do portal; a régua é a mesma para todos os lados.
+- Os eliminatórios da seção 3 continuam valendo antes da pontuação.
 
-Os seis princípios de *Contágio* (Jonah Berger) e a pesquisa de Berger e Milkman (emoção de alta ativação se
-compartilha), em perguntas objetivas:
+### Faixas e cortes
 
-| Pergunta | Pontos |
-|---|---|
-| **Emoção de alta ativação** que o fato provoca sozinho, sem adjetivo nosso: indignação justa, admiração, esperança, espanto? Teste: dá para dizer a emoção numa palavra. | 1 |
-| Tem **personagem com nome** (pastor, mãe, atleta, juiz), não só instituição? | 1 |
-| **Contraria a narrativa dominante** ou surpreende? Teste: cabe numa frase "X, apesar de Y" ou "ninguém contou que…". | 1 |
-| **Moeda social**: quem compartilha parece bem informado (dado inédito, documento, bastidor que a grande imprensa não deu)? | 1 |
-| **Utilidade**: o leitor pode fazer algo com isso (orar, votar, proteger o filho, conhecer um direito, ajudar alguém)? | 1 |
-| **Gatilho no calendário**: está na conversa da semana (eleição, julgamento marcado, data cristã, estreia, assunto em alta)? | 1 |
-| **Cabe num cartão**: o fato inteiro cabe em até 15 palavras e tem foto que mostra o fato? | 1 |
+| Nota | Faixa | Decisão |
+|---|---|---|
+| 85 a 100 | Prioridade máxima | Escreva primeiro; candidata a manchete |
+| 70 a 84 | Alta relevância | Publica; manchete só daqui para cima |
+| 60 a 69 | Relevância moderada | Só para completar o dia, nunca como manchete |
+| 0 a 59 | Moderada baixa ou baixa prioridade | Não entra (`checar_noticia.py` recusa) |
 
-### C. Relevância cristã (até 5)
+**Mistura do dia**: a manchete é a maior nota do dia (e precisa de 70 ou mais). Publica-se o que passa, não uma cota:
+melhor 3 notas fortes que 5 com enchimento.
 
-| Pergunta | Pontos |
-|---|---|
-| Há **uma passagem bíblica que um pastor usaria** sobre o assunto, sem forçar? | 2 |
-| Mostra **fé vivida**: testemunho, coragem, perseguição, caridade, arrependimento? | 1 |
-| **Pede resposta do cristão**: oração, cuidado, posicionamento, conhecimento para conversar com os filhos? | 1 |
-| **Rende estudo** ou série (tema que volta: vida, casamento, liberdade, Reforma, perseguição)? | 1 |
-
-### Cortes
-
-| Nota | Decisão |
-|---|---|
-| 14 a 20 | Pauta forte: candidata a manchete; escreva primeiro |
-| 11 a 13 | Publica |
-| 8 a 10 | Só se faltar nota no dia, e nunca como manchete |
-| 0 a 7 | Não entra |
-
-**Mistura do dia** (5 notas, 2 com Opinião Forte): pelo menos 3 nacionais, 1 de Rondônia ou Porto Velho quando
-houver pauta que passe, no máximo 1 internacional (de preferência atemporal), e pelo menos 1 atemporal por dia. Empate: a mais recente e com mais fontes primárias.
-
-Na nota, o crivo fica registrado assim (`checar_noticia.py` confere a soma, os limites, o corte e a abrangência):
+Na nota, o crivo fica registrado assim (`checar_noticia.py` confere a soma, o teto de cada peso, as justificativas, o
+corte, o piso de comprovação e a abrangência; a página mostra cada critério com o porquê em "Por que esta notícia entrou"):
 
 ```json
 "crivo": {
-  "pontos": 15,
+  "escala": 100,
+  "pontos": 77,
   "trilha": "quente",
-  "abrangencia": "nacional",
-  "eixos": {"valor": 6, "viral": 5, "cristao": 4},
-  "origem": {"nome": "The Christian Post", "url": "https://..."},
-  "criterios": ["Documento primário (2)", "Ato de poder: plebiscito (2)", "..."]
+  "abrangencia": "rondonia",
+  "origem": {"nome": "Rondônia Dinâmica", "url": "https://..."},
+  "criterios": {
+    "impacto": {"pontos": 23, "porque": "Decisão do STF tira da lei estadual a regra que ...; ainda cabe agravo"},
+    "afinidade": {"pontos": 18, "porque": "..."},
+    "atualidade": {"pontos": 13, "porque": "..."},
+    "comprovacao": {"pontos": 15, "porque": "Íntegra da decisão lida no portal do STF ..."},
+    "originalidade": {"pontos": 8, "porque": "..."}
+  }
 }
 ```
+
+A viralização e a lente cristã não somam mais pontos: entram na escolha do ângulo, na chamada (seção 7) e no toque
+(seção 5), depois que a pauta já provou que importa.
 
 ## 5. O nosso toque: a lente cristã
 
@@ -191,7 +193,7 @@ O fato fica neutro (título, lide, números, contexto, No Brasil). O toque vai e
 
 Regras do toque:
 - Versículo que cabe, nunca enfeite, e sempre no campo `versiculo`, nunca dentro do texto da opinião. Se não há
-  passagem óbvia, a nota sai sem versículo e não ganha os 2 pontos de C, e tudo bem.
+  passagem óbvia, a nota sai sem versículo, e tudo bem.
 - Firme na convicção, manso no tom (1 Pedro 3.15). Sem torcida partidária, sem desprezo por quem pensa diferente.
 - Esperança onde houver: perseguição com o testemunho de quem resiste; derrota com o que a Igreja faz agora.
 - Na trilha atemporal, a nota precisa de um **gancho de hoje** (data, aniversário, estreia, debate da semana) no
@@ -209,6 +211,6 @@ Regras do toque:
 
 ## 7. Chamada para redes
 
-A chamada (`conteudo/chamadas.json`) usa o eixo B: a emoção, o personagem, o contraste. Tudo o que ela promete
+A chamada (`conteudo/chamadas.json`) usa o que faz uma notícia circular: a emoção, o personagem, o contraste. Tudo o que ela promete
 está na nota. Proibido "chocante", "a mídia esconde", "compartilhe antes que apaguem", CAIXA ALTA e urgência falsa.
 A pergunta final convida o leitor cristão a responder ("Você conversaria sobre isso com seus filhos?").

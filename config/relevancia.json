@@ -1,0 +1,136 @@
+{
+ "_ajuda": "Motor de relevância das notícias (0 a 100), pedido do responsável editorial em 30/10/2026; substitui o crivo de 0 a 20. Os pesos somam 100 e podem ser mudados aqui sem mexer no código (tools/noticias/checar_noticia.py confere a soma). Cada critério recebe de 0 até o peso, com a justificativa em fatos concretos da pauta; as faixas de cada critério são a régua para duas pessoas chegarem à mesma nota. Pontuação alta não substitui verificação: abaixo de 'comprovacao_minima' a nota não sai, qualquer que seja o total. Guia completo: docs/CRIVO_NOTICIAS.md, seção 4.",
+ "vigencia": "2026-10-31",
+ "criterios": [
+  {
+   "chave": "impacto",
+   "nome": "Impacto público",
+   "peso": 30,
+   "regua": [
+    [
+     25,
+     "muda regra, direito ou dinheiro público com efeito já valendo para um estado, o país ou milhares de pessoas (decisão judicial, lei sancionada, decreto, votação concluída)"
+    ],
+    [
+     15,
+     "efeito concreto sobre uma cidade, uma comunidade ou um grupo definido (serviço essencial interrompido, obra, ato do prefeito, decisão de denominação ou convenção nacional para as suas igrejas)"
+    ],
+    [
+     5,
+     "efeito possível ou futuro: projeto em tramitação, ação ainda sem julgamento, proposta, pesquisa de opinião"
+    ],
+    [
+     0,
+     "sem consequência concreta: declaração, evento, homenagem, polêmica"
+    ]
+   ]
+  },
+  {
+   "chave": "afinidade",
+   "nome": "Afinidade com o público",
+   "peso": 25,
+   "regua": [
+    [
+     20,
+     "núcleo do portal com efeito direto no leitor: igreja e liberdade religiosa no Brasil; poder público de Rondônia e Porto Velho; vida, família e educação"
+    ],
+    [
+     10,
+     "tema do portal com efeito indireto: fé ou política em outro país, debate de valores sem caso concreto aqui"
+    ],
+    [
+     0,
+     "tema lateral ao público"
+    ]
+   ]
+  },
+  {
+   "chave": "atualidade",
+   "nome": "Atualidade e urgência",
+   "peso": 20,
+   "regua": [
+    [
+     17,
+     "fato de até 48 horas, ou com prazo, votação ou julgamento nos próximos dias"
+    ],
+    [
+     10,
+     "fato de até 7 dias"
+    ],
+    [
+     5,
+     "mais antigo, com desdobramento novo ou gancho de calendário (trilha atemporal)"
+    ],
+    [
+     0,
+     "sem novidade"
+    ]
+   ]
+  },
+  {
+   "chave": "comprovacao",
+   "nome": "Qualidade da comprovação",
+   "peso": 15,
+   "regua": [
+    [
+     13,
+     "documento primário lido na íntegra (decisão, lei, processo, relatório) e confirmação independente"
+    ],
+    [
+     9,
+     "fonte oficial identificável ou duas reportagens próprias de veículos independentes"
+    ],
+    [
+     5,
+     "uma reportagem própria, sem confirmação"
+    ],
+    [
+     0,
+     "só agregador, republicação ou declaração sem prova"
+    ]
+   ]
+  },
+  {
+   "chave": "originalidade",
+   "nome": "Originalidade e aprofundamento",
+   "peso": 10,
+   "regua": [
+    [
+     8,
+     "acrescenta fato, número ou contexto que as fontes não deram (documento lido, histórico, o outro lado)"
+    ],
+    [
+     4,
+     "síntese de fontes com contexto próprio"
+    ],
+    [
+     0,
+     "reescrita de uma fonte só"
+    ]
+   ]
+  }
+ ],
+ "faixas": [
+  [
+   85,
+   "prioridade máxima"
+  ],
+  [
+   70,
+   "alta relevância"
+  ],
+  [
+   50,
+   "relevância moderada"
+  ],
+  [
+   0,
+   "baixa prioridade"
+  ]
+ ],
+ "publicar": 70,
+ "publicar_se_faltar": 60,
+ "manchete": 70,
+ "comprovacao_minima": 9,
+ "justificativa_min_palavras": 6
+}
