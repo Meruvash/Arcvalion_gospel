@@ -36,7 +36,7 @@ O texto central é João 3:1-21 (livro de João, capítulo 3, versículos 1 a 21
 
 Um detalhe do contexto ajuda a entender o peso da cena. Os fariseus eram um grupo religioso judeu conhecido pelo cuidado extremo em cumprir a Lei de Moisés. Nicodemos não era um curioso qualquer: Jesus o chama de "professor do povo de Israel" (João 3:10).
 
-E ele veio de noite. O comentarista Matthew Henry vê nisso tanto prudência, porque Jesus passava o dia cercado de gente e de inimigos, quanto o desejo de conversar a sós, sem plateia. O texto não diz o motivo. Diz apenas que um homem importante procurou Jesus quando ninguém estava olhando.
+E ele veio de noite. Os comentaristas não concordam sobre o motivo. Matthew Henry vê nisso prudência, porque Jesus passava o dia cercado de gente e de inimigos, e o desejo de conversar a sós, sem plateia. John Wesley, o pregador inglês que deu origem ao metodismo, é mais seco: Nicodemos veio por desejo, mas de noite por vergonha. O texto não diz quem tem razão. Diz apenas que um homem importante procurou Jesus quando ninguém estava olhando.
 
 ## Desenvolvimento
 
@@ -52,15 +52,28 @@ Reino de Deus, na boca de Jesus, não é um território no mapa. É a vida debai
 
 A pergunta de Nicodemos costuma ser lida como ingenuidade, mas talvez seja o contrário: é a pergunta de quem entendeu o tamanho da exigência. Nascer não é algo que alguém faz; é algo que acontece com a gente. Ninguém decidiu nascer, ninguém escolheu os pais, ninguém contribuiu com coisa alguma para o próprio parto. Se Jesus estava pedindo um novo nascimento, estava pedindo algo que nenhum esforço humano consegue produzir. Para um homem que tinha dedicado a vida a cumprir a Lei com rigor, isso devia soar quase ofensivo.
 
+João Calvino, o reformador do século XVI, leu a pergunta de outro modo. Para ele, Nicodemos estava pensando na ideia, ensinada por Pitágoras, de almas que depois da morte passam para outros corpos. E a resposta de Jesus seria justamente a correção: ninguém precisa vestir um corpo novo; precisa ser renovado na mente e no coração pela graça do Espírito. A leitura de Calvino é discutível como retrato de Nicodemos, mas acerta no essencial, e responde a uma confusão que continua viva: nascer de novo não é reencarnar.
+
 A palavra grega que Jesus usa ajuda a ver mais longe. *Anothen* quer dizer "de novo", mas também quer dizer "do alto". Matthew Henry chama atenção para esse duplo sentido: o novo nascimento é ao mesmo tempo um recomeço e um nascimento que vem de cima, de Deus. E acrescenta uma imagem que resume tudo: não se trata de remendar o prédio velho, mas de começar pelos alicerces.
+
+> [!citacao] Nascer de novo é ser mudado por dentro, de todo pecado para toda santidade.
+> Fonte: John Wesley, nota a João 3:7 (tradução nossa; no original, "To be born again, is to be inwardly changed from all sinfulness to all holiness")
 
 > [!termo] **Novo nascimento** (ou **regeneração**): a obra do Espírito Santo que transforma a pessoa por dentro e lhe dá uma vida nova, a vida de filho de Deus. Não é melhoria de comportamento; é começo de vida.
 
 ### Água e Espírito
 
-Jesus explica: é preciso nascer "da água e do Espírito" (versículo 5). Os cristãos discutem há séculos o que a água significa aqui. Uns veem o batismo; outros, o nascimento natural; outros, a purificação que o próprio Espírito realiza. Matthew Henry entende que se trata do Espírito agindo como água, que limpa e purifica.
+Jesus explica: é preciso nascer "da água e do Espírito" (versículo 5). Os cristãos discutem há séculos o que a água significa aqui, e vale conhecer as principais leituras:
 
-Essa leitura tem um apoio forte: Nicodemos, como professor de Israel, conhecia uma promessa antiga do profeta Ezequiel. Nela, Deus diz ao seu povo: "Borrifarei água limpa sobre vocês e os purificarei", e logo depois: "Eu lhes darei um coração novo e porei em vocês um espírito novo" (Ezequiel 36:25-26). Água e espírito, purificação e coração novo, juntos. Por isso Jesus estranha que um mestre de Israel não entenda: o que ele anunciava estava escrito nos livros que Nicodemos ensinava.
+- **O batismo.** Segundo Calvino, João Crisóstomo, um dos grandes pregadores da igreja antiga, e a maioria dos comentaristas do seu tempo entendiam assim. Wesley segue uma linha parecida: nascer da água e do Espírito é passar pela grande mudança interior que o Espírito realiza e ser batizado, onde houver batismo, como sinal exterior dessa mudança.
+
+- **O Espírito, que lava como água.** Calvino discorda dos antigos e diz que, neste versículo, água e Espírito querem dizer a mesma coisa, assim como "Espírito Santo e fogo" em outra passagem. Matthew Henry vai no mesmo sentido: é o Espírito agindo como água, que limpa e purifica.
+
+- **O nascimento natural.** Há também quem veja na água o primeiro nascimento, o do corpo, ao lado do segundo, o do Espírito.
+
+A segunda leitura tem um apoio forte: Nicodemos, como professor de Israel, conhecia uma promessa antiga do profeta Ezequiel. Nela, Deus diz ao seu povo: "Borrifarei água limpa sobre vocês e os purificarei", e logo depois: "Eu lhes darei um coração novo e porei em vocês um espírito novo" (Ezequiel 36:25-26). Água e espírito, purificação e coração novo, juntos. Por isso Jesus estranha que um mestre de Israel não entenda: o que ele anunciava estava escrito nos livros que Nicodemos ensinava.
+
+As leituras divergem, mas todas concordam no principal: quem faz nascer de novo é o Espírito de Deus.
 
 > [!atencao] O batismo nas águas é ordem de Jesus e tem lugar importante na vida cristã, mas a Declaração de Fé das Assembleias de Deus é clara: "Batismo não é sinônimo de regeneração." Ninguém nasce de novo por passar pela água; o novo nascimento é obra do Espírito, recebida pela fé.
 
@@ -130,5 +143,9 @@ Se nascer de novo é obra de Deus, e não conquista humana, a primeira consequê
 - Convenção Geral das Assembleias de Deus no Brasil, [Declaração de Fé](https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf) (CPAD, 2016): Cremos, item 6; capítulo sobre a salvação ("Regeneração, santificação e glorificação"); capítulo sobre o batismo ("Batismo não é sinônimo de regeneração").
 
 - Matthew Henry, *Commentary on the Whole Bible*, comentário a [João 3](https://www.biblestudytools.com/commentaries/matthew-henry-complete/john/3.html) (domínio público).
+
+- John Wesley, *Explanatory Notes*, notas a [João 3](https://www.biblestudytools.com/commentaries/wesleys-explanatory-notes/john/john-3.html) (domínio público).
+
+- João Calvino, *Commentary on John*, volume 1, comentário a [João 3:1-6](https://www.ccel.org/ccel/calvin/calcom34.ix.i.html) (domínio público).
 
 <!-- justificativa: João 3:16 tem 26 palavras; é texto bíblico da NTLH, reproduzido sem alteração. -->

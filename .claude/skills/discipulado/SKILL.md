@@ -57,9 +57,13 @@ Um subagente (Agent, general-purpose) grava `dossie.md`, curto, com:
 - **Texto NTLH conferido** das passagens da lição (o tema e a passagem central saem do passo 2), copiado da página
   (https://www.bibliaonline.com.br/ntlh/<livro>/<cap>; reserva: biblegateway.com, versão NTLH), com o URL. Páginas salvas
   em `<scratchpad>/web-<slug>/` para o grep. Nunca de memória. Falas com travessão ficam fora dos recortes.
-- **2 ou 3 fontes** de tipos diferentes, com a frase lida e o URL: a Declaração de Fé das Assembleias de Deus
+- **Pelo menos 2 fontes além da Bíblia, de autores diferentes (regra do editor, 30/10/2026; o validador confere).** O ideal
+  são 3 ou 4 vozes de tradições diferentes, sempre com a Declaração de Fé das Assembleias de Deus, e mostrando onde elas
+  divergem (ex.: em "nascer de novo", Henry, Wesley e Calvino leem a "água" de modos diferentes). Texto de uma fonte só
+  fica suspeito. Cada uma com a frase lida e o URL: a Declaração de Fé das Assembleias de Deus
   (https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf) e um comentário clássico em domínio público
-  (Matthew Henry ou Wesley no biblestudytools.com ou ccel.org). Um comentário moderno só se a frase for lida.
+  (Matthew Henry, John Wesley e João Calvino têm comentários completos em biblestudytools.com e ccel.org; Spurgeon tem
+  sermões em ccel.org). Um comentário moderno só se a frase for lida.
 - Erros comuns de interpretação do texto e, se houver, a divergência entre tradições (vai para o guia).
 
 Sem pedir mais que isso: a pesquisa da primeira lição levou 12 minutos porque pediu 10 fontes. Enquanto ela roda, escolha a

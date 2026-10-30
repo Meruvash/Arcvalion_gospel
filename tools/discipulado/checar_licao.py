@@ -95,6 +95,12 @@ def problemas(c, publicar=None, pasta=None):
             erros.append("aluno.md: seções '## ' na ordem do padrão: " + " | ".join(SECOES_ALUNO))
         if len(re.findall(r"^> \[!(chave|termo|atencao|citacao)\]", limpo, re.M)) < 3:
             erros.append("aluno.md: pelo menos 3 destaques no texto (> [!chave], > [!termo], > [!atencao], > [!citacao])")
+        # pelo menos duas fontes além da Bíblia (pedido do editor, 30/10/2026: texto de uma fonte só fica suspeito)
+        refs = limpo.split("## Referências", 1)[1] if "## Referências" in limpo else ""
+        itens = [x for x in re.split(r"\n\s*\n", refs) if x.strip().startswith("- ")]
+        fora_biblia = [x for x in itens if re.search(r"\]\(https?://", x) and not re.search(r"bibliaonline\.com\.br|biblegateway\.com|bible\.com", x)]
+        if len(fora_biblia) < 2:
+            erros.append("aluno.md: pelo menos 2 fontes além da Bíblia em Referências, de autores diferentes, cada uma com link (ideal: 3 ou 4, de tradições diferentes, com a Declaração de Fé das Assembleias de Deus)")
         if CREDITO_NTLH not in limpo:
             erros.append("aluno.md: texto bíblico na NTLH com a linha de crédito da SBB")
         if re.search(r"(?i)\b(lição|estudo) (anterior|seguinte)\b|na próxima lição|como vimos (na|no) (lição|estudo)", limpo):

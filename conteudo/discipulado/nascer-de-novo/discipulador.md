@@ -16,9 +16,13 @@ A Declaração de Fé das Assembleias de Deus afirma a "necessidade absoluta do 
 
 - Matthew Henry, *Commentary on the Whole Bible*, comentário a João 3, sobre a visita à noite, *anothen*, a água e a cobra de bronze (domínio público) [verificada].
 
+- John Wesley, *Explanatory Notes*, notas a João 3:2, 3:5 e 3:7 (domínio público) [verificada].
+
+- João Calvino, *Commentary on John*, comentário a João 3:1-6, sobre Crisóstomo, a água e a transmigração das almas (domínio público, CCEL) [verificada].
+
 ## Diferenças de interpretação
 
-O sentido de "nascer da água" (João 3:5) divide os cristãos. Algumas tradições cristãs veem aqui o batismo. Muitos evangélicos, entre eles os pentecostais, leem a água como a purificação feita pelo Espírito, na linha de Ezequiel 36:25-27; outros veem o nascimento natural. A Declaração de Fé afirma que o batismo não é sinônimo de regeneração. Apresente a leitura pentecostal sem caricaturar as outras.
+O sentido de "nascer da água" (João 3:5) divide os cristãos. Segundo Calvino, João Crisóstomo e a maioria dos antigos viam aqui o batismo; Wesley fala da mudança interior pelo Espírito e do batismo como sinal exterior dela. Calvino e Matthew Henry leem a água como o próprio Espírito, que purifica, na linha de Ezequiel 36:25-27; outros veem o nascimento natural. Sobre a visita à noite, Henry vê prudência e Wesley, vergonha. A Declaração de Fé afirma que o batismo não é sinônimo de regeneração. Apresente a leitura pentecostal sem caricaturar as outras.
 
 ## Dúvidas frequentes
 
