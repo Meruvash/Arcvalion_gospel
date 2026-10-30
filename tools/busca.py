@@ -1,7 +1,7 @@
 """Gera busca.json: o índice da busca do site (botão de lupa no cabeçalho, tools/layout.py + busca.js).
 
 Uso: python3 tools/busca.py   (também roda no fim de build_home.py)
-Um registro por estudo, notícia, livro da Bíblia e item da agenda do ano, só com nome, apelidos e uma linha
+Um registro por notícia, estudo bíblico, livro da Bíblia e item da agenda do ano, só com nome, apelidos e uma linha
 de contexto. Os apelidos (nome em português e em inglês) saem apenas dos dados do próprio site: nome da resenha,
 nome da edição brasileira (og_titulo), série da pauta e os nomes entre parênteses das editoras na ficha.
 O cruzamento entre estudos e notícias é pelo nome normalizado.
@@ -45,16 +45,28 @@ def apelidos(c, serie=()):
     return saida
 
 
-def reg(tipo, nome, contexto, url, nomes=(), resenha=None):
-    """Registro do índice. O busca.js procura em nome + contexto + "a" (apelidos que ainda não estão no texto)."""
+def reg(tipo, nome, contexto, url, nomes=(), resenha=None, resumo="", data=""):
+    """Registro do índice. O busca.js procura em nome + contexto + "a" (apelidos que ainda não estão no texto) e,
+    com prioridade menor, em "p" (resumo da matéria: acha pelo assunto, não só pelo título). "d" (data ISO) ordena
+    as sugestões de "mais recentes" que aparecem quando a busca abre."""
     visto = chave(f"{nome} {contexto}")
     extra = [x for x in dict.fromkeys(nomes) if chave(x) not in visto]
     r = {"t": tipo, "n": nome, "s": contexto, "u": url}
     if extra:
         r["a"] = " ".join(extra)
+    if resumo:
+        r["p"] = resumo
+    if data:
+        r["d"] = data
     if resenha:
         r["r"] = f"{resenha}/"
     return r
+
+
+def resumo(*textos, limite=320):
+    """Começo do resumo (lide, tagline), cortado numa palavra inteira: só para a busca casar pelo assunto."""
+    t = " ".join(" ".join(textos).split())
+    return t if len(t) <= limite else t[:limite].rsplit(" ", 1)[0]
 
 
 def resenhas():
@@ -87,7 +99,14 @@ def build():
             continue
         extra = [a for j in n.get("jogos", []) for a in [j["nome"], *cruza(j["nome"])[1]]]
         d = datetime.fromisoformat(n["data"])
-        regs.append(reg("n", n["titulo"], f'{d.day} de {MESES[d.month - 1]} · {n["categoria"]}', f'noticias/{n["slug"]}/', extra))
+        regs.append(reg("n", n["titulo"], f'{d.day} de {MESES[d.month - 1]} · {n["categoria"]}', f'noticias/{n["slug"]}/', extra,
+                        resumo=resumo(n.get("lide", "")), data=n.get("publicado_em") or n["data"]))
+
+    # estudos bíblicos publicados: título, passagem e tempo; acha também pelo livro, pela passagem e pelo resumo
+    from build_estudo import publicados
+    for c in publicados():
+        regs.append(reg("e", c["titulo"], f'{c["passagem"]} · {c["tempo_min"]} min de estudo', f'estudos/{c["slug"]}/',
+                        [c["livro"]], resumo=resumo(c.get("tagline", ""), c.get("lede", "")), data=c["publicado_em"]))
 
     # Livros da Bíblia (bloco RAW de consulta/): um registro por livro, com grupo, testamento e capítulos; o link abre o Versículo diário com um versículo do livro
     raw = re.search(r"const RAW = `(.*?)`", (ROOT / "consulta" / "index.html").read_text(encoding="utf-8"), re.S).group(1)

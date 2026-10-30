@@ -1,8 +1,10 @@
 // Busca do site: diálogo aberto pela lupa do cabeçalho, por "/" ou Ctrl+K (o disparador fica em tools/layout.py).
 // Só é baixado quando a busca abre; o índice (busca.json, gerado por tools/busca.py) vem junto.
 (() => {
-  const GRUPOS = [["r", "Resenhas"], ["n", "Notícias"], ["g", "Livros da Bíblia"], ["l", "Lançamentos do ano"]];
-  const POR_GRUPO = 5;
+  const GRUPOS = [["n", "Notícias"], ["e", "Estudos bíblicos"], ["g", "Livros da Bíblia"], ["r", "Resenhas"], ["l", "Lançamentos do ano"]];
+  const POR_GRUPO = 5, MINIMO = 2;
+  // sugestões com a busca vazia: o que saiu por último
+  const RECENTES = [["n", 3], ["e", 2]];
   const norm = t => " " + t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
   const esc = t => t.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
   let pre = "", indice = null, carga = null, dlg, q, lista, status, volta, ativo = -1, opcoes = [], abertos = new Set();
@@ -28,7 +30,7 @@
 .busca-dlg .bq-st{margin:0;padding:10px 10px 4px;color:#c3cad4;font-size:.86rem}.busca-dlg .bq-st b{color:#fff}
 .busca-dlg .bq-g{font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#e3b23c;padding:10px 10px 4px}
 .busca-dlg [role=option]{display:grid;gap:1px;padding:8px 10px;border-radius:8px;cursor:pointer;border-left:3px solid transparent;min-height:44px}
-.busca-dlg [role=option] b{font-weight:700}.busca-dlg [role=option] span{font-size:.84rem;color:#c3cad4}
+.busca-dlg [role=option] b{font-weight:700}.busca-dlg mark{background:none;color:#f0c44f;font-weight:800}.busca-dlg [role=option] span{font-size:.84rem;color:#c3cad4}
 .busca-dlg [role=option] i{font-style:normal;font-size:.72rem;font-weight:800;color:#5fd18f;margin-left:6px}
 .busca-dlg [role=option][aria-selected=true],.busca-dlg [role=option]:hover{background:rgba(255,255,255,.1);border-left-color:#e3b23c}
 .busca-dlg .bq-mais{color:#8cb8ff;font-weight:700;font-size:.9rem}
@@ -43,8 +45,8 @@
     dlg.setAttribute("aria-modal", "true");
     dlg.setAttribute("aria-labelledby", "bq-titulo");
     dlg.innerHTML = `<h2 id="bq-titulo" class="sr">Buscar no site</h2>
-<div class="bq-topo"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><label for="bq-q" class="sr">Buscar notícias e livros da Bíblia</label>
-<input id="bq-q" type="search" role="combobox" aria-expanded="false" aria-controls="bq-lista" aria-autocomplete="list" autocomplete="off" enterkeyhint="go" placeholder="Buscar notícia ou livro da Bíblia">
+<div class="bq-topo"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><label for="bq-q" class="sr">Buscar notícias, estudos e livros da Bíblia</label>
+<input id="bq-q" type="search" role="combobox" aria-expanded="false" aria-controls="bq-lista" aria-autocomplete="list" autocomplete="off" enterkeyhint="go" placeholder="Notícia, estudo ou livro da Bíblia">
 <button type="button" class="bq-x" aria-label="Fechar a busca"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
 <div class="bq-res"><p class="bq-st" role="status"></p><div id="bq-lista" role="listbox" aria-label="Resultados"></div></div>`;
     document.body.append(dlg);
@@ -60,35 +62,57 @@
 
   function carrega() {
     carga = carga || fetch(pre + "busca.json").then(r => { if (!r.ok) throw r; return r.json(); }).then(regs => {
-      indice = regs.map(x => ({ ...x, k: norm(`${x.n} ${x.s} ${x.a || ""}`), kn: norm(x.n) }));
+      indice = regs.map(x => ({ ...x, k: norm(`${x.n} ${x.s} ${x.a || ""}`) + " ", kn: norm(x.n) + " ", kp: norm(x.p || "") + " " }));
     });
     return carga;
   }
 
+  // Destaca no título o começo de cada palavra que casa com o que foi digitado (o autocompletar "mostra" o porquê).
+  function realca(nome, termos) {
+    return nome.split(/([^\p{L}\p{N}]+)/u).map(pedaco => {
+      const n = norm(pedaco).trim(), t = termos.filter(t => n.startsWith(t)).sort((a, b) => b.length - a.length)[0];
+      return t ? `<mark>${esc(pedaco.slice(0, t.length))}</mark>${esc(pedaco.slice(t.length))}` : esc(pedaco);
+    }).join("");
+  }
+
+  function opcao(x, termos, t) {
+    const id = "bq-o" + opcoes.length; opcoes.push(x);
+    return `<div role="option" id="${id}" aria-selected="false" data-u="${esc(x.u)}"><b>${realca(x.n, termos)}${x.r && t !== "r" ? "<i>tem resenha</i>" : ""}</b><span>${esc(x.s)}</span></div>`;
+  }
+
   function busca() {
-    const texto = q.value.trim(), termos = norm(texto).trim().split(" ").filter(Boolean);
+    const texto = q.value.trim(), frase = norm(texto), termos = frase.trim().split(" ").filter(Boolean);
     lista.innerHTML = ""; opcoes = []; ativo = -1; q.removeAttribute("aria-activedescendant");
-    dlg.classList.toggle("vazio", norm(texto).length < 3);
-    if (!indice) { status.textContent = "Carregando a busca…"; return; }
-    if (norm(texto).length < 3) {
-      status.textContent = "Digite ao menos 3 letras.";
-      q.setAttribute("aria-expanded", "false"); return;
-    }
-    const frase = norm(texto);
-    const achados = indice.filter(x => termos.every(t => x.k.includes(" " + t))).map((x, i) => ({
-      x, i, p: x.kn.startsWith(frase) ? 0 : termos.every(t => x.kn.includes(" " + t)) ? 1 : 2,
-    }));
+    if (!indice) { dlg.classList.add("vazio"); status.textContent = "Carregando a busca…"; return; }
+    dlg.classList.remove("vazio");
     let html = "", total = 0;
-    for (const [t, rotulo] of GRUPOS) {
-      const g = achados.filter(a => a.x.t === t).sort((a, b) => a.p - b.p || !!b.x.r - !!a.x.r || a.i - b.i);
-      if (!g.length) continue;
+    if (frase.length < MINIMO) {
+      // busca vazia: sugere as matérias mais recentes para a pessoa já sair clicando
+      html = `<div role="group" aria-labelledby="bq-g-rec"><div class="bq-g" id="bq-g-rec" role="presentation">Mais recentes</div>`;
+      for (const [t, n] of RECENTES)
+        indice.filter(x => x.t === t).sort((a, b) => (b.d || "").localeCompare(a.d || "")).slice(0, n).forEach(x => { html += opcao(x, [], t); total++; });
+      lista.innerHTML = html + "</div>";
+      q.setAttribute("aria-expanded", total ? "true" : "false");
+      status.textContent = "Digite o assunto, o título ou um livro da Bíblia. Sugestões:";
+      return;
+    }
+    // cada palavra digitada precisa ser o começo de uma palavra do título, do contexto, dos apelidos ou do resumo;
+    // a última pode estar pela metade (é o que a pessoa ainda está digitando)
+    const tem = (k, t) => k.includes(" " + t);
+    const achados = indice.map((x, i) => {
+      if (!termos.every(t => tem(x.k, t) || tem(x.kp, t))) return null;
+      const p = x.kn.startsWith(frase) ? 0 : termos.every(t => tem(x.kn, t)) ? 1 : termos.every(t => tem(x.k, t)) ? 2 : 3;
+      return { x, i, p };
+    }).filter(Boolean);
+    const grupos = GRUPOS.map(([t, rotulo], ordem) => {
+      const g = achados.filter(a => a.x.t === t).sort((a, b) => a.p - b.p || !!b.x.r - !!a.x.r || (b.x.d || "").localeCompare(a.x.d || "") || a.i - b.i);
+      return { t, rotulo, g, ordem, melhor: g.length ? g[0].p : 9 };
+    }).filter(g => g.g.length).sort((a, b) => a.melhor - b.melhor || a.ordem - b.ordem);  // o grupo com o resultado mais certeiro vem primeiro
+    for (const { t, rotulo, g } of grupos) {
       total += g.length;
       const mostra = abertos.has(t) ? g : g.slice(0, POR_GRUPO);
       html += `<div role="group" aria-labelledby="bq-g-${t}"><div class="bq-g" id="bq-g-${t}" role="presentation">${rotulo} (${g.length})</div>`;
-      mostra.forEach(({ x }) => {
-        const id = "bq-o" + opcoes.length; opcoes.push(x);
-        html += `<div role="option" id="${id}" aria-selected="false" data-u="${esc(x.u)}"><b>${esc(x.n)}${x.r && t !== "r" ? "<i>tem resenha</i>" : ""}</b><span>${esc(x.s)}</span></div>`;
-      });
+      mostra.forEach(({ x }) => { html += opcao(x, termos, t); });
       if (mostra.length < g.length) {
         const id = "bq-o" + opcoes.length; opcoes.push(null);
         html += `<div role="option" id="${id}" aria-selected="false" data-mais="${t}" class="bq-mais">Ver os ${g.length} resultados em ${rotulo}</div>`;
