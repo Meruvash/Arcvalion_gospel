@@ -23,7 +23,7 @@ Siga `docs/CRIVO_NOTICIAS.md`: primeiro os **eliminatórios** (assunto que só s
 
 Cortes: 85 a 100 prioridade máxima; 70 a 84 publica; 60 a 69 só para completar o dia, nunca como manchete; abaixo de 60 não entra. Comprovação abaixo de 9 não publica em nenhum caso (volte à apuração); acusação grave, conteúdo jurídico sensível ou fato contestado vai para revisão humana. A de maior pontuação é a manchete (`"manchete": true`, 70 ou mais); `checar_noticia.py` recusa o que fugir disso.
 
-Registre na nota: `"crivo": {"escala": 100, "pontos": 77, "trilha": "quente", "abrangencia": "rondonia", "origem": {"nome": "<portal>", "url": "<matéria>"}, "criterios": {"impacto": {"pontos": 23, "porque": "..."}, "afinidade": {...}, "atualidade": {...}, "comprovacao": {...}, "originalidade": {...}}}` (modelo em docs/CRIVO_NOTICIAS.md). No resumo para a redação, liste também as candidatas que ficaram de fora com a nota e o motivo.
+Registre na nota: `"crivo": {"escala": 100, "pontos": 77, "trilha": "quente", "abrangencia": "rondonia", "origem": {"nome": "<portal>", "url": "<matéria>"}, "criterios": {"impacto": {"pontos": 23, "porque": "..."}, "afinidade": {...}, "atualidade": {...}, "comprovacao": {...}, "originalidade": {...}}, "tema": {"eixo": "familia", "porque": "..."}, "publico": {"pontos": 11, "eixos": {"valor": 8, "viral": 2, "cristao": 1}, "criterios": ["Documento primário (2)", "..."]}}` (modelo em docs/CRIVO_NOTICIAS.md). O motor de 0 a 100 é interno e não vai para o site; a seção "Por que esta notícia entrou" mostra o `publico`, o crivo de até 20 pontos com a lista de critérios (seção 4.1, pedido do responsável editorial de 30/10/2026). No resumo para a redação, liste também as candidatas que ficaram de fora com a nota e o motivo.
 
 ## 3. Escrever
 

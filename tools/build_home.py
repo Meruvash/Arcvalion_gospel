@@ -703,17 +703,14 @@ def relacionadas(n, limite=3):
 
 
 def por_que_entrou(n):
-    """Seção "Por que esta notícia entrou": a nota de 0 a 100 do motor de relevância, critério a critério, com o porquê."""
+    """Seção "Por que esta notícia entrou": mostra o crivo de até 20 pontos, com a lista de critérios (pedido do
+    responsável editorial, 30/10/2026). A escolha interna usa o motor de 0 a 100, que não vai para a página; as notas
+    do motor guardam a versão pública em crivo.publico, e as de antes do motor já têm o crivo antigo na raiz."""
     c = n["crivo"]
-    if c.get("escala") != 100:  # nota de antes do motor de 0 a 100: mostra o crivo antigo, como foi publicado
-        return (f'<section class="bloco crivo"><h2>Por que esta notícia entrou</h2><p><b>{c["pontos"]} pontos no crivo editorial</b>'
-                f'{":" if c.get("criterios") else ""} {e("; ".join(c.get("criterios") or []) or "(nenhum critério de pontuação)")}.</p></section>')
-    nomes = {k["chave"]: (k["nome"], k["peso"]) for k in portal.RELEVANCIA["criterios"]}
-    itens = "".join(f'<li><b>{e(nomes[k][0])} {v["pontos"]}/{nomes[k][1]}</b>: {e(v["porque"])}</li>'
-                    for k, v in c["criterios"].items() if k in nomes)
-    faixa = next(nome for minimo, nome in portal.RELEVANCIA["faixas"] if c["pontos"] >= minimo)
-    return (f'<section class="bloco crivo"><h2>Por que esta notícia entrou</h2><p><b>{c["pontos"]} de 100 pontos no crivo editorial'
-            f' ({e(faixa)})</b></p><ul>{itens}</ul></section>')
+    pub = c.get("publico") if c.get("escala") == 100 else c
+    pub = pub or {"pontos": 0, "criterios": []}
+    return (f'<section class="bloco crivo"><h2>Por que esta notícia entrou</h2><p><b>{pub["pontos"]} pontos no crivo editorial</b>'
+            f'{":" if pub.get("criterios") else ""} {e("; ".join(pub.get("criterios") or []) or "(nenhum critério de pontuação)")}.</p></section>')
 
 
 def versiculo(n):

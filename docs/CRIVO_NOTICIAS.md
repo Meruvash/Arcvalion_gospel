@@ -164,7 +164,7 @@ Regras que o número não muda:
 melhor 3 notas fortes que 5 com enchimento.
 
 Na nota, o crivo fica registrado assim (`checar_noticia.py` confere a soma, o teto de cada peso, as justificativas, o
-corte, o piso de comprovação e a abrangência; a página mostra cada critério com o porquê em "Por que esta notícia entrou"):
+corte, o piso de comprovação e a abrangência; a página não mostra o motor: mostra o crivo público da seção 4.1):
 
 ```json
 "crivo": {
@@ -186,6 +186,57 @@ corte, o piso de comprovação e a abrangência; a página mostra cada critério
 
 A viralização e a lente cristã não somam mais pontos: entram na escolha do ângulo, na chamada (seção 7) e no toque
 (seção 5), depois que a pauta já provou que importa.
+
+### 4.1 Crivo público: o que a página mostra
+
+Pedido do responsável editorial em 30/10/2026: o motor de 0 a 100 é a **ferramenta interna de escolha** e não vai
+para o site. A seção "Por que esta notícia entrou" mostra o crivo de até 20 pontos, com a lista de critérios, como
+nas primeiras notas (mais claro e mais bonito para o leitor). Ele **não decide nada**: quem decide se a nota entra são
+os eliminatórios (seção 3, incluído o 10, de pertinência temática) e o motor. Depois de aprovada, a nota recebe a
+versão pública em `crivo.publico`, marcando com honestidade as perguntas da tabela abaixo que o fato responde:
+
+```json
+"publico": {"pontos": 11, "eixos": {"valor": 8, "viral": 2, "cristao": 1},
+            "criterios": ["Documento primário: íntegra da decisão do STF (2)", "Proximidade: Rondônia (2)", "..."]}
+```
+
+`checar_noticia.py` confere que cada critério termina com os pontos entre parênteses, que a soma bate com o total e
+com os eixos e que cada eixo respeita o teto. A passagem bíblica pode aparecer aqui como critério de apresentação,
+mas nunca serve para a pauta entrar (eliminatório 10).
+
+#### A. Valor jornalístico (até 8)
+
+| Pergunta | Pontos |
+|---|---|
+| Há **documento primário** com link na nota (processo, decisão, lei, relatório, vídeo integral)? | 2 |
+| É **decisão ou ato de quem tem poder** (tribunal, Congresso, governo, plebiscito, denominação grande) ou atinge milhares de pessoas? | 2 |
+| **Proximidade**: é de Rondônia ou Porto Velho, ou é nacional? (Internacional só ganha estes pontos se o mesmo projeto, decisão ou caso estiver aqui ou afetar brasileiros diretamente) | 2 |
+| Tem **número forte com fonte** (pesquisa com ficha técnica, estatística oficial)? | 1 |
+| Está confirmada por **duas fontes independentes**? | 1 |
+
+#### B. Potencial de viralização (até 7)
+
+Os seis princípios de *Contágio* (Jonah Berger) e a pesquisa de Berger e Milkman (emoção de alta ativação se
+compartilha), em perguntas objetivas:
+
+| Pergunta | Pontos |
+|---|---|
+| **Emoção de alta ativação** que o fato provoca sozinho, sem adjetivo nosso: indignação justa, admiração, esperança, espanto? Teste: dá para dizer a emoção numa palavra. | 1 |
+| Tem **personagem com nome** (pastor, mãe, atleta, juiz), não só instituição? | 1 |
+| **Contraria a narrativa dominante** ou surpreende? Teste: cabe numa frase "X, apesar de Y" ou "ninguém contou que…". | 1 |
+| **Moeda social**: quem compartilha parece bem informado (dado inédito, documento, bastidor que a grande imprensa não deu)? | 1 |
+| **Utilidade**: o leitor pode fazer algo com isso (orar, votar, proteger o filho, conhecer um direito, ajudar alguém)? | 1 |
+| **Gatilho no calendário**: está na conversa da semana (eleição, julgamento marcado, data cristã, estreia, assunto em alta)? | 1 |
+| **Cabe num cartão**: o fato inteiro cabe em até 15 palavras e tem foto que mostra o fato? | 1 |
+
+#### C. Relevância cristã (até 5)
+
+| Pergunta | Pontos |
+|---|---|
+| Há **uma passagem bíblica que um pastor usaria** sobre o assunto, sem forçar? | 2 |
+| Mostra **fé vivida**: testemunho, coragem, perseguição, caridade, arrependimento? | 1 |
+| **Pede resposta do cristão**: oração, cuidado, posicionamento, conhecimento para conversar com os filhos? | 1 |
+| **Rende estudo** ou série (tema que volta: vida, casamento, liberdade, Reforma, perseguição)? | 1 |
 
 ## 5. O nosso toque: a lente cristã
 

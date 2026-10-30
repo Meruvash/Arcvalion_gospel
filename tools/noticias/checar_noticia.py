@@ -59,6 +59,28 @@ def checar_tema(t, r):
     return []
 
 
+TETO_PUBLICO = {"valor": 8, "viral": 7, "cristao": 5}
+
+
+def checar_publico(p):
+    """Crivo público de até 20 pontos (docs/CRIVO_NOTICIAS.md, seção 4.1): é o que a página mostra em "Por que esta
+    notícia entrou". Cada critério termina com os pontos entre parênteses, e a soma bate com o total e com os eixos."""
+    if not isinstance(p, dict) or not isinstance(p.get("pontos"), int) or not isinstance(p.get("criterios"), list) or not p["criterios"]:
+        return ["crivo: falta 'publico' {\"pontos\", \"eixos\", \"criterios\"}, o crivo de até 20 pontos que a página mostra (seção 4.1)"]
+    pts = [re.search(r"\((\d+)\)\s*$", str(x)) for x in p["criterios"]]
+    if not all(pts):
+        return ["crivo.publico: cada critério termina com os pontos entre parênteses, como 'Proximidade: nacional (2)'"]
+    erros = []
+    if sum(int(m.group(1)) for m in pts) != p["pontos"]:
+        erros.append(f"crivo.publico: os critérios somam {sum(int(m.group(1)) for m in pts)}, diferente de {p['pontos']}")
+    eixos = p.get("eixos") if isinstance(p.get("eixos"), dict) else {}
+    if set(eixos) != set(TETO_PUBLICO) or any(not isinstance(eixos[k], int) or not 0 <= eixos[k] <= t for k, t in TETO_PUBLICO.items()):
+        erros.append("crivo.publico: 'eixos' {valor até 8, viral até 7, cristao até 5}")
+    elif sum(eixos.values()) != p["pontos"]:
+        erros.append("crivo.publico: a soma dos eixos difere do total")
+    return erros
+
+
 def checar_crivo(c, data=""):
     """Motor de relevância: cada critério de 0 até o peso, com justificativa em fatos concretos; o total decide se a nota
     sai (publicar_se_faltar), e a comprovação tem piso próprio, porque pontuação alta não substitui verificação.
@@ -89,6 +111,7 @@ def checar_crivo(c, data=""):
             erros.append(f"crivo: comprovação {crit['comprovacao']['pontos']}, abaixo do mínimo de {r['comprovacao_minima']}: "
                          "volte à apuração (fonte oficial, documento ou segunda reportagem independente)")
     erros += checar_tema(c.get("tema"), r)
+    erros += checar_publico(c.get("publico"))
     if c.get("trilha") not in TRILHAS:
         erros.append("crivo: 'trilha' precisa ser quente ou atemporal")
     if c.get("abrangencia") not in ABRANGENCIAS:

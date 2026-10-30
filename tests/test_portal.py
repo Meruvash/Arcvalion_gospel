@@ -74,6 +74,8 @@ class Noticias(unittest.TestCase):
         c = {"escala": 100, "pontos": sum(pts.values()), "trilha": "quente", "abrangencia": "nacional",
              "origem": {"nome": "Exemplo", "url": "https://example.org/"},
              "tema": {"eixo": "familia", "porque": "fato fictício de teste sobre proteção de crianças na família"},
+             "publico": {"pontos": 7, "eixos": {"valor": 5, "viral": 1, "cristao": 1},
+                         "criterios": ["Documento primário (2)", "Ato de poder (2)", "Duas fontes independentes (1)", "Utilidade (1)", "Pede resposta do cristão (1)"]},
              "criterios": {k: {"pontos": v, "porque": "fato fictício de teste com efeito concreto descrito"} for k, v in pts.items()}}
         c.update(mud)
         return c
@@ -97,6 +99,11 @@ class Noticias(unittest.TestCase):
         self.assertIn("eliminatório 10", erros(self.crivo100(tema=None)))
         self.assertIn("eliminatório 10", erros(self.crivo100(tema={"eixo": "cidade", "porque": "parque depredado em Porto Velho dias depois"})))
         self.assertIn("tema.porque", erros(self.crivo100(tema={"eixo": "familia", "porque": "versículo cabe"})))
+        # a página mostra o crivo de até 20 pontos (crivo.publico), não o motor
+        self.assertIn("'publico'", erros(self.crivo100(publico=None)))
+        torto = self.crivo100()
+        torto["publico"] = dict(torto["publico"], pontos=9)
+        self.assertIn("somam 7", erros(torto))
         self.assertEqual(self.erros(crivo={"pontos": 5}), "")  # nota de antes da vigência mantém o crivo antigo
 
     def test_manchete_do_motor(self):
