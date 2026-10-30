@@ -1,0 +1,220 @@
+{
+ "slug": "governo-relator-querem-votar-pl-cade-big-techs-ate-dezembro",
+ "data": "2026-10-30",
+ "categoria": "politica-e-sociedade",
+ "status": "revisao",
+ "selo": "Vale acompanhar",
+ "opiniao_forte": true,
+ "titulo": "Governo e relator querem votar até dezembro projeto que dá ao Cade poder sobre big techs",
+ "lide": "Integrantes do governo Lula e o relator Aliel Machado (PV-PR) querem votar até dezembro, na Câmara e no Senado, o PL 4.675/2025, que dá ao Cade poderes para designar grandes plataformas digitais e impor a elas obrigações especiais, segundo a Folha de 30 de outubro. O relator vai levar o texto aos líderes partidários na terça-feira (3).",
+ "por_que_importa": "A pressa tem calendário declarado: o próprio relator diz que, se não passar agora, não passa depois, quando a nova Câmara, com mais deputados de direita, tomar posse. Lei que mexe com as plataformas onde o brasileiro fala, vende e prega merece o debate do Congresso eleito, não a corrida do Congresso que está de saída.",
+ "numeros": [
+  [
+   "R$ 5 bilhões",
+   "faturamento anual no Brasil (ou R$ 50 bilhões no mundo) a partir do qual uma empresa pode ser designada de relevância sistêmica",
+   "PL 4.675/2025, art. 47-C, § 1º"
+  ],
+  [
+   "R$ 20 mil por dia",
+   "multa para a plataforma designada que não mantiver escritório no país, que pode ser multiplicada por até 50",
+   "PL 4.675/2025, art. 44-A"
+  ],
+  [
+   "18/03/2026",
+   "data em que o Plenário aprovou a urgência do projeto, que agora pode ir direto a voto",
+   "Câmara dos Deputados, ficha de tramitação"
+  ]
+ ],
+ "corpo": [
+  "O projeto, enviado pelo Poder Executivo em setembro de 2025, muda a lei de defesa da concorrência e cria no Cade uma Superintendência de Mercados Digitais. O Cade poderá obrigar as empresas designadas a divulgar critérios de ranqueamento e resultados de busca, permitir aplicativos de terceiros, oferecer portabilidade de dados e submeter ao órgão as compras de outras empresas, além de proibi-las de favorecer os próprios produtos.",
+  "A Folha cita Google, Meta (dona de Facebook, Instagram e WhatsApp), Microsoft, Uber, iFood e 99 entre os alvos. O relator apresentou parecer preliminar em 8 de julho para restringir as empresas atingidas; segundo o jornal, as companhias consideraram as mudanças insuficientes. Hugo Motta disse à Folha que quer votar o projeto, mas sem pressa e com um texto negociado com os líderes."
+ ],
+ "no_brasil": "O texto original lido pelo portal trata de concorrência e não usa a palavra conteúdo nenhuma vez; também não traz cláusula dizendo que o Cade não pode tratar de moderação ou de publicações. O parecer preliminar do relator, de julho, não estava disponível para leitura. Lula defendeu a regulação das big techs no discurso de vitória de 25 de outubro, segundo a Folha.",
+ "critica": [
+  {
+   "fonte": "Deputado Aliel Machado (PV-PR), relator, à Agência Câmara",
+   "texto": "[O projeto] em nenhuma vírgula trata de conteúdo. Ele é defendido pelas plataformas e pelos empresários brasileiros porque corrige o monopólio.",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1245544-plenario-pode-votar-pedido-de-urgencia-para-acelerar-projeto-sobre-concorrencia-nos-mercados-digitais"
+  },
+  {
+   "fonte": "Deputado Cabo Gilberto Silva (PL-PB), líder da oposição, à Agência Câmara",
+   "texto": "Vai ampliar o poder do Cade para sancionar as plataformas, com critérios amplos e pouco definidos, interferência potencial em modelos de negócio, risco de aumento de custos e barreiras à inovação, impactos indiretos na cadeia produtiva",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1245544-plenario-pode-votar-pedido-de-urgencia-para-acelerar-projeto-sobre-concorrencia-nos-mercados-digitais"
+  },
+  {
+   "fonte": "Paulo Henrique de Oliveira, assessor da presidência do Cade, na Rádio Câmara",
+   "texto": "Esse projeto não regula mídias sociais. O Cade não tem em sua história um caso envolvendo qualquer forma de rede social.",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/radio/radioagencia/1271970-governo-defende-protecao-da-concorrencia-em-mercados-digitais/"
+  }
+ ],
+ "para_quem": [
+  "Se virar lei, o Cade poderá mandar plataformas como Google e Meta mudar termos de uso e o desenho de produtos que igrejas, ministérios e pequenos negócios usam todos os dias",
+  "Quem empreende na internet: a promessa do projeto é proibir a plataforma de favorecer o próprio produto; vale acompanhar se o texto final protege de fato o pequeno vendedor",
+  "Eleitor: a reunião de líderes de terça (3) diz se o texto vai a voto ainda nesta legislatura; o seu deputado pode ser cobrado por isso"
+ ],
+ "nao_e_para": [
+  "O texto final ainda não existe: o relator vai negociar com os líderes na terça (3), e Hugo Motta disse que não vai votar com pressa",
+  "O conteúdo do parecer preliminar de 08/07/2026 não foi lido pelo portal; ele pode ter mudado o alcance do projeto",
+  "Depois da Câmara, o projeto ainda precisa passar pelo Senado"
+ ],
+ "veredito": "A gente não é contra punir monopólio. A gente é contra votar às pressas, na saída, uma lei que dá a um órgão do governo poder sobre as plataformas onde o país conversa. Se o projeto não trata de conteúdo, escreva isso na lei, com todas as letras. Promessa de relator não é cláusula.",
+ "versiculo": {
+  "texto": "O que primeiro começa o seu pleito justo parece; mas vem o seu companheiro e o examina.",
+  "referencia": "Provérbios 18.17",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados: PL 4.675/2025, inteiro teor do texto enviado pelo Poder Executivo",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3003060",
+   "data": "18/09/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: ficha de tramitação do PL 4.675/2025 (consulta em 30/10/2026)",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2562481",
+   "data": "30/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Folha de S.Paulo: Governo Lula e relator querem aprovar regulação concorrencial das big techs até o fim do ano (30/10/2026)",
+   "url": "https://c-level.folha.uol.com.br/negocios/2026/10/governo-lula-e-relator-querem-aprovar-regulacao-concorrencial-das-big-techs-ate-o-fim-do-ano.shtml",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Câmara: Plenário pode votar pedido de urgência para acelerar projeto sobre concorrência nos mercados digitais",
+   "url": "https://www.camara.leg.br/noticias/1245544-plenario-pode-votar-pedido-de-urgencia-para-acelerar-projeto-sobre-concorrencia-nos-mercados-digitais",
+   "data": "2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Rádio Câmara: Governo defende proteção da concorrência em mercados digitais (13/05/2026)",
+   "url": "https://www.camara.leg.br/radio/radioagencia/1271970-governo-defende-protecao-da-concorrencia-em-mercados-digitais/",
+   "data": "13/05/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Mural de pautas do Ancapsu: Governo Lula quer dar ao Cade poderes para regular e fiscalizar big techs (pauta sugerida pelo público)",
+   "url": "https://ancap.su/site/noticias",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 60,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "O fato é a articulação do governo e do relator para votar no Congresso, antes da posse da nova legislatura, um projeto que dá ao Cade poder sobre as grandes plataformas digitais"
+  },
+  "origem": {
+   "nome": "Mural de pautas do Ancapsu",
+   "url": "https://ancap.su/site/noticias"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 8,
+    "porque": "Projeto em regime de urgência e pronto para o Plenário, com efeito possível sobre Google, Meta, WhatsApp e outras plataformas usadas por milhões; ainda sem votação"
+   },
+   "afinidade": {
+    "pontos": 12,
+    "porque": "Congresso e governo no tema das plataformas, com debate sobre liberdade de expressão levantado pela oposição; efeito indireto, porque o texto trata de concorrência"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Reportagem de 30/10/2026 e reunião de líderes marcada para terça (3/11)"
+   },
+   "comprovacao": {
+    "pontos": 14,
+    "porque": "Inteiro teor do projeto lido no site da Câmara, ficha de tramitação conferida e confirmação independente na Folha e na Agência Câmara"
+   },
+   "originalidade": {
+    "pontos": 9,
+    "porque": "Leitura do texto mostra os valores de corte, a multa diária e que não há cláusula sobre conteúdo, o que nenhuma das fontes deu"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 1
+   },
+   "criterios": [
+    "Documento primário: inteiro teor do PL 4.675/2025 (2)",
+    "Ato de poder: projeto do Executivo com urgência aprovada pelo Plenário (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes: Folha e Agência Câmara (1)",
+    "Contraria a narrativa: o relator diz que não trata de conteúdo, e o texto também não proíbe (1)",
+    "Moeda social: números lidos no texto do projeto (1)",
+    "Utilidade: o leitor sabe quando e a quem cobrar (1)",
+    "Gatilho no calendário: reunião de líderes na terça (3) (1)",
+    "Pede resposta do cristão: acompanhar e cobrar o deputado (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Governo Lula Quer Dar ao Cade Poderes Para Regular e Fiscalizar Big Techs (mural) / Governo Lula e relator querem aprovar regulação concorrencial das big techs até o fim do ano (Folha)",
+  "nucleo": "A - Brasil",
+  "categoria": "Política / Congresso",
+  "coleta": "2026-10-30",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em documento primário (inteiro teor e tramitação na Câmara)",
+   "contradicoes": "O título do mural fala em 'regular e fiscalizar big techs'; o texto do projeto trata de concorrência, não de conteúdo, e a nota diz isso. A afirmação de que o texto não usa a palavra 'conteúdo' vale para a versão original do Executivo (codteor 3003060); o parecer preliminar do relator (08/07/2026) não foi lido.",
+   "sem_confirmacao": "teor do parecer preliminar e do texto que será levado aos líderes em 03/11"
+  },
+  "duplicidade": {
+   "grupo": "PL 4.675/2025 / Cade / mercados digitais",
+   "itens": [
+    "Mural do Ancapsu (Folha)",
+    "Folha 30/10",
+    "Agência Câmara e Rádio Câmara (contexto)"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "revisao_humana": "obrigatória: pedido do responsável editorial em 30/10/2026 (aprovar antes de publicar)",
+  "seo": {
+   "intencao": "entender o projeto que dá ao Cade poder sobre as big techs e se ele trata de conteúdo",
+   "entidades": [
+    "Cade",
+    "PL 4.675/2025",
+    "Aliel Machado",
+    "Hugo Motta",
+    "Google",
+    "Meta"
+   ],
+   "termos": [
+    "PL 4675/2025",
+    "Cade big techs",
+    "regulação das big techs",
+    "mercados digitais relevância sistêmica"
+   ],
+   "atualizacao": "acompanhar a reunião de líderes de 03/11 e uma eventual votação no Plenário"
+  }
+ },
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do inteiro teor do projeto, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a opinião critica o calendário de votação e a redação do projeto, atos públicos, sem atribuir intenção oculta a ninguém; a frase sobre a pressa usa o motivo declarado pelo próprio relator à Folha. Os três lados aparecem com citação literal lida nas páginas da Câmara. A afirmação sobre a palavra 'conteúdo' é limitada ao texto original lido, com a ressalva do parecer não lido.",
+ "imagem": {
+  "arquivo": "capas/governo-relator-querem-votar-pl-cade-big-techs-ate-dezembro.jpg",
+  "credito": "Foto: Jefferson Rudy/Agência Senado",
+  "alt": "Fachada da sede do Conselho Administrativo de Defesa Econômica, o Cade, em Brasília",
+  "licenca": "A reprodução de matérias e fotografias é livre, mediante a citação da Agência Senado e do autor",
+  "origem": "https://www.camara.leg.br/midias/image/2026/02/cade.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1245544-plenario-pode-votar-pedido-de-urgencia-para-acelerar-projeto-sobre-concorrencia-nos-mercados-digitais"
+ },
+ "publicado_em": "2026-10-30T16:28:12+00:00"
+}

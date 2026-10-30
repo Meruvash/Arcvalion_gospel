@@ -1,0 +1,203 @@
+{
+ "slug": "tse-confirma-urnas-caminhonete-adesivo-partidario-df",
+ "data": "2026-10-30",
+ "categoria": "politica-e-sociedade",
+ "status": "revisao",
+ "selo": "Motivo de alerta",
+ "titulo": "TSE confirma urnas levadas em caminhonete com adesivo partidário no DF; TRE apura responsáveis",
+ "lide": "O Tribunal Superior Eleitoral confirmou na quarta-feira (28), no serviço Fato ou Boato, que urnas eletrônicas foram recolhidas depois do segundo turno numa caminhonete com adesivo de partido, no Riacho Fundo II (DF). O tribunal diz que o uso do veículo contraria resolução do TRE-DF, que apura os responsáveis, mas que os votos já tinham sido apurados e transmitidos.",
+ "por_que_importa": "A regra existe e foi quebrada: a Justiça Eleitoral admitiu isso por escrito, o que é raro e merece registro. Ao mesmo tempo, o próprio sistema permite conferir que o resultado daquela seção não mudou. Confiança no voto se constrói com as duas coisas: punição para quem descumpre o protocolo e transparência para o eleitor conferir.",
+ "numeros": [
+  [
+   "8.140/2026",
+   "número da resolução do TRE-DF que exige neutralidade partidária nos veículos que transportam urnas",
+   "TSE, Fato ou Boato, 28/10/2026, segundo Claudio Dantas e Jornal Razão"
+  ],
+  [
+   "26 e 13",
+   "números que aparecem na faixa vermelha da tampa da caçamba; 13 é o número do PT",
+   "Jornal Razão e O Madeira, sobre o vídeo"
+  ]
+ ],
+ "corpo": [
+  "O vídeo, que circula desde a madrugada de 26 de outubro, foi feito por um morador do lado de fora de uma escola infantil usada como local de votação. Uma mulher entrega caixas com a inscrição 'urna eletrônica' a um homem, que as põe na caçamba de uma caminhonete branca. O TSE descreveu o veículo como adesivado com o número de um partido, sem dizer qual.",
+  "A resolução do TRE-DF permite que administradores e supervisores de local de votação usem carro próprio para devolver urnas à Junta Eleitoral, desde que avisem o juízo eleitoral antes, sigam os protocolos de segurança e entreguem o material mediante recibo; a identificação partidária no veículo é proibida. Segundo o TSE, o TRE-DF recebeu informações do cartório eleitoral e apura as responsabilidades.",
+  "Um segundo vídeo, de uma picape com bandeira do PT recolhendo urnas, circula como se fosse o mesmo caso. Segundo o Jornal Razão, as imagens são de Rio Verde (GO) e não fazem parte da checagem do TSE."
+ ],
+ "no_brasil": "No Distrito Federal, os Correios levam as urnas aos locais de votação, e o recolhimento pode ser feito por agentes eleitorais autorizados. A apuração acontece na própria urna, na seção, logo depois do fim da votação; o boletim de urna é impresso e pode ser comparado, pelo código QR, com o resultado publicado pela Justiça Eleitoral na internet.",
+ "critica": [
+  {
+   "fonte": "Tribunal Superior Eleitoral, Fato ou Boato (28/10/2026), segundo Claudio Dantas",
+   "texto": "Assim, a apuração das responsabilidades pelo transporte irregular deve prosseguir, mas as imagens não comprovam fraude eleitoral.",
+   "citacao": true,
+   "url": "https://claudiodantas.com.br/tse-transporte-urnas-caminhonete-pt/"
+  },
+  {
+   "fonte": "O Madeira",
+   "texto": "Segundo O Madeira, a manifestação oficial reconhece a irregularidade administrativa no transporte, mas continua em aberto quem autorizou ou fez o transporte e por que foi usado um veículo com identificação partidária.",
+   "citacao": false,
+   "url": "https://www.omadeira.com.br/2026/10/30/urnas-eletronicas-em-caminhonete-com-adesivo-do-pt-tse-confirma-o-transporte-e-se-manifesta/"
+  }
+ ],
+ "para_quem": [
+  "Eleitor que recebeu o vídeo: o fato é verdadeiro e a Justiça Eleitoral confirmou a irregularidade; o que não está provado é fraude no resultado",
+  "Quem quer conferir: o boletim de urna de cada seção pode ser comparado, pelo código QR, com o resultado na internet; partidos e fiscais têm acesso a esses boletins",
+  "Quem compartilha: confira se o vídeo é o do Riacho Fundo II; o de Rio Verde (GO) não faz parte da checagem do TSE"
+ ],
+ "nao_e_para": [
+  "O site do TSE e o da Justiça Eleitoral recusaram leitura automática (erro 403); o texto da checagem foi conferido pela postagem do TSE e por três reportagens que a reproduzem de forma coincidente",
+  "O TRE-DF ainda não divulgou quem dirigia o veículo, quem autorizou o transporte nem que medida vai tomar",
+  "O TSE não informou qual partido aparece no adesivo; a identificação do número 13 vem da leitura do vídeo pela imprensa"
+ ],
+ "veredito": "A gente cobra do TRE-DF o nome de quem autorizou o transporte e a medida tomada, com a mesma publicidade da checagem. Protocolo eleitoral não é detalhe: urna não anda em carro de campanha. E ao eleitor, um conselho: confira o boletim da sua seção antes de compartilhar.",
+ "fontes": [
+  {
+   "nome": "TSE, Fato ou Boato: Transporte de urnas em caminhonete com adesivo partidário não comprometeu os votos (28/10/2026; o site devolveu 403 para leitura automática)",
+   "url": "https://www.justicaeleitoral.jus.br/fato-ou-boato/checagens/2026/transporte-de-urnas-em-caminhonete-com-adesivo-partidario-nao-comprometeu-os-votos",
+   "data": "28/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "TSE no X: postagem com o resumo da checagem e o link (28/10/2026)",
+   "url": "https://x.com/TSEjusbr/status/2115534065311121601",
+   "data": "28/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Claudio Dantas: TSE admite transporte de urnas em caminhonete com adesivo do PT (30/10/2026)",
+   "url": "https://claudiodantas.com.br/tse-transporte-urnas-caminhonete-pt/",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Jornal Razão: TSE admite: urnas foram levadas em caminhonete com adesivo do PT, mas votos não foram comprometidos (29/10/2026)",
+   "url": "https://jornalrazao.com/politica/tse-admite-urnas-caminhonete-adesivo-pt-votos-nao-comprometidos",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "O Madeira: Urnas eletrônicas em caminhonete com adesivo do PT: TSE confirma o transporte e se manifesta (30/10/2026)",
+   "url": "https://www.omadeira.com.br/2026/10/30/urnas-eletronicas-em-caminhonete-com-adesivo-do-pt-tse-confirma-o-transporte-e-se-manifesta/",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Mural de pautas do Ancapsu: TSE admite transporte de urnas em caminhonete com adesivo do PT (pauta sugerida pelo público)",
+   "url": "https://ancap.su/site/noticias",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 64,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "O fato é a confirmação, pela Justiça Eleitoral, de uma irregularidade no transporte de urnas do segundo turno presidencial, com apuração aberta no TRE-DF"
+  },
+  "origem": {
+   "nome": "Mural de pautas do Ancapsu",
+   "url": "https://ancap.su/site/noticias"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Irregularidade confirmada numa seção do DF, com apuração de responsáveis no TRE-DF; segundo o TSE, sem efeito sobre os votos já transmitidos"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Confiança no voto na eleição presidencial que a oposição perdeu: tema central para o leitor de direita do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Checagem do TSE de 28/10/2026 e repercussão até 30/10, com apuração do TRE-DF em curso"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Checagem oficial do TSE confirmada pela postagem do tribunal e reproduzida de forma coincidente por três veículos; o site oficial bloqueou a leitura direta"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Explica a regra da resolução do TRE-DF, separa o vídeo de Rio Verde que circula como se fosse o mesmo caso e mostra como o eleitor confere o boletim"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 6,
+    "viral": 4,
+    "cristao": 1
+   },
+   "criterios": [
+    "Documento primário: checagem oficial do TSE com link (2)",
+    "Ato de poder: confirmação do TSE e apuração do TRE-DF (2)",
+    "Proximidade: nacional (2)",
+    "Emoção de alta ativação: indignação com a quebra do protocolo (1)",
+    "Contraria a narrativa: o vídeo não era boato, e o próprio TSE confirmou (1)",
+    "Utilidade: como conferir o boletim de urna (1)",
+    "Gatilho no calendário: semana seguinte ao segundo turno (1)",
+    "Pede resposta do cristão: conferir antes de compartilhar (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "TSE admite transporte de urnas em caminhonete com adesivo do PT (Claudio Dantas)",
+  "nucleo": "A - Brasil",
+  "categoria": "Política / Eleições",
+  "coleta": "2026-10-30",
+  "verificacao": {
+   "grau_de_confianca": "médio-alto",
+   "status": "fato confirmado em checagem oficial do TSE, lida pela postagem do tribunal e por reportagens independentes",
+   "contradicoes": "O site do TSE e o da Justiça Eleitoral devolveram 403 para leitura automática (curl e WebFetch); o link curto da postagem oficial do TSE no X leva à página da checagem. O texto da checagem foi conferido em Claudio Dantas, Jornal Razão e O Madeira, que trazem os mesmos trechos e a mesma resolução. O TSE não diz qual partido; a leitura '26 e 13' é da imprensa sobre o vídeo. Há um segundo vídeo (Rio Verde, GO) que não faz parte da checagem.",
+   "sem_confirmacao": "nome de quem dirigia e de quem autorizou o transporte; medida do TRE-DF; seção eleitoral exata"
+  },
+  "duplicidade": {
+   "grupo": "TSE / urnas / caminhonete com adesivo / Riacho Fundo II",
+   "itens": [
+    "Mural do Ancapsu (Claudio Dantas)",
+    "Jornal Razão 29/10",
+    "O Madeira 30/10",
+    "Aliados Brasil e ContraFatos (repercussão)"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "revisao_humana": "obrigatória: pedido do responsável editorial em 30/10/2026 (aprovar antes de publicar)",
+  "seo": {
+   "intencao": "saber se é verdade o vídeo das urnas na caminhonete com adesivo do PT e o que o TSE disse",
+   "entidades": [
+    "TSE",
+    "TRE-DF",
+    "Riacho Fundo II",
+    "urna eletrônica",
+    "PT"
+   ],
+   "termos": [
+    "urnas caminhonete adesivo PT",
+    "TSE Fato ou Boato urnas",
+    "Riacho Fundo II urnas",
+    "boletim de urna QR code"
+   ],
+   "atualizacao": "acompanhar o resultado da apuração do TRE-DF"
+  }
+ },
+ "instituicao": "Tribunal Superior Eleitoral",
+ "editora": "Tribunal Superior Eleitoral",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, conferência da checagem do TSE pelas reproduções, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: ninguém é identificado nem acusado; a irregularidade é a que o próprio TSE descreve, e a ausência de efeito nos votos é atribuída ao TSE. O partido não é afirmado pelo portal: a nota diz que o TSE não informou e atribui a leitura do número 13 à imprensa. A opinião cobra publicidade da apuração e cumprimento do protocolo, sem falar em fraude nem atribuir intenção a ninguém.",
+ "imagem": {
+  "arquivo": "capas/tse-confirma-urnas-caminhonete-adesivo-partidario-df.jpg",
+  "credito": "Foto: Fabio Rodrigues-Pozzebom/Agência Brasil",
+  "alt": "Eleitores fazem fila para votar em colégio da Cidade Estrutural, no Distrito Federal, no segundo turno de 25 de outubro",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/5STgk9CoxqrXI_lR5llYRy8paKI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/25/pzzb8774.jpg?itok=-yB2zTOU",
+  "pagina": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleitores-do-df-acordam-cedo-para-garantir-voto-no-segundo-turno"
+ },
+ "publicado_em": "2026-10-30T16:28:12+00:00"
+}
