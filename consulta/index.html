@@ -7,13 +7,13 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Versículo diário: um versículo da Bíblia a cada clique | O Paladino</title>
-<meta name="description" content="Receba o versículo do dia e sorteie outro versículo da Bíblia a cada clique, na tradução de João Ferreira de Almeida, de todos os 66 livros.">
+<meta name="description" content="Receba o versículo do dia e encontre um novo versículo da Bíblia a cada clique, na tradução de João Ferreira de Almeida, de todos os 66 livros.">
 <link rel="canonical" href="https://meruvash.github.io/Arcvalion_gospel/consulta/">
 <meta name="robots" content="max-image-preview:large">
 <meta property="og:site_name" content="O Paladino">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Versículo diário">
-<meta property="og:description" content="O versículo do dia e um botão que sorteia outro versículo da Bíblia a cada clique.">
+<meta property="og:description" content="O versículo do dia e um botão para encontrar um novo versículo da Bíblia a cada clique.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://meruvash.github.io/Arcvalion_gospel/consulta/">
 <meta property="og:image" content="https://meruvash.github.io/Arcvalion_gospel/consulta/capa.jpg">
@@ -143,17 +143,17 @@ footer .in{max-width:960px;margin:0 auto;padding:18px 16px;display:flex;flex-wra
 <div class="wrap">
  <section class="intro">
   <h1>Versículo diário</h1>
-  <p>Um versículo da Bíblia para o seu dia. Quer mais? Aperte o botão dourado e receba outro, sorteado na hora.</p>
+  <p>Um versículo da Bíblia para o seu dia. Quer mais? Aperte o botão dourado e encontre uma nova palavra para você.</p>
  </section>
 
- <section class="altar" aria-label="Versículo sorteado">
-  <div class="seg" role="group" aria-label="Sortear versículos de">
+ <section class="altar" aria-label="Versículo">
+  <div class="seg" role="group" aria-label="Encontrar versículos em">
    <button type="button" data-t="" aria-pressed="true">Toda a Bíblia</button><button type="button" data-t="0" aria-pressed="false">Antigo<span class="x"> Testamento</span></button><button type="button" data-t="1" aria-pressed="false">Novo<span class="x"> Testamento</span></button>
   </div>
   <!--verso--><figure class="verso" id="verso"><p class="selo" id="selo">Versículo do dia</p><blockquote id="vt">Respondeu ele: Não temas; porque os que estão conosco são mais do que os que estão com eles.</blockquote><figcaption id="vr">2 Reis 6:16<small>Almeida, domínio público</small></figcaption></figure><!--/verso-->
   <p class="sr" id="anuncio" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap"></p>
   <div class="palco">
-   <button type="button" class="sortear" id="sortear" aria-keyshortcuts="Space"><span class="halo" aria-hidden="true"></span><svg class="ic" id="dado" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 3.5l1.6 4.9 4.9 1.6-4.9 1.6L10 16.5l-1.6-4.9L3.5 10l4.9-1.6Z"/><path d="M18 14l.8 2.2 2.2.8-2.2.8L18 20l-.8-2.2-2.2-.8 2.2-.8Z"/></svg><span class="rot">Sortear um versículo</span></button>
+   <button type="button" class="sortear" id="sortear" aria-keyshortcuts="Space"><span class="halo" aria-hidden="true"></span><svg class="ic" id="dado" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 3.5l1.6 4.9 4.9 1.6-4.9 1.6L10 16.5l-1.6-4.9L3.5 10l4.9-1.6Z"/><path d="M18 14l.8 2.2 2.2.8-2.2.8L18 20l-.8-2.2-2.2-.8 2.2-.8Z"/></svg><span class="rot">Encontrar um versículo</span></button>
   </div>
   <p class="dica">ou aperte a <kbd>barra de espaço</kbd></p>
   <div class="acoes">
@@ -171,7 +171,7 @@ footer .in{max-width:960px;margin:0 auto;padding:18px 16px;display:flex;flex-wra
 
  <section class="notas">
   <p id="fonte">Fonte: Tradução de João Ferreira de Almeida (domínio público), texto lido em <a href="https://bible-api.com/" target="_blank" rel="noopener">bible-api.com</a> em 30/10/2026. Seleção de 262 versículos feita pela redação.</p>
-  <p>O versículo do dia muda à meia-noite e é o mesmo para todos os leitores; o botão sorteia entre os versículos da seleção sem repetir até passar por todos. A Bíblia protestante tem <span id="count" class="count">66 livros · 1.189 capítulos</span>, e a seleção inclui pelo menos um versículo de cada livro.</p>
+  <p>O versículo do dia muda à meia-noite e é o mesmo para todos os leitores; o botão traz versículos da seleção sem repetir até passar por todos. A Bíblia protestante tem <span id="count" class="count">66 livros · 1.189 capítulos</span>, e a seleção inclui pelo menos um versículo de cada livro.</p>
  </section>
 </div>
 <footer><div class="in">
@@ -249,7 +249,7 @@ function placar(pula) {
   const marcos = { 5: "Cinco já! Tem muito mais esperando por você.", 10: "10 versículos descobertos. Qual deles ficou no coração?",
     25: "25 versículos! Você está pegando gosto pela Palavra.", 50: "50 versículos descobertos. Que caminhada!",
     100: "100 versículos! Já dá para chamar de hábito.", 150: "150 versículos. Falta pouco para ver todos!" };
-  $("marco").textContent = n === VERSOS.length ? "Você descobriu todos os versículos da seleção. Continue sorteando para reler!" : (pula && marcos[n]) || $("marco").textContent;
+  $("marco").textContent = n === VERSOS.length ? "Você descobriu todos os versículos da seleção. Continue apertando o botão para reler!" : (pula && marcos[n]) || $("marco").textContent;
 }
 
 function preenche(i, selo) {
@@ -300,7 +300,7 @@ function sortear() {
   if (atual >= 0) hist.push(atual);
   giro += 180; $("dado").style.transform = `rotate(${giro}deg)`;
   faiscas();
-  mostra(i, "Sorteado para você", true);
+  mostra(i, "Uma palavra para você", true);
 }
 
 $("sortear").addEventListener("click", sortear);

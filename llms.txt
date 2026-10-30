@@ -20,5 +20,5 @@ Responsável editorial: Anderson Pelicioni de Castro, que confere o site diariam
 - [Arquivo de notícias](https://meruvash.github.io/Arcvalion_gospel/noticias/)
 - [Estudos bíblicos](https://meruvash.github.io/Arcvalion_gospel/estudos/)
 - [Agenda cristã](https://meruvash.github.io/Arcvalion_gospel/lancamentos/): eventos e lançamentos com data confirmada
-- [Versículo diário](https://meruvash.github.io/Arcvalion_gospel/consulta/): o versículo do dia e um sorteio de versículos da Bíblia (Almeida, domínio público) a cada clique
+- [Versículo diário](https://meruvash.github.io/Arcvalion_gospel/consulta/): o versículo do dia e um novo versículo da Bíblia (Almeida, domínio público) a cada clique
 - [Política editorial](https://meruvash.github.io/Arcvalion_gospel/politica-editorial/): como pesquisamos, escolhemos e corrigimos
