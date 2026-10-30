@@ -93,7 +93,7 @@ def main():
     agora = datetime.now(BRT)
     hoje = agora.replace(hour=0, minute=0, second=0, microsecond=0)
     ontem = hoje - timedelta(days=1)
-    print(f"Visitas em PREENCHER_DOMINIO (horário de Brasília, {agora:%d/%m %H:%M})")
+    print(f"Visitas em {HOST} (horário de Brasília, {agora:%d/%m %H:%M})")
     print(periodo(f"Hoje, até {agora:%H:%M}", consultar(token, conta, hoje, agora)))
     print(periodo(f"Ontem ({ontem:%d/%m})", consultar(token, conta, ontem, hoje)))
     if "--semana" in sys.argv:
