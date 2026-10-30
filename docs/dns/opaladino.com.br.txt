@@ -1,0 +1,26 @@
+;; Registros de DNS de opaladino.com.br para importar na Cloudflare
+;; (DNS > Records > Import and Export > Import DNS records).
+;; Site hospedado no GitHub Pages (conta meruvash). Todos os registros entram SEM proxy (nuvem cinza):
+;; o GitHub só emite o certificado HTTPS do domínio se enxergar os próprios IPs.
+;; Ao importar, deixe DESMARCADA a opção "Proxy imported DNS records".
+;; Passo a passo completo: docs/DEPLOY.md, seção "Domínio".
+$ORIGIN opaladino.com.br.
+$TTL 3600
+
+;; Raiz do domínio -> GitHub Pages
+opaladino.com.br.	3600	IN	A	185.199.108.153 ; cf_tags=cf-proxied:false
+opaladino.com.br.	3600	IN	A	185.199.109.153 ; cf_tags=cf-proxied:false
+opaladino.com.br.	3600	IN	A	185.199.110.153 ; cf_tags=cf-proxied:false
+opaladino.com.br.	3600	IN	A	185.199.111.153 ; cf_tags=cf-proxied:false
+opaladino.com.br.	3600	IN	AAAA	2606:50c0:8000::153 ; cf_tags=cf-proxied:false
+opaladino.com.br.	3600	IN	AAAA	2606:50c0:8001::153 ; cf_tags=cf-proxied:false
+opaladino.com.br.	3600	IN	AAAA	2606:50c0:8002::153 ; cf_tags=cf-proxied:false
+opaladino.com.br.	3600	IN	AAAA	2606:50c0:8003::153 ; cf_tags=cf-proxied:false
+
+;; www -> mesmo site (o GitHub redireciona www para o domínio principal)
+www.opaladino.com.br.	3600	IN	CNAME	meruvash.github.io. ; cf_tags=cf-proxied:false
+
+;; Verificação do domínio no GitHub (Settings da conta > Pages > Add a domain):
+;; o GitHub gera um código só seu. Quando ele aparecer, crie à mão na Cloudflare um registro TXT com
+;; nome _github-pages-challenge-meruvash e o código como conteúdo (ou tire o ";" da linha abaixo e troque o texto).
+;_github-pages-challenge-meruvash.opaladino.com.br.	3600	IN	TXT	"COLE-AQUI-O-CODIGO-DO-GITHUB"

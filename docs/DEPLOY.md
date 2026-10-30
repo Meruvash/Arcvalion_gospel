@@ -60,7 +60,9 @@ a Cloudflare cuida só do DNS.
 1. **Cloudflare**: Add a domain → `opaladino.com.br` → plano Free. Ela mostra dois nameservers (`<nome>.ns.cloudflare.com`).
 2. **Registro.br**: domínio → DNS → "Alterar servidores DNS" → troque `a.auto.dns.br` e `b.auto.dns.br` pelos dois
    da Cloudflare. A troca leva de minutos a algumas horas; a Cloudflare avisa por e-mail quando o domínio fica ativo.
-3. **Cloudflare → DNS → Records** (todos com a nuvem **cinza, "DNS only"**, para o GitHub emitir o certificado):
+3. **Cloudflare → DNS → Records → Import and Export → Import**: suba `docs/dns/opaladino.com.br.txt` com a opção
+   "Proxy imported DNS records" desmarcada. O arquivo traz estes registros, todos com a nuvem **cinza, "DNS only"**,
+   para o GitHub emitir o certificado:
 
 | Tipo | Nome | Valor |
 |---|---|---|
