@@ -142,12 +142,12 @@
  "editora": "Supremo Tribunal Federal",
  "estudos": [],
  "imagem": {
-  "arquivo": "capas/fachin-arquiva-investigacao-silas-malafaia.jpg",
-  "credito": "Foto de arquivo: Andressa Anholete/Agência Brasil",
-  "alt": "Fachada do prédio do Supremo Tribunal Federal, em Brasília",
-  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
-  "origem": "https://imagens.ebc.com.br/TofNm0jzs3GXYkZhyNuXgT_2itI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/10/55518626038_9f69a10c56_o.jpg?itok=zaTwNvdO",
-  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/stf-deve-julgar-revisao-da-condenacao-de-bolsonaro-apos-eleicoes"
+  "arquivo": "capas/malafaia-2019.jpg",
+  "credito": "Foto de arquivo (2019): Marcos Corrêa, via Wikimedia Commons (CC BY 2.0)",
+  "alt": "O pastor Silas Malafaia fala ao microfone durante evento em abril de 2019",
+  "licenca": "CC BY 2.0",
+  "origem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Silas_Malafaia_em_abril_de_2019.jpg/960px-Silas_Malafaia_em_abril_de_2019.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Silas_Malafaia_em_abril_de_2019.jpg"
  },
  "ia": {
   "usada": true,
@@ -155,8 +155,8 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-30T00:29:05-03:00",
-  "modo": "automatica"
+  "data": "2026-10-30T00:35:25-03:00"
  },
- "publicado_em": "2026-10-30T00:29:05-03:00"
+ "publicado_em": "2026-10-30T00:29:05-03:00",
+ "atualizado_em": "2026-10-30T00:35:25-03:00"
 }
