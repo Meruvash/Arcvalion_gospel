@@ -73,6 +73,7 @@ class Noticias(unittest.TestCase):
         pts = {"impacto": impacto, "afinidade": afinidade, "atualidade": atualidade, "comprovacao": comprovacao, "originalidade": originalidade}
         c = {"escala": 100, "pontos": sum(pts.values()), "trilha": "quente", "abrangencia": "nacional",
              "origem": {"nome": "Exemplo", "url": "https://example.org/"},
+             "tema": {"eixo": "familia", "porque": "fato fictício de teste sobre proteção de crianças na família"},
              "criterios": {k: {"pontos": v, "porque": "fato fictício de teste com efeito concreto descrito"} for k, v in pts.items()}}
         c.update(mud)
         return c
@@ -92,6 +93,10 @@ class Noticias(unittest.TestCase):
         self.assertIn("comprovação 5", erros(self.crivo100(impacto=30, afinidade=25, atualidade=20, comprovacao=5, originalidade=10)))
         self.assertIn("motor de 0 a 100", erros({"pontos": 15, "eixos": {"valor": 6, "viral": 5, "cristao": 4}}))
         self.assertIn("trilha", erros(self.crivo100(trilha="morna")))
+        # eliminatório 10: notícia de cidade sem eixo temático não entra, por mais pontos que tenha
+        self.assertIn("eliminatório 10", erros(self.crivo100(tema=None)))
+        self.assertIn("eliminatório 10", erros(self.crivo100(tema={"eixo": "cidade", "porque": "parque depredado em Porto Velho dias depois"})))
+        self.assertIn("tema.porque", erros(self.crivo100(tema={"eixo": "familia", "porque": "versículo cabe"})))
         self.assertEqual(self.erros(crivo={"pontos": 5}), "")  # nota de antes da vigência mantém o crivo antigo
 
     def test_manchete_do_motor(self):

@@ -32,7 +32,7 @@
    "regua": [
     [
      20,
-     "núcleo do portal com efeito direto no leitor: igreja e liberdade religiosa no Brasil; poder público de Rondônia e Porto Velho; vida, família e educação"
+     "núcleo do portal com efeito direto no leitor: igreja e liberdade religiosa no Brasil; vida, família e educação dos filhos; ato do poder público (inclusive de Rondônia e Porto Velho) só quando o próprio ato é sobre um desses temas"
     ],
     [
      10,
@@ -40,7 +40,7 @@
     ],
     [
      0,
-     "tema lateral ao público"
+     "tema lateral ao público (assunto de cidade, obra, clima, trânsito, polícia sem eixo temático: nesse caso a pauta já cai no eliminatório 10)"
     ]
    ]
   },
@@ -132,5 +132,13 @@
  "publicar_se_faltar": 60,
  "manchete": 70,
  "comprovacao_minima": 9,
- "justificativa_min_palavras": 6
+ "justificativa_min_palavras": 6,
+ "temas": {
+  "_ajuda": "Teste temático (eliminatório 10, docs/CRIVO_NOTICIAS.md, pedido do responsável editorial em 30/10/2026): o fato em si precisa ser sobre um destes eixos. A lente cristã da nossa análise (versículo, 'pede oração', 'pede resposta do cristão') nunca conta como tema. Na nota: crivo.tema = {\"eixo\": <chave>, \"porque\": <o que no fato é desse eixo>}.",
+  "fe-e-igreja": "igrejas, denominações, lideranças cristãs, missões, culto, eventos de fé organizados por igrejas",
+  "liberdade": "liberdade religiosa, de expressão ou de consciência; perseguição a cristãos",
+  "vida": "aborto, eutanásia, bioética, dignidade da vida humana",
+  "familia": "casamento, filhos, adoção, papel dos pais, proteção de crianças e adolescentes, vícios que destroem famílias",
+  "educacao": "escola, currículo, educação dos filhos, direitos dos pais na educação"
+ }
 }

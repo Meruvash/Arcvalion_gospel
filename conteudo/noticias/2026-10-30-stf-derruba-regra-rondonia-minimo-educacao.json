@@ -101,6 +101,10 @@
   "pontos": 77,
   "trilha": "quente",
   "abrangencia": "rondonia",
+  "tema": {
+   "eixo": "educacao",
+   "porque": "A decisão muda a régua do gasto mínimo com educação da rede estadual que atende os filhos dos leitores"
+  },
   "origem": {
    "nome": "Rondônia Dinâmica",
    "url": "https://www.rondoniadinamica.com/noticias/2026/10/moraes-derruba-regra-de-rondonia-que-permitia-contabilizar-despesas-da-educacao-pagas-ate-o-fim-do-ano-seguinte,257599.shtml"

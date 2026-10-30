@@ -48,6 +48,17 @@ def checar_config(r):
     return [] if soma == 100 else [f"config/relevancia.json: os pesos somam {soma}, precisam somar 100"]
 
 
+def checar_tema(t, r):
+    """Eliminatório 10 (30/10/2026): o fato precisa ser sobre um eixo do portal (config/relevancia.json, 'temas').
+    Notícia de cidade sem esse eixo não entra, por mais local que seja; versículo na análise não vale como tema."""
+    temas = [k for k in r.get("temas", {}) if not k.startswith("_")]
+    if not isinstance(t, dict) or t.get("eixo") not in temas:
+        return [f"crivo: 'tema' com o eixo do fato ({', '.join(temas)}) e o porquê; sem eixo temático a pauta não entra (eliminatório 10)"]
+    if len(str(t.get("porque", "")).split()) < r["justificativa_min_palavras"]:
+        return ["crivo: justifique o tema com o que, no próprio fato, é desse eixo ('tema.porque')"]
+    return []
+
+
 def checar_crivo(c, data=""):
     """Motor de relevância: cada critério de 0 até o peso, com justificativa em fatos concretos; o total decide se a nota
     sai (publicar_se_faltar), e a comprovação tem piso próprio, porque pontuação alta não substitui verificação.
@@ -77,6 +88,7 @@ def checar_crivo(c, data=""):
         if crit["comprovacao"]["pontos"] < r["comprovacao_minima"]:
             erros.append(f"crivo: comprovação {crit['comprovacao']['pontos']}, abaixo do mínimo de {r['comprovacao_minima']}: "
                          "volte à apuração (fonte oficial, documento ou segunda reportagem independente)")
+    erros += checar_tema(c.get("tema"), r)
     if c.get("trilha") not in TRILHAS:
         erros.append("crivo: 'trilha' precisa ser quente ou atemporal")
     if c.get("abrangencia") not in ABRANGENCIAS:

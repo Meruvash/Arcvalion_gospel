@@ -15,8 +15,8 @@ Pedido do responsável editorial: a edição é **nacional primeiro**, depois **
 | Ordem | Abrangência | Quando entra |
 |---|---|---|
 | 1 | Brasil | Sempre: é o núcleo da edição (pelo menos 3 das 5 notas do dia) |
-| 2 | Rondônia | Toda pauta do estado que passe no crivo (meta: 1 por dia) |
-| 3 | Porto Velho | Toda pauta da capital que passe no crivo |
+| 2 | Rondônia | Só pauta do estado que passe no **teste temático** (eliminatório 10) e no corte. Não há cota local |
+| 3 | Porto Velho | Idem: fato da capital entra só quando o próprio fato é de fé, igreja, liberdade, vida, família ou educação |
 | 4 | Internacional | Só com **impacto grande e direto no Brasil** (o mesmo projeto tramita aqui, afeta brasileiros, muda regra que vale aqui) ou na trilha **atemporal**. No máximo 1 por dia |
 
 ## 1. A regra de ouro: o portal dá a pauta, a fonte primária dá o fato
@@ -112,6 +112,14 @@ reservados: só com autorização por escrito (`fotos.py local` com a licença d
 7. **Atemporal sem conferência**: afirmação histórica ou citação que não achamos na origem.
 8. **Sem foto com licença** (regra das notícias, `docs/FOTOS.md`). Foto do portal de origem não serve.
 9. **Já publicada por nós**, mesmo vinda de outro portal.
+10. **Não tem pertinência temática** (30/10/2026, pedido do responsável editorial, depois de Parque Circuito, seca no
+    Rio Madeira e Presépio Vivente da prefeitura saírem no ar): o **próprio fato** precisa ser sobre um eixo do portal
+    (`config/relevancia.json`, `temas`): fé e igreja; liberdade religiosa, de expressão ou de consciência; vida;
+    família e proteção de crianças; educação dos filhos. Assunto de cidade (obra, parque, clima, trânsito, polícia,
+    serviço público) sem esse eixo **não entra, por mais local, útil ou comovente que seja**. A lente cristã da nossa
+    análise não transforma a pauta: um versículo que "cabe", "pede oração" ou "pede resposta do cristão" vale para
+    quase qualquer fato e **nunca conta como tema**. Teste em uma frase: "este fato é sobre ___" (o eixo) sem citar a
+    nossa opinião. Na nota, `crivo.tema = {"eixo", "porque"}`; `checar_noticia.py` recusa nota sem eixo válido.
 
 ## 4. Pontuação: motor de relevância (0 a 100)
 
@@ -127,7 +135,7 @@ somar 100). Cada critério recebe de 0 até o peso, com o **porquê em fatos con
 | Critério | Peso | Régua (pontos mínimos da faixa) |
 |---|---|---|
 | Impacto público | 30 | 25: muda regra, direito ou dinheiro público já valendo para um estado, o país ou milhares (decisão, lei sancionada, decreto, votação concluída) · 15: efeito concreto numa cidade, comunidade ou grupo (serviço essencial, obra, ato do prefeito, decisão de denominação ou convenção nacional) · 5: efeito possível ou futuro (projeto em tramitação, ação sem julgamento, pesquisa) · 0: declaração, evento, homenagem, polêmica |
-| Afinidade com o público | 25 | 20: núcleo do portal com efeito direto no leitor (igreja e liberdade religiosa no Brasil; poder público de Rondônia e Porto Velho; vida, família, educação) · 10: tema do portal com efeito indireto (outro país, debate sem caso aqui) · 0: lateral |
+| Afinidade com o público | 25 | 20: núcleo do portal com efeito direto no leitor (igreja e liberdade religiosa no Brasil; vida, família, educação dos filhos; ato do poder público, inclusive de Rondônia e Porto Velho, **só quando o ato é sobre um desses temas**) · 10: tema do portal com efeito indireto (outro país, debate sem caso aqui) · 0: lateral (e aí a pauta já caiu no eliminatório 10) |
 | Atualidade e urgência | 20 | 17: até 48 h, ou prazo, votação ou julgamento nos próximos dias · 10: até 7 dias · 5: mais antigo com desdobramento ou gancho de calendário · 0: sem novidade |
 | Qualidade da comprovação | 15 | 13: documento primário lido na íntegra e confirmação independente · 9: fonte oficial ou duas reportagens próprias independentes · 5: uma reportagem própria · 0: agregador, republicação ou declaração sem prova |
 | Originalidade e aprofundamento | 10 | 8: acrescenta fato, número ou contexto que as fontes não deram · 4: síntese com contexto próprio · 0: reescrita de uma fonte |
@@ -164,6 +172,7 @@ corte, o piso de comprovação e a abrangência; a página mostra cada critério
   "pontos": 77,
   "trilha": "quente",
   "abrangencia": "rondonia",
+  "tema": {"eixo": "educacao", "porque": "A decisão muda a régua do gasto mínimo com educação da rede estadual"},
   "origem": {"nome": "Rondônia Dinâmica", "url": "https://..."},
   "criterios": {
     "impacto": {"pontos": 23, "porque": "Decisão do STF tira da lei estadual a regra que ...; ainda cabe agravo"},
