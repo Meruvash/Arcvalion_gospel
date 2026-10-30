@@ -16,7 +16,7 @@ import portal  # noqa: E402
 
 if not portal.CFG:  # importado pelo build_home.py do Elite, que não inicia a configuração
     portal.iniciar()
-from editorial.vicios import avisos, sensacionalismo  # noqa: E402
+from editorial.vicios import avisos, risco_juridico, sensacionalismo  # noqa: E402
 
 # selo da nota (a "Nossa opinião"): no Elite eram Vale a compra, Vale acompanhar, Para fãs do jogo base, Com ressalvas, Informativo
 SELOS = {"Boa notícia", "Vale acompanhar", "Para refletir", "Motivo de alerta", "Informativo"}
@@ -128,6 +128,12 @@ def problemas(n, publicar=None):
         erros += checar_foto(n)
     if not isinstance(n.get("crivo", {}).get("pontos"), int):
         erros.append("crivo sem pontos")
+    # crivo jurídico (30/10/2026): opinião forte sem abrir espaço para processo
+    erros += risco_juridico(n)[0]
+    if (publicar or n.get("status") == "revisao") and len(str(n.get("checagem_juridica", "")).split()) < 12:
+        erros.append("checagem_juridica: diga em uma ou duas frases o que foi conferido na leitura hostil "
+                     "(nenhuma imputação de crime ou intenção sem fonte oficial, nenhuma frase que ofenda a honra de pessoa "
+                     "ou discrimine grupo, ironia só sobre a decisão)")
     if publicar:
         erros += checar_revisao(n)
     return erros
@@ -160,6 +166,8 @@ if __name__ == "__main__":
         todas.append(n)
         e = problemas(n, publicar=n.get("status") == "publicado")
         print(("✅ " if not e else "❌ ") + a.name + f" [{n.get('status', 'publicado')}]" + ("" if not e else "\n   - " + "\n   - ".join(e)))
+        for v in risco_juridico(n)[1]:
+            print("   ⚠️ " + v)
         for v in avisos(n):
             print("   ⚠️ vício de texto: " + v)
         ruim += bool(e) and n.get("status") in ("publicado", "revisao")

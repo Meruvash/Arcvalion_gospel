@@ -53,6 +53,30 @@ def avisos(dados):
     return [f"{exp!r} ({len(c)}x, em {', '.join(sorted(set(c)))}): {dica}" for (exp, dica), c in achados.items()]
 
 
+# Risco jurídico (30/10/2026): rótulo que imputa crime, ofende a honra ou desqualifica pessoa ou grupo.
+# Nas partes de opinião bloqueia; nas partes de fato vira aviso (só com atribuição: "suspeito", "segundo a polícia").
+RISCO_JURIDICO = re.compile(
+    r"\b(criminos[oa]s?|bandid[oa]s?|ladr(ão|ões|ona)|corrupt[oa]s?|mentiros[oa]s?|mentiu|fraudador(a|es)?|golpistas?|"
+    r"assassin[oa]s?|quadrilhas?|máfia|mafios[oa]s?|canalhas?|vagabund[oa]s?|safad[oa]s?|"
+    r"genocidas?|terroristas?|nazistas?|fascistas?|ditador(a|es)?|pedófil[oa]s?|vendid[oa]s?|comprad[oa]s?|"
+    r"hipócritas?|covardes?|farsantes?|charlatã(o|es)?|psicopatas?|doentes? mentais?|lixo|nojent[oa]s?)\b", re.I)
+CAMPOS_OPINIAO = ("titulo", "por_que_importa", "para_quem", "veredito")
+CAMPOS_FATO = ("lide", "corpo", "no_brasil", "nao_e_para")
+
+
+def risco_juridico(n):
+    """(erros, avisos): rótulos arriscados nas partes de opinião (erro) e nas de fato (aviso para conferir a atribuição)."""
+    erros, avs = [], []
+    for campos, lista, msg in ((CAMPOS_OPINIAO, erros, "risco jurídico em {c}: {p!r} rotula pessoa ou grupo; critique a decisão, não a pessoa"),
+                               (CAMPOS_FATO, avs, "risco jurídico em {c}: {p!r}; só com atribuição a fonte oficial (\"suspeito\", \"segundo a polícia\")")):
+        for c in campos:
+            v = n.get(c)
+            for t in ([v] if isinstance(v, str) else v or []):
+                for m in RISCO_JURIDICO.finditer(t if isinstance(t, str) else ""):
+                    lista.append(msg.format(c=c, p=m.group(0)))
+    return erros, avs
+
+
 def sensacionalismo(titulo):
     erros = []
     for padrao, motivo in CACA_CLIQUE:

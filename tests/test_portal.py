@@ -67,6 +67,10 @@ class Noticias(unittest.TestCase):
         a["manchete"] = False
         self.assertTrue(checar_dia([a, b]))
 
+    def test_crivo_juridico(self):
+        self.assertIn("risco jurídico", self.erros(veredito="O relator é um mentiroso e o projeto, uma farsa de quem quer aparecer na foto."))
+        self.assertIn("checagem_juridica", self.erros(checagem_juridica=None))
+
     def test_opiniao_forte_dois_de_cinco(self):
         dia = []
         for i in range(5):

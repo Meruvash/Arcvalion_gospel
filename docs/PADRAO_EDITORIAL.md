@@ -59,7 +59,7 @@ e com quem (nada de caça-clique).
 6. **Inteligente, não grosseiro.** Sem palavrão, xingamento ou deboche fácil, e sem adjetivo de torcida (detonou,
    lacrou, humilhou). Comparações concretas e inesperadas valem mais que adjetivos.
 7. **Nada inventado para causar.** Se a apuração não sustenta a polêmica, o tom fica firme mas sem a tese. A opinião é
-   do portal e precisa ser defensável diante da fonte.
+   do portal e precisa ser defensável diante da fonte e passar no crivo jurídico (seção abaixo).
 8. **Voz: "a gente".** Tom de conversa, mas a voz é do portal: "a gente", nunca "eu". Nunca cite humoristas.
 9. **Sem muleta.** A mesma piada ou bordão no máximo uma vez por notícia e não se repete na notícia seguinte. Repita as
    técnicas, não as frases.
@@ -67,6 +67,36 @@ e com quem (nada de caça-clique).
     com referência e tradução, e nunca usado como arma contra pessoas.
 
 As outras 3 notícias de cada 5 seguem o tom padrão: opinião clara e fundamentada, sem ironia.
+
+## Crivo jurídico (30/10/2026)
+
+Pedido do responsável editorial: a opinião pode ser forte, mas não pode abrir espaço para processo. Vale para toda
+notícia, e com mais rigor para as de Opinião Forte. Antes de publicar, faça a **leitura hostil**: leia cada frase de
+opinião como a pessoa ou o grupo citado leria, e como um juiz leria. Se alguma leitura possível acusa alguém de crime,
+ofende a honra ou discrimina, reescreva até sobrar uma leitura só.
+
+1. **Nada de imputar crime ou intenção sem fonte oficial.** Calúnia, difamação e injúria (artigos 138 a 140 do Código
+   Penal) nascem de atribuir a alguém crime, fato desonroso ou qualidade ofensiva. Investigado é "suspeito" ou
+   "investigado, segundo a polícia"; réu é "acusado"; só é "condenado" quem tem condenação. Motivação ("quis esconder",
+   "agiu de má-fé") só se estiver em documento oficial ou em fala atribuída.
+2. **A crítica mira atos públicos, não a pessoa.** Lei, projeto, voto, decisão, política e argumento podem ser
+   criticados com ironia; caráter, vida privada, aparência e família de quem decidiu, não.
+3. **Nada de generalizar grupos.** Nenhuma frase que desqualifique pessoas por raça, cor, etnia, religião, origem,
+   sexo, orientação sexual ou identidade de gênero (Lei 7.716/1989; desde 2019 o STF aplica a mesma lei à homofobia e à
+   transfobia). Discordar de uma lei sobre um grupo é legítimo; atacar o grupo, não.
+4. **Sem palavra de duplo sentido.** Ironia que também funcione como insulto a uma pessoa ou grupo sai. Rótulos como
+   corrupto, criminoso, bandido, mentiroso, golpista, quadrilha, genocida, nazista ou fascista não entram nas partes
+   de opinião (o validador bloqueia); nas partes de fato, só atribuídos a fonte oficial.
+5. **Fato conferido e atribuído.** Todo fato que embasa a opinião tem fonte com link e data; citação literal só de
+   frase lida na fonte; paráfrase com o nome de quem disse.
+6. **Imagem sem constrangimento.** Foto de pessoa só em contexto público e ligado ao fato, nunca em situação que a
+   ridicularize; criança e vítima não aparecem identificáveis.
+7. **Direito de resposta e correção.** Pedido de resposta ou de correção é atendido com rapidez (Lei 13.188/2015) e
+   registrado com `tools/publicar.py corrigir`.
+
+Registro obrigatório em cada notícia: `"checagem_juridica"`, uma ou duas frases dizendo o que foi conferido na leitura
+hostil. Sem ele, o validador não deixa publicar. Na dúvida, o tom fica firme e a frase arriscada sai: a força vem do
+fato bem apurado, não do adjetivo.
 
 ## Estudos bíblicos (`conteudo/estudos/<slug>.json`)
 
