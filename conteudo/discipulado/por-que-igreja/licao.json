@@ -1,0 +1,110 @@
+{
+ "slug": "por-que-igreja",
+ "titulo": "Por que preciso participar de uma igreja?",
+ "titulo_seo": "Por que preciso participar de uma igreja? O que a Bíblia ensina",
+ "categoria": "igreja-e-comunhao",
+ "palavras_chave": [
+  "igreja",
+  "comunhão",
+  "congregar",
+  "desigrejado",
+  "Atos 2",
+  "Hebreus 10",
+  "corpo de Cristo",
+  "salvação"
+ ],
+ "ideia_central": "Ninguém é salvo por ir à igreja, mas quem é salvo é juntado por Deus a um povo, e é nessa comunidade que a fé cresce.",
+ "descricao": "Por que preciso participar de uma igreja? Ir à igreja salva? O que a Bíblia ensina em Atos 2, Hebreus 10 e 1 Coríntios 12 sobre fé, comunhão e as marcas de uma igreja saudável.",
+ "tempo_min": 13,
+ "resumo_rapido": {
+  "resposta": "Ir à igreja não salva: a salvação é pela fé em Jesus. Mas no Novo Testamento quem crê é juntado por Deus a um povo, e é na comunidade que a fé é ensinada, cuidada e posta em prática.",
+  "ideias": [
+   "Em Atos 2:47, ser salvo e ser juntado ao grupo aparecem na mesma frase.",
+   "A primeira igreja tinha quatro marcas: ensino, amor cristão, partir o pão e oração.",
+   "A igreja é um corpo: cada um precisa dos outros, e os outros precisam de cada um."
+  ],
+  "texto_central": "Atos 2:41-47 e Hebreus 10:24-25"
+ },
+ "versiculo_chave": {
+  "texto": "E todos continuavam firmes, seguindo os ensinamentos dos apóstolos, vivendo em amor cristão, partindo o pão juntos e fazendo orações.",
+  "referencia": "Atos 2:42"
+ },
+ "contexto": [
+  [
+   "Quando nasceu",
+   "Dia de Pentecostes",
+   "Jerusalém, com a primeira pregação de Pedro"
+  ],
+  [
+   "Quantos se juntaram",
+   "Quase três mil",
+   "No mesmo dia (Atos 2:41)"
+  ],
+  [
+   "Onde se reuniam",
+   "No Templo e nas casas",
+   "Atos 2:46"
+  ],
+  [
+   "A imagem de Paulo",
+   "Um corpo",
+   "Muitas partes, um só corpo (1 Coríntios 12)"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "Ir à igreja salva",
+   "A salvação é pela fé em Jesus. A igreja é onde a fé cresce, não o que nos salva."
+  ],
+  [
+   "Moderada",
+   "Dá para viver a fé cristã sozinho, só pela internet",
+   "O Novo Testamento descreve uma fé vivida em comum: ensino, mesa, oração e cuidado mútuo."
+  ],
+  [
+   "Moderada",
+   "Igreja boa é igreja perfeita",
+   "Toda comunidade é feita de gente em construção. O que importa são as marcas: ensino bíblico, amor e liberdade, sem abuso."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "Por que preciso participar de uma igreja?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=preciso%20ir%20na%20igreja",
+    "dado": "sugere \"preciso ir na igreja para ser salvo\" e \"porque preciso ir na igreja\"",
+    "data": "2026-10-30"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=posso%20ser%20crist%C3%A3o%20sem%20igreja",
+    "dado": "sugere \"posso ser cristão sem ir a igreja\" e \"sem frequentar a igreja\"",
+    "data": "2026-10-30"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=youtube&ds=yt&hl=pt-BR&q=desigrejado",
+    "dado": "sugere \"desigrejado faz parte do corpo de cristo\" e \"desigrejados com fé\"",
+    "data": "2026-10-30"
+   }
+  ]
+ },
+ "imagem": {
+  "arquivo": "discipulado-por-que-igreja.jpg",
+  "alt": "Gravura de Cornelis Cort: os discípulos reunidos numa grande sala, sob o Espírito Santo que desce do alto em forma de pomba, no dia de Pentecostes.",
+  "credito": "Cornelis Cort, Pentecostes (gravura em metal, 1574). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus e comentários de Matthew Henry, John Wesley e João Calvino. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T20:50:52-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-30T20:50:52-03:00"
+}

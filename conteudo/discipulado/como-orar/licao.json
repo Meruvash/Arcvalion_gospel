@@ -1,0 +1,115 @@
+{
+ "slug": "como-orar",
+ "titulo": "Como aprender a orar?",
+ "titulo_seo": "Como aprender a orar? O que Jesus ensinou sobre a oração",
+ "categoria": "oracao",
+ "palavras_chave": [
+  "oração",
+  "orar",
+  "Pai Nosso",
+  "Lucas 11",
+  "Mateus 6",
+  "línguas",
+  "Espírito Santo",
+  "falar com Deus"
+ ],
+ "ideia_central": "Oração se aprende: é conversa sincera com um Pai que já sabe do que precisamos, e o Pai Nosso é o roteiro que Jesus deu.",
+ "descricao": "Como aprender a orar? O que Jesus ensinou em Lucas 11 e Mateus 6: oração não é espetáculo nem fórmula, o Pai Nosso como roteiro, a insistência e a ajuda do Espírito Santo quando faltam palavras.",
+ "tempo_min": 13,
+ "resumo_rapido": {
+  "resposta": "Ninguém nasce sabendo orar: até os discípulos pediram a Jesus que os ensinasse. Orar é conversar com sinceridade com um Pai que já sabe do que precisamos, e o Pai Nosso é o roteiro que ele deu.",
+  "ideias": [
+   "Oração não é espetáculo nem repetição de fórmulas: é conversa, em voz alta ou em silêncio.",
+   "O Pai Nosso ensina a ordem: primeiro Deus, depois as nossas necessidades.",
+   "Insistir é bem-vindo, e quando faltam palavras o Espírito Santo ajuda."
+  ],
+  "texto_central": "Lucas 11:1-13 e Mateus 6:5-13"
+ },
+ "versiculo_chave": {
+  "texto": "Não se preocupem com nada, mas em todas as orações peçam a Deus o que vocês precisam e orem sempre com o coração agradecido.",
+  "referencia": "Filipenses 4:6"
+ },
+ "contexto": [
+  [
+   "Quem pediu",
+   "Um discípulo",
+   "Depois de ver Jesus orando (Lucas 11:1)"
+  ],
+  [
+   "O modelo",
+   "Pai Nosso",
+   "Duas versões: Mateus 6 e Lucas 11"
+  ],
+  [
+   "O que evitar",
+   "Plateia e repetição",
+   "Mateus 6:5-8"
+  ],
+  [
+   "Quando faltam palavras",
+   "Romanos 8:26",
+   "O Espírito pede a Deus em nosso favor"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "Se eu orar do jeito certo, Deus faz o que eu pedir",
+   "Jesus promete coisas boas e o Espírito Santo, não uma fórmula que obriga Deus. A paz de Filipenses 4:7 não depende de tudo sair como queremos."
+  ],
+  [
+   "Moderada",
+   "Só vale oração com palavras bonitas",
+   "Deus já sabe do que precisamos (Mateus 6:8). A oração é conversa sincera, não discurso."
+  ],
+  [
+   "Moderada",
+   "Repetir muitas vezes garante ser ouvido",
+   "Jesus criticou as orações compridas feitas para impressionar. Insistir com fé é diferente de repetir sem sentido."
+  ],
+  [
+   "Leve",
+   "Orar é coisa para pastor e crente antigo",
+   "Os próprios discípulos pediram para aprender. Qualquer pessoa pode começar hoje, com as suas palavras."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "Como aprender a orar?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=como%20aprender%20a%20orar",
+    "dado": "sugere \"como aprender a orar a deus\", \"em línguas\", \"em público\", \"corretamente\" e \"passo a passo\"",
+    "data": "2026-10-30"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=como%20orar%20a%20deus",
+    "dado": "sugere \"como orar a deus corretamente\", \"segundo a bíblia\" e \"e ser ouvido por ele\"",
+    "data": "2026-10-30"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=como%20orar",
+    "dado": "sugere \"como orar corretamente\", \"em línguas\" e \"em público\"",
+    "data": "2026-10-30"
+   }
+  ]
+ },
+ "imagem": {
+  "arquivo": "discipulado-como-orar.jpg",
+  "alt": "Pintura de Rafael: Jesus ajoelhado em oração num jardim, com as mãos postas, enquanto três discípulos dormem no chão à sua volta.",
+  "credito": "Rafael, A agonia no horto (óleo sobre madeira, c. 1504). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus e comentários de Matthew Henry e John Wesley. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T20:50:52-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-30T20:50:52-03:00"
+}

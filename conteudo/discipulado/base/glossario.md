@@ -15,3 +15,6 @@ Formato: **termo** ("Título da lição"): explicação em uma ou duas frases, d
 - **Versículo** ("Quem é Jesus Cristo?"): frase com número dentro de um capítulo; "João 1:14" quer dizer livro de João, capítulo 1, versículo 14. 
 
 Termos adiados: **graça** (a NTLH de João 1 diz "amor"; explicar numa lição própria); **Trindade** (só uma frase no guia de "Quem é Jesus Cristo?"; explicar numa lição sobre o Espírito Santo).
+- **Oração** ("Como aprender a orar?"): pela Declaração de Fé, "o ato consciente, pelo qual a pessoa dirige-se a Deus para se comunicar com Ele e buscar a sua ajuda por meio de palavra ou pensamento".
+- **Escrituras** ("Como começar a ler a Bíblia?"): outro nome da Bíblia, inspirada por Deus (2 Timóteo 3:16).
+- **Igreja** ("Por que preciso participar de uma igreja?"): "assembleia", o povo reunido; todos os que creem em Jesus e também o grupo de crentes de cada lugar.

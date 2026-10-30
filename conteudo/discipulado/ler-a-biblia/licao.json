@@ -1,0 +1,110 @@
+{
+ "slug": "ler-a-biblia",
+ "titulo": "Como começar a ler a Bíblia?",
+ "titulo_seo": "Como começar a ler a Bíblia? Por onde começar e como entender",
+ "categoria": "conhecendo-a-biblia",
+ "palavras_chave": [
+  "Bíblia",
+  "ler a Bíblia",
+  "por onde começar",
+  "Escrituras",
+  "Atos 8",
+  "Evangelhos",
+  "interpretação",
+  "leitura diária"
+ ],
+ "ideia_central": "A Bíblia é uma biblioteca com um centro, Jesus; quem começa pelos Evangelhos, lê um pouco por dia e pede ajuda entende cada vez mais.",
+ "descricao": "Como começar a ler a Bíblia? Por onde começar, como entender e como criar o hábito, a partir do encontro de Filipe com o tesoureiro da Etiópia em Atos 8.",
+ "tempo_min": 13,
+ "resumo_rapido": {
+  "resposta": "A Bíblia não precisa ser lida da primeira à última página: é uma biblioteca de 66 livros com um centro, Jesus. Comece pelos Evangelhos, leia um pouco todo dia, ore antes e peça ajuda quando não entender.",
+  "ideias": [
+   "Não entender de primeira é normal: até o tesoureiro da Etiópia perguntou \"como posso entender se ninguém me explica?\".",
+   "Jesus é o centro das Escrituras: ler perguntando o que cada trecho tem a ver com ele ilumina o resto.",
+   "O Espírito Santo ajuda quem lê com oração, e Deus coloca pessoas no caminho para explicar."
+  ],
+  "texto_central": "Atos 8:26-40"
+ },
+ "versiculo_chave": {
+  "texto": "A tua palavra é lâmpada para guiar os meus passos, é luz que ilumina o meu caminho.",
+  "referencia": "Salmo 119:105"
+ },
+ "contexto": [
+  [
+   "A Bíblia",
+   "66 livros",
+   "39 no Antigo e 27 no Novo Testamento"
+  ],
+  [
+   "Escrita ao longo de",
+   "Cerca de 1.600 anos",
+   "Por cerca de 40 autores, segundo a Declaração de Fé"
+  ],
+  [
+   "O leitor de Atos 8",
+   "Tesoureiro da Etiópia",
+   "Lia Isaías 53 na estrada"
+  ],
+  [
+   "Por onde começar",
+   "Um Evangelho",
+   "Marcos (16 capítulos) ou João"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Moderada",
+   "A Bíblia deve ser lida em ordem, de Gênesis a Apocalipse",
+   "É uma biblioteca, não um romance. Começar pelos Evangelhos ajuda a entender o resto."
+  ],
+  [
+   "Moderada",
+   "Abrir em qualquer página e tomar o versículo como recado pessoal",
+   "Fora do contexto, um versículo pode dizer o contrário do que parece. Leia trechos inteiros."
+  ],
+  [
+   "Leve",
+   "Se eu não entendo, a Bíblia não é para mim",
+   "O essencial é claro, e ninguém precisa ler sozinho: o Espírito e a comunidade ajudam."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "Como começar a ler a Bíblia?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=como%20come%C3%A7ar%20a%20ler%20a%20b%C3%ADblia",
+    "dado": "sugere \"e entender\", \"pela primeira vez\", \"do zero\" e \"corretamente\"",
+    "data": "2026-10-30"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=por%20onde%20come%C3%A7ar%20a%20ler%20a%20b%C3%ADblia",
+    "dado": "sugere \"para entender\", \"para iniciantes\" e \"novo testamento\"",
+    "data": "2026-10-30"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=youtube&ds=yt&hl=pt-BR&q=como%20come%C3%A7ar%20a%20ler%20a%20b%C3%ADblia",
+    "dado": "sugere \"pela primeira vez\", \"para iniciantes\" e \"todos os dias\"",
+    "data": "2026-10-30"
+   }
+  ]
+ },
+ "imagem": {
+  "arquivo": "discipulado-ler-a-biblia.jpg",
+  "alt": "Aquarela de Thomas Waterman Wood: um homem idoso, sentado numa cadeira, lê atentamente uma Bíblia grande aberta no colo.",
+  "credito": "Thomas Waterman Wood, Lendo as Escrituras (aquarela, guache e grafite, 1874). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus e comentários de Matthew Henry, John Wesley e João Calvino. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T20:50:52-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-30T20:50:52-03:00"
+}
