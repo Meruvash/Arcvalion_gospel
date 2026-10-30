@@ -342,6 +342,21 @@ class Legislativo(unittest.TestCase):
         self.assertEqual(itens[0][3].tzinfo.utcoffset(None), timedelta(hours=-4))
 
 
+class Mural(unittest.TestCase):
+    def test_mural_de_pautas(self):
+        """Mural de pautas sugeridas (Ancapsu): título, data e o link da matéria original, nunca o do mural."""
+        from editorial import coletar
+        html_ = ('<div class="card col-lg-3 mb-4"><h5 class="card-title fw-bold"> Projeto prevê prisão por boicote </h5>'
+                 '<li class="nav-item text-muted"> 30 out. 2026 </li><p class="card-text">Resumo do portal</p>'
+                 '<a href="https://jornal.example/materia" target="_blank" class="btn btn-outline-success btn-sm">Ler</a></div>'
+                 '<div class="card col-lg-3 mb-4"><p>cartão sem título</p></div>')
+        itens = list(coletar.itens_mural(html_))
+        self.assertEqual(len(itens), 1)
+        titulo, link, resumo, quando = itens[0]
+        self.assertEqual((titulo, link, resumo), ("Projeto prevê prisão por boicote", "https://jornal.example/materia", "Resumo do portal"))
+        self.assertEqual((quando.day, quando.month, quando.year), (30, 10, 2026))
+
+
 class Producao(unittest.TestCase):
     def test_isolamento(self):
         r = rodar("tools/checar_isolamento.py")

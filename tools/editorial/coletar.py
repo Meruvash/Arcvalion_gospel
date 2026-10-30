@@ -128,6 +128,28 @@ def itens_pagina(conteudo, padrao, base):
         yield titulo, link, "", datetime(a, mes, d, 12, tzinfo=timezone(timedelta(hours=-4)))
 
 
+MESES_ABREV = {"jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5, "jun": 6, "jul": 7, "ago": 8, "set": 9, "out": 10, "nov": 11, "dez": 12}
+
+
+def itens_mural(conteudo):
+    """Mural de pautas sugeridas pelo público de um criador de conteúdo (Ancapsu): cada cartão traz o título, a data e o
+    link da matéria original de outro veículo. É termômetro do que o nosso público está comentando, nunca fonte: o link
+    leva ao veículo que deu a notícia, e o fato ainda pede a fonte primária."""
+    texto = conteudo.decode("utf-8", "replace") if isinstance(conteudo, bytes) else conteudo
+    for cartao in texto.split('<div class="card col-lg-3')[1:]:
+        titulo = re.search(r'card-title[^"]*">(.*?)</h5>', cartao, re.S)
+        link = re.search(r'href="([^"]+)" target="_blank" class="btn btn-outline-success', cartao)
+        data_ = re.search(r'(\d{1,2}) (\w{3})\. (\d{4})', cartao)
+        resumo = re.search(r'card-text">(.*?)</p>', cartao, re.S)
+        if not titulo or not link:
+            continue
+        quando = None
+        if data_ and data_.group(2).lower() in MESES_ABREV:
+            quando = datetime(int(data_.group(3)), MESES_ABREV[data_.group(2).lower()], int(data_.group(1)), 12,
+                              tzinfo=timezone(timedelta(hours=-3)))
+        yield limpo(titulo.group(1)), html.unescape(link.group(1)), limpo(resumo.group(1)) if resumo else "", quando
+
+
 def itens_sapl(f, limite):
     """Casa legislativa no SAPL (Câmara de Porto Velho, Assembleia de Rondônia): leis publicadas e projetos apresentados
     no período, pela API pública de dados abertos. É fonte primária: a pauta é a decisão (ou a proposta) do próprio
@@ -159,6 +181,8 @@ def ler_fonte(f, limite=None):
     conteudo = baixar(f["url"])
     if f.get("formato") == "sitemap-news":
         return list(itens_sitemap_news(conteudo))
+    if f.get("formato") == "mural":
+        return list(itens_mural(conteudo))
     if f.get("formato") == "pagina":
         return list(itens_pagina(conteudo, f["padrao"], f["url"]))
     return list(itens(conteudo))
