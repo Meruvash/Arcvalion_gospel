@@ -65,7 +65,8 @@ Tudo Rondônia.
 | **O Observador** | Polícia e cidade em Porto Velho | rodada 1 (feed; republicações de agências ficam fora) |
 | **Eu Ideal** | Política de Porto Velho, Câmara Municipal | manual (o robots.txt só libera robôs com nome) |
 | Tudo Rondônia, Rondonoticias, Portal de Rondônia, SIC TV, CBN Amazônia | Política e cidade | manual |
-| Governo de Rondônia, ALE-RO, Prefeitura e Câmara de Porto Velho (SAPL), TJ-RO, MP-RO, Defesa Civil | Documento, decisão, número oficial | para confirmar e citar; não são a pauta principal |
+| **Assembleia Legislativa de Rondônia e Câmara de Porto Velho (SAPL)** | Leis publicadas e projetos sobre fé, família, vida, liberdade e educação: pauta própria, que a imprensa local quase não cobre | rodada 1 (dados abertos do SAPL, `"formato": "sapl"`; pedido do responsável editorial, 30/10/2026). Leia o texto da lei ou do projeto antes de pontuar |
+| Governo de Rondônia, Prefeitura de Porto Velho, TJ-RO, MP-RO, Defesa Civil | Documento, decisão, número oficial | para confirmar e citar; não são a pauta principal |
 
 **Regra local de fonte.** Em notícia de Rondônia ou Porto Velho, a reportagem própria de um veículo da tabela
 (com repórter, entrevista com nome, documento ou presença no local) pode ser a base da nota. Ela entra nas `fontes`

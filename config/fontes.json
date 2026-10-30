@@ -1,5 +1,5 @@
 {
- "_ajuda": "Feeds da rodada 1 da rotina de notícias (tools/editorial/coletar.py), testados em 29/10/2026. 'filtro': 'temas' deixa passar só itens dos temas do portal (campo temas); um regex próprio também vale. 'tipo' primaria = a própria instituição fala; secundaria = outro veículo (serve de pista: a notícia precisa da fonte primária). Fontes que proíbem robôs ficam só para leitura pontual. 'nivel' A = fonte de referência, B = pista (ver docs/FONTES.md). 'conservador': true marca portal conservador de origem (docs/CRIVO_NOTICIAS.md): sobe na pauta, mas o fato continua precisando da fonte primária. 'abrangencia': nacional (padrão), rondonia, porto-velho ou internacional; a pauta prioriza nacional, depois Rondônia e Porto Velho, e o portal conservador internacional não ganha o ponto extra. Num 'filtro', a palavra 'temas' inclui o regex de temas.",
+ "_ajuda": "Feeds da rodada 1 da rotina de notícias (tools/editorial/coletar.py), testados em 29/10/2026. 'filtro': 'temas' deixa passar só itens dos temas do portal (campo temas); um regex próprio também vale. 'tipo' primaria = a própria instituição fala; secundaria = outro veículo (serve de pista: a notícia precisa da fonte primária). Fontes que proíbem robôs ficam só para leitura pontual. 'nivel' A = fonte de referência, B = pista (ver docs/FONTES.md). 'conservador': true marca portal conservador de origem (docs/CRIVO_NOTICIAS.md): sobe na pauta, mas o fato continua precisando da fonte primária. 'abrangencia': nacional (padrão), rondonia, porto-velho ou internacional; a pauta prioriza nacional, depois Rondônia e Porto Velho, e o portal conservador internacional não ganha o ponto extra. Num 'filtro', a palavra 'temas' inclui o regex de temas. 'formato': 'sapl' lê os dados abertos de uma casa legislativa no SAPL (leis publicadas, cujo tipo casa com 'normas', e projetos dos 'tipos_materia'); 'ignorar' tira do resultado a rotina sem pauta (crédito suplementar, título, nome de rua). 'bonus' soma pontos de prioridade a uma fonte (as casas legislativas já passam por filtro temático próprio).",
  "feeds": [
   {
    "nome": "Agência Senado",
@@ -529,6 +529,49 @@
    "nivel": "B",
    "abrangencia": "rondonia",
    "filtro": "temas|lei\\b|vereador|deputad|assembleia|câmara|prefeit|tribunal|ministério público|igreja|família|escola"
+  },
+  {
+   "nome": "Câmara Municipal de Porto Velho (SAPL)",
+   "url": "https://sapl.portovelho.ro.leg.br",
+   "formato": "sapl",
+   "normas": "Lei",
+   "tipos_materia": [
+    5,
+    12,
+    13,
+    14
+   ],
+   "editoria": "politica-e-sociedade",
+   "tipo": "primaria",
+   "nivel": "A",
+   "filtro": "temas|religi|defici[eê]n|autis|aluno|estudant|creche|ensino|fundeb|sal[aá]rio-educa|m[aã]es?\\\\b|gestante|matern|nascitur|drog|[aá]lcool|aposta|v[ií]cio|ideologia|g[eê]nero|homeschool|domiciliar|conselho tutelar|abrigo|acolhimento",
+   "abrangencia": "porto-velho",
+   "max": 12,
+   "_nota": "Dados abertos do SAPL (API pública, liberada no robots.txt): leis publicadas e projetos apresentados no período, filtrados pelos temas do portal. Fonte primária da pauta legislativa; a lista é pista, e a nota lê o texto da lei ou do projeto (pedido do responsável editorial, 30/10/2026).",
+   "ignorar": "cr[eé]dito adicional|utilidade p[uú]blica|t[ií]tulo de cidad|denomina|calend[aá]rio oficial|institui o dia|honra ao m[eé]rito|comenda|medalha",
+   "bonus": 2
+  },
+  {
+   "nome": "Assembleia Legislativa de Rondônia (SAPL)",
+   "url": "https://sapl.al.ro.leg.br",
+   "formato": "sapl",
+   "normas": "(Lei|Emenda Constitucional)",
+   "tipos_materia": [
+    1,
+    5,
+    12,
+    17,
+    18
+   ],
+   "editoria": "politica-e-sociedade",
+   "tipo": "primaria",
+   "nivel": "A",
+   "filtro": "temas|religi|defici[eê]n|autis|aluno|estudant|creche|ensino|fundeb|sal[aá]rio-educa|m[aã]es?\\\\b|gestante|matern|nascitur|drog|[aá]lcool|aposta|v[ií]cio|ideologia|g[eê]nero|homeschool|domiciliar|conselho tutelar|abrigo|acolhimento",
+   "abrangencia": "rondonia",
+   "max": 12,
+   "_nota": "Dados abertos do SAPL (API pública, liberada no robots.txt): leis publicadas e projetos apresentados no período, filtrados pelos temas do portal. Fonte primária da pauta legislativa; a lista é pista, e a nota lê o texto da lei ou do projeto (pedido do responsável editorial, 30/10/2026).",
+   "ignorar": "cr[eé]dito adicional|utilidade p[uú]blica|t[ií]tulo de cidad|denomina|calend[aá]rio oficial|institui o dia|honra ao m[eé]rito|comenda|medalha",
+   "bonus": 2
   }
  ],
  "temas": "igreja|igrejas|evangélic|cristã|cristão|religios|liberdade religiosa|liberdade de expressão|família|famílias|criança|infância|adolesc|educação|escola|aborto|casamento|missões|missionári|pastor|bíblia|fé\\b|culto|templo|perseguição|gospel|church|christian|evangelical|catholic|faith|religio|pastor|abortion|pro-life|persecut|bible|family|marriage|parents|school|children",

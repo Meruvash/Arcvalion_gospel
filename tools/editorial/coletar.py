@@ -128,7 +128,34 @@ def itens_pagina(conteudo, padrao, base):
         yield titulo, link, "", datetime(a, mes, d, 12, tzinfo=timezone(timedelta(hours=-4)))
 
 
-def ler_fonte(f):
+def itens_sapl(f, limite):
+    """Casa legislativa no SAPL (Câmara de Porto Velho, Assembleia de Rondônia): leis publicadas e projetos apresentados
+    no período, pela API pública de dados abertos. É fonte primária: a pauta é a decisão (ou a proposta) do próprio
+    parlamento; o filtro de temas da fonte separa o que é de fé, família, vida, liberdade ou educação."""
+    base, ano = f["url"].rstrip("/"), limite.year
+    consultas = [(f"{base}/api/norma/normajuridica/?ano={ano}&o=-data&page_size=100", "data", f.get("normas", "."), "norma")]
+    consultas += [(f"{base}/api/materia/materialegislativa/?ano={ano}&tipo={t}&o=-data_apresentacao&page_size=100",
+                   "data_apresentacao", ".", "materia") for t in f.get("tipos_materia", [])]
+    for url, campo, padrao, rota in consultas:
+        if not permitido(url):
+            continue
+        try:
+            resultados = json.loads(baixar(url))["results"]
+        except Exception:  # conexão instável numa consulta não derruba as outras da mesma casa
+            try:
+                resultados = json.loads(baixar(url))["results"]
+            except Exception:
+                continue
+        for x in resultados:
+            if not x.get(campo) or not re.match(padrao, x.get("__str__", "")):
+                continue
+            quando = datetime.fromisoformat(x[campo]).replace(hour=12, tzinfo=timezone(timedelta(hours=-4)))
+            yield f"{x['__str__']}: {limpo(x.get('ementa', ''))}", f"{base}/{rota}/{x['id']}", "", quando
+
+
+def ler_fonte(f, limite=None):
+    if f.get("formato") == "sapl":
+        return list(itens_sapl(f, limite or datetime.now(timezone.utc) - timedelta(days=2)))
     conteudo = baixar(f["url"])
     if f.get("formato") == "sitemap-news":
         return list(itens_sitemap_news(conteudo))
@@ -149,24 +176,27 @@ def main(args):
             avisos.append(f"{f['nome']}: robots.txt não permite a leitura automática; consulte só manualmente")
             continue
         try:
-            lista = ler_fonte(f)
+            lista = ler_fonte(f, limite)
         except Exception as ex:
             avisos.append(f"{f['nome']}: falhou ({ex.__class__.__name__})")
             continue
         filtro = f.get("filtro")
         filtro = re.compile(filtro.replace("temas", temas.pattern), re.I) if filtro else None
+        ignorar = re.compile(f["ignorar"], re.I) if f.get("ignorar") else None
         abr = f.get("abrangencia", "nacional")
         for titulo, link, resumo, quando in lista:
             if quando and quando < limite:
                 continue
             if filtro and not filtro.search(f"{titulo} {resumo}"):
                 continue
+            if ignorar and ignorar.search(titulo):  # rotina legislativa sem pauta: crédito suplementar, título, nome de rua
+                continue
             # prioridade geográfica (docs/CRIVO_NOTICIAS.md): nacional e Rondônia/Porto Velho sobem, internacional não;
             # portal conservador brasileiro sobe um ponto. O fato ainda pede a fonte primária.
             nota = ((2 if temas.search(f"{titulo} {resumo}") else 0) + (1 if f.get("tipo") == "primaria" else 0)
                     + (1 if f.get("conservador") and abr != "internacional" else 0)
                     + {"nacional": 1, "rondonia": 1, "porto-velho": 2}.get(abr, 0)
-                    + (1 if f.get("local_confiavel") else 0))
+                    + (1 if f.get("local_confiavel") else 0) + f.get("bonus", 0))
             cands.append((nota, quando or limite, f, titulo, link, resumo))
     cands.sort(key=lambda x: (x[0], x[1]), reverse=True)
     # no máximo POR_FONTE itens de cada feed, para um agregador que publica muito não tomar a pauta toda

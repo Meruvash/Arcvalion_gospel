@@ -317,6 +317,31 @@ class NotaPublicada(unittest.TestCase):
         self.assertTrue((self.s / "previa" / "noticias" / "exemplo-em-revisao" / "index.html").exists())
 
 
+class Legislativo(unittest.TestCase):
+    def test_sapl(self):
+        """Leitor das casas legislativas (SAPL): leis do tipo pedido e projetos, com link para a página da matéria."""
+        from datetime import datetime, timedelta, timezone
+        from editorial import coletar
+        resp = {"norma": {"results": [
+                    {"id": 1, "__str__": "Lei nº 10, de 23 de outubro de 2026", "ementa": "Gratuidade para pessoas com deficiência", "data": "2026-10-23"},
+                    {"id": 2, "__str__": "Decreto nº 99, de 23 de outubro de 2026", "ementa": "Crédito suplementar", "data": "2026-10-23"}]},
+                "materia": {"results": [
+                    {"id": 7, "__str__": "Projeto de Lei nº 5 de 2026", "ementa": "Assistência religiosa a pacientes", "data_apresentacao": "2026-10-27"}]}}
+        antes = coletar.baixar, coletar.permitido
+        coletar.baixar = lambda url: json.dumps(resp["norma" if "/norma/" in url else "materia"]).encode()
+        coletar.permitido = lambda url: True
+        try:
+            f = {"url": "https://sapl.exemplo.leg.br/", "formato": "sapl", "normas": "Lei", "tipos_materia": [5]}
+            itens = coletar.ler_fonte(f, datetime(2026, 10, 20, tzinfo=timezone.utc))
+        finally:
+            coletar.baixar, coletar.permitido = antes
+        titulos = [t for t, _, _, _ in itens]
+        self.assertIn("Lei nº 10, de 23 de outubro de 2026: Gratuidade para pessoas com deficiência", titulos)
+        self.assertFalse(any(t.startswith("Decreto") for t in titulos))
+        self.assertIn("https://sapl.exemplo.leg.br/materia/7", [l for _, l, _, _ in itens])
+        self.assertEqual(itens[0][3].tzinfo.utcoffset(None), timedelta(hours=-4))
+
+
 class Producao(unittest.TestCase):
     def test_isolamento(self):
         r = rodar("tools/checar_isolamento.py")
