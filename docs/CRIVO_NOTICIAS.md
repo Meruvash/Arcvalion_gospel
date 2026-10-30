@@ -43,7 +43,7 @@ por vez, com link (o robots.txt deles proíbe robôs ou bots de IA, ou não há 
 | Portal | Bom para | Cuidado |
 |---|---|---|
 | Gazeta do Povo (manual: bloqueia bots de IA) | Liberdade religiosa, educação, família, STF; colunas de Franklin Ferreira, Polzonoff | Separe reportagem de coluna |
-| Revista Oeste, Crusoé, O Antagonista (feed parcial) | Política, Judiciário, liberdade de expressão | Política partidária pura não entra (seção 3) |
+| Revista Oeste, Crusoé, O Antagonista (feed parcial) | Política, Judiciário, liberdade de expressão, lideranças da direita | Política entra (eixo `politica`); boato de bastidor sem fonte, não |
 | Pleno News, Guiame (feed) | Igrejas e pastores no Brasil, perseguição traduzida | Agregadores: quase nunca são a origem |
 | Jovem Pan (feed com filtro) | Repercussão no Congresso | — |
 
@@ -105,8 +105,11 @@ reservados: só com autorização por escrito (`fotos.py local` com a licença d
    dizendo não basta.
 2. **É só opinião**, sem fato novo por trás (coluna, editorial, "o que eu acho de"). Opinião vira fonte de "O que
    dizem", nunca a notícia.
-3. **É política partidária pura**: pesquisa eleitoral, briga de candidato, escândalo sem eixo de fé, família, vida,
-   educação ou liberdade (religiosa, de expressão, de consciência).
+3. **É bastidor político sem fato** (revisado em 30/10/2026, pedido do responsável editorial: o leitor de direita
+   quer política, e Flávio Bolsonaro, Nikolas Ferreira e a oposição **entram**): fica de fora só o que não tem fato
+   verificável, como "fulano estaria articulando", "segundo aliados", especulação de candidatura ou troca de farpa
+   em rede social sem consequência. Decisão de tribunal, ato de governo, votação, viagem, pedido formal, processo,
+   declaração pública gravada e pesquisa registrada são fato e entram. A cobertura relata cada lado com a sua fonte.
 4. **Fofoca ou celebridade sem fé**: a fé da pessoa precisa ser o assunto, dito por ela.
 5. **Isca de raiva sem substância**: o fato, contado sem adjetivo, não interessa a ninguém.
 6. **Trilha quente com mais de 7 dias** sem desdobramento novo (vale a data do fato, não a do portal).
@@ -116,7 +119,9 @@ reservados: só com autorização por escrito (`fotos.py local` com a licença d
 10. **Não tem pertinência temática** (30/10/2026, pedido do responsável editorial, depois de Parque Circuito, seca no
     Rio Madeira e Presépio Vivente da prefeitura saírem no ar): o **próprio fato** precisa ser sobre um eixo do portal
     (`config/relevancia.json`, `temas`): fé e igreja; liberdade religiosa, de expressão ou de consciência; vida;
-    família e proteção de crianças; educação dos filhos. Assunto de cidade (obra, parque, clima, trânsito, polícia,
+    família e proteção de crianças; educação dos filhos; **política nacional** (lideranças da direita e da oposição,
+    como Flávio Bolsonaro e Nikolas Ferreira, eleições, Congresso, decisões de tribunais e do governo sobre a
+    oposição). Assunto de cidade (obra, parque, clima, trânsito, polícia,
     serviço público) sem esse eixo **não entra, por mais local, útil ou comovente que seja**. A lente cristã da nossa
     análise não transforma a pauta: um versículo que "cabe", "pede oração" ou "pede resposta do cristão" vale para
     quase qualquer fato e **nunca conta como tema**. Teste em uma frase: "este fato é sobre ___" (o eixo) sem citar a
