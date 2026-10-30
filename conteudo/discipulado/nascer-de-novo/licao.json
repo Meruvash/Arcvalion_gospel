@@ -44,7 +44,7 @@
   [
    "Grave",
    "Nascer de novo é reencarnar",
-   "Nicodemos pensou num segundo nascimento do corpo, e Jesus o corrigiu: trata-se de nascer do Espírito, nesta vida, e não de voltar ao mundo em outro corpo."
+   "Nicodemos pensou num segundo nascimento do corpo, e Jesus o corrigiu: trata-se de nascer do Espírito, nesta vida. Já no século XVI, Calvino lia a resposta de Jesus como correção da ideia de almas que passam para outros corpos."
   ],
   [
    "Grave",
@@ -92,12 +92,12 @@
  },
  "ia": {
   "usada": true,
-  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus e comentário de Matthew Henry. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus e os comentários de Matthew Henry, John Wesley e João Calvino. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
  },
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-30T18:50:10-03:00",
+  "data": "2026-10-30T19:03:55-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-10-30T18:50:10-03:00",
@@ -111,5 +111,6 @@
   "salvação",
   "reencarnação",
   "batismo"
- ]
+ ],
+ "atualizado_em": "2026-10-30T19:03:55-03:00"
 }
