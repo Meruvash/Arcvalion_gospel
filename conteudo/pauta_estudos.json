@@ -36,16 +36,16 @@
   {
    "questao": "O dízimo vale para a igreja da nova aliança?",
    "passagem": "Malaquias 3:8-12",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "dizimo-malaquias-3",
    "obs": "",
    "tipo": "debate"
   },
   {
    "questao": "Mulheres podem exercer o ministério pastoral?",
    "passagem": "1 Timóteo 2:11-15",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "mulheres-no-pastorado-1-timoteo-2",
    "obs": "",
    "tipo": "debate"
   },
@@ -325,24 +325,24 @@
    "questao": "O Senhor é o meu pastor: cuidado, provisão e presença no vale",
    "passagem": "Salmo 23",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "salmo-23",
    "obs": ""
   },
   {
    "questao": "O Pai Nosso: como Jesus ensinou a orar",
    "passagem": "Mateus 6:5-15",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "pai-nosso-mateus-6",
    "obs": ""
   },
   {
    "questao": "O fruto do Espírito: o caráter que o Espírito Santo produz",
    "passagem": "Gálatas 5:16-26",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "fruto-do-espirito-galatas-5",
    "obs": ""
   },
   {
