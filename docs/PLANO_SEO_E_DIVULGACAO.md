@@ -31,7 +31,7 @@ Auditoria de 30/10/2026 feita no repositório e no site no ar (https://opaladino
 | 8 | Faltavam `articleSection`, `article:section`, `article:modified_time`, `isAccessibleForFree` e `publishingPrinciples` | Baixo/médio: sinais de confiança para o Google Notícias | **Corrigido** |
 | 9 | Descrição do arquivo de notícias tinha só 50 caracteres | Baixo | **Corrigido** |
 | 10 | O título da home é "O Paladino: jornalismo com princípios", sem nenhuma palavra que alguém busque | Médio | Decisão sua (sugestão abaixo) |
-| 11 | Não há páginas por editoria (Gospel, Política, Família, Fé e Bíblia) com endereço fixo; elas só aparecem quando o arquivo passa de uma página | Médio: são as páginas que ranqueiam para "notícias gospel" e parecidas | Fase 2 |
+| 11 | Não há páginas por editoria com endereço fixo | — | **Descartado** pelo editor em 30/10/2026: a separação por editoria dentro de Notícias basta |
 | 12 | Descrição das notícias = lide inteiro (até ~370 caracteres); o Google corta em ~155 | Baixo: o Google corta sozinho, mas a frase fica truncada | Fase 2 (campo opcional `descricao_seo`) |
 | 13 | Autoria só como "Redação O Paladino" | Baixo/médio para E-E-A-T | Fase 3 (página do editor, sem mencionar advocacia) |
 
@@ -72,7 +72,7 @@ Auditoria de 30/10/2026 feita no repositório e no site no ar (https://opaladino
 
 ### Fase 2: próximos 30 dias (código, posso fazer)
 
-1. **Páginas fixas por editoria**: `/noticias/categoria/<editoria>/` sempre geradas, com texto de apresentação, no menu e no sitemap.
+1. ~~Páginas fixas por editoria~~: descartado pelo editor em 30/10/2026 (a separação dentro de Notícias basta). Não propor de novo.
 2. **Título da home com palavra buscada**, por exemplo "O Paladino: notícias gospel, política e família com visão cristã".
    A decisão é sua, porque mexe na marca.
 3. **Campo opcional `descricao_seo`** nas notícias (até 155 caracteres), com fallback para o lide.
