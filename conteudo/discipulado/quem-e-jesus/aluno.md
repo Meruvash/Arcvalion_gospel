@@ -56,19 +56,28 @@ O problema é que os Evangelhos não deixam essa saída aberta. Jesus não se li
 
 C. S. Lewis, professor de literatura em Oxford que passou anos como ateu antes de se tornar cristão, percebeu o tamanho do problema numa série de palestras no rádio da BBC, depois reunidas no livro *Cristianismo Puro e Simples*. Um homem que fosse apenas homem e dissesse o tipo de coisa que Jesus disse, escreveu Lewis, "não seria um grande mestre de moral" (tradução nossa). Seria um desequilibrado ou um impostor. Ou então seria exatamente quem dizia ser.
 
+> [!citacao] Um homem que fosse apenas homem e dissesse o tipo de coisa que Jesus disse não seria um grande mestre de moral.
+> Fonte: C. S. Lewis, *Cristianismo Puro e Simples* (tradução nossa)
+
 Há quem responda que Jesus nunca disse nada disso e que a ideia de um Jesus divino foi inventada séculos depois. A história não ajuda essa hipótese. Por volta do ano 110, Plínio, o Jovem, governador romano da província da Bitínia, na atual Turquia, escreveu ao imperador Trajano pedindo orientação sobre os cristãos. Plínio não tinha nenhuma simpatia por eles. Mesmo assim, registrou que se reuniam antes do amanhecer e cantavam hinos a Cristo como a um deus.
 
 As cartas de Paulo, ainda mais antigas, já confessam que "Jesus Cristo é o Senhor" (Filipenses 2:11). A fé na divindade de Jesus não foi um acréscimo tardio: estava lá desde o começo.
 
+> [!chave] A ideia de um Jesus divino não foi inventada séculos depois. Os primeiros cristãos já o adoravam como Deus.
+
 ### Com Deus, e Deus
 
 O primeiro versículo de João diz duas coisas que parecem se chocar. A Palavra "estava com Deus": portanto, não é a mesma pessoa que o Pai. E a Palavra "era Deus": portanto, não é uma criatura, nem um ser divino de segunda categoria. O versículo 3 fecha a porta para qualquer meio-termo: tudo o que existe foi feito por meio da Palavra. Quem fez todas as coisas não pode ser uma delas.
+
+> [!termo] **Trindade:** a fé de que há um só Deus, que existe eternamente como Pai, Filho e Espírito Santo. A palavra não aparece na Bíblia, mas resume o que ela ensina.
 
 É daqui que os cristãos tiram o que chamam de Trindade: há um só Deus, que existe eternamente como Pai, Filho e Espírito Santo. Ninguém precisa entender isso por inteiro para começar a seguir Jesus; os próprios teólogos admitem que estão diante de um mistério. Mas é importante saber o que a frase "Filho de Deus" não quer dizer. Ela não indica que Jesus nasceu depois do Pai, como um filho nasce depois do pai. A Declaração de Fé das Assembleias de Deus resume assim: chamar Jesus de Filho de Deus "significa que Ele é Deus igual ao Pai".
 
 ### Quando o autor entra na história
 
 O versículo 14 é o centro do texto: "A Palavra se tornou um ser humano e morou entre nós." Os cristãos chamam isso de encarnação, palavra que quer dizer "fazer-se carne", tornar-se gente de verdade.
+
+> [!termo] **Encarnação:** Deus, o Filho, tornou-se um ser humano de verdade em Jesus, sem deixar de ser Deus.
 
 Uma comparação ajuda, desde que a gente não peça a ela mais do que pode dar. Pense num romancista que ama os personagens que criou. Eles vivem dentro do livro e só o conhecem de forma indireta, pelas marcas que ele deixou na história. Se esse autor quisesse ser conhecido por eles, e não apenas deduzido, teria um único caminho: escrever a si mesmo dentro do livro, como um dos personagens, nascido num capítulo, numa cidade, numa família. Continuaria sendo o autor. Mas agora estaria sujeito ao enredo, ao cansaço, à fome e, se a história chegasse a esse ponto, à traição.
 
@@ -84,9 +93,13 @@ O versículo 18 começa com uma frase que qualquer pessoa honesta pode assinar: 
 
 Isso muda a maneira de fazer a pergunta. Em vez de começar perguntando como Deus deve ser, o cristão começa olhando para Jesus. E o que se vê nos Evangelhos é desconcertante. Jesus tocou num leproso, quando todos evitavam até chegar perto (Marcos 1:40-42). Conversou com uma mulher samaritana, que pertencia a um povo desprezado pelos judeus, sobre as perguntas mais profundas da vida dela (João 4). Chamou para andar com ele um cobrador de impostos, profissão odiada na época (Marcos 2:14). Se Deus é assim, ele é ao mesmo tempo mais santo e mais próximo do que a gente imaginava.
 
+> [!chave] Em vez de começar perguntando como Deus deve ser, o cristão começa olhando para Jesus.
+
 ### O Messias que ninguém esperava
 
 Resta a resposta de Pedro: "O senhor é o Messias!" A palavra vem do hebraico e quer dizer "ungido". No antigo Israel, um profeta ou um sacerdote derramava azeite na cabeça do novo rei, como sinal de que Deus o tinha escolhido. Com o tempo, o povo passou a esperar um ungido definitivo, o Salvador prometido por Deus. "Cristo" é a mesma palavra em grego. A Declaração de Fé das Assembleias de Deus diz que "Messias" e "Cristo" "são a mesma coisa". Jesus Cristo, portanto, não é nome e sobrenome: é Jesus, o Messias.
+
+> [!termo] **Messias** (em grego, **Cristo**): "ungido". O Salvador que Deus prometeu ao seu povo.
 
 Pedro acertou a palavra, mas ainda não entendia o que ela significava. Logo depois, Jesus começou a ensinar que precisava sofrer muito, ser morto e ressuscitar (Marcos 8:31). Pedro chegou a repreendê-lo por isso (Marcos 8:32). Ele esperava um Messias que vencesse os inimigos; Jesus anunciava um Messias que venceria morrendo. Na terra dos césares, que governavam pela força, Jesus apresentava outro tipo de reinado.
 

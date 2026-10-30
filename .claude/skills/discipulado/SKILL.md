@@ -25,7 +25,7 @@ por IA, não editar HTML gerado, publicação automática registrada como autom�
 
 `git pull origin main`. Ler `docs/discipulado/padrao-de-escrita.md` e a seção 7 de `docs/discipulado/padrao-editorial.md`
 (formato), e `conteudo/discipulado/base/glossario.md` e `decisoes.md`. Criar `conteudo/discipulado/<slug>/` (slug curto, sem acento).
-Modelo pronto: `conteudo/discipulado/quem-e-jesus/`.
+Modelo pronto: `conteudo/discipulado/nascer-de-novo/`.
 
 ## 2. Escolher o tema (5 min)
 
@@ -88,6 +88,15 @@ imagem (opcional; obra em domínio público no acervo aberto do Metropolitan Mus
   histórico com fonte, nunca por personagem inventado; uma analogia forte, com os limites ditos; nada de clichê.
 - Atribuição a autor só do que está na frase lida (erro já cometido: acrescentar uma frase ao que Wesley disse).
   Fato bíblico com a referência certa. Fato histórico com link na seção Referências.
+- **Elementos visuais (obrigatórios; o validador confere).** No texto, pelo menos 3 destaques, cada um num bloco de citação
+  que começa com a marca: `> [!chave]` (Ideia-chave, uma frase forte), `> [!termo] **Palavra:** explicação` (Palavra-chave),
+  `> [!atencao]` (Cuidado com esta leitura) e `> [!citacao] frase` com a linha seguinte `> Fonte: autor, obra` (frase
+  de autor em destaque, em português; original entre parênteses na fonte). No licao.json: `resumo_rapido` {resposta, 3
+  ideias, texto_central} (Resumo em 1 minuto), `versiculo_chave` {texto NTLH, referencia}, `contexto` com 3 ou 4
+  [rótulo, valor, detalhe] (Em poucas linhas) e `equivocos` com 2 a 4 [Leve|Moderada|Grave, título, explicação]
+  (Leituras equivocadas). A página já transforma a Questão central em destaque, a Aplicação em lista com marcas, as
+  Perguntas em passos numerados e o Resumo em "Para guardar". Modelo: `conteudo/discipulado/nascer-de-novo/`.
+- Falas da NTLH em bloco: troque o travessão por aspas, com as palavras exatas, e avise no texto.
 - `titulo_seo` no licao.json: "<pergunta>? Entenda o que a Bíblia ensina".
 - **Sem etapa de revisão** (decisão do editor, 30/10/2026): escreva já copiando as citações das páginas salvas e publique. A revisão é feita à noite, pela verificação diária (skill `verificacao`).
 
@@ -99,8 +108,8 @@ alertas, sinais de compreensão, divergências.
 
 1. `python3 tools/discipulado/legibilidade.py conteudo/discipulado/<slug>/aluno.md` (e `--guia` no guia). Frase
    bíblica longa que não pode ser cortada: comentário `<!-- justificativa: ... -->` no fim do arquivo.
-2. `licao.json`: `{"slug", "titulo", "ideia_central", "descricao", "tempo_min",
-   "relevancia", "imagem" (opcional), "ia": {"usada": true, "uso": "..."}, "status": "revisao"}`. Sem o campo `auditoria`.
+2. `licao.json`: `{"slug", "titulo", "titulo_seo", "ideia_central", "descricao", "tempo_min" (leitura),
+   "resumo_rapido", "versiculo_chave", "contexto", "equivocos", "relevancia", "imagem" (opcional), "ia": {"usada": true, "uso": "..."}, "status": "revisao"}`. Sem o campo `auditoria`.
 3. `python3 tools/discipulado/checar_licao.py` até passar.
 
 ## 6. Publicar (3 min)

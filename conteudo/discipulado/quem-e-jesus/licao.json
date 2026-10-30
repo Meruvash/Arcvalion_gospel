@@ -3,7 +3,7 @@
  "titulo": "Quem é Jesus Cristo?",
  "ideia_central": "Jesus não foi só um grande mestre: é Deus que entrou na história humana para mostrar quem Deus é e para salvar.",
  "descricao": "Quem é Jesus Cristo? Entenda o que a Bíblia ensina: o começo do Evangelho de João, por que Jesus não foi só um grande mestre, o que é a encarnação e o que significa recebê-lo.",
- "tempo_min": 40,
+ "tempo_min": 15,
  "imagem": {
   "arquivo": "discipulado-quem-e-jesus.jpg",
   "alt": "Gravura de Rembrandt: Jesus em pé, de braços abertos, ensina um grupo de pessoas simples sentadas e em pé ao redor dele.",
@@ -21,5 +21,62 @@
  },
  "publicado_em": "2026-10-30T18:15:59-03:00",
  "titulo_seo": "Quem é Jesus Cristo? Entenda o que a Bíblia ensina",
- "atualizado_em": "2026-10-30T18:36:47-03:00"
+ "atualizado_em": "2026-10-30T18:36:47-03:00",
+ "resumo_rapido": {
+  "resposta": "Jesus não foi só um grande mestre. Os Evangelhos o apresentam como a Palavra eterna de Deus, que se tornou gente para mostrar quem Deus é e para salvar.",
+  "ideias": [
+   "Ele falou e agiu com a autoridade de Deus, e os primeiros cristãos o adoraram como Deus.",
+   "Ao se tornar homem, não deixou de ser Deus: sentiu fome, cansaço e tristeza de verdade.",
+   "É o Messias, que venceu morrendo; quem o recebe se torna filho de Deus."
+  ],
+  "texto_central": "João 1:1-18"
+ },
+ "versiculo_chave": {
+  "texto": "A Palavra se tornou um ser humano e morou entre nós, cheia de amor e de verdade.",
+  "referencia": "João 1:14"
+ },
+ "contexto": [
+  [
+   "Texto central",
+   "João 1:1-18",
+   "O começo do quarto Evangelho"
+  ],
+  [
+   "Quem escreveu",
+   "O apóstolo João",
+   "Segundo a tradição cristã antiga"
+  ],
+  [
+   "Onde Jesus fez a pergunta",
+   "Cesareia de Filipe",
+   "Terra de um santuário a Pã e de um templo a Augusto"
+  ],
+  [
+   "Registro romano",
+   "Por volta do ano 110",
+   "Plínio relata hinos a Cristo \"como a um deus\""
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "Jesus foi apenas um grande mestre",
+   "Os Evangelhos mostram Jesus perdoando pecados e aceitando ser chamado de Deus. Um simples mestre não diria essas coisas."
+  ],
+  [
+   "Grave",
+   "Ao virar homem, Jesus deixou de ser Deus",
+   "Filipenses 2 diz que ele já tinha a natureza de Deus e tomou também a de servo. Deixou de lado as honras do céu, não a divindade."
+  ],
+  [
+   "Moderada",
+   "Jesus só parecia humano",
+   "João 1:14 diz que a Palavra se tornou um ser humano. Jesus teve fome, sede, cansaço e chorou."
+  ],
+  [
+   "Moderada",
+   "\"Filho de Deus\" quer dizer que ele veio depois do Pai",
+   "A expressão indica que ele é Deus igual ao Pai, não que foi criado ou nasceu depois dele."
+  ]
+ ]
 }

@@ -30,6 +30,37 @@
 .nota .como{font-size:.9rem;color:#3a414c}
 .lista-d{display:grid;gap:8px}.lista-d li{display:grid;gap:10px;align-items:baseline;padding:10px 0;border-top:1px solid var(--paper-line,#d5dae1)}
 .lista-d li:first-child{border-top:0}
+/* elementos visuais (30/10/2026): o melhor das notícias e das resenhas aplicado ao estudo */
+.nota .r1{background:var(--panel2);color:var(--ink);border:1px solid #2e4d7a;border-left:4px solid var(--gold);display:grid;gap:12px}
+.nota .r1 .kick{font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+.nota .r1 .resp{font-size:1.12rem;font-weight:600;line-height:1.45;max-width:62ch}
+.nota .r1 ul{display:grid;gap:8px}.nota .r1 li{display:flex;gap:8px;align-items:flex-start;color:#dfe4ea}
+.nota .r1 li .ic{flex:none;width:20px;height:20px;color:#4cc38a;margin-top:2px}
+.nota .r1 .pe{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.88rem;color:var(--muted)}.nota .r1 .pe b{color:var(--ink)}
+.nota .vchave{border-left:4px solid var(--gold)}.nota .vchave blockquote{margin:0;font-size:1.2rem;font-weight:600;line-height:1.45}
+.nota .vchave cite{display:block;margin-top:8px;font-style:normal;font-size:.85rem;color:var(--paper-muted)}
+.nota .importa{border-left:4px solid var(--gold)}.nota .importa .corpo p{font-size:1.08rem;color:var(--paper-ink)}
+.nota .nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.nota .nums li{background:#fff;border:1px solid var(--paper-line);border-radius:8px;padding:12px;display:grid;gap:2px}
+.nota .nums small{font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--paper-muted)}
+.nota .nums b{font-size:1.08rem;line-height:1.25}.nota .nums span{font-size:.86rem;color:#3a414c}
+.nota .callout{border-radius:8px;padding:14px 16px;display:grid;gap:6px;margin:4px 0}
+.nota .callout .rot{font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.nota .callout p{color:var(--paper-ink)}
+.nota .callout.chave{background:#fbf3dc;border:1px solid #e6cf8a}.nota .callout.chave .rot{color:#8a5a00}.nota .callout.chave p{font-size:1.05rem;font-weight:600}
+.nota .callout.termo{background:#eef3fb;border:1px solid #c9d7ee}.nota .callout.termo .rot{color:#1f5fae}
+.nota .callout.atencao{background:#fbeeee;border:1px solid #efc6c6}.nota .callout.atencao .rot{color:#a3223a}
+.nota .citacao{margin:6px 0;padding:6px 0 6px 18px;border-left:4px solid var(--gold)}
+.nota .citacao p{font-size:1.2rem;font-weight:700;line-height:1.35;color:var(--paper-ink)}.nota .citacao cite{display:block;margin-top:6px;font-style:normal;font-size:.84rem;color:var(--paper-muted)}
+.nota .equivocos{display:grid;gap:10px}.nota .equivocos li{display:grid;gap:4px;padding:12px 14px;border:1px solid var(--paper-line);border-left:4px solid #b3263e;border-radius:8px;background:#fff}
+.nota .equivocos h3{font-size:1rem;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}.nota .equivocos p{color:#3a414c}
+.nota .licao ul.ok{list-style:none;padding-left:0}.nota .licao ul.ok li{position:relative;padding-left:30px}
+.nota .licao ul.ok li::before{content:"";position:absolute;left:4px;top:.35em;width:14px;height:8px;border-left:3px solid #1b7a45;border-bottom:3px solid #1b7a45;transform:rotate(-45deg)}
+.nota .licao ol.passos{list-style:none;padding-left:0;counter-reset:p;gap:12px}.nota .licao ol.passos li{counter-increment:p;position:relative;padding-left:44px;min-height:32px}
+.nota .licao ol.passos li::before{content:counter(p);position:absolute;left:0;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--gold);color:#0a1a33;font-weight:800;display:grid;place-items:center}
+.nota .guardar{background:var(--panel2);color:var(--ink);border:1px solid var(--gold)}.nota .guardar h2{color:var(--gold)}
+.nota .guardar ul{list-style:none;padding-left:0}.nota .guardar li{color:#eceff3;font-weight:600;padding-left:26px;position:relative}
+.nota .guardar li::before{content:"";position:absolute;left:2px;top:.35em;width:13px;height:7px;border-left:3px solid var(--gold);border-bottom:3px solid var(--gold);transform:rotate(-45deg)}
 .lista-d a{font-weight:700}.lista-d small{display:block;color:var(--paper-muted);font-size:.85rem}.lista-d .breve{color:var(--paper-muted)}
 </style>
 <link rel="alternate" type="application/rss+xml" title="O Paladino" href="https://opaladino.com.br/feed.xml">
@@ -288,7 +319,7 @@ footer .in{display:flex;flex-wrap:wrap;gap:10px 20px;padding-top:18px;padding-bo
 <main id="conteudo" class="in"><div class="nota">
  <nav class="trilha" aria-label="Trilha de navegação"><ol><li><a href="../">Início</a></li><li aria-current="page">Discipulado</li></ol></nav>
  <article class="bloco"><h1>Discipulado</h1><p class="ideia">Lições para quem está começando a seguir Jesus, sobre as perguntas que as pessoas mais fazem sobre a fé. Cada uma tem o texto para o aluno, em linguagem simples, e um guia para quem conduz o encontro.</p></article>
- <section class="bloco"><h2>As lições</h2><ul class="lista-d"><li><span><a href="quem-e-jesus/">Quem é Jesus Cristo?</a><small>Jesus não foi só um grande mestre: é Deus que entrou na história humana para mostrar quem Deus é e para salvar.</small></span></li></ul></section>
+ <section class="bloco"><h2>As lições</h2><ul class="lista-d"><li><span><a href="nascer-de-novo/">O que significa nascer de novo?</a><small>Nascer de novo é receber de Deus uma vida nova, que vem do alto pela ação do Espírito Santo, e não um esforço para melhorar a vida antiga.</small></span></li><li><span><a href="quem-e-jesus/">Quem é Jesus Cristo?</a><small>Jesus não foi só um grande mestre: é Deus que entrou na história humana para mostrar quem Deus é e para salvar.</small></span></li></ul></section>
  <section class="bloco como"><h2>Como as lições são feitas</h2><p class="como">Cada lição responde a uma pergunta que as pessoas estão fazendo de verdade, nas buscas e nas redes, e parte de uma passagem bíblica, com pesquisa em comentários e obras de referência, texto bíblico na Nova Tradução na Linguagem de Hoje e medição de legibilidade. As citações bíblicas e das fontes são conferidas na página onde foram lidas. A orientação é evangélica pentecostal, e o guia do discipulador registra onde outras tradições pensam diferente.</p></section>
 </div></main>
 <footer><div class="in">
