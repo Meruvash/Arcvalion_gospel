@@ -70,6 +70,7 @@ def notas():
         if not n.get("publicado_em"):
             n["publicado_em"] = publicado_em(p)
             p.write_text(json.dumps(n, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        n["categoria"] = seo.editoria_nome(n["categoria"])  # só na página: o JSON continua como está
         if n.get("status") == "revisao":  # ainda não aprovada (tools/publicar.py, automática desde 29/10/2026): vai só para a prévia
             PREVIA.append(n)
             continue
@@ -390,6 +391,7 @@ def pagina(titulo, descricao, url, imagem, pre, corpo, tipo="website", head_extr
 <meta property="og:url" content="{url or SITE + '/'}">
 <meta property="og:image" content="{imagem}">{og_dim(imagem)}
 <meta name="twitter:card" content="summary_large_image">{head_extra}
+{seo.cabeca()}
 <meta name="theme-color" content="#0a1a33">
 <link rel="icon" href="{pre}favicon.svg" type="image/svg+xml">
 <link rel="preload" href="{pre}fontes/public-sans.woff2" as="font" type="font/woff2" crossorigin>
@@ -611,7 +613,7 @@ def build_home():
         trilha_ld = [("Início", f"{SITE}/"), ("Notícias", f"{SITE}/noticias/")] + ([] if num == 1 else [(f"Página {num}", url)])
         destino = ROOT / "noticias" / ("index.html" if num == 1 else f"pagina/{num}/index.html")
         destino.parent.mkdir(parents=True, exist_ok=True)
-        destino.write_text(pagina(f"Notícias{sufixo} | O Paladino", f"Notícias de O Paladino, com fonte, data e opinião{sufixo}.", url,
+        destino.write_text(pagina(f"Notícias{sufixo} | O Paladino", f"Últimas notícias gospel, de política, família e fé no Brasil e no mundo, com fonte, data e a opinião de O Paladino{sufixo}.", url,
                                   capa_secao("noticias"), p_pre, corpo_arq, jsonld=seo.script(seo.trilha(*trilha_ld))), encoding="utf-8")
     # cada item dos Destaques tem de levar a uma nota que trate do jogo já no título
     for j in home["em_alta"]:
@@ -781,14 +783,16 @@ def build_nota(n, previa=False):
                 imagens.insert(0, f"{SITE}/{larga.relative_to(ROOT).as_posix()}")
         except Exception as ex:
             print(f"  aviso: sem versão larga para {n['slug']} ({ex.__class__.__name__}); a nota sai normalmente")
-    ld = seo.script(seo.artigo("NewsArticle", url, n["titulo"], n["lide"], imagens, n["publicado_em"], modificado),
+    ld = seo.script(seo.artigo("NewsArticle", url, n["titulo"], n["lide"], imagens, n["publicado_em"], modificado, secao=n["categoria"]),
                     seo.trilha(("Início", f"{SITE}/"), ("Notícias", f"{SITE}/noticias/"), (n["titulo"], url)))
     # título da busca: titulo_seo (opcional, aprovado pela edição) ou o título; o sufixo da marca só cabe em título curto
     t_busca = n.get("titulo_seo") or n["titulo"]
     t_busca = t_busca if len(t_busca) > 42 else f"{t_busca} | O Paladino"
     # prévia do WhatsApp: o cartão largo de tools/og.py; o JSON-LD continua com a foto da nota
     out.write_text(pagina(t_busca, n["lide"], "" if previa else url, url_cartao(f"noticia-{n['slug']}") or img, pre, corpo, "article",
-                          f'\n<meta property="article:published_time" content="{n["publicado_em"]}">', ld), encoding="utf-8")
+                          f'\n<meta property="article:published_time" content="{n["publicado_em"]}">'
+                          + (f'\n<meta property="article:modified_time" content="{modificado}">' if modificado and modificado > n["publicado_em"] else "")
+                          + f'\n<meta property="article:section" content="{e(n["categoria"])}">', ld), encoding="utf-8")
 
 
 if __name__ == "__main__":

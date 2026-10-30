@@ -418,5 +418,23 @@ class Fotos(unittest.TestCase):
             self.f.aprovar("qualquer", 1, "curto")
 
 
+
+class Feed(unittest.TestCase):
+    """feed.xml (RSS) e a chave do IndexNow saem do build junto com o sitemap."""
+
+    def test_feed_so_tem_paginas_do_sitemap(self):
+        import xml.dom.minidom
+        sitemap = set(re.findall(r"<loc>([^<]+)</loc>", (RAIZ / "sitemap.xml").read_text(encoding="utf-8")))
+        doc = xml.dom.minidom.parse(str(RAIZ / "feed.xml"))
+        links = [i.getElementsByTagName("link")[0].firstChild.data for i in doc.getElementsByTagName("item")]
+        self.assertTrue(links)
+        self.assertLessEqual(set(links), sitemap)
+        cats = {c.firstChild.data for c in doc.getElementsByTagName("category")}
+        self.assertFalse({c for c in cats if "-" in c and " " not in c}, "editoria pelo slug no feed")
+
+    def test_chave_indexnow_no_ar(self):
+        chave = json.loads((RAIZ / "config" / "portal.json").read_text(encoding="utf-8"))["indexnow_chave"]
+        self.assertEqual((RAIZ / f"{chave}.txt").read_text(encoding="utf-8"), chave)
+
 if __name__ == "__main__":
     unittest.main()

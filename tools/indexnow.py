@@ -20,7 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 from endereco import HOST  # noqa: E402  (config/portal.json)
 from endereco import SITE  # noqa: E402  (config/portal.json)
-CHAVE = "e6a19fbeb58d105a3023be74cd36764e"
+CHAVE = json.loads((ROOT / "config" / "portal.json").read_text(encoding="utf-8"))["indexnow_chave"]
 ESTADO = ROOT / "conteudo" / "indexnow_estado.json"
 SITEMAP = ROOT / "sitemap.xml"
 ENDPOINT = "https://api.indexnow.org/indexnow"

@@ -1,4 +1,4 @@
-"""Gera sitemap.xml, sitemap-noticias.xml e robots.txt.
+"""Gera sitemap.xml, sitemap-noticias.xml, feed.xml (RSS), robots.txt e o arquivo da chave do IndexNow.
 
 Uso: python3 tools/build_sitemap.py
 Roda sozinho no fim de build_home.py, build_review.py e publicar.py, então não precisa ser chamado à mão.
@@ -14,12 +14,16 @@ import json
 import re
 import subprocess
 from datetime import datetime, timedelta, timezone
+from email.utils import format_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent.parent
 from endereco import SITE  # noqa: E402  (config/portal.json)
+from seo import editoria_nome  # noqa: E402
 ESTADO = ROOT / "conteudo" / "sitemap_estado.json"
+PORTAL = json.loads((ROOT / "config" / "portal.json").read_text(encoding="utf-8"))
+ITENS_FEED = 50
 CANONICAL = re.compile(r'<link rel="canonical" href="([^"]+)">')
 NOINDEX = re.compile(r'<meta name="robots" content="[^"]*noindex', re.I)
 
@@ -30,6 +34,34 @@ Allow: /
 Sitemap: {SITE}/sitemap.xml
 Sitemap: {SITE}/sitemap-noticias.xml
 """
+
+
+def feed(no_sitemap):
+    """RSS 2.0 com as notícias e os estudos no ar (os mais recentes primeiro). É o que leitores de feed, agregadores
+    e o Google Publisher Center leem; só entra página que também está no sitemap (publicada e indexável)."""
+    itens = []
+    for p in (ROOT / "conteudo" / "noticias").glob("*.json"):
+        n = json.loads(p.read_text(encoding="utf-8"))
+        url = f"{SITE}/noticias/{n['slug']}/"
+        if n.get("publicado_em") and url in no_sitemap:
+            itens.append((n["publicado_em"], url, n["titulo"], n["lide"], editoria_nome(n.get("categoria", "Notícias"))))
+    for p in (ROOT / "conteudo" / "estudos").glob("*.json"):
+        c = json.loads(p.read_text(encoding="utf-8"))
+        url = f"{SITE}/estudos/{c['slug']}/"
+        if c.get("publicado_em") and url in no_sitemap:
+            itens.append((c["publicado_em"], url, c["titulo"], c["descricao"], "Estudos bíblicos"))
+    itens.sort(key=lambda i: datetime.fromisoformat(i[0]), reverse=True)
+    corpo = "".join(
+        f"""  <item><title>{escape(t)}</title><link>{escape(u)}</link><guid isPermaLink="true">{escape(u)}</guid>"""
+        f"""<pubDate>{format_datetime(datetime.fromisoformat(pub))}</pubDate><category>{escape(cat)}</category>"""
+        f"""<description>{escape(d)}</description></item>\n"""
+        for pub, u, t, d, cat in itens[:ITENS_FEED])
+    ultima = format_datetime(datetime.fromisoformat(itens[0][0])) if itens else format_datetime(agora())
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n'
+            f"  <title>O Paladino</title>\n  <link>{SITE}/</link>\n"
+            f"""  <atom:link href="{SITE}/feed.xml" rel="self" type="application/rss+xml"/>\n"""
+            f"  <description>{escape(PORTAL.get('descricao', ''))}</description>\n  <language>pt-BR</language>\n"
+            f"  <lastBuildDate>{ultima}</lastBuildDate>\n" + corpo + "</channel>\n</rss>\n")
 
 
 def agora():
@@ -188,6 +220,10 @@ def build():
     (ROOT / "sitemap-noticias.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
                                                'xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n' + noticias + "</urlset>\n", encoding="utf-8")
     (ROOT / "robots.txt").write_text(ROBOTS, encoding="utf-8")
+    (ROOT / "feed.xml").write_text(feed(novo), encoding="utf-8")
+    # IndexNow: o buscador confere a chave em <SITE>/<chave>.txt antes de aceitar os avisos de tools/indexnow.py
+    if PORTAL.get("indexnow_chave"):
+        (ROOT / f"{PORTAL['indexnow_chave']}.txt").write_text(PORTAL["indexnow_chave"], encoding="utf-8")
     ESTADO.write_text(json.dumps(novo, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     return len(entradas), len(recentes), fora, mudaram
 

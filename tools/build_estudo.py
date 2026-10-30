@@ -113,7 +113,7 @@ def build(c):
         ld = seo.script(trilha_ld)
     else:
         modificado = lastmod_registrado(url, {k: v for k, v in c.items() if k != "publicado_em"})
-        ld = seo.script(seo.artigo("Article", url, c["titulo"], c["descricao"], img, c["publicado_em"], modificado), trilha_ld)
+        ld = seo.script(seo.artigo("Article", url, c["titulo"], c["descricao"], img, c["publicado_em"], modificado, secao="Estudos bíblicos"), trilha_ld)
     html = pagina(f'{c["titulo"]} | O Paladino', c["descricao"], "" if previa else url, img,
                   pre, corpo, "article", CSS_ESTUDO, ld)
     (pasta / "index.html").write_text(html, encoding="utf-8")
