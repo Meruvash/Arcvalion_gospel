@@ -29,6 +29,6 @@ Prosa de boa obra de divulgação cristã, escrita por autor culto, sensível e 
 
 Título em pergunta; Questão central; Introdução; Fundamentação bíblica; Desenvolvimento (subtópicos `###`); Aplicação prática; Perguntas para reflexão; Resumo; Continue aprendendo; Referências.
 
-## Revisão (pelo próprio redator, sem agente separado: decisão do editor)
+## Revisão
 
-Antes de publicar, reler em cinco camadas: teológica, argumentativa, literária, pedagógica e de autenticidade (clichê, redundância, história inventada, afirmação vazia). Reescrever o que falhar.
+Não há etapa de revisão na produção (decisão do editor, 30/10/2026): o estudo é escrito, passa no validador automático e é publicado. A revisão acontece à noite, na verificação diária do portal.
