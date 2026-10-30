@@ -239,6 +239,9 @@ class Discipulado(unittest.TestCase):
         self.assertIn("<i>leve</i>", h)
         self.assertIn("<blockquote><p>Texto bíblico</p></blockquote>", h)
         self.assertIn("<ul><li>a</li><li>b</li></ul>", h)
+        self.assertIn('<aside class="callout chave">', markdown("> [!chave] Uma frase forte."))
+        c = markdown("> [!citacao] Frase do autor.\n> Fonte: Autor, Obra")
+        self.assertIn('<figure class="citacao"><p>Frase do autor.</p><cite>Autor, Obra</cite></figure>', c)
         self.assertEqual([t for t, _ in secoes("# T\n\n## Um\n\nx\n\n## Dois\n\ny <!-- c -->")], ["Um", "Dois"])
 
 

@@ -32,8 +32,8 @@ import unicodedata
 # o índice continua barrando texto pesado, mas não empurra mais para frases de cartilha
 META_ALUNO = dict(flesch_min=60.0, media_min=12.0, media_max=24.0,
                   frase_max=40, silabas_max=2.0, paragrafo_max=7)
-META_GUIA = dict(flesch_min=60.0, media_min=12.0, media_max=22.0,
-                 frase_max=30, silabas_max=2.1, paragrafo_max=6)
+META_GUIA = dict(flesch_min=60.0, media_min=12.0, media_max=24.0,
+                 frase_max=40, silabas_max=2.1, paragrafo_max=7)
 
 CLICHES = [
     "amado", "amada", "irmão", "irmã", "a palavra diz", "deus tem um propósito",

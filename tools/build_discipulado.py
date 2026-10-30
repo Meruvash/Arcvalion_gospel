@@ -18,7 +18,9 @@ import seo  # noqa: E402
 from build_sitemap import lastmod_registrado  # noqa: E402
 from build_home import ROOT, SITE, data_longa, e, pagina  # noqa: E402
 from discipulado.checar_licao import licoes, problemas  # noqa: E402
-from layout import cabecalho, convite_compartilhar, rodape, trilha  # noqa: E402
+from layout import cabecalho, convite_compartilhar, icone, rodape, trilha  # noqa: E402
+
+GRAVIDADE = {"Leve": "info", "Moderada": "ressalvas", "Grave": "fas"}
 
 CAPA = f"{SITE}/estudos/capa.jpg"
 CSS_DISC = """<style>
@@ -35,6 +37,37 @@ CSS_DISC = """<style>
 .nota .como{font-size:.9rem;color:#3a414c}
 .lista-d{display:grid;gap:8px}.lista-d li{display:grid;gap:10px;align-items:baseline;padding:10px 0;border-top:1px solid var(--paper-line,#d5dae1)}
 .lista-d li:first-child{border-top:0}
+/* elementos visuais (30/10/2026): o melhor das notícias e das resenhas aplicado ao estudo */
+.nota .r1{background:var(--panel2);color:var(--ink);border:1px solid #2e4d7a;border-left:4px solid var(--gold);display:grid;gap:12px}
+.nota .r1 .kick{font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+.nota .r1 .resp{font-size:1.12rem;font-weight:600;line-height:1.45;max-width:62ch}
+.nota .r1 ul{display:grid;gap:8px}.nota .r1 li{display:flex;gap:8px;align-items:flex-start;color:#dfe4ea}
+.nota .r1 li .ic{flex:none;width:20px;height:20px;color:#4cc38a;margin-top:2px}
+.nota .r1 .pe{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.88rem;color:var(--muted)}.nota .r1 .pe b{color:var(--ink)}
+.nota .vchave{border-left:4px solid var(--gold)}.nota .vchave blockquote{margin:0;font-size:1.2rem;font-weight:600;line-height:1.45}
+.nota .vchave cite{display:block;margin-top:8px;font-style:normal;font-size:.85rem;color:var(--paper-muted)}
+.nota .importa{border-left:4px solid var(--gold)}.nota .importa .corpo p{font-size:1.08rem;color:var(--paper-ink)}
+.nota .nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.nota .nums li{background:#fff;border:1px solid var(--paper-line);border-radius:8px;padding:12px;display:grid;gap:2px}
+.nota .nums small{font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--paper-muted)}
+.nota .nums b{font-size:1.08rem;line-height:1.25}.nota .nums span{font-size:.86rem;color:#3a414c}
+.nota .callout{border-radius:8px;padding:14px 16px;display:grid;gap:6px;margin:4px 0}
+.nota .callout .rot{font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.nota .callout p{color:var(--paper-ink)}
+.nota .callout.chave{background:#fbf3dc;border:1px solid #e6cf8a}.nota .callout.chave .rot{color:#8a5a00}.nota .callout.chave p{font-size:1.05rem;font-weight:600}
+.nota .callout.termo{background:#eef3fb;border:1px solid #c9d7ee}.nota .callout.termo .rot{color:#1f5fae}
+.nota .callout.atencao{background:#fbeeee;border:1px solid #efc6c6}.nota .callout.atencao .rot{color:#a3223a}
+.nota .citacao{margin:6px 0;padding:6px 0 6px 18px;border-left:4px solid var(--gold)}
+.nota .citacao p{font-size:1.2rem;font-weight:700;line-height:1.35;color:var(--paper-ink)}.nota .citacao cite{display:block;margin-top:6px;font-style:normal;font-size:.84rem;color:var(--paper-muted)}
+.nota .equivocos{display:grid;gap:10px}.nota .equivocos li{display:grid;gap:4px;padding:12px 14px;border:1px solid var(--paper-line);border-left:4px solid #b3263e;border-radius:8px;background:#fff}
+.nota .equivocos h3{font-size:1rem;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}.nota .equivocos p{color:#3a414c}
+.nota .licao ul.ok{list-style:none;padding-left:0}.nota .licao ul.ok li{position:relative;padding-left:30px}
+.nota .licao ul.ok li::before{content:"";position:absolute;left:4px;top:.35em;width:14px;height:8px;border-left:3px solid #1b7a45;border-bottom:3px solid #1b7a45;transform:rotate(-45deg)}
+.nota .licao ol.passos{list-style:none;padding-left:0;counter-reset:p;gap:12px}.nota .licao ol.passos li{counter-increment:p;position:relative;padding-left:44px;min-height:32px}
+.nota .licao ol.passos li::before{content:counter(p);position:absolute;left:0;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--gold);color:#0a1a33;font-weight:800;display:grid;place-items:center}
+.nota .guardar{background:var(--panel2);color:var(--ink);border:1px solid var(--gold)}.nota .guardar h2{color:var(--gold)}
+.nota .guardar ul{list-style:none;padding-left:0}.nota .guardar li{color:#eceff3;font-weight:600;padding-left:26px;position:relative}
+.nota .guardar li::before{content:"";position:absolute;left:2px;top:.35em;width:13px;height:7px;border-left:3px solid var(--gold);border-bottom:3px solid var(--gold);transform:rotate(-45deg)}
 .lista-d a{font-weight:700}.lista-d small{display:block;color:var(--paper-muted);font-size:.85rem}.lista-d .breve{color:var(--paper-muted)}
 </style>"""
 
@@ -43,8 +76,22 @@ def inline(t):
     """Ênfase e links do Markdown dentro de uma linha, depois de escapar o HTML."""
     t = e(t)
     t = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r'<a href="\2" target="_blank" rel="noopener">\1</a>', t)
+    t = re.sub(r"\[([^\]]+)\]\((\.\./[^)\s]*)\)", r'<a href="\2">\1</a>', t)  # link interno, ex.: ../quem-e-jesus/
     t = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t)
     return re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<i>\1</i>", t)
+
+
+ROTULOS = {"chave": "Ideia-chave", "termo": "Palavra-chave", "atencao": "Cuidado com esta leitura"}
+
+
+def callout(tipo, texto):
+    """Destaques no meio do texto (> [!chave], [!termo], [!atencao], [!citacao] com a última linha "Fonte: ...")."""
+    if tipo == "citacao":
+        corpo, _, fonte = texto.rpartition("\nFonte:")
+        corpo = corpo if fonte else texto
+        return (f'<figure class="citacao"><p>{inline(" ".join(corpo.split()))}</p>'
+                f'{f"<cite>{inline(fonte.strip())}</cite>" if fonte else ""}</figure>')
+    return f'<aside class="callout {tipo}"><span class="rot">{ROTULOS.get(tipo, tipo)}</span>{markdown(texto)}</aside>'
 
 
 def markdown(texto, nivel=0):
@@ -61,7 +108,11 @@ def markdown(texto, nivel=0):
             out.append(f"<h{n}>{inline(m.group(2))}</h{n}>")
         elif all(x.startswith(">") for x in linhas):
             dentro = "\n".join(re.sub(r"^>\s?", "", x) for x in linhas)
-            out.append(f"<blockquote>{markdown(dentro, nivel)}</blockquote>")
+            m2 = re.match(r"^\[!(\w+)\]\s*(.*)$", dentro, re.S)
+            if m2:
+                out.append(callout(m2.group(1), m2.group(2).strip()))
+            else:
+                out.append(f"<blockquote>{markdown(dentro, nivel)}</blockquote>")
         elif all(re.match(r"^[-*]\s+", x) for x in linhas):
             out.append("<ul>" + "".join("<li>" + inline(re.sub(r"^[-*]\s+", "", x)) + "</li>" for x in linhas) + "</ul>")
         elif all(re.match(r"^\d+\.\s+", x) for x in linhas):
@@ -109,27 +160,55 @@ def build(c, pasta_src):
     aluno = (pasta_src / "aluno.md").read_text(encoding="utf-8")
     guia = (pasta_src / "discipulador.md").read_text(encoding="utf-8")
     guia = re.sub(r"^# .+$", "", guia, count=1, flags=re.M)
-    blocos = "".join(f'<section class="bloco licao"><h2>{inline(t)}</h2><div class="corpo">{markdown(x, 1)}</div></section>'
-                     for t, x in secoes(aluno))
+    def secao(t, x):
+        html = markdown(x, 1)
+        cls = "licao"
+        if t == "Questão central":
+            cls = "licao importa"
+        elif t == "Aplicação prática":
+            html = html.replace("<ul>", '<ul class="ok">')
+        elif t == "Perguntas para reflexão":
+            html = html.replace("<ol>", '<ol class="passos">')
+        elif t == "Resumo":
+            t, cls = "Para guardar", "licao guardar"
+        sec = f'<section class="bloco {cls}"><h2>{inline(t)}</h2><div class="corpo">{html}</div></section>'
+        # contexto rápido antes da fundamentação; leituras equivocadas depois do desenvolvimento
+        if t == "Fundamentação bíblica" and c.get("contexto"):
+            tiles = "".join(f"<li><small>{e(r)}</small><b>{e(v)}</b><span>{e(d)}</span></li>" for r, v, d in c["contexto"])
+            sec = f'<section class="bloco"><h2>Em poucas linhas</h2><ul class="nums">{tiles}</ul></section>' + sec
+        if t == "Desenvolvimento" and c.get("equivocos"):
+            cards = "".join(f'<li><h3>{e(ti)} <span class="selo {GRAVIDADE.get(g, "info")}">{e(g)}</span></h3><p>{e(x)}</p></li>'
+                            for g, ti, x in c["equivocos"])
+            sec += f'<section class="bloco"><h2>Leituras equivocadas</h2><ul class="equivocos">{cards}</ul></section>'
+        return sec
+    blocos = "".join(secao(t, x) for t, x in secoes(aluno))
+    rr = c.get("resumo_rapido") or {}
+    resumo = (f'<section class="bloco r1" id="resumo"><span class="kick">Resumo em 1 minuto</span><p class="resp">{e(rr["resposta"])}</p>'
+              f'<ul>{"".join(f"<li>{icone("ok")}<span>{e(i)}</span></li>" for i in rr.get("ideias", []))}</ul>'
+              f'<p class="pe"><span><b>Texto central:</b> {e(rr.get("texto_central", ""))}</span><span><b>Leitura:</b> cerca de {c["tempo_min"]} min</span></p></section>') if rr else ""
+    vk = c.get("versiculo_chave")
+    vchave = (f'<section class="bloco vchave"><h2>Versículo-chave</h2><blockquote>{e(vk["texto"])}</blockquote>'
+              f'<cite>{e(vk["referencia"])} · NTLH</cite></section>') if vk else ""
     rel = c.get("relevancia") or {}
     porque = "".join(f'<li><a href="{e(x["url"])}" target="_blank" rel="noopener">{e(x["fonte"])}</a>: {e(x["dado"])}{" (" + e(x["data"]) + ")" if x.get("data") else ""}</li>'
                      for x in rel.get("evidencias", []))
     aud = c.get("auditoria") or {}
     aviso = ('<div style="background:#ffe3e3;color:#7a1f1f;padding:8px 16px;text-align:center;font-size:.9rem"><b>Prévia em revisão.</b> '
              'Esta lição ainda não foi publicada. Não compartilhe.</div>') if previa else ""
-    fig = (f'<div class="bloco abre"><figure><img src="foto.jpg" alt="{e(im["alt"])}"><figcaption class="credito">{e(im["credito"])}</figcaption></figure>'
-           f'<p class="lide">{e(c["descricao"])}</p></div>') if im else ""
+    fig = (f'<div class="bloco abre"><figure><img src="foto.jpg" alt="{e(im["alt"])}"><figcaption class="credito">{e(im["credito"])}</figcaption></figure></div>') if im else ""
     corpo = f"""{aviso}{cabecalho(pre, "Discipulado", sub=True)}
 <main id="conteudo" class="in"><div class="nota">
  {trilha(("Início", pre), ("Discipulado", f"{pre}discipulado/"), (e(c["titulo"]), ""))}
  <article class="bloco">
   <span class="num-l">Discipulado</span>
   <h1>{e(c["titulo"])}</h1>
-  <p class="meta-e"><span>Para quem está começando</span><span>Encontro de {c["tempo_min"]} min</span><span>Texto bíblico: NTLH</span></p>
-  <p class="ideia">{e(c["ideia_central"])}</p>
+  <p class="meta-e"><span>Para quem está começando</span><span>Leitura de {c["tempo_min"]} min</span><span>Texto bíblico: NTLH</span></p>
+  {"" if c.get("resumo_rapido") else f'<p class="ideia">{e(c["ideia_central"])}</p>'}
   {f'<p class="meta"><time datetime="{c["publicado_em"]}">{data_longa(c["publicado_em"][:10])}</time> · Redação O Paladino</p>' if not previa else ""}
  </article>
+ {resumo}
  {fig}
+ {vchave}
  {blocos}
  {convite_compartilhar(f'{c["titulo"]} (via O Paladino)', url, "Está discipulando alguém?", "Mande esta lição para quem você acompanha.")}
  {f'<section class="bloco como"><h2>Por que esta lição</h2><p class="como">A pergunta "{e(rel["pergunta"])}" aparece com frequência nas buscas e nas redes:</p><ul class="como">{porque}</ul></section>' if rel.get("pergunta") else ""}

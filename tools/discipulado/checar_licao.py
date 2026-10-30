@@ -52,9 +52,20 @@ def problemas(c, publicar=None, pasta=None):
         if not rel.get("pergunta") or not ev or any(not str(x.get("url", "")).startswith("http") or not x.get("dado") for x in ev):
             erros.append("relevancia: {pergunta, evidencias: [{fonte, url, dado, data}]} com o que mostra que as pessoas perguntam isso")
     if not isinstance(c.get("tempo_min"), int):
-        erros.append("tempo_min: duração do encontro em minutos (número)")
+        erros.append("tempo_min: minutos de leitura (número)")
     if c.get("titulo") and not c["titulo"].endswith("?"):
         erros.append("titulo: pergunta simples, terminada em '?'")
+    # elementos visuais (pedido do editor, 30/10/2026), no padrão das notícias e das resenhas
+    rr = c.get("resumo_rapido") or {}
+    if not rr.get("resposta") or len(rr.get("ideias") or []) != 3 or not rr.get("texto_central"):
+        erros.append("resumo_rapido: {resposta (1 ou 2 frases), ideias (3), texto_central} para o Resumo em 1 minuto")
+    vk = c.get("versiculo_chave") or {}
+    if not vk.get("texto") or not vk.get("referencia"):
+        erros.append("versiculo_chave: {texto (NTLH, lido na fonte), referencia}")
+    if not 3 <= len(c.get("contexto") or []) <= 4 or any(len(x) != 3 for x in c.get("contexto") or []):
+        erros.append("contexto: 3 a 4 blocos [rótulo, valor, detalhe] para Em poucas linhas")
+    if not 2 <= len(c.get("equivocos") or []) <= 4 or any(len(x) != 3 or x[0] not in ("Leve", "Moderada", "Grave") for x in c.get("equivocos") or []):
+        erros.append("equivocos: 2 a 4 [gravidade (Leve, Moderada, Grave), título, explicação] para Leituras equivocadas")
     textos = {}
     for nome in ("aluno.md", "discipulador.md", "dossie.md", "auditoria.md"):
         arq = pasta / nome
@@ -76,6 +87,8 @@ def problemas(c, publicar=None, pasta=None):
         achadas = [m.strip() for m in re.findall(r"^## (.+)$", limpo, re.M)]
         if achadas != SECOES_ALUNO:
             erros.append("aluno.md: seções '## ' na ordem do padrão: " + " | ".join(SECOES_ALUNO))
+        if len(re.findall(r"^> \[!(chave|termo|atencao|citacao)\]", limpo, re.M)) < 3:
+            erros.append("aluno.md: pelo menos 3 destaques no texto (> [!chave], > [!termo], > [!atencao], > [!citacao])")
         if CREDITO_NTLH not in limpo:
             erros.append("aluno.md: texto bíblico na NTLH com a linha de crédito da SBB")
         if re.search(r"(?i)\b(lição|estudo) (anterior|seguinte)\b|na próxima lição|como vimos (na|no) (lição|estudo)", limpo):
