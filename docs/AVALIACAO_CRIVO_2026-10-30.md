@@ -71,6 +71,10 @@ cidade em si. Enquanto essa linha não for decidida, a seca mostra o limite da r
 pertinência temática continua sendo decisão da redação.** Para o motor acompanhar a redação, a régua de afinidade
 precisa dizer isso por escrito (ajuste em `config/relevancia.json`, sem mudar o código).
 
+**Resolvido no mesmo dia:** a redação criou o eliminatório 10 (pertinência temática, `docs/CRIVO_NOTICIAS.md`, seção 3) e
+apertou a afinidade: ato do poder público local só conta quando o próprio ato é de fé, liberdade, vida, família ou
+educação. Pela régua nova, a seca nem chegaria à pontuação.
+
 ## Na pauta de 30/10, o que o motor novo pegou
 
 Da coleta de 30/10 (229 candidatas), o motor escolheu a decisão do STF sobre a lei de Rondônia (77). A melhor pauta
