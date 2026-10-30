@@ -61,6 +61,8 @@
 .nota .guardar{background:var(--panel2);color:var(--ink);border:1px solid var(--gold)}.nota .guardar h2{color:var(--gold)}
 .nota .guardar ul{list-style:none;padding-left:0}.nota .guardar li{color:#eceff3;font-weight:600;padding-left:26px;position:relative}
 .nota .guardar li::before{content:"";position:absolute;left:2px;top:.35em;width:13px;height:7px;border-left:3px solid var(--gold);border-bottom:3px solid var(--gold);transform:rotate(-45deg)}
+/* no celular, o nome longo da categoria na trilha de navegação é encurtado (não empurra a página para o lado) */
+@media (max-width:600px){.trilha li:nth-child(3):not(:last-child) a{display:inline-block;max-width:8.5em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom}}
 /* Biblioteca e Trilhas (30/10/2026) */
 .busca-d{display:grid;gap:6px;margin-top:14px;font-size:.9rem;font-weight:700}
 .busca-d input{font:inherit;font-weight:400;font-size:1rem;min-height:46px;padding:10px 14px;border:1px solid var(--paper-line);border-radius:10px;background:#fff;color:var(--paper-ink)}
