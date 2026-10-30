@@ -2,7 +2,7 @@
  "slug": "presepio-vivente-jerusalem-da-amazonia-porto-velho",
  "data": "2026-10-29",
  "categoria": "Eventos",
- "status": "publicado",
+ "status": "despublicado",
  "selo": "Boa notícia",
  "titulo": "Presépio Vivente será encenado por três noites na Jerusalém da Amazônia, em Porto Velho",
  "lide": "O espetáculo Presépio Vivente, que encena o nascimento de Jesus, será apresentado no parque temático Jerusalém da Amazônia, em Porto Velho, nesta sexta-feira e no sábado (30 e 31 de outubro) e no domingo (1º de novembro), sempre às 19h. O evento é aberto ao público e tem apoio de secretarias da prefeitura.",
@@ -120,5 +120,13 @@
    "texto": "A seção Nossa opinião foi reescrita para trazer o posicionamento do portal sobre o fato; o versículo, que estava no meio do texto, passou para o fim da seção."
   }
  ],
- "atualizado_em": "2026-10-29T23:44:33-03:00"
+ "atualizado_em": "2026-10-29T23:44:33-03:00",
+ "historico": [
+  {
+   "data": "2026-10-29T23:46:51-03:00",
+   "acao": "despublicado",
+   "por": "anderson-pelicioni-de-castro",
+   "motivo": "Sem pertinência temática com o portal (pedido do responsável editorial em 30/10/2026)"
+  }
+ ]
 }

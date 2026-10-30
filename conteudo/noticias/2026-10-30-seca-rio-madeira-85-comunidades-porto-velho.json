@@ -2,7 +2,7 @@
  "slug": "seca-rio-madeira-85-comunidades-porto-velho",
  "data": "2026-10-29",
  "categoria": "Política e Sociedade",
- "status": "publicado",
+ "status": "despublicado",
  "selo": "Motivo de alerta",
  "titulo": "Seca no Rio Madeira atinge 7,4 mil famílias em 85 comunidades de Porto Velho",
  "lide": "A estiagem no Rio Madeira já atinge 7.442 famílias, cerca de 22,9 mil pessoas, em 85 localidades rurais, ribeirinhas e indígenas de Porto Velho, segundo a prefeitura. A capital está em situação de emergência pelo decreto 22.515/2026, e uma força-tarefa leva água potável, alimentos e assistência às famílias.",
@@ -131,5 +131,13 @@
    "texto": "A seção Nossa opinião foi reescrita para trazer o posicionamento do portal sobre o fato; o versículo, que estava no meio do texto, passou para o fim da seção."
   }
  ],
- "atualizado_em": "2026-10-29T23:44:33-03:00"
+ "atualizado_em": "2026-10-29T23:44:33-03:00",
+ "historico": [
+  {
+   "data": "2026-10-29T23:46:51-03:00",
+   "acao": "despublicado",
+   "por": "anderson-pelicioni-de-castro",
+   "motivo": "Sem pertinência temática com o portal (pedido do responsável editorial em 30/10/2026)"
+  }
+ ]
 }
