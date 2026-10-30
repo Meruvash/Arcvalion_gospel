@@ -13,7 +13,7 @@ import sys
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
-HOST = "meruvash.github.io"
+from endereco import HOST  # noqa: E402  (config/portal.json)
 API = "https://api.cloudflare.com/client/v4/graphql"
 BRT = timezone(timedelta(hours=-3))
 CONTA = ""  # ID da conta Cloudflare: use a variável CLOUDFLARE_ACCOUNT_ID

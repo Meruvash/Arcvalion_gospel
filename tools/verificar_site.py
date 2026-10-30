@@ -26,7 +26,7 @@ from checar_roteiro import checar_texto, fotos_liberadas  # noqa: E402
 from noticias.checar_noticia import problemas  # noqa: E402
 import checar_seo  # noqa: E402
 
-SITE = "https://meruvash.github.io/Arcvalion_gospel"
+from endereco import SITE  # noqa: E402  (config/portal.json)
 FORA = {".git", ".cache", "tools", "modelos", "marca", "lotes", "fontes", "triagem", ".claude", ".impeccable"}
 LINK = re.compile(r'(?:href|src)="([^"]+)"')
 

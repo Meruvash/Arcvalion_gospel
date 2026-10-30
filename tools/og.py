@@ -19,7 +19,7 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = "https://meruvash.github.io/Arcvalion_gospel"
+from endereco import SITE  # noqa: E402  (config/portal.json)
 PASTA = ROOT / "img" / "og"
 ESTADO = PASTA / "estado.json"
 e = html.escape
@@ -84,7 +84,7 @@ def pagina(cor, foto, tag, titulo, sub, pe):
 def cartao_noticia(n):
     foto = ROOT / "noticias" / n["imagem"]["arquivo"] if n.get("imagem") else None
     pe = (f'<span class="selo" style="background:{COR_SELO_NOTA.get(n["selo"], "#5a6270")}">{e(n["selo"])}</span>'
-          f'<span class="url">meruvash.github.io/Arcvalion_gospel · notícia</span>')
+          f'<span class="url">{SITE.split("//", 1)[1]} · notícia</span>')
     return f"noticia-{n['slug']}", pagina(COR_CAT.get(n["categoria"], "#e3b23c"), foto, n["categoria"], n["titulo"], trecho(n["por_que_importa"]), pe), foto
 
 

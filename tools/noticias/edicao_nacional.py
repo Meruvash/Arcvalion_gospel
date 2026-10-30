@@ -18,7 +18,9 @@ import requests
 
 BASE = "https://www.comparajogos.com.br"
 MARKETPLACE = re.compile(r"amazon|mercado ?livre|shopee|magalu|americanas", re.I)
-HEADERS = {"User-Agent": "PortalCristao/1.0 (+https://meruvash.github.io/Arcvalion_gospel)"}
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent.parent))
+from endereco import SITE  # noqa: E402  (config/portal.json)
+HEADERS = {"User-Agent": f"PortalCristao/1.0 (+{SITE})"}
 
 
 def slug(nome):

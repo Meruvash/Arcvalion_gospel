@@ -21,7 +21,7 @@ from layout import barra_leitura, convite_compartilhar, interacoes  # noqa: E402
 from layout import CSS_BUSCA, CSS_TRILHA, ICONES, INSTAGRAM, WHATSAPP, cabecalho, icone, rodape, trilha  # noqa: E402,F401
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = "https://meruvash.github.io/Arcvalion_gospel"
+from endereco import SITE  # noqa: E402  (config/portal.json)
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
 e = html.escape
 

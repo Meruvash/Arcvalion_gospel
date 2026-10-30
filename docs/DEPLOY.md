@@ -52,17 +52,39 @@ Escolhido em 29/10/2026: o repositório continua privado no GitHub e o Cloudflar
 Os cartões de prévia (Playwright) não rodam no build da Cloudflare (`--sem-og`): a matéria usa a própria foto
 como imagem de compartilhamento. O arquivo `CNAME` e o workflow Deploy do GitHub não são usados nesse caminho.
 
-## Domínio
+## Domínio: opaladino.com.br (DNS na Cloudflare, site no GitHub Pages)
 
-| Registro | Nome | Valor |
+O domínio foi registrado no Registro.br em 30/10/2026. O site continua hospedado no GitHub Pages (workflow Deploy);
+a Cloudflare cuida só do DNS.
+
+1. **Cloudflare**: Add a domain → `opaladino.com.br` → plano Free. Ela mostra dois nameservers (`<nome>.ns.cloudflare.com`).
+2. **Registro.br**: domínio → DNS → "Alterar servidores DNS" → troque `a.auto.dns.br` e `b.auto.dns.br` pelos dois
+   da Cloudflare. A troca leva de minutos a algumas horas; a Cloudflare avisa por e-mail quando o domínio fica ativo.
+3. **Cloudflare → DNS → Records** (todos com a nuvem **cinza, "DNS only"**, para o GitHub emitir o certificado):
+
+| Tipo | Nome | Valor |
 |---|---|---|
-| A | @ | 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153 (GitHub Pages) |
-| AAAA | @ | 2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153 |
-| CNAME | www | `<usuario>.github.io` |
-| (Worker) | api | criado pela Cloudflare ao ligar `custom_domain` no `wrangler.toml` |
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| AAAA | @ | 2606:50c0:8000::153 (e ::8001, ::8002, ::8003, um registro cada) |
+| CNAME | www | meruvash.github.io |
+| TXT | `_github-pages-challenge-meruvash` | código que o GitHub mostra no passo 4 |
 
-No GitHub: Settings → Pages → Custom domain → marque **Enforce HTTPS**. Confirme o domínio em
-Settings → Pages → Verified domains (evita sequestro de subdomínio).
+4. **GitHub (conta)**: Settings → Pages → Add a domain → `opaladino.com.br` → crie o TXT acima → Verify. Isso impede
+   que outra conta use o domínio.
+5. **GitHub (repositório)**: Settings → Pages → Custom domain → `opaladino.com.br` → Save. Espere o "DNS check
+   successful" e marque **Enforce HTTPS** (o certificado pode levar até 1 hora para sair).
+6. **Repositório**: `config/portal.json` → `"url": "https://opaladino.com.br"` e push. Todas as ferramentas leem o
+   endereço daí (`tools/endereco.py`). Faça isso só depois do passo 5: antes, o site ainda mora em
+   `meruvash.github.io/Arcvalion_gospel/` e os links da raiz quebrariam.
+7. Depois de no ar: Search Console e Bing com a propriedade nova, `python3 tools/indexnow.py`. O endereço antigo
+   do github.io passa a redirecionar para o domínio.
+
+Proxy da Cloudflare (nuvem laranja) é opcional e só depois do HTTPS ativo no GitHub; se ligar, use SSL/TLS no modo
+**Full (strict)**, nunca "Flexible" (dá redirecionamento infinito). O serviço de interações (`api.`) entra quando o
+Worker for criado (seção abaixo).
 
 ## Serviço de interações (comentários, newsletter, formulários, métricas de anúncio)
 

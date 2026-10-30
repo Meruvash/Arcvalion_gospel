@@ -16,6 +16,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from layout import CSS_BUSCA, barra_leitura, cabecalho, rodape  # noqa: E402
+from endereco import SITE  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ARQ = ROOT / "consulta" / "index.html"
@@ -90,6 +91,10 @@ def build():
     # rodapé + barra de compartilhar do pé da tela (entre marcadores, para ser trocada inteira na próxima geração)
     novo = re.sub(r'<footer>.*?</footer>(?:\s*<!--lt-->.*?<!--/lt-->)?', lambda _: rodape("../", "\n<!--lt-->" + barra_leitura(interacao=False) + "<!--/lt-->"),
                   novo, count=1, flags=re.S)
+    # endereço do site nos links absolutos do cabeçalho (canonical, og, JSON-LD): segue config/portal.json
+    antigo = re.search(r'<link rel="canonical" href="(https?://.*?)/consulta/">', novo)
+    if antigo and antigo.group(1) != SITE:
+        novo = novo.replace(antigo.group(1) + "/", SITE + "/")
     t = total(nomes)
     novo = re.sub(r'<span id="count" class="count">[^<]*</span>', f'<span id="count" class="count">{t}</span>', novo, count=1)
     if novo != s:

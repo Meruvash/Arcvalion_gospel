@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from checar_roteiro import SEM_FOTOS, checar_texto, fotos_liberadas  # noqa: E402
-SITE = "https://meruvash.github.io/Arcvalion_gospel"
+from endereco import SITE  # noqa: E402  (config/portal.json)
 
 
 def main():

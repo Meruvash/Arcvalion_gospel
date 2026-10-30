@@ -18,8 +18,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-HOST = "meruvash.github.io"
-SITE = "https://meruvash.github.io/Arcvalion_gospel"
+from endereco import HOST  # noqa: E402  (config/portal.json)
+from endereco import SITE  # noqa: E402  (config/portal.json)
 CHAVE = "e6a19fbeb58d105a3023be74cd36764e"
 ESTADO = ROOT / "conteudo" / "indexnow_estado.json"
 SITEMAP = ROOT / "sitemap.xml"

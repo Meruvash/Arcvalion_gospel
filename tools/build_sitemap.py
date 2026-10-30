@@ -18,7 +18,7 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = "https://meruvash.github.io/Arcvalion_gospel"
+from endereco import SITE  # noqa: E402  (config/portal.json)
 ESTADO = ROOT / "conteudo" / "sitemap_estado.json"
 CANONICAL = re.compile(r'<link rel="canonical" href="([^"]+)">')
 NOINDEX = re.compile(r'<meta name="robots" content="[^"]*noindex', re.I)

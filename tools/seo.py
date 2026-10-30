@@ -5,7 +5,7 @@ o site não dá nota própria (a nota BGG é de terceiros) e não vende jogos.
 """
 import json
 
-SITE = "https://meruvash.github.io/Arcvalion_gospel"
+from endereco import SITE  # noqa: E402  (config/portal.json)
 ORG_ID = f"{SITE}/#organizacao"
 SITE_ID = f"{SITE}/#site"
 # Medidor de visitas sem cookies (Cloudflare Web Analytics); vai no fim do <body> de todas as páginas.

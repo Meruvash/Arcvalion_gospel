@@ -20,7 +20,7 @@ from checar_roteiro import SEM_FOTOS, checar, checar_texto, fotos_liberadas  # n
 from prompt_infografico import TAMANHO, prompt  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = "https://meruvash.github.io/Arcvalion_gospel"
+from endereco import SITE  # noqa: E402  (config/portal.json)
 API = "https://api.openai.com/v1"
 PENDENTE = ROOT / "lotes" / "pendente.json"
 MODELO = os.environ.get("MODELO_IMAGEM", "gpt-image-2.5-flare")

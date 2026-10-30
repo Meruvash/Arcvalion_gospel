@@ -184,7 +184,7 @@ CSS_TRILHA = (".trilha{min-width:0;max-width:100%}.trilha ol{display:flex;align-
               ".trilha li:last-child::before{display:inline}")
 
 
-SITE = "https://meruvash.github.io/Arcvalion_gospel"
+from endereco import SITE  # noqa: E402  (config/portal.json)
 
 # Sem JavaScript, o botão é um link para o WhatsApp; o script troca pelo menu do celular ou pela janelinha.
 JS_COMPARTILHAR = """(()=>{const pega=c=>({u:c.dataset.url||location.href,t:c.dataset.texto||document.title});

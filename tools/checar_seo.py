@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = "https://meruvash.github.io/Arcvalion_gospel"
+from endereco import SITE  # noqa: E402  (config/portal.json)
 PROIBIDOS = {"Review", "AggregateRating", "Product", "Offer", "Rating"}
 FORA = {".git", ".cache", ".claude", ".impeccable", "tools", "conteudo", "modelos", "lotes", "triagem", "exemplos", "node_modules", "docs", "worker", "_site"}
 
