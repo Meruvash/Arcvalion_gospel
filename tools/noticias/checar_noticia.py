@@ -200,6 +200,12 @@ def problemas(n, publicar=None):
         elif not a <= palavras(n[campo]) <= b:
             erros.append(f"{campo} com {palavras(n[campo])} palavras (padrão: {a} a {b})")
     erros += sensacionalismo(n.get("titulo", ""))
+    if n.get("descricao_seo") and not 70 <= len(n["descricao_seo"]) <= 155:
+        erros.append(f"descricao_seo com {len(n['descricao_seo'])} caracteres (padrão: 70 a 155)")
+    for x in n.get("estudos", []):
+        slug = x.get("estudo") if isinstance(x, dict) else x
+        if not (portal.CONTEUDO / "estudos" / f"{slug}.json").exists():
+            erros.append(f"estudos: {slug!r} não é um estudo de conteudo/estudos/ (use o slug do estudo)")
     erros += checar_versiculo(n)
     if n.get("selo") not in SELOS:
         erros.append(f"selo inválido: {n.get('selo')!r} ({', '.join(sorted(SELOS))})")

@@ -436,5 +436,21 @@ class Feed(unittest.TestCase):
         chave = json.loads((RAIZ / "config" / "portal.json").read_text(encoding="utf-8"))["indexnow_chave"]
         self.assertEqual((RAIZ / f"{chave}.txt").read_text(encoding="utf-8"), chave)
 
+
+class ResumoBusca(unittest.TestCase):
+    def test_descricao_cabe_no_google(self):
+        import build_home
+        longo = {"lide": "Primeira frase curta demais. " + "palavra " * 60}
+        self.assertLessEqual(len(build_home.resumo_busca(longo)), 155)
+        self.assertTrue(build_home.resumo_busca(longo).endswith("…"))
+        frase = {"lide": "O Senado aprovou nesta quarta-feira o projeto que muda as regras do feriado nacional de 31 de outubro. " + "palavra " * 40}
+        self.assertEqual(build_home.resumo_busca(frase), frase["lide"].split(". ")[0] + ".")
+        self.assertEqual(build_home.resumo_busca({"lide": "x " * 200, "descricao_seo": "Resumo aprovado"}), "Resumo aprovado")
+
+    def test_estudo_citado_precisa_existir(self):
+        n = ler("noticias/" + sorted(p.name for p in (EX / "noticias").glob("*.json"))[0])
+        n["estudos"] = [{"nome": "Nada", "estudo": "estudo-que-nao-existe"}]
+        self.assertTrue(any("estudos:" in x for x in p_nota(n)))
+
 if __name__ == "__main__":
     unittest.main()

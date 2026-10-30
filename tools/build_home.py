@@ -672,7 +672,7 @@ def build_home():
  </div>
 </main>
 {rodape(pre)}"""
-    titulo = "O Paladino: jornalismo com princípios"
+    titulo = "O Paladino: notícias gospel, política e família com visão cristã"
     descr = f"{m['titulo'] if m else 'O Paladino'}. Notícias com fonte e data, estudos bíblicos e a agenda cristã, com uma perspectiva cristã sobre o Brasil e o mundo."
     # 404: servida pelo GitHub Pages em qualquer profundidade, por isso os caminhos são absolutos ("/")
     RAIZ = urlparse(SITE).path.rstrip("/") + "/"  # o site mora em /Arcvalion_gospel/ no GitHub Pages
@@ -702,6 +702,31 @@ def relacionadas(n, limite=3):
             cands.append((comum, o["data"], o.get("publicado_em", ""), o))
     cands.sort(key=lambda x: x[:3], reverse=True)
     return [o for *_, o in cands[:limite]]
+
+
+def resumo_busca(n, limite=155):
+    """Descrição da notícia para o Google e a prévia de compartilhamento: descricao_seo (opcional, aprovado pela edição)
+    ou o lide, que costuma passar de 155 caracteres e sair cortado no meio no Google. Lide longo vira a primeira frase,
+    se ela couber; senão, corta na última palavra que cabe e termina em reticências."""
+    if n.get("descricao_seo"):
+        return n["descricao_seo"]
+    lide = n["lide"].strip()
+    if len(lide) <= limite:
+        return lide
+    frase = re.match(r"(.+?[.!?])(?:\s|$)", lide)
+    if frase and 70 <= len(frase.group(1)) <= limite:
+        return frase.group(1)
+    return lide[:limite - 1].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+
+
+def estudos_da_nota(n):
+    """Estudos do bloco "Para entender": os citados em n["estudos"] que estão no ar ({nome, estudo: <slug>} ou o slug);
+    sem nenhum, os dois estudos mais recentes, para a notícia sempre levar a um estudo. Devolve (estudos, citados?)."""
+    import build_estudo
+    no_ar = {c["slug"]: c for c in build_estudo.publicados()}
+    slugs = [x.get("estudo") if isinstance(x, dict) else x for x in n.get("estudos", [])]
+    citados = [no_ar[s] for s in dict.fromkeys(slugs) if s in no_ar]
+    return (citados, True) if citados else (list(no_ar.values())[:2], False)
 
 
 def por_que_entrou(n):
@@ -742,6 +767,8 @@ def build_nota(n, previa=False):
     nao = "".join(f"<li>{e(x)}</li>" for x in n.get("nao_e_para", []))
     sc = SELO_CLASSE[n["selo"]]
     leia = "".join(f'<li><a href="{pre}noticias/{o["slug"]}/">{e(o["titulo"])}</a></li>' for o in relacionadas(n))
+    est, citados = estudos_da_nota(n)
+    entender = "".join(f'<li><a href="{pre}estudos/{c["slug"]}/">{e(c["titulo"])}</a></li>' for c in est)
     aviso = ('<div style="background:#ffe3e3;color:#7a1f1f;padding:8px 16px;text-align:center;font-size:.9rem"><b>Prévia em revisão.</b> '
              'Esta notícia ainda não foi publicada: espera a checagem do padrão editorial. Não compartilhe.</div>') if previa else ""
     corpo = f"""{aviso}{cabecalho(pre, "Notícias", sub=True)}
@@ -764,6 +791,7 @@ def build_nota(n, previa=False):
  {interacoes(pre, f"/noticias/{n['slug']}/")}
  {f'<section class="bloco"><h2>Jogos citados</h2><div class="jogos">{jogos}</div></section>' if jogos else ""}
  {f'<section class="bloco leia"><h2>Leia também</h2><ul>{leia}</ul></section>' if leia else ""}
+ {f'<section class="bloco leia"><h2>{"Para entender" if citados else "Estudos bíblicos recentes"}</h2><ul>{entender}</ul></section>' if entender else ""}
  <section class="bloco fontes"><h2>Fontes</h2><ul>{fontes}</ul></section>
  {por_que_entrou(n)}
 </div></main>
@@ -789,7 +817,7 @@ def build_nota(n, previa=False):
     t_busca = n.get("titulo_seo") or n["titulo"]
     t_busca = t_busca if len(t_busca) > 42 else f"{t_busca} | O Paladino"
     # prévia do WhatsApp: o cartão largo de tools/og.py; o JSON-LD continua com a foto da nota
-    out.write_text(pagina(t_busca, n["lide"], "" if previa else url, url_cartao(f"noticia-{n['slug']}") or img, pre, corpo, "article",
+    out.write_text(pagina(t_busca, resumo_busca(n), "" if previa else url, url_cartao(f"noticia-{n['slug']}") or img, pre, corpo, "article",
                           f'\n<meta property="article:published_time" content="{n["publicado_em"]}">'
                           + (f'\n<meta property="article:modified_time" content="{modificado}">' if modificado and modificado > n["publicado_em"] else "")
                           + f'\n<meta property="article:section" content="{e(n["categoria"])}">', ld), encoding="utf-8")

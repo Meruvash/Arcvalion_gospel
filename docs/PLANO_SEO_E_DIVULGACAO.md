@@ -30,9 +30,9 @@ Auditoria de 30/10/2026 feita no repositório e no site no ar (https://opaladino
 | 7 | Organization sem `sameAs` (o portal não tem redes próprias em `config/portal.json`) | Médio: o Google não liga o site aos perfis e demora a montar o painel da marca | Ação sua: criar os perfis do portal |
 | 8 | Faltavam `articleSection`, `article:section`, `article:modified_time`, `isAccessibleForFree` e `publishingPrinciples` | Baixo/médio: sinais de confiança para o Google Notícias | **Corrigido** |
 | 9 | Descrição do arquivo de notícias tinha só 50 caracteres | Baixo | **Corrigido** |
-| 10 | O título da home é "O Paladino: jornalismo com princípios", sem nenhuma palavra que alguém busque | Médio | Decisão sua (sugestão abaixo) |
+| 10 | O título da home é "O Paladino: jornalismo com princípios", sem nenhuma palavra que alguém busque | Médio | **Feito** em 30/10/2026: "O Paladino: notícias gospel, política e família com visão cristã" |
 | 11 | Não há páginas por editoria com endereço fixo | — | **Descartado** pelo editor em 30/10/2026: a separação por editoria dentro de Notícias basta |
-| 12 | Descrição das notícias = lide inteiro (até ~370 caracteres); o Google corta em ~155 | Baixo: o Google corta sozinho, mas a frase fica truncada | Fase 2 (campo opcional `descricao_seo`) |
+| 12 | Descrição das notícias = lide inteiro (até ~370 caracteres); o Google corta em ~155 | Baixo: o Google corta sozinho, mas a frase fica truncada | **Feito**: campo opcional `descricao_seo`; sem ele, primeira frase do lide ou lide cortado em 155 |
 | 13 | Autoria só como "Redação O Paladino" | Baixo/médio para E-E-A-T | Fase 3 (página do editor, sem mencionar advocacia) |
 
 ## 2. O que mudou no código (este branch)
@@ -48,6 +48,12 @@ Auditoria de 30/10/2026 feita no repositório e no site no ar (https://opaladino
 - `tools/build_home.py`: as notas ganham `article:section` e `article:modified_time`, a editoria aparece pelo nome e o arquivo de notícias ganha uma descrição melhor.
 - `tools/indexnow.py` lê a chave do `config/portal.json` (um lugar só).
 - Teste novo (`tests/test_portal.py`, classe `Feed`).
+
+## 2b. Feito em 30/10/2026 (segunda rodada)
+
+- Título da home trocado; descrição curta das notícias (`descricao_seo` ou resumo automático do lide).
+- Ligação notícia ↔ estudo: bloco "Para entender" nas notas (estudos do campo `estudos`; sem nenhum, os dois mais
+  recentes) e "Notícias sobre este tema" nos estudos. O `checar_noticia.py` recusa slug de estudo inexistente.
 
 ## 3. Plano
 
