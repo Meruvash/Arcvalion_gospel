@@ -47,6 +47,8 @@ Antes de escrever, confira cada citação nas páginas salvas (`grep -F "<trecho
 
 **Escatologia:** a posição do portal é a de Mateus 24 (uma só vinda, visível, depois da tribulação), diferente da Declaração de Fé das Assembleias de Deus; ver item 7 da "Linha editorial pentecostal" no padrão editorial. Vale para os temas da pauta sobre o fim (arrebatamento, "esta geração", setenta semanas, Israel e a igreja, Apocalipse).
 
+**Título (30/10/2026):** a passagem e a pergunta que o estudo responde, para gerar curiosidade, **sem entregar a conclusão** (ex.: "1 Tessalonicenses 4: o arrebatamento vem antes da tribulação ou junto com a volta de Cristo"). A nossa posição aparece no corpo, nunca no título; ver "Título do estudo" no padrão editorial.
+
 Tom: o relato dos lados é fiel e no melhor argumento de cada um; a voz do portal ("a gente") fica nas partes de opinião. Varie as aberturas, os vereditos e as legendas entre os estudos do dia (leia os últimos publicados): nada de repetir "A gente fica com..." em todos.
 
 ## Imagem

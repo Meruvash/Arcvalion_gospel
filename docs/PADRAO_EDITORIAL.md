@@ -153,6 +153,12 @@ posição") e **3 são de passagem** (`"tipo": "passagem"`: textos que unem os c
 acolhe o cristão de qualquer igreja. A página "Quem somos" (`conteudo/paginas/sobre.json`, publicada em /sobre/) explica
 isso ao leitor.
 
+**Título do estudo (30/10/2026): curiosidade, não conclusão.** O título apresenta a passagem e a pergunta ou a tensão
+que o estudo resolve, do jeito de uma manchete que dá vontade de clicar, sem entregar a resposta. Bom: "1 Tessalonicenses
+4: o arrebatamento vem antes da tribulação ou junto com a volta de Cristo". Ruim: "...: o arrebatamento acontece na
+volta visível de Cristo, depois da tribulação". A posição do portal fica no corpo (`nossa_posicao`, `veredito`) e pode
+aparecer na `tagline` e na `legenda`; o título não a antecipa. Vale também para os títulos ao ajustar estudos já publicados.
+
 Fotos: fontes, licenças e o robô `tools/fotos.py` em `docs/FOTOS.md`.
 
 Interpretação sempre com o nome de quem a defende; divergência entre tradições cristãs aparece como divergência;
