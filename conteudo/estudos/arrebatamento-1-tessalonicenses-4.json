@@ -1,6 +1,6 @@
 {
  "slug": "arrebatamento-1-tessalonicenses-4",
- "status": "revisao",
+ "status": "publicado",
  "titulo": "1 Tessalonicenses 4: o arrebatamento vem antes da tribulação ou junto com a volta de Cristo",
  "passagem": "1 Tessalonicenses 4:13-18",
  "sigla": "1Ts",
@@ -332,5 +332,10 @@
  "ia": {
   "usada": true,
   "uso": "Pesquisa nas fontes listadas e redação feitas com apoio de inteligência artificial. Citações literais conferidas nas páginas citadas; as das Lições Bíblicas da CPAD, em duas reproduções independentes. Aguardando revisão humana do conteúdo teológico."
- }
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-29T22:07:05-03:00"
+ },
+ "publicado_em": "2026-10-29T22:07:05-03:00"
 }

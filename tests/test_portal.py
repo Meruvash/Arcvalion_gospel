@@ -119,7 +119,7 @@ class Estudos(unittest.TestCase):
 def copia_do_site(exemplos=False):
     """Cópia temporária do repositório para rodar o build do Elite (tools/build_home.py) sem mexer na raiz.
 
-    Com exemplos=True, troca as notícias pelas FICTÍCIAS de exemplos/ (uma publicada por revisor-exemplo e uma em
+    Com exemplos=True, troca as notícias e os estudos pelos FICTÍCIOS de exemplos/ (uma publicada por revisor-exemplo e uma em
     revisão) e a equipe pela de exemplos/config: serve só para testar a página de nota publicada."""
     tmp = Path(tempfile.mkdtemp()) / "site"
     lixo = shutil.ignore_patterns(".git", "node_modules", ".cache", "__pycache__", "_site", "publico*")
@@ -131,6 +131,11 @@ def copia_do_site(exemplos=False):
             shutil.copy(p, tmp / "conteudo" / "noticias" / p.name)
         for p in (EX / "imagens").glob("*.jpg"):
             shutil.copy(p, tmp / "noticias" / p.name)
+        for p in (tmp / "conteudo" / "estudos").glob("*.json"):
+            p.unlink()
+        for p in (EX / "estudos").glob("*.json"):
+            shutil.copy(p, tmp / "conteudo" / "estudos" / p.name)
+        shutil.copy(EX / "imagens" / "exemplo-estudo.jpg", tmp / "conteudo" / "imagens" / "exemplo-estudo.jpg")
         shutil.copy(RAIZ / "exemplos" / "config" / "equipe.json", tmp / "config" / "equipe.json")
     r = subprocess.run([sys.executable, "tools/build_home.py"], cwd=tmp, capture_output=True, text=True)
     if r.returncode:

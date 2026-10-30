@@ -98,6 +98,12 @@ def fontes():
         c = json.loads(arq.read_text(encoding="utf-8"))
         inicial = max(filter(None, [pub.get("data"), data_git(arq)]))
         paginas.append(("resenha", f"{SITE}/{slug}/", ROOT / slug / "index.html", assinatura(c), inicial))
+    for p in sorted((ROOT / "conteudo" / "estudos").glob("*.json")):
+        c = json.loads(p.read_text(encoding="utf-8"))
+        if c.get("status") != "publicado":  # estudo em revisão fica só na prévia (noindex)
+            continue
+        pub = c.pop("publicado_em", None)
+        paginas.append(("resenha", f"{SITE}/estudos/{c['slug']}/", ROOT / "estudos" / c["slug"] / "index.html", assinatura(c), pub))
     for pag in sorted((ROOT / "noticias" / "pagina").glob("*/index.html"), key=lambda x: int(x.parent.name)):
         # página do arquivo de notícias: muda quando entra nota nova; data = a da nota mais recente nela
         datas = re.findall(r'href="\.\./\.\./\.\./noticias/([^/"]+)/"', pag.read_text(encoding="utf-8"))

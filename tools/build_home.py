@@ -645,7 +645,10 @@ def build_home():
     pauta = json.loads((ROOT / "pauta.json").read_text(encoding="utf-8"))
     slugs = [p["url"].rstrip("/").split("/")[-1] for p in reversed(pauta["publicadas"])][:4]
     res = ""
-    for s in slugs:
+    import build_estudo
+    for c in build_estudo.publicados()[:4]:
+        res += f'<li><a href="estudos/{c["slug"]}/"><img src="estudos/{c["slug"]}/foto.jpg" width="800" height="800" alt="" loading="lazy"><b>{e(c["titulo"])}</b></a></li>'
+    for s in slugs[:4 - res.count("<li>")]:
         c = json.loads((ROOT / "conteudo" / f"{s}.json").read_text(encoding="utf-8"))
         res += f'<li><a href="{s}/"><img src="{s}/capa.jpg{versao(ROOT / s / "capa.jpg")}" srcset="{srcset(ROOT / s / "capa.jpg", pre, (400,))}" sizes="(min-width: 640px) 160px, 45vw" width="800" height="800" alt="" loading="lazy"><b>{e(c["jogo"])}</b></a></li>'
     corpo = f"""{cabecalho(pre, "Início")}
@@ -791,6 +794,9 @@ if __name__ == "__main__":
     print("ok estudos/index.html")
     import build_estudo
     print("ok páginas de estudo:", len(build_estudo.todos()))
+    if build_estudo.publicados() or not json.loads((ROOT / "pauta.json").read_text(encoding="utf-8"))["publicadas"]:
+        (ROOT / "estudos" / "index.html").write_text(build_estudo.pagina_lista(), encoding="utf-8")
+        print("ok estudos/index.html com", len(build_estudo.publicados()), "estudos")
     if (ROOT / "consulta" / "index.html").exists():
         import build_consulta
         print("ok consulta/index.html:", build_consulta.build())

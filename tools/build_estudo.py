@@ -11,7 +11,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import portal  # noqa: E402
-from build_home import ROOT, SITE, e, pagina  # noqa: E402
+import seo  # noqa: E402
+from build_sitemap import lastmod_registrado  # noqa: E402
+from build_home import ROOT, SITE, data_longa, e, pagina  # noqa: E402
 from estudos.checar_estudo import NIVEIS, problemas  # noqa: E402
 from layout import cabecalho, convite_compartilhar, rodape, trilha  # noqa: E402
 
@@ -79,6 +81,7 @@ def build(c):
   <h1>{e(c["titulo"])}</h1>
   <p class="meta-e"><span>{e(c["passagem"])}</span><span>{e(c["genero"])} · {e(c["testamento"])}</span><span>Nível {NIVEIS[c["nivel"]].lower()}</span><span>{c["tempo_min"]} min de estudo</span></p>
   <p class="tagline">{e(c["tagline"])}</p>
+  {f'<p class="meta"><time datetime="{c["publicado_em"]}">{data_longa(c["publicado_em"][:10])}</time> · Redação O Paladino</p>' if not previa else ""}
  </article>
  <div class="bloco abre"><figure><img src="foto.jpg" alt="{e(im["alt"])}"><figcaption class="credito">{e(im["credito"])}</figcaption></figure><p class="lide">{e(c["lede"])}</p></div>
  <section class="bloco chave"><h2>Versículo-chave</h2><blockquote>{e(v["texto"])}</blockquote><cite>{e(v["referencia"])} · {e(v["traducao"])}</cite></section>
@@ -100,10 +103,49 @@ def build(c):
  <section class="bloco como"><h2>Como foi feito</h2><p>{e((c.get("ia") or {}).get("uso", ""))}</p></section>
 </div></main>
 {rodape(pre)}"""
-    html = pagina(f'{c["titulo"]} | O Paladino', c["descricao"], "" if previa else url, f"{SITE}/estudos/{c['slug']}/foto.jpg",
-                  pre, corpo, "article", CSS_ESTUDO)
+    img = f"{SITE}/estudos/{c['slug']}/foto.jpg"
+    trilha_ld = seo.trilha(("Início", f"{SITE}/"), ("Estudos bíblicos", f"{SITE}/estudos/"), (c["titulo"], url))
+    if previa:
+        ld = seo.script(trilha_ld)
+    else:
+        modificado = lastmod_registrado(url, {k: v for k, v in c.items() if k != "publicado_em"})
+        ld = seo.script(seo.artigo("Article", url, c["titulo"], c["descricao"], img, c["publicado_em"], modificado), trilha_ld)
+    html = pagina(f'{c["titulo"]} | O Paladino', c["descricao"], "" if previa else url, img,
+                  pre, corpo, "article", CSS_ESTUDO, ld)
     (pasta / "index.html").write_text(html, encoding="utf-8")
     return pasta / "index.html"
+
+
+def publicados():
+    """Estudos no ar, do mais recente para o mais antigo (home, lista de estudos e sitemap)."""
+    cs = [json.loads(a.read_text(encoding="utf-8")) for a in sorted((ROOT / "conteudo" / "estudos").glob("*.json"))]
+    return sorted((c for c in cs if c.get("status") == "publicado"), key=lambda c: c["publicado_em"], reverse=True)
+
+
+def pagina_lista():
+    """estudos/index.html: os estudos publicados em cartões, com a obra de arte de cada um."""
+    pre = "../"
+    cards = "".join(
+        f'<li><a href="{c["slug"]}/"><img src="{c["slug"]}/foto.jpg" alt="" loading="lazy">'
+        f'<span class="selo {SELO.get(c["selo"], "info")}">{e(c["selo"])}</span><b>{e(c["titulo"])}</b>'
+        f'<small>{e(c["passagem"])} · {c["tempo_min"]} min</small><span>{e(c["tagline"])}</span></a></li>' for c in publicados())
+    css = CSS_ESTUDO + """<style>
+.lista-e{display:grid;gap:14px}@media (min-width:700px){.lista-e{grid-template-columns:1fr 1fr}}
+.lista-e a{display:grid;gap:6px;text-decoration:none;color:inherit}.lista-e img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:top;border-radius:8px}
+.lista-e .selo{justify-self:start}.lista-e b{font-size:1.05rem;line-height:1.25}.lista-e a:hover b{text-decoration:underline}
+.lista-e small{color:var(--paper-muted)}.lista-e span:last-child{color:#3a414c;font-size:.93rem}
+</style>"""
+    corpo = f"""{cabecalho(pre, "Estudos")}
+<main id="conteudo" class="in"><div class="nota">
+ {trilha(("Início", pre), ("Estudos bíblicos", ""))}
+ <article class="bloco"><h1>Estudos bíblicos</h1><p class="tagline">Cada estudo parte de uma passagem e mostra o que teólogos brasileiros de referência dizem sobre ela, lado a lado, com as fontes.</p></article>
+ <section class="bloco"><h2>Todos os estudos</h2>{f'<ul class="lista-e">{cards}</ul>' if cards else '<p>Os primeiros estudos estão em preparação.</p>'}</section>
+</div></main>
+{rodape(pre)}"""
+    url = f"{SITE}/estudos/"
+    return pagina("Estudos bíblicos | O Paladino", "Estudos bíblicos com fontes: a passagem, o contexto e o que dizem os teólogos brasileiros de cada lado.",
+                  url, f"{SITE}/estudos/capa.jpg", pre, corpo, "website", css,
+                  seo.script(seo.trilha(("Início", f"{SITE}/"), ("Estudos bíblicos", url))))
 
 
 def todos(arqs=None):
