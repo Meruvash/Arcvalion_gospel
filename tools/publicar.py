@@ -79,7 +79,7 @@ def main(argv=None):
                 sys.exit("Diga o que mudou: --texto \"...\"")
             a.setdefault("correcoes", []).append({"data": hora[:10], "texto": ar.texto})
         a["atualizado_em"] = hora
-        a["revisao"] = {"revisor": ar.revisor, "data": hora}
+        a["revisao"] = {"revisor": ar.revisor, "data": hora, **({"modo": "automatica"} if ar.automatica else {})}
     else:
         if not ar.motivo:
             sys.exit("Diga o motivo: --motivo \"...\"")

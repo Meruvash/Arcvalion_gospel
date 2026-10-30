@@ -42,15 +42,15 @@ A NTLH diz "a Palavra"; a Almeida diz "o Verbo". Em João 1:14 e 17, a NTLH diz 
 
 ## Cuidados pastorais
 
-Não pressione ninguém a contar o que pensava antes ou a "decidir" na hora; a pergunta 2 é convite. Se a pessoa vem de outra religião ou igreja, não fale mal de ninguém. Evite promessas: conhecer Jesus não garante vida sem problemas.
+Não pressione ninguém a contar o que pensava antes ou a "decidir" na hora; as perguntas 3 e 4 são convite. Se a pessoa vem de outra religião ou igreja, não fale mal de ninguém. Evite promessas: conhecer Jesus não garante vida sem problemas.
 
 ## Roteiro do encontro (40 minutos)
 
-1. Conversa de chegada e leitura da cena de Cida (5 min).
+1. Conversa de chegada e leitura da Questão central e da Introdução (5 min).
 2. Leitura em voz alta de João 1:1-18 na Bíblia, devagar (5 min).
-3. "Entendendo a Palavra", um subtópico por vez, com pausa para dúvidas (15 min).
-4. "Vamos conversar?" (10 min).
-5. Desafio da semana e oração curta, feita por quem quiser (5 min).
+3. "Desenvolvimento", um subtópico por vez, com pausa para dúvidas (15 min).
+4. "Perguntas para reflexão" (10 min).
+5. "Aplicação prática" e oração curta, feita por quem quiser (5 min).
 
 ## Alertas de interpretação
 

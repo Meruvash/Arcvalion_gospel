@@ -1,31 +1,25 @@
 # Quem é Jesus Cristo?
 
-## O que vamos aprender?
+## Questão central
 
-Nesta lição, vamos ver o que a Bíblia diz sobre quem é Jesus. Vamos ver também por que ele veio e o que quer dizer seguir Jesus hoje.
+Jesus foi um grande homem, um profeta admirável, um mestre de ética como poucos? Ou ele é alguém que não cabe em nenhuma dessas definições? E, se for, que diferença isso faz para quem está começando a levar Deus a sério?
 
-## Para começar
+## Introdução
 
-Pense numa mulher que se chama Cida. Na hora do almoço, no trabalho, ela abre a Bíblia que ganhou da vizinha. Um colega olha e comenta que Jesus foi "um homem muito bom, um grande mestre". Outra colega diz que ele foi um profeta, e um terceiro diz que Jesus é Deus.
+Pouca gente fala mal de Jesus. Pessoas de religiões diferentes, e muitas sem religião nenhuma, costumam se referir a ele com respeito: um mestre de ética, um profeta, um espírito iluminado, um defensor dos pobres. É um consenso curioso. Quase todo mundo concorda que Jesus foi bom; quase ninguém concorda sobre quem ele foi.
 
-Cida fecha a Bíblia sem saber o que responder. A pergunta fica na cabeça dela o resto do dia. Afinal, quem é Jesus?
+O próprio Jesus conhecia essa variedade de opiniões. O Evangelho de Marcos conta que, certa vez, ele levou os discípulos para o norte, até os povoados perto de Cesareia de Filipe. Não era um lugar qualquer. Ali havia um santuário dedicado a Pã, um dos deuses gregos, e Herodes, o Grande, tinha mandado erguer na região um templo em honra do imperador Augusto. Era terra de deuses e de césares. Foi nesse cenário que Jesus perguntou: "Quem o povo diz que eu sou?" (Marcos, capítulo 8, versículo 27).
 
-Jesus também ouviu conversas assim. Um dia, ele perguntou aos seus amigos mais próximos o que o povo dizia dele. Eles contaram que uns achavam que ele era João Batista, e outros, que era Elias ou um dos profetas. Profetas eram pessoas que Deus escolhia para levar a sua mensagem ao povo.
+As respostas eram todas elogiosas. Uns diziam que ele era João Batista; outros, que era Elias; outros, um dos profetas. Jesus não discutiu nenhuma delas. Fez outra pergunta, e essa já não era sobre o povo: "E vocês? Quem vocês dizem que eu sou?" Pedro respondeu: "O senhor é o Messias!" (Marcos 8:29).
 
-Então Jesus fez a pergunta que importa: "E vocês? Quem vocês dizem que eu sou?" Pedro respondeu: "O senhor é o Messias!" Vamos ver adiante o que essa palavra quer dizer. A conversa está no Evangelho de Marcos, capítulo 8, versículo 29.
+A pergunta não aceita resposta por procuração. A opinião dos seus pais, do seu pastor ou do seu professor pode ajudar, mas em algum momento ela volta para você, do mesmo jeito que voltou para Pedro. Este estudo é um convite para pensar nela com calma, com a Bíblia aberta.
 
-A pergunta de Jesus não ficou no passado. Ela chega até você, e esta lição quer ajudar você a responder.
+## Fundamentação bíblica
 
-## Texto bíblico principal
+O texto central é o começo do Evangelho de João. Evangelho quer dizer "boa notícia", e é o nome dado aos quatro livros do Novo Testamento que narram a vida, a morte e a ressurreição de Jesus. A tradição cristã antiga atribui este quarto Evangelho ao apóstolo João, um dos doze discípulos que andaram com Jesus. Quando você ler "João 1:14", entenda: livro de João, capítulo 1, versículo 14.
 
-O texto desta lição está no começo do Evangelho de João. Evangelho quer dizer "boa notícia", e é o nome dos quatro livros da Bíblia que contam a vida de Jesus. Desde os primeiros séculos, os cristãos dizem que este foi escrito por João, um dos doze amigos de Jesus.
+Marcos começa a história de Jesus no rio Jordão; Mateus e Lucas, no nascimento em Belém. João começa antes do começo:
 
-Uma dica para ler a Bíblia: cada livro tem capítulos, e cada capítulo tem versículos, que são frases com número. Quando você vê "João 1:14", quer dizer livro de João, capítulo 1, versículo 14.
-
-João começa o livro sem dizer o nome de Jesus. Ele chama Jesus de "a Palavra". Algumas Bíblias dizem "o Verbo", que é a mesma coisa. Leia devagar:
-
-> **João 1:1-5, 10-12, 14 e 18**
->
 > **1** No começo aquele que é a Palavra já existia. Ele estava com Deus e era Deus.
 >
 > **2** Desde o princípio, a Palavra estava com Deus.
@@ -46,125 +40,116 @@ João começa o livro sem dizer o nome de Jesus. Ele chama Jesus de "a Palavra".
 >
 > **18** Ninguém nunca viu Deus. Somente o Filho único, que é Deus e está ao lado do Pai, foi quem nos mostrou quem é Deus.
 
-Se puder, leia na sua Bíblia o trecho inteiro, João 1:1-18.
+*Texto bíblico: Nova Tradução na Linguagem de Hoje (NTLH). Copyright 2000 Sociedade Bíblica do Brasil. Todos os direitos reservados.* Vale a pena ler o trecho inteiro, João 1:1-18, na sua Bíblia.
 
-*Texto bíblico: Nova Tradução na Linguagem de Hoje (NTLH). Copyright 2000 Sociedade Bíblica do Brasil. Todos os direitos reservados.*
+João não diz o nome de Jesus logo de saída. Chama-o de "a Palavra" (algumas Bíblias dizem "o Verbo"; é a mesma palavra grega, *logos*). A escolha não foi casual. Para um leitor judeu, a palavra de Deus lembrava o relato da criação, em que Deus fala e as coisas passam a existir, e lembrava as mensagens que Deus enviava pelos profetas. Para um leitor de cultura grega, *logos* era uma palavra com longa história na filosofia. O comentarista Craig Keener observa que nenhum outro conceito à disposição de João expressava tão bem alguém que fosse ao mesmo tempo divino e distinto do Pai.
 
-## Entendendo a Palavra
+Dois outros escritores do Novo Testamento dizem o mesmo por outro caminho. Paulo, escrevendo aos cristãos da cidade de Filipos, afirma que Jesus "tinha a natureza de Deus" e que, mesmo assim, "abriu mão de tudo o que era seu e tomou a natureza de servo" (Filipenses 2:6-7). Aos de Colossos, escreve: "Antes de tudo, ele já existia" (Colossenses 1:17).
 
-### 1. Jesus já existia antes de nascer
+## Desenvolvimento
 
-João começa com "No começo", as mesmas palavras que abrem a Bíblia. Nesse começo, a Palavra já existia, e por meio dela Deus fez todas as coisas (João 1:3).
+### A saída que Jesus não deixou aberta
 
-Isso quer dizer que a história de Jesus não começou em Belém. Ele nasceu como um bebê, num dia da história, mas já existia antes, junto com Deus. Paulo, a quem a Bíblia chama de apóstolo, isto é, mensageiro de Jesus, diz a mesma coisa numa de suas cartas: "Antes de tudo, ele já existia" (Colossenses 1:17).
+A resposta mais confortável sobre Jesus é também a mais comum: um grande mestre, e nada além disso. Ela não exige nada. Um mestre se admira à distância; não se adora, nem se obedece.
 
-### 2. Jesus é Deus e se tornou gente
+O problema é que os Evangelhos não deixam essa saída aberta. Jesus não se limitou a ensinar que devemos amar o próximo. Ele perdoou pecados de pessoas que nunca o tinham ofendido, e os religiosos presentes entenderam muito bem o que aquilo significava: só Deus pode perdoar pecados (Marcos 2:1-12). Disse que existia antes de Abraão, que viveu séculos antes dele (João 8:58). Aceitou que Tomé o chamasse de "meu Senhor e meu Deus" (João 20:28).
 
-O versículo 1 diz duas coisas juntas: a Palavra "estava com Deus" e a Palavra "era Deus". Isso não é fácil de entender. Vamos devagar.
+C. S. Lewis, professor de literatura em Oxford que passou anos como ateu antes de se tornar cristão, percebeu o tamanho do problema numa série de palestras no rádio da BBC, depois reunidas no livro *Cristianismo Puro e Simples*. Um homem que fosse apenas homem e dissesse o tipo de coisa que Jesus disse, escreveu Lewis, "não seria um grande mestre de moral" (tradução nossa). Seria um desequilibrado ou um impostor. Ou então seria exatamente quem dizia ser.
 
-"Estava com Deus" mostra que Jesus não é o Pai, pois os dois estão juntos, lado a lado. "Era Deus" mostra que Jesus não é alguém menor que Deus. Ele é Deus de verdade.
+Há quem responda que Jesus nunca disse nada disso e que a ideia de um Jesus divino foi inventada séculos depois. A história não ajuda essa hipótese. Por volta do ano 110, Plínio, o Jovem, governador romano da província da Bitínia, na atual Turquia, escreveu ao imperador Trajano pedindo orientação sobre os cristãos. Plínio não tinha nenhuma simpatia por eles. Mesmo assim, registrou que se reuniam antes do amanhecer e cantavam hinos a Cristo como a um deus.
 
-Agora leia de novo o versículo 14: "A Palavra se tornou um ser humano e morou entre nós." Deus se tornou gente. Ele não parou de ser Deus, mas passou a sentir fome, sede, cansaço e tristeza. Os cristãos chamam isso de encarnação.
+As cartas de Paulo, ainda mais antigas, já confessam que "Jesus Cristo é o Senhor" (Filipenses 2:11). A fé na divindade de Jesus não foi um acréscimo tardio: estava lá desde o começo.
 
-Pense na diferença entre mandar um recado e ir em pessoa. Durante muito tempo, Deus falou com o povo por meio dos profetas. Em Jesus, ele não mandou só um recado: veio em pessoa e foi morar no meio da gente.
+### Com Deus, e Deus
 
-Paulo escreveu que Jesus "tinha a natureza de Deus" e "tomou a natureza de servo" (Filipenses 2:6-7). Jesus não trocou uma coisa pela outra. Ele continuou sendo Deus e passou a ser também um homem.
+O primeiro versículo de João diz duas coisas que parecem se chocar. A Palavra "estava com Deus": portanto, não é a mesma pessoa que o Pai. E a Palavra "era Deus": portanto, não é uma criatura, nem um ser divino de segunda categoria. O versículo 3 fecha a porta para qualquer meio-termo: tudo o que existe foi feito por meio da Palavra. Quem fez todas as coisas não pode ser uma delas.
 
-### 3. Quem olha para Jesus vê como Deus é
+É daqui que os cristãos tiram o que chamam de Trindade: há um só Deus, que existe eternamente como Pai, Filho e Espírito Santo. Ninguém precisa entender isso por inteiro para começar a seguir Jesus; os próprios teólogos admitem que estão diante de um mistério. Mas é importante saber o que a frase "Filho de Deus" não quer dizer. Ela não indica que Jesus nasceu depois do Pai, como um filho nasce depois do pai. A Declaração de Fé das Assembleias de Deus resume assim: chamar Jesus de Filho de Deus "significa que Ele é Deus igual ao Pai".
 
-O versículo 18 diz: "Ninguém nunca viu Deus." Mas logo depois diz que o Filho único "foi quem nos mostrou quem é Deus".
+### Quando o autor entra na história
 
-Por isso João chama Jesus de Palavra. A palavra é o jeito de uma pessoa mostrar o que pensa e o que sente. Jesus é o jeito de Deus se mostrar para nós.
+O versículo 14 é o centro do texto: "A Palavra se tornou um ser humano e morou entre nós." Os cristãos chamam isso de encarnação, palavra que quer dizer "fazer-se carne", tornar-se gente de verdade.
 
-Então, se você quer saber como Deus é, olhe para Jesus. Veja como ele tratava as crianças e os doentes, e como dava atenção a quem todo mundo deixava de lado. Veja como ele perdoava.
+Uma comparação ajuda, desde que a gente não peça a ela mais do que pode dar. Pense num romancista que ama os personagens que criou. Eles vivem dentro do livro e só o conhecem de forma indireta, pelas marcas que ele deixou na história. Se esse autor quisesse ser conhecido por eles, e não apenas deduzido, teria um único caminho: escrever a si mesmo dentro do livro, como um dos personagens, nascido num capítulo, numa cidade, numa família. Continuaria sendo o autor. Mas agora estaria sujeito ao enredo, ao cansaço, à fome e, se a história chegasse a esse ponto, à traição.
 
-Talvez você estranhe o nome "Filho único", porque na vida da gente o filho nasce depois do pai. Mas chamar Jesus de Filho de Deus não quer dizer que ele veio depois. Quer dizer que ele é Deus, igual ao Pai.
+Toda comparação manca, e esta também: Deus não é escritor de ficção, e nós não somos personagens de papel. Mas ela mostra o que João está dizendo. Deus não mandou apenas recados; entrou na história. Jesus sentiu fome (Mateus 4:2), cansaço (João 4:6) e sede (João 19:28), e chorou diante do túmulo de um amigo (João 11:35). Não era Deus fingindo ser homem.
 
-### 4. Jesus é o Salvador que Deus prometeu
+E também não era um homem que deixou de ser Deus. Quando Paulo diz que Jesus "abriu mão de tudo o que era seu", não quer dizer que ele se desfez da divindade. O comentarista Matthew Henry explica que ele deixou de lado as honras e a glória do céu, e ressalta que, ao se tornar carne, a Palavra não deixou de ser a Palavra de Deus. O autor que entra no livro não deixa de ser autor.
 
-Agora, a palavra de Pedro: Messias. No tempo dos reis de Israel, um profeta ou um sacerdote derramava azeite na cabeça do novo rei. Era o sinal de que Deus o tinha escolhido.
+Há ainda um detalhe que o português esconde. O verbo grego traduzido por "morou" quer dizer, ao pé da letra, "armou a sua tenda". Henry e John Wesley lembram a tenda que o povo de Israel montava no meio do acampamento, no deserto, como sinal de que Deus estava com eles. Wesley escreveu que Jesus não nos fez uma visita passageira: viveu entre nós.
 
-Durante séculos, o povo esperou o Salvador que Deus tinha prometido. Eles o chamavam de Messias, que quer dizer "ungido", aquele que recebeu o azeite. "Cristo" é a mesma palavra, só que em grego. Por isso dizemos Jesus Cristo: Jesus, o Messias.
+### O rosto do Deus invisível
 
-Logo depois da resposta de Pedro, Jesus começou a ensinar que ia sofrer muito, ser morto e ressuscitar (Marcos 8:31). Os discípulos não esperavam um Messias que fosse sofrer. Jesus mostrou que o Messias ia salvar o povo dando a própria vida.
+O versículo 18 começa com uma frase que qualquer pessoa honesta pode assinar: "Ninguém nunca viu Deus." Durante séculos, a humanidade imaginou Deus de mil maneiras, quase sempre à sua própria imagem: um juiz implacável, um patrão distante, uma força impessoal, um avô bonachão. João responde que o Filho "foi quem nos mostrou quem é Deus".
 
-E por que ele veio? João conta em outro capítulo:
+Isso muda a maneira de fazer a pergunta. Em vez de começar perguntando como Deus deve ser, o cristão começa olhando para Jesus. E o que se vê nos Evangelhos é desconcertante. Jesus tocou num leproso, quando todos evitavam até chegar perto (Marcos 1:40-42). Conversou com uma mulher samaritana, que pertencia a um povo desprezado pelos judeus, sobre as perguntas mais profundas da vida dela (João 4). Chamou para andar com ele um cobrador de impostos, profissão odiada na época (Marcos 2:14). Se Deus é assim, ele é ao mesmo tempo mais santo e mais próximo do que a gente imaginava.
+
+### O Messias que ninguém esperava
+
+Resta a resposta de Pedro: "O senhor é o Messias!" A palavra vem do hebraico e quer dizer "ungido". No antigo Israel, um profeta ou um sacerdote derramava azeite na cabeça do novo rei, como sinal de que Deus o tinha escolhido. Com o tempo, o povo passou a esperar um ungido definitivo, o Salvador prometido por Deus. "Cristo" é a mesma palavra em grego. A Declaração de Fé das Assembleias de Deus diz que "Messias" e "Cristo" "são a mesma coisa". Jesus Cristo, portanto, não é nome e sobrenome: é Jesus, o Messias.
+
+Pedro acertou a palavra, mas ainda não entendia o que ela significava. Logo depois, Jesus começou a ensinar que precisava sofrer muito, ser morto e ressuscitar (Marcos 8:31). Pedro chegou a repreendê-lo por isso (Marcos 8:32). Ele esperava um Messias que vencesse os inimigos; Jesus anunciava um Messias que venceria morrendo. Na terra dos césares, que governavam pela força, Jesus apresentava outro tipo de reinado.
+
+O próprio Evangelho de João explica o motivo:
 
 > "Porque Deus amou o mundo tanto, que deu o seu único Filho, para que todo aquele que nele crer não morra, mas tenha a vida eterna. Pois Deus mandou o seu Filho para salvar o mundo e não para julgá-lo." (João 3:16-17)
 
-Deus amou o mundo inteiro, e isso inclui você. Ele mandou o Filho para salvar, não para condenar. Vida eterna é a vida com Deus, que começa agora e não acaba com a morte. Do que Jesus nos salva é assunto para outra lição.
+Salvar, aqui, quer dizer resgatar. A Bíblia chama de pecado tudo o que nos afasta de Deus, e diz que esse afastamento acaba em morte (Romanos 6:23). Jesus veio para trazer de volta, e a vida que ele oferece, a vida eterna, não é apenas uma vida que dura para sempre: é a vida com Deus, que começa agora.
 
-E o que Deus espera da gente? O versículo 12 responde: quem crê em Jesus e o recebe ganha o direito de se tornar filho de Deus. Receber Jesus é como abrir a porta para alguém que chegou. Ele não entra à força.
+## Aplicação prática
 
-## Entendendo melhor
+Se Jesus é quem João diz, a primeira consequência não é uma lista de tarefas, mas uma mudança de atitude: deixar de tratá-lo como um personagem admirável e começar a tratá-lo como alguém vivo, que pode ser conhecido.
 
-Quando João escreveu "morou entre nós", usou uma palavra grega que quer dizer "armou a sua tenda". Estudiosos antigos, como Matthew Henry e John Wesley, notaram isso. No deserto, depois de sair do Egito, o povo de Israel morava em tendas. No meio de todos ficava uma tenda especial, sinal de que Deus estava com o povo.
+Isso tem desdobramentos bem concretos. O primeiro é conhecer a história dele pela fonte. O Evangelho de Marcos é o mais curto dos quatro e pode ser lido em poucas sentadas. Leia como quem lê a biografia de alguém que vai encontrar em breve.
 
-Em Jesus, Deus chegou ainda mais perto. Ele não montou uma tenda de pano: veio morar num corpo de gente, no meio da nossa vida. Wesley escreveu que Jesus não nos fez uma visita rápida, mas viveu no meio de nós.
+O segundo diz respeito à oração. Orar não é recitar fórmulas para um ser distante, mas falar com alguém que conhece a vida humana por dentro, inclusive a fome, o cansaço e a traição. Você pode dizer a ele o que realmente está acontecendo, com as suas palavras.
 
-## A fé na vida real
+O terceiro é a resposta de João 1:12: "alguns creram nele e o receberam". Receber Jesus não é aderir a uma opinião, como quem escolhe entre as alternativas do povo de Cesareia. É confiar nele e abrir a vida para que ele a conduza. Ninguém faz isso de uma vez por todas e sem dúvidas; os próprios discípulos aprenderam aos poucos.
 
-Saber quem Jesus é muda coisas do dia a dia.
+E há um efeito sobre as conversas. Quando alguém disser que Jesus foi só um homem bom, você não precisa vencer a discussão. Pode fazer a pergunta que ele fez, com a mesma serenidade, e mostrar o que os textos dizem.
 
-- **Na oração.** Você sabe com quem está falando. Jesus é Deus e também foi gente, por isso sabe o que é cansaço, tristeza e ser deixado de lado. Você pode falar com ele com as suas palavras, sem frase pronta.
+## Perguntas para reflexão
 
-- **Na conversa.** Quando alguém disser que Jesus foi só um bom homem, você não precisa brigar. Pode mostrar com calma o que diz João 1:14.
+1. Por que a opção "Jesus foi apenas um grande mestre" é mais difícil de sustentar do que parece à primeira vista?
 
-Seguir Jesus começa assim: receber Jesus como ele é, e não como as pessoas dizem que ele é. Depois, aprender com ele, um dia de cada vez.
+2. O versículo 1 diz que a Palavra "estava com Deus" e "era Deus". Como você explicaria essas duas afirmações a alguém que nunca leu a Bíblia?
 
-Paulo escreveu: "Tenham entre vocês o mesmo modo de pensar que Cristo Jesus tinha" (Filipenses 2:5). Jesus, sendo Deus, escolheu servir, e quem segue Jesus aprende a servir também. Pode ser ouvir com paciência a colega que está com problema.
+3. A sua imagem de Deus se parece com o que Jesus mostrou nos Evangelhos? Em que ela é diferente?
 
-## Vamos conversar?
+4. Se Jesus fizesse a você a pergunta que fez a Pedro, o que você responderia hoje?
 
-1. O versículo 1 diz que a Palavra "estava com Deus" e "era Deus". Com as suas palavras, o que isso diz sobre Jesus?
+## Resumo
 
-2. Antes desta lição, o que você pensava sobre Jesus? Alguma coisa mudou?
+- Os Evangelhos não permitem tratar Jesus como um simples mestre de moral: ele falou e agiu como quem tem a autoridade de Deus, e os primeiros cristãos o adoraram como Deus.
 
-3. Se um colega dissesse que Jesus foi só um grande mestre, o que você responderia a ele?
+- Jesus é a Palavra eterna, que estava com Deus e é Deus. Ao se tornar homem, ele não deixou de ser Deus, e passou a viver a vida humana por inteiro.
 
-## Desafio da semana
+- Em Jesus, o Deus invisível mostrou o seu rosto. Ele é o Messias, que veio salvar dando a própria vida, e quem o recebe ganha o direito de se tornar filho de Deus.
 
-Escolha três dias desta semana para ler João 1:1-18 com calma, em voz alta se puder. Pode ser antes de sair de casa ou antes de dormir.
+## Continue aprendendo
 
-No primeiro dia, escreva num papel ou no celular uma frase que comece assim: "Para mim, Jesus é...". No fim da semana, leia o que você escreveu e veja se quer mudar alguma coisa.
+- Leia o Evangelho de Marcos do começo ao fim e anote o que Jesus diz sobre si mesmo.
 
-Depois, numa oração curta e do seu jeito, diga a Jesus quem ele é para você. Ninguém precisa ver o que você escreveu.
+- Leia João 3, em que Jesus conversa à noite com Nicodemos sobre o que significa nascer de novo. Esse será o tema de um próximo estudo desta biblioteca.
 
-## Para guardar no coração
+- Leia Filipenses 2:5-11 e observe o caminho que Jesus fez, da glória até a cruz e de volta à honra.
 
-> "A Palavra se tornou um ser humano e morou entre nós, cheia de amor e de verdade." (João 1:14)
+## Referências
 
-Deus não ficou longe. Ele veio em pessoa, para perto de nós, e mostrou o seu amor.
+- Bíblia, Nova Tradução na Linguagem de Hoje: [João 1](https://www.bibliaonline.com.br/ntlh/jo/1), [João 3](https://www.bibliaonline.com.br/ntlh/jo/3), [Marcos 8](https://www.bibliaonline.com.br/ntlh/mc/8), [Filipenses 2](https://www.bibliaonline.com.br/ntlh/fp/2), [Colossenses 1](https://www.bibliaonline.com.br/ntlh/cl/1). Outras passagens citadas por referência: Marcos 1:40-42; 2:1-14; 8:31-32; João 4; 8:58; 11:35; 19:28; 20:28; Mateus 4:2; Romanos 6:23.
 
-## Resumindo
+- Convenção Geral das Assembleias de Deus no Brasil, [Declaração de Fé](https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf) (CPAD, 2016), capítulo IV, itens 1 e 5.
 
-- Jesus já existia antes de nascer. Ele estava com Deus e é Deus.
+- Craig S. Keener, *The Gospel of John: A Commentary* (Baker Academic, 2012), volume 1, [página 363](https://biblia.com/books/gspljhncmm2vls/p%20363).
 
-- Jesus se tornou um ser humano de verdade, sem deixar de ser Deus. Quem olha para Jesus vê como Deus é.
+- Matthew Henry, *Commentary on the Whole Bible*, comentário a [João 1](https://www.biblestudytools.com/commentaries/matthew-henry-complete/john/1.html) e a [Filipenses 2](https://www.biblestudytools.com/commentaries/matthew-henry-complete/philippians/2.html) (domínio público).
 
-- Jesus é o Messias, o Salvador prometido. Ele veio porque Deus ama o mundo, e quem o recebe se torna filho de Deus.
+- John Wesley, *Explanatory Notes*, nota a [João 1:14](https://www.biblestudytools.com/commentaries/wesleys-explanatory-notes/john/john-1.html) (domínio público).
 
-<!-- justificativa: a única frase acima de 25 palavras é João 3:16 (26 palavras), texto bíblico da NTLH reproduzido sem alteração. -->
+- C. S. Lewis, *Mere Christianity* (*Cristianismo Puro e Simples*), livro 2, citado em ["Lewis's trilemma"](https://en.wikipedia.org/wiki/Lewis%27s_trilemma), Wikipédia, consulta em 30/10/2026.
 
-<!-- relatório do medidor (tools/discipulado/legibilidade.py), versão publicada:
-============================================================
-LEGIBILIDADE (Flesch adaptado ao português, Martins et al. 1996)
-============================================================
-Palavras: 1708   Frases: 162
-Média de palavras por frase: 10.5  (meta 12 a 18)
-Média de sílabas por palavra: 1.72  (meta até 1.9)
-Índice de Flesch: 92.9  [fácil]  (meta 75+)
+- Plínio, o Jovem, *Cartas*, X.96, resumida em ["Pliny the Younger on Christians"](https://en.wikipedia.org/wiki/Pliny_the_Younger_on_Christians), Wikipédia, consulta em 30/10/2026.
 
-AVISO: média de palavras por frase baixa (10.5). Frases curtas são bem-vindas; conferir se o texto não ficou picado.
+- Cesareia de Filipe: ["Banias"](https://en.wikipedia.org/wiki/Caesarea_Philippi), Wikipédia, consulta em 30/10/2026.
 
-FRASES LONGAS (> 25 palavras):
-  [26] "Porque Deus amou o mundo tanto, que deu o seu único Filho, para que todo aquele que nele crer não morra, mas tenha a vida eterna.
-
-CLICHÊS DE PÚLPITO (revisar; não reprova sozinho):
-  'ungido' x1
-
-
-REPROVADO:
-  * 1 frase(s) com mais de 25 palavras
-Reescrever e rodar de novo. Violação mantida de propósito exige justificativa no fim do arquivo.
--->
+<!-- justificativa: João 3:16 tem 26 palavras; é texto bíblico da NTLH, reproduzido sem alteração. -->

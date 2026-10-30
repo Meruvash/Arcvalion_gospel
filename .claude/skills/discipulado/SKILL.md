@@ -67,28 +67,29 @@ imagem (opcional; obra em domínio público no acervo aberto do Metropolitan Mus
 
 ## 4. Escrever (redator)
 
-`aluno.md` com as seções na ordem exata (o validador confere):
+**Leia antes `docs/discipulado/padrao-literario.md`: ele manda no tom.** `aluno.md` com as seções na ordem exata (o validador confere):
 
 ```
 # <Título em pergunta, igual ao licao.json>
-## O que vamos aprender?
-## Para começar
-## Texto bíblico principal
-## Entendendo a Palavra        (3 ou 4 subtópicos "### ")
-## Entendendo melhor
-## A fé na vida real
-## Vamos conversar?
-## Desafio da semana
-## Para guardar no coração
-## Resumindo
+## Questão central
+## Introdução
+## Fundamentação bíblica
+## Desenvolvimento            (subtópicos "### ")
+## Aplicação prática
+## Perguntas para reflexão
+## Resumo
+## Continue aprendendo
+## Referências                (links das fontes lidas)
 ```
 
 - Texto bíblico em citação (`> `, um versículo por parágrafo), copiado do dossiê, com o crédito provisório de
-  `base/decisoes.md`. 1.000 a 1.500 palavras fora das citações.
-- Padrão de escrita à risca: leitora Dona Rosa, frases curtas em ordem direta, termo mostrado antes de nomeado (inclusive
-  "Evangelho", "profeta", "apóstolo" na primeira vez), uma cena imaginada, nada de clichê, culpa, medo ou promessa.
-- Atribuição a autor só do que está na frase lida (erro que a auditoria de "Quem é Jesus Cristo?" achou: acrescentar uma frase ao que
-  Wesley disse). Fato bíblico citado com a referência certa (não misturar Marcos com Lucas).
+  `base/decisoes.md`. Corpo de 1.200 a 2.600 palavras, fora citações e referências.
+- Prosa madura (Lewis, Stott, Yancey como técnica): abrir por uma questão real, um episódio bíblico ou um fato
+  histórico com fonte, nunca por personagem inventado; uma analogia forte, com os limites ditos; nada de clichê.
+- Atribuição a autor só do que está na frase lida (erro já cometido: acrescentar uma frase ao que Wesley disse).
+  Fato bíblico com a referência certa. Fato histórico com link na seção Referências.
+- `titulo_seo` no licao.json: "<pergunta>? Entenda o que a Bíblia ensina".
+- Revisão em cinco camadas pelo próprio redator (padrão literário), sem agente separado.
 
 `discipulador.md` (título `# Guia do discipulador`), 500 a 900 palavras: objetivo, fundamentação, referências
 com `[verificada]` ou `[parcial]`, diferenças de tradução, dúvidas frequentes, cuidados pastorais, roteiro de 40 minutos,

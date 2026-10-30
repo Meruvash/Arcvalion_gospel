@@ -28,8 +28,10 @@ import re
 import sys
 import unicodedata
 
-META_ALUNO = dict(flesch_min=75.0, media_min=12.0, media_max=18.0,
-                  frase_max=25, silabas_max=1.9, paragrafo_max=5)
+# metas revistas em 30/10/2026 (diretriz de qualidade literária do editor): prosa madura, sem frases picadas;
+# o índice continua barrando texto pesado, mas não empurra mais para frases de cartilha
+META_ALUNO = dict(flesch_min=60.0, media_min=12.0, media_max=24.0,
+                  frase_max=40, silabas_max=2.0, paragrafo_max=7)
 META_GUIA = dict(flesch_min=60.0, media_min=12.0, media_max=22.0,
                  frase_max=30, silabas_max=2.1, paragrafo_max=6)
 
@@ -37,6 +39,8 @@ CLICHES = [
     "amado", "amada", "irmão", "irmã", "a palavra diz", "deus tem um propósito",
     "não é por acaso", "varão", "ungido", "mover de deus", "tremendo",
     "glorioso", "maravilhoso", "poderoso", "ministrar", "ser tocado",
+    "em nossa caminhada", "em um mundo cada vez", "mais do que uma simples", "lição poderosa",
+    "imagine por um momento", "é importante lembrar", "não se trata apenas",
 ]
 
 TRAVESSOES = ["—", "–", " - "]  # em dash, en dash, hífen solto com espaços
