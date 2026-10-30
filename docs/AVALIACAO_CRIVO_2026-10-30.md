@@ -58,6 +58,19 @@ Porquê das notas mais distantes entre as réguas:
    agora pede até 5 notas de 70 ou mais, completa com 60 a 69 só quando o dia tiver menos de 3, e não publica abaixo
    de 60.
 
+## A decisão da redação no mesmo dia
+
+Enquanto esta avaliação era feita, o responsável editorial despublicou três notas de Porto Velho por **falta de
+pertinência temática**: Presépio Vivente, Parque Circuito e a seca no Rio Madeira. O motor concorda nas duas
+primeiras (54, não entra; 63, só para completar o dia), mas deu **82 à seca**, a nota mais alta da edição.
+
+A divergência está no critério de afinidade. A régua dá 20 ou mais a "poder público de Rondônia e Porto Velho" e a
+acontecimentos que afetam diretamente os moradores (como pede o Núcleo C), e a seca entrou por aí. A redação, na
+prática, quer de Porto Velho o que tem ligação com fé, família, valores ou poder público em decisão, e não serviço da
+cidade em si. Enquanto essa linha não for decidida, a seca mostra o limite da régua: **o motor mede consequência, e a
+pertinência temática continua sendo decisão da redação.** Para o motor acompanhar a redação, a régua de afinidade
+precisa dizer isso por escrito (ajuste em `config/relevancia.json`, sem mudar o código).
+
 ## Na pauta de 30/10, o que o motor novo pegou
 
 Da coleta de 30/10 (229 candidatas), o motor escolheu a decisão do STF sobre a lei de Rondônia (77). A melhor pauta
@@ -67,8 +80,10 @@ ouvir a Semed ou a escola. É o comportamento pedido: nota alta não substitui v
 
 ## Conclusão
 
-**O motor de 0 a 100 escolhe melhor.** Ele põe em cima o que tem consequência e prova (seca, STF, bets) e deixa embaixo
-declaração, pesquisa estrangeira e data comemorativa, que o 0 a 20 punha na manchete. O preço é publicar menos, e
+**O motor de 0 a 100 escolhe melhor.** Ele põe em cima o que tem consequência e prova (STF, bets) e deixa embaixo
+declaração, pesquisa estrangeira e data comemorativa, que o 0 a 20 punha na manchete. Errou num ponto, a seca, por
+dar à notícia de serviço de Porto Velho a mesma afinidade que a decisão do poder público; a régua de afinidade precisa
+da linha da redação sobre o que é pertinente na cobertura local. O preço é publicar menos, e
 isso é o que o pedido de 30/10 quer. Ele passa a valer em 31/10/2026; as notas antigas continuam no ar como estão.
 Despublicar as 7 que não passariam é decisão da redação: elas não têm erro de fato, só seriam escolhidas de outro jeito
 hoje.
