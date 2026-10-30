@@ -56,11 +56,17 @@ def resenhas(dia):
     return res
 
 
+def editoria_nome(cat):
+    """A nota guarda a editoria pelo slug ou pelo nome (as notas de 29/10/2026 usam o nome)."""
+    e = portal.editoria(cat) or next((x for x in portal.EDITORIAS if x["nome"] == cat), None)
+    return e["nome"] if e else cat
+
+
 def bloco_noticia(n, ch):
     url = f"{SITE}/noticias/{n['slug']}/"
     c = ch.get(n["slug"], {})
     gancho, pergunta = c.get("chamada") or n["titulo"], c.get("pergunta")
-    tags = " ".join(t for t in [hashtag(portal.editoria(n["categoria"])["nome"]), hashtag(n.get("instituicao"))] if t)
+    tags = " ".join(t for t in [hashtag(editoria_nome(n["categoria"])), hashtag(n.get("instituicao"))] if t)
     insta = (f"{gancho}\n\n{primeira_frase(n['lide'])}\n\n"
              f"Nossa opinião: {primeira_frase(n['veredito'])}\n\n"
              + (f"💬 {pergunta}\n\n" if pergunta else "")

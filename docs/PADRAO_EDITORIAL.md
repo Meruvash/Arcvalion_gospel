@@ -22,7 +22,7 @@ fato certo?) é da pessoa revisora, que aprova com `tools/publicar.py`.
 |  |  | **O que muda para você**: o efeito concreto do fato na vida da família, da igreja ou do cidadão, tirado do que está nas fontes (se ainda depende de votação, diga "Se virar lei, …"). **Pontos de atenção**: o que está pendente ou incerto (votação que falta, prazo, dado de outro país, ressalva da própria fonte), só fato com fonte, sem opinião. |
 | `veredito` | Nossa opinião | 20 a 60 palavras, conselho claro e o porquê |
 | `fontes` | Fontes | 2 ou mais, com nome, link, data e `tipo` (pelo menos uma `primaria`) |
-| `crivo` | Por que esta notícia entrou | pontos e critérios (skill `noticias`); manchete = maior pontuação do dia |
+| `crivo` | Por que esta notícia entrou | pontos (0 a 20), trilha, eixos, portal de origem e critérios (`docs/CRIVO_NOTICIAS.md`); manchete = maior pontuação do dia |
 | `instituicao` | linha de data | quem fez o fato (Senado, CGADB, Pew…) |
 | `imagem` | foto | obrigatória: arquivo em `conteudo/imagens/`, crédito com licença, `alt`; nunca IA |
 | `estudos` | Estudos citados | `[{nome, estudo: <slug>}]` |

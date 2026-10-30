@@ -24,6 +24,8 @@ import portal  # noqa: E402
 
 UA = "PortalCristao-pauta/1.0 (+coleta de pauta; respeita robots.txt)"
 _ROBOS = {}
+POR_FONTE = 6
+ABRANGENCIA = {"nacional": "Brasil", "rondonia": "Rondônia", "porto-velho": "Porto Velho", "internacional": "internacional"}
 
 
 def permitido(url):
@@ -62,16 +64,29 @@ def data(item):
     for tag in ("pubDate", "{http://purl.org/dc/elements/1.1/}date", "{http://www.w3.org/2005/Atom}updated", "{http://www.w3.org/2005/Atom}published"):
         el = item.find(tag)
         if el is not None and el.text:
-            try:
-                d = parsedate_to_datetime(el.text) if tag == "pubDate" else datetime.fromisoformat(el.text.replace("Z", "+00:00"))
-                return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
-            except (TypeError, ValueError):
-                pass
+            for ler in (parsedate_to_datetime, lambda t: datetime.fromisoformat(t.strip().replace("Z", "+00:00"))):
+                try:  # pubDate às vezes vem em ISO 8601 (News Rondônia), e o Atom às vezes em RFC 822
+                    d = ler(el.text)
+                    return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+                except (TypeError, ValueError, IndexError):
+                    pass
     return None
 
 
+def xml_tolerante(xml):
+    """Feeds de portais regionais trazem entidades de HTML (&ocirc;) que o XML não conhece: troca pelo caractere."""
+    try:
+        return ElementTree.fromstring(xml)
+    except ElementTree.ParseError:
+        texto = xml.decode("utf-8", "replace") if isinstance(xml, bytes) else xml
+        texto = re.sub(r"&(?!(?:amp|lt|gt|quot|apos);)([a-zA-Z][a-zA-Z0-9]*);",
+                       lambda m: html.unescape(m.group(0)) if html.unescape(m.group(0)) != m.group(0) else m.group(0), texto)
+        texto = re.sub(r"^\s+", "", texto)
+        return ElementTree.fromstring(texto.encode("utf-8"))
+
+
 def itens(xml):
-    raiz = ElementTree.fromstring(xml)
+    raiz = xml_tolerante(xml)
     atom = "{http://www.w3.org/2005/Atom}"
     for it in raiz.iter("item"):
         yield (limpo(it.findtext("title")), (it.findtext("link") or "").strip(), limpo(it.findtext("description"))[:300], data(it))
@@ -96,21 +111,30 @@ def main(args):
         except Exception as ex:
             avisos.append(f"{f['nome']}: falhou ({ex.__class__.__name__})")
             continue
-        filtro = temas if f.get("filtro") == "temas" else re.compile(f["filtro"], re.I) if f.get("filtro") else None
+        filtro = f.get("filtro")
+        filtro = re.compile(filtro.replace("temas", temas.pattern), re.I) if filtro else None
+        abr = f.get("abrangencia", "nacional")
         for titulo, link, resumo, quando in lista:
             if quando and quando < limite:
                 continue
             if filtro and not filtro.search(f"{titulo} {resumo}"):
                 continue
-            nota = (2 if temas.search(f"{titulo} {resumo}") else 0) + (1 if f.get("tipo") == "primaria" else 0)
+            # prioridade geográfica (docs/CRIVO_NOTICIAS.md): nacional e Rondônia/Porto Velho sobem, internacional não;
+            # portal conservador brasileiro sobe um ponto. O fato ainda pede a fonte primária.
+            nota = ((2 if temas.search(f"{titulo} {resumo}") else 0) + (1 if f.get("tipo") == "primaria" else 0)
+                    + (1 if f.get("conservador") and abr != "internacional" else 0)
+                    + {"nacional": 1, "rondonia": 1, "porto-velho": 2}.get(abr, 0))
             cands.append((nota, quando or limite, f, titulo, link, resumo))
     cands.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    # no máximo POR_FONTE itens de cada feed, para um agregador que publica muito não tomar a pauta toda
+    vistos = {}
+    cands = [c for c in cands if vistos.setdefault(c[2]["nome"], []).append(1) or len(vistos[c[2]["nome"]]) <= POR_FONTE]
     hoje = datetime.now().date().isoformat()
     linhas = [f"# Pauta sugerida de {hoje} (últimos {dias} dias)", "",
               "Lista automática, só para orientar a redação. Nenhum item é notícia pronta: confirme na fonte primária, "
               "ouça os envolvidos, escreva com o padrão editorial e publique só com revisão humana.", ""]
     for nota, quando, f, titulo, link, resumo in cands[:80]:
-        linhas += [f"## {titulo}", f"- Fonte: {f['nome']} ({'primária' if f.get('tipo') == 'primaria' else 'outro veículo'}) · {quando:%d/%m %H:%M} · editoria sugerida: {f['editoria']} · prioridade {nota}",
+        linhas += [f"## {titulo}", f"- Fonte: {f['nome']} ({'primária' if f.get('tipo') == 'primaria' else 'outro veículo'}{', portal conservador' if f.get('conservador') else ''}) · {ABRANGENCIA.get(f.get('abrangencia', 'nacional'))} · {quando:%d/%m %H:%M} · editoria sugerida: {f['editoria']} · prioridade {nota}",
                    f"- Link: {link}", f"- {resumo}" if resumo else "", ""]
     if avisos:
         linhas += ["## Avisos da coleta", ""] + [f"- {a}" for a in avisos]
