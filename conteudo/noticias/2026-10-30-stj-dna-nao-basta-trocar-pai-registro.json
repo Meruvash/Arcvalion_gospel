@@ -1,0 +1,145 @@
+{
+ "slug": "stj-dna-nao-basta-trocar-pai-registro",
+ "data": "2026-10-30",
+ "categoria": "Família e Valores",
+ "status": "publicado",
+ "selo": "Boa notícia",
+ "titulo": "STJ decide que DNA e acordo não bastam para trocar pai no registro de criança",
+ "lide": "A Quarta Turma do Superior Tribunal de Justiça decidiu que o nome do pai no registro de nascimento de uma criança não pode ser trocado só com um acordo entre as partes, mesmo com exame de DNA. A mudança exige ação judicial própria, com provas e análise do vínculo afetivo, informou o tribunal em 27 de outubro.",
+ "por_que_importa": "A decisão trata a paternidade como mais do que biologia ou papel assinado. Quem registrou e criou uma criança não some do documento por um acerto entre adultos. Para a família, é proteção: a criança não troca de pai no cartório sem que um juiz ouça o Ministério Público e examine a relação que ela já tem com quem a criou.",
+ "numeros": [
+  [
+   "4ª Turma",
+   "do STJ, responsável pela decisão, com relatoria do desembargador convocado Luís Carlos Gambogi",
+   "STJ"
+  ],
+  [
+   "1.604 e 1.609",
+   "artigos do Código Civil citados: o reconhecimento do filho é irrevogável e o registro só muda com prova de erro ou falsidade",
+   "STJ"
+  ]
+ ],
+ "corpo": [
+  "O caso começou no Maranhão. A mãe, o pai registral e o pai biológico pediram à Justiça que homologasse um acordo para substituir o nome do pai no registro, com base num exame de DNA. A primeira instância aceitou, mas o Tribunal de Justiça do Maranhão reformou a decisão depois de recurso do Ministério Público e extinguiu o processo sem julgar o mérito.",
+  "No STJ, o relator, desembargador convocado Luís Carlos Gambogi, afirmou que a filiação é direito personalíssimo e indisponível e que o DNA, sozinho, não basta para excluir o pai registral. Ele citou o artigo 841 do Código Civil, que limita acordos a direitos patrimoniais, e precedente da Terceira Turma que exige participação do Ministério Público, perícia e estudos psicossociais. O processo corre em segredo de justiça."
+ ],
+ "no_brasil": "A decisão vale para o caso julgado, mas orienta juízes de todo o país em pedidos parecidos. Quem quer mudar a paternidade no registro precisa entrar com ação própria, em que se prova erro ou falsidade e se investiga se existe vínculo socioafetivo entre a criança e o pai que a registrou.",
+ "critica": [
+  {
+   "fonte": "Luís Carlos Gambogi, relator, segundo o STJ",
+   "texto": "É necessário a instrução probatória para a apuração do vínculo socioafetivo.",
+   "citacao": true,
+   "url": "https://www.stj.jus.br/sites/portalp/paginas/comunicacao/noticias/2026/27102026-alteracao-de-paternidade-em-registro-civil-de-crianca-exige-acao-propria-e-nao-pode-ser-feita-por-acordo.aspx"
+  },
+  {
+   "fonte": "As partes do processo, segundo o STJ e a Migalhas",
+   "texto": "No recurso, a mãe e os dois homens sustentaram que não havia vínculo socioafetivo entre a criança e o pai registral e que o exame de DNA justificava a troca do nome por acordo.",
+   "citacao": false,
+   "url": "https://www.migalhas.com.br/quentes/467315/stj-acordo-e-dna-positivo-nao-bastam-para-alterar-registro-de-crianca"
+  }
+ ],
+ "para_quem": [
+  "Pais que registraram um filho continuam com o vínculo protegido: o nome não sai do registro por acordo, nem com DNA, sem ação judicial e análise do vínculo com a criança",
+  "Famílias que precisam corrigir um registro devem buscar a ação própria na Justiça, com advogado ou Defensoria Pública, em vez de um acordo homologado"
+ ],
+ "nao_e_para": [
+  "A decisão é da Quarta Turma num caso concreto; não é tese obrigatória para todos os tribunais",
+  "O processo corre em segredo de justiça: número, idade da criança e detalhes das partes não foram divulgados"
+ ],
+ "veredito": "A gente concorda com o STJ. Pai não é só quem doou o material genético nem quem assinou um acordo: é também quem criou. Antes de mudar o registro, a Justiça precisa olhar para a criança, e esta decisão garante isso.",
+ "fontes": [
+  {
+   "nome": "STJ: Alteração de paternidade em registro civil de criança exige ação própria e não pode ser feita por acordo (27/10/2026)",
+   "url": "https://www.stj.jus.br/sites/portalp/paginas/comunicacao/noticias/2026/27102026-alteracao-de-paternidade-em-registro-civil-de-crianca-exige-acao-propria-e-nao-pode-ser-feita-por-acordo.aspx",
+   "data": "30/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Gazeta do Povo: DNA não basta para trocar pai em certidão de nascimento, decide STJ (27/10/2026)",
+   "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/dna-nao-basta-para-trocar-pai-em-certidao-de-nascimento-decide-stj/",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Migalhas: STJ: Acordo e DNA positivo não bastam para alterar registro de criança (27/10/2026)",
+   "url": "https://www.migalhas.com.br/quentes/467315/stj-acordo-e-dna-positivo-nao-bastam-para-alterar-registro-de-crianca",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 66,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre paternidade e o registro de nascimento de uma criança, o núcleo da família"
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 4,
+    "viral": 3,
+    "cristao": 2
+   },
+   "criterios": [
+    "Ato de poder: decisão do Superior Tribunal de Justiça (2)",
+    "Proximidade: nacional (2)",
+    "Personagem com nome: o relator do caso (1)",
+    "Surpreende: nem o DNA basta para trocar o pai (1)",
+    "Utilidade: o caminho certo para corrigir um registro (1)",
+    "Pede resposta do cristão: valor da paternidade (1)",
+    "Rende estudo: paternidade e família (1)"
+   ]
+  },
+  "origem": {
+   "nome": "Gazeta do Povo",
+   "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/dna-nao-basta-para-trocar-pai-em-certidao-de-nascimento-decide-stj/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 20,
+    "porque": "Decisão de turma do STJ que orienta pedidos de troca de paternidade em todo o país, embora não seja tese obrigatória"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Paternidade e registro de criança: núcleo família do portal, com efeito direto em famílias que vivem essa situação"
+   },
+   "atualidade": {
+    "pontos": 13,
+    "porque": "Decisão divulgada pelo STJ em 27/10, três dias antes, sem prazo ou julgamento próximo"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Nota oficial do STJ lida; íntegra da decisão sob segredo de justiça; Gazeta e Migalhas repetem a nota do tribunal"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Síntese com os artigos do Código Civil citados e o argumento das partes, que a Gazeta não trouxe"
+   }
+  }
+ },
+ "checagem_juridica": "Leitura hostil feita: a nota não identifica nem expõe as partes, porque o processo corre em segredo de justiça; relata a decisão e o argumento das partes com a fonte de cada um. A opinião fala da decisão e do conceito de paternidade, não de pessoas.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "imagem": {
+  "arquivo": "capas/stj-dna-nao-basta-trocar-pai-registro.jpg",
+  "credito": "Foto: Luiz Silveira/Agência Brasil",
+  "alt": "Placa com o nome do Superior Tribunal de Justiça diante da sede do tribunal, em Brasília",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/GXq1Vh1KbNBEm7b9fGrmaau3DEQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/stj_1908200977_0.jpg?itok=tK6nCReO",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/nova-lei-cria-filtros-para-recursos-e-deve-reduzir-acoes-no-stj"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, organização dos fatos e primeira versão do texto"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T00:13:07-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-30T00:13:07-03:00"
+}
