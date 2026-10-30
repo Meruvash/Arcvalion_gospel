@@ -17,7 +17,7 @@ fato certo?) é da pessoa revisora, que aprova com `tools/publicar.py`.
 | `numeros` | Em números | 2 a 4 `[valor, rótulo, fonte]`, todos com fonte |
 | `corpo` | Contexto | 1 a 3 parágrafos, 40 a 200 palavras |
 | `no_brasil` | No Brasil | 25 a 80 palavras: o efeito ou a situação no Brasil |
-| `critica` | O que dizem | 1 a 3 posições `{fonte, texto, citacao, url}`; paráfrase com o nome dentro do texto; `citacao: true` só com frase literal lida na página de `url` ("tradução livre" quando traduzida) |
+| `critica` | O que dizem | 1 a 3 posições `{fonte, texto, citacao, url}`; paráfrase com o nome dentro do texto; `citacao: true` só com frase literal lida na página de `url`; `traducao: true` quando a frase foi traduzida (a página mostra "tradução livre") |
 | `para_quem` / `nao_e_para` | O que muda para você / Pontos de atenção | 1 a 3 / 1 a 3 |
 |  |  | **O que muda para você**: o efeito concreto do fato na vida da família, da igreja ou do cidadão, tirado do que está nas fontes (se ainda depende de votação, diga "Se virar lei, …"). **Pontos de atenção**: o que está pendente ou incerto (votação que falta, prazo, dado de outro país, ressalva da própria fonte), só fato com fonte, sem opinião. |
 | `veredito` | Nossa opinião | 20 a 60 palavras, conselho claro e o porquê |
