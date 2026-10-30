@@ -243,12 +243,14 @@ const noFiltro = i => filtro === "" || TEST[VERSOS[i][0]] === +filtro;
 
 function placar(pula) {
   const refs = new Set(VERSOS.map(ref)), n = [...vistos].filter(r => refs.has(r)).length;
-  $("nd").textContent = n; $("nt").textContent = VERSOS.length;
+  $("nd").textContent = n.toLocaleString("pt-BR"); $("nt").textContent = VERSOS.length.toLocaleString("pt-BR");
   $("barra").style.width = (100 * n / VERSOS.length).toFixed(1) + "%";
   if (pula && MOVE) { const b = $("nd"); b.classList.remove("pula"); void b.offsetWidth; b.classList.add("pula"); }
   const marcos = { 5: "Cinco já! Tem muito mais esperando por você.", 10: "10 versículos descobertos. Qual deles ficou no coração?",
     25: "25 versículos! Você está pegando gosto pela Palavra.", 50: "50 versículos descobertos. Que caminhada!",
-    100: "100 versículos! Já dá para chamar de hábito.", 150: "150 versículos. Falta pouco para ver todos!" };
+    100: "100 versículos! Já dá para chamar de hábito.", 250: "250 versículos encontrados. Que tesouro!",
+    500: "500 versículos! Meio milhar de palavras para guardar.", 1000: "1.000 versículos! Uma caminhada e tanto.",
+    1500: "1.500 versículos. Você já viu boa parte da seleção!" };
   $("marco").textContent = n === VERSOS.length ? "Você descobriu todos os versículos da seleção. Continue apertando o botão para reler!" : (pula && marcos[n]) || $("marco").textContent;
 }
 

@@ -77,10 +77,10 @@ def build():
     fig = (f'<figure class="verso" id="verso"><p class="selo" id="selo">Versículo do dia</p><blockquote id="vt">{esc(v[3])}</blockquote>'
            f'<figcaption id="vr">{esc(v[0])} {v[1]}:{v[2]}<small>Almeida, domínio público</small></figcaption></figure>')
     novo = re.sub(r"<!--verso-->.*?<!--/verso-->", lambda _: f"<!--verso-->{fig}<!--/verso-->", novo, count=1, flags=re.S)
-    f = dados["fonte"]
+    f, qtd = dados["fonte"], f"{len(lista):,}".replace(",", ".")
     fonte = (f'<p id="fonte">Fonte: {esc(f["traducao"])} ({esc(f["licenca"])}), texto lido em '
              f'<a href="{esc(f["url"])}" target="_blank" rel="noopener">{esc(f["site"])}</a> em {esc(f["consulta"])}. '
-             f'Seleção de {len(lista)} versículos feita pela redação.</p>')
+             f'Seleção de {qtd} versículos feita pela redação.</p>')
     novo = re.sub(r'<p id="fonte">.*?</p>', lambda _: fonte, novo, count=1, flags=re.S)
     # moldura comum do site (tools/layout.py)
     # (o script do menu que segue o </nav> entra junto, para não se repetir a cada geração)
