@@ -140,6 +140,12 @@ https://cgadb.org.br/declaracao-de-fe/), conferida no texto antes de cada estudo
 5. **Quando os pentecostais divergem entre si** (há assembleianos calvinistas e arminianos, por exemplo), siga a
    Declaração de Fé e diga, numa frase, que há pentecostais que pensam diferente.
 6. **Nada inventado continua valendo**: a tese é nossa, mas todo fato, citação e posição atribuída tem fonte.
+7. **Escatologia (30/10/2026): a posição do portal é a de Mateus 24.** Uma só vinda de Cristo, pessoal e visível,
+   **depois da tribulação**: "logo depois da aflição daqueles dias" o Filho do Homem vem nas nuvens e os anjos, com
+   trombeta, ajuntam os escolhidos (Mateus 24:29-31); o arrebatamento de 1 Tessalonicenses 4 acontece nessa vinda.
+   Aqui o portal **diverge da Declaração de Fé das Assembleias de Deus** (pré-tribulacionista) e diz isso com respeito,
+   relatando a leitura das Lições Bíblicas da CPAD com fidelidade. Ninguém marca data (Mateus 24:36); a ênfase é vigiar
+   e perseverar (24:13, 42-44). Modelo: `conteudo/estudos/arrebatamento-1-tessalonicenses-4.json`.
 
 **Mistura de temas (30/10/2026).** Dos 5 estudos do dia, **2 são de debate** (`"tipo": "debate"`: lados + "Nossa
 posição") e **3 são de passagem** (`"tipo": "passagem"`: textos que unem os cristãos, com `vozes` de 2 a 4 teólogos e

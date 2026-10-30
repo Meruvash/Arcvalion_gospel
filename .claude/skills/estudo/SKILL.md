@@ -45,6 +45,8 @@ Antes de escrever, confira cada citação nas páginas salvas (`grep -F "<trecho
 
 **Linha pentecostal (30/10/2026, obrigatória):** o portal é pentecostal e diz onde está. Leia "Linha editorial pentecostal" em docs/PADRAO_EDITORIAL.md e a **Declaração de Fé das Assembleias de Deus** (https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf; peça ao subagente o que ela diz sobre o tema, com a frase conferida). Todo estudo tem `nossa_posicao` (Nossa posição, 1 a 4 parágrafos, tese pentecostal firme e fundamentada), o lado pentecostal primeiro em `posicoes`, e título, tagline, lede, destaques, atenção, aplicação, veredito e legenda escritos a partir dessa cosmovisão. O outro lado continua relatado com fidelidade e respeito, sem caricatura e sem chamar ninguém de herege. Modelo: `conteudo/estudos/batismo-de-criancas-atos-2.json`.
 
+**Escatologia:** a posição do portal é a de Mateus 24 (uma só vinda, visível, depois da tribulação), diferente da Declaração de Fé das Assembleias de Deus; ver item 7 da "Linha editorial pentecostal" no padrão editorial. Vale para os temas da pauta sobre o fim (arrebatamento, "esta geração", setenta semanas, Israel e a igreja, Apocalipse).
+
 Tom: o relato dos lados é fiel e no melhor argumento de cada um; a voz do portal ("a gente") fica nas partes de opinião. Varie as aberturas, os vereditos e as legendas entre os estudos do dia (leia os últimos publicados): nada de repetir "A gente fica com..." em todos.
 
 ## Imagem
