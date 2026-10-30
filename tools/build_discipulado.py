@@ -80,7 +80,8 @@ def markdown(texto, nivel=0):
             out.append(f"<h{n}>{inline(m.group(2))}</h{n}>" + markdown("\n".join(linhas[1:]), nivel))
         else:
             out.append(f"<p>{inline(' '.join(linhas))}</p>")
-    return "".join(out)
+    # itens de lista separados por linha em branco (um parágrafo por item, para o medidor) viram uma lista só
+    return re.sub(r"</(ul|ol)><\1>", "", "".join(out))
 
 
 def secoes(texto):

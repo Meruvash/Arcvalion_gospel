@@ -73,9 +73,9 @@ def problemas(c, publicar=None, pasta=None):
             erros.append("aluno.md: texto bíblico na NTLH com a linha de crédito da SBB")
         if re.search(r"\[(verificada|parcial|não verificada)\]", limpo):
             erros.append("aluno.md: marcas de verificação ficam no dossiê e no guia, não no texto do aluno")
-        n = palavras(limpo)
-        if not 1000 <= n <= 1800:
-            erros.append(f"aluno.md: {n} palavras (alvo 1.000 a 1.500; texto bíblico incluído, até 1.800)")
+        n = palavras(re.sub(r"^>.*$", "", limpo, flags=re.M))  # sem o texto bíblico em citação
+        if not 1000 <= n <= 1500:
+            erros.append(f"aluno.md: {n} palavras fora das citações (padrão: 1.000 a 1.500)")
         f = falhas(analisar(aluno, META_ALUNO), META_ALUNO)
         if f and "justificativa:" not in aluno:
             erros.append("aluno.md reprovado no medidor de legibilidade: " + "; ".join(f))

@@ -45,11 +45,12 @@ VOGAIS = set("aeiouáéíóúâêôãõàü")
 
 
 def strip_markdown(texto: str) -> str:
+    # [ \t] e não \s nas marcas de linha: \s também casa quebra de linha e juntava o parágrafo anterior ao título ou à lista
     texto = re.sub(r"<!--.*?-->", "", texto, flags=re.S)        # comentários HTML
     texto = re.sub(r"```.*?```", "", texto, flags=re.S)           # blocos de código
-    texto = re.sub(r"^\s{0,3}#{1,6}\s+", "", texto, flags=re.M)  # marcas de título
-    texto = re.sub(r"^\s*[-*+]\s+", "", texto, flags=re.M)        # marcadores de lista
-    texto = re.sub(r"^\s*\d+\.\s+", "", texto, flags=re.M)        # listas numeradas
+    texto = re.sub(r"^[ \t]{0,3}#{1,6}[ \t]+", "", texto, flags=re.M)  # marcas de título
+    texto = re.sub(r"^[ \t]*[-*+][ \t]+", "", texto, flags=re.M)        # marcadores de lista
+    texto = re.sub(r"^[ \t]*\d+\.[ \t]+", "", texto, flags=re.M)        # listas numeradas
     texto = re.sub(r"\*\*|__|\*|_|`|>", "", texto)                # ênfase e citação
     texto = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", texto)       # links
     return texto
