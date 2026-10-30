@@ -1,0 +1,209 @@
+{
+ "slug": "stf-derruba-regra-rondonia-minimo-educacao",
+ "data": "2026-10-30",
+ "categoria": "Política e Sociedade",
+ "status": "revisao",
+ "selo": "Vale acompanhar",
+ "titulo": "STF derruba regra que deixava Rondônia contar no mínimo da educação gastos pagos no ano seguinte",
+ "lide": "O ministro Alexandre de Moraes, do STF, declarou inconstitucional o trecho da Lei Complementar 1.114/2021 que permitia a Rondônia contar no mínimo constitucional da educação despesas deixadas em restos a pagar e quitadas até o fim do ano seguinte. A decisão individual, assinada em 20 de outubro, atende a recurso do Ministério Público de Rondônia.",
+ "por_que_importa": "O piso de 25% para a educação só protege o aluno se for medido no ano certo. Gasto contado num ano e pago no outro deixa o Tribunal de Contas conferindo uma conta que ainda não fechou. Com a decisão, o dinheiro das escolas de Rondônia volta a ser medido pela régua da lei federal.",
+ "numeros": [
+  [
+   "25%",
+   "da receita de impostos é o mínimo que o Estado deve aplicar em educação a cada ano (art. 212 da Constituição)",
+   "Constituição Federal, citada na decisão do STF"
+  ],
+  [
+   "até 10%",
+   "dos recursos do Fundeb podem ser usados no primeiro quadrimestre do ano seguinte, com crédito adicional",
+   "Lei 14.113/2020, art. 25, § 3º"
+  ],
+  [
+   "24,66%",
+   "foi a aplicação de Rondônia em educação em 2021 pela apuração técnica do TCE-RO, que não contou restos a pagar quitados depois de abril de 2022",
+   "Parecer do Ministério Público de Contas de Rondônia (Proc. 730/2022, julho de 2023)"
+  ]
+ ],
+ "corpo": [
+  "A lei federal do Fundeb manda aplicar os recursos no ano em que são creditados e admite usar até 10% no primeiro quadrimestre seguinte. O inciso derrubado ia além: contava no mínimo do ano as despesas inscritas em restos a pagar, desde que houvesse dinheiro na conta vinculada da educação e o pagamento saísse até o fim do ano seguinte, sem limite de valor.",
+  "A ação começou no Tribunal de Justiça de Rondônia, proposta pelo procurador-geral de Justiça a partir de representação do Tribunal de Contas do Estado. O TJ-RO, por maioria, manteve a regra, por entender que ela tratava de gestão de recursos, assunto em que o Estado pode legislar. Moraes deu razão ao MP: definir que despesa entra no mínimo é diretriz nacional, reservada à União. O restante da lei, que criou o Abono Educação, não foi atingido."
+ ],
+ "no_brasil": "A régua do Fundeb vale para todos os estados e municípios. Na decisão, Moraes cita o voto da ministra Rosa Weber na ADI 5.691, julgada em 2020, sobre norma estadual que mexia no controle do mínimo em educação. A decisão foi publicada no Diário da Justiça em 26 de outubro.",
+ "critica": [
+  {
+   "fonte": "Ministro Alexandre de Moraes, relator, na decisão do RE 1.578.896",
+   "texto": "a norma estadual extrapola a competência suplementar e invade esfera reservada à União",
+   "citacao": true,
+   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391713540&ext=.pdf"
+  },
+  {
+   "fonte": "Tribunal de Justiça de Rondônia, tese do acórdão de maioria, transcrita na decisão do STF",
+   "texto": "a lei referida dispõe sobre gestão de execução de dotação destinada às singularidades da educação excepcionadas",
+   "citacao": true,
+   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391713540&ext=.pdf"
+  },
+  {
+   "fonte": "Ministério Público de Rondônia, no recurso, citando a representação do TCE-RO (transcrito na decisão do STF)",
+   "texto": "Segundo o MP, a aplicação em dois anos fragiliza os controles internos e a transparência dos gastos e atrasa o exame do mínimo nas contas anuais do governador.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Pais e professores da rede estadual: o gasto com educação de cada ano volta a ser conferido no próprio ano, o que facilita cobrar o cumprimento do piso",
+  "Quem acompanha as contas do governo: o parecer do TCE-RO sobre as contas anuais passa a medir o mínimo sem a folga de um ano extra",
+  "Igrejas que mantêm projetos de reforço escolar e conselhos de escola podem pedir à Seduc o demonstrativo anual de gastos com educação"
+ ],
+ "nao_e_para": [
+  "É decisão individual do relator: o Estado e a Assembleia ainda podem recorrer à Turma do STF (agravo regimental, art. 317 do Regimento Interno)",
+  "Não localizamos manifestação do Governo de Rondônia nem da Assembleia sobre a decisão; o andamento do processo no STF não registra recurso até 30/10",
+  "Não há cálculo público de quanto a regra pesou nas contas de cada ano; o número de 2021 vem de parecer do MP de Contas, não de julgamento final do TCE-RO"
+ ],
+ "veredito": "“Pois zelamos o que é honesto, não só diante do Senhor, mas também diante dos homens” (2 Coríntios 8.21, ARC). Paulo prestava contas da oferta no tempo certo. Dinheiro de escola também: conta clara, no ano certo, é respeito ao aluno.",
+ "fontes": [
+  {
+   "nome": "STF: decisão monocrática no Recurso Extraordinário 1.578.896 (RO), assinada em 20/10/2026, íntegra em PDF",
+   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391713540&ext=.pdf",
+   "data": "30/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: andamento do RE 1.578.896 (provido em 23/10/2026; DJe de 26/10/2026; partes)",
+   "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7428888",
+   "data": "30/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Lei 14.113/2020 (Fundeb), art. 25, Planalto",
+   "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14113.htm",
+   "data": "30/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Ministério Público de Contas de Rondônia: parecer no Proc. 730/2022 (contas da Seduc de 2021), 21/07/2023",
+   "url": "https://rondonia.ro.gov.br/wp-content/uploads/2023/11/Parecer-MPC-2021.pdf",
+   "data": "30/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Rondônia Dinâmica: Moraes derruba regra de Rondônia que permitia contabilizar despesas da educação pagas até o fim do ano seguinte (29/10/2026)",
+   "url": "https://www.rondoniadinamica.com/noticias/2026/10/moraes-derruba-regra-de-rondonia-que-permitia-contabilizar-despesas-da-educacao-pagas-ate-o-fim-do-ano-seguinte,257599.shtml",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "pontos": 12,
+  "trilha": "quente",
+  "abrangencia": "rondonia",
+  "eixos": {
+   "valor": 8,
+   "viral": 2,
+   "cristao": 2
+  },
+  "origem": {
+   "nome": "Rondônia Dinâmica",
+   "url": "https://www.rondoniadinamica.com/noticias/2026/10/moraes-derruba-regra-de-rondonia-que-permitia-contabilizar-despesas-da-educacao-pagas-ate-o-fim-do-ano-seguinte,257599.shtml"
+  },
+  "criterios": [
+   "Documento primário: íntegra da decisão do STF (2)",
+   "Ato de poder: decisão do STF sobre lei estadual (2)",
+   "Proximidade: Rondônia (2)",
+   "Número forte com fonte oficial: 24,66% em 2021 (1)",
+   "Duas fontes independentes: STF e Rondônia Dinâmica (1)",
+   "Moeda social: documento lido na íntegra, com o contexto das contas de 2021 que os portais não deram (1)",
+   "Utilidade: pais e conselhos podem cobrar o demonstrativo anual (1)",
+   "Passagem bíblica sem forçar: 2 Coríntios 8.21 (2)"
+  ]
+ },
+ "curadoria": {
+  "_nota": "Teste das novas diretrizes (motor 0 a 100, pedido de 30/10/2026). Registro de auditoria da escolha; ainda não lido pelo build.",
+  "titulo_original": "Moraes derruba regra de Rondônia que permitia contabilizar despesas da educação pagas até o fim do ano seguinte",
+  "nucleo": "C - Porto Velho e Rondônia",
+  "categoria": "Judiciário / finanças da educação",
+  "publicacao_original": "2026-10-29T11:41-04:00",
+  "coleta": "2026-10-30",
+  "relevancia": {
+   "total": 77,
+   "faixa": "alta relevância (70 a 84)",
+   "criterios": {
+    "impacto_publico": [
+     23,
+     30,
+     "muda a régua do piso de 25% de toda a rede estadual; sem valor público do efeito por ano"
+    ],
+    "afinidade": [
+     18,
+     25,
+     "Rondônia, educação e família; STF é tema central do público"
+    ],
+    "atualidade": [
+     13,
+     20,
+     "decisão de 20/10, DJe de 26/10, noticiada em 29/10; ainda sem repercussão nem recurso"
+    ],
+    "comprovacao": [
+     15,
+     15,
+     "íntegra da decisão e andamento lidos no STF; lei federal conferida"
+    ],
+    "originalidade": [
+     8,
+     10,
+     "contexto das contas de 2021 (24,66%) e o lado do TJ-RO, ausentes nos portais"
+    ]
+   }
+  },
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em documento primário",
+   "contradicoes": "Rondônia Dinâmica dá a decisão como de 20/10 (data da assinatura); o andamento do STF registra 'Provido' em 23/10 e DJe em 26/10. O texto usa as três datas com o que cada uma é.",
+   "sem_confirmacao": "reação do Governo e da ALE-RO; impacto em reais por ano"
+  },
+  "duplicidade": {
+   "grupo": "STF RE 1.578.896 / LC 1.114/2021",
+   "itens": [
+    "Rondônia Dinâmica 29/10 11h41 (texto mais completo; origem da pauta)",
+    "Rondoniaovivo 29/10 13h30 (republicação atribuída ao Rondônia Dinâmica: não conta como confirmação)",
+    "Atlas Público (derivado)"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "revisao_humana": "recomendada: conteúdo jurídico (decisão ainda recorrível)",
+  "seo": {
+   "intencao": "entender o que o STF decidiu sobre o dinheiro da educação em Rondônia",
+   "entidades": [
+    "STF",
+    "Alexandre de Moraes",
+    "MPRO",
+    "TCE-RO",
+    "TJ-RO",
+    "Lei Complementar 1.114/2021",
+    "Fundeb"
+   ],
+   "termos": [
+    "mínimo constitucional da educação",
+    "restos a pagar",
+    "Fundeb Rondônia",
+    "RE 1.578.896"
+   ],
+   "atualizacao": "acompanhar agravo do Estado e o parecer do TCE-RO sobre as contas de 2026"
+  }
+ },
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da decisão, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a nota não diz que o Governo de Rondônia descumpriu a lei nem desviou verba; relata a decisão, o argumento de cada lado com a fonte e o número de 2021 atribuído ao parecer do MP de Contas, sem tratá-lo como julgamento final. A opinião fala da regra e do princípio, não de pessoas.",
+ "imagem": {
+  "arquivo": "capas/stf-derruba-regra-rondonia-minimo-educacao.jpg",
+  "credito": "Foto: Andressa Anholete/Agência Brasil",
+  "alt": "Fachada do prédio do Supremo Tribunal Federal, em Brasília, com o sol ao fundo (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/TofNm0jzs3GXYkZhyNuXgT_2itI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/10/55518626038_9f69a10c56_o.jpg?itok=zaTwNvdO",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/stf-deve-julgar-revisao-da-condenacao-de-bolsonaro-apos-eleicoes"
+ }
+}
