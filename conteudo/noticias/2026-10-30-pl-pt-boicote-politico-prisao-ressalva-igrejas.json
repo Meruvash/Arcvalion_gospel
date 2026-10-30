@@ -2,7 +2,7 @@
  "slug": "pl-pt-boicote-politico-prisao-ressalva-igrejas",
  "data": "2026-10-30",
  "categoria": "politica-e-sociedade",
- "status": "revisao",
+ "status": "publicado",
  "opiniao_forte": true,
  "selo": "Motivo de alerta",
  "titulo": "Projeto do PT pune boicote político com prisão; ressalva a igrejas ficou só na justificativa",
@@ -189,7 +189,7 @@
    "ja_publicado_por_nos": false,
    "relacionada": "2026-10-30-pl-intolerancia-politica-boicote-demissao (PL 2.885/2022, do Senado: outro projeto)"
   },
-  "revisao_humana": "obrigatória: pedido do responsável editorial em 30/10/2026 (aprovar antes de publicar); Opinião Forte sobre projeto de lei",
+  "revisao_humana": "feita: aprovada pelo responsável editorial em 30/10/2026, após revisão da opinião pelo consenso conservador",
   "seo": {
    "intencao": "entender o projeto que pune boicote e demissão por voto",
    "entidades": [
@@ -226,5 +226,9 @@
   "origem": "https://www.camara.leg.br/midias/image/2026/10/img20261028163528536.jpg",
   "pagina": "https://www.camara.leg.br/noticias/1314703-reeleicao-de-lula-e-viagem-de-flavio-bolsonaro-aos-eua-repercutem-no-plenario"
  },
- "publicado_em": "2026-10-30T16:12:56+00:00"
+ "publicado_em": "2026-10-30T13:28:43-03:00",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T13:28:43-03:00"
+ }
 }
