@@ -24,6 +24,7 @@ import portal  # noqa: E402
 
 UA = "PortalCristao-pauta/1.0 (+coleta de pauta; respeita robots.txt)"
 _ROBOS = {}
+POR_FONTE = 6
 
 
 def permitido(url):
@@ -102,15 +103,19 @@ def main(args):
                 continue
             if filtro and not filtro.search(f"{titulo} {resumo}"):
                 continue
-            nota = (2 if temas.search(f"{titulo} {resumo}") else 0) + (1 if f.get("tipo") == "primaria" else 0)
+            # portal conservador de origem sobe um ponto (docs/CRIVO_NOTICIAS.md); o fato ainda pede a fonte primária
+            nota = (2 if temas.search(f"{titulo} {resumo}") else 0) + (1 if f.get("tipo") == "primaria" else 0) + (1 if f.get("conservador") else 0)
             cands.append((nota, quando or limite, f, titulo, link, resumo))
     cands.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    # no máximo POR_FONTE itens de cada feed, para um agregador que publica muito não tomar a pauta toda
+    vistos = {}
+    cands = [c for c in cands if vistos.setdefault(c[2]["nome"], []).append(1) or len(vistos[c[2]["nome"]]) <= POR_FONTE]
     hoje = datetime.now().date().isoformat()
     linhas = [f"# Pauta sugerida de {hoje} (últimos {dias} dias)", "",
               "Lista automática, só para orientar a redação. Nenhum item é notícia pronta: confirme na fonte primária, "
               "ouça os envolvidos, escreva com o padrão editorial e publique só com revisão humana.", ""]
     for nota, quando, f, titulo, link, resumo in cands[:80]:
-        linhas += [f"## {titulo}", f"- Fonte: {f['nome']} ({'primária' if f.get('tipo') == 'primaria' else 'outro veículo'}) · {quando:%d/%m %H:%M} · editoria sugerida: {f['editoria']} · prioridade {nota}",
+        linhas += [f"## {titulo}", f"- Fonte: {f['nome']} ({'primária' if f.get('tipo') == 'primaria' else 'outro veículo'}{', portal conservador' if f.get('conservador') else ''}) · {quando:%d/%m %H:%M} · editoria sugerida: {f['editoria']} · prioridade {nota}",
                    f"- Link: {link}", f"- {resumo}" if resumo else "", ""]
     if avisos:
         linhas += ["## Avisos da coleta", ""] + [f"- {a}" for a in avisos]

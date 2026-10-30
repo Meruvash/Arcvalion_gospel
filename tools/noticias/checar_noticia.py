@@ -28,6 +28,34 @@ ANONIMO = re.compile(r"\b(segundo fontes|fontes (ouvidas|próximas|consultadas)|
 LOJAS = re.compile(r"\b(Amazon|Mercado Livre|Magalu|Magazine Luiza|Shopee|Americanas|Submarino|Casas Bahia|AliExpress|Shein)\b", re.I)
 FOTO_MIN = 500
 MINIMO = 3   # notas por dia na fase de teste (o Elite usa 5)
+# crivo de 0 a 20 (docs/CRIVO_NOTICIAS.md): teto de cada eixo e nota mínima para publicar
+EIXOS = {"valor": 8, "viral": 7, "cristao": 5}
+TRILHAS = {"quente", "atemporal"}
+CORTE = 8
+
+
+def checar_crivo(c):
+    """Notas com 'eixos' seguem o crivo de 0 a 20; as antigas, só com 'pontos', continuam valendo."""
+    if not isinstance(c.get("pontos"), int):
+        return ["crivo sem pontos"]
+    if "eixos" not in c:
+        return []
+    erros = []
+    eixos = c["eixos"] if isinstance(c["eixos"], dict) else {}
+    for nome, teto in EIXOS.items():
+        v = eixos.get(nome)
+        if not isinstance(v, int) or not 0 <= v <= teto:
+            erros.append(f"crivo: eixo {nome!r} precisa ser inteiro de 0 a {teto}")
+    if not erros and sum(eixos[k] for k in EIXOS) != c["pontos"]:
+        erros.append(f"crivo: pontos ({c['pontos']}) diferente da soma dos eixos ({sum(eixos[k] for k in EIXOS)})")
+    if not erros and c["pontos"] < CORTE:
+        erros.append(f"crivo: {c['pontos']} pontos, abaixo do corte de {CORTE} (docs/CRIVO_NOTICIAS.md)")
+    if c.get("trilha") not in TRILHAS:
+        erros.append("crivo: 'trilha' precisa ser quente ou atemporal")
+    o = c.get("origem")
+    if o is not None and (not isinstance(o, dict) or not o.get("nome") or not o.get("url")):
+        erros.append("crivo: 'origem' (portal onde a pauta nasceu) precisa de nome e url")
+    return erros
 
 
 def palavras(t):
@@ -126,8 +154,7 @@ def problemas(n, publicar=None):
             erros.append(f"citação literal de {c.get('fonte')!r} sem 'url' da página onde a frase está")
     if publicar or n.get("status") == "revisao":
         erros += checar_foto(n)
-    if not isinstance(n.get("crivo", {}).get("pontos"), int):
-        erros.append("crivo sem pontos")
+    erros += checar_crivo(n.get("crivo") or {})
     if publicar:
         erros += checar_revisao(n)
     return erros

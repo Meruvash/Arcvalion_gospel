@@ -67,6 +67,20 @@ class Noticias(unittest.TestCase):
         a["manchete"] = False
         self.assertTrue(checar_dia([a, b]))
 
+    def test_crivo_de_vinte_pontos(self):
+        def crivo(**mud):
+            c = {"pontos": 15, "trilha": "quente", "eixos": {"valor": 6, "viral": 5, "cristao": 4},
+                 "origem": {"nome": "The Christian Post", "url": "https://www.christianpost.com/"}}
+            c.update(mud)
+            return self.erros(crivo=c)
+        self.assertEqual(crivo(), "")
+        self.assertIn("soma dos eixos", crivo(pontos=16))
+        self.assertIn("de 0 a 7", crivo(pontos=17, eixos={"valor": 6, "viral": 8, "cristao": 3}))
+        self.assertIn("abaixo do corte", crivo(pontos=7, eixos={"valor": 4, "viral": 2, "cristao": 1}))
+        self.assertIn("trilha", crivo(trilha="morna"))
+        self.assertIn("origem", crivo(origem={"nome": "Daily Wire"}))
+        self.assertEqual(self.erros(crivo={"pontos": 5}), "")  # nota antiga, sem eixos, continua valendo
+
 
 class Estudos(unittest.TestCase):
     def setUp(self):

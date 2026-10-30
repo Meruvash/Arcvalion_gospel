@@ -1,5 +1,5 @@
 {
- "_ajuda": "Feeds da rodada 1 da rotina de notícias (tools/editorial/coletar.py), testados em 29/10/2026. 'filtro': 'temas' deixa passar só itens dos temas do portal (campo temas); um regex próprio também vale. 'tipo' primaria = a própria instituição fala; secundaria = outro veículo (serve de pista: a notícia precisa da fonte primária). Fontes que proíbem robôs ficam só para leitura pontual. 'nivel' A = fonte de referência, B = pista (ver docs/FONTES.md).",
+ "_ajuda": "Feeds da rodada 1 da rotina de notícias (tools/editorial/coletar.py), testados em 29/10/2026. 'filtro': 'temas' deixa passar só itens dos temas do portal (campo temas); um regex próprio também vale. 'tipo' primaria = a própria instituição fala; secundaria = outro veículo (serve de pista: a notícia precisa da fonte primária). Fontes que proíbem robôs ficam só para leitura pontual. 'nivel' A = fonte de referência, B = pista (ver docs/FONTES.md). 'conservador': true marca portal conservador de origem (docs/CRIVO_NOTICIAS.md): sobe na pauta, mas o fato continua precisando da fonte primária.",
  "feeds": [
   {
    "nome": "Agência Senado",
@@ -76,7 +76,8 @@
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
    "filtro": "igreja|evangélic|cristã|cristão|pastor|gospel|católic|religios|perseguição|missionári|bíblia",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "Guiame",
@@ -132,14 +133,16 @@
    "url": "https://oantagonista.com.br/feed/",
    "editoria": "politica-e-sociedade",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "Revista Crusoé",
    "url": "https://crusoe.com.br/feed/",
    "editoria": "politica-e-sociedade",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "Jovem Pan News",
@@ -147,7 +150,8 @@
    "editoria": "politica-e-sociedade",
    "tipo": "secundaria",
    "filtro": "igreja|evangélic|cristã|cristão|religios|liberdade religiosa|liberdade de expressão|família|aborto|escola|educação",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "Poder360",
@@ -170,14 +174,16 @@
    "url": "https://mises.org.br/feed/",
    "editoria": "economia-e-negocios",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "The Christian Post",
    "url": "https://www.christianpost.com/rss",
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "Christian Headlines (Crosswalk)",
@@ -198,14 +204,16 @@
    "url": "https://www.ncregister.com/feeds/general-news.xml",
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "WORLD",
    "url": "https://wng.org/feeds/rss/magazine.rss",
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "International Christian Concern",
@@ -240,21 +248,24 @@
    "url": "https://erlc.com/feed/",
    "editoria": "familia-e-valores",
    "tipo": "primaria",
-   "nivel": "A"
+   "nivel": "A",
+   "conservador": true
   },
   {
    "nome": "The Gospel Coalition",
    "url": "https://www.thegospelcoalition.org/feed/",
    "editoria": "fe-e-biblia",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "First Things",
    "url": "https://firstthings.com/feed/",
    "editoria": "fe-e-biblia",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "Relevant",
@@ -269,7 +280,8 @@
    "editoria": "politica-e-sociedade",
    "tipo": "secundaria",
    "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|persecut|bible",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "National Review",
@@ -277,7 +289,8 @@
    "editoria": "politica-e-sociedade",
    "tipo": "secundaria",
    "filtro": "church|christian|evangelical|catholic|faith|relig|abortion|persecut",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "Washington Examiner",
@@ -285,7 +298,8 @@
    "editoria": "politica-e-sociedade",
    "tipo": "secundaria",
    "filtro": "church|christian|evangelical|catholic|faith|relig|abortion|persecut",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "The Dispatch",
@@ -293,7 +307,8 @@
    "editoria": "politica-e-sociedade",
    "tipo": "secundaria",
    "filtro": "church|christian|evangelical|catholic|faith|relig|abortion",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "The American Conservative",
@@ -301,7 +316,8 @@
    "editoria": "politica-e-sociedade",
    "tipo": "secundaria",
    "filtro": "church|christian|catholic|faith|relig",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "Brussels Signal",
@@ -309,7 +325,8 @@
    "editoria": "politica-e-sociedade",
    "tipo": "secundaria",
    "filtro": "church|christian|catholic|faith|relig|abortion|family|persecut",
-   "nivel": "B"
+   "nivel": "B",
+   "conservador": true
   },
   {
    "nome": "CGADB (Assembleias de Deus)",
@@ -346,7 +363,59 @@
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
    "nivel": "B"
+  },
+  {
+   "nome": "The Daily Wire",
+   "url": "https://www.dailywire.com/feeds/rss.xml",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "nivel": "C",
+   "conservador": true,
+   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender"
+  },
+  {
+   "nome": "The Daily Signal (Heritage Foundation)",
+   "url": "https://www.dailysignal.com/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "nivel": "B",
+   "conservador": true,
+   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender"
+  },
+  {
+   "nome": "The Federalist",
+   "url": "https://thefederalist.com/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "nivel": "C",
+   "conservador": true,
+   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender"
+  },
+  {
+   "nome": "Washington Free Beacon",
+   "url": "https://freebeacon.com/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "nivel": "B",
+   "conservador": true,
+   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender"
+  },
+  {
+   "nome": "Faithwire (CBN)",
+   "url": "https://www.faithwire.com/feed/",
+   "editoria": "noticias-gospel",
+   "tipo": "secundaria",
+   "nivel": "C",
+   "conservador": true
+  },
+  {
+   "nome": "Live Action News",
+   "url": "https://www.liveaction.org/news/feed/",
+   "editoria": "familia-e-valores",
+   "tipo": "secundaria",
+   "nivel": "C",
+   "conservador": true
   }
  ],
- "temas": "igreja|igrejas|evangélic|cristã|cristão|religios|liberdade religiosa|liberdade de expressão|família|famílias|criança|infância|adolesc|educação|escola|aborto|casamento|missões|missionári|pastor|bíblia|fé\\b|culto|templo|perseguição|gospel"
+ "temas": "igreja|igrejas|evangélic|cristã|cristão|religios|liberdade religiosa|liberdade de expressão|família|famílias|criança|infância|adolesc|educação|escola|aborto|casamento|missões|missionári|pastor|bíblia|fé\\b|culto|templo|perseguição|gospel|church|christian|evangelical|catholic|faith|religio|pastor|abortion|pro-life|persecut|bible|family|marriage|parents|school|children"
 }
