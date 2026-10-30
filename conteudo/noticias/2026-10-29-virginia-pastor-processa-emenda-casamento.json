@@ -145,7 +145,12 @@
   "O mesmo grupo move outra ação, com o mesmo argumento, contra a emenda do aborto que também está na cédula",
   "A regra de 2006 só voltaria a valer se a Suprema Corte revisse a decisão Obergefell"
  ],
- "veredito": "Perguntado sobre casamento, Jesus voltou ao princípio: o Criador “os fez homem e mulher” (Mateus 19.4, NVI). Ore pelos pastores da Virgínia nesta semana. Convicção firme, tom manso e regra cumprida: é assim que se defende o que se crê.",
+ "veredito": "A gente defende o casamento entre homem e mulher e apoia a ação pelo motivo certo: Constituição só muda com o rito cumprido. Se a Justiça confirmar a falha na divulgação, a emenda não deve valer; se não confirmar, o resultado vale, e a defesa do casamento segue no voto e na persuasão.",
+ "versiculo": {
+  "texto": "Vocês não leram que, no princípio, o Criador ‘os fez homem e mulher’?",
+  "referencia": "Mateus 19.4",
+  "traducao": "NVI"
+ },
  "ia": {
   "usada": true,
   "uso": "pesquisa nas fontes, tradução, organização dos fatos e primeira versão do texto"
@@ -154,10 +159,16 @@
  "manchete": false,
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-29T21:40:01-03:00",
-  "modo": "automatica"
+  "data": "2026-10-29T23:44:33-03:00"
  },
  "publicado_em": "2026-10-29T21:40:01-03:00",
  "opiniao_forte": true,
- "checagem_juridica": "Leitura hostil feita: o texto não atribui crime nem má-fé a ninguém; a irregularidade é apresentada como alegação da petição, atribuída. A opinião critica só o procedimento e vale para os dois lados; o lado favorável à emenda aparece com fala literal de Kirk McPike; nenhuma frase desqualifica casais do mesmo sexo ou qualquer grupo."
+ "checagem_juridica": "Leitura hostil feita: o texto não atribui crime nem má-fé a ninguém; a irregularidade é apresentada como alegação da petição, atribuída. A opinião critica só o procedimento e vale para os dois lados; o lado favorável à emenda aparece com fala literal de Kirk McPike; nenhuma frase desqualifica casais do mesmo sexo ou qualquer grupo.",
+ "correcoes": [
+  {
+   "data": "2026-10-29",
+   "texto": "A seção Nossa opinião foi reescrita para trazer o posicionamento do portal sobre o fato; o versículo, que estava no meio do texto, passou para o fim da seção."
+  }
+ ],
+ "atualizado_em": "2026-10-29T23:44:33-03:00"
 }

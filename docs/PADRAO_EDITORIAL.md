@@ -20,7 +20,8 @@ fato certo?) é da pessoa revisora, que aprova com `tools/publicar.py`.
 | `critica` | O que dizem | 1 a 3 posições `{fonte, texto, citacao, url}`; paráfrase com o nome dentro do texto; `citacao: true` só com frase literal lida na página de `url`; `traducao: true` quando a frase foi traduzida (a página mostra "tradução livre") |
 | `para_quem` / `nao_e_para` | O que muda para você / Pontos de atenção | 1 a 3 / 1 a 3 |
 |  |  | **O que muda para você**: o efeito concreto do fato na vida da família, da igreja ou do cidadão, tirado do que está nas fontes (se ainda depende de votação, diga "Se virar lei, …"). **Pontos de atenção**: o que está pendente ou incerto (votação que falta, prazo, dado de outro país, ressalva da própria fonte), só fato com fonte, sem opinião. |
-| `veredito` | Nossa opinião | 20 a 60 palavras, conselho claro e o porquê |
+| `veredito` | Nossa opinião | 20 a 60 palavras: o **posicionamento do portal** sobre o fato ("a gente apoia/concorda/cobra/discorda…"), o porquê e um conselho concreto. **Sem versículo no texto** (pedido de 30/10/2026; o validador recusa referência bíblica aqui) |
+| `versiculo` | fim da Nossa opinião | opcional: `{texto, referencia, traducao}`, sai embaixo do posicionamento, em linha separada. Só quando a passagem cabe sem forçar |
 | `fontes` | Fontes | 2 ou mais, com nome, link, data e `tipo` (pelo menos uma `primaria`) |
 | `crivo` | Por que esta notícia entrou | pontos (0 a 20), trilha, eixos, portal de origem e critérios (`docs/CRIVO_NOTICIAS.md`); manchete = maior pontuação do dia |
 | `instituicao` | linha de data | quem fez o fato (Senado, CGADB, Pew…) |
@@ -64,7 +65,8 @@ e com quem (nada de caça-clique).
 9. **Sem muleta.** A mesma piada ou bordão no máximo uma vez por notícia e não se repete na notícia seguinte. Repita as
    técnicas, não as frases.
 10. **Fé com respeito.** Nada de deboche com a fé de ninguém, nem com outras denominações ou religiões. Versículo só
-    com referência e tradução, e nunca usado como arma contra pessoas.
+    com referência e tradução, nunca usado como arma contra pessoas, e na notícia só no campo `versiculo`, no fim
+    da Nossa opinião: no meio do posicionamento ele não entra.
 
 As outras 3 notícias de cada 5 seguem o tom padrão: opinião clara e fundamentada, sem ironia.
 

@@ -268,6 +268,8 @@ footer .in{display:flex;flex-wrap:wrap;gap:10px 20px;padding-top:18px;padding-bo
 .quem .no li::before{background:#b3263e}
 .nota .veredito{background:var(--panel2);color:var(--ink);border:1px solid var(--gold)}.nota .veredito h2{color:var(--gold)}
 .nota .veredito p{font-size:1.08rem;font-weight:600;margin-top:10px;max-width:62ch}
+.nota .veredito p.versiculo{font-size:.92rem;font-weight:400;font-style:italic;color:var(--muted);margin-top:14px;padding-top:10px;border-top:1px solid var(--line)}
+.nota .veredito .versiculo cite{font-style:normal;font-size:.82rem;white-space:nowrap}
 /* celular: blocos de ponta a ponta, lista enxuta e textos miúdos um pouco maiores */
 @media (max-width:599px){
  .marca img{width:68px}
@@ -699,12 +701,22 @@ def relacionadas(n, limite=3):
     return [o for *_, o in cands[:limite]]
 
 
+def versiculo(n):
+    """Versículo opcional da Nossa opinião: sai embaixo do posicionamento, nunca no meio dele (pedido de 30/10/2026)."""
+    v = n.get("versiculo")
+    if not v:
+        return ""
+    return f'<p class="versiculo">“{e(v["texto"])}” <cite>{e(v["referencia"])}, {e(v["traducao"])}</cite></p>'
+
+
 def build_nota(n, previa=False):
     """previa=True: nota em revisão, gerada em previa/noticias/<slug>/ fora do índice, com aviso no topo."""
     pre = "../../../" if previa else "../../"
     url = f"{SITE}/noticias/{n['slug']}/"
     texto_cp = f"{n['titulo']} (via O Paladino)"
-    fig = (f'<figure><img src="{pre}noticias/{n["imagem"]["arquivo"]}" srcset="{srcset(ROOT / "noticias" / n["imagem"]["arquivo"], pre)}" sizes="(min-width: 760px) 720px, 100vw" alt="{e(n["titulo"])}"><figcaption class="credito">{e(n["imagem"]["credito"])}</figcaption></figure>'
+    # prévia: só a foto original, sem gerar variantes em img/ (a pasta é pública e não pode antecipar nota em revisão)
+    resp = "" if previa else f' srcset="{srcset(ROOT / "noticias" / n["imagem"]["arquivo"], pre)}" sizes="(min-width: 760px) 720px, 100vw"' if n.get("imagem") else ""
+    fig = (f'<figure><img src="{pre}noticias/{n["imagem"]["arquivo"]}"{resp} alt="{e(n["titulo"])}"><figcaption class="credito">{e(n["imagem"]["credito"])}</figcaption></figure>'
            if n.get("imagem") else "")
     jogos = "".join(f'<a href="{pre}{j["resenha"]}/">Resenha: {e(j["nome"])}</a>' for j in n.get("jogos", []))
     fontes = "".join(f'<li><a href="{e(f["url"])}" target="_blank" rel="noopener">{e(f["nome"])}</a> <span>consulta em {e(f["data"])}</span></li>' for f in n["fontes"])
@@ -733,7 +745,7 @@ def build_nota(n, previa=False):
  <section class="bloco brasil-n"><h2>No Brasil</h2><p>{e(n['no_brasil'])}</p></section>
  {f'<section class="bloco"><h2>O que dizem</h2><ul class="crit">{critica}</ul></section>' if critica else ''}
  <section class="bloco quem"><div><h2>O que muda para você</h2><ul class="ok">{sim}</ul></div>{f'<div><h2>Pontos de atenção</h2><ul class="no">{nao}</ul></div>' if nao else ""}</section>
- <section class="bloco veredito {sc}"><h2>Nossa opinião</h2><span class="selo {sc}">{e(n['selo'])}</span><p>{e(n['veredito'])}</p></section>
+ <section class="bloco veredito {sc}"><h2>Nossa opinião</h2><span class="selo {sc}">{e(n['selo'])}</span><p>{e(n['veredito'])}</p>{versiculo(n)}</section>
  {convite_compartilhar(texto_cp, url, "Conhece alguém que vai gostar?", "Mande esta notícia para a turma.")}
  {interacoes(pre, f"/noticias/{n['slug']}/")}
  {f'<section class="bloco"><h2>Jogos citados</h2><div class="jogos">{jogos}</div></section>' if jogos else ""}
@@ -750,7 +762,7 @@ def build_nota(n, previa=False):
     # imagem para o Google: versão 16:9 com 1200 px (Discover) antes da capa original
     # é preferência, não regra: qualquer problema com a imagem só deixa de fora a versão larga
     imagens = [img]
-    if n.get("imagem"):
+    if n.get("imagem") and not previa:
         try:
             larga = capas_grandes.larga(ROOT / "noticias" / n["imagem"]["arquivo"])
             if larga != ROOT / "noticias" / n["imagem"]["arquivo"]:

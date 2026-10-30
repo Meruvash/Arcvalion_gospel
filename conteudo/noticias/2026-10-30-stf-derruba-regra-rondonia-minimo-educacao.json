@@ -1,8 +1,8 @@
 {
  "slug": "stf-derruba-regra-rondonia-minimo-educacao",
- "data": "2026-10-30",
+ "data": "2026-10-29",
  "categoria": "Política e Sociedade",
- "status": "revisao",
+ "status": "publicado",
  "selo": "Vale acompanhar",
  "titulo": "STF derruba regra que deixava Rondônia contar no mínimo da educação gastos pagos no ano seguinte",
  "lide": "O ministro Alexandre de Moraes, do STF, declarou inconstitucional o trecho da Lei Complementar 1.114/2021 que permitia a Rondônia contar no mínimo constitucional da educação despesas deixadas em restos a pagar e quitadas até o fim do ano seguinte. A decisão individual, assinada em 20 de outubro, atende a recurso do Ministério Público de Rondônia.",
@@ -58,7 +58,12 @@
   "Não localizamos manifestação do Governo de Rondônia nem da Assembleia sobre a decisão; o andamento do processo no STF não registra recurso até 30/10",
   "Não há cálculo público de quanto a regra pesou nas contas de cada ano; o número de 2021 vem de parecer do MP de Contas, não de julgamento final do TCE-RO"
  ],
- "veredito": "“Pois zelamos o que é honesto, não só diante do Senhor, mas também diante dos homens” (2 Coríntios 8.21, ARC). Paulo prestava contas da oferta no tempo certo. Dinheiro de escola também: conta clara, no ano certo, é respeito ao aluno.",
+ "veredito": "A gente concorda com a decisão: piso de educação que pode ser cumprido no ano seguinte deixa de ser piso. Se o Estado recorrer, que seja para discutir o direito, não para manter a folga. E a Seduc deve publicar o demonstrativo anual para pais e conselhos conferirem.",
+ "versiculo": {
+  "texto": "Pois zelamos o que é honesto, não só diante do Senhor, mas também diante dos homens",
+  "referencia": "2 Coríntios 8.21",
+  "traducao": "ARC"
+ },
  "fontes": [
   {
    "nome": "STF: decisão monocrática no Recurso Extraordinário 1.578.896 (RO), assinada em 20/10/2026, íntegra em PDF",
@@ -205,5 +210,11 @@
   "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
   "origem": "https://imagens.ebc.com.br/TofNm0jzs3GXYkZhyNuXgT_2itI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/10/55518626038_9f69a10c56_o.jpg?itok=zaTwNvdO",
   "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/stf-deve-julgar-revisao-da-condenacao-de-bolsonaro-apos-eleicoes"
- }
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-29T23:44:33-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-29T23:44:33-03:00"
 }

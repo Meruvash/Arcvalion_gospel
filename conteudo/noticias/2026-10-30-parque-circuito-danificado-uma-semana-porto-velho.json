@@ -53,7 +53,12 @@
   "A prefeitura não informou quem causou os danos nem se houve boletim de ocorrência",
   "A notícia oficial não traz o custo da revitalização nem o prazo para o conserto"
  ],
- "veredito": "Obra pública dura o tanto que dura o respeito de quem usa. “E procurai a paz da cidade […] e orai por ela ao Senhor” (Jeremias 29.7, ARC). Cuidar do que é de todos é fé posta em prática. Viu estrago? Denuncie.",
+ "veredito": "A gente cobra dos dois lados: de quem frequenta, respeito pelo que é de todos; da prefeitura, conserto rápido, vigilância e a informação que falta, como o custo da obra e o registro da ocorrência. Parque estragado e esquecido ensina que vandalismo compensa.",
+ "versiculo": {
+  "texto": "E procurai a paz da cidade […] e orai por ela ao Senhor",
+  "referencia": "Jeremias 29.7",
+  "traducao": "ARC"
+ },
  "fontes": [
   {
    "nome": "Agência de Notícias da Prefeitura de Porto Velho: Parque Circuito tem brinquedos danificados, lixeiras quebradas e pichações menos de uma semana após revitalização (29/10/2026)",
@@ -109,8 +114,14 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-29T22:56:03-03:00",
-  "modo": "automatica"
+  "data": "2026-10-29T23:44:33-03:00"
  },
- "publicado_em": "2026-10-29T22:56:03-03:00"
+ "publicado_em": "2026-10-29T22:56:03-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-29",
+   "texto": "A seção Nossa opinião foi reescrita para trazer o posicionamento do portal sobre o fato; o versículo, que estava no meio do texto, passou para o fim da seção."
+  }
+ ],
+ "atualizado_em": "2026-10-29T23:44:33-03:00"
 }

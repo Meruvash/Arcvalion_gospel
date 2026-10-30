@@ -117,7 +117,12 @@
   "A mensagem é da Igreja Católica dos EUA e não fala do Brasil",
   "Os bispos não indicaram candidato nem partido"
  ],
- "veredito": "“A nossa cidadania, porém, está nos céus” (Filipenses 3.20, NVI). Votar é dever, mas o voto não salva ninguém. Cristão que põe Jesus primeiro vota com consciência e continua irmão depois da apuração.",
+ "veredito": "A gente concorda com os bispos: nenhum partido merece a lealdade que é de Cristo. Votar com convicção é dever; transformar o voto em teste de fé e romper com irmão por causa da urna é erro. Depois da apuração, a comunhão continua.",
+ "versiculo": {
+  "texto": "A nossa cidadania, porém, está nos céus",
+  "referencia": "Filipenses 3.20",
+  "traducao": "NVI"
+ },
  "ia": {
   "usada": true,
   "uso": "pesquisa nas fontes, tradução, organização dos fatos e primeira versão do texto"
@@ -126,9 +131,15 @@
  "manchete": false,
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-29T21:40:01-03:00",
-  "modo": "automatica"
+  "data": "2026-10-29T23:44:33-03:00"
  },
  "publicado_em": "2026-10-29T21:40:01-03:00",
- "checagem_juridica": "Leitura hostil feita: as falas dos arcebispos são citações literais atribuídas, sem acréscimo de intenção; a opinião não cita candidato, partido ou eleitor brasileiro e não ofende grupo; o resultado da eleição brasileira não é mencionado nem insinuado."
+ "checagem_juridica": "Leitura hostil feita: as falas dos arcebispos são citações literais atribuídas, sem acréscimo de intenção; a opinião não cita candidato, partido ou eleitor brasileiro e não ofende grupo; o resultado da eleição brasileira não é mencionado nem insinuado.",
+ "correcoes": [
+  {
+   "data": "2026-10-29",
+   "texto": "A seção Nossa opinião foi reescrita para trazer o posicionamento do portal sobre o fato; o versículo, que estava no meio do texto, passou para o fim da seção."
+  }
+ ],
+ "atualizado_em": "2026-10-29T23:44:33-03:00"
 }

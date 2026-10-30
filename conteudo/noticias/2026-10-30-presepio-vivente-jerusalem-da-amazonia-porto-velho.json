@@ -40,7 +40,12 @@
   "A prefeitura não informou o endereço do parque temático nem se a entrada é gratuita",
   "A notícia oficial não diz quem organiza a encenação; o apoio citado é de secretarias municipais"
  ],
- "veredito": "Presépio em outubro parece fora de época, e é justamente por isso que chama atenção. “Pois, na cidade de Davi, vos nasceu hoje o Salvador, que é Cristo, o Senhor” (Lucas 2.11, ARC). Leve alguém que ainda não ouviu essa notícia.",
+ "veredito": "A gente recomenda: contar o nascimento de Jesus ao ar livre, num parque da cidade, alcança quem não entra numa igreja. Falta a prefeitura informar o endereço e se a entrada é gratuita; resolvido isso, vale ir em família e levar um convidado.",
+ "versiculo": {
+  "texto": "Pois, na cidade de Davi, vos nasceu hoje o Salvador, que é Cristo, o Senhor",
+  "referencia": "Lucas 2.11",
+  "traducao": "ARC"
+ },
  "fontes": [
   {
    "nome": "Agência de Notícias da Prefeitura de Porto Velho: Presépio Vivente será apresentado em três noites na Jerusalém da Amazônia (29/10/2026)",
@@ -107,7 +112,13 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-29T22:59:22-03:00",
-  "modo": "automatica"
- }
+  "data": "2026-10-29T23:44:33-03:00"
+ },
+ "correcoes": [
+  {
+   "data": "2026-10-29",
+   "texto": "A seção Nossa opinião foi reescrita para trazer o posicionamento do portal sobre o fato; o versículo, que estava no meio do texto, passou para o fim da seção."
+  }
+ ],
+ "atualizado_em": "2026-10-29T23:44:33-03:00"
 }

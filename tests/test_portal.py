@@ -95,6 +95,14 @@ class Noticias(unittest.TestCase):
         self.assertIn("checagem_juridica", self.erros(checagem_juridica=None))
         self.assertNotIn("risco jurídico", self.erros(veredito="A prefeitura pede que ninguém use fogo para eliminar lixo e que todos economizem água nesta seca."))
 
+    def test_versiculo_fora_da_opiniao(self):
+        meio = "A gente apoia a medida. “Tive sede, e destes-me de beber” (Mateus 25.35, ARC). Vale cobrar o prazo da prefeitura."
+        self.assertIn("veredito com versículo", self.erros(veredito=meio))
+        verso = {"texto": "Tive sede, e destes-me de beber", "referencia": "Mateus 25.35", "traducao": "ARC"}
+        self.assertEqual(self.erros(versiculo=verso), "")
+        self.assertIn("versiculo:", self.erros(versiculo=dict(verso, referencia="Mateus")))
+        self.assertIn("tradução", self.erros(versiculo=dict(verso, traducao="")))
+
     def test_opiniao_forte_dois_de_cinco(self):
         dia = []
         for i in range(5):

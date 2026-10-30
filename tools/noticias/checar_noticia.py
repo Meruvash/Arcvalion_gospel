@@ -27,6 +27,9 @@ STATUS = {"rascunho", "revisao", "publicado", "despublicado"}
 ANONIMO = re.compile(r"\b(segundo fontes|fontes (ouvidas|próximas|consultadas)|nos bastidores|comenta-se que|há rumores|circula nas redes que)\b", re.I)
 # Loja de varejo não aparece no texto (regra herdada do Elite: seria publicidade de graça); só nas fontes.
 LOJAS = re.compile(r"\b(Amazon|Mercado Livre|Magalu|Magazine Luiza|Shopee|Americanas|Submarino|Casas Bahia|AliExpress|Shein)\b", re.I)
+# referência bíblica ("Mateus 25.35", "2 Coríntios 8:21"): na Nossa opinião, o versículo vai no campo próprio, no fim
+REF_BIBLICA = re.compile(r"\b(?:[1-3] ?)?[A-ZÁÉÍÓÚ][a-záéíóúâêôãõç]+ \d{1,3}[.:]\d{1,3}\b")
+TRADUCOES = {"ARC", "ARA", "NVI", "NAA", "NVT", "ACF", "NTLH", "AS21", "KJA"}
 FOTO_MIN = 500
 MINIMO = 3   # notas por dia na fase de teste (o Elite usa 5)
 # crivo de 0 a 20 (docs/CRIVO_NOTICIAS.md): teto de cada eixo e nota mínima para publicar
@@ -59,6 +62,21 @@ def checar_crivo(c):
     o = c.get("origem")
     if o is not None and (not isinstance(o, dict) or not o.get("nome") or not o.get("url")):
         erros.append("crivo: 'origem' (portal onde a pauta nasceu) precisa de nome e url")
+    return erros
+
+
+def checar_versiculo(n):
+    """Nossa opinião é posicionamento concreto sobre o fato; o versículo, se houver, fica embaixo (pedido de 30/10/2026)."""
+    erros = []
+    if REF_BIBLICA.search(n.get("veredito", "")):
+        erros.append("veredito com versículo: a Nossa opinião diz o posicionamento do portal sobre o fato; "
+                     "o versículo, se couber, vai no campo 'versiculo' {texto, referencia, traducao}, exibido no fim")
+    v = n.get("versiculo")
+    if v is not None:
+        if not isinstance(v, dict) or not v.get("texto") or not REF_BIBLICA.fullmatch(v.get("referencia", "")):
+            erros.append("versiculo: {\"texto\": \"...\", \"referencia\": \"Mateus 25.35\", \"traducao\": \"ARC\"}")
+        elif v.get("traducao") not in TRADUCOES:
+            erros.append(f"versiculo: tradução {v.get('traducao')!r} fora da lista ({', '.join(sorted(TRADUCOES))})")
     return erros
 
 
@@ -125,6 +143,7 @@ def problemas(n, publicar=None):
         elif not a <= palavras(n[campo]) <= b:
             erros.append(f"{campo} com {palavras(n[campo])} palavras (padrão: {a} a {b})")
     erros += sensacionalismo(n.get("titulo", ""))
+    erros += checar_versiculo(n)
     if n.get("selo") not in SELOS:
         erros.append(f"selo inválido: {n.get('selo')!r} ({', '.join(sorted(SELOS))})")
     corpo = sum(palavras(p) for p in n.get("corpo", []))

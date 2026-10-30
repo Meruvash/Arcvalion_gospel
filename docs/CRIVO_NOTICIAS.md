@@ -184,11 +184,14 @@ O fato fica neutro (título, lide, números, contexto, No Brasil). O toque vai e
    a família, a igreja ou a liberdade.
 2. **O que muda para você**: o que o leitor cristão **faz** com isso (orar por quem, como conversar com os filhos,
    que direito existe, o que acompanhar).
-3. **Nossa opinião** (20 a 60 palavras): o que a **Escritura** diz, com a referência e a tradução (ex.: "Provérbios
-   31.8, NVI"), e um conselho claro. Uma frase curta e citável para quem compartilha.
+3. **Nossa opinião** (20 a 60 palavras): o **nosso posicionamento** sobre o fato, dito com todas as letras (a gente
+   apoia, concorda, discorda, cobra, recomenda), o porquê e um conselho concreto. Uma frase curta e citável para quem
+   compartilha. **Sem versículo no meio** (pedido do responsável editorial, 30/10/2026): quando uma passagem cabe, ela
+   vai no campo `versiculo` (`{"texto", "referencia", "traducao"}`) e aparece embaixo da opinião, em linha separada.
 
 Regras do toque:
-- Versículo que cabe, nunca enfeite. Se não há passagem óbvia, a nota não ganha os 2 pontos de C, e tudo bem.
+- Versículo que cabe, nunca enfeite, e sempre no campo `versiculo`, nunca dentro do texto da opinião. Se não há
+  passagem óbvia, a nota sai sem versículo e não ganha os 2 pontos de C, e tudo bem.
 - Firme na convicção, manso no tom (1 Pedro 3.15). Sem torcida partidária, sem desprezo por quem pensa diferente.
 - Esperança onde houver: perseguição com o testemunho de quem resiste; derrota com o que a Igreja faz agora.
 - Na trilha atemporal, a nota precisa de um **gancho de hoje** (data, aniversário, estreia, debate da semana) no

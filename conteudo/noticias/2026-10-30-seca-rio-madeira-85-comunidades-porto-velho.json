@@ -52,7 +52,12 @@
   "Os números são do levantamento da Defesa Civil municipal; pelo critério dela, basta uma família afetada para a comunidade contar como atingida",
   "Não localizamos portaria federal que reconheça a emergência da seca de 2026 em Porto Velho"
  ],
- "veredito": "“Tive sede, e destes-me de beber” (Mateus 25.35, ARC). A seca do Madeira é uma chance concreta de viver esse versículo. Igreja de Porto Velho: procure os canais oficiais da prefeitura e leve água a quem mora do outro lado do rio.",
+ "veredito": "A força-tarefa é necessária, e a gente apoia; mas 23 mil pessoas dependendo de socorro pedem plano permanente para a seca, não só emergência. Enquanto o plano não vem, a igreja de Porto Velho pode ajudar já: doar pelos canais oficiais e levar água ao Baixo Madeira.",
+ "versiculo": {
+  "texto": "Tive sede, e destes-me de beber",
+  "referencia": "Mateus 25.35",
+  "traducao": "ARC"
+ },
  "fontes": [
   {
    "nome": "Prefeitura de Porto Velho (Defesa Civil): Seca já atinge 85 comunidades e prefeitura atua com força-tarefa no Baixo Madeira (22/10/2026)",
@@ -117,8 +122,14 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-29T22:56:03-03:00",
-  "modo": "automatica"
+  "data": "2026-10-29T23:44:33-03:00"
  },
- "publicado_em": "2026-10-29T22:56:03-03:00"
+ "publicado_em": "2026-10-29T22:56:03-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-29",
+   "texto": "A seção Nossa opinião foi reescrita para trazer o posicionamento do portal sobre o fato; o versículo, que estava no meio do texto, passou para o fim da seção."
+  }
+ ],
+ "atualizado_em": "2026-10-29T23:44:33-03:00"
 }

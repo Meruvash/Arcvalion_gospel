@@ -144,7 +144,12 @@
   "Historiadores divergem sobre se Lutero pregou mesmo as teses na porta da igreja",
   "O vídeo da PragerU é de 2018 e não trata do Brasil"
  ],
- "veredito": "Feriado é bom, memória é melhor. “O justo viverá pela fé” (Romanos 1.17, NVI) foi o versículo que mudou Lutero. Neste sábado, leia esse capítulo com a família: é a melhor forma de lembrar a Reforma.",
+ "veredito": "A gente apoia o projeto: um em cada quatro brasileiros é evangélico, e a data que mudou o cristianismo cabe no calendário nacional. Mas feriado sem Bíblia aberta vira folga. O valor está em as igrejas usarem o dia para ensinar o que a Reforma devolveu ao povo.",
+ "versiculo": {
+  "texto": "O justo viverá pela fé",
+  "referencia": "Romanos 1.17",
+  "traducao": "NVI"
+ },
  "ia": {
   "usada": true,
   "uso": "pesquisa nas fontes, tradução, organização dos fatos e primeira versão do texto"
@@ -153,10 +158,16 @@
  "manchete": true,
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-29T21:40:01-03:00",
-  "modo": "automatica"
+  "data": "2026-10-29T23:44:33-03:00"
  },
  "publicado_em": "2026-10-29T21:40:01-03:00",
  "opiniao_forte": true,
- "checagem_juridica": "Leitura hostil feita: o senador e o projeto são descritos só pelo que consta no site do Senado; a ironia (feriado x memória) mira o costume, não pessoas; a divergência histórica sobre as teses é atribuída; nada desqualifica católicos ou outra tradição religiosa."
+ "checagem_juridica": "Leitura hostil feita: o senador e o projeto são descritos só pelo que consta no site do Senado; a ironia (feriado x memória) mira o costume, não pessoas; a divergência histórica sobre as teses é atribuída; nada desqualifica católicos ou outra tradição religiosa.",
+ "correcoes": [
+  {
+   "data": "2026-10-29",
+   "texto": "A seção Nossa opinião foi reescrita para trazer o posicionamento do portal sobre o fato; o versículo, que estava no meio do texto, passou para o fim da seção."
+  }
+ ],
+ "atualizado_em": "2026-10-29T23:44:33-03:00"
 }
