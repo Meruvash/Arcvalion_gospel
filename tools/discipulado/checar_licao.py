@@ -55,6 +55,12 @@ def problemas(c, publicar=None, pasta=None):
         erros.append("tempo_min: minutos de leitura (número)")
     if c.get("titulo") and not c["titulo"].endswith("?"):
         erros.append("titulo: pergunta simples, terminada em '?'")
+    # Biblioteca: categoria do catálogo e palavras-chave para a busca (pedido do editor, 30/10/2026)
+    cats = {x["slug"] for x in catalogo()["categorias"]}
+    if c.get("categoria") not in cats:
+        erros.append("categoria: um slug de conteudo/discipulado/base/catalogo.json (" + ", ".join(sorted(cats)) + ")")
+    if not 3 <= len(c.get("palavras_chave") or []) <= 12:
+        erros.append("palavras_chave: 3 a 12 termos para a busca da Biblioteca")
     # elementos visuais (pedido do editor, 30/10/2026), no padrão das notícias e das resenhas
     rr = c.get("resumo_rapido") or {}
     if not rr.get("resposta") or len(rr.get("ideias") or []) != 3 or not rr.get("texto_central"):
@@ -127,14 +133,41 @@ def problemas(c, publicar=None, pasta=None):
     return erros
 
 
+def catalogo():
+    return json.loads((portal.CONTEUDO / "discipulado" / "base" / "catalogo.json").read_text(encoding="utf-8"))
+
+
+def problemas_catalogo():
+    """Trilhas sem conteúdo duplicado: cada item é o slug de um estudo que existe ou {titulo} em preparação."""
+    erros, slugs = [], {p.parent.name for p in licoes()}
+    cat = catalogo()
+    for t in cat["trilhas"]:
+        vistos = set()
+        for it in t["estudos"]:
+            k = it if isinstance(it, str) else (it.get("titulo") if isinstance(it, dict) else None)
+            if not k:
+                erros.append(f"trilha {t['slug']}: item sem slug nem titulo")
+            elif isinstance(it, str) and it not in slugs:
+                erros.append(f"trilha {t['slug']}: estudo '{it}' não existe em conteudo/discipulado/")
+            elif k in vistos:
+                erros.append(f"trilha {t['slug']}: '{k}' repetido")
+            vistos.add(k)
+    if len({x["slug"] for x in cat["categorias"]}) != len(cat["categorias"]):
+        erros.append("catalogo: categorias com slug repetido")
+    return erros
+
+
 def licoes():
-    return sorted((portal.CONTEUDO / "discipulado").glob("*/licao.json"))
+    return sorted(p for p in (portal.CONTEUDO / "discipulado").glob("*/licao.json") if p.parent.name != "base")
 
 
 if __name__ == "__main__":
     portal.iniciar()
     arqs = [Path(a) for a in sys.argv[1:]] or licoes()
     ruim = 0
+    for e_ in problemas_catalogo():
+        print("❌ catálogo: " + e_)
+        ruim += 1
     for a in arqs:
         c = json.loads(a.read_text(encoding="utf-8"))
         e = problemas(c, pasta=a.parent)
