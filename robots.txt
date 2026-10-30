@@ -2,5 +2,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://meruvash.github.io/Arcvalion_gospel/sitemap.xml
-Sitemap: https://meruvash.github.io/Arcvalion_gospel/sitemap-noticias.xml
+Sitemap: https://opaladino.com.br/sitemap.xml
+Sitemap: https://opaladino.com.br/sitemap-noticias.xml
