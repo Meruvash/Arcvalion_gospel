@@ -446,5 +446,39 @@ class Fotos(unittest.TestCase):
             self.f.aprovar("qualquer", 1, "curto")
 
 
+
+class Feed(unittest.TestCase):
+    """feed.xml (RSS) e a chave do IndexNow saem do build junto com o sitemap."""
+
+    def test_feed_so_tem_paginas_do_sitemap(self):
+        import xml.dom.minidom
+        sitemap = set(re.findall(r"<loc>([^<]+)</loc>", (RAIZ / "sitemap.xml").read_text(encoding="utf-8")))
+        doc = xml.dom.minidom.parse(str(RAIZ / "feed.xml"))
+        links = [i.getElementsByTagName("link")[0].firstChild.data for i in doc.getElementsByTagName("item")]
+        self.assertTrue(links)
+        self.assertLessEqual(set(links), sitemap)
+        cats = {c.firstChild.data for c in doc.getElementsByTagName("category")}
+        self.assertFalse({c for c in cats if "-" in c and " " not in c}, "editoria pelo slug no feed")
+
+    def test_chave_indexnow_no_ar(self):
+        chave = json.loads((RAIZ / "config" / "portal.json").read_text(encoding="utf-8"))["indexnow_chave"]
+        self.assertEqual((RAIZ / f"{chave}.txt").read_text(encoding="utf-8"), chave)
+
+
+class ResumoBusca(unittest.TestCase):
+    def test_descricao_cabe_no_google(self):
+        import build_home
+        longo = {"lide": "Primeira frase curta demais. " + "palavra " * 60}
+        self.assertLessEqual(len(build_home.resumo_busca(longo)), 155)
+        self.assertTrue(build_home.resumo_busca(longo).endswith("…"))
+        frase = {"lide": "O Senado aprovou nesta quarta-feira o projeto que muda as regras do feriado nacional de 31 de outubro. " + "palavra " * 40}
+        self.assertEqual(build_home.resumo_busca(frase), frase["lide"].split(". ")[0] + ".")
+        self.assertEqual(build_home.resumo_busca({"lide": "x " * 200, "descricao_seo": "Resumo aprovado"}), "Resumo aprovado")
+
+    def test_estudo_citado_precisa_existir(self):
+        n = ler("noticias/" + sorted(p.name for p in (EX / "noticias").glob("*.json"))[0])
+        n["estudos"] = [{"nome": "Nada", "estudo": "estudo-que-nao-existe"}]
+        self.assertTrue(any("estudos:" in x for x in p_nota(n)))
+
 if __name__ == "__main__":
     unittest.main()

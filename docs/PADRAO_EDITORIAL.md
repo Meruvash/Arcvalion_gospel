@@ -26,7 +26,8 @@ fato certo?) é da pessoa revisora, que aprova com `tools/publicar.py`.
 | `crivo` | Por que esta notícia entrou | motor de relevância de 0 a 100 (`config/relevancia.json`, `docs/CRIVO_NOTICIAS.md`, seção 4): pontos, trilha, abrangência, origem e os 5 critérios com o porquê; manchete = maior pontuação do dia, com 70 ou mais |
 | `instituicao` | linha de data | quem fez o fato (Senado, CGADB, Pew…) |
 | `imagem` | foto | obrigatória: arquivo em `conteudo/imagens/`, crédito com licença, `alt`; nunca IA |
-| `estudos` | Estudos citados | `[{nome, estudo: <slug>}]` |
+| `estudos` | Para entender | `[{nome, estudo: <slug>}]`: estudo nosso já publicado cujo tema a notícia toca de verdade (dízimo, batismo, dons…). Aparece no fim da nota como "Para entender" e, no estudo, como "Notícias sobre este tema". Sem estudo que caiba, deixe `[]` (a nota mostra os dois estudos mais recentes); nunca force a ligação |
+| `descricao_seo` | descrição no Google | opcional, 70 a 155 caracteres, factual, sem caça-clique; sem ela, sai a primeira frase do lide (ou o lide cortado) |
 | `ia`, `status`, `revisao`, `publicado_em`, `correcoes` | Como foi feita | `status: revisao` até a aprovação humana; `publicar.py` grava o resto |
 
 Regras de texto: tom opinativo só em Por que importa, O que muda para você e Nossa opinião (Pontos de atenção é factual); o

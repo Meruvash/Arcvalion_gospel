@@ -74,6 +74,7 @@ def build(c):
     versiculos = "".join(f"<li><b>{e(r)}</b> {e(x)}</li>" for r, x in c.get("versiculos", []))
     ficha = "".join(f"<dt>{e(k)}</dt><dd>{e(x)}</dd>" for k, x in c.get("ficha", []))
     fontes = "".join(f'<li><a href="{e(u)}" target="_blank" rel="noopener">{e(n)}</a> <span>{e(uso)}</span></li>' for n, u, uso in c["fontes"])
+    noticias = "".join(f'<li><a href="{pre}noticias/{n["slug"]}/">{e(n["titulo"])}</a></li>' for n in noticias_do_estudo(c["slug"]))
     aviso = ('<div style="background:#ffe3e3;color:#7a1f1f;padding:8px 16px;text-align:center;font-size:.9rem"><b>Prévia em revisão.</b> '
              'Este estudo ainda não foi publicado: espera a revisão. Não compartilhe.</div>') if previa else ""
     corpo = f"""{aviso}{cabecalho(pre, "Estudos", sub=True)}
@@ -103,6 +104,7 @@ def build(c):
  <section class="bloco veredito {sc}"><h2>Para guardar</h2><span class="selo {sc}">{e(c["selo"])}</span><p>{e(c["veredito"])}</p></section>
  {convite_compartilhar(f'{c["titulo"]} (via O Paladino)', url, "Conhece alguém que vai gostar?", "Mande este estudo para o seu grupo.")}
  {f'<section class="bloco"><h2>Ficha</h2><dl class="ficha">{ficha}</dl></section>' if ficha else ""}
+ {f'<section class="bloco leia"><h2>Notícias sobre este tema</h2><ul>{noticias}</ul></section>' if noticias else ""}
  <section class="bloco fontes"><h2>Fontes</h2><ul>{fontes}</ul><p class="como">Consulta às fontes em {e(c["consulta"])}.</p></section>
  <section class="bloco como"><h2>Como foi feito</h2><p>{e((c.get("ia") or {}).get("uso", ""))}</p></section>
 </div></main>
@@ -113,11 +115,22 @@ def build(c):
         ld = seo.script(trilha_ld)
     else:
         modificado = lastmod_registrado(url, {k: v for k, v in c.items() if k != "publicado_em"})
-        ld = seo.script(seo.artigo("Article", url, c["titulo"], c["descricao"], img, c["publicado_em"], modificado), trilha_ld)
+        ld = seo.script(seo.artigo("Article", url, c["titulo"], c["descricao"], img, c["publicado_em"], modificado, secao="Estudos bíblicos"), trilha_ld)
     html = pagina(f'{c["titulo"]} | O Paladino', c["descricao"], "" if previa else url, img,
                   pre, corpo, "article", CSS_ESTUDO, ld)
     (pasta / "index.html").write_text(html, encoding="utf-8")
     return pasta / "index.html"
+
+
+def noticias_do_estudo(slug, limite=5):
+    """Notícias no ar que citam o estudo no campo "estudos" (o outro lado do "Para entender" das notas), mais recentes antes."""
+    ns = []
+    for p in (ROOT / "conteudo" / "noticias").glob("*.json"):
+        n = json.loads(p.read_text(encoding="utf-8"))
+        citados = {x.get("estudo") if isinstance(x, dict) else x for x in n.get("estudos", [])}
+        if n.get("status", "publicado") == "publicado" and slug in citados:
+            ns.append(n)
+    return sorted(ns, key=lambda n: n.get("publicado_em", ""), reverse=True)[:limite]
 
 
 def publicados():
