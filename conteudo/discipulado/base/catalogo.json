@@ -1,0 +1,29 @@
+{
+ "_ajuda": "Catálogo do Discipulado: categorias (Biblioteca) e trilhas (percursos opcionais). Cada estudo diz a sua categoria no licao.json (campo categoria). A ordem de um estudo pertence à trilha, não ao estudo; um estudo pode estar em várias trilhas. Item de trilha: o slug de um estudo publicado ou {\"titulo\": \"...\"} para estudo em preparação. 'previstos' lista os temas ainda não escritos de cada categoria (aparecem como Em preparação, sem link).",
+ "categorias": [
+  {"slug": "conhecendo-a-deus", "nome": "Conhecendo a Deus", "descricao": "Quem é Deus, quem é Jesus, quem é o Espírito Santo e como Deus se revela.",
+   "previstos": ["Quem é Deus?", "Quem é o Espírito Santo?", "O que significa a Trindade?", "Como Deus se revela à humanidade?"]},
+  {"slug": "salvacao-e-nova-vida", "nome": "Salvação e nova vida", "descricao": "O que é a salvação, a graça, o arrependimento e a vida nova em Cristo.",
+   "previstos": ["O que é a salvação?", "O que é a graça de Deus?", "O que significa arrepender-se?", "Como posso ter certeza da salvação?", "O que significa viver pela fé?"]},
+  {"slug": "oracao", "nome": "Oração e relacionamento com Deus", "descricao": "Como orar, como Deus responde e como reconhecer a direção dele.",
+   "previstos": ["Como aprender a orar?", "Deus responde às orações?", "Como desenvolver intimidade com Deus?", "Como reconhecer a direção de Deus?", "O que significa jejuar?"]},
+  {"slug": "conhecendo-a-biblia", "nome": "Conhecendo a Bíblia", "descricao": "O que é a Bíblia, como começar a ler e como entender o que ela diz.",
+   "previstos": ["O que é a Bíblia?", "Como começar a ler a Bíblia?", "Como interpretar corretamente as Escrituras?", "Como aplicar os ensinamentos bíblicos?"]},
+  {"slug": "igreja-e-comunhao", "nome": "Igreja e comunhão", "descricao": "Por que fazer parte de uma igreja, o batismo nas águas e a Ceia do Senhor.",
+   "previstos": ["Por que preciso participar de uma igreja?", "Qual é o significado do batismo?", "O que é a Ceia do Senhor?", "Por que precisamos de comunhão?"]},
+  {"slug": "santidade", "nome": "Santidade e transformação", "descricao": "Santificação, tentação, perdão e o caráter de Cristo.",
+   "previstos": ["O que é santificação?", "Como vencer as tentações?", "O que significa perdoar?", "Como desenvolver o caráter de Cristo?"]},
+  {"slug": "espirito-santo", "nome": "Espírito Santo e vida espiritual", "descricao": "Batismo no Espírito Santo, dons, fruto do Espírito e discernimento.",
+   "previstos": ["O que é o batismo no Espírito Santo?", "O que são os dons espirituais?", "O que é o fruto do Espírito?", "O que significa ser cheio do Espírito Santo?"]},
+  {"slug": "vida-crista", "nome": "Vida cristã na prática", "descricao": "A fé no dia a dia, o sofrimento, a família, o testemunho e o serviço.",
+   "previstos": ["Como viver a fé no cotidiano?", "Como lidar com dificuldades e sofrimento?", "Como testemunhar sobre Jesus?", "Como servir a Deus e ao próximo?"]}
+ ],
+ "trilhas": [
+  {"slug": "primeiros-passos", "nome": "Primeiros passos na fé", "descricao": "Para quem acabou de decidir seguir Jesus: quem ele é, a vida nova, a oração, a Bíblia e a igreja.",
+   "estudos": ["quem-e-jesus", "nascer-de-novo", {"titulo": "Como aprender a orar?"}, {"titulo": "Como começar a ler a Bíblia?"}, {"titulo": "Por que preciso participar de uma igreja?"}]},
+  {"slug": "fundamentos-da-fe", "nome": "Fundamentos da fé cristã", "descricao": "As bases do que os cristãos creem: Deus, Jesus, a salvação pela graça e as Escrituras.",
+   "estudos": [{"titulo": "Quem é Deus?"}, "quem-e-jesus", {"titulo": "O que significa a Trindade?"}, {"titulo": "O que é a graça de Deus?"}, {"titulo": "O que é a Bíblia?"}]},
+  {"slug": "preparacao-para-o-batismo", "nome": "Preparação para o batismo", "descricao": "Para quem vai descer às águas: arrependimento, vida nova, o significado do batismo e a vida na igreja.",
+   "estudos": [{"titulo": "O que significa arrepender-se?"}, "nascer-de-novo", {"titulo": "Qual é o significado do batismo?"}, {"titulo": "Por que preciso participar de uma igreja?"}]}
+ ]
+}

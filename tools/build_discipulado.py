@@ -68,6 +68,31 @@ CSS_DISC = """<style>
 .nota .guardar{background:var(--panel2);color:var(--ink);border:1px solid var(--gold)}.nota .guardar h2{color:var(--gold)}
 .nota .guardar ul{list-style:none;padding-left:0}.nota .guardar li{color:#eceff3;font-weight:600;padding-left:26px;position:relative}
 .nota .guardar li::before{content:"";position:absolute;left:2px;top:.35em;width:13px;height:7px;border-left:3px solid var(--gold);border-bottom:3px solid var(--gold);transform:rotate(-45deg)}
+/* Biblioteca e Trilhas (30/10/2026) */
+.busca-d{display:grid;gap:6px;margin-top:14px;font-size:.9rem;font-weight:700}
+.busca-d input{font:inherit;font-weight:400;font-size:1rem;min-height:46px;padding:10px 14px;border:1px solid var(--paper-line);border-radius:10px;background:#fff;color:var(--paper-ink)}
+.continue{margin-top:12px;font-size:.95rem}.continue a{font-weight:800}
+.cards-d{display:grid;gap:12px}@media (min-width:700px){.cards-d{grid-template-columns:1fr 1fr}}
+.cards-d li[hidden],.biblio-cat[hidden]{display:none}
+.cards-d a{display:grid;gap:6px;height:100%;padding:14px;border:1px solid var(--paper-line);border-radius:10px;background:#fff;text-decoration:none;color:inherit}
+.cards-d a:hover{border-color:var(--gold)}.cards-d a:hover b{text-decoration:underline}
+.cards-d img{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:center 30%;border-radius:6px}
+.cards-d b{font-size:1.06rem;line-height:1.25}.cards-d span{color:#3a414c;font-size:.93rem}.cards-d small{color:var(--paper-muted);font-size:.82rem}
+.cards-d .ja,.passos-d .ja{display:none;font-style:normal;color:#1b7a45;font-weight:700}.lido .ja{display:inline}
+.trilhas-d a{border-left:4px solid var(--gold)}
+.passos-d{list-style:none;counter-reset:t;display:grid;gap:10px;padding-left:0}
+.passos-d li{counter-increment:t;position:relative;padding-left:46px}
+.passos-d li::before{content:counter(t);position:absolute;left:0;top:12px;width:32px;height:32px;border-radius:50%;background:var(--gold);color:#0a1a33;font-weight:800;display:grid;place-items:center}
+.passos-d li.lido::before{content:"✓";background:#1b7a45;color:#fff}
+.passos-d a,.passos-d .cx{display:grid;gap:4px;padding:12px 14px;border:1px solid var(--paper-line);border-radius:10px;background:#fff;text-decoration:none;color:inherit}
+.passos-d .cx{background:transparent;border-style:dashed;color:var(--paper-muted)}.passos-d .cx b{font-weight:600}
+.passos-d li.prep::before{background:#c9ced6}
+.passos-d span{color:#3a414c;font-size:.93rem}.passos-d small{color:var(--paper-muted);font-size:.82rem}
+.breve-d{display:grid;gap:6px;padding-left:20px;list-style:disc;color:var(--paper-muted)}
+.voltar-d{margin:4px 0 0;font-weight:700}
+.nas-trilhas ul{display:grid;gap:10px}.nas-trilhas li{display:grid;gap:4px;padding:12px 14px;border:1px solid var(--paper-line);border-left:4px solid var(--gold);border-radius:8px;background:#fff}
+.nas-trilhas .tn{font-weight:800}.nas-trilhas .pos{font-size:.82rem;color:var(--paper-muted)}
+.nas-trilhas .nav-t{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 14px;font-size:.92rem}.nas-trilhas .nav-t:empty{display:none}.nas-trilhas .nav-t .prox{margin-left:auto;font-weight:700}
 .lista-d a{font-weight:700}.lista-d small{display:block;color:var(--paper-muted);font-size:.85rem}.lista-d .breve{color:var(--paper-muted)}
 </style>"""
 
@@ -148,6 +173,39 @@ def publicadas():
     return sorted((c for c, _ in carregar() if c.get("status") == "publicado"), key=lambda c: c["publicado_em"], reverse=True)
 
 
+def catalogo():
+    return json.loads((ROOT / "conteudo" / "discipulado" / "base" / "catalogo.json").read_text(encoding="utf-8"))
+
+
+def categoria(slug):
+    return next((x for x in catalogo()["categorias"] if x["slug"] == slug), None)
+
+
+def itens_trilha(t, pub):
+    """[(slug ou None, título)] de uma trilha; slug None para estudo em preparação ou ainda não publicado."""
+    out = []
+    for it in t["estudos"]:
+        if isinstance(it, str):
+            c = pub.get(it)
+            out.append((it if c else None, c["titulo"] if c else it))
+        else:
+            out.append((None, it["titulo"]))
+    return out
+
+
+# guarda o estudo lido no navegador do visitante (só conveniência: sem login, vale naquele aparelho)
+JS_LIDO = ("(()=>{try{const k='disc.lidos',a=JSON.parse(localStorage.getItem(k)||'[]').filter(x=>x.s!==D.s);"
+           "a.unshift(D);localStorage.setItem(k,JSON.stringify(a.slice(0,30)))}catch(e){}})()")
+JS_LISTA = ("(()=>{let a=[];try{a=JSON.parse(localStorage.getItem('disc.lidos')||'[]')}catch(e){}"
+            "const lidos=new Set(a.map(x=>x.s));document.querySelectorAll('[data-s]').forEach(li=>{if(lidos.has(li.dataset.s))li.classList.add('lido')});"
+            "const c=document.getElementById('continue');if(c&&a.length){c.hidden=false;c.querySelector('a').href=PRE+'discipulado/'+a[0].s+'/';"
+            "c.querySelector('a').textContent=a[0].t}"
+            "const b=document.getElementById('busca-d');if(b){const cards=[...document.querySelectorAll('.biblio li[data-busca]')],v=document.getElementById('vazio-d');"
+            "const n=x=>x.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();"
+            "b.addEventListener('input',()=>{const q=n(b.value.trim());let k=0;cards.forEach(li=>{const ok=!q||n(li.dataset.busca).includes(q);li.hidden=!ok;k+=ok});"
+            "document.querySelectorAll('.biblio-cat').forEach(sec=>{sec.hidden=q&&!sec.querySelector('li[data-busca]:not([hidden])')});v.hidden=k>0})}})()")
+
+
 def build(c, pasta_src):
     previa = c.get("status") != "publicado"
     pre = "../../../" if previa else "../../"
@@ -192,15 +250,29 @@ def build(c, pasta_src):
     rel = c.get("relevancia") or {}
     porque = "".join(f'<li><a href="{e(x["url"])}" target="_blank" rel="noopener">{e(x["fonte"])}</a>: {e(x["dado"])}{" (" + e(x["data"]) + ")" if x.get("data") else ""}</li>'
                      for x in rel.get("evidencias", []))
+    cat = categoria(c.get("categoria", ""))
+    pub = {x["slug"]: x for x in publicadas()}
+    nas = ""
+    for t in catalogo()["trilhas"]:
+        its = itens_trilha(t, pub)
+        pos = next((i for i, (sl, _) in enumerate(its) if sl == c["slug"] or (previa and isinstance(t["estudos"][i], str) and t["estudos"][i] == c["slug"])), None)
+        if pos is None:
+            continue
+        ant = next(((sl, ti) for sl, ti in reversed(its[:pos]) if sl), None)
+        prox = next(((sl, ti) for sl, ti in its[pos + 1:] if sl), None)
+        nas += (f'<li><a class="tn" href="{pre}discipulado/trilha/{t["slug"]}/">{e(t["nome"])}</a><span class="pos">Passo {pos + 1} de {len(its)}</span>'
+                f'<span class="nav-t">{f"<a href={pre}discipulado/{ant[0]}/>&larr; {e(ant[1])}</a>" if ant else ""}'
+                f'{f"<a class=prox href={pre}discipulado/{prox[0]}/>{e(prox[1])} &rarr;</a>" if prox else ""}</span></li>')
+    trilhas_box = f'<section class="bloco nas-trilhas"><h2>Este estudo está nas trilhas</h2><ul>{nas}</ul><p class="como">As trilhas são sugestões de percurso. Você pode ler qualquer estudo, em qualquer ordem.</p></section>' if nas else ""
     aud = c.get("auditoria") or {}
     aviso = ('<div style="background:#ffe3e3;color:#7a1f1f;padding:8px 16px;text-align:center;font-size:.9rem"><b>Prévia em revisão.</b> '
              'Esta lição ainda não foi publicada. Não compartilhe.</div>') if previa else ""
     fig = (f'<div class="bloco abre"><figure><img src="foto.jpg" alt="{e(im["alt"])}"><figcaption class="credito">{e(im["credito"])}</figcaption></figure></div>') if im else ""
     corpo = f"""{aviso}{cabecalho(pre, "Discipulado", sub=True)}
 <main id="conteudo" class="in"><div class="nota">
- {trilha(("Início", pre), ("Discipulado", f"{pre}discipulado/"), (e(c["titulo"]), ""))}
+ {trilha(("Início", pre), ("Discipulado", f"{pre}discipulado/"), *([(e(cat["nome"]), f"{pre}discipulado/tema/{cat['slug']}/")] if cat else []), (e(c["titulo"]), ""))}
  <article class="bloco">
-  <span class="num-l">Discipulado</span>
+  <span class="num-l">{e(cat["nome"]) if cat else "Discipulado"}</span>
   <h1>{e(c["titulo"])}</h1>
   <p class="meta-e"><span>Para quem está começando</span><span>Leitura de {c["tempo_min"]} min</span><span>Texto bíblico: NTLH</span></p>
   {"" if c.get("resumo_rapido") else f'<p class="ideia">{e(c["ideia_central"])}</p>'}
@@ -210,15 +282,18 @@ def build(c, pasta_src):
  {fig}
  {vchave}
  {blocos}
+ {trilhas_box}
  {convite_compartilhar(f'{c["titulo"]} (via O Paladino)', url, "Está discipulando alguém?", "Mande esta lição para quem você acompanha.")}
  {f'<section class="bloco como"><h2>Por que esta lição</h2><p class="como">A pergunta "{e(rel["pergunta"])}" aparece com frequência nas buscas e nas redes:</p><ul class="como">{porque}</ul></section>' if rel.get("pergunta") else ""}
  <section class="bloco"><details class="guia"><summary>Guia do discipulador</summary><div class="corpo licao">{markdown(guia, 1)}</div></details></section>
  <section class="bloco como"><h2>Como foi feito</h2><p class="como">{e((c.get("ia") or {}).get("uso", ""))}</p>
  {f'<p class="como">Auditoria independente: nota preliminar {aud["nota"]} de 100, em {aud["rodadas"]} rodada{"s" if aud["rodadas"] != 1 else ""}. A nota da auditoria não substitui a leitura por pessoas do público.</p>' if aud.get("nota") else ""}</section>
 </div></main>
+{"" if previa else f"<script>const D={json.dumps({'s': c['slug'], 't': c['titulo']}, ensure_ascii=False)};{JS_LIDO}</script>"}
 {rodape(pre)}"""
     img = f"{SITE}/discipulado/{c['slug']}/foto.jpg" if im else CAPA
-    trilha_ld = seo.trilha(("Início", f"{SITE}/"), ("Discipulado", f"{SITE}/discipulado/"), (c["titulo"], url))
+    trilha_ld = seo.trilha(("Início", f"{SITE}/"), ("Discipulado", f"{SITE}/discipulado/"),
+                           *([(cat["nome"], f"{SITE}/discipulado/tema/{cat['slug']}/")] if cat else []), (c["titulo"], url))
     if previa:
         ld = seo.script(trilha_ld)
     else:
@@ -229,23 +304,97 @@ def build(c, pasta_src):
     return pasta / "index.html"
 
 
+def cartao(c, pre):
+    """Cartão de estudo na Biblioteca e nas páginas de categoria (com o texto de busca)."""
+    busca = " ".join([c["titulo"], c.get("ideia_central", ""), *c.get("palavras_chave", [])])
+    img = f'<img src="{pre}discipulado/{c["slug"]}/foto.jpg" alt="" loading="lazy">' if c.get("imagem") else ""
+    return (f'<li data-s="{e(c["slug"])}" data-busca="{e(busca)}"><a href="{pre}discipulado/{c["slug"]}/">{img}'
+            f'<b>{e(c["titulo"])}</b><span>{e(c["ideia_central"])}</span><small>Leitura de {c["tempo_min"]} min<i class="ja"> · já lido</i></small></a></li>')
+
+
+def cartao_trilha(t, pub, pre):
+    its = itens_trilha(t, pub)
+    prontos = sum(1 for sl, _ in its if sl)
+    primeiro = next((sl for sl, _ in its if sl), None)
+    return (f'<li><a href="{pre}discipulado/trilha/{t["slug"]}/"><b>{e(t["nome"])}</b><span>{e(t["descricao"])}</span>'
+            f'<small>{len(its)} estudos · {prontos} {"publicado" if prontos == 1 else "publicados"}</small></a></li>')
+
+
 def pagina_lista():
-    """discipulado/index.html: as lições publicadas, da mais recente para a mais antiga."""
+    """discipulado/index.html: a Biblioteca (busca, continue, categorias, destaques) e as Trilhas."""
     pre = "../"
-    itens = "".join(f'<li><span><a href="{c["slug"]}/">{e(c["titulo"])}</a><small>{e(c["ideia_central"])}</small></span></li>'
-                    for c in publicadas())
+    cat_ = catalogo()
+    pub = {c["slug"]: c for c in publicadas()}
+    por_cat = {}
+    for c in pub.values():
+        por_cat.setdefault(c.get("categoria"), []).append(c)
+    destaques = "".join(cartao(c, pre) for c in sorted(pub.values(), key=lambda c: c["publicado_em"]))
+    cats = "".join(
+        f'<li><a href="tema/{x["slug"]}/"><b>{e(x["nome"])}</b><span>{e(x["descricao"])}</span>'
+        f'<small>{len(por_cat.get(x["slug"], []))} {"estudo" if len(por_cat.get(x["slug"], [])) == 1 else "estudos"} · {len(x.get("previstos", []))} em preparação</small></a></li>'
+        for x in cat_["categorias"])
+    trilhas_ = "".join(cartao_trilha(t, pub, pre) for t in cat_["trilhas"])
     corpo = f"""{cabecalho(pre, "Discipulado")}
 <main id="conteudo" class="in"><div class="nota">
  {trilha(("Início", pre), ("Discipulado", ""))}
- <article class="bloco"><h1>Discipulado</h1><p class="ideia">Lições para quem está começando a seguir Jesus, sobre as perguntas que as pessoas mais fazem sobre a fé. Cada uma tem o texto para o aluno, em linguagem simples, e um guia para quem conduz o encontro.</p></article>
- <section class="bloco"><h2>As lições</h2>{f'<ul class="lista-d">{itens}</ul>' if itens else '<p>As primeiras lições estão em preparação.</p>'}</section>
- <section class="bloco como"><h2>Como as lições são feitas</h2><p class="como">Cada lição responde a uma pergunta que as pessoas estão fazendo de verdade, nas buscas e nas redes, e parte de uma passagem bíblica, com pesquisa em comentários e obras de referência, texto bíblico na Nova Tradução na Linguagem de Hoje e medição de legibilidade. As citações bíblicas e das fontes são conferidas na página onde foram lidas. A orientação é evangélica pentecostal, e o guia do discipulador registra onde outras tradições pensam diferente.</p></section>
+ <article class="bloco"><h1>Discipulado</h1><p class="ideia">Uma biblioteca para quem está começando a seguir Jesus. Escolha o assunto que você quer entender: cada estudo se explica sozinho, sem pré-requisito. Se preferir um caminho guiado, siga uma das trilhas.</p>
+  <label class="busca-d"><span>Procurar um assunto</span><input id="busca-d" type="search" placeholder="Ex.: batismo, oração, Espírito Santo" autocomplete="off"></label>
+  <p id="continue" class="continue" hidden>Continue de onde parou: <a href="#"></a></p></article>
+ <section class="bloco biblio"><h2>Estudos publicados</h2><ul class="cards-d">{destaques}</ul><p id="vazio-d" class="como" hidden>Nenhum estudo publicado sobre isso ainda. Veja as categorias abaixo: o assunto pode estar em preparação.</p></section>
+ <section class="bloco"><h2>Trilhas de discipulado</h2><p class="como">Percursos sugeridos para quem quer orientação, sozinho ou com um discipulador. São só sugestões: você pode sair e voltar à biblioteca quando quiser.</p><ul class="cards-d trilhas-d">{trilhas_}</ul></section>
+ <section class="bloco"><h2>Categorias</h2><ul class="cards-d cats-d">{cats}</ul></section>
+ <section class="bloco como"><h2>Como os estudos são feitos</h2><p class="como">Cada estudo responde a uma pergunta que as pessoas estão fazendo de verdade, nas buscas e nas redes, e parte de uma passagem bíblica, com texto na Nova Tradução na Linguagem de Hoje e fontes citadas no fim. A orientação é evangélica pentecostal, e o guia do discipulador registra onde outras tradições pensam diferente.</p></section>
 </div></main>
+<script>const PRE="{pre}";{JS_LISTA}</script>
 {rodape(pre)}"""
     url = f"{SITE}/discipulado/"
-    return pagina("Discipulado para novos convertidos | O Paladino",
-                  "Lições de discipulado para quem está começando na fé: texto simples para o aluno, guia para o discipulador e fontes conferidas.",
+    return pagina("Discipulado: estudos para novos convertidos | O Paladino",
+                  "Biblioteca de discipulado para quem está começando na fé: estudos por tema, que se explicam sozinhos, e trilhas opcionais de formação.",
                   url, CAPA, pre, corpo, "website", CSS_DISC, seo.script(seo.trilha(("Início", f"{SITE}/"), ("Discipulado", url))))
+
+
+def pagina_tema(x, pub):
+    """discipulado/tema/<slug>/: os estudos de uma categoria e os temas em preparação."""
+    pre = "../../../"
+    cards = "".join(cartao(c, pre) for c in sorted((c for c in pub.values() if c.get("categoria") == x["slug"]), key=lambda c: c["publicado_em"]))
+    previstos = "".join(f"<li>{e(t)}</li>" for t in x.get("previstos", []) if t not in {c["titulo"] for c in pub.values()})
+    corpo = f"""{cabecalho(pre, "Discipulado", sub=True)}
+<main id="conteudo" class="in"><div class="nota">
+ {trilha(("Início", pre), ("Discipulado", f"{pre}discipulado/"), (e(x["nome"]), ""))}
+ <article class="bloco"><span class="num-l">Categoria</span><h1>{e(x["nome"])}</h1><p class="ideia">{e(x["descricao"])}</p></article>
+ <section class="bloco biblio"><h2>Estudos</h2>{f'<ul class="cards-d">{cards}</ul>' if cards else '<p class="como">Os primeiros estudos desta categoria estão em preparação.</p>'}</section>
+ {f'<section class="bloco"><h2>Em preparação</h2><ul class="breve-d">{previstos}</ul></section>' if previstos else ""}
+ <p class="voltar-d"><a href="{pre}discipulado/">&larr; Voltar à biblioteca</a></p>
+</div></main>
+<script>const PRE="{pre}";{JS_LISTA}</script>
+{rodape(pre)}"""
+    url = f"{SITE}/discipulado/tema/{x['slug']}/"
+    return pagina(f'{x["nome"]}: estudos de discipulado | O Paladino', f'Estudos de discipulado sobre {x["nome"].lower()}: {x["descricao"]}',
+                  url, CAPA, pre, corpo, "website", CSS_DISC,
+                  seo.script(seo.trilha(("Início", f"{SITE}/"), ("Discipulado", f"{SITE}/discipulado/"), (x["nome"], url))))
+
+
+def pagina_trilha(t, pub):
+    """discipulado/trilha/<slug>/: a sequência sugerida, com acesso direto a qualquer estudo e marca do que já foi lido."""
+    pre = "../../../"
+    passos = "".join(
+        (f'<li data-s="{e(sl)}"><a href="{pre}discipulado/{sl}/"><b>{e(ti)}</b><span>{e(pub[sl]["ideia_central"])}</span>'
+         f'<small>Leitura de {pub[sl]["tempo_min"]} min<i class="ja"> · já lido</i></small></a></li>') if sl else
+        f'<li class="prep"><div class="cx"><b>{e(ti)}</b><small>Em preparação</small></div></li>'
+        for sl, ti in itens_trilha(t, pub))
+    corpo = f"""{cabecalho(pre, "Discipulado", sub=True)}
+<main id="conteudo" class="in"><div class="nota">
+ {trilha(("Início", pre), ("Discipulado", f"{pre}discipulado/"), (e(t["nome"]), ""))}
+ <article class="bloco"><span class="num-l">Trilha de discipulado</span><h1>{e(t["nome"])}</h1><p class="ideia">{e(t["descricao"])}</p>
+  <p class="como">A ordem é uma sugestão. Cada estudo se explica sozinho: comece por onde quiser e volte à biblioteca a qualquer momento.</p></article>
+ <section class="bloco"><h2>O percurso</h2><ol class="passos-d">{passos}</ol></section>
+ <p class="voltar-d"><a href="{pre}discipulado/">&larr; Voltar à biblioteca</a></p>
+</div></main>
+<script>const PRE="{pre}";{JS_LISTA}</script>
+{rodape(pre)}"""
+    url = f"{SITE}/discipulado/trilha/{t['slug']}/"
+    return pagina(f'Trilha {t["nome"]} | Discipulado | O Paladino', t["descricao"], url, CAPA, pre, corpo, "website", CSS_DISC,
+                  seo.script(seo.trilha(("Início", f"{SITE}/"), ("Discipulado", f"{SITE}/discipulado/"), (t["nome"], url))))
 
 
 def todos():
@@ -258,6 +407,16 @@ def todos():
         feitos.append(build(c, pasta))
     (ROOT / "discipulado").mkdir(exist_ok=True)
     (ROOT / "discipulado" / "index.html").write_text(pagina_lista(), encoding="utf-8")
+    pub = {c["slug"]: c for c in publicadas()}
+    cat_ = catalogo()
+    for x in cat_["categorias"]:
+        d = ROOT / "discipulado" / "tema" / x["slug"]
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(pagina_tema(x, pub), encoding="utf-8")
+    for t in cat_["trilhas"]:
+        d = ROOT / "discipulado" / "trilha" / t["slug"]
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(pagina_trilha(t, pub), encoding="utf-8")
     return feitos
 
 

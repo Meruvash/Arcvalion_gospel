@@ -109,10 +109,22 @@ alertas, sinais de compreensão, divergências.
 1. `python3 tools/discipulado/legibilidade.py conteudo/discipulado/<slug>/aluno.md` (e `--guia` no guia). Frase
    bíblica longa que não pode ser cortada: comentário `<!-- justificativa: ... -->` no fim do arquivo.
 2. `licao.json`: `{"slug", "titulo", "titulo_seo", "ideia_central", "descricao", "tempo_min" (leitura),
-   "resumo_rapido", "versiculo_chave", "contexto", "equivocos", "relevancia", "imagem" (opcional), "ia": {"usada": true, "uso": "..."}, "status": "revisao"}`. Sem o campo `auditoria`.
+   "resumo_rapido", "versiculo_chave", "contexto", "equivocos", "relevancia", "categoria", "palavras_chave" (3 a 12, para a busca),
+   "imagem" (opcional), "ia": {"usada": true, "uso": "..."}, "status": "revisao"}`. Sem o campo `auditoria`.
 3. `python3 tools/discipulado/checar_licao.py` até passar.
 
-## 6. Publicar (3 min)
+## 6. Biblioteca e trilhas (1 min)
+
+A seção tem dois modos (pedido do editor, 30/10/2026): a **Biblioteca** (`discipulado/`, com busca, categorias e estudos;
+`discipulado/tema/<slug>/`) e as **Trilhas** opcionais (`discipulado/trilha/<slug>/`). Tudo sai de
+`conteudo/discipulado/base/catalogo.json`:
+
+- `categoria` do estudo: um dos slugs do catálogo. Se o título estiver em `previstos` da categoria, tire-o de lá.
+- Se o tema aparece numa trilha como `{"titulo": "..."}`, troque pelo slug do estudo. A ordem pertence à trilha; um
+  estudo pode estar em várias; nunca duplique conteúdo. O validador confere slugs, repetições e categoria.
+- Cada estudo é autossuficiente: nada de "como vimos no estudo anterior". As trilhas só sugerem a ordem.
+
+## 7. Publicar (3 min)
 
 1. `python3 tools/publicar.py aprovar conteudo/discipulado/<slug>/licao.json --revisor anderson-pelicioni-de-castro --automatica`.
 2. Atualizar `base/glossario.md` e `base/versiculos.md` (limite de 500 versículos na coleção).

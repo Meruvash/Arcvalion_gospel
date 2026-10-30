@@ -143,6 +143,11 @@ def fontes():
             continue
         pub = c.pop("publicado_em", None)
         paginas.append(("licao", f"{SITE}/discipulado/{c['slug']}/", ROOT / "discipulado" / c["slug"] / "index.html", assinatura(c), pub))
+    for pag in sorted([*(ROOT / "discipulado" / "tema").glob("*/index.html"), *(ROOT / "discipulado" / "trilha").glob("*/index.html")]):
+        # categorias e trilhas do Discipulado: mudam quando muda a lista de estudos nelas
+        texto = re.search(r"<main.*?</main>", pag.read_text(encoding="utf-8"), re.S).group(0)
+        rel = pag.parent.relative_to(ROOT).as_posix()
+        paginas.append(("guia", f"{SITE}/{rel}/", pag, assinatura(texto), data_git(pag) or agora().isoformat()))
     for pag in sorted((ROOT / "noticias" / "pagina").glob("*/index.html"), key=lambda x: int(x.parent.name)):
         # página do arquivo de notícias: muda quando entra nota nova; data = a da nota mais recente nela
         datas = re.findall(r'href="\.\./\.\./\.\./noticias/([^/"]+)/"', pag.read_text(encoding="utf-8"))
