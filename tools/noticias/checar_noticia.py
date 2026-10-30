@@ -134,7 +134,8 @@ def problemas(n, publicar=None):
 
 
 def checar_dia(ns):
-    """A manchete de cada dia precisa ser a nota de maior pontuação do dia (regra do Elite)."""
+    """A manchete de cada dia precisa ser a nota de maior pontuação do dia (regra do Elite); a partir de 5 notas no dia,
+    pelo menos 2 de cada 5 saem com Opinião Forte (docs/PADRAO_EDITORIAL.md, 30/10/2026)."""
     erros = []
     por_dia = {}
     for n in ns:
@@ -143,6 +144,9 @@ def checar_dia(ns):
         pts = [n["crivo"].get("pontos", 0) for n in lista]
         if any(n.get("manchete") and n["crivo"].get("pontos", 0) < max(pts) for n in lista):
             erros.append(f"{dia}: a manchete precisa ser a nota de maior pontuação do dia")
+        fortes = sum(bool(n.get("opiniao_forte")) for n in lista)
+        if len(lista) >= 5 and fortes < 2 * (len(lista) // 5):
+            erros.append(f"{dia}: {fortes} de {len(lista)} notas com Opinião Forte; o padrão é 2 de cada 5")
     return erros
 
 

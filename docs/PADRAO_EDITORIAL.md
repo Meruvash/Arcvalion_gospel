@@ -31,7 +31,42 @@ fato certo?) é da pessoa revisora, que aprova com `tools/publicar.py`.
 Regras de texto: tom opinativo só em Por que importa, O que muda para você e Nossa opinião (Pontos de atenção é factual); o
 resto é neutro. Política com os dois lados e a fonte de cada um. Sem fonte anônima ("segundo fontes"), sem verbo de
 torcida, sem loja de varejo no texto, sem citação que não esteja na fonte. Chamadas para redes em
-`conteudo/chamadas.json`: emoção e curiosidade, mas tudo o que a chamada promete está no texto.
+`conteudo/chamadas.json`: emoção e curiosidade, mas tudo o que a chamada promete está no texto. Meta: **5 notícias por
+dia**, 2 delas com Opinião Forte (seção abaixo).
+
+## Opinião Forte (30/10/2026)
+
+Pedido do responsável editorial: **2 de cada 5 notícias do dia** saem com Opinião Forte, marcadas com
+`"opiniao_forte": true`. Base: a seção "Opinião forte" do Elite Boardgamers (PADRAO_EDITORIAL.md na raiz),
+adaptada para notícia e para a linha do portal. Objetivo: gerar reação e compartilhamento sem abrir mão do fato.
+
+**Onde vai o tom:** só em `por_que_importa`, `para_quem` (O que muda para você) e `veredito` (Nossa opinião), e na
+`chamada` para redes. **Onde não vai:** título, lide, números, contexto, No Brasil, O que dizem, Pontos de atenção e
+fontes continuam informativos e exatos. O título pode ter força, desde que tudo nele seja fato e diga o que aconteceu
+e com quem (nada de caça-clique).
+
+1. **Uma tese por notícia.** Uma frase que o leitor possa repetir ou contestar, firme e do ponto de vista cristão e
+   conservador do portal. Ela abre o Por que importa ou o veredito.
+2. **O tom nasce do fato.** A ironia vem do contraste entre o que a decisão, a lei ou o discurso promete e o que os
+   dados e o próprio texto oficial mostram. Todo número e toda posição citada continuam com fonte.
+3. **Alvo certo.** A crítica mira decisões, leis, políticas, argumentos e instituições no exercício do poder. Nunca a
+   honra de pessoas (nada de acusação sem prova, apelido ou ataque pessoal), nunca vítimas, nunca grupos de pessoas
+   por fé, origem, aparência, doença ou deficiência.
+4. **Justiça na mesma página.** O lado contrário aparece em O que dizem, com o argumento mais forte dele e a fonte. A
+   opinião forte responde a esse argumento, não a uma caricatura.
+5. **Frase pronta para compartilhar.** Pelo menos uma frase curta e citável no veredito, e a chamada fecha com uma
+   pergunta que provoque resposta.
+6. **Inteligente, não grosseiro.** Sem palavrão, xingamento ou deboche fácil, e sem adjetivo de torcida (detonou,
+   lacrou, humilhou). Comparações concretas e inesperadas valem mais que adjetivos.
+7. **Nada inventado para causar.** Se a apuração não sustenta a polêmica, o tom fica firme mas sem a tese. A opinião é
+   do portal e precisa ser defensável diante da fonte.
+8. **Voz: "a gente".** Tom de conversa, mas a voz é do portal: "a gente", nunca "eu". Nunca cite humoristas.
+9. **Sem muleta.** A mesma piada ou bordão no máximo uma vez por notícia e não se repete na notícia seguinte. Repita as
+   técnicas, não as frases.
+10. **Fé com respeito.** Nada de deboche com a fé de ninguém, nem com outras denominações ou religiões. Versículo só
+    com referência e tradução, e nunca usado como arma contra pessoas.
+
+As outras 3 notícias de cada 5 seguem o tom padrão: opinião clara e fundamentada, sem ironia.
 
 ## Estudos bíblicos (`conteudo/estudos/<slug>.json`)
 

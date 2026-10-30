@@ -67,6 +67,16 @@ class Noticias(unittest.TestCase):
         a["manchete"] = False
         self.assertTrue(checar_dia([a, b]))
 
+    def test_opiniao_forte_dois_de_cinco(self):
+        dia = []
+        for i in range(5):
+            n = copy.deepcopy(self.n)
+            n["manchete"], n["crivo"]["pontos"], n["opiniao_forte"] = i == 0, 9 - i, i < 1
+            dia.append(n)
+        self.assertTrue(any("Opinião Forte" in e for e in checar_dia(dia)))
+        dia[1]["opiniao_forte"] = True
+        self.assertEqual(checar_dia(dia), [])
+
 
 class Estudos(unittest.TestCase):
     def setUp(self):
