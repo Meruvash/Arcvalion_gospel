@@ -789,6 +789,8 @@ if __name__ == "__main__":
     (ROOT / "estudos").mkdir(exist_ok=True)
     (ROOT / "estudos" / "index.html").write_text(build_lista.build(), encoding="utf-8")
     print("ok estudos/index.html")
+    import build_estudo
+    print("ok páginas de estudo:", len(build_estudo.todos()))
     if (ROOT / "consulta" / "index.html").exists():
         import build_consulta
         print("ok consulta/index.html:", build_consulta.build())
