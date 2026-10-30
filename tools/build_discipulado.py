@@ -174,7 +174,7 @@ def pagina_lista():
  {trilha(("Início", pre), ("Discipulado", ""))}
  <article class="bloco"><h1>Discipulado</h1><p class="ideia">Doze lições para quem está começando a seguir Jesus. Cada uma tem o texto para o aluno, em linguagem simples, e um guia para quem conduz o encontro.</p></article>
  <section class="bloco"><h2>As lições</h2><div class="corpo" style="max-width:none">{mods}</div></section>
- <section class="bloco como"><h2>Como as lições são feitas</h2><p class="como">Cada lição parte de uma passagem bíblica, com pesquisa em comentários e obras de referência, texto bíblico na Nova Tradução na Linguagem de Hoje e medição de legibilidade. Uma auditoria separada confere o resultado antes da publicação. A orientação é evangélica pentecostal, e o guia do discipulador registra onde outras tradições pensam diferente.</p></section>
+ <section class="bloco como"><h2>Como as lições são feitas</h2><p class="como">Cada lição parte de uma passagem bíblica, com pesquisa em comentários e obras de referência, texto bíblico na Nova Tradução na Linguagem de Hoje e medição de legibilidade. As citações bíblicas e das fontes são conferidas na página onde foram lidas. A orientação é evangélica pentecostal, e o guia do discipulador registra onde outras tradições pensam diferente.</p></section>
 </div></main>
 {rodape(pre)}"""
     url = f"{SITE}/discipulado/"

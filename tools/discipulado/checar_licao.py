@@ -2,7 +2,8 @@
 
 Uso: python3 tools/discipulado/checar_licao.py [conteudo/discipulado/<NN-slug>/licao.json ...]   (sem argumentos, todas)
 Cada lição é uma pasta conteudo/discipulado/<NN-slug>/ com licao.json (dados de publicação), aluno.md (texto do aluno),
-discipulador.md (guia), dossie.md (pesquisa) e auditoria.md (auditoria independente). O texto do aluno passa no medidor
+discipulador.md (guia) e dossie.md (pesquisa); auditoria.md só nas lições que tiveram auditoria (a Lição 1; o processo
+simplificado de 30/10/2026 dispensa). O texto do aluno passa no medidor
 de legibilidade (tools/discipulado/legibilidade.py) ou traz a justificativa num comentário <!-- justificativa: ... -->.
 """
 import json
@@ -53,6 +54,8 @@ def problemas(c, publicar=None, pasta=None):
     textos = {}
     for nome in ("aluno.md", "discipulador.md", "dossie.md", "auditoria.md"):
         arq = pasta / nome
+        if nome == "auditoria.md" and not c.get("auditoria"):
+            continue
         if not arq.is_file():
             erros.append(f"falta {pasta.name}/{nome}")
         else:
@@ -87,13 +90,14 @@ def problemas(c, publicar=None, pasta=None):
         if not re.search(r"\[(verificada|parcial)\]", guia):
             erros.append("discipulador.md: referências com a classificação [verificada] ou [parcial]")
     aud = c.get("auditoria") or {}
-    if publicar:
+    if publicar and aud:
         if not isinstance(aud.get("nota"), int) or aud["nota"] < NOTA_MINIMA:
             erros.append(f"auditoria.nota: {NOTA_MINIMA} ou mais na auditoria independente (auditoria.md)")
         if aud.get("eliminatorios"):
             erros.append("auditoria: há problema eliminatório em aberto")
         if not isinstance(aud.get("rodadas"), int):
             erros.append("auditoria.rodadas: número de rodadas até a aprovação")
+    if publicar:
         rev = c.get("revisao") or {}
         if not (portal.EQUIPE.get(rev.get("revisor", "")) or {}).get("revisor"):
             erros.append("revisão: revisor de config/equipe.json (tools/publicar.py)")

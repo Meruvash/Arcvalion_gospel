@@ -179,7 +179,7 @@ Seguir o formato obrigatório da seção 7 e o `padrao-de-escrita.md`. Rodar `to
 
 ### Etapa 5: Auditoria
 
-Subagente independente aplica o crivo da seção 9. Se a nota for inferior a 85 ou houver problema eliminatório, o texto volta para redação com a lista de problemas. Nova auditoria após a correção. Não declarar revisão humana.
+**Dispensada desde 30/10/2026 (decisão do editor):** o texto bíblico copiado da página lida, as citações conferidas com grep e o validador `tools/discipulado/checar_licao.py` substituem a auditoria; o crivo da seção 9 fica como referência para o redator e para a verificação diária. Texto anterior, só para registro: subagente independente aplica o crivo da seção 9. Se a nota for inferior a 85 ou houver problema eliminatório, o texto volta para redação com a lista de problemas. Nova auditoria após a correção. Não declarar revisão humana.
 
 ---
 
