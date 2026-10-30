@@ -22,7 +22,7 @@ from xml.etree import ElementTree
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import portal  # noqa: E402
 
-UA = "PortalCristao-pauta/1.0 (+coleta de pauta; respeita robots.txt)"
+UA = "OPaladino-pauta/1.0 (+coleta de pauta; respeita robots.txt)"
 _ROBOS = {}
 POR_FONTE = 6
 ABRANGENCIA = {"nacional": "Brasil", "rondonia": "Rondônia", "porto-velho": "Porto Velho", "internacional": "internacional"}
@@ -95,6 +95,48 @@ def itens(xml):
         yield (limpo(it.findtext(f"{atom}title")), link.get("href") if link is not None else "", limpo(it.findtext(f"{atom}summary"))[:300], data(it))
 
 
+def itens_sitemap_news(xml):
+    """Sitemap de notícias do Google (news:title, news:publication_date): portais sem RSS, como a Rondônia Dinâmica."""
+    raiz = xml_tolerante(xml)
+    sm, nw = "{http://www.sitemaps.org/schemas/sitemap/0.9}", "{http://www.google.com/schemas/sitemap-news/0.9}"
+    for u in raiz.iter(f"{sm}url"):
+        titulo = limpo(u.findtext(f".//{nw}title"))
+        quando = None
+        t = u.findtext(f".//{nw}publication_date") or u.findtext(f"{sm}lastmod")
+        if t:
+            try:
+                quando = datetime.fromisoformat(t.strip().replace("Z", "+00:00"))
+                quando = quando if quando.tzinfo else quando.replace(tzinfo=timezone.utc)
+            except ValueError:
+                pass
+        yield titulo, (u.findtext(f"{sm}loc") or "").strip(), "", quando
+
+
+def itens_pagina(conteudo, padrao, base):
+    """Manchetes da página inicial de um portal cujo RSS parou (Rondoniaovivo): links que casam com o padrão, com a
+    data tirada do próprio endereço (/AAAA/MM/DD/). Só a página inicial, que o robots.txt permite; nada de raspar."""
+    texto = conteudo.decode("utf-8", "replace") if isinstance(conteudo, bytes) else conteudo
+    vistos = set()
+    for href, miolo in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', texto, re.S):
+        link = href if href.startswith("http") else base.rstrip("/") + "/" + href.lstrip("/")
+        m = re.search(padrao, link)
+        titulo = limpo(miolo)
+        if not m or link in vistos or len(titulo) < 25:
+            continue
+        vistos.add(link)
+        a, mes, d = (int(x) for x in m.groups()[:3])
+        yield titulo, link, "", datetime(a, mes, d, 12, tzinfo=timezone(timedelta(hours=-4)))
+
+
+def ler_fonte(f):
+    conteudo = baixar(f["url"])
+    if f.get("formato") == "sitemap-news":
+        return list(itens_sitemap_news(conteudo))
+    if f.get("formato") == "pagina":
+        return list(itens_pagina(conteudo, f["padrao"], f["url"]))
+    return list(itens(conteudo))
+
+
 def main(args):
     portal.iniciar()
     dias = int(args[args.index("--dias") + 1]) if "--dias" in args else 2
@@ -107,7 +149,7 @@ def main(args):
             avisos.append(f"{f['nome']}: robots.txt não permite a leitura automática; consulte só manualmente")
             continue
         try:
-            lista = list(itens(baixar(f["url"])))
+            lista = ler_fonte(f)
         except Exception as ex:
             avisos.append(f"{f['nome']}: falhou ({ex.__class__.__name__})")
             continue
@@ -123,18 +165,19 @@ def main(args):
             # portal conservador brasileiro sobe um ponto. O fato ainda pede a fonte primária.
             nota = ((2 if temas.search(f"{titulo} {resumo}") else 0) + (1 if f.get("tipo") == "primaria" else 0)
                     + (1 if f.get("conservador") and abr != "internacional" else 0)
-                    + {"nacional": 1, "rondonia": 1, "porto-velho": 2}.get(abr, 0))
+                    + {"nacional": 1, "rondonia": 1, "porto-velho": 2}.get(abr, 0)
+                    + (1 if f.get("local_confiavel") else 0))
             cands.append((nota, quando or limite, f, titulo, link, resumo))
     cands.sort(key=lambda x: (x[0], x[1]), reverse=True)
     # no máximo POR_FONTE itens de cada feed, para um agregador que publica muito não tomar a pauta toda
     vistos = {}
-    cands = [c for c in cands if vistos.setdefault(c[2]["nome"], []).append(1) or len(vistos[c[2]["nome"]]) <= POR_FONTE]
+    cands = [c for c in cands if vistos.setdefault(c[2]["nome"], []).append(1) or len(vistos[c[2]["nome"]]) <= c[2].get("max", POR_FONTE)]
     hoje = datetime.now().date().isoformat()
     linhas = [f"# Pauta sugerida de {hoje} (últimos {dias} dias)", "",
               "Lista automática, só para orientar a redação. Nenhum item é notícia pronta: confirme na fonte primária, "
               "ouça os envolvidos, escreva com o padrão editorial e publique só com revisão humana.", ""]
     for nota, quando, f, titulo, link, resumo in cands[:80]:
-        linhas += [f"## {titulo}", f"- Fonte: {f['nome']} ({'primária' if f.get('tipo') == 'primaria' else 'outro veículo'}{', portal conservador' if f.get('conservador') else ''}) · {ABRANGENCIA.get(f.get('abrangencia', 'nacional'))} · {quando:%d/%m %H:%M} · editoria sugerida: {f['editoria']} · prioridade {nota}",
+        linhas += [f"## {titulo}", f"- Fonte: {f['nome']} ({'primária' if f.get('tipo') == 'primaria' else 'outro veículo'}{', portal conservador' if f.get('conservador') else ''}{', veículo local confiável' if f.get('local_confiavel') else ''}) · {ABRANGENCIA.get(f.get('abrangencia', 'nacional'))} · {quando:%d/%m %H:%M} · editoria sugerida: {f['editoria']} · prioridade {nota}",
                    f"- Link: {link}", f"- {resumo}" if resumo else "", ""]
     if avisos:
         linhas += ["## Avisos da coleta", ""] + [f"- {a}" for a in avisos]

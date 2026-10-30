@@ -83,6 +83,13 @@ class Noticias(unittest.TestCase):
         self.assertIn("origem", crivo(origem={"nome": "Daily Wire"}))
         self.assertEqual(self.erros(crivo={"pontos": 5}), "")  # nota antiga, sem eixos, continua valendo
 
+    def test_fonte_local(self):
+        loc = lambda d: {"nome": d, "url": f"https://{d}/noticia/x", "data": "30/10/2026", "tipo": "reportagem_local"}  # noqa: E731
+        crivo = dict(self.n["crivo"], abrangencia="porto-velho")
+        self.assertNotIn("primária", self.erros(fontes=[loc("rondoniaovivo.com"), loc("rondoniagora.com")], crivo=crivo))
+        self.assertIn("primária", self.erros(fontes=[loc("rondoniaovivo.com"), loc("www.rondoniaovivo.com")], crivo=crivo))
+        self.assertIn("primária", self.erros(fontes=[loc("rondoniaovivo.com"), loc("rondoniagora.com")]))  # nacional: não vale
+
     def test_crivo_juridico(self):
         self.assertIn("risco jurídico", self.erros(veredito="O relator é um mentiroso e o projeto, uma farsa de quem quer aparecer na foto."))
         self.assertIn("checagem_juridica", self.erros(checagem_juridica=None))

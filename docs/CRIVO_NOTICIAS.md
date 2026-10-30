@@ -47,13 +47,32 @@ por vez, com link (o robots.txt deles proíbe robôs ou bots de IA, ou não há 
 | Pleno News, Guiame (feed) | Igrejas e pastores no Brasil, perseguição traduzida | Agregadores: quase nunca são a origem |
 | Jovem Pan (feed com filtro) | Repercussão no Congresso | — |
 
-**Rondônia e Porto Velho**
+**Rondônia e Porto Velho** (revisado em 30/10/2026, a pedido do responsável editorial: notícia local de verdade vem
+dos veículos locais, não do site do governo)
 
-| Fonte | Como acompanhar |
-|---|---|
-| Governo de Rondônia (feed, primária), Rondoniagora, G1 Rondônia, News Rondônia (feed) | rodada 1, com filtro de temas, leis, Assembleia, Câmara, prefeitura, Justiça, MP, Conselho Tutelar e segurança |
-| Assembleia Legislativa (ALE-RO), Prefeitura e Câmara de Porto Velho, TJ-RO, MP-RO, Arquidiocese de Porto Velho, convenções e igrejas evangélicas do estado | manual (sem feed ou robots proíbe): fontes primárias para confirmar |
-| Rondônia Ao Vivo, Rondônia Dinâmica, Tudo Rondônia | manual (sem feed válido ou bloqueio) |
+Audiência de referência: pesquisa do Instituto Haverroth (setembro de 2025, 609 entrevistas presenciais em Porto
+Velho) pôs o Rondoniaovivo como o site de notícias mais lembrado e acessado (75,3%), seguido de longe por
+Rondoniagora (3,4%), Eu Ideal (3,0%), Portal de Rondônia (3,0%), Rondonoticias (2,5%), News Rondônia, O Observador e
+Tudo Rondônia.
+
+| Veículo | Bom para | Como acompanhar |
+|---|---|---|
+| **Rondoniaovivo** | Cidade, polícia, política e serviço em Porto Velho; reportagem própria | rodada 1: manchetes da página inicial (o RSS parou em 2020) |
+| **Rondoniagora** | Política estadual e bastidores | rodada 1 (feed) |
+| **G1 Rondônia / Rede Amazônica** | Reportagem com repórter, vídeo e documentos | rodada 1 (feed); WebFetch bloqueado, ler pela busca |
+| **Rondônia Dinâmica** | Política, Justiça e Assembleia | rodada 1 (sitemap de notícias) |
+| **News Rondônia** | Política e Assembleia | rodada 1 (feed) |
+| **O Observador** | Polícia e cidade em Porto Velho | rodada 1 (feed; republicações de agências ficam fora) |
+| **Eu Ideal** | Política de Porto Velho, Câmara Municipal | manual (o robots.txt só libera robôs com nome) |
+| Tudo Rondônia, Rondonoticias, Portal de Rondônia, SIC TV, CBN Amazônia | Política e cidade | manual |
+| Governo de Rondônia, ALE-RO, Prefeitura e Câmara de Porto Velho (SAPL), TJ-RO, MP-RO, Defesa Civil | Documento, decisão, número oficial | para confirmar e citar; não são a pauta principal |
+
+**Regra local de fonte.** Em notícia de Rondônia ou Porto Velho, a reportagem própria de um veículo da tabela
+(com repórter, entrevista com nome, documento ou presença no local) pode ser a base da nota. Ela entra nas `fontes`
+com `"tipo": "reportagem_local"` e precisa de confirmação: outro veículo independente com reportagem própria, ou
+uma fonte oficial (`primaria`). Nota de assessoria republicada por um portal não conta como reportagem. No texto, o
+crédito aparece: "segundo o Rondoniaovivo", "como mostrou o G1 Rondônia". Fotos desses veículos têm direitos
+reservados: só com autorização por escrito (`fotos.py local` com a licença dada pelo veículo).
 
 **EUA: só com impacto grande no Brasil, ou como gancho da trilha atemporal**
 

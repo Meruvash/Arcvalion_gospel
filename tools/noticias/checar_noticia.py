@@ -8,6 +8,7 @@ fonte primária identificável, citação atribuída, nada de fonte anônima nem
 """
 import json
 import re
+from urllib.parse import urlparse
 import sys
 from pathlib import Path
 
@@ -140,8 +141,14 @@ def problemas(n, publicar=None):
     fontes = n.get("fontes", [])
     if len(fontes) < 2 or any(not f.get("url") or not f.get("data") or not f.get("nome") for f in fontes):
         erros.append("fontes: pelo menos 2, com nome, link e data")
-    if not any(f.get("tipo") == "primaria" for f in fontes):
-        erros.append("fontes: pelo menos uma primária (documento, órgão oficial, nota da instituição, entrevista), marcada com \"tipo\": \"primaria\"")
+    # regra local (docs/CRIVO_NOTICIAS.md, 30/10/2026): em Rondônia e Porto Velho, reportagem própria de veículo local
+    # confiável vale como base se houver confirmação de outro veículo independente ou de fonte oficial
+    locais = {re.sub(r"^www\.", "", urlparse(f.get("url", "")).netloc) for f in fontes if f.get("tipo") == "reportagem_local"}
+    oficiais = [f for f in fontes if f.get("tipo") == "primaria"]
+    local_ok = n.get("crivo", {}).get("abrangencia") in ("rondonia", "porto-velho") and locais and (len(locais) >= 2 or oficiais)
+    if not oficiais and not local_ok:
+        erros.append("fontes: pelo menos uma primária (documento, órgão oficial, nota da instituição, entrevista), marcada com \"tipo\": \"primaria\"; "
+                     "em Rondônia e Porto Velho, ou duas reportagens próprias de veículos locais diferentes (\"tipo\": \"reportagem_local\")")
     for t in textos(n):
         m = ANONIMO.search(t)
         if m:
