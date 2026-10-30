@@ -2,17 +2,15 @@
 
 ## Objetivo
 
-Ajudar a pessoa a conhecer Jesus como o Evangelho de João o apresenta. Ele é a Palavra eterna, que estava com Deus e era Deus. Ele se tornou um ser humano para nos mostrar quem Deus é e para salvar.
-
-No fim do encontro, ela deve responder com as próprias palavras cinco perguntas. Quem é Jesus? Por que ele não foi só um grande mestre? O que querem dizer "Filho de Deus" e "Messias"? Por que ele veio? Qual é o primeiro passo para segui-lo?
+Ajudar a pessoa a conhecer Jesus como João o apresenta: a Palavra eterna, que estava com Deus e era Deus, e se tornou um ser humano. No fim, ela diz com as próprias palavras quem é Jesus, o que são "Filho de Deus" e "Messias", por que ele veio e como segui-lo.
 
 ## Fundamentação adicional
 
-João abre o livro com as palavras de Gênesis 1:1 ("No começo") e chama Jesus de Logos, a "Palavra". Craig Keener observa que nenhum conceito expressava melhor alguém ao mesmo tempo divino e distinto do Pai. É exatamente o que o versículo 1 diz: a Palavra estava com Deus (distinta) e era Deus (divina).
+A autoria pelo apóstolo João é a tradição antiga, e a lição a apresenta assim. João abre o livro com as palavras de Gênesis 1:1 ("No começo") e chama Jesus de Logos, a "Palavra". Craig Keener observa que nenhum conceito expressava melhor alguém ao mesmo tempo divino e distinto do Pai. É o que diz o versículo 1.
 
-O verbo de João 1:14 traduzido por "morou" vem da palavra grega para tenda. Matthew Henry e John Wesley leem nele a lembrança do tabernáculo do deserto. Henry acrescenta que, ao se tornar carne, a Palavra não deixou de ser a Palavra de Deus. Essa frase ajuda a responder quem lê Filipenses 2:7 como se Jesus tivesse deixado de ser Deus.
+O verbo de João 1:14 traduzido por "morou" vem da palavra grega para tenda. Henry e Wesley leem nele a lembrança do tabernáculo. Henry acrescenta que, ao se tornar carne, a Palavra não deixou de ser a Palavra de Deus. Essa frase ajuda a responder quem lê Filipenses 2:7 como se Jesus tivesse deixado de ser Deus.
 
-A Declaração de Fé das Assembleias de Deus afirma Jesus "plenamente Deus, plenamente Homem". Ela explica que "Messias" e "Cristo" são a mesma coisa. E diz que "Filho de Deus" significa que ele é "Deus igual ao Pai".
+A Declaração de Fé das Assembleias de Deus afirma Jesus "plenamente Deus, plenamente Homem" e diz que "Filho de Deus" significa "Deus igual ao Pai".
 
 ## Referências
 
@@ -30,21 +28,21 @@ A Declaração de Fé das Assembleias de Deus afirma Jesus "plenamente Deus, ple
 
 ## Diferenças de tradução
 
-A NTLH diz "a Palavra"; a Almeida diz "o Verbo". Em João 1:14 e 17, a NTLH diz "amor" onde outras traduções dizem "graça". Não corrija o texto do aluno: a palavra "graça" será explicada na Lição 2. Em Filipenses 2:7, a NTLH diz "abriu mão de tudo o que era seu", e a Almeida citada pela Declaração de Fé diz "aniquilou-se a si mesmo". Nas duas, o versículo 6 já afirmou que ele tinha a natureza de Deus: ele acrescentou a natureza de servo, não trocou uma pela outra.
+A NTLH diz "a Palavra"; a Almeida diz "o Verbo". Em João 1:14 e 17, a NTLH diz "amor" onde outras traduções dizem "graça". A palavra "graça" fica para a Lição 2. Em Filipenses 2:7, a NTLH diz "abriu mão de tudo o que era seu", e a Almeida citada pela Declaração de Fé diz "aniquilou-se a si mesmo". Nas duas, o versículo 6 já afirmou que ele tinha a natureza de Deus: ele acrescentou a natureza de servo, não trocou uma pela outra.
 
 ## Dúvidas frequentes
 
-**"Se Jesus é Deus, com quem ele falava quando orava?"** Com o Pai. O versículo 1 já mostra que a Palavra "estava com Deus". Há um só Deus, que existe como Pai, Filho e Espírito Santo. Responda isso em uma frase e diga que a Lição 9 volta ao assunto.
+**"Se Jesus é Deus, com quem ele falava quando orava?"** Com o Pai. O versículo 1 já mostra que a Palavra "estava com Deus". Há um só Deus, que existe como Pai, Filho e Espírito Santo. A Lição 9 volta ao assunto.
 
 **"Jesus virou Deus depois?"** Não. João Batista diz que Jesus já existia antes dele nascer (João 1:15), e Colossenses 1:17 diz que ele existia antes de tudo. A Declaração de Fé nega que o Filho tenha sido criado.
 
 **"Um amigo meu diz que a Palavra era 'um deus'."** É a tradução das Testemunhas de Jeová. Responda com respeito e com o próprio texto: tudo foi feito por meio da Palavra, e nada do que existe foi feito sem ela (versículo 3). Quem fez todas as coisas não pode ser uma delas. Não transforme o encontro num debate.
 
-**"Por que Jesus mandou os discípulos ficarem calados?"** (Marcos 8:30). Henry entende que era para esperar a prova, que viria com a ressurreição. Basta uma resposta curta.
+**"Por que Jesus mandou os discípulos ficarem calados?"** (Marcos 8:30). Henry entende que o segredo valia até a prova estar completa e os discípulos receberem o Espírito Santo (ele liga isso a Atos 2:36). Logo depois, Jesus anuncia que vai sofrer, morrer e ressuscitar (Marcos 8:31). Basta uma resposta curta.
 
 ## Cuidados pastorais
 
-Não pressione ninguém a contar o que pensava antes ou a "decidir" na hora. A pergunta 2 é convite. Se a pessoa vem de outra religião ou de outra igreja, não fale mal de ninguém. Fale de Jesus. Evite promessas: conhecer Jesus não garante vida sem problemas.
+Não pressione ninguém a contar o que pensava antes ou a "decidir" na hora; a pergunta 2 é convite. Se a pessoa vem de outra religião ou igreja, não fale mal de ninguém. Evite promessas: conhecer Jesus não garante vida sem problemas.
 
 ## Roteiro do encontro (40 minutos)
 
@@ -56,12 +54,12 @@ Não pressione ninguém a contar o que pensava antes ou a "decidir" na hora. A p
 
 ## Alertas de interpretação
 
-Não ensine que Jesus deixou de ser Deus ao se tornar homem, nem que ele só parecia humano. A Declaração de Fé afirma as duas naturezas. "Primeiro Filho" (Colossenses 1:15) não quer dizer primeira criatura: Henry explica que o sentido é de primazia, como o herdeiro da família.
+Não ensine que Jesus deixou de ser Deus ao se tornar homem, nem que só parecia humano. "Primeiro Filho" (Colossenses 1:15) não quer dizer primeira criatura: Henry explica que o sentido é de primazia, como o herdeiro da família.
 
 ## Sinais de que a pessoa entendeu
 
-Ela explica, sem ler, por que "foi só um grande mestre" não basta. Diz com as próprias palavras o que é a encarnação, por exemplo: "Deus veio em pessoa". Liga o nome "Cristo" a "Messias".
+Ela explica, sem ler, por que "foi só um grande mestre" não basta, diz o que é a encarnação ("Deus veio em pessoa") e liga "Cristo" a "Messias".
 
 ## Divergências entre tradições
 
-Nesta lição quase não há divergência entre evangélicos: a divindade e a humanidade de Cristo são fé cristã histórica. Há formas diferentes de explicar o que Jesus deixou de lado em Filipenses 2:7, mas todas concordam que ele não deixou de ser Deus. Os grupos unicistas, que negam a Trindade, e as Testemunhas de Jeová ficam fora da fé cristã histórica, segundo a Declaração de Fé. Trate o assunto só se a pessoa perguntar.
+Quase não há divergência entre evangélicos aqui. Há formas diferentes de explicar o que Jesus deixou de lado em Filipenses 2:7, mas todas concordam que ele não deixou de ser Deus. A Declaração de Fé diz que "os unicistas confundem as pessoas" da Trindade e chama essa crença, junto com outras, de "em desacordo com a fé cristã bíblica e histórica". As Testemunhas de Jeová negam que Jesus seja Deus; a Declaração não as cita pelo nome. Trate o assunto só se a pessoa perguntar, sempre com respeito.
