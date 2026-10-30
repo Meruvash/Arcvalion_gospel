@@ -58,10 +58,10 @@
   "A PF diz não haver registro de saída pelos postos brasileiros; a passagem pela fronteira foi confirmada pela migração argentina, segundo a Agência Brasil",
   "O pedido de prisão preventiva feito pelo deputado Lindbergh Farias (PT) ainda não tinha decisão conhecida até 30/10"
  ],
- "veredito": "A gente defende duas coisas ao mesmo tempo: ordem judicial se cumpre, seja de quem for, e decisão que restringe um senador da oposição não pode ficar em segredo, porque o país precisa conferir o fundamento. E boato de prisão que não existe só atrapalha: confira na fonte antes de compartilhar.",
+ "veredito": "A gente defende o devido processo para todos: medida contra o principal nome da oposição, pedida minutos depois do resultado da eleição, não pode ficar em segredo. A Constituição só admite prisão de senador em flagrante de crime inafiançável. E a melhor defesa da direita é a que se faz com documento, não com boato.",
  "versiculo": {
-  "texto": "Não andarás como mexeriqueiro entre o teu povo",
-  "referencia": "Levítico 19.16",
+  "texto": "O que primeiro começa o seu pleito justo parece; mas vem o seu companheiro e o examina",
+  "referencia": "Provérbios 18.17",
   "traducao": "ARC"
  },
  "fontes": [
@@ -118,6 +118,12 @@
    "url": "https://ancap.su/site/noticias",
    "data": "30/10/2026",
    "tipo": "secundaria"
+  },
+  {
+   "nome": "Constituição Federal, art. 53, § 2º (imunidade de prisão de parlamentares), Planalto",
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+   "data": "30/10/2026",
+   "tipo": "primaria"
   }
  ],
  "crivo": {
@@ -226,7 +232,7 @@
   "usada": true,
   "uso": "pesquisa nas fontes, leitura da nota da PF, organização dos fatos e primeira versão do texto"
  },
- "checagem_juridica": "Leitura hostil feita: o senador aparece como investigado, com a negativa dele e do advogado; a nota não diz que ele fugiu nem que é foragido (a própria PF diz que não é); o descumprimento do prazo é atribuído à nota oficial da PF. Moraes é citado pelo ato (decisão), sem juízo sobre intenção. A opinião fala de princípios (cumprir ordem judicial, publicidade de decisões) e de boato, sem atribuir crime a ninguém.",
+ "checagem_juridica": "Leitura hostil feita: o senador aparece como investigado, com a negativa dele e do advogado; a nota não diz que ele fugiu nem que é foragido (a própria PF diz que não é); o descumprimento do prazo é atribuído à nota oficial da PF. A opinião critica o ato (sigilo e momento do pedido, este conferido no Poder360 e na nota da PF) e cita a regra constitucional do art. 53, § 2º, sem atribuir intenção ou crime a Moraes, à PF ou a ninguém; não afirma que haja ordem de prisão.",
  "imagem": {
   "arquivo": "capas/flavio-bolsonaro-deixa-pais-pf-sem-mandado-de-prisao.jpg",
   "credito": "Foto: Joédson Alves/Agência Brasil",

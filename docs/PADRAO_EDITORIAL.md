@@ -70,6 +70,23 @@ e com quem (nada de caça-clique).
 
 As outras 3 notícias de cada 5 seguem o tom padrão: opinião clara e fundamentada, sem ironia.
 
+## Opinião pelo consenso conservador (30/10/2026)
+
+Pedido do responsável editorial: a opinião (Por que importa, O que muda para você, Nossa opinião e versículo) agrada o
+público conservador e mantém a proteção jurídica do portal, as duas coisas juntas.
+
+1. **Parta do consenso da direita.** A tese sai dos princípios que a direita e os conservadores, no Brasil e fora
+   dele, defendem em comum: devido processo e Estado de Direito igual para todos, limites ao poder do Estado e do
+   Judiciário, transparência das decisões, liberdade de expressão e religiosa, família, vida, imunidades e
+   prerrogativas do mandato, responsabilidade fiscal.
+2. **O que desagrada esse público vai com tremenda sutileza.** Quando o fato pede uma ressalva incômoda para a
+   direita (uma ordem judicial descumprida, um boato que circula entre os nossos), ela entra como conselho em nome do
+   próprio campo ("a melhor defesa é a que se faz com documento"), nunca como sermão ou acusação.
+3. **O fato não muda.** Título, lide, números, contexto, No Brasil, O que dizem e Pontos de atenção seguem neutros e
+   completos, inclusive quando o fato é desfavorável a quem está perto da linha do portal (CRIVO_NOTICIAS, seção 4).
+4. **O crivo jurídico continua valendo** (seção abaixo): a crítica mira atos, com fato e fonte; nada de imputar crime
+   ou intenção.
+
 ## Crivo jurídico (30/10/2026)
 
 Pedido do responsável editorial: a opinião pode ser forte, mas não pode abrir espaço para processo. Vale para toda
