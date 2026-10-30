@@ -553,13 +553,16 @@ def aprovar(slug, n, alt, credito=None, licenca=None):
         im = fundo
     im = im.convert("RGB")
     im.thumbnail((1600, 1600), Image.LANCZOS)  # só reduz: não recorta nem monta (vale para licença sem derivação)
-    destino = portal.CONTEUDO / "imagens" / f"{a['slug']}.jpg"
+    # notícia: noticias/capas/<slug>.jpg, onde o build do Elite (tools/build_home.py) procura a foto; estudo e
+    # conteúdo fictício de exemplos/ continuam em conteudo/imagens/
+    noticia = f.parent.name == "noticias" and not portal.EXEMPLO
+    destino = (portal.ROOT / "noticias" / "capas" if noticia else portal.CONTEUDO / "imagens") / f"{a['slug']}.jpg"
     destino.parent.mkdir(parents=True, exist_ok=True)
     for q in range(86, 55, -5):
         im.save(destino, quality=q, optimize=True, progressive=True)
         if destino.stat().st_size <= 350_000:
             break
-    a["imagem"] = {"arquivo": destino.name, "credito": credito or c["credito"], "alt": alt,
+    a["imagem"] = {"arquivo": f"capas/{destino.name}" if noticia else destino.name, "credito": credito or c["credito"], "alt": alt,
                    "licenca": licenca or c.get("licenca", ""), "origem": c["url"], "pagina": c["pagina"]}
     if c.get("sem_derivacao"):
         a["imagem"]["sem_derivacao"] = True
@@ -567,7 +570,7 @@ def aprovar(slug, n, alt, credito=None, licenca=None):
     bruto = json.loads(f.read_text(encoding="utf-8"))
     bruto["imagem"] = a["imagem"]
     f.write_text(json.dumps(bruto, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"conteudo/imagens/{destino.name}  {im.width}x{im.height}  {destino.stat().st_size // 1024} KB  {a['imagem']['credito']}")
+    print(f"{destino.relative_to(portal.ROOT)}  {im.width}x{im.height}  {destino.stat().st_size // 1024} KB  {a['imagem']['credito']}")
     if c.get("sem_derivacao") and im.width < 1200:
         print("aviso: licença sem derivação e foto com menos de 1200 px; o build monta a versão do Discover com fundo desfocado")
 

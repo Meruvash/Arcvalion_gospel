@@ -707,7 +707,7 @@ def build_nota(n, previa=False):
     fontes = "".join(f'<li><a href="{e(f["url"])}" target="_blank" rel="noopener">{e(f["nome"])}</a> <span>consulta em {e(f["data"])}</span></li>' for f in n["fontes"])
     numeros = "".join(f'<li><b>{e(v)}</b><span>{e(r)}</span><small>{e(f)}</small></li>' for v, r, f in n["numeros"])
     critica = "".join(
-        (f'<li class="cit"><q>{e(c["texto"])}</q><cite>{e(c["fonte"])} (tradução livre)</cite></li>' if c.get("citacao")
+        (f'<li class="cit"><q>{e(c["texto"])}</q><cite>{e(c["fonte"])}{" (tradução livre)" if c.get("traducao") else ""}</cite></li>' if c.get("citacao")
          else f'<li><p>{e(c["texto"])}</p></li>') for c in n["critica"])
     sim = "".join(f"<li>{e(x)}</li>" for x in n["para_quem"])
     nao = "".join(f"<li>{e(x)}</li>" for x in n.get("nao_e_para", []))
@@ -728,7 +728,7 @@ def build_nota(n, previa=False):
  <section class="bloco"><h2>Em números</h2><ul class="nums">{numeros}</ul></section>
  <section class="bloco"><h2>Contexto</h2><div class="corpo">{"".join(f"<p>{e(p)}</p>" for p in n['corpo'])}</div></section>
  <section class="bloco brasil-n"><h2>No Brasil</h2><p>{e(n['no_brasil'])}</p></section>
- <section class="bloco"><h2>O que diz a crítica</h2>{f'<ul class="crit">{critica}</ul>' if critica else '<p class="corpo">Ainda não encontramos resenha publicada por veículo especializado.</p>'}</section>
+ {f'<section class="bloco"><h2>O que dizem</h2><ul class="crit">{critica}</ul></section>' if critica else ''}
  <section class="bloco quem"><div><h2>O que muda para você</h2><ul class="ok">{sim}</ul></div>{f'<div><h2>Pontos de atenção</h2><ul class="no">{nao}</ul></div>' if nao else ""}</section>
  <section class="bloco veredito {sc}"><h2>Nossa opinião</h2><span class="selo {sc}">{e(n['selo'])}</span><p>{e(n['veredito'])}</p></section>
  {convite_compartilhar(texto_cp, url, "Conhece alguém que vai gostar?", "Mande esta notícia para a turma.")}

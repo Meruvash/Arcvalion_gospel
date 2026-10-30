@@ -82,6 +82,10 @@ class Noticias(unittest.TestCase):
         self.assertIn("origem", crivo(origem={"nome": "Daily Wire"}))
         self.assertEqual(self.erros(crivo={"pontos": 5}), "")  # nota antiga, sem eixos, continua valendo
 
+    def test_crivo_juridico(self):
+        self.assertIn("risco jurídico", self.erros(veredito="O relator é um mentiroso e o projeto, uma farsa de quem quer aparecer na foto."))
+        self.assertIn("checagem_juridica", self.erros(checagem_juridica=None))
+
     def test_opiniao_forte_dois_de_cinco(self):
         dia = []
         for i in range(5):

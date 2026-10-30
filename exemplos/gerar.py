@@ -40,7 +40,7 @@ def nota(i, slug, cat, selo, titulo, pontos, status="publicado", **extra):
     n = {"slug": slug, "data": f"2026-10-{29 - i % 3:02d}", "categoria": cat, "status": status, "titulo": titulo,
          "lide": "Lide de exemplo com trinta e cinco palavras ou mais, escrito apenas para testar o layout da notícia, a quebra de linha da abertura e o tamanho do texto no celular, sem descrever nenhum fato real.",
          "corpo": [F + " " + F, F], "fontes": fontes(), "imagem": {"arquivo": f"{slug}.jpg", "credito": "Imagem abstrata de exemplo", "alt": "Imagem abstrata"},
-         "crivo": {"pontos": pontos, "criterios": ["Critério de exemplo (2)"]}, "selo": selo, "instituicao": "Instituição fictícia",
+         "crivo": {"pontos": pontos, "criterios": ["Critério de exemplo (2)"]}, "checagem_juridica": "Exemplo fictício: leitura hostil feita, sem imputação de crime ou intenção, sem ofensa a pessoa ou grupo, ironia só sobre a decisão.", "selo": selo, "instituicao": "Instituição fictícia",
          "por_que_importa": "Análise de exemplo: este parágrafo existe só para mostrar como o quadro de análise aparece separado do relato dos fatos na página da notícia, sempre assinado pela redação e nunca misturado ao contexto factual.",
          "numeros": [["10", "número de exemplo", "Fonte de exemplo"], ["2026", "ano de exemplo", "Fonte de exemplo"]],
          "no_brasil": "Bloco de exemplo sobre o efeito no Brasil, com vinte e cinco palavras ou mais, para testar a faixa verde da página da notícia no layout do portal.",
