@@ -672,7 +672,7 @@ def build_home():
 <main id="conteudo" class="in"><div class="nota"><section class="bloco">
  <h1>Página não encontrada</h1>
  <p class="lide">O endereço pode ter mudado ou sido digitado errado. Veja o que há de novo:</p>
- <div class="jogos"><a href="{RAIZ}">Notícias de hoje</a><a href="{RAIZ}estudos/">Estudos bíblicos</a><a href="{RAIZ}consulta/">Livros da Bíblia</a></div>
+ <div class="jogos"><a href="{RAIZ}">Notícias de hoje</a><a href="{RAIZ}estudos/">Estudos bíblicos</a><a href="{RAIZ}consulta/">Versículo diário</a></div>
 </section></div></main>
 {rodape(RAIZ, "")}"""
     (ROOT / "404.html").write_text(pagina("Página não encontrada | O Paladino", "Página não encontrada.", "", capa_secao("noticias"), RAIZ, corpo_404), encoding="utf-8")

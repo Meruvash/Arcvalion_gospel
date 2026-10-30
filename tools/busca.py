@@ -89,7 +89,7 @@ def build():
         d = datetime.fromisoformat(n["data"])
         regs.append(reg("n", n["titulo"], f'{d.day} de {MESES[d.month - 1]} · {n["categoria"]}', f'noticias/{n["slug"]}/', extra))
 
-    # Livros da Bíblia (consulta/): um registro por livro, com grupo, testamento e capítulos na linha de contexto
+    # Livros da Bíblia (bloco RAW de consulta/): um registro por livro, com grupo, testamento e capítulos; o link abre o Versículo diário com um versículo do livro
     raw = re.search(r"const RAW = `(.*?)`", (ROOT / "consulta" / "index.html").read_text(encoding="utf-8"), re.S).group(1)
     for linha in raw.strip().split("\n"):
         y, cat, livros = linha.strip().split(" | ")

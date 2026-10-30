@@ -377,7 +377,7 @@ footer .in{{display:flex;flex-wrap:wrap;gap:10px 20px;padding-top:18px;padding-b
 <main class="in">
  <section class="topo">
   <h1>Estudos bíblicos</h1>
-  <p class="lede">{f"{n} {'estudo' if n == 1 else 'estudos'} com fontes: contexto, estrutura, aplicação e leituras equivocadas de cada passagem." if n else "Os primeiros estudos estão em preparação e passam pela revisão do responsável editorial antes de serem publicados."} Para se localizar, veja os <a class="guia-link" href="../consulta/">66 livros da Bíblia</a>, com testamento, grupo e capítulos.</p>
+  <p class="lede">{f"{n} {'estudo' if n == 1 else 'estudos'} com fontes: contexto, estrutura, aplicação e leituras equivocadas de cada passagem." if n else "Os primeiros estudos estão em preparação e passam pela revisão do responsável editorial antes de serem publicados."} Veja também o <a class="guia-link" href="../consulta/">versículo diário</a>, com um versículo novo a cada clique.</p>
  </section>
  {filtros if n else ""}
  <ul class="grid" id="lista">

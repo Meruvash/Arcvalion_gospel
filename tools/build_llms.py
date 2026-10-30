@@ -37,7 +37,7 @@ def build():
                f"- [Arquivo de notícias]({SITE}/noticias/)",
                f"- [Estudos bíblicos]({SITE}/estudos/)",
                f"- [Agenda cristã]({SITE}/lancamentos/): eventos e lançamentos com data confirmada",
-               f"- [Livros da Bíblia]({SITE}/consulta/): os 66 livros do cânon protestante, com testamento, grupo e capítulos",
+               f"- [Versículo diário]({SITE}/consulta/): o versículo do dia e um sorteio de versículos da Bíblia (Almeida, domínio público) a cada clique",
                f"- [Política editorial]({SITE}/politica-editorial/): como pesquisamos, escolhemos e corrigimos", ""]
     (ROOT / "llms.txt").write_text("\n".join(linhas), encoding="utf-8")
     return f"{SITE}/llms.txt"

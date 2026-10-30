@@ -5,6 +5,7 @@ Uso: python3 -m unittest discover -s tests -v
 import copy
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -181,6 +182,19 @@ class Build(unittest.TestCase):
                 livros[t] += 1
                 caps[t] += int(x.split("=")[1])
         self.assertEqual((livros, caps), ({"Antigo Testamento": 39, "Novo Testamento": 27}, {"Antigo Testamento": 929, "Novo Testamento": 260}))
+
+    def test_versiculo_diario(self):
+        s = self.html("consulta/index.html")
+        raw = s.split("const RAW = `", 1)[1].split("`", 1)[0]
+        nomes = [x.split("=")[0] for linha in raw.strip().split("\n") for x in linha.split(" | ")[2].split("; ")]
+        versos = json.loads(re.search(r"^const VERSOS = (.*);$", s, re.M).group(1))
+        self.assertGreaterEqual(len(versos), 200)
+        self.assertEqual({v[0] for v in versos}, set(nomes))  # pelo menos um versículo de cada livro
+        self.assertEqual(len({(v[0], v[1], v[2]) for v in versos}), len(versos))
+        self.assertTrue(all(v[3].strip() for v in versos))
+        self.assertIn("João Ferreira de Almeida", s)
+        self.assertIn('id="sortear"', s)
+        self.assertRegex(s, r'<blockquote id="vt">[^<]+</blockquote>')  # versículo do dia já no HTML
 
     def test_cores_azuis(self):
         s = self.html("index.html")

@@ -370,7 +370,7 @@ def build(ano=None):
   <p class="fonte">Cada item traz a fonte, consultada em {atualizado:%d/%m/%Y}. Datas previstas pelos organizadores podem mudar.</p>
  </div>
  <div class="ctrl">
-  <nav class="atalhos" aria-label="Seções do site"><a href="{pre}">Início</a><a href="{pre}noticias/">Notícias</a><a href="{pre}estudos/">Estudos bíblicos</a><a href="{pre}consulta/">Livros da Bíblia</a></nav>
+  <nav class="atalhos" aria-label="Seções do site"><a href="{pre}">Início</a><a href="{pre}noticias/">Notícias</a><a href="{pre}estudos/">Estudos bíblicos</a><a href="{pre}consulta/">Versículo diário</a></nav>
   <div class="busca"><input id="busca" type="search" placeholder="Buscar evento ou organizador" aria-label="Buscar evento ou organizador" autocomplete="off" enterkeyhint="search"><button type="button" class="limpa" aria-label="Limpar busca">×</button></div>
   <div class="trilho" role="group" aria-label="Mês">{"".join(chips)}</div>
   <div class="filtros" role="group" aria-label="Filtros">{filtros}</div>

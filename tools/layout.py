@@ -32,7 +32,7 @@ ICONES = {
 }
 
 # (caminho a partir da raiz, rótulo) das seções do menu
-SECOES = [("noticias/", "Notícias"), ("estudos/", "Estudos bíblicos"), ("lancamentos/", "Agenda"), ("consulta/", "Livros da Bíblia")]
+SECOES = [("noticias/", "Notícias"), ("estudos/", "Estudos bíblicos"), ("lancamentos/", "Agenda"), ("consulta/", "Versículo diário")]
 
 
 def icone(nome, cls="ic"):
@@ -262,7 +262,7 @@ def rodape(pre, barra=None):
     if barra is None:
         barra = barra_leitura(interacao=False)
     return f"""<footer><div class="in">
- <span>O Paladino</span><a href="{pre}noticias/">Notícias</a><a href="{pre}estudos/">Estudos bíblicos</a><a href="{pre}lancamentos/">Agenda</a><a href="{pre}consulta/">Livros da Bíblia</a><a href="{pre}politica-editorial/">Política editorial</a>
+ <span>O Paladino</span><a href="{pre}noticias/">Notícias</a><a href="{pre}estudos/">Estudos bíblicos</a><a href="{pre}lancamentos/">Agenda</a><a href="{pre}consulta/">Versículo diário</a><a href="{pre}politica-editorial/">Política editorial</a>
  {f'<a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a>' if INSTAGRAM else ''}{f'<a href="{WHATSAPP}" target="_blank" rel="noopener">Grupo do WhatsApp</a>' if WHATSAPP else ''}{f'<a href="mailto:{EMAIL}">Contato</a>' if EMAIL else ''}
 </div></footer>
 {barra}"""
