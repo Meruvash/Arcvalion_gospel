@@ -21,7 +21,7 @@ PUBLICADAS = ["sobre"]  # as outras de conteudo/paginas/ ainda não têm conteú
 def texto(t, pre):
     t = e(t.replace("{nome}", portal.NOME).replace("{responsavel}", responsavel()))
     return re.sub(r"\[([^\]]+)\]\(([^)]+)\)",
-                  lambda m: f'<a href="{m[2] if m[2].startswith("http") else pre + m[2].lstrip("/")}"'
+                  lambda m: f'<a href="{m[2] if m[2].startswith(("http", "mailto:")) else pre + m[2].lstrip("/")}"'
                             f'{" target=_blank rel=noopener" if m[2].startswith("http") else ""}>{m[1]}</a>', t)
 
 

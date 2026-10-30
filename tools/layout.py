@@ -9,6 +9,14 @@ WHATSAPP = ""  # grupo do WhatsApp do portal: preencher
 # e-mail da redação (config/portal.json): rodapé e pedidos de correção; vazio, o link não aparece
 EMAIL = __import__("json").loads((__import__("pathlib").Path(__file__).resolve().parent.parent / "config" / "portal.json").read_text(encoding="utf-8")).get("email_contato", "")
 
+# Editor responsável (primeiro revisor de config/equipe.json) e o Instagram dele, se estiver em "redes": aparece no
+# rodapé, no "Fale com o editor" do fim das notícias e dos estudos e em Quem somos. É o perfil pessoal do editor,
+# não o do portal (esse é INSTAGRAM, acima).
+EDITOR = next((p for p in __import__("json").loads((__import__("pathlib").Path(__file__).resolve().parent.parent / "config" / "equipe.json")
+                                                    .read_text(encoding="utf-8"))["pessoas"] if p.get("revisor")), {})
+EDITOR_IG = next((r for r in EDITOR.get("redes", []) if "instagram.com/" in r), "")
+EDITOR_ARROBA = "@" + EDITOR_IG.rstrip("/").rsplit("/", 1)[-1] if EDITOR_IG else ""
+
 ICONES = {
     "jogadores": '<path d="M8 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8 1a3 3 0 1 0 0-6M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15.5 14.2c3 .4 5.5 2.8 5.5 5.8"/>',
     "duracao": '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/>',
@@ -65,6 +73,10 @@ CSS_COMPARTILHAR = (".cpw{position:relative;display:inline-block}"
                     # convite no fim do conteúdo
                     ".convite{display:flex;align-items:center;justify-content:space-between;gap:12px 20px;flex-wrap:wrap}"
                     ".convite .cv-t{margin:0;font-weight:800;font-size:1.1rem}.convite .cv-s{margin:2px 0 0;font-size:.92rem;opacity:.8}"
+                    # "Fale com o editor": botão no magenta do Instagram (contraste AA com o branco)
+                    ".ig-cv{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:10px 20px;border-radius:999px;background:#c13584;color:#fff;"
+                    "font-size:.95rem;font-weight:800;text-decoration:none}.ig-cv:hover{background:#a42b70;color:#fff}.ig-cv .ic{width:20px;height:20px}"
+                    "footer .rod-ig{gap:6px}footer .rod-ig .ic{width:18px;height:18px}"
                     # barra de leitura: aparece depois de rolar e some perto do fim
                     ".barra-lt{position:fixed;z-index:25;left:50%;bottom:calc(12px + env(safe-area-inset-bottom));display:flex;align-items:center;gap:4px;padding:5px;"
                     "border-radius:999px;background:#0a1a33;border:1px solid #2e4d7a;box-shadow:0 8px 24px rgba(0,0,0,.35);"
@@ -229,9 +241,19 @@ def botao_compartilhar(texto, url="", rotulo="Compartilhar", mini=False):
 
 
 def convite_compartilhar(texto, url, titulo, sub, classe="bloco"):
-    """O convite único no fim do conteúdo (depois de "Nossa opinião" ou do veredito)."""
+    """O convite único no fim do conteúdo (depois de "Nossa opinião" ou do veredito), seguido do "Fale com o editor"."""
     return (f'<section class="{classe} convite" aria-label="Compartilhar"><div><p class="cv-t">{titulo}</p><p class="cv-s">{sub}</p></div>'
-            f'{botao_compartilhar(texto, url)}</section>')
+            f'{botao_compartilhar(texto, url)}</section>{fale_com_editor(classe)}')
+
+
+def fale_com_editor(classe="bloco"):
+    """Bloco de contato com o editor responsável: seguir e mandar mensagem no Instagram dele (vazio sem Instagram)."""
+    if not EDITOR_IG:
+        return ""
+    return (f'<section class="{classe} convite editor-cv" aria-label="Fale com o editor"><div><p class="cv-t">Fale com o editor</p>'
+            f'<p class="cv-s">{EDITOR["nome"]}, {EDITOR.get("cargo", "editor").lower()}. Sugestão de pauta, correção ou conversa: '
+            f'mande mensagem no Instagram.</p></div>'
+            f'<a class="ig-cv" href="{EDITOR_IG}" target="_blank" rel="noopener me">{icone("insta")}<span>Seguir {EDITOR_ARROBA}</span></a></section>')
 
 
 def barra_leitura(texto="", url="", interacao=True):
@@ -284,6 +306,6 @@ def rodape(pre, barra=None):
         barra = barra_leitura(interacao=False)
     return f"""<footer><div class="in">
  <span>O Paladino</span><a href="{pre}noticias/">Notícias</a><a href="{pre}estudos/">Estudos bíblicos</a><a href="{pre}lancamentos/">Agenda</a><a href="{pre}consulta/">Versículo diário</a><a href="{pre}sobre/">Quem somos</a><a href="{pre}politica-editorial/">Política editorial</a>
- {f'<a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a>' if INSTAGRAM else ''}{f'<a href="{WHATSAPP}" target="_blank" rel="noopener">Grupo do WhatsApp</a>' if WHATSAPP else ''}{f'<a href="mailto:{EMAIL}">Contato</a>' if EMAIL else ''}
+ {f'<a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a>' if INSTAGRAM else ''}{f'<a class="rod-ig" href="{EDITOR_IG}" target="_blank" rel="noopener me" aria-label="Instagram do editor, {EDITOR_ARROBA}">{icone("insta")}{EDITOR_ARROBA}</a>' if EDITOR_IG else ''}{f'<a href="{WHATSAPP}" target="_blank" rel="noopener">Grupo do WhatsApp</a>' if WHATSAPP else ''}{f'<a href="mailto:{EMAIL}">Contato</a>' if EMAIL else ''}
 </div></footer>
 {barra}"""
