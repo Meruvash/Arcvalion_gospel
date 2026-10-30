@@ -21,6 +21,23 @@ pela verificação diária do portal (skill `verificacao`). Alvo: um estudo em c
 Regras que continuam valendo (CLAUDE.md): nada inventado, citação literal só de frase lida na fonte, nunca imagem gerada
 por IA, não editar HTML gerado, publicação automática registrada como automática.
 
+## Rotina diária (tarefa agendada, 15:17 de Brasília): 5 estudos no ar até as 18h30
+
+Horário escolhido para não coincidir com as outras rotinas (notícias 2h23, estudos bíblicos 5h13, verificação 21h).
+
+1. **Ordem: completar as trilhas** (pedido do editor, 30/10/2026), para que qualquer pessoa possa escolher uma trilha e
+   segui-la até o fim. Rode `python3 tools/discipulado/proximos.py 5`: ele lê `conteudo/discipulado/base/catalogo.json`
+   e devolve os próximos temas na ordem certa (primeiro os que faltam nas trilhas, a trilha mais perto de ficar completa
+   antes; depois os previstos das categorias, a categoria com menos estudos antes). Pule tema que já tenha estudo.
+2. Para cada tema, confira a relevância (passo 2 abaixo) só para registrar as evidências: o tema vem da trilha.
+3. Pesquisa em paralelo: um subagente por tema, na mesma mensagem (briefing do passo 3). Enquanto pesquisam, escolha
+   as 5 imagens.
+4. Escreva os 5 estudos no padrão de `nascer-de-novo` (passo 4), valide, publique um por um (passo 7) e troque o
+   `{"titulo": ...}` de cada trilha pelo slug e tire o título dos `previstos` da categoria.
+5. Commit único, `git pull --rebase origin main` e push. Se às 18h30 houver menos de 5 prontos, publique os que passaram
+   e explique; nunca publique estudo com fonte faltando para cumprir a meta.
+6. Resumo curto: estudos publicados com link, trilhas que ficaram completas e o que falta em cada uma.
+
 ## 1. Preparar (2 min)
 
 `git pull origin main`. Ler `docs/discipulado/padrao-de-escrita.md` e a seção 7 de `docs/discipulado/padrao-editorial.md`
