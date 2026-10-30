@@ -4,6 +4,8 @@ Uso: python3 tools/estudos/checar_estudo.py [conteudo/estudos/<slug>.json ...]  
 O estudo é o equivalente da resenha do Elite Boardgamers e segue o mesmo esqueleto (resumo em 30 segundos, passos,
 destaques e pontos de atenção, para quem é, veredito, ficha, fontes, perguntas frequentes). As regras de conteúdo:
 toda passagem citada com a tradução; interpretação atribuída a quem a defende; nada de "a Bíblia diz" sem a referência.
+O centro do estudo é "O que dizem os teólogos" (`posicoes`, pedido de 30/10/2026): os lados de
+uma questão disputada, cada um com pelo menos dois teólogos brasileiros de referência, obra, link e data.
 """
 import json
 import re
@@ -23,6 +25,35 @@ REFERENCIA = re.compile(r"\b\d?\s?[A-ZÁÉÍÓÚ][a-zçãéíóúê]+\.?\s\d+(:\
 
 def palavras(t):
     return len(str(t).split())
+
+
+def problemas_posicoes(c):
+    """Os lados da questão: 2 a 4 posições, cada uma com 2 a 4 teólogos com obra, link, data e paráfrase com o nome."""
+    erros = []
+    pos = c.get("posicoes") or []
+    if not 2 <= len(pos) <= 4:
+        return ["posicoes (O que dizem os teólogos): 2 a 4 lados {lado, resumo, teologos}"]
+    for p in pos:
+        lado = p.get("lado", "?")
+        if not p.get("lado") or not 20 <= palavras(p.get("resumo", "")) <= 90:
+            erros.append(f"posicoes '{lado}': lado e resumo de 20 a 90 palavras")
+        ts = p.get("teologos") or []
+        if not 2 <= len(ts) <= 4:
+            erros.append(f"posicoes '{lado}': 2 a 4 teólogos")
+        for t in ts:
+            nome = t.get("autor", "?")
+            for campo in ("autor", "quem", "obra", "url", "data", "texto"):
+                if not t.get(campo):
+                    erros.append(f"teólogo '{nome}': falta {campo}")
+            if t.get("url") and not str(t["url"]).startswith("http"):
+                erros.append(f"teólogo '{nome}': url com o link da obra ou do artigo")
+            if t.get("texto") and not 25 <= palavras(t["texto"]) <= 110:
+                erros.append(f"teólogo '{nome}': texto de 25 a 110 palavras")
+            if t.get("citacao") and not str(t.get("citacao_url", t.get("url", ""))).startswith("http"):
+                erros.append(f"teólogo '{nome}': citação literal só com o link da página onde a frase foi lida")
+    if not 1 <= len(c.get("convergencias", [])) <= 5:
+        erros.append("convergencias: 1 a 5 pontos em que os lados concordam")
+    return erros
 
 
 def problemas(c, publicar=None):
@@ -64,6 +95,7 @@ def problemas(c, publicar=None):
         erros.append("para_quem: 1 a 4 itens")
     if len(c.get("fontes", [])) < 3 or any(len(f) != 3 or not str(f[1]).startswith("http") for f in c.get("fontes", [])):
         erros.append("fontes: pelo menos 3 [nome, link, uso] (comentários, dicionários bíblicos, textos acadêmicos)")
+    erros += problemas_posicoes(c)
     if c.get("comentaristas"):
         for x in c["comentaristas"]:
             if not x.get("autor") or not x.get("obra"):

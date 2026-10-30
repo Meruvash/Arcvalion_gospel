@@ -46,6 +46,56 @@
   "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real.",
   "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
  ],
+ "questao": "Pergunta de exemplo que divide os teólogos fictícios?",
+ "posicoes": [
+  {
+   "lado": "Lado de exemplo 1",
+   "resumo": "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real. Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real.",
+   "teologos": [
+    {
+     "autor": "Teólogo fictício 1a",
+     "quem": "Instituição fictícia",
+     "obra": "Obra fictícia",
+     "url": "https://1a.exemplo.invalid/",
+     "data": "2026",
+     "texto": "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real. Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+    },
+    {
+     "autor": "Teólogo fictício 1b",
+     "quem": "Instituição fictícia",
+     "obra": "Obra fictícia",
+     "url": "https://1b.exemplo.invalid/",
+     "data": "2026",
+     "texto": "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real. Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+    }
+   ]
+  },
+  {
+   "lado": "Lado de exemplo 2",
+   "resumo": "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real. Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real.",
+   "teologos": [
+    {
+     "autor": "Teólogo fictício 2a",
+     "quem": "Instituição fictícia",
+     "obra": "Obra fictícia",
+     "url": "https://2a.exemplo.invalid/",
+     "data": "2026",
+     "texto": "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real. Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+    },
+    {
+     "autor": "Teólogo fictício 2b",
+     "quem": "Instituição fictícia",
+     "obra": "Obra fictícia",
+     "url": "https://2b.exemplo.invalid/",
+     "data": "2026",
+     "texto": "Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real. Texto de demonstração para conferir o layout do portal, sem descrever fato real, pessoa real ou instituição real."
+    }
+   ]
+  }
+ ],
+ "convergencias": [
+  "Ponto de exemplo em que os dois lados concordam."
+ ],
  "destaques": [
   [
    "Ensino de exemplo um",

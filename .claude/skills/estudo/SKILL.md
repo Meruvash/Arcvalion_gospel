@@ -1,14 +1,51 @@
 ---
 name: estudo
-description: Produz o próximo estudo bíblico do portal (o equivalente das resenhas do Elite Boardgamers) — escolha da passagem, pesquisa em comentários e obras de referência com fontes, texto no padrão dos estudos (docs/PADRAO_EDITORIAL.md), imagem em domínio público ou licença livre, legenda do Instagram e envio para revisão. Use quando pedirem "/estudo", "próximo estudo", "estudo de <passagem>".
+description: Produz e publica os estudos bíblicos do portal (o equivalente das resenhas do Elite Boardgamers) — tema da pauta (conteudo/pauta_estudos.json), pesquisa do que dizem teólogos brasileiros de referência de cada lado, texto no padrão dos estudos (docs/PADRAO_EDITORIAL.md), obra de arte em domínio público, build e publicação automática. Rotina diária: 5 estudos no ar antes das 9h. Use quando pedirem "/estudo", "próximo estudo", "estudo de <passagem>", "estudos do dia" ou quando a tarefa agendada disparar.
 ---
 
 # Estudo bíblico
 
-Mesma estrutura da resenha do Elite, com a passagem no lugar do jogo. É publicado sozinho quando passa em `tools/estudos/checar_estudo.py` (ordem do responsável editorial, 29/10/2026): `python3 tools/publicar.py aprovar conteudo/estudos/<slug>.json --revisor anderson-pelicioni-de-castro --automatica`.
+Mesma estrutura da resenha do Elite, com a passagem no lugar do jogo e, no centro, **"O que dizem os teólogos"**: uma questão em que teólogos brasileiros de referência divergem, cada lado com o seu melhor argumento. Modelos: `conteudo/estudos/dons-espirituais-1-corintios-13.json` e `conteudo/estudos/arrebatamento-1-tessalonicenses-4.json` (aprovados pelo responsável editorial em 30/10/2026).
 
-1. **Passagem.** Se o pedido não diz, escolha uma passagem ligada às notícias recentes (campo `estudos` das notas) ou aos temas mais buscados (Sermão do Monte, Salmo 23, Romanos 8, Gênesis 1, Fruto do Espírito, Parábolas). Confira em `conteudo/estudos/` que ainda não existe.
-2. **Pesquisa** com pelo menos 3 fontes com link: comentários bíblicos e dicionários de domínio público ou acesso aberto (Matthew Henry, Spurgeon, Bíblia de Estudo Genebra nas partes citadas pela editora, Dicionário Bíblico, artigos acadêmicos, sites das sociedades bíblicas). Toda interpretação vai com o nome de quem a defende; havendo divergência entre tradições, diga.
-3. **Texto** em `conteudo/estudos/<slug>.json` (ver docs/PADRAO_EDITORIAL.md, "Estudos bíblicos"): `titulo`, `passagem`, `sigla`, `livro` (nome como em /biblia/), `testamento`, `genero`, `nivel` (1 a 3), `tempo_min`, `selo`, `tagline`, `lede`, `descricao`, `versiculo_chave` (texto, referência e tradução, preferindo traduções em domínio público como a Almeida Revista e Corrigida de 1898/1969 nas partes livres, ou citação curta com crédito), `estrutura` (3 a 7 partes com referência), `contexto`, `aplicacao`, `destaques`, `atencao` (leituras equivocadas, com gravidade), `perfil`, `formatos`, `para_quem`, `nao_e_para`, `dica`, `traducoes`, `relacionadas`, `comparacoes`, `versiculos`, `veredito`, `ficha`, `fontes`, `consulta`, `legenda`, `ia`, `status: "revisao"`.
-4. **Imagem**: obra de arte em domínio público (Wikimedia Commons, com autor, ano e licença no crédito) ou foto de licença livre. Nunca imagem gerada por IA. `python3 tools/imagens/baixar.py`.
-5. `python3 tools/estudos/checar_estudo.py conteudo/estudos/<slug>.json`, `python3 tools/build_home.py`, `tools/publicar.py aprovar ... --automatica`, Playwright em 390 px, commit e push. Resumo com o link do estudo.
+Publicação automática (ordem do responsável editorial, 29/10/2026): o que passa em `tools/estudos/checar_estudo.py` vai ao ar com `python3 tools/publicar.py aprovar conteudo/estudos/<slug>.json --revisor anderson-pelicioni-de-castro --automatica`. A conferência humana é diária (skill `verificacao`).
+
+## Rotina diária (tarefa agendada, 05:13 de Brasília): 5 estudos no ar antes das 9h
+
+1. `git pull origin main`. Pegue os **5 primeiros `na_fila`** de `conteudo/pauta_estudos.json` e marque-os `em_producao`.
+2. **Pesquisa em paralelo**: um subagente (Agent, general-purpose) por tema, todos na mesma mensagem, com o briefing da seção "Pesquisa" abaixo. Enquanto pesquisam, busque as 5 imagens.
+3. Para cada pesquisa que voltar com **2 ou mais teólogos brasileiros por lado, com fonte lida**: escreva o JSON, confira as citações (seção "Citações"), rode o validador. Tema sem fontes suficientes vira `sem_fontes` (com `obs`), e o próximo `na_fila` entra no lugar, até completar 5 ou até 08:30.
+4. Publique os que passaram (`publicar.py aprovar ... --automatica`), marque `publicado` e o `slug` na pauta, rode `python3 tools/build_home.py` e as checagens do CLAUDE.md, confira 1 estudo no Playwright em 390 px.
+5. Commit único em `main` e push (antes do push, `git pull --rebase origin main`: a rotina de notícias também publica de manhã). Se faltar algum para 5, publique os prontos mesmo assim: nunca publique texto com fonte faltando para cumprir a cota.
+6. Resumo curto: estudos publicados com link, temas que viraram `sem_fontes` e por quê, e as legendas do Instagram.
+
+Pedido avulso ("/estudo", "estudo de <passagem>"): mesmos passos para um tema; se a passagem não estiver na pauta, acrescente-a.
+
+## Pesquisa (briefing do subagente)
+
+Peça, em português: a passagem e a questão; **pelo menos 2, idealmente 3 teólogos brasileiros de referência por lado**, cada um com igreja ou instituição confirmada na fonte, posição, argumento em paráfrase fiel, 1 ou 2 citações literais com o URL onde a frase foi lida, obra, link e data; os argumentos exegéticos de cada lado; os pontos de concordância com fonte; um comentário clássico em domínio público (Calvino, Matthew Henry, Wesley) com link; a lista de fontes; e **o que não foi confirmado**. Regras para o subagente:
+- Citação literal só de frase lida na página; dizer se conferiu baixando a página (curl + grep, grau A) ou só pelo WebFetch (grau B). Salvar as páginas em `<scratchpad>/web-<slug>/`.
+- Não inventar títulos, datas, cargos nem posições. Teólogo sem texto lido não entra, mesmo que "todo mundo saiba" o que ele pensa.
+- **Site que bloqueia robô (403, 406, desafio Cloudflare) não se contorna**: procure outra fonte ou uma reprodução fiel (ex.: as Lições Bíblicas da CPAD estão reproduzidas em estudantesdabiblia.com.br e em blogs; confira a mesma frase em duas reproduções). O mesmo vale para você: nada de trocar user-agent para passar por bloqueio.
+- Fontes que funcionaram: blogs dos próprios autores (O Tempora, O Mores; Teologia Pentecostal; blog de Ciro Zibordi), colunas do Guiame, Fides Reformata (PDFs do CPAJ/Mackenzie), Monergismo, Lições Bíblicas reproduzidas, CCEL e biblestudytools para os clássicos. Bloqueados nas sessões de nuvem: hernandesdiaslopes.com.br, cpadnews.com.br, jmnoticia.com.br, web.archive.org.
+
+## Citações
+
+Antes de escrever, confira cada citação nas páginas salvas (`grep -F "<trecho>"`). Frase que só aparece reproduzida por terceiros (ex.: post de rede social citado num blog) entra como **paráfrase**, com a obra dizendo onde foi reproduzida. Se o autor recusa um rótulo (Augustus Nicodemus não se diz cessacionista), o texto diz isso. Se a fonte não trata da passagem do estudo, o texto diz isso.
+
+## Texto
+
+`conteudo/estudos/<slug>.json` (docs/PADRAO_EDITORIAL.md, "Estudos bíblicos" e "O que dizem os teólogos"). Campos: `titulo`, `passagem`, `sigla`, `livro`, `testamento`, `genero`, `nivel` (1 a 3), `tempo_min`, `selo`, `tagline`, `lede`, `descricao`, `imagem`, `versiculo_chave` (texto, referência, tradução; a Almeida Corrigida Fiel do bibliaonline.com.br entra como citação curta com crédito à SBTB), `estrutura` (3 a 7 partes com referência), `estrutura_resumo`, `questao`, `posicoes` (2 a 4 lados, 2 a 4 teólogos cada), `convergencias`, `contexto`, `aplicacao`, `destaques`, `atencao` (com gravidade), `perfil`, `formatos`, `para_quem`, `nao_e_para`, `dica`, `traducoes`, `relacionadas`, `comparacoes`, `versiculos`, `veredito`, `ficha`, `fontes`, `consulta`, `legenda`, `cor`, `ia`, `status: "revisao"`.
+
+Tom: relato dos lados neutro e no melhor argumento de cada um; a voz do portal ("a gente") só no `veredito`, sem desqualificar ninguém. Varie as aberturas, os vereditos e as legendas entre os estudos do dia (leia os últimos publicados): nada de repetir "A gente fica com..." em todos.
+
+## Imagem
+
+Obra de arte em domínio público, ligada ao texto, sem nudez. O Wikimedia Commons limita pedidos vindos da nuvem (429); o acervo aberto do Metropolitan Museum funciona:
+- busca: `https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&isPublicDomain=true&limit=20&q=<termo em inglês>`
+- detalhes (título, artista, data, `constituents` com "After ..." quando é gravura segundo outro pintor): `.../public/collection/v1/objects/<id>`
+- veja a miniatura (`/web-large/`) antes de escolher, baixe com `python3 tools/imagens/baixar.py <primaryImage> estudo-<slug>.jpg --credito "Artista, Título (técnica, ano). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)" --pagina <objectURL>` e reduza para até 1600 px e ~300 KB.
+Nunca imagem gerada por IA.
+
+## Checagens antes do push
+
+`python3 tools/estudos/checar_estudo.py`, `python3 tools/noticias/checar_noticia.py`, `python3 -m unittest discover -s tests`, `python3 tools/checar_isolamento.py`, `python3 tools/build_home.py` e `python3 tools/checar_seo.py`. Não versione `previa/` (o deploy gera).

@@ -108,6 +108,19 @@ Esqueleto da resenha do Elite: `titulo`, `passagem`, `sigla`, `livro`, `testamen
 `comparacoes`, `versiculos`, `veredito` (Para guardar), `ficha`, `fontes` (3 ou mais `[nome, link, uso]`), `consulta`,
 `legenda` (Instagram), `imagem` (domínio público ou licença livre), `ia`, `status`.
 
+**O que dizem os teólogos (30/10/2026).** No lugar da opinião da crítica nas resenhas do Elite, o centro do estudo é
+uma questão em que teólogos brasileiros de referência divergem sobre a passagem: `questao` (a pergunta, em uma frase),
+`posicoes` (2 a 4 lados `{lado, resumo, teologos}`; cada lado com 2 a 4 teólogos `{autor, quem, obra, url, data,
+texto, citacao?, citacao_url?}`) e `convergencias` (1 a 5 pontos em que os lados concordam). Regras:
+
+1. **Cada lado no seu melhor argumento**, dito como quem o defende diria; nada de caricatura nem de "lado certo" no
+   relato. A opinião do portal, se houver, fica só no `veredito` e nunca desqualifica o outro lado.
+2. **Teólogo brasileiro de referência**, com a igreja ou instituição conferida na fonte (`quem`). Obra ou artigo com
+   link e data (`url`, `data`); `texto` é paráfrase fiel de 25 a 110 palavras com o nome dentro.
+3. **Citação literal** (`citacao`) só de frase lida na página de `citacao_url` (ou de `url`), copiada sem mudar nada.
+4. **Comentaristas clássicos** (Calvino, Matthew Henry etc.) entram em `contexto` ou `destaques`, não como lado.
+5. **Respeito entre tradições**: divergência entre irmãos, nunca acusação de heresia a quem defende um dos lados.
+
 Fotos: fontes, licenças e o robô `tools/fotos.py` em `docs/FOTOS.md`.
 
 Interpretação sempre com o nome de quem a defende; divergência entre tradições cristãs aparece como divergência;
