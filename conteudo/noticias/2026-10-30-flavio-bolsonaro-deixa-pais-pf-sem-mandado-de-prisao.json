@@ -2,11 +2,11 @@
  "slug": "flavio-bolsonaro-deixa-pais-pf-sem-mandado-de-prisao",
  "data": "2026-10-30",
  "categoria": "politica-e-sociedade",
- "status": "revisao",
+ "status": "publicado",
  "selo": "Vale acompanhar",
  "titulo": "Flávio Bolsonaro deixa o país pela Argentina; PF diz que não há mandado de prisão",
  "lide": "O senador Flávio Bolsonaro (PL-RJ) cruzou a fronteira com a Argentina na noite de 27 de outubro e chegou a Miami no dia 28, segundo a migração argentina e a Agência Brasil. Um dia antes, Alexandre de Moraes o proibiu de deixar o país. Em nota, a Polícia Federal diz que ele não entregou os passaportes estrangeiros, mas que isso não o torna foragido nem autoriza prisão.",
- "por_que_importa": "Em 48 horas, a mesma história circulou em duas versões falsas: a de que havia mandado de prisão contra o senador e a de que nada tinha acontecido. A nota da PF mostra o que existe de fato. Para quem é da direita, a hora pede firmeza e também cuidado com o que se compartilha.",
+ "por_que_importa": "O principal nome da oposição teve os passaportes cancelados por uma decisão sigilosa, pedida pela PF minutos depois de proclamado o resultado da eleição. Isso interessa a todo cidadão: a regra que vale para um precisa valer para todos, e à vista de todos. A nota da PF também esclarece o essencial: não há ordem de prisão contra o senador.",
  "numeros": [
   [
    "25/10",
@@ -204,7 +204,7 @@
    ],
    "ja_publicado_por_nos": false
   },
-  "revisao_humana": "obrigatória: pessoa identificada, investigação em curso e decisão sigilosa (pedido do responsável editorial em 30/10/2026: aprovar antes de publicar)",
+  "revisao_humana": "feita: aprovada pelo responsável editorial em 30/10/2026, após revisão da opinião pelo consenso conservador",
   "seo": {
    "intencao": "saber se há mandado de prisão contra Flávio Bolsonaro e onde ele está",
    "entidades": [
@@ -241,5 +241,9 @@
   "origem": "https://imagens.ebc.com.br/WzdWZ5Di1qifhqnxvJi-5_ecDr0=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/25/0d4a6236.jpg?itok=L148hQ-O",
   "pagina": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/policia-federal-cancela-passaportes-de-flavio-bolsonaro"
  },
- "publicado_em": "2026-10-30T16:12:56+00:00"
+ "publicado_em": "2026-10-30T13:23:18-03:00",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T13:23:18-03:00"
+ }
 }
