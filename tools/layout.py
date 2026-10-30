@@ -102,13 +102,30 @@ CSS_INTERACOES = (".interacoes{display:grid;gap:14px}.interacoes[hidden]{display
                   ".com-form button:disabled{opacity:.6}.com-aviso{margin:0;font-size:.82rem;color:#5a6270}.com-aviso a{color:#1f5fae}"
                   ".com-st{margin:0;font-weight:700;font-size:.92rem}.com-st:empty{display:none}.com-st.ok{color:#1b7a45}.com-st.erro{color:#a3223a}")
 
+BANNER_LARGURAS = (640, 960, 1280, 1920)
+
+# Cabeçalho com o banner: a arte ocupa a largura toda no celular e fica centrada, com as bordas esfumadas no fundo
+# da própria arte, na tela grande. width/height no <img> reservam o espaço (sem salto de layout). A lupa (e o
+# Instagram/WhatsApp, quando preenchidos) fica por cima do canto do banner, em vidro escuro, para não roubar altura.
+CSS_FAIXA = (".bar.faixa{position:relative;background:#021628;border-bottom:1px solid var(--line,#1e3a64)}"
+             ".bar.faixa .in{display:block;max-width:640px;margin:0 auto;padding:0}.bar.faixa.grande .in{max-width:960px}"
+             ".bar.faixa .marca{display:block;border-radius:0}"
+             ".bar.faixa .marca .banner{display:block;width:100%;height:auto;border-radius:0;aspect-ratio:2048/634}"
+             "@media (min-width:641px){.bar.faixa .marca .banner{-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);"
+             "mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}}"
+             ".bar.faixa .acoes{position:absolute;top:8px;right:max(8px,calc((100% - 1120px)/2 + 16px));display:flex;align-items:center;gap:8px}"
+             ".bar.faixa .acoes .ig{margin-left:0}"
+             ".bar.faixa .busca-btn,.bar.faixa .acoes .ig{background:rgba(2,22,40,.55);border-color:rgba(255,255,255,.28);color:#fff;"
+             "-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}"
+             ".bar.faixa .busca-btn:hover{border-color:#e3b23c;color:#e3b23c}")
+
 # CSS comum a todas as páginas: botão de busca e respeito a prefers-reduced-motion (sem transições, animações,
 # rolagem suave nem os deslocamentos de hover/toque dos cartões e botões)
 CSS_BUSCA = (".busca-btn{display:grid;place-items:center;flex:none;width:44px;height:44px;padding:0;border:1px solid #2e4d7a;border-radius:8px;"
              "background:none;color:#e9ecf1;cursor:pointer}.busca-btn:hover{border-color:#e3b23c;color:#e3b23c}.busca-btn[hidden]{display:none}"
              # alvo de toque mínimo de 24 px (WCAG 2.2, 2.5.8) nos links do rodapé comum
              "footer .in a{display:inline-flex;align-items:center;min-height:24px}"
-             + CSS_COMPARTILHAR + CSS_INTERACOES +
+             + CSS_FAIXA + CSS_COMPARTILHAR + CSS_INTERACOES +
              # menu das seções sempre preso no topo; as outras barras presas ficam logo abaixo dele
              ":where(html){scroll-padding-top:calc(var(--nav-h,49px) + 12px)}"
              ".nav{position:sticky;top:0;z-index:20}body .abas,body .barra-f,body .ctrl{top:var(--nav-h,49px)}"
@@ -134,11 +151,15 @@ def cabecalho(pre, atual="", sub=False):
     # primeiro item: a casinha, que volta à página inicial (marcada como página atual na própria home)
     casa = f'<li><a class="casa" href="{pre or './'}" aria-label="Página inicial"{" aria-current=\"page\"" if atual == "Início" else ""}>{icone("casa")}</a></li>'
     nav = casa + "".join(f'<li><a href="{pre}{h}"{f" aria-current=\"{marca}\"" if t == atual else ""}>{t}</a></li>' for h, t in SECOES)
-    return f"""<header class="bar" id="topo"><div class="in">
- <a class="marca" href="{pre or './'}"><img src="{pre}marca/o-paladino.webp" width="320" height="320" alt="O Paladino: página inicial"></a>
- {f'<a class="ig" href="{INSTAGRAM}" target="_blank" rel="noopener" aria-label="Instagram">{icone("insta")}<span>Instagram</span></a>' if INSTAGRAM else '<span class="ig"></span>'}
+    # banner da marca (tools/gerar_banner.py): grande na página inicial, contido nas demais para o conteúdo subir
+    home = atual == "Início"
+    larg = 960 if home else 640
+    srcset = ", ".join(f"{pre}marca/banner-{w}.webp {w}w" for w in BANNER_LARGURAS)
+    return f"""<header class="bar faixa{' grande' if home else ''}" id="topo"><div class="in">
+ <a class="marca" href="{pre or './'}"><img class="banner" src="{pre}marca/banner-960.webp" srcset="{srcset}" sizes="(min-width:{larg}px) {larg}px, 100vw" width="2048" height="634"{' fetchpriority="high"' if home else ''} alt="O Paladino: jornalismo com princípios. Fé, cultura, sociedade. Página inicial"></a>
+ <div class="acoes">{f'<a class="ig" href="{INSTAGRAM}" target="_blank" rel="noopener" aria-label="Instagram">{icone("insta")}<span>Instagram</span></a>' if INSTAGRAM else ''}
  {f'<a class="zap-mini" href="{WHATSAPP}" target="_blank" rel="noopener" aria-label="Grupo do WhatsApp">{icone("zap")}<span>Grupo do WhatsApp</span></a>' if WHATSAPP else ''}
- <button type="button" class="busca-btn" aria-label="Buscar no site" aria-haspopup="dialog" aria-keyshortcuts="/ Control+K" hidden>{icone("busca")}</button>
+ <button type="button" class="busca-btn" aria-label="Buscar no site" aria-haspopup="dialog" aria-keyshortcuts="/ Control+K" hidden>{icone("busca")}</button></div>
 </div></header>
 <script>{DISPARADOR.replace("PRE", pre)}</script>
 <nav class="nav" aria-label="Seções do site"><ul class="in">{nav}</ul></nav>

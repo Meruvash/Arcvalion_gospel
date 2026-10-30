@@ -27,7 +27,7 @@ const dlg = page.locator("dialog.busca-dlg");
 await dlg.waitFor({ state: "visible" });
 ok(await dlg.getAttribute("aria-modal") === "true", "diálogo com aria-modal");
 ok(await page.evaluate(() => document.activeElement.id) === "bq-q", "foco vai para o campo de busca");
-ok(await page.getByLabel(/Buscar resenhas, notícias/).count() === 1, "campo tem rótulo");
+ok(await page.getByLabel(/Buscar notícias/).count() === 1, "campo tem rótulo");
 ok(pedidos.some(u => u.endsWith("/busca.json")), "índice baixado ao abrir");
 
 const resultados = async termo => {
