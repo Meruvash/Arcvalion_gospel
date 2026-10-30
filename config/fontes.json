@@ -531,7 +531,7 @@
    "filtro": "temas|lei\\b|vereador|deputad|assembleia|câmara|prefeit|tribunal|ministério público|igreja|família|escola"
   }
  ],
- "temas": "igreja|igrejas|evangélic|cristã|cristão|religios|liberdade religiosa|liberdade de expressão|família|famílias|criança|infância|adolesc|educação|escola|aborto|casamento|missões|missionári|pastor|bíblia|fé\\b|culto|templo|perseguição|gospel|church|christian|evangelical|catholic|faith|religio|pastor|abortion|pro-life|persecut|bible|family|marriage|parents|school|children",
+ "temas": "igreja|igrejas|evangélic|cristã|cristão|religios|liberdade religiosa|liberdade de expressão|família|famílias|criança|infância|adolesc|educação|escola|aborto|casamento|missões|missionári|pastor|bíblia|fé\\b|culto|templo|perseguição|gospel|church|christian|evangelical|catholic|faith|religio|pastor|abortion|pro-life|persecut|bible|family|marriage|parents|school|children|bolsonaro|nikolas|oposição|direita|eleição|eleições|eleitoral|STF|Supremo|Moraes|Congresso|Senado|Câmara dos Deputados|impeachment|censura|asilo|passaporte",
  "locais_leitura_manual": {
   "_ajuda": "Veículos locais de Porto Velho e Rondônia sem feed utilizável ou que só liberam robôs com nome: leitura pontual (WebSearch e WebFetch, uma página por vez, com link e data).",
   "Eu Ideal": "https://www.euideal.com (política de Porto Velho; robots.txt só libera robôs nomeados)",

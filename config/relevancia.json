@@ -32,7 +32,7 @@
    "regua": [
     [
      20,
-     "núcleo do portal com efeito direto no leitor: igreja e liberdade religiosa no Brasil; vida, família e educação dos filhos; ato do poder público (inclusive de Rondônia e Porto Velho) só quando o próprio ato é sobre um desses temas"
+     "núcleo do portal com efeito direto no leitor: igreja e liberdade religiosa no Brasil; vida, família e educação dos filhos; política nacional e lideranças da direita e da oposição (Flávio Bolsonaro, Nikolas Ferreira); ato do poder público (inclusive de Rondônia e Porto Velho) quando o próprio ato é sobre um desses temas"
     ],
     [
      10,
@@ -139,6 +139,7 @@
   "liberdade": "liberdade religiosa, de expressão ou de consciência; perseguição a cristãos",
   "vida": "aborto, eutanásia, bioética, dignidade da vida humana",
   "familia": "casamento, filhos, adoção, papel dos pais, proteção de crianças e adolescentes, vícios que destroem famílias",
-  "educacao": "escola, currículo, educação dos filhos, direitos dos pais na educação"
+  "educacao": "escola, currículo, educação dos filhos, direitos dos pais na educação",
+  "politica": "política nacional: lideranças da direita e da oposição (Flávio Bolsonaro, Nikolas Ferreira, Bolsonaro e aliados), eleições, Congresso, decisões de tribunais e do governo sobre a oposição"
  }
 }
