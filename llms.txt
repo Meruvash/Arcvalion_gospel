@@ -30,6 +30,7 @@ Responsável editorial: Wan Anderson Pelicioni de Castro, que confere o site dia
 
 - [Arquivo de notícias](https://opaladino.com.br/noticias/)
 - [Estudos bíblicos](https://opaladino.com.br/estudos/)
+- [Discipulado](https://opaladino.com.br/discipulado/): lições para novos convertidos, com guia do discipulador
 - [Agenda cristã](https://opaladino.com.br/lancamentos/): eventos e lançamentos com data confirmada
 - [Versículo diário](https://opaladino.com.br/consulta/): o versículo do dia e um novo versículo da Bíblia (Almeida, domínio público) a cada clique
 - [Política editorial](https://opaladino.com.br/politica-editorial/): como pesquisamos, escolhemos e corrigimos

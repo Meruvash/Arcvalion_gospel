@@ -266,7 +266,7 @@ footer .in{display:flex;flex-wrap:wrap;gap:10px 20px;padding-top:18px;padding-bo
  <button type="button" class="busca-btn" aria-label="Buscar no site" aria-haspopup="dialog" aria-keyshortcuts="/ Control+K" hidden><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button></div>
 </div></header>
 <script>(()=>{const b=document.querySelector('.busca-btn');let c;b.hidden=false;const a=()=>{c=c||new Promise((r,j)=>{const s=document.createElement('script');s.src='/busca.js';s.onload=r;s.onerror=()=>{c=null;j()};document.head.append(s)});c.then(()=>abrirBusca('/'),()=>{})};b.addEventListener('click',a);addEventListener('keydown',e=>{const t=e.target,ed=t.isContentEditable||/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName);if((e.key==='/'&&!ed&&!e.ctrlKey&&!e.metaKey)||((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k')){e.preventDefault();a()}})})()</script>
-<nav class="nav" aria-label="Seções do site"><ul class="in"><li><a class="casa" href="/" aria-label="Página inicial"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5.5h4V20"/></svg></a></li><li><a href="/noticias/">Notícias</a></li><li><a href="/estudos/">Estudos bíblicos</a></li><li><a href="/lancamentos/">Agenda</a></li><li><a href="/consulta/">Versículo diário</a></li></ul></nav>
+<nav class="nav" aria-label="Seções do site"><ul class="in"><li><a class="casa" href="/" aria-label="Página inicial"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5.5h4V20"/></svg></a></li><li><a href="/noticias/">Notícias</a></li><li><a href="/estudos/">Estudos bíblicos</a></li><li><a href="/discipulado/">Discipulado</a></li><li><a href="/consulta/">Versículo diário</a></li></ul></nav>
 <script>(()=>{const n=document.querySelector('.nav'),h=()=>document.documentElement.style.setProperty('--nav-h',n.offsetHeight+'px');h();addEventListener('resize',h);addEventListener('load',h)})()</script>
 <main id="conteudo" class="in"><div class="nota"><section class="bloco">
  <h1>Página não encontrada</h1>
@@ -274,7 +274,7 @@ footer .in{display:flex;flex-wrap:wrap;gap:10px 20px;padding-top:18px;padding-bo
  <div class="jogos"><a href="/">Notícias de hoje</a><a href="/estudos/">Estudos bíblicos</a><a href="/consulta/">Versículo diário</a></div>
 </section></div></main>
 <footer><div class="in">
- <span>O Paladino</span><a href="/noticias/">Notícias</a><a href="/estudos/">Estudos bíblicos</a><a href="/lancamentos/">Agenda</a><a href="/consulta/">Versículo diário</a><a href="/sobre/">Quem somos</a><a href="/politica-editorial/">Política editorial</a>
+ <span>O Paladino</span><a href="/noticias/">Notícias</a><a href="/estudos/">Estudos bíblicos</a><a href="/discipulado/">Discipulado</a><a href="/consulta/">Versículo diário</a><a href="/sobre/">Quem somos</a><a href="/politica-editorial/">Política editorial</a>
  <a class="rod-ig" href="https://www.instagram.com/pelicioni.adv/" target="_blank" rel="noopener me" aria-label="Instagram do editor, @pelicioni.adv"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></svg>@pelicioni.adv</a><a href="mailto:andersonrgk@gmail.com">Contato</a>
 </div></footer>
 

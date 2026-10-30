@@ -14,7 +14,7 @@ A Declaração de Fé das Assembleias de Deus afirma Jesus "plenamente Deus, ple
 
 ## Referências
 
-- Convenção Geral das Assembleias de Deus no Brasil, *Declaração de Fé* (CPAD, novembro de 2016): Cremos, item 3; capítulo III, item 5; capítulo IV, itens 1, 2 e 5 [verificada].
+- Convenção Geral das Assembleias de Deus no Brasil, *Declaração de Fé* (CPAD, novembro de 2016): Cremos, item 3; capítulo III, itens 2 e 5; capítulo IV, itens 1, 2 e 5 [verificada].
 
 - Craig S. Keener, *The Gospel of John: A Commentary* (Baker Academic, 2012; antes Hendrickson, 2003), volume 1, página 363 [verificada no trecho citado].
 
@@ -34,7 +34,7 @@ A NTLH diz "a Palavra"; a Almeida diz "o Verbo". Em João 1:14 e 17, a NTLH diz 
 
 **"Se Jesus é Deus, com quem ele falava quando orava?"** Com o Pai. O versículo 1 já mostra que a Palavra "estava com Deus". Há um só Deus, que existe como Pai, Filho e Espírito Santo. A Lição 9 volta ao assunto.
 
-**"Jesus virou Deus depois?"** Não. João Batista diz que Jesus já existia antes dele nascer (João 1:15), e Colossenses 1:17 diz que ele existia antes de tudo. A Declaração de Fé nega que o Filho tenha sido criado.
+**"Jesus virou Deus depois?"** Não. João Batista diz que Jesus já existia antes de João nascer (João 1:15), e Colossenses 1:17 diz que ele existia antes de tudo. A Declaração de Fé nega que o Filho tenha sido criado.
 
 **"Um amigo meu diz que a Palavra era 'um deus'."** É a tradução das Testemunhas de Jeová. Responda com respeito e com o próprio texto: tudo foi feito por meio da Palavra, e nada do que existe foi feito sem ela (versículo 3). Quem fez todas as coisas não pode ser uma delas. Não transforme o encontro num debate.
 
@@ -54,7 +54,7 @@ Não pressione ninguém a contar o que pensava antes ou a "decidir" na hora; a p
 
 ## Alertas de interpretação
 
-Não ensine que Jesus deixou de ser Deus ao se tornar homem, nem que só parecia humano. "Primeiro Filho" (Colossenses 1:15) não quer dizer primeira criatura: Henry explica que o sentido é de primazia, como o herdeiro da família.
+Não ensine que Jesus deixou de ser Deus ao se tornar homem, nem que só parecia humano. "Primeiro Filho" (Colossenses 1:15) não quer dizer primeira criatura: Henry diz que o título não faz dele uma criatura; o sentido é de primazia, como o herdeiro da família.
 
 ## Sinais de que a pessoa entendeu
 

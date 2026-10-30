@@ -56,7 +56,7 @@ Se puder, leia na sua Bíblia o trecho inteiro, João 1:1-18.
 
 João começa com "No começo", as mesmas palavras que abrem a Bíblia. Nesse começo, a Palavra já existia, e por meio dela Deus fez todas as coisas (João 1:3).
 
-Isso quer dizer que a história de Jesus não começou em Belém. Ele nasceu como um bebê, num dia da história, mas já existia antes, junto com Deus. Paulo, um dos primeiros mensageiros de Jesus, a quem a Bíblia chama de apóstolo, diz a mesma coisa numa de suas cartas: "Antes de tudo, ele já existia" (Colossenses 1:17).
+Isso quer dizer que a história de Jesus não começou em Belém. Ele nasceu como um bebê, num dia da história, mas já existia antes, junto com Deus. Paulo, a quem a Bíblia chama de apóstolo, isto é, mensageiro de Jesus, diz a mesma coisa numa de suas cartas: "Antes de tudo, ele já existia" (Colossenses 1:17).
 
 ### 2. Jesus é Deus e se tornou gente
 
@@ -86,7 +86,7 @@ Agora, a palavra de Pedro: Messias. No tempo dos reis de Israel, um profeta ou u
 
 Durante séculos, o povo esperou o Salvador que Deus tinha prometido. Eles o chamavam de Messias, que quer dizer "ungido", aquele que recebeu o azeite. "Cristo" é a mesma palavra, só que em grego. Por isso dizemos Jesus Cristo: Jesus, o Messias.
 
-Logo depois da resposta de Pedro, Jesus começou a ensinar que ia sofrer muito, ser morto e ressuscitar (Marcos 8:31). Os discípulos esperavam um rei de coroa e espada. Jesus mostrou que o Messias ia salvar o povo dando a própria vida.
+Logo depois da resposta de Pedro, Jesus começou a ensinar que ia sofrer muito, ser morto e ressuscitar (Marcos 8:31). Os discípulos não esperavam um Messias que fosse sofrer. Jesus mostrou que o Messias ia salvar o povo dando a própria vida.
 
 E por que ele veio? João conta em outro capítulo:
 
@@ -145,3 +145,26 @@ Deus não ficou longe. Ele veio em pessoa, para perto de nós, e mostrou o seu a
 - Jesus é o Messias, o Salvador prometido. Ele veio porque Deus ama o mundo, e quem o recebe se torna filho de Deus.
 
 <!-- justificativa: a única frase acima de 25 palavras é João 3:16 (26 palavras), texto bíblico da NTLH reproduzido sem alteração. -->
+
+<!-- relatório do medidor (tools/discipulado/legibilidade.py), versão publicada:
+============================================================
+LEGIBILIDADE (Flesch adaptado ao português, Martins et al. 1996)
+============================================================
+Palavras: 1708   Frases: 162
+Média de palavras por frase: 10.5  (meta 12 a 18)
+Média de sílabas por palavra: 1.72  (meta até 1.9)
+Índice de Flesch: 92.9  [fácil]  (meta 75+)
+
+AVISO: média de palavras por frase baixa (10.5). Frases curtas são bem-vindas; conferir se o texto não ficou picado.
+
+FRASES LONGAS (> 25 palavras):
+  [26] "Porque Deus amou o mundo tanto, que deu o seu único Filho, para que todo aquele que nele crer não morra, mas tenha a vida eterna.
+
+CLICHÊS DE PÚLPITO (revisar; não reprova sozinho):
+  'ungido' x1
+
+
+REPROVADO:
+  * 1 frase(s) com mais de 25 palavras
+Reescrever e rodar de novo. Violação mantida de propósito exige justificativa no fim do arquivo.
+-->
