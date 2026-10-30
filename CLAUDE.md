@@ -5,6 +5,7 @@
   `python3 tools/publicar.py aprovar <arquivo> --revisor anderson-pelicioni-de-castro --automatica`, que registra a
   aprovação como automática (não como leitura humana). A conferência é diária, pela ferramenta de revisão das 18h e
   pela skill `verificacao`; correção ou despublicação de matéria no ar segue com `tools/publicar.py`.
+- **Linha editorial pentecostal** (pedido de 30/10/2026): o portal é cristão pentecostal e os estudos dizem onde estão (seção "Nossa posição", referência na Declaração de Fé das Assembleias de Deus), respeitando e relatando com fidelidade os outros lados. Ver `docs/PADRAO_EDITORIAL.md`, "Linha editorial pentecostal".
 - Nada inventado: todo fato com fonte identificável (link + data); citação literal só de frase lida na fonte.
 - Não edite HTML gerado: como no Elite, o site sai de `tools/build_home.py` (na raiz do repositório) a partir de `conteudo/`, `config/`, `pauta.json` e `consulta/index.html` (bloco RAW dos livros). O deploy publica a raiz sem os arquivos de trabalho (`tools/montar_publicacao.py`).
 - Nunca use imagem gerada por IA em matéria. Nunca coloque segredo no repositório (ver `docs/DEPLOY.md`).

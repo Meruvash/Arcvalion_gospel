@@ -5,7 +5,7 @@ description: Produz e publica os estudos bíblicos do portal (o equivalente das 
 
 # Estudo bíblico
 
-Mesma estrutura da resenha do Elite, com a passagem no lugar do jogo e, no centro, **"O que dizem os teólogos"**: uma questão em que teólogos brasileiros de referência divergem, cada lado com o seu melhor argumento. Modelos: `conteudo/estudos/dons-espirituais-1-corintios-13.json` e `conteudo/estudos/arrebatamento-1-tessalonicenses-4.json` (aprovados pelo responsável editorial em 30/10/2026).
+Mesma estrutura da resenha do Elite, com a passagem no lugar do jogo e, no centro, **"O que dizem os teólogos"**: uma questão em que teólogos brasileiros de referência divergem, cada lado com o seu melhor argumento. Modelo da linha pentecostal: `conteudo/estudos/batismo-de-criancas-atos-2.json` (ajustado a pedido em 30/10/2026). Os de 1 Coríntios 13 e 1 Tessalonicenses 4 mostram o esqueleto, mas são anteriores à linha pentecostal.
 
 Publicação automática (ordem do responsável editorial, 29/10/2026): o que passa em `tools/estudos/checar_estudo.py` vai ao ar com `python3 tools/publicar.py aprovar conteudo/estudos/<slug>.json --revisor anderson-pelicioni-de-castro --automatica`. A conferência humana é diária (skill `verificacao`).
 
@@ -36,7 +36,9 @@ Antes de escrever, confira cada citação nas páginas salvas (`grep -F "<trecho
 
 `conteudo/estudos/<slug>.json` (docs/PADRAO_EDITORIAL.md, "Estudos bíblicos" e "O que dizem os teólogos"). Campos: `titulo`, `passagem`, `sigla`, `livro`, `testamento`, `genero`, `nivel` (1 a 3), `tempo_min`, `selo`, `tagline`, `lede`, `descricao`, `imagem`, `versiculo_chave` (texto, referência, tradução; a Almeida Corrigida Fiel do bibliaonline.com.br entra como citação curta com crédito à SBTB), `estrutura` (3 a 7 partes com referência), `estrutura_resumo`, `questao`, `posicoes` (2 a 4 lados, 2 a 4 teólogos cada), `convergencias`, `contexto`, `aplicacao`, `destaques`, `atencao` (com gravidade), `perfil`, `formatos`, `para_quem`, `nao_e_para`, `dica`, `traducoes`, `relacionadas`, `comparacoes`, `versiculos`, `veredito`, `ficha`, `fontes`, `consulta`, `legenda`, `cor`, `ia`, `status: "revisao"`.
 
-Tom: relato dos lados neutro e no melhor argumento de cada um; a voz do portal ("a gente") só no `veredito`, sem desqualificar ninguém. Varie as aberturas, os vereditos e as legendas entre os estudos do dia (leia os últimos publicados): nada de repetir "A gente fica com..." em todos.
+**Linha pentecostal (30/10/2026, obrigatória):** o portal é pentecostal e diz onde está. Leia "Linha editorial pentecostal" em docs/PADRAO_EDITORIAL.md e a **Declaração de Fé das Assembleias de Deus** (https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf; peça ao subagente o que ela diz sobre o tema, com a frase conferida). Todo estudo tem `nossa_posicao` (Nossa posição, 1 a 4 parágrafos, tese pentecostal firme e fundamentada), o lado pentecostal primeiro em `posicoes`, e título, tagline, lede, destaques, atenção, aplicação, veredito e legenda escritos a partir dessa cosmovisão. O outro lado continua relatado com fidelidade e respeito, sem caricatura e sem chamar ninguém de herege. Modelo: `conteudo/estudos/batismo-de-criancas-atos-2.json`.
+
+Tom: o relato dos lados é fiel e no melhor argumento de cada um; a voz do portal ("a gente") fica nas partes de opinião. Varie as aberturas, os vereditos e as legendas entre os estudos do dia (leia os últimos publicados): nada de repetir "A gente fica com..." em todos.
 
 ## Imagem
 

@@ -113,13 +113,31 @@ uma questão em que teólogos brasileiros de referência divergem sobre a passag
 `posicoes` (2 a 4 lados `{lado, resumo, teologos}`; cada lado com 2 a 4 teólogos `{autor, quem, obra, url, data,
 texto, citacao?, citacao_url?}`) e `convergencias` (1 a 5 pontos em que os lados concordam). Regras:
 
-1. **Cada lado no seu melhor argumento**, dito como quem o defende diria; nada de caricatura nem de "lado certo" no
-   relato. A opinião do portal, se houver, fica só no `veredito` e nunca desqualifica o outro lado.
+1. **Cada lado no seu melhor argumento**, dito como quem o defende diria; nada de caricatura no relato. Os lados
+   são relato; a opinião do portal fica em `nossa_posicao`, `veredito`, `aplicacao`, `tagline`, `lede` e `legenda`.
 2. **Teólogo brasileiro de referência**, com a igreja ou instituição conferida na fonte (`quem`). Obra ou artigo com
    link e data (`url`, `data`); `texto` é paráfrase fiel de 25 a 110 palavras com o nome dentro.
 3. **Citação literal** (`citacao`) só de frase lida na página de `citacao_url` (ou de `url`), copiada sem mudar nada.
 4. **Comentaristas clássicos** (Calvino, Matthew Henry etc.) entram em `contexto` ou `destaques`, não como lado.
 5. **Respeito entre tradições**: divergência entre irmãos, nunca acusação de heresia a quem defende um dos lados.
+
+**Linha editorial pentecostal (30/10/2026).** O Paladino é um portal cristão **pentecostal**, e o estudo diz isso:
+"mesmo que a gente respeite a opinião dos outros, a gente precisa passar aquilo que a gente acredita" (pedido de
+30/10/2026). Referência doutrinária: a **Declaração de Fé das Assembleias de Deus** (CGADB/CPAD, 2016,
+https://cgadb.org.br/declaracao-de-fe/), conferida no texto antes de cada estudo.
+
+1. **`nossa_posicao`** (obrigatório desde 30/10/2026; 1 a 4 parágrafos, 60 a 350 palavras): a seção "Nossa posição",
+   assinada pelo portal, com a tese pentecostal firme, as razões bíblicas e a Declaração de Fé citada. Voz "a gente".
+2. **O lado pentecostal vem primeiro** em `posicoes` e, quando a Declaração de Fé trata do tema, ela entra como um dos
+   nomes do lado (autor "Declaração de Fé das Assembleias de Deus", com a comissão em `quem`).
+3. **Título, tagline, lede, destaques, atenção, aplicação, veredito e legenda** falam a partir da cosmovisão
+   pentecostal (dons atuais, batismo no Espírito, batismo de quem crê, santidade, volta de Cristo como as Assembleias
+   ensinam). Em `atencao`, a leitura que o portal rejeita pode aparecer como equivocada, explicando por quê.
+4. **Firmeza com respeito**: o outro lado continua relatado com fidelidade, com o melhor argumento e as fontes; nada
+   de chamar irmão de herege, de ironia com outra denominação ou de caricatura. Discordar com clareza, sim.
+5. **Quando os pentecostais divergem entre si** (há assembleianos calvinistas e arminianos, por exemplo), siga a
+   Declaração de Fé e diga, numa frase, que há pentecostais que pensam diferente.
+6. **Nada inventado continua valendo**: a tese é nossa, mas todo fato, citação e posição atribuída tem fonte.
 
 Fotos: fontes, licenças e o robô `tools/fotos.py` em `docs/FOTOS.md`.
 

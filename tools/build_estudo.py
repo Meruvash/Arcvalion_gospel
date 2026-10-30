@@ -38,6 +38,7 @@ CSS_ESTUDO = """<style>
 .nota .itens{display:grid;gap:12px}.nota .itens h3{font-size:1rem;margin-bottom:2px}.nota .itens p{color:#3a414c}
 .nota dl.ficha{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.92rem}.nota dl.ficha dt{font-weight:700}
 .nota .como{font-size:.85rem;color:var(--paper-muted)}
+.nota .posicao{border-left:4px solid var(--gold)}.nota .posicao .corpo p{color:var(--paper-ink)}.nota .posicao .assina{font-size:.78rem;color:var(--paper-muted);margin-top:10px}
 </style>""".replace("%%", "%")
 
 
@@ -89,6 +90,7 @@ def build(c):
  <section class="bloco"><h2>Estrutura do texto</h2>{f'<p class="corpo">{e(c["estrutura_resumo"])}</p>' if c.get("estrutura_resumo") else ""}<ol class="partes">{partes}</ol></section>
  <section class="bloco" id="teologos"><h2>O que dizem os teólogos</h2><p class="questao">{e(c["questao"])}</p><div class="lados">{lados}</div></section>
  <section class="bloco"><h2>Em que os dois lados concordam</h2><ul class="marcas">{lista(c["convergencias"])}</ul></section>
+ {f'<section class="bloco posicao"><h2>Nossa posição</h2><div class="corpo">{"".join(f"<p>{e(x)}</p>" for x in c["nossa_posicao"])}</div><p class="assina">Posição O Paladino · linha editorial pentecostal</p></section>' if c.get("nossa_posicao") else ""}
  <section class="bloco"><h2>O que o texto ensina</h2><div class="itens">{destaques}</div></section>
  <section class="bloco"><h2>Leituras equivocadas</h2><div class="itens">{atencao}</div></section>
  <section class="bloco"><h2>Para a vida</h2><div class="corpo">{"".join(f"<p>{e(p)}</p>" for p in c["aplicacao"])}</div></section>
