@@ -2,7 +2,7 @@
  "slug": "governo-relator-querem-votar-pl-cade-big-techs-ate-dezembro",
  "data": "2026-10-30",
  "categoria": "politica-e-sociedade",
- "status": "revisao",
+ "status": "publicado",
  "selo": "Vale acompanhar",
  "opiniao_forte": true,
  "titulo": "Governo e relator querem votar até dezembro projeto que dá ao Cade poder sobre big techs",
@@ -179,7 +179,7 @@
    ],
    "ja_publicado_por_nos": false
   },
-  "revisao_humana": "obrigatória: pedido do responsável editorial em 30/10/2026 (aprovar antes de publicar)",
+  "revisao_humana": "feita: aprovada pelo responsável editorial em 30/10/2026",
   "seo": {
    "intencao": "entender o projeto que dá ao Cade poder sobre as big techs e se ele trata de conteúdo",
    "entidades": [
@@ -216,5 +216,9 @@
   "origem": "https://www.camara.leg.br/midias/image/2026/02/cade.jpg",
   "pagina": "https://www.camara.leg.br/noticias/1245544-plenario-pode-votar-pedido-de-urgencia-para-acelerar-projeto-sobre-concorrencia-nos-mercados-digitais"
  },
- "publicado_em": "2026-10-30T16:28:12+00:00"
+ "publicado_em": "2026-10-30T14:57:07-03:00",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T14:57:07-03:00"
+ }
 }
