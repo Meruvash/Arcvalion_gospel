@@ -1,0 +1,285 @@
+{
+ "_ajuda": "Fila dos estudos bíblicos (skill estudo). A rotina diária pega os 5 primeiros \"na_fila\". Status: na_fila, em_producao, publicado, sem_fontes (pesquisa não achou 2 teólogos brasileiros com fonte por lado; obs diz o que faltou). Pode acrescentar temas: uma questão em que teólogos brasileiros de referência divergem sobre uma passagem.",
+ "temas": [
+  {
+   "questao": "Os dons de línguas e profecia cessaram?",
+   "passagem": "1 Coríntios 13:8-12",
+   "status": "publicado",
+   "slug": "dons-espirituais-1-corintios-13",
+   "obs": ""
+  },
+  {
+   "questao": "O arrebatamento vem antes da tribulação?",
+   "passagem": "1 Tessalonicenses 4:13-18",
+   "status": "publicado",
+   "slug": "arrebatamento-1-tessalonicenses-4",
+   "obs": ""
+  },
+  {
+   "questao": "Deus elege pessoas para a salvação ou povos para uma missão? (calvinistas x arminianos)",
+   "passagem": "Romanos 9:10-24",
+   "status": "em_producao",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Crianças devem ser batizadas? (pedobatismo x credobatismo)",
+   "passagem": "Atos 2:38-39",
+   "status": "em_producao",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O dízimo vale para a igreja da nova aliança?",
+   "passagem": "Malaquias 3:8-12",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Mulheres podem exercer o ministério pastoral?",
+   "passagem": "1 Timóteo 2:11-15",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O batismo no Espírito Santo é uma segunda experiência, com línguas como evidência? (pentecostais x reformados)",
+   "passagem": "Atos 2:1-4",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Quem foi salvo pode perder a salvação?",
+   "passagem": "Hebreus 6:4-6",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "A Ceia é memorial ou há presença espiritual de Cristo?",
+   "passagem": "1 Coríntios 11:23-26",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Os dias da criação foram de 24 horas?",
+   "passagem": "Gênesis 1:1-2:3",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Divórcio e novo casamento: quando a Bíblia permite?",
+   "passagem": "Mateus 19:3-9",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O cristão deve guardar o sábado ou o domingo?",
+   "passagem": "Êxodo 20:8-11",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Até onde vai a obediência ao governo?",
+   "passagem": "Romanos 13:1-7",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Há cura física garantida na obra de Cristo?",
+   "passagem": "Isaías 53:4-5",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Deus promete prosperidade material ao fiel?",
+   "passagem": "3 João 2",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Como entender a batalha espiritual?",
+   "passagem": "Efésios 6:10-18",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Ainda existem apóstolos hoje?",
+   "passagem": "Efésios 4:11-13",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Quem são os \"filhos de Deus\" de Gênesis 6?",
+   "passagem": "Gênesis 6:1-4",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O cristão pode beber vinho?",
+   "passagem": "Romanos 14:13-23",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Usos e costumes: a Bíblia regula roupa e aparência?",
+   "passagem": "1 Pedro 3:3-4",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "As sete igrejas do Apocalipse são eras da história da igreja?",
+   "passagem": "Apocalipse 2-3",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "\"Esta geração\": o sermão profético já se cumpriu em 70 d.C.?",
+   "passagem": "Mateus 24:29-35",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "As setenta semanas de Daniel: passado ou futuro?",
+   "passagem": "Daniel 9:24-27",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O rico e Lázaro: parábola ou relato do estado intermediário?",
+   "passagem": "Lucas 16:19-31",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O inferno é castigo eterno ou aniquilação?",
+   "passagem": "Mateus 25:41-46",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Romanos 7: Paulo fala de antes ou depois da conversão?",
+   "passagem": "Romanos 7:14-25",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Paulo e Tiago se contradizem sobre fé e obras?",
+   "passagem": "Tiago 2:14-26",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O cristão pode viver sem pecar? (santificação em Wesley e na tradição reformada)",
+   "passagem": "1 João 3:4-10",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O cristão deve se envolver na política?",
+   "passagem": "Mateus 5:13-16",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Dar a outra face proíbe a legítima defesa?",
+   "passagem": "Mateus 5:38-42",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Nascer da água e do Espírito: o que é a água de João 3?",
+   "passagem": "João 3:3-8",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "A disciplina na igreja ainda vale e como?",
+   "passagem": "Mateus 18:15-20",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Mulheres devem ficar caladas na igreja?",
+   "passagem": "1 Coríntios 14:33-35",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Profecia hoje: o que pode e o que não pode?",
+   "passagem": "1 Tessalonicenses 5:19-22",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O Espírito pode ser blasfemado hoje? O pecado imperdoável",
+   "passagem": "Mateus 12:31-32",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Deus muda de ideia? Arrependimento de Deus e soberania",
+   "passagem": "Jonas 3:10",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Israel e a igreja: as promessas a Israel ainda se cumprirão?",
+   "passagem": "Romanos 11:25-29",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "A unção com óleo e a oração pelos enfermos",
+   "passagem": "Tiago 5:13-16",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O véu de 1 Coríntios 11: costume ou ordem permanente?",
+   "passagem": "1 Coríntios 11:2-16",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Maldição hereditária existe?",
+   "passagem": "Êxodo 20:5-6",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  }
+ ]
+}
