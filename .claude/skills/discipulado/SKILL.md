@@ -13,10 +13,10 @@ Produz uma nova lição e publica em `discipulado/<slug>/`. **Sem numeração** 
 pergunta que as pessoas estão fazendo de verdade sobre a fé, com texto criativo e interessante. A lista antiga (seção 5
 do padrão editorial) vira banco de ideias.
 
-**Processo simplificado (decisão do editor, 30/10/2026):** sem auditoria por subagente e sem nota. A segurança vem do
-que é mecânico e barato: texto bíblico copiado da página lida, citações conferidas com grep e o validador
-(`tools/discipulado/checar_licao.py`, que inclui o medidor de legibilidade). A conferência humana é a verificação diária
-do portal (skill `verificacao`). Alvo: uma lição em cerca de 20 a 25 minutos.
+**Sem etapas de revisão (decisão do editor, 30/10/2026):** nada de auditoria, nota, leitura literária, releitura em
+camadas ou conferência separada das citações. Escreva já copiando o texto bíblico e as citações das páginas lidas, rode
+o validador automático (`tools/discipulado/checar_licao.py`, que o build exige) e publique. A revisão é feita à noite,
+pela verificação diária do portal (skill `verificacao`). Alvo: um estudo em cerca de 15 a 20 minutos.
 
 Regras que continuam valendo (CLAUDE.md): nada inventado, citação literal só de frase lida na fonte, nunca imagem gerada
 por IA, não editar HTML gerado, publicação automática registrada como automática.
@@ -89,20 +89,19 @@ imagem (opcional; obra em domínio público no acervo aberto do Metropolitan Mus
 - Atribuição a autor só do que está na frase lida (erro já cometido: acrescentar uma frase ao que Wesley disse).
   Fato bíblico com a referência certa. Fato histórico com link na seção Referências.
 - `titulo_seo` no licao.json: "<pergunta>? Entenda o que a Bíblia ensina".
-- Revisão em cinco camadas pelo próprio redator (padrão literário), sem agente separado.
+- **Sem etapa de revisão** (decisão do editor, 30/10/2026): escreva já copiando as citações das páginas salvas e publique. A revisão é feita à noite, pela verificação diária (skill `verificacao`).
 
 `discipulador.md` (título `# Guia do discipulador`), 500 a 900 palavras: objetivo, fundamentação, referências
 com `[verificada]` ou `[parcial]`, diferenças de tradução, dúvidas frequentes, cuidados pastorais, roteiro de 40 minutos,
 alertas, sinais de compreensão, divergências.
 
-## 5. Conferir e validar (3 min)
+## 5. Validar (1 min)
 
-1. Cada frase entre aspas (bíblica ou de autor): `grep -F "<trecho>"` nas páginas salvas. Não achou, vira paráfrase ou sai.
-2. `python3 tools/discipulado/legibilidade.py conteudo/discipulado/<slug>/aluno.md` (e `--guia` no guia). Frase
+1. `python3 tools/discipulado/legibilidade.py conteudo/discipulado/<slug>/aluno.md` (e `--guia` no guia). Frase
    bíblica longa que não pode ser cortada: comentário `<!-- justificativa: ... -->` no fim do arquivo.
-3. `licao.json`: `{"slug", "titulo", "ideia_central", "descricao", "tempo_min",
+2. `licao.json`: `{"slug", "titulo", "ideia_central", "descricao", "tempo_min",
    "relevancia", "imagem" (opcional), "ia": {"usada": true, "uso": "..."}, "status": "revisao"}`. Sem o campo `auditoria`.
-4. `python3 tools/discipulado/checar_licao.py` até passar.
+3. `python3 tools/discipulado/checar_licao.py` até passar.
 
 ## 6. Publicar (3 min)
 
