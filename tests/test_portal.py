@@ -193,7 +193,7 @@ class Build(unittest.TestCase):
         raw = s.split("const RAW = `", 1)[1].split("`", 1)[0]
         nomes = [x.split("=")[0] for linha in raw.strip().split("\n") for x in linha.split(" | ")[2].split("; ")]
         versos = json.loads(re.search(r"^const VERSOS = (.*);$", s, re.M).group(1))
-        self.assertGreaterEqual(len(versos), 200)
+        self.assertGreaterEqual(len(versos), 1800)
         self.assertEqual({v[0] for v in versos}, set(nomes))  # pelo menos um versículo de cada livro
         self.assertEqual(len({(v[0], v[1], v[2]) for v in versos}), len(versos))
         self.assertTrue(all(v[3].strip() for v in versos))
