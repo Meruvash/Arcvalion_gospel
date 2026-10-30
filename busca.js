@@ -23,7 +23,8 @@
 .busca-dlg .bq-x{flex:none;display:grid;place-items:center;width:40px;height:40px;padding:0;border:0;border-radius:50%;background:none;color:inherit;cursor:pointer}
 .busca-dlg .bq-x:hover,.busca-dlg .bq-x:focus-visible{background:rgba(255,255,255,.14);color:#e3b23c}
 .busca-dlg .bq-res{background:rgba(2,22,40,.86);border-radius:14px;overflow-y:auto;max-height:min(60vh,440px);padding:4px 6px 8px;overscroll-behavior:contain}
-.busca-dlg.vazio .bq-res{position:absolute;width:1px;height:1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%)}
+.busca-dlg.vazio .bq-res{position:absolute;width:1px;height:1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%);background:none;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+.busca-aberta .bar .acoes{visibility:hidden}
 .busca-dlg .bq-st{margin:0;padding:10px 10px 4px;color:#c3cad4;font-size:.86rem}.busca-dlg .bq-st b{color:#fff}
 .busca-dlg .bq-g{font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#e3b23c;padding:10px 10px 4px}
 .busca-dlg [role=option]{display:grid;gap:1px;padding:8px 10px;border-radius:8px;cursor:pointer;border-left:3px solid transparent;min-height:44px}
@@ -49,7 +50,8 @@
     document.body.append(dlg);
     q = dlg.querySelector("input"); lista = dlg.querySelector("#bq-lista"); status = dlg.querySelector(".bq-st");
     dlg.querySelector(".bq-x").addEventListener("click", () => dlg.close());
-    dlg.addEventListener("close", () => { if (volta && volta.focus) volta.focus(); });
+    // enquanto a busca está aberta, a lupa do cabeçalho some (senão aparece atrás da barra, na ponta direita)
+    dlg.addEventListener("close", () => { document.documentElement.classList.remove("busca-aberta"); if (volta && volta.focus) volta.focus(); });
     dlg.addEventListener("click", ev => { if (ev.target === dlg) dlg.close(); });
     q.addEventListener("input", () => { abertos.clear(); busca(); });
     q.addEventListener("keydown", tecla);
@@ -131,7 +133,7 @@
   window.abrirBusca = p => {
     pre = p;
     if (!dlg) monta();
-    if (!dlg.open) { volta = document.activeElement; dlg.showModal(); }
+    if (!dlg.open) { volta = document.activeElement; document.documentElement.classList.add("busca-aberta"); dlg.showModal(); }
     q.focus(); q.select();
     busca();
     if (!indice) carrega().then(busca, () => { status.textContent = "Não foi possível carregar a busca. Verifique a conexão e tente de novo."; carga = null; });
