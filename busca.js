@@ -1,7 +1,7 @@
 // Busca do site: diálogo aberto pela lupa do cabeçalho, por "/" ou Ctrl+K (o disparador fica em tools/layout.py).
 // Só é baixado quando a busca abre; o índice (busca.json, gerado por tools/busca.py) vem junto.
 (() => {
-  const GRUPOS = [["n", "Notícias"], ["e", "Estudos bíblicos"], ["g", "Livros da Bíblia"], ["r", "Resenhas"], ["l", "Lançamentos do ano"]];
+  const GRUPOS = [["n", "Notícias"], ["e", "Estudos bíblicos"], ["d", "Discipulado"], ["g", "Livros da Bíblia"], ["r", "Resenhas"], ["l", "Lançamentos do ano"]];
   const POR_GRUPO = 5, MINIMO = 2;
   // sugestões com a busca vazia: o que saiu por último
   const RECENTES = [["n", 3], ["e", 2]];

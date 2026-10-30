@@ -18,6 +18,7 @@ sys.path.insert(0, str(RAIZ / "tools"))
 import portal  # noqa: E402
 from noticias.checar_noticia import checar_dia, problemas as p_nota  # noqa: E402
 from estudos.checar_estudo import problemas as p_estudo  # noqa: E402
+from discipulado.legibilidade import META_ALUNO, analisar, falhas  # noqa: E402
 
 EX = RAIZ / "exemplos" / "conteudo"
 
@@ -214,6 +215,31 @@ def copia_do_site(exemplos=False):
     return tmp
 
 
+class Discipulado(unittest.TestCase):
+    """Medidor de legibilidade da coleção e conversão do Markdown das lições."""
+
+    def test_texto_simples_passa(self):
+        t = ("Deus se tornou gente. Ele não parou de ser Deus. Mas passou a ter fome, a sentir frio e a cansar como a gente. "
+             "João conta isso no começo do seu livro. A Palavra se tornou um ser humano e morou entre nós. Os cristãos chamam isso de encarnação.\n\n") * 3
+        self.assertEqual(falhas(analisar(t, META_ALUNO), META_ALUNO), [])
+
+    def test_frase_longa_e_travessao_reprovam(self):
+        t = ("A doutrina da encarnação, fundamental para a cristologia ortodoxa, afirma que o Verbo eterno assumiu a natureza humana "
+             "sem prejuízo de sua divindade, conforme o testemunho apostólico registrado no prólogo joanino e confirmado pela igreja — sempre.")
+        f = falhas(analisar(t, META_ALUNO), META_ALUNO)
+        self.assertTrue(any("frase" in x for x in f) and any("travessão" in x for x in f), f)
+
+    def test_markdown(self):
+        from build_discipulado import markdown, secoes
+        h = markdown("### Sub\n\nUm **forte** e *leve*.\n\n> Texto\n> bíblico\n\n- a\n- b")
+        self.assertIn("<h4>Sub</h4>", markdown("### Sub", 1))
+        self.assertIn("<b>forte</b>", h)
+        self.assertIn("<i>leve</i>", h)
+        self.assertIn("<blockquote><p>Texto bíblico</p></blockquote>", h)
+        self.assertIn("<ul><li>a</li><li>b</li></ul>", h)
+        self.assertEqual([t for t, _ in secoes("# T\n\n## Um\n\nx\n\n## Dois\n\ny <!-- c -->")], ["Um", "Dois"])
+
+
 class Build(unittest.TestCase):
     """Build do Elite com o conteúdo real: as notas em revisão só podem aparecer em /previa/ (noindex)."""
 
@@ -231,7 +257,7 @@ class Build(unittest.TestCase):
         return (self.s / rel).read_text(encoding="utf-8")
 
     def test_rotas(self):
-        for rel in ["index.html", "noticias/index.html", "estudos/index.html", "lancamentos/index.html", "consulta/index.html",
+        for rel in ["index.html", "noticias/index.html", "estudos/index.html", "lancamentos/index.html", "discipulado/index.html", "consulta/index.html",
                     "politica-editorial/index.html", "404.html", "sitemap.xml", "sitemap-noticias.xml", "robots.txt", "llms.txt",
                     "busca.json", "favicon.svg", "marca/o-paladino.webp"]:
             self.assertTrue((self.s / rel).exists(), rel)

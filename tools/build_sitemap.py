@@ -104,6 +104,13 @@ def fontes():
             continue
         pub = c.pop("publicado_em", None)
         paginas.append(("resenha", f"{SITE}/estudos/{c['slug']}/", ROOT / "estudos" / c["slug"] / "index.html", assinatura(c), pub))
+    from discipulado.checar_licao import licoes
+    for p in licoes():
+        c = json.loads(p.read_text(encoding="utf-8"))
+        if c.get("status") != "publicado":  # lição em revisão fica só na prévia (noindex)
+            continue
+        pub = c.pop("publicado_em", None)
+        paginas.append(("licao", f"{SITE}/discipulado/{c['slug']}/", ROOT / "discipulado" / c["slug"] / "index.html", assinatura(c), pub))
     for pag in sorted((ROOT / "noticias" / "pagina").glob("*/index.html"), key=lambda x: int(x.parent.name)):
         # página do arquivo de notícias: muda quando entra nota nova; data = a da nota mais recente nela
         datas = re.findall(r'href="\.\./\.\./\.\./noticias/([^/"]+)/"', pag.read_text(encoding="utf-8"))
@@ -162,7 +169,8 @@ def build():
         datas = [lm for t, _, lm in entradas if t in tipos and lm]
         return max(datas, key=lambda d: datetime.fromisoformat(d if "T" in d else d + "T00:00:00+00:00")) if datas else None
 
-    secoes = [(f"{SITE}/", maior({"noticia", "resenha"})), (f"{SITE}/noticias/", maior({"noticia"})), (f"{SITE}/estudos/", maior({"resenha"}))]
+    secoes = [(f"{SITE}/", maior({"noticia", "resenha"})), (f"{SITE}/noticias/", maior({"noticia"})), (f"{SITE}/estudos/", maior({"resenha"})),
+              (f"{SITE}/discipulado/", maior({"licao"}))]
     for url, lm in reversed(secoes):
         rel = url[len(SITE) + 1:]
         if indexavel(url, ROOT / rel / "index.html"):

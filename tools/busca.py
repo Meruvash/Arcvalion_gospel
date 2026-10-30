@@ -108,6 +108,12 @@ def build():
         regs.append(reg("e", c["titulo"], f'{c["passagem"]} · {c["tempo_min"]} min de estudo', f'estudos/{c["slug"]}/',
                         [c["livro"]], resumo=resumo(c.get("tagline", ""), c.get("lede", "")), data=c["publicado_em"]))
 
+    # lições do Discipulado publicadas
+    from build_discipulado import MODULOS, publicadas
+    for c in publicadas():
+        regs.append(reg("d", c["titulo"], f'Discipulado · Lição {c["numero"]} · {MODULOS[c["modulo"]]}', f'discipulado/{c["slug"]}/',
+                        ["discipulado"], resumo=resumo(c.get("ideia_central", ""), c.get("descricao", "")), data=c["publicado_em"]))
+
     # Livros da Bíblia (bloco RAW de consulta/): um registro por livro, com grupo, testamento e capítulos; o link abre o Versículo diário com um versículo do livro
     raw = re.search(r"const RAW = `(.*?)`", (ROOT / "consulta" / "index.html").read_text(encoding="utf-8"), re.S).group(1)
     for linha in raw.strip().split("\n"):

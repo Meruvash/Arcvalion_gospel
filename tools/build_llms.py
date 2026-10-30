@@ -36,6 +36,7 @@ def build():
     linhas += ["", "## Seções e referências", "",
                f"- [Arquivo de notícias]({SITE}/noticias/)",
                f"- [Estudos bíblicos]({SITE}/estudos/)",
+               f"- [Discipulado]({SITE}/discipulado/): lições para novos convertidos, com guia do discipulador",
                f"- [Agenda cristã]({SITE}/lancamentos/): eventos e lançamentos com data confirmada",
                f"- [Versículo diário]({SITE}/consulta/): o versículo do dia e um novo versículo da Bíblia (Almeida, domínio público) a cada clique",
                f"- [Política editorial]({SITE}/politica-editorial/): como pesquisamos, escolhemos e corrigimos", ""]
