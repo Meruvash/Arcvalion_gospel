@@ -1,6 +1,6 @@
 {
  "slug": "eleicao-romanos-9",
- "status": "revisao",
+ "status": "publicado",
  "titulo": "Romanos 9: Deus escolhe pessoas para a salvação ou povos para uma missão",
  "passagem": "Romanos 9:10-24",
  "sigla": "Rm",
@@ -333,5 +333,11 @@
  "ia": {
   "usada": true,
   "uso": "Pesquisa nas fontes listadas e redação feitas com apoio de inteligência artificial. Citações literais conferidas no texto das páginas citadas. O texto de Augustus Nicodemus sobre Romanos 9 é a reprodução, no blog Bereianos, de uma resposta dele em rede social; o original não foi localizado."
- }
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-29T22:31:52-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-29T22:31:52-03:00"
 }
