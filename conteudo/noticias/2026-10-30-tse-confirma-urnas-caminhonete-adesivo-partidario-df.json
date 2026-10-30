@@ -6,7 +6,7 @@
  "selo": "Motivo de alerta",
  "titulo": "TSE confirma urnas levadas em caminhonete com adesivo partidário no DF; TRE apura responsáveis",
  "lide": "O Tribunal Superior Eleitoral confirmou na quarta-feira (28), no serviço Fato ou Boato, que urnas eletrônicas foram recolhidas depois do segundo turno numa caminhonete com adesivo de partido, no Riacho Fundo II (DF). O tribunal diz que o uso do veículo contraria resolução do TRE-DF, que apura os responsáveis, mas que os votos já tinham sido apurados e transmitidos.",
- "por_que_importa": "A regra existe e foi quebrada: a Justiça Eleitoral admitiu isso por escrito, o que é raro e merece registro. Ao mesmo tempo, o próprio sistema permite conferir que o resultado daquela seção não mudou. Confiança no voto se constrói com as duas coisas: punição para quem descumpre o protocolo e transparência para o eleitor conferir.",
+ "por_que_importa": "Quem pedia transparência no processo eleitoral tinha razão neste ponto: a regra de neutralidade foi quebrada, e a Justiça Eleitoral admitiu isso por escrito. Confiança no voto se constrói com protocolo cumprido, apuração pública de quem errou e meios para o eleitor conferir o resultado da própria seção.",
  "numeros": [
   [
    "8.140/2026",
@@ -40,16 +40,16 @@
   }
  ],
  "para_quem": [
-  "Eleitor que recebeu o vídeo: o fato é verdadeiro e a Justiça Eleitoral confirmou a irregularidade; o que não está provado é fraude no resultado",
+  "Eleitor que recebeu o vídeo: o fato é verdadeiro e foi confirmado pela Justiça Eleitoral; a cobrança mais forte é a que se apoia no que está documentado, e o que está documentado é a quebra do protocolo",
   "Quem quer conferir: o boletim de urna de cada seção pode ser comparado, pelo código QR, com o resultado na internet; partidos e fiscais têm acesso a esses boletins",
-  "Quem compartilha: confira se o vídeo é o do Riacho Fundo II; o de Rio Verde (GO) não faz parte da checagem do TSE"
+  "Quem compartilha: confira se o vídeo é o do Riacho Fundo II; o de Rio Verde (GO) não faz parte da checagem do TSE, e um vídeo trocado enfraquece a cobrança"
  ],
  "nao_e_para": [
   "O site do TSE e o da Justiça Eleitoral recusaram leitura automática (erro 403); o texto da checagem foi conferido pela postagem do TSE e por três reportagens que a reproduzem de forma coincidente",
   "O TRE-DF ainda não divulgou quem dirigia o veículo, quem autorizou o transporte nem que medida vai tomar",
   "O TSE não informou qual partido aparece no adesivo; a identificação do número 13 vem da leitura do vídeo pela imprensa"
  ],
- "veredito": "A gente cobra do TRE-DF o nome de quem autorizou o transporte e a medida tomada, com a mesma publicidade da checagem. Protocolo eleitoral não é detalhe: urna não anda em carro de campanha. E ao eleitor, um conselho: confira o boletim da sua seção antes de compartilhar.",
+ "veredito": "A gente cobra do TRE-DF o nome de quem autorizou o transporte e a medida tomada, com a mesma publicidade da checagem. Urna não anda em carro de campanha, de partido nenhum. A melhor cobrança é a que se faz com documento na mão: o boletim da seção e a resolução descumprida.",
  "fontes": [
   {
    "nome": "TSE, Fato ou Boato: Transporte de urnas em caminhonete com adesivo partidário não comprometeu os votos (28/10/2026; o site devolveu 403 para leitura automática)",
