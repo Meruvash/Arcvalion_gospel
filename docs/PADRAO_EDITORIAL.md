@@ -117,6 +117,20 @@ Registro obrigatório em cada notícia: `"checagem_juridica"`, uma ou duas frase
 hostil. Sem ele, o validador não deixa publicar. Na dúvida, o tom fica firme e a frase arriscada sai: a força vem do
 fato bem apurado, não do adjetivo.
 
+## Sem menção à advocacia do editor (30/10/2026)
+
+Decisão do responsável editorial: o portal informa, não capta clientes. A profissão do editor (advogado) já aparece
+no "Quem somos" e no perfil dele no Instagram, e basta. Repetir isso nas matérias passaria a impressão de que o
+texto existe para atrair cliente, o que as regras de publicidade da OAB (Provimento 205/2021) não permitem.
+
+1. **Nenhuma matéria menciona que o editor é advogado** nem a área em que atua (por exemplo, dívida rural): nem no
+   texto, nem em linha de transparência, nem na legenda das redes.
+2. **Nenhuma matéria oferece serviço ou chama para contato profissional.** Nada de "fale com um advogado", "podemos
+   ajudar", "chame no direct" ou promessa de resultado. O bloco "Fale com o editor" do fim das páginas
+   (`tools/layout.py`) convida só para pauta, correção ou conversa, e não muda por matéria.
+3. **Assuntos da área jurídica (inclusive agro e crédito rural) entram como informação:** o que diz a norma, o que o
+   tribunal decidiu, o que mudou, com fonte e data, como qualquer outra notícia ou guia.
+
 ## Estudos bíblicos (`conteudo/estudos/<slug>.json`)
 
 Esqueleto da resenha do Elite: `titulo`, `passagem`, `sigla`, `livro`, `testamento`, `genero`, `nivel` (1 a 3),
