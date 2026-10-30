@@ -1,8 +1,8 @@
 {
  "slug": "presepio-vivente-jerusalem-da-amazonia-porto-velho",
- "data": "2026-10-30",
+ "data": "2026-10-29",
  "categoria": "Eventos",
- "status": "rascunho",
+ "status": "publicado",
  "selo": "Boa notícia",
  "titulo": "Presépio Vivente será encenado por três noites na Jerusalém da Amazônia, em Porto Velho",
  "lide": "O espetáculo Presépio Vivente, que encena o nascimento de Jesus, será apresentado no parque temático Jerusalém da Amazônia, em Porto Velho, nesta sexta-feira e no sábado (30 e 31 de outubro) e no domingo (1º de novembro), sempre às 19h. O evento é aberto ao público e tem apoio de secretarias da prefeitura.",
@@ -95,6 +95,19 @@
   "usada": true,
   "uso": "pesquisa nas fontes, organização dos fatos e primeira versão do texto"
  },
- "checagem_juridica": "Leitura hostil feita: a nota só descreve o evento com dados da prefeitura e da imprensa local, diz o que não foi informado (endereço, organizador, entrada) e não critica pessoa, órgão ou outra tradição religiosa; a fala do prefeito é literal e atribuída.",
- "publicado_em": "2026-10-30T01:56:05+00:00"
+ "checagem_juridica": "Leitura hostil feita: a nota só descreve o evento com dados da prefeitura e da imprensa local, diz o que não foi informado (endereço, organizador, entrada) e não critica pessoa, órgão ou outra tradição religiosa; a fala do prefeito é literal e atribuída. A foto é ilustrativa, de outro presépio vivo, sem criança identificável, e a legenda diz o local e o ano.",
+ "publicado_em": "2026-10-29T22:59:22-03:00",
+ "imagem": {
+  "arquivo": "capas/presepio-vivente-jerusalem-da-amazonia-porto-velho.jpg",
+  "credito": "Foto: Eugenio Hansen, OFS, via Wikimedia Commons (recorte; presépio vivo em Porto Alegre, 2019)",
+  "alt": "Atores vestidos de José e Maria seguram um bebê em encenação de presépio vivo em Porto Alegre, em 2019; imagem ilustrativa",
+  "licenca": "CC BY-SA 2.0 (https://commons.wikimedia.org/wiki/File:Pres%C3%A9pio_vivo_(Igreja_de_Santo_Ant%C3%B4nio_(Porto_Alegre))_2019-12-24_1.jpg)",
+  "origem": "local:presepio#presepio_jose_maria.jpg:321dd610",
+  "pagina": "arquivo da redação (presepio)"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-29T22:59:22-03:00",
+  "modo": "automatica"
+ }
 }
