@@ -64,7 +64,7 @@
   ]
  },
  "selo": "Vale acompanhar",
- "por_que_importa": "A tese da gente é simples: quem decide sobre vício precisa ouvir quem trata o vício. A própria exposição de motivos da MP fala em ansiedade, depressão, endividamento e risco de suicídio. Mesmo assim, o Ministério da Saúde não ganhou os dez minutos que a Portuguesa terá. A conta da aposta chega ao consultório; o microfone ficou no estádio.",
+ "por_que_importa": "A tese da gente é simples: quem decide sobre vício precisa ouvir quem trata o vício. A própria exposição de motivos da MP fala em ansiedade, depressão, endividamento e risco de suicídio. Mesmo assim, o Ministério da Saúde não está na lista de oradores; a Portuguesa está, com dez minutos. A conta da aposta chega ao consultório; o microfone ficou no estádio.",
  "numeros": [
   [
    "28",
@@ -109,7 +109,7 @@
   }
  ],
  "para_quem": [
-  "Para a família que perdeu o salário num aplicativo, a MP já vale: a oferta e a propaganda de bets estão proibidas no país. A audiência de 3 de novembro pesa se isso continua, e quem atende o viciado não estará na fila dos oradores",
+  "Para a família que perdeu o salário num aplicativo, a MP já vale: a oferta e a propaganda de bets estão proibidas no país. A audiência de 3 de novembro pesa se isso continua, e quem atende os dependentes de apostas não está na lista de oradores",
   "Se o PL 3748/2024 virar lei, o país ganha em 20 de fevereiro um Dia Nacional de Combate à Ludopatia, com campanhas nas escolas e encaminhamento de crianças e adolescentes à rede de saúde mental do SUS. Bom para quem ensina; melhor ainda se quem trata também for ouvido",
   "Pais, pastores e líderes que acolhem viciados em apostas podem acompanhar a audiência ao vivo pela TV Justiça e pelo canal do STF no YouTube"
  ],
@@ -118,7 +118,7 @@
   "O STF ainda não decidiu o pedido de suspensão da MP; a audiência de 3 de novembro vem antes dessa decisão",
   "O PL 3748/2024 foi aprovado só na comissão de Família da Câmara e ainda passa pela Comissão de Constituição e Justiça"
  ],
- "veredito": "A gente apoia a proibição e pede uma cadeira a mais na audiência: a de quem trata o vício. Patrocínio na camisa não é laudo médico. Se o Supremo quer medir o estrago das bets, precisa ouvir quem atende as famílias depois do último depósito.",
+ "veredito": "A gente apoia a proibição e pede uma cadeira a mais na audiência: a de quem trata o vício. Opinião de clube de futebol não substitui laudo médico. Se o Supremo quer medir o estrago das bets, precisa ouvir quem atende as famílias depois do último depósito.",
  "instituicao": "Supremo Tribunal Federal",
  "editora": "Supremo Tribunal Federal",
  "estudos": [],
@@ -128,8 +128,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-29T21:33:52-03:00",
-  "modo": "automatica"
+  "data": "2026-10-29T21:37:08-03:00"
  },
- "publicado_em": "2026-10-29T21:33:52-03:00"
+ "publicado_em": "2026-10-29T21:33:52-03:00",
+ "checagem_juridica": "Leitura hostil feita: a lista de oradores foi conferida no despacho assinado pelo ministro Luiz Fux (28 entidades, 10 clubes, nenhuma da área de saúde); a crítica mira a composição da audiência, sem atribuir intenção ao ministro, aos clubes ou ao Ministério da Saúde; frases que sugeriam recusa de pedido ou interesse financeiro dos clubes foram reescritas, e os argumentos do setor de apostas aparecem atribuídos.",
+ "atualizado_em": "2026-10-29T21:37:08-03:00"
 }
