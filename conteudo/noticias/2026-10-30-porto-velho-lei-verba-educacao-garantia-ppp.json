@@ -2,7 +2,7 @@
  "slug": "porto-velho-lei-verba-educacao-garantia-ppp",
  "data": "2026-10-30",
  "categoria": "Política e Sociedade",
- "status": "revisao",
+ "status": "publicado",
  "selo": "Vale acompanhar",
  "titulo": "Lei de Porto Velho permite dar verba da educação e do FPM como garantia de PPPs",
  "lide": "Sancionada em 23 de outubro pelo prefeito Léo Moraes, a Lei 3.521 autoriza Porto Velho a oferecer receitas do município como garantia de parcerias público-privadas, entre elas o Fundo de Participação dos Municípios (FPM), o Fundeb e o salário-educação. A Câmara aprovou o projeto em 20 de outubro, por 19 votos a 0 e uma abstenção.",
@@ -206,5 +206,10 @@
   "origem": "local:parque#Porto_Velho_RO.jpg:46a18fda",
   "pagina": "arquivo da redação"
  },
- "publicado_em": "2026-10-30T03:06:39+00:00"
+ "publicado_em": "2026-10-30T09:01:34-03:00",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T09:01:34-03:00",
+  "modo": "automatica"
+ }
 }

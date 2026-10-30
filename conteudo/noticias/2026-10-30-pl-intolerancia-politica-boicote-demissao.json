@@ -2,8 +2,9 @@
  "slug": "pl-intolerancia-politica-boicote-demissao",
  "data": "2026-10-30",
  "categoria": "Política e Sociedade",
- "status": "revisao",
+ "status": "publicado",
  "selo": "Motivo de alerta",
+ "opiniao_forte": true,
  "titulo": "Projeto no Senado prevê prisão por boicote político e retirada de páginas da internet",
  "lide": "Parado desde maio de 2024 na Comissão de Constituição e Justiça do Senado, o PL 2.885/2022, de Renan Calheiros (MDB-AL), voltou ao debate com os boicotes e demissões depois da eleição. O texto cria crimes de intolerância política, com prisão de 1 a 3 anos para quem promover boicote a comércio por orientação política.",
  "por_que_importa": "Demitir alguém pelo voto é injusto, e isso já tem remédio na Justiça do Trabalho. O projeto vai além: põe na mesma lei quem persegue um trabalhador e quem convoca um boicote, que é opinião. E a versão do relator deixa o juiz tirar páginas do ar antes do inquérito. Quem hoje aplaude a lei contra o adversário pode ser alvo dela amanhã.",
@@ -232,5 +233,10 @@
   "origem": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Congresso_Nacional.jpg/1280px-Congresso_Nacional.jpg",
   "pagina": "https://commons.wikimedia.org/wiki/File:Congresso_Nacional.jpg"
  },
- "publicado_em": "2026-10-30T03:43:48+00:00"
+ "publicado_em": "2026-10-30T09:01:34-03:00",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T09:01:34-03:00",
+  "modo": "automatica"
+ }
 }
