@@ -15,7 +15,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import portal  # noqa: E402
 from discipulado.legibilidade import META_ALUNO, META_GUIA, analisar, falhas  # noqa: E402
 
-MODULOS = {1: "Conhecendo a fé cristã", 2: "Aprendendo a caminhar", 3: "Crescendo como discípulo"}
 # seções obrigatórias do texto do aluno, na ordem (padrao-editorial.md, seção 7); o título é o "# " do arquivo
 SECOES_ALUNO = ["O que vamos aprender?", "Para começar", "Texto bíblico principal", "Entendendo a Palavra", "Entendendo melhor",
                 "A fé na vida real", "Vamos conversar?", "Desafio da semana", "Para guardar no coração", "Resumindo"]
@@ -43,10 +42,14 @@ def problemas(c, publicar=None, pasta=None):
     for campo in ("slug", "titulo", "descricao", "ideia_central"):
         if not c.get(campo):
             erros.append(f"falta {campo}")
-    if c.get("numero") not in range(1, 13):
-        erros.append("numero: 1 a 12 (arquitetura da coleção)")
-    if c.get("modulo") not in MODULOS:
-        erros.append("modulo: 1, 2 ou 3")
+    if not isinstance(c.get("numero"), int) or c["numero"] < 1:
+        erros.append("numero: a próxima lição da sequência (1, 2, 3...)")
+    # tema escolhido pelo que as pessoas perguntam (decisão do editor, 30/10/2026); a Lição 1 veio da lista antiga
+    if c.get("numero", 0) > 1:
+        rel = c.get("relevancia") or {}
+        ev = rel.get("evidencias") or []
+        if not rel.get("pergunta") or not ev or any(not str(x.get("url", "")).startswith("http") or not x.get("dado") for x in ev):
+            erros.append("relevancia: {pergunta, evidencias: [{fonte, url, dado, data}]} com o que mostra que as pessoas perguntam isso")
     if not isinstance(c.get("tempo_min"), int):
         erros.append("tempo_min: duração do encontro em minutos (número)")
     if c.get("titulo") and not c["titulo"].endswith("?"):

@@ -3,7 +3,8 @@
 Uso: python3 tools/build_discipulado.py   (build_home.py chama)
 Cada lição publicada vai para discipulado/<slug>/; em revisão, para previa/discipulado/<slug>/ (noindex, com aviso).
 A página mostra o texto do aluno (aluno.md) e, recolhido, o guia do discipulador (discipulador.md). A lista
-discipulado/index.html mostra as 12 lições da coleção por módulo (docs/discipulado/padrao-editorial.md, seção 5).
+discipulado/index.html lista as lições publicadas pelo número. O tema de cada lição sai do que as pessoas estão
+perguntando (skill discipulado, "Escolher o tema"), não de uma lista fixa.
 """
 import json
 import re
@@ -16,18 +17,9 @@ import portal  # noqa: E402
 import seo  # noqa: E402
 from build_sitemap import lastmod_registrado  # noqa: E402
 from build_home import ROOT, SITE, data_longa, e, pagina  # noqa: E402
-from discipulado.checar_licao import MODULOS, licoes, problemas  # noqa: E402
+from discipulado.checar_licao import licoes, problemas  # noqa: E402
 from layout import cabecalho, convite_compartilhar, rodape, trilha  # noqa: E402
 
-# arquitetura fixa da coleção (padrao-editorial.md, seção 5): número -> (módulo, título)
-COLECAO = {
-    1: (1, "Quem é Jesus Cristo?"), 2: (1, "O que é o Evangelho e por que precisamos de salvação?"),
-    3: (1, "O que significa nascer de novo?"), 4: (1, "Como ter certeza da minha fé?"),
-    5: (2, "Como ler e entender a Bíblia?"), 6: (2, "Como conversar com Deus pela oração?"),
-    7: (2, "Por que preciso fazer parte de uma igreja?"), 8: (2, "O que significam o batismo nas águas e a Ceia do Senhor?"),
-    9: (3, "Quem é o Espírito Santo e como ele age?"), 10: (3, "O que é santificação e como vencer o pecado?"),
-    11: (3, "Como lidar com dificuldades, dúvidas e tentações?"), 12: (3, "Como compartilhar minha fé e ajudar outras pessoas?"),
-}
 CAPA = f"{SITE}/estudos/capa.jpg"
 CSS_DISC = """<style>
 .nota .licao h2{margin-top:6px}.nota .licao .corpo{max-width:66ch}
@@ -41,7 +33,6 @@ CSS_DISC = """<style>
 .nota details.guia>summary{cursor:pointer;font-weight:800;font-size:1.1rem;min-height:44px;display:flex;align-items:center}
 .nota details.guia[open]>summary{margin-bottom:10px}
 .nota .como{font-size:.9rem;color:#3a414c}
-.modulo{display:grid;gap:10px}.modulo h3{font-size:1rem;color:var(--paper-muted)}
 .lista-d{display:grid;gap:8px}.lista-d li{display:grid;grid-template-columns:2.4em 1fr;gap:10px;align-items:baseline;padding:10px 0;border-top:1px solid var(--paper-line,#d5dae1)}
 .lista-d li:first-child{border-top:0}.lista-d .n{font-weight:800;font-variant-numeric:tabular-nums;color:var(--gold)}
 .lista-d a{font-weight:700}.lista-d small{display:block;color:var(--paper-muted);font-size:.85rem}.lista-d .breve{color:var(--paper-muted)}
@@ -120,6 +111,9 @@ def build(c, pasta_src):
     guia = re.sub(r"^# .+$", "", guia, count=1, flags=re.M)
     blocos = "".join(f'<section class="bloco licao"><h2>{inline(t)}</h2><div class="corpo">{markdown(x, 1)}</div></section>'
                      for t, x in secoes(aluno))
+    rel = c.get("relevancia") or {}
+    porque = "".join(f'<li><a href="{e(x["url"])}" target="_blank" rel="noopener">{e(x["fonte"])}</a>: {e(x["dado"])}{" (" + e(x["data"]) + ")" if x.get("data") else ""}</li>'
+                     for x in rel.get("evidencias", []))
     aud = c.get("auditoria") or {}
     aviso = ('<div style="background:#ffe3e3;color:#7a1f1f;padding:8px 16px;text-align:center;font-size:.9rem"><b>Prévia em revisão.</b> '
              'Esta lição ainda não foi publicada. Não compartilhe.</div>') if previa else ""
@@ -129,7 +123,7 @@ def build(c, pasta_src):
 <main id="conteudo" class="in"><div class="nota">
  {trilha(("Início", pre), ("Discipulado", f"{pre}discipulado/"), (e(c["titulo"]), ""))}
  <article class="bloco">
-  <span class="num-l">Lição {c["numero"]} · Módulo {c["modulo"]}: {e(MODULOS[c["modulo"]])}</span>
+  <span class="num-l">Lição {c["numero"]}</span>
   <h1>{e(c["titulo"])}</h1>
   <p class="meta-e"><span>Para quem está começando</span><span>Encontro de {c["tempo_min"]} min</span><span>Texto bíblico: NTLH</span></p>
   <p class="ideia">{e(c["ideia_central"])}</p>
@@ -138,6 +132,7 @@ def build(c, pasta_src):
  {fig}
  {blocos}
  {convite_compartilhar(f'{c["titulo"]} (via O Paladino)', url, "Está discipulando alguém?", "Mande esta lição para quem você acompanha.")}
+ {f'<section class="bloco como"><h2>Por que esta lição</h2><p class="como">A pergunta "{e(rel["pergunta"])}" aparece com frequência nas buscas e nas redes:</p><ul class="como">{porque}</ul></section>' if rel.get("pergunta") else ""}
  <section class="bloco"><details class="guia"><summary>Guia do discipulador</summary><div class="corpo licao">{markdown(guia, 1)}</div></details></section>
  <section class="bloco como"><h2>Como foi feito</h2><p class="como">{e((c.get("ia") or {}).get("uso", ""))}</p>
  {f'<p class="como">Auditoria independente: nota preliminar {aud["nota"]} de 100, em {aud["rodadas"]} rodada{"s" if aud["rodadas"] != 1 else ""}. A nota da auditoria não substitui a leitura por pessoas do público.</p>' if aud.get("nota") else ""}</section>
@@ -156,25 +151,16 @@ def build(c, pasta_src):
 
 
 def pagina_lista():
-    """discipulado/index.html: as 12 lições da coleção por módulo; as publicadas com link."""
+    """discipulado/index.html: as lições publicadas, pelo número."""
     pre = "../"
-    pub = {c["numero"]: c for c in publicadas()}
-    mods = ""
-    for m, nome in MODULOS.items():
-        itens = ""
-        for n, (mod, titulo) in COLECAO.items():
-            if mod != m:
-                continue
-            c = pub.get(n)
-            itens += (f'<li><span class="n">{n:02d}</span><span><a href="{c["slug"]}/">{e(c["titulo"])}</a><small>{e(c["ideia_central"])}</small></span></li>' if c
-                      else f'<li><span class="n">{n:02d}</span><span>{e(titulo)}<small class="breve">Em preparação</small></span></li>')
-        mods += f'<div class="modulo"><h3>Módulo {m}: {e(nome)}</h3><ol class="lista-d">{itens}</ol></div>'
+    itens = "".join(f'<li><span class="n">{c["numero"]:02d}</span><span><a href="{c["slug"]}/">{e(c["titulo"])}</a><small>{e(c["ideia_central"])}</small></span></li>'
+                    for c in publicadas())
     corpo = f"""{cabecalho(pre, "Discipulado")}
 <main id="conteudo" class="in"><div class="nota">
  {trilha(("Início", pre), ("Discipulado", ""))}
- <article class="bloco"><h1>Discipulado</h1><p class="ideia">Doze lições para quem está começando a seguir Jesus. Cada uma tem o texto para o aluno, em linguagem simples, e um guia para quem conduz o encontro.</p></article>
- <section class="bloco"><h2>As lições</h2><div class="corpo" style="max-width:none">{mods}</div></section>
- <section class="bloco como"><h2>Como as lições são feitas</h2><p class="como">Cada lição parte de uma passagem bíblica, com pesquisa em comentários e obras de referência, texto bíblico na Nova Tradução na Linguagem de Hoje e medição de legibilidade. As citações bíblicas e das fontes são conferidas na página onde foram lidas. A orientação é evangélica pentecostal, e o guia do discipulador registra onde outras tradições pensam diferente.</p></section>
+ <article class="bloco"><h1>Discipulado</h1><p class="ideia">Lições numeradas para quem está começando a seguir Jesus, sobre as perguntas que as pessoas mais fazem sobre a fé. Cada uma tem o texto para o aluno, em linguagem simples, e um guia para quem conduz o encontro.</p></article>
+ <section class="bloco"><h2>As lições</h2>{f'<ol class="lista-d">{itens}</ol>' if itens else '<p>As primeiras lições estão em preparação.</p>'}</section>
+ <section class="bloco como"><h2>Como as lições são feitas</h2><p class="como">Cada lição responde a uma pergunta que as pessoas estão fazendo de verdade, nas buscas e nas redes, e parte de uma passagem bíblica, com pesquisa em comentários e obras de referência, texto bíblico na Nova Tradução na Linguagem de Hoje e medição de legibilidade. As citações bíblicas e das fontes são conferidas na página onde foram lidas. A orientação é evangélica pentecostal, e o guia do discipulador registra onde outras tradições pensam diferente.</p></section>
 </div></main>
 {rodape(pre)}"""
     url = f"{SITE}/discipulado/"
