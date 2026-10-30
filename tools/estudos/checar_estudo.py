@@ -51,6 +51,11 @@ def problemas_posicoes(c):
                 erros.append(f"teólogo '{nome}': texto de 25 a 110 palavras")
             if t.get("citacao") and not str(t.get("citacao_url", t.get("url", ""))).startswith("http"):
                 erros.append(f"teólogo '{nome}': citação literal só com o link da página onde a frase foi lida")
+    # linha editorial pentecostal (30/10/2026): todo estudo novo diz onde o portal está
+    if c.get("nossa_posicao") or (c.get("publicado_em") or "9999") >= "2026-10-30":
+        np_ = c.get("nossa_posicao") or []
+        if not 1 <= len(np_) <= 4 or not 60 <= sum(palavras(x) for x in np_) <= 350:
+            erros.append("nossa_posicao (Nossa posição, linha pentecostal): 1 a 4 parágrafos, 60 a 350 palavras")
     if not 1 <= len(c.get("convergencias", [])) <= 5:
         erros.append("convergencias: 1 a 5 pontos em que os lados concordam")
     return erros
