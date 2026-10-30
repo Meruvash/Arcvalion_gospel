@@ -1,0 +1,240 @@
+{
+ "slug": "fachin-arquiva-mais-cinco-inquerito-fake-news",
+ "data": "2026-10-30",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Fachin arquiva mais cinco investigações do inquérito das fake news e revoga prisão por postagens",
+ "lide": "O presidente do STF, Edson Fachin, arquivou em 28 de outubro mais cinco investigações ligadas ao inquérito das fake news, a pedido da Procuradoria-Geral da República. Os casos envolvem Rui Costa Pimenta (PCO), o ex-ministro Gilson Machado, o deputado estadual Alex Brasil, Flávia Cordeiro Magalhães e um grupo no Telegram. A prisão preventiva de Flávia foi revogada.",
+ "por_que_importa": "Uma prisão preventiva por postagens, decretada em dezembro de 2023, terminou com a própria PGR dizendo que a investigada emitia opiniões de forma isolada, sem robôs nem dinheiro por trás. Investigação que dura anos sem denúncia vira castigo por conta própria. O arquivamento corrige o caso, mas não devolve os anos.",
+ "numeros": [
+  [
+   "5",
+   "investigações arquivadas pelas decisões de 28 de outubro",
+   "STF, notícia oficial de 29/10/2026"
+  ],
+  [
+   "104",
+   "procedimentos ligados ao inquérito das fake news enviados à Presidência do STF em 9 de setembro",
+   "STF, decisão na PET 11.548"
+  ],
+  [
+   "30/12/2023",
+   "data em que foi decretada a prisão preventiva de Flávia Cordeiro Magalhães, que mora no exterior e não chegou a ser presa",
+   "STF, decisão na PET 11.548"
+  ]
+ ],
+ "corpo": [
+  "Segundo o STF, a investigação sobre o presidente do PCO tratava de publicações contra o tribunal em junho de 2022; como o crime de incitação tem pena máxima de seis meses e passaram três anos, Fachin declarou extinta a punibilidade. O caso de Gilson Machado apurava suposta tentativa de obter passaporte português para o tenente-coronel Mauro Cid e foi arquivado por falta de indícios, com a devolução de celulares e de uma arma, se o registro estiver regular.",
+  "Alex Brasil, deputado estadual de Santa Catarina, era investigado por compartilhar conteúdo sobre o sigilo do voto em 2022; os mesmos fatos já tinham sido arquivados em outro processo, e Fachin mandou desbloquear as contas dele. O grupo no Telegram, com ameaças a ministros e apologia ao racismo contra judeus, teve a apuração encerrada porque a plataforma disse não conseguir identificar os administradores. Em quatro casos, as investigações podem ser reabertas se surgirem provas novas."
+ ],
+ "no_brasil": "O inquérito das fake news (INQ 4.781) foi aberto em 2019 e passou à Presidência do STF em setembro. É o segundo lote em uma semana: em 27 de outubro, Fachin já tinha arquivado as apurações sobre Silas Malafaia, Eduardo Bolsonaro e Guilherme Fiuza. Em 9 de outubro, ele disse que pretende arquivar o inquérito por inteiro.",
+ "critica": [
+  {
+   "fonte": "Procuradoria-Geral da República, sobre a razão de ser do inquérito, em parecer transcrito na decisão da PET 11.548",
+   "texto": "necessidade de combater ações orquestradas, financiadas e estruturadas por milícias digitais voltadas ao desmantelamento das instituições democráticas",
+   "citacao": true,
+   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391833221&ext=.pdf"
+  },
+  {
+   "fonte": "Procuradoria-Geral da República, sobre Flávia Cordeiro Magalhães, no mesmo parecer",
+   "texto": "a investigada emitia opiniões e manifestações de forma aparentemente isolada, a partir de sua residência no exterior",
+   "citacao": true,
+   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391833221&ext=.pdf"
+  },
+  {
+   "fonte": "Ministro Edson Fachin, na decisão",
+   "texto": "Fachin lembrou que, pela jurisprudência do STF, o pedido de arquivamento feito pela PGR deve, em regra, ser acolhido, porque é ela quem decide se há base para acusar.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Quem publica opinião sobre o Judiciário: o próprio Ministério Público reconheceu que postagem isolada, sem rede nem financiamento, não sustentou o caso",
+  "Famílias que conversam sobre política na internet: vale saber que crítica a autoridade é direito, e que ofensa pessoal a juiz depende de representação do ofendido para virar processo, como lembra a PGR",
+  "Quem acompanha o fim do inquérito: as decisões tiveram o sigilo levantado e estão no site do STF para leitura"
+ ],
+ "nao_e_para": [
+  "Em quatro dos cinco casos, a investigação pode ser reaberta se surgirem novas provas (art. 18 do Código de Processo Penal)",
+  "No caso de Flávia Cordeiro Magalhães, a PGR ainda vai se manifestar sobre as multas aplicadas em 2025 por descumprimento de ordem judicial",
+  "Ainda restam procedimentos do inquérito sem decisão; o STF não divulgou quantos faltam depois destes lotes"
+ ],
+ "veredito": "A gente apoia o arquivamento e cobra o resto: que o inquérito acabe por inteiro, como Fachin prometeu, e que nenhum novo nasça sem prazo, objeto claro e Ministério Público na frente. Liberdade de opinião não pode depender da paciência de quem é criticado.",
+ "versiculo": {
+  "texto": "Não torcerás o juízo, não farás acepção de pessoas",
+  "referencia": "Deuteronômio 16.19",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: STF determina arquivamento de mais cinco investigações ligadas ao inquérito das fake news (29/10/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-determina-arquivamento-de-mais-cinco-investigacoes-ligadas-ao-inquerito-das-fake-news/",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: decisão na PET 11.548 (Flávia Cordeiro Magalhães), assinada em 28/10/2026, íntegra em PDF",
+   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391833221&ext=.pdf",
+   "data": "28/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: decisão na PET 10.391 (PCO), assinada em 28/10/2026, íntegra em PDF",
+   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391832423&ext=.pdf",
+   "data": "28/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: decisão na PET 14.103 (Alex Brasil), assinada em 28/10/2026, íntegra em PDF",
+   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391832563&ext=.pdf",
+   "data": "28/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: STF determina arquivamento de investigações relacionadas ao inquérito das fake news (27/10/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-determina-arquivamento-de-investigacoes-relacionadas-ao-inquerito-das-fake-news/",
+   "data": "27/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Fachin arquiva mais cinco investigações do Inquérito das Fake News (29/10/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/fachin-arquiva-mais-cinco-investigacoes-do-inquerito-das-fake-news",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Brasil: STF: Fachin diz que pretende arquivar inquérito das Fake News (09/10/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/stf-fachin-diz-que-pretende-arquivar-inquerito-das-fake-news",
+   "data": "09/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "News Rondônia: Presidente do STF arquiva mais cinco investigações do Inquérito das Fake News a pedido da PGR (29/10/2026)",
+   "url": "https://newsrondonia.com.br/politica/2026/10/29/presidente-do-stf-arquiva-mais-cinco-investigacoes-do-inquerito-das-fake-news-a-pedido-da-pgr/",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 84,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "liberdade",
+   "porque": "O fato é sobre liberdade de expressão: o STF encerra investigações e revoga prisão e bloqueios impostos por publicações na internet"
+  },
+  "origem": {
+   "nome": "News Rondônia",
+   "url": "https://newsrondonia.com.br/politica/2026/10/29/presidente-do-stf-arquiva-mais-cinco-investigacoes-do-inquerito-das-fake-news-a-pedido-da-pgr/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Decisões já valendo: revogam uma prisão preventiva e restrições migratórias, desbloqueiam redes de um deputado e encerram cinco investigações do maior inquérito sobre manifestação na internet do país"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Liberdade de expressão no Brasil e decisão do STF sobre lideranças da direita: núcleo do portal, com efeito direto em quem publica opinião"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Decisões assinadas em 28/10 e divulgadas pelo STF em 29/10: menos de 48 horas, com mais lotes anunciados"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Notícia oficial do STF e íntegra de três das cinco decisões lidas no portal do tribunal; confirmação independente pela Agência Brasil e pelo News Rondônia"
+   },
+   "originalidade": {
+    "pontos": 9,
+    "porque": "Acrescenta, das decisões, a data da prisão preventiva de 2023, a frase da PGR sobre opinião isolada e o total de 104 procedimentos, que a cobertura não deu"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 8,
+    "viral": 4,
+    "cristao": 1
+   },
+   "criterios": [
+    "Documento primário: íntegra das decisões do STF (2)",
+    "Ato de poder: decisões do presidente do Supremo (2)",
+    "Proximidade: nacional (2)",
+    "Número forte com fonte oficial (1)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Fachin, Gilson Machado, Alex Brasil (1)",
+    "Contraria a narrativa: prisão por postagem termina com a PGR falando em opinião isolada (1)",
+    "Moeda social: trechos das decisões que a cobertura não deu (1)",
+    "Gatilho no calendário: fim do inquérito em andamento (1)",
+    "Rende estudo: liberdade de expressão e autoridade (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Presidente do STF arquiva mais cinco investigações do Inquérito das Fake News a pedido da PGR",
+  "nucleo": "A - Brasil",
+  "categoria": "Judiciário / liberdade de expressão",
+  "publicacao_original": "2026-10-29T15:25-04:00",
+  "coleta": "2026-10-30",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em documento primário",
+   "contradicoes": "O STF chama Gilson Machado de 'ex-ministro da Justiça' num parágrafo e 'ex-ministro do Turismo' em outro; a nota diz só 'ex-ministro'.",
+   "sem_confirmacao": "quantos procedimentos do inquérito ainda faltam decidir"
+  },
+  "duplicidade": {
+   "grupo": "INQ 4.781 / arquivamentos de 28/10/2026",
+   "itens": [
+    "News Rondônia 29/10 (origem da pauta)",
+    "STF 29/10 (origem do fato)"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-10-30-fachin-arquiva-investigacao-silas-malafaia (lote de 27/10, outro fato)"
+  },
+  "revisao_humana": "recomendada: conteúdo jurídico e Opinião Forte",
+  "seo": {
+   "intencao": "saber quem teve investigação arquivada no inquérito das fake news",
+   "entidades": [
+    "STF",
+    "Edson Fachin",
+    "PGR",
+    "Gilson Machado",
+    "Rui Costa Pimenta",
+    "Alex Brasil",
+    "Flávia Cordeiro Magalhães"
+   ],
+   "termos": [
+    "inquérito das fake news",
+    "INQ 4.781",
+    "arquivamento",
+    "liberdade de expressão"
+   ],
+   "atualizacao": "acompanhar os próximos lotes e o arquivamento do inquérito principal"
+  }
+ },
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das decisões, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a nota não atribui crime nem má-fé a nenhum ministro, investigado ou ao Telegram; os investigados aparecem como investigados, e o que se diz de cada caso vem da notícia oficial e das decisões do STF. A crítica da opinião mira o formato do inquérito (prazo, objeto, papel do Ministério Público), não pessoas; as frases da PGR são literais e conferidas no PDF.",
+ "imagem": {
+  "arquivo": "capas/fachin-arquiva-mais-cinco-inquerito-fake-news.jpg",
+  "credito": "Foto: Alejandro Zambrana/Agência Brasil",
+  "alt": "O ministro Edson Fachin, presidente do STF, na cadeira da presidência durante sessão no plenário (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/PjUXz7gMw8YGfU9keC_PdPCzPNc=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/04/55506386528_e6d3068cf0_6k.jpg?itok=1qlIWikQ",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/stf-fachin-diz-que-pretende-arquivar-inquerito-das-fake-news"
+ },
+ "manchete": true,
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T02:32:37-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-30T02:32:37-03:00"
+}
