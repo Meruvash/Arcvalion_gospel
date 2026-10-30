@@ -23,7 +23,7 @@ def build():
         "sobre o Brasil e o mundo: fé e igreja, política e sociedade, família e valores, economia, música e cultura "
         "cristã e eventos.",
         "",
-        "Responsável editorial: Anderson Pelicioni de Castro, que confere o site diariamente. "
+        "Responsável editorial: Wan Anderson Pelicioni de Castro, que confere o site diariamente. "
         "Toda notícia e todo estudo listam as fontes consultadas, com data, e passam por checagem automática do padrão "
         "editorial antes de ir ao ar.",
     ]

@@ -1,6 +1,6 @@
 # Regras para agentes neste repositório
 
-- **Publicação automática** (ordem de Anderson Pelicioni de Castro, responsável editorial, em 29/10/2026): as rotinas
+- **Publicação automática** (ordem de Wan Anderson Pelicioni de Castro, responsável editorial, em 29/10/2026): as rotinas
   (skills `noticias`, `estudo`) publicam sozinhas o que passa nos validadores, com
   `python3 tools/publicar.py aprovar <arquivo> --revisor anderson-pelicioni-de-castro --automatica`, que registra a
   aprovação como automática (não como leitura humana). A conferência é diária, pela verificação noturna das 21h (tarefa agendada) e

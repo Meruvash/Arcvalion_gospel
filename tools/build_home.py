@@ -422,7 +422,7 @@ def build_politica():
   <p class="lide">Como O Paladino escolhe, escreve, confere e corrige o que publica.</p>
  </article>
  <section class="bloco"><h2>Quem responde pelo site</h2><div class="corpo">
-  <p><b>Anderson Pelicioni de Castro</b>, advogado, é o responsável editorial de O Paladino. Ele responde pelo que é publicado e confere o site todos os dias.</p>
+  <p><b>Wan Anderson Pelicioni de Castro</b>, advogado, é o responsável editorial de O Paladino. Ele responde pelo que é publicado e confere o site todos os dias.</p>
  </div></section>
  <section class="bloco"><h2>Como o conteúdo é produzido</h2><div class="corpo">
   <p>Notícias e estudos bíblicos são redigidos com apoio de ferramentas de inteligência artificial, sempre a partir das fontes citadas em cada página. Nenhum texto vai ao ar sem fontes, e todo número, nome ou data precisa estar numa delas. O texto só é publicado depois de passar pela checagem automática do padrão editorial (fontes, foto com licença, separação entre fato e opinião). O responsável editorial confere o site todos os dias e corrige o que for preciso.</p>
