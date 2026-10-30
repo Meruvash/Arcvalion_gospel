@@ -31,6 +31,7 @@ MINIMO = 3   # notas por dia na fase de teste (o Elite usa 5)
 # crivo de 0 a 20 (docs/CRIVO_NOTICIAS.md): teto de cada eixo e nota mínima para publicar
 EIXOS = {"valor": 8, "viral": 7, "cristao": 5}
 TRILHAS = {"quente", "atemporal"}
+ABRANGENCIAS = {"nacional", "rondonia", "porto-velho", "internacional"}
 CORTE = 8
 
 
@@ -52,6 +53,8 @@ def checar_crivo(c):
         erros.append(f"crivo: {c['pontos']} pontos, abaixo do corte de {CORTE} (docs/CRIVO_NOTICIAS.md)")
     if c.get("trilha") not in TRILHAS:
         erros.append("crivo: 'trilha' precisa ser quente ou atemporal")
+    if c.get("abrangencia") not in ABRANGENCIAS:
+        erros.append("crivo: 'abrangencia' precisa ser nacional, rondonia, porto-velho ou internacional")
     o = c.get("origem")
     if o is not None and (not isinstance(o, dict) or not o.get("nome") or not o.get("url")):
         erros.append("crivo: 'origem' (portal onde a pauta nasceu) precisa de nome e url")
@@ -161,7 +164,8 @@ def problemas(n, publicar=None):
 
 
 def checar_dia(ns):
-    """A manchete de cada dia precisa ser a nota de maior pontuação do dia (regra do Elite)."""
+    """A manchete de cada dia precisa ser a nota de maior pontuação do dia (regra do Elite); a partir de 5 notas no dia,
+    pelo menos 2 de cada 5 saem com Opinião Forte (docs/PADRAO_EDITORIAL.md, 30/10/2026)."""
     erros = []
     por_dia = {}
     for n in ns:
@@ -170,6 +174,9 @@ def checar_dia(ns):
         pts = [n["crivo"].get("pontos", 0) for n in lista]
         if any(n.get("manchete") and n["crivo"].get("pontos", 0) < max(pts) for n in lista):
             erros.append(f"{dia}: a manchete precisa ser a nota de maior pontuação do dia")
+        fortes = sum(bool(n.get("opiniao_forte")) for n in lista)
+        if len(lista) >= 5 and fortes < 2 * (len(lista) // 5):
+            erros.append(f"{dia}: {fortes} de {len(lista)} notas com Opinião Forte; o padrão é 2 de cada 5")
     return erros
 
 

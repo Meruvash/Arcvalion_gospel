@@ -8,6 +8,17 @@ Modelo do crivo: o do Elite Boardgamers (eliminatórios, depois pontos; manchete
 
 Teste de 30/10/2026, com notícias reais: `docs/TESTE_CRIVO_2026-10-30.md`.
 
+## 0. Prioridade geográfica (30/10/2026)
+
+Pedido do responsável editorial: a edição é **nacional primeiro**, depois **Rondônia**, depois **Porto Velho**.
+
+| Ordem | Abrangência | Quando entra |
+|---|---|---|
+| 1 | Brasil | Sempre: é o núcleo da edição (pelo menos 3 das 5 notas do dia) |
+| 2 | Rondônia | Toda pauta do estado que passe no crivo (meta: 1 por dia) |
+| 3 | Porto Velho | Toda pauta da capital que passe no crivo |
+| 4 | Internacional | Só com **impacto grande e direto no Brasil** (o mesmo projeto tramita aqui, afeta brasileiros, muda regra que vale aqui) ou na trilha **atemporal**. No máximo 1 por dia |
+
 ## 1. A regra de ouro: o portal dá a pauta, a fonte primária dá o fato
 
 Portal conservador é onde a gente **encontra** a história e o ângulo que a grande imprensa não deu. O fato publicado
@@ -27,7 +38,24 @@ Leitura na ordem abaixo. Os marcados com (feed) entram sozinhos na rodada 1 (`to
 `"conservador": true` em `config/fontes.json`, que sobe a pauta na lista); os outros são leitura manual, uma página
 por vez, com link (o robots.txt deles proíbe robôs ou bots de IA, ou não há feed).
 
-**EUA: notícia quente**
+**Brasil: notícia quente**
+
+| Portal | Bom para | Cuidado |
+|---|---|---|
+| Gazeta do Povo (manual: bloqueia bots de IA) | Liberdade religiosa, educação, família, STF; colunas de Franklin Ferreira, Polzonoff | Separe reportagem de coluna |
+| Revista Oeste, Crusoé, O Antagonista (feed parcial) | Política, Judiciário, liberdade de expressão | Política partidária pura não entra (seção 3) |
+| Pleno News, Guiame (feed) | Igrejas e pastores no Brasil, perseguição traduzida | Agregadores: quase nunca são a origem |
+| Jovem Pan (feed com filtro) | Repercussão no Congresso | — |
+
+**Rondônia e Porto Velho**
+
+| Fonte | Como acompanhar |
+|---|---|
+| Governo de Rondônia (feed, primária), Rondoniagora, G1 Rondônia, News Rondônia (feed) | rodada 1, com filtro de temas, leis, Assembleia, Câmara, prefeitura, Justiça, MP, Conselho Tutelar e segurança |
+| Assembleia Legislativa (ALE-RO), Prefeitura e Câmara de Porto Velho, TJ-RO, MP-RO, Arquidiocese de Porto Velho, convenções e igrejas evangélicas do estado | manual (sem feed ou robots proíbe): fontes primárias para confirmar |
+| Rondônia Ao Vivo, Rondônia Dinâmica, Tudo Rondônia | manual (sem feed válido ou bloqueio) |
+
+**EUA: só com impacto grande no Brasil, ou como gancho da trilha atemporal**
 
 | Portal | Bom para | Cuidado |
 |---|---|---|
@@ -41,15 +69,6 @@ por vez, com link (o robots.txt deles proíbe robôs ou bots de IA, ou não há 
 | Fox News, National Review, Washington Examiner, WORLD (feed) | Política e fé, com filtro de temas | — |
 | LifeSiteNews, The Free Press (manual) | Igreja Católica e cultura; debates de ideias | Os dois bloqueiam bots de IA: só leitura pontual |
 
-**Brasil: notícia quente**
-
-| Portal | Bom para | Cuidado |
-|---|---|---|
-| Gazeta do Povo (manual: bloqueia bots de IA) | Liberdade religiosa, educação, família, STF; colunas de Franklin Ferreira, Polzonoff | Separe reportagem de coluna |
-| Revista Oeste, Crusoé, O Antagonista (feed parcial) | Política, Judiciário, liberdade de expressão | Política partidária pura não entra (seção 3) |
-| Pleno News, Guiame (feed) | Igrejas e pastores no Brasil, perseguição traduzida | Agregadores: quase nunca são a origem |
-| Jovem Pan (feed com filtro) | Repercussão no Congresso | — |
-
 **Trilha atemporal**
 
 | Fonte | Bom para | Cuidado |
@@ -61,6 +80,7 @@ por vez, com link (o robots.txt deles proíbe robôs ou bots de IA, ou não há 
 
 ## 3. Eliminatórios: a pauta não entra se
 
+0. **É internacional sem impacto grande e direto no Brasil** e não é atemporal (seção 0).
 1. **Não tem fonte primária encontrável** (documento, decisão, vídeo, postagem da pessoa, nota oficial). Só o portal
    dizendo não basta.
 2. **É só opinião**, sem fato novo por trás (coluna, editorial, "o que eu acho de"). Opinião vira fonte de "O que
@@ -84,7 +104,7 @@ Cada linha é uma pergunta de sim ou não, para duas pessoas chegarem à mesma n
 |---|---|
 | Há **documento primário** com link na nota (processo, decisão, lei, relatório, vídeo integral)? | 2 |
 | É **decisão ou ato de quem tem poder** (tribunal, Congresso, governo, plebiscito, denominação grande) ou atinge milhares de pessoas? | 2 |
-| **Conecta ao Brasil**: o mesmo debate está aqui (projeto de lei, decisão do STF, caso parecido), ou tem efeito direto sobre brasileiros? | 2 |
+| **Proximidade**: é de Rondônia ou Porto Velho, ou é nacional? (Internacional só ganha estes pontos se o mesmo projeto, decisão ou caso estiver aqui ou afetar brasileiros diretamente) | 2 |
 | Tem **número forte com fonte** (pesquisa com ficha técnica, estatística oficial)? | 1 |
 | Está confirmada por **duas fontes independentes**? | 1 |
 
@@ -121,15 +141,16 @@ compartilha), em perguntas objetivas:
 | 8 a 10 | Só se faltar nota no dia, e nunca como manchete |
 | 0 a 7 | Não entra |
 
-**Mistura do dia** (3 notas na fase de teste): 2 quentes e 1 atemporal, pelo menos 1 com efeito no Brasil e no
-máximo 1 de política americana. Empate: a mais recente e com mais fontes primárias.
+**Mistura do dia** (5 notas, 2 com Opinião Forte): pelo menos 3 nacionais, 1 de Rondônia ou Porto Velho quando
+houver pauta que passe, no máximo 1 internacional (de preferência atemporal), e pelo menos 1 atemporal por dia. Empate: a mais recente e com mais fontes primárias.
 
-Na nota, o crivo fica registrado assim (`checar_noticia.py` confere a soma, os limites e o corte):
+Na nota, o crivo fica registrado assim (`checar_noticia.py` confere a soma, os limites, o corte e a abrangência):
 
 ```json
 "crivo": {
   "pontos": 15,
   "trilha": "quente",
+  "abrangencia": "nacional",
   "eixos": {"valor": 6, "viral": 5, "cristao": 4},
   "origem": {"nome": "The Christian Post", "url": "https://..."},
   "criterios": ["Documento primário (2)", "Ato de poder: plebiscito (2)", "..."]

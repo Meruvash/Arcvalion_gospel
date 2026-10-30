@@ -69,7 +69,7 @@ class Noticias(unittest.TestCase):
 
     def test_crivo_de_vinte_pontos(self):
         def crivo(**mud):
-            c = {"pontos": 15, "trilha": "quente", "eixos": {"valor": 6, "viral": 5, "cristao": 4},
+            c = {"pontos": 15, "trilha": "quente", "abrangencia": "nacional", "eixos": {"valor": 6, "viral": 5, "cristao": 4},
                  "origem": {"nome": "The Christian Post", "url": "https://www.christianpost.com/"}}
             c.update(mud)
             return self.erros(crivo=c)
@@ -78,8 +78,19 @@ class Noticias(unittest.TestCase):
         self.assertIn("de 0 a 7", crivo(pontos=17, eixos={"valor": 6, "viral": 8, "cristao": 3}))
         self.assertIn("abaixo do corte", crivo(pontos=7, eixos={"valor": 4, "viral": 2, "cristao": 1}))
         self.assertIn("trilha", crivo(trilha="morna"))
+        self.assertIn("abrangencia", crivo(abrangencia="europa"))
         self.assertIn("origem", crivo(origem={"nome": "Daily Wire"}))
         self.assertEqual(self.erros(crivo={"pontos": 5}), "")  # nota antiga, sem eixos, continua valendo
+
+    def test_opiniao_forte_dois_de_cinco(self):
+        dia = []
+        for i in range(5):
+            n = copy.deepcopy(self.n)
+            n["manchete"], n["crivo"]["pontos"], n["opiniao_forte"] = i == 0, 9 - i, i < 1
+            dia.append(n)
+        self.assertTrue(any("Opinião Forte" in e for e in checar_dia(dia)))
+        dia[1]["opiniao_forte"] = True
+        self.assertEqual(checar_dia(dia), [])
 
 
 class Estudos(unittest.TestCase):

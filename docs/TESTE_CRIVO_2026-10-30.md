@@ -121,3 +121,29 @@ Fontes consultadas no teste: [Christian Post](https://www.christianpost.com/news
 [Jayski](https://www.jayski.com/2026/10/22/joey-and-brittany-logano-finalize-adoption-of-two-children/),
 [IBDFAM sobre o PL 5167/2009](https://ibdfam.org.br/noticias/11238/Comiss%C3%A3o+da+C%C3%A2mara+aprova), feeds de
 30/10/2026 (Daily Wire, Daily Signal, Federalist, LifeSiteNews, Faithwire, Live Action, Gazeta do Povo).
+
+## 6. Reavaliação com a prioridade geográfica (mesma noite)
+
+O responsável editorial definiu a ordem: nacional, Rondônia, Porto Velho. Internacional só entra com impacto grande
+e direto no Brasil, de preferência atemporal (seção 0 do crivo). Com isso:
+
+- **Virgínia** perdeu os 2 pontos de proximidade: o debate existe aqui, mas não é o mesmo projeto nem o mesmo caso.
+  Ficou com 16 (valor 5, viral 6, cristã 5).
+- **Reforma** ganhou um gancho nacional, o PL 3183/2026 do Senado, que leva o Dia Nacional do Evangélico para
+  31 de outubro e o torna feriado. Ficou com 17 (valor 8, viral 5, cristã 4) e virou a manchete.
+- **Bispos dos EUA** ficou com 13 (valor 4, viral 5, cristã 4).
+
+As três foram publicadas a pedido do responsável editorial, com data de 29/10/2026 (horário de Brasília). Duas
+são internacionais: pela regra nova, a partir da próxima edição entra no máximo uma por dia.
+
+**Fontes de Rondônia testadas em 29/10/2026, por volta das 21h de Brasília:**
+
+- **Entram na coleta** (feed válido): Governo de Rondônia, Rondoniagora, G1 Rondônia e News Rondônia.
+- **Ficam para leitura manual:**
+  - Rondônia Ao Vivo: não tem feed;
+  - Rondônia Dinâmica: XML quebrado;
+  - Tudo Rondônia: bloqueia o acesso (403);
+  - Câmara de Porto Velho: proíbe robôs;
+  - ALE-RO, Prefeitura de Porto Velho, TJ-RO e MP-RO: o feed não responde.
+
+O coletor passou a aceitar feed com entidade de HTML e data em ISO, comuns nos portais regionais.

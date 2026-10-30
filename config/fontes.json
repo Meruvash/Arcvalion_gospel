@@ -1,5 +1,5 @@
 {
- "_ajuda": "Feeds da rodada 1 da rotina de notícias (tools/editorial/coletar.py), testados em 29/10/2026. 'filtro': 'temas' deixa passar só itens dos temas do portal (campo temas); um regex próprio também vale. 'tipo' primaria = a própria instituição fala; secundaria = outro veículo (serve de pista: a notícia precisa da fonte primária). Fontes que proíbem robôs ficam só para leitura pontual. 'nivel' A = fonte de referência, B = pista (ver docs/FONTES.md). 'conservador': true marca portal conservador de origem (docs/CRIVO_NOTICIAS.md): sobe na pauta, mas o fato continua precisando da fonte primária.",
+ "_ajuda": "Feeds da rodada 1 da rotina de notícias (tools/editorial/coletar.py), testados em 29/10/2026. 'filtro': 'temas' deixa passar só itens dos temas do portal (campo temas); um regex próprio também vale. 'tipo' primaria = a própria instituição fala; secundaria = outro veículo (serve de pista: a notícia precisa da fonte primária). Fontes que proíbem robôs ficam só para leitura pontual. 'nivel' A = fonte de referência, B = pista (ver docs/FONTES.md). 'conservador': true marca portal conservador de origem (docs/CRIVO_NOTICIAS.md): sobe na pauta, mas o fato continua precisando da fonte primária. 'abrangencia': nacional (padrão), rondonia, porto-velho ou internacional; a pauta prioriza nacional, depois Rondônia e Porto Velho, e o portal conservador internacional não ganha o ponto extra. Num 'filtro', a palavra 'temas' inclui o regex de temas.",
  "feeds": [
   {
    "nome": "Agência Senado",
@@ -54,21 +54,24 @@
    "editoria": "noticias-gospel",
    "tipo": "primaria",
    "filtro": "relig|christian|evangel|church|faith",
-   "nivel": "A"
+   "nivel": "A",
+   "abrangencia": "internacional"
   },
   {
    "nome": "Lifeway Research",
    "url": "https://news.lifeway.com/feed/",
    "editoria": "noticias-gospel",
    "tipo": "primaria",
-   "nivel": "A"
+   "nivel": "A",
+   "abrangencia": "internacional"
   },
   {
    "nome": "Christianity Today",
    "url": "https://www.christianitytoday.com/feed/",
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "abrangencia": "internacional"
   },
   {
    "nome": "Pleno News",
@@ -183,21 +186,24 @@
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
    "nivel": "B",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "Christian Headlines (Crosswalk)",
    "url": "https://www.crosswalk.com/headlines/rss.xml",
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "abrangencia": "internacional"
   },
   {
    "nome": "The Pillar",
    "url": "https://www.pillarcatholic.com/feed",
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
-   "nivel": "A"
+   "nivel": "A",
+   "abrangencia": "internacional"
   },
   {
    "nome": "National Catholic Register",
@@ -205,7 +211,8 @@
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
    "nivel": "B",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "WORLD",
@@ -213,35 +220,40 @@
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
    "nivel": "B",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "International Christian Concern",
    "url": "https://persecution.org/feed/",
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "abrangencia": "internacional"
   },
   {
    "nome": "Christian Daily International",
    "url": "https://www.christiandaily.com/rss.xml",
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "abrangencia": "internacional"
   },
   {
    "nome": "Forum 18",
    "url": "https://www.forum18.org/syndication/forum18.xml",
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
-   "nivel": "A"
+   "nivel": "A",
+   "abrangencia": "internacional"
   },
   {
    "nome": "USCIRF",
    "url": "https://www.uscirf.gov/rss.xml",
    "editoria": "noticias-gospel",
    "tipo": "primaria",
-   "nivel": "A"
+   "nivel": "A",
+   "abrangencia": "internacional"
   },
   {
    "nome": "ERLC (Southern Baptist Convention)",
@@ -249,7 +261,8 @@
    "editoria": "familia-e-valores",
    "tipo": "primaria",
    "nivel": "A",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "The Gospel Coalition",
@@ -257,7 +270,8 @@
    "editoria": "fe-e-biblia",
    "tipo": "secundaria",
    "nivel": "B",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "First Things",
@@ -265,14 +279,16 @@
    "editoria": "fe-e-biblia",
    "tipo": "secundaria",
    "nivel": "B",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "Relevant",
    "url": "https://relevantmagazine.com/feed/",
    "editoria": "musica-e-cultura",
    "tipo": "secundaria",
-   "nivel": "B"
+   "nivel": "B",
+   "abrangencia": "internacional"
   },
   {
    "nome": "Fox News",
@@ -281,7 +297,8 @@
    "tipo": "secundaria",
    "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|persecut|bible",
    "nivel": "B",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "National Review",
@@ -290,7 +307,8 @@
    "tipo": "secundaria",
    "filtro": "church|christian|evangelical|catholic|faith|relig|abortion|persecut",
    "nivel": "B",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "Washington Examiner",
@@ -299,7 +317,8 @@
    "tipo": "secundaria",
    "filtro": "church|christian|evangelical|catholic|faith|relig|abortion|persecut",
    "nivel": "B",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "The Dispatch",
@@ -308,7 +327,8 @@
    "tipo": "secundaria",
    "filtro": "church|christian|evangelical|catholic|faith|relig|abortion",
    "nivel": "B",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "The American Conservative",
@@ -317,7 +337,8 @@
    "tipo": "secundaria",
    "filtro": "church|christian|catholic|faith|relig",
    "nivel": "B",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "Brussels Signal",
@@ -326,7 +347,8 @@
    "tipo": "secundaria",
    "filtro": "church|christian|catholic|faith|relig|abortion|family|persecut",
    "nivel": "B",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "CGADB (Assembleias de Deus)",
@@ -341,7 +363,8 @@
    "editoria": "noticias-gospel",
    "tipo": "primaria",
    "filtro": "Brasil|brasileir|perseguição|liberdade religiosa|família",
-   "nivel": "A"
+   "nivel": "A",
+   "abrangencia": "internacional"
   },
   {
    "nome": "Gospel Prime",
@@ -371,7 +394,8 @@
    "tipo": "secundaria",
    "nivel": "C",
    "conservador": true,
-   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender"
+   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender",
+   "abrangencia": "internacional"
   },
   {
    "nome": "The Daily Signal (Heritage Foundation)",
@@ -380,7 +404,8 @@
    "tipo": "secundaria",
    "nivel": "B",
    "conservador": true,
-   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender"
+   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender",
+   "abrangencia": "internacional"
   },
   {
    "nome": "The Federalist",
@@ -389,7 +414,8 @@
    "tipo": "secundaria",
    "nivel": "C",
    "conservador": true,
-   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender"
+   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender",
+   "abrangencia": "internacional"
   },
   {
    "nome": "Washington Free Beacon",
@@ -398,7 +424,8 @@
    "tipo": "secundaria",
    "nivel": "B",
    "conservador": true,
-   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender"
+   "filtro": "church|christian|evangelical|catholic|faith|relig|pastor|abortion|pro-life|persecut|bible|family|parents|marriage|school|children|gender",
+   "abrangencia": "internacional"
   },
   {
    "nome": "Faithwire (CBN)",
@@ -406,7 +433,8 @@
    "editoria": "noticias-gospel",
    "tipo": "secundaria",
    "nivel": "C",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
   },
   {
    "nome": "Live Action News",
@@ -414,7 +442,44 @@
    "editoria": "familia-e-valores",
    "tipo": "secundaria",
    "nivel": "C",
-   "conservador": true
+   "conservador": true,
+   "abrangencia": "internacional"
+  },
+  {
+   "nome": "Governo de Rondônia",
+   "url": "https://rondonia.ro.gov.br/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "primaria",
+   "nivel": "A",
+   "abrangencia": "rondonia",
+   "filtro": "temas|lei\\b|projeto de lei|vereador|deputad|assembleia legislativa|câmara municipal|prefeit|tribunal de justiça|ministério público|conselho tutelar|drogas|violência|segurança pública"
+  },
+  {
+   "nome": "Rondoniagora",
+   "url": "https://www.rondoniagora.com/rss",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "nivel": "B",
+   "abrangencia": "rondonia",
+   "filtro": "temas|lei\\b|projeto de lei|vereador|deputad|assembleia legislativa|câmara municipal|prefeit|tribunal de justiça|ministério público|conselho tutelar|drogas|violência|segurança pública"
+  },
+  {
+   "nome": "G1 Rondônia",
+   "url": "https://g1.globo.com/rss/g1/ro/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "nivel": "B",
+   "abrangencia": "rondonia",
+   "filtro": "temas|lei\\b|projeto de lei|vereador|deputad|assembleia legislativa|câmara municipal|prefeit|tribunal de justiça|ministério público|conselho tutelar|drogas|violência|segurança pública"
+  },
+  {
+   "nome": "News Rondônia",
+   "url": "https://www.newsrondonia.com.br/feed/",
+   "editoria": "politica-e-sociedade",
+   "tipo": "secundaria",
+   "nivel": "B",
+   "abrangencia": "rondonia",
+   "filtro": "temas|lei\\b|projeto de lei|vereador|deputad|assembleia legislativa|câmara municipal|prefeit|tribunal de justiça|ministério público|conselho tutelar|drogas|violência|segurança pública"
   }
  ],
  "temas": "igreja|igrejas|evangélic|cristã|cristão|religios|liberdade religiosa|liberdade de expressão|família|famílias|criança|infância|adolesc|educação|escola|aborto|casamento|missões|missionári|pastor|bíblia|fé\\b|culto|templo|perseguição|gospel|church|christian|evangelical|catholic|faith|religio|pastor|abortion|pro-life|persecut|bible|family|marriage|parents|school|children"

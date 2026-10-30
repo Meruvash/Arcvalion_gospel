@@ -1,0 +1,133 @@
+{
+ "slug": "bispos-eua-discipulos-de-jesus-primeiro",
+ "data": "2026-10-29",
+ "categoria": "Notícias Gospel",
+ "status": "publicado",
+ "titulo": "Bispos dos EUA aos católicos antes da eleição: discípulos de Jesus primeiro, partido depois",
+ "lide": "Em vídeos divulgados em 26 de outubro pela Conferência dos Bispos Católicos dos Estados Unidos (USCCB), três arcebispos pediram aos católicos que formem a consciência pela fé antes de votar nas eleições de 3 de novembro. Para o arcebispo Alexander Sample, de Portland, o católico é discípulo de Jesus primeiro, americano depois e, só então, membro de partido.",
+ "corpo": [
+  "Sample, que preside o comitê de liberdade religiosa da USCCB, disse que nenhum partido americano reúne toda a doutrina social da Igreja. O arcebispo William Lori, de Baltimore, afirmou que a mensagem não é um guia de voto, e sim um convite ao discernimento em oração. Shelton Fabre, arcebispo de Louisville, pediu que o desejo de ser o melhor discípulo de Jesus fique no centro das decisões.",
+  "As eleições de meio de mandato renovam a Câmara dos Representantes e parte do Senado. A notícia foi publicada pela EWTN News e reproduzida no Brasil pela Gazeta do Povo."
+ ],
+ "fontes": [
+  {
+   "nome": "EWTN News: U.S. bishops urge Catholic voters: Start with your faith, discern your vote",
+   "url": "https://www.ewtnnews.com/world/us/u-s-bishops-urge-catholic-voters-start-with-your-faith",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "USCCB: vídeo do arcebispo Shelton Fabre (YouTube)",
+   "url": "https://www.youtube.com/watch?v=JkF-6xlibmk",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Gazeta do Povo: Bispos dos EUA pedem aos católicos: coloquem a fé antes da política",
+   "url": "https://www.gazetadopovo.com.br/mundo/bispos-dos-eua-pedem-aos-catolicos-coloquem-a-fe-antes-da-politica/",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "CNBB: Conselho Permanente reforça defesa da democracia e incentiva voto consciente no segundo turno",
+   "url": "https://www.cnbb.org.br/conselho-permanente-reforca-defesa-da-democracia-e-incentiva-voto-consciente-no-segundo-turno-das-eleicoes/",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Wikimedia Commons: arcebispo Alexander Sample (foto)",
+   "url": "https://commons.wikimedia.org/wiki/File:Alexander_King_Sample_10.jpg",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "imagem": {
+  "arquivo": "capas/bispos-eua-discipulos-de-jesus-primeiro.jpg",
+  "credito": "Foto: Lordship888, via Wikimedia Commons (CC BY-SA 4.0)",
+  "alt": "Retrato oficial do arcebispo Alexander Sample, de Portland, de clérgima, sobre fundo azul",
+  "licenca": "CC BY-SA 4.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Alexander_King_Sample_10.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Alexander_King_Sample_10.jpg"
+ },
+ "crivo": {
+  "pontos": 13,
+  "trilha": "quente",
+  "abrangencia": "internacional",
+  "eixos": {
+   "valor": 4,
+   "viral": 5,
+   "cristao": 4
+  },
+  "origem": {
+   "nome": "Gazeta do Povo",
+   "url": "https://www.gazetadopovo.com.br/mundo/bispos-dos-eua-pedem-aos-catolicos-coloquem-a-fe-antes-da-politica/"
+  },
+  "criterios": [
+   "Documento primário: vídeos da USCCB (2)",
+   "Conferência episcopal de um país inteiro (2)",
+   "Personagem: arcebispo Sample (1)",
+   "Contraria a narrativa de voto por partido (1)",
+   "Utilidade: como votar com consciência (1)",
+   "Gancho: eleição de 3/11 (1)",
+   "Cabe num cartão (1)",
+   "Filipenses 3.20 (2)",
+   "Pede resposta do cristão (1)",
+   "Rende estudo (1)"
+  ]
+ },
+ "selo": "Para refletir",
+ "por_que_importa": "A frase serve para cristão de qualquer país, inclusive o Brasil, que acabou de votar: o partido não é a igreja. Quem põe Cristo primeiro não precisa concordar com tudo de um lado para votar nele, nem demonizar quem votou diferente. Fé que só aparece em ano de eleição vira torcida.",
+ "numeros": [
+  [
+   "3",
+   "arcebispos gravaram as mensagens da conferência",
+   "EWTN News"
+  ],
+  [
+   "26/10",
+   "dia em que a USCCB divulgou os vídeos",
+   "EWTN News"
+  ],
+  [
+   "3/11",
+   "data das eleições de meio de mandato nos EUA",
+   "EWTN News"
+  ]
+ ],
+ "no_brasil": "No Brasil, o Conselho Permanente da CNBB divulgou em 21 de outubro uma mensagem sobre o segundo turno das eleições presidenciais, pedindo que os eleitores avaliassem a trajetória e os compromissos dos candidatos e respeitassem o resultado das urnas.",
+ "critica": [
+  {
+   "fonte": "Arcebispo Alexander Sample, de Portland, à USCCB (tradução livre)",
+   "texto": "Comece pela sua relação com Jesus. Comece pela sua fé.",
+   "citacao": true,
+   "url": "https://www.ewtnnews.com/world/us/u-s-bishops-urge-catholic-voters-start-with-your-faith"
+  },
+  {
+   "fonte": "Arcebispo William Lori, de Baltimore, à USCCB (tradução livre)",
+   "texto": "Não é um guia de voto.",
+   "citacao": true,
+   "url": "https://www.ewtnnews.com/world/us/u-s-bishops-urge-catholic-voters-start-with-your-faith"
+  }
+ ],
+ "para_quem": [
+  "Para quem saiu da eleição brasileira brigado com parente ou irmão de igreja: a fé vem antes do partido, e a comunhão também",
+  "Para quem lidera grupos na igreja: a pergunta “o que a fé me pede aqui?” vale para todo voto, inclusive os de 2028"
+ ],
+ "nao_e_para": [
+  "A mensagem é da Igreja Católica dos EUA e não fala do Brasil",
+  "Os bispos não indicaram candidato nem partido"
+ ],
+ "veredito": "“A nossa cidadania, porém, está nos céus” (Filipenses 3.20, NVI). Votar é dever, mas o voto não salva ninguém. Cristão que põe Jesus primeiro vota com consciência e continua irmão depois da apuração.",
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, tradução, organização dos fatos e primeira versão do texto"
+ },
+ "editora": "USCCB",
+ "manchete": false,
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-29T21:40:01-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-29T21:40:01-03:00"
+}
