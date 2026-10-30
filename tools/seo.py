@@ -16,7 +16,7 @@ REDACAO = {"@type": "Organization", "name": "Redação O Paladino", "url": f"{SI
 def organizacao():
     return {
         "@type": "Organization", "@id": ORG_ID, "name": "O Paladino", "url": f"{SITE}/",
-        "logo": {"@type": "ImageObject", "url": f"{SITE}/marca/o-paladino.webp", "width": 318, "height": 254},
+        "logo": {"@type": "ImageObject", "url": f"{SITE}/marca/o-paladino.webp", "width": 320, "height": 320},
         "sameAs": [],
     }
 

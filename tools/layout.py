@@ -135,7 +135,7 @@ def cabecalho(pre, atual="", sub=False):
     casa = f'<li><a class="casa" href="{pre or './'}" aria-label="Página inicial"{" aria-current=\"page\"" if atual == "Início" else ""}>{icone("casa")}</a></li>'
     nav = casa + "".join(f'<li><a href="{pre}{h}"{f" aria-current=\"{marca}\"" if t == atual else ""}>{t}</a></li>' for h, t in SECOES)
     return f"""<header class="bar" id="topo"><div class="in">
- <a class="marca" href="{pre or './'}"><img src="{pre}marca/o-paladino.webp" width="318" height="254" alt="O Paladino: página inicial"></a>
+ <a class="marca" href="{pre or './'}"><img src="{pre}marca/o-paladino.webp" width="320" height="320" alt="O Paladino: página inicial"></a>
  {f'<a class="ig" href="{INSTAGRAM}" target="_blank" rel="noopener" aria-label="Instagram">{icone("insta")}<span>Instagram</span></a>' if INSTAGRAM else '<span class="ig"></span>'}
  {f'<a class="zap-mini" href="{WHATSAPP}" target="_blank" rel="noopener" aria-label="Grupo do WhatsApp">{icone("zap")}<span>Grupo do WhatsApp</span></a>' if WHATSAPP else ''}
  <button type="button" class="busca-btn" aria-label="Buscar no site" aria-haspopup="dialog" aria-keyshortcuts="/ Control+K" hidden>{icone("busca")}</button>
