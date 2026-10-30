@@ -17,6 +17,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from layout import CSS_BUSCA, barra_leitura, cabecalho, rodape  # noqa: E402
 from endereco import SITE  # noqa: E402
+import seo  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ARQ = ROOT / "consulta" / "index.html"
@@ -95,6 +96,9 @@ def build():
     antigo = re.search(r'<link rel="canonical" href="(https?://.*?)/consulta/">', novo)
     if antigo and antigo.group(1) != SITE:
         novo = novo.replace(antigo.group(1) + "/", SITE + "/")
+    # medidor de visitas (seo.ANALYTICS) entre marcadores, como nas outras páginas: no fim do <body>
+    novo = re.sub(r'(?:<!--medidor-->.*?<!--/medidor-->\n)?</body>', lambda _: (f"<!--medidor-->{seo.ANALYTICS}<!--/medidor-->\n" if seo.ANALYTICS else "") + "</body>",
+                  novo, count=1, flags=re.S)
     t = total(nomes)
     novo = re.sub(r'<span id="count" class="count">[^<]*</span>', f'<span id="count" class="count">{t}</span>', novo, count=1)
     if novo != s:

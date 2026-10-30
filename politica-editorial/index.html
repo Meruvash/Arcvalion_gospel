@@ -296,7 +296,9 @@ footer .in{display:flex;flex-wrap:wrap;gap:10px 20px;padding-top:18px;padding-bo
  <section class="bloco"><h2>Imagens</h2><div class="corpo">
   <p>Usamos fotos oficiais de órgãos públicos e de divulgação, imagens de licença livre ou fotos nossas, sempre com crédito. Não usamos imagens geradas por inteligência artificial nas matérias.</p>
  </div></section>
-
+ <section class="bloco"><h2>Medição de visitas</h2><div class="corpo">
+  <p>Contamos as visitas com o Cloudflare Web Analytics, que não usa cookies e não identifica quem visita o site. Os números servem só para saber quais páginas são lidas e melhorar o conteúdo.</p>
+ </div></section>
 
  <section class="bloco"><h2>Correções</h2><div class="corpo">
   <p>Encontrou um erro? Escreva para <a href="mailto:andersonrgk@gmail.com">andersonrgk@gmail.com</a>, com o link da página e a fonte da informação correta. Erros confirmados são corrigidos na própria página.</p>
@@ -329,6 +331,6 @@ document.addEventListener('click',async ev=>{const c=ev.target.closest('.cpw');i
 const poe=()=>{const on=scrollY>500&&!vis.size;l.classList.toggle('fora',!on);l.inert=!on;document.body.classList.toggle('lt-on',on)};
 const io=new IntersectionObserver(es=>{es.forEach(e=>e.isIntersecting?vis.add(e.target):vis.delete(e.target));poe()});
 document.querySelectorAll('.convite,footer').forEach(x=>io.observe(x));addEventListener('scroll',poe,{passive:true});poe()})()</script>
-
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e25f4ade660f4bd4a0d58caefc731448"}'></script>
 </body>
 </html>

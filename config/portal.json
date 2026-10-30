@@ -22,7 +22,7 @@
  },
  "analytics": {
   "_ajuda": "cloudflare_token: medição sem cookies (carrega sempre). ga4_id: Google Analytics 4, só carrega depois do consentimento de medição.",
-  "cloudflare_token": "",
+  "cloudflare_token": "e25f4ade660f4bd4a0d58caefc731448",
   "ga4_id": ""
  },
  "verificacao": {"google": "", "bing": ""},
