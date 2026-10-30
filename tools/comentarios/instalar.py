@@ -65,10 +65,10 @@ def main():
 
     # 2. verificador anti-robô (Turnstile), só para o domínio do site
     widgets = cf("GET", f"accounts/{CONTA}/challenges/widgets", token)["result"]
-    w = next((x for x in widgets if x["name"] == "Portal Cristão comentários"), None)
+    w = next((x for x in widgets if x["name"] == "O Paladino comentários"), None)
     if not w:
         w = cf("POST", f"accounts/{CONTA}/challenges/widgets", token,
-               {"name": "Portal Cristão comentários", "domains": ["PREENCHER_DOMINIO"], "mode": "managed"})["result"]
+               {"name": "O Paladino comentários", "domains": ["PREENCHER_DOMINIO"], "mode": "managed"})["result"]
     detalhe = cf("GET", f"accounts/{CONTA}/challenges/widgets/{w['sitekey']}", token)["result"]
     print("ok Turnstile", w["sitekey"])
 

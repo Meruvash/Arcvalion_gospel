@@ -1,4 +1,4 @@
-# Portal Cristão
+# O Paladino
 
 Portal jornalístico cristão e conservador: notícias, política e sociedade, família, fé e Bíblia, economia,
 cultura cristã e eventos. *Jornalismo, fé e sociedade. Informação com responsabilidade e uma perspectiva cristã

@@ -253,13 +253,13 @@ def build():
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<title>Estudos bíblicos | Portal Cristão</title>
+<title>Estudos bíblicos | O Paladino</title>
 <meta name="description" content="Estudos bíblicos com fontes: contexto, estrutura, aplicação e leituras equivocadas de cada passagem.">
 <link rel="canonical" href="{SITE}/estudos/">
 <meta name="robots" content="max-image-preview:large">
-<meta property="og:site_name" content="Portal Cristão">
+<meta property="og:site_name" content="O Paladino">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:title" content="Resenhas Portal Cristão">
+<meta property="og:title" content="Resenhas O Paladino">
 <meta property="og:description" content="Resenhas de jogos de tabuleiro premiados, com fontes: o que funciona, pontos de atenção e para quem é cada jogo.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{SITE}/estudos/">

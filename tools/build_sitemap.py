@@ -23,7 +23,7 @@ ESTADO = ROOT / "conteudo" / "sitemap_estado.json"
 CANONICAL = re.compile(r'<link rel="canonical" href="([^"]+)">')
 NOINDEX = re.compile(r'<meta name="robots" content="[^"]*noindex', re.I)
 
-ROBOTS = f"""# Portal Cristão: todos os robôs de busca e de IA são bem-vindos.
+ROBOTS = f"""# O Paladino: todos os robôs de busca e de IA são bem-vindos.
 User-agent: *
 Allow: /
 
@@ -175,7 +175,7 @@ def build():
         if n.get("status", "publicado") == "publicado" and n.get("publicado_em") and url in novo and datetime.fromisoformat(n["publicado_em"]) >= limite:
             recentes.append((n["publicado_em"], url, n["titulo"]))
     noticias = "".join(
-        f"""  <url><loc>{escape(u)}</loc><news:news><news:publication><news:name>Portal Cristão</news:name><news:language>pt</news:language></news:publication>"""
+        f"""  <url><loc>{escape(u)}</loc><news:news><news:publication><news:name>O Paladino</news:name><news:language>pt</news:language></news:publication>"""
         f"""<news:publication_date>{pub}</news:publication_date><news:title>{escape(t)}</news:title></news:news></url>\n"""
         for pub, u, t in sorted(recentes, reverse=True))
     (ROOT / "sitemap-noticias.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '

@@ -1,4 +1,4 @@
-# Portal Cristão: todos os robôs de busca e de IA são bem-vindos.
+# O Paladino: todos os robôs de busca e de IA são bem-vindos.
 User-agent: *
 Allow: /
 

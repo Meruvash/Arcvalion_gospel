@@ -1,4 +1,4 @@
-"""Auditoria de isolamento: o Portal Cristão não pode depender nem carregar nada do Elite Boardgamers.
+"""Auditoria de isolamento: O Paladino não pode depender nem carregar nada do Elite Boardgamers.
 
 Uso: python3 tools/checar_isolamento.py [--original /caminho/do/repo/original]
 Falha (código 1) se encontrar, no código, na configuração, no conteúdo ou no site gerado:

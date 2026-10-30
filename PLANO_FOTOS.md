@@ -43,7 +43,7 @@ Categorias com fotos de usuários em CC0 ou CC BY-SA: Terraforming Mars (8), End
 >
 > Olá, equipe [EDITORA]!
 >
-> Sou [NOME], do Golden Geek (https://meruvash.github.io/Arcvalion_gospel/), site de resenhas de jogos premiados ligado à comunidade Portal Cristão ([N] pessoas no grupo do WhatsApp, [perfil] no Instagram). Publicamos [N] resenhas por semana, com infográfico para o Instagram.
+> Sou [NOME], do Golden Geek (https://meruvash.github.io/Arcvalion_gospel/), site de resenhas de jogos premiados ligado à comunidade O Paladino ([N] pessoas no grupo do WhatsApp, [perfil] no Instagram). Publicamos [N] resenhas por semana, com infográfico para o Instagram.
 >
 > Queremos resenhar [JOGO], que ganhou [PRÊMIO]. Vocês teriam uma cópia para review? Se preferirem, pagamos o frete. Também aceitamos o kit de imprensa com fotos oficiais, sempre com crédito à editora.
 >
@@ -59,7 +59,7 @@ Guarde o print da resposta e registre no `fontes.json` da foto: `"credito": "Fot
 
 ### Chamada no grupo
 
-> 📸 Chamada de fotos! A próxima resenha do Golden Geek é de [JOGO]. Tem foto da sua mesa? Manda aqui (de cima, com o jogo montado, sem gente na frente). A melhor vai para o site com o seu nome. Ao enviar, você autoriza o uso na resenha e no Instagram da Portal Cristão, com crédito.
+> 📸 Chamada de fotos! A próxima resenha do Golden Geek é de [JOGO]. Tem foto da sua mesa? Manda aqui (de cima, com o jogo montado, sem gente na frente). A melhor vai para o site com o seu nome. Ao enviar, você autoriza o uso na resenha e no Instagram de O Paladino, com crédito.
 
 ## Guia rápido de foto própria
 

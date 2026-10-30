@@ -379,7 +379,7 @@ def pagina(titulo, descricao, url, imagem, pre, corpo, tipo="website", head_extr
 <title>{e(titulo)}</title>
 <meta name="description" content="{e(descricao)}">
 {f'<link rel="canonical" href="{url}">' + chr(10) + '<meta name="robots" content="max-image-preview:large">' if url else '<meta name="robots" content="noindex">'}
-<meta property="og:site_name" content="Portal Cristão">
+<meta property="og:site_name" content="O Paladino">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="{e(titulo)}">
 <meta property="og:description" content="{e(descricao)}">
@@ -416,10 +416,10 @@ def build_politica():
 <main id="conteudo" class="in"><div class="nota">
  <article class="bloco">
   <h1>Política editorial</h1>
-  <p class="lide">Como a Portal Cristão escolhe, escreve, confere e corrige o que publica.</p>
+  <p class="lide">Como O Paladino escolhe, escreve, confere e corrige o que publica.</p>
  </article>
  <section class="bloco"><h2>Quem responde pelo site</h2><div class="corpo">
-  <p><b>Anderson Pelicioni de Castro</b>, advogado, é o responsável editorial do Portal Cristão. Ele responde pelo que é publicado e confere o site todos os dias.</p>
+  <p><b>Anderson Pelicioni de Castro</b>, advogado, é o responsável editorial de O Paladino. Ele responde pelo que é publicado e confere o site todos os dias.</p>
  </div></section>
  <section class="bloco"><h2>Como o conteúdo é produzido</h2><div class="corpo">
   <p>Notícias e estudos bíblicos são redigidos com apoio de ferramentas de inteligência artificial, sempre a partir das fontes citadas em cada página. Nenhum texto vai ao ar sem fontes, e todo número, nome ou data precisa estar numa delas. O texto só é publicado depois de passar pela checagem automática do padrão editorial (fontes, foto com licença, separação entre fato e opinião). O responsável editorial confere o site todos os dias e corrige o que for preciso.</p>
@@ -452,7 +452,7 @@ def build_politica():
                     seo.trilha(("Início", f"{SITE}/"), ("Política editorial", url)))
     out = ROOT / "politica-editorial" / "index.html"
     out.parent.mkdir(exist_ok=True)
-    out.write_text(pagina("Política editorial | Portal Cristão", "Quem responde pela Portal Cristão e como notícias e resenhas são escolhidas, escritas, conferidas e corrigidas.",
+    out.write_text(pagina("Política editorial | O Paladino", "Quem responde por O Paladino e como notícias e resenhas são escolhidas, escritas, conferidas e corrigidas.",
                           url, capa_secao("noticias"), pre, corpo, jsonld=ld), encoding="utf-8")
 
 
@@ -530,7 +530,7 @@ def build_home():
     m = max((n for n in ns if n.get("manchete") and n.get("manchete_aprovada", True)), key=lambda n: n["data"], default=None) or (ns[0] if ns else None)
     resto = [n for n in ns if n is not m]
     # sem notícia publicada ainda (tudo em revisão): no lugar da manchete, a apresentação do portal
-    manchete = bloco_manchete(m, pre) if m else ('<article class="bloco manchete"><div class="txt"><span class="kick">Portal Cristão</span>'
+    manchete = bloco_manchete(m, pre) if m else ('<article class="bloco manchete"><div class="txt"><span class="kick">O Paladino</span>'
                                                   '<h1 class="m-tit">Jornalismo, fé e sociedade</h1><p>As primeiras notícias entram aqui assim que forem publicadas.</p></div></article>')
     def item(n, pre):
         return f"""<li data-cat="{CATEGORIAS.get(n['categoria'], 'outras')}"><a href="noticias/{n['slug']}/"{'' if n.get("imagem") else ' class="sem-img"'}>{f'<img src="{miniatura(ROOT / "noticias" / n["imagem"]["arquivo"], pre)}" width="76" height="76" alt="" loading="lazy">' if n.get("imagem") else f'<span class="sem">{icone("dica")}</span>'}
@@ -572,7 +572,7 @@ def build_home():
 {rodape(c_pre)}"""
             destino_c = pasta_cat / CATEGORIAS[cat] / "index.html"
             destino_c.parent.mkdir(parents=True, exist_ok=True)
-            destino_c.write_text(pagina(f"{cat}: notícias | Portal Cristão", f"Notícias da editoria {cat}, com fonte, data e opinião.", url_c,
+            destino_c.write_text(pagina(f"{cat}: notícias | O Paladino", f"Notícias da editoria {cat}, com fonte, data e opinião.", url_c,
                                         capa_secao("noticias"), c_pre, corpo_c,
                                         jsonld=seo.script(seo.trilha(("Início", f"{SITE}/"), ("Notícias", f"{SITE}/noticias/"), (cat, url_c))))
                                  , encoding="utf-8")
@@ -608,7 +608,7 @@ def build_home():
         trilha_ld = [("Início", f"{SITE}/"), ("Notícias", f"{SITE}/noticias/")] + ([] if num == 1 else [(f"Página {num}", url)])
         destino = ROOT / "noticias" / ("index.html" if num == 1 else f"pagina/{num}/index.html")
         destino.parent.mkdir(parents=True, exist_ok=True)
-        destino.write_text(pagina(f"Notícias{sufixo} | Portal Cristão", f"Notícias do Portal Cristão, com fonte, data e opinião{sufixo}.", url,
+        destino.write_text(pagina(f"Notícias{sufixo} | O Paladino", f"Notícias de O Paladino, com fonte, data e opinião{sufixo}.", url,
                                   capa_secao("noticias"), p_pre, corpo_arq, jsonld=seo.script(seo.trilha(*trilha_ld))), encoding="utf-8")
     # cada item dos Destaques tem de levar a uma nota que trate do jogo já no título
     for j in home["em_alta"]:
@@ -660,12 +660,12 @@ def build_home():
   {f'<section class="bloco financ"><h2>Missões e campanhas</h2><ul>{financ}</ul></section>' if financ else ''}
   {f'<section class="bloco resenhas"><h2>Últimos estudos bíblicos <a href="estudos/">Ver todos</a></h2><ul class="res">{res}</ul></section>' if res else ''}
   <section class="bloco comunidade"><p>Notícias com fonte e data e estudos bíblicos, todos os dias. Entre no grupo para receber as novidades.</p>
-   <div class="acoes">{f'<a class="btn zap" href="{WHATSAPP}" target="_blank" rel="noopener">{icone("zap")}Entrar no grupo do WhatsApp</a>' if WHATSAPP else ''}{f'<a class="btn ig" href="{INSTAGRAM}" target="_blank" rel="noopener">{icone("insta")}Instagram</a>' if INSTAGRAM else ''}{botao_compartilhar("Portal Cristão: jornalismo, fé e sociedade. Notícias com fonte e estudos bíblicos.", f"{SITE}/", "Compartilhar o site")}</div></section>
+   <div class="acoes">{f'<a class="btn zap" href="{WHATSAPP}" target="_blank" rel="noopener">{icone("zap")}Entrar no grupo do WhatsApp</a>' if WHATSAPP else ''}{f'<a class="btn ig" href="{INSTAGRAM}" target="_blank" rel="noopener">{icone("insta")}Instagram</a>' if INSTAGRAM else ''}{botao_compartilhar("O Paladino: jornalismo, fé e sociedade. Notícias com fonte e estudos bíblicos.", f"{SITE}/", "Compartilhar o site")}</div></section>
  </div>
 </main>
 {rodape(pre)}"""
-    titulo = "Portal Cristão: jornalismo, fé e sociedade"
-    descr = f"{m['titulo'] if m else 'Portal Cristão'}. Notícias com fonte e data, estudos bíblicos e a agenda cristã, com uma perspectiva cristã sobre o Brasil e o mundo."
+    titulo = "O Paladino: jornalismo, fé e sociedade"
+    descr = f"{m['titulo'] if m else 'O Paladino'}. Notícias com fonte e data, estudos bíblicos e a agenda cristã, com uma perspectiva cristã sobre o Brasil e o mundo."
     # 404: servida pelo GitHub Pages em qualquer profundidade, por isso os caminhos são absolutos ("/")
     RAIZ = urlparse(SITE).path.rstrip("/") + "/"  # o site mora em /Arcvalion_gospel/ no GitHub Pages
     corpo_404 = f"""{cabecalho(RAIZ, "")}
@@ -675,7 +675,7 @@ def build_home():
  <div class="jogos"><a href="{RAIZ}">Notícias de hoje</a><a href="{RAIZ}estudos/">Estudos bíblicos</a><a href="{RAIZ}consulta/">Livros da Bíblia</a></div>
 </section></div></main>
 {rodape(RAIZ, "")}"""
-    (ROOT / "404.html").write_text(pagina("Página não encontrada | Portal Cristão", "Página não encontrada.", "", capa_secao("noticias"), RAIZ, corpo_404), encoding="utf-8")
+    (ROOT / "404.html").write_text(pagina("Página não encontrada | O Paladino", "Página não encontrada.", "", capa_secao("noticias"), RAIZ, corpo_404), encoding="utf-8")
     build_politica()
     (ROOT / "index.html").write_text(pagina(titulo, descr, f"{SITE}/", (url_cartao(f"noticia-{m['slug']}") or f"{SITE}/{img_nota(m, '')}") if m else capa_secao("noticias"), pre, corpo, jsonld=seo.script(seo.site())), encoding="utf-8")
     return ns
@@ -700,7 +700,7 @@ def build_nota(n, previa=False):
     """previa=True: nota em revisão, gerada em previa/noticias/<slug>/ fora do índice, com aviso no topo."""
     pre = "../../../" if previa else "../../"
     url = f"{SITE}/noticias/{n['slug']}/"
-    texto_cp = f"{n['titulo']} (via Portal Cristão)"
+    texto_cp = f"{n['titulo']} (via O Paladino)"
     fig = (f'<figure><img src="{pre}noticias/{n["imagem"]["arquivo"]}" srcset="{srcset(ROOT / "noticias" / n["imagem"]["arquivo"], pre)}" sizes="(min-width: 760px) 720px, 100vw" alt="{e(n["titulo"])}"><figcaption class="credito">{e(n["imagem"]["credito"])}</figcaption></figure>'
            if n.get("imagem") else "")
     jogos = "".join(f'<a href="{pre}{j["resenha"]}/">Resenha: {e(j["nome"])}</a>' for j in n.get("jogos", []))
@@ -721,10 +721,10 @@ def build_nota(n, previa=False):
  <article class="bloco">
   <span class="cat {CAT_CLASSE.get(n['categoria'], 'mercado')}">{e(n['categoria'])}</span> <span class="selo {sc}">{e(n['selo'])}</span>
   <h1>{e(n['titulo'])}</h1>
-  <p class="meta"><time datetime="{n['publicado_em']}">{data_longa(n['data'])}</time> · Redação Portal Cristão</p>
+  <p class="meta"><time datetime="{n['publicado_em']}">{data_longa(n['data'])}</time> · Redação O Paladino</p>
  </article>
  <div class="bloco abre">{fig}<p class="lide">{e(n['lide'])}</p></div>
- <section class="bloco importa"><h2>Por que importa</h2><p>{e(n['por_que_importa'])}</p><p class="assina">Análise Portal Cristão</p></section>
+ <section class="bloco importa"><h2>Por que importa</h2><p>{e(n['por_que_importa'])}</p><p class="assina">Análise O Paladino</p></section>
  <section class="bloco"><h2>Em números</h2><ul class="nums">{numeros}</ul></section>
  <section class="bloco"><h2>Contexto</h2><div class="corpo">{"".join(f"<p>{e(p)}</p>" for p in n['corpo'])}</div></section>
  <section class="bloco brasil-n"><h2>No Brasil</h2><p>{e(n['no_brasil'])}</p></section>
@@ -758,7 +758,7 @@ def build_nota(n, previa=False):
                     seo.trilha(("Início", f"{SITE}/"), ("Notícias", f"{SITE}/noticias/"), (n["titulo"], url)))
     # título da busca: titulo_seo (opcional, aprovado pela edição) ou o título; o sufixo da marca só cabe em título curto
     t_busca = n.get("titulo_seo") or n["titulo"]
-    t_busca = t_busca if len(t_busca) > 42 else f"{t_busca} | Portal Cristão"
+    t_busca = t_busca if len(t_busca) > 42 else f"{t_busca} | O Paladino"
     # prévia do WhatsApp: o cartão largo de tools/og.py; o JSON-LD continua com a foto da nota
     out.write_text(pagina(t_busca, n["lide"], "" if previa else url, url_cartao(f"noticia-{n['slug']}") or img, pre, corpo, "article",
                           f'\n<meta property="article:published_time" content="{n["publicado_em"]}">', ld), encoding="utf-8")

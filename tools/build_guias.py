@@ -224,7 +224,7 @@ def build_guia(perfil, todas):
                     seo.trilha(("Início", f"{SITE}/"), ("Jogos de tabuleiro", f"{SITE}/{BASE}/"), (titulo, url)))
     descr = f"{titulo}: {len(jogos)} jogos premiados com resenha completa, escolhidos por critério: {criterio}."
     destino.mkdir(parents=True, exist_ok=True)
-    (destino / "index.html").write_text(pagina(f"{titulo} | Portal Cristão" if len(titulo) <= 42 else titulo, descr, url,
+    (destino / "index.html").write_text(pagina(f"{titulo} | O Paladino" if len(titulo) <= 42 else titulo, descr, url,
                                                f"{SITE}/{jogos[0][0]['slug']}/capa.jpg", pre, corpo, head_extra="\n" + CSS_GUIA, jsonld=ld),
                                         encoding="utf-8")
     return url

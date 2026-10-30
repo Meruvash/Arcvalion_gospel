@@ -28,7 +28,7 @@ p{font-size:25px;line-height:1.35;color:#cdd3de}
 <div class="grid">${capas.map(c => `<img src="data:image/jpeg;base64,${fs.readFileSync(c).toString('base64')}">`).join('')}</div>
 <div class="fade"></div>
 <div class="txt">
- <div class="brand">✝ PORTAL CRISTÃO</div>
+ <div class="brand">✝ O PALADINO</div>
  <h1>Resenhas</h1>
  <p>Só jogos premiados. O que funciona, pontos de atenção e para quem é.</p>
  <div class="n">${n} resenhas publicadas</div>

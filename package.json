@@ -1,5 +1,5 @@
 {
-  "name": "portal-cristao-ferramentas",
+  "name": "o-paladino-ferramentas",
   "private": true,
   "description": "Ferramentas de build (cartões de prévia, peças da marca) e testes de UX. O site em si não usa Node.",
   "scripts": {

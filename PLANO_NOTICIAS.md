@@ -23,7 +23,7 @@ Ordem no celular, de cima para baixo:
 4. **Em alta**: 5 jogos com capa, cada um com a notícia ou resenha que o colocou ali.
 5. **Financiamentos**: campanhas ativas que passam no crivo, com meta, valor arrecadado e prazo.
 6. **Agenda**: próximos prêmios e eventos, com data.
-7. **Últimas resenhas**: os 4 cartões mais recentes da Portal Cristão.
+7. **Últimas resenhas**: os 4 cartões mais recentes de O Paladino.
 8. **Comunidade**: grupo do WhatsApp e Instagram.
 
 A **Consulta Golden Geek**, que hoje ocupa a página inicial, vai para `meruvash.github.io/Arcvalion_gospel/consulta/`, com link no menu. Cada notícia ganha página própria em `/noticias/<data>-<assunto>/`, com prévia de WhatsApp, e há um arquivo em `/noticias/`.
@@ -96,7 +96,7 @@ O Brasil não tem um portal jornalístico dedicado só a jogos de tabuleiro. As 
 **Para fortalecer a cobertura nacional**
 1. **Chave da API da Ludopedia** (pedido seu): resolve o bloco "Chegando ao Brasil" com dados oficiais, sem raspagem.
 2. **Newsletter das editoras** num e-mail do projeto (Galápagos, MeepleBR, Grok, Conclave, Devir, PaperGames). Os anúncios chegam primeiro ali.
-3. **Lista de imprensa**: pedir às editoras para entrar na lista de divulgação da Portal Cristão (mesmo pedido do kit de fotos).
+3. **Lista de imprensa**: pedir às editoras para entrar na lista de divulgação de O Paladino (mesmo pedido do kit de fotos).
 4. **Comunidade**: no grupo do WhatsApp, um canal para leitores mandarem anúncios. O crivo exige a fonte primária antes de publicar.
 
 ## 4. Crivo editorial das notícias

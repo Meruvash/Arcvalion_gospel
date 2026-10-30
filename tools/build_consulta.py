@@ -79,7 +79,7 @@ def build():
                   lambda _: cabecalho("../", "Livros da Bíblia"), novo, count=1, flags=re.S)
     novo = re.sub(r'(?:<style id="moldura">.*?</style>\n)?</head>', lambda _: f'<style id="moldura">{CSS_BUSCA}</style>\n</head>', novo, count=1, flags=re.S)
     # compartilhar a lista do jeito que está filtrada (o endereço guarda ano, categoria e pesquisa)
-    cp = botao_compartilhar("Livros da Bíblia no Portal Cristão", "", "Compartilhar", mini=True)
+    cp = botao_compartilhar("Livros da Bíblia em O Paladino", "", "Compartilhar", mini=True)
     novo = re.sub(r'<!--cp-->.*?<!--/cp-->', lambda _: f'<!--cp-->{cp}<!--/cp-->', novo, count=1, flags=re.S)
     # rodapé + barra de compartilhar do pé da tela (entre marcadores, para ser trocada inteira na próxima geração)
     novo = re.sub(r'<footer>.*?</footer>(?:\s*<!--lt-->.*?<!--/lt-->)?', lambda _: rodape("../", "\n<!--lt-->" + barra_leitura(interacao=False) + "<!--/lt-->"),

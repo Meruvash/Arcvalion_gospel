@@ -32,13 +32,13 @@ def nome_br(c):
 
 def texto_cp(c):
     """Texto que acompanha o link quando alguém compartilha a resenha."""
-    return f"{nome_br(c)}: {c['tagline']} Resenha da Portal Cristão"
+    return f"{nome_br(c)}: {c['tagline']} Resenha de O Paladino"
 
 
 def titulo_busca(c):
     """Título do Google e da prévia: titulo_busca (ângulo próprio da resenha) ou, nas antigas, o og_titulo."""
-    t = c.get("titulo_busca") or c["og_titulo"].replace(" Resenha Portal Cristão", " Resenha")
-    return t if len(t) > 42 else f"{t} | Portal Cristão"
+    t = c.get("titulo_busca") or c["og_titulo"].replace(" Resenha O Paladino", " Resenha")
+    return t if len(t) > 42 else f"{t} | O Paladino"
 
 
 def data_longa(iso):
@@ -154,7 +154,7 @@ def mais_resenhas(c, n=6):
             break
     return (
         f'<section class="bloco claro mais-res" id="mais-resenhas"><h2>Continue lendo</h2>'
-        f'<p class="sub">Outras resenhas de jogos premiados da Portal Cristão.</p><ul>{"".join(cards)}</ul>'
+        f'<p class="sub">Outras resenhas de jogos premiados de O Paladino.</p><ul>{"".join(cards)}</ul>'
         f'<a class="ver-todas" href="../estudos/">Ver todas as {total} resenhas</a></section>'
     )
 
@@ -317,7 +317,7 @@ def layout_v2(c, premios_bloco, ficha_html, fontes, fotos=None, info_meio=""):
   {convite_compartilhar(texto_cp(c), f"{SITE}/{c['slug']}/", f"Conhece alguém que joga {e(nome_br(c))}?", "Mande esta resenha para a turma.", "bloco claro")}
   {interacoes("../", f"/{c['slug']}/", "bloco claro")}"""
     mais = noticias_do_jogo(c) + mais_resenhas(c)
-    comunidade = f"""<section class="bloco comunidade"><h2>Gostou da resenha?</h2><p>A Portal Cristão publica resenhas de jogos premiados todos os dias. Entre no grupo para conversar sobre jogos e siga no Instagram.</p><div class="acoes"><a class="zap" href="{WHATSAPP}" target="_blank" rel="noopener">{icone("zap", "ic zi")}<span><b>Entrar no grupo do WhatsApp</b></span></a><a class="ig-btn" href="{INSTAGRAM}" target="_blank" rel="noopener">{icone("insta")}<span>Seguir @portalcristao</span></a></div></section>"""
+    comunidade = f"""<section class="bloco comunidade"><h2>Gostou da resenha?</h2><p>O Paladino publica resenhas de jogos premiados todos os dias. Entre no grupo para conversar sobre jogos e siga no Instagram.</p><div class="acoes"><a class="zap" href="{WHATSAPP}" target="_blank" rel="noopener">{icone("zap", "ic zi")}<span><b>Entrar no grupo do WhatsApp</b></span></a><a class="ig-btn" href="{INSTAGRAM}" target="_blank" rel="noopener">{icone("insta")}<span>Seguir @opaladino</span></a></div></section>"""
     fontes_bloco = f'<section class="bloco claro fontes" id="fontes"><details class="mais"><summary><h2>Fontes ({len(c["fontes"])})</h2></summary><ul>{fontes}</ul><p class="note">Consulta às fontes em {e(c["consulta"])}.</p></details></section>'
     abas = "".join(
         f'<li><a href="#{i}">{t}</a></li>'
@@ -470,7 +470,7 @@ def build(c):
    <p>{e(c["veredito"])}</p>
    <p class="tagline">{e(c["tagline"])}</p>
   </section>
-  <section class="bloco comunidade"><h2>Gostou da resenha?</h2><p>A Portal Cristão publica resenhas de jogos premiados todos os dias. Entre no grupo para conversar sobre jogos e siga no Instagram.</p><div class="acoes"><a class="zap" href="{WHATSAPP}" target="_blank" rel="noopener">{icone("zap", "ic zi")}<span><b>Entrar no grupo do WhatsApp</b></span></a><a class="ig-btn" href="{INSTAGRAM}" target="_blank" rel="noopener">{icone("insta")}<span>Seguir @portalcristao</span></a></div></section>
+  <section class="bloco comunidade"><h2>Gostou da resenha?</h2><p>O Paladino publica resenhas de jogos premiados todos os dias. Entre no grupo para conversar sobre jogos e siga no Instagram.</p><div class="acoes"><a class="zap" href="{WHATSAPP}" target="_blank" rel="noopener">{icone("zap", "ic zi")}<span><b>Entrar no grupo do WhatsApp</b></span></a><a class="ig-btn" href="{INSTAGRAM}" target="_blank" rel="noopener">{icone("insta")}<span>Seguir @opaladino</span></a></div></section>
   <section class="bloco claro fontes" id="fontes"><h2>Fontes</h2><ul>{fontes}</ul><p class="note">Consulta às fontes em {e(c["consulta"])}.</p></section>
  </div>
  <aside>
@@ -505,7 +505,7 @@ def build(c):
     ld = seo.script(seo.trilha(("Início", f"{SITE}/"), ("Resenhas", f"{SITE}/estudos/"), (c["jogo"], url)))
     if publicada:
         pub_html = (f'<p class="pub">Resenha publicada em <time datetime="{publicada}">{data_longa(publicada)}</time>'
-                    f' · Redação Portal Cristão · com base em <a href="#fontes">{len(c["fontes"])} fontes</a></p>')
+                    f' · Redação O Paladino · com base em <a href="#fontes">{len(c["fontes"])} fontes</a></p>')
         from build_sitemap import lastmod_registrado
         ld = seo.script(seo.artigo("Article", url, f'{c["jogo"]}: resenha', c["descricao"], f"{SITE}/{slug}/capa.jpg{versao_capa}",
                                    publicada, lastmod_registrado(url, c), {"@type": "Game", "name": c["jogo"]}),
@@ -546,7 +546,7 @@ def build(c):
 <meta name="description" content="{e(c["descricao"])}">
 <link rel="canonical" href="{SITE}/{slug}/">
 <meta name="robots" content="max-image-preview:large">
-<meta property="og:site_name" content="Portal Cristão">
+<meta property="og:site_name" content="O Paladino">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="{e(titulo_busca(c))}">
 <meta property="og:description" content="{e(c["descricao"])}">

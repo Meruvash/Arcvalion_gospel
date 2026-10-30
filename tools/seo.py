@@ -10,19 +10,19 @@ ORG_ID = f"{SITE}/#organizacao"
 SITE_ID = f"{SITE}/#site"
 # Medidor de visitas sem cookies (Cloudflare Web Analytics); vai no fim do <body> de todas as páginas.
 ANALYTICS = ""  # Cloudflare Web Analytics do portal: colar aqui o script com o token do site novo
-REDACAO = {"@type": "Organization", "name": "Redação Portal Cristão", "url": f"{SITE}/politica-editorial/"}
+REDACAO = {"@type": "Organization", "name": "Redação O Paladino", "url": f"{SITE}/politica-editorial/"}
 
 
 def organizacao():
     return {
-        "@type": "Organization", "@id": ORG_ID, "name": "Portal Cristão", "url": f"{SITE}/",
-        "logo": {"@type": "ImageObject", "url": f"{SITE}/marca/portal-cristao.webp", "width": 318, "height": 254},
+        "@type": "Organization", "@id": ORG_ID, "name": "O Paladino", "url": f"{SITE}/",
+        "logo": {"@type": "ImageObject", "url": f"{SITE}/marca/o-paladino.webp", "width": 318, "height": 254},
         "sameAs": [],
     }
 
 
 def site():
-    return {"@type": "WebSite", "@id": SITE_ID, "url": f"{SITE}/", "name": "Portal Cristão", "inLanguage": "pt-BR", "publisher": {"@id": ORG_ID}}
+    return {"@type": "WebSite", "@id": SITE_ID, "url": f"{SITE}/", "name": "O Paladino", "inLanguage": "pt-BR", "publisher": {"@id": ORG_ID}}
 
 
 def trilha(*itens):

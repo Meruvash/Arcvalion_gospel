@@ -35,7 +35,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import portal  # noqa: E402
 
 CACHE = portal.ROOT / ".cache" / "fotos"
-TOKEN_UA = "portalcristao-imagens"
+TOKEN_UA = "opaladino-imagens"
 DELAY_MIN = 3.0
 CACHE_DIAS = 7
 MAX_CANDIDATAS = 30

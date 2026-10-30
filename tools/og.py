@@ -73,7 +73,7 @@ def trecho(t, limite=150):
 
 def pagina(cor, foto, tag, titulo, sub, pe):
     fonte = arquivo(ROOT / "fontes" / "public-sans.woff2")
-    logo = arquivo(ROOT / "marca" / "portal-cristao.webp")
+    logo = arquivo(ROOT / "marca" / "o-paladino.webp")
     lado = (f'<div class="foto" style="background-image:url(\'{arquivo(foto)}\')"></div>' if foto and Path(foto).exists()
             else f'<div class="foto sem"><img src="{logo}" alt=""></div>')
     return (f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS % {"fonte": fonte}}</style></head>'

@@ -128,7 +128,7 @@ class Build(unittest.TestCase):
     def test_rotas(self):
         for rel in ["index.html", "noticias/index.html", "estudos/index.html", "lancamentos/index.html", "consulta/index.html",
                     "politica-editorial/index.html", "404.html", "sitemap.xml", "sitemap-noticias.xml", "robots.txt", "llms.txt",
-                    "busca.json", "favicon.svg", "marca/portal-cristao.webp"]:
+                    "busca.json", "favicon.svg", "marca/o-paladino.webp"]:
             self.assertTrue((self.s / rel).exists(), rel)
 
     def test_revisao_so_na_previa(self):

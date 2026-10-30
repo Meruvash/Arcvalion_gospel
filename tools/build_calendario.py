@@ -305,7 +305,7 @@ JS = """<script>
     acoes.push(`<a class="${acoes.length ? 'sec' : 'pri'}" href="${d.ludopedia}" target="_blank" rel="noopener">Ver a fonte</a>`);
     if (d.topico) acoes.push(`<a class="sec" href="${d.topico}" target="_blank" rel="noopener">Tópico oficial na Ludopedia</a>`);
     $('.acoes', dlg).innerHTML = acoes.join('');
-    $('.cpw', dlg).dataset.texto = `${d.nome} (${d.editora}), na agenda do Portal Cristão`;
+    $('.cpw', dlg).dataset.texto = `${d.nome} (${d.editora}), na agenda de O Paladino`;
     $('.cp-st', dlg).textContent = '';
     history.replaceState(null, '', '#' + li.id);
     dlg.showModal();
@@ -387,14 +387,14 @@ def build(ano=None):
   <div class="topo"><div class="capa2"></div><div><h2 id="ficha-nome"></h2><p class="ed2"></p></div></div>
   <dl><dt>Previsto para</dt><dd class="v-mes"></dd><dt>Situação</dt><dd class="v-st"></dd><dt>Tipo</dt><dd class="v-tipo"></dd></dl>
   <div class="acoes"></div>
-  <div class="cp-ficha">{botao_compartilhar("Na agenda do Portal Cristão", "", "Compartilhar", mini=True)}</div>
+  <div class="cp-ficha">{botao_compartilhar("Na agenda de O Paladino", "", "Compartilhar", mini=True)}</div>
   <p class="nota-fonte">Datas confirmadas na fonte oficial de cada item.</p>
  </div>
 </dialog>
 {rodape(pre)}
 {JS}"""
     url = f"{SITE}/lancamentos/"
-    titulo = f"Agenda cristã {ano}: eventos e lançamentos no Brasil | Portal Cristão"
+    titulo = f"Agenda cristã {ano}: eventos e lançamentos no Brasil | O Paladino"
     descricao = f"Agenda de {ano} com eventos, congressos e lançamentos cristãos no Brasil, mês a mês, com data, organizador e fonte."
     ld = seo.script(seo.trilha(("Início", f"{SITE}/"), ("Lançamentos", url)))
     html = pagina(titulo, descricao, url, capa_secao("lancamentos"), pre, corpo, head_extra="\n" + CSS_CAL, jsonld=ld)
