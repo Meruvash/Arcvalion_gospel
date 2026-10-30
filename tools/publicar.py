@@ -24,6 +24,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import portal  # noqa: E402
 from noticias.checar_noticia import problemas as problemas_noticia  # noqa: E402
 from estudos.checar_estudo import problemas as problemas_estudo  # noqa: E402
+from discipulado.checar_licao import problemas as problemas_licao  # noqa: E402
 
 
 def _fuso():
@@ -85,7 +86,10 @@ def main(argv=None):
         a["status"] = "despublicado"
         a.setdefault("historico", []).append({"data": hora, "acao": "despublicado", "por": ar.revisor, "motivo": ar.motivo})
     if a["status"] == "publicado":
-        erros = (problemas_estudo if "estudos" in arq.parts else problemas_noticia)(a, publicar=True)
+        if "discipulado" in arq.parts:
+            erros = problemas_licao(a, publicar=True, pasta=arq.parent)
+        else:
+            erros = (problemas_estudo if "estudos" in arq.parts else problemas_noticia)(a, publicar=True)
         if erros:
             sys.exit("Não publicado; corrija antes:\n - " + "\n - ".join(erros))
     arq.write_text(json.dumps(a, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

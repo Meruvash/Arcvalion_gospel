@@ -1,0 +1,29 @@
+{
+ "numero": 1,
+ "slug": "quem-e-jesus",
+ "titulo": "Quem é Jesus Cristo?",
+ "ideia_central": "Jesus é Deus que veio morar entre nós como ser humano, para nos mostrar quem Deus é e nos salvar.",
+ "descricao": "Lição 1 do Discipulado: o que o começo do Evangelho de João diz sobre quem é Jesus, por que ele veio e o que quer dizer segui-lo hoje, em linguagem simples.",
+ "tempo_min": 40,
+ "imagem": {
+  "arquivo": "discipulado-quem-e-jesus.jpg",
+  "alt": "Gravura de Rembrandt: Jesus em pé, de braços abertos, ensina um grupo de pessoas simples sentadas e em pé ao redor dele.",
+  "credito": "Rembrandt, Cristo pregando, conhecida como La Petite Tombe (água-forte, buril e ponta-seca, c. 1657). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "auditoria": {
+  "nota": 87,
+  "rodadas": 2,
+  "eliminatorios": []
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Lição produzida com IA (Claude, da Anthropic) em fases separadas: um agente pesquisou e conferiu as fontes e o texto bíblico NTLH em duas reproduções; outro redigiu o texto do aluno e o guia, medidos pelo índice de legibilidade da coleção; dois auditores, que não viram a pesquisa nem os rascunhos, conferiram o resultado. Publicação automática autorizada pelo responsável editorial; ainda não houve leitura por pessoas do público."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T18:15:59-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-30T18:15:59-03:00"
+}

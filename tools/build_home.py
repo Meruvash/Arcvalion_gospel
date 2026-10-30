@@ -858,6 +858,8 @@ if __name__ == "__main__":
     if (ROOT / "consulta" / "index.html").exists():
         import build_consulta
         print("ok consulta/index.html:", build_consulta.build())
+    import build_discipulado
+    print("ok discipulado/index.html e lições:", len(build_discipulado.todos()))
     import build_calendario
     print("ok lancamentos/index.html: %d lançamentos, %d sem capa" % build_calendario.build())
     import busca
