@@ -1,9 +1,9 @@
-"""Gera a seção Discipulado (lições para novos convertidos) a partir de conteudo/discipulado/<NN-slug>/.
+"""Gera a seção Discipulado (lições para novos convertidos) a partir de conteudo/discipulado/<slug>/.
 
 Uso: python3 tools/build_discipulado.py   (build_home.py chama)
 Cada lição publicada vai para discipulado/<slug>/; em revisão, para previa/discipulado/<slug>/ (noindex, com aviso).
 A página mostra o texto do aluno (aluno.md) e, recolhido, o guia do discipulador (discipulador.md). A lista
-discipulado/index.html lista as lições publicadas pelo número. O tema de cada lição sai do que as pessoas estão
+discipulado/index.html lista as lições publicadas, da mais recente para a mais antiga (sem numeração). O tema de cada lição sai do que as pessoas estão
 perguntando (skill discipulado, "Escolher o tema"), não de uma lista fixa.
 """
 import json
@@ -33,8 +33,8 @@ CSS_DISC = """<style>
 .nota details.guia>summary{cursor:pointer;font-weight:800;font-size:1.1rem;min-height:44px;display:flex;align-items:center}
 .nota details.guia[open]>summary{margin-bottom:10px}
 .nota .como{font-size:.9rem;color:#3a414c}
-.lista-d{display:grid;gap:8px}.lista-d li{display:grid;grid-template-columns:2.4em 1fr;gap:10px;align-items:baseline;padding:10px 0;border-top:1px solid var(--paper-line,#d5dae1)}
-.lista-d li:first-child{border-top:0}.lista-d .n{font-weight:800;font-variant-numeric:tabular-nums;color:var(--gold)}
+.lista-d{display:grid;gap:8px}.lista-d li{display:grid;gap:10px;align-items:baseline;padding:10px 0;border-top:1px solid var(--paper-line,#d5dae1)}
+.lista-d li:first-child{border-top:0}
 .lista-d a{font-weight:700}.lista-d small{display:block;color:var(--paper-muted);font-size:.85rem}.lista-d .breve{color:var(--paper-muted)}
 </style>"""
 
@@ -94,7 +94,7 @@ def carregar():
 
 
 def publicadas():
-    return sorted((c for c, _ in carregar() if c.get("status") == "publicado"), key=lambda c: c["numero"])
+    return sorted((c for c, _ in carregar() if c.get("status") == "publicado"), key=lambda c: c["publicado_em"], reverse=True)
 
 
 def build(c, pasta_src):
@@ -123,7 +123,7 @@ def build(c, pasta_src):
 <main id="conteudo" class="in"><div class="nota">
  {trilha(("Início", pre), ("Discipulado", f"{pre}discipulado/"), (e(c["titulo"]), ""))}
  <article class="bloco">
-  <span class="num-l">Lição {c["numero"]}</span>
+  <span class="num-l">Discipulado</span>
   <h1>{e(c["titulo"])}</h1>
   <p class="meta-e"><span>Para quem está começando</span><span>Encontro de {c["tempo_min"]} min</span><span>Texto bíblico: NTLH</span></p>
   <p class="ideia">{e(c["ideia_central"])}</p>
@@ -151,15 +151,15 @@ def build(c, pasta_src):
 
 
 def pagina_lista():
-    """discipulado/index.html: as lições publicadas, pelo número."""
+    """discipulado/index.html: as lições publicadas, da mais recente para a mais antiga."""
     pre = "../"
-    itens = "".join(f'<li><span class="n">{c["numero"]:02d}</span><span><a href="{c["slug"]}/">{e(c["titulo"])}</a><small>{e(c["ideia_central"])}</small></span></li>'
+    itens = "".join(f'<li><span><a href="{c["slug"]}/">{e(c["titulo"])}</a><small>{e(c["ideia_central"])}</small></span></li>'
                     for c in publicadas())
     corpo = f"""{cabecalho(pre, "Discipulado")}
 <main id="conteudo" class="in"><div class="nota">
  {trilha(("Início", pre), ("Discipulado", ""))}
- <article class="bloco"><h1>Discipulado</h1><p class="ideia">Lições numeradas para quem está começando a seguir Jesus, sobre as perguntas que as pessoas mais fazem sobre a fé. Cada uma tem o texto para o aluno, em linguagem simples, e um guia para quem conduz o encontro.</p></article>
- <section class="bloco"><h2>As lições</h2>{f'<ol class="lista-d">{itens}</ol>' if itens else '<p>As primeiras lições estão em preparação.</p>'}</section>
+ <article class="bloco"><h1>Discipulado</h1><p class="ideia">Lições para quem está começando a seguir Jesus, sobre as perguntas que as pessoas mais fazem sobre a fé. Cada uma tem o texto para o aluno, em linguagem simples, e um guia para quem conduz o encontro.</p></article>
+ <section class="bloco"><h2>As lições</h2>{f'<ul class="lista-d">{itens}</ul>' if itens else '<p>As primeiras lições estão em preparação.</p>'}</section>
  <section class="bloco como"><h2>Como as lições são feitas</h2><p class="como">Cada lição responde a uma pergunta que as pessoas estão fazendo de verdade, nas buscas e nas redes, e parte de uma passagem bíblica, com pesquisa em comentários e obras de referência, texto bíblico na Nova Tradução na Linguagem de Hoje e medição de legibilidade. As citações bíblicas e das fontes são conferidas na página onde foram lidas. A orientação é evangélica pentecostal, e o guia do discipulador registra onde outras tradições pensam diferente.</p></section>
 </div></main>
 {rodape(pre)}"""

@@ -117,7 +117,7 @@ Tratar o leitor como adulto capaz. Simplicidade não é infantilidade.
 
 ## 5. Arquitetura da coleção
 
-**Desde 30/10/2026 (decisão do editor):** a coleção não tem mais lista fixa. As lições são numeradas em sequência e cada tema sai do que as pessoas estão perguntando (skill `discipulado`, passo "Escolher o tema"). A arquitetura abaixo fica como banco de ideias; as regras de progressão valem no que couber (cada lição se sustenta sozinha; uma ideia central; glossário único).
+**Desde 30/10/2026 (decisão do editor):** a coleção não tem mais lista fixa nem numeração. Cada tema sai do que as pessoas estão perguntando (skill `discipulado`, passo "Escolher o tema"). A arquitetura abaixo fica como banco de ideias; as regras de progressão valem no que couber (cada lição se sustenta sozinha; uma ideia central; glossário único).
 
 ### Módulo I: Conhecendo a fé cristã
 

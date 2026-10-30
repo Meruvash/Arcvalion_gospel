@@ -111,7 +111,7 @@ def build():
     # lições do Discipulado publicadas
     from build_discipulado import publicadas
     for c in publicadas():
-        regs.append(reg("d", c["titulo"], f'Discipulado · Lição {c["numero"]}', f'discipulado/{c["slug"]}/',
+        regs.append(reg("d", c["titulo"], 'Discipulado · lição para quem está começando', f'discipulado/{c["slug"]}/',
                         ["discipulado"], resumo=resumo(c.get("ideia_central", ""), c.get("descricao", "")), data=c["publicado_em"]))
 
     # Livros da Bíblia (bloco RAW de consulta/): um registro por livro, com grupo, testamento e capítulos; o link abre o Versículo diário com um versículo do livro

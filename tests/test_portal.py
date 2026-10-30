@@ -208,7 +208,7 @@ def copia_do_site(exemplos=False):
         for p in (EX / "estudos").glob("*.json"):
             shutil.copy(p, tmp / "conteudo" / "estudos" / p.name)
         shutil.copy(EX / "imagens" / "exemplo-estudo.jpg", tmp / "conteudo" / "imagens" / "exemplo-estudo.jpg")
-        for d in (tmp / "conteudo" / "discipulado").glob("[0-9][0-9]-*"):  # lições reais têm revisor da equipe real
+        for d in (p.parent for p in (tmp / "conteudo" / "discipulado").glob("*/licao.json")):  # lições reais têm revisor da equipe real
             shutil.rmtree(d)
         shutil.copy(RAIZ / "exemplos" / "config" / "equipe.json", tmp / "config" / "equipe.json")
     r = subprocess.run([sys.executable, "tools/build_home.py"], cwd=tmp, capture_output=True, text=True)

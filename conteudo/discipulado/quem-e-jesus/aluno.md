@@ -92,7 +92,7 @@ E por que ele veio? João conta em outro capítulo:
 
 > "Porque Deus amou o mundo tanto, que deu o seu único Filho, para que todo aquele que nele crer não morra, mas tenha a vida eterna. Pois Deus mandou o seu Filho para salvar o mundo e não para julgá-lo." (João 3:16-17)
 
-Deus amou o mundo inteiro, e isso inclui você. Ele mandou o Filho para salvar, não para condenar. Vida eterna é a vida com Deus, que começa agora e não acaba com a morte. A próxima lição vai explicar do que Jesus nos salva.
+Deus amou o mundo inteiro, e isso inclui você. Ele mandou o Filho para salvar, não para condenar. Vida eterna é a vida com Deus, que começa agora e não acaba com a morte. Do que Jesus nos salva é assunto para outra lição.
 
 E o que Deus espera da gente? O versículo 12 responde: quem crê em Jesus e o recebe ganha o direito de se tornar filho de Deus. Receber Jesus é como abrir a porta para alguém que chegou. Ele não entra à força.
 

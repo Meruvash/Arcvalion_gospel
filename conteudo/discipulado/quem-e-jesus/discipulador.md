@@ -1,4 +1,4 @@
-# Guia do discipulador: Lição 1
+# Guia do discipulador
 
 ## Objetivo
 
@@ -28,11 +28,11 @@ A Declaração de Fé das Assembleias de Deus afirma Jesus "plenamente Deus, ple
 
 ## Diferenças de tradução
 
-A NTLH diz "a Palavra"; a Almeida diz "o Verbo". Em João 1:14 e 17, a NTLH diz "amor" onde outras traduções dizem "graça". A palavra "graça" fica para a Lição 2. Em Filipenses 2:7, a NTLH diz "abriu mão de tudo o que era seu", e a Almeida citada pela Declaração de Fé diz "aniquilou-se a si mesmo". Nas duas, o versículo 6 já afirmou que ele tinha a natureza de Deus: ele acrescentou a natureza de servo, não trocou uma pela outra.
+A NTLH diz "a Palavra"; a Almeida diz "o Verbo". Em João 1:14 e 17, a NTLH diz "amor" onde outras traduções dizem "graça". A palavra "graça" fica para uma lição própria. Em Filipenses 2:7, a NTLH diz "abriu mão de tudo o que era seu", e a Almeida citada pela Declaração de Fé diz "aniquilou-se a si mesmo". Nas duas, o versículo 6 já afirmou que ele tinha a natureza de Deus: ele acrescentou a natureza de servo, não trocou uma pela outra.
 
 ## Dúvidas frequentes
 
-**"Se Jesus é Deus, com quem ele falava quando orava?"** Com o Pai. O versículo 1 já mostra que a Palavra "estava com Deus". Há um só Deus, que existe como Pai, Filho e Espírito Santo. A Lição 9 volta ao assunto.
+**"Se Jesus é Deus, com quem ele falava quando orava?"** Com o Pai. O versículo 1 já mostra que a Palavra "estava com Deus". Há um só Deus, que existe como Pai, Filho e Espírito Santo. Uma lição sobre o Espírito Santo pode voltar ao assunto.
 
 **"Jesus virou Deus depois?"** Não. João Batista diz que Jesus já existia antes de João nascer (João 1:15), e Colossenses 1:17 diz que ele existia antes de tudo. A Declaração de Fé nega que o Filho tenha sido criado.
 
