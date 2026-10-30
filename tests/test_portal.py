@@ -112,6 +112,16 @@ class Estudos(unittest.TestCase):
         c["versiculo_chave"].pop("traducao")
         self.assertTrue(any("tradução" in x for x in p_estudo(c, publicar=True)))
 
+    def test_estudo_de_passagem(self):
+        c = copy.deepcopy(self.c)
+        c["tipo"] = "passagem"
+        c["vozes"] = c["posicoes"][0]["teologos"]
+        for k in ("posicoes", "convergencias", "questao"):
+            c.pop(k, None)
+        self.assertEqual(p_estudo(c, publicar=True), [])
+        c["vozes"] = c["vozes"][:1]
+        self.assertTrue(any("vozes" in x for x in p_estudo(c, publicar=True)))
+
     def test_estrutura_com_referencia(self):
         c = copy.deepcopy(self.c)
         c["estrutura"][0] = ["Sem referência", "texto sem a passagem indicada"]

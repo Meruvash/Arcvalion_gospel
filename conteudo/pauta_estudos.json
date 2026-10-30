@@ -1,282 +1,578 @@
 {
- "_ajuda": "Fila dos estudos bíblicos (skill estudo). A rotina diária pega os 5 primeiros \"na_fila\". Status: na_fila, em_producao, publicado, sem_fontes (pesquisa não achou 2 teólogos brasileiros com fonte por lado; obs diz o que faltou). Pode acrescentar temas: uma questão em que teólogos brasileiros de referência divergem sobre uma passagem.",
+ "_ajuda": "Fila dos estudos bíblicos (skill estudo). Por dia, a rotina pega os 2 primeiros \"na_fila\" de tipo \"debate\" (questão em que teólogos divergem: lados + Nossa posição pentecostal) e os 3 primeiros de tipo \"passagem\" (texto que une os cristãos: vozes de teólogos + O olhar pentecostal). Status: na_fila, em_producao, publicado, sem_fontes (obs diz o que faltou). Pode acrescentar temas.",
  "temas": [
   {
    "questao": "Os dons de línguas e profecia cessaram?",
    "passagem": "1 Coríntios 13:8-12",
    "status": "publicado",
    "slug": "dons-espirituais-1-corintios-13",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "O arrebatamento vem antes da tribulação?",
    "passagem": "1 Tessalonicenses 4:13-18",
    "status": "publicado",
    "slug": "arrebatamento-1-tessalonicenses-4",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Deus elege pessoas para a salvação ou povos para uma missão? (calvinistas x arminianos)",
    "passagem": "Romanos 9:10-24",
    "status": "publicado",
    "slug": "eleicao-romanos-9",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Crianças devem ser batizadas? (pedobatismo x credobatismo)",
    "passagem": "Atos 2:38-39",
    "status": "publicado",
    "slug": "batismo-de-criancas-atos-2",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "O dízimo vale para a igreja da nova aliança?",
    "passagem": "Malaquias 3:8-12",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Mulheres podem exercer o ministério pastoral?",
    "passagem": "1 Timóteo 2:11-15",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "O batismo no Espírito Santo é uma segunda experiência, com línguas como evidência? (pentecostais x reformados)",
    "passagem": "Atos 2:1-4",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Quem foi salvo pode perder a salvação?",
    "passagem": "Hebreus 6:4-6",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "A Ceia é memorial ou há presença espiritual de Cristo?",
    "passagem": "1 Coríntios 11:23-26",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Os dias da criação foram de 24 horas?",
    "passagem": "Gênesis 1:1-2:3",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Divórcio e novo casamento: quando a Bíblia permite?",
    "passagem": "Mateus 19:3-9",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "O cristão deve guardar o sábado ou o domingo?",
    "passagem": "Êxodo 20:8-11",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Até onde vai a obediência ao governo?",
    "passagem": "Romanos 13:1-7",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Há cura física garantida na obra de Cristo?",
    "passagem": "Isaías 53:4-5",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Deus promete prosperidade material ao fiel?",
    "passagem": "3 João 2",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Como entender a batalha espiritual?",
    "passagem": "Efésios 6:10-18",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Ainda existem apóstolos hoje?",
    "passagem": "Efésios 4:11-13",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Quem são os \"filhos de Deus\" de Gênesis 6?",
    "passagem": "Gênesis 6:1-4",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "O cristão pode beber vinho?",
    "passagem": "Romanos 14:13-23",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Usos e costumes: a Bíblia regula roupa e aparência?",
    "passagem": "1 Pedro 3:3-4",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "As sete igrejas do Apocalipse são eras da história da igreja?",
    "passagem": "Apocalipse 2-3",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "\"Esta geração\": o sermão profético já se cumpriu em 70 d.C.?",
    "passagem": "Mateus 24:29-35",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "As setenta semanas de Daniel: passado ou futuro?",
    "passagem": "Daniel 9:24-27",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "O rico e Lázaro: parábola ou relato do estado intermediário?",
    "passagem": "Lucas 16:19-31",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "O inferno é castigo eterno ou aniquilação?",
    "passagem": "Mateus 25:41-46",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Romanos 7: Paulo fala de antes ou depois da conversão?",
    "passagem": "Romanos 7:14-25",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Paulo e Tiago se contradizem sobre fé e obras?",
    "passagem": "Tiago 2:14-26",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "O cristão pode viver sem pecar? (santificação em Wesley e na tradição reformada)",
    "passagem": "1 João 3:4-10",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "O cristão deve se envolver na política?",
    "passagem": "Mateus 5:13-16",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Dar a outra face proíbe a legítima defesa?",
    "passagem": "Mateus 5:38-42",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Nascer da água e do Espírito: o que é a água de João 3?",
    "passagem": "João 3:3-8",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "A disciplina na igreja ainda vale e como?",
    "passagem": "Mateus 18:15-20",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Mulheres devem ficar caladas na igreja?",
    "passagem": "1 Coríntios 14:33-35",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Profecia hoje: o que pode e o que não pode?",
    "passagem": "1 Tessalonicenses 5:19-22",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "O Espírito pode ser blasfemado hoje? O pecado imperdoável",
    "passagem": "Mateus 12:31-32",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Deus muda de ideia? Arrependimento de Deus e soberania",
    "passagem": "Jonas 3:10",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Israel e a igreja: as promessas a Israel ainda se cumprirão?",
    "passagem": "Romanos 11:25-29",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "A unção com óleo e a oração pelos enfermos",
    "passagem": "Tiago 5:13-16",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "O véu de 1 Coríntios 11: costume ou ordem permanente?",
    "passagem": "1 Coríntios 11:2-16",
    "status": "na_fila",
    "slug": "",
-   "obs": ""
+   "obs": "",
+   "tipo": "debate"
   },
   {
    "questao": "Maldição hereditária existe?",
    "passagem": "Êxodo 20:5-6",
+   "status": "na_fila",
+   "slug": "",
+   "obs": "",
+   "tipo": "debate"
+  },
+  {
+   "questao": "O Senhor é o meu pastor: cuidado, provisão e presença no vale",
+   "passagem": "Salmo 23",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O Pai Nosso: como Jesus ensinou a orar",
+   "passagem": "Mateus 6:5-15",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O fruto do Espírito: o caráter que o Espírito Santo produz",
+   "passagem": "Gálatas 5:16-26",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O filho pródigo: o pai que corre ao encontro",
+   "passagem": "Lucas 15:11-32",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Mais que vencedores: nada nos separa do amor de Deus",
+   "passagem": "Romanos 8:28-39",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "A videira e os ramos: permanecer em Cristo",
+   "passagem": "João 15:1-11",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Recebereis poder: o Espírito Santo e a missão",
+   "passagem": "Atos 1:4-8",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Debaixo das asas do Altíssimo: proteção e confiança",
+   "passagem": "Salmo 91",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Tudo posso naquele que me fortalece: alegria e contentamento",
+   "passagem": "Filipenses 4:4-13",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "As bem-aventuranças: a felicidade do Reino",
+   "passagem": "Mateus 5:1-12",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Sê forte e corajoso: a liderança de Josué",
+   "passagem": "Josué 1:1-9",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Os que esperam no Senhor renovam as forças",
+   "passagem": "Isaías 40:27-31",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Não andeis ansiosos: o Pai que cuida",
+   "passagem": "Mateus 6:25-34",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Cria em mim um coração puro: arrependimento e restauração",
+   "passagem": "Salmo 51",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Eu sou o caminho: a promessa das muitas moradas",
+   "passagem": "João 14:1-14",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Os heróis da fé: o que é a fé que agrada a Deus",
+   "passagem": "Hebreus 11:1-16",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Sacrifício vivo: a renovação da mente",
+   "passagem": "Romanos 12:1-2",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Pela graça sois salvos: a salvação como presente",
+   "passagem": "Efésios 2:1-10",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Confia no Senhor de todo o coração",
+   "passagem": "Provérbios 3:1-12",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "O bom samaritano: quem é o meu próximo",
+   "passagem": "Lucas 10:25-37",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Davi e Golias: a batalha é do Senhor",
+   "passagem": "1 Samuel 17:32-50",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Elias no Carmelo: o fogo que desceu do céu",
+   "passagem": "1 Reis 18:20-39",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Senhor, tu me sondas: o Deus que conhece e forma",
+   "passagem": "Salmo 139",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "A prova da fé: provações e sabedoria",
+   "passagem": "Tiago 1:2-12",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "A árvore plantada junto às águas",
+   "passagem": "Salmo 1",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Tudo tem o seu tempo",
+   "passagem": "Eclesiastes 3:1-14",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Novos céus e nova terra: Deus enxugará toda lágrima",
+   "passagem": "Apocalipse 21:1-7",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Rute e Noemi: lealdade e redenção",
+   "passagem": "Rute 1",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Neemias: oração, coragem e reconstrução",
+   "passagem": "Neemias 1-2",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "A sarça ardente: o chamado de Moisés",
+   "passagem": "Êxodo 3:1-15",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Porque Deus amou o mundo de tal maneira",
+   "passagem": "João 3:14-21",
+   "tipo": "passagem",
+   "status": "na_fila",
+   "slug": "",
+   "obs": ""
+  },
+  {
+   "questao": "Ide e fazei discípulos: a Grande Comissão",
+   "passagem": "Mateus 28:16-20",
+   "tipo": "passagem",
    "status": "na_fila",
    "slug": "",
    "obs": ""

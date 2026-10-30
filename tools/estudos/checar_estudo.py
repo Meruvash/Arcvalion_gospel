@@ -4,8 +4,9 @@ Uso: python3 tools/estudos/checar_estudo.py [conteudo/estudos/<slug>.json ...]  
 O estudo é o equivalente da resenha do Elite Boardgamers e segue o mesmo esqueleto (resumo em 30 segundos, passos,
 destaques e pontos de atenção, para quem é, veredito, ficha, fontes, perguntas frequentes). As regras de conteúdo:
 toda passagem citada com a tradução; interpretação atribuída a quem a defende; nada de "a Bíblia diz" sem a referência.
-O centro do estudo é "O que dizem os teólogos" (`posicoes`, pedido de 30/10/2026): os lados de
-uma questão disputada, cada um com pelo menos dois teólogos brasileiros de referência, obra, link e data.
+O centro do estudo é "O que dizem os teólogos" (pedido de 30/10/2026). Estudo de debate (`tipo` "debate", padrão):
+`posicoes`, os lados de uma questão disputada, cada um com pelo menos dois teólogos brasileiros de referência. Estudo
+de passagem (`tipo` "passagem"): `vozes`, de 2 a 4 teólogos que comentam um texto que une os cristãos.
 """
 import json
 import re
@@ -27,37 +28,53 @@ def palavras(t):
     return len(str(t).split())
 
 
-def problemas_posicoes(c):
-    """Os lados da questão: 2 a 4 posições, cada uma com 2 a 4 teólogos com obra, link, data e paráfrase com o nome."""
+def problemas_teologo(t):
+    """Um teólogo citado: obra, link, data e paráfrase com o nome; citação literal só com o link da página."""
     erros = []
-    pos = c.get("posicoes") or []
-    if not 2 <= len(pos) <= 4:
-        return ["posicoes (O que dizem os teólogos): 2 a 4 lados {lado, resumo, teologos}"]
-    for p in pos:
-        lado = p.get("lado", "?")
-        if not p.get("lado") or not 20 <= palavras(p.get("resumo", "")) <= 90:
-            erros.append(f"posicoes '{lado}': lado e resumo de 20 a 90 palavras")
-        ts = p.get("teologos") or []
-        if not 2 <= len(ts) <= 4:
-            erros.append(f"posicoes '{lado}': 2 a 4 teólogos")
-        for t in ts:
-            nome = t.get("autor", "?")
-            for campo in ("autor", "quem", "obra", "url", "data", "texto"):
-                if not t.get(campo):
-                    erros.append(f"teólogo '{nome}': falta {campo}")
-            if t.get("url") and not str(t["url"]).startswith("http"):
-                erros.append(f"teólogo '{nome}': url com o link da obra ou do artigo")
-            if t.get("texto") and not 25 <= palavras(t["texto"]) <= 110:
-                erros.append(f"teólogo '{nome}': texto de 25 a 110 palavras")
-            if t.get("citacao") and not str(t.get("citacao_url", t.get("url", ""))).startswith("http"):
-                erros.append(f"teólogo '{nome}': citação literal só com o link da página onde a frase foi lida")
+    nome = t.get("autor", "?")
+    for campo in ("autor", "quem", "obra", "url", "data", "texto"):
+        if not t.get(campo):
+            erros.append(f"teólogo '{nome}': falta {campo}")
+    if t.get("url") and not str(t["url"]).startswith("http"):
+        erros.append(f"teólogo '{nome}': url com o link da obra ou do artigo")
+    if t.get("texto") and not 25 <= palavras(t["texto"]) <= 110:
+        erros.append(f"teólogo '{nome}': texto de 25 a 110 palavras")
+    if t.get("citacao") and not str(t.get("citacao_url", t.get("url", ""))).startswith("http"):
+        erros.append(f"teólogo '{nome}': citação literal só com o link da página onde a frase foi lida")
+    return erros
+
+
+def problemas_posicoes(c):
+    """Estudo de debate: 2 a 4 lados com 2 a 4 teólogos cada. Estudo de passagem: 2 a 4 vozes que comentam o texto."""
+    erros = []
+    if c.get("tipo") == "passagem":
+        vozes = c.get("vozes") or []
+        if not 2 <= len(vozes) <= 4:
+            erros.append("vozes (O que dizem os teólogos, estudo de passagem): 2 a 4 teólogos que comentam o texto")
+        for t in vozes:
+            erros += problemas_teologo(t)
+    else:
+        pos = c.get("posicoes") or []
+        if not 2 <= len(pos) <= 4:
+            return ["posicoes (O que dizem os teólogos): 2 a 4 lados {lado, resumo, teologos}"]
+        for p in pos:
+            lado = p.get("lado", "?")
+            if not p.get("lado") or not 20 <= palavras(p.get("resumo", "")) <= 90:
+                erros.append(f"posicoes '{lado}': lado e resumo de 20 a 90 palavras")
+            ts = p.get("teologos") or []
+            if not 2 <= len(ts) <= 4:
+                erros.append(f"posicoes '{lado}': 2 a 4 teólogos")
+            for t in ts:
+                erros += problemas_teologo(t)
+        if not 1 <= len(c.get("convergencias", [])) <= 5:
+            erros.append("convergencias: 1 a 5 pontos em que os lados concordam")
     # linha editorial pentecostal (30/10/2026): todo estudo novo diz onde o portal está
     if c.get("nossa_posicao") or (c.get("publicado_em") or "9999") >= "2026-10-30":
         np_ = c.get("nossa_posicao") or []
         if not 1 <= len(np_) <= 4 or not 60 <= sum(palavras(x) for x in np_) <= 350:
-            erros.append("nossa_posicao (Nossa posição, linha pentecostal): 1 a 4 parágrafos, 60 a 350 palavras")
-    if not 1 <= len(c.get("convergencias", [])) <= 5:
-        erros.append("convergencias: 1 a 5 pontos em que os lados concordam")
+            erros.append("nossa_posicao (Nossa posição ou O olhar pentecostal): 1 a 4 parágrafos, 60 a 350 palavras")
+    if c.get("tipo", "debate") not in ("debate", "passagem"):
+        erros.append("tipo: debate (questão disputada, com lados) ou passagem (texto que une os cristãos, com vozes)")
     return erros
 
 

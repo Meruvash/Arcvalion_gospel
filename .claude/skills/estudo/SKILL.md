@@ -11,16 +11,23 @@ Publicação automática (ordem do responsável editorial, 29/10/2026): o que pa
 
 ## Rotina diária (tarefa agendada, 05:13 de Brasília): 5 estudos no ar antes das 9h
 
-1. `git pull origin main`. Pegue os **5 primeiros `na_fila`** de `conteudo/pauta_estudos.json` e marque-os `em_producao`.
+1. `git pull origin main`. Em `conteudo/pauta_estudos.json`, pegue os **2 primeiros `na_fila` de `tipo` "debate"** e os **3 primeiros `na_fila` de `tipo` "passagem"** (mistura decidida em 30/10/2026: o portal é pentecostal, mas a maior parte dos estudos é sobre textos que unem todos os cristãos) e marque-os `em_producao`.
 2. **Pesquisa em paralelo**: um subagente (Agent, general-purpose) por tema, todos na mesma mensagem, com o briefing da seção "Pesquisa" abaixo. Enquanto pesquisam, busque as 5 imagens.
-3. Para cada pesquisa que voltar com **2 ou mais teólogos brasileiros por lado, com fonte lida**: escreva o JSON, confira as citações (seção "Citações"), rode o validador. Tema sem fontes suficientes vira `sem_fontes` (com `obs`), e o próximo `na_fila` entra no lugar, até completar 5 ou até 08:30.
+3. Para cada pesquisa que voltar completa (**debate**: 2 ou mais teólogos brasileiros por lado; **passagem**: 2 a 4 teólogos que comentam o texto, de preferência brasileiros e de tradições diferentes, com pelo menos um pentecostal; sempre com fonte lida): escreva o JSON, confira as citações (seção "Citações"), rode o validador. Tema sem fontes suficientes vira `sem_fontes` (com `obs`), e o próximo `na_fila` entra no lugar, até completar 5 ou até 08:30.
 4. Publique os que passaram (`publicar.py aprovar ... --automatica`), marque `publicado` e o `slug` na pauta, rode `python3 tools/build_home.py` e as checagens do CLAUDE.md, confira 1 estudo no Playwright em 390 px.
 5. Commit único em `main` e push (antes do push, `git pull --rebase origin main`: a rotina de notícias também publica de manhã). Se faltar algum para 5, publique os prontos mesmo assim: nunca publique texto com fonte faltando para cumprir a cota.
 6. Resumo curto: estudos publicados com link, temas que viraram `sem_fontes` e por quê, e as legendas do Instagram.
 
 Pedido avulso ("/estudo", "estudo de <passagem>"): mesmos passos para um tema; se a passagem não estiver na pauta, acrescente-a.
 
+## Dois tipos de estudo
+
+- **Debate** (`"tipo": "debate"`, 2 por dia): questão em que teólogos divergem. `questao`, `posicoes` (lado pentecostal primeiro), `convergencias` e **`nossa_posicao`** (seção "Nossa posição"). Modelo: `conteudo/estudos/batismo-de-criancas-atos-2.json`.
+- **Passagem** (`"tipo": "passagem"`, 3 por dia): texto que une os cristãos (Salmo 23, Pai Nosso, fruto do Espírito...). Sem lados: `vozes` (2 a 4 teólogos que comentam o texto, mesmo formato dos teólogos do debate) e **`nossa_posicao`**, que aparece como **"O olhar pentecostal"**: o que a tradição pentecostal enxerga no texto (a ação do Espírito, a santidade, a oração, a esperança da volta de Cristo), sem polêmica e sem atacar ninguém. `questao` vira o foco do estudo (opcional) e `convergencias` não se usa. Tom acolhedor, para o cristão de qualquer igreja se sentir em casa.
+
 ## Pesquisa (briefing do subagente)
+
+Para **passagem**, peça: 2 a 4 teólogos que comentam o texto (de preferência brasileiros, de tradições diferentes, com pelo menos um pentecostal, como Lições Bíblicas da CPAD, Gutierres Siqueira, Ciro Zibordi, Esequias Soares), com o que cada um destaca, obra, link, data e citação conferida; um comentário clássico em domínio público; o que a Declaração de Fé das Assembleias de Deus diz de relacionado, se disser. Para **debate**, o briefing abaixo.
 
 Peça, em português: a passagem e a questão; **pelo menos 2, idealmente 3 teólogos brasileiros de referência por lado**, cada um com igreja ou instituição confirmada na fonte, posição, argumento em paráfrase fiel, 1 ou 2 citações literais com o URL onde a frase foi lida, obra, link e data; os argumentos exegéticos de cada lado; os pontos de concordância com fonte; um comentário clássico em domínio público (Calvino, Matthew Henry, Wesley) com link; a lista de fontes; e **o que não foi confirmado**. Regras para o subagente:
 - Citação literal só de frase lida na página; dizer se conferiu baixando a página (curl + grep, grau A) ou só pelo WebFetch (grau B). Salvar as páginas em `<scratchpad>/web-<slug>/`.

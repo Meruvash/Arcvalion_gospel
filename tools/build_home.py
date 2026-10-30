@@ -792,6 +792,8 @@ if __name__ == "__main__":
     (ROOT / "estudos").mkdir(exist_ok=True)
     (ROOT / "estudos" / "index.html").write_text(build_lista.build(), encoding="utf-8")
     print("ok estudos/index.html")
+    import build_paginas
+    print("ok páginas institucionais:", ", ".join(f.parent.name for f in build_paginas.todas()))
     import build_estudo
     print("ok páginas de estudo:", len(build_estudo.todos()))
     if build_estudo.publicados() or not json.loads((ROOT / "pauta.json").read_text(encoding="utf-8"))["publicadas"]:

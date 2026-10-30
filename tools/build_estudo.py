@@ -62,8 +62,10 @@ def build(c):
     shutil.copyfile(ROOT / "conteudo" / "imagens" / im["arquivo"], pasta / "foto.jpg")
     sc = SELO.get(c["selo"], "info")
     v = c["versiculo_chave"]
+    passagem = c.get("tipo") == "passagem"
+    vozes = f'<div class="lados">{"".join(f"<div class=lado>{teologo(t)}</div>" for t in c.get("vozes", []))}</div>' if passagem else ""
     lados = "".join(f'<div class="lado"><h3>{e(p["lado"])}</h3><p>{e(p["resumo"])}</p>{"".join(teologo(t) for t in p["teologos"])}</div>'
-                    for p in c["posicoes"])
+                    for p in c.get("posicoes", []))
     partes = "".join(f"<li><b>{e(t)}</b>{e(x)}</li>" for t, x in c["estrutura"])
     destaques = "".join(f"<div><h3>{e(t)}</h3><p>{e(x)}</p></div>" for t, x in c["destaques"])
     atencao = "".join(f'<div><h3>{e(t)} <span class="selo {GRAVIDADE.get(g, "info")}">{e(g)}</span></h3><p>{e(x)}</p></div>'
@@ -88,9 +90,9 @@ def build(c):
  <section class="bloco chave"><h2>Versículo-chave</h2><blockquote>{e(v["texto"])}</blockquote><cite>{e(v["referencia"])} · {e(v["traducao"])}</cite></section>
  <section class="bloco"><h2>Contexto</h2><div class="corpo">{"".join(f"<p>{e(p)}</p>" for p in c["contexto"])}</div></section>
  <section class="bloco"><h2>Estrutura do texto</h2>{f'<p class="corpo">{e(c["estrutura_resumo"])}</p>' if c.get("estrutura_resumo") else ""}<ol class="partes">{partes}</ol></section>
- <section class="bloco" id="teologos"><h2>O que dizem os teólogos</h2><p class="questao">{e(c["questao"])}</p><div class="lados">{lados}</div></section>
- <section class="bloco"><h2>Em que os dois lados concordam</h2><ul class="marcas">{lista(c["convergencias"])}</ul></section>
- {f'<section class="bloco posicao"><h2>Nossa posição</h2><div class="corpo">{"".join(f"<p>{e(x)}</p>" for x in c["nossa_posicao"])}</div><p class="assina">Posição O Paladino · linha editorial pentecostal</p></section>' if c.get("nossa_posicao") else ""}
+ <section class="bloco" id="teologos"><h2>O que dizem os teólogos</h2>{f'<p class="questao">{e(c["questao"])}</p>' if c.get("questao") else ""}{vozes if passagem else f'<div class="lados">{lados}</div>'}</section>
+ {f'<section class="bloco"><h2>Em que os dois lados concordam</h2><ul class="marcas">{lista(c["convergencias"])}</ul></section>' if c.get("convergencias") else ""}
+ {f'<section class="bloco posicao"><h2>{"O olhar pentecostal" if passagem else "Nossa posição"}</h2><div class="corpo">{"".join(f"<p>{e(x)}</p>" for x in c["nossa_posicao"])}</div><p class="assina">Posição O Paladino · linha editorial pentecostal</p></section>' if c.get("nossa_posicao") else ""}
  <section class="bloco"><h2>O que o texto ensina</h2><div class="itens">{destaques}</div></section>
  <section class="bloco"><h2>Leituras equivocadas</h2><div class="itens">{atencao}</div></section>
  <section class="bloco"><h2>Para a vida</h2><div class="corpo">{"".join(f"<p>{e(p)}</p>" for p in c["aplicacao"])}</div></section>

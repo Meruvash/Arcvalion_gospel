@@ -1,25 +1,56 @@
 {
  "slug": "sobre",
  "titulo": "Quem somos",
- "descricao": "O que é o {nome}, o que cobrimos e os princípios que orientam o nosso jornalismo.",
+ "descricao": "O que é O Paladino: um portal cristão de tradição pentecostal, com notícias com fonte e estudos bíblicos que respeitam e relatam com fidelidade as outras tradições.",
  "schema": "AboutPage",
- "lide": "{nome}: {descricao}",
- "atualizado_em": "2026-10-29",
+ "lide": "O Paladino é um portal cristão de tradição pentecostal. Todos os dias, publicamos notícias com fonte e estudos bíblicos, com uma perspectiva cristã sobre o Brasil e o mundo.",
+ "atualizado_em": "2026-10-30",
  "secoes": [
-  {"titulo": "O que fazemos", "paragrafos": [
-   "O {nome} é um veículo jornalístico cristão, de orientação conservadora e sem vínculo com partidos políticos. Cobrimos o Brasil e o mundo com foco em notícias, política e sociedade, família, fé, economia, cultura e os acontecimentos do universo evangélico.",
-   "Nosso compromisso é com o leitor: informação apurada, com fontes identificáveis, contexto e separação clara entre o que é fato, o que é análise e o que é opinião."
-  ]},
-  {"titulo": "Editorias", "gerado": "editorias"},
-  {"titulo": "Nossos princípios", "lista": [
-   "Nenhuma notícia é inventada, e toda informação factual tem fonte identificável e verificável.",
-   "Declarações e citações são atribuídas a quem as fez, com o local onde foram publicadas.",
-   "Fato, análise e opinião aparecem separados e rotulados em cada página.",
-   "Publicidade, conteúdo patrocinado e links de afiliado são sempre identificados.",
-   "Erros confirmados são corrigidos na própria matéria, com data.",
-   "Não publicamos manchetes sensacionalistas para gerar cliques.",
-   "Ferramentas de inteligência artificial podem ajudar na pesquisa e na organização, e todo conteúdo passa por checagem automática do padrão editorial antes de ir ao ar; o responsável editorial confere o site todos os dias."
-  ]},
-  {"titulo": "Quem responde pelo portal", "paragrafos": ["O responsável editorial é {responsavel}. A equipe completa está no [expediente](/expediente/), e as regras de apuração, correção e publicidade estão na [política editorial](/politica-editorial/)."]}
+  {
+   "titulo": "O que fazemos",
+   "paragrafos": [
+    "Fazemos jornalismo cristão, de orientação conservadora e sem vínculo com partidos políticos. Cobrimos política e sociedade, família, fé, economia, cultura e os acontecimentos do universo evangélico, no Brasil e no mundo.",
+    "Publicamos também estudos bíblicos. Cada estudo parte de uma passagem da Bíblia, explica o contexto e mostra o que teólogos brasileiros de referência dizem sobre ela, sempre com as fontes."
+   ]
+  },
+  {
+   "titulo": "No que cremos",
+   "paragrafos": [
+    "Somos cristãos evangélicos de tradição pentecostal. Cremos que a Bíblia é a Palavra de Deus e que a salvação vem pela graça, mediante a fé em Jesus Cristo. Cremos também que o batismo no Espírito Santo e os dons espirituais são para hoje. Buscamos uma vida de santidade e esperamos a volta de Cristo.",
+    "Nossa referência doutrinária é a [Declaração de Fé das Assembleias de Deus](https://cgadb.org.br/declaracao-de-fe/). Ela orienta os nossos estudos, mas O Paladino não fala em nome de nenhuma igreja ou convenção."
+   ]
+  },
+  {
+   "titulo": "Como tratamos quem pensa diferente",
+   "paragrafos": [
+    "Respeitamos os irmãos de todas as tradições cristãs: batistas, presbiterianos, metodistas, luteranos e tantos outros que confessam Jesus Cristo como Senhor.",
+    "Quando os cristãos divergem sobre um texto, o estudo mostra cada lado com o seu melhor argumento, citando os teólogos com fidelidade. Depois, numa seção chamada \"Nossa posição\", dizemos onde estamos e por quê. Achamos mais honesto dizer de onde falamos do que fingir uma neutralidade que não existe.",
+    "Discordar com clareza não é desprezar. Não chamamos de herege quem pensa diferente sobre questões secundárias, e não fazemos ironia com a fé de ninguém."
+   ]
+  },
+  {
+   "titulo": "Estudos para todos os cristãos",
+   "paragrafos": [
+    "A maior parte dos nossos estudos é sobre passagens que unem todos os cristãos, como o Salmo 23, o Pai Nosso, o fruto do Espírito e as parábolas de Jesus. Nesses estudos, uma seção chamada \"O olhar pentecostal\" mostra o que a nossa tradição enxerga no texto, sem polêmica. O cristão de qualquer igreja é bem-vindo aqui."
+   ]
+  },
+  {
+   "titulo": "Nossos princípios",
+   "lista": [
+    "Nenhuma notícia é inventada. Toda informação factual tem fonte identificável e verificável.",
+    "Declarações e citações são atribuídas a quem as fez, com o local onde foram publicadas.",
+    "Fato, análise e opinião aparecem separados e rotulados em cada página.",
+    "Publicidade, conteúdo patrocinado e links de afiliado são sempre identificados.",
+    "Erros confirmados são corrigidos na própria matéria, com data.",
+    "Não publicamos manchetes sensacionalistas para gerar cliques.",
+    "Ferramentas de inteligência artificial ajudam na pesquisa e na redação. Todo conteúdo passa pela checagem automática do padrão editorial antes de ir ao ar, e o responsável editorial confere o site todos os dias."
+   ]
+  },
+  {
+   "titulo": "Quem responde pelo portal",
+   "paragrafos": [
+    "O responsável editorial é {responsavel}. As regras de apuração, correção e publicidade estão na [política editorial](/politica-editorial/)."
+   ]
+  }
  ]
 }

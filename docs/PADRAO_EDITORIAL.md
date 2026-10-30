@@ -139,6 +139,12 @@ https://cgadb.org.br/declaracao-de-fe/), conferida no texto antes de cada estudo
    Declaração de Fé e diga, numa frase, que há pentecostais que pensam diferente.
 6. **Nada inventado continua valendo**: a tese é nossa, mas todo fato, citação e posição atribuída tem fonte.
 
+**Mistura de temas (30/10/2026).** Dos 5 estudos do dia, **2 são de debate** (`"tipo": "debate"`: lados + "Nossa
+posição") e **3 são de passagem** (`"tipo": "passagem"`: textos que unem os cristãos, com `vozes` de 2 a 4 teólogos e
+`nossa_posicao` exibida como "O olhar pentecostal"). A identidade pentecostal fica declarada, e a maior parte dos estudos
+acolhe o cristão de qualquer igreja. A página "Quem somos" (`conteudo/paginas/sobre.json`, publicada em /sobre/) explica
+isso ao leitor.
+
 Fotos: fontes, licenças e o robô `tools/fotos.py` em `docs/FOTOS.md`.
 
 Interpretação sempre com o nome de quem a defende; divergência entre tradições cristãs aparece como divergência;

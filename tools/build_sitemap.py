@@ -116,10 +116,11 @@ def fontes():
         rel = guia.parent.relative_to(ROOT).as_posix()
         texto = re.search(r"<main.*?</main>", guia.read_text(encoding="utf-8"), re.S).group(0)
         paginas.append(("guia", f"{SITE}/{rel}/", guia, assinatura(texto), data_git(guia) or agora().isoformat()))
-    politica = ROOT / "politica-editorial" / "index.html"
-    if politica.exists():
-        texto = re.search(r"<main.*?</main>", politica.read_text(encoding="utf-8"), re.S).group(0)
-        paginas.append(("institucional", f"{SITE}/politica-editorial/", politica, assinatura(texto), data_git(politica) or agora().isoformat()))
+    for inst in ("politica-editorial", "sobre"):
+        politica = ROOT / inst / "index.html"
+        if politica.exists():
+            texto = re.search(r"<main.*?</main>", politica.read_text(encoding="utf-8"), re.S).group(0)
+            paginas.append(("institucional", f"{SITE}/{inst}/", politica, assinatura(texto), data_git(politica) or agora().isoformat()))
     calendario = ROOT / "lancamentos" / "index.html"
     if calendario.exists():
         # muda quando a lista de jogos muda (a contagem e os ids dos lançamentos)
