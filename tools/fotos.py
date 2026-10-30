@@ -199,13 +199,18 @@ class Cliente:
 
 # ---------- licença e crédito ----------
 
+SUFIXOS_PUBLICOS = {"gov.br", "leg.br", "jus.br", "mp.br", "def.br", "org.br", "com.br", "edu.br"}
+
+
 def regra(url):
     """Regra de licença do domínio (config/imagens.json); domínio desconhecido volta como 'a confirmar'."""
     host = urlsplit(url).netloc.lower()
     base = re.sub(r"^www\d*\.", "", host)
     for dom, r in config()["fontes"].items():
         d = re.sub(r"^www\d*\.", "", dom)
-        if base == d or base.endswith("." + d):
+        # "gov.br", "leg.br", "jus.br" e "mp.br" são sufixos de milhares de órgãos (estados, prefeituras, câmaras):
+        # a licença do portal federal www.gov.br não vale para portovelho.ro.gov.br, que reserva os direitos
+        if base == d or (base.endswith("." + d) and d not in SUFIXOS_PUBLICOS):
             return {"dominio": dom, **r}
     return {"dominio": host, "nome": host, "uso": "a confirmar"}
 

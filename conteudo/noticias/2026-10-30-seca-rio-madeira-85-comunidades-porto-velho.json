@@ -1,0 +1,124 @@
+{
+ "slug": "seca-rio-madeira-85-comunidades-porto-velho",
+ "data": "2026-10-29",
+ "categoria": "Política e Sociedade",
+ "status": "publicado",
+ "selo": "Motivo de alerta",
+ "titulo": "Seca no Rio Madeira atinge 7,4 mil famílias em 85 comunidades de Porto Velho",
+ "lide": "A estiagem no Rio Madeira já atinge 7.442 famílias, cerca de 22,9 mil pessoas, em 85 localidades rurais, ribeirinhas e indígenas de Porto Velho, segundo a prefeitura. A capital está em situação de emergência pelo decreto 22.515/2026, e uma força-tarefa leva água potável, alimentos e assistência às famílias.",
+ "por_que_importa": "Quando o rio baixa, a água limpa e a comida das comunidades ribeirinhas passam a depender de força-tarefa. Para quem mora no centro da capital, a seca é manchete; para 23 mil vizinhos do Baixo Madeira, é a rotina deste outubro. É hora de a igreja de Porto Velho olhar para o outro lado do rio.",
+ "numeros": [
+  [
+   "7.442 famílias",
+   "afetadas pela estiagem, cerca de 22.962 pessoas",
+   "Prefeitura de Porto Velho"
+  ],
+  [
+   "85 localidades",
+   "rurais, ribeirinhas e indígenas atingidas",
+   "Defesa Civil de Porto Velho"
+  ],
+  [
+   "2,62 m",
+   "cota do Rio Madeira em 6 de outubro, ante média de 3,9 m para o período",
+   "Censipam (SipamHidro), via Rondoniaovivo"
+  ]
+ ],
+ "corpo": [
+  "A Operação S.O.S. Estiagem, coordenada pelo tenente-coronel Marcelo Duarte, chefe do Gabinete Militar e supervisor das ações da Defesa Civil, divide o trabalho em forças-tarefas terrestres e fluviais. Calama e São Carlos receberam água potável e cestas básicas antes das demais localidades. Pelo critério da Defesa Civil municipal, a comunidade conta como atingida quando ao menos uma família é afetada.",
+  "Em 27 de outubro, a prefeitura lançou uma campanha que pede economia de água, orienta a não usar fogo para eliminar lixo e incentiva a proteção de rios e nascentes. A campanha também procura mobilizar a população para ajudar as famílias atingidas."
+ ],
+ "no_brasil": "O decreto municipal de emergência, de nível II, vale por 180 dias, segundo o Rondoniaovivo. Com a situação de emergência decretada, o município pode pedir à Defesa Civil Nacional o reconhecimento federal e recursos para insumos humanitários; até esta publicação, não localizamos portaria federal sobre a seca de 2026 em Porto Velho.",
+ "critica": [
+  {
+   "fonte": "Léo Moraes, prefeito de Porto Velho, à Secom",
+   "texto": "Nossa meta é que 100% dessas localidades sejam atendidas.",
+   "citacao": true,
+   "url": "https://smpdc.portovelho.ro.gov.br/noticias/58649"
+  },
+  {
+   "fonte": "Tenente-coronel Marcelo Duarte, supervisor das ações da Defesa Civil, à Secom",
+   "texto": "A colaboração da população é fundamental para ampliar o atendimento às famílias atingidas",
+   "citacao": true,
+   "url": "https://smpdc.portovelho.ro.gov.br/noticias/58700"
+  }
+ ],
+ "para_quem": [
+  "Se você mora em Porto Velho: a prefeitura pede economia de água e que ninguém use fogo para eliminar lixo, por causa do risco de queimadas",
+  "Igrejas e grupos que querem ajudar o Baixo Madeira: a prefeitura diz manter canais oficiais de doação e atendimento; confirme no canal oficial antes de doar",
+  "Quem tem parentes nas comunidades ribeirinhas pode acompanhar os avisos pelo canal oficial da prefeitura no WhatsApp"
+ ],
+ "nao_e_para": [
+  "Os números são do levantamento da Defesa Civil municipal; pelo critério dela, basta uma família afetada para a comunidade contar como atingida",
+  "Não localizamos portaria federal que reconheça a emergência da seca de 2026 em Porto Velho"
+ ],
+ "veredito": "“Tive sede, e destes-me de beber” (Mateus 25.35, ARC). A seca do Madeira é uma chance concreta de viver esse versículo. Igreja de Porto Velho: procure os canais oficiais da prefeitura e leve água a quem mora do outro lado do rio.",
+ "fontes": [
+  {
+   "nome": "Prefeitura de Porto Velho (Defesa Civil): Seca já atinge 85 comunidades e prefeitura atua com força-tarefa no Baixo Madeira (22/10/2026)",
+   "url": "https://smpdc.portovelho.ro.gov.br/noticias/58649",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Prefeitura de Porto Velho: Porto Velho lança campanha contra estiagem e queimadas (27/10/2026)",
+   "url": "https://smpdc.portovelho.ro.gov.br/noticias/58700",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Rondoniaovivo: Seca faz praias surgirem no rio Madeira e Porto Velho decreta emergência (07/10/2026)",
+   "url": "https://www.rondoniaovivo.com/noticia/geral/2026/10/07/estiagem-seca-faz-praias-surgirem-no-rio-madeira-e-porto-velho-decreta-emergencia.html",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "pontos": 12,
+  "trilha": "quente",
+  "abrangencia": "porto-velho",
+  "eixos": {
+   "valor": 6,
+   "viral": 3,
+   "cristao": 3
+  },
+  "origem": {
+   "nome": "Prefeitura de Porto Velho (Defesa Civil)",
+   "url": "https://smpdc.portovelho.ro.gov.br/noticias"
+  },
+  "criterios": [
+   "Ato de poder que atinge milhares: decreto de emergência (2)",
+   "Proximidade: Porto Velho (2)",
+   "Número forte com fonte oficial (1)",
+   "Duas fontes independentes (1)",
+   "Emoção de alta ativação (1)",
+   "Utilidade (1)",
+   "Gatilho no calendário: seca em curso (1)",
+   "Passagem bíblica sem forçar: Mateus 25.35 (2)",
+   "Pede resposta do cristão (1)"
+  ]
+ },
+ "instituicao": "Prefeitura de Porto Velho",
+ "editora": "Prefeitura de Porto Velho",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: todos os números e falas vêm da prefeitura e do Censipam, atribuídos; nenhuma pessoa ou órgão é acusado de omissão; o texto não afirma reconhecimento federal da seca, que não foi localizado, e a opinião pede ajuda, sem crítica a pessoas.",
+ "imagem": {
+  "arquivo": "capas/seca-rio-madeira-85-comunidades-porto-velho.jpg",
+  "credito": "Foto: Wilson Dias/Agência Brasil, via Wikimedia Commons (arquivo, 2007)",
+  "alt": "Vista aérea do Rio Madeira com a cidade de Porto Velho ao fundo, em foto de arquivo de 2007, fora do período de seca",
+  "licenca": "CC BY 3.0 BR (https://commons.wikimedia.org/wiki/File:Portovelho11062007.JPG)",
+  "origem": "local:seca#rio-madeira-porto-velho.jpg:680da2f1",
+  "pagina": "arquivo da redação (seca)"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-29T22:56:03-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-29T22:56:03-03:00"
+}

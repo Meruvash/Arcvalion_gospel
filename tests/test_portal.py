@@ -86,6 +86,7 @@ class Noticias(unittest.TestCase):
     def test_crivo_juridico(self):
         self.assertIn("risco jurídico", self.erros(veredito="O relator é um mentiroso e o projeto, uma farsa de quem quer aparecer na foto."))
         self.assertIn("checagem_juridica", self.erros(checagem_juridica=None))
+        self.assertNotIn("risco jurídico", self.erros(veredito="A prefeitura pede que ninguém use fogo para eliminar lixo e que todos economizem água nesta seca."))
 
     def test_opiniao_forte_dois_de_cinco(self):
         dia = []
@@ -286,6 +287,8 @@ class Fotos(unittest.TestCase):
         ab = self.f.regra("https://agenciabrasil.ebc.com.br/geral/noticia/x")
         self.assertEqual(ab["uso"], "livre")
         self.assertEqual(self.f.regra("https://www2.camara.leg.br/x")["nome"], "Câmara dos Deputados")
+        self.assertEqual(self.f.regra("https://www.gov.br/planalto/foto.jpg")["uso"], "livre")
+        self.assertEqual(self.f.regra("https://smpdc.portovelho.ro.gov.br/foto.webp")["uso"], "a confirmar")  # prefeitura não herda o gov.br
         self.assertEqual(self.f.montar_credito(ab, "Foto: Fulana de Tal/Agência Brasil")[0], "Foto: Fulana de Tal/Agência Brasil")
         self.assertEqual(self.f.montar_credito(ab, "")[0], "Foto: Agência Brasil")
         self.assertIsNone(self.f.montar_credito(ab, "Foto: Reuters/Fulano")[0])  # agência de terceiros: bloqueada

@@ -59,7 +59,7 @@ RISCO_JURIDICO = re.compile(
     r"\b(criminos[oa]s?|bandid[oa]s?|ladr(ão|ões|ona)|corrupt[oa]s?|mentiros[oa]s?|mentiu|fraudador(a|es)?|golpistas?|"
     r"assassin[oa]s?|quadrilhas?|máfia|mafios[oa]s?|canalhas?|vagabund[oa]s?|safad[oa]s?|"
     r"genocidas?|terroristas?|nazistas?|fascistas?|ditador(a|es)?|pedófil[oa]s?|vendid[oa]s?|comprad[oa]s?|"
-    r"hipócritas?|covardes?|farsantes?|charlatã(o|es)?|psicopatas?|doentes? mentais?|lixo|nojent[oa]s?)\b", re.I)
+    r"hipócritas?|covardes?|farsantes?|charlatã(o|es)?|psicopatas?|nojent[oa]s?|(?:é|são|um|uma) (?:um |uma )?lixo)\b", re.I)
 CAMPOS_OPINIAO = ("titulo", "por_que_importa", "para_quem", "veredito")
 CAMPOS_FATO = ("lide", "corpo", "no_brasil", "nao_e_para")
 

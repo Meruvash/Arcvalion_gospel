@@ -1,0 +1,100 @@
+{
+ "slug": "presepio-vivente-jerusalem-da-amazonia-porto-velho",
+ "data": "2026-10-30",
+ "categoria": "Eventos",
+ "status": "rascunho",
+ "selo": "Boa notícia",
+ "titulo": "Presépio Vivente será encenado por três noites na Jerusalém da Amazônia, em Porto Velho",
+ "lide": "O espetáculo Presépio Vivente, que encena o nascimento de Jesus, será apresentado no parque temático Jerusalém da Amazônia, em Porto Velho, nesta sexta-feira e no sábado (30 e 31 de outubro) e no domingo (1º de novembro), sempre às 19h. O evento é aberto ao público e tem apoio de secretarias da prefeitura.",
+ "por_que_importa": "Na semana em que muita gente pensa em Halloween e Finados, Porto Velho terá três noites para contar ao ar livre a história do nascimento de Jesus. É uma porta aberta para levar a família, o vizinho e quem ainda não conhece o Evangelho a ver a história desde o começo.",
+ "numeros": [
+  [
+   "3 noites",
+   "30 e 31 de outubro e 1º de novembro",
+   "Prefeitura de Porto Velho"
+  ],
+  [
+   "19h",
+   "horário das três apresentações",
+   "Prefeitura de Porto Velho"
+  ]
+ ],
+ "corpo": [
+  "A encenação reúne atores e figurantes locais e retrata o nascimento de Jesus com mensagens de amor, esperança e fraternidade, segundo a prefeitura e a imprensa de Porto Velho. Secretarias municipais cuidam da organização, da limpeza e da preparação da estrutura do parque temático.",
+  "As apresentações caem no fim de semana prolongado de Finados, celebrado na segunda-feira, 2 de novembro."
+ ],
+ "no_brasil": "O prefeito Léo Moraes disse que apoiar o evento valoriza a cultura e mantém vivas as tradições religiosas da cidade. A notícia oficial não informou o endereço do parque temático, quem organiza a encenação nem se a entrada é gratuita; confirme nos canais da prefeitura antes de ir.",
+ "critica": [
+  {
+   "fonte": "Léo Moraes, prefeito de Porto Velho, à Secom",
+   "texto": "É muito importante apoiar eventos que valorizam a nossa cultura e mantêm vivas as tradições religiosas da nossa cidade.",
+   "citacao": true,
+   "url": "https://agencia.portovelho.ro.gov.br/noticias/58749"
+  }
+ ],
+ "para_quem": [
+  "Famílias de Porto Velho: são três noites, de sexta a domingo, às 19h, para levar as crianças a ver a história do nascimento de Jesus",
+  "Igrejas e células podem combinar uma ida em grupo e convidar vizinhos e amigos que não frequentam igreja"
+ ],
+ "nao_e_para": [
+  "A prefeitura não informou o endereço do parque temático nem se a entrada é gratuita",
+  "A notícia oficial não diz quem organiza a encenação; o apoio citado é de secretarias municipais"
+ ],
+ "veredito": "Presépio em outubro parece fora de época, e é justamente por isso que chama atenção. “Pois, na cidade de Davi, vos nasceu hoje o Salvador, que é Cristo, o Senhor” (Lucas 2.11, ARC). Leve alguém que ainda não ouviu essa notícia.",
+ "fontes": [
+  {
+   "nome": "Agência de Notícias da Prefeitura de Porto Velho: Presépio Vivente será apresentado em três noites na Jerusalém da Amazônia (29/10/2026)",
+   "url": "https://agencia.portovelho.ro.gov.br/noticias/58749",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Diário O Norte: Jerusalém da Amazônia recebe espetáculo do Presépio Vivente durante três noites em Porto Velho (29/10/2026)",
+   "url": "https://www.diarioonorte.com/2026/10/jerusalem-da-amazonia-recebe-espetaculo.html",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Rondoniaovivo: Presépio Vivente será apresentado em três noites na Jerusalém da Amazônia (29/10/2026)",
+   "url": "https://www.rondoniaovivo.com/noticia/cultura/2026/10/29/cultura-presepio-vivente-sera-apresentado-em-tres-noites-na-jerusalem-da-amazonia.html",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "pontos": 12,
+  "trilha": "quente",
+  "abrangencia": "porto-velho",
+  "eixos": {
+   "valor": 3,
+   "viral": 4,
+   "cristao": 5
+  },
+  "origem": {
+   "nome": "Agência de Notícias da Prefeitura de Porto Velho",
+   "url": "https://agencia.portovelho.ro.gov.br/noticias"
+  },
+  "criterios": [
+   "Proximidade: Porto Velho (2)",
+   "Duas fontes independentes (1)",
+   "Emoção: esperança (1)",
+   "Surpreende: presépio na semana do Halloween (1)",
+   "Utilidade: programação para a família (1)",
+   "Gatilho no calendário: Halloween e Finados (1)",
+   "Passagem bíblica sem forçar: Lucas 2.11 (2)",
+   "Fé vivida (1)",
+   "Pede resposta do cristão: convidar (1)",
+   "Rende estudo: Natal (1)"
+  ]
+ },
+ "instituicao": "Prefeitura de Porto Velho",
+ "editora": "Prefeitura de Porto Velho",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a nota só descreve o evento com dados da prefeitura e da imprensa local, diz o que não foi informado (endereço, organizador, entrada) e não critica pessoa, órgão ou outra tradição religiosa; a fala do prefeito é literal e atribuída.",
+ "publicado_em": "2026-10-30T01:56:05+00:00"
+}
