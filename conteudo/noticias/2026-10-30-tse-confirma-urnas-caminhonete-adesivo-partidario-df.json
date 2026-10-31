@@ -1,8 +1,8 @@
 {
  "slug": "tse-confirma-urnas-caminhonete-adesivo-partidario-df",
- "data": "2026-10-30",
+ "data": "2026-10-31",
  "categoria": "politica-e-sociedade",
- "status": "revisao",
+ "status": "publicado",
  "selo": "Motivo de alerta",
  "titulo": "TSE confirma urnas levadas em caminhonete com adesivo partidário no DF; TRE apura responsáveis",
  "lide": "O Tribunal Superior Eleitoral confirmou na quarta-feira (28), no serviço Fato ou Boato, que urnas eletrônicas foram recolhidas depois do segundo turno numa caminhonete com adesivo de partido, no Riacho Fundo II (DF). O tribunal diz que o uso do veículo contraria resolução do TRE-DF, que apura os responsáveis, mas que os votos já tinham sido apurados e transmitidos.",
@@ -116,7 +116,7 @@
    },
    "comprovacao": {
     "pontos": 9,
-    "porque": "Checagem oficial do TSE confirmada pela postagem do tribunal e reproduzida de forma coincidente por três veículos; o site oficial bloqueou a leitura direta"
+    "porque": "Postagem oficial do TSE no X lida diretamente (resumo da checagem); detalhes da resolução e do local vêm de reportagens derivadas da checagem (Claudio Dantas e Jornal Razão com texto quase idêntico; O Madeira reescrito); o site oficial bloqueou a leitura direta"
    },
    "originalidade": {
     "pontos": 8,
@@ -150,7 +150,7 @@
   "verificacao": {
    "grau_de_confianca": "médio-alto",
    "status": "fato confirmado em checagem oficial do TSE, lida pela postagem do tribunal e por reportagens independentes",
-   "contradicoes": "O site do TSE e o da Justiça Eleitoral devolveram 403 para leitura automática (curl e WebFetch); o link curto da postagem oficial do TSE no X leva à página da checagem. O texto da checagem foi conferido em Claudio Dantas, Jornal Razão e O Madeira, que trazem os mesmos trechos e a mesma resolução. O TSE não diz qual partido; a leitura '26 e 13' é da imprensa sobre o vídeo. Há um segundo vídeo (Rio Verde, GO) que não faz parte da checagem.",
+   "contradicoes": "O site do TSE e o da Justiça Eleitoral devolveram 403 para leitura automática (curl e WebFetch); o link curto da postagem oficial do TSE no X leva à página da checagem. O texto da checagem foi conferido em Claudio Dantas, Jornal Razão e O Madeira, que trazem os mesmos trechos e a mesma resolução. O TSE não diz qual partido; a leitura '26 e 13' é da imprensa sobre o vídeo. Há um segundo vídeo (Rio Verde, GO) que não faz parte da checagem. Em 31/10, o texto da postagem oficial do TSE no X (28/10, 17h) foi lido diretamente e confirma a irregularidade, a apuração do TRE-DF e a transmissão prévia dos resultados. Claudio Dantas e Jornal Razão têm redação quase idêntica (contam como uma fonte); O Madeira reescreveu os mesmos fatos.",
    "sem_confirmacao": "nome de quem dirigia e de quem autorizou o transporte; medida do TRE-DF; seção eleitoral exata"
   },
   "duplicidade": {
@@ -163,7 +163,7 @@
    ],
    "ja_publicado_por_nos": false
   },
-  "revisao_humana": "obrigatória: pedido do responsável editorial em 30/10/2026 (aprovar antes de publicar)",
+  "revisao_humana": "feita: aprovada pelo responsável editorial em 30/10/2026, publicação pedida para 31/10 depois da edição do dia",
   "seo": {
    "intencao": "saber se é verdade o vídeo das urnas na caminhonete com adesivo do PT e o que o TSE disse",
    "entidades": [
@@ -199,5 +199,9 @@
   "origem": "https://imagens.ebc.com.br/5STgk9CoxqrXI_lR5llYRy8paKI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/25/pzzb8774.jpg?itok=-yB2zTOU",
   "pagina": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleitores-do-df-acordam-cedo-para-garantir-voto-no-segundo-turno"
  },
- "publicado_em": "2026-10-30T16:28:12+00:00"
+ "publicado_em": "2026-10-31T06:32:08-03:00",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-31T06:32:08-03:00"
+ }
 }
