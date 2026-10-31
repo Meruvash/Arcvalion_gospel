@@ -29,10 +29,53 @@
   "alt": "Imagem abstrata"
  },
  "crivo": {
-  "pontos": 4,
-  "criterios": [
-   "Critério de exemplo (2)"
-  ]
+  "escala": 100,
+  "pontos": 70,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "fe-e-igreja",
+   "porque": "Exemplo fictício: o fato de demonstração é sobre um evento de igreja"
+  },
+  "origem": {
+   "nome": "Fonte de exemplo (domínio fictício)",
+   "url": "https://fonte.exemplo.invalid/a"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Exemplo fictício: efeito concreto num grupo definido, só para testar o validador"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Exemplo fictício: tema de fé com efeito direto no leitor"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Exemplo fictício: fato de até 48 horas"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Exemplo fictício: documento primário lido e confirmação independente"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Exemplo fictício: síntese com contexto próprio"
+   }
+  },
+  "publico": {
+   "pontos": 4,
+   "eixos": {
+    "valor": 2,
+    "viral": 1,
+    "cristao": 1
+   },
+   "criterios": [
+    "Critério de exemplo (2)",
+    "Critério de exemplo viral (1)",
+    "Critério de exemplo cristão (1)"
+   ]
+  }
  },
  "selo": "Informativo",
  "instituicao": "Instituição fictícia",
