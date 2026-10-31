@@ -98,7 +98,7 @@ Um subagente (Agent, general-purpose) grava `dossie.md`, curto, com:
 - Erros comuns de interpretação do texto e, se houver, a divergência entre tradições (vai para o guia).
 
 Sem pedir mais que isso: a pesquisa da primeira lição levou 12 minutos porque pediu 10 fontes. Enquanto ela roda, escolha a
-imagem (opcional; obra em domínio público no acervo aberto do Metropolitan Museum, como na skill `estudo`).
+imagem (opcional; obra em domínio público no acervo aberto do Metropolitan Museum, como na skill `estudo`). **Prefira obra colorida** (pedido do editor, 31/10/2026): pintura, tapeçaria, vitral, iluminura; na busca do Met, use `&medium=Paintings` primeiro. Gravura ou desenho sem cor só quando não houver obra colorida ligada ao texto.
 
 ## 4. Escrever (redator)
 

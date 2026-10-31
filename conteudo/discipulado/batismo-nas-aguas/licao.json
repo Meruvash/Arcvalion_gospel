@@ -1,0 +1,110 @@
+{
+ "slug": "batismo-nas-aguas",
+ "titulo": "Qual é o significado do batismo?",
+ "titulo_seo": "Qual é o significado do batismo nas águas? O que a Bíblia ensina",
+ "categoria": "igreja-e-comunhao",
+ "palavras_chave": [
+  "batismo",
+  "batismo nas águas",
+  "imersão",
+  "Romanos 6",
+  "Mateus 28",
+  "batismo infantil",
+  "batismo no Espírito Santo",
+  "ordenança"
+ ],
+ "ideia_central": "O batismo nas águas é ordem de Jesus e testemunho público de quem já foi salvo: o mergulho mostra a união com Cristo na morte e na ressurreição.",
+ "descricao": "Qual é o significado do batismo? O batismo salva? Por que imersão, por que só quem crê, e a diferença para o batismo no Espírito Santo, com a Declaração de Fé, Henry, Wesley e Calvino.",
+ "tempo_min": 13,
+ "resumo_rapido": {
+  "resposta": "O batismo nas águas é uma ordem de Jesus para quem já creu. Ele não salva: é o testemunho público da fé. O mergulho representa a união com Cristo, que morreu, foi sepultado e ressuscitou.",
+  "ideias": [
+   "\"Nós fomos batizados porque já somos salvos e não para sermos salvos\", diz a Declaração de Fé.",
+   "Descer à água é como ser sepultado com Cristo; subir é começar uma vida nova (Romanos 6:4).",
+   "Os cristãos divergem sobre crianças e forma; a tradição pentecostal batiza por imersão quem já creu."
+  ],
+  "texto_central": "Atos 8:36-38, Mateus 28:19-20 e Romanos 6:3-4"
+ },
+ "versiculo_chave": {
+  "texto": "Assim, quando fomos batizados, fomos sepultados com ele por termos morrido junto com ele. E isso para que, assim como Cristo foi ressuscitado pelo poder glorioso do Pai, assim também nós vivamos uma vida nova.",
+  "referencia": "Romanos 6:4"
+ },
+ "contexto": [
+  [
+   "A ordem",
+   "Mateus 28:19",
+   "\"Batizando esses seguidores em nome do Pai, do Filho e do Espírito Santo\""
+  ],
+  [
+   "A palavra grega",
+   "Baptizo",
+   "Mergulhar, imergir"
+  ],
+  [
+   "O exemplo",
+   "Jesus no Jordão",
+   "Batizado por João Batista (Mateus 3)"
+  ],
+  [
+   "Nas Assembleias de Deus",
+   "Por imersão, uma vez",
+   "Só para quem se arrependeu e creu"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "O batismo salva",
+   "A salvação é pela graça, mediante a fé. O batismo é testemunho de quem já foi salvo."
+  ],
+  [
+   "Moderada",
+   "O batismo é opcional",
+   "Não salva, mas é ordem de Jesus para quem crê. Quem ama não esconde a aliança no bolso."
+  ],
+  [
+   "Leve",
+   "Batismo nas águas e batismo no Espírito Santo são a mesma coisa",
+   "São experiências diferentes. A Declaração de Fé trata do batismo no Espírito em outro capítulo."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "Qual é o significado do batismo?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=o%20que%20%C3%A9%20o%20batismo",
+    "dado": "sugere \"o que é o batismo nas águas segundo a bíblia\" e \"o que é o batismo com o espírito santo\"",
+    "data": "2026-10-31"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=por%20que%20ser%20batizado",
+    "dado": "sugere \"por que devo ser batizado\" e \"por que precisamos ser batizados\"",
+    "data": "2026-10-31"
+   },
+   {
+    "fonte": "Google Trends (tópicos)",
+    "url": "https://trends.google.com/trends/api/autocomplete/batismo?hl=pt-BR",
+    "dado": "o Trends reconhece \"Batismo\" e \"Batismo de Jesus\" como assuntos de busca",
+    "data": "2026-10-31"
+   }
+  ]
+ },
+ "imagem": {
+  "arquivo": "discipulado-batismo-nas-aguas.jpg",
+  "alt": "Pintura colorida de Nicolás Enríquez: João Batista derrama água sobre Jesus no rio, enquanto, no céu, Deus Pai e a pomba do Espírito Santo aparecem entre as nuvens.",
+  "credito": "Nicolás Enríquez, O batismo de Cristo (óleo sobre cobre, 1773). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus e comentários de Matthew Henry, John Wesley e João Calvino. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T21:15:51-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-30T21:15:51-03:00"
+}
