@@ -36,7 +36,7 @@ O texto central é João 3:1-21 (livro de João, capítulo 3, versículos 1 a 21
 
 Um detalhe do contexto ajuda a entender o peso da cena. Os fariseus eram um grupo religioso judeu conhecido pelo cuidado extremo em cumprir a Lei de Moisés. Nicodemos não era um curioso qualquer: Jesus o chama de "professor do povo de Israel" (João 3:10).
 
-E ele veio de noite. Os comentaristas não concordam sobre o motivo. Matthew Henry vê nisso prudência, porque Jesus passava o dia cercado de gente e de inimigos, e o desejo de conversar a sós, sem plateia. John Wesley, o pregador inglês que deu origem ao metodismo, é mais seco: Nicodemos veio por desejo, mas de noite por vergonha. O texto não diz quem tem razão. Diz apenas que um homem importante procurou Jesus quando ninguém estava olhando.
+E ele veio de noite. Os comentaristas não concordam sobre o motivo. Matthew Henry pesa vários motivos: prudência, porque Jesus passava o dia ocupado em público e tinha inimigos; o desejo de conversar a sós, sem plateia; e também medo ou vergonha de ser visto com ele. John Wesley, o pregador inglês que deu origem ao metodismo, é mais seco: Nicodemos veio por desejo, mas de noite por vergonha. O texto não diz quem tem razão. Diz apenas que um homem importante procurou Jesus quando ninguém estava olhando.
 
 ## Desenvolvimento
 
@@ -65,7 +65,7 @@ A palavra grega que Jesus usa ajuda a ver mais longe. *Anothen* quer dizer "de n
 
 Jesus explica: é preciso nascer "da água e do Espírito" (versículo 5). Os cristãos discutem há séculos o que a água significa aqui, e vale conhecer as principais leituras:
 
-- **O batismo.** Segundo Calvino, João Crisóstomo, um dos grandes pregadores da igreja antiga, e a maioria dos comentaristas do seu tempo entendiam assim. Wesley segue uma linha parecida: nascer da água e do Espírito é passar pela grande mudança interior que o Espírito realiza e ser batizado, onde houver batismo, como sinal exterior dessa mudança.
+- **O batismo.** Segundo Calvino, João Crisóstomo, um dos grandes pregadores da igreja antiga, e a maioria dos intérpretes entendiam assim. Wesley segue uma linha parecida: nascer da água e do Espírito é passar pela grande mudança interior que o Espírito realiza e ser batizado, onde houver batismo, como sinal exterior e meio dessa mudança.
 
 - **O Espírito, que lava como água.** Calvino discorda dos antigos e diz que, neste versículo, água e Espírito querem dizer a mesma coisa, assim como "Espírito Santo e fogo" em outra passagem. Matthew Henry vai no mesmo sentido: é o Espírito agindo como água, que limpa e purifica.
 

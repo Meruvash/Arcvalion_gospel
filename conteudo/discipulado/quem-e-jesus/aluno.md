@@ -42,7 +42,7 @@ Marcos começa a história de Jesus no rio Jordão; Mateus e Lucas, no nasciment
 
 *Texto bíblico: Nova Tradução na Linguagem de Hoje (NTLH). Copyright 2000 Sociedade Bíblica do Brasil. Todos os direitos reservados.* Vale a pena ler o trecho inteiro, João 1:1-18, na sua Bíblia.
 
-João não diz o nome de Jesus logo de saída. Chama-o de "a Palavra" (algumas Bíblias dizem "o Verbo"; é a mesma palavra grega, *logos*). A escolha não foi casual. Para um leitor judeu, a palavra de Deus lembrava o relato da criação, em que Deus fala e as coisas passam a existir, e lembrava as mensagens que Deus enviava pelos profetas. Para um leitor de cultura grega, *logos* era uma palavra com longa história na filosofia. O comentarista Craig Keener observa que nenhum outro conceito à disposição de João expressava tão bem alguém que fosse ao mesmo tempo divino e distinto do Pai.
+João não diz o nome de Jesus logo de saída. Chama-o de "a Palavra" (algumas Bíblias dizem "o Verbo"; é a mesma palavra grega, *logos*). A escolha não foi casual. Para um leitor judeu, a palavra de Deus lembrava o relato da criação, em que Deus fala e as coisas passam a existir, e lembrava as mensagens que Deus enviava pelos profetas. Para um leitor de cultura grega, *logos* era uma palavra com longa história na filosofia. O comentarista Craig Keener observa que nenhum conceito expressava melhor alguém que fosse ao mesmo tempo divino e distinto do Pai.
 
 Dois outros escritores do Novo Testamento dizem o mesmo por outro caminho. Paulo, escrevendo aos cristãos da cidade de Filipos, afirma que Jesus "tinha a natureza de Deus" e que, mesmo assim, "abriu mão de tudo o que era seu e tomou a natureza de servo" (Filipenses 2:6-7). Aos de Colossos, escreve: "Antes de tudo, ele já existia" (Colossenses 1:17).
 
@@ -143,7 +143,7 @@ E há um efeito sobre as conversas. Quando alguém disser que Jesus foi só um h
 
 - Leia o Evangelho de Marcos do começo ao fim e anote o que Jesus diz sobre si mesmo.
 
-- Leia João 3, em que Jesus conversa à noite com Nicodemos sobre o que significa nascer de novo. Esse será o tema de um próximo estudo desta biblioteca.
+- Leia João 3, em que Jesus conversa à noite com Nicodemos sobre o que significa nascer de novo. Esse é o tema do estudo [O que significa nascer de novo?](../nascer-de-novo/).
 
 - Leia Filipenses 2:5-11 e observe o caminho que Jesus fez, da glória até a cruz e de volta à honra.
 

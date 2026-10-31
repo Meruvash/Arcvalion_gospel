@@ -36,7 +36,7 @@ O homem estava lendo Isaías 53, um texto escrito séculos antes, sobre alguém 
 
 A primeira coisa que chama atenção no viajante é que ele não era um homem simples. Era tesoureiro e administrador das finanças de uma rainha, algo como um ministro da Fazenda. Sabia ler, tinha consigo o livro do profeta Isaías e tinha viajado longe para adorar a Deus. E, mesmo assim, admitiu sem rodeio: "Como posso entender se ninguém me explica?"
 
-John Wesley, o pregador inglês que deu origem ao metodismo, admira essa modéstia e essa sede de aprender. Matthew Henry, comentarista inglês do século XVIII, tira da cena uma lição que vale para todo iniciante: quem quer aprender precisa perceber que precisa ser ensinado. Não entender de primeira não é sinal de pouca inteligência nem de pouca fé. É o ponto de partida normal de qualquer leitor da Bíblia.
+John Wesley, o pregador inglês que deu origem ao metodismo, admira essa modéstia e essa sede de aprender. Matthew Henry, comentarista britânico (1662-1714), tira da cena uma lição que vale para todo iniciante: quem quer aprender precisa perceber que precisa ser ensinado. Não entender de primeira não é sinal de pouca inteligência nem de pouca fé. É o ponto de partida normal de qualquer leitor da Bíblia.
 
 > [!chave] O primeiro passo para entender a Bíblia é admitir que a gente precisa de ajuda, como o tesoureiro da Etiópia admitiu.
 
@@ -62,7 +62,7 @@ O Salmo 119 diz: "A tua palavra é lâmpada para guiar os meus passos, é luz qu
 
 Isso também explica por que a leitura não é só um exercício intelectual. João Calvino, o reformador do século XVI, lembra que Deus não nos deu as Escrituras para satisfazer a curiosidade nem para alimentar conversa vazia, mas para o nosso bem. O uso certo da Bíblia, diz ele, sempre leva ao que é proveitoso. A pergunta de quem lê não é só "o que isto quer dizer?", mas também "o que isto pede de mim hoje?".
 
-> [!citacao] O Espírito de Deus não só inspirou uma vez os que a escreveram, mas continuamente ajuda, de modo sobrenatural, os que a leem com oração sincera.
+> [!citacao] O Espírito de Deus não só inspirou uma vez os que a escreveram, mas continuamente inspira e ajuda, de modo sobrenatural, os que a leem com oração sincera.
 > Fonte: John Wesley, nota a 2 Timóteo 3:16 (tradução nossa; no original, "The Spirit of God not only once inspired those who wrote it, but continually inspires, supernaturally assists, those that read it with earnest prayer")
 
 ### Ler com o Espírito e com a cabeça

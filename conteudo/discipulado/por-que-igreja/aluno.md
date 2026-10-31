@@ -52,7 +52,7 @@ Atos 2:42 descreve em uma frase o que aquela primeira comunidade fazia: seguia o
 
 É uma lista curta e muito concreta. Ensino, para a fé não ficar no achismo. Amor prático, para ela não ficar só no discurso. A mesa, que inclui a Ceia do Senhor e também as refeições em casa, "com alegria e humildade" (Atos 2:46). E a oração em conjunto. Nada disso se faz sozinho. Dá para ouvir uma boa pregação pelo celular; não dá para partir o pão com um aplicativo.
 
-Matthew Henry, comentarista inglês do século XVIII, tira de Atos 2 uma frase que resume a lógica: quando tomamos Deus como nosso Deus, precisamos tomar o seu povo como nosso povo.
+Matthew Henry, comentarista britânico (1662-1714), tira de Atos 2 uma frase que resume a lógica: quando tomamos Deus como nosso Deus, precisamos tomar o seu povo como nosso povo.
 
 > [!citacao] Quando tomamos Deus como nosso Deus, devemos tomar o seu povo como nosso povo.
 > Fonte: Matthew Henry, comentário a Atos 2 (tradução nossa; no original, "When we take God for our God, we must take his people to be our people")

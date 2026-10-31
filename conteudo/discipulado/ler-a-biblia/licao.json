@@ -103,8 +103,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-30T20:50:52-03:00",
+  "data": "2026-10-30T21:17:10-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-10-30T20:50:52-03:00"
+ "publicado_em": "2026-10-30T20:50:52-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-30",
+   "texto": "Correção em 30/10/2026: na citação de John Wesley sobre 2 Timóteo 3:16 faltava o verbo 'inspira' (\"continually inspires, supernaturally assists\", Explanatory Notes, biblestudytools.com)."
+  }
+ ],
+ "atualizado_em": "2026-10-30T21:17:10-03:00"
 }

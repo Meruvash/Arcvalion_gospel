@@ -97,7 +97,7 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-30T19:03:55-03:00",
+  "data": "2026-10-30T21:17:10-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-10-30T18:50:10-03:00",
@@ -112,5 +112,11 @@
   "reencarnação",
   "batismo"
  ],
- "atualizado_em": "2026-10-30T19:03:55-03:00"
+ "atualizado_em": "2026-10-30T21:17:10-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-30",
+   "texto": "Correção em 30/10/2026: Matthew Henry não atribui a visita noturna de Nicodemos só à prudência; ele também cita medo ou vergonha de ser visto com Jesus. Wesley vê o batismo como sinal exterior e também meio da mudança (comentários de Henry e Wesley a João 3, biblestudytools.com)."
+  }
+ ]
 }

@@ -44,7 +44,7 @@ Em Mateus, essa oração aparece no meio do Sermão do Monte, logo depois de Jes
 
 ### Até quem andava com Jesus precisou aprender
 
-O comentarista Matthew Henry, pastor inglês do século XVIII, observa que o próprio pedido dos discípulos já é uma oração, e das boas. Orar bem é difícil, diz ele, e só Jesus pode nos ensinar, pela sua palavra e pelo seu Espírito. Há alívio nisso. Quem sente que não sabe orar não está atrasado em relação aos outros; está exatamente no lugar onde os discípulos estavam quando fizeram o pedido mais sábio da sua vida.
+O comentarista Matthew Henry, pastor britânico (1662-1714), observa que o próprio pedido dos discípulos já é uma oração, e das boas. Orar bem é difícil, diz ele, e só Jesus pode nos ensinar, pela sua palavra e pelo seu Espírito. Há alívio nisso. Quem sente que não sabe orar não está atrasado em relação aos outros; está exatamente no lugar onde os discípulos estavam quando fizeram o pedido mais sábio da sua vida.
 
 > [!citacao] "Senhor, ensina-nos a orar" é, em si mesma, uma boa oração.
 > Fonte: Matthew Henry, comentário a Lucas 11 (tradução nossa; no original, "Lord, teach us to pray, is itself a good prayer")
@@ -69,7 +69,7 @@ Os comentaristas antigos discutiram se essa oração deve ser repetida palavra p
 
 Em Lucas, logo depois da oração, Jesus conta uma história. Um homem recebe uma visita inesperada à meia-noite, não tem nada em casa e vai bater à porta de um amigo pedindo três pães. O amigo, já deitado com os filhos, responde de dentro que não vai se levantar. Mas acaba se levantando, diz Jesus, por causa da insistência (Lucas 11:5-8). E conclui: "peçam e vocês receberão; procurem e vocês acharão; batam, e a porta será aberta para vocês" (Lucas 11:9).
 
-A história não ensina que Deus é um vizinho mal-humorado que só atende por cansaço. Ela argumenta do menor para o maior: se até um amigo sonolento acaba ajudando, quanto mais o Pai. É o que Jesus diz em seguida, com outra imagem: nenhum pai dá uma cobra ao filho que pede um peixe. "Quanto mais o Pai, que está no céu, dará o Espírito Santo aos que lhe pedirem!" (Lucas 11:13). Henry chama atenção para isso: o maior pedido que podemos fazer é o próprio Espírito Santo, de quem precisamos até para orar bem.
+A história não ensina que Deus é um vizinho mal-humorado que só atende por cansaço. Ela argumenta do menor para o maior: se até um amigo sonolento acaba ajudando, quanto mais o Pai. É o que Jesus diz em seguida, com outra imagem: nenhum pai dá uma cobra ao filho que pede um peixe. "Quanto mais o Pai, que está no céu, dará o Espírito Santo aos que lhe pedirem!" (Lucas 11:13). Henry chama atenção para isso: o Espírito Santo é o pedido que inclui todas as coisas boas que pedimos, e precisamos dele até para orar bem.
 
 > [!atencao] Insistir na oração não é pressionar Deus até ele ceder, nem existe fórmula que garanta receber exatamente o que se pede. A promessa de Jesus é que o Pai dá coisas boas, e o melhor presente é o próprio Espírito Santo.
 
