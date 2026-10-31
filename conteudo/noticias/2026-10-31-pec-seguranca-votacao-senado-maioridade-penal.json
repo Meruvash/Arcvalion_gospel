@@ -2,7 +2,7 @@
  "slug": "pec-seguranca-votacao-senado-maioridade-penal",
  "data": "2026-10-31",
  "categoria": "politica-e-sociedade",
- "status": "revisao",
+ "status": "publicado",
  "opiniao_forte": true,
  "selo": "Vale acompanhar",
  "titulo": "Senado vota PEC da Segurança na terça com emendas que reduzem a maioridade penal",
@@ -187,5 +187,10 @@
   "origem": "https://www12.senado.leg.br/noticias/materias/2026/10/30/davi-marca-para-terca-votacao-da-pec-da-seguranca/55572666527_34e9262ef0_o.jpg",
   "pagina": "https://www12.senado.leg.br/noticias/materias/2026/10/30/davi-marca-para-terca-votacao-da-pec-da-seguranca"
  },
- "publicado_em": "2026-10-31T05:37:04+00:00"
+ "publicado_em": "2026-10-31T02:40:38-03:00",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-31T02:40:38-03:00",
+  "modo": "automatica"
+ }
 }

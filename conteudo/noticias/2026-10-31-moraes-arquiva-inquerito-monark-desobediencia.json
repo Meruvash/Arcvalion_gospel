@@ -1,0 +1,199 @@
+{
+ "slug": "moraes-arquiva-inquerito-monark-desobediencia",
+ "data": "2026-10-31",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "selo": "Boa notícia",
+ "titulo": "Moraes arquiva inquérito contra o youtuber Monark por desobediência, a pedido da PGR",
+ "lide": "O ministro Alexandre de Moraes, do STF, arquivou em 28 de outubro o Inquérito 4.942, que apurava se o youtuber Bruno Aiub, o Monark, cometeu crime de desobediência ao manter publicações depois de ter as redes bloqueadas em 2023. A PGR disse que o descumprimento já tinha sido punido com multa de R$ 300 mil e que não havia base para ação penal.",
+ "por_que_importa": "Desde janeiro de 2023, Monark teve as contas bloqueadas e R$ 300 mil retidos em multa por causa do que disse sobre urnas e ministros, mas nunca foi denunciado por crime. Agora a própria PGR reconhece que não havia base para ação penal. Para quem comunica opinião na internet, é um limite importante ao uso do processo penal contra a palavra.",
+ "numeros": [
+  [
+   "R$ 300 mil",
+   "de multa aplicados a Monark em 28/7/2023 por descumprir a ordem de não publicar, com bloqueio do valor no Banco do Brasil",
+   "Decisão do STF no INQ 4.942, citando a PGR"
+  ],
+  [
+   "R$ 10 mil",
+   "por dia era a multa prevista em 13/6/2023 para cada descumprimento",
+   "Decisão do STF no INQ 4.942, citando a PGR"
+  ],
+  [
+   "6",
+   "redes em que perfis de Monark foram bloqueados em 8/1/2023: Instagram, Rumble, Telegram, TikTok, Twitter e YouTube",
+   "Decisão do STF no INQ 4.942"
+  ]
+ ],
+ "corpo": [
+  "O bloqueio foi determinado em 8 de janeiro de 2023, no inquérito sobre os atos daquele dia, contra perfis que, segundo a decisão, instigaram e divulgaram os atos. Em abril de 2026, a Polícia Federal concluiu que Monark, de forma reiterada, questionava a lisura do processo eleitoral, a confiabilidade das urnas e a atuação do TSE e do STF, com ênfase nas decisões de Moraes.",
+  "A PGR reconheceu que houve descumprimento da ordem de não publicar, mas disse que ele foi tratado e esgotado no inquérito em que a ordem foi dada, com a multa diária. Moraes acolheu o pedido, lembrando que cabe ao Ministério Público decidir se denuncia. A investigação pode ser reaberta se surgirem provas novas (art. 18 do Código de Processo Penal)."
+ ],
+ "no_brasil": "O arquivamento acompanha uma série de decisões desta semana no STF a pedido da PGR: Edson Fachin arquivou oito investigações do inquérito das fake news em 27 e 28 de outubro, inclusive a que mantinha prisão preventiva de uma brasileira por publicações na internet.",
+ "critica": [
+  {
+   "fonte": "Procuradoria-Geral da República, no pedido de arquivamento transcrito na decisão",
+   "texto": "Não há, portanto, justa causa apta a deflagração de persecução penal autônoma em relação ao referido descumprimento.",
+   "citacao": true,
+   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391831824&ext=.pdf"
+  },
+  {
+   "fonte": "Polícia Federal, no relatório citado na decisão",
+   "texto": "Para a PF, Monark fazia declarações públicas reiteradas questionando o processo eleitoral, as urnas eletrônicas e as decisões do STF e do TSE, o que mostraria o descumprimento das medidas impostas.",
+   "citacao": false
+  },
+  {
+   "fonte": "Ministro Alexandre de Moraes, na decisão",
+   "texto": "Moraes lembrou que, no sistema acusatório, cabe ao Ministério Público oferecer denúncia ou pedir o arquivamento, e que o juiz mantém o dever de supervisão.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Comunicadores e influenciadores cristãos e conservadores: o caso mostra que descumprir ordem de bloqueio pode render multa pesada, mas a PGR não viu crime autônomo",
+  "Quem acompanha os inquéritos do STF: a decisão foi publicada com a íntegra, e o número é INQ 4.942",
+  "Famílias que discutem política com os filhos: vale explicar a diferença entre opinião, que é livre, e ordem judicial, que se contesta no processo"
+ ],
+ "nao_e_para": [
+  "O arquivamento vale para o crime de desobediência; não localizamos informação sobre outras apurações envolvendo Monark",
+  "A investigação pode ser reaberta com prova nova, como em todo arquivamento a pedido do Ministério Público",
+  "Só a notícia oficial do STF e a íntegra da decisão foram localizadas; não achamos outra reportagem independente sobre o arquivamento até 31/10"
+ ],
+ "veredito": "A gente apoia o arquivamento. Contas bloqueadas desde 2023 e R$ 300 mil de multa por causa do que um comunicador disse sobre urnas e ministros: a punição veio, o processo penal nunca. Crítica a autoridade, mesmo dura, se responde com argumento, não com inquérito sem fim.",
+ "versiculo": {
+  "texto": "A resposta branda desvia o furor, mas a palavra dura suscita a ira",
+  "referencia": "Provérbios 15.1",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: STF determina arquivamento de inquérito contra youtuber Monark por descumprimento de ordem judicial (29/10/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-determina-arquivamento-de-inquerito-contra-youtuber-monark-por-descumprimento-de-ordem-judicial/",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: decisão no Inquérito 4.942 (DF), assinada em 28/10/2026, íntegra em PDF",
+   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391831824&ext=.pdf",
+   "data": "28/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: STF determina arquivamento de mais cinco investigações ligadas ao inquérito das fake news (29/10/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-determina-arquivamento-de-mais-cinco-investigacoes-ligadas-ao-inquerito-das-fake-news/",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 69,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "liberdade",
+   "porque": "O fato é sobre liberdade de expressão: o STF encerra a investigação criminal contra um comunicador por continuar publicando depois de ter as redes bloqueadas"
+  },
+  "origem": {
+   "nome": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-determina-arquivamento-de-inquerito-contra-youtuber-monark-por-descumprimento-de-ordem-judicial/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Decisão já valendo que encerra a investigação criminal contra um comunicador com grande audiência; efeito concreto sobre uma pessoa e um precedente de interesse dos comunicadores"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Liberdade de expressão no Brasil e inquéritos do STF sobre comunicadores da direita: núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Decisão de 28/10, divulgada pelo STF em 29/10, menos de 48 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Notícia oficial do STF e íntegra da decisão lidas; sem confirmação independente localizada"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Acrescenta, da íntegra, as datas do bloqueio, da multa e da conclusão da PF, que a notícia oficial não traz"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 2
+   },
+   "criterios": [
+    "Documento primário: íntegra da decisão do STF (2)",
+    "Ato de poder: decisão de ministro do Supremo (2)",
+    "Proximidade: nacional (2)",
+    "Número forte com fonte oficial (1)",
+    "Personagem com nome: Monark (1)",
+    "Moeda social: datas e valores da íntegra (1)",
+    "Gatilho no calendário: série de arquivamentos da semana (1)",
+    "Passagem bíblica que um pastor usaria: Provérbios 15.1 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "STF determina arquivamento de inquérito contra youtuber Monark por descumprimento de ordem judicial",
+  "nucleo": "A - Brasil",
+  "categoria": "Judiciário / liberdade de expressão",
+  "coleta": "2026-10-31",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em documento primário",
+   "contradicoes": "A notícia oficial cita 'início de 2023' para o bloqueio; a decisão traz 8/1/2023. A nota usa a data da decisão.",
+   "sem_confirmacao": "reportagem independente sobre o arquivamento; situação atual das redes de Monark"
+  },
+  "duplicidade": {
+   "grupo": "INQ 4.942",
+   "itens": [
+    "STF 29/10"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se o inquérito contra Monark foi arquivado e por quê",
+   "entidades": [
+    "Monark",
+    "Bruno Aiub",
+    "Alexandre de Moraes",
+    "PGR",
+    "STF",
+    "INQ 4.942"
+   ],
+   "termos": [
+    "Monark inquérito arquivado",
+    "desobediência",
+    "liberdade de expressão"
+   ],
+   "atualizacao": "acompanhar eventual reabertura ou outras apurações"
+  }
+ },
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da decisão, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os fatos (bloqueio, multa, conclusão da PF, pedido da PGR) vêm da íntegra da decisão e da notícia oficial; a nota registra que a PGR reconheceu o descumprimento. A opinião critica o uso do processo penal e a duração da apuração, sem atribuir intenção ou crime a Moraes ou a qualquer pessoa, e não endossa as afirmações de Monark sobre as urnas.",
+ "imagem": {
+  "arquivo": "capas/moraes-arquiva-inquerito-monark-desobediencia.jpg",
+  "credito": "Foto: Andressa Anholete/SCO/STF, via Agência Brasil",
+  "alt": "Fachada do prédio do Supremo Tribunal Federal, em Brasília (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/TofNm0jzs3GXYkZhyNuXgT_2itI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/10/55518626038_9f69a10c56_o.jpg?itok=zaTwNvdO",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/stf-deve-julgar-revisao-da-condenacao-de-bolsonaro-apos-eleicoes"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-31T02:40:38-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-31T02:40:38-03:00"
+}
