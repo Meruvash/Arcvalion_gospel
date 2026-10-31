@@ -1,7 +1,7 @@
 """Próximos temas do Discipulado, na ordem que completa as trilhas (pedido do editor, 30/10/2026).
 
 Uso: python3 tools/discipulado/proximos.py [N]   (padrão 5)
-Primeiro os temas que faltam nas trilhas (a trilha com menos temas faltando vem antes; empate pela ordem do catálogo),
+Primeiro os temas em alta no Google Trends (`em_alta` no catálogo, pedido do editor de 31/10/2026); depois os temas que faltam nas trilhas (a trilha com menos temas faltando vem antes; empate pela ordem do catálogo),
 cada tema uma vez só, na ordem da trilha; depois os previstos das categorias (a categoria com menos estudos antes).
 Ao lado de cada tema, a categoria sugerida e as trilhas em que ele entra.
 """
@@ -21,7 +21,7 @@ def proximos(n=5):
     por_cat = {x["slug"]: sum(1 for c in estudos if c.get("categoria") == x["slug"]) for x in cat["categorias"]}
     onde = {t: x["slug"] for x in cat["categorias"] for t in x.get("previstos", [])}
     faltam = lambda t: [i["titulo"] for i in t["estudos"] if isinstance(i, dict) and i["titulo"] not in feitos]
-    fila = []
+    fila = [(x["titulo"], x.get("categoria", "?")) for x in cat.get("em_alta", []) if x["titulo"] not in feitos]
     for t in sorted(cat["trilhas"], key=lambda t: len(faltam(t))):
         for titulo in faltam(t):
             if titulo not in [f[0] for f in fila]:

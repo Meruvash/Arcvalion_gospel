@@ -1,5 +1,5 @@
 {
- "_ajuda": "Catálogo do Discipulado: categorias (Biblioteca) e trilhas (percursos opcionais). Cada estudo diz a sua categoria no licao.json (campo categoria). A ordem de um estudo pertence à trilha, não ao estudo; um estudo pode estar em várias trilhas. Item de trilha: o slug de um estudo publicado ou {\"titulo\": \"...\"} para estudo em preparação. 'previstos' lista os temas ainda não escritos de cada categoria (aparecem como Em preparação, sem link).",
+ "_ajuda": "Catálogo do Discipulado: categorias (Biblioteca) e trilhas (percursos opcionais). Cada estudo diz a sua categoria no licao.json (campo categoria). A ordem de um estudo pertence à trilha, não ao estudo; um estudo pode estar em várias trilhas. Item de trilha: o slug de um estudo publicado ou {\"titulo\": \"...\"} para estudo em preparação. 'previstos' lista os temas ainda não escritos de cada categoria (aparecem como Em preparação, sem link). 'em_alta': temas em alta no Google Trends, que entram na frente da fila de proximos.py (pelo menos 1 por dia).",
  "categorias": [
   {
    "slug": "conhecendo-a-deus",
@@ -136,6 +136,14 @@
     },
     "por-que-igreja"
    ]
+  }
+ ],
+ "em_alta": [
+  {
+   "titulo": "O que a Bíblia diz sobre a ansiedade?",
+   "categoria": "vida-crista",
+   "evidencia": "Google Trends: \"ansiedade e Bíblia\" com aumento médio de 38% nas buscas entre 2023 e 2025 (Jornal do Brás, 09/12/2025)",
+   "url": "https://jornaldobras.com.br/noticia/101079/levantamento-aponta-aumento-significativo-na-busca-de-jovens-por-livros-cristaos-em-2025"
   }
  ]
 }
