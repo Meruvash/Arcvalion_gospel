@@ -1,5 +1,5 @@
 {
- "_ajuda": "Catálogo do Discipulado: categorias (Biblioteca) e trilhas (percursos opcionais). Cada estudo diz a sua categoria no licao.json (campo categoria). A ordem de um estudo pertence à trilha, não ao estudo; um estudo pode estar em várias trilhas. Item de trilha: o slug de um estudo publicado ou {\"titulo\": \"...\"} para estudo em preparação. 'previstos' lista os temas ainda não escritos de cada categoria (aparecem como Em preparação, sem link).",
+ "_ajuda": "Catálogo do Discipulado: categorias (Biblioteca) e trilhas (percursos opcionais). Cada estudo diz a sua categoria no licao.json (campo categoria). A ordem de um estudo pertence à trilha, não ao estudo; um estudo pode estar em várias trilhas. Item de trilha: o slug de um estudo publicado ou {\"titulo\": \"...\"} para estudo em preparação. 'previstos' lista os temas ainda não escritos de cada categoria (aparecem como Em preparação, sem link). 'em_alta': temas em alta no Google Trends, que entram na frente da fila de proximos.py (pelo menos 1 por dia).",
  "categorias": [
   {
    "slug": "conhecendo-a-deus",
@@ -19,7 +19,6 @@
    "previstos": [
     "O que é a salvação?",
     "O que é a graça de Deus?",
-    "O que significa arrepender-se?",
     "Como posso ter certeza da salvação?",
     "O que significa viver pela fé?"
    ]
@@ -50,7 +49,6 @@
    "nome": "Igreja e comunhão",
    "descricao": "Por que fazer parte de uma igreja, o batismo nas águas e a Ceia do Senhor.",
    "previstos": [
-    "Qual é o significado do batismo?",
     "O que é a Ceia do Senhor?",
     "Por que precisamos de comunhão?"
    ]
@@ -127,15 +125,19 @@
    "nome": "Preparação para o batismo",
    "descricao": "Para quem vai descer às águas: arrependimento, vida nova, o significado do batismo e a vida na igreja.",
    "estudos": [
-    {
-     "titulo": "O que significa arrepender-se?"
-    },
+    "arrepender-se",
     "nascer-de-novo",
-    {
-     "titulo": "Qual é o significado do batismo?"
-    },
+    "batismo-nas-aguas",
     "por-que-igreja"
    ]
+  }
+ ],
+ "em_alta": [
+  {
+   "titulo": "O que a Bíblia diz sobre a ansiedade?",
+   "categoria": "vida-crista",
+   "evidencia": "Google Trends: \"ansiedade e Bíblia\" com aumento médio de 38% nas buscas entre 2023 e 2025 (Jornal do Brás, 09/12/2025)",
+   "url": "https://jornaldobras.com.br/noticia/101079/levantamento-aponta-aumento-significativo-na-busca-de-jovens-por-livros-cristaos-em-2025"
   }
  ]
 }

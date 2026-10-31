@@ -25,6 +25,9 @@ por IA, não editar HTML gerado, publicação automática registrada como autom�
 
 Horário escolhido para não coincidir com as outras rotinas (notícias 2h23, estudos bíblicos 5h13, verificação 21h).
 
+0. **Pelo menos 1 dos 5 do dia vem do Google Trends** (pedido do editor, 31/10/2026): um tema em alta nas buscas
+   brasileiras sobre fé (passo 2, "Google Trends"). Registre-o em `em_alta` no catálogo antes de rodar `proximos.py`, que
+   o coloca na frente. Se o tema em alta coincidir com um tema de trilha, melhor ainda.
 1. **Ordem: completar as trilhas** (pedido do editor, 30/10/2026), para que qualquer pessoa possa escolher uma trilha e
    segui-la até o fim. Rode `python3 tools/discipulado/proximos.py 5`: ele lê `conteudo/discipulado/base/catalogo.json`
    e devolve os próximos temas na ordem certa (primeiro os que faltam nas trilhas, a trilha mais perto de ficar completa
@@ -49,6 +52,16 @@ Modelo pronto: `conteudo/discipulado/nascer-de-novo/`.
 Levante perguntas reais de quem está começando ou pensando na fé, em português, e escolha a mais forte que ainda não
 virou lição (veja os títulos já publicados):
 
+- **Google Trends (obrigatório, pedido do editor de 31/10/2026).** O que funciona sem contornar bloqueio:
+  - buscas em alta no Brasil, do dia: `curl -s "https://trends.google.com/trending/rss?geo=BR"` (leia os títulos e o
+    `ht:approx_traffic`; quase sempre é notícia, mas às vezes há gancho de fé: uma data cristã, uma tragédia, um debate);
+  - o ranking do ano: `https://trends.withgoogle.com/year-in-search/<ano>/br/` (WebFetch), seções "O que é", "Por que",
+    "Quem é" e "Virou trend";
+  - os tópicos que o Trends reconhece para um termo: `curl -s "https://trends.google.com/trends/api/autocomplete/<termo>?hl=pt-BR"`;
+  - dados do Trends publicados em reportagens: WebSearch com `"Google Trends"` + o tema (ex.: em dez/2025 o Jornal do Brás
+    publicou que "ansiedade e Bíblia" cresceu 38% nas buscas entre 2023 e 2025). Cite a reportagem com link e data.
+  A página de comparação do Trends (`/trends/api/explore`) responde 429 para robôs: **não se contorna** (nada de cookie,
+  user-agent ou repetição para driblar o limite). Sem dado do Trends, diga isso e use o autocomplete abaixo.
 - **Autocomplete do Google** (funciona nas sessões de nuvem):
   `curl -s "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=<início da pergunta>"`.
   Bons começos: "por que Deus", "como saber se Deus", "é pecado", "como orar", "o que a bíblia diz sobre", "como
@@ -62,7 +75,8 @@ virou lição (veja os títulos já publicados):
 Critérios: a pergunta aparece em mais de uma fonte; é dúvida de quem está começando, não briga entre igrejas; dá para
 responder com um texto bíblico central; ajuda na vida real. Registre no `licao.json` o campo `relevancia`:
 `{"pergunta": "...", "evidencias": [{"fonte": "Autocomplete do Google", "url": "...", "dado": "a busca \"...\" aparece entre as sugestões de \"...\"", "data": "AAAA-MM-DD"}]}`
-(1 a 4 evidências, só o que você viu). A página mostra isso em "Por que esta lição".
+(1 a 4 evidências, só o que você viu; quando houver, uma delas do Google Trends). A página mostra isso em "Por que
+esta lição".
 
 Título criativo e honesto: a própria pergunta, como as pessoas a fazem ("Deus me perdoa se eu errar de novo?"), sem
 clickbait. A cena de abertura e as comparações devem surpreender, nunca repetir as da lição anterior.
@@ -84,7 +98,7 @@ Um subagente (Agent, general-purpose) grava `dossie.md`, curto, com:
 - Erros comuns de interpretação do texto e, se houver, a divergência entre tradições (vai para o guia).
 
 Sem pedir mais que isso: a pesquisa da primeira lição levou 12 minutos porque pediu 10 fontes. Enquanto ela roda, escolha a
-imagem (opcional; obra em domínio público no acervo aberto do Metropolitan Museum, como na skill `estudo`).
+imagem (opcional; obra em domínio público no acervo aberto do Metropolitan Museum, como na skill `estudo`). **Prefira obra colorida** (pedido do editor, 31/10/2026): pintura, tapeçaria, vitral, iluminura; na busca do Met, use `&medium=Paintings` primeiro. Gravura ou desenho sem cor só quando não houver obra colorida ligada ao texto.
 
 ## 4. Escrever (redator)
 

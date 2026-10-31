@@ -1,0 +1,111 @@
+{
+ "slug": "ansiedade",
+ "titulo": "O que a Bíblia diz sobre a ansiedade?",
+ "titulo_seo": "O que a Bíblia diz sobre a ansiedade? Fé, oração e tratamento",
+ "categoria": "vida-crista",
+ "palavras_chave": [
+  "ansiedade",
+  "preocupação",
+  "Mateus 6",
+  "Filipenses 4",
+  "1 Pedro 5",
+  "crise de ansiedade",
+  "depressão",
+  "saúde mental",
+  "medo"
+ ],
+ "ideia_central": "Sentir angústia não é pecado: Jesus sentiu. A Bíblia convida a entregar as preocupações a Deus, e orar não exclui procurar tratamento.",
+ "descricao": "O que a Bíblia diz sobre a ansiedade? O que Jesus quis dizer com \"não se preocupem\", a angústia de Jesus no Getsêmani, Elias no deserto, a oração e por que procurar tratamento não é falta de fé.",
+ "tempo_min": 14,
+ "resumo_rapido": {
+  "resposta": "A Bíblia não condena quem sente angústia: Jesus sentiu. Ela pede que deixemos a preocupação que nasce da desconfiança de Deus e que entreguemos o peso em oração. Ansiedade também pode ser doença, e procurar tratamento não é falta de fé.",
+  "ideias": [
+   "Jesus sentiu \"uma grande tristeza e aflição\" no Getsêmani, e Deus cuidou do corpo exausto de Elias.",
+   "Jesus proíbe a preocupação que desconfia de Deus, não o cuidado responsável: um dia de cada vez.",
+   "Orar e procurar médico andam juntos. A Declaração de Fé diz que não há conflito entre os dois."
+  ],
+  "texto_central": "Mateus 6:25-34 e Filipenses 4:6-7"
+ },
+ "versiculo_chave": {
+  "texto": "Entreguem todas as suas preocupações a Deus, pois ele cuida de vocês.",
+  "referencia": "1 Pedro 5:7"
+ },
+ "contexto": [
+  [
+   "Nas buscas",
+   "\"Ansiedade e Bíblia\"",
+   "Em alta no Google Trends, segundo o Jornal do Brás (dez/2025)"
+  ],
+  [
+   "No mundo",
+   "470 milhões",
+   "De pessoas com transtornos de ansiedade em 2023, segundo a OMS"
+  ],
+  [
+   "No Getsêmani",
+   "Jesus angustiado",
+   "Marcos 14:33-34"
+  ],
+  [
+   "Ajuda agora",
+   "CVV, 188",
+   "24 horas, ligação gratuita"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "Ansiedade é sempre falta de fé",
+   "Jesus sentiu angústia. Transtorno de ansiedade é doença, e nem toda doença vem de pecado pessoal, diz a Declaração de Fé."
+  ],
+  [
+   "Grave",
+   "Quem tem fé não precisa de médico nem de remédio",
+   "A Declaração de Fé afirma que a oração pelos enfermos não entra em conflito com o tratamento médico."
+  ],
+  [
+   "Moderada",
+   "\"Não se preocupem\" quer dizer não planejar o futuro",
+   "Os comentaristas distinguem o cuidado responsável, que é dever, da preocupação que desconfia de Deus."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "O que a Bíblia diz sobre a ansiedade?",
+  "evidencias": [
+   {
+    "fonte": "Google Trends, citado pelo Jornal do Brás",
+    "url": "https://jornaldobras.com.br/noticia/101079/levantamento-aponta-aumento-significativo-na-busca-de-jovens-por-livros-cristaos-em-2025",
+    "dado": "termos como \"ansiedade e Bíblia\" tiveram aumento médio de 38% nas buscas entre 2023 e 2025 (média de três termos, levantamento do site Taverna dos Livros)",
+    "data": "2025-12-09"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=o%20que%20a%20b%C3%ADblia%20diz%20sobre%20ansiedade",
+    "dado": "sugere \"ansiedade e depressão\", \"crise de ansiedade\" e \"ansiedade e medo\"",
+    "data": "2026-10-31"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=vers%C3%ADculo%20para%20ansiedade",
+    "dado": "sugere \"versículo para ansiedade e medo\", \"e depressão\" e \"e angústia\"",
+    "data": "2026-10-31"
+   }
+  ]
+ },
+ "imagem": {
+  "arquivo": "discipulado-ansiedade.jpg",
+  "alt": "Pintura de Eugène Delacroix: num barco sacudido por ondas verde-escuras, os discípulos se agitam apavorados enquanto Jesus dorme tranquilo na popa.",
+  "credito": "Eugène Delacroix, Cristo dormindo durante a tempestade (óleo sobre tela, c. 1853). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus e comentários de Matthew Henry, John Wesley e João Calvino e, sobre saúde, da Biblioteca Virtual em Saúde e da OMS da Biblioteca Virtual em Saúde e da OMS. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-30T21:15:51-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-30T21:15:51-03:00"
+}
