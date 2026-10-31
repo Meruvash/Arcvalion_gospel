@@ -25,11 +25,15 @@ por IA, não editar HTML gerado, publicação automática registrada como autom�
 
 Horário escolhido para não coincidir com as outras rotinas (notícias 2h23, estudos bíblicos 5h13, verificação 21h).
 
-0. **Pelo menos 1 dos 5 do dia vem do Google Trends** (pedido do editor, 31/10/2026): um tema em alta nas buscas
-   brasileiras sobre fé (passo 2, "Google Trends"). Registre-o em `em_alta` no catálogo antes de rodar `proximos.py`, que
-   o coloca na frente. Se o tema em alta coincidir com um tema de trilha, melhor ainda.
-1. **Ordem: completar as trilhas** (pedido do editor, 30/10/2026), para que qualquer pessoa possa escolher uma trilha e
-   segui-la até o fim. Rode `python3 tools/discipulado/proximos.py 5`: ele lê `conteudo/discipulado/base/catalogo.json`
+0. **Pelo menos 2 dos 5 do dia vêm do Google Trends** (pedido do editor, 31/10/2026): temas em alta nas buscas
+   brasileiras sobre fé (passo 2, "Google Trends"). Registre-os em `em_alta` no catálogo antes de rodar `proximos.py`,
+   que os coloca na frente. Se um tema em alta coincidir com um tema de trilha, melhor ainda; depois de publicado, encaixe
+   o estudo de trend numa trilha em que ele faça sentido (ou no fim da trilha mais curta).
+1. **Ordem: completar as trilhas, depois aumentá-las** (pedidos do editor, 30 e 31/10/2026), para que qualquer pessoa
+   possa escolher uma trilha e segui-la até o fim. Trilha de 4 ou 5 estudos é curta demais: quando todas as trilhas do
+   catálogo estiverem completas, cada uma cresce até a sua `meta` (no catálogo; 12 estudos), acrescentando ao fim, na
+   ordem pedagógica, temas novos dos `previstos` das categorias ou estudos de trend que se encaixem. Novas trilhas podem
+   ser propostas ao editor (ex.: "Vida emocional e fé", "Família cristã"). Rode `python3 tools/discipulado/proximos.py 5`: ele lê `conteudo/discipulado/base/catalogo.json`
    e devolve os próximos temas na ordem certa (primeiro os que faltam nas trilhas, a trilha mais perto de ficar completa
    antes; depois os previstos das categorias, a categoria com menos estudos antes). Pule tema que já tenha estudo.
 2. Para cada tema, confira a relevância (passo 2 abaixo) só para registrar as evidências: o tema vem da trilha.

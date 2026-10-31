@@ -1,5 +1,5 @@
 {
- "_ajuda": "Catálogo do Discipulado: categorias (Biblioteca) e trilhas (percursos opcionais). Cada estudo diz a sua categoria no licao.json (campo categoria). A ordem de um estudo pertence à trilha, não ao estudo; um estudo pode estar em várias trilhas. Item de trilha: o slug de um estudo publicado ou {\"titulo\": \"...\"} para estudo em preparação. 'previstos' lista os temas ainda não escritos de cada categoria (aparecem como Em preparação, sem link). 'em_alta': temas em alta no Google Trends, que entram na frente da fila de proximos.py (pelo menos 1 por dia).",
+ "_ajuda": "Catálogo do Discipulado: categorias (Biblioteca) e trilhas (percursos opcionais). Cada estudo diz a sua categoria no licao.json (campo categoria). A ordem de um estudo pertence à trilha, não ao estudo; um estudo pode estar em várias trilhas. Item de trilha: o slug de um estudo publicado ou {\"titulo\": \"...\"} para estudo em preparação. 'previstos' lista os temas ainda não escritos de cada categoria (aparecem como Em preparação, sem link). 'em_alta': temas em alta no Google Trends, que entram na frente da fila de proximos.py (pelo menos 2 por dia). 'meta': quantos estudos cada trilha deve ter quando crescer (pedido do editor de 31/10/2026: trilhas curtas demais).",
  "categorias": [
   {
    "slug": "conhecendo-a-deus",
@@ -98,7 +98,8 @@
     "como-orar",
     "ler-a-biblia",
     "por-que-igreja"
-   ]
+   ],
+   "meta": 12
   },
   {
    "slug": "fundamentos-da-fe",
@@ -118,7 +119,8 @@
     {
      "titulo": "O que é a Bíblia?"
     }
-   ]
+   ],
+   "meta": 12
   },
   {
    "slug": "preparacao-para-o-batismo",
@@ -129,7 +131,8 @@
     "nascer-de-novo",
     "batismo-nas-aguas",
     "por-que-igreja"
-   ]
+   ],
+   "meta": 12
   }
  ],
  "em_alta": [
