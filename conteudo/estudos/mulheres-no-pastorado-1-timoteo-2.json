@@ -12,7 +12,7 @@
  "tempo_min": 40,
  "selo": "Para aprofundar",
  "tagline": "O Espírito foi derramado sobre filhos e filhas, e as irmãs pregam com poder. Para nós, o ofício pastoral, porém, Paulo reservou aos homens.",
- "lede": "Paulo escreveu a Timóteo que não permitia à mulher ensinar nem exercer autoridade sobre o homem, e apoiou a ordem na criação. As Assembleias de Deus ligadas à CGADB não consagram pastoras desde a convenção de 1930, e reformados como Augustus Nicodemus leem o texto do mesmo modo. A Igreja do Evangelho Quadrangular e algumas Assembleias ordenam mulheres. Mostramos os dois lados, e dizemos onde estamos.",
+ "lede": "Paulo escreveu a Timóteo que não permitia à mulher ensinar nem exercer autoridade sobre o homem, e apoiou a ordem na criação. A convenção das Assembleias de Deus de 1930 decidiu não consagrar mulheres ao pastorado, salvo exceções, e reformados como Augustus Nicodemus leem o texto do mesmo modo. A Igreja do Evangelho Quadrangular e algumas Assembleias ordenam mulheres. Mostramos os dois lados, e dizemos onde estamos.",
  "descricao": "Estudo de 1 Timóteo 2:8-15 pela ótica pentecostal: o pastorado é reservado aos homens, e as mulheres ministram com dons e poder. Com a leitura de quem ordena pastoras, lado a lado.",
  "imagem": {
   "arquivo": "estudo-mulheres-no-pastorado-1-timoteo-2.jpg",
@@ -235,11 +235,11 @@
   ],
   [
    "1 Timóteo 3:2",
-   "Convém, pois, que o bispo seja irrepreensível, marido de uma mulher."
+   "É necessário, pois, que o bispo seja irrepreensível, marido de uma mulher."
   ],
   [
    "Romanos 16:1",
-   "Recomendo-vos, pois, Febe, nossa irmã, a qual serve na igreja que está em Cencréia."
+   "Recomendo-vos, pois, Febe, nossa irmã, a qual é serva na igreja que está em Cencréia."
   ]
  ],
  "veredito": "No Pentecostes o Espírito caiu sobre homens e mulheres, e as irmãs pregam, ensinam e profetizam com o mesmo fogo. Mas Paulo, apoiado na criação, reservou o ofício de pastor aos homens. Igreja saudável tem pastores que servem e irmãs que usam todos os dons que Deus lhes deu.",
@@ -313,7 +313,7 @@
   ]
  ],
  "consulta": "30/10/2026",
- "legenda": "Mulher pode ser pastora? A nossa resposta, com respeito a quem pensa diferente. 🔥📖\n\nNo Pentecostes, o Espírito veio sobre filhos e filhas, e as irmãs pregam, ensinam e profetizam. Mas Paulo, apoiado na criação, reservou o ofício pastoral aos homens, e é assim que as Assembleias de Deus da CGADB praticam desde 1930. Quadrangulares e algumas Assembleias leem diferente: mostramos os dois lados.\n\nQue mulher de Deus marcou a sua fé?\n\nEstudo completo no link da bio.\n\n#ministeriofeminino #1timoteo2 #estudobiblico #pentecostal #assembleiadedeus #mulheresdedeus #biblia #espiritosanto #womenInMinistry #bibleStudy",
+ "legenda": "Mulher pode ser pastora? A nossa resposta, com respeito a quem pensa diferente. 🔥📖\n\nNo Pentecostes, o Espírito veio sobre filhos e filhas, e as irmãs pregam, ensinam e profetizam. Mas Paulo, apoiado na criação, reservou o ofício pastoral aos homens, e essa é a orientação das Assembleias de Deus desde a convenção de 1930. Quadrangulares e algumas Assembleias leem diferente: mostramos os dois lados.\n\nQue mulher de Deus marcou a sua fé?\n\nEstudo completo no link da bio.\n\n#ministeriofeminino #1timoteo2 #estudobiblico #pentecostal #assembleiadedeus #mulheresdedeus #biblia #espiritosanto #womenInMinistry #bibleStudy",
  "cor": "#5a4f7a",
  "ia": {
   "usada": true,
@@ -326,8 +326,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-30T11:00:09-03:00"
+  "data": "2026-10-30T21:23:36-03:00",
+  "modo": "automatica"
  },
  "publicado_em": "2026-10-30T05:40:02-03:00",
- "atualizado_em": "2026-10-30T11:00:09-03:00"
+ "atualizado_em": "2026-10-30T21:23:36-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-30",
+   "texto": "Correção em 30/10/2026: a resolução da convenção de 1930 das Assembleias de Deus ressalva casos de exceção; o texto dizia, sem fonte, que as Assembleias da CGADB não consagram pastoras desde então (Revista Azusa, v. 13, n. 1, 2022). Versículos 1 Timóteo 3:2 e Romanos 16:1 ajustados à Almeida Corrigida Fiel."
+  }
+ ]
 }

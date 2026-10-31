@@ -26,11 +26,11 @@
   [
    "4 a 3",
    "foi o placar no TRE de Alagoas, que já tinha barrado a candidatura em 14 de setembro",
-   "Ministério Público Federal em Alagoas, 15/09/2026"
+   "Congresso em Foco, sobre a decisão do TRE de Alagoas"
   ]
  ],
  "corpo": [
-  "A Ficha Limpa torna inelegível por oito anos quem for condenado por órgão colegiado por crime contra a vida. O crime do caso, lesão corporal contra a mulher por razões da condição do sexo feminino (artigo 129, parágrafo 13, do Código Penal), está no capítulo das lesões. Seguindo a tese do Ministério Público Eleitoral, o TRE de Alagoas e depois o TSE entenderam que ele está no mesmo eixo do feminicídio e pode ser equiparado a crime contra a vida. A impugnação foi apresentada pelo senador Renan Calheiros (MDB-AL).",
+  "A Ficha Limpa torna inelegível por oito anos quem for condenado por órgão colegiado por crime contra a vida. O crime do caso, lesão corporal contra a mulher por razões da condição do sexo feminino (artigo 129, parágrafo 13, do Código Penal), está no capítulo das lesões. Seguindo a tese do Ministério Público Eleitoral, o TRE de Alagoas e depois o TSE entenderam que ele pode ser equiparado a crime contra a vida, pela proximidade com o feminicídio. A impugnação foi apresentada pelo senador Renan Calheiros (MDB-AL).",
   "O relator, Dias Toffoli, disse que a Justiça Eleitoral não está criando nova causa de inelegibilidade. O ministro Ricardo Villas Bôas Cueva propôs, e o tribunal aprovou, um apelo para que o Congresso inclua de forma expressa na lei as condenações por violência contra a mulher; a manifestação foi enviada às presidências da Câmara e do Senado. A condenação do advogado ainda não transitou em julgado, mas a lei exige só a decisão colegiada."
  ],
  "no_brasil": "A decisão vale para o caso de Alagoas, mas firma o entendimento do TSE para os próximos pedidos de registro de candidatura no país. Para virar regra escrita, a Lei Complementar 64/1990 precisa ser mudada pelo Congresso, que recebeu o apelo do tribunal.",
@@ -61,7 +61,7 @@
  "nao_e_para": [
   "A condenação criminal do advogado ainda tem recursos pendentes, sem efeito suspensivo, segundo a Agência Brasil",
   "Não localizamos o acórdão do TSE publicado; os trechos dos votos vêm da Agência Brasil e do Metrópoles",
-  "A decisão trata da lesão do parágrafo 13 do artigo 129; o próprio MP Eleitoral distinguiu esse caso de outras lesões em contexto doméstico"
+  "A decisão trata só da lesão do parágrafo 13 do artigo 129 do Código Penal (lesão contra a mulher por razões da condição do sexo feminino)"
  ],
  "veredito": "A gente apoia a decisão e o apelo ao Congresso. Proteger a mulher dentro de casa é dever da família e do Estado, e quem quer representar o povo começa respeitando a própria casa. Mas regra que barra candidato deve estar escrita na lei: o Congresso precisa votar a mudança logo.",
  "versiculo": {
@@ -92,6 +92,12 @@
    "nome": "Rondoniagora: Condenado por lesão corporal contra mulher fica inelegível, decide TSE (29/10/2026)",
    "url": "https://www.rondoniagora.com/eleicoes/condenado-por-lesao-corporal-contra-mulher-fica-inelegivel-decide-tse",
    "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Congresso em Foco: TRE-AL indefere candidatura de João Neto após violência doméstica",
+   "url": "https://www.congressoemfoco.com.br/noticia/122249/tre-al-indefere-candidatura-de-joao-neto-apos-violencia-domestica",
+   "data": "14/09/2026",
    "tipo": "secundaria"
   }
  ],

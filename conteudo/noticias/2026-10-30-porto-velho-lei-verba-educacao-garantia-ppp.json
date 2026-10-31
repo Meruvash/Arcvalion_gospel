@@ -31,9 +31,9 @@
  ],
  "corpo": [
   "A lei lista seis tipos de garantia, de contas vinculadas a fundos garantidores, e autoriza ceder, total ou parcialmente, receitas próprias e transferências do município. Se Porto Velho deixar de pagar, a instituição financeira que administra a conta pode reter e transferir os valores automaticamente.",
-  "Para usar o Fundeb e o salário-educação, a PPP precisa ter como objeto despesa de manutenção e desenvolvimento do ensino, como escola ou creche. A Comissão de Constituição e Justiça deu parecer favorável com ressalvas, mas o texto sancionado é igual ao que o prefeito enviou em agosto. Em 2025, o Conselho Gestor de PPP recebeu proposta privada para uma rede de escolas de educação infantil e ensino fundamental."
+  "Para usar o Fundeb e o salário-educação, a PPP precisa ter como objeto despesa de manutenção e desenvolvimento do ensino, como escola ou creche. O relator na Comissão de Constituição e Justiça, vereador Fernando Silva, deu relatório favorável com ressalvas, mas o texto sancionado é igual ao que o prefeito enviou em agosto. Em 2025, o Conselho Gestor de PPP recebeu proposta privada para uma rede de escolas de educação infantil e ensino fundamental."
  ],
- "no_brasil": "A lei federal das PPPs (11.079/2004) admite a vinculação de receitas como garantia, e a lei municipal manda respeitar o artigo 167 da Constituição, que limita a vinculação de impostos, e a Lei de Responsabilidade Fiscal. A lei foi publicada em 26 de outubro (DOMR nº 4.347) e já está em vigor.",
+ "no_brasil": "A lei federal das PPPs (11.079/2004) admite a vinculação de receitas como garantia, e a lei municipal manda respeitar o artigo 167 da Constituição, que limita a vinculação de impostos, e a Lei de Responsabilidade Fiscal. A lei, de 23 de outubro, tem assinatura eletrônica do prefeito em 26 de outubro.",
  "critica": [
   {
    "fonte": "Prefeito Léo Moraes, nas justificativas do projeto enviado à Câmara",
@@ -42,10 +42,10 @@
    "url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/materialegislativa/2026/46224/1_-_sei_1099454_mensagem_74_1.pdf"
   },
   {
-   "fonte": "Comissão de Constituição, Justiça e Redação da Câmara, no registro de tramitação de 11/09/2026",
+   "fonte": "Relator na Comissão de Constituição, Justiça e Redação da Câmara, no registro de tramitação de 11/09/2026",
    "texto": "relatório favorável, porém com ressalvas",
    "citacao": true,
-   "url": "https://sapl.portovelho.ro.leg.br/materia/46224/tramitacao"
+   "url": "https://sapl.portovelho.ro.leg.br/materia/tramitacao/29421"
   }
  ],
  "para_quem": [
@@ -66,7 +66,7 @@
  },
  "fontes": [
   {
-   "nome": "Lei nº 3.521, de 23/10/2026 (texto sancionado, DOMR nº 4.347), no SAPL da Câmara Municipal de Porto Velho",
+   "nome": "Lei nº 3.521, de 23/10/2026 (texto sancionado), no SAPL da Câmara Municipal de Porto Velho",
    "url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/2026/29930/lei_no_3.521_de_23_de_outubro_de_2026..pdf",
    "data": "30/10/2026",
    "tipo": "primaria"
@@ -204,7 +204,7 @@
   "alt": "Montagem com pontos de Porto Velho, entre eles o Rio Madeira e a praça das Três Caixas d'Água; imagem ilustrativa da cidade",
   "licenca": "CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Porto_Velho_RO.jpg)",
   "origem": "local:parque#Porto_Velho_RO.jpg:46a18fda",
-  "pagina": "arquivo da redação"
+  "pagina": "https://commons.wikimedia.org/wiki/File:Porto_Velho_RO.jpg"
  },
  "publicado_em": "2026-10-30T09:01:34-03:00",
  "revisao": {

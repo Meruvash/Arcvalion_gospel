@@ -80,7 +80,7 @@
     },
     {
      "autor": "Solano Portela",
-     "quem": "Presbítero da Igreja Presbiteriana do Brasil, coautor do blog O Tempora, O Mores",
+     "quem": "Presbítero da Igreja Presbiteriana de Santo Amaro, em São Paulo (segundo o Voltemos ao Evangelho, 2015)",
      "obra": "\"Mordomia\" (site do autor)",
      "url": "https://solanoportela.net/artigos/mordomia.htm",
      "data": "2005",
@@ -99,7 +99,7 @@
      "obra": "Circular nº 186/2024, \"O dízimo à luz do Novo Testamento\"",
      "url": "https://congregacaocristanobrasil.org.br/assets/img/circular/186/circularn186.2024odzimoluzdonovotestamento1.integra31mar24.pdf",
      "data": "31/03/2024",
-     "texto": "A Congregação Cristã no Brasil reconhece que o dízimo tem base no Antigo Testamento e é anterior à Lei, mas diz que a ordem de Malaquias foi dada a Israel. Jesus falou do dízimo ainda sob a Lei; Paulo anunciou \"todo o conselho de Deus\" sem incluí-lo; e Hebreus 7:12 ensina que a mudança do sacerdócio muda a lei. A igreja mantém só ofertas voluntárias.",
+     "texto": "A Congregação Cristã no Brasil reconhece que o dízimo tem base no Antigo Testamento e é anterior à Lei, mas diz que as ordenanças do dízimo no Antigo Testamento foram dadas exclusivamente a Israel. Jesus falou do dízimo ainda sob a Lei; Paulo anunciou \"todo o conselho de Deus\" sem incluí-lo; e Hebreus 7:12 ensina que a mudança do sacerdócio muda a lei. A igreja mantém só ofertas voluntárias.",
      "citacao": "No contexto do Novo Testamento não há nenhum percentual estabelecido como regra de contribuição aos regenerados em Cristo Jesus."
     },
     {
@@ -117,7 +117,7 @@
  "convergencias": [
   "Dar não é barganha com Deus: a lição da CPAD de 2019 diz que, ao entregar o dízimo, \"não restituímos nada a Deus nem fazemos barganha com Ele\", e o Voltemos ao Evangelho aponta a barganha, e não o dízimo em si, como o erro da teologia da prosperidade.",
   "A contribuição deve ser voluntária e alegre (2 Coríntios 9:7): Ciro Zibordi diz que dízimos e ofertas são \"voluntárias, e não compulsórias\", e a Congregação Cristã fala em ofertas voluntárias.",
-  "Os obreiros que trabalham na Palavra devem ser sustentados (1 Coríntios 9): Zibordi, a CPAD e André Aloísio concordam, e a Congregação Cristã reconhece o direito, embora não remunere o seu ministério.",
+  "Os obreiros que trabalham na Palavra devem ser sustentados (1 Coríntios 9): Zibordi, a CPAD e André Aloísio concordam, e a Congregação Cristã lê Lucas 10:7 e Gálatas 6:6 como sustento de quem anuncia, mas entende que o seu ministério não deve ser remunerado.",
   "O dízimo é anterior à Lei de Moisés (Gênesis 14:20): a Congregação Cristã admite, assim como Solano Portela e a CPAD.",
   "Tudo pertence a Deus, não só a décima parte: os dois lados lembram que o cristão é mordomo de tudo o que tem."
  ],
@@ -232,7 +232,7 @@
   ],
   [
    "1 Coríntios 16:2",
-   "Cada um ponha de parte o que puder ajuntar, conforme a sua prosperidade."
+   "Cada um de vós ponha de parte o que puder ajuntar, conforme a sua prosperidade."
   ],
   [
    "2 Coríntios 9:7",
@@ -328,8 +328,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-30T11:00:09-03:00"
+  "data": "2026-10-30T21:23:36-03:00",
+  "modo": "automatica"
  },
  "publicado_em": "2026-10-30T05:40:02-03:00",
- "atualizado_em": "2026-10-30T11:00:09-03:00"
+ "atualizado_em": "2026-10-30T21:23:36-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-30",
+   "texto": "Correção em 30/10/2026: a Congregação Cristã no Brasil lê Lucas 10:7 e Gálatas 6:6 como sustento de quem anuncia, mas entende que o seu ministério não deve ser remunerado; a circular fala das ordenanças do dízimo no Antigo Testamento, não de Malaquias (Circular 186/2024)."
+  }
+ ]
 }
