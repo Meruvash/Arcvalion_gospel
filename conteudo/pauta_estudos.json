@@ -52,16 +52,16 @@
   {
    "questao": "O batismo no Espírito Santo é uma segunda experiência, com línguas como evidência? (pentecostais x reformados)",
    "passagem": "Atos 2:1-4",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "batismo-no-espirito-atos-2",
    "obs": "",
    "tipo": "debate"
   },
   {
    "questao": "Quem foi salvo pode perder a salvação?",
    "passagem": "Hebreus 6:4-6",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "perda-da-salvacao-hebreus-6",
    "obs": "",
    "tipo": "debate"
   },
@@ -349,24 +349,24 @@
    "questao": "O filho pródigo: o pai que corre ao encontro",
    "passagem": "Lucas 15:11-32",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "filho-prodigo-lucas-15",
    "obs": ""
   },
   {
    "questao": "Mais que vencedores: nada nos separa do amor de Deus",
    "passagem": "Romanos 8:28-39",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "mais-que-vencedores-romanos-8",
    "obs": ""
   },
   {
    "questao": "A videira e os ramos: permanecer em Cristo",
    "passagem": "João 15:1-11",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "videira-joao-15",
    "obs": ""
   },
   {
