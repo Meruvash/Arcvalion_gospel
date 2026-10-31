@@ -99,13 +99,20 @@
  },
  "ia": {
   "usada": true,
-  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus e comentários de Matthew Henry, John Wesley e João Calvino e, sobre saúde, da Biblioteca Virtual em Saúde e da OMS da Biblioteca Virtual em Saúde e da OMS. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus e comentários de Matthew Henry, John Wesley e João Calvino e, sobre saúde, da Biblioteca Virtual em Saúde e da OMS. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
  },
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-30T21:15:51-03:00",
+  "data": "2026-10-30T21:24:39-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-10-30T21:15:51-03:00"
+ "publicado_em": "2026-10-30T21:15:51-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-30",
+   "texto": "Correção em 30/10/2026: o levantamento citado pelo Jornal do Brás (dez/2025) é do site Taverna dos Livros e fala em aumento médio de 38% nas buscas de termos como \"ansiedade e Bíblia\" entre 2023 e 2025, não que estejam entre os que mais cresceram."
+  }
+ ],
+ "atualizado_em": "2026-10-30T21:24:39-03:00"
 }

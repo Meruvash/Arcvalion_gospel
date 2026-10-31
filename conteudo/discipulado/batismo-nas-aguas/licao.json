@@ -103,8 +103,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-30T21:15:51-03:00",
+  "data": "2026-10-30T21:24:50-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-10-30T21:15:51-03:00"
+ "publicado_em": "2026-10-30T21:15:51-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-30",
+   "texto": "Correção em 30/10/2026: só Calvino e Wesley comparam o batismo à circuncisão nas fontes linkadas; Matthew Henry achava mais apropriado derramar ou aspergir água (comentário a Mateus 28); a resposta da Declaração de Fé (cap. XII) sobre a circuncisão passou a ser citada."
+  }
+ ],
+ "atualizado_em": "2026-10-30T21:24:50-03:00"
 }

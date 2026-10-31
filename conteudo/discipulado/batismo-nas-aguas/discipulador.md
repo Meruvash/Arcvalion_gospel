@@ -20,7 +20,7 @@ Mateus 28:19-20 traz a ordem; Romanos 6:3-4, o significado (união com Cristo na
 
 ## Diferenças entre tradições
 
-Calvino, Henry e Wesley batizavam filhos de cristãos e aceitavam aspersão; a Declaração de Fé batiza por imersão, uma vez, só quem se arrependeu e creu, e rejeita o batismo infantil. Para Calvino e Henry, o batismo também sela a união com Cristo; para a Declaração, é testemunho e compromisso. Apresente as diferenças com respeito: muitos alunos foram batizados crianças em outras igrejas.
+Calvino, Henry e Wesley batizavam filhos de cristãos, e Calvino e Henry aceitavam aspersão; a Declaração de Fé batiza por imersão, uma vez, só quem se arrependeu e creu, e rejeita o batismo infantil. Para Calvino e Henry, o batismo também sela a união com Cristo; para a Declaração, é testemunho e compromisso. Apresente as diferenças com respeito: muitos alunos foram batizados crianças em outras igrejas.
 
 ## Dúvidas frequentes
 

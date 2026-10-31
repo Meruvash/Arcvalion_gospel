@@ -10,7 +10,7 @@ Numa igreja pentecostal, o culto de batismo é um dos dias mais esperados do ano
 
 Mas o que acontece ali, exatamente? A pergunta não é só curiosidade. Os cristãos discordam há séculos sobre o batismo: quem pode ser batizado, de que jeito, e o que ele realiza. Este estudo apresenta o que a Bíblia ensina, a posição da nossa tradição e, com respeito, as outras leituras.
 
-Comecemos por uma cena na estrada, que já aparece em outro estudo desta biblioteca: o tesoureiro da Etiópia, que lia o profeta Isaías na carruagem e ouviu de Filipe a boa notícia sobre Jesus. A história termina assim.
+Comecemos por uma cena na estrada: o tesoureiro da Etiópia, que lia o profeta Isaías na carruagem e ouviu de Filipe a boa notícia sobre Jesus. A história termina assim.
 
 ## Fundamentação bíblica
 
@@ -26,7 +26,7 @@ A ordem de Jesus, depois da ressurreição:
 
 > **19** Portanto, vão a todos os povos do mundo e façam com que sejam meus seguidores, batizando esses seguidores em nome do Pai, do Filho e do Espírito Santo
 >
-> **20** e ensinando-os a obedecer a tudo o que tenho ordenado a vocês.
+> **20** e ensinando-os a obedecer a tudo o que tenho ordenado a vocês. E lembrem disto: eu estou com vocês todos os dias, até o fim dos tempos.
 
 E o significado, segundo Paulo:
 
@@ -68,9 +68,9 @@ Uma comparação ajuda, desde que não se peça demais a ela. Não é a aliança
 
 Seria desonesto dizer que todos os cristãos pensam igual sobre o batismo. Há três diferenças principais, e vale conhecê-las com respeito.
 
-- **Crianças ou só quem crê.** Calvino, Matthew Henry e Wesley batizavam filhos de famílias cristãs, comparando o batismo à circuncisão que os meninos de Israel recebiam ainda bebês. A Declaração de Fé responde diretamente a esse argumento. As Assembleias de Deus não praticam o batismo infantil "por não haver exemplo de batismo de crianças nas Escrituras", e batizam só os que "primeiramente se arrependem dos seus pecados e creem em Jesus".
+- **Crianças ou só quem crê.** Calvino, Matthew Henry e Wesley defendiam o batismo dos filhos de famílias cristãs; Calvino e Wesley o comparam à circuncisão que os meninos de Israel recebiam ainda bebês. A Declaração de Fé responde diretamente a esse argumento. As Assembleias de Deus não praticam o batismo infantil "por não haver exemplo de batismo de crianças nas Escrituras". A Declaração explica que o batismo não é "um meio da graça salvadora, ou sinal e selo da aliança, que substitui a circuncisão dos israelitas". Por isso as igrejas batizam só os que "primeiramente se arrependem dos seus pecados e creem em Jesus".
 
-- **Mergulho ou aspersão.** A Declaração exige a imersão do corpo inteiro, uma vez. Calvino achava o modo indiferente e deixava as igrejas livres para mergulhar ou aspergir; Henry aceitava mergulhar, derramar ou aspergir água.
+- **Mergulho ou aspersão.** A Declaração exige a imersão do corpo inteiro, uma vez. Calvino achava o modo indiferente e deixava as igrejas livres para mergulhar ou aspergir; Henry aceitava mergulhar, mas achava mais apropriado derramar ou aspergir água.
 
 - **Sinal ou meio de graça.** Para Calvino e Henry, o batismo também sela a união com Cristo; Henry chega a chamá-lo de juramento. Para a Declaração, ele é testemunho e compromisso público de quem já foi salvo.
 
@@ -81,7 +81,7 @@ Mesmo com essas diferenças, todos concordam no centro: o batismo une a pessoa a
 
 ### Batismo nas águas e batismo no Espírito Santo
 
-Nas igrejas pentecostais, a mesma palavra aparece em duas experiências diferentes. O batismo nas águas, de que trata este estudo, é a ordenança pública feita por um ministro, uma vez na vida. O batismo no Espírito Santo é tratado pela Declaração de Fé em outro capítulo, que começa dizendo: "O batismo no Espírito Santo é distinto da salvação". As duas experiências não se confundem nem uma substitui a outra, e o batismo no Espírito merece um estudo próprio.
+Nas igrejas pentecostais, a mesma palavra aparece em duas experiências diferentes. O batismo nas águas, de que trata este estudo, é a ordenança pública feita por um ministro, uma vez na vida. O batismo no Espírito Santo é tratado pela Declaração de Fé em outro capítulo (XIX), cujo primeiro item afirma: "O batismo no Espírito Santo é distinto da salvação". As duas experiências não se confundem nem uma substitui a outra, e o batismo no Espírito merece um estudo próprio.
 
 ## Aplicação prática
 

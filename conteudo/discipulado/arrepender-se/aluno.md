@@ -8,7 +8,7 @@ Arrepender-se é sentir remorso, chorar pelo que fez, prometer que nunca mais va
 
 Na linguagem do dia a dia, arrependimento é quase sinônimo de remorso. A gente se arrepende de uma compra, de uma palavra dita na hora errada, de um relacionamento que não deu certo. O sentimento é real, às vezes amargo, mas costuma parar ali: um peso no peito e a vontade de que as coisas tivessem sido diferentes.
 
-Na Bíblia, a palavra vai bem mais longe. Quando Pedro pregou a primeira mensagem da igreja, em Jerusalém, as pessoas ficaram "muito aflitas" e perguntaram o que deviam fazer. A resposta começou com uma palavra: "Arrependam-se" (Atos 2:37-38). Pouco depois, Pedro explicou o que ela queria dizer: "arrependam-se e voltem para Deus" (Atos 3:19). Arrepender-se, no sentido bíblico, não é só sentir. É voltar.
+Na Bíblia, a palavra vai bem mais longe. Quando Pedro pregou a primeira mensagem da igreja, em Jerusalém, todos ficaram "muito aflitos" e perguntaram o que deviam fazer. A resposta começou com uma palavra: "Arrependam-se" (Atos 2:37-38). Pouco depois, Pedro explicou o que ela queria dizer: "arrependam-se e voltem para Deus" (Atos 3:19). Arrepender-se, no sentido bíblico, não é só sentir. É voltar.
 
 E não há história que mostre isso melhor do que a que Jesus contou sobre um filho que foi embora de casa.
 
@@ -40,7 +40,7 @@ Jesus contou essa história a um público misto. Do lado de perto, cobradores de
 
 ### Cair em si
 
-A virada da história cabe em três palavras: "Caindo em si". O comentarista Matthew Henry, pastor inglês do século XVIII, observa que a expressão dá a entender que, antes, o rapaz estava fora de si. Não é só que ele tivesse feito coisas erradas; ele tinha perdido o juízo sobre a própria vida. E acrescenta um detalhe incômodo: foi na aflição, quando passou necessidade, que ele caiu em si.
+A virada da história cabe em três palavras: "Caindo em si". O comentarista Matthew Henry, pastor britânico (1662-1714), observa que a expressão dá a entender que, antes, o rapaz estava fora de si. Não é só que ele tivesse feito coisas erradas; ele tinha perdido o juízo sobre a própria vida. E acrescenta um detalhe incômodo: foi na aflição, quando passou necessidade, que ele caiu em si.
 
 Isso não quer dizer que Deus precise de desgraça para nos alcançar. Mas é honesto reconhecer que muita gente só para e pensa quando a vida aperta. O primeiro movimento do arrependimento é esse despertar: enxergar com clareza onde se está, sem desculpas e sem autoengano. "Eu estou aqui morrendo de fome."
 
@@ -70,7 +70,7 @@ Na vida real, essas diferenças pesam menos do que parece. Ninguém se arrepende
 
 ### O pai que corre
 
-O ponto mais surpreendente da história não está no filho, mas no pai. O rapaz tinha ensaiado um discurso: "Me aceite como um dos seus trabalhadores." Esperava, no máximo, um emprego. O pai não deixou que ele terminasse a frase. Viu o filho "ainda longe", correu, abraçou, beijou, mandou trazer a melhor roupa, anel e sandálias, e fez festa: "este meu filho estava morto e viveu de novo" (Lucas 15:20-24).
+O ponto mais surpreendente da história não está no filho, mas no pai. O rapaz tinha ensaiado um discurso: "Me aceite como um dos seus trabalhadores." Esperava, no máximo, um emprego. O pai não deixou que ele terminasse a frase. Viu o filho quando ele "ainda estava longe de casa", correu, abraçou, beijou, mandou trazer a melhor roupa, anel e sandálias, e fez festa: "este meu filho estava morto e viveu de novo" (Lucas 15:20-24).
 
 Arrependimento, na Bíblia, nunca é um pagamento pela volta. O filho não comprou o perdão com a sua tristeza; ele foi recebido porque o pai já o amava. É por isso que o arrependimento cristão não é uma humilhação sem saída, mas o começo de uma festa. A promessa vale para hoje: "se confessarmos os nossos pecados a Deus, ele cumprirá a sua promessa e fará o que é correto: ele perdoará os nossos pecados e nos limpará de toda maldade" (1 João 1:9).
 

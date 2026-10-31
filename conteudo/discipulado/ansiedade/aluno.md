@@ -6,7 +6,7 @@ Quando Jesus disse "não se preocupem", ele estava condenando quem sofre de ansi
 
 ## Introdução
 
-Poucas palavras descrevem tão bem o nosso tempo quanto ansiedade. Ela aparece na conversa do trabalho, na fila do posto de saúde, nas madrugadas sem sono. E aparece nas buscas: segundo dados públicos do Google Trends citados pelo Jornal do Brás em dezembro de 2025, termos como "ansiedade e Bíblia" estão entre os que mais cresceram nas buscas de fé entre 2023 e 2025. Muita gente está procurando, ao mesmo tempo, alívio para a mente e uma palavra de Deus.
+Poucas palavras descrevem tão bem o nosso tempo quanto ansiedade. Ela aparece na conversa do trabalho, na fila do posto de saúde, nas madrugadas sem sono. E aparece nas buscas: segundo levantamento do site Taverna dos Livros com dados públicos do Google Trends, citado pelo Jornal do Brás em dezembro de 2025, termos como "ansiedade e Bíblia" tiveram aumento médio de 38% nas buscas entre 2023 e 2025. Muita gente está procurando, ao mesmo tempo, alívio para a mente e uma palavra de Deus.
 
 O risco é encontrar respostas rápidas demais. De um lado, quem diz que ansiedade é só falta de fé e que basta orar mais. De outro, quem trata a fé como mais um calmante. A Bíblia é mais honesta do que as duas coisas. Ela fala da preocupação com franqueza, mostra homens e mulheres de Deus em profunda angústia e, sobretudo, mostra Jesus angustiado.
 
@@ -52,7 +52,7 @@ Deus não deu bronca em Elias. Mandou um anjo que o tocou e disse: "Levante-se e
 
 ### Que preocupação Jesus proíbe?
 
-Se sentir não é pecado, o que Jesus quis dizer com "não se preocupem"? Os comentaristas antigos respondem quase com as mesmas palavras. Matthew Henry, pastor inglês do século XVIII, diz que existe um cuidado com as coisas da vida que não só é permitido, mas é dever: planejar, trabalhar, prever. O que Jesus proíbe é outro tipo de pensamento, o que atormenta, tira o sono, rouba a alegria em Deus e nasce da desconfiança. Henry chama o primeiro de cuidado de diligência e o segundo, de cuidado de desconfiança.
+Se sentir não é pecado, o que Jesus quis dizer com "não se preocupem"? Os comentaristas antigos respondem quase com as mesmas palavras. Matthew Henry, pastor britânico (1662-1714), diz que existe um cuidado com as coisas da vida que não só é permitido, mas é dever: planejar, trabalhar, prever. O que Jesus proíbe é outro tipo de pensamento, o que atormenta, tira o sono, rouba a alegria em Deus e nasce da desconfiança. Henry chama o primeiro de cuidado de diligência e o segundo, de cuidado de desconfiança.
 
 João Calvino, o reformador do século XVI, define do mesmo modo: a solicitude condenada é a ansiedade que vem da desconfiança no poder e na ajuda de Deus. E John Wesley, o pregador que deu origem ao metodismo, traduz a ordem de Jesus assim: não fiquem ansiosamente preocupados.
 
