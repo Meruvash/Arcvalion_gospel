@@ -1,0 +1,220 @@
+{
+ "slug": "justica-trabalho-meta-remover-posts-demissao-voto",
+ "data": "2026-10-31",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Justiça do Trabalho manda Meta apagar 14 posts que incentivam demitir funcionário pelo voto",
+ "lide": "O juiz Bruno José Perusso, da 77ª Vara do Trabalho de São Paulo, deu liminar em 29 de outubro mandando a Meta retirar, em 24 horas, 14 publicações do Instagram, Facebook e Threads que incentivam empresários a demitir ou expor funcionários por causa do voto. A ação é do Ministério Público do Trabalho, que pede R$ 50 milhões por danos morais coletivos.",
+ "por_que_importa": "Ninguém deve perder o emprego por causa do voto, e quem faz isso já responde na Justiça do Trabalho. Mas a decisão vai além de punir quem demite: manda apagar textos que não foram divulgados, e os autores só serão avisados depois da remoção. Quando o alvo é a palavra, o devido processo precisa vir antes da tesoura.",
+ "numeros": [
+  [
+   "14",
+   "publicações indicadas pelo MPT que a Meta deve remover em 24 horas após ser notificada",
+   "Agência Brasil e InfoMoney, 29 e 30/10/2026"
+  ],
+  [
+   "R$ 50 mil",
+   "de multa por dia para cada link mantido no ar depois do prazo",
+   "InfoMoney, 30/10/2026"
+  ],
+  [
+   "R$ 50 milhões",
+   "é o valor que o MPT pede de danos morais coletivos; ainda não foi decidido",
+   "Agência Brasil, 29/10/2026"
+  ],
+  [
+   "3.080",
+   "denúncias de assédio eleitoral recebidas pelo MPT no país em 2026, 1.147 delas nas 72 horas depois do segundo turno",
+   "MPT, citado pela Agência Brasil"
+  ]
+ ],
+ "corpo": [
+  "Além de remover os 14 posts, a Meta terá de interromper a recomendação desses conteúdos pelos algoritmos, avisar em até 48 horas os donos das contas de que as publicações saíram do ar por ordem judicial, guardar o material até o fim do processo e publicar por cinco dias, nas três plataformas, um alerta de que a lei proíbe discriminar trabalhador por convicção política. Se não publicar o alerta em 72 horas, a multa é de R$ 200 mil, segundo o InfoMoney.",
+  "Segundo o MPT, os posts incentivavam empregadores a investigar os perfis dos funcionários, deixar de contratar e demitir quem votou diferente do patrão e expor trabalhadores ao ridículo. Na decisão, o juiz escreveu que a liberdade de expressão e a manifestação política são garantidas, mas não autorizam incentivar discriminação no trabalho, e separou a opinião partidária da incitação à perseguição profissional."
+ ],
+ "no_brasil": "A decisão é provisória e a Meta pode recorrer ao Tribunal Regional do Trabalho da 2ª Região. No Rio, em 27 de outubro, a Justiça do Trabalho já tinha proibido em liminar a deputada estadual Índia Armelau (PL) de incentivar demissões por convicção política. No Congresso, dois projetos querem tornar crime a discriminação por voto: o PL 2.885/2022, no Senado, e o PL 5.689/2026, do PT, na Câmara.",
+ "critica": [
+  {
+   "fonte": "Juiz Bruno José Perusso, na liminar, segundo a Agência Brasil",
+   "texto": "Para o juiz, a liberdade de expressão e a manifestação de opiniões políticas são direitos assegurados, mas não autorizam o incentivo a práticas discriminatórias nas relações de trabalho.",
+   "citacao": false
+  },
+  {
+   "fonte": "Ministério Público do Trabalho, na ação, segundo a Agência Brasil",
+   "texto": "O MPT diz que os sistemas de recomendação das plataformas, como a aba Explorar do Instagram e os vídeos curtos sugeridos, ampliam o alcance desse tipo de conteúdo.",
+   "citacao": false
+  },
+  {
+   "fonte": "Meta",
+   "texto": "As reportagens da Agência Brasil e do InfoMoney não trazem manifestação da Meta sobre a decisão; a empresa pode recorrer.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Trabalhador: demissão, recusa de contratação ou exposição por causa do voto pode ser denunciada ao MPT, que já move ações por assédio eleitoral na Justiça do Trabalho",
+  "Quem publica nas redes: criticar candidato, partido ou governo continua permitido; o que a liminar atinge é o incentivo a demitir ou perseguir alguém pelo voto",
+  "Usuários do Instagram, Facebook e Threads: nos próximos dias deve aparecer o alerta institucional determinado pelo juiz"
+ ],
+ "nao_e_para": [
+  "As 14 publicações não foram divulgadas, e não se sabe quem são os autores",
+  "É liminar: o pedido de R$ 50 milhões e o mérito da ação ainda serão julgados, e a Meta pode recorrer",
+  "Não localizamos nota do MPT nem a íntegra da decisão; os detalhes vêm de duas reportagens independentes (Agência Brasil e InfoMoney), que divergem sobre a forma de contar a multa"
+ ],
+ "veredito": "A gente defende que ninguém perca o emprego pelo voto, e quem demitir por isso deve responder. Mas apagar texto é outra coisa: os 14 posts não foram divulgados e os autores só serão avisados depois. Liberdade de expressão pede o contrário: conhecer a acusação antes e ter a chance de se defender.",
+ "versiculo": {
+  "texto": "Porventura, condena a nossa lei um homem sem primeiro o ouvir e ter conhecimento do que faz?",
+  "referencia": "João 7.51",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Brasil: Justiça manda Meta excluir posts sobre demissão por voto político (29/10/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-manda-meta-excluir-posts-sobre-demissao-por-voto-politico",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "InfoMoney: Justiça do Trabalho ordena que Meta remova conteúdos que incentivam assédio eleitoral (30/10/2026)",
+   "url": "https://www.infomoney.com.br/politica/justica-do-trabalho-ordena-que-meta-remova-conteudos-que-incentivam-assedio-eleitoral/",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Rondônia Dinâmica: Denúncias de assédio eleitoral no trabalho disparam 75% após 2º turno (liminar contra a deputada Índia Armelau em 27/10)",
+   "url": "https://www.rondoniadinamica.com/noticias/2026/10/denuncias-de-assedio-eleitoral-no-trabalho-disparam-75-apos-2-turno,257623.shtml",
+   "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: PL 5.689/2026, inteiro teor",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187414",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 75,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "liberdade",
+   "porque": "O fato é sobre liberdade de expressão: uma decisão judicial manda remover publicações políticas de três redes sociais e impõe um alerta aos usuários do país"
+  },
+  "origem": {
+   "nome": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-manda-meta-excluir-posts-sobre-demissao-por-voto-politico"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Liminar já valendo: obriga a Meta a remover posts, suspender recomendação e exibir alerta a todos os usuários de Instagram, Facebook e Threads no Brasil"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Liberdade de expressão e a onda de boicotes e demissões depois da eleição: núcleo do portal, com efeito direto em quem publica nas redes"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Liminar de 29/10, com prazos de 24 a 72 horas correndo agora"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Duas reportagens próprias independentes (Agência Brasil e InfoMoney) com os detalhes da decisão; íntegra e nota do MPT não localizadas"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Síntese das reportagens com o contexto dos dois projetos de lei e da decisão sobre a deputada no Rio"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 6,
+    "viral": 5,
+    "cristao": 2
+   },
+   "criterios": [
+    "Ato de poder: liminar da Justiça do Trabalho contra a Meta (2)",
+    "Proximidade: nacional (2)",
+    "Número forte com fonte oficial (1)",
+    "Duas fontes independentes (1)",
+    "Emoção de alta ativação: espanto (1)",
+    "Personagem com nome: o juiz Bruno José Perusso (1)",
+    "Contraria a narrativa: autores só serão avisados depois de o post sair do ar (1)",
+    "Utilidade: o leitor sabe o que a decisão atinge e o que continua permitido (1)",
+    "Gatilho no calendário: semana seguinte à eleição (1)",
+    "Passagem bíblica que um pastor usaria: João 7.51 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Justiça manda Meta excluir posts sobre demissão por voto político",
+  "nucleo": "A - Brasil",
+  "categoria": "Justiça do Trabalho / liberdade de expressão",
+  "coleta": "2026-10-31",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado por duas reportagens independentes",
+   "contradicoes": "Multa: InfoMoney fala em R$ 50 mil por dia por link; outra reportagem (BPMoney) fala em R$ 50 mil por publicação com teto de R$ 500 mil. A nota usa a do InfoMoney, atribuída.",
+   "sem_confirmacao": "íntegra da liminar e número do processo; nota do MPT; posição da Meta"
+  },
+  "duplicidade": {
+   "grupo": "MPT x Meta / 77ª Vara do Trabalho de SP",
+   "itens": [
+    "Agência Brasil 29/10",
+    "InfoMoney 30/10",
+    "ISTOÉ, Folha Vitória, ICL, BPMoney (republicações ou derivadas)"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionadas": [
+    "2026-10-30-pl-pt-boicote-politico-prisao-ressalva-igrejas",
+    "2026-10-30-pl-intolerancia-politica-boicote-demissao"
+   ]
+  },
+  "seo": {
+   "intencao": "entender a decisão que manda a Meta apagar posts sobre demissão por voto",
+   "entidades": [
+    "Meta",
+    "Instagram",
+    "Facebook",
+    "Threads",
+    "MPT",
+    "TRT-2",
+    "Bruno José Perusso"
+   ],
+   "termos": [
+    "assédio eleitoral",
+    "demissão por voto",
+    "remoção de posts",
+    "liberdade de expressão"
+   ],
+   "atualizacao": "acompanhar recurso da Meta e o julgamento do pedido de R$ 50 milhões"
+  }
+ },
+ "instituicao": "Justiça do Trabalho (TRT-2)",
+ "editora": "Justiça do Trabalho (TRT-2)",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a opinião critica o alcance e o procedimento da liminar (remoção antes de aviso aos autores, posts não divulgados), fatos que estão nas reportagens, sem atribuir intenção ao juiz ou ao MPT. A nota deixa claro que demitir por voto é ilegal e não endossa a conduta dos posts. A deputada citada aparece só com a decisão judicial noticiada, sem juízo sobre ela.",
+ "imagem": {
+  "arquivo": "capas/justica-trabalho-meta-remover-posts-demissao-voto.jpg",
+  "credito": "Foto: Paulo Pinto/Agência Brasil",
+  "alt": "Manifestantes com cartazes em frente à sede da Meta, na avenida Faria Lima, em São Paulo, em 19 de outubro (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/F3omU4we4_jGkWBi1WL4XRDIwUs=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/19/_int2109.jpg?itok=8PXas5fR",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-manda-meta-excluir-posts-sobre-demissao-por-voto-politico"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-10-31T02:37:01-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-10-31T02:37:01-03:00"
+}

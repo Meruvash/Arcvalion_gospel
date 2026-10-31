@@ -1,0 +1,191 @@
+{
+ "slug": "pec-seguranca-votacao-senado-maioridade-penal",
+ "data": "2026-10-31",
+ "categoria": "politica-e-sociedade",
+ "status": "revisao",
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Senado vota PEC da Segurança na terça com emendas que reduzem a maioridade penal",
+ "lide": "O presidente do Senado, Davi Alcolumbre, marcou para terça-feira (3), às 16h, a votação da PEC 18/2025, a PEC da Segurança Pública. Até sexta-feira (30), o texto tinha cinco emendas de Plenário, duas delas para reduzir a maioridade penal: uma de Rogério Marinho (PL-RN) e outra do líder do governo, Camilo Santana (PT-CE).",
+ "por_que_importa": "Quando até o líder do governo propõe reduzir a maioridade penal para crimes hediondos, o debate deixou de ser tabu. A questão agora é se o Senado vai votar o tema às claras, com o nome de cada senador no painel, ou empurrá-lo para depois para não devolver a PEC à Câmara. Família que perdeu alguém para um crime bárbaro merece a resposta no voto.",
+ "numeros": [
+  [
+   "16 anos",
+   "é a idade proposta por Camilo Santana para crimes hediondos; Rogério Marinho propõe 16 anos como regra e 14 para hediondos, tortura, tráfico e terrorismo",
+   "Agência Senado, 30/10/2026"
+  ],
+  [
+   "10%",
+   "do superávit do Fundo Soberano do Pré-Sal vão para a segurança pública no texto do relator",
+   "Agência Senado, 30/10/2026"
+  ],
+  [
+   "4 de 81",
+   "emendas dos senadores foram aceitas pelo relator na CCJ, Rogério Carvalho (PT-SE)",
+   "Agência Senado, 30/10/2026"
+  ]
+ ],
+ "corpo": [
+  "A PEC, enviada pelo governo, põe o Sistema Único de Segurança Pública na Constituição e cria um regime penal mais duro para líderes e integrantes de facções e milícias: prisão obrigatória em presídio de segurança máxima, restrição à progressão de regime, confisco de bens ligados ao crime e proteção a denunciantes. A CCJ aprovou o texto em 14 de outubro, e um calendário especial dispensa os intervalos entre os dois turnos de votação.",
+  "Segundo o portal Claudio Dantas, a votação já tinha sido adiada por falta de acordo sobre a maioridade penal, e o governo tenta tirar o tema da PEC para que o texto não precise voltar à Câmara. A proposta de Camilo Santana, alternativa à da oposição, provocou divergência dentro do PT, segundo o mesmo portal."
+ ],
+ "no_brasil": "Hoje a Constituição fixa em 18 anos a idade da responsabilidade penal (art. 228); adolescentes respondem pelo Estatuto da Criança e do Adolescente, com internação de até três anos. Por ser emenda constitucional, a PEC precisa de 49 votos em cada um dos dois turnos no Senado. Se o texto mudar, volta à Câmara.",
+ "critica": [
+  {
+   "fonte": "Senador Rogério Marinho (PL-RN), em emenda de Plenário, segundo a Agência Senado",
+   "texto": "Marinho propõe reduzir a maioridade penal de 18 para 16 anos como regra geral, e para 14 anos nos crimes hediondos, de tortura, tráfico de drogas e terrorismo.",
+   "citacao": false
+  },
+  {
+   "fonte": "Senador Camilo Santana (PT-CE), líder do governo, em emenda de Plenário, segundo a Agência Senado",
+   "texto": "Camilo propõe reduzir a maioridade penal para 16 anos apenas nos crimes hediondos.",
+   "citacao": false
+  },
+  {
+   "fonte": "Governo federal, segundo o portal Claudio Dantas",
+   "texto": "O governo tenta negociar a retirada da maioridade penal da PEC, para que o texto não precise de nova votação na Câmara, e defende que o assunto seja discutido separadamente.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Famílias de vítimas de crimes violentos: na terça, o Senado pode decidir se adolescentes de 16 anos que cometem crime hediondo passam a responder pelo Código Penal",
+  "Eleitores: é a hora de saber como vota o senador do seu estado, nome por nome, no painel do Plenário",
+  "Igrejas que trabalham com jovens em situação de risco: o regime mais duro contra facções muda o ambiente em que muitos adolescentes são recrutados"
+ ],
+ "nao_e_para": [
+  "As emendas ainda precisam ser analisadas pelo relator e votadas; o acordo para a sessão de terça não estava fechado até 30/10",
+  "Se o Senado mudar o texto aprovado pelos deputados, a PEC volta à Câmara antes de ser promulgada",
+  "A informação de que o governo tenta retirar o tema da PEC vem do portal Claudio Dantas; não localizamos nota oficial do governo sobre isso"
+ ],
+ "veredito": "A gente apoia mão firme contra o crime organizado e defende votar a maioridade penal para crimes hediondos agora, às claras. Se até o líder do governo concorda com 16 anos, adiar só serve a quem não quer o nome no painel. Ligue para o seu senador antes de terça.",
+ "versiculo": {
+  "texto": "Visto como se não executa logo o juízo sobre a má obra, por isso, o coração dos filhos dos homens está inteiramente disposto para praticar o mal",
+  "referencia": "Eclesiastes 8.11",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Davi marca para terça votação da PEC da Segurança (30/10/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/10/30/davi-marca-para-terca-votacao-da-pec-da-seguranca",
+   "data": "30/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Claudio Dantas: Alcolumbre marca votação da PEC da Segurança e impasse sobre maioridade penal ameaça acordo (30/10/2026)",
+   "url": "https://claudiodantas.com.br/alcolumbre-marca-votacao-da-pec-da-seguranca/",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 62,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "O fato é uma votação marcada no Senado de uma PEC, com emendas da oposição e do governo sobre a maioridade penal"
+  },
+  "origem": {
+   "nome": "Claudio Dantas",
+   "url": "https://claudiodantas.com.br/alcolumbre-marca-votacao-da-pec-da-seguranca/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "PEC já aprovada pela Câmara e pela CCJ, com votação em Plenário marcada; ainda não aprovada, e as emendas da maioridade não foram votadas"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Congresso, segurança das famílias e proposta da oposição (Rogério Marinho): núcleo do portal, com efeito direto no leitor"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Votação marcada para terça-feira, 3 de novembro"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Notícia oficial da Agência Senado com a pauta e as emendas; confirmação independente do impasse pelo portal Claudio Dantas; o texto das emendas não foi lido"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Síntese das duas fontes com o contexto da Constituição (art. 228) e do quórum de PEC"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 6,
+    "viral": 4,
+    "cristao": 2
+   },
+   "criterios": [
+    "Ato de poder: votação marcada no Senado (2)",
+    "Proximidade: nacional (2)",
+    "Número forte com fonte oficial (1)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Rogério Marinho e Camilo Santana (1)",
+    "Contraria a narrativa: líder do governo também propõe reduzir a maioridade (1)",
+    "Utilidade: o leitor pode cobrar o voto do seu senador (1)",
+    "Gatilho no calendário: votação na terça (1)",
+    "Passagem bíblica que um pastor usaria: Eclesiastes 8.11 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Davi marca para terça votação da PEC da Segurança",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / segurança pública",
+  "coleta": "2026-10-31",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em fonte oficial",
+   "contradicoes": "nenhuma entre as fontes; a negociação do governo para retirar o tema só aparece no Claudio Dantas e está atribuída",
+   "sem_confirmacao": "texto integral das emendas; posição oficial do governo; a frase atribuída a Lula pelo portal não foi usada"
+  },
+  "duplicidade": {
+   "grupo": "PEC 18/2025 no Senado",
+   "itens": [
+    "Agência Senado 30/10",
+    "Claudio Dantas 30/10"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber quando o Senado vota a PEC da Segurança e a redução da maioridade penal",
+   "entidades": [
+    "Senado Federal",
+    "Davi Alcolumbre",
+    "Rogério Marinho",
+    "Camilo Santana",
+    "Rogério Carvalho",
+    "PEC 18/2025"
+   ],
+   "termos": [
+    "PEC da Segurança",
+    "maioridade penal",
+    "redução da maioridade penal",
+    "crimes hediondos"
+   ],
+   "atualizacao": "acompanhar a votação de terça (3/11) e o destino das emendas"
+  }
+ },
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a opinião defende uma posição política (votar a redução para crimes hediondos) e critica o adiamento como escolha de procedimento, sem atribuir intenção a pessoa nomeada ('quem não quer o nome no painel' é genérico). Nenhum grupo é desqualificado: a crítica é à demora, não aos adolescentes nem a quem pensa diferente. A negociação do governo está atribuída ao portal que a publicou; as emendas, à Agência Senado.",
+ "imagem": {
+  "arquivo": "capas/pec-seguranca-votacao-senado-maioridade-penal.jpg",
+  "credito": "Foto: Ton Molina/Agência Senado",
+  "alt": "O presidente do Senado, Davi Alcolumbre (à direita), conversa com o senador Rogério Carvalho, relator da PEC na CCJ, à Mesa do Plenário",
+  "licenca": "Reprodução livre com citação da Agência Senado e do autor, sem descaracterizar o conteúdo",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/10/30/davi-marca-para-terca-votacao-da-pec-da-seguranca/55572666527_34e9262ef0_o.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/10/30/davi-marca-para-terca-votacao-da-pec-da-seguranca"
+ },
+ "publicado_em": "2026-10-31T05:37:04+00:00"
+}
