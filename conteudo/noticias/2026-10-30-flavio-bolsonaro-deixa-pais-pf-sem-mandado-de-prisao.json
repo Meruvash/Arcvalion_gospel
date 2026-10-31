@@ -6,12 +6,12 @@
  "selo": "Vale acompanhar",
  "titulo": "Flávio Bolsonaro deixa o país pela Argentina; PF diz que não há mandado de prisão",
  "lide": "O senador Flávio Bolsonaro (PL-RJ) cruzou a fronteira com a Argentina na noite de 27 de outubro e chegou a Miami no dia 28, segundo a migração argentina e a Agência Brasil. Um dia antes, Alexandre de Moraes o proibiu de deixar o país. Em nota, a Polícia Federal diz que ele não entregou os passaportes estrangeiros, mas que isso não o torna foragido nem autoriza prisão.",
- "por_que_importa": "O principal nome da oposição teve os passaportes cancelados por uma decisão sigilosa, pedida pela PF minutos depois de proclamado o resultado da eleição. Isso interessa a todo cidadão: a regra que vale para um precisa valer para todos, e à vista de todos. A nota da PF também esclarece o essencial: não há ordem de prisão contra o senador.",
+ "por_que_importa": "O principal nome da oposição teve os passaportes cancelados por uma decisão sigilosa, pedida pela PF, segundo o Poder360, minutos depois de proclamado o resultado da eleição. Isso interessa a todo cidadão: a regra que vale para um precisa valer para todos, e à vista de todos. A nota da PF também esclarece o essencial: não há ordem de prisão contra o senador.",
  "numeros": [
   [
    "25/10",
-   "data em que a PF pediu ao STF a apreensão dos passaportes, minutos depois da proclamação do resultado da eleição",
-   "Polícia Federal, nota de 28/10/2026; Poder360"
+   "data em que a PF pediu ao STF a apreensão dos passaportes; segundo o Poder360, minutos depois da proclamação do resultado da eleição",
+   "Poder360, 28/10/2026 (a nota da PF de 28/10 confirma o pedido em 25/10)"
   ],
   [
    "24 horas",
@@ -25,8 +25,8 @@
   ]
  ],
  "corpo": [
-  "A decisão de Moraes atende a pedido da PF no inquérito (PET 16.877) em que Flávio e o advogado Willer Tomaz são investigados por suspeita de lavagem de dinheiro ligada a casas de apostas; os dois negam irregularidade. A decisão está em segredo de justiça e foi divulgada pelo próprio senador. Segundo a PF, os passaportes brasileiros, comum e diplomático, foram cancelados e um alerta migratório foi incluído no sistema.",
-  "A PF diz que não há registro oficial de saída do senador pelos postos de controle brasileiros e que investiga como as ordens judiciais foram descumpridas. Pela migração argentina, a família embarcou num avião particular para Guayaquil, no Equador, e de lá seguiu para Miami. O deputado Lindbergh Farias (PT-RJ) pediu ao STF a prisão preventiva do senador e a inclusão do nome dele na difusão vermelha da Interpol; não há decisão conhecida sobre o pedido."
+  "A decisão de Moraes atende a pedido da PF no inquérito (PET 16.877) em que Flávio e o advogado Willer Tomaz são investigados. Segundo a Agência Brasil, Willer é investigado por suspeita de lavagem de dinheiro ligada a casas de apostas, e a PF aponta, de forma preliminar, Flávio como beneficiário de recursos da Alcazar Holdings, empresa também investigada; os dois negam irregularidade. A decisão está em segredo de justiça e foi divulgada pelo próprio senador. Segundo a PF, os passaportes brasileiros, comum e diplomático, foram cancelados e um alerta migratório foi incluído no sistema.",
+  "A PF diz que não há registro oficial de saída do senador pelos postos de controle brasileiros e que investiga como as ordens judiciais foram descumpridas. Pela migração argentina, a família embarcou num avião particular para Guayaquil, no Equador, e de lá seguiu para Miami. Os deputados Lindbergh Farias (PT-RJ), Rogério Correia e Ana Elisa Santos pediram ao STF a prisão preventiva do senador e a inclusão do nome dele na difusão vermelha da Interpol; não há decisão conhecida sobre o pedido."
  ],
  "no_brasil": "Lula foi reeleito em 25 de outubro com cerca de 4,4 milhões de votos de vantagem sobre Flávio, e o PL reconheceu publicamente o resultado em 27 de outubro, segundo a Agência Brasil. Flávio continua senador, investigado em dois inquéritos no STF: o das apostas e o do financiamento do filme Dark Horse.",
  "critica": [
@@ -37,7 +37,7 @@
    "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/nota-a-imprensa-3"
   },
   {
-   "fonte": "Senador Flávio Bolsonaro, em vídeo nas redes sociais em 26/10, segundo a Agência Brasil",
+   "fonte": "Senador Flávio Bolsonaro, em 26/10, segundo a Agência Brasil",
    "texto": "Isso é motivo para tirar meu passaporte? Isso é justiça? Essa decisão foi tomada no domingo à noite, logo depois do resultado da eleição.",
    "citacao": true,
    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/moraes-manda-flavio-entregar-passaporte-e-o-proibe-de-deixar-o-pais"
@@ -244,6 +244,14 @@
  "publicado_em": "2026-10-30T13:23:18-03:00",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-30T13:23:18-03:00"
- }
+  "data": "2026-10-30T21:20:19-03:00",
+  "modo": "automatica"
+ },
+ "correcoes": [
+  {
+   "data": "2026-10-30",
+   "texto": "Correção em 30/10/2026: a nota atribuía a Flávio Bolsonaro suspeita de lavagem de dinheiro. Segundo a Agência Brasil (26/10), quem é investigado por suspeita de lavagem ligada a casas de apostas é o advogado Willer Tomaz; a PF aponta, de forma preliminar, o senador como beneficiário de recursos da Alcazar Holdings. O pedido de prisão foi de três deputados, não só de Lindbergh Farias (Claudio Dantas), e o 'minutos depois' é do Poder360."
+  }
+ ],
+ "atualizado_em": "2026-10-30T21:20:19-03:00"
 }

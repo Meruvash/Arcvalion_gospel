@@ -25,10 +25,10 @@
   ]
  ],
  "corpo": [
-  "As duas operações, Sem Desconto (PET 15041) e Compliance Zero (PET 15556 e PET 16662), foram tiradas de Mendonça em 12 de setembro, depois que o ministro Alexandre de Moraes enviou a Fachin uma representação (PET 16704) apontando supostas irregularidades na relatoria. Mendonça negou as acusações. Segundo o STF, a PGR não identificou elementos de crime de abuso de autoridade.",
+  "As duas operações, Sem Desconto (PET 15041) e Compliance Zero (PET 15556 e PET 16662), foram tiradas de Mendonça em 12 de setembro, depois que o ministro Alexandre de Moraes enviou a Fachin uma representação (PET 16704) apontando supostas irregularidades na relatoria. Mendonça negou as acusações, segundo o G1. Segundo o STF, a PGR não identificou elementos de crime de abuso de autoridade.",
   "Para Fachin, no caso do INSS não há menção ou indício concreto contra autoridade com foro que justifique manter o processo na Presidência. Já o caso Master cita autoridade sujeita ao STF e fica com ele até o fim do julgamento da questão de ordem, do pedido de vista de Dino ou da entrega do relatório da PF sobre as menções a ministros. Segundo o tribunal, a medida não antecipa juízo sobre o mérito."
  ],
- "no_brasil": "Mendonça é também o ministro que, em julho, autorizou a PF a abrir inquérito sobre Fábio Luís Lula da Silva, o Lulinha, por suspeita de tráfico de influência; segundo o InfoMoney, a apuração trata de fatos diferentes, mas nasceu de provas da Operação Sem Desconto. Lulinha nega irregularidades, e o presidente Lula disse que o filho será investigado como qualquer pessoa.",
+ "no_brasil": "Segundo o InfoMoney (31/07), Mendonça é também o ministro que autorizou a PF a abrir inquérito sobre Fábio Luís Lula da Silva, o Lulinha, por suspeita de corrupção e tráfico de influência; a apuração trata de fatos diferentes, mas nasceu de provas da Operação Sem Desconto. Lulinha nega irregularidades.",
  "critica": [
   {
    "fonte": "Supremo Tribunal Federal, notícia de 29/10/2026",
@@ -71,9 +71,9 @@
    "tipo": "primaria"
   },
   {
-   "nome": "Agência Brasil: Fachin devolve relatoria do caso do INSS a Mendonça e mantém Master (30/10/2026)",
+   "nome": "Agência Brasil: Fachin devolve relatoria do caso do INSS a Mendonça e mantém Master (29/10/2026)",
    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/fachin-devolve-relatoria-do-caso-do-inss-mendonca-e-mantem-master",
-   "data": "30/10/2026",
+   "data": "29/10/2026",
    "tipo": "secundaria"
   },
   {
@@ -213,6 +213,14 @@
  "publicado_em": "2026-10-30T13:42:53-03:00",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-30T13:42:53-03:00"
- }
+  "data": "2026-10-30T21:20:19-03:00",
+  "modo": "automatica"
+ },
+ "correcoes": [
+  {
+   "data": "2026-10-30",
+   "texto": "Correção em 30/10/2026: o inquérito sobre Lulinha apura suspeita de corrupção e tráfico de influência (InfoMoney, 31/07), não só tráfico de influência; saiu a frase atribuída ao presidente Lula, que não tinha fonte aberta; a negativa de Mendonça é atribuída ao G1."
+  }
+ ],
+ "atualizado_em": "2026-10-30T21:20:19-03:00"
 }

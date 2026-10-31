@@ -14,8 +14,8 @@
    "STF"
   ],
   [
-   "105",
-   "procedimentos do inquérito das fake news que passaram de Alexandre de Moraes para a Presidência do STF em 9/9/2026, entre eles este",
+   "104",
+   "procedimentos que seguiram, com o inquérito das fake news (INQ 4.781), de Alexandre de Moraes para a Presidência do STF em 9/9/2026, entre eles este",
    "Decisão na Pet 14.305"
   ],
   [
@@ -62,7 +62,7 @@
   {
    "nome": "STF: decisão na Petição 14.305 (íntegra em PDF), assinada pelo ministro Edson Fachin",
    "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391739428&ext=.pdf",
-   "data": "30/10/2026",
+   "data": "26/10/2026",
    "tipo": "primaria"
   },
   {
@@ -143,7 +143,7 @@
  "estudos": [],
  "imagem": {
   "arquivo": "capas/malafaia-2019.jpg",
-  "credito": "Foto de arquivo (2019): Marcos Corrêa, via Wikimedia Commons (CC BY 2.0)",
+  "credito": "Foto de arquivo (2019): Marcos Corrêa/PR, via Wikimedia Commons (CC BY 2.0)",
   "alt": "O pastor Silas Malafaia fala ao microfone durante evento em abril de 2019",
   "licenca": "CC BY 2.0",
   "origem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Silas_Malafaia_em_abril_de_2019.jpg/960px-Silas_Malafaia_em_abril_de_2019.jpg",
@@ -155,8 +155,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-30T00:35:25-03:00"
+  "data": "2026-10-30T21:20:19-03:00",
+  "modo": "automatica"
  },
  "publicado_em": "2026-10-30T00:29:05-03:00",
- "atualizado_em": "2026-10-30T00:35:25-03:00"
+ "atualizado_em": "2026-10-30T21:20:19-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-30",
+   "texto": "Correção em 30/10/2026: foram 104 procedimentos, não 105, os que seguiram com o inquérito das fake news para a Presidência do STF (decisão na Pet 14.305, assinada em 26/10)."
+  }
+ ]
 }
