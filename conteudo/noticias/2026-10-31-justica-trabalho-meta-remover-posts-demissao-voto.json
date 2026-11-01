@@ -7,12 +7,12 @@
  "selo": "Vale acompanhar",
  "titulo": "Justiça do Trabalho manda Meta apagar 14 posts que incentivam demitir funcionário pelo voto",
  "lide": "O juiz Bruno José Perusso, da 77ª Vara do Trabalho de São Paulo, deu liminar em 29 de outubro mandando a Meta retirar, em 24 horas, 14 publicações do Instagram, Facebook e Threads que incentivam empresários a demitir ou expor funcionários por causa do voto. A ação é do Ministério Público do Trabalho, que pede R$ 50 milhões por danos morais coletivos.",
- "por_que_importa": "Ninguém deve perder o emprego por causa do voto, e quem faz isso já responde na Justiça do Trabalho. Mas a decisão vai além de punir quem demite: manda apagar textos que não foram divulgados, e os autores só serão avisados depois da remoção. Quando o alvo é a palavra, o devido processo precisa vir antes da tesoura.",
+ "por_que_importa": "Ninguém deve perder o emprego por causa do voto, e quem faz isso já responde na Justiça do Trabalho. Mas a decisão vai além de punir quem demite: manda apagar textos cujo conteúdo e autoria não foram divulgados, e os autores só serão avisados depois da remoção. Quando o alvo é a palavra, o devido processo precisa vir antes da tesoura.",
  "numeros": [
   [
    "14",
    "publicações indicadas pelo MPT que a Meta deve remover em 24 horas após ser notificada",
-   "Agência Brasil e InfoMoney, 29 e 30/10/2026"
+   "Agência Brasil e InfoMoney, 30/10/2026"
   ],
   [
    "R$ 50 mil",
@@ -22,10 +22,10 @@
   [
    "R$ 50 milhões",
    "é o valor que o MPT pede de danos morais coletivos; ainda não foi decidido",
-   "Agência Brasil, 29/10/2026"
+   "Agência Brasil, 30/10/2026"
   ],
   [
-   "3.080",
+   "Mais de 3.080",
    "denúncias de assédio eleitoral recebidas pelo MPT no país em 2026, 1.147 delas nas 72 horas depois do segundo turno",
    "MPT, citado pela Agência Brasil"
   ]
@@ -43,7 +43,7 @@
   },
   {
    "fonte": "Ministério Público do Trabalho, na ação, segundo a Agência Brasil",
-   "texto": "O MPT diz que os sistemas de recomendação das plataformas, como a aba Explorar do Instagram e os vídeos curtos sugeridos, ampliam o alcance desse tipo de conteúdo.",
+   "texto": "O MPT diz que os sistemas de recomendação das plataformas, como a aba Explorar do Instagram e os vídeos curtos sugeridos, podem ampliar o alcance desse tipo de conteúdo.",
    "citacao": false
   },
   {
@@ -60,9 +60,9 @@
  "nao_e_para": [
   "As 14 publicações não foram divulgadas, e não se sabe quem são os autores",
   "É liminar: o pedido de R$ 50 milhões e o mérito da ação ainda serão julgados, e a Meta pode recorrer",
-  "Não localizamos nota do MPT nem a íntegra da decisão; os detalhes vêm de duas reportagens independentes (Agência Brasil e InfoMoney), que divergem sobre a forma de contar a multa"
+  "Não localizamos nota do MPT nem a íntegra da decisão; os detalhes vêm de duas reportagens independentes (Agência Brasil e InfoMoney), que trazem a mesma multa; outra reportagem (BPMoney) fala em teto de R$ 500 mil"
  ],
- "veredito": "A gente defende que ninguém perca o emprego pelo voto, e quem demitir por isso deve responder. Mas apagar texto é outra coisa: os 14 posts não foram divulgados e os autores só serão avisados depois. Liberdade de expressão pede o contrário: conhecer a acusação antes e ter a chance de se defender.",
+ "veredito": "A gente defende que ninguém perca o emprego pelo voto, e quem demitir por isso deve responder. Mas apagar texto é outra coisa: o conteúdo e a autoria dos 14 posts não foram divulgados e os autores só serão avisados depois. Liberdade de expressão pede o contrário: conhecer a acusação antes e ter a chance de se defender.",
  "versiculo": {
   "texto": "Porventura, condena a nossa lei um homem sem primeiro o ouvir e ter conhecimento do que faz?",
   "referencia": "João 7.51",
@@ -70,9 +70,9 @@
  },
  "fontes": [
   {
-   "nome": "Agência Brasil: Justiça manda Meta excluir posts sobre demissão por voto político (29/10/2026)",
+   "nome": "Agência Brasil: Justiça manda Meta excluir posts sobre demissão por voto político (30/10/2026)",
    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-manda-meta-excluir-posts-sobre-demissao-por-voto-politico",
-   "data": "29/10/2026",
+   "data": "30/10/2026",
    "tipo": "secundaria"
   },
   {
@@ -213,8 +213,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-31T02:37:01-03:00",
+  "data": "2026-10-31T21:12:09-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-10-31T02:37:01-03:00"
+ "publicado_em": "2026-10-31T02:37:01-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-31",
+   "texto": "Correção em 31/10/2026: os 14 posts foram publicados; o que não foi divulgado é o conteúdo e a autoria deles. A Agência Brasil e o InfoMoney trazem a mesma multa, e a reportagem da Agência Brasil é de 30/10."
+  }
+ ],
+ "atualizado_em": "2026-10-31T21:12:09-03:00"
 }

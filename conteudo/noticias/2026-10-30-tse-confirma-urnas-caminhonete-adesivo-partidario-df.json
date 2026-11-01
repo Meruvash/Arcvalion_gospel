@@ -22,14 +22,14 @@
  "corpo": [
   "O vídeo, que circula desde a madrugada de 26 de outubro, foi feito por um morador do lado de fora de uma escola infantil usada como local de votação. Uma mulher entrega caixas com a inscrição 'urna eletrônica' a um homem, que as põe na caçamba de uma caminhonete branca. O TSE descreveu o veículo como adesivado com o número de um partido, sem dizer qual.",
   "A resolução do TRE-DF permite que administradores e supervisores de local de votação usem carro próprio para devolver urnas à Junta Eleitoral, desde que avisem o juízo eleitoral antes, sigam os protocolos de segurança e entreguem o material mediante recibo; a identificação partidária no veículo é proibida. Segundo o TSE, o TRE-DF recebeu informações do cartório eleitoral e apura as responsabilidades.",
-  "Um segundo vídeo, de uma picape com bandeira do PT recolhendo urnas, circula como se fosse o mesmo caso. Segundo o Jornal Razão, as imagens são de Rio Verde (GO) e não fazem parte da checagem do TSE."
+  "Um segundo vídeo, de uma picape com bandeira do PT recolhendo urnas, circula como se fosse o mesmo caso. Segundo o perfil local que publicou as imagens, citado pelo Jornal Razão, elas são de Rio Verde (GO) e não fazem parte da checagem do TSE."
  ],
  "no_brasil": "No Distrito Federal, os Correios levam as urnas aos locais de votação, e o recolhimento pode ser feito por agentes eleitorais autorizados. A apuração acontece na própria urna, na seção, logo depois do fim da votação; o boletim de urna é impresso e pode ser comparado, pelo código QR, com o resultado publicado pela Justiça Eleitoral na internet.",
  "critica": [
   {
    "fonte": "Tribunal Superior Eleitoral, Fato ou Boato (28/10/2026), segundo Claudio Dantas",
-   "texto": "Assim, a apuração das responsabilidades pelo transporte irregular deve prosseguir, mas as imagens não comprovam fraude eleitoral.",
-   "citacao": true,
+   "texto": "Para o TSE, a apuração das responsabilidades pelo transporte irregular deve continuar, mas as imagens não comprovam fraude eleitoral.",
+   "citacao": false,
    "url": "https://claudiodantas.com.br/tse-transporte-urnas-caminhonete-pt/"
   },
   {

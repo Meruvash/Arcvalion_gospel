@@ -5,8 +5,8 @@
  "status": "publicado",
  "selo": "Boa notícia",
  "titulo": "Moraes arquiva inquérito contra o youtuber Monark por desobediência, a pedido da PGR",
- "lide": "O ministro Alexandre de Moraes, do STF, arquivou em 28 de outubro o Inquérito 4.942, que apurava se o youtuber Bruno Aiub, o Monark, cometeu crime de desobediência ao manter publicações depois de ter as redes bloqueadas em 2023. A PGR disse que o descumprimento já tinha sido punido com multa de R$ 300 mil e que não havia base para ação penal.",
- "por_que_importa": "Desde janeiro de 2023, Monark teve as contas bloqueadas e R$ 300 mil retidos em multa por causa do que disse sobre urnas e ministros, mas nunca foi denunciado por crime. Agora a própria PGR reconhece que não havia base para ação penal. Para quem comunica opinião na internet, é um limite importante ao uso do processo penal contra a palavra.",
+ "lide": "O ministro Alexandre de Moraes, do STF, arquivou em 28 de outubro o Inquérito 4.942, que apurava se o youtuber Bruno Aiub, o Monark, cometeu crime de desobediência ao descumprir, em 2023, a ordem judicial de não publicar certos conteúdos. A PGR disse que o descumprimento já tinha sido punido com multa de R$ 300 mil e que, por isso, não havia justa causa para ação penal à parte.",
+ "por_que_importa": "Desde janeiro de 2023, Monark teve as contas bloqueadas e, por descumprir a ordem de não publicar, R$ 300 mil retidos em multa. Agora a PGR diz que, já punido com multa, o descumprimento não justifica uma ação penal à parte. Para quem comunica opinião na internet, é um limite importante ao uso do processo penal contra a palavra.",
  "numeros": [
   [
    "R$ 300 mil",
@@ -28,7 +28,7 @@
   "O bloqueio foi determinado em 8 de janeiro de 2023, no inquérito sobre os atos daquele dia, contra perfis que, segundo a decisão, instigaram e divulgaram os atos. Em abril de 2026, a Polícia Federal concluiu que Monark, de forma reiterada, questionava a lisura do processo eleitoral, a confiabilidade das urnas e a atuação do TSE e do STF, com ênfase nas decisões de Moraes.",
   "A PGR reconheceu que houve descumprimento da ordem de não publicar, mas disse que ele foi tratado e esgotado no inquérito em que a ordem foi dada, com a multa diária. Moraes acolheu o pedido, lembrando que cabe ao Ministério Público decidir se denuncia. A investigação pode ser reaberta se surgirem provas novas (art. 18 do Código de Processo Penal)."
  ],
- "no_brasil": "O arquivamento acompanha uma série de decisões desta semana no STF a pedido da PGR: Edson Fachin arquivou oito investigações do inquérito das fake news em 27 e 28 de outubro, inclusive a que mantinha prisão preventiva de uma brasileira por publicações na internet.",
+ "no_brasil": "O arquivamento acompanha uma série de decisões desta semana no STF a pedido da PGR: Edson Fachin arquivou outras investigações ligadas ao inquérito das fake news e, numa delas, revogou a ordem de prisão preventiva e as restrições migratórias contra uma investigada por publicações na internet.",
  "critica": [
   {
    "fonte": "Procuradoria-Geral da República, no pedido de arquivamento transcrito na decisão",
@@ -38,7 +38,7 @@
   },
   {
    "fonte": "Polícia Federal, no relatório citado na decisão",
-   "texto": "Para a PF, Monark fazia declarações públicas reiteradas questionando o processo eleitoral, as urnas eletrônicas e as decisões do STF e do TSE, o que mostraria o descumprimento das medidas impostas.",
+   "texto": "Para a PF, Monark fazia declarações públicas reiteradas questionando o processo eleitoral, as urnas eletrônicas e as decisões do STF e do TSE.",
    "citacao": false
   },
   {
@@ -57,7 +57,7 @@
   "A investigação pode ser reaberta com prova nova, como em todo arquivamento a pedido do Ministério Público",
   "Só a notícia oficial do STF e a íntegra da decisão foram localizadas; não achamos outra reportagem independente sobre o arquivamento até 31/10"
  ],
- "veredito": "A gente apoia o arquivamento. Contas bloqueadas desde 2023 e R$ 300 mil de multa por causa do que um comunicador disse sobre urnas e ministros: a punição veio, o processo penal nunca. Crítica a autoridade, mesmo dura, se responde com argumento, não com inquérito sem fim.",
+ "veredito": "A gente apoia o arquivamento. Contas bloqueadas em 2023 e R$ 300 mil de multa por descumprir a ordem de não publicar: a punição veio, o processo penal não. Crítica a autoridade, mesmo dura, se responde com argumento, não com inquérito sem fim.",
  "versiculo": {
   "texto": "A resposta branda desvia o furor, mas a palavra dura suscita a ira",
   "referencia": "Provérbios 15.1",
@@ -192,8 +192,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-31T02:40:38-03:00",
+  "data": "2026-10-31T21:12:08-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-10-31T02:40:38-03:00"
+ "publicado_em": "2026-10-31T02:40:38-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-31",
+   "texto": "Correção em 31/10/2026: a multa de R$ 300 mil foi por descumprir a ordem de não publicar (Inq 4.923), não pelo que Monark disse; a PGR afirmou que esse descumprimento, já punido com multa, não justifica ação penal à parte, e não que nunca houve base penal (decisão no Inq 4.942, 28/10/2026). A série de arquivamentos de Fachin foi descrita como na nota do STF de 29/10."
+  }
+ ],
+ "atualizado_em": "2026-10-31T21:12:08-03:00"
 }
