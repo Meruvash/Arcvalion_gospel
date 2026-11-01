@@ -1,0 +1,116 @@
+{
+ "slug": "ceia-do-senhor",
+ "titulo": "O que é a Ceia do Senhor?",
+ "titulo_seo": "O que é a Ceia do Senhor? Entenda o que a Bíblia ensina",
+ "ideia_central": "A Ceia do Senhor é a refeição que Jesus instituiu na Páscoa para que a igreja lembre a morte dele, viva em comunhão e anuncie a sua volta.",
+ "descricao": "O que é a Ceia do Senhor? Da Páscoa a 1 Coríntios 11: o pão e o cálice, o que significa \"em memória de mim\", o que católicos, Calvino e as Assembleias de Deus creem e o que é \"comer indignamente\".",
+ "tempo_min": 14,
+ "resumo_rapido": {
+  "resposta": "A Ceia do Senhor é a refeição com pão e cálice que Jesus instituiu no jantar da Páscoa e mandou repetir \"em memória\" dele. Ela lembra a cruz, reúne a igreja e anuncia a volta de Jesus.",
+  "ideias": [
+   "Nasceu dentro da Páscoa, uma festa de memória da libertação do Egito.",
+   "Os cristãos divergem sobre o pão e o vinho; para as Assembleias de Deus, é um memorial, e \"isto é o meu corpo\" é linguagem figurada.",
+   "\"Comer indignamente\" é participar com desprezo, não sentir-se indigno: o caminho é examinar a consciência e então comer."
+  ],
+  "texto_central": "1 Coríntios 11:23-29"
+ },
+ "versiculo_chave": {
+  "texto": "De maneira que, cada vez que vocês comem deste pão e bebem deste cálice, estão anunciando a morte do Senhor, até que ele venha.",
+  "referencia": "1 Coríntios 11:26"
+ },
+ "contexto": [
+  [
+   "Quando",
+   "Noite da Páscoa",
+   "Jesus instituiu a Ceia no jantar pascal, na noite em que foi traído"
+  ],
+  [
+   "Elementos",
+   "Pão e cálice",
+   "O corpo entregue e a nova aliança garantida pelo sangue"
+  ],
+  [
+   "Três direções",
+   "Passado, presente, futuro",
+   "A cruz, a comunhão e a volta de Jesus"
+  ],
+  [
+   "Corpus Christi",
+   "Festa católica",
+   "Estendida a toda a Igreja Católica por Urbano IV em 1264"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "A Ceia salva ou perdoa pecados por si mesma",
+   "A Declaração de Fé das Assembleias de Deus afirma que as ordenanças não transmitem poder místico nem graça salvífica. A salvação vem pela fé em Jesus."
+  ],
+  [
+   "Moderada",
+   "\"Comer indignamente\" é sentir-se indigno",
+   "Em Corinto, o problema era a desordem, a bebedeira e o desprezo pelos pobres (1 Coríntios 11:20-22). Ninguém é digno por mérito; Paulo pede que cada um examine a consciência e então coma."
+  ],
+  [
+   "Moderada",
+   "A Ceia é coisa só do passado",
+   "Ela anuncia a morte do Senhor \"até que ele venha\" (1 Coríntios 11:26): olha também para a comunhão presente e para a volta de Jesus."
+  ],
+  [
+   "Leve",
+   "A Ceia é uma devoção individual",
+   "\"Todos comemos do mesmo pão\" (1 Coríntios 10:17): é uma refeição da igreja inteira, como família."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "O que é a Ceia do Senhor?",
+  "evidencias": [
+   {
+    "fonte": "Google Trends (Ano em Pesquisa 2025, Brasil)",
+    "url": "https://trends.withgoogle.com/year-in-search/2025/br/",
+    "dado": "\"O que é Corpus Christi?\" está na lista \"O que é...\", das perguntas que mais cresceram no Brasil em 2025; Corpus Christi é a festa católica do Corpo de Cristo na Eucaristia",
+    "data": "2026-11-01"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=o%20que%20%C3%A9%20a%20ceia%20do%20senhor",
+    "dado": "sugere \"o que é a ceia do senhor segundo a bíblia\" e \"o que é tomar a ceia do senhor indignamente\"",
+    "data": "2026-11-01"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=o%20que%20%C3%A9%20a%20ceia%20do%20senhor",
+    "dado": "sugere \"o que é tomar a ceia do senhor indignamente\" e \"o que significa a santa ceia do senhor\"",
+    "data": "2026-11-01"
+   }
+  ]
+ },
+ "categoria": "igreja-e-comunhao",
+ "palavras_chave": [
+  "Ceia do Senhor",
+  "Santa Ceia",
+  "Corpus Christi",
+  "Páscoa",
+  "comunhão",
+  "1 Coríntios 11",
+  "transubstanciação",
+  "ordenança",
+  "comer indignamente"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-ceia-do-senhor.jpg",
+  "alt": "Pintura medieval de Ugolino da Siena em fundo dourado: Jesus, de manto vermelho e azul, à esquerda de uma longa mesa com toalha branca, pães e tigelas; um discípulo jovem dorme encostado nele, e os outros discípulos, com auréolas douradas, sentam-se dos dois lados da mesa.",
+  "credito": "Ugolino da Siena, A Última Ceia (têmpera e ouro sobre madeira, c. 1325). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, Institutas de João Calvino, comentários de John Wesley e Matthew Henry, Catecismo da Igreja Católica e audiência de Bento XVI. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-01T15:30:16-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-01T15:30:16-03:00"
+}

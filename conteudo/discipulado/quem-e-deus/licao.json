@@ -1,0 +1,111 @@
+{
+ "slug": "quem-e-deus",
+ "titulo": "Quem é Deus?",
+ "titulo_seo": "Quem é Deus? Entenda o que a Bíblia ensina",
+ "ideia_central": "Deus é um ser pessoal, eterno, que existe por si mesmo e se apresentou pelo nome: compassivo, misericordioso, fiel e justo, acima da criação e perto de cada um.",
+ "descricao": "Quem é Deus segundo a Bíblia? A sarça ardente e o nome \"Eu Sou Quem Sou\" (Êxodo 3), o retrato que Deus faz de si mesmo em Êxodo 34 e por que ele está acima de tudo e perto de cada um.",
+ "tempo_min": 14,
+ "resumo_rapido": {
+  "resposta": "Deus é um ser pessoal, que tem nome e se apresenta: \"Eu Sou Quem Sou\". Existe por si mesmo e é eterno; tem compaixão e misericórdia, é fiel, perdoa e é justo; está acima da criação e perto de cada um de nós.",
+  "ideias": [
+   "Deus não é uma força: ele chama Moisés pelo nome, fala, promete e se deixa conhecer.",
+   "\"Eu Sou Quem Sou\": ele existe por si mesmo, é eterno e dá existência a todas as coisas.",
+   "Em Êxodo 34, Deus começa a se descrever pela compaixão e termina pela justiça."
+  ],
+  "texto_central": "Êxodo 3:13-15 e 34:5-7"
+ },
+ "versiculo_chave": {
+  "texto": "Eu sou o SENHOR, o Deus Eterno! Eu tenho compaixão e misericórdia, não fico irado com facilidade, e a minha fidelidade e o meu amor são tão grandes, que não podem ser medidos.",
+  "referencia": "Êxodo 34:6"
+ },
+ "contexto": [
+  [
+   "Quem perguntou",
+   "Moisés",
+   "\"Qual é o nome dele?\", diante do espinheiro que não se queimava"
+  ],
+  [
+   "O nome",
+   "Eu Sou Quem Sou",
+   "Êxodo 3:14; ligado ao verbo \"ser\" em hebraico"
+  ],
+  [
+   "Na NTLH",
+   "SENHOR",
+   "Em maiúsculas, traduz o nome YHWH"
+  ],
+  [
+   "Retrato",
+   "Êxodo 34:6-7",
+   "Compaixão, misericórdia, paciência, fidelidade, amor, perdão e justiça"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "Deus é uma energia ou força impessoal",
+   "Deus tem nome, fala, chama Moisés pelo nome e faz promessas. A Declaração de Fé das Assembleias de Deus: \"Deus é um ser pessoal\"."
+  ],
+  [
+   "Moderada",
+   "O Deus do Antigo Testamento é severo e o do Novo é bondoso",
+   "A apresentação mais completa de Deus está no Antigo Testamento e começa pela compaixão (Êxodo 34:6). O Novo Testamento diz que \"Deus é amor\" sem apagar a justiça."
+  ],
+  [
+   "Moderada",
+   "Deus é o que cada um acha que ele é",
+   "Deus se deu a conhecer pelo que ele mesmo disse de si, e não pela imaginação de cada um."
+  ],
+  [
+   "Leve",
+   "Deus está distante e não se interessa por nós",
+   "Paulo disse aos atenienses que Deus \"não esteja longe de cada um de nós\" (Atos 17:27). Ele está acima da criação e presente nela."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "Quem é Deus?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=quem%20%C3%A9%20deus",
+    "dado": "sugere \"quem é deus segundo a bíblia\", \"quem é deus e quem é jesus\", \"quem é deus para mim\" e comparações com outras religiões",
+    "data": "2026-11-01"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=quem%20%C3%A9%20deus",
+    "dado": "sugere \"quem é deus pregação\", \"quem é deus para mim\" e \"quem é deus jesus e espirito santo\"",
+    "data": "2026-11-01"
+   }
+  ]
+ },
+ "categoria": "conhecendo-a-deus",
+ "palavras_chave": [
+  "Deus",
+  "quem é Deus",
+  "Eu Sou",
+  "nome de Deus",
+  "Javé",
+  "atributos de Deus",
+  "Êxodo 3",
+  "Êxodo 34",
+  "Moisés",
+  "sarça ardente"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-quem-e-deus.jpg",
+  "alt": "Pintura de Domenichino: numa paisagem com lago azul, montanhas e céu com nuvens, Moisés, de manto vermelho, ajoelhado e descalço, protege os olhos com o braço diante de um arbusto em chamas ao pé de uma árvore alta, com ovelhas deitadas atrás dele.",
+  "credito": "Domenichino, Paisagem com Moisés e a sarça ardente (óleo sobre cobre, 1610-1616). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, obras de João Calvino, comentários de Matthew Henry e as Confissões de Agostinho. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-01T15:34:24-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-01T15:34:24-03:00"
+}

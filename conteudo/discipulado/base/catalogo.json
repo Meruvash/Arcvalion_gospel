@@ -6,9 +6,7 @@
    "nome": "Conhecendo a Deus",
    "descricao": "Quem é Deus, quem é Jesus, quem é o Espírito Santo e como Deus se revela.",
    "previstos": [
-    "Quem é Deus?",
     "Quem é o Espírito Santo?",
-    "O que significa a Trindade?",
     "Como Deus se revela à humanidade?"
    ]
   },
@@ -18,7 +16,6 @@
    "descricao": "O que é a salvação, a graça, o arrependimento e a vida nova em Cristo.",
    "previstos": [
     "O que é a salvação?",
-    "O que é a graça de Deus?",
     "Como posso ter certeza da salvação?",
     "O que significa viver pela fé?"
    ]
@@ -49,7 +46,6 @@
    "nome": "Igreja e comunhão",
    "descricao": "Por que fazer parte de uma igreja, o batismo nas águas e a Ceia do Senhor.",
    "previstos": [
-    "O que é a Ceia do Senhor?",
     "Por que precisamos de comunhão?"
    ]
   },
@@ -97,7 +93,8 @@
     "nascer-de-novo",
     "como-orar",
     "ler-a-biblia",
-    "por-que-igreja"
+    "por-que-igreja",
+    "deus-me-aceita-de-volta"
    ],
    "meta": 12
   },
@@ -106,16 +103,10 @@
    "nome": "Fundamentos da fé cristã",
    "descricao": "As bases do que os cristãos creem: Deus, Jesus, a salvação pela graça e as Escrituras.",
    "estudos": [
-    {
-     "titulo": "Quem é Deus?"
-    },
+    "quem-e-deus",
     "quem-e-jesus",
-    {
-     "titulo": "O que significa a Trindade?"
-    },
-    {
-     "titulo": "O que é a graça de Deus?"
-    },
+    "trindade",
+    "graca-de-deus",
     {
      "titulo": "O que é a Bíblia?"
     }
@@ -130,7 +121,8 @@
     "arrepender-se",
     "nascer-de-novo",
     "batismo-nas-aguas",
-    "por-que-igreja"
+    "por-que-igreja",
+    "ceia-do-senhor"
    ],
    "meta": 12
   }
@@ -141,6 +133,18 @@
    "categoria": "vida-crista",
    "evidencia": "Google Trends: \"ansiedade e Bíblia\" com aumento médio de 38% nas buscas entre 2023 e 2025 (Jornal do Brás, 09/12/2025)",
    "url": "https://jornaldobras.com.br/noticia/101079/levantamento-aponta-aumento-significativo-na-busca-de-jovens-por-livros-cristaos-em-2025"
+  },
+  {
+   "titulo": "O que é a Ceia do Senhor?",
+   "categoria": "igreja-e-comunhao",
+   "evidencia": "Google Trends, Ano em Pesquisa 2025 (Brasil): \"O que é Corpus Christi?\" está na lista \"O que é...\", das perguntas que mais cresceram no ano (consultado em 01/11/2026); a busca \"o que é a ceia do senhor segundo a bíblia\" aparece no autocomplete do Google",
+   "url": "https://trends.withgoogle.com/year-in-search/2025/br/"
+  },
+  {
+   "titulo": "Deus me aceita de volta?",
+   "categoria": "salvacao-e-nova-vida",
+   "evidencia": "Google Trends, Ano em Pesquisa 2025 (Brasil): \"Trend Jesus abraçando\" está na lista \"Virou trend\" (consultado em 01/11/2026); \"deus me aceita de volta sei que não mereço\" aparece no autocomplete do Google e do YouTube",
+   "url": "https://trends.withgoogle.com/year-in-search/2025/br/"
   }
  ]
 }

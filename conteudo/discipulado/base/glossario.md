@@ -18,3 +18,10 @@ Termos adiados: **graça** (a NTLH de João 1 diz "amor"; explicar numa lição 
 - **Oração** ("Como aprender a orar?"): pela Declaração de Fé, "o ato consciente, pelo qual a pessoa dirige-se a Deus para se comunicar com Ele e buscar a sua ajuda por meio de palavra ou pensamento".
 - **Escrituras** ("Como começar a ler a Bíblia?"): outro nome da Bíblia, inspirada por Deus (2 Timóteo 3:16).
 - **Igreja** ("Por que preciso participar de uma igreja?"): "assembleia", o povo reunido; todos os que creem em Jesus e também o grupo de crentes de cada lugar.
+- **Graça** ("O que é a graça de Deus?"): o amor de Deus dado a quem não merece. A Declaração de Fé das Assembleias de Deus resume: "Graça é um favor imerecido."
+- **Ceia do Senhor** ("O que é a Ceia do Senhor?"): a refeição que Jesus mandou os discípulos repetirem, com pão e cálice, em memória da morte dele; para as Assembleias de Deus, uma "ordenança" e "memorial da morte de Jesus até a sua vinda".
+- **Transubstanciação** ("O que é a Ceia do Senhor?"): ensino católico de que, na consagração, a substância do pão e do vinho se converte na do corpo e do sangue de Cristo (Catecismo, §1376).
+- **Desviado** ("Deus me aceita de volta?"): quem se converteu e depois se afastou de Deus e da igreja. Descreve uma situação, não uma sentença.
+- **SENHOR** ("Quem é Deus?"): em maiúsculas, na NTLH, traduz o nome próprio de Deus em hebraico (YHWH), ligado ao verbo "ser".
+- **Trindade** ("O que significa a Trindade?"): o ensino bíblico de que há um só Deus, que existe eternamente em três pessoas: o Pai, o Filho e o Espírito Santo.
+- **Unicismo** ("O que significa a Trindade?"): a ideia de que o Pai, o Filho e o Espírito Santo seriam três modos de uma mesma pessoa divina; a Declaração de Fé o rejeita.

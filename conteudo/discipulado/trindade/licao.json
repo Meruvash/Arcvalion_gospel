@@ -1,0 +1,110 @@
+{
+ "slug": "trindade",
+ "titulo": "O que significa a Trindade?",
+ "titulo_seo": "O que significa a Trindade? Entenda o que a Bíblia ensina",
+ "ideia_central": "A Bíblia ensina que há um só Deus e mostra o Pai, o Filho e o Espírito Santo como pessoas distintas, agindo juntas; a Trindade é o nome dessas duas verdades mantidas juntas.",
+ "descricao": "O que significa a Trindade? Um só Deus em três pessoas: Deuteronômio 6:4, o batismo de Jesus em Mateus 3, a ordem de Mateus 28:19, os credos antigos, por que a comparação da água falha e o que dizem os unicistas.",
+ "tempo_min": 14,
+ "resumo_rapido": {
+  "resposta": "Trindade é o nome do ensino bíblico de que há um só Deus, que existe eternamente em três pessoas: o Pai, o Filho e o Espírito Santo, distintas entre si e iguais em poder, glória e majestade.",
+  "ideias": [
+   "A Bíblia insiste em que há um só Deus: os cristãos não adoram três deuses.",
+   "No batismo de Jesus, o Filho sai da água, o Espírito desce e o Pai fala do céu: três ao mesmo tempo.",
+   "A comparação da água (gelo, líquido, vapor) ensina o erro de que Deus é uma pessoa que muda de forma."
+  ],
+  "texto_central": "Mateus 3:16-17 e 28:18-20"
+ },
+ "versiculo_chave": {
+  "texto": "Que a graça do Senhor Jesus Cristo, o amor de Deus e a presença do Espírito Santo estejam com todos vocês!",
+  "referencia": "2 Coríntios 13:13"
+ },
+ "contexto": [
+  [
+   "Base",
+   "Um só Deus",
+   "Deuteronômio 6:4, citado por Jesus em Marcos 12:29"
+  ],
+  [
+   "Cena",
+   "O batismo de Jesus",
+   "O Filho na água, o Espírito como pomba, a voz do Pai"
+  ],
+  [
+   "Fórmula",
+   "Em nome (singular)",
+   "Mateus 28:19: um só nome para o Pai, o Filho e o Espírito"
+  ],
+  [
+   "Credos",
+   "Niceia (325) e Constantinopla (381)",
+   "O Filho \"gerado, não feito\"; o Espírito adorado com o Pai e o Filho"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "Os cristãos adoram três deuses",
+   "A Bíblia afirma um só Deus (Deuteronômio 6:4), e a Declaração de Fé das Assembleias de Deus rejeita o triteísmo."
+  ],
+  [
+   "Grave",
+   "Pai, Filho e Espírito são três modos de uma mesma pessoa",
+   "No batismo de Jesus os três aparecem ao mesmo tempo, e o Pai fala ao Filho. A Declaração de Fé nega o \"unicismo sabelianista e moderno\"."
+  ],
+  [
+   "Moderada",
+   "A Trindade é como a água: gelo, líquido e vapor",
+   "A água muda de estado; as pessoas divinas não. A comparação ensina justamente o unicismo."
+  ],
+  [
+   "Leve",
+   "Se a palavra não está na Bíblia, a doutrina também não está",
+   "A palavra resume o que várias passagens ensinam: um só Deus e três pessoas distintas agindo juntas."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "O que significa a Trindade?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=o%20que%20%C3%A9%20a%20trindade",
+    "dado": "sugere \"o que é a trindade na bíblia\", \"para os evangélicos\", \"na igreja católica\" e \"para os testemunhas de jeová\"",
+    "data": "2026-11-01"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=o%20que%20%C3%A9%20a%20trindade",
+    "dado": "sugere \"o que é a trindade divina\", \"o que é a trindade na bíblia\" e \"o que é a santíssima trindade\"",
+    "data": "2026-11-01"
+   }
+  ]
+ },
+ "categoria": "conhecendo-a-deus",
+ "palavras_chave": [
+  "Trindade",
+  "Pai Filho e Espírito Santo",
+  "um só Deus",
+  "batismo de Jesus",
+  "Mateus 28:19",
+  "Credo de Niceia",
+  "unicismo",
+  "Só Jesus",
+  "Espírito Santo"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-trindade.jpg",
+  "alt": "Pintura de Sebastiano Ricci emoldurada por um arco de pedra com estátuas: no rio, João Batista derrama água sobre Jesus, de pé e com as mãos no peito; no céu dourado, uma pomba branca desce entre anjos, e muitas pessoas esperam à margem.",
+  "credito": "Sebastiano Ricci, O batismo de Cristo (óleo sobre tela, c. 1713-1714). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, credos antigos na edição de Philip Schaff, Institutas de João Calvino, comentários de Matthew Henry e páginas da Igreja Pentecostal Unida Internacional. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-01T15:36:42-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-01T15:36:42-03:00"
+}
