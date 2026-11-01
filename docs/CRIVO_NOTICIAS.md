@@ -148,7 +148,8 @@ somar 100). Cada critério recebe de 0 até o peso, com o **porquê em fatos con
 
 Regras que o número não muda:
 - **Pontuação alta não substitui verificação.** Comprovação abaixo de **9** não publica, qualquer que seja o total:
-  volte à apuração. Acusação grave, conteúdo jurídico sensível ou fato contestado pede revisão humana antes de sair.
+  volte à apuração. Acusação grave, conteúdo jurídico sensível ou fato contestado só sai se passar no crivo jurídico; passando,
+  é publicado automaticamente; não passando, a frase arriscada sai ou a nota não entra (sem fila de revisão humana, 01/11/2026).
 - **Volume não é relevância.** Cinco portais repetindo a mesma nota de assessoria valem uma fonte: agrupe por
   acontecimento, ache a origem e pontue o acontecimento, não as manchetes.
 - **Declaração sem consequência fica embaixo**: uma decisão judicial com efeito concreto pontua mais que a fala genérica

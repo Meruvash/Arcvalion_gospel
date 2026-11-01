@@ -28,7 +28,7 @@ fato certo?) é da pessoa revisora, que aprova com `tools/publicar.py`.
 | `imagem` | foto | obrigatória: arquivo em `conteudo/imagens/`, crédito com licença, `alt`; nunca IA |
 | `estudos` | Para entender | `[{nome, estudo: <slug>}]`: estudo nosso já publicado cujo tema a notícia toca de verdade (dízimo, batismo, dons…). Aparece no fim da nota como "Para entender" e, no estudo, como "Notícias sobre este tema". Sem estudo que caiba, deixe `[]` (a nota mostra os dois estudos mais recentes); nunca force a ligação |
 | `descricao_seo` | descrição no Google | opcional, 70 a 155 caracteres, factual, sem caça-clique; sem ela, sai a primeira frase do lide (ou o lide cortado) |
-| `ia`, `status`, `revisao`, `publicado_em`, `correcoes` | Como foi feita | `status: revisao` até a aprovação humana; `publicar.py` grava o resto |
+| `ia`, `status`, `revisao`, `publicado_em`, `correcoes` | Como foi feita | `status: revisao` até passar no validador e ser aprovada automaticamente pela rotina (`publicar.py aprovar ... --automatica`), que grava o resto |
 
 Regras de texto: tom opinativo só em Por que importa, O que muda para você e Nossa opinião (Pontos de atenção é factual); o
 resto é neutro. Política com os dois lados e a fonte de cada um. Sem fonte anônima ("segundo fontes"), sem verbo de
