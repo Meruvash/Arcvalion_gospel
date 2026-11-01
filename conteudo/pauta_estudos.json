@@ -68,16 +68,16 @@
   {
    "questao": "A Ceia é memorial ou há presença espiritual de Cristo?",
    "passagem": "1 Coríntios 11:23-26",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "ceia-1-corintios-11",
    "obs": "",
    "tipo": "debate"
   },
   {
    "questao": "Os dias da criação foram de 24 horas?",
    "passagem": "Gênesis 1:1-2:3",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "dias-da-criacao-genesis-1",
    "obs": "",
    "tipo": "debate"
   },
@@ -373,24 +373,24 @@
    "questao": "Recebereis poder: o Espírito Santo e a missão",
    "passagem": "Atos 1:4-8",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "recebereis-poder-atos-1",
    "obs": ""
   },
   {
    "questao": "Debaixo das asas do Altíssimo: proteção e confiança",
    "passagem": "Salmo 91",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "salmo-91",
    "obs": ""
   },
   {
    "questao": "Tudo posso naquele que me fortalece: alegria e contentamento",
    "passagem": "Filipenses 4:4-13",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "tudo-posso-filipenses-4",
    "obs": ""
   },
   {
