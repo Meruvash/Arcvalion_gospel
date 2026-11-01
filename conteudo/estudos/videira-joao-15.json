@@ -17,7 +17,7 @@
  "imagem": {
   "arquivo": "estudo-videira-joao-15.jpg",
   "credito": "Ugolino da Siena, A Última Ceia (têmpera e ouro sobre madeira, c. 1325). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)",
-  "alt": "Pintura sobre fundo de ouro de Ugolino da Siena, c. 1325: Jesus e os doze apóstolos com auréolas douradas à mesa coberta de toalha branca, com João reclinado junto a Jesus",
+  "alt": "Pintura sobre fundo de ouro de Ugolino da Siena, c. 1325: Jesus e os apóstolos à mesa coberta de toalha branca, com João reclinado junto a Jesus; em primeiro plano, Judas, o único sem auréola, diante da mão de Jesus",
   "pagina": "https://www.metmuseum.org/art/collection/search/459131",
   "licenca": "domínio público (Open Access CC0 do Metropolitan Museum)"
  },
@@ -71,7 +71,7 @@
    "obra": "Sermões \"A videira verdadeira\" e \"A vida na videira\", série O Evangelho de João (Segunda Igreja Batista em Goiânia)",
    "url": "https://www.sibgoiania.org/midia/2021/05/2021-05-16_N_73_Jo15-1-11_a-vida-na-videira.pdf",
    "data": "16/05/2021",
-   "texto": "Leandro Peixoto situa o texto no discurso de despedida, de João 13 a 16, coroado pela oração de João 17, e liga o \"Eu sou\" a Êxodo 3:14. Ele nota um jogo de palavras: o Pai \"limpa\" a vara que dá fruto, e os discípulos já estão \"limpos\" pela palavra. Para ele, permanecer é crer na obra de Cristo, guardar a sua palavra, viver o seu amor e congregar.",
+   "texto": "Leandro Peixoto situa o texto no discurso de despedida, de João 13 a 16, coroado pela oração de João 17, e liga o \"Eu sou\" a Êxodo 3:14. Ele nota um jogo de palavras: o Pai \"limpa\" a vara que dá fruto, e os discípulos já estão \"limpos\" pela palavra.",
    "citacao": "Em grego, o verbo podar (no versículo 2) é o mesmo verbo para limpar (kathairei)."
   },
   {
@@ -181,7 +181,7 @@
  ],
  "dica": "Leia o texto trocando \"permanecer\" por \"morar\": \"morai em mim, e eu em vós\". Cristo não quer visita de domingo, quer morada.",
  "traducoes": "\"Varas\" (Almeida) são os ramos. \"Limpa\" (15:2) traduz kathairō, palavra que também significa podar, e faz jogo com \"limpos\" (katharoi) no versículo 3, como observa Leandro Peixoto. \"Estai em mim\" e \"permanecei\" traduzem o mesmo verbo grego, menō, que significa ficar, morar, continuar. \"Lavrador\" é o agricultor que cuida da vinha.",
- "relacionadas": "O texto conversa com Salmo 80:8-16 e Isaías 5:1-7 (a vinha de Deus), João 14:16-26 (o Consolador que fica conosco), Gálatas 5:22-23 (o fruto do Espírito), Colossenses 2:6-7 (arraigados nele) e 1 João 2:24-28 (permanecei nele).",
+ "relacionadas": "O texto conversa com Salmo 80:8-16 e Isaías 5:1-7 (a vinha de Deus), João 14:16-26 (o Consolador que fica conosco), Gálatas 5:22-23 (o fruto do Espírito), Colossenses 2:6-7 (enraizados nele) e 1 João 2:24-28 (permanecei nele).",
  "comparacoes": [],
  "versiculos": [
   [
@@ -194,7 +194,7 @@
   ],
   [
    "Colossenses 2:7",
-   "Arraigados e edificados nele, e confirmados na fé."
+   "Enraizados e edificados nele, e confirmados na fé."
   ],
   [
    "1 João 2:28",
@@ -284,8 +284,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-10-31T05:28:44-03:00",
+  "data": "2026-10-31T21:13:54-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-10-31T05:28:44-03:00"
+ "publicado_em": "2026-10-31T05:28:44-03:00",
+ "correcoes": [
+  {
+   "data": "2026-10-31",
+   "texto": "Correção em 31/10/2026: saiu a definição de \"permanecer\" atribuída a Leandro B. Peixoto, que não está nos sermões citados (02/05 e 16/05/2021, sobre João 15:1-8); Colossenses 2:7 na Almeida Corrigida Fiel (\"Enraizados\")."
+  }
+ ],
+ "atualizado_em": "2026-10-31T21:13:54-03:00"
 }

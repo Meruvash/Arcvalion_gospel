@@ -17,7 +17,7 @@
  "imagem": {
   "arquivo": "estudo-mais-que-vencedores-romanos-8.jpg",
   "credito": "Etienne Picart, São Pedro e São Paulo na prisão (gravura, 1660-1721), segundo Ciro Ferri. The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)",
-  "alt": "Gravura de Etienne Picart: Pedro e Paulo sentados numa cela de pedra com janela gradeada, um deles com um livro aberto, enquanto um anjo desce do alto trazendo uma palma",
+  "alt": "Gravura de Etienne Picart: numa cela com janela gradeada, Pedro, sentado com as chaves, e Paulo, de pé com um livro aberto; do alto, um anjo-menino traz palmas, e uma espada está no chão",
   "pagina": "https://www.metmuseum.org/art/collection/search/815779",
   "licenca": "domínio público (Open Access CC0 do Metropolitan Museum)"
  },
@@ -67,7 +67,7 @@
   },
   {
    "autor": "Daniel Kreidlow",
-   "quem": "Autor da prédica no Proclamar Libertação, coleção do Portal Luterano da Igreja Evangélica de Confissão Luterana no Brasil (IECLB)",
+   "quem": "Autor da prédica no Proclamar Libertação, coleção da Editora Sinodal com apoio da Igreja Evangélica de Confissão Luterana no Brasil (IECLB)",
    "obra": "\"Amor que não abandona\", prédica sobre Romanos 8:31-39, Proclamar Libertação, volume 46 (Portal Luterano)",
    "url": "https://www.luterano.org.br/romanos-8-31-39-proclamar-libertacao-46",
    "data": "02/11/2022 (data da pregação)",
@@ -76,7 +76,7 @@
   },
   {
    "autor": "Claiton André Kunz",
-   "quem": "Autor da prédica no Proclamar Libertação, coleção do Portal Luterano da Igreja Evangélica de Confissão Luterana no Brasil (IECLB)",
+   "quem": "Autor da prédica no Proclamar Libertação, coleção da Editora Sinodal com apoio da Igreja Evangélica de Confissão Luterana no Brasil (IECLB)",
    "obra": "\"Somos mais que vencedores\", prédica sobre Romanos 8:26-39, Proclamar Libertação, volume 44 (Portal Luterano)",
    "url": "https://luterano.org.br/romanos-8-26-39",
    "data": "26/07/2020 (data da pregação)",
@@ -186,7 +186,7 @@
  "versiculos": [
   [
    "Romanos 8:26",
-   "O Espírito ajuda as nossas fraquezas e intercede por nós com gemidos inexprimíveis."
+   "O Espírito ajuda as nossas fraquezas [...] o mesmo Espírito intercede por nós com gemidos inexprimíveis."
   ],
   [
    "Salmo 44:22",
