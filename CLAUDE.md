@@ -8,6 +8,7 @@
 - **Todas as rotinas aprovam e publicam sozinhas** (reforçado pelo responsável editorial em 01/11/2026): notícias, estudos
   bíblicos, discipulado, verificação e comentários. Nenhuma rotina deixa item esperando aprovação humana nem em "revisão":
   o que passa nos validadores e nos crivos é aprovado com `--automatica` e publicado no mesmo push; o que não passa não sai.
+- **Notícias em duas edições, com varredura completa** (pedido de 02/11/2026): edição da madrugada (2h23) e da tarde (14h43), meta de 5 no dia somado, sem baixar o corte de qualidade; nenhuma edição fecha com menos de 5 sem cumprir as três rodadas de coleta e usar a janela até o horário-limite. Nunca trocar o user-agent para se passar por navegador. Ver `.claude/skills/noticias/SKILL.md`.
 - **Linha editorial pentecostal** (pedido de 30/10/2026): o portal é cristão pentecostal e os estudos dizem onde estão (seção "Nossa posição", referência na Declaração de Fé das Assembleias de Deus), respeitando e relatando com fidelidade os outros lados. Ver `docs/PADRAO_EDITORIAL.md`, "Linha editorial pentecostal".
 - **Sem menção à advocacia do editor** (decisão de 30/10/2026): nenhuma matéria diz que o editor é advogado nem oferece serviço ou contato profissional; o "Quem somos" e o Instagram dele bastam. Ver `docs/PADRAO_EDITORIAL.md`, "Sem menção à advocacia do editor".
 - **Discipulado** (pedido de 30/10/2026): a aba Discipulado ocupa no menu o lugar da Agenda. Lições para novos convertidos
