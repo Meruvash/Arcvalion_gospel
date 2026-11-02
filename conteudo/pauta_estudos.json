@@ -84,16 +84,16 @@
   {
    "questao": "Divórcio e novo casamento: quando a Bíblia permite?",
    "passagem": "Mateus 19:3-9",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "divorcio-mateus-19",
    "obs": "",
    "tipo": "debate"
   },
   {
    "questao": "O cristão deve guardar o sábado ou o domingo?",
    "passagem": "Êxodo 20:8-11",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "sabado-domingo-exodo-20",
    "obs": "",
    "tipo": "debate"
   },
@@ -397,24 +397,24 @@
    "questao": "As bem-aventuranças: a felicidade do Reino",
    "passagem": "Mateus 5:1-12",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "bem-aventurancas-mateus-5",
    "obs": ""
   },
   {
    "questao": "Sê forte e corajoso: a liderança de Josué",
    "passagem": "Josué 1:1-9",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "josue-1",
    "obs": ""
   },
   {
    "questao": "Os que esperam no Senhor renovam as forças",
    "passagem": "Isaías 40:27-31",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "isaias-40",
    "obs": ""
   },
   {
