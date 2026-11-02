@@ -6,7 +6,7 @@
  "selo": "Vale acompanhar",
  "titulo": "Projeto obriga juiz a ouvir a família antes de manter criança em abrigo",
  "lide": "A Comissão de Direitos Humanos do Senado pode votar nesta quarta-feira (4) o PL 1.341/2026, do senador Alessandro Vieira (MDB-SE), que muda o art. 93 do ECA: quando uma criança for levada a um abrigo em caráter de urgência e não puder voltar logo para casa, o juiz terá de marcar audiência, com prioridade absoluta, para ouvir a família antes de decidir.",
- "por_que_importa": "Hoje o abrigo pode receber a criança sem ordem prévia do juiz em situação excepcional e urgente, e comunica o caso em até 24 horas. Segundo o autor, a lei não exige ouvir os pais antes de o juiz confirmar a medida, e isso pode tornar o acolhimento quase automático. O projeto põe a família na sala antes da decisão.",
+ "por_que_importa": "O Estado não pode tirar um filho de casa e só depois descobrir quem são os pais. Hoje o abrigo recebe a criança numa urgência e avisa o juiz em até 24 horas, mas a lei não exige ouvir a família antes de confirmar a medida. Para o autor, isso pode tornar o acolhimento quase automático. O projeto põe a família na sala.",
  "numeros": [
   [
    "24 horas",
@@ -58,7 +58,7 @@
   "A audiência pode ser dispensada em caso de justificada impossibilidade",
   "A votação na CDH não é a final: o texto ainda vai à CCJ, e a pauta pode ser adiada de novo"
  ],
- "veredito": "A gente apoia. Tirar uma criança de casa é das decisões mais graves que o Estado pode tomar, e a família tem o direito de ser ouvida antes que a medida vire rotina. Proteger a criança e proteger o lar não são lados opostos. O projeto faz o juiz olhar para os dois.",
+ "veredito": "A gente apoia, e sem meio-termo. Tirar uma criança de casa é das decisões mais graves que o Estado pode tomar; fazer isso sem ouvir pai e mãe é tratar a família como suspeita por padrão. Proteger a criança e proteger o lar não são lados opostos. Abrigo é ponte, não endereço.",
  "versiculo": {
   "texto": "Deus faz que o solitário viva em família",
   "referencia": "Salmos 68.6",
@@ -192,5 +192,6 @@
   "data": "2026-11-02T15:17:27-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-02T15:17:27-03:00"
+ "publicado_em": "2026-11-02T15:17:27-03:00",
+ "opiniao_forte": true
 }

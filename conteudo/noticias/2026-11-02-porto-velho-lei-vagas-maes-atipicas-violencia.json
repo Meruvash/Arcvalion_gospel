@@ -1,0 +1,201 @@
+{
+ "slug": "porto-velho-lei-vagas-maes-atipicas-violencia",
+ "data": "2026-11-02",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "selo": "Boa notícia",
+ "titulo": "Porto Velho permite reservar até 8% das vagas terceirizadas para mães atípicas e vítimas de violência",
+ "lide": "A Lei Municipal 3.524, sancionada pelo prefeito Léo Moraes em 23 de outubro e publicada em 26 de outubro, autoriza a Prefeitura de Porto Velho a prever, nos contratos de serviços contínuos com mão de obra exclusiva, reserva de até 8% das vagas para mulheres vítimas de violência doméstica e para mães atípicas, as que cuidam de forma permanente de pessoa com deficiência ou doença que exige apoio contínuo.",
+ "por_que_importa": "A lei abre uma porta de trabalho para duas mulheres que costumam ficar sem saída: a que cuida em tempo integral de um filho com deficiência ou doença rara e a que precisa recomeçar depois da violência doméstica. Mas a reserva é uma possibilidade, não uma obrigação: depende de análise técnica em cada contrato e de regulamento, que a prefeitura tem 90 dias para editar.",
+ "numeros": [
+  [
+   "até 8%",
+   "das vagas dos contratos de serviços contínuos podem ser reservadas, se houver compatibilidade, viabilidade, competitividade e proporcionalidade",
+   "Lei Municipal 3.524/2026, art. 4º, § 2º"
+  ],
+  [
+   "25",
+   "trabalhadores ou mais: tamanho de contrato em que a reserva deve ser aplicada de preferência",
+   "Lei Municipal 3.524/2026, art. 4º, § 1º"
+  ],
+  [
+   "90 dias",
+   "prazo para o Executivo regulamentar a lei",
+   "Lei Municipal 3.524/2026, art. 14"
+  ]
+ ],
+ "corpo": [
+  "A lei cria a Política Municipal de Inclusão Produtiva de Mulheres em Situação de Vulnerabilidade, o Programa Municipal Recomeçar e o Banco Municipal de Oportunidades para Mulheres, coordenado pela Secretaria Municipal de Inclusão e Assistência Social (Semias). O encaminhamento das beneficiárias será feito pela rede de assistência, como CRAS, CREAS e Cadastro Único, e a participação é voluntária.",
+  "O texto proíbe salário menor ou corte de direitos para as contratadas pela reserva, exige sigilo dos dados e veda a exposição da condição de vítima. A comprovação é feita pelo encaminhamento da rede de proteção, sem exigência excessiva de documentos. A reserva precisa respeitar o equilíbrio econômico-financeiro dos contratos e, nas concessões, depende de análise específica."
+ ],
+ "no_brasil": "A norma manda observar a lei federal de licitações (Lei 14.133/2021) e a Lei de Responsabilidade Fiscal, e prevê que outros Poderes e órgãos autônomos do município, como a Câmara, podem aderir por ato próprio. A lei vale para a administração direta e indireta do Executivo municipal.",
+ "critica": [
+  {
+   "fonte": "Prefeito Léo Moraes, ao Rondonoticias (02/11/2026)",
+   "texto": "Essa lei abre novas possibilidades para mulheres que precisam reconstruir suas vidas e conquistar independência financeira. Queremos oferecer oportunidades de trabalho e condições para que elas tenham mais segurança e autonomia",
+   "citacao": true,
+   "url": "https://rondonoticias.com.br/noticia/capital/162218/lei-reserva-ate-8-das-vagas-para-mulheres-vitimas-de-violencia-e-maes-atipicas"
+  },
+  {
+   "fonte": "Lei Municipal 3.524/2026, art. 7º, § 1º",
+   "texto": "A inclusão das cláusulas deverá ser precedida de análise técnica que comprove sua viabilidade e adequação ao objeto contratado.",
+   "citacao": true,
+   "url": "http://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/2026/29934/lei__no_3.524_de_23.10.2026..pdf"
+  },
+  {
+   "fonte": "Leitura da redação sobre o art. 4º",
+   "texto": "O texto usa \"poderá\" e \"preferencialmente\": a reserva entra contrato a contrato, a critério da administração, e não há meta de número de vagas nem prazo para a primeira contratação.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Mães de filhos com deficiência, autismo ou doença rara em Porto Velho: procure o CRAS ou o CREAS para entrar no encaminhamento quando o programa for regulamentado",
+  "Mulheres que saíram de situação de violência: o sigilo é garantido por lei, e não é preciso expor a condição de vítima à empresa",
+  "Igrejas que acompanham essas famílias: vale orientar e acompanhar quem quer voltar ao trabalho"
+ ],
+ "nao_e_para": [
+  "A lei não cria vaga em concurso público: vale para empregados de empresas contratadas pela prefeitura",
+  "A reserva não é automática: depende de análise técnica em cada contrato e do regulamento, ainda não publicado",
+  "Não localizamos o número de contratos ou de vagas que podem ser alcançados pela regra"
+ ],
+ "veredito": "A gente gosta da ideia: trabalho é o melhor caminho para a mulher sair da violência e para a mãe atípica sustentar a casa sem largar o filho. O cuidado é não parar na lei bonita. Reserva que \"poderá\" existir precisa virar vaga de verdade, com regulamento no prazo e números públicos.",
+ "versiculo": {
+  "texto": "A mulher virtuosa, quem a achará? O seu valor muito excede ao de rubins",
+  "referencia": "Provérbios 31.10",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Câmara Municipal de Porto Velho (SAPL): Lei nº 3.524, de 23 de outubro de 2026, íntegra em PDF",
+   "url": "http://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/2026/29934/lei__no_3.524_de_23.10.2026..pdf",
+   "data": "26/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara Municipal de Porto Velho (SAPL): ficha da Lei 3.524/2026, publicada no DOMR 4347",
+   "url": "https://sapl.portovelho.ro.leg.br/api/norma/normajuridica/?ano=2026&numero=3524",
+   "data": "26/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Rondonoticias: Lei reserva até 8% das vagas para mulheres vítimas de violência e mães atípicas (02/11/2026)",
+   "url": "https://rondonoticias.com.br/noticia/capital/162218/lei-reserva-ate-8-das-vagas-para-mulheres-vitimas-de-violencia-e-maes-atipicas",
+   "data": "02/11/2026",
+   "tipo": "reportagem_local"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 57,
+  "trilha": "quente",
+  "abrangencia": "porto-velho",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre famílias: a lei abre vagas de trabalho para mães que cuidam de filho com deficiência e para mulheres que saíram da violência doméstica"
+  },
+  "origem": {
+   "nome": "Rondonoticias",
+   "url": "https://rondonoticias.com.br/noticia/capital/162218/lei-reserva-ate-8-das-vagas-para-mulheres-vitimas-de-violencia-e-maes-atipicas"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Lei sancionada e em vigor para os contratos da Prefeitura de Porto Velho, com efeito sobre um grupo definido; reserva opcional e ainda sem regulamento"
+   },
+   "afinidade": {
+    "pontos": 15,
+    "porque": "Mães atípicas e famílias que saem da violência doméstica, em ato do poder público de Porto Velho; efeito no leitor depende do regulamento"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Lei publicada em 26/10, dentro de 7 dias, e noticiada em 2/11"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Íntegra da lei e ficha oficial lidas no SAPL; reportagem local com a fala do prefeito"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Acrescenta, da íntegra, que a reserva é opcional, o prazo de 90 dias e as garantias de sigilo"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 6,
+    "viral": 2,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: íntegra da lei (2)",
+    "Ato de poder: lei sancionada pelo prefeito (2)",
+    "Proximidade: Porto Velho (1)",
+    "Utilidade: onde procurar o encaminhamento (1)",
+    "Número forte com fonte oficial: até 8% (1)",
+    "Pede resposta do cristão: igrejas que acompanham mães atípicas e vítimas (1)",
+    "Passagem bíblica que um pastor usaria: Provérbios 31.10 (2)",
+    "Rende estudo: trabalho, dignidade e família (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Lei reserva até 8% das vagas para mulheres vítimas de violência e mães atípicas",
+  "nucleo": "C - Porto Velho",
+  "categoria": "Prefeitura / família",
+  "coleta": "2026-11-02",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em documento primário",
+   "contradicoes": "O título da reportagem diz que a lei \"reserva\" as vagas; o texto da lei diz que a reserva \"poderá ser prevista\". A nota segue a lei.",
+   "sem_confirmacao": "quantos contratos e vagas podem ser alcançados; data do regulamento"
+  },
+  "duplicidade": {
+   "grupo": "Lei Municipal 3.524/2026",
+   "itens": [
+    "SAPL 26/10",
+    "Rondonoticias 02/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que muda com a lei de vagas para mães atípicas em Porto Velho",
+   "entidades": [
+    "Porto Velho",
+    "Léo Moraes",
+    "Lei 3.524/2026",
+    "Semias",
+    "Programa Recomeçar"
+   ],
+   "termos": [
+    "mães atípicas",
+    "reserva de vagas",
+    "violência doméstica",
+    "inclusão produtiva"
+   ],
+   "atualizacao": "acompanhar o regulamento (prazo de 90 dias) e as primeiras contratações"
+  }
+ },
+ "instituicao": "Prefeitura de Porto Velho",
+ "editora": "Câmara Municipal de Porto Velho",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da lei, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os fatos vêm da íntegra da lei e da ficha oficial no SAPL; a fala do prefeito foi lida na reportagem. A opinião apoia a lei e cobra regulamento e transparência, sem atribuir intenção ou falha a pessoa ou órgão.",
+ "imagem": {
+  "arquivo": "capas/porto-velho-lei-vagas-maes-atipicas-violencia.jpg",
+  "credito": "Jules Breton, Camponesa tricotando (c. 1870), The Metropolitan Museum of Art",
+  "alt": "Pintura de Jules Breton: jovem camponesa sentada sob uma árvore, tricotando",
+  "licenca": "Domínio público (Open Access do Met, CC0)",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP-23347-001.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/435774"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-02T15:20:28-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-02T15:20:28-03:00"
+}
