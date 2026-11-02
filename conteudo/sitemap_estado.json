@@ -27,9 +27,17 @@
   "hash": "c74831f21364c7d7",
   "lastmod": "2026-11-02T00:17:31+00:00"
  },
+ "https://opaladino.com.br/discipulado/discipulo-de-jesus/": {
+  "hash": "8abcb5cd10b110cd",
+  "lastmod": "2026-11-02T15:29:12-03:00"
+ },
  "https://opaladino.com.br/discipulado/graca-de-deus/": {
   "hash": "68adf922cf924d76",
   "lastmod": "2026-11-01T15:28:06-03:00"
+ },
+ "https://opaladino.com.br/discipulado/jejum/": {
+  "hash": "1edbed07f9172d31",
+  "lastmod": "2026-11-02T15:27:16-03:00"
  },
  "https://opaladino.com.br/discipulado/ler-a-biblia/": {
   "hash": "23ac4a91860494cc",
@@ -38,6 +46,10 @@
  "https://opaladino.com.br/discipulado/nascer-de-novo/": {
   "hash": "714a714f90ff07f3",
   "lastmod": "2026-10-31T00:17:23+00:00"
+ },
+ "https://opaladino.com.br/discipulado/o-que-e-a-biblia/": {
+  "hash": "fd5fb1c7ea14a56a",
+  "lastmod": "2026-11-02T15:31:01-03:00"
  },
  "https://opaladino.com.br/discipulado/por-que-igreja/": {
   "hash": "7da2eb774eb308b5",
@@ -51,9 +63,13 @@
   "hash": "e3f004c9f44c4cee",
   "lastmod": "2026-10-30T21:58:14+00:00"
  },
+ "https://opaladino.com.br/discipulado/santificacao/": {
+  "hash": "86f2e37526daa734",
+  "lastmod": "2026-11-02T15:33:05-03:00"
+ },
  "https://opaladino.com.br/discipulado/tema/conhecendo-a-biblia/": {
-  "hash": "e10ee19882cf4d2b",
-  "lastmod": "2026-10-30T23:50:53+00:00"
+  "hash": "c6305201d721991a",
+  "lastmod": "2026-11-02T18:35:32+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/conhecendo-a-deus/": {
   "hash": "a7c8a51c8476d3f9",
@@ -68,36 +84,40 @@
   "lastmod": "2026-11-01T18:37:18+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/oracao/": {
-  "hash": "431c3dd33b065a5f",
-  "lastmod": "2026-10-30T23:50:53+00:00"
+  "hash": "ecba973c40908ff4",
+  "lastmod": "2026-11-02T18:35:32+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/salvacao-e-nova-vida/": {
   "hash": "be5868bac6715c3e",
   "lastmod": "2026-11-01T18:37:18+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/santidade/": {
-  "hash": "b8a2bb712349249f",
-  "lastmod": "2026-10-30T21:58:14+00:00"
+  "hash": "f5be066659b10c05",
+  "lastmod": "2026-11-02T18:35:32+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/vida-crista/": {
-  "hash": "1346d2777b6b4428",
-  "lastmod": "2026-10-31T00:15:54+00:00"
+  "hash": "e24cd02ecc66bd1c",
+  "lastmod": "2026-11-02T18:35:32+00:00"
  },
  "https://opaladino.com.br/discipulado/trilha/fundamentos-da-fe/": {
-  "hash": "876fe2c97f4bc9dd",
-  "lastmod": "2026-11-01T18:37:18+00:00"
+  "hash": "0561f84100de09a5",
+  "lastmod": "2026-11-02T18:35:32+00:00"
  },
  "https://opaladino.com.br/discipulado/trilha/preparacao-para-o-batismo/": {
-  "hash": "9b41798ba20464b4",
-  "lastmod": "2026-11-01T18:37:18+00:00"
+  "hash": "a432ff2e956e132d",
+  "lastmod": "2026-11-02T18:35:32+00:00"
  },
  "https://opaladino.com.br/discipulado/trilha/primeiros-passos/": {
-  "hash": "80e1a649f901d2b7",
-  "lastmod": "2026-11-01T18:37:18+00:00"
+  "hash": "93a43cbc2bd5ac7c",
+  "lastmod": "2026-11-02T18:35:32+00:00"
  },
  "https://opaladino.com.br/discipulado/trindade/": {
   "hash": "16aacb2f81fed06f",
   "lastmod": "2026-11-01T15:36:42-03:00"
+ },
+ "https://opaladino.com.br/discipulado/vencer-tentacoes/": {
+  "hash": "247c4888a5270395",
+  "lastmod": "2026-11-02T15:35:18-03:00"
  },
  "https://opaladino.com.br/estudos/arrebatamento-1-tessalonicenses-4/": {
   "hash": "d84d80697611cac3",

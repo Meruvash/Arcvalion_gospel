@@ -27,8 +27,7 @@
    "previstos": [
     "Deus responde às orações?",
     "Como desenvolver intimidade com Deus?",
-    "Como reconhecer a direção de Deus?",
-    "O que significa jejuar?"
+    "Como reconhecer a direção de Deus?"
    ]
   },
   {
@@ -36,7 +35,6 @@
    "nome": "Conhecendo a Bíblia",
    "descricao": "O que é a Bíblia, como começar a ler e como entender o que ela diz.",
    "previstos": [
-    "O que é a Bíblia?",
     "Como interpretar corretamente as Escrituras?",
     "Como aplicar os ensinamentos bíblicos?"
    ]
@@ -54,8 +52,6 @@
    "nome": "Santidade e transformação",
    "descricao": "Santificação, tentação, perdão e o caráter de Cristo.",
    "previstos": [
-    "O que é santificação?",
-    "Como vencer as tentações?",
     "O que significa perdoar?",
     "Como desenvolver o caráter de Cristo?"
    ]
@@ -94,7 +90,9 @@
     "como-orar",
     "ler-a-biblia",
     "por-que-igreja",
-    "deus-me-aceita-de-volta"
+    "deus-me-aceita-de-volta",
+    "discipulo-de-jesus",
+    "jejum"
    ],
    "meta": 12
   },
@@ -107,9 +105,8 @@
     "quem-e-jesus",
     "trindade",
     "graca-de-deus",
-    {
-     "titulo": "O que é a Bíblia?"
-    }
+    "o-que-e-a-biblia",
+    "santificacao"
    ],
    "meta": 12
   },
@@ -122,7 +119,8 @@
     "nascer-de-novo",
     "batismo-nas-aguas",
     "por-que-igreja",
-    "ceia-do-senhor"
+    "ceia-do-senhor",
+    "vencer-tentacoes"
    ],
    "meta": 12
   }
@@ -145,6 +143,18 @@
    "categoria": "salvacao-e-nova-vida",
    "evidencia": "Google Trends, Ano em Pesquisa 2025 (Brasil): \"Trend Jesus abraçando\" está na lista \"Virou trend\" (consultado em 01/11/2026); \"deus me aceita de volta sei que não mereço\" aparece no autocomplete do Google e do YouTube",
    "url": "https://trends.withgoogle.com/year-in-search/2025/br/"
+  },
+  {
+   "titulo": "O que significa jejuar?",
+   "categoria": "oracao",
+   "evidencia": "Google Trends, Ano em Pesquisa 2024 (Brasil): \"Por que não pode comer carne na Sexta-feira Santa?\" é a 4ª da lista \"Por que...\" (consultado em 02/11/2026); o autocomplete do Google sugere \"o que significa jejuar na bíblia\" e \"o que significa jejuar para deus\"",
+   "url": "https://trends.withgoogle.com/year-in-search/2024/br/"
+  },
+  {
+   "titulo": "O que significa ser discípulo de Jesus?",
+   "categoria": "vida-crista",
+   "evidencia": "Google Trends, Ano em Pesquisa 2023 (Brasil): \"The Chosen\", a série sobre Jesus e os discípulos, está na lista \"Séries\" (consultado em 02/11/2026); o autocomplete do Google sugere \"o que é ser um verdadeiro discípulo de jesus\" e \"o que significa ser discípulo de jesus hoje\"",
+   "url": "https://trends.withgoogle.com/year-in-search/2023/br/"
   }
  ]
 }

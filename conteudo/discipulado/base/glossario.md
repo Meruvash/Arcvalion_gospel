@@ -25,3 +25,9 @@ Termos adiados: **graça** (a NTLH de João 1 diz "amor"; explicar numa lição 
 - **SENHOR** ("Quem é Deus?"): em maiúsculas, na NTLH, traduz o nome próprio de Deus em hebraico (YHWH), ligado ao verbo "ser".
 - **Trindade** ("O que significa a Trindade?"): o ensino bíblico de que há um só Deus, que existe eternamente em três pessoas: o Pai, o Filho e o Espírito Santo.
 - **Unicismo** ("O que significa a Trindade?"): a ideia de que o Pai, o Filho e o Espírito Santo seriam três modos de uma mesma pessoa divina; a Declaração de Fé o rejeita.
+- **Jejum** ("O que significa jejuar?"): ficar sem comer, ou comer bem menos, por um tempo, para se dedicar a buscar a Deus em oração; pode ser absoluto ou parcial (Declaração de Fé).
+- **Discípulo** ("O que significa ser discípulo de Jesus?"): aprendiz que segue o mestre; nome de todos os que seguem Jesus, e não de uma categoria superior de cristãos.
+- **Inspiração** ("O que é a Bíblia?"): a ação do Espírito Santo sobre os autores da Bíblia, de modo que o que escreveram é Palavra de Deus; "verbal e plenária", segundo a Declaração de Fé.
+- **Cânon** ("O que é a Bíblia?"): a lista oficial dos livros reconhecidos como Escritura; o protestante tem 66 livros.
+- **Santificação** ("O que é santificação?"): "o ato de separar-se do pecado e dedicar-se a Deus" (Declaração de Fé); na NTLH, ser "completamente dedicado" a Deus.
+- **Tentação** ("Como vencer as tentações?"): tudo o que atrai a pessoa para o pecado; envolve "indução externa" e os "desejos da carne" (Declaração de Fé). Ser tentado não é pecar.

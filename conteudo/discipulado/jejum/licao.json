@@ -1,0 +1,116 @@
+{
+ "slug": "jejum",
+ "titulo": "O que significa jejuar?",
+ "titulo_seo": "O que significa jejuar? Entenda o que a Bíblia ensina",
+ "ideia_central": "Jejuar é ficar sem comer por um tempo para buscar a Deus em oração, em segredo e sem pensar que se compra algo dele; o jejum que lhe agrada vem com mudança de vida.",
+ "descricao": "O que significa jejuar? O jejum na Bíblia (Mateus 6 e Isaías 58), a diferença para a dieta, o jejum de Daniel, por que os católicos não comem carne na Sexta-feira Santa e como começar com prudência.",
+ "tempo_min": 13,
+ "resumo_rapido": {
+  "resposta": "Jejuar é ficar sem comer, ou comer bem menos, por um tempo, para buscar a Deus, sempre com oração. Jesus mandou jejuar em segredo, e Deus disse que o jejum que lhe agrada vem com justiça e generosidade.",
+  "ideias": [
+   "Não é dieta: o que define o jejum bíblico é o propósito de buscar a Deus.",
+   "Não é greve de fome: o jejum não compra nada de Deus nem o obriga a responder.",
+   "Para as Assembleias de Deus é voluntário, sem dia obrigatório nem comida proibida, e o corpo deve ser respeitado."
+  ],
+  "texto_central": "Mateus 6:16-18 e Isaías 58:6-7"
+ },
+ "versiculo_chave": {
+  "texto": "Mas você, quando jejuar, lave o rosto e penteie o cabelo para os outros não saberem que você está jejuando.",
+  "referencia": "Mateus 6:17-18"
+ },
+ "contexto": [
+  [
+   "Quem ensinou",
+   "Jesus",
+   "No Sermão do Monte, ao lado da esmola e da oração"
+  ],
+  [
+   "Profeta",
+   "Isaías 58",
+   "O jejum que agrada a Deus vem com justiça e generosidade"
+  ],
+  [
+   "Exemplos",
+   "Jesus e a igreja",
+   "40 dias no deserto; a igreja de Antioquia em Atos 13"
+  ],
+  [
+   "Tipos",
+   "Absoluto ou parcial",
+   "Segundo a Declaração de Fé das Assembleias de Deus"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "O jejum obriga Deus a responder",
+   "O povo de Isaías 58 cobrava a Deus pelo jejum e foi repreendido. Wesley e Calvino concordam: o jejum não merece nada de Deus."
+  ],
+  [
+   "Moderada",
+   "Jejum espiritual é o mesmo que jejum de dieta",
+   "O que define o jejum bíblico é o propósito: afastar-se para buscar a Deus, sempre com oração."
+  ],
+  [
+   "Moderada",
+   "Quem jejua deve mostrar que está jejuando",
+   "Jesus mandou lavar o rosto e pentear o cabelo para ninguém saber (Mateus 6:17-18)."
+  ],
+  [
+   "Leve",
+   "Jejum de Daniel é regra bíblica",
+   "A expressão não está na Bíblia; junta Daniel 1:12 e 10:3. É um jejum parcial, por decisão pessoal."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "O que significa jejuar?",
+  "evidencias": [
+   {
+    "fonte": "Google Trends (Ano em Pesquisa 2024, Brasil)",
+    "url": "https://trends.withgoogle.com/year-in-search/2024/br/",
+    "dado": "\"Por que não pode comer carne na Sexta-feira Santa?\" é a 4ª pergunta da lista \"Por que...\", das que mais cresceram no Brasil em 2024",
+    "data": "2026-11-02"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=o%20que%20significa%20jejuar",
+    "dado": "sugere \"o que significa jejuar na bíblia\", \"para deus\", \"na sexta feira santa\" e \"em oração\"",
+    "data": "2026-11-02"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=o%20que%20%C3%A9%20jejum",
+    "dado": "para \"o que é jejum\", mistura \"intermitente\" e \"metabólico\" com \"jejum de daniel\" e \"na bíblia\"",
+    "data": "2026-11-02"
+   }
+  ]
+ },
+ "categoria": "oracao",
+ "palavras_chave": [
+  "jejum",
+  "jejuar",
+  "jejum de Daniel",
+  "Sexta-feira Santa",
+  "oração",
+  "Mateus 6",
+  "Isaías 58",
+  "consagração",
+  "abstinência de carne"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-jejum.jpg",
+  "alt": "Afresco românico em tons de ocre, vermelho e azul: Jesus, de auréola dourada e manto azul-escuro, aparece duas vezes, no deserto e no alto do Templo, diante de figuras escuras e aladas do Diabo; à direita, um anjo de asas vermelhas.",
+  "credito": "Oficina castelhana anônima, A tentação de Cristo pelo Diabo (afresco transferido para tela, primeira metade do século XII). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, sermão de John Wesley, comentário de Matthew Henry, Institutas de João Calvino e Código de Direito Canônico. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-02T15:27:16-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-02T15:27:16-03:00"
+}

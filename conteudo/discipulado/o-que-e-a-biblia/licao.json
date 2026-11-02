@@ -1,0 +1,111 @@
+{
+ "slug": "o-que-e-a-biblia",
+ "titulo": "O que é a Bíblia?",
+ "titulo_seo": "O que é a Bíblia? Entenda o que a Bíblia ensina",
+ "ideia_central": "A Bíblia é uma coleção de 66 livros escritos por pessoas guiadas pelo Espírito Santo, com um só autor por trás de todos e Jesus no centro; por isso é Palavra de Deus.",
+ "descricao": "O que é a Bíblia? Quantos livros tem, quem escreveu, o que é inspiração (2 Pedro 1:21), por que a Bíblia católica tem mais livros, o que significa Antigo e Novo Testamento e por que Jesus é o centro.",
+ "tempo_min": 13,
+ "resumo_rapido": {
+  "resposta": "A Bíblia é uma coleção de 66 livros, escritos ao longo de cerca de 1.600 anos por cerca de 40 autores guiados pelo Espírito Santo. Por isso é Palavra de Deus, e Jesus é o centro de toda ela.",
+  "ideias": [
+   "Os autores escreveram \"guiados pelo Espírito Santo\", com a sua personalidade e o seu talento, e não como máquinas.",
+   "A Bíblia católica tem livros a mais no Antigo Testamento, que os evangélicos não reconhecem como Escritura.",
+   "Ela foi dada para ser lida com a ajuda do Espírito, entendida no contexto e obedecida."
+  ],
+  "texto_central": "2 Pedro 1:19-21 e Salmo 19:7-11"
+ },
+ "versiculo_chave": {
+  "texto": "Pois nenhuma mensagem profética veio da vontade humana, mas as pessoas eram guiadas pelo Espírito Santo quando anunciavam a mensagem que vinha de Deus.",
+  "referencia": "2 Pedro 1:21"
+ },
+ "contexto": [
+  [
+   "Livros",
+   "66",
+   "39 no Antigo Testamento e 27 no Novo, segundo a Declaração de Fé das Assembleias de Deus"
+  ],
+  [
+   "Tempo",
+   "Cerca de 1.600 anos",
+   "Escrita por cerca de 40 autores"
+  ],
+  [
+   "Inspiração",
+   "\"Guiadas pelo Espírito Santo\"",
+   "2 Pedro 1:21, na NTLH"
+  ],
+  [
+   "Centro",
+   "Jesus Cristo",
+   "Lucas 24:44: Lei, Profetas e Salmos falam dele"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Moderada",
+   "Os autores da Bíblia foram máquinas de escrever",
+   "A Declaração de Fé das Assembleias de Deus diz que eles \"não foram usados automaticamente\", mas cada um com a sua personalidade e o seu talento."
+  ],
+  [
+   "Moderada",
+   "A Bíblia católica é outra Bíblia",
+   "Os 66 livros da Bíblia evangélica estão também na católica; a diferença são os livros a mais no Antigo Testamento."
+  ],
+  [
+   "Moderada",
+   "A Bíblia é um amuleto ou um livro de recados",
+   "Ela é para ser lida, entendida no contexto e obedecida (2 Pedro 1:20; Salmo 19:11)."
+  ],
+  [
+   "Leve",
+   "Cada versão é uma Bíblia diferente",
+   "King James, NVI, NTLH e outras são, na maioria, traduções diferentes do mesmo texto."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "O que é a Bíblia?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=o%20que%20%C3%A9%20a%20b%C3%ADblia",
+    "dado": "sugere \"o que é a bíblia sagrada\", \"o que é a bíblia católica\", \"o que é a bíblia king james\" e \"o que é a bíblia para os católicos\"",
+    "data": "2026-11-02"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=o%20que%20%C3%A9%20a%20b%C3%ADblia",
+    "dado": "sugere \"o que é a bíblia sagrada\", \"o que é a bíblia católica\" e \"o que é a bíblia etíope\"",
+    "data": "2026-11-02"
+   }
+  ]
+ },
+ "categoria": "conhecendo-a-biblia",
+ "palavras_chave": [
+  "Bíblia",
+  "inspiração",
+  "Palavra de Deus",
+  "cânon",
+  "Antigo Testamento",
+  "Novo Testamento",
+  "Bíblia católica",
+  "apócrifos",
+  "2 Pedro 1:21",
+  "Salmo 19"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-o-que-e-a-biblia.jpg",
+  "alt": "Duas páginas de um manuscrito medieval em pergaminho: colunas pintadas de azul, vermelho, verde e cor de areia sustentam arcos, com os nomes dos evangelistas em maiúsculas no alto e listas de números romanos abaixo.",
+  "credito": "Oficina carolíngia anônima, provavelmente de Metz, Livro dos Evangelhos (tinta e aquarela opaca sobre pergaminho, c. 825-850). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, Institutas de João Calvino, comentários de Matthew Henry e Catecismo da Igreja Católica. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-02T15:31:01-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-02T15:31:01-03:00"
+}
