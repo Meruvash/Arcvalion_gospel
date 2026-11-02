@@ -50,7 +50,7 @@ João Calvino nota que o verbo hebraico está no futuro, algo como "serei o que 
 
 Tudo o que conhecemos existe porque alguma outra coisa o fez existir. A árvore veio da semente, nós viemos dos nossos pais, a Terra se formou num universo que já estava lá. Deus é a única exceção: ninguém o fez, nada o sustenta. O Salmo 90 diz isso em forma de poesia: antes de formar os montes e de começar a criar a terra e o universo, "tu és Deus eternamente, no passado, no presente e no futuro" (Salmo 90:2).
 
-Matthew Henry, pastor inglês do século XVIII, acrescenta outra dimensão. O "Eu Sou" fala do que Deus é em si mesmo: eterno, sem depender de nada. Mas Deus não para aí. Logo em seguida, dá um segundo nome, mais próximo: "o Deus de Abraão, o Deus de Isaque e o Deus de Jacó". O mesmo Deus que não depende de ninguém escolheu ser conhecido pelos nomes das pessoas com quem caminhou.
+Matthew Henry, pastor britânico (1662-1714), acrescenta outra dimensão. O "Eu Sou" fala do que Deus é em si mesmo: eterno, sem depender de nada. Mas Deus não para aí. Logo em seguida, dá um segundo nome, mais próximo: "o Deus de Abraão, o Deus de Isaque e o Deus de Jacó". O mesmo Deus que não depende de ninguém escolheu ser conhecido pelos nomes das pessoas com quem caminhou.
 
 > [!chave] Deus é grande demais para depender de alguém e próximo o bastante para ser chamado de "o Deus de Abraão".
 
@@ -88,13 +88,13 @@ O mesmo Deus que se apresentou a Moisés se mostrou por completo em Jesus. A pri
 
 Conhecer a Deus não é decorar uma lista de atributos. É começar a se relacionar com quem ele realmente é. Algumas maneiras de dar esse passo:
 
-- **Chame Deus pelo que ele revelou.** Quando orar, use as palavras de Êxodo 34:6: "Tu tens compaixão e misericórdia, não ficas irado com facilidade." Orar com as palavras que Deus usou para si mesmo corrige a imagem errada que carregamos.
+- **Chame Deus pelo que ele revelou.** Quando orar, use as palavras de Êxodo 34:6 e diga a Deus que ele tem compaixão e misericórdia e não fica irado com facilidade. Orar com as palavras que Deus usou para si mesmo corrige a imagem errada que carregamos.
 
 - **Confira a sua imagem de Deus.** Pense em como você imagina Deus quando erra: um policial, um professor decepcionado, um pai que corre ao seu encontro? Compare com o retrato de Êxodo 34 e deixe a Bíblia corrigir o que for preciso.
 
 - **Lembre-se de que ele não está longe.** Paulo disse aos atenienses que Deus "não esteja longe de cada um de nós". Você não precisa de um lugar especial para falar com ele.
 
-- **Leve a sério a grandeza dele.** Moisés tirou as sandálias e cobriu o rosto. Respeito não é medo doentio: é saber com quem se está falando.
+- **Leve a sério a grandeza dele.** Deus mandou Moisés tirar as sandálias, e ele cobriu o rosto (Êxodo 3:5-6). Respeito não é medo doentio: é saber com quem se está falando.
 
 - **Olhe para Jesus.** Se Deus parece abstrato demais, leia um dos Evangelhos. Ali você vê como Deus age com pessoas reais.
 

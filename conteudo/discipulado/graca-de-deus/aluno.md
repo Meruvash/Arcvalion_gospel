@@ -41,6 +41,8 @@ E na carta a Tito, um dos seus colaboradores, ele mostra que a graça não para 
 > **11** Pois Deus revelou a sua graça para dar a salvação a todos.
 >
 > **12** Essa graça nos ensina a abandonarmos a descrença e as paixões mundanas e a vivermos neste mundo uma vida prudente, correta e dedicada a Deus,
+>
+> **13** enquanto ficamos esperando o dia feliz em que aparecerá a glória do nosso grande Deus e Salvador Jesus Cristo.
 
 *Texto bíblico: Nova Tradução na Linguagem de Hoje (NTLH). Copyright 2000 Sociedade Bíblica do Brasil. Todos os direitos reservados.*
 
@@ -60,7 +62,7 @@ Paulo poderia ter dito que, antes de Cristo, as pessoas estavam fracas, confusas
 
 A segunda ideia do texto é que a salvação "não é o resultado dos esforços de vocês". Aqui está o ponto em que muita gente tropeça sem perceber. Quase ninguém diz abertamente que se salva sozinho. Mas muitos pensam que a graça é uma espécie de empurrão: Deus ajuda, e a gente completa. A graça seria o financiamento, e as boas obras, as prestações.
 
-A Bíblia fecha essa porta. John Wesley, o pregador inglês do século XVIII cujo ensino está na raiz do metodismo, pregou sobre este mesmo versículo. Ele insistiu que a graça não depende de nenhum poder ou mérito do ser humano, em nenhum grau, nem no todo, nem em parte. João Calvino, o reformador de Genebra que discordava de Wesley em muitas coisas, diz o mesmo neste ponto.
+A Bíblia fecha essa porta. John Wesley, o pregador inglês do século XVIII cujo ensino está na raiz do metodismo, pregou sobre este mesmo versículo e disse que todas as bênçãos de Deus vêm do seu favor livre e imerecido. Em outro sermão, "Free Grace", insistiu que a graça não depende de nenhum poder ou mérito do ser humano, em nenhum grau, nem no todo, nem em parte. João Calvino, o reformador de Genebra que discordava de Wesley em muitas coisas, diz o mesmo neste ponto.
 
 > [!citacao] Deus declara que não nos deve nada, de modo que a salvação não é prêmio nem recompensa, mas graça pura.
 > Fonte: João Calvino, comentário a Efésios 2:8 (tradução nossa; no original, "God declares, that he owes us nothing; so that salvation is not a reward or recompense, but unmixed grace")
@@ -75,7 +77,7 @@ A comparação com um presente tem limites, e é bom dizê-los. Um presente comu
 
 Paulo tira uma conclusão prática: "ninguém pode se orgulhar". Se a salvação fosse um prêmio, haveria espaço para comparação, para o "eu me esforcei mais do que fulano". Como é um presente, ninguém sobe no pódio.
 
-Essa é uma das razões por que a graça incomoda pessoas religiosas. Ela coloca o crente antigo e o recém-convertido, a pessoa de vida certinha e a de passado pesado, no mesmo lugar: o de quem recebeu. Romanos diz que "não existe nenhuma diferença entre as pessoas" (Romanos 3:22), porque "todos pecaram". Matthew Henry, pastor inglês do século XVIII cujo comentário bíblico ainda é muito lido, resume com uma frase seca: todo pecador convertido é um pecador salvo.
+Essa é uma das razões por que a graça incomoda pessoas religiosas. Ela coloca o crente antigo e o recém-convertido, a pessoa de vida certinha e a de passado pesado, no mesmo lugar: o de quem recebeu. Romanos diz que "não existe nenhuma diferença entre as pessoas" (Romanos 3:22), porque "todos pecaram". Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, resume com uma frase seca: todo pecador convertido é um pecador salvo.
 
 O Evangelho de João conta uma cena que mostra isso sem teoria. Alguns líderes religiosos levam a Jesus uma mulher apanhada em adultério e perguntam se ela deve ser apedrejada, como mandava a Lei; Jesus responde: "Quem de vocês estiver sem pecado, que seja o primeiro a atirar uma pedra nesta mulher!" Um por um, todos vão embora, e ele diz a ela: "Pois eu também não condeno você. Vá e não peque mais!" (João 8:7, 11; as falas, que na NTLH vêm depois de travessão, estão aqui entre aspas). Na mesma frase cabem as duas metades da graça: o perdão que ela não podia comprar e o chamado a uma vida diferente.
 
@@ -83,7 +85,7 @@ O Evangelho de João conta uma cena que mostra isso sem teoria. Alguns líderes 
 
 Se tudo é presente, por que não continuar vivendo do mesmo jeito? Paulo previu a objeção e a escreveu com todas as letras: "Será que devemos continuar vivendo no pecado para que a graça de Deus aumente ainda mais?" A resposta vem logo: "É claro que não! Nós já morremos para o pecado; então como podemos continuar vivendo nele?" (Romanos 6:1-2).
 
-A carta a Tito explica o motivo. A graça não só salva; ela "nos ensina" a abandonar as paixões mundanas e a viver de modo "prudente, correto e dedicado a Deus" (Tito 2:12). Graça que não ensina nada não é a graça da Bíblia. Charles Spurgeon, o pregador batista inglês do século XIX, escreveu um livro inteiro para dizer que a salvação é toda de graça. No mesmo livro, avisou que um perdão que dispensasse o arrependimento seria uma licença terrível para o mal.
+A carta a Tito explica o motivo. A graça não só salva; ela "nos ensina" a abandonar as paixões mundanas e a viver "uma vida prudente, correta e dedicada a Deus" (Tito 2:12). Graça que não ensina nada não é a graça da Bíblia. Charles Spurgeon, o pregador batista inglês do século XIX, escreveu um livro inteiro para dizer que a salvação é toda de graça. No mesmo livro, avisou que um perdão que dispensasse o arrependimento seria uma licença terrível para o mal.
 
 > [!atencao] Graça não é licença para pecar. A Declaração de Fé das Assembleias de Deus diz que a liberdade que recebemos em Cristo significa que "estamos livres para servir, e não para pecar".
 

@@ -44,7 +44,7 @@ Anos depois, o apóstolo João escreveu a cristãos que, como Pedro, sabiam o qu
 
 Lucas registra um detalhe que os outros Evangelhos não contam: no momento em que o galo cantou, Jesus "virou-se e olhou firme para Pedro". Jesus estava preso, a caminho do julgamento. Não disse nada. Apenas olhou.
 
-Matthew Henry, pastor inglês do século XVIII, notou a delicadeza da cena. Jesus não chamou Pedro em voz alta, para não o envergonhar nem o expor; deu-lhe um olhar que só Pedro entenderia. E acrescenta uma frase que resume o episódio: quando Pedro negou a Cristo, Cristo não negou a Pedro.
+Matthew Henry, pastor britânico (1662-1714), notou a delicadeza da cena. Jesus não chamou Pedro em voz alta, para não o envergonhar nem o expor; deu-lhe um olhar que só Pedro entenderia. E acrescenta uma frase que resume o episódio: quando Pedro negou a Cristo, Cristo não negou a Pedro.
 
 João Calvino, o reformador de Genebra, viu no mesmo olhar o começo do caminho de volta. Para ele, sempre que alguém cai, o arrependimento só começa quando o Senhor olha para essa pessoa. A volta não começa com o nosso esforço de nos reerguer. Começa com Deus nos procurando.
 
@@ -52,7 +52,7 @@ João Calvino, o reformador de Genebra, viu no mesmo olhar o começo do caminho 
 
 ### Choro sem desespero
 
-Pedro "chorou amargamente". Na mesma noite, Judas, que também traiu Jesus, também se arrependeu do que fez, mas foi por outro caminho e terminou tirando a própria vida (Mateus 27:3-5). A diferença entre os dois não estava no tamanho da queda. Os dois falharam gravemente. A diferença estava no que cada um fez com a culpa.
+Pedro "chorou amargamente". Pouco depois, quando Jesus foi condenado, Judas, que o tinha traído, também sentiu remorso pelo que fez, mas foi por outro caminho e terminou tirando a própria vida (Mateus 27:3-5). A diferença entre os dois não estava no tamanho da queda. Os dois falharam gravemente. A diferença estava no que cada um fez com a culpa.
 
 A culpa pode empurrar a pessoa para longe de Deus ou de volta para ele. Pedro chorou, mas não fugiu do grupo dos discípulos. Estava com eles quando as mulheres trouxeram a notícia do túmulo vazio (Lucas 24:9-12). Ficou perto o bastante para ser encontrado.
 
@@ -101,7 +101,7 @@ Se você caiu e está se perguntando se pode voltar, a história de Pedro aponta
 
 - **Aceite a pergunta "Você me ama?".** Voltar não é só se livrar da culpa; é retomar uma relação. Pergunte a si mesmo, com sinceridade, se ama a Jesus, e responda a ele.
 
-- **Volte também ao serviço.** Jesus devolveu a Pedro uma tarefa. Quando estiver de pé, use a sua história para "animar os seus irmãos", como Jesus disse a ele.
+- **Volte também ao serviço.** Jesus devolveu a Pedro uma tarefa. Quando estiver de pé, use a sua história para animar os seus irmãos, como Jesus disse a ele ("anime os seus irmãos", Lucas 22:32).
 
 ## Perguntas para reflexão
 

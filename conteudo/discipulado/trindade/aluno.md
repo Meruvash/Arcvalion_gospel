@@ -58,7 +58,7 @@ O mesmo acontece em outras passagens. Na véspera da cruz, Jesus disse aos disc�
 
 A ordem de Mateus 28:19 tem um detalhe gramatical que os leitores atentos sempre notaram. Jesus não manda batizar "nos nomes" do Pai, do Filho e do Espírito, mas "em nome" deles. Um só nome para os três.
 
-Matthew Henry, pastor inglês do século XVIII cujo comentário bíblico ainda é muito lido, viu nisso uma indicação clara. Para ele, somos batizados não nos nomes, mas no nome do Pai, do Filho e do Espírito, o que mostra que os três são um. Ele acrescenta que a menção distinta das três pessoas no batismo e na bênção de 2 Coríntios ajudou a preservar essa doutrina pura ao longo da história da igreja.
+Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, viu nisso uma indicação clara. Para ele, somos batizados não nos nomes, mas no nome do Pai, do Filho e do Espírito, o que mostra que os três são um. Ele acrescenta que a menção distinta das três pessoas no batismo e na bênção de 2 Coríntios ajudou a preservar essa doutrina pura ao longo da história da igreja.
 
 > [!termo] **Trindade:** palavra que resume o ensino bíblico de que há um só Deus, que existe eternamente em três pessoas: o Pai, o Filho e o Espírito Santo. A Declaração de Fé das Assembleias de Deus fala de "Uma só essência, substância, em três pessoas", "iguais em poder, glória e majestade".
 

@@ -110,8 +110,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-01T15:32:16-03:00",
+  "data": "2026-11-01T21:17:21-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-01T15:32:16-03:00"
+ "publicado_em": "2026-11-01T15:32:16-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-01",
+   "texto": "Correção em 01/11/2026: o remorso de Judas não foi na mesma noite da negação de Pedro, mas depois da condenação de Jesus, pela manhã (Mateus 27:1-5, NTLH)."
+  }
+ ],
+ "atualizado_em": "2026-11-01T21:17:21-03:00"
 }

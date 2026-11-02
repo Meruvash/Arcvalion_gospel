@@ -10,7 +10,7 @@ Todo ano, numa quinta-feira depois de Pentecostes, o calendário brasileiro marc
 
 A pergunta é boa, e leva a outra mais antiga. Corpus Christi é uma festa católica criada na Idade Média para honrar a presença de Cristo na Eucaristia, isto é, no pão e no vinho da Ceia. Segundo o papa Bento XVI, ela foi celebrada primeiro na diocese de Liège, na atual Bélgica, e o papa Urbano IV a estendeu a toda a Igreja Católica em 1264. Por trás da festa, portanto, está uma refeição: a última que Jesus fez com os discípulos antes de morrer.
 
-Os cristãos de todas as tradições celebram essa refeição. Chamam-na de Ceia do Senhor, Santa Ceia, Comunhão ou Eucaristia, e discordam sobre o que acontece nela. Mas todos começam no mesmo lugar: numa noite de Páscoa em Jerusalém.
+Quase todas as tradições cristãs celebram essa refeição. Chamam-na de Ceia do Senhor, Santa Ceia, Comunhão ou Eucaristia, e discordam sobre o que acontece nela. Mas todos começam no mesmo lugar: numa noite de Páscoa em Jerusalém.
 
 ## Fundamentação bíblica
 
@@ -68,7 +68,7 @@ Aqui os cristãos se dividem, e vale conhecer as principais posições com hones
 
 - **A posição de Calvino.** João Calvino, o reformador de Genebra, rejeitou a transubstanciação, mas não quis reduzir a Ceia a um símbolo. Para ele, o pão continua pão, mas Cristo alimenta de verdade a alma do crente, pela ação do Espírito Santo. A Ceia, escreveu, não apresenta "um sinal vão ou vazio". O resumo de uma das seções do seu capítulo sobre a Ceia diz: espiritual, não pela boca, e mesmo assim real.
 
-- **A posição das Assembleias de Deus.** A Declaração de Fé chama a Ceia de "ordenança", e não de sacramento, e afirma que as palavras "isto é o meu corpo" e "isto é o meu sangue" "não são literais, mas referem-se a uma linguagem metafórica". Diz também que as ordenanças "não transmitem qualquer poder místico ou graça salvífica". John Wesley, o pregador inglês do século XVIII, lia o pão partido no mesmo sentido: como sinal do corpo que seria ferido por nós.
+- **A posição das Assembleias de Deus.** A Declaração de Fé chama a Ceia de "ordenança", e não de sacramento, e afirma que as palavras "isto é o meu corpo" e "isto é o meu sangue" "não são literais, mas referem-se a uma linguagem metafórica". Diz também que as ordenanças "não transmitem qualquer poder místico ou graça salvífica". John Wesley, o pregador inglês do século XVIII, também lia o pão partido como sinal do corpo que seria ferido por nós. Mas ele contava a Ceia entre os meios pelos quais Deus transmite a sua graça, e nesse ponto a Declaração de Fé pensa diferente.
 
 A comparação com uma fotografia ajuda a entender a posição pentecostal, desde que se vejam os limites dela. Quem mostra a foto de um pai falecido e diz "este é o meu pai" não está mentindo nem confundindo papel com pessoa. A frase é verdadeira, e a foto desperta amor e gratidão reais. Mas a Ceia é mais que uma foto: foi o próprio Jesus quem a deu, ela é feita em comunhão com ele e com a igreja, e anuncia uma promessa que ainda vai se cumprir.
 
@@ -132,7 +132,7 @@ A Ceia é um dos momentos mais simples e mais profundos do culto. Algumas maneir
 
 - João Calvino, *Institutas*, [livro IV, capítulo 17](https://ccel.org/ccel/calvin/institutes/institutes.vi.xviii.html) (domínio público).
 
-- John Wesley, *Explanatory Notes*, notas a [1 Coríntios 11](https://www.biblestudytools.com/commentaries/wesleys-explanatory-notes/1-corinthians/1-corinthians-11.html) (domínio público).
+- John Wesley, *Explanatory Notes*, notas a [1 Coríntios 11](https://www.biblestudytools.com/commentaries/wesleys-explanatory-notes/1-corinthians/1-corinthians-11.html) e sermão 16, ["The Means of Grace"](https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-16-the-means-of-grace/) (domínio público).
 
 - Matthew Henry, *Commentary on the Whole Bible*, comentário a [1 Coríntios 11](https://www.biblestudytools.com/commentaries/matthew-henry-complete/1-corinthians/11.html) (domínio público).
 
