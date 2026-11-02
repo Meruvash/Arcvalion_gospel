@@ -129,7 +129,7 @@
   ]
  ],
  "publicar": 70,
- "publicar_se_faltar": 60,
+ "publicar_se_faltar": 50,
  "manchete": 70,
  "comprovacao_minima": 9,
  "justificativa_min_palavras": 6,

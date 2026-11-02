@@ -91,7 +91,7 @@ class Noticias(unittest.TestCase):
         sem_porque["criterios"]["impacto"]["porque"] = "importante"
         self.assertIn("justifique Impacto público", erros(sem_porque))
         # declaração sem consequência, de outro país: baixa prioridade, não entra
-        self.assertIn("abaixo do corte de 60", erros(self.crivo100(impacto=2, afinidade=12, atualidade=13, comprovacao=12, originalidade=5)))
+        self.assertIn("abaixo do corte de 50", erros(self.crivo100(impacto=2, afinidade=5, atualidade=13, comprovacao=12, originalidade=5)))
         # pontuação alta não substitui verificação: só uma reportagem, sem confirmação
         self.assertIn("comprovação 5", erros(self.crivo100(impacto=30, afinidade=25, atualidade=20, comprovacao=5, originalidade=10)))
         self.assertIn("motor de 0 a 100", erros({"pontos": 15, "eixos": {"valor": 6, "viral": 5, "cristao": 4}}))

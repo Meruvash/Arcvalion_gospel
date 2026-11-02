@@ -164,11 +164,12 @@ Regras que o número não muda:
 |---|---|---|
 | 85 a 100 | Prioridade máxima | Escreva primeiro; candidata a manchete |
 | 70 a 84 | Alta relevância | Publica; manchete só daqui para cima |
-| 60 a 69 | Relevância moderada | Só para completar o dia, nunca como manchete |
-| 0 a 59 | Moderada baixa ou baixa prioridade | Não entra (`checar_noticia.py` recusa) |
+| 60 a 69 | Relevância moderada | Completa o dia, nunca como manchete |
+| 50 a 59 | Relevância moderada | Só para chegar às 5 do dia, depois da varredura completa; nunca como manchete |
+| 0 a 49 | Baixa prioridade | Não entra (`checar_noticia.py` recusa) |
 
-**Mistura do dia**: a manchete é a maior nota do dia (e precisa de 70 ou mais). Publica-se o que passa, não uma cota:
-melhor 3 notas fortes que 5 com enchimento.
+**Mistura do dia**: a manchete é a maior nota do dia (e precisa de 70 ou mais). A meta é de **pelo menos 5 notas
+por dia** (regra do responsável editorial, 02/11/2026): completa-se com notas de menor pontuação e com a trilha atemporal, nunca afrouxando a verificação (eliminatórios, comprovação mínima, fonte primária, foto com licença, crivo jurídico).
 
 Na nota, o crivo fica registrado assim (`checar_noticia.py` confere a soma, o teto de cada peso, as justificativas, o
 corte, o piso de comprovação e a abrangência; a página não mostra o motor: mostra o crivo público da seção 4.1):
