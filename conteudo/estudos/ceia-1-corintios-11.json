@@ -61,7 +61,7 @@
      "obra": "Declaração de Fé (CGADB/CPAD), capítulos XI e XIII",
      "url": "https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf",
      "data": "novembro de 2016",
-     "texto": "A Declaração de Fé rejeita o termo \"sacramento\" e chama a Ceia de ordenança: um rito simbólico que não transmite poder místico nem graça salvífica. É o memorial da morte de Jesus até a sua vinda, com passado, presente e futuro: a cruz, a comunhão com ele e com os irmãos, e a volta. As palavras \"isto é o meu corpo\" seriam linguagem metafórica.",
+     "texto": "A Declaração de Fé rejeita o termo \"sacramento\" e chama a Ceia de ordenança: um rito simbólico que não transmite poder místico nem graça salvífica. É o memorial da morte de Jesus até a sua vinda, com passado, presente e futuro: a cruz, a comunhão com ele e com os irmãos, e a volta. As palavras \"isto é o meu corpo\" são linguagem metafórica.",
      "citacao": "Temos aqui o passado, a morte de Jesus; o presente, a nossa comunhão com Ele e com os irmãos; e o futuro, a sua volta."
     },
     {
@@ -70,7 +70,7 @@
      "obra": "\"A Ceia do Senhor — A segunda ordenança da Igreja\", lição 10 do 1º trimestre de 2024 (reproduzida no site Estudantes da Bíblia)",
      "url": "https://www.estudantesdabiblia.com.br/licoes_cpad/2024/2024-01-10.htm",
      "data": "10/03/2024",
-     "texto": "A lição de José Gonçalves rejeita a transubstanciação: na última Páscoa, Jesus estava fisicamente à mesa e não podia estar dentro do pão, e \"isto é\" é metáfora, como \"eu sou a porta\". A Ceia não é sacramento que dá graça de forma mágica. Mas a lição acrescenta que Jesus se faz presente espiritualmente na celebração, e que essa é a posição da maioria dos pentecostais.",
+     "texto": "A lição de José Gonçalves rejeita a transubstanciação: na última Páscoa, Jesus estava fisicamente à mesa e não podia estar dentro do pão, e \"isto é\" é metáfora, como \"eu sou a porta\". A Ceia não é sacramento que dá graça de forma mágica. Mas a lição acrescenta que Jesus se faz presente espiritualmente nos símbolos da Ceia, e que essa é a posição da maioria dos pentecostais.",
      "citacao": "Contudo, Jesus se faz presente espiritualmente nos símbolos da Ceia (Mt 18.20). Essa é a posição da maioria dos pentecostais."
     },
     {
@@ -356,13 +356,20 @@
  },
  "nossa_posicao": [
   "O Paladino é um portal pentecostal e fica com a Declaração de Fé das Assembleias de Deus: a Ceia do Senhor é ordenança e memorial, não sacramento que transmite graça por si. As palavras \"isto é o meu corpo\" são linguagem figurada, como \"eu sou a porta\", e o pão e o vinho continuam pão e vinho. A Declaração resume a Ceia em três tempos: \"o passado, a morte de Jesus; o presente, a nossa comunhão com Ele e com os irmãos; e o futuro, a sua volta\".",
-  "Mas memorial não é lembrança fria. A lição da CPAD de 2024 diz que Jesus se faz presente espiritualmente na celebração, conforme Mateus 18:20, e que essa é a posição da maioria dos pentecostais. É assim que a gente vive a Ceia: com o Cristo ressuscitado no meio dos irmãos, com o Espírito tocando o coração, com arrependimento e alegria.",
+  "Mas memorial não é lembrança fria. A lição da CPAD de 2024 diz que Jesus se faz presente espiritualmente nos símbolos da Ceia, conforme Mateus 18:20, e que essa é a posição da maioria dos pentecostais. É assim que a gente vive a Ceia: com o Cristo ressuscitado no meio dos irmãos, com o Espírito tocando o coração, com arrependimento e alegria.",
   "Respeitamos os irmãos reformados e luteranos, que levam a Ceia muito a sério e também rejeitam a transubstanciação. Discordamos da ideia de que o pão e o vinho sejam meios de graça ou que Cristo esteja \"em, com e sob\" eles. Para nós, o que faz da Ceia um momento santo é Cristo presente no meio do seu povo e a fé de quem come e bebe lembrando a cruz."
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-01T05:29:26-03:00",
+  "data": "2026-11-01T21:13:37-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-01T05:29:26-03:00"
+ "publicado_em": "2026-11-01T05:29:26-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-01",
+   "texto": "Correção em 01/11/2026: a lição da CPAD de 2024 diz que Jesus se faz presente espiritualmente \"nos símbolos da Ceia\" (Mt 18.20), não só na celebração; a Declaração de Fé afirma, sem condicional, que \"isto é o meu corpo\" é linguagem metafórica (cap. XIII)."
+  }
+ ],
+ "atualizado_em": "2026-11-01T21:13:37-03:00"
 }
