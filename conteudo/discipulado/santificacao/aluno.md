@@ -64,7 +64,7 @@ Repare onde Paulo aplica a santificação: na vida sexual e no modo de tratar os
 
 Calvino notou isso: faz parte da santidade, disse ele, comportar-se de modo justo e sem fazer mal ao próximo. Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, observou que Deus não exige santidade só no coração, mas também pureza no corpo. A santificação alcança a pessoa inteira.
 
-> [!atencao] Santificação não é uma lista de usos e costumes. A Declaração de Fé das Assembleias de Deus rejeita "toda a aparência de piedade" e diz que nem os dons espirituais são atestados de que alguém é mais santo que os outros. Cada igreja pode ter orientações próprias, mas a santidade bíblica começa no coração e aparece no corpo, no casamento, no trabalho e no modo de tratar as pessoas.
+> [!atencao] Santificação não é uma lista de usos e costumes. A Declaração de Fé das Assembleias de Deus define a santificação pela separação do pecado e pela dedicação a Deus. Ela rejeita "a hipocrisia e toda a aparência de piedade" e diz que nem os dons espirituais são atestados de que alguém é mais santo que os outros. Cada igreja pode ter orientações próprias, mas a santidade bíblica começa no coração e aparece no corpo, no casamento, no trabalho e no modo de tratar as pessoas.
 
 ### Obra de Deus, com a nossa resposta
 

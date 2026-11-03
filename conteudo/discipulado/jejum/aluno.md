@@ -8,7 +8,7 @@ Na igreja, alguém anuncia um dia de jejum e oração. Você nunca jejuou e não
 
 Em 2024, uma das perguntas que mais cresceram no Google no Brasil, segundo o Ano em Pesquisa da empresa, foi: "Por que não pode comer carne na Sexta-feira Santa?". É uma pergunta que muitos brasileiros carregam desde a infância, de uma tradição que conhecem mais pelo costume do que pela explicação.
 
-A regra vem da Igreja Católica. O Código de Direito Canônico, que reúne as leis dessa igreja, manda guardar a abstinência de carne todas as sextas-feiras do ano e, na Quarta-feira de Cinzas e na Sexta-feira da Paixão, a abstinência e o jejum. Os evangélicos não seguem esse calendário. Mas isso não quer dizer que não jejuem: nas igrejas pentecostais, os dias de jejum e oração são comuns.
+A regra vem da Igreja Católica. O Código de Direito Canônico, que reúne as leis dessa igreja, manda guardar todas as sextas-feiras do ano, salvo quando coincidem com uma solenidade, a abstinência de carne ou de outro alimento, conforme a conferência dos bispos de cada país, e, na Quarta-feira de Cinzas e na Sexta-feira da Paixão, a abstinência e o jejum. Os evangélicos não seguem esse calendário. Mas isso não quer dizer que não jejuem: nas igrejas pentecostais, os dias de jejum e oração são comuns.
 
 Então, afinal, o que é jejuar? Quando se digita no Google "o que é jejum", as primeiras sugestões são sobre dieta: "intermitente", "metabólico". Só depois aparecem "espiritual" e "na Bíblia". A confusão é compreensível, mas o jejum da Bíblia é outra coisa.
 

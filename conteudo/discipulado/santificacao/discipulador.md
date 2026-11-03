@@ -30,7 +30,7 @@ A Declaração de Fé das Assembleias de Deus não usa os termos "perfeição cr
 
 ## Dúvidas frequentes
 
-**"Usos e costumes fazem parte da santificação?"** As igrejas podem ter orientações próprias, e o novo convertido deve respeitar a igreja em que congrega. Mas a Declaração de Fé define a santificação pelo pecado e pela dedicação a Deus, e rejeita "toda a aparência de piedade". Encaminhe as dúvidas sobre normas locais ao pastor.
+**"Usos e costumes fazem parte da santificação?"** As igrejas podem ter orientações próprias, e o novo convertido deve respeitar a igreja em que congrega. Mas a Declaração de Fé define a santificação pela separação do pecado e pela dedicação a Deus, e não trata de usos e costumes. Encaminhe as dúvidas sobre normas locais ao pastor.
 
 **"Se eu errar, perdi a santificação?"** Não. Ela é um processo. A queda pede confissão, não desistência.
 

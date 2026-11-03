@@ -85,7 +85,7 @@ A experiência de muitos cristãos confirma isso de um jeito simples. Ninguém s
 
 ### O que a Bíblia faz
 
-O Salmo 19 não descreve a Bíblia como objeto, mas pelo que ela faz: dá novas forças, dá sabedoria aos simples, alegra o coração, ilumina a mente. É "mais preciosa do que o ouro" e "mais doce do que o mel". E termina com uma observação prática: "eu sou recompensado quando lhes obedeço".
+O Salmo 19 não descreve a Bíblia como objeto, mas pelo que ela faz: dá novas forças, dá sabedoria aos simples, alegra o coração, ilumina a mente. Os seus ensinos são "mais preciosos do que o ouro" e "mais doces do que o mel". E termina com uma observação prática: "eu sou recompensado quando lhes obedeço".
 
 Paulo diz algo parecido a Timóteo: a Escritura é "útil para ensinar a verdade, condenar o erro, corrigir as faltas e ensinar a maneira certa de viver" (2 Timóteo 3:16). A Bíblia não foi dada para ficar na estante, mas para ser lida, entendida e vivida. E o profeta Isaías lembra que, enquanto tudo passa, "a palavra do nosso Deus dura para sempre" (Isaías 40:8).
 

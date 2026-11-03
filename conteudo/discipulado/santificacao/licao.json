@@ -44,12 +44,12 @@
   [
    "Grave",
    "Santificação é uma lista de usos e costumes",
-   "A Declaração de Fé das Assembleias de Deus define a santificação pela separação do pecado e pela dedicação a Deus, e rejeita \"toda a aparência de piedade\"."
+   "A Declaração de Fé das Assembleias de Deus define a santificação pela separação do pecado e pela dedicação a Deus; Paulo a aplica ao corpo, ao casamento e ao modo de tratar o irmão (1 Tessalonicenses 4:3-6)."
   ],
   [
    "Moderada",
    "Ser santo é nunca mais errar",
-   "Nem Wesley, defensor da perfeição cristã, ensinava perfeição sem pecado. Calvino e Matthew Henry diziam que ninguém se santifica por completo nesta vida."
+   "Nem Wesley, defensor da perfeição cristã, ensinava uma perfeição livre de ignorância, enganos e fraquezas: ele nunca usava a expressão \"perfeição sem pecado\", porque mesmo os maduros cometem faltas involuntárias e precisam de Cristo. Calvino e Matthew Henry diziam que ninguém se santifica por completo nesta vida."
   ],
   [
    "Moderada",
@@ -103,8 +103,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-02T15:33:05-03:00",
+  "data": "2026-11-02T21:24:46-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-02T15:33:05-03:00"
+ "publicado_em": "2026-11-02T15:33:05-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-02",
+   "texto": "Correção em 02/11/2026: a frase da Declaração de Fé sobre \"aparência de piedade\" trata de hipocrisia na adoração, não de usos e costumes, que a Declaração não aborda; Wesley ensinava libertação do pecado e evitava a expressão \"perfeição sem pecado\" por causa das faltas involuntárias (A Plain Account of Christian Perfection)."
+  }
+ ],
+ "atualizado_em": "2026-11-02T21:24:46-03:00"
 }

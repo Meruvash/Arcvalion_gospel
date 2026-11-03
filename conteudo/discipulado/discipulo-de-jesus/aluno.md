@@ -50,7 +50,7 @@ Por isso o discipulado não é um curso que se termina com diploma. Jesus disse 
 
 Uma leitura comum é pensar que essas exigências duras eram para os apóstolos, não para nós. O texto não deixa essa saída: Lucas diz que Jesus falou "a todos" (Lucas 9:23). Em outra ocasião, falou a "uma grande multidão" (Lucas 14:25).
 
-John Wesley, o pregador inglês do século XVIII que deu origem ao metodismo, pregou um sermão inteiro sobre esse versículo e chamou de engano grave a ideia de que a orientação se referia só ou principalmente aos apóstolos. Para ele, ela não se limitava a nenhum grupo de pessoas, a nenhuma época e a nenhum país. Calvino, que divergia de Wesley em muitos pontos, concordava neste: Jesus não limita a palavra aos doze, mas dá a mesma lei para todos os que creem.
+John Wesley, o pregador inglês do século XVIII que deu origem ao metodismo, pregou um sermão inteiro sobre esse versículo e chamou de engano grave a ideia de que a orientação se referia só ou principalmente aos apóstolos. Para ele, ela não se limitava a nenhum grupo de pessoas, a nenhuma época e a nenhum país. Calvino, de quem Wesley divergia em muitos pontos, já dizia o mesmo: Jesus não limita a palavra aos doze, mas dá a mesma lei para todos os que creem.
 
 ### Preciso largar tudo?
 
@@ -89,7 +89,7 @@ Em Lucas 14, ele usa duas comparações para que ninguém o siga sem pensar. Que
 
 Seria um retrato incompleto parar no custo. O mesmo Jesus que fala em cruz também disse: "Venham a mim, todos vocês que estão cansados de carregar as suas pesadas cargas, e eu lhes darei descanso. Sejam meus seguidores e aprendam comigo porque sou bondoso e tenho um coração humilde" (Mateus 11:28-29).
 
-O discipulado custa tudo, mas não é um peso que esmaga. O Mestre é bondoso e humilde, e o que ele exige é "fácil" e "leve" comparado às cargas que carregávamos antes (Mateus 11:30). Quem segue Jesus perde a vida que tentava segurar e encontra, nas palavras dele, "a vida verdadeira".
+O discipulado custa tudo, mas não é um peso que esmaga. O Mestre é bondoso e humilde, e os deveres que ele exige são "fáceis", e a carga é "leve", comparados às cargas que carregávamos antes (Mateus 11:30). Quem segue Jesus perde a vida que tentava segurar e encontra, nas palavras dele, "a vida verdadeira".
 
 ## Aplicação prática
 

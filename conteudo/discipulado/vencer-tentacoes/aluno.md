@@ -6,7 +6,7 @@ Você se converteu, quer agradar a Deus, e mesmo assim a tentação continua apa
 
 ## Introdução
 
-As buscas no Google por "como vencer a tentação" mostram onde a luta aperta: "tentação sexual", "da carne", "no namoro", "do adultério". E, ao lado delas, "do diabo" e "do inimigo". Como se as pessoas não soubessem bem de onde vem o problema: de fora, de um inimigo espiritual, ou de dentro, dos próprios desejos.
+As buscas no Google por "como vencer a tentação" mostram onde a luta aperta: "tentação sexual", "da carne", "no namoro", "do adultério". E, ao lado delas, "do diabo" e "do pecado". Como se as pessoas não soubessem bem de onde vem o problema: de fora, de um inimigo espiritual, ou de dentro, dos próprios desejos.
 
 A pergunta é honesta, e a Bíblia não a evita. Ela não promete ao convertido uma vida sem tentações. Jesus mesmo foi tentado. O que a Bíblia faz é explicar como a tentação funciona, de onde ela vem e o que Deus oferece para quem quer vencê-la.
 
@@ -82,7 +82,7 @@ John Wesley, o pregador inglês do século XVIII que deu origem ao metodismo, pr
 
 No deserto, o diabo tentou Jesus três vezes. Jesus estava com fome depois de quarenta dias sem comer, e o tentador sugeriu transformar pedras em pão. Depois, que se jogasse do alto do Templo. Por fim, ofereceu todos os reinos do mundo em troca de adoração.
 
-As três respostas de Jesus começam do mesmo jeito: com a Escritura. "O ser humano não vive só de pão, mas vive de tudo o que Deus diz" (Mateus 4:4). "Não ponha à prova o Senhor, seu Deus" (Mateus 4:7). "Adore o Senhor, seu Deus, e sirva somente a ele" (Mateus 4:10). A Declaração de Fé observa que Jesus abriu mão dos seus poderes e disse apenas "está escrito", três vezes. A arma dele foi a Palavra de Deus.
+As três respostas de Jesus se apoiam no mesmo recurso: a Escritura. "O ser humano não vive só de pão, mas vive de tudo o que Deus diz" (Mateus 4:4). "Não ponha à prova o Senhor, seu Deus" (Mateus 4:7). "Adore o Senhor, seu Deus, e sirva somente a ele" (Mateus 4:10). A Declaração de Fé observa que Jesus abriu mão dos seus poderes e disse apenas "está escrito", três vezes. A arma dele foi a Palavra de Deus.
 
 ### Quando a saída é correr
 
