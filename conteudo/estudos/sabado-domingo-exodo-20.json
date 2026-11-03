@@ -100,7 +100,7 @@
     },
     {
      "autor": "Heber Nicholas de Lima",
-     "quem": "Autor de artigo na revista Kerygma, do Centro Universitário Adventista de São Paulo (Unasp)",
+     "quem": "Bacharel em Teologia pelo Unasp, autor de monografia (2003) publicada na revista Kerygma, do Centro Universitário Adventista de São Paulo",
      "obra": "\"Cerimonial ou moral?: um estudo sobre o sábado em Colossenses 2:14-17\" (Kerygma, ano 1, nº 1)",
      "url": "https://unasp.emnuvens.com.br/kerygma/article/download/354/358",
      "data": "1º semestre de 2005",
@@ -113,12 +113,12 @@
  "convergencias": [
   "Ninguém é salvo por guardar um dia: a Declaração de Fé diz que \"não somos salvos por observarmos e guardarmos os mandamentos\", e o portal adventista Bíblia.com.br escreve que a obediência ao sábado não salva.",
   "O descanso semanal é bom e vem de Deus: a Declaração de Fé fala do propósito social e espiritual do quarto mandamento, Ciro Zibordi diz que precisamos de um dia de descanso, e a Crença Fundamental adventista chama o sábado de dia de descanso, adoração e ministério.",
-  "O sábado foi instituído por Deus na criação (Gênesis 2:2-3): os dois lados partem desse texto.",
-  "Jesus é o Senhor do sábado (Marcos 2:28): Zibordi e a Crença Fundamental adventista citam o versículo."
+  "O descanso de Deus no sétimo dia (Gênesis 2:2-3) está na origem do sábado: a lição batista e a Crença Fundamental adventista partem desse texto, e Zibordi também o cita.",
+  "Jesus é o Senhor do sábado: Zibordi cita Marcos 2:28, e a Crença Fundamental adventista chama Jesus de \"o Senhor do sábado\"."
  ],
  "contexto": [
   "O sábado é o quarto dos Dez Mandamentos, dados no Sinai (Êxodo 20). Em Êxodo, a razão é a criação: Deus trabalhou seis dias e descansou no sétimo. Em Deuteronômio 5:15, a razão é a libertação do Egito. O sábado também foi chamado de sinal entre Deus e Israel (Êxodo 31:13-17). Nos evangelhos, Jesus discute com os fariseus sobre o que é lícito no sábado e diz que \"o sábado foi feito por causa do homem\" (Marcos 2:27).",
-  "No Novo Testamento, os cristãos se reúnem no primeiro dia da semana (Atos 20:7; 1 Coríntios 16:2), e João fala do \"dia do Senhor\" (Apocalipse 1:10). Entre os que se reúnem no domingo há nuance: a Confissão de Westminster, adotada pela Igreja Presbiteriana do Brasil, chama o domingo de \"sábado cristão\" e vê nele o próprio quarto mandamento transferido; as Assembleias de Deus e os batistas citados aqui veem o domingo como dia de culto sem lei sabática.",
+  "No Novo Testamento, os cristãos se reúnem no primeiro dia da semana (Atos 20:7; 1 Coríntios 16:2), e João fala do \"dia do Senhor\" (Apocalipse 1:10). Entre os que se reúnem no domingo há nuance: a Confissão de Westminster, adotada pela Igreja Presbiteriana do Brasil, chama o domingo de \"sábado cristão\" e vê nele o próprio quarto mandamento, preceito \"moral e perpétuo\", transferido para o primeiro dia; a Declaração de Fé das Assembleias de Deus também chama o domingo de \"sábado cristão\", mas diz que ele foi instituído \"sem decreto e sem norma legal\" e que estamos \"desobrigados do quarto mandamento\"; a lição batista citada aqui diz que o domingo não é o sábado cristão.",
   "Matthew Henry, comentarista inglês do século 18, escreveu que Deus deve ser servido e honrado todos os dias, mas que um dia em sete deve ser particularmente dedicado a ele (tradução livre), e viu no mandamento a renovação de uma lei antiga, anterior ao Sinai."
  ],
  "aplicacao": [
@@ -328,8 +328,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-02T05:36:04-03:00",
+  "data": "2026-11-02T21:14:56-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-02T05:36:04-03:00"
+ "publicado_em": "2026-11-02T05:36:04-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-02",
+   "texto": "Correção em 02/11/2026: a Declaração de Fé das Assembleias de Deus também chama o domingo de \"sábado cristão\" (cap. XVIII), embora diga que estamos \"desobrigados do quarto mandamento\"; a lição batista citada diz que o domingo não é o sábado cristão. Zibordi não diz que o sábado foi instituído na criação para todos."
+  }
+ ],
+ "atualizado_em": "2026-11-02T21:14:56-03:00"
 }

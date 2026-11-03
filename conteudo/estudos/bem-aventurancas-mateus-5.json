@@ -12,7 +12,7 @@
  "tempo_min": 30,
  "selo": "Ótimo para começar",
  "tagline": "Pobres em espírito, mansos, misericordiosos, pacificadores, perseguidos: Jesus abre o Sermão do Monte virando do avesso o que o mundo chama de felicidade.",
- "lede": "Jesus subiu ao monte, sentou-se e começou a ensinar com oito frases que começam igual: \"bem-aventurados\". Uma lição da CPAD, dois textos luteranos e um artigo do portal Ultimato concordam que elas descrevem quem já pertence ao Reino, e que a felicidade que Jesus anuncia é presente de Deus, não conquista. Para nós, pentecostais, é o retrato do caráter que o Espírito forma em quem nasceu de novo.",
+ "lede": "Jesus subiu ao monte, sentou-se e começou a ensinar com oito frases que começam igual: \"bem-aventurados\". Uma lição da CPAD, dois textos luteranos e um artigo do portal Ultimato ajudam a ler essas frases como retrato de quem pertence ao Reino, e um dos luteranos lembra que a bem-aventurança é presente de Deus, não conquista. Para nós, pentecostais, é o retrato do caráter que o Espírito forma em quem nasceu de novo.",
  "descricao": "Estudo de Mateus 5:1-12: as oito bem-aventuranças, o Reino dos céus presente e futuro, a felicidade como dom de Deus, com comentaristas de três tradições e o olhar pentecostal.",
  "imagem": {
   "arquivo": "estudo-bem-aventurancas-mateus-5.jpg",
@@ -71,7 +71,7 @@
    "obra": "Prédica sobre Mateus 5:1-12, Proclamar Libertação, volume 38 (Portal Luterano)",
    "url": "https://luterano.org.br/mateus-5-1-12-proclamar-libertacao-38",
    "data": "02/02/2014 (data da pregação)",
-   "texto": "Ana Isa dos Reis observa a moldura do texto: a primeira e a oitava bem-aventuranças falam do Reino no presente, como algo que já chegou, enquanto as outras usam o futuro. Ela compara Mateus com Lucas 6, que traz menos bem-aventuranças e acrescenta os ais, e mostra que Mateus amplia a lista para descrever a vida do discípulo.",
+   "texto": "Ana Isa dos Reis observa a moldura do texto: a primeira e a oitava bem-aventuranças falam do Reino no presente, como algo que já chegou, enquanto as outras usam o futuro. Ela observa que Mateus e Lucas tiram as bem-aventuranças de uma fonte comum, que Mateus acrescenta outras cinco e que adapta algumas, como trocar o \"chorar\" de Lucas por \"prantear\", estar de luto, pensando numa comunidade que sofria depois da destruição do templo.",
    "citacao": "Tanto nessa primeira como na oitava bem-aventurança se usa o presente, afirmando que o Reino já está aqui e agora. As demais usam o futuro escatológico."
   },
   {
@@ -279,8 +279,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-02T05:36:04-03:00",
+  "data": "2026-11-02T21:13:29-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-02T05:36:04-03:00"
+ "publicado_em": "2026-11-02T05:36:04-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-02",
+   "texto": "Correção em 02/11/2026: Ana Isa dos Reis não fala dos \"ais\" de Lucas 6; ela observa que Mateus e Lucas tiram as bem-aventuranças de uma fonte comum e que Mateus acrescenta cinco e adapta algumas (Proclamar Libertação 38). A leitura das fontes no lede foi ajustada: elas não concordam em tudo."
+  }
+ ],
+ "atualizado_em": "2026-11-02T21:13:29-03:00"
 }

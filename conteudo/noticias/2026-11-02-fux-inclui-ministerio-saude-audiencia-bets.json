@@ -32,21 +32,21 @@
  ],
  "corpo": [
   "A audiência foi convocada na ação em que a Associação Nacional de Jogos e Loterias (ANJL) pede a derrubada da Medida Provisória 1.394/2026, que proibiu as apostas de quota fixa. No pedido, a AGU escreveu que a lista original, com 11 entidades esportivas e 6 representantes de operadoras, poderia dificultar a vocalização equilibrada das diversas correntes de opinião.",
-  "Fux aceitou incluir os ministérios, a Associação Brasileira de Supermercados, o Comitê Paralímpico, a federação dos atletas e o Grêmio. Na decisão, ele lembrou que, na audiência de novembro de 2024, entidades como a ABP, a Abead, o Instituto Alana e o Idec expuseram os danos das apostas à saúde mental e às famílias, e disse que esses impactos já são conhecidos pela Corte."
+  "Fux aceitou incluir os ministérios, a Associação Brasileira de Supermercados, o Comitê Paralímpico, a federação dos atletas e o Grêmio. Na decisão, ele lembrou que, nas duas audiências de novembro de 2024, entidades como a ABP, a Abead, o Instituto Alana e o Idec expuseram os danos das apostas à saúde mental e às famílias, e disse que esses impactos já são conhecidos pela Corte."
  ],
  "no_brasil": "A MP 1.394/2026 proibiu a exploração, oferta e publicidade das bets no país e ainda depende de votação no Congresso. No STF, a ADI 8.027, do relator Luiz Fux, pede a suspensão da medida. A audiência de terça começa às 10h e será transmitida pela TV Justiça e pela Rádio Justiça.",
  "critica": [
   {
-   "fonte": "Advocacia-Geral da União, no pedido transcrito no despacho",
-   "texto": "o total dos atores convocados parece formar um quadro predominantemente integrado por entidades esportivas (11) e representantes de operadoras de apostas (6)",
+   "fonte": "Advocacia-Geral da União, no pedido citado no despacho, segundo a Agência Brasil",
+   "texto": "o total dos atores convocados parece formar um quadro predominantemente integrado por entidades esportivas e representantes de operadoras de apostas",
    "citacao": true,
-   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391879575&ext=.pdf"
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-atende-agu-e-inclui-ministerios-e-abras-em-debate-sobre-bets"
   },
   {
-   "fonte": "Ministro Luiz Fux, no despacho",
-   "texto": "Dessa forma, é cediço que os malefícios das bets são amplamente conhecidos pelo Supremo Tribunal Federal.",
-   "citacao": true,
-   "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15391879575&ext=.pdf"
+   "fonte": "Ministro Luiz Fux, no despacho, segundo a Agência Brasil",
+   "texto": "Fux escreveu no despacho que os malefícios das bets já são conhecidos pelo STF e embasaram votos dele em outros julgados sobre o tema.",
+   "citacao": false,
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-atende-agu-e-inclui-ministerios-e-abras-em-debate-sobre-bets"
   },
   {
    "fonte": "Associação Nacional de Jogos e Loterias (ANJL), autora da ação, segundo a Agência Brasil",
@@ -57,7 +57,7 @@
  "para_quem": [
   "Famílias que convivem com o vício em apostas: a audiência de terça é a chance de ver se o tema da saúde vai pesar na decisão sobre a proibição",
   "Igrejas com ministério de recuperação: o Ministério da Saúde vai falar das 14h50 às 15h; vale acompanhar o que ele apresenta de política de tratamento",
-  "Quem quer participar: a audiência é transmitida ao vivo pela TV Justiça, a partir das 10h"
+  "Quem quer acompanhar: a audiência é transmitida ao vivo pela TV Justiça, a partir das 10h"
  ],
  "nao_e_para": [
   "A audiência não decide nada: o julgamento da ADI 8.027 ainda não tem data",
@@ -212,8 +212,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-02T02:29:38-03:00",
+  "data": "2026-11-02T21:14:56-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-02T02:29:38-03:00"
+ "publicado_em": "2026-11-02T02:29:38-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-02",
+   "texto": "Correção em 02/11/2026: as citações do despacho de Fux e da AGU passaram a seguir a Agência Brasil (01/11/2026), porque o despacho no portal do STF não pôde ser conferido; foram duas audiências em novembro de 2024."
+  }
+ ],
+ "atualizado_em": "2026-11-02T21:14:56-03:00"
 }
