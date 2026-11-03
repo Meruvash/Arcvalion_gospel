@@ -1,0 +1,201 @@
+{
+ "slug": "rondonia-lei-cartao-material-escolar-veto-derrubado",
+ "data": "2026-11-03",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "selo": "Vale acompanhar",
+ "titulo": "Rondônia cria cartão para pais comprarem material escolar, depois de a Assembleia derrubar veto",
+ "lide": "A Lei estadual 6.520, de 31 de agosto de 2026, cria o Programa Cartão Material Escolar para os alunos da rede estadual de Rondônia. O governador vetou o projeto inteiro, e a Assembleia Legislativa derrubou o veto em 25 de agosto. A lei permite repassar o dinheiro aos pais num cartão de débito para comprar a lista em papelarias do estado, ou entregar o material pronto.",
+ "por_que_importa": "Quando o dinheiro vai para a mão dos pais, quem escolhe onde e como comprar é a família, não o almoxarifado do Estado. A lei abre esse caminho, mas não fixa valor nem obriga a modalidade do cartão: a Secretaria de Educação decide todo ano entre o cartão e a entrega direta. Na prática, o programa depende do Executivo que vetou a lei.",
+ "numeros": [
+  [
+   "1 vez por ano",
+   "o benefício é liberado, só para os itens da lista definida pela Seduc para cada etapa de ensino",
+   "Lei estadual 6.520/2026, art. 3º"
+  ],
+  [
+   "25/8/2026",
+   "data da sessão em que a Assembleia rejeitou o veto total do governador",
+   "Tramitação do PL 1.426/2026 no SAPL da ALE-RO"
+  ],
+  [
+   "2 modalidades",
+   "cartão de débito para os pais ou distribuição direta do material pela Seduc, escolhidas a cada ano pela secretaria",
+   "Lei estadual 6.520/2026, art. 4º"
+  ]
+ ],
+ "corpo": [
+  "O projeto, PL 1.426/2026, do deputado Alan Queiroz (PL), foi apresentado e aprovado em plenário no mesmo dia, 2 de junho de 2026. O governo vetou o texto inteiro; a Assembleia rejeitou o veto em 25 de agosto, e o presidente da Casa promulgou a lei, publicada no Diário Oficial da Assembleia em 31 de agosto.",
+  "Pela lei, o valor do auxílio será o custo médio de varejo dos itens da lista básica, sem itens de uso coletivo. Só papelarias com sede em Rondônia e credenciadas por chamamento público podem vender pelo cartão, e o saldo pode ser usado em mais de uma loja. Pais e lojas que usarem mal o benefício respondem administrativa, civil e criminalmente."
+ ],
+ "no_brasil": "A lei não traz valor por aluno, prazo de implantação nem fonte de recursos. Ela autoriza o Executivo a firmar acordos, convênios ou parcerias com empresas ou instituições para implantar e operar o programa, e manda que as listas de material possam ser revistas todo ano conforme a proposta pedagógica.",
+ "critica": [
+  {
+   "fonte": "Deputado Alan Queiroz (PL), autor, em texto publicado pelo Rondonoticias (01/11/2026)",
+   "texto": "Sabemos que a compra de material escolar representa um compromisso importante no orçamento das famílias. O Cartão Material Escolar prevê uma alternativa para auxiliar pais e responsáveis nessa despesa e garantir que os estudantes tenham acesso aos materiais necessários para sua vida escolar",
+   "citacao": true,
+   "url": "https://www.rondonoticias.com.br/noticia/capital/162215/lei-de-alan-queiroz-beneficia-familias-de-estudantes-com-cartao-material-escolar"
+  },
+  {
+   "fonte": "Governo de Rondônia, pelo veto total",
+   "texto": "O Executivo vetou o projeto inteiro em junho; não localizamos no SAPL da Assembleia a mensagem com as razões do veto.",
+   "citacao": false
+  },
+  {
+   "fonte": "Lei estadual 6.520/2026, art. 4º, parágrafo único",
+   "texto": "Caberá à Seduc definir, anualmente, a forma de concessão mais adequada.",
+   "citacao": true,
+   "url": "http://sapl.al.ro.leg.br/media/sapl/public/normajuridica/2026/14232/l6520.pdf"
+  }
+ ],
+ "para_quem": [
+  "Pais de alunos da rede estadual de Rondônia: acompanhe a lista de material da Seduc e se o benefício virá no cartão ou em kit",
+  "Donos de papelaria em Rondônia: a venda pelo cartão exige credenciamento, alvará, CNPJ e sede no estado",
+  "Quem acompanha a Assembleia: a lei saiu contra o veto do governo, e a execução depende dele"
+ ],
+ "nao_e_para": [
+  "A lei não diz quanto cada aluno recebe nem quando o programa começa",
+  "Não vale para escolas municipais nem particulares, só para a rede estadual",
+  "Não localizamos as razões do veto nem manifestação da Seduc sobre a implantação"
+ ],
+ "veredito": "A gente gosta da ideia de pôr o dinheiro na mão dos pais: família sabe o que o filho precisa e escolhe onde comprar. O cuidado é não parar no papel. Lei sem valor, sem prazo e sem orçamento depende da boa vontade de quem a vetou. Vale cobrar da Seduc a primeira lista e a escolha do cartão.",
+ "versiculo": {
+  "texto": "Instrui o menino no caminho em que deve andar, e, até quando envelhecer, não se desviará dele",
+  "referencia": "Provérbios 22.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Assembleia Legislativa de Rondônia (SAPL): Lei nº 6.520, de 31 de agosto de 2026, íntegra em PDF",
+   "url": "http://sapl.al.ro.leg.br/media/sapl/public/normajuridica/2026/14232/l6520.pdf",
+   "data": "31/08/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Assembleia Legislativa de Rondônia (SAPL): tramitação do PL 1.426/2026, com a rejeição do veto total",
+   "url": "https://sapl.al.ro.leg.br/api/materia/tramitacao/?materia=56784",
+   "data": "02/09/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Rondonoticias: Lei de Alan Queiroz beneficia famílias de estudantes com cartão material escolar (01/11/2026)",
+   "url": "https://www.rondonoticias.com.br/noticia/capital/162215/lei-de-alan-queiroz-beneficia-familias-de-estudantes-com-cartao-material-escolar",
+   "data": "01/11/2026",
+   "tipo": "reportagem_local"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 56,
+  "trilha": "quente",
+  "abrangencia": "rondonia",
+  "tema": {
+   "eixo": "educacao",
+   "porque": "O fato é sobre educação dos filhos e papel dos pais: a lei dá aos pais um cartão para comprar o material escolar"
+  },
+  "origem": {
+   "nome": "Rondonoticias",
+   "url": "https://www.rondonoticias.com.br/noticia/capital/162215/lei-de-alan-queiroz-beneficia-familias-de-estudantes-com-cartao-material-escolar"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Lei estadual em vigor para a rede estadual de Rondônia, mas sem valor fixado e com a modalidade a critério da Seduc"
+   },
+   "afinidade": {
+    "pontos": 15,
+    "porque": "Educação dos filhos e escolha dos pais, em ato do poder público de Rondônia; efeito no leitor depende da implantação"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Lei de 31/8, noticiada de novo em 1º/11, sem fato novo além da reportagem"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Íntegra da lei e tramitação oficial lidas no SAPL da ALE-RO; reportagem local com a fala do autor"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Acrescenta o que a reportagem não deu: o veto total do governo, a derrubada em 25/8 e a falta de valor e prazo na lei"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 6,
+    "viral": 3,
+    "cristao": 2
+   },
+   "criterios": [
+    "Documento primário: lei e tramitação (2)",
+    "Ato de poder: Assembleia derruba veto do governador (2)",
+    "Proximidade: Rondônia (1)",
+    "Contraria a narrativa: a reportagem não conta o veto (1)",
+    "Utilidade: o que os pais precisam acompanhar (1)",
+    "Personagem com nome: Alan Queiroz (1)",
+    "Passagem bíblica que um pastor usaria: Provérbios 22.6 (2)",
+    "Rende estudo: educação dos filhos e responsabilidade dos pais (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Lei de Alan Queiroz beneficia famílias de estudantes com cartão material escolar",
+  "nucleo": "B - Rondônia",
+  "categoria": "Assembleia / educação",
+  "coleta": "2026-11-03",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em documento primário",
+   "contradicoes": "A reportagem trata a lei como do deputado e não menciona o veto; a tramitação oficial registra veto total rejeitado em 25/8/2026.",
+   "sem_confirmacao": "razões do veto; valor por aluno; previsão de implantação pela Seduc"
+  },
+  "duplicidade": {
+   "grupo": "Lei estadual 6.520/2026",
+   "itens": [
+    "SAPL ALE-RO 31/8",
+    "Rondonoticias 01/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber como funciona o cartão material escolar de Rondônia",
+   "entidades": [
+    "Rondônia",
+    "Assembleia Legislativa de Rondônia",
+    "Alan Queiroz",
+    "Seduc",
+    "Lei 6.520/2026"
+   ],
+   "termos": [
+    "cartão material escolar",
+    "material escolar rede estadual",
+    "veto derrubado",
+    "lista de material"
+   ],
+   "atualizacao": "acompanhar a regulamentação e a primeira lista da Seduc"
+  }
+ },
+ "instituicao": "Assembleia Legislativa de Rondônia",
+ "editora": "Assembleia Legislativa de Rondônia",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da lei e da tramitação, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os fatos vêm da íntegra da lei e da tramitação oficial no SAPL da ALE-RO; a fala do deputado foi lida na reportagem. A nota registra o veto sem atribuir razões que não foram lidas e não acusa o governo de nada; a opinião cobra implantação e transparência.",
+ "imagem": {
+  "arquivo": "capas/rondonia-lei-cartao-material-escolar-veto-derrubado.jpg",
+  "credito": "Foto: Rovena Rosa/Agência Brasil",
+  "alt": "Homem escolhe canetas e lápis numa loja de material escolar na região da 25 de Março, em São Paulo (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/MVKlOCQvcBTpfS51Wi-cxxK4qqc=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/rvrsa_abr_15011910459rj.jpg?itok=DCZjpbi4",
+  "pagina": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-01/preco-de-material-escolar-pode-variar-ate-276-nas-papelarias-de-sp"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-03T02:41:35-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-03T02:41:35-03:00"
+}
