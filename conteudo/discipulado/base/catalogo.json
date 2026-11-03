@@ -61,9 +61,6 @@
    "nome": "Espírito Santo e vida espiritual",
    "descricao": "Batismo no Espírito Santo, dons, fruto do Espírito e discernimento.",
    "previstos": [
-    "O que é o batismo no Espírito Santo?",
-    "O que são os dons espirituais?",
-    "O que é o fruto do Espírito?",
     "O que significa ser cheio do Espírito Santo?"
    ]
   },
@@ -73,7 +70,6 @@
    "descricao": "A fé no dia a dia, o sofrimento, a família, o testemunho e o serviço.",
    "previstos": [
     "Como viver a fé no cotidiano?",
-    "Como lidar com dificuldades e sofrimento?",
     "Como testemunhar sobre Jesus?",
     "Como servir a Deus e ao próximo?"
    ]
@@ -92,7 +88,8 @@
     "por-que-igreja",
     "deus-me-aceita-de-volta",
     "discipulo-de-jesus",
-    "jejum"
+    "jejum",
+    "por-que-deus-permite-o-sofrimento"
    ],
    "meta": 12
   },
@@ -106,7 +103,9 @@
     "trindade",
     "graca-de-deus",
     "o-que-e-a-biblia",
-    "santificacao"
+    "santificacao",
+    "dons-espirituais",
+    "fruto-do-espirito"
    ],
    "meta": 12
   },
@@ -120,7 +119,9 @@
     "batismo-nas-aguas",
     "por-que-igreja",
     "ceia-do-senhor",
-    "vencer-tentacoes"
+    "vencer-tentacoes",
+    "batismo-no-espirito-santo",
+    "faco-o-mal-que-nao-quero"
    ],
    "meta": 12
   }
@@ -155,6 +156,18 @@
    "categoria": "vida-crista",
    "evidencia": "Google Trends, Ano em Pesquisa 2023 (Brasil): \"The Chosen\", a série sobre Jesus e os discípulos, está na lista \"Séries\" (consultado em 02/11/2026); o autocomplete do Google sugere \"o que é ser um verdadeiro discípulo de jesus\" e \"o que significa ser discípulo de jesus hoje\"",
    "url": "https://trends.withgoogle.com/year-in-search/2023/br/"
+  },
+  {
+   "titulo": "Por que Deus permite o sofrimento?",
+   "categoria": "vida-crista",
+   "evidencia": "Google Trends, Ano em Pesquisa 2025 (Brasil): a lista \"Por que...?\" inclui \"Por que Tati Machado perdeu o bebê?\" e a lista \"Mortes\" reúne as perdas que mais mobilizaram buscas (consultado em 03/11/2026); o autocomplete do Google sugere \"por que deus permite o sofrimento\" e \"por que deus permite que coisas ruins aconteçam com pessoas boas\"",
+   "url": "https://trends.withgoogle.com/year-in-search/2025/br/"
+  },
+  {
+   "titulo": "Por que faço o mal que não quero?",
+   "categoria": "santidade",
+   "evidencia": "Google Trends, Ano em Pesquisa 2021 (Brasil): \"Deus me Proteja de Mim\" é a 4ª da lista \"Música (Letra)\" (consultado em 03/11/2026); o autocomplete do Google sugere \"faço o mal que não quero\" e \"paulo faco o mal que nao quero\"",
+   "url": "https://trends.withgoogle.com/year-in-search/2021/br/"
   }
  ]
 }

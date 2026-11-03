@@ -18,5 +18,10 @@ Limite da licença: 500 versículos na coleção inteira. Somar a cada lição.
 | O que é a Bíblia? | 2 Pedro 1:19-21 e Salmo 19:7-11 em bloco; 2 Timóteo 3:16; Hebreus 1:1-2, 4:12; Lucas 24:44-45; Isaías 40:8 (partes) | 16 |
 | O que é santificação? | 1 Tessalonicenses 4:3-8 e 5:23-24 em bloco; 1 Tessalonicenses 4:1; Romanos 12:1-2; 2 Coríntios 3:18; Hebreus 12:14; Filipenses 2:12-13 (partes) | 15 |
 | Como vencer as tentações? | Tiago 1:12-15 e 1 Coríntios 10:12-13 em bloco; Mateus 4:1, 4:4, 4:7, 4:10, 26:41; Hebreus 4:15-16; Gênesis 39:6, 9-10, 12 (partes) | 16 |
+| Por que faço o mal que não quero? | Romanos 7:15, 18-19, 24-25 e 8:1-2 em bloco; Romanos 7:17, 20, 22-23, 8:4; Gálatas 5:16-17; 1 João 1:8-9; Filipenses 1:6 (partes) | 17 |
+| Por que Deus permite o sofrimento? | João 9:1-3 e Romanos 8:18, 26, 28 em bloco; Lucas 13:2-5; Romanos 8:22-23; Jó 1:21, 42:5, 42:7; 2 Coríntios 4:8, 4:17; Apocalipse 21:4 (partes) | 18 |
+| O que é o batismo no Espírito Santo? | Atos 1:4-5, 1:8 e 2:1-4 em bloco; Atos 1:14, 2:39, 8:15-19, 10:44-47, 19:2, 19:6; Lucas 11:13; 1 Coríntios 12:13 (partes) | 23 |
+| O que são os dons espirituais? | 1 Coríntios 12:4-7, 12:11 e 1 Pedro 4:10 em bloco; 1 Coríntios 12:8-10, 21-22, 27, 29, 31, 13:2, 14:1, 14:26, 14:40; Romanos 12:6-8 (partes) | 21 |
+| O que é o fruto do Espírito? | Gálatas 5:22-25 e João 15:4-5 em bloco; João 15:2; Mateus 7:17, 22-23; Colossenses 3:13 (partes) | 11 |
 
-Total: 199 nas lições desta tabela (estimativa de partes de versículos contadas como versículos inteiros). Atenção: as lições publicadas entre 30 e 31/10/2026 que não aparecem aqui ("O que significa nascer de novo?", "O que significa arrepender-se?", "Qual é o significado do batismo?", "O que a Bíblia diz sobre a ansiedade?") ainda precisam ser somadas.
+Total: 289 nas lições desta tabela (estimativa de partes de versículos contadas como versículos inteiros). Atenção: as lições publicadas entre 30 e 31/10/2026 que não aparecem aqui ("O que significa nascer de novo?", "O que significa arrepender-se?", "Qual é o significado do batismo?", "O que a Bíblia diz sobre a ansiedade?") ainda precisam ser somadas.

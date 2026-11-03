@@ -15,6 +15,10 @@
   "hash": "d352277945366426",
   "lastmod": "2026-10-31T00:25:01+00:00"
  },
+ "https://opaladino.com.br/discipulado/batismo-no-espirito-santo/": {
+  "hash": "d141ed7d946fba76",
+  "lastmod": "2026-11-03T15:31:53-03:00"
+ },
  "https://opaladino.com.br/discipulado/ceia-do-senhor/": {
   "hash": "edd7693c9f2958e4",
   "lastmod": "2026-11-02T00:17:31+00:00"
@@ -30,6 +34,18 @@
  "https://opaladino.com.br/discipulado/discipulo-de-jesus/": {
   "hash": "8abcb5cd10b110cd",
   "lastmod": "2026-11-02T15:29:12-03:00"
+ },
+ "https://opaladino.com.br/discipulado/dons-espirituais/": {
+  "hash": "697505cd6d4ccc75",
+  "lastmod": "2026-11-03T15:33:21-03:00"
+ },
+ "https://opaladino.com.br/discipulado/faco-o-mal-que-nao-quero/": {
+  "hash": "6dfda67a7aa10699",
+  "lastmod": "2026-11-03T15:28:28-03:00"
+ },
+ "https://opaladino.com.br/discipulado/fruto-do-espirito/": {
+  "hash": "2d25a4b93f33d583",
+  "lastmod": "2026-11-03T15:34:55-03:00"
  },
  "https://opaladino.com.br/discipulado/graca-de-deus/": {
   "hash": "68adf922cf924d76",
@@ -50,6 +66,10 @@
  "https://opaladino.com.br/discipulado/o-que-e-a-biblia/": {
   "hash": "fd5fb1c7ea14a56a",
   "lastmod": "2026-11-02T15:31:01-03:00"
+ },
+ "https://opaladino.com.br/discipulado/por-que-deus-permite-o-sofrimento/": {
+  "hash": "c00a7f0261e7652e",
+  "lastmod": "2026-11-03T15:30:14-03:00"
  },
  "https://opaladino.com.br/discipulado/por-que-igreja/": {
   "hash": "7da2eb774eb308b5",
@@ -76,8 +96,8 @@
   "lastmod": "2026-11-01T18:37:18+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/espirito-santo/": {
-  "hash": "d859bd4fa8b680c0",
-  "lastmod": "2026-10-30T21:58:14+00:00"
+  "hash": "abf45c94b100c8f6",
+  "lastmod": "2026-11-03T18:35:16+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/igreja-e-comunhao/": {
   "hash": "411adc935a686c0d",
@@ -92,24 +112,24 @@
   "lastmod": "2026-11-01T18:37:18+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/santidade/": {
-  "hash": "f5be066659b10c05",
-  "lastmod": "2026-11-02T18:35:32+00:00"
+  "hash": "9872afc9bc5c1bb7",
+  "lastmod": "2026-11-03T18:35:16+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/vida-crista/": {
-  "hash": "e24cd02ecc66bd1c",
-  "lastmod": "2026-11-02T18:35:32+00:00"
+  "hash": "735a103ad86a593d",
+  "lastmod": "2026-11-03T18:35:16+00:00"
  },
  "https://opaladino.com.br/discipulado/trilha/fundamentos-da-fe/": {
-  "hash": "0561f84100de09a5",
-  "lastmod": "2026-11-02T18:35:32+00:00"
+  "hash": "57153719f89425ce",
+  "lastmod": "2026-11-03T18:35:16+00:00"
  },
  "https://opaladino.com.br/discipulado/trilha/preparacao-para-o-batismo/": {
-  "hash": "a432ff2e956e132d",
-  "lastmod": "2026-11-02T18:35:32+00:00"
+  "hash": "15817c60e282ea42",
+  "lastmod": "2026-11-03T18:35:16+00:00"
  },
  "https://opaladino.com.br/discipulado/trilha/primeiros-passos/": {
-  "hash": "93a43cbc2bd5ac7c",
-  "lastmod": "2026-11-02T18:35:32+00:00"
+  "hash": "099b4256a324de4f",
+  "lastmod": "2026-11-03T18:35:16+00:00"
  },
  "https://opaladino.com.br/discipulado/trindade/": {
   "hash": "16aacb2f81fed06f",

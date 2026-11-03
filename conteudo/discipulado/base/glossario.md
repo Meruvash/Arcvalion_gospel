@@ -31,3 +31,8 @@ Termos adiados: **graça** (a NTLH de João 1 diz "amor"; explicar numa lição 
 - **Cânon** ("O que é a Bíblia?"): a lista oficial dos livros reconhecidos como Escritura; o protestante tem 66 livros.
 - **Santificação** ("O que é santificação?"): "o ato de separar-se do pecado e dedicar-se a Deus" (Declaração de Fé); na NTLH, ser "completamente dedicado" a Deus.
 - **Tentação** ("Como vencer as tentações?"): tudo o que atrai a pessoa para o pecado; envolve "indução externa" e os "desejos da carne" (Declaração de Fé). Ser tentado não é pecar.
+- **Natureza humana / carne** ("Por que faço o mal que não quero?"): na linguagem de Paulo, a parte de nós que continua inclinada ao pecado; a NTLH diz "natureza humana" onde outras versões dizem "carne".
+- **Providência** ("Por que Deus permite o sofrimento?"): o governo de Deus sobre tudo o que acontece; para a Declaração de Fé, "não é um controle meticuloso ao ponto de excluir a liberdade humana".
+- **Batismo no Espírito Santo** ("O que é o batismo no Espírito Santo?"): "um revestimento de poder do alto", distinto da salvação, com a evidência inicial do falar em outras línguas (Declaração de Fé).
+- **Dons espirituais** ("O que são os dons espirituais?"): "capacitações especiais e sobrenaturais concedidas pelo Espírito de Deus ao crente para serviço especial" (Declaração de Fé).
+- **Fruto do Espírito** ("O que é o fruto do Espírito?"): as virtudes que refletem o caráter de Deus, produzidas pelo Espírito; na NTLH, Gálatas 5:22 diz que o Espírito "produz" amor, alegria, paz, paciência, delicadeza, bondade, fidelidade, humildade e domínio próprio.

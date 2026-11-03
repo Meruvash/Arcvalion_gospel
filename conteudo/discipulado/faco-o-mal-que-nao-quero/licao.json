@@ -1,0 +1,116 @@
+{
+ "slug": "faco-o-mal-que-nao-quero",
+ "titulo": "Por que faço o mal que não quero?",
+ "titulo_seo": "Por que faço o mal que não quero? Entenda o que a Bíblia ensina",
+ "ideia_central": "A luta entre querer o bem e fazer o mal é real no cristão; o pecado permanece, mas não reina, a luta não é desculpa e a libertação vem de Jesus e do Espírito.",
+ "descricao": "Por que faço o mal que não quero? Romanos 7 e 8: a luta de Paulo, de quem ele fala segundo Calvino e Wesley, por que \"não sou eu\" não é desculpa e como viver guiado pelo Espírito sem condenação.",
+ "tempo_min": 12,
+ "resumo_rapido": {
+  "resposta": "Porque a inclinação para o pecado continua presente mesmo depois da conversão. Paulo descreve essa luta em Romanos 7, mas não termina nela: em Cristo \"já não existe nenhuma condenação\", e o Espírito conduz quem se deixa dirigir por ele.",
+  "ideias": [
+   "Sentir a luta não prova que você não é de Deus: o pecado permanece, mas não reina.",
+   "\"Não sou eu, é o pecado\" não é desculpa: a resposta é confessar e lutar.",
+   "Quem livra é Jesus; a vitória vem de deixar o Espírito dirigir a vida."
+  ],
+  "texto_central": "Romanos 7:15-25 e 8:1-2"
+ },
+ "versiculo_chave": {
+  "texto": "Agora já não existe nenhuma condenação para as pessoas que estão unidas com Cristo Jesus.",
+  "referencia": "Romanos 8:1"
+ },
+ "contexto": [
+  [
+   "Quem escreveu",
+   "Paulo",
+   "Na carta aos Romanos, em primeira pessoa"
+  ],
+  [
+   "Na NTLH",
+   "Natureza humana",
+   "Onde outras versões dizem \"carne\""
+  ],
+  [
+   "Debate",
+   "De quem Paulo fala",
+   "Cristão regenerado (Calvino) ou alguém sob a Lei (Wesley)"
+  ],
+  [
+   "Virada",
+   "Romanos 8:1",
+   "\"Já não existe nenhuma condenação\""
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "Se ainda luto contra o pecado, não sou convertido",
+   "A Declaração de Fé das Assembleias de Deus fala da santificação como processo, e 1 João 1:8 diz que quem afirma não ter pecado se engana."
+  ],
+  [
+   "Grave",
+   "\"Não sou eu, é o pecado que mora em mim\" me isenta",
+   "Calvino e Matthew Henry dizem que Romanos 7:17 não é desculpa. A resposta ao pecado é a confissão (1 João 1:9)."
+  ],
+  [
+   "Moderada",
+   "A luta prova que Deus desistiu de mim",
+   "\"Deus, que começou esse bom trabalho na vida de vocês, vai continuá-lo\" (Filipenses 1:6)."
+  ],
+  [
+   "Leve",
+   "Vencer é questão de força de vontade",
+   "Paulo pergunta \"quem me livrará\" e responde: Jesus. A vida de vitória é guiada pelo Espírito (Romanos 8:4; Gálatas 5:16)."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "Por que faço o mal que não quero?",
+  "evidencias": [
+   {
+    "fonte": "Google Trends (Ano em Pesquisa 2021, Brasil)",
+    "url": "https://trends.withgoogle.com/year-in-search/2021/br/",
+    "dado": "\"Deus me Proteja de Mim\", de Chico César, é a 4ª da lista \"Música (Letra)\", entre as buscas que mais cresceram no Brasil em 2021",
+    "data": "2026-11-03"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=fa%C3%A7o%20o%20mal%20que%20n%C3%A3o%20quero",
+    "dado": "para \"faço o mal que não quero\", sugere \"paulo faco o mal que nao quero\", \"passagem faço o mal que não quero\" e \"as vezes faço o mal que não quero\"",
+    "data": "2026-11-03"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=fa%C3%A7o%20o%20mal%20que%20n%C3%A3o%20quero",
+    "dado": "para \"faço o mal que não quero\", sugere \"o mal que não quero esse eu faço\" e \"louvor o mal que eu não quero fazer eu faço\"",
+    "data": "2026-11-03"
+   }
+  ]
+ },
+ "categoria": "santidade",
+ "palavras_chave": [
+  "Romanos 7",
+  "faço o mal que não quero",
+  "luta contra o pecado",
+  "natureza humana",
+  "carne",
+  "Romanos 8:1",
+  "recaída",
+  "santificação",
+  "Espírito Santo"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-faco-o-mal-que-nao-quero.jpg",
+  "alt": "Pintura de Benozzo Gozzoli: numa paisagem de colinas verdes, um raio desce de uma luz dourada no céu sobre Paulo, caído de costas no chão, de túnica azul e manto rosado, enquanto cavaleiros e soldados em roupas coloridas se espantam e fogem.",
+  "credito": "Benozzo Gozzoli, A conversão de São Paulo (têmpera sobre madeira, século XV). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, comentários de João Calvino e Matthew Henry e notas e sermões de John Wesley. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-03T15:28:28-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-03T15:28:28-03:00"
+}
