@@ -100,16 +100,16 @@
   {
    "questao": "Até onde vai a obediência ao governo?",
    "passagem": "Romanos 13:1-7",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "obediencia-governo-romanos-13",
    "obs": "",
    "tipo": "debate"
   },
   {
    "questao": "Há cura física garantida na obra de Cristo?",
    "passagem": "Isaías 53:4-5",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "cura-divina-isaias-53",
    "obs": "",
    "tipo": "debate"
   },
@@ -421,24 +421,24 @@
    "questao": "Não andeis ansiosos: o Pai que cuida",
    "passagem": "Mateus 6:25-34",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "ansiedade-mateus-6",
    "obs": ""
   },
   {
    "questao": "Cria em mim um coração puro: arrependimento e restauração",
    "passagem": "Salmo 51",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "salmo-51",
    "obs": ""
   },
   {
    "questao": "Eu sou o caminho: a promessa das muitas moradas",
    "passagem": "João 14:1-14",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "joao-14",
    "obs": ""
   },
   {
