@@ -109,8 +109,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-03T15:33:21-03:00",
+  "data": "2026-11-03T21:18:19-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-03T15:33:21-03:00"
+ "publicado_em": "2026-11-03T15:33:21-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-03",
+   "texto": "Correção em 03/11/2026: o sermão 89 de Wesley (\"The More Excellent Way\") descreve o caminho do amor só no começo e depois trata de um caminho mais alto de santidade na vida diária; o texto dizia que o sermão inteiro era sobre o amor."
+  }
+ ],
+ "atualizado_em": "2026-11-03T21:18:19-03:00"
 }

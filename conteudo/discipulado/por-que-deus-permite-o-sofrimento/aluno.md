@@ -72,7 +72,7 @@ A Bíblia não explica cada sofrimento. Mas promete algo sobre todos: "todas as 
 
 Matthew Henry comparou isso a um remédio: age de modos diferentes, conforme a intenção do médico, mas sempre para o bem do paciente. E Calvino observou que, mesmo quando Deus não socorre o seu povo imediatamente, ele não o abandona; transforma o que parece mal em algo que serve à salvação.
 
-E há mais. Na dor, nem as palavras dão conta, mas o Espírito Santo ora por nós "com gemidos que não podem ser explicados por palavras" (Romanos 8:26). Deus não assiste ao sofrimento de longe. Wesley escreveu que Deus vê todos os sofrimentos do seu povo, com cada circunstância deles.
+E há mais. Na dor, nem as palavras dão conta, mas o Espírito Santo ora por nós "com gemidos que não podem ser explicados por palavras" (Romanos 8:26). Deus não assiste ao sofrimento de longe. Wesley escreveu que Deus vê todos os sofrimentos dos seres humanos, com cada circunstância deles.
 
 > [!citacao] Ele sabe, por exemplo, que Deus está sentado na popa do barco quando ele mais balança.
 > Fonte: C. H. Spurgeon, Morning and Evening, 5 de agosto (tradução nossa; no original, "He knows, for instance, that God sits in the stern-sheets of the vessel when it rocks most")

@@ -71,7 +71,7 @@ Matthew Henry foi ainda mais direto: pode haver grandes dons onde não há uma g
 
 Logo depois de falar dos dons, Paulo diz: "Por isso se esforcem para ter os melhores dons. Porém eu vou mostrar a vocês o caminho que é o melhor de todos" (1 Coríntios 12:31). E começa o capítulo 13, o hino ao amor: poderia falar todas as línguas, ter o dom de anunciar mensagens de Deus e uma fé que tira montanhas do lugar, "mas, se não tivesse amor, eu não seria nada" (1 Coríntios 13:2).
 
-Calvino comentou que os dons, por excelentes que sejam, só têm o seu verdadeiro valor quando estão a serviço do amor. John Wesley, o pregador inglês que deu origem ao metodismo, pregou um sermão inteiro sobre esse "caminho melhor" e o chamou de caminho do amor.
+Calvino comentou que os dons, por excelentes que sejam, só têm o seu verdadeiro valor quando estão a serviço do amor. John Wesley, o pregador inglês que deu origem ao metodismo, começou um sermão sobre esse "caminho melhor" descrevendo-o como o caminho do amor: amar todas as pessoas por causa de Deus, com amor humilde, gentil e paciente.
 
 > [!chave] Os dons são ferramentas; o amor é o caminho. Sem amor, o dom mais impressionante não vale nada.
 

@@ -6,9 +6,9 @@ Você se converteu, ama a Deus, quer obedecer, e mesmo assim volta a fazer o que
 
 ## Introdução
 
-Poucas frases da Bíblia são tão citadas por quem não conhece a Bíblia quanto esta: "faço o mal que não quero". Quem digita o começo dela no Google recebe sugestões como "paulo faço o mal que não quero", "passagem faço o mal que não quero" e "as vezes faço o mal que não quero". As pessoas sabem que a frase é de Paulo e reconhecem nela a própria experiência.
+Poucas frases da Bíblia são tão citadas por quem não conhece a Bíblia quanto esta: "faço o mal que não quero". Quem digita o começo dela no Google recebe sugestões como "paulo faco o mal que nao quero", "passagem faço o mal que não quero" e "as vezes faço o mal que não quero". As pessoas sabem que a frase é de Paulo e reconhecem nela a própria experiência.
 
-A sensação de não conseguir governar a si mesmo aparece até na música popular. Em 2021, entre as letras de música mais buscadas no Google no Brasil, segundo o Ano em Pesquisa da empresa, estava "Deus me Proteja de Mim", de Chico César. O título diz muito: às vezes o maior perigo não está lá fora.
+A sensação de não conseguir governar a si mesmo aparece até na música popular. Em 2021, entre as letras de música que mais cresceram nas buscas do Google no Brasil, segundo o Ano em Pesquisa da empresa, estava "Deus me Proteja de Mim", de Chico César. O título diz muito: às vezes o maior perigo não está lá fora.
 
 O apóstolo Paulo conhecia essa luta e a descreveu com uma franqueza rara. Antes de olhar para o que ele escreveu, vale saber uma coisa: a passagem não termina em derrota.
 

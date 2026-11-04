@@ -40,7 +40,7 @@ Um detalhe de tradução: em Gálatas 5:22, outras versões dizem "o fruto do Es
 
 A primeira lição está na própria imagem. Uma árvore não fabrica frutas por esforço. Ela as produz porque está viva e ligada à raiz. Jesus disse a mesma coisa da videira: "o ramo só dá uvas quando está unido com a planta".
 
-Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, explicou por que Paulo fala em "obras" da natureza humana e em "fruto" do Espírito: o bem procede inteiramente do Espírito, como a fruta procede da raiz. João Calvino, o reformador de Genebra, disse que todas as virtudes procedem do Espírito, isto é, da graça de Deus e da natureza renovada que recebemos de Cristo.
+Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, explicou por que Paulo fala em "obras" da natureza humana e em "fruto" do Espírito: a graça procede inteiramente do Espírito, como a fruta procede da raiz. João Calvino, o reformador de Genebra, disse que todas as virtudes procedem do Espírito, isto é, da graça de Deus e da natureza renovada que recebemos de Cristo.
 
 Isso alivia quem tenta, à força de vontade, ser paciente, bondoso e manso, e sempre fracassa. O caráter cristão não começa no esforço. Começa na união com Jesus.
 
@@ -51,7 +51,7 @@ Isso alivia quem tenta, à força de vontade, ser paciente, bondoso e manso, e s
 
 Isso não quer dizer que o cristão fica parado esperando as virtudes aparecerem. Logo depois da lista, Paulo diz: "Que o Espírito de Deus, que nos deu a vida, controle também a nossa vida!" (Gálatas 5:25). E Jesus manda: "Continuem unidos comigo." Ficar unido é uma decisão diária: orar, ler a Palavra, obedecer, estar com a igreja.
 
-O versículo 24 acrescenta algo duro: quem pertence a Cristo "crucificou" a natureza humana com as suas paixões. Calvino observou que a palavra "crucificar" mostra que mortificar a carne é efeito da cruz de Cristo, e não obra do ser humano. A parte do crente é não ressuscitar o que foi crucificado.
+O versículo 24 acrescenta algo duro: as pessoas que pertencem a Cristo "crucificaram a natureza humana delas", junto com as suas paixões. Calvino observou que a palavra "crucificar" mostra que mortificar a carne é efeito da cruz de Cristo, e não obra do ser humano. A parte do crente é não ressuscitar o que foi crucificado.
 
 ### Um fruto, muitos sabores
 

@@ -5,7 +5,7 @@
  "status": "publicado",
  "selo": "Vale acompanhar",
  "titulo": "Lei dos pacientes obriga família e médicos a respeitar o que o doente deixou escrito",
- "lide": "A Lei 15.378, de 6 de abril de 2026, criou o Estatuto dos Direitos do Paciente e deu força de lei às diretivas antecipadas de vontade: a declaração escrita em que a pessoa diz quais cuidados e tratamentos aceita ou recusa, para valer quando ela não puder mais se expressar. No Dia de Finados, a Agência Brasil voltou ao tema com famílias que respeitaram essas vontades.",
+ "lide": "A Lei 15.378, de 6 de abril de 2026, criou o Estatuto dos Direitos do Paciente e deu força de lei às diretivas antecipadas de vontade: a declaração escrita em que a pessoa diz quais cuidados e tratamentos aceita ou recusa, para valer quando ela não puder mais se expressar. No Dia de Finados, a Agência Brasil tratou do tema com a história de uma família que respeitou essas vontades.",
  "por_que_importa": "Quase toda família cristã vai enfrentar, um dia, a pergunta sobre até onde ir com um tratamento sem chance de cura. A lei diz que vale o que o paciente deixou escrito, e que ele pode nomear alguém para decidir por ele. Ela garante cuidados paliativos, com alívio também do sofrimento espiritual, e respeito à religião do doente. O texto não fala em eutanásia nem em suicídio assistido.",
  "numeros": [
   [
@@ -26,7 +26,7 @@
  ],
  "corpo": [
   "A lei define cuidados paliativos como a assistência a paciente com doença ativa e progressiva que ameaça a vida e sem possibilidade de cura, para aliviar a dor e o sofrimento \"de natureza física, psíquica, social e espiritual\". O paciente também pode indicar, nas diretivas ou em outro registro escrito, um representante para decidir sobre seus cuidados quando não puder se expressar.",
-  "O consentimento informado é a regra, salvo quando há risco de morte e o paciente está inconsciente; mesmo aí, a lei manda respeitar as diretivas que ele deixou. O estatuto ainda garante que as particularidades religiosas do paciente sejam respeitadas, o direito de recusar visitas e a guarda de uma cópia das diretivas pela instituição de saúde."
+  "O consentimento informado é a regra, salvo quando há risco de morte e o paciente está inconsciente; mesmo aí, a lei manda respeitar as diretivas que ele deixou. O estatuto ainda garante que as particularidades religiosas do paciente sejam respeitadas e o direito de recusar visitas; e cabe ao próprio paciente garantir que a instituição de saúde guarde uma cópia de suas diretivas escritas."
  ],
  "no_brasil": "O estatuto vale para profissionais e serviços de saúde públicos e privados e para os planos de saúde. Cabe ao poder público divulgar os direitos, receber reclamações e produzir relatório anual, e a violação dos direitos do paciente passa a ser tratada como situação contrária aos direitos humanos. O Tribunal de Justiça de São Paulo publicou em maio um material especial sobre a lei.",
  "critica": [
@@ -147,7 +147,7 @@
   "verificacao": {
    "grau_de_confianca": "alto",
    "status": "fato comprovado em documento primário",
-   "contradicoes": "A reportagem da Agência Brasil não cita o número da lei; a nota usa a Lei 15.378/2026, conferida no texto oficial.",
+   "contradicoes": "Sem contradição: a reportagem da Agência Brasil cita a Lei 15.378/2026, conferida no texto oficial.",
    "sem_confirmacao": "regulamentação e números de diretivas registradas desde abril"
   },
   "duplicidade": {

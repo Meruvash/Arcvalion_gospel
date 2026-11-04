@@ -78,7 +78,7 @@ E o vento e o fogo? A Declaração de Fé diz que foram "sinais particulares que
 
 João Calvino, o reformador de Genebra, entendia que Cristo batiza com o Espírito todos os escolhidos, todos os dias, e não só no Pentecostes. Para ele, 1 Coríntios 12:13 ("todos nós... fomos batizados pelo mesmo Espírito para formar um só corpo") fala do que acontece com todo crente quando entra no corpo de Cristo. E escreveu que o dom de línguas e outras coisas semelhantes tinham cessado havia muito tempo na Igreja.
 
-John Wesley, o pregador inglês que deu origem ao metodismo, entendia que o "dom do Espírito Santo" prometido em Atos 2:38 não significava, ali, o poder de falar em línguas. Mas não aceitava a explicação de que os dons extraordinários diminuíram porque não eram mais necessários; dizia que a causa foi o amor de muitos ter esfriado.
+John Wesley, o pregador inglês que deu origem ao metodismo, entendia que o "dom do Espírito Santo" prometido em Atos 2:38 (na NTLH, "vocês receberão de Deus o Espírito Santo") não significava, ali, o poder de falar em línguas. Mas não aceitava a explicação de que os dons extraordinários diminuíram porque não eram mais necessários; dizia que a causa foi o amor de muitos ter esfriado.
 
 A Declaração de Fé responde a essas leituras afirmando que a promessa do Espírito vale para os "últimos dias", e não só para a era dos apóstolos, e que as línguas só cessarão quando Cristo voltar. Os irmãos que pensam diferente continuam sendo irmãos. A própria Declaração diz que todos os crentes em Jesus já têm o Espírito Santo.
 
