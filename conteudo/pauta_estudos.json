@@ -116,16 +116,16 @@
   {
    "questao": "Deus promete prosperidade material ao fiel?",
    "passagem": "3 João 2",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "prosperidade-3-joao-2",
    "obs": "",
    "tipo": "debate"
   },
   {
    "questao": "Como entender a batalha espiritual?",
    "passagem": "Efésios 6:10-18",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "batalha-espiritual-efesios-6",
    "obs": "",
    "tipo": "debate"
   },
@@ -445,24 +445,24 @@
    "questao": "Os heróis da fé: o que é a fé que agrada a Deus",
    "passagem": "Hebreus 11:1-16",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "hebreus-11",
    "obs": ""
   },
   {
    "questao": "Sacrifício vivo: a renovação da mente",
    "passagem": "Romanos 12:1-2",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "romanos-12",
    "obs": ""
   },
   {
    "questao": "Pela graça sois salvos: a salvação como presente",
    "passagem": "Efésios 2:1-10",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "efesios-2",
    "obs": ""
   },
   {
