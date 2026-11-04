@@ -12,7 +12,7 @@
   [
    "3",
    "petições protocoladas pela defesa na noite de 30/10: duas a Fachin e uma a Moraes",
-   "CNN Brasil, 30/10/2026"
+   "CNN Brasil, 31/10/2026"
   ],
   [
    "29/10",
@@ -29,18 +29,19 @@
   "Segundo a CNN Brasil, a defesa sustenta que Mendonça é o ministro prevento, porque supervisiona a Operação Sem Desconto, sobre fraudes no INSS, e uma petição que apura a estrutura atribuída a Willer Tomaz. No pedido de afastamento, a defesa alega possível conflito de interesses de Moraes, com argumentos que envolvem a empresa dona da aeronave usada pelo senador e o Banco Master. Não há decisão do STF sobre os pedidos.",
   "No terceiro pedido, a defesa diz que pontos citados na decisão de Moraes, como o custeio de passagens por Tomaz, se explicam pela amizade entre os dois, e afirma que a conta conjunta atribuída a ambos foi negada pelo banco. Os advogados também declararam, segundo a CNN, integral disposição de colaborar e de comparecer aos atos para os quais o senador for chamado."
  ],
- "no_brasil": "Moraes proibiu Flávio de deixar o país em 26 de outubro, numa investigação em que, segundo a Agência Brasil, Willer Tomaz é suspeito de lavagem de dinheiro ligada a apostas e a PF aponta, de forma preliminar, o senador como beneficiário de recursos de uma empresa também investigada. Flávio saiu do Brasil pela Argentina em 27 de outubro e está nos Estados Unidos.",
+ "no_brasil": "Moraes proibiu Flávio de deixar o país em 26 de outubro, numa investigação em que, segundo a Agência Brasil, Willer Tomaz é suspeito de lavagem de dinheiro ligada a apostas e a PF aponta, de forma preliminar, o senador como beneficiário de recursos de uma empresa também investigada. Flávio deixou o Brasil e está nos Estados Unidos, segundo O Globo.",
  "critica": [
   {
    "fonte": "Defesa de Flávio Bolsonaro, na petição citada pela CNN Brasil e por O Globo",
-   "texto": "Todos os elementos dos autos convergem para a prevenção do Exmo. Ministro André Mendonça.",
-   "citacao": true,
+   "texto": "A defesa sustenta que os elementos dos autos apontam para a prevenção do ministro André Mendonça, que supervisiona desde agosto de 2025 a Operação Sem Desconto e, desde 17/7/2026, a Petição 16.435, sobre a estrutura atribuída a Willer Tomaz.",
+   "citacao": false,
    "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/flavio-pede-que-moraes-deixe-investigacao-e-que-mendonca-assuma-caso/"
   },
   {
    "fonte": "Ministro Edson Fachin, na decisão de 29/10 sobre as operações Sem Desconto e Compliance Zero, segundo o STF",
    "texto": "Fachin explicou que a medida não antecipa juízo de valor sobre o mérito das investigações nem fixa definitivamente a competência ou a prevenção.",
-   "citacao": false
+   "citacao": false,
+   "url": "https://noticias.stf.jus.br/postsnoticias/presidente-do-stf-devolve-operacao-sem-desconto-a-relator-e-mantem-provisoriamente-compliance-zero/"
   },
   {
    "fonte": "Ministro Alexandre de Moraes",
@@ -66,9 +67,9 @@
  },
  "fontes": [
   {
-   "nome": "CNN Brasil (blog de Caio Junqueira): Flávio pede que Moraes deixe investigação e que Mendonça assuma caso (30/10/2026)",
+   "nome": "CNN Brasil (blog de Caio Junqueira): Flávio pede que Moraes deixe investigação e que Mendonça assuma caso (31/10/2026)",
    "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/flavio-pede-que-moraes-deixe-investigacao-e-que-mendonca-assuma-caso/",
-   "data": "30/10/2026",
+   "data": "31/10/2026",
    "tipo": "secundaria"
   },
   {
@@ -114,7 +115,7 @@
    },
    "atualidade": {
     "pontos": 10,
-    "porque": "Petições de 30/10, noticiadas entre 30/10 e 2/11, dentro de 7 dias"
+    "porque": "Petições de 30/10, noticiadas entre 31/10 e 2/11, dentro de 7 dias"
    },
    "comprovacao": {
     "pontos": 9,

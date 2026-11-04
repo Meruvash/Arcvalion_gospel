@@ -5,7 +5,7 @@
  "status": "publicado",
  "selo": "Vale acompanhar",
  "titulo": "TJMG mantém templo com a Quadrangular e diz que pastor que saiu não leva o prédio",
- "lide": "A 13ª Câmara Cível do Tribunal de Justiça de Minas Gerais confirmou que um templo em Igarapé, na região metropolitana de Belo Horizonte, deve voltar para a Igreja do Evangelho Quadrangular. O pastor que liderava a congregação rompeu com a denominação em 2024, fundou a Igreja Árvore da Vida e quis continuar no prédio; terá também de pagar pelo tempo de uso sem autorização.",
+ "lide": "A 13ª Câmara Cível do Tribunal de Justiça de Minas Gerais confirmou que um templo em Igarapé, na região metropolitana de Belo Horizonte, fica com a Igreja do Evangelho Quadrangular. O pastor que liderava a congregação rompeu com a denominação em 2024, fundou a Igreja Árvore da Vida e quis continuar no prédio; terá também de pagar pelo tempo de uso sem autorização.",
  "por_que_importa": "Toda igreja local que constrói o templo com dízimos e mutirões precisa saber de quem é o prédio. O tribunal disse que o dinheiro dado pelos fiéis vai para a pessoa jurídica da igreja, e que o pastor nomeado ocupa o templo em nome dela, não como dono. Divisão de igreja dói duas vezes quando acaba em disputa por imóvel.",
  "numeros": [
   [
@@ -38,7 +38,7 @@
   },
   {
    "fonte": "Desembargadora Maria Luiza Santana Assunção, voto vencido, segundo o TJMG",
-   "texto": "Para ela, a construção, a conservação e as despesas do templo foram pagas pela comunidade local, sem participação da denominação, e não ficou comprovada a posse anterior da Quadrangular sobre o imóvel.",
+   "texto": "Para ela, a construção, a conservação e as despesas ordinárias do templo foram custeadas pela comunidade local, sem participação da congregação, segundo o TJMG, e não ficou comprovada a posse anterior da Quadrangular sobre o imóvel.",
    "citacao": false
   },
   {
@@ -180,16 +180,23 @@
  "checagem_juridica": "Leitura hostil feita: os fatos vêm da notícia oficial do TJMG e da reportagem do Estado de Minas; a frase entre aspas é do voto, como o TJMG a publicou. O pastor e os dirigentes não são nomeados, como no comunicado do tribunal; a nota registra os argumentos dele e o voto vencido. A opinião concorda com a decisão sem atribuir má-fé a ninguém e não toma partido doutrinário entre as igrejas.",
  "imagem": {
   "arquivo": "capas/tjmg-templo-quadrangular-pastor-dissidente-igarape.jpg",
-  "credito": "Jan van Goyen, Vista do rio com igreja de aldeia (século XVII, recorte), The Metropolitan Museum of Art",
-  "alt": "Pintura de Jan van Goyen: casas e a torre de uma igreja de aldeia à beira de um rio, com uma balsa em primeiro plano",
+  "credito": "Estilo de Jan van Goyen, Vista do rio com igreja de aldeia (século XVII, recorte), The Metropolitan Museum of Art",
+  "alt": "Pintura no estilo de Jan van Goyen: casas e a torre de uma igreja de aldeia à beira de um rio, com uma balsa em primeiro plano",
   "licenca": "Domínio público (Open Access do Met, CC0)",
   "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP143185.jpg",
   "pagina": "https://www.metmuseum.org/art/collection/search/436560"
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-03T02:30:51-03:00",
+  "data": "2026-11-03T21:12:39-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-03T02:30:51-03:00"
+ "publicado_em": "2026-11-03T02:30:51-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-03",
+   "texto": "Correção em 03/11/2026: o templo já voltou à Igreja do Evangelho Quadrangular (chaves entregues em 15/9/2025, segundo o Estado de Minas); a pintura da foto é no estilo de Jan van Goyen, não dele (Met)."
+  }
+ ],
+ "atualizado_em": "2026-11-03T21:12:39-03:00"
 }
