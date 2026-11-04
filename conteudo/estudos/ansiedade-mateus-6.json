@@ -12,7 +12,7 @@
  "tempo_min": 30,
  "selo": "Ótimo para começar",
  "tagline": "Comida, roupa e o dia de amanhã: Jesus conhecia as preocupações do povo e apontou para o Pai que alimenta as aves e veste os lírios.",
- "lede": "No Sermão do Monte, Jesus diz cinco vezes, de formas diferentes, para não andar ansioso. Ele não chama as necessidades de bobagem: lembra que \"vosso Pai celestial bem sabe que necessitais de todas estas coisas\". Uma lição da CPAD, uma prédica luterana e um sermão batista leem o trecho como convite à confiança, sem desprezar quem sofre de ansiedade. Para nós, pentecostais, é o retrato do cuidado diário de Deus.",
+ "lede": "No Sermão do Monte, Jesus volta à ansiedade em cinco versículos e manda três vezes não andar ansioso. Ele não chama as necessidades de bobagem: lembra que \"vosso Pai celestial bem sabe que necessitais de todas estas coisas\". Uma lição da CPAD, uma prédica luterana e um sermão batista leem o trecho como convite à confiança, sem desprezar quem sofre de ansiedade. Para nós, pentecostais, é o retrato do cuidado diário de Deus.",
  "descricao": "Estudo de Mateus 6:25-34: as aves do céu, os lírios do campo, o \"buscai primeiro o reino de Deus\" e o dia de amanhã, com comentaristas de três tradições e o olhar pentecostal.",
  "imagem": {
   "arquivo": "estudo-ansiedade-mateus-6.jpg",
@@ -82,11 +82,11 @@
  "contexto": [
   "O trecho faz parte do Sermão do Monte (Mateus 5 a 7). Logo antes, Jesus fala dos tesouros na terra e no céu e conclui: \"Não podeis servir a Deus e a Mamom\" (6:24). O \"por isso\" do versículo 25 mostra que a ansiedade pelo sustento e o apego às riquezas são parentes: os dois tiram de Deus o primeiro lugar.",
   "O verbo grego traduzido por andar ansioso é merimnaō. O Bible Hub registra o sentido de ser puxado em direções opostas, dividido em partes, e de estar perturbado com preocupações. Matthew Henry, comentarista inglês do século 18, escreveu que Jesus ordena repetidamente aos discípulos que não dividam nem despedacem a própria mente com cuidados acerca do mundo (tradução livre).",
-  "Henry também notou que Jesus nunca disse que os seus seriam regalados, mas que certamente seriam alimentados (tradução livre). A promessa é de sustento, não de luxo."
+  "Henry também notou que Deus nunca prometeu que os seus seriam regalados, mas que certamente seriam alimentados (tradução livre). A promessa é de sustento, não de luxo."
  ],
  "aplicacao": [
   "Jesus não manda fingir que as contas não existem. Ele manda olhar para as aves e para os lírios e lembrar quem cuida deles. Quando a preocupação apertar, transforme-a em oração específica: diga ao Pai o que falta, agradeça o que ele já deu e entregue o amanhã nas mãos dele.",
-  "E, se a ansiedade virou doença, procure ajuda. A própria lição da CPAD lembra que há remédios para tratar a ansiedade e que o cuidado espiritual caminha junto com o médico. Confiar em Deus não é desprezar o tratamento, e quem sofre de ansiedade precisa de acolhimento, não de cobrança."
+  "E, se a ansiedade virou doença, procure ajuda. A própria lição da CPAD, na tabela de tratamento, lista remédios ao lado da caminhada e da fé, da oração e da leitura bíblica. Confiar em Deus não é desprezar o tratamento, e quem sofre de ansiedade precisa de acolhimento, não de cobrança."
  ],
  "destaques": [
   [
@@ -269,8 +269,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-03T05:29:10-03:00",
+  "data": "2026-11-03T21:13:17-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-03T05:29:10-03:00"
+ "publicado_em": "2026-11-03T05:29:10-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-03",
+   "texto": "Correção em 03/11/2026: a lição da CPAD de 2008 não fala em médico; ela lista remédios numa tabela de tratamento, ao lado da caminhada e da fé. Em Matthew Henry, quem nunca prometeu banquete é Deus, não Jesus."
+  }
+ ],
+ "atualizado_em": "2026-11-03T21:13:17-03:00"
 }
