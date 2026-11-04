@@ -1,0 +1,201 @@
+{
+ "slug": "camara-aprova-ultrassom-morfologico-pre-natal-sus",
+ "data": "2026-11-04",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "selo": "Boa notícia",
+ "titulo": "Câmara aprova pelo menos dois ultrassons morfológicos para gestantes do SUS",
+ "lide": "A Câmara aprovou na terça-feira (3) o PL 4.674/2024, do deputado Beto Preto (PSD-PR), que inclui pelo menos dois exames de ultrassonografia morfológica durante a gestação entre os exames de pré-natal da rede pública. O texto, na forma do substitutivo da Comissão de Saúde relatado em Plenário por Laura Carneiro (PSD-RJ), vai ao Senado.",
+ "por_que_importa": "O ultrassom morfológico é o exame que olha o bebê por inteiro ainda na barriga: coração, coluna, órgãos. Segundo a relatora, as anomalias congênitas viraram a primeira causa de mortalidade infantil no Brasil em 2018. Achar cedo permite tratar cedo, até com cirurgia ainda no útero, e preparar o parto no lugar certo.",
+ "numeros": [
+  [
+   "2",
+   "exames de ultrassonografia morfológica, no mínimo, durante a gestação, pela rede pública",
+   "Substitutivo ao PL 4.674/2024, art. 2º"
+  ],
+  [
+   "1ª",
+   "posição das anomalias congênitas entre as causas de mortalidade infantil no Brasil em 2018; eram a 5ª em 1990",
+   "Parecer de Plenário da relatora, citando o Ministério da Saúde"
+  ],
+  [
+   "cerca de 22%",
+   "das mortes infantis em 2017 foram provocadas por anomalias congênitas",
+   "Parecer de Plenário da relatora"
+  ]
+ ],
+ "corpo": [
+  "O texto altera a Lei 14.598/2023, que já prevê, na rede pública e conforme o orçamento, o ecocardiograma fetal e pelo menos dois ultrassons transvaginais no primeiro quadrimestre. A nova regra soma pelo menos dois ultrassons morfológicos e permite ao poder público fazer campanhas e orientar as gestantes sobre a importância dos exames.",
+  "Na justificação, o autor diz que o exame permite o diagnóstico precoce de doenças do bebê e da mãe e intervenções médicas a tempo. A relatora lembra casos de cirurgia intrauterina feitos na rede pública e diz que o exame ajuda a rastrear alterações como a trissomia do cromossomo 21 e a pré-eclâmpsia."
+ ],
+ "no_brasil": "O projeto tramitava em regime de urgência desde maio de 2026 e foi votado direto em Plenário, com parecer pelas comissões. Para valer, precisa ser aprovado pelo Senado e sancionado. Segundo a relatora, a proposta não cria despesa sem previsão de receita para estados e municípios.",
+ "critica": [
+  {
+   "fonte": "Deputada Laura Carneiro (PSD-RJ), relatora, no parecer de Plenário",
+   "texto": "Esse exame complementar não visa substituir a anamnese, o exame físico e os demais métodos diagnósticos, a serem executados por profissionais habilitados, mas constitui uma ferramenta útil para rastrear uma série de alterações patológicas no feto e na mãe",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3186549"
+  },
+  {
+   "fonte": "Agência Câmara de Notícias (03/11/2026)",
+   "texto": "Segundo a Agência Câmara, o texto permite ao poder público promover campanhas informativas e orientar as gestantes sobre a importância dos exames do protocolo.",
+   "citacao": false
+  },
+  {
+   "fonte": "Ponto de atenção da redação",
+   "texto": "A lei de 2023 condiciona os exames à disponibilidade orçamentária; o projeto não diz de onde virá o dinheiro nem dá prazo para a rede pública oferecer os novos exames.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Gestantes atendidas pelo SUS: se virar lei, o pré-natal passa a prever pelo menos dois ultrassons morfológicos",
+  "Famílias que recebem um diagnóstico difícil na gravidez: saber cedo permite buscar tratamento e preparar o parto",
+  "Igrejas com ministério de apoio a gestantes: vale orientar as mães a pedir o exame quando a lei valer"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: o texto vai ao Senado",
+  "O projeto não fixa prazo nem orçamento para a rede pública oferecer os exames",
+  "Não muda os planos de saúde, só o protocolo da rede pública"
+ ],
+ "veredito": "A gente apoia. Cada exame no pré-natal é cuidado com uma vida que já existe e já tem nome para os pais. Diagnóstico cedo serve para tratar, operar, preparar, e não para desistir. Que o Senado aprove logo, e que o orçamento acompanhe, porque exame que só existe no papel não salva bebê.",
+ "versiculo": {
+  "texto": "Os teus olhos viram o meu corpo ainda informe, e no teu livro todas estas coisas foram escritas",
+  "referencia": "Salmos 139.16",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados: parecer de Plenário da relatora Laura Carneiro ao PL 4.674/2024, com substitutivo",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3186549",
+   "data": "27/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: tramitação do PL 4.674/2024 (dados abertos), aprovação em 3/11/2026",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2475487/tramitacoes",
+   "data": "03/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara de Notícias: Câmara aprova inclusão de ultrassonografias morfológicas no pré-natal do SUS (03/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1315411-camara-aprova-inclusao-de-ultrassonografias-morfologicas-no-pre-natal-do-sus",
+   "data": "03/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "vida",
+   "porque": "O fato é sobre a vida antes do nascimento: a Câmara aprova exames que permitem diagnosticar e tratar doenças do bebê ainda na gestação"
+  },
+  "origem": {
+   "nome": "Agência Câmara de Notícias",
+   "url": "https://www.camara.leg.br/noticias/1315411-camara-aprova-inclusao-de-ultrassonografias-morfologicas-no-pre-natal-do-sus"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Aprovado no Plenário da Câmara e enviado ao Senado; efeito ainda futuro, para todas as gestantes do SUS"
+   },
+   "afinidade": {
+    "pontos": 15,
+    "porque": "Cuidado com o bebê antes do nascimento e com a gestante: tema de vida e família, com efeito direto em muitas famílias"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação em 3/11, menos de 24 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Parecer e substitutivo lidos na íntegra, tramitação oficial com a aprovação e notícia da Agência Câmara"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Acrescenta, do parecer, os dados de mortalidade infantil e o que a lei de 2023 já previa"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 6,
+    "viral": 3,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: parecer e substitutivo (2)",
+    "Ato de poder: aprovação no Plenário da Câmara (2)",
+    "Proximidade: nacional (2)",
+    "Número forte com fonte oficial: primeira causa de mortalidade infantil (1)",
+    "Utilidade: o que muda no pré-natal (1)",
+    "Boa notícia (1)",
+    "Passagem bíblica que um pastor usaria: Salmos 139.16 (2)",
+    "Pede resposta do cristão: apoio a gestantes (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Câmara aprova inclusão de ultrassonografias morfológicas no pré-natal do SUS",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / vida",
+  "coleta": "2026-11-04",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em documento primário",
+   "contradicoes": "O parecer cita a lei como de 14 de junho e, em outro ponto, de 14 de julho de 2023; a nota usa só o número, Lei 14.598/2023.",
+   "sem_confirmacao": "custo estimado dos exames; texto final da redação aprovada (a tramitação diz que o substitutivo da Comissão de Saúde foi aprovado)"
+  },
+  "duplicidade": {
+   "grupo": "PL 4.674/2024",
+   "itens": [
+    "Agência Câmara 03/11",
+    "Câmara tramitação 03/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se o SUS vai oferecer ultrassom morfológico na gravidez",
+   "entidades": [
+    "Câmara dos Deputados",
+    "PL 4.674/2024",
+    "Beto Preto",
+    "Laura Carneiro",
+    "SUS",
+    "Lei 14.598/2023"
+   ],
+   "termos": [
+    "ultrassom morfológico SUS",
+    "pré-natal",
+    "anomalias congênitas",
+    "exames na gravidez"
+   ],
+   "atualizacao": "acompanhar a votação no Senado"
+  }
+ },
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do parecer e da tramitação, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos e números vêm do parecer, da tramitação oficial e da Agência Câmara, atribuídos; a frase entre aspas foi lida no parecer. A opinião expõe a posição pró-vida do portal sobre diagnóstico pré-natal sem acusar nenhuma pessoa, profissional ou família.",
+ "imagem": {
+  "arquivo": "capas/camara-aprova-ultrassom-morfologico-pre-natal-sus.jpg",
+  "credito": "Foto: Vinicius Loures/Câmara dos Deputados",
+  "alt": "Plenário da Câmara dos Deputados durante a sessão de votação de 3 de novembro de 2026, presidida por Hugo Motta",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/11/img20261103170924031.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1315411-camara-aprova-inclusao-de-ultrassonografias-morfologicas-no-pre-natal-do-sus"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-04T02:36:01-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-04T02:36:01-03:00"
+}
