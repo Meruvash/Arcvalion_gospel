@@ -1,0 +1,203 @@
+{
+ "slug": "audiencia-stf-bets-saude-vicio-crime-organizado",
+ "data": "2026-11-04",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "selo": "Vale acompanhar",
+ "titulo": "No STF, governo diz que procura no SUS por vício em apostas mais que triplicou",
+ "lide": "Na audiência pública do STF sobre a medida provisória que proibiu as bets, nesta terça-feira (3), o ministro da Saúde, Alexandre Padilha, disse que a procura por atendimento no SUS ligado à ludopatia cresceu mais de 200% entre 2018 e 2026. O ministro da Justiça, Wellington César Lima e Silva, falou em \"proximidade indesejável\" entre as bets e o crime organizado. Clubes de futebol pediram um período de transição.",
+ "por_que_importa": "Por trás de cada número há uma casa: o salário que some, a dívida escondida, o filho que vê o pai apostar. A audiência pôs na mesa, de um lado, os dados de dependência e lavagem de dinheiro; do outro, o dinheiro que sustentava clubes e esporte. A decisão do Supremo vai dizer qual peso fica maior.",
+ "numeros": [
+  [
+   "mais de 200%",
+   "crescimento da procura por atendimento no SUS ligado à ludopatia entre 2018 e 2026",
+   "Ministro da Saúde, segundo o STF (03/11/2026)"
+  ],
+  [
+   "40%",
+   "das 1,2 milhão de pessoas que pediram autoexclusão das plataformas relataram perda de controle sobre as apostas",
+   "Ministro da Saúde, segundo o STF (03/11/2026)"
+  ],
+  [
+   "R$ 3,3 bilhões",
+   "bloqueados em movimentações suspeitas ligadas às bets, em 21 operações policiais e do Ministério Público desde 2018",
+   "Ministério da Justiça, segundo a Agência Brasil (03/11/2026)"
+  ]
+ ],
+ "corpo": [
+  "Representantes de clubes reconheceram os danos sociais das apostas, mas criticaram o prazo de dez dias da medida para encerrar patrocínios. Segundo o STF, alguns defenderam proibir os cassinos online e regular com rigor as apostas esportivas, com limites aos apostadores e à publicidade; outro disse que a proibição empurrou apostadores para sites clandestinos. A CBF pediu uma solução que concilie economia, esporte e saúde pública.",
+  "No encerramento, Fux disse que os expositores trouxeram informações diferentes das de 2024, sobre impacto econômico, mercado ilegal, crime organizado e direitos dos atletas, e que, se tiver de decidir, o Supremo deverá agir com racionalidade e prudência. Ele reafirmou que, em seu entendimento, não existe direito fundamental à exploração de jogos de azar."
+ ],
+ "no_brasil": "A Medida Provisória 1.394/2026 proibiu a exploração e a publicidade das apostas online e é questionada em quatro ações no STF, relatadas por Fux. Outras três ações contestam a Lei 14.790/2023, que tinha regulamentado o setor. Não há data para o julgamento.",
+ "critica": [
+  {
+   "fonte": "Wellington César Lima e Silva, ministro da Justiça, segundo a Agência Brasil",
+   "texto": "Desafortunadamente, constatamos uma proximidade indesejável da atividade de bets com o crime organizado, com a lavagem de dinheiro",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/ministro-aponta-ligacao-entre-bets-e-crime-organizado"
+  },
+  {
+   "fonte": "Bernardo Freire, representante de clube, segundo o STF",
+   "texto": "Freire argumentou que a proibição não eliminou a demanda, mas levou os apostadores a plataformas clandestinas, sem proteção nem fiscalização, e defendeu revisar a medida ou dar um período de transição.",
+   "citacao": false
+  },
+  {
+   "fonte": "Mizael Oliveira, presidente do Comitê Paralímpico Brasileiro, segundo o STF",
+   "texto": "Ele disse que a entidade apoia a proibição se ela for necessária para proteger a sociedade, mas que uma regulação mais rígida pode reduzir os danos sem eliminar os recursos para o esporte.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Famílias com alguém viciado em apostas: segundo o ministro da Saúde, o SUS atende a ludopatia; procure a rede pública de saúde",
+  "Igrejas que acolhem endividados: o vício em jogo cresce, e a comunidade pode ajudar com escuta, orçamento e encaminhamento",
+  "Torcedores: a decisão afeta os patrocínios dos clubes, mas o placar que importa é o da saúde das famílias"
+ ],
+ "nao_e_para": [
+  "A audiência não decide nada: as ações ainda serão julgadas, sem data marcada",
+  "Os números de saúde e de bloqueios foram apresentados pelos ministros; não tivemos acesso às bases",
+  "A medida provisória segue valendo até decisão do STF ou do Congresso"
+ ],
+ "veredito": "A gente fica com as famílias. Mais de 200% de alta na procura por tratamento e bilhões bloqueados em lavagem de dinheiro pesam mais que patrocínio de camisa. Transição para os clubes pode ser conversada; voltar a liberar a aposta que destrói casas, não. Futebol sobrevive sem bet. Família quebrada demora a voltar.",
+ "versiculo": {
+  "texto": "Porque o amor do dinheiro é a raiz de toda espécie de males",
+  "referencia": "1 Timóteo 6.10",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: Proibição das bets: autoridades e especialistas discutem riscos à saúde e avanço do mercado ilegal (03/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/proibicao-das-bets-autoridades-e-especialistas-discutem-riscos-a-saude-e-avanco-do-mercado-ilegal/",
+   "data": "03/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Ministro aponta ligação entre bets e crime organizado (03/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/ministro-aponta-ligacao-entre-bets-e-crime-organizado",
+   "data": "03/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Brasil: Fux rebate críticas e diz ter percepção de que bets devem ser banidas (03/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-rebate-criticas-e-diz-ter-percepcao-de-que-bets-devem-ser-banidas",
+   "data": "03/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre o vício em apostas, que destrói famílias: o STF ouve governo e clubes antes de julgar a proibição das bets"
+  },
+  "origem": {
+   "nome": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/proibicao-das-bets-autoridades-e-especialistas-discutem-riscos-a-saude-e-avanco-do-mercado-ilegal/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Audiência pública sem decisão; prepara o julgamento das ações contra a proibição das bets"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Vício em apostas e proteção da família: núcleo do portal, com efeito direto no leitor"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Audiência em 3/11, menos de 24 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Resumo oficial do STF com as falas e reportagens da Agência Brasil com os números do Ministério da Justiça"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Reúne os números da saúde e da Justiça e os argumentos dos clubes, e acompanha as notas de 30/10 e 2/11"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: resumo oficial do STF (2)",
+    "Ato de poder: audiência no STF com ministros de Estado (2)",
+    "Proximidade: nacional (2)",
+    "Número forte com fonte oficial: mais de 200% e R$ 3,3 bilhões (1)",
+    "Duas fontes independentes (1)",
+    "Utilidade: onde buscar tratamento (1)",
+    "Pede resposta do cristão: famílias endividadas (2)",
+    "Passagem bíblica que um pastor usaria: 1 Timóteo 6.10 (2)",
+    "Rende estudo: dinheiro, vício e família (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Proibição das bets: autoridades e especialistas discutem riscos à saúde e avanço do mercado ilegal",
+  "nucleo": "A - Brasil",
+  "categoria": "Judiciário / apostas",
+  "coleta": "2026-11-04",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "falas confirmadas em fonte oficial e reportagem",
+   "contradicoes": "Nenhuma entre as fontes lidas.",
+   "sem_confirmacao": "bases dos números do Ministério da Saúde e do Ministério da Justiça; data do julgamento"
+  },
+  "duplicidade": {
+   "grupo": "Audiência pública das bets no STF (3/11)",
+   "itens": [
+    "STF 03/11",
+    "Agência Brasil 03/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-02-fux-inclui-ministerio-saude-audiencia-bets (lista de participantes e atualização com a fala de Fux)"
+  },
+  "seo": {
+   "intencao": "saber o que foi dito na audiência do STF sobre a proibição das bets",
+   "entidades": [
+    "STF",
+    "Luiz Fux",
+    "Alexandre Padilha",
+    "Wellington César Lima e Silva",
+    "MP 1.394/2026",
+    "CBF"
+   ],
+   "termos": [
+    "proibição das bets",
+    "vício em apostas",
+    "ludopatia SUS",
+    "bets crime organizado"
+   ],
+   "atualizacao": "acompanhar o julgamento das ações"
+  }
+ },
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do resumo do STF e das reportagens, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: números e falas são atribuídos a quem os apresentou, com fonte; a frase entre aspas do ministro da Justiça foi lida na Agência Brasil. A nota não afirma que clubes ou operadoras específicas lavem dinheiro; a ligação com o crime é do ministro, atribuída. A opinião defende a proibição sem acusar pessoas.",
+ "imagem": {
+  "arquivo": "capas/audiencia-stf-bets-saude-vicio-crime-organizado.jpg",
+  "credito": "Foto: Rosinei Coutinho/STF, via Agência Brasil",
+  "alt": "O ministro da Justiça, Wellington César Lima e Silva, fala na audiência pública do STF sobre a proibição das bets, em 3 de novembro de 2026",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/o5HkCAPIbxtmf_qmnjdWa8pU8kc=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/03/55629748811_8e95515b9b_o.jpg?itok=T7cCJosk",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/ministro-aponta-ligacao-entre-bets-e-crime-organizado"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-04T02:41:26-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-04T02:41:26-03:00"
+}
