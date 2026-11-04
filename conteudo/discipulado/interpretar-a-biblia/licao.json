@@ -1,0 +1,110 @@
+{
+ "slug": "interpretar-a-biblia",
+ "titulo": "Como interpretar corretamente as Escrituras?",
+ "titulo_seo": "Como interpretar a Bíblia corretamente? Entenda o que ela ensina",
+ "ideia_central": "A Bíblia foi dada para ser entendida: cada texto se lê no seu contexto, buscando o sentido que o autor quis dar, deixando a Bíblia explicar a Bíblia e procurando Jesus, com a ajuda do Espírito Santo e do estudo.",
+ "descricao": "Como interpretar a Bíblia corretamente? Esdras explicando a Lei, o versículo que o Diabo cortou em Mateus 4, os bereanos, Jesus em Emaús e um caminho simples para ler qualquer trecho.",
+ "tempo_min": 12,
+ "resumo_rapido": {
+  "resposta": "Interpreta-se a Bíblia lendo cada texto no seu contexto, buscando o que o autor quis dizer, comparando com outras passagens e procurando Jesus, o centro das Escrituras. O Espírito Santo ilumina quem lê com oração e estudo.",
+  "ideias": [
+   "Os levitas liam e \"davam explicações para que o povo entendesse o que era lido\" (Neemias 8:8).",
+   "O Diabo citou o Salmo 91 deixando de fora \"aonde quer que você for\": fora do contexto, o versículo é mal usado.",
+   "Jesus explicou \"todas as passagens das Escrituras Sagradas que falavam dele\" (Lucas 24:27)."
+  ],
+  "texto_central": "Neemias 8:1-8 e 2 Timóteo 2:15"
+ },
+ "versiculo_chave": {
+  "texto": "Faça todo o possível para conseguir a completa aprovação de Deus, como um trabalhador que não se envergonha do seu trabalho, mas ensina corretamente a verdade do evangelho.",
+  "referencia": "2 Timóteo 2:15"
+ },
+ "contexto": [
+  [
+   "Leitura explicada",
+   "Esdras e os levitas",
+   "Leram a Lei ao povo e davam explicações (Neemias 8:8)"
+  ],
+  [
+   "Versículo cortado",
+   "O Diabo",
+   "Citou o Salmo 91 sem \"aonde quer que você for\" (Mateus 4:6)"
+  ],
+  [
+   "Conferência",
+   "Os bereanos",
+   "Estudavam as Escrituras todos os dias (Atos 17:11)"
+  ],
+  [
+   "Cristo no centro",
+   "Jesus em Emaús",
+   "Explicou as Escrituras que falavam dele (Lucas 24:27)"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "Um versículo solto pode provar qualquer coisa",
+   "Em Mateus 4:6 o Diabo citou a Bíblia cortando uma parte; Jesus respondeu: \"as Escrituras Sagradas também dizem\" (Mateus 4:7)."
+  ],
+  [
+   "Moderada",
+   "Se o Espírito me guia, não preciso estudar",
+   "A Declaração de Fé das Assembleias de Deus une as duas coisas: \"sob a orientação do Espírito Santo, observando as regras gramaticais e o contexto histórico e literário\"."
+  ],
+  [
+   "Moderada",
+   "A Bíblia significa o que eu sinto que ela diz",
+   "Os bereanos conferiam \"se o que Paulo dizia era mesmo verdade\" (Atos 17:11); o texto tem o sentido que o autor quis dar."
+  ],
+  [
+   "Leve",
+   "Só estudiosos conseguem entender a Bíblia",
+   "A Declaração de Fé chama a Bíblia de mensagem \"clara, objetiva, entendível\"; em Neemias 8 o povo todo entendeu."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "Como interpretar a Bíblia corretamente?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=como%20interpretar%20a%20b%C3%ADblia",
+    "dado": "para \"como interpretar a bíblia\", sugere \"corretamente\", \"passo a passo\" e \"sozinho\"",
+    "data": "2026-11-04"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=como%20interpretar%20a%20b%C3%ADblia",
+    "dado": "para \"como interpretar a bíblia\", sugere \"corretamente\" e \"de forma correta\"",
+    "data": "2026-11-04"
+   }
+  ]
+ },
+ "categoria": "conhecendo-a-biblia",
+ "palavras_chave": [
+  "interpretar a Bíblia",
+  "como interpretar a Bíblia",
+  "contexto bíblico",
+  "versículo fora de contexto",
+  "hermenêutica",
+  "Neemias 8",
+  "2 Timóteo 2:15",
+  "bereanos",
+  "estudo bíblico"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-interpretar-a-biblia.jpg",
+  "alt": "Pintura a óleo sobre fundo marrom: à esquerda, Jesus sentado, de túnica rosa e manto azul-esverdeado, com um halo discreto, olha para o alto; à mesa com toalha branca, um homem mais velho aponta com o dedo e outro, de costas, ergue a mão aberta em espanto. É a mesa de Emaús, quando os dois o reconhecem.",
+  "credito": "Diego Velázquez, A ceia em Emaús (óleo sobre tela, 1622-1623). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, comentários de Matthew Henry e João Calvino, textos de John Wesley e o Catecismo da Igreja Católica. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-04T15:35:44-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-04T15:35:44-03:00"
+}

@@ -1,0 +1,116 @@
+{
+ "slug": "deus-responde-oracoes",
+ "titulo": "Deus responde às orações?",
+ "titulo_seo": "Deus responde às orações? Entenda o que a Bíblia ensina",
+ "ideia_central": "Deus ouve e responde às orações como Pai: às vezes com sim, às vezes com não, às vezes com espere; até Paulo e Jesus ouviram um não, e isso não é falta de amor.",
+ "descricao": "Deus responde às orações? A promessa de Mateus 7, o espinho de Paulo, o Getsêmani, Daniel e a viúva persistente: por que algumas orações não são atendidas do jeito pedido e como continuar orando.",
+ "tempo_min": 12,
+ "resumo_rapido": {
+  "resposta": "Sim. Deus ouve e responde, mas como Pai, e não como máquina de pedidos: às vezes dá o que se pede, às vezes dá outra coisa melhor, às vezes pede para esperar. Paulo e o próprio Jesus ouviram um não.",
+  "ideias": [
+   "O Pai dá \"coisas boas aos que lhe pedirem\" (Mateus 7:11); o que é bom, ele decide.",
+   "A Paulo, Deus não tirou o espinho, mas deu graça: \"A minha graça é tudo o que você precisa\".",
+   "A oração da fé termina como a de Jesus: \"que seja feita a tua vontade\"."
+  ],
+  "texto_central": "Mateus 7:7-11 e 2 Coríntios 12:8-9"
+ },
+ "versiculo_chave": {
+  "texto": "Vocês, mesmo sendo maus, sabem dar coisas boas aos seus filhos. Quanto mais o Pai de vocês, que está no céu, dará coisas boas aos que lhe pedirem!",
+  "referencia": "Mateus 7:11"
+ },
+ "contexto": [
+  [
+   "Promessa",
+   "Mateus 7:7",
+   "\"Peçam e vocês receberão\""
+  ],
+  [
+   "Um \"não\"",
+   "Paulo",
+   "Orou três vezes; recebeu graça em vez da retirada do espinho"
+  ],
+  [
+   "Outro \"não\"",
+   "Jesus no Getsêmani",
+   "\"Que não seja feito o que eu quero, mas o que tu queres\""
+  ],
+  [
+   "Um \"espere\"",
+   "Daniel",
+   "\"Deus ouviu a sua oração desde a primeira vez\""
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "Com fé suficiente, Deus é obrigado a dar o que peço",
+   "A resposta depende da vontade de Deus (1 João 5:14). Paulo e Jesus oraram com fé e ouviram um não."
+  ],
+  [
+   "Moderada",
+   "Se Deus não respondeu, ele não me ama",
+   "Matthew Henry: \"Negativas com amor são melhores do que concessões com ira\". A demora de Daniel não queria dizer que Deus não tinha ouvido."
+  ],
+  [
+   "Moderada",
+   "Oração é barganha com Deus",
+   "Calvino criticou quem negocia com Deus com condições, como se ele fosse servo dos nossos desejos."
+  ],
+  [
+   "Leve",
+   "Se Deus já sabe, não preciso pedir",
+   "\"Não conseguem o que querem porque não pedem a Deus\" (Tiago 4:2)."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "Deus responde às orações?",
+  "evidencias": [
+   {
+    "fonte": "Estudo com dados de buscas do Google",
+    "url": "https://ideas.repec.org/p/cpr/ceprdp/14824.html",
+    "dado": "Jeanet Sinding Bentzen, \"In Crisis, We Pray\": com dados diários de buscas no Google em 95 países, a crise da covid-19 levou as buscas por oração ao nível mais alto já registrado",
+    "data": "2026-11-04"
+   },
+   {
+    "fonte": "Evangelical Focus (03/04/2020)",
+    "url": "https://evangelicalfocus.com/lifetech/5232/Searches-on-prayer-skyrocketed-amid-coronavirus-crisis-study-says",
+    "dado": "reportagem sobre o estudo: as buscas no Google por oração dispararam em março de 2020",
+    "data": "2026-11-04"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=por%20que%20deus%20n%C3%A3o%20responde",
+    "dado": "para \"por que deus não responde\", sugere \"por que deus não me responde\" e variações sobre \"minhas orações\"",
+    "data": "2026-11-04"
+   }
+  ]
+ },
+ "categoria": "oracao",
+ "palavras_chave": [
+  "oração",
+  "Deus responde",
+  "oração não respondida",
+  "Mateus 7:7",
+  "espinho de Paulo",
+  "Getsêmani",
+  "perseverança",
+  "vontade de Deus",
+  "cura divina"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-deus-responde-oracoes.jpg",
+  "alt": "Pintura de Nicolas Poussin em tons quentes: Jesus, de túnica azul-esverdeada, ajoelhado sobre um pano vermelho, ergue as mãos para um anjo que desce do céu com um cálice, entre anjinhos e nuvens iluminadas; embaixo, três discípulos dormem no chão.",
+  "credito": "Nicolas Poussin, A agonia no Horto (óleo sobre cobre, 1626-1627). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, comentários de Matthew Henry, sermões de John Wesley e Institutas de João Calvino. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-04T15:28:02-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-04T15:28:02-03:00"
+}

@@ -23,5 +23,10 @@ Limite da licença: 500 versículos na coleção inteira. Somar a cada lição.
 | O que é o batismo no Espírito Santo? | Atos 1:4-5, 1:8 e 2:1-4 em bloco; Atos 1:14, 2:39, 8:15-19, 10:44-47, 19:2, 19:6; Lucas 11:13; 1 Coríntios 12:13 (partes) | 23 |
 | O que são os dons espirituais? | 1 Coríntios 12:4-7, 12:11 e 1 Pedro 4:10 em bloco; 1 Coríntios 12:8-10, 21-22, 27, 29, 31, 13:2, 14:1, 14:26, 14:40; Romanos 12:6-8 (partes) | 21 |
 | O que é o fruto do Espírito? | Gálatas 5:22-25 e João 15:4-5 em bloco; João 15:2; Mateus 7:17, 22-23; Colossenses 3:13 (partes) | 11 |
+| Deus responde às orações? | Mateus 7:7-11 e 2 Coríntios 12:8-9 em bloco; 2 Coríntios 12:7; Daniel 10:2-3, 10:12; Lucas 18:1; Mateus 26:39, 26:42; Tiago 4:2-3 (partes) | 17 |
+| O que Deus pensa de mim? | Efésios 1:3-6 e 1 João 3:1-2 em bloco; Efésios 1:5; Jeremias 29:10-11; Romanos 5:8; Salmo 139:13-16 (partes) | 13 |
+| Como desenvolver intimidade com Deus? | Salmo 63:1, 3, 6-8 e Lucas 10:41-42 em bloco; Lucas 10:39; Marcos 1:35; Tiago 4:7-8; Êxodo 33:11; João 15:14-15 (partes) | 14 |
+| Como reconhecer a direção de Deus? | Provérbios 3:5-7 e Romanos 12:2 em bloco; Salmo 119:105; 1 Tessalonicenses 4:3, 5:20-21; Tiago 1:5; Atos 16:6-10, 15:28; Provérbios 15:22; 1 Coríntios 14:29; Mateus 2:5-6, 2:9 (partes) | 20 |
+| Como interpretar corretamente as Escrituras? | Neemias 8:8 e 2 Timóteo 2:15 em bloco; Mateus 4:6-7; Salmo 91:11; Atos 17:11; Lucas 24:27, 24:45; 1 Coríntios 2:12; 2 Pedro 3:16 (partes) | 10 |
 
-Total: 289 nas lições desta tabela (estimativa de partes de versículos contadas como versículos inteiros). Atenção: as lições publicadas entre 30 e 31/10/2026 que não aparecem aqui ("O que significa nascer de novo?", "O que significa arrepender-se?", "Qual é o significado do batismo?", "O que a Bíblia diz sobre a ansiedade?") ainda precisam ser somadas.
+Total: 363 nas lições desta tabela (estimativa de partes de versículos contadas como versículos inteiros). Atenção: as lições publicadas entre 30 e 31/10/2026 que não aparecem aqui ("O que significa nascer de novo?", "O que significa arrepender-se?", "Qual é o significado do batismo?", "O que a Bíblia diz sobre a ansiedade?") ainda precisam ser somadas.

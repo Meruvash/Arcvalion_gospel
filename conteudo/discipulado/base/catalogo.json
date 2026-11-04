@@ -24,18 +24,13 @@
    "slug": "oracao",
    "nome": "Oração e relacionamento com Deus",
    "descricao": "Como orar, como Deus responde e como reconhecer a direção dele.",
-   "previstos": [
-    "Deus responde às orações?",
-    "Como desenvolver intimidade com Deus?",
-    "Como reconhecer a direção de Deus?"
-   ]
+   "previstos": []
   },
   {
    "slug": "conhecendo-a-biblia",
    "nome": "Conhecendo a Bíblia",
    "descricao": "O que é a Bíblia, como começar a ler e como entender o que ela diz.",
    "previstos": [
-    "Como interpretar corretamente as Escrituras?",
     "Como aplicar os ensinamentos bíblicos?"
    ]
   },
@@ -89,7 +84,10 @@
     "deus-me-aceita-de-volta",
     "discipulo-de-jesus",
     "jejum",
-    "por-que-deus-permite-o-sofrimento"
+    "por-que-deus-permite-o-sofrimento",
+    "deus-responde-oracoes",
+    "intimidade-com-deus",
+    "o-que-deus-pensa-de-mim"
    ],
    "meta": 12
   },
@@ -105,7 +103,8 @@
     "o-que-e-a-biblia",
     "santificacao",
     "dons-espirituais",
-    "fruto-do-espirito"
+    "fruto-do-espirito",
+    "interpretar-a-biblia"
    ],
    "meta": 12
   },
@@ -121,7 +120,8 @@
     "ceia-do-senhor",
     "vencer-tentacoes",
     "batismo-no-espirito-santo",
-    "faco-o-mal-que-nao-quero"
+    "faco-o-mal-que-nao-quero",
+    "direcao-de-deus"
    ],
    "meta": 12
   }
@@ -168,6 +168,18 @@
    "categoria": "santidade",
    "evidencia": "Google Trends, Ano em Pesquisa 2021 (Brasil): \"Deus me Proteja de Mim\" é a 4ª da lista \"Música (Letra)\" (consultado em 03/11/2026); o autocomplete do Google sugere \"faço o mal que não quero\" e \"paulo faco o mal que nao quero\"",
    "url": "https://trends.withgoogle.com/year-in-search/2021/br/"
+  },
+  {
+   "titulo": "Deus responde às orações?",
+   "categoria": "oracao",
+   "evidencia": "Dados de busca do Google: o estudo \"In Crisis, We Pray: Religiosity and the COVID-19 Pandemic\", de Jeanet Sinding Bentzen (Universidade de Copenhague), documentou que as buscas no Google por oração dispararam em março de 2020 (Evangelical Focus, 03/04/2020, consultado em 04/11/2026); o autocomplete sugere \"por que deus não responde minhas orações\"",
+   "url": "https://evangelicalfocus.com/lifetech/5232/Searches-on-prayer-skyrocketed-amid-coronavirus-crisis-study-says"
+  },
+  {
+   "titulo": "O que Deus pensa de mim?",
+   "categoria": "salvacao-e-nova-vida",
+   "evidencia": "Google Trends, Ano em Pesquisa 2019 (Brasil): \"Como fazer que as pessoas gostem de mim\" é a 3ª da lista \"Como fazer\", e \"Como fazer que as pessoas gostem de mim?\" é a 6ª da mesma lista em 2020 (consultado em 04/11/2026); o autocomplete do Google sugere \"o que deus pensa de mim versículo\" e \"como deus me vê segundo a bíblia\"",
+   "url": "https://trends.withgoogle.com/year-in-search/2019/br/"
   }
  ]
 }
