@@ -132,16 +132,16 @@
   {
    "questao": "Ainda existem apóstolos hoje?",
    "passagem": "Efésios 4:11-13",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "apostolos-efesios-4",
    "obs": "",
    "tipo": "debate"
   },
   {
    "questao": "Quem são os \"filhos de Deus\" de Gênesis 6?",
    "passagem": "Gênesis 6:1-4",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "filhos-de-deus-genesis-6",
    "obs": "",
    "tipo": "debate"
   },
@@ -469,24 +469,24 @@
    "questao": "Confia no Senhor de todo o coração",
    "passagem": "Provérbios 3:1-12",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "proverbios-3",
    "obs": ""
   },
   {
    "questao": "O bom samaritano: quem é o meu próximo",
    "passagem": "Lucas 10:25-37",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "bom-samaritano-lucas-10",
    "obs": ""
   },
   {
    "questao": "Davi e Golias: a batalha é do Senhor",
    "passagem": "1 Samuel 17:32-50",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "davi-golias-1-samuel-17",
    "obs": ""
   },
   {

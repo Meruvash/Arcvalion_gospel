@@ -1,0 +1,277 @@
+{
+ "slug": "bom-samaritano-lucas-10",
+ "status": "publicado",
+ "tipo": "passagem",
+ "titulo": "Lucas 10:25-37: o que a parábola do bom samaritano responde a quem pergunta quem é o meu próximo",
+ "passagem": "Lucas 10:25-37",
+ "sigla": "Lc",
+ "livro": "Lucas",
+ "testamento": "Novo Testamento",
+ "genero": "Evangelho",
+ "nivel": 1,
+ "tempo_min": 30,
+ "selo": "Ótimo para começar",
+ "tagline": "Um doutor da lei queria saber até onde ia a obrigação de amar. Jesus contou uma história e devolveu a pergunta: de quem você foi o próximo?",
+ "lede": "\"E quem é o meu próximo?\" A pergunta parecia simples, mas o doutor da lei queria \"justificar-se a si mesmo\". Jesus respondeu com a história de um homem espancado, de dois religiosos que passaram de largo e de um samaritano que parou. Uma lição da CPAD, uma pastoral batista e um artigo católico concordam: Jesus inverte a pergunta. Para nós, pentecostais, o amor que o Espírito derrama no coração se mostra em compaixão prática.",
+ "descricao": "Estudo de Lucas 10:25-37: o duplo mandamento do amor, \"E quem é o meu próximo?\", o sacerdote e o levita, o samaritano movido de íntima compaixão e \"Vai, e faze da mesma maneira\", com comentaristas de três tradições e o olhar pentecostal.",
+ "imagem": {
+  "arquivo": "estudo-bom-samaritano-lucas-10.jpg",
+  "credito": "Domenico Fetti, O bom samaritano (óleo sobre madeira, c. 1618-22). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)",
+  "alt": "Pintura de Domenico Fetti, c. 1618-22: entre árvores altas, o samaritano, de turbante branco e manto claro, ergue nos braços o homem ferido para colocá-lo sobre um jumento, num caminho de pedras",
+  "pagina": "https://www.metmuseum.org/art/collection/search/436302",
+  "licenca": "domínio público (Open Access CC0 do Metropolitan Museum)"
+ },
+ "versiculo_chave": {
+  "texto": "E ele disse: O que usou de misericórdia para com ele. Disse, pois, Jesus: Vai, e faze da mesma maneira.",
+  "referencia": "Lucas 10:37",
+  "traducao": "Almeida Corrigida Fiel (ACF), © Sociedade Bíblica Trinitariana do Brasil, citação curta"
+ },
+ "estrutura": [
+  [
+   "A pergunta",
+   "Lc 10:25-28. O doutor da lei pergunta como herdar a vida eterna e responde com o duplo mandamento: amar a Deus e ao próximo."
+  ],
+  [
+   "A segunda pergunta",
+   "Lc 10:29. Querendo justificar-se, pergunta: E quem é o meu próximo?"
+  ],
+  [
+   "Os que passaram de largo",
+   "Lc 10:30-32. Um homem é assaltado e deixado meio morto; um sacerdote e um levita o veem e passam de largo."
+  ],
+  [
+   "O samaritano",
+   "Lc 10:33-35. Um samaritano o vê, é movido de íntima compaixão, trata as feridas, leva-o à estalagem e paga o cuidado."
+  ],
+  [
+   "Vai, e faze",
+   "Lc 10:36-37. Jesus pergunta quem foi o próximo e manda: Vai, e faze da mesma maneira."
+  ]
+ ],
+ "estrutura_resumo": "Duas perguntas do doutor e duas de Jesus. O doutor pergunta quem é o seu próximo (10:29); Jesus pergunta quem se mostrou próximo (10:36). A resposta não é uma definição, é uma ordem: Vai, e faze da mesma maneira.",
+ "questao": "Quem é o meu próximo, e o que Jesus ensina sobre o amor ao contar a parábola do bom samaritano?",
+ "vozes": [
+  {
+   "autor": "Wagner Tadeu dos Santos Gaby",
+   "quem": "Comentarista das Lições Bíblicas da CPAD, segundo a revista",
+   "obra": "\"As parábolas de Jesus — As verdades e princípios divinos para uma vida abundante\", Lições Bíblicas CPAD, 4º trimestre de 2018, lição 8, \"Encontrando o nosso próximo\" (reproduzida no site Estudantes da Bíblia)",
+   "url": "https://www.estudantesdabiblia.com.br/licoes_cpad/2018/2018-04-08.htm",
+   "data": "25/11/2018",
+   "texto": "Wagner Gaby lê a parábola como um desafio ao individualismo: ajudar o próximo está acima das diferenças étnicas e religiosas. Ele rejeita leituras alegóricas que dão ao texto objetivos que ele não tem e lembra que a compaixão do samaritano foi intensa e prática. Ajudar o próximo não salva, mas é fruto de quem foi salvo. E Jesus inverte a pergunta: de quem eu posso ser o próximo?",
+   "citacao": "Na resposta de Jesus, a pergunta é inversa, ou seja, de quem eu posso, ou devo, ser o próximo?"
+  },
+  {
+   "autor": "Hércio Fonseca de Araújo",
+   "quem": "Pastor presidente da Igreja Batista do Lago, segundo a pastoral",
+   "obra": "Pastoral \"O Bom Samaritano\" (Igreja Batista do Lago)",
+   "url": "https://pastoral.ibln.org.br/24052026-o-bom-samaritano",
+   "data": "24/05/2026",
+   "texto": "Hércio Fonseca de Araújo observa que o perito na lei queria definir até onde devia amar, e Jesus respondeu com uma história prática. O sacerdote e o levita conheciam a Lei, mas não tiveram compaixão; o samaritano, rejeitado pelos judeus, parou, se aproximou e cuidou. Para ele, o amor do Reino rompe barreiras, e a indiferença é uma marca do nosso tempo.",
+   "citacao": "Temos sido espectadores da dor em lugar de sermos instrumentos de misericórdia."
+  },
+  {
+   "autor": "Aíla Luzia Pinheiro de Andrade e Augusto Lívio Nogueira de Morais",
+   "quem": "Professores de Sagrada Escritura na Universidade Católica de Pernambuco e na Faculdade Católica do Rio Grande do Norte, segundo a revista",
+   "obra": "\"Viu, sentiu compaixão e cuidou dele (Lc 10,33-34)\", Encontros Teológicos, v. 34, nº 3",
+   "url": "https://facasc.emnuvens.com.br/ret/article/download/1561/1244/3057",
+   "data": "setembro a dezembro de 2019",
+   "texto": "Os autores mostram que a pergunta do doutor (10:29) é respondida por outra pergunta de Jesus (10:36): o próximo não é uma categoria que se aplica aos outros, é um desafio a quem pergunta. Eles lembram que o sacerdote e o levita talvez tivessem medo de emboscada na estrada, e concluem que amar com misericórdia sempre tem risco.",
+   "citacao": "Amar com misericórdia é um risco que sempre teremos que correr."
+  }
+ ],
+ "contexto": [
+  "Judeus e samaritanos viviam em inimizade antiga. Em João 4:9, a mulher samaritana se espanta que Jesus lhe peça água, \"porque os judeus não se comunicam com os samaritanos\". Por isso o herói da parábola choca: o que cumpre o mandamento não é o sacerdote nem o levita, é alguém de um povo desprezado. Matthew Henry, comentarista inglês do século 18, escreveu que o sacerdote endureceu o coração contra alguém do seu próprio povo e o samaritano o abriu para alguém de outro povo (tradução livre).",
+  "A estrada de Jerusalém a Jericó descia por uma região deserta e rochosa. O comentário de Ellicott, no Bible Hub, a descreve como cheia de cavernas frequentadas por bandos de salteadores, e o Pulpit Commentary registra que ela era conhecida como o Caminho de Sangue (tradução livre).",
+  "O verbo traduzido por \"foi movido de íntima compaixão\" (10:33) é splanchnizomai. O léxico de Thayer, no Bible Hub, explica que ele significa ser movido nas entranhas, que eram vistas como a sede do amor e da piedade. É o mesmo verbo usado para o pai do filho pródigo (Lucas 15:20). Henry acrescentou que a compaixão do samaritano não foi uma compaixão ociosa (tradução livre)."
+ ],
+ "aplicacao": [
+  "A pergunta do doutor ainda é nossa: até onde vai a minha obrigação? Jesus troca a pergunta. Em vez de procurar quem merece ajuda, procure quem você pode ajudar nesta semana: um vizinho doente, um irmão em crise, alguém que ninguém vê.",
+  "E repare no que o samaritano fez: viu, se aproximou, cuidou, levou, pagou e prometeu voltar. Compaixão custa tempo, dinheiro e risco. A igreja local é um bom lugar para começar: ofereça-se para servir no ministério de socorro, visitar enfermos ou ajudar famílias necessitadas."
+ ],
+ "destaques": [
+  [
+   "Como lês?",
+   "Jesus devolve a pergunta ao doutor da lei: o que está escrito? (10:26)"
+  ],
+  [
+   "Faze isso, e viverás",
+   "O problema não era saber o mandamento, era praticá-lo (10:28)."
+  ],
+  [
+   "Passou de largo",
+   "Dois religiosos viram o ferido e seguiram caminho (10:31-32)."
+  ],
+  [
+   "Movido de íntima compaixão",
+   "O samaritano sentiu e agiu (10:33)."
+  ],
+  [
+   "Cuida dele",
+   "O samaritano pagou o cuidado e prometeu voltar (10:35)."
+  ],
+  [
+   "Vai, e faze",
+   "A parábola termina numa ordem, não numa definição (10:37)."
+  ]
+ ],
+ "atencao": [
+  [
+   "Moderada",
+   "Achar que as boas obras salvam",
+   "Como lembra Wagner Gaby, ajudar o próximo não salva, mas é fruto de quem foi salvo."
+  ],
+  [
+   "Moderada",
+   "Transformar cada detalhe em alegoria",
+   "A lição da CPAD alerta contra dar ao texto objetivos que ele não tem. O centro é o amor prático."
+  ],
+  [
+   "Leve",
+   "Ler a parábola como ataque aos religiosos",
+   "Jesus não condena a fé dos judeus; mostra que religião sem compaixão não cumpre a Lei que ela mesma ensina."
+  ]
+ ],
+ "perfil": [
+  [
+   "Contexto histórico",
+   4
+  ],
+  [
+   "Aplicação prática",
+   5
+  ],
+  [
+   "Profundidade teológica",
+   3
+  ],
+  [
+   "Amor ao próximo",
+   5
+  ]
+ ],
+ "formatos": [
+  [
+   "Sozinho",
+   "Leia Lucas 10:25-37 e anote cada verbo da ação do samaritano.",
+   5
+  ],
+  [
+   "Em família",
+   "Pensem juntos em uma pessoa que precisa de ajuda e combinem uma ação concreta nesta semana.",
+   5
+  ],
+  [
+   "Em grupo",
+   "Leia a parábola com Levítico 19:18, Mateus 25:34-40 e 1 João 3:17-18 e conversem sobre amor prático.",
+   5
+  ]
+ ],
+ "para_quem": [
+  "Quem quer viver o amor ao próximo na prática",
+  "Igrejas que querem servir a comunidade",
+  "Famílias que querem ensinar compaixão aos filhos"
+ ],
+ "nao_e_para": [
+  "Quem procura no texto uma forma de ganhar a salvação pelas obras"
+ ],
+ "dica": "Leia a parábola imaginando-se em cada personagem: o ferido, o sacerdote, o levita e o samaritano. Em qual deles você se reconhece hoje?",
+ "traducoes": "A ACF traz \"foi movido de íntima compaixão\" (10:33). \"Doutor da lei\" (10:25) era um especialista na Lei de Moisés. \"Dois dinheiros\" (10:35) traduz dois denários, a moeda paga por um dia de trabalho. \"Passou de largo\" quer dizer passou pelo outro lado da estrada.",
+ "relacionadas": "O texto conversa com Levítico 19:18 e 34 (amar o próximo e o estrangeiro), Deuteronômio 6:5, Mateus 22:37-40 (os dois grandes mandamentos), Mateus 25:34-40, Gálatas 6:10 e 1 João 3:17-18.",
+ "comparacoes": [],
+ "versiculos": [
+  [
+   "Lucas 10:27",
+   "Amarás ao Senhor teu Deus de todo o teu coração, e de toda a tua alma, e de todas as tuas forças, e de todo o teu entendimento, e ao teu próximo como a ti mesmo."
+  ],
+  [
+   "Lucas 10:33",
+   "Mas certo samaritano, viajando, veio até ele e, vendo-o, foi movido de íntima compaixão"
+  ],
+  [
+   "João 4:9",
+   "Porque os judeus não se comunicam com os samaritanos"
+  ]
+ ],
+ "veredito": "A parábola do bom samaritano não define quem merece o nosso amor; mostra como o amor age. Jesus trocou a pergunta sobre quem é o meu próximo por outra: de quem eu me mostrei próximo. Quem ama a Deus de todo o coração não passa de largo: para, se aproxima e cuida.",
+ "ficha": [
+  [
+   "Livro",
+   "Lucas"
+  ],
+  [
+   "Autor",
+   "Lucas, companheiro de Paulo, segundo a tradição da igreja"
+  ],
+  [
+   "Cenário",
+   "No caminho de Jesus para Jerusalém, numa conversa com um doutor da lei"
+  ],
+  [
+   "Passagem",
+   "13 versículos (10:25-37)"
+  ],
+  [
+   "Palavras-chave",
+   "plēsion (próximo), splanchnizomai (ter compaixão), eleos (misericórdia), nomikos (doutor da lei)"
+  ]
+ ],
+ "fontes": [
+  [
+   "Wagner Tadeu dos Santos Gaby, Lições Bíblicas CPAD, 4º trimestre de 2018, lição 8 (Estudantes da Bíblia, 25/11/2018)",
+   "https://www.estudantesdabiblia.com.br/licoes_cpad/2018/2018-04-08.htm",
+   "encontrando o nosso próximo"
+  ],
+  [
+   "Hércio Fonseca de Araújo, \"O Bom Samaritano\" (Igreja Batista do Lago, 24/05/2026)",
+   "https://pastoral.ibln.org.br/24052026-o-bom-samaritano",
+   "o amor que rompe barreiras"
+  ],
+  [
+   "Aíla L. P. de Andrade e Augusto L. N. de Morais, Encontros Teológicos 34/3 (2019)",
+   "https://facasc.emnuvens.com.br/ret/article/download/1561/1244/3057",
+   "viu, sentiu compaixão e cuidou"
+  ],
+  [
+   "Matthew Henry, comentário de Lucas 10 (Bible Study Tools, domínio público)",
+   "https://www.biblestudytools.com/commentaries/matthew-henry-complete/luke/10.html",
+   "a compaixão do samaritano"
+  ],
+  [
+   "Bible Hub, comentários de Lucas 10:30",
+   "https://biblehub.com/commentaries/luke/10-30.htm",
+   "a estrada de Jericó"
+  ],
+  [
+   "Bible Hub, Strong's 4697 (splanchnizomai)",
+   "https://biblehub.com/greek/4697.htm",
+   "a compaixão"
+  ],
+  [
+   "Declaração de Fé das Assembleias de Deus (CGADB, 2016), caps. XI e XVIII",
+   "https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf",
+   "o socorro aos necessitados e o amor ao próximo"
+  ],
+  [
+   "Bíblia Online, Lucas 10 (Almeida Corrigida Fiel)",
+   "https://www.bibliaonline.com.br/acf/lc/10",
+   "texto do versículo-chave"
+  ]
+ ],
+ "consulta": "05/11/2026",
+ "legenda": "Quem é o meu próximo? 🤝❤️\n\nUm doutor da lei quis saber até onde ia a obrigação de amar. Jesus contou a história de um homem ferido, de dois religiosos que passaram de largo e de um samaritano que parou e cuidou. E terminou com uma ordem: \"Vai, e faze da mesma maneira\".\n\nDe quem você pode ser o próximo nesta semana?\n\nEstudo completo no link da bio.\n\n#bomsamaritano #lucas10 #estudobiblico #pentecostal #amoraoproximo #compaixao #biblia #fe #parabolas #bibleStudy",
+ "cor": "#5a4a2f",
+ "ia": {
+  "usada": true,
+  "uso": "Pesquisa nas fontes listadas e redação feitas com apoio de inteligência artificial. Citações literais conferidas no texto das páginas citadas. A lição da CPAD foi lida na reprodução do site Estudantes da Bíblia. As prédicas luteranas sobre o texto não puderam ser lidas porque o Portal Luterano estava fora do ar. Linha editorial pentecostal adotada pelo portal em 30/10/2026."
+ },
+ "nossa_posicao": [
+  "A Declaração de Fé das Assembleias de Deus ensina que \"A estrutura dos Dez Mandamentos resume-se no amor a Deus e ao próximo\", o mesmo resumo que o doutor da lei deu a Jesus. E lembra que a igreja cumpre a sua missão também pelo \"trabalho social\": \"A Igreja também exerce o ministério de socorro e misericórdia, que inclui o cuidado dos pobres e dos necessitados, e não somente dos seus membros, mas também dos não membros.\"",
+  "O pentecostal lê a parábola sabendo que esse amor não nasce da força de vontade. É o Espírito Santo que derrama o amor de Deus no coração e dá coragem para parar no caminho. A mesma igreja que ora pelos enfermos e busca os dons espirituais é chamada a atar feridas, pagar a estalagem e voltar para ver como o irmão está."
+ ],
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-05T05:30:20-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-05T05:30:20-03:00"
+}
