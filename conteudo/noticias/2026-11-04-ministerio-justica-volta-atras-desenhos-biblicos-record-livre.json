@@ -43,15 +43,15 @@
    "url": "https://www.gov.br/mj/pt-br/assuntos/noticias/ministerio-da-justica-e-seguranca-publica-reforma-a-classificacao-indicativa-de-201cdesenhos-biblicos201d-e-atribui-faixa-livre"
   },
   {
-   "fonte": "Coordenação-Geral de Política de Classificação Indicativa, na análise revista",
-   "texto": "A primeira análise apontou morte intencional, arma com violência e ato violento nas histórias, e por isso chegou à faixa de 12 anos; o secretário não contestou que essas cenas existem, mas a forma como foram pesadas.",
+   "fonte": "Decisão 9/2026, itens 2 e 10",
+   "texto": "A primeira análise apontou morte intencional (14 anos), arma com violência e ato violento (12 anos); a revisão não negou as cenas, mas disse que foram pesadas só cena a cena.",
    "citacao": false
   }
  ],
  "para_quem": [
   "Pais: o programa volta a ser livre para todas as idades; a decisão de assistir com os filhos continua sendo da família",
   "Igrejas e escolas bíblicas: a decisão reconhece por escrito a tradição religiosa como contexto que atenua cenas de violência",
-  "Quem acompanha o caso: o PDL de Nikolas perde o objeto, mas o pedido de informações sobre a primeira análise continua válido"
+  "Quem acompanha o caso: com a portaria revogada, o PDL de Nikolas perde o objeto"
  ],
  "nao_e_para": [
   "Até a manhã de 4/11, não localizamos a publicação da decisão no Diário Oficial, que não respondeu daqui",
@@ -206,8 +206,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-04T02:32:40-03:00",
+  "data": "2026-11-04T21:18:43-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-04T02:32:40-03:00"
+ "publicado_em": "2026-11-04T02:32:40-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-04",
+   "texto": "Correção em 04/11/2026: não há pedido de informações de Nikolas Ferreira registrado na Câmara (dados abertos, 28/10 a 4/11); saiu a menção."
+  }
+ ],
+ "atualizado_em": "2026-11-04T21:18:43-03:00"
 }

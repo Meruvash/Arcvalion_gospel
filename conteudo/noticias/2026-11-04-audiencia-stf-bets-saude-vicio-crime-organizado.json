@@ -57,7 +57,7 @@
   "Os números de saúde e de bloqueios foram apresentados pelos ministros; não tivemos acesso às bases",
   "A medida provisória segue valendo até decisão do STF ou do Congresso"
  ],
- "veredito": "A gente fica com as famílias. Mais de 200% de alta na procura por tratamento e bilhões bloqueados em lavagem de dinheiro pesam mais que patrocínio de camisa. Transição para os clubes pode ser conversada; voltar a liberar a aposta que destrói casas, não. Futebol sobrevive sem bet. Família quebrada demora a voltar.",
+ "veredito": "A gente fica com as famílias. Mais de 200% de alta na procura por tratamento e R$ 3,3 bilhões bloqueados em movimentações suspeitas pesam mais que patrocínio de camisa. Transição para os clubes pode ser conversada; voltar a liberar a aposta que destrói casas, não. Futebol sobrevive sem bet. Família quebrada demora a voltar.",
  "versiculo": {
   "texto": "Porque o amor do dinheiro é a raiz de toda espécie de males",
   "referencia": "1 Timóteo 6.10",
@@ -196,8 +196,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-04T02:41:26-03:00",
+  "data": "2026-11-04T21:18:43-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-04T02:41:26-03:00"
+ "publicado_em": "2026-11-04T02:41:26-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-04",
+   "texto": "Correção em 04/11/2026: os R$ 3,3 bilhões foram bloqueados em movimentações suspeitas, segundo o ministro da Justiça (Agência Brasil), e não em lavagem de dinheiro comprovada."
+  }
+ ],
+ "atualizado_em": "2026-11-04T21:18:43-03:00"
 }

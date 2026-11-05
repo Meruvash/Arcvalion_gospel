@@ -52,7 +52,7 @@
  ],
  "para_quem": [
   "Eleitores: o voto nominal de cada senador está no site do Senado; vale conferir o do seu estado antes da próxima votação",
-  "Quem defende a redução para crimes hediondos: a briga agora é pelo calendário especial prometido por Alcolumbre",
+  "Quem defende a redução para crimes hediondos: a briga agora é pelo calendário especial sugerido por Eduardo Braga, que Alcolumbre disse aguardar",
   "Famílias de vítimas: a PEC aprovada assegura às vítimas assistência, informação e participação no processo penal"
  ],
  "nao_e_para": [
@@ -69,7 +69,7 @@
  "fontes": [
   {
    "nome": "Senado Federal: votações nominais da sessão de 3/11/2026 (dados abertos), PEC 18/2025",
-   "url": "https://legis.senado.leg.br/dadosabertos/plenario/lista/votacao/20261103",
+   "url": "https://legis.senado.leg.br/dadosabertos/votacao?dataInicio=2026-11-03&dataFim=2026-11-03",
    "data": "03/11/2026",
    "tipo": "primaria"
   },
@@ -200,7 +200,7 @@
   "arquivo": "capas/senado-aprova-pec-seguranca-maioridade-penal-fica-para-depois.jpg",
   "credito": "Foto: Jonas Pereira/Agência Senado",
   "alt": "Mesa do Plenário do Senado durante a discussão da PEC da Segurança, com Davi Alcolumbre ao centro, em 3 de novembro de 2026",
-  "licenca": "CC BY-SA 4.0 (Flickr da Agência Senado); reprodução livre com citação da Agência Senado e do autor",
+  "licenca": "Reprodução livre mediante citação da Agência Senado e do autor (política de uso)",
   "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/03/senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal/20261103_03129jp.jpg",
   "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/03/senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal"
  },

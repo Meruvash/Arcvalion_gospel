@@ -7,7 +7,7 @@
  "selo": "Vale acompanhar",
  "titulo": "STF derruba lei do Maranhão que deixava pais tirarem filhos de aulas sobre gênero",
  "lide": "O Supremo declarou inconstitucional, por unanimidade, a lei do Maranhão que permitia aos pais proibir a participação dos filhos em atividades escolares sobre gênero e diversidade, em escolas públicas e privadas. O julgamento da ADI 7883 terminou em sessão virtual no dia 23 de outubro e foi divulgado pelo STF nesta terça-feira (3). O relator, Gilmar Mendes, seguiu o precedente que derrubou lei parecida do Espírito Santo.",
- "por_que_importa": "A família não é visita na escola, e quem responde pela formação moral dos filhos são os pais. A decisão tira dos pais maranhenses um instrumento que a Assembleia aprovou e que a PGR defendia manter. Mas o fundamento principal foi de forma: o STF disse que só a União pode legislar sobre isso. O caminho, então, passa pelo Congresso.",
+ "por_que_importa": "A família não é visita na escola, e quem responde pela formação moral dos filhos são os pais. A decisão tira dos pais maranhenses um instrumento que a Assembleia aprovou e que a PGR defendia manter. Mas o fundamento comum a todos os votos foi a competência: o STF disse que só a União pode legislar sobre isso. O caminho, então, passa pelo Congresso.",
  "numeros": [
   [
    "10 a 0",
@@ -17,7 +17,7 @@
   [
    "R$ 1 mil a R$ 10 mil",
    "multa por aluno, na reincidência, que a lei previa para a escola que descumprisse a decisão dos pais",
-   "Migalhas, 03/11/2026"
+   "Migalhas, 24/10/2026"
   ],
   [
    "2º",
@@ -26,7 +26,7 @@
   ]
  ],
  "corpo": [
-  "A ação foi proposta pela Aliança Nacional LGBTI+ e pela Associação Brasileira de Famílias Homotransafetivas, que alegavam invasão da competência da União, censura à liberdade de expressão e ao magistério. Segundo o Migalhas, a lei obrigava as escolas a avisar as famílias sobre atividades que abordassem identidade de gênero, orientação sexual e temas parecidos e a respeitar, por escrito, a decisão dos pais, sem prejudicar os alunos dispensados.",
+  "A ação foi proposta pela Aliança Nacional LGBTI+ e pela Associação Brasileira de Famílias Homotransafetivas, que alegavam invasão da competência da União, censura à liberdade de expressão e ao magistério. Segundo o Migalhas, a lei obrigava as escolas a avisar as famílias sobre atividades que abordassem identidade de gênero, orientação sexual e temas parecidos que se manifestavam por documento escrito e assinado, e a respeitar a decisão dos pais, sem prejudicar os alunos dispensados.",
   "Zanin votou com uma ressalva, seguida por Gilmar e Dino: as escolas devem adequar esses conteúdos à idade e ao desenvolvimento dos alunos. Fux reconheceu só a inconstitucionalidade formal. Nunes Marques disse que a decisão não deve significar \"carta branca ou acesso irrestrito\" de crianças a discussões complexas, e Mendonça ressalvou sua posição pessoal e seguiu o relator pela colegialidade."
  ],
  "no_brasil": "Segundo o Migalhas, a Assembleia do Maranhão defendeu a lei com base na competência suplementar dos estados em educação e na Convenção Americana sobre Direitos Humanos. A AGU propôs limitar o veto às atividades eletivas ou além da base curricular, e a PGR opinou pela rejeição da ação, por entender que a lei não proibia conteúdos nem interferia na liberdade dos professores.",
@@ -49,7 +49,7 @@
  ],
  "para_quem": [
   "Pais de alunos no Maranhão: a lei deixa de valer; vale conversar com a escola sobre o que será ensinado e em que idade",
-  "Pais de todo o país: a ressalva aprovada diz que esses conteúdos devem respeitar a idade e o desenvolvimento das crianças; cobre isso da escola",
+  "Pais de todo o país: três ministros (Zanin, Gilmar e Dino) ressalvaram que esses conteúdos devem ser adequados à idade e ao desenvolvimento dos alunos; vale cobrar isso da escola",
   "Deputados e senadores: o STF disse que a regra é federal, então a discussão sobre o direito dos pais precisa ir ao Congresso"
  ],
  "nao_e_para": [
@@ -71,9 +71,9 @@
    "tipo": "primaria"
   },
   {
-   "nome": "Migalhas: STF derruba lei que autorizava pais a vetar aulas sobre gênero (03/11/2026)",
+   "nome": "Migalhas: STF derruba lei que autorizava pais a vetar aulas sobre gênero (24/10/2026)",
    "url": "https://www.migalhas.com.br/quentes/467172/stf-derruba-lei-que-autorizava-pais-a-vetar-aulas-sobre-genero",
-   "data": "03/11/2026",
+   "data": "24/10/2026",
    "tipo": "secundaria"
   }
  ],
@@ -192,8 +192,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-04T02:39:26-03:00",
+  "data": "2026-11-04T21:18:43-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-04T02:39:26-03:00"
+ "publicado_em": "2026-11-04T02:39:26-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-04",
+   "texto": "Correção em 04/11/2026: a ressalva sobre adequação à idade foi de três ministros (Zanin, Gilmar e Dino) e não obteve maioria (Migalhas, 24/10/2026); o fundamento comum a todos os votos foi a competência da União, e alguns foram além."
+  }
+ ],
+ "atualizado_em": "2026-11-04T21:18:43-03:00"
 }
