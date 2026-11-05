@@ -109,8 +109,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-04T15:34:13-03:00",
+  "data": "2026-11-04T21:19:40-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-04T15:34:13-03:00"
+ "publicado_em": "2026-11-04T15:34:13-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-04",
+   "texto": "Correção em 04/11/2026: Mateus 2 não diz que a estrela levou os magos até Jerusalém; eles viram a estrela no Oriente e foram a Jerusalém, e só depois a estrela foi adiante deles até Belém (Mt 2:1-9, NTLH)."
+  }
+ ],
+ "atualizado_em": "2026-11-04T21:19:40-03:00"
 }

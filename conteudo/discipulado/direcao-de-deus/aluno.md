@@ -32,7 +32,7 @@ O salmista escreveu: "A tua palavra é lâmpada para guiar os meus passos, é lu
 
 John Wesley, o pregador inglês que deu origem ao metodismo, usou esse versículo como uma regra geral para todos os casos. Ele ensinou que a vontade de Deus se conhece consultando a Palavra de Deus, e não esperando sonhos ou impulsos repentinos.
 
-Os magos do Oriente são um bom exemplo. Uma estrela os levou até Jerusalém, mas o nome da cidade onde o Messias devia nascer veio do que "o profeta escreveu": Belém (Mateus 2:1-6). Só depois a estrela "foi adiante deles e parou acima do lugar onde o menino estava" (Mateus 2:9). O sinal e a Escritura andaram juntos, e a Escritura deu o endereço.
+Os magos do Oriente são um bom exemplo. Eles viram a estrela no Oriente e foram a Jerusalém, mas o nome da cidade onde o Messias devia nascer veio do que "o profeta escreveu": Belém (Mateus 2:1-6). Só depois a estrela "foi adiante deles e parou acima do lugar onde o menino estava" (Mateus 2:9). O sinal e a Escritura andaram juntos, e a Escritura deu o endereço.
 
 Por isso, a primeira pergunta diante de qualquer decisão é simples: o que a Bíblia já diz sobre isso? Deus nunca vai guiar você para algo que a Palavra dele proíbe.
 
@@ -60,7 +60,7 @@ Wesley deu um exemplo direto. Diante da proposta de casar ou de começar um novo
 
 O livro de Atos conta uma viagem de Paulo e seus companheiros. "O Espírito Santo não deixou que anunciassem a palavra na província da Ásia". Depois, "tentaram ir para a província da Bitínia, mas o Espírito de Jesus não deixou". Então, em Trôade, Paulo teve uma visão: um homem da Macedônia pedia "Venha para a Macedônia e nos ajude!" (Atos 16:6-9).
 
-Repare que eles não estavam parados esperando um sinal. Estavam andando e trabalhando, e Deus foi fechando e abrindo portas pelo caminho. Henry comentou que, quando Deus não nos deixa fazer o que tentamos, devemos aceitar e crer que é para o melhor. E escreveu que devemos seguir a providência de Deus, e não forçá-la.
+Repare que eles não estavam parados esperando um sinal. Estavam andando e trabalhando, e Deus foi fechando e abrindo portas pelo caminho. Henry comentou que, quando Deus não nos deixa fazer o que tentamos, devemos aceitar e crer que é para o melhor. E escreveu que devemos seguir a providência de Deus e nos submeter à direção dela.
 
 Calvino observou que uma visão sozinha deixa a mente em dúvida. Paulo e os outros compararam aquela visão com as orientações que já tinham recebido de Deus. Só então ficaram certos do chamado.
 
@@ -126,7 +126,7 @@ Diante de uma decisão, siga estes passos:
 
 ## Referências
 
-- Bíblia, Nova Tradução na Linguagem de Hoje: [Provérbios 3](https://www.bibliaonline.com.br/ntlh/pv/3), [Romanos 12](https://www.bibliaonline.com.br/ntlh/rm/12), [Salmo 119](https://www.bibliaonline.com.br/ntlh/sl/119), [Tiago 1](https://www.bibliaonline.com.br/ntlh/tg/1), [Atos 16](https://www.bibliaonline.com.br/ntlh/atos/16), [Atos 15](https://www.bibliaonline.com.br/ntlh/atos/15), [Provérbios 15](https://www.bibliaonline.com.br/ntlh/pv/15), [1 Tessalonicenses 4](https://www.bibliaonline.com.br/ntlh/1ts/4), [1 Tessalonicenses 5](https://www.bibliaonline.com.br/ntlh/1ts/5), [1 Coríntios 14](https://www.bibliaonline.com.br/ntlh/1co/14).
+- Bíblia, Nova Tradução na Linguagem de Hoje: [Provérbios 3](https://www.bibliaonline.com.br/ntlh/pv/3), [Mateus 2](https://www.bibliaonline.com.br/ntlh/mt/2), [Romanos 12](https://www.bibliaonline.com.br/ntlh/rm/12), [Salmo 119](https://www.bibliaonline.com.br/ntlh/sl/119), [Tiago 1](https://www.bibliaonline.com.br/ntlh/tg/1), [Atos 16](https://www.bibliaonline.com.br/ntlh/atos/16), [Atos 15](https://www.bibliaonline.com.br/ntlh/atos/15), [Provérbios 15](https://www.bibliaonline.com.br/ntlh/pv/15), [1 Tessalonicenses 4](https://www.bibliaonline.com.br/ntlh/1ts/4), [1 Tessalonicenses 5](https://www.bibliaonline.com.br/ntlh/1ts/5), [1 Coríntios 14](https://www.bibliaonline.com.br/ntlh/1co/14).
 
 - Convenção Geral das Assembleias de Deus no Brasil, [Declaração de Fé](https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf) (CPAD, 2016): capítulo "Sobre as Sagradas Escrituras"; capítulo "Sobre a Trindade", item 6; capítulo "Sobre os dons do Espírito Santo", item 5.
 

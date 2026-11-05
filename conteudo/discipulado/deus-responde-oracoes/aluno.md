@@ -6,9 +6,9 @@ Você orou por uma cura, por um emprego, pela volta de alguém, e nada aconteceu
 
 ## Introdução
 
-Em março de 2020, quando a pandemia de covid-19 se espalhou pelo mundo, as pessoas oraram, e as buscas no Google mostraram isso. A economista Jeanet Sinding Bentzen, da Universidade de Copenhague, estudou dados diários de buscas no Google e concluiu que a procura por oração chegou, naquele mês, ao nível mais alto já registrado. Segundo a própria autora, numa entrevista ao site Evangelical Focus, o aumento aconteceu em todos os continentes.
+Em março de 2020, quando a pandemia de covid-19 se espalhou pelo mundo, as pessoas oraram, e as buscas no Google mostraram isso. A economista Jeanet Sinding Bentzen, da Universidade de Copenhague, estudou dados diários de buscas no Google e concluiu que a procura por oração chegou, naquele mês, ao nível mais alto já registrado. Segundo a própria autora, citada pelo site Evangelical Focus, o aumento aconteceu em todos os continentes.
 
-Quando a vida aperta, até quem não costuma orar ora. E, passado o susto, vem a pergunta seguinte, que aparece no Google como "por que Deus não responde minhas orações". A dúvida é antiga. Está nos Salmos, nos profetas e até na boca de Jesus.
+Quando a vida aperta, até quem não costuma orar ora. E, passado o susto, vem a pergunta seguinte, que aparece no Google em sugestões como "por que deus não me responde". A dúvida é antiga. Está nos Salmos, nos profetas e até na boca de Jesus.
 
 A Bíblia não esconde orações que não foram atendidas do jeito que se pedia. Pelo contrário: algumas das mais famosas estão nela. E é justamente olhando para elas que se entende melhor como Deus responde.
 
@@ -51,7 +51,7 @@ Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é 
 > [!citacao] Muitas vezes pedimos a Deus o que nos faria mal se o tivéssemos; ele sabe disso e, por isso, não nos dá. Negativas com amor são melhores do que concessões com ira.
 > Fonte: Matthew Henry, comentário a Mateus 7 (tradução nossa; no original, "We often ask that of God which would do us harm if we had it; he knows this, and therefore does not give it to us. Denials in love are better than grants in anger")
 
-A promessa de Jesus é que o Pai dá "coisas boas". O que é bom, quem decide é ele. Henry resumiu: tudo o que você pedir lhe será dado, se Deus achar que é bom para você.
+A promessa de Jesus é que o Pai dá "coisas boas". O que é bom, quem decide é ele. Henry resumiu: o que você pedir, de acordo com a promessa, lhe será dado, se Deus achar que convém a você.
 
 > [!chave] Deus não é uma máquina que entrega o que se pede. É um Pai que dá coisas boas, e às vezes a coisa boa é um não.
 
@@ -59,7 +59,7 @@ A promessa de Jesus é que o Pai dá "coisas boas". O que é bom, quem decide é
 
 Paulo tinha um sofrimento que a NTLH chama de "uma doença dolorosa, que é como um espinho no meu corpo" (2 Coríntios 12:7). Orou três vezes para que fosse tirado. A resposta foi outra: "A minha graça é tudo o que você precisa".
 
-Deus não tirou o espinho. Deu algo que Paulo não tinha pedido: a força de Cristo na fraqueza. Matthew Henry observou que, embora o problema não tenha sido removido, foi concedido algo equivalente. E acrescentou que, assim como Deus às vezes dá com ira, às vezes nega com amor.
+Deus não tirou o espinho. Deu algo que Paulo não tinha pedido: a força de Cristo na fraqueza. O comentário que leva o nome de Matthew Henry (a parte das cartas foi completada por outros pastores depois da morte dele) observa que, embora o problema não tenha sido removido, foi concedido algo equivalente. E acrescenta que, assim como Deus às vezes dá com ira, às vezes nega com amor.
 
 A Declaração de Fé das Assembleias de Deus, que crê na cura divina, também diz que Deus, "na sua soberania, pode permitir a doença". Orar com fé não é o mesmo que ter garantia de que tudo será do jeito pedido.
 

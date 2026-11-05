@@ -103,8 +103,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-04T15:31:09-03:00",
+  "data": "2026-11-04T21:19:40-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-04T15:31:09-03:00"
+ "publicado_em": "2026-11-04T15:31:09-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-04",
+   "texto": "Correção em 04/11/2026: a Declaração de Fé fala, sim, em \"um relacionamento mais íntimo com Deus\" (cap. X); \"meios da graça\" é expressão antiga da igreja, que Wesley usou (sermão 16)."
+  }
+ ],
+ "atualizado_em": "2026-11-04T21:19:40-03:00"
 }

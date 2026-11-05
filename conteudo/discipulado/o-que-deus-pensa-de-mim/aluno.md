@@ -8,7 +8,7 @@ Você se olha no espelho e não gosta do que vê. Ou passa o dia tentando agrada
 
 Em 2019, uma das buscas "Como fazer..." que mais cresceram no Google no Brasil, segundo o Ano em Pesquisa da empresa, foi "Como fazer que as pessoas gostem de mim". Em 2020, a mesma pergunta voltou à lista. Não é uma busca sobre técnica. É uma busca sobre valor: muita gente sente que só vale alguma coisa se for aprovada.
 
-Quem digita "o que Deus pensa de mim" no Google recebe sugestões como "versículo" e "Bíblia". As pessoas querem uma resposta que venha de fora, de alguém cuja opinião importe mais do que a dos outros.
+Quem digita "o que Deus pensa de mim" no Google recebe sugestões como "versículo" e "biblia". As pessoas querem uma resposta que venha de fora, de alguém cuja opinião importe mais do que a dos outros.
 
 A Bíblia dá essa resposta, e ela é mais surpreendente do que "você é especial". Ela começa pela verdade sobre quem somos e chega a uma notícia que nenhuma aprovação humana consegue dar.
 
@@ -50,7 +50,7 @@ Esse equilíbrio protege de dois erros. Um é a autoestima sem Deus, que diz "vo
 
 Aqui está o centro da resposta. Paulo escreve: "Deus nos mostrou o quanto nos ama: Cristo morreu por nós quando ainda vivíamos no pecado" (Romanos 5:8). Deus não esperou que você ficasse bom para amá-lo. O amor dele veio primeiro.
 
-Por isso Efésios fala de uma graça "que ele nos deu gratuitamente". João Calvino, o reformador de Genebra, comentou esse texto perguntando: o que poderíamos ter merecido antes de o mundo ser criado? A resposta é óbvia: nada. A Declaração de Fé diz o mesmo: "Não há nada que o homem natural possua ou pratique que lhe faça merecida a graça de Deus."
+Por isso Efésios fala de uma graça "que ele nos deu gratuitamente". João Calvino, o reformador de Genebra, comentando Efésios 1:4, perguntou: o que poderíamos ter merecido antes de o mundo ser criado? A resposta é óbvia: nada. A Declaração de Fé diz o mesmo: "Não há nada que o homem natural possua ou pratique que lhe faça merecida a graça de Deus."
 
 > [!chave] Deus não ama você porque você é bom. Ama porque ele é bom. Por isso o amor dele não depende do seu desempenho.
 
@@ -60,7 +60,7 @@ Por isso Efésios fala de uma graça "que ele nos deu gratuitamente". João Calv
 
 A Declaração de Fé explica que, no momento em que alguém aceita a Cristo, é "adotado como filho de Deus" e passa a ter "um relacionamento mais íntimo com Deus, invocando-o não apenas como Criador, mas principalmente como Pai". E distingue: Jesus é o Filho igual ao Pai; o crente é filho "por adoção", "mediante a fé em Jesus Cristo".
 
-O comentário de Matthew Henry, pastor britânico (1662-1714) cujos escritos ainda são muito lidos, expressa o espanto de João: é estranho que o Deus santo não se envergonhe de ser chamado nosso Pai e de nos chamar seus filhos.
+A parte das cartas do comentário de Matthew Henry foi completada por outros pastores depois da morte dele, em 1714. Esse comentário expressa o espanto de João: é estranho que o Deus santo não se envergonhe de ser chamado nosso Pai e de nos chamar seus filhos.
 
 > [!termo] **Adoção:** o ato pelo qual Deus recebe como filho quem crê em Jesus. Segundo a Declaração de Fé das Assembleias de Deus, acontece "No ato da aceitação", junto com a salvação e a justificação.
 

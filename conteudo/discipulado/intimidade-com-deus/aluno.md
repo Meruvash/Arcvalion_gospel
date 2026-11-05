@@ -6,9 +6,9 @@ Você ora, vai à igreja, lê a Bíblia, mas às vezes Deus parece distante, com
 
 ## Introdução
 
-Quem procura no Google "como ter intimidade com Deus" recebe sugestões como "no dia a dia", "segundo a Bíblia" e "como posso ter intimidade com Deus". Na busca "intimidade com Deus", aparecem "na prática", "louvor" e "música". A pergunta é sincera e prática: as pessoas querem saber como se faz.
+Quem procura no Google "como ter intimidade com Deus" recebe sugestões como "no dia a dia", "segundo a Bíblia" e "como posso ter intimidade com Deus". Na busca "intimidade com Deus", aparecem "na pratica", "louvor" e "musica". A pergunta é sincera e prática: as pessoas querem saber como se faz.
 
-A palavra "intimidade" não aparece na Declaração de Fé das Assembleias de Deus quando ela fala de Deus. Mas a realidade está lá. A Declaração diz que a adoração é um "encontro com Deus para um diálogo" e que os crentes adoram a Deus "individualmente e em todo o tempo".
+A Declaração de Fé das Assembleias de Deus diz que quem crê passa a ter "um relacionamento mais íntimo com Deus". E diz que a adoração pública é um "encontro com Deus para um diálogo" e que os crentes adoram a Deus "individualmente e em todo o tempo".
 
 A Bíblia tem palavras fortes para essa relação. Diz que Deus falava com Moisés "face a face, como alguém que conversa com um amigo" (Êxodo 33:11). Jesus chamou os discípulos de amigos (João 15:15). Tiago escreveu um convite que é também uma promessa: "Cheguem perto de Deus, e ele chegará perto de vocês" (Tiago 4:8).
 
@@ -58,7 +58,7 @@ Spurgeon, por sua vez, lembrou que muitos crentes atravessam essa terra seca, em
 
 O Evangelho de Marcos conta que Jesus, "De manhã bem cedo, quando ainda estava escuro", foi para um lugar deserto e ficou ali orando (Marcos 1:35). Se o próprio Filho de Deus separava tempo e lugar para estar com o Pai, nós também precisamos.
 
-Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, comentou o Salmo 63 dizendo que devemos começar todos os dias com Deus. E escreveu uma frase que vale guardar.
+Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, comentou o Salmo 63 dizendo que devemos começar todos os dias com Deus. E, para quem está longe do culto, como Davi no deserto, escreveu uma frase que vale guardar.
 
 > [!citacao] Um quarto pode ser transformado num pequeno santuário. Quando estamos sozinhos, podemos ter o Pai conosco, e isso basta.
 > Fonte: Matthew Henry, comentário ao Salmo 63 (tradução nossa; no original, "A closet may be turned into a little sanctuary. When we are alone we may have the Father with us, and that is enough")
@@ -75,11 +75,11 @@ O perigo de Marta é o perigo de muitos crentes ativos: servir tanto a Deus que 
 
 ### Os meios e o fim
 
-John Wesley, o pregador inglês que deu origem ao metodismo, chamava de "meios da graça" os caminhos comuns que Deus estabeleceu para se aproximar das pessoas. Os principais, dizia ele, são a oração, em secreto ou com a igreja; a leitura, a escuta e a meditação das Escrituras; e a Ceia do Senhor. Ele defendia com força o uso desses meios, contra quem achava que bastava esperar parado.
+John Wesley, o pregador inglês que deu origem ao metodismo, chamava de "meios da graça" os caminhos comuns que Deus estabeleceu para comunicar a sua graça às pessoas. Os principais, dizia ele, são a oração, em secreto ou com a igreja; a leitura, a escuta e a meditação das Escrituras; e a Ceia do Senhor. Ele defendia com força o uso desses meios, contra quem achava que bastava esperar parado.
 
 Mas Wesley também advertiu: separados do seu fim, que é conhecer e amar a Deus, esses meios não valem nada. E resumiu: ao usar todos os meios, busque só a Deus. A oração diária, a leitura e o culto não são a intimidade; são o caminho por onde ela cresce.
 
-> [!termo] **Meios da graça:** expressão de John Wesley para os caminhos comuns que Deus estabeleceu para comunicar a sua graça, como a oração, a leitura e meditação das Escrituras e a Ceia do Senhor.
+> [!termo] **Meios da graça:** expressão antiga da igreja, usada por John Wesley, para os caminhos comuns que Deus estabeleceu para comunicar a sua graça, como a oração, a leitura e meditação das Escrituras e a Ceia do Senhor.
 
 ### Perto de Deus, longe do pecado
 
