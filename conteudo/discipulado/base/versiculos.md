@@ -28,5 +28,10 @@ Limite da licença: 500 versículos na coleção inteira. Somar a cada lição.
 | Como desenvolver intimidade com Deus? | Salmo 63:1, 3, 6-8 e Lucas 10:41-42 em bloco; Lucas 10:39; Marcos 1:35; Tiago 4:7-8; Êxodo 33:11; João 15:14-15 (partes) | 14 |
 | Como reconhecer a direção de Deus? | Provérbios 3:5-7 e Romanos 12:2 em bloco; Salmo 119:105; 1 Tessalonicenses 4:3, 5:20-21; Tiago 1:5; Atos 16:6-10, 15:28; Provérbios 15:22; 1 Coríntios 14:29; Mateus 2:5-6, 2:9 (partes) | 20 |
 | Como interpretar corretamente as Escrituras? | Neemias 8:8 e 2 Timóteo 2:15 em bloco; Mateus 4:6-7; Salmo 91:11; Atos 17:11; Lucas 24:27, 24:45; 1 Coríntios 2:12; 2 Pedro 3:16 (partes) | 10 |
+| Esfriei na fé. Como reacender a chama? | Apocalipse 2:4-5 e 2 Timóteo 1:6-7 em bloco; Apocalipse 2:2, 3:20; Levítico 6:12; Salmo 51:12 (partes) | 8 |
+| O que é pecado? | 1 João 3:4, Romanos 3:23 e Romanos 6:23 em bloco; Gênesis 3:4, 3:9, 3:12-13; Romanos 5:12; Isaías 59:2; Marcos 7:21; Tiago 4:17; 1 João 1:8-9 (partes) | 14 |
+| Quem é o Espírito Santo? | João 14:16-17 e 14:26 em bloco; Atos 5:3-4; João 16:8, 16:13-14; Efésios 4:30; Romanos 8:9, 8:14, 8:16, 8:26; 1 Coríntios 6:19; Mateus 3:16 (partes) | 15 |
+| Como Deus se revela à humanidade? | Hebreus 1:1-3 em bloco; Salmo 19:1, 3-4, 7; Romanos 1:20-21, 2:15; Atos 14:17; 2 Pedro 1:21; 2 Timóteo 3:15-16; João 1:14, 1:18; Lucas 2:11, 2:16 (partes) | 19 |
+| Como aplicar os ensinamentos bíblicos? | Tiago 1:22-25 em bloco; Mateus 7:24-27; Lucas 6:48; Esdras 7:10; Salmo 119:11; João 13:15, 13:17; Tiago 1:26-27 (partes) | 16 |
 
-Total: 363 nas lições desta tabela (estimativa de partes de versículos contadas como versículos inteiros). Atenção: as lições publicadas entre 30 e 31/10/2026 que não aparecem aqui ("O que significa nascer de novo?", "O que significa arrepender-se?", "Qual é o significado do batismo?", "O que a Bíblia diz sobre a ansiedade?") ainda precisam ser somadas.
+Total: 435 nas lições desta tabela (estimativa de partes de versículos contadas como versículos inteiros). Atenção: as lições publicadas entre 30 e 31/10/2026 que não aparecem aqui ("O que significa nascer de novo?", "O que significa arrepender-se?", "Qual é o significado do batismo?", "O que a Bíblia diz sobre a ansiedade?") ainda precisam ser somadas.

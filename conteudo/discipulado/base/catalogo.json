@@ -5,10 +5,7 @@
    "slug": "conhecendo-a-deus",
    "nome": "Conhecendo a Deus",
    "descricao": "Quem é Deus, quem é Jesus, quem é o Espírito Santo e como Deus se revela.",
-   "previstos": [
-    "Quem é o Espírito Santo?",
-    "Como Deus se revela à humanidade?"
-   ]
+   "previstos": []
   },
   {
    "slug": "salvacao-e-nova-vida",
@@ -30,9 +27,7 @@
    "slug": "conhecendo-a-biblia",
    "nome": "Conhecendo a Bíblia",
    "descricao": "O que é a Bíblia, como começar a ler e como entender o que ela diz.",
-   "previstos": [
-    "Como aplicar os ensinamentos bíblicos?"
-   ]
+   "previstos": []
   },
   {
    "slug": "igreja-e-comunhao",
@@ -104,7 +99,10 @@
     "santificacao",
     "dons-espirituais",
     "fruto-do-espirito",
-    "interpretar-a-biblia"
+    "interpretar-a-biblia",
+    "como-deus-se-revela",
+    "quem-e-o-espirito-santo",
+    "o-que-e-pecado"
    ],
    "meta": 12
   },
@@ -121,7 +119,9 @@
     "vencer-tentacoes",
     "batismo-no-espirito-santo",
     "faco-o-mal-que-nao-quero",
-    "direcao-de-deus"
+    "direcao-de-deus",
+    "aplicar-a-biblia",
+    "esfriei-na-fe"
    ],
    "meta": 12
   }
@@ -180,6 +180,18 @@
    "categoria": "salvacao-e-nova-vida",
    "evidencia": "Google Trends, Ano em Pesquisa 2019 (Brasil): \"Como fazer que as pessoas gostem de mim\" é a 3ª da lista \"Como fazer\", e \"Como fazer que as pessoas gostem de mim?\" é a 6ª da mesma lista em 2020 (consultado em 04/11/2026); o autocomplete do Google sugere \"o que deus pensa de mim versículo\" e \"como deus me vê segundo a bíblia\"",
    "url": "https://trends.withgoogle.com/year-in-search/2019/br/"
+  },
+  {
+   "titulo": "Esfriei na fé. Como reacender a chama?",
+   "categoria": "vida-crista",
+   "evidencia": "Google Trends, Ano em Pesquisa 2025 (Brasil): na lista \"Música (Letra)\", \"Reacende a Chama\" é a 8ª e \"O Fogo Arderá\" é a 10ª, ambas músicas gospel (consultado em 05/11/2026); o autocomplete do Google sugere \"como reacender a chama do espírito santo\" e \"esfriamento espiritual como vencer\"",
+   "url": "https://trends.withgoogle.com/year-in-search/2025/br/"
+  },
+  {
+   "titulo": "O que é pecado?",
+   "categoria": "santidade",
+   "evidencia": "Google Trends, Ano em Pesquisa 2025 (Brasil): \"Pecadores\" é o 10º da lista \"Filmes\" (consultado em 05/11/2026); o autocomplete do Google sugere \"o que é pecado na bíblia\" e \"o que é pecado para deus\"",
+   "url": "https://trends.withgoogle.com/year-in-search/2025/br/"
   }
  ]
 }

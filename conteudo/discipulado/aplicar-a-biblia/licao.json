@@ -1,0 +1,116 @@
+{
+ "slug": "aplicar-a-biblia",
+ "titulo": "Como aplicar os ensinamentos bíblicos?",
+ "titulo_seo": "Como aplicar a Bíblia na vida? Entenda o que ela ensina",
+ "ideia_central": "A Palavra é um espelho que mostra quem somos para que sejamos transformados; ouvir não basta, quem ouve e pratica constrói na rocha, e praticamos porque recebemos a graça, não para ganhá-la.",
+ "descricao": "Como aplicar a Bíblia na vida? O espelho de Tiago 1, a casa na rocha de Mateus 7, a ordem de Esdras (estudar, praticar, ensinar) e um jeito simples de transformar a leitura em ação.",
+ "tempo_min": 11,
+ "resumo_rapido": {
+  "resposta": "Aplica-se a Bíblia entendendo o texto, perguntando o que ele pede e escolhendo uma ação concreta, com oração e a ajuda de irmãos. Quem só ouve engana a si mesmo; quem ouve e pratica constrói a vida na rocha, pela graça de Deus.",
+  "ideias": [
+   "\"não sejam apenas ouvintes dessa mensagem, mas a ponham em prática\" (Tiago 1:22).",
+   "Quem ouve e \"vive de acordo\" com os ensinamentos de Jesus constrói \"a sua casa na rocha\" (Mateus 7:24).",
+   "A Declaração de Fé: \"a lei diz: “faça e viva”; a graça, no entanto, diz: “viva e faça”\"."
+  ],
+  "texto_central": "Tiago 1:22-25 e Mateus 7:24-27"
+ },
+ "versiculo_chave": {
+  "texto": "Não se enganem; não sejam apenas ouvintes dessa mensagem, mas a ponham em prática.",
+  "referencia": "Tiago 1:22"
+ },
+ "contexto": [
+  [
+   "Espelho",
+   "Tiago",
+   "Quem ouve e não pratica \"logo esquece a sua aparência\" (Tiago 1:24)"
+  ],
+  [
+   "Alicerce",
+   "Jesus",
+   "A casa na rocha e a casa na areia (Mateus 7:24-27)"
+  ],
+  [
+   "Ordem",
+   "Esdras",
+   "Estudar, praticar e ensinar a Lei (Esdras 7:10)"
+  ],
+  [
+   "Exemplo",
+   "Jesus",
+   "Lavou os pés dos discípulos: \"serão felizes se a praticarem\" (João 13:17)"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Moderada",
+   "Ouvir pregação toda semana já é obedecer",
+   "Quem só ouve está se enganando (Tiago 1:22); o homem da areia também ouviu (Mateus 7:26)."
+  ],
+  [
+   "Moderada",
+   "Saber muito da Bíblia é ter fé forte",
+   "Jesus fala de quem ouve e \"vive de acordo\" (Mateus 7:24); Wesley chama de areia apoiar-se só nas opiniões certas."
+  ],
+  [
+   "Moderada",
+   "Praticar a Bíblia é ganhar o favor de Deus",
+   "A Declaração de Fé: a salvação \"não vem das obras\"; \"a graça, no entanto, diz: “viva e faça”\"."
+  ],
+  [
+   "Leve",
+   "Aplicar a Bíblia é fazer algo grandioso",
+   "Tiago dá exemplos simples: controlar a língua e ajudar órfãos e viúvas (Tiago 1:26-27)."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "Como aplicar os ensinamentos bíblicos?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=como%20aplicar%20a%20b%C3%ADblia",
+    "dado": "para \"como aplicar a bíblia\", sugere \"como aplicar a bíblia na vida\"",
+    "data": "2026-11-05"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=praticar%20a%20palavra",
+    "dado": "para \"praticar a palavra\", sugere \"praticar a palavra tiago\" e \"praticar a palavra de deus versículo\"",
+    "data": "2026-11-05"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=praticar%20a%20palavra",
+    "dado": "para \"praticar a palavra\", sugere \"ouvir e praticar a palavra de deus\"",
+    "data": "2026-11-05"
+   }
+  ]
+ },
+ "categoria": "conhecendo-a-biblia",
+ "palavras_chave": [
+  "aplicar a Bíblia",
+  "praticar a Palavra",
+  "Tiago 1:22",
+  "casa na rocha",
+  "Mateus 7:24",
+  "obediência",
+  "Esdras 7:10",
+  "fé e obras",
+  "vida cristã"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-aplicar-a-biblia.jpg",
+  "alt": "Gravura colorida à mão em ocre, verde, vermelho e marrom: Jesus, de túnica dourada e auréola, ensina de pé entre árvores, com a mão erguida; ao redor, discípulos com auréolas; em primeiro plano, um semeador de roupa amarela e calças vermelhas, com uma bolsa de sementes na cintura, caminha sobre a terra verde.",
+  "credito": "Hans Schäufelein, A parábola do semeador e do joio, do Plenarium (xilogravura colorida à mão, 1517). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, comentários de Matthew Henry e João Calvino, sermão e notas de John Wesley. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-05T15:35:53-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-05T15:35:53-03:00"
+}
