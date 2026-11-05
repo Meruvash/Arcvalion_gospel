@@ -1,0 +1,195 @@
+{
+ "slug": "senado-aprova-atualizacao-eca-educacao-basica-sancao",
+ "data": "2026-11-05",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "selo": "Informativo",
+ "titulo": "ECA é atualizado para a escola dos 4 aos 17 anos e vai à sanção",
+ "lide": "O Senado aprovou nesta quarta-feira (4) o PL 2.234/2024, da deputada Laura Carneiro (PSD-RJ), que atualiza o Estatuto da Criança e do Adolescente para a educação básica obrigatória e gratuita dos 4 aos 17 anos. O ECA, de 1990, ainda falava só do ensino fundamental em vários pontos. O texto segue para a sanção da Presidência da República.",
+ "por_que_importa": "A mudança alinha o ECA ao que a Constituição já garante e leva para a pré-escola e o ensino médio regras que valiam só para o fundamental: transporte, merenda, material e saúde do aluno, além do dever da escola de avisar o Conselho Tutelar. Para os pais, o ponto central é a frequência, que o poder público passa a acompanhar junto com eles.",
+ "numeros": [
+  [
+   "4 a 17 anos",
+   "faixa da educação básica obrigatória e gratuita que o ECA passa a citar de forma expressa",
+   "Agência Senado, 04/11/2026"
+  ],
+  [
+   "3",
+   "etapas da educação básica cobertas pelo texto: educação infantil, ensino fundamental e ensino médio",
+   "Agência Senado, 04/11/2026"
+  ],
+  [
+   "1990",
+   "ano do ECA, que ainda trazia referências só ao ensino fundamental",
+   "Agência Senado, 04/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O texto estende a toda a educação básica os programas suplementares de material didático-escolar, transporte, alimentação e assistência à saúde. Também manda o poder público fazer novo censo dos estudantes da educação obrigatória e acompanhar a frequência escolar em conjunto com os pais ou responsáveis.",
+  "O dever de comunicar ao Conselho Tutelar casos de maus-tratos, faltas injustificadas reiteradas, evasão e repetência elevada, que o ECA atribuía aos dirigentes de escolas de ensino fundamental, passa a valer para todos os estabelecimentos de educação básica, da pré-escola ao ensino médio. O projeto recebeu pareceres favoráveis de Flávio Arns (PSB-PR) e Damares Alves (Republicanos-DF) nas comissões do Senado."
+ ],
+ "no_brasil": "O projeto já tinha passado pela Câmara e foi aprovado no Senado depois de passar pela Comissão de Direitos Humanos e pela Comissão de Educação, onde, em agosto, o relatório de Arns disse que a proposta adequa o ECA ao alcance da educação obrigatória já previsto na Constituição. A sanção ou o veto cabe ao presidente.",
+ "critica": [
+  {
+   "fonte": "Agência Senado, sobre o relatório da Comissão de Educação (12/08/2026)",
+   "texto": "No relatório, Arns afirma que a proposta atualiza o ECA para adequá-lo ao alcance da educação obrigatória já estabelecido pela Constituição.",
+   "citacao": false
+  },
+  {
+   "fonte": "Agência Senado (04/11/2026)",
+   "texto": "Segundo a Agência Senado, o texto também atualiza o estímulo a pesquisas e iniciativas de calendário, currículo, metodologia e avaliação para incluir crianças e adolescentes que estão fora da educação básica obrigatória.",
+   "citacao": false
+  },
+  {
+   "fonte": "Ponto de atenção da redação",
+   "texto": "O aviso ao Conselho Tutelar por faltas reiteradas passa a valer também na pré-escola; a forma como as redes vão aplicar essa regra com crianças de 4 e 5 anos merece acompanhamento.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Pais de crianças na pré-escola e de adolescentes no ensino médio: se sancionado, os filhos passam a ter as mesmas garantias de transporte, merenda e material previstas no ECA",
+  "Pais em geral: a frequência escolar será acompanhada pelo poder público junto com a família, e faltas reiteradas sem justificativa podem chegar ao Conselho Tutelar",
+  "Famílias que educam em casa: o projeto não trata do ensino domiciliar"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: falta a sanção presidencial",
+  "A obrigatoriedade da escola dos 4 aos 17 anos já vinha da Constituição; o projeto atualiza o ECA",
+  "O texto não muda currículo nem conteúdo das aulas"
+ ],
+ "veredito": "A gente apoia a atualização. Lei que fala a mesma língua da Constituição evita brecha, e o texto acerta ao pôr os pais ao lado do poder público no acompanhamento da frequência. Só um cuidado: aviso de falta ao Conselho Tutelar tem de servir para proteger a criança, não para tratar a família como suspeita.",
+ "versiculo": {
+  "texto": "Instrui o menino no caminho em que deve andar, e, até quando envelhecer, não se desviará dele",
+  "referencia": "Provérbios 22.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Senado aprova atualização do Estatuto da Criança e do Adolescente (04/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/senado-aprova-atualizacao-do-estatuto-da-crianca-e-do-adolescente",
+   "data": "04/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Comissão aprova atualização das regras do ECA sobre educação básica (12/08/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/08/12/comissao-aprova-atualizacao-das-regras-do-eca-sobre-educacao-basica",
+   "data": "12/08/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 57,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "educacao",
+   "porque": "O fato é sobre a educação dos filhos e o papel dos pais: o ECA passa a cobrir toda a educação básica e a frequência acompanhada com a família"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/senado-aprova-atualizacao-do-estatuto-da-crianca-e-do-adolescente"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Votação concluída no Congresso e enviada à sanção; efeito ainda depende do presidente"
+   },
+   "afinidade": {
+    "pontos": 15,
+    "porque": "Educação dos filhos e relação entre família, escola e Conselho Tutelar, em mudança sobretudo de adequação"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação em 4/11, menos de 24 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Duas notícias oficiais da Agência Senado, da aprovação e da comissão; os dados abertos do Senado estavam fora do ar"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Junta a tramitação nas comissões ao que muda para os pais e aponta o efeito na pré-escola"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 7,
+    "viral": 2,
+    "cristao": 3
+   },
+   "criterios": [
+    "Ato de poder: aprovação no Senado e envio à sanção (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que muda para os pais (1)",
+    "Personagem com nome: Laura Carneiro, Arns, Damares (1)",
+    "Gatilho no calendário: sanção pendente (1)",
+    "Pede resposta do cristão: educação dos filhos (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 22.6 (2)",
+    "Rende estudo: família e escola (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Senado aprova atualização do Estatuto da Criança e do Adolescente",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / educação",
+  "coleta": "2026-11-05",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em fonte oficial",
+   "contradicoes": "Nenhuma entre as fontes lidas.",
+   "sem_confirmacao": "texto final enviado à sanção (dados abertos do Senado indisponíveis na coleta); prazo da sanção"
+  },
+  "duplicidade": {
+   "grupo": "PL 2.234/2024",
+   "itens": [
+    "Agência Senado 04/11",
+    "Agência Senado (áudio) 04/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que muda no ECA com a educação básica obrigatória",
+   "entidades": [
+    "Senado Federal",
+    "ECA",
+    "PL 2.234/2024",
+    "Laura Carneiro",
+    "Flávio Arns",
+    "Damares Alves"
+   ],
+   "termos": [
+    "ECA educação básica",
+    "Estatuto da Criança e do Adolescente atualização",
+    "frequência escolar Conselho Tutelar",
+    "educação obrigatória 4 a 17 anos"
+   ],
+   "atualizacao": "acompanhar a sanção"
+  }
+ },
+ "descricao_seo": "O Senado aprovou em 4/11 o PL 2.234/2024, que atualiza o ECA para a educação básica obrigatória dos 4 aos 17 anos; texto vai à sanção.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das notícias oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os fatos vêm de duas notícias oficiais da Agência Senado, atribuídas; não há citação literal. A nota não atribui conduta irregular a escolas, conselhos ou famílias; o ponto de atenção sobre a pré-escola é análise da redação, identificada como tal.",
+ "imagem": {
+  "arquivo": "capas/senado-aprova-atualizacao-eca-educacao-basica-sancao.jpg",
+  "credito": "Foto: Waldemir Barreto/Agência Senado",
+  "alt": "Senadores conversam no Plenário do Senado diante da Mesa presidida por Davi Alcolumbre, na sessão de 4 de novembro de 2026",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/04/senado-aprova-atualizacao-do-estatuto-da-crianca-e-do-adolescente/20261104_02269w.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/04/senado-aprova-atualizacao-do-estatuto-da-crianca-e-do-adolescente"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-05T02:48:25-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-05T02:48:25-03:00"
+}
