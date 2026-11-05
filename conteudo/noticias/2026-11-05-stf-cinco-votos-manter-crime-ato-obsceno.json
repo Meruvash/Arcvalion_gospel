@@ -73,9 +73,9 @@
    "tipo": "primaria"
   },
   {
-   "nome": "STF: andamento do RE 1.093.553 (Tema 989)",
-   "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=5311709",
-   "data": "04/11/2026",
+   "nome": "STF: Plenário do STF discutirá constitucionalidade de dispositivo que criminaliza a prática de ato obsceno em local público (13/04/2018), sobre a repercussão geral do RE 1.093.553",
+   "url": "https://noticias.stf.jus.br/postsnoticias/plenario-do-stf-discutira-constitucionalidade-de-dispositivo-que-criminaliza-a-pratica-de-ato-obsceno-em-local-publico/",
+   "data": "13/04/2018",
    "tipo": "primaria"
   }
  ],
@@ -107,7 +107,7 @@
    },
    "comprovacao": {
     "pontos": 9,
-    "porque": "Notícia oficial do STF com os votos e o andamento do processo; sem reportagem independente localizada"
+    "porque": "Notícia oficial do STF com os votos e notícia oficial de 2018 sobre o caso de origem e a repercussão geral; sem reportagem independente localizada"
    },
    "originalidade": {
     "pontos": 9,
@@ -122,7 +122,7 @@
     "cristao": 3
    },
    "criterios": [
-    "Documento primário: notícia oficial do STF e processo (2)",
+    "Documento primário: notícias oficiais do STF sobre o julgamento e o caso (2)",
     "Ato de poder: julgamento no Plenário do STF (2)",
     "Proximidade: nacional (2)",
     "Personagem com nome: Fux, Dino, Zanin, Mendonça (1)",
@@ -191,8 +191,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-05T02:35:06-03:00",
+  "data": "2026-11-05T02:40:03-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-05T02:35:06-03:00"
+ "publicado_em": "2026-11-05T02:35:06-03:00",
+ "atualizado_em": "2026-11-05T02:40:03-03:00"
 }
