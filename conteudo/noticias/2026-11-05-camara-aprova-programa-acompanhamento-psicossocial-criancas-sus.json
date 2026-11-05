@@ -1,0 +1,203 @@
+{
+ "slug": "camara-aprova-programa-acompanhamento-psicossocial-criancas-sus",
+ "data": "2026-11-05",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "selo": "Vale acompanhar",
+ "titulo": "Câmara aprova programa do SUS para acompanhar a saúde emocional de crianças e adolescentes",
+ "lide": "A Câmara aprovou na quarta-feira (4) o PL 5.815/2025, da deputada Rosângela Reis (PL-MG), que cria o Programa Nacional de Acompanhamento Periódico Pediátrico e Psicossocial da Infância e Adolescência. Pelo texto do relator, Waldemar Oliveira (Avante-PE), o SUS fará avaliações periódicas para identificar sinais de violência, abuso, abandono ou sofrimento psíquico. O projeto vai ao Senado.",
+ "por_que_importa": "Muito abuso contra criança só aparece quando alguém de fora olha com atenção. O programa põe profissionais treinados no posto de saúde para isso. O texto aprovado cuida do outro lado: pobreza não é prova de negligência, e o protocolo terá de respeitar o poder familiar e a liberdade religiosa. É desenho que protege o filho sem tratar a família como suspeita.",
+ "numeros": [
+  [
+   "68 mil",
+   "casos de abuso infantil notificados no Brasil em 2024, segundo a autora, que estima ser só 10% dos casos reais",
+   "Deputada Rosângela Reis, segundo a Agência Câmara (04/11/2026)"
+  ],
+  [
+   "4",
+   "diretrizes do protocolo, entre elas o respeito ao poder familiar e à liberdade religiosa",
+   "Agência Câmara de Notícias, 04/11/2026"
+  ],
+  [
+   "menos de 1 ano",
+   "entre a apresentação do projeto, em 12/11/2025, e a aprovação em Plenário, em 4/11/2026, em regime de urgência",
+   "Câmara dos Deputados, tramitação do PL 5.815/2025"
+  ]
+ ],
+ "corpo": [
+  "Se os profissionais encontrarem indícios de risco, o Conselho Tutelar ou o Ministério Público deverão ser acionados, conforme o caso. O texto diz, porém, que a vulnerabilidade socioeconômica da criança ou da família não caracteriza, por si só, negligência ou violação de direitos por parte dos pais. As informações irão para os sistemas oficiais de saúde, com respeito à Lei Geral de Proteção de Dados.",
+  "Caberá aos pais ou responsáveis levar os filhos às avaliações periódicas. O Executivo fará um protocolo para os profissionais com quatro diretrizes: prioridade absoluta da criança, respeito ao poder familiar, respeito à liberdade religiosa e à diversidade cultural e capacitação para identificar agressões à integridade física e psicossocial. O acesso ao acompanhamento passa a constar como direito no ECA."
+ ],
+ "no_brasil": "O projeto tramitou em regime de urgência e foi votado direto no Plenário, com parecer pelas comissões; foi aprovado o substitutivo da Comissão de Saúde. Na versão original, a autora chamava a proposta de Lei Augusto Cury. Para valer, o texto precisa passar pelo Senado e ser sancionado.",
+ "critica": [
+  {
+   "fonte": "Deputada Rosângela Reis (PL-MG), autora, segundo a Agência Câmara",
+   "texto": "Em 2024, foram notificados em torno de 68 mil casos de abusos infantis no Brasil, e este número pode ser apenas 10% dos casos reais, uma estatística cruel e inadmissível",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1316057-camara-aprova-criacao-de-programa-para-acompanhamento-psicossocial-de-criancas-e-adolescentes"
+  },
+  {
+   "fonte": "Texto aprovado, segundo a Agência Câmara",
+   "texto": "O substitutivo diz que a situação de vulnerabilidade socioeconômica da criança, do adolescente ou da família não caracteriza, por si só, negligência ou violação de direitos por parte de pais ou responsáveis.",
+   "citacao": false
+  },
+  {
+   "fonte": "Ponto de atenção da redação",
+   "texto": "O texto deixa para o Executivo o protocolo que define o que os profissionais vão perguntar e observar; é nele que o respeito ao poder familiar e à fé da família terá de aparecer na prática.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Pais e mães: se virar lei, o acompanhamento periódico no SUS passa a ser direito do seu filho, e cabe a você levá-lo às avaliações",
+  "Igrejas com ministério infantil: o programa reforça a rede de proteção contra o abuso, e vale conhecer o caminho até o Conselho Tutelar",
+  "Profissionais de saúde cristãos: o protocolo prevê respeito à liberdade religiosa das famílias atendidas"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: o texto vai ao Senado",
+  "O protocolo dos profissionais ainda será feito pelo Executivo",
+  "Pobreza da família, sozinha, não pode ser tratada como negligência, segundo o texto aprovado"
+ ],
+ "veredito": "A gente apoia, com olho no protocolo. Criança abusada precisa de alguém que perceba, e o posto de saúde é lugar certo para isso. O texto acertou ao proteger o poder familiar, a fé e as famílias pobres. Que o Senado aprove e que o Executivo cumpra essas garantias no papel e no atendimento.",
+ "versiculo": {
+  "texto": "Deixai os pequeninos e não os estorveis de vir a mim, porque dos tais é o Reino dos céus",
+  "referencia": "Mateus 19.14",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Câmara de Notícias: Câmara aprova criação de programa para acompanhamento psicossocial de crianças e adolescentes (04/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1316057-camara-aprova-criacao-de-programa-para-acompanhamento-psicossocial-de-criancas-e-adolescentes",
+   "data": "04/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: tramitação do PL 5.815/2025 (dados abertos), aprovação em 4/11/2026",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437/tramitacoes",
+   "data": "04/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: texto original do PL 5.815/2025",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3045101",
+   "data": "12/11/2025",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 62,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre proteção de crianças e o papel dos pais: a Câmara cria acompanhamento periódico no SUS com respeito ao poder familiar e à liberdade religiosa"
+  },
+  "origem": {
+   "nome": "Agência Câmara de Notícias",
+   "url": "https://www.camara.leg.br/noticias/1316057-camara-aprova-criacao-de-programa-para-acompanhamento-psicossocial-de-criancas-e-adolescentes"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Aprovado no Plenário da Câmara e enviado ao Senado; efeito ainda futuro, para todas as crianças atendidas pelo SUS"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Proteção dos filhos contra abuso e limites do Estado diante do poder familiar e da fé: núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação em 4/11, menos de 24 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Notícia oficial da Agência Câmara com o conteúdo aprovado e tramitação oficial com a aprovação do substitutivo; o parecer de Plenário não pôde ser baixado (limite de acesso do site)"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Acrescenta da tramitação o regime de urgência, o substitutivo aprovado e o nome original da proposta"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 8,
+    "viral": 3,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: tramitação e texto original (2)",
+    "Ato de poder: aprovação no Plenário da Câmara (2)",
+    "Proximidade: nacional (2)",
+    "Número forte com fonte oficial: 68 mil casos (1)",
+    "Utilidade: o que muda no SUS para os filhos (1)",
+    "Pede resposta do cristão: proteção da criança e ministério infantil (2)",
+    "Passagem bíblica que um pastor usaria: Mateus 19.14 (2)",
+    "Rende estudo: Estado, família e proteção da infância (2)",
+    "Personagem com nome: Rosângela Reis e Waldemar Oliveira (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Câmara aprova criação de programa para acompanhamento psicossocial de crianças e adolescentes",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / família",
+  "coleta": "2026-11-05",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em documento primário",
+   "contradicoes": "A ementa original fala em PNAPE e acompanhamento anual; a Agência Câmara descreve o texto aprovado como PNAPP, com acompanhamento periódico. A nota segue o texto aprovado.",
+   "sem_confirmacao": "íntegra do parecer de Plenário e do texto final; periodicidade exata das avaliações; custo do programa"
+  },
+  "duplicidade": {
+   "grupo": "PL 5.815/2025",
+   "itens": [
+    "Agência Câmara 04/11",
+    "Câmara tramitação 04/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que é o programa de acompanhamento psicossocial de crianças no SUS",
+   "entidades": [
+    "Câmara dos Deputados",
+    "PL 5.815/2025",
+    "Rosângela Reis",
+    "Waldemar Oliveira",
+    "SUS",
+    "ECA"
+   ],
+   "termos": [
+    "acompanhamento psicossocial crianças SUS",
+    "abuso infantil",
+    "Conselho Tutelar",
+    "poder familiar"
+   ],
+   "atualizacao": "acompanhar a votação no Senado"
+  }
+ },
+ "descricao_seo": "A Câmara aprovou em 4/11 o PL 5.815/2025, que cria acompanhamento psicossocial periódico de crianças no SUS; o texto vai ao Senado.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da tramitação e da notícia oficial, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos vêm da tramitação oficial, do texto original e da Agência Câmara, atribuídos; a frase entre aspas da autora foi lida na Agência Câmara. A nota não atribui abuso ou negligência a nenhuma pessoa ou família; a opinião apoia o projeto e cobra as garantias do texto.",
+ "publicado_em": "2026-11-05T02:44:06-03:00",
+ "imagem": {
+  "arquivo": "capas/camara-aprova-programa-acompanhamento-psicossocial-criancas-sus.jpg",
+  "credito": "Foto: Kayo Magalhães/Câmara dos Deputados",
+  "alt": "A deputada Rosângela Reis, autora do projeto, discursa na tribuna do Plenário da Câmara dos Deputados (foto de arquivo)",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/11/img20260505193311389.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1316057-camara-aprova-criacao-de-programa-para-acompanhamento-psicossocial-de-criancas-e-adolescentes"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-05T02:44:06-03:00",
+  "modo": "automatica"
+ }
+}
