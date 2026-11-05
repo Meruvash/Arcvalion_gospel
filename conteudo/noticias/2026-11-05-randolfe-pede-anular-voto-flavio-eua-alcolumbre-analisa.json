@@ -1,0 +1,200 @@
+{
+ "slug": "randolfe-pede-anular-voto-flavio-eua-alcolumbre-analisa",
+ "data": "2026-11-05",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "selo": "Vale acompanhar",
+ "titulo": "Randolfe pede anulação do voto que Flávio deu dos EUA; Alcolumbre vai analisar",
+ "lide": "O senador Randolfe Rodrigues (PT-AP) pediu nesta quarta-feira (4), em questão de ordem no Plenário, que o Senado anule o voto de Flávio Bolsonaro (PL-RJ) na sessão da PEC da Segurança Pública e esclareça se ele comunicou a viagem aos Estados Unidos. O presidente do Senado, Davi Alcolumbre, disse que o voto valeu porque a sessão era semipresencial, mas que vai analisar o pedido.",
+ "por_que_importa": "O caso testa duas coisas ao mesmo tempo: o direito de um senador com mandato válido de votar a distância e a regra que manda comunicar à Mesa qualquer viagem ao exterior. A decisão da Mesa vai valer como precedente para todos os senadores, de qualquer partido, nas sessões semipresenciais que restam até janeiro.",
+ "numeros": [
+  [
+   "28/10",
+   "data desde a qual Flávio Bolsonaro está nos Estados Unidos, segundo a Agência Senado",
+   "Agência Senado, 04/11/2026"
+  ],
+  [
+   "art. 39",
+   "do Regimento Interno do Senado, que manda o senador comunicar à Presidência a saída do país e o prazo do afastamento",
+   "Agência Senado, 04/11/2026"
+  ],
+  [
+   "janeiro de 2027",
+   "fim do mandato de Flávio; até lá, nenhuma medida foi anunciada para impedi-lo de usar o sistema de votação remota",
+   "Agência Brasil, 04/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo a Agência Brasil, a sessão de terça (3) foi a primeira em que Flávio registrou presença desde a viagem. Ele votou a favor da PEC e da emenda do senador Carlos Portinho (PL-RJ) que previa recursos do Fundo Nacional de Segurança Pública para as Forças Armadas, e contra o requerimento que separou da PEC as emendas da maioridade penal, aprovado por 38 a 36.",
+  "A Agência Brasil informa que o senador viajou depois do segundo turno, apesar de decisão do ministro Alexandre de Moraes que mandava entregar os passaportes, numa investigação em que ele e o advogado Willer Tomaz são investigados por suposta lavagem de dinheiro ligada a apostas. A defesa contesta a ordem e pediu ao STF que Moraes seja afastado do caso. O gabinete de Flávio não respondeu à Agência Brasil."
+ ],
+ "no_brasil": "O art. 40 do Regimento prevê autorização do Plenário para algumas missões oficiais, quando há custo para o Senado. Há ainda uma ação popular que pede a suspensão do salário e das verbas de gabinete do senador; o advogado que a propôs disse à Agência Brasil que o voto remoto não muda os argumentos da ação.",
+ "critica": [
+  {
+   "fonte": "Senador Randolfe Rodrigues (PT-AP), segundo a Agência Senado",
+   "texto": "Eu não quero censurar nem vetar o voto de ninguém, mas veja que caso curioso: ele pede exílio alegando viver em uma ditadura, mas quer, lá dos Estados Unidos, participar dos debates do Parlamento dessa “ditadura”",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/davi-vai-analisar-questoes-de-randolfe-sobre-situacao-de-flavio-bolsonaro"
+  },
+  {
+   "fonte": "Davi Alcolumbre (União-AP), presidente do Senado, segundo a Agência Senado",
+   "texto": "Vou convocar nossos assessores para avaliar, à luz dos regimentos do Senado Federal e do Congresso Nacional, qual encaminhamento poderemos dar à questão de ordem apresentada por Vossa Excelência",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/davi-vai-analisar-questoes-de-randolfe-sobre-situacao-de-flavio-bolsonaro"
+  },
+  {
+   "fonte": "Defesa de Flávio Bolsonaro, em petições ao STF de 30/10, segundo a CNN Brasil e O Globo",
+   "texto": "A defesa pediu que André Mendonça assuma a relatoria da investigação, que Moraes seja declarado impedido ou suspeito e que a ordem sobre os passaportes seja revista.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Eleitores de Flávio: o voto dele na PEC está registrado e, por ora, vale; a Mesa ainda vai responder à questão de ordem",
+  "Quem acompanha o Senado: a resposta de Alcolumbre vai dizer como fica o voto remoto de senador fora do país",
+  "Quem quer conferir: o voto nominal de cada senador na PEC está nos dados abertos do Senado"
+ ],
+ "nao_e_para": [
+  "O voto de Flávio não foi anulado: Alcolumbre só disse que vai analisar o pedido",
+  "A nota não trata do mérito das investigações no STF, que seguem em andamento",
+  "O pedido de exílio citado por Randolfe é afirmação do senador do PT; a nota não teve acesso a pedido formal"
+ ],
+ "veredito": "A gente acha que regra vale para todos. Comunicar a viagem à Mesa é obrigação do regimento, e isso Flávio deve cumprir. Mas a sessão era semipresencial e o mandato está válido: anular um voto já dado seria punir pelo caminho errado. Que a Mesa decida pelo regimento, sem casuísmo de nenhum lado.",
+ "fontes": [
+  {
+   "nome": "Agência Senado: Davi vai analisar questões de Randolfe sobre situação de Flávio Bolsonaro (04/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/davi-vai-analisar-questoes-de-randolfe-sobre-situacao-de-flavio-bolsonaro",
+   "data": "04/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Nos EUA, Flávio Bolsonaro vota remotamente a favor da PEC da Segurança (04/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/nos-eua-flavio-bolsonaro-vota-remotamente-favor-da-pec-da-seguranca",
+   "data": "04/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Senado Federal: votações nominais da sessão de 3/11/2026 (dados abertos), PEC 18/2025",
+   "url": "https://legis.senado.leg.br/dadosabertos/votacao?dataInicio=2026-11-03&dataFim=2026-11-03",
+   "data": "03/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 60,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "O fato é sobre Flávio Bolsonaro, liderança da direita, e o pedido do PT para anular o voto que ele deu no Senado"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/davi-vai-analisar-questoes-de-randolfe-sobre-situacao-de-flavio-bolsonaro"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Questão de ordem ainda sem resposta da Mesa; efeito possível sobre um voto e sobre a regra do voto remoto"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Flávio Bolsonaro e a oposição no Senado: eixo político do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Questão de ordem na sessão de 4/11, menos de 12 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 12,
+    "porque": "Agência Senado com as falas em plenário e o regimento, Agência Brasil com o voto e o contexto, votação nominal nos dados abertos"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Junta a questão de ordem, os votos de Flávio, o regimento e as petições da defesa"
+   }
+  },
+  "publico": {
+   "pontos": 14,
+   "eixos": {
+    "valor": 6,
+    "viral": 6,
+    "cristao": 2
+   },
+   "criterios": [
+    "Documento primário: falas em plenário e votação nominal (2)",
+    "Ato de poder: questão de ordem no Senado (2)",
+    "Proximidade: nacional (2)",
+    "Personagem com nome: Flávio, Randolfe, Alcolumbre (1)",
+    "Duas fontes independentes (1)",
+    "Divide opiniões: voto remoto de quem está fora do país (2)",
+    "Utilidade: o que vale e o que não vale até a decisão (1)",
+    "Gatilho no calendário: resposta da Mesa pendente (1)",
+    "Pede resposta do cristão: regra igual para todos (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Davi vai analisar questões de Randolfe sobre situação de Flávio Bolsonaro",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / oposição",
+  "coleta": "2026-11-05",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado em fonte oficial e reportagem",
+   "contradicoes": "Nenhuma entre as fontes lidas.",
+   "sem_confirmacao": "resposta da Mesa; posição do gabinete de Flávio, que não respondeu à Agência Brasil"
+  },
+  "duplicidade": {
+   "grupo": "Flávio Bolsonaro nos EUA e voto remoto",
+   "itens": [
+    "Agência Senado 04/11",
+    "Agência Brasil 04/11",
+    "News Rondônia 04/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-03-defesa-flavio-pede-mendonca-relator-afastamento-moraes (investigação e passaportes)"
+  },
+  "seo": {
+   "intencao": "saber se o voto de Flávio Bolsonaro dos EUA vale",
+   "entidades": [
+    "Senado Federal",
+    "Flávio Bolsonaro",
+    "Randolfe Rodrigues",
+    "Davi Alcolumbre",
+    "PEC 18/2025"
+   ],
+   "termos": [
+    "Flávio Bolsonaro voto remoto",
+    "Flávio Bolsonaro EUA",
+    "anulação voto Flávio",
+    "questão de ordem Randolfe"
+   ],
+   "atualizacao": "acompanhar a resposta da Mesa do Senado"
+  }
+ },
+ "descricao_seo": "Em 4/11, Randolfe pediu a anulação do voto remoto de Flávio Bolsonaro, que está nos EUA; Alcolumbre disse que vai analisar.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das reportagens oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos e falas vêm da Agência Senado e da Agência Brasil, atribuídos; as duas frases entre aspas foram lidas na Agência Senado. A investigação é descrita como suposta e atribuída à Agência Brasil, com a contestação da defesa; a nota não afirma crime nem fuga. A opinião defende a aplicação do regimento a todos, sem atacar Randolfe, Flávio ou Alcolumbre.",
+ "imagem": {
+  "arquivo": "capas/randolfe-pede-anular-voto-flavio-eua-alcolumbre-analisa.jpg",
+  "credito": "Foto: Ton Molina/Agência Senado",
+  "alt": "O senador Randolfe Rodrigues discursa da bancada no Plenário do Senado, com o painel de votação ao fundo, na sessão de 4 de novembro de 2026",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/04/davi-vai-analisar-questoes-de-randolfe-sobre-situacao-de-flavio-bolsonaro/20261104_03319t.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/04/davi-vai-analisar-questoes-de-randolfe-sobre-situacao-de-flavio-bolsonaro"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-05T02:46:09-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-05T02:46:09-03:00"
+}
