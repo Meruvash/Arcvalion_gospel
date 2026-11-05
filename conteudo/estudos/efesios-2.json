@@ -12,7 +12,7 @@
  "tempo_min": 30,
  "selo": "Ótimo para começar",
  "tagline": "Mortos em ofensas, filhos da ira, sem saída. Então Paulo escreve duas palavras que mudam tudo: \"Mas Deus\".",
- "lede": "Efésios 2 começa com um retrato duro: \"mortos em ofensas e pecados\". Logo depois vem a virada: \"Mas Deus, que é riquíssimo em misericórdia\". Uma lição da CPAD, uma prédica luterana, uma mensagem presbiteriana e um artigo batista concordam no centro do texto: a salvação é presente de Deus, não prêmio pelas obras, e as boas obras vêm depois, como fruto. Para nós, pentecostais, é a graça que alcança todos os que creem.",
+ "lede": "Efésios 2 começa com um retrato duro: \"mortos em ofensas e pecados\". Logo depois vem a virada: \"Mas Deus, que é riquíssimo em misericórdia\". Uma lição da CPAD, uma prédica luterana, uma mensagem presbiteriana e um artigo de um professor batista concordam no centro do texto: a salvação é presente de Deus, não prêmio pelas obras, e as boas obras vêm depois, como fruto. Para nós, pentecostais, é a graça que alcança todos os que creem.",
  "descricao": "Estudo de Efésios 2:1-10: mortos em ofensas, \"Mas Deus\", vivificados com Cristo, \"pela graça sois salvos, por meio da fé\" e criados para as boas obras, com comentaristas de quatro tradições e o olhar pentecostal.",
  "imagem": {
   "arquivo": "estudo-efesios-2.jpg",
@@ -87,7 +87,7 @@
  "contexto": [
   "Éfeso era uma cidade grande e próspera da província da Ásia, centro do culto à deusa Ártemis, como lembram Leandro B. Peixoto, da Segunda Igreja Batista em Goiânia, e José Neivaldo de Souza. Paulo trabalhou ali e, em Atos 19, a pregação provocou a revolta dos artesãos de Ártemis. Werner Wiese lembra que a carta é circular, para ser lida em várias comunidades, e que a igreja reunia judeus e gentios (2:11-22).",
   "\"Graça\" traduz charis, que o Bible Hub resume como graça, favor, bondade, e o léxico HELPS descreve como o favor do Senhor livremente estendido às pessoas. \"Feitura\" (2:10) traduz poiēma, aquilo que foi feito, a obra de um artífice; dela vem a palavra \"poema\", mas o Novo Testamento a usa para a obra criadora de Deus.",
-  "Matthew Henry, comentarista inglês do século 18, escreveu que a graça que nos salva é a bondade e o favor gratuitos e imerecidos de Deus, e que a graça na alma é uma vida nova na alma (tradução livre). Ele leu \"isto não vem de vós\" incluindo tanto a fé quanto a salvação como dom de Deus; a Declaração de Fé das Assembleias de Deus usa o mesmo versículo para ensinar que a fé antecede a regeneração. Os dois concordam que ninguém pode se gloriar."
+  "O comentário de Efésios da obra de Matthew Henry, escrito depois da morte dele (1714) por Samuel Rosewell, diz que a graça que nos salva é a bondade e o favor gratuitos e imerecidos de Deus, e que a graça na alma é uma vida nova na alma (tradução livre). Rosewell leu \"isto não vem de vós\" incluindo tanto a fé quanto a salvação como dom de Deus; a Declaração de Fé das Assembleias de Deus usa o mesmo versículo para ensinar que a fé antecede a regeneração. Os dois concordam que ninguém pode se gloriar."
  ],
  "aplicacao": [
   "Se você acha que precisa merecer o amor de Deus, leia o versículo 4 devagar: \"Mas Deus, que é riquíssimo em misericórdia, pelo seu muito amor com que nos amou\". A salvação não começa no que você faz, começa no que Deus é. Receba com fé o presente e agradeça.",
@@ -251,7 +251,7 @@
    "Éfeso"
   ],
   [
-   "Matthew Henry, comentário de Efésios 2 (Bible Study Tools, domínio público)",
+   "Samuel Rosewell, comentário de Efésios 2 na obra de Matthew Henry, completada após a morte de Henry (Bible Study Tools, domínio público)",
    "https://www.biblestudytools.com/commentaries/matthew-henry-complete/ephesians/2.html",
    "a graça que salva"
   ],
@@ -274,6 +274,11 @@
    "Bíblia Online, Efésios 2 (Almeida Corrigida Fiel)",
    "https://www.bibliaonline.com.br/acf/ef/2",
    "texto do versículo-chave"
+  ],
+  [
+   "Prefácio do vol. VI do Comentário de Matthew Henry (CCEL)",
+   "https://ccel.org/ccel/henry/mhc6/mhc6.vi.html",
+   "quem completou cada epístola depois da morte de Henry"
   ]
  ],
  "consulta": "04/11/2026",
@@ -289,8 +294,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-04T05:28:58-03:00",
+  "data": "2026-11-04T21:15:55-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-04T05:28:58-03:00"
+ "publicado_em": "2026-11-04T05:28:58-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-04",
+   "texto": "Correção em 04/11/2026: o comentário de Efésios citado não é de Matthew Henry, que morreu em 1714, mas de Samuel Rosewell, um dos ministros que completaram a obra (prefácio do vol. VI, CCEL)."
+  }
+ ],
+ "atualizado_em": "2026-11-04T21:15:55-03:00"
 }

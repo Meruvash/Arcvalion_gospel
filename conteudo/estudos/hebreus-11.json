@@ -12,7 +12,7 @@
  "tempo_min": 35,
  "selo": "Ótimo para começar",
  "tagline": "Para uma igreja cansada e tentada a voltar atrás, a carta abriu uma galeria de gente comum que confiou em Deus sem ver o fim da história.",
- "lede": "\"Ora, a fé é o firme fundamento das coisas que se esperam, e a prova das coisas que não se veem.\" Hebreus 11 começa assim e logo apresenta pessoas: Abel, Enoque, Noé, Abraão e Sara. Uma lição da CPAD e duas prédicas luteranas leem o capítulo como encorajamento a uma igreja cansada, que queria retroceder. Para nós, pentecostais, a fé que agrada a Deus é confiança nas suas promessas, vivida em obediência.",
+ "lede": "\"Ora, a fé é o firme fundamento das coisas que se esperam, e a prova das coisas que não se veem.\" Hebreus 11 começa assim e logo apresenta pessoas: Abel, Enoque, Noé, Abraão e Sara. Uma lição da CPAD e duas prédicas luteranas leem o capítulo como chamado a perseverar; as prédicas lembram que a carta foi escrita a uma igreja cansada, que queria retroceder. Para nós, pentecostais, a fé que agrada a Deus é confiança nas suas promessas, vivida em obediência.",
  "descricao": "Estudo de Hebreus 11:1-16: a definição da fé, Abel, Enoque, Noé, Abraão e Sara, \"sem fé é impossível agradar-lhe\" e os estrangeiros e peregrinos que buscam a pátria celestial, com comentaristas de duas tradições e o olhar pentecostal.",
  "imagem": {
   "arquivo": "estudo-hebreus-11.jpg",
@@ -80,9 +80,9 @@
   }
  ],
  "contexto": [
-  "Hebreus foi escrita a uma igreja que já tinha sofrido perseguição e estava desanimada. Pouco antes do capítulo 11, o autor escreve: \"Não rejeiteis, pois, a vossa confiança\" (10:35) e cita \"o justo viverá pela fé\" (10:38). A galeria de heróis vem como resposta: outros também esperaram sem ver, e Deus foi fiel. Matthew Henry, comentarista inglês do século 18, escreveu que o autor recomendou a fé e uma vida de fé como o melhor preservativo contra a apostasia (tradução livre).",
+  "Hebreus foi escrita a uma igreja que já tinha sofrido perseguição e estava desanimada. Pouco antes do capítulo 11, o autor escreve: \"Não rejeiteis, pois, a vossa confiança\" (10:35) e cita \"o justo viverá pela fé\" (10:38). A galeria de heróis vem como resposta: outros também esperaram sem ver, e Deus foi fiel. O comentário de Hebreus da obra de Matthew Henry, escrito depois da morte dele (1714) por William Tong, diz que o autor recomendou a fé e uma vida de fé como o melhor preservativo contra a apostasia (tradução livre).",
   "As duas palavras-chave do versículo 1 são fortes. Hypostasis, traduzida por \"firme fundamento\", tem segundo o léxico de Strong, no Bible Hub, o sentido de base, apoio, garantia. Elenchos, traduzida por \"prova\", significa evidência, convicção; o léxico de Thayer a explica como aquilo pelo qual as coisas invisíveis são provadas.",
-  "Henry resumiu: a fé demonstra aos olhos da mente a realidade das coisas que os olhos do corpo não conseguem ver (tradução livre). E, sobre o versículo 16, escreveu que a pátria celestial é melhor que qualquer outra na terra (tradução livre)."
+  "Tong resumiu: a fé demonstra aos olhos da mente a realidade das coisas que os olhos do corpo não conseguem ver (tradução livre). E, sobre o versículo 16, escreveu que a pátria celestial é melhor que qualquer outra na terra (tradução livre)."
  ],
  "aplicacao": [
   "Nenhum dos heróis de Hebreus 11 era perfeito, e quase todos esperaram muito. Se você está cansado de esperar uma promessa, leia a lista de novo: Abraão saiu sem saber para onde ia, Sara teve por fiel quem prometeu, e muitos morreram sem ver o cumprimento. A fé não depende de ver o fim, depende de quem prometeu.",
@@ -236,7 +236,7 @@
    "Abraão e Sara"
   ],
   [
-   "Matthew Henry, comentário de Hebreus 11 (Bible Study Tools, domínio público)",
+   "William Tong, comentário de Hebreus 11 na obra de Matthew Henry, completada após a morte de Henry (Bible Study Tools, domínio público)",
    "https://www.biblestudytools.com/commentaries/matthew-henry-complete/hebrews/11.html",
    "a fé e a pátria celestial"
   ],
@@ -259,6 +259,11 @@
    "Bíblia Online, Hebreus 11 (Almeida Corrigida Fiel)",
    "https://www.bibliaonline.com.br/acf/hb/11",
    "texto do versículo-chave"
+  ],
+  [
+   "Prefácio do vol. VI do Comentário de Matthew Henry (CCEL)",
+   "https://ccel.org/ccel/henry/mhc6/mhc6.vi.html",
+   "quem completou cada epístola depois da morte de Henry"
   ]
  ],
  "consulta": "04/11/2026",
@@ -274,8 +279,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-04T05:28:57-03:00",
+  "data": "2026-11-04T21:15:56-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-04T05:28:57-03:00"
+ "publicado_em": "2026-11-04T05:28:57-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-04",
+   "texto": "Correção em 04/11/2026: o comentário de Hebreus citado não é de Matthew Henry, que morreu em 1714, mas de William Tong, um dos ministros que completaram a obra (prefácio do vol. VI, CCEL)."
+  }
+ ],
+ "atualizado_em": "2026-11-04T21:15:56-03:00"
 }

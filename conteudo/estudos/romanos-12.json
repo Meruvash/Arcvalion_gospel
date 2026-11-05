@@ -67,7 +67,7 @@
   },
   {
    "autor": "Lincoln A. A. Oliveira",
-   "quem": "Autor da lição da Revista Compromisso, publicada no site da Primeira Igreja Batista do Rio de Janeiro (pibrj.org.br)",
+   "quem": "Autor do estudo de apoio à lição 11 da Revista Compromisso (EBD), publicado no site da Primeira Igreja Batista do Rio de Janeiro",
    "obra": "\"Somos um em Cristo\", Romanos 11 e 12, Revista Compromisso nº 478, lição 11",
    "url": "https://www.pibrj.org.br/wp-content/uploads/2026/06/Somos-um-em-Cristo-Licao-11.pdf",
    "data": "14/06/2026",
@@ -78,7 +78,7 @@
  "contexto": [
   "Romanos 1 a 11 explica o evangelho: todos pecaram, Deus justifica pela fé em Cristo, o Espírito dá vida nova, e Israel e as nações estão no plano de Deus. O capítulo 11 termina em louvor: \"Porque dele e por ele, e para ele, são todas as coisas\" (11:36). O \"pois\" de 12:1 traduz a partícula grega oun, que, segundo o léxico de Thayer no Bible Hub, indica que algo decorre necessariamente do que veio antes.",
   "As palavras de Paulo vêm do culto. \"Sacrifício\" lembra os animais oferecidos no templo, mas este é \"vivo\". \"Culto\" traduz latreia, que o léxico de Strong define como serviço e adoração a Deus, e \"racional\" traduz logikos, que algumas versões traduzem por \"espiritual\". \"Conformados\" traduz syschēmatizō, tomar a mesma forma exterior seguindo um molde; \"transformados\" traduz metamorphoō, mudar para outra forma, o mesmo verbo usado na transfiguração de Jesus (Mateus 17:2).",
-  "Matthew Henry, comentarista inglês do século 18, escreveu que um corpo sinceramente consagrado a Deus é um sacrifício vivo, e que a mente é a parte que age e governa em nós, de modo que renovar a mente é renovar o homem inteiro (tradução livre)."
+  "O comentário de Romanos da obra de Matthew Henry, escrito depois da morte dele (1714) por John Evans, diz que um corpo sinceramente consagrado a Deus é um sacrifício vivo, e que a mente é a parte que age e governa em nós, de modo que renovar a mente é renovar o homem inteiro (tradução livre)."
  ],
  "aplicacao": [
   "Paulo não começa com uma lista de proibições. Começa lembrando a compaixão de Deus. Antes de pensar no que precisa mudar, leia de novo o que Deus já fez por você. A entrega do corpo é resposta de quem foi amado, não pagamento.",
@@ -224,7 +224,7 @@
    "a resposta à graça"
   ],
   [
-   "Matthew Henry, comentário de Romanos 12 (Bible Study Tools, domínio público)",
+   "John Evans, comentário de Romanos 12 na obra de Matthew Henry, completada após a morte de Henry (Bible Study Tools, domínio público)",
    "https://www.biblestudytools.com/commentaries/matthew-henry-complete/romans/12.html",
    "o sacrifício vivo"
   ],
@@ -252,6 +252,16 @@
    "Bíblia Online, Romanos 12 (Almeida Corrigida Fiel)",
    "https://www.bibliaonline.com.br/acf/rm/12",
    "texto do versículo-chave"
+  ],
+  [
+   "Prefácio do vol. VI do Comentário de Matthew Henry (CCEL)",
+   "https://ccel.org/ccel/henry/mhc6/mhc6.vi.html",
+   "quem completou cada epístola depois da morte de Henry"
+  ],
+  [
+   "Bible Hub, Strong's 3767 (oun)",
+   "https://biblehub.com/greek/3767.htm",
+   "o \"pois\""
   ]
  ],
  "consulta": "04/11/2026",
@@ -267,8 +277,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-04T05:28:58-03:00",
+  "data": "2026-11-04T21:15:56-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-04T05:28:58-03:00"
+ "publicado_em": "2026-11-04T05:28:58-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-04",
+   "texto": "Correção em 04/11/2026: o comentário de Romanos citado não é de Matthew Henry, que morreu em 1714, mas de John Evans, um dos ministros que completaram a obra (prefácio do vol. VI, CCEL)."
+  }
+ ],
+ "atualizado_em": "2026-11-04T21:15:56-03:00"
 }
