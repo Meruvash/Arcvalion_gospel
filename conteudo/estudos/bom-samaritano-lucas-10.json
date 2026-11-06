@@ -12,12 +12,12 @@
  "tempo_min": 30,
  "selo": "Ótimo para começar",
  "tagline": "Um doutor da lei queria saber até onde ia a obrigação de amar. Jesus contou uma história e devolveu a pergunta: de quem você foi o próximo?",
- "lede": "\"E quem é o meu próximo?\" A pergunta parecia simples, mas o doutor da lei queria \"justificar-se a si mesmo\". Jesus respondeu com a história de um homem espancado, de dois religiosos que passaram de largo e de um samaritano que parou. Uma lição da CPAD, uma pastoral batista e um artigo católico concordam: Jesus inverte a pergunta. Para nós, pentecostais, o amor que o Espírito derrama no coração se mostra em compaixão prática.",
+ "lede": "\"E quem é o meu próximo?\" A pergunta parecia simples, mas o doutor da lei queria \"justificar-se a si mesmo\". Jesus respondeu com a história de um homem espancado, de dois religiosos que passaram de largo e de um samaritano que parou. Uma lição da CPAD e um artigo católico mostram que Jesus inverte a pergunta, e uma pastoral batista lembra que o amor do Reino rompe barreiras. Para nós, pentecostais, o amor que o Espírito derrama no coração se mostra em compaixão prática.",
  "descricao": "Estudo de Lucas 10:25-37: o duplo mandamento do amor, \"E quem é o meu próximo?\", o sacerdote e o levita, o samaritano movido de íntima compaixão e \"Vai, e faze da mesma maneira\", com comentaristas de três tradições e o olhar pentecostal.",
  "imagem": {
   "arquivo": "estudo-bom-samaritano-lucas-10.jpg",
-  "credito": "Domenico Fetti, O bom samaritano (óleo sobre madeira, c. 1618-22). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)",
-  "alt": "Pintura de Domenico Fetti, c. 1618-22: entre árvores altas, o samaritano, de turbante branco e manto claro, ergue nos braços o homem ferido para colocá-lo sobre um jumento, num caminho de pedras",
+  "credito": "Oficina de Domenico Fetti, O bom samaritano (óleo sobre madeira, c. 1618-22). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)",
+  "alt": "Pintura da oficina de Domenico Fetti, c. 1618-22: entre árvores altas, o samaritano, de turbante branco e manto claro, ergue nos braços o homem ferido para colocá-lo sobre um jumento, num caminho de pedras",
   "pagina": "https://www.metmuseum.org/art/collection/search/436302",
   "licenca": "domínio público (Open Access CC0 do Metropolitan Museum)"
  },
@@ -75,7 +75,7 @@
    "obra": "\"Viu, sentiu compaixão e cuidou dele (Lc 10,33-34)\", Encontros Teológicos, v. 34, nº 3",
    "url": "https://facasc.emnuvens.com.br/ret/article/download/1561/1244/3057",
    "data": "setembro a dezembro de 2019",
-   "texto": "Os autores mostram que a pergunta do doutor (10:29) é respondida por outra pergunta de Jesus (10:36): o próximo não é uma categoria que se aplica aos outros, é um desafio a quem pergunta. Eles lembram que o sacerdote e o levita talvez tivessem medo de emboscada na estrada, e concluem que amar com misericórdia sempre tem risco.",
+   "texto": "Os autores mostram que a pergunta do doutor (10:29) é respondida por outra pergunta de Jesus (10:36): o próximo não é uma categoria que se aplica aos outros, é um desafio a quem pergunta. Eles lembram que o sacerdote e o levita talvez tivessem medo de que o ferido fosse um engodo de salteadores, e concluem que amar com misericórdia sempre tem risco.",
    "citacao": "Amar com misericórdia é um risco que sempre teremos que correr."
   }
  ],
@@ -270,8 +270,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-05T05:30:20-03:00",
+  "data": "2026-11-05T21:14:17-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-05T05:30:20-03:00"
+ "publicado_em": "2026-11-05T05:30:20-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-05",
+   "texto": "Correção em 05/11/2026: a pintura é da oficina de Domenico Fetti, não do próprio pintor (Metropolitan Museum, objeto 436302)."
+  }
+ ],
+ "atualizado_em": "2026-11-05T21:14:17-03:00"
 }
