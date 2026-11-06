@@ -42,7 +42,7 @@ Por isso o pecado não é só um erro contra os outros. Mesmo quando ferimos uma
 
 ### Onde tudo começou
 
-Gênesis 3 conta que a cobra disse à mulher: "Vocês não morrerão coisa nenhuma!" (Gênesis 3:4). Ela comeu a fruta proibida e deu ao marido, e ele também comeu. Na mesma hora, os dois perceberam que estavam nus e se esconderam de Deus.
+Gênesis 3 conta que a cobra disse à mulher: "Vocês não morrerão coisa nenhuma!" (Gênesis 3:4). Ela comeu a fruta proibida e deu ao marido, e ele também comeu. Nesse momento, os dois perceberam que estavam nus. Mais tarde, quando ouviram a voz de Deus no jardim, se esconderam dele.
 
 Repare no que veio depois. Adão culpou "A mulher que me deste", e a mulher culpou a cobra (Gênesis 3:12-13). O texto não diz que a fruta era maçã. Diz que era a fruta da árvore que Deus tinha proibido. O problema não era a fruta; era desconfiar de Deus e desobedecer.
 

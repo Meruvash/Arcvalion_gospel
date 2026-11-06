@@ -30,7 +30,7 @@ Jesus chamou o Espírito de "outro Auxiliador". Outras traduções dizem "Consol
 
 Repare na palavra "outro". Enquanto esteve na terra, Jesus cuidou dos discípulos. Agora outro viria fazer esse cuidado, de modo invisível e "para sempre". A Declaração diz que "outro" indica "alguém da mesma natureza". O Espírito Santo é alguém como Jesus.
 
-João Calvino, o reformador de Genebra, comentou que Cristo protegeu os discípulos enquanto viveu no mundo e depois os entregou à proteção e à guarda do Espírito. E concluiu que essa palavra "outro" mostra uma distinção de pessoas: o Espírito não é o mesmo que o Filho.
+João Calvino, o reformador de Genebra, comentou que Cristo protegeu os discípulos enquanto viveu no mundo e depois os entregou à proteção e à guarda do Espírito. Para ele, Jesus diz "outro" por causa da diferença entre as bênçãos que recebemos de cada um. E acrescentou que não é impróprio tirar daí uma distinção de pessoas: o Espírito não é o mesmo que o Filho.
 
 > [!termo] **Auxiliador:** nome que a NTLH dá ao Espírito Santo em João 14 e 16. Outras versões dizem "Consolador". Na palavra grega, a ideia é de alguém que fica ao lado para defender, interceder e ajudar.
 

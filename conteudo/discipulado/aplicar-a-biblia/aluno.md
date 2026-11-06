@@ -122,7 +122,7 @@ Um jeito simples de aplicar o que você lê:
 
 - Bíblia, Nova Tradução na Linguagem de Hoje: [Tiago 1](https://www.bibliaonline.com.br/ntlh/tg/1), [Mateus 7](https://www.bibliaonline.com.br/ntlh/mt/7), [Lucas 6](https://www.bibliaonline.com.br/ntlh/lc/6), [Esdras 7](https://www.bibliaonline.com.br/ntlh/ed/7), [Salmo 119](https://www.bibliaonline.com.br/ntlh/sl/119), [João 13](https://www.bibliaonline.com.br/ntlh/jo/13), [Romanos 12](https://www.bibliaonline.com.br/ntlh/rm/12).
 
-- Convenção Geral das Assembleias de Deus no Brasil, [Declaração de Fé](https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf) (CPAD, 2016): "Cremos", item 1; capítulo "Sobre a Lei", item 4.
+- Convenção Geral das Assembleias de Deus no Brasil, [Declaração de Fé](https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf) (CPAD, 2016): "Cremos", item 1; capítulo "Sobre a Lei", item 4; capítulo "Sobre a salvação".
 
 - Matthew Henry, *Commentary on the Whole Bible*, comentários a [Mateus 7](https://www.biblestudytools.com/commentaries/matthew-henry-complete/matthew/7.html) e [Tiago 1](https://www.biblestudytools.com/commentaries/matthew-henry-complete/james/1.html) (domínio público).
 

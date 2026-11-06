@@ -36,7 +36,7 @@ Em Listra, Paulo e Barnabé falaram a pessoas que não conheciam as Escrituras. 
 
 ### A consciência também testemunha
 
-Paulo diz ainda que mesmo quem não conhece a lei de Deus mostra "que têm a lei escrita no seu coração". E acrescenta: "A própria consciência deles mostra que isso é verdade" (Romanos 2:15).
+Paulo diz ainda que os não judeus, que não têm a lei, mostram "que têm a lei escrita no seu coração". E acrescenta: "A própria consciência deles mostra que isso é verdade" (Romanos 2:15).
 
 Todo ser humano sabe, de algum modo, que há certo e errado. Mas repare no que Paulo diz logo depois: os pensamentos "às vezes os acusam e às vezes os defendem". A consciência ajuda, mas não é infalível. Ela precisa ser formada pela Palavra.
 
@@ -62,7 +62,7 @@ Essas mensagens foram escritas. Paulo diz que "toda a Escritura Sagrada é inspi
 
 João escreveu: "A Palavra se tornou um ser humano e morou entre nós". E: "Ninguém nunca viu Deus. Somente o Filho único, que é Deus e está ao lado do Pai, foi quem nos mostrou quem é Deus" (João 1:14, 18). Quer saber como Deus é? Olhe para Jesus.
 
-Em Belém, numa noite comum, um anjo anunciou a pastores: "nasceu o Salvador de vocês". E eles foram ver "o menino deitado na manjedoura" (Lucas 2:11, 16). Deus se revelou de um jeito que ninguém esperava: como uma criança.
+Nos campos perto de Belém, numa noite comum, um anjo anunciou a pastores: "nasceu o Salvador de vocês". E eles foram ver "o menino deitado na manjedoura" (Lucas 2:11, 16). Deus se revelou de um jeito que ninguém esperava: como uma criança.
 
 > [!chave] Deus se mostra a todos na criação e na consciência, mas se revela de modo pleno em Jesus, e tudo o que precisamos saber para a salvação está na Bíblia.
 
