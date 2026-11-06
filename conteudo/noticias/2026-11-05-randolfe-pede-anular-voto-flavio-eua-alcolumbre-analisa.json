@@ -5,7 +5,7 @@
  "status": "publicado",
  "selo": "Vale acompanhar",
  "titulo": "Randolfe pede anulação do voto que Flávio deu dos EUA; Alcolumbre vai analisar",
- "lide": "O senador Randolfe Rodrigues (PT-AP) pediu nesta quarta-feira (4), em questão de ordem no Plenário, que o Senado anule o voto de Flávio Bolsonaro (PL-RJ) na sessão da PEC da Segurança Pública e esclareça se ele comunicou a viagem aos Estados Unidos. O presidente do Senado, Davi Alcolumbre, disse que o voto valeu porque a sessão era semipresencial, mas que vai analisar o pedido.",
+ "lide": "O senador Randolfe Rodrigues (PT-AP) pediu nesta quarta-feira (4), em questões de ordem no Plenário, que o Senado anule o voto de Flávio Bolsonaro (PL-RJ) na sessão da PEC da Segurança Pública e esclareça se ele comunicou a viagem aos Estados Unidos. O presidente do Senado, Davi Alcolumbre, disse que o voto valeu porque a sessão era semipresencial, mas que vai analisar o pedido.",
  "por_que_importa": "O caso testa duas coisas ao mesmo tempo: o direito de um senador com mandato válido de votar a distância e a regra que manda comunicar à Mesa qualquer viagem ao exterior. A decisão da Mesa vai valer como precedente para todos os senadores, de qualquer partido, nas sessões semipresenciais que restam até janeiro.",
  "numeros": [
   [
@@ -28,7 +28,7 @@
   "Segundo a Agência Brasil, a sessão de terça (3) foi a primeira em que Flávio registrou presença desde a viagem. Ele votou a favor da PEC e da emenda do senador Carlos Portinho (PL-RJ) que previa recursos do Fundo Nacional de Segurança Pública para as Forças Armadas, e contra o requerimento que separou da PEC as emendas da maioridade penal, aprovado por 38 a 36.",
   "A Agência Brasil informa que o senador viajou depois do segundo turno, apesar de decisão do ministro Alexandre de Moraes que mandava entregar os passaportes, numa investigação em que ele e o advogado Willer Tomaz são investigados por suposta lavagem de dinheiro ligada a apostas. A defesa contesta a ordem e pediu ao STF que Moraes seja afastado do caso. O gabinete de Flávio não respondeu à Agência Brasil."
  ],
- "no_brasil": "O art. 40 do Regimento prevê autorização do Plenário para algumas missões oficiais, quando há custo para o Senado. Há ainda uma ação popular que pede a suspensão do salário e das verbas de gabinete do senador; o advogado que a propôs disse à Agência Brasil que o voto remoto não muda os argumentos da ação.",
+ "no_brasil": "O art. 40 do Regimento prevê autorização do Plenário para algumas missões oficiais, quando há custo para o Senado. Há ainda uma ação popular que pede a suspensão do salário e das verbas de gabinete do senador; um dos advogados autores da ação disse à Agência Brasil que, a seu ver, o voto remoto não invalida a ação.",
  "critica": [
   {
    "fonte": "Senador Randolfe Rodrigues (PT-AP), segundo a Agência Senado",
@@ -43,9 +43,10 @@
    "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/davi-vai-analisar-questoes-de-randolfe-sobre-situacao-de-flavio-bolsonaro"
   },
   {
-   "fonte": "Defesa de Flávio Bolsonaro, em petições ao STF de 30/10, segundo a CNN Brasil e O Globo",
+   "fonte": "Defesa de Flávio Bolsonaro, em petições ao STF de 30/10, segundo a CNN Brasil",
    "texto": "A defesa pediu que André Mendonça assuma a relatoria da investigação, que Moraes seja declarado impedido ou suspeito e que a ordem sobre os passaportes seja revista.",
-   "citacao": false
+   "citacao": false,
+   "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/flavio-pede-que-moraes-deixe-investigacao-e-que-mendonca-assuma-caso/"
   }
  ],
  "para_quem": [
@@ -77,6 +78,12 @@
    "url": "https://legis.senado.leg.br/dadosabertos/votacao?dataInicio=2026-11-03&dataFim=2026-11-03",
    "data": "03/11/2026",
    "tipo": "primaria"
+  },
+  {
+   "nome": "CNN Brasil (blog de Caio Junqueira): Flávio pede que Moraes deixe investigação e que Mendonça assuma caso (31/10/2026)",
+   "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/flavio-pede-que-moraes-deixe-investigacao-e-que-mendonca-assuma-caso/",
+   "data": "31/10/2026",
+   "tipo": "secundaria"
   }
  ],
  "crivo": {
@@ -193,8 +200,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-05T02:46:09-03:00",
+  "data": "2026-11-05T21:13:08-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-05T02:46:09-03:00"
+ "publicado_em": "2026-11-05T02:46:09-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-05",
+   "texto": "Correção em 05/11/2026: o advogado da ação popular disse que, a seu ver, o voto remoto não invalida a ação, e não que não muda os argumentos; ele ainda vai analisar o efeito sobre eles (Agência Brasil, 04/11)."
+  }
+ ],
+ "atualizado_em": "2026-11-05T21:13:08-03:00"
 }

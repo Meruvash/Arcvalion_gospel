@@ -4,7 +4,7 @@
  "categoria": "familia-e-valores",
  "status": "publicado",
  "selo": "Informativo",
- "titulo": "ECA é atualizado para a escola dos 4 aos 17 anos e vai à sanção",
+ "titulo": "Senado aprova atualização do ECA para a escola dos 4 aos 17 anos",
  "lide": "O Senado aprovou nesta quarta-feira (4) o PL 2.234/2024, da deputada Laura Carneiro (PSD-RJ), que atualiza o Estatuto da Criança e do Adolescente para a educação básica obrigatória e gratuita dos 4 aos 17 anos. O ECA, de 1990, ainda falava só do ensino fundamental em vários pontos. O texto segue para a sanção da Presidência da República.",
  "por_que_importa": "A mudança alinha o ECA ao que a Constituição já garante e leva para a pré-escola e o ensino médio regras que valiam só para o fundamental: transporte, merenda, material e saúde do aluno, além do dever da escola de avisar o Conselho Tutelar. Para os pais, o ponto central é a frequência, que o poder público passa a acompanhar junto com eles.",
  "numeros": [
@@ -188,8 +188,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-05T02:48:25-03:00",
+  "data": "2026-11-05T21:13:08-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-05T02:48:25-03:00"
+ "publicado_em": "2026-11-05T02:48:25-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-05",
+   "texto": "Correção em 05/11/2026: o título dava a mudança no ECA como feita; o projeto foi aprovado pelo Senado e ainda depende de sanção (Agência Senado, 04/11)."
+  }
+ ],
+ "atualizado_em": "2026-11-05T21:13:08-03:00"
 }
