@@ -1,0 +1,188 @@
+{
+ "slug": "cdh-senado-tira-juiz-avaliacao-entidades-atendimento-criancas",
+ "data": "2026-11-06",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "selo": "Informativo",
+ "titulo": "Comissão do Senado tira do juiz a tarefa de atestar entidades que atendem crianças",
+ "lide": "A Comissão de Direitos Humanos do Senado aprovou na quarta-feira (4) o PL 4.150/2025, da deputada Laura Carneiro (PSD-RJ), que muda o art. 90 do ECA. A Justiça da Infância e da Juventude deixa de atestar a qualidade das entidades que atendem crianças e adolescentes para a inscrição dos programas; a tarefa fica com o Conselho Tutelar e o Ministério Público. O texto vai à CCJ.",
+ "por_que_importa": "As entidades que acolhem crianças tiradas de casa passam por essa avaliação para funcionar. O projeto separa quem avalia de quem julga: o juiz que atestou uma entidade pode ter de julgar, depois, uma denúncia contra ela. O Judiciário continua com o poder de fiscalizar, e a avaliação fica com quem acompanha o dia a dia.",
+ "numeros": [
+  [
+   "35.727",
+   "crianças e adolescentes em serviços de acolhimento no Brasil em fevereiro de 2026",
+   "Relatório citado pela Agência Senado, com dados do Sistema Nacional de Adoção e Acolhimento"
+  ],
+  [
+   "3",
+   "órgãos que hoje atestam as entidades: Conselho Tutelar, Ministério Público e Justiça da Infância; com o projeto, ficam 2",
+   "Agência Senado, 04/11/2026"
+  ],
+  [
+   "art. 90",
+   "do ECA, que o projeto altera",
+   "Ementa do PL 4.150/2025, Senado Federal"
+  ]
+ ],
+ "corpo": [
+  "Relatora, a senadora Damares Alves (Republicanos-DF), presidente da CDH, argumentou que a mudança preserva a imparcialidade dos magistrados, que podem ser chamados a julgar irregularidades em entidades que avaliaram antes, e delimita melhor as atribuições de cada órgão de proteção. Ela defendeu fortalecer os conselhos tutelares, que precisarão de estrutura, pessoal e equipamentos para avaliar os serviços.",
+  "Segundo o relatório, entre os principais motivos para o afastamento de crianças do convívio familiar estão negligência, abandono, dependência química dos responsáveis e conflitos familiares. O projeto já foi aprovado pela Câmara e, no Senado, ainda depende da CCJ."
+ ],
+ "no_brasil": "Na mesma reunião de 4/11, a CDH aprovou o projeto que obriga o juiz a ouvir a família antes de manter uma criança em abrigo e o que permite o acolhimento de adolescentes dependentes com os pais em comunidades terapêuticas, ambos tratados pelo portal.",
+ "critica": [
+  {
+   "fonte": "Senadora Damares Alves (Republicanos-DF), relatora, segundo a Agência Senado",
+   "texto": "Em matéria de infância e adolescência, simplificar procedimentos jamais pode significar reduzir proteção",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/avanca-projeto-que-muda-avaliacao-de-servicos-de-atendimento-a-criancas"
+  },
+  {
+   "fonte": "Agência Senado, sobre o alcance da mudança",
+   "texto": "O Judiciário mantém a competência para fiscalizar as entidades de atendimento; o que sai é a atribuição de atestar a qualidade e a eficiência do trabalho para a inscrição dos programas.",
+   "citacao": false
+  },
+  {
+   "fonte": "Ponto de atenção da redação",
+   "texto": "Com a tarefa concentrada no Conselho Tutelar e no Ministério Público, a qualidade da avaliação vai depender da estrutura dos conselhos, que a própria relatora diz precisar de reforço.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Igrejas e organizações que mantêm abrigos ou programas para crianças: se virar lei, a inscrição dependerá do aval do Conselho Tutelar e do Ministério Público, sem o atestado do juiz",
+  "Conselheiros tutelares: a responsabilidade pela avaliação aumenta",
+  "Famílias com filhos acolhidos: o juiz continua fiscalizando as entidades"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: o texto vai à CCJ do Senado",
+  "O juiz não deixa de fiscalizar as entidades; só deixa de atestar a qualidade para a inscrição dos programas",
+  "O projeto não muda as regras de acolhimento nem de adoção"
+ ],
+ "veredito": "A gente apoia a separação de papéis: quem pode julgar uma entidade não deveria tê-la aprovado antes. Mas a mudança só protege as crianças se os conselhos tutelares tiverem gente e estrutura para avaliar com seriedade, como cobrou a relatora. Sem isso, simplificar vira afrouxar.",
+ "fontes": [
+  {
+   "nome": "Agência Senado: CDH aprova projeto que muda avaliação de serviços de atendimento a crianças (04/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/avanca-projeto-que-muda-avaliacao-de-servicos-de-atendimento-a-criancas",
+   "data": "04/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal: tramitação do PL 4.150/2025 (dados abertos)",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo?sigla=PL&numero=4150&ano=2025",
+   "data": "05/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 54,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre a proteção de crianças afastadas da família e as entidades que as acolhem"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/avanca-projeto-que-muda-avaliacao-de-servicos-de-atendimento-a-criancas"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Aprovado em comissão do Senado, segue para a CCJ; efeito ainda futuro"
+   },
+   "afinidade": {
+    "pontos": 15,
+    "porque": "Crianças acolhidas e entidades de atendimento; mudança de procedimento, com efeito indireto no leitor"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação em 4/11, menos de 48 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Notícia oficial da Agência Senado com o relatório e tramitação oficial"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Liga a mudança às entidades de acolhimento e às outras aprovações da mesma reunião"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 6,
+    "viral": 1,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: tramitação oficial (2)",
+    "Ato de poder: aprovação em comissão do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Número forte com fonte oficial: 35.727 acolhidos (1)",
+    "Pede resposta do cristão: entidades que acolhem crianças (2)",
+    "Personagem com nome: Damares Alves (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "CDH aprova projeto que muda avaliação de serviços de atendimento a crianças",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / família",
+  "coleta": "2026-11-06",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em fonte oficial",
+   "contradicoes": "Nenhuma entre a notícia e a tramitação.",
+   "sem_confirmacao": "íntegra do relatório; prazo na CCJ"
+  },
+  "duplicidade": {
+   "grupo": "PL 4.150/2025",
+   "itens": [
+    "Agência Senado 04/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber quem avalia as entidades que atendem crianças",
+   "entidades": [
+    "Senado Federal",
+    "PL 4.150/2025",
+    "Damares Alves",
+    "Laura Carneiro",
+    "ECA",
+    "Conselho Tutelar"
+   ],
+   "termos": [
+    "entidades de acolhimento ECA",
+    "art. 90 ECA",
+    "Conselho Tutelar avaliação",
+    "abrigo de crianças"
+   ],
+   "atualizacao": "acompanhar a CCJ"
+  }
+ },
+ "descricao_seo": "A CDH do Senado aprovou em 4/11 projeto que tira da Justiça da Infância a tarefa de atestar entidades que atendem crianças; vai à CCJ.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da notícia oficial e da tramitação, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos e números vêm da Agência Senado e da tramitação oficial, atribuídos; a frase entre aspas de Damares foi lida na Agência Senado. A nota não atribui irregularidade a juízes, conselhos ou entidades.",
+ "imagem": {
+  "arquivo": "capas/cdh-senado-tira-juiz-avaliacao-entidades-atendimento-criancas.jpg",
+  "credito": "Foto: Carolina Curi/Agência Senado",
+  "alt": "Reunião da Comissão de Direitos Humanos do Senado presidida pela senadora Damares Alves, em 4 de novembro de 2026",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/04/avanca-projeto-que-muda-avaliacao-de-servicos-de-atendimento-a-criancas/20261104_00428cc.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/04/avanca-projeto-que-muda-avaliacao-de-servicos-de-atendimento-a-criancas"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-06T02:40:20-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-06T02:40:20-03:00"
+}
