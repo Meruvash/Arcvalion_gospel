@@ -33,16 +33,13 @@
    "slug": "igreja-e-comunhao",
    "nome": "Igreja e comunhão",
    "descricao": "Por que fazer parte de uma igreja, o batismo nas águas e a Ceia do Senhor.",
-   "previstos": [
-    "Por que precisamos de comunhão?"
-   ]
+   "previstos": []
   },
   {
    "slug": "santidade",
    "nome": "Santidade e transformação",
    "descricao": "Santificação, tentação, perdão e o caráter de Cristo.",
    "previstos": [
-    "O que significa perdoar?",
     "Como desenvolver o caráter de Cristo?"
    ]
   },
@@ -50,9 +47,7 @@
    "slug": "espirito-santo",
    "nome": "Espírito Santo e vida espiritual",
    "descricao": "Batismo no Espírito Santo, dons, fruto do Espírito e discernimento.",
-   "previstos": [
-    "O que significa ser cheio do Espírito Santo?"
-   ]
+   "previstos": []
   },
   {
    "slug": "vida-crista",
@@ -121,7 +116,8 @@
     "faco-o-mal-que-nao-quero",
     "direcao-de-deus",
     "aplicar-a-biblia",
-    "esfriei-na-fe"
+    "esfriei-na-fe",
+    "comunhao"
    ],
    "meta": 12
   }
@@ -192,6 +188,18 @@
    "categoria": "santidade",
    "evidencia": "Google Trends, Ano em Pesquisa 2025 (Brasil): \"Pecadores\" é o 10º da lista \"Filmes\" (consultado em 05/11/2026); o autocomplete do Google sugere \"o que é pecado na bíblia\" e \"o que é pecado para deus\"",
    "url": "https://trends.withgoogle.com/year-in-search/2025/br/"
+  },
+  {
+   "titulo": "O Diabo existe?",
+   "categoria": "santidade",
+   "evidencia": "Google Trends, Ano em Pesquisa 2018 (Brasil): \"A Freira\" é o 1º da lista \"Filmes\" e \"Lucifer\" é a 4ª da lista \"Séries\" (consultado em 06/11/2026); o autocomplete do Google sugere \"o diabo existe sim ou não\" e \"o diabo existe na bíblia\"",
+   "url": "https://trends.withgoogle.com/year-in-search/2018/br/"
+  },
+  {
+   "titulo": "Jesus vai voltar?",
+   "categoria": "salvacao-e-nova-vida",
+   "evidencia": "Google Trends: buscas por termos como \"Jesus está voltando\" e \"anticristo\" tiveram pico na semana de 8 a 14 de outubro de 2023, em níveis similares a março de 2020 (Aos Fatos); o autocomplete do Google sugere \"jesus vai voltar quando\" e \"jesus vai voltar em que ano\"",
+   "url": "https://www.aosfatos.org/noticias/apocalipse-fim-do-mundo-israel-hamas-gaza/"
   }
  ]
 }

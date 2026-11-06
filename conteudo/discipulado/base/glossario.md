@@ -46,3 +46,8 @@ Termos adiados: **graça** (a NTLH de João 1 diz "amor"; explicar numa lição 
 - **Auxiliador** ("Quem é o Espírito Santo?"): nome que a NTLH dá ao Espírito Santo em João 14 e 16, onde outras versões dizem "Consolador"; a palavra grega *paráklētos* significa "defensor, advogado, intercessor, auxiliador" (Declaração de Fé).
 - **Revelação** ("Como Deus se revela à humanidade?"): o ato de Deus se dar a conhecer. "Revelação geral" (criação e consciência) e "revelação especial" (a Palavra e Jesus) são termos dos teólogos, não da Declaração de Fé.
 - **Praticar a Palavra** ("Como aplicar os ensinamentos bíblicos?"): viver o que a Bíblia ensina; Tiago 1:22: "não sejam apenas ouvintes dessa mensagem, mas a ponham em prática".
+- **Diabo ou Satanás** ("O Diabo existe?"): o inimigo de Deus e dos seres humanos, criatura que foi criada boa e caiu por orgulho; a NTLH o chama também de "Maligno" (Efésios 6:16) e de "o acusador dos nossos irmãos" (Apocalipse 12:10).
+- **Arrebatamento** ("Jesus vai voltar?"): termo da Declaração de Fé para o encontro dos salvos com o Senhor nos ares (1 Tessalonicenses 4:17); a NTLH diz "seremos levados nas nuvens".
+- **Perdoar** ("O que significa perdoar?"): cancelar a dívida de quem nos ofendeu, deixando de lado a vingança e entregando a causa a Deus; "Perdão é a absolvição de uma dívida e a remissão de um castigo" (Declaração de Fé).
+- **Comunhão** ("Por que precisamos de comunhão?"): vida em comum dos que pertencem a Jesus, unidos com Deus e uns com os outros; em Atos 2:42 a NTLH diz "vivendo em amor cristão".
+- **Ser cheio do Espírito** ("O que significa ser cheio do Espírito Santo?"): viver sob a direção do Espírito Santo; Efésios 5:18: "encham-se do Espírito de Deus".
