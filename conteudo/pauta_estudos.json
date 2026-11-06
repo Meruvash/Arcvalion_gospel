@@ -148,16 +148,16 @@
   {
    "questao": "O cristão pode beber vinho?",
    "passagem": "Romanos 14:13-23",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "vinho-romanos-14",
    "obs": "",
    "tipo": "debate"
   },
   {
    "questao": "Usos e costumes: a Bíblia regula roupa e aparência?",
    "passagem": "1 Pedro 3:3-4",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "usos-costumes-1-pedro-3",
    "obs": "",
    "tipo": "debate"
   },
@@ -493,24 +493,24 @@
    "questao": "Elias no Carmelo: o fogo que desceu do céu",
    "passagem": "1 Reis 18:20-39",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "elias-carmelo-1-reis-18",
    "obs": ""
   },
   {
    "questao": "Senhor, tu me sondas: o Deus que conhece e forma",
    "passagem": "Salmo 139",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "salmo-139",
    "obs": ""
   },
   {
    "questao": "A prova da fé: provações e sabedoria",
    "passagem": "Tiago 1:2-12",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "tiago-1",
    "obs": ""
   },
   {

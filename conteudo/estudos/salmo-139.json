@@ -1,0 +1,281 @@
+{
+ "slug": "salmo-139",
+ "status": "publicado",
+ "tipo": "passagem",
+ "titulo": "Salmo 139: o Deus que nos sonda, está em toda parte e nos formou no ventre",
+ "passagem": "Salmo 139",
+ "sigla": "Sl",
+ "livro": "Salmos",
+ "testamento": "Antigo Testamento",
+ "genero": "Poesia e sabedoria",
+ "nivel": 1,
+ "tempo_min": 35,
+ "selo": "Ótimo para começar",
+ "tagline": "Davi descobre que não há lugar onde Deus não esteja nem pensamento que ele não conheça, e termina pedindo: sonda-me, ó Deus, e conhece o meu coração.",
+ "lede": "\"Senhor, tu me sondaste, e me conheces.\" O Salmo 139 começa com um Deus que sabe tudo sobre nós, passa por um Deus de quem não se pode fugir, chega ao ventre materno, onde ele nos formou, e termina num pedido de exame. Uma lição da CPAD, uma lição batista e um estudo luterano leem o salmo, e para nós, pentecostais, ele lembra que ninguém está fora do alcance do amor de Deus.",
+ "descricao": "Estudo do Salmo 139: o Deus que conhece tudo, que está em toda parte, que nos formou no ventre materno e que sonda o coração, com comentaristas de três tradições e o olhar pentecostal.",
+ "imagem": {
+  "arquivo": "estudo-salmo-139.jpg",
+  "credito": "O rei Davi, poeta (vitral, 1863; figura desenhada por Sir Edward Burne-Jones). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)",
+  "alt": "Vitral de 1863, com figura desenhada por Edward Burne-Jones: o rei Davi, jovem, de coroa dourada e manto vermelho, toca uma harpa, de pé sobre um monte verde, diante de um fundo de quadrados claros com flores",
+  "pagina": "https://www.metmuseum.org/art/collection/search/209292",
+  "licenca": "domínio público (Open Access CC0 do Metropolitan Museum)"
+ },
+ "versiculo_chave": {
+  "texto": "Eu te louvarei, porque de um modo assombroso, e tão maravilhoso fui feito; maravilhosas são as tuas obras, e a minha alma o sabe muito bem.",
+  "referencia": "Salmos 139:14",
+  "traducao": "Almeida Corrigida Fiel (ACF), © Sociedade Bíblica Trinitariana do Brasil, citação curta"
+ },
+ "estrutura": [
+  [
+   "Tu me conheces",
+   "Sl 139:1-6. Deus conhece o sentar e o levantar, os pensamentos e as palavras antes de serem ditas."
+  ],
+  [
+   "Tu estás em toda parte",
+   "Sl 139:7-12. Não há para onde fugir do Espírito de Deus: no céu, no abismo, no mar ou nas trevas, a mão dele guia e sustenta."
+  ],
+  [
+   "Tu me formaste",
+   "Sl 139:13-18. Deus formou o salmista no ventre da mãe e viu o seu corpo ainda informe; os pensamentos de Deus são preciosos."
+  ],
+  [
+   "Contra os ímpios",
+   "Sl 139:19-22. O salmista se afasta dos que falam contra Deus e toma o lado do Senhor."
+  ],
+  [
+   "Sonda-me",
+   "Sl 139:23-24. Davi pede que Deus sonde o seu coração e o guie pelo caminho eterno."
+  ]
+ ],
+ "estrutura_resumo": "O salmo começa e termina com a mesma palavra. No versículo 1, Davi constata: tu me sondaste. No versículo 23, ele pede: sonda-me. Entre um e outro, descobre que o Deus que o conhece está em toda parte e o formou desde o ventre, e por isso o conhecimento de Deus deixa de assustar e vira oração.",
+ "questao": "O que o Salmo 139 ensina sobre o Deus que nos conhece, está em toda parte e nos formou, e como isso muda a nossa oração?",
+ "vozes": [
+  {
+   "autor": "Douglas Baptista",
+   "quem": "Comentarista das Lições Bíblicas da CPAD, segundo a revista",
+   "obra": "\"Valores cristãos — Enfrentando as questões morais de nosso tempo\", Lições Bíblicas CPAD, 2º trimestre de 2018, lição 4, \"Ética Cristã e aborto\" (reproduzida no site Estudantes da Bíblia)",
+   "url": "https://www.estudantesdabiblia.com.br/licoes_cpad/2018/2018-02-04.htm",
+   "data": "22/04/2018",
+   "texto": "Douglas Baptista usa o Salmo 139:1-18 como leitura da lição e o versículo 16 como texto áureo. Para ele, Davi descreve a própria existência desde o início da concepção, e é Deus quem concede a vida. Em outra lição, de 2026, ele lista a onisciência (139:1-6) e a onipresença (139:7-10) entre os atributos que só Deus tem.",
+   "citacao": "O rei Davi descreve sua existência como ser vivo desde o início da concepção"
+  },
+  {
+   "autor": "Rogério Senna",
+   "quem": "Autor da lição da Escola Bíblica Dominical publicada no site da Primeira Igreja Batista do Rio de Janeiro",
+   "obra": "Lição 4 sobre o Salmo 139, Deus é onipresente e onisciente, Revista Compromisso n.º 459 (PDF no site da Primeira Igreja Batista do Rio de Janeiro)",
+   "url": "https://www.pibrj.org.br/wp-content/uploads/2021/07/E04_3T_2021_-Deus-e-onipresente-e-onisciente.pdf",
+   "data": "25/07/2021",
+   "texto": "Rogério Senna lê os versículos 1 a 6 como o conhecimento íntimo de Deus, que pode assustar quem está em pecado, e os versículos 7 a 12 como uma presença que consola: a mão direita de Deus guia e sustenta aonde formos. Para ele, o tema principal do salmo não é o medo, e sim o amor de Deus, que cuida pessoalmente de toda a sua criação.",
+   "citacao": "O salmo 139 proclama sobretudo o amor de Deus, que Ele manifesta em seu cuidado e envolvimento pessoal com toda a sua criação."
+  },
+  {
+   "autor": "Felipe Gustavo Koch Buttelli",
+   "quem": "Pastor, ministro na Comunidade de Goiânia da Igreja Evangélica de Confissão Luterana no Brasil, segundo o Portal Luterano",
+   "obra": "\"Em todos os lugares da nossa vida Deus está presente - Salmo 139.14\" (estudo bíblico no Portal Luterano)",
+   "url": "https://www.luterano.org.br/em-todos-os-lugares-da-nossa-vida-deus-esta-presente-salmo-139-14/",
+   "data": "18/08/2020",
+   "texto": "Felipe Buttelli diz que o salmo mostra que nenhum limite afasta Deus da nossa vida, e que Deus já conhecia cada pessoa antes de ela ser formada. O versículo 14, para ele, convida à gratidão e ao espanto, não ao medo. Numa criação tão bem planejada, ninguém é desprezível nem tem o seu valor diminuído.",
+   "citacao": "Nenhum de nós é desprezível ou tem valor diminuído em uma Criação tão bem-feita e planejada."
+  }
+ ],
+ "contexto": [
+  "O título atribui o salmo a Davi e o dedica ao mestre de canto, o que indica uso no culto. O verbo do versículo 1, \"sondar\", é o hebraico chaqar, que o léxico de Strong, no Bible Hub, explica como penetrar e, daí, examinar intimamente. É o mesmo verbo do pedido do versículo 23.",
+  "Os versículos 13 a 16 usam imagens fortes. As \"entranhas\" (139:13) traduzem uma palavra que, segundo o léxico de Strong, indica figuradamente a mente, o eu interior. O \"entretecido\" (139:15) lembra o trabalho de bordar, e o \"corpo ainda informe\" (139:16) traduz golem, que o mesmo léxico explica como massa ainda sem forma, como o embrião.",
+  "Matthew Henry, comentarista inglês do século 18, registra que alguns doutores judeus consideravam este o mais excelente dos salmos de Davi. Sobre os versículos 13 a 16, resume o argumento assim: Ele nos fez, por isso nos conhece. E observa que a onisciência de Deus, que poderia nos vigiar para o mal, foi usada a nosso favor (tradução livre)."
+ ],
+ "aplicacao": [
+  "Leia o salmo devagar e pare no versículo 14. Agradeça a Deus pelo seu corpo, pela sua história e por quem você é. Ninguém foi feito por acaso. Se você se sente sem valor, o salmo diz o contrário: os olhos de Deus viram você antes de você nascer.",
+  "Depois, faça a oração dos versículos 23 e 24. Peça a Deus que sonde o seu coração e mostre se há algum caminho mau. Não é para ter medo: o Deus que conhece tudo é o mesmo que guia com a mão e sustenta com a destra."
+ ],
+ "destaques": [
+  [
+   "Tu me conheces",
+   "\"Senhor, tu me sondaste, e me conheces\" (139:1)."
+  ],
+  [
+   "Antes da palavra",
+   "Deus conhece tudo \"não havendo ainda palavra alguma na minha língua\" (139:4)."
+  ],
+  [
+   "Para onde me irei?",
+   "\"Para onde me irei do teu Espírito\", pergunta Davi (139:7)."
+  ],
+  [
+   "A tua mão me guiará",
+   "Até nas extremidades do mar (139:9-10)."
+  ],
+  [
+   "Tão maravilhoso fui feito",
+   "O louvor de quem descobre que foi formado por Deus (139:14)."
+  ],
+  [
+   "Sonda-me, ó Deus",
+   "A oração que fecha o salmo (139:23-24)."
+  ]
+ ],
+ "atencao": [
+  [
+   "Moderada",
+   "Ler o salmo só como ameaça",
+   "O Deus que conhece tudo é o Deus que guia e sustenta (139:10). O salmo termina em oração confiante, não em medo."
+  ],
+  [
+   "Moderada",
+   "Pular os versículos 19 a 22",
+   "Davi não pede vingança pessoal: ele toma o lado de Deus contra quem fala malvadamente contra o Senhor, e logo pede que Deus examine o seu próprio coração."
+  ],
+  [
+   "Leve",
+   "Ler os versículos 13 a 16 como aula de anatomia",
+   "É poesia de louvor. O ponto é que Deus formou e conhece cada vida desde o ventre."
+  ]
+ ],
+ "perfil": [
+  [
+   "Contexto histórico",
+   3
+  ],
+  [
+   "Aplicação prática",
+   5
+  ],
+  [
+   "Profundidade teológica",
+   5
+  ],
+  [
+   "Fé",
+   5
+  ]
+ ],
+ "formatos": [
+  [
+   "Sozinho",
+   "Leia o salmo em quatro dias, uma parte por dia, e termine cada leitura com a oração dos versículos 23 e 24.",
+   5
+  ],
+  [
+   "Em família",
+   "Leiam juntos os versículos 13 a 16 e cada um agradece a Deus por algo na vida do outro.",
+   5
+  ],
+  [
+   "Em grupo",
+   "Divida o salmo nas cinco partes e peça a cada dupla que resuma a sua numa frase de oração.",
+   5
+  ]
+ ],
+ "para_quem": [
+  "Quem se sente sozinho ou sem valor",
+  "Quem quer aprender a orar com sinceridade",
+  "Famílias que esperam um bebê"
+ ],
+ "nao_e_para": [
+  "Quem procura no salmo um tratado científico sobre a gestação"
+ ],
+ "dica": "Leia o versículo 1 e logo depois o versículo 23. Repare na mudança: Davi começa constatando que Deus o sondou e termina pedindo que Deus o sonde. Pergunte: o que aconteceu no meio do salmo para ele passar de uma frase à outra?",
+ "traducoes": "A ACF traz \"tu me sondaste\" (139:1) e \"sonda-me\" (139:23), o mesmo verbo hebraico. \"Inferno\" (139:8) traduz sheol, o lugar dos mortos, o ponto mais fundo que se podia imaginar. \"As asas da alva\" (139:9) é imagem do nascer do sol, o oriente. \"Corpo ainda informe\" (139:16) é o embrião ainda sem forma.",
+ "relacionadas": "O salmo conversa com Jeremias 1:5 e 23:24, Jó 10:8-12, Hebreus 4:13, Jonas 1 e 2 (o profeta que tentou fugir de Deus), Provérbios 15:3, Mateus 10:29-31 e Salmo 23:4.",
+ "comparacoes": [],
+ "versiculos": [
+  [
+   "Salmos 139:1",
+   "Senhor, tu me sondaste, e me conheces."
+  ],
+  [
+   "Salmos 139:7",
+   "Para onde me irei do teu Espírito, ou para onde fugirei da tua face?"
+  ],
+  [
+   "Salmos 139:16",
+   "Os teus olhos viram o meu corpo ainda informe; e no teu livro todas estas coisas foram escritas; as quais em continuação foram formadas, quando nem ainda uma delas havia."
+  ],
+  [
+   "Salmos 139:23",
+   "Sonda-me, ó Deus, e conhece o meu coração; prova-me, e conhece os meus pensamentos."
+  ]
+ ],
+ "veredito": "O Salmo 139 mostra um Deus que conhece cada pensamento, está em toda parte e formou cada vida desde o ventre. Para quem foge, isso pode assustar; para quem confia, é o maior consolo. Davi termina abrindo o coração: sonda-me, ó Deus. É a oração de quem sabe que é amado.",
+ "ficha": [
+  [
+   "Livro",
+   "Salmos"
+  ],
+  [
+   "Autor",
+   "Davi, segundo o título"
+  ],
+  [
+   "Destinatário",
+   "O mestre de canto, para uso no culto"
+  ],
+  [
+   "Passagem",
+   "24 versículos"
+  ],
+  [
+   "Palavras-chave",
+   "chaqar (sondar), yada (conhecer), ruach (Espírito), golem (corpo ainda informe)"
+  ]
+ ],
+ "fontes": [
+  [
+   "Douglas Baptista, Lições Bíblicas CPAD, 2º trimestre de 2018, lição 4 (Estudantes da Bíblia, 22/04/2018)",
+   "https://www.estudantesdabiblia.com.br/licoes_cpad/2018/2018-02-04.htm",
+   "a vida desde a concepção"
+  ],
+  [
+   "Douglas Baptista, Lições Bíblicas CPAD, 1º trimestre de 2026, lição 2 (Estudantes da Bíblia, 11/01/2026)",
+   "https://www.estudantesdabiblia.com.br/licoes_cpad/2026/2026-01-02.htm",
+   "onisciência e onipresença"
+  ],
+  [
+   "Rogério Senna, lição 4 da Revista Compromisso n.º 459 (PIB Rio de Janeiro, 25/07/2021)",
+   "https://www.pibrj.org.br/wp-content/uploads/2021/07/E04_3T_2021_-Deus-e-onipresente-e-onisciente.pdf",
+   "o amor de Deus no salmo"
+  ],
+  [
+   "Felipe Gustavo Koch Buttelli, estudo sobre o Salmo 139:14 (Portal Luterano, 18/08/2020)",
+   "https://www.luterano.org.br/em-todos-os-lugares-da-nossa-vida-deus-esta-presente-salmo-139-14/",
+   "Deus presente em todos os lugares"
+  ],
+  [
+   "Matthew Henry, comentário do Salmo 139 (Bible Study Tools, domínio público)",
+   "https://www.biblestudytools.com/commentaries/matthew-henry-complete/psalms/139.html",
+   "ele nos fez, por isso nos conhece"
+  ],
+  [
+   "Bible Hub, Strong 2713 (chaqar), 3629 (kilyah) e 1564 (golem)",
+   "https://biblehub.com/hebrew/2713.htm",
+   "as palavras hebraicas"
+  ],
+  [
+   "Declaração de Fé das Assembleias de Deus (CGADB, 2016), caps. II, VII e XVIII",
+   "https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf",
+   "atributos de Deus, o homem e a vida"
+  ],
+  [
+   "Bíblia Online, Salmo 139 (Almeida Corrigida Fiel)",
+   "https://www.bibliaonline.com.br/acf/sl/139",
+   "texto do versículo-chave"
+  ]
+ ],
+ "consulta": "06/11/2026",
+ "legenda": "\"Eu te louvarei, porque de um modo assombroso, e tão maravilhoso fui feito.\" 🙏✨\n\nNo Salmo 139, Davi descobre que Deus conhece cada pensamento, está em toda parte e o formou no ventre da mãe. E termina orando: \"Sonda-me, ó Deus, e conhece o meu coração.\"\n\nVocê já fez essa oração hoje?\n\nEstudo completo no link da bio.\n\n#salmo139 #salmos #estudobiblico #pentecostal #fe #oracao #valordavida #biblia #deusteconhece #bibleStudy",
+ "cor": "#2a4a6a",
+ "ia": {
+  "usada": true,
+  "uso": "Pesquisa nas fontes listadas e redação feitas com apoio de inteligência artificial. Citações literais conferidas no texto das páginas citadas. As lições da CPAD foram lidas na reprodução do site Estudantes da Bíblia; os subsídios de outros autores reproduzidos nelas não foram atribuídos ao comentarista. A lição batista lista várias obras de referência sem dizer o que veio de cada uma, e foi atribuída ao autor indicado no PDF. A Declaração de Fé cita o Salmo 139 em notas sobre os atributos de Deus e sobre a família; a ligação entre o texto e o que ela ensina é do portal. Linha editorial pentecostal adotada pelo portal em 30/10/2026."
+ },
+ "nossa_posicao": [
+  "O pentecostal lê o Salmo 139 como oração. A Declaração de Fé das Assembleias de Deus ensina que \"A onisciência é o conhecimento pleno de todas as coisas necessárias ou contingentes que acontecem\" e usa este salmo nas notas sobre a onisciência e a onipresença de Deus. Mas Davi não escreve uma definição: ele conversa com um Deus que conhece cada passo e cuja mão guia. É o mesmo Espírito de quem não se pode fugir que hoje enche e consola a igreja.",
+  "E o salmo fala do valor de cada vida. A Declaração diz: \"CREMOS, professamos e ensinamos que o homem é uma criação de Deus\". Ao tratar do sexto mandamento, afirma: \"O direito à vida é um bem pessoal e inalienável; sua preservação e proteção fazem parte de nossa responsabilidade como administradores da vida.\" O Deus que viu o nosso corpo ainda informe chama cada um de nós de obra maravilhosa."
+ ],
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-06T05:35:16-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-06T05:35:16-03:00"
+}
