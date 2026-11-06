@@ -1,0 +1,194 @@
+{
+ "slug": "tse-admite-acao-novo-flavio-lula-alckmin-abuso-poder",
+ "data": "2026-11-06",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "selo": "Vale acompanhar",
+ "titulo": "TSE admite ações do Novo e de Flávio contra Lula e Alckmin por abuso de poder",
+ "lide": "O corregedor-geral da Justiça Eleitoral, ministro Ricardo Villas Bôas Cueva, admitiu na quinta-feira (5) a ação do partido Novo contra a chapa de Lula e Geraldo Alckmin por suposto abuso de poder político na eleição e deu cinco dias para a defesa. Segundo o g1, ele também admitiu uma ação de Flávio Bolsonaro (PL) sobre o uso da estrutura pública de comunicação.",
+ "por_que_importa": "A Justiça Eleitoral mandou a chapa vencedora responder formalmente a acusações de abuso de poder. A admissão não diz quem tem razão: só abre o processo. Mas o caso vai levar a juízo o uso de medidas de governo em ano eleitoral, assunto que a oposição levanta desde a campanha.",
+ "numeros": [
+  [
+   "35",
+   "atos normativos, entre medidas provisórias e decretos, editados de janeiro a 16 de outubro de 2026, apontados pelo Novo na ação",
+   "Novo e g1, 05/11/2026"
+  ],
+  [
+   "5 dias",
+   "prazo dado a Lula e Alckmin para apresentar defesa",
+   "Novo e g1, 05/11/2026"
+  ],
+  [
+   "13",
+   "outras ações já apresentadas à corregedoria do TSE contra a chapa Lula-Alckmin, segundo o g1",
+   "g1, 05/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo a nota do Novo, Cueva entendeu que a petição descreve os fatos, identifica os atos questionados e traz documentos que permitem delimitar a investigação e o direito de defesa, e ressaltou que esta fase é só de admissibilidade, sem exame do mérito. Os pedidos de informações a órgãos públicos serão analisados depois das defesas. Depois disso, o corregedor decide se encerra o caso ou abre a fase de provas, com testemunhas.",
+  "Entre as medidas citadas pelo Novo estão o reajuste do Bolsa Família, a subvenção ao diesel e créditos extraordinários. O partido pede o reconhecimento do abuso, a cassação dos registros ou diplomas e a inelegibilidade de Lula e Alckmin por oito anos. Ações desse tipo, as AIJEs, costumam ser demoradas, por causa da fase de coleta de provas, segundo o g1."
+ ],
+ "no_brasil": "Segundo o g1, o TSE recebeu mais de 800 ações na reta final do segundo turno, mais que o dobro das 325 do mesmo período de 2022. A nota não localizou manifestação da defesa de Lula e Alckmin sobre a admissão das ações.",
+ "critica": [
+  {
+   "fonte": "Eduardo Ribeiro, presidente do Novo, na nota do partido",
+   "texto": "O TSE tem o dever de julgar com rigor os abusos cometidos por Lula. Democracia exige eleições livres, equilíbrio e respeito à legislação",
+   "citacao": true,
+   "url": "https://novo.org.br/noticias/tse-admite-acao-contra-lula/"
+  },
+  {
+   "fonte": "Ministro Ricardo Villas Bôas Cueva, segundo o Novo",
+   "texto": "O corregedor ressaltou que esta fase é de admissibilidade, sem julgamento do mérito das acusações.",
+   "citacao": false
+  },
+  {
+   "fonte": "Defesa de Lula e Alckmin",
+   "texto": "A nota não localizou manifestação pública da defesa sobre a admissão; o prazo de cinco dias para resposta corre a partir da notificação.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Eleitores da oposição: a ação foi admitida, mas o caminho até um julgamento é longo e o resultado está em aberto",
+  "Quem acompanha o TSE: depois das defesas, o corregedor decide se o caso vai para a fase de provas",
+  "Todos: o processo vai discutir o limite entre política pública e uso eleitoral da máquina, que vale para qualquer governo"
+ ],
+ "nao_e_para": [
+  "A admissão não é condenação nem indício de culpa: é só o reconhecimento de que a ação pode tramitar",
+  "A admissão, por si, não muda o resultado da eleição",
+  "A decisão do TSE não foi lida pela redação no site do tribunal, que bloqueia leitura automática; a nota segue a nota do autor da ação e o g1"
+ ],
+ "veredito": "A gente acha certo o caso ir adiante. Quem venceu deve explicar, em juízo, por que tantas medidas saíram justo no ano da eleição; é para isso que a Justiça Eleitoral existe. Mas admitir não é condenar. Que o TSE julgue com rapidez, provas e a mesma régua que usaria com qualquer outro presidente.",
+ "fontes": [
+  {
+   "nome": "Partido Novo: TSE admite ação do NOVO contra Lula e Alckmin por abuso de poder político (05/11/2026)",
+   "url": "https://novo.org.br/noticias/tse-admite-acao-contra-lula/",
+   "data": "05/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "g1: TSE admite ação do Novo contra Lula e Alckmin por abuso de poder político (05/11/2026)",
+   "url": "https://g1.globo.com/politica/noticia/2026/11/05/tse-admite-acao-do-novo-contra-lula-e-alckmin-por-abuso-de-poder-politico.ghtml",
+   "data": "05/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 60,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "O fato é sobre a eleição presidencial e a oposição: o TSE admite ações do Novo e de Flávio Bolsonaro contra a chapa vencedora"
+  },
+  "origem": {
+   "nome": "g1",
+   "url": "https://g1.globo.com/politica/noticia/2026/11/05/tse-admite-acao-do-novo-contra-lula-e-alckmin-por-abuso-de-poder-politico.ghtml"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Ação admitida para tramitar, sem julgamento; efeito possível e futuro"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Eleição presidencial, oposição e Flávio Bolsonaro: eixo político do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Decisão de 5/11, menos de 24 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Nota oficial do autor da ação com o resumo da decisão e reportagem independente do g1; o site do TSE bloqueia leitura automática"
+   },
+   "originalidade": {
+    "pontos": 7,
+    "porque": "Explica o que a admissão faz e não faz, os pedidos e as medidas citadas e o próximo passo"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 6,
+    "viral": 7,
+    "cristao": 2
+   },
+   "criterios": [
+    "Documento primário: nota do autor da ação (2)",
+    "Ato de poder: decisão do corregedor do TSE (2)",
+    "Proximidade: nacional (2)",
+    "Personagem com nome: Lula, Alckmin, Flávio, Cueva (1)",
+    "Duas fontes independentes (1)",
+    "Divide opiniões: abuso de poder na eleição (2)",
+    "Gatilho no calendário: prazo de defesa de cinco dias (1)",
+    "Utilidade: o que a admissão significa (1)",
+    "Pede resposta do cristão: régua igual para todos (2)",
+    "Contraria a narrativa: ação contra o vencedor admitida (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "TSE admite ação do Novo contra Lula e Alckmin por abuso de poder político",
+  "nucleo": "A - Brasil",
+  "categoria": "Justiça Eleitoral / oposição",
+  "coleta": "2026-11-06",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado pelo autor da ação e por reportagem independente",
+   "contradicoes": "O Novo fala em quase R$ 100 bilhões em créditos extraordinários; o g1 cita R$ 73 bilhões de impacto estimado das medidas. São recortes diferentes; a nota não usa os valores.",
+   "sem_confirmacao": "íntegra da decisão (site do TSE bloqueia robôs); defesa de Lula e Alckmin; detalhes da ação de Flávio"
+  },
+  "duplicidade": {
+   "grupo": "AIJEs contra a chapa Lula-Alckmin",
+   "itens": [
+    "g1 05/11",
+    "Novo 05/11",
+    "Claudio Dantas 05/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se o TSE vai investigar Lula e Alckmin por abuso de poder",
+   "entidades": [
+    "TSE",
+    "Lula",
+    "Geraldo Alckmin",
+    "Partido Novo",
+    "Flávio Bolsonaro",
+    "Ricardo Villas Bôas Cueva"
+   ],
+   "termos": [
+    "TSE ação Lula abuso de poder",
+    "AIJE Lula Alckmin",
+    "cassação Lula TSE",
+    "Novo TSE Lula"
+   ],
+   "atualizacao": "acompanhar as defesas e a decisão sobre a fase de provas"
+  }
+ },
+ "descricao_seo": "Em 5/11, o corregedor do TSE admitiu ações do Novo e de Flávio Bolsonaro contra Lula e Alckmin por suposto abuso de poder político.",
+ "instituicao": "Tribunal Superior Eleitoral",
+ "editora": "Tribunal Superior Eleitoral",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da nota do partido e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: o abuso de poder é descrito como suposto e atribuído ao Novo e a Flávio; a frase entre aspas do presidente do Novo foi lida na nota do partido e é a opinião dele, atribuída. A nota repete que a admissão não é juízo de mérito e registra a ausência de manifestação da defesa. A opinião defende o devido processo sem afirmar culpa de Lula ou Alckmin.",
+ "imagem": {
+  "arquivo": "capas/tse-admite-acao-novo-flavio-lula-alckmin-abuso-poder.jpg",
+  "credito": "Foto: Marcello Casal Jr./Agência Brasil",
+  "alt": "Fachada do edifício-sede do Tribunal Superior Eleitoral, em Brasília (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/BA1Jh39bl7nrN6-y66Za1k8z3Qg=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/tse_1908200982.jpg?itok=hnUKsnIE",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/tse-altera-entendimento-sobre-cota-de-genero-e-mantem-mandato"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-06T02:32:55-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-06T02:32:55-03:00"
+}
