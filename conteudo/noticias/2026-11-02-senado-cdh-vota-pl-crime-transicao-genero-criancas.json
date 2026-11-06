@@ -56,7 +56,7 @@
  ],
  "nao_e_para": [
   "A CDH dá parecer não terminativo: aprovar lá não transforma o projeto em lei, e o texto ainda pode mudar na CAS e na CCJ",
-  "A pauta pode ser adiada ou o item retirado na própria reunião",
+  "Atualização: na reunião de 4/11, a CDH adiou a apreciação do projeto, segundo a tramitação oficial do Senado; não há nova data marcada",
   "Não localizamos manifestação oficial do CFM ou de entidades de defesa de pessoas trans sobre este projeto na tramitação do Senado"
  ],
  "veredito": "A gente apoia proteger a criança do que não tem volta: bisturi e hormônio em menor de idade podem deixar marca para a vida inteira. Mas lei penal boa é lei precisa: punir quem aplica cirurgia e hormônio, não o psicólogo que escuta nem o pai que pede ajuda. Texto amplo demais é atalho para o Supremo derrubar tudo.",
@@ -95,6 +95,12 @@
    "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/projetos-de-lei-no-congresso-preveem-prender-medicos-por-prescrever-tratamento-para-jovens-trans/",
    "data": "16/04/2025",
    "tipo": "secundaria"
+  },
+  {
+   "nome": "Senado Federal: tramitação do PL 501/2023 (dados abertos), adiamento em 4/11/2026",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo?sigla=PL&numero=501&ano=2023",
+   "data": "04/11/2026",
+   "tipo": "primaria"
   }
  ],
  "crivo": {
@@ -212,8 +218,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-02T15:15:21-03:00",
+  "data": "2026-11-06T02:36:44-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-02T15:15:21-03:00"
+ "publicado_em": "2026-11-02T15:15:21-03:00",
+ "atualizado_em": "2026-11-06T02:36:44-03:00"
 }
