@@ -1,0 +1,196 @@
+{
+ "slug": "stf-audiencia-publica-lei-alienacao-parental-psb",
+ "data": "2026-11-06",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "STF fará audiência sobre Lei de Alienação Parental, contestada pelo PSB; inscrições até 26/11",
+ "lide": "O ministro Flávio Dino convocou para 14 de dezembro uma audiência pública no STF sobre a Lei de Alienação Parental (Lei 12.318/2010), contestada pelo PSB na ADI 7606. O debate vai tratar da falsa denúncia contra um dos pais e das medidas urgentes que o juiz pode tomar para garantir a convivência da criança com o genitor. Interessados em expor se inscrevem até 26 de novembro.",
+ "por_que_importa": "A lei protege o direito do filho de conviver com o pai e com a mãe quando a separação vira guerra. O PSB quer derrubar dois trechos: o que trata a falsa denúncia como alienação e o que permite medidas urgentes com base em indícios. O que sair do STF vai pesar em milhares de disputas de guarda nas varas de família.",
+ "numeros": [
+  [
+   "14/12",
+   "data da audiência pública, às 9h, na sala da Primeira Turma do STF",
+   "STF, notícia de 05/11/2026"
+  ],
+  [
+   "26/11",
+   "prazo para entidades e pessoas pedirem para expor na audiência, por e-mail ao gabinete do relator",
+   "STF, notícia de 05/11/2026"
+  ],
+  [
+   "2",
+   "trechos da lei contestados pelo PSB: o exemplo da falsa denúncia (art. 2º) e as medidas urgentes (art. 4º)",
+   "STF, notícia de 04/03/2024"
+  ]
+ ],
+ "corpo": [
+  "Segundo a lei, alienação parental é a interferência na formação psicológica da criança, promovida por um dos pais, pelos avós ou por quem tem a guarda, para que ela repudie o outro genitor ou para prejudicar o vínculo com ele. Um dos exemplos previstos é apresentar falsa denúncia contra o genitor ou a família dele para dificultar a convivência. Havendo indício, o juiz deve tomar medidas urgentes para preservar a criança, inclusive garantir a convivência com o genitor.",
+  "Para o PSB, o exemplo da falsa denúncia tem levado à rotulação de denúncias reais de abuso como falsas em disputas de guarda, e as medidas com base em indícios podem fazer a mãe denunciante perder o convívio com o filho. A audiência deve discutir parâmetros para identificar denúncias falsas e os riscos das medidas judiciais para crianças e pais."
+ ],
+ "no_brasil": "A ação foi proposta em março de 2024 e está com Flávio Dino. Na petição, o PSB cita o Protocolo para Julgamento com Perspectiva de Gênero do CNJ, de 2021. A lista dos expositores será divulgada no portal do STF a partir de 2 de dezembro; quem não for escolhido pode mandar contribuição por escrito, com autorização do relator.",
+ "critica": [
+  {
+   "fonte": "PSB, autor da ação, segundo o STF",
+   "texto": "O partido sustenta que a inclusão da falsa denúncia como alienação parental pode ser usada para desqualificar denúncias de violência doméstica e sexual, inclusive por genitores acusados de abuso, e inibir a comunicação de situações de violência às autoridades.",
+   "citacao": false
+  },
+  {
+   "fonte": "Lei 12.318/2010, art. 4º, segundo o STF",
+   "texto": "Declarado indício de alienação parental, o juiz determinará, com urgência, as medidas provisórias necessárias para preservar a integridade psicológica da criança, inclusive para assegurar a convivência com o genitor ou viabilizar a reaproximação.",
+   "citacao": false
+  },
+  {
+   "fonte": "STF, sobre os critérios de escolha dos expositores",
+   "texto": "A seleção vai considerar experiência, pertinência das contribuições e pluralidade de perspectivas, com equilíbrio entre áreas de conhecimento e posições sobre o tema.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Pais e mães separados: a lei segue valendo enquanto a ação não for julgada; a audiência não muda nada por si",
+  "Entidades de família, igrejas e profissionais da área: quem quiser expor tem até 26/11 para se inscrever no STF",
+  "Pastores que aconselham casais em separação: o tema pede cuidado com os dois riscos, a falsa acusação e o abuso real"
+ ],
+ "nao_e_para": [
+  "A audiência não é julgamento: nenhum trecho da lei foi suspenso",
+  "A lei não impede denúncia de abuso; o que ela lista como alienação é a falsa denúncia usada para dificultar a convivência",
+  "O despacho de convocação está no portal de processos do STF, que não permite leitura automática; a nota segue as notícias oficiais"
+ ],
+ "veredito": "A gente defende a lei. Filho tem direito ao pai e à mãe, e falsa denúncia usada como arma numa separação fere primeiro a criança. Abuso real precisa de resposta rápida, e ajustes podem vir. Mas derrubar os trechos seria jogar fora a proteção junto com o problema. Que a audiência ouça pais e mães.",
+ "versiculo": {
+  "texto": "e converterá o coração dos pais aos filhos e o coração dos filhos a seus pais",
+  "referencia": "Malaquias 4.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: STF fará audiência pública sobre aplicação da Lei de Alienação Parental (05/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-fara-audiencia-publica-sobre-aplicacao-da-lei-de-alienacao-parental/",
+   "data": "05/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: PSB contesta trechos da Lei de Alienação Parental (04/03/2024), sobre a ADI 7606",
+   "url": "https://noticias.stf.jus.br/postsnoticias/psb-contesta-trechos-da-lei-de-alienacao-parental/",
+   "data": "04/03/2024",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre o direito dos filhos à convivência com os pais: o STF abre audiência sobre a Lei de Alienação Parental"
+  },
+  "origem": {
+   "nome": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-fara-audiencia-publica-sobre-aplicacao-da-lei-de-alienacao-parental/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Audiência pública convocada numa ação ainda sem julgamento; efeito futuro sobre disputas de guarda"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Pais, filhos e guarda após a separação: núcleo do portal, com efeito direto em muitas famílias"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Convocação de 5/11, com prazo de inscrição em 26/11"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Duas notícias oficiais do STF, da convocação e da ação, com os trechos contestados; o despacho está no portal de processos, que bloqueia leitura automática"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Explica o que a lei diz, os dois trechos atacados, o argumento do PSB e o calendário da audiência"
+   }
+  },
+  "publico": {
+   "pontos": 17,
+   "eixos": {
+    "valor": 8,
+    "viral": 5,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: notícias oficiais do STF (2)",
+    "Ato de poder: convocação pelo relator no STF (2)",
+    "Proximidade: nacional (2)",
+    "Divide opiniões: falsa denúncia e abuso real (2)",
+    "Gatilho no calendário: inscrições até 26/11 (1)",
+    "Utilidade: como participar (1)",
+    "Personagem com nome: Flávio Dino (1)",
+    "Pede resposta do cristão: pais, filhos e separação (2)",
+    "Passagem bíblica que um pastor usaria: Malaquias 4.6 (2)",
+    "Rende estudo: família depois da separação (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "STF fará audiência pública sobre aplicação da Lei de Alienação Parental",
+  "nucleo": "A - Brasil",
+  "categoria": "Judiciário / família",
+  "coleta": "2026-11-06",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em fonte oficial",
+   "contradicoes": "Nenhuma entre as notícias do STF.",
+   "sem_confirmacao": "íntegra do despacho; data do julgamento da ADI 7606"
+  },
+  "duplicidade": {
+   "grupo": "ADI 7606",
+   "itens": [
+    "STF 05/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que o STF vai discutir sobre a Lei de Alienação Parental",
+   "entidades": [
+    "STF",
+    "ADI 7606",
+    "Flávio Dino",
+    "PSB",
+    "Lei 12.318/2010"
+   ],
+   "termos": [
+    "alienação parental STF",
+    "Lei de Alienação Parental",
+    "falsa denúncia guarda",
+    "audiência pública alienação parental"
+   ],
+   "atualizacao": "acompanhar a lista de expositores (2/12) e a audiência de 14/12"
+  }
+ },
+ "descricao_seo": "Flávio Dino convocou para 14/12 audiência pública no STF sobre a Lei de Alienação Parental, contestada pelo PSB; inscrições até 26/11.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das notícias do STF, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos e argumentos vêm de duas notícias oficiais do STF, atribuídos, sem citação literal. A opinião defende a lei e reconhece a gravidade do abuso real; não acusa o PSB, mães, pais ou entidades de má-fé, nem trata denúncias concretas como falsas.",
+ "imagem": {
+  "arquivo": "capas/stf-audiencia-publica-lei-alienacao-parental-psb.jpg",
+  "credito": "Pintor neerlandês, Virgem e o Menino com São José (segunda metade do século XVI), The Metropolitan Museum of Art",
+  "alt": "Pintura neerlandesa do século XVI: Maria segura o Menino Jesus ao colo enquanto José, à mesa, serve a refeição da família",
+  "licenca": "Domínio público (Open Access do Met, CC0)",
+  "origem": "https://images.metmuseum.org/CRDImages/rl/original/DT3084.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/459063"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-06T02:30:41-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-06T02:30:41-03:00"
+}
