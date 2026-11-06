@@ -17,7 +17,7 @@
  "imagem": {
   "arquivo": "estudo-filhos-de-deus-genesis-6.jpg",
   "credito": "Lorenzo Monaco, Noé (têmpera sobre madeira com fundo de ouro, c. 1408-10). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)",
-  "alt": "Pintura de Lorenzo Monaco, c. 1408-10, com fundo de ouro em arco: Noé, de barba grisalha, auréola, turbante e manto azul, sentado, aponta para o alto com uma mão e segura com a outra uma pequena arca em forma de casa",
+  "alt": "Pintura de Lorenzo Monaco, c. 1408-10, com fundo de ouro em arco: Noé, de barba grisalha e auréola, com a cabeça coberta por um pano azul, túnica azul e manto vermelho, sentado, aponta para o alto com uma mão e segura com a outra uma pequena arca em forma de casa",
   "pagina": "https://www.metmuseum.org/art/collection/search/436914",
   "licenca": "domínio público (Open Access CC0 do Metropolitan Museum)"
  },
@@ -106,15 +106,15 @@
   }
  ],
  "convergencias": [
-  "Em Jó 1:6 e 2:1, \"filhos de Deus\" são anjos: Zibordi, Felipe Oliveira, Siqueira e Vailatti concordam. A divergência é se o mesmo sentido vale para Gênesis 6.",
+  "Em Jó 1:6 e 2:1, \"filhos de Deus\" são anjos: Zibordi e Vailatti afirmam isso, e Siqueira registra que assim os entendeu a Septuaginta. A divergência é se o mesmo sentido vale para Gênesis 6.",
   "Os anjos não se casam (Mateus 22:30): Zibordi e Siqueira usam o texto contra a leitura angelical, e Felipe Oliveira aceita a premissa, respondendo que esses anjos agiram contra a própria natureza.",
   "Anjos pecaram e estão presos para o juízo (2 Pedro 2:4; Judas 6): a Declaração de Fé cita os dois textos, e Felipe Oliveira os usa.",
   "O texto é difícil e disputado: Siqueira reconhece argumentos fortes em todas as leituras, e Felipe Oliveira diz que o tema não é essencial.",
-  "O resultado foi a corrupção que levou ao dilúvio: Claudionor de Andrade, Zibordi e Felipe Oliveira leem o trecho como introdução ao juízo de Gênesis 6:5-7."
+  "O resultado foi a corrupção que levou ao dilúvio: Claudionor de Andrade e Zibordi leem o trecho como introdução ao juízo de Gênesis 6:5-7."
  ],
  "contexto": [
   "Gênesis 4 conta a linhagem de Caim, que termina em Lameque, o primeiro bígamo e um homem violento (4:19-24). Gênesis 5 conta a linhagem de Sete, com Enoque, que andou com Deus, e termina em Noé. Gênesis 6:1-4 vem entre as duas listas e o relato do dilúvio, e logo depois o texto diz que \"a maldade do homem se multiplicara sobre a terra\" (6:5).",
-  "\"Gigantes\" (6:4) traduz nefilim, palavra que, segundo o léxico de Strong no Bible Hub, aparece só em Gênesis 6:4 e Números 13:33; o Strong a define como valentão, tirano, gigante. O léxico Brown-Driver-Briggs registra que a leitura angelical é a da Septuaginta, de 1 Enoque e de muitos pais antigos, e que Agostinho, Lutero e Calvino entenderam os filhos de Deus como os piedosos. Uma terceira leitura vê ali reis ou nobres poderosos; o presbiteriano Renato Patrick, de Conselheiro Lafaiete (MG), a defende no seu blog.",
+  "\"Gigantes\" (6:4) traduz nefilim, palavra que, segundo o léxico de Strong no Bible Hub, aparece só em Gênesis 6:4 e Números 13:33; o Strong a define como valentão, tirano, gigante. O léxico Brown-Driver-Briggs registra que a leitura angelical é a da Septuaginta, de 1 Enoque, da maioria dos pais antigos e dos críticos modernos, e que Agostinho, Lutero e Calvino entenderam os filhos de Deus como os piedosos. Uma terceira leitura vê ali reis ou nobres poderosos; o presbiteriano Renato Patrick, de Conselheiro Lafaiete (MG), a defende no seu blog.",
   "Matthew Henry, comentarista inglês do século 18, escreveu que os filhos de Deus eram os que professavam a religião e invocavam o nome do Senhor, e que a descendência de Sete não se manteve à parte, como devia; sobre os valentes do versículo 4, comentou que grande poder é um grande laço para muitos (tradução livre)."
  ],
  "aplicacao": [
@@ -328,8 +328,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-05T05:30:19-03:00",
+  "data": "2026-11-05T21:16:43-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-05T05:30:19-03:00"
+ "publicado_em": "2026-11-05T05:30:19-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-05",
+   "texto": "Correção em 05/11/2026: Felipe Oliveira não fala de Jó nem lê Gênesis 6:1-4 como introdução ao juízo de 6:5-7; as convergências foram atribuídas a quem as afirma (Zibordi, Vailatti, Siqueira e Claudionor de Andrade)."
+  }
+ ],
+ "atualizado_em": "2026-11-05T21:16:43-03:00"
 }
