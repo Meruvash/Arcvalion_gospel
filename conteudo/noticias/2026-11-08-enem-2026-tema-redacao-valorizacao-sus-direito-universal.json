@@ -1,0 +1,195 @@
+{
+ "slug": "enem-2026-tema-redacao-valorizacao-sus-direito-universal",
+ "data": "2026-11-08",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "selo": "Informativo",
+ "titulo": "Enem 2026: tema da redação é a valorização do SUS como direito universal",
+ "lide": "O tema da redação do Enem 2026, aplicado neste domingo (8) em todo o país, é \"A valorização do Sistema Único de Saúde (SUS) como direito universal\", divulgado pelo ministro da Educação, Leonardo Barchini. Segundo o MEC, são mais de 5 milhões de inscrições confirmadas, com provas em 14.868 locais de 1.901 municípios.",
+ "por_que_importa": "A redação vale 20% da nota e decide vagas em universidades, institutos federais, Prouni e Fies. Milhões de famílias acompanham esse dia com o coração na mão. O tema pede que o candidato defenda um ponto de vista com argumentos e proponha soluções, respeitando os direitos humanos, como manda a última competência avaliada.",
+ "numeros": [
+  [
+   "5 milhões",
+   "de inscrições confirmadas no Enem 2026, segundo o MEC",
+   "MEC, 08/11/2026"
+  ],
+  [
+   "20%",
+   "da nota final do Enem corresponde à redação",
+   "Agência Brasil, 08/11/2026"
+  ],
+  [
+   "600 mil",
+   "pessoas envolvidas na aplicação, entre coordenadores, aplicadores e fiscais",
+   "MEC, 08/11/2026"
+  ]
+ ],
+ "corpo": [
+  "A redação é dissertativo-argumentativa, com no mínimo 8 e no máximo 30 linhas, e recebe de 0 a 200 pontos em cada uma das cinco competências, num total de até 1.000. Entre as situações que zeram a nota estão trecho deliberadamente desconectado do tema e desobediência à estrutura dissertativo-argumentativa, segundo a Agência Brasil.",
+  "Entre os temas dos últimos anos, segundo a Agência Brasil, estão \"Perspectivas acerca do envelhecimento na sociedade brasileira\" e \"Desafios para a valorização da herança africana no Brasil\". Em visita à sala de monitoramento do Inep, o presidente Lula e o ministro Barchini destacaram a segurança da aplicação, e o ministro disse que hoje quase 70% dos estudantes das universidades federais vêm de escola pública."
+ ],
+ "no_brasil": "A nota do Enem serve para disputar vagas em universidades e institutos federais de todo o país e para programas como Prouni e Fies, segundo o MEC. A prova começou às 13h30, horário de Brasília, com portões fechados às 13h, de acordo com a Agência Brasil.",
+ "critica": [
+  {
+   "fonte": "Ministro da Educação, Leonardo Barchini, segundo o MEC",
+   "texto": "Essa prova mudou o país. Antigamente, somente um terço dos estudantes das universidades federais vinha de escola pública. Agora, quase 70% dos estudantes vêm da escola pública",
+   "citacao": true,
+   "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/presidente-lula-e-ministro-leonardo-barchini-acompanham-monitoramento-do-enem"
+  },
+  {
+   "fonte": "Guia do Participante, segundo a Agência Brasil",
+   "texto": "A redação é argumentativa porque defende um ponto de vista e dissertativa porque usa explicações para justificá-lo.",
+   "citacao": false
+  },
+  {
+   "fonte": "Ponto de atenção da redação",
+   "texto": "Tema de política pública pede argumento e proposta, não militância: o candidato é avaliado pela qualidade do raciocínio, não pelo lado que escolhe.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Pais de candidatos: nos dias de prova, descanso, comida e oração em casa ajudam mais que cobrança",
+  "Professores e líderes de jovens: o tema é bom para treinar argumentação com dados e proposta de solução",
+  "Igrejas: muitos jovens da congregação fizeram a prova hoje; vale lembrar deles no culto"
+ ],
+ "nao_e_para": [
+  "Os números de inscritos e locais são do MEC; o total de faltosos ainda não foi divulgado na coleta",
+  "O gabarito e o resultado saem depois, pelo Inep",
+  "A nota não avalia o mérito do tema escolhido pelo Inep"
+ ],
+ "veredito": "A gente torce pelos milhões de jovens que encararam a prova. Saúde pública é tema legítimo, e o cristão tem muito a dizer sobre cuidar de quem sofre. Que os candidatos tenham escrito com razão e com coração, e que os pais acolham, com ou sem nota alta. Sabedoria vale mais que nota.",
+ "versiculo": {
+  "texto": "A sabedoria é a coisa principal; adquire, pois, a sabedoria",
+  "referencia": "Provérbios 4.7",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "MEC: Presidente Lula e ministro Leonardo Barchini acompanham monitoramento do Enem (08/11/2026)",
+   "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/presidente-lula-e-ministro-leonardo-barchini-acompanham-monitoramento-do-enem",
+   "data": "08/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Tema da redação do Enem é \"Valorização do SUS como direito universal\" (08/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/tema-da-redacao-do-enem-e-valorizacao-do-sus-como-direito-universal",
+   "data": "08/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 63,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "educacao",
+   "porque": "O fato é sobre a educação dos filhos: o Enem, que decide o acesso de milhões de jovens à universidade"
+  },
+  "origem": {
+   "nome": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/tema-da-redacao-do-enem-e-valorizacao-do-sus-como-direito-universal"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Exame aplicado a mais de 5 milhões de inscritos, com efeito direto no acesso à universidade"
+   },
+   "afinidade": {
+    "pontos": 15,
+    "porque": "Educação dos filhos e futuro dos jovens das famílias leitoras"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Prova e tema divulgados neste domingo (8)"
+   },
+   "comprovacao": {
+    "pontos": 12,
+    "porque": "Nota oficial do MEC com os números e reportagem da Agência Brasil com o tema e as regras"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Síntese de fontes com orientação para pais e igrejas"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 2
+   },
+   "criterios": [
+    "Documento primário: nota oficial do MEC (2)",
+    "Proximidade: nacional (2)",
+    "Número forte com fonte oficial: 5 milhões de inscritos (1)",
+    "Utilidade: regras da redação (1)",
+    "Gatilho no calendário: Enem hoje (1)",
+    "Pede resposta do cristão: apoio aos jovens (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 4.7 (2)",
+    "Personagem com nome: Leonardo Barchini (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Tema da redação do Enem é \"Valorização do SUS como direito universal\"",
+  "nucleo": "A - Brasil",
+  "categoria": "Educação / Enem",
+  "coleta": "2026-11-08",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado em fonte oficial e reportagem",
+   "contradicoes": "Nenhuma.",
+   "sem_confirmacao": "número de faltosos; detalhes da reaplicação para atingidos por temporais"
+  },
+  "duplicidade": {
+   "grupo": "Enem 2026, primeiro dia",
+   "itens": [
+    "MEC 08/11",
+    "Agência Brasil 08/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o tema da redação do Enem 2026",
+   "entidades": [
+    "Enem 2026",
+    "Inep",
+    "MEC",
+    "Leonardo Barchini",
+    "SUS"
+   ],
+   "termos": [
+    "tema da redação Enem 2026",
+    "redação Enem SUS",
+    "Enem 2026 primeiro dia",
+    "temas anteriores Enem"
+   ],
+   "atualizacao": "acompanhar o segundo dia e o gabarito"
+  }
+ },
+ "descricao_seo": "O tema da redação do Enem 2026, aplicado em 8/11, é a valorização do SUS como direito universal; mais de 5 milhões de inscritos.",
+ "instituicao": "Ministério da Educação",
+ "editora": "Ministério da Educação",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da nota do MEC e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: números vêm da nota oficial do MEC e regras da Agência Brasil, atribuídos; a frase entre aspas do ministro foi lida no MEC. A nota não critica o Inep nem o governo e não atribui posição política a candidatos.",
+ "imagem": {
+  "arquivo": "capas/enem-2026-tema-redacao-valorizacao-sus-direito-universal.jpg",
+  "credito": "Foto: Fernando Frazão/Agência Brasil",
+  "alt": "Símbolo do Sistema Único de Saúde (SUS) em unidade de saúde no Rio de Janeiro (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/nyp6VzWRDQBZXLrsjLciDkM_dKc=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/04/24/_d6a2683.jpg?itok=JhwVz-Tw",
+  "pagina": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/tema-da-redacao-do-enem-e-valorizacao-do-sus-como-direito-universal"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-08T14:52:56-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-08T14:52:56-03:00"
+}
