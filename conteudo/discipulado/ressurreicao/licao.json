@@ -1,0 +1,116 @@
+{
+ "slug": "ressurreicao",
+ "titulo": "Jesus ressuscitou mesmo?",
+ "titulo_seo": "Jesus ressuscitou mesmo? O que a Bíblia diz sobre a ressurreição e a Páscoa",
+ "ideia_central": "Jesus ressuscitou de verdade, no mesmo corpo, diante de muitas testemunhas; por isso a fé tem fundamento, o pecado foi vencido, a morte não tem a última palavra e Cristo é o nosso Cordeiro da Páscoa.",
+ "descricao": "Jesus ressuscitou mesmo? O túmulo vazio, as testemunhas de 1 Coríntios 15, o corpo que comeu peixe assado, por que a fé depende disso e o que a Páscoa significa para os cristãos.",
+ "tempo_min": 12,
+ "resumo_rapido": {
+  "resposta": "Sim. A Bíblia conta que Jesus foi sepultado e, no terceiro dia, ressuscitou no mesmo corpo; o túmulo ficou vazio e muitas testemunhas o viram vivo. Sem a ressurreição a fé seria \"uma ilusão\"; com ela, o pecado e a morte foram vencidos.",
+  "ideias": [
+   "Jesus apareceu \"de uma só vez, a mais de quinhentos seguidores\" (1 Coríntios 15:6).",
+   "\"um fantasma não tem carne nem ossos, como vocês estão vendo que eu tenho\" (Lucas 24:39).",
+   "\"Cristo, o nosso Cordeiro da Páscoa, já foi oferecido em sacrifício\" (1 Coríntios 5:7)."
+  ],
+  "texto_central": "1 Coríntios 15:3-8 e 15:14-20"
+ },
+ "versiculo_chave": {
+  "texto": "Mas a verdade é que Cristo foi ressuscitado, e isso é a garantia de que os que estão mortos também serão ressuscitados.",
+  "referencia": "1 Coríntios 15:20"
+ },
+ "contexto": [
+  [
+   "Domingo",
+   "As mulheres",
+   "Acharam a pedra tirada e o túmulo vazio (Lucas 24:1-3)"
+  ],
+  [
+   "Corpo",
+   "Os discípulos",
+   "Jesus mostrou mãos e pés e comeu peixe assado (Lucas 24:39-43)"
+  ],
+  [
+   "Dúvida",
+   "Tomé",
+   "\"Meu Senhor e meu Deus!\" (João 20:28)"
+  ],
+  [
+   "Testemunhas",
+   "Paulo",
+   "Pedro, os doze, mais de quinhentos, Tiago e o próprio Paulo (1 Coríntios 15:5-8)"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "A ressurreição é só um símbolo",
+   "\"se Cristo não foi ressuscitado... a fé que vocês têm é uma ilusão\" (1 Coríntios 15:14, 17); a Declaração de Fé: \"A ressurreição de Jesus foi corporal\"."
+  ],
+  [
+   "Moderada",
+   "Jesus voltou como espírito",
+   "\"um fantasma não tem carne nem ossos, como vocês estão vendo que eu tenho\" (Lucas 24:39)."
+  ],
+  [
+   "Moderada",
+   "Ressurreição e reencarnação são a mesma coisa",
+   "\"Cada pessoa tem de morrer uma vez só e depois ser julgada por Deus\" (Hebreus 9:27); a Declaração de Fé rejeita a reencarnação."
+  ],
+  [
+   "Leve",
+   "Páscoa é só feriado e chocolate",
+   "\"Cristo, o nosso Cordeiro da Páscoa, já foi oferecido em sacrifício\" (1 Coríntios 5:7)."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "Jesus ressuscitou mesmo?",
+  "evidencias": [
+   {
+    "fonte": "Google Trends (Ano em Pesquisa 2017)",
+    "url": "https://trends.withgoogle.com/year-in-search/2017/br/",
+    "dado": "\"O que é Páscoa?\" é a 6ª da lista \"O que é\" do Ano em Pesquisa 2017 no Brasil",
+    "data": "2026-11-08"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=o%20que%20%C3%A9%20p%C3%A1scoa",
+    "dado": "para \"o que é páscoa\", sugere \"o que é páscoa para os cristãos\" e \"o que é páscoa judaica\"",
+    "data": "2026-11-08"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=jesus%20ressuscitou%20mesmo",
+    "dado": "para \"jesus ressuscitou mesmo\", sugere \"jesus ressuscitou no mesmo corpo\"",
+    "data": "2026-11-08"
+   }
+  ]
+ },
+ "categoria": "salvacao-e-nova-vida",
+ "palavras_chave": [
+  "ressurreição de Jesus",
+  "Jesus ressuscitou",
+  "Páscoa",
+  "o que é Páscoa",
+  "1 Coríntios 15",
+  "túmulo vazio",
+  "Cordeiro da Páscoa",
+  "Tomé",
+  "reencarnação"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-ressurreicao.jpg",
+  "alt": "Pintura sobre madeira: Jesus, de manto rosa-avermelhado, está de pé sobre um túmulo de pedra cinza com a tampa deslocada, a mão direita erguida e a esquerda segurando um estandarte vermelho; em volta, quatro soldados de armadura, uns encolhidos e um recuando; ao fundo, colinas verdes e montanhas azuladas.",
+  "credito": "Perugino (Pietro di Cristoforo Vannucci), A Ressurreição (têmpera sobre madeira, entre 1497 e 1507). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, comentários de Matthew Henry e João Calvino e notas de John Wesley. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-08T15:31:23-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-08T15:31:23-03:00"
+}

@@ -1,0 +1,116 @@
+{
+ "slug": "salvacao",
+ "titulo": "O que é a salvação?",
+ "titulo_seo": "O que é a salvação segundo a Bíblia? Entenda o que ela ensina",
+ "ideia_central": "Salvação é ser livrado do pecado e da morte e voltar à plena comunhão com Deus, só por meio de Jesus, pela graça, mediante a fé; começa agora, cresce na santificação e se completa na glória.",
+ "descricao": "O que é a salvação? Salvos de quê, por quem, como e para quê: Tito 3, Atos 4:12 e Efésios 2:8-10, a salvação pela graça mediante a fé, que começa agora e se completa na glória.",
+ "tempo_min": 11,
+ "resumo_rapido": {
+  "resposta": "Salvação é o livramento do pecado, da culpa e da morte e a volta à plena comunhão com Deus. Ela só vem por Jesus e é recebida pela graça, mediante a fé, e não pelas obras. Começa no ato de crer e se completa na glória.",
+  "ideias": [
+   "\"A salvação só pode ser conseguida por meio dele\" (Atos 4:12).",
+   "\"Pois pela graça de Deus vocês são salvos por meio da fé. Isso não vem de vocês, mas é um presente dado por Deus\" (Efésios 2:8).",
+   "Deus nos salvou \"e não porque nós tivéssemos feito alguma coisa boa\" (Tito 3:5)."
+  ],
+  "texto_central": "Tito 3:3-7"
+ },
+ "versiculo_chave": {
+  "texto": "Pois pela graça de Deus vocês são salvos por meio da fé. Isso não vem de vocês, mas é um presente dado por Deus.",
+  "referencia": "Efésios 2:8"
+ },
+ "contexto": [
+  [
+   "Antes",
+   "Tito 3",
+   "\"éramos rebeldes e maus\" e \"escravos das paixões\""
+  ],
+  [
+   "Salvador",
+   "Pedro",
+   "\"não há no mundo inteiro nenhum outro\" pelo qual possamos ser salvos (Atos 4:12)"
+  ],
+  [
+   "Meio",
+   "Paulo",
+   "\"pela graça de Deus vocês são salvos por meio da fé\" (Efésios 2:8)"
+  ],
+  [
+   "Depois",
+   "Nova vida",
+   "\"Quem está unido com Cristo é uma nova pessoa\" (2 Coríntios 5:17)"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Grave",
+   "Quem é boa pessoa é salvo",
+   "\"A salvação não é o resultado dos esforços de vocês\" (Efésios 2:9); ela só vem por Jesus (Atos 4:12)."
+  ],
+  [
+   "Moderada",
+   "Salvação é só ir para o céu depois de morrer",
+   "No ato de crer, o pecador já é \"salvo, justificado e adotado como filho de Deus\" (Declaração de Fé); \"já chegou o que é novo\" (2 Coríntios 5:17)."
+  ],
+  [
+   "Moderada",
+   "Basta uma oração, e a vida pode continuar igual",
+   "A salvação \"não é um mero assentimento intelectual, e sim um renascimento espiritual\" (Declaração de Fé)."
+  ],
+  [
+   "Leve",
+   "A salvação é uma recompensa pelo que fiz",
+   "Deus nos salvou \"e não porque nós tivéssemos feito alguma coisa boa\" (Tito 3:5); é \"um presente\" (Efésios 2:8)."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "O que é a salvação?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=o%20que%20%C3%A9%20a%20salva%C3%A7%C3%A3o",
+    "dado": "para \"o que é a salvação\", sugere \"o que é a salvação segundo a bíblia\", \"o que é a salvação pela graça\" e \"o que é a salvação em cristo jesus\"",
+    "data": "2026-11-08"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=como%20ser%20salvo",
+    "dado": "para \"como ser salvo\", sugere \"como ser salvo por jesus\" e \"como ser salvo pela graça\"",
+    "data": "2026-11-08"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=o%20que%20%C3%A9%20a%20salva%C3%A7%C3%A3o",
+    "dado": "para \"o que é a salvação\", sugere \"o que é necessário para a salvação\"",
+    "data": "2026-11-08"
+   }
+  ]
+ },
+ "categoria": "salvacao-e-nova-vida",
+ "palavras_chave": [
+  "salvação",
+  "o que é a salvação",
+  "como ser salvo",
+  "Efésios 2:8",
+  "Tito 3:5",
+  "graça",
+  "fé",
+  "Atos 4:12",
+  "vida eterna"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-salvacao.jpg",
+  "alt": "Pintura sobre fundo de ouro: no centro, Jesus pregado numa cruz alta, de coroa de espinhos e auréola; ao pé da cruz, uma mulher de manto vermelho-rosado ajoelhada ergue os braços; dos dois lados, em fila, figuras com auréola, entre elas uma mulher de manto azul, um bispo, frades e santos que o pintor acrescentou à cena por devoção.",
+  "credito": "Fra Angelico, A Crucificação (têmpera com fundo de ouro, transferida para tela, provavelmente c. 1440). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, sermão de John Wesley e comentários de João Calvino e Matthew Henry. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-08T15:29:46-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-08T15:29:46-03:00"
+}

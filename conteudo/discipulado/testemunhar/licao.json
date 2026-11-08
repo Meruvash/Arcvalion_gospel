@@ -1,0 +1,116 @@
+{
+ "slug": "testemunhar",
+ "titulo": "Como testemunhar sobre Jesus?",
+ "titulo_seo": "Como evangelizar e falar de Jesus? Entenda o que a Bíblia ensina",
+ "ideia_central": "Testemunhar é contar o que Jesus fez por nós e convidar outros a conhecê-lo, com educação e respeito, com uma vida coerente e com o poder do Espírito Santo; não é preciso saber tudo, e quem convence é Jesus.",
+ "descricao": "Como falar de Jesus para alguém? O homem liberto que voltou para casa, o cego que só sabia uma coisa, a samaritana que disse \"venham ver\" e o jeito de 1 Pedro 3:15: com educação e respeito.",
+ "tempo_min": 11,
+ "resumo_rapido": {
+  "resposta": "Testemunhar é contar o que Jesus fez por você e convidar outros a conhecê-lo. Não é preciso saber tudo nem vencer discussões: fale com educação e respeito, viva o que diz e conte com o poder do Espírito Santo.",
+  "ideias": [
+   "\"Volte para casa e conte aos seus parentes o que o Senhor lhe fez\" (Marcos 5:19).",
+   "\"De uma coisa eu sei: eu era cego e agora vejo!\" (João 9:25).",
+   "\"Estejam sempre prontos para responder... Porém façam isso com educação e respeito\" (1 Pedro 3:15-16)."
+  ],
+  "texto_central": "Atos 1:8 e 1 Pedro 3:15-16"
+ },
+ "versiculo_chave": {
+  "texto": "Porém, quando o Espírito Santo descer sobre vocês, vocês receberão poder e serão minhas testemunhas em Jerusalém, em toda a Judeia e Samaria e até nos lugares mais distantes da terra.",
+  "referencia": "Atos 1:8"
+ },
+ "contexto": [
+  [
+   "Em casa",
+   "O homem liberto",
+   "Contou na região das Dez Cidades o que Jesus fez (Marcos 5:19-20)"
+  ],
+  [
+   "Simples",
+   "O cego curado",
+   "\"eu era cego e agora vejo!\" (João 9:25)"
+  ],
+  [
+   "Convite",
+   "A samaritana",
+   "\"Venham ver o homem que disse tudo o que eu tenho feito\" (João 4:29)"
+  ],
+  [
+   "Coragem",
+   "Pedro e João",
+   "\"não podemos deixar de falar daquilo que temos visto e ouvido\" (Atos 4:20)"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Moderada",
+   "Preciso saber tudo da Bíblia antes de falar de Jesus",
+   "Pedro e João eram \"homens simples e sem instrução\", mas \"tinham sido companheiros de Jesus\" (Atos 4:13)."
+  ],
+  [
+   "Moderada",
+   "Testemunhar é ganhar a discussão",
+   "\"façam isso com educação e respeito\" (1 Pedro 3:16); quem convence é Jesus (João 4:42)."
+  ],
+  [
+   "Moderada",
+   "Só pastor evangeliza",
+   "A Declaração de Fé: o Espírito \"nos capacita a viver como fiéis testemunhas de Jesus Cristo\"."
+  ],
+  [
+   "Leve",
+   "Basta falar, a vida não importa",
+   "\"Tenham sempre a consciência limpa\" (1 Pedro 3:16); a luz da Igreja \"resplandece por meio de nossas boas obras\" (Declaração de Fé)."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "Como testemunhar sobre Jesus?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=como%20evangelizar",
+    "dado": "para \"como evangelizar\", sugere \"como evangelizar uma pessoa\", \"como evangelizar um católico\" e \"como evangelizar um espírita\"",
+    "data": "2026-11-08"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=como%20falar%20de%20jesus%20para%20algu%C3%A9m",
+    "dado": "para \"como falar de jesus para alguém\", sugere \"como começar a falar de jesus para alguém\"",
+    "data": "2026-11-08"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=como%20evangelizar",
+    "dado": "para \"como evangelizar\", sugere \"como evangelizar corretamente\" e \"como evangelizar um ateu\"",
+    "data": "2026-11-08"
+   }
+  ]
+ },
+ "categoria": "vida-crista",
+ "palavras_chave": [
+  "testemunhar",
+  "evangelizar",
+  "como evangelizar",
+  "falar de Jesus",
+  "Atos 1:8",
+  "1 Pedro 3:15",
+  "samaritana",
+  "testemunho",
+  "evangelismo"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-testemunhar.jpg",
+  "alt": "Pintura a óleo: numa escadaria larga de pedra diante de colunas e prédios claros, sob céu azul, dois homens de manto, um jovem de manto rosa apontando para o céu e um mais velho de manto amarelo-alaranjado, estendem a mão a um homem seminu sentado no degrau; em volta, várias pessoas observam.",
+  "credito": "Nicolas Poussin, São Pedro e São João curam o aleijado (óleo sobre tela, 1655). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, comentários de Matthew Henry e João Calvino e notas de John Wesley. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-08T15:26:49-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-08T15:26:49-03:00"
+}

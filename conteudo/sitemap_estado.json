@@ -71,6 +71,10 @@
   "hash": "6dfda67a7aa10699",
   "lastmod": "2026-11-03T15:28:28-03:00"
  },
+ "https://opaladino.com.br/discipulado/fe-no-cotidiano/": {
+  "hash": "5f5543037aab513a",
+  "lastmod": "2026-11-08T15:32:50-03:00"
+ },
  "https://opaladino.com.br/discipulado/fruto-do-espirito/": {
   "hash": "2d25a4b93f33d583",
   "lastmod": "2026-11-03T15:34:55-03:00"
@@ -143,9 +147,21 @@
   "hash": "8cc463e1d5dd1e35",
   "lastmod": "2026-11-05T15:31:08-03:00"
  },
+ "https://opaladino.com.br/discipulado/ressurreicao/": {
+  "hash": "54f1870d18b59d6d",
+  "lastmod": "2026-11-08T15:31:23-03:00"
+ },
+ "https://opaladino.com.br/discipulado/salvacao/": {
+  "hash": "b04c92c2208b8920",
+  "lastmod": "2026-11-08T15:29:46-03:00"
+ },
  "https://opaladino.com.br/discipulado/santificacao/": {
   "hash": "36b6e59e92541349",
   "lastmod": "2026-11-03T00:24:59+00:00"
+ },
+ "https://opaladino.com.br/discipulado/servir/": {
+  "hash": "6b028accbaebd34f",
+  "lastmod": "2026-11-08T15:28:33-03:00"
  },
  "https://opaladino.com.br/discipulado/tema/conhecendo-a-biblia/": {
   "hash": "f0ee349d6fd87e2d",
@@ -168,16 +184,20 @@
   "lastmod": "2026-11-04T18:36:26+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/salvacao-e-nova-vida/": {
-  "hash": "96c059a6fd05f3b2",
-  "lastmod": "2026-11-06T18:34:21+00:00"
+  "hash": "0e5bc0e48a0e6281",
+  "lastmod": "2026-11-08T18:33:09+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/santidade/": {
   "hash": "3c531ef741305e7a",
   "lastmod": "2026-11-06T18:34:21+00:00"
  },
  "https://opaladino.com.br/discipulado/tema/vida-crista/": {
-  "hash": "f0c8096ad774c961",
-  "lastmod": "2026-11-05T18:36:02+00:00"
+  "hash": "c4f055b3f1e26dec",
+  "lastmod": "2026-11-08T18:33:09+00:00"
+ },
+ "https://opaladino.com.br/discipulado/testemunhar/": {
+  "hash": "774b06cc3a573f2a",
+  "lastmod": "2026-11-08T15:26:49-03:00"
  },
  "https://opaladino.com.br/discipulado/trilha/fundamentos-da-fe/": {
   "hash": "a3759169735c3e2b",

@@ -51,3 +51,8 @@ Termos adiados: **graça** (a NTLH de João 1 diz "amor"; explicar numa lição 
 - **Perdoar** ("O que significa perdoar?"): cancelar a dívida de quem nos ofendeu, deixando de lado a vingança e entregando a causa a Deus; "Perdão é a absolvição de uma dívida e a remissão de um castigo" (Declaração de Fé).
 - **Comunhão** ("Por que precisamos de comunhão?"): vida em comum dos que pertencem a Jesus, unidos com Deus e uns com os outros; em Atos 2:42 a NTLH diz "vivendo em amor cristão".
 - **Ser cheio do Espírito** ("O que significa ser cheio do Espírito Santo?"): viver sob a direção do Espírito Santo; Efésios 5:18: "encham-se do Espírito de Deus".
+- **Testemunha** ("Como testemunhar sobre Jesus?"): quem conta o que viu e viveu; em Atos 1:8, Jesus diz que, com o poder do Espírito Santo, os discípulos seriam "minhas testemunhas".
+- **Servir** ("Como servir a Deus e ao próximo?"): colocar a própria vida a serviço de Deus e dos outros, por amor; Gálatas 5:13: "que o amor faça com que vocês sirvam uns aos outros".
+- **Salvação** ("O que é a salvação?"): "o livramento do poder da maldição do pecado, e a restituição do homem à plena comunhão com Deus" (Declaração de Fé), por meio de Jesus, pela graça, mediante a fé.
+- **Ressurreição** ("Jesus ressuscitou mesmo?"): voltar a viver depois da morte; "Ressurreição significa levantar dentre os mortos, voltar a viver no mesmo corpo" (Declaração de Fé). Não é reencarnação.
+- **Viver para a glória de Deus** ("Como viver a fé no cotidiano?"): fazer tudo de um jeito que honre a Deus; "façam tudo para a glória de Deus" (1 Coríntios 10:31).

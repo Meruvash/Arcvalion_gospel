@@ -12,7 +12,6 @@
    "nome": "Salvação e nova vida",
    "descricao": "O que é a salvação, a graça, o arrependimento e a vida nova em Cristo.",
    "previstos": [
-    "O que é a salvação?",
     "Como posso ter certeza da salvação?",
     "O que significa viver pela fé?"
    ]
@@ -53,11 +52,7 @@
    "slug": "vida-crista",
    "nome": "Vida cristã na prática",
    "descricao": "A fé no dia a dia, o sofrimento, a família, o testemunho e o serviço.",
-   "previstos": [
-    "Como viver a fé no cotidiano?",
-    "Como testemunhar sobre Jesus?",
-    "Como servir a Deus e ao próximo?"
-   ]
+   "previstos": []
   }
  ],
  "trilhas": [
@@ -200,6 +195,18 @@
    "categoria": "salvacao-e-nova-vida",
    "evidencia": "Google Trends: buscas por termos como \"Jesus está voltando\" e \"anticristo\" tiveram pico na semana de 8 a 14 de outubro de 2023, em níveis similares a março de 2020 (Aos Fatos); o autocomplete do Google sugere \"jesus vai voltar quando\" e \"jesus vai voltar em que ano\"",
    "url": "https://www.aosfatos.org/noticias/apocalipse-fim-do-mundo-israel-hamas-gaza/"
+  },
+  {
+   "titulo": "Jesus ressuscitou mesmo?",
+   "categoria": "salvacao-e-nova-vida",
+   "evidencia": "Google Trends, Ano em Pesquisa 2017 (Brasil): \"O que é Páscoa?\" é a 6ª da lista \"O que é\" (consultado em 08/11/2026); o autocomplete do Google sugere \"o que é páscoa para os cristãos\" e \"ressurreição de jesus significado\"",
+   "url": "https://trends.withgoogle.com/year-in-search/2017/br/"
+  },
+  {
+   "titulo": "Como servir a Deus e ao próximo?",
+   "categoria": "vida-crista",
+   "evidencia": "Google Trends: no Brasil, o termo \"como ajudar\" bateu recorde histórico de buscas durante a pandemia (Tecnoblog, 09/04/2020); o autocomplete do Google sugere \"como servir a deus no dia a dia\" e \"como ajudar o próximo no dia a dia\"",
+   "url": "https://tecnoblog.net/noticias/google-buscas-mascara-como-ajudar-atingem-recorde-brasil/"
   }
  ]
 }
