@@ -1,0 +1,197 @@
+{
+ "slug": "lula-sanciona-lei-enamed-obrigatorio-exercer-medicina",
+ "data": "2026-11-08",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "selo": "Informativo",
+ "titulo": "Lula sanciona lei que torna o Enamed obrigatório para exercer a medicina",
+ "lide": "O presidente Lula sancionou na sexta-feira (6) o projeto de lei de conversão da Medida Provisória 1.370, que torna o Exame Nacional de Avaliação da Formação Médica (Enamed) requisito para o registro no Conselho Regional de Medicina. O exame será aplicado no 2º, 4º e 6º anos do curso, e quem não atingir o desempenho mínimo fica impedido de exercer a medicina até ser aprovado.",
+ "por_que_importa": "Muitas famílias fazem sacrifício para pôr um filho na faculdade de medicina, e todas dependem de médicos bem formados. A lei cria um padrão nacional mínimo antes do registro profissional e permite ao MEC reduzir vagas ou suspender o ingresso em cursos mal avaliados. Para quem já está no curso, vale conferir a data de ingresso.",
+ "numeros": [
+  [
+   "3",
+   "provas ao longo da graduação, no 2º, 4º e 6º anos, com peso maior na última",
+   "Planalto, 06/11/2026"
+  ],
+  [
+   "19/06/2026",
+   "data de ingresso no curso a partir da qual a proficiência passa a ser exigida para o registro no CRM",
+   "Planalto, 06/11/2026"
+  ],
+  [
+   "MP 1.370",
+   "medida provisória que deu origem ao projeto de lei de conversão sancionado",
+   "Planalto, 06/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O exame será aplicado pelo MEC, por meio do Inep, com participação do Ministério da Saúde e do Conselho Federal de Medicina. O resultado também poderá ser usado para ingresso em residência médica de acesso direto, pelo Enare, e passa a substituir a etapa teórica do Revalida, para diplomas obtidos no exterior. Quem não atingir o mínimo pode refazer a prova em edições futuras.",
+  "Cursos com conceito insatisfatório no exame ficam sujeitos a processos de supervisão do MEC, com medidas como redução de vagas ou suspensão temporária de ingresso. A lei também cria o Sistema Nacional de Avaliação da Residência Médica (Sinares), para avaliar a formação ao longo da residência."
+ ],
+ "no_brasil": "A política de avaliação será conduzida em conjunto pelos ministérios da Educação e da Saúde. Segundo o Planalto, a cerimônia de sanção teve a presença do vice-presidente Geraldo Alckmin e dos ministros Leonardo Barchini, da Educação, e Alexandre Padilha, da Saúde.",
+ "critica": [
+  {
+   "fonte": "Presidente Lula, segundo o Planalto",
+   "texto": "E quanto mais qualificado for o nosso médico, mais garantia nós temos de que vamos viver bem",
+   "citacao": true,
+   "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/lula-sanciona-lei-que-fortalece-avaliacao-da-formacao-medica-e-torna-enamed-requisito-para-exercicio-da-profissao"
+  },
+  {
+   "fonte": "Vice-presidente Geraldo Alckmin, segundo o Planalto",
+   "texto": "É um ganha-ganha. Ganham os alunos que vão ser melhor formados. Ganham as faculdades que vão ter que se preparar. E ganha a sociedade com profissionais mais bem qualificados para atendê-los",
+   "citacao": true,
+   "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/lula-sanciona-lei-que-fortalece-avaliacao-da-formacao-medica-e-torna-enamed-requisito-para-exercicio-da-profissao"
+  },
+  {
+   "fonte": "Ponto de atenção da redação",
+   "texto": "A nota oficial não detalha a nota mínima exigida nem as datas das provas; para o estudante, o que pesa é saber quando e como poderá refazer o exame se não passar.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Estudantes de medicina e suas famílias: a exigência vale para quem ingressou no curso a partir de 19 de junho de 2026",
+  "Formados no exterior: o Enamed passa a substituir a etapa teórica do Revalida",
+  "Pacientes: a lei busca um padrão nacional mínimo de formação antes do registro no CRM"
+ ],
+ "nao_e_para": [
+  "A exigência vale para quem ingressou no curso a partir de 19/06/2026, não para quem já tem registro no CRM",
+  "Quem ingressou antes de 19/06/2026 não está sujeito à exigência para o registro, segundo o Planalto",
+  "A nota do Planalto não traz o número da lei nem a nota mínima exigida"
+ ],
+ "veredito": "A gente apoia a exigência. Médico mal formado põe vida em risco, e prova séria antes do registro protege o paciente, rico ou pobre. O cuidado é não transformar o exame em barreira burocrática: que as regras saiam claras e a tempo, para o estudante se preparar com justiça.",
+ "versiculo": {
+  "texto": "E, tudo quanto fizerdes, fazei-o de todo o coração, como ao Senhor e não aos homens",
+  "referencia": "Colossenses 3.23",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Planalto: Lula sanciona lei que fortalece avaliação da formação médica e torna Enamed requisito para exercício da profissão (06/11/2026)",
+   "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/lula-sanciona-lei-que-fortalece-avaliacao-da-formacao-medica-e-torna-enamed-requisito-para-exercicio-da-profissao",
+   "data": "06/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Lula sanciona exame que irá avaliar qualidade de alunos de medicina (06/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-exame-que-ira-avaliar-qualidade-de-alunos-de-medicina",
+   "data": "06/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 71,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "educacao",
+   "porque": "O fato é sobre a formação dos jovens na universidade: a lei torna obrigatório o exame de proficiência dos estudantes de medicina"
+  },
+  "origem": {
+   "nome": "Planalto",
+   "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/lula-sanciona-lei-que-fortalece-avaliacao-da-formacao-medica-e-torna-enamed-requisito-para-exercicio-da-profissao"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Lei sancionada, com efeito nacional para os estudantes que ingressaram em medicina a partir de 19/06/2026 e para os cursos"
+   },
+   "afinidade": {
+    "pontos": 10,
+    "porque": "Educação dos filhos e saúde das famílias, com efeito indireto para a maior parte dos leitores"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Sanção em 6/11, menos de 48 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Nota oficial do Planalto com o conteúdo da lei e reportagem da Agência Brasil confirmando a sanção"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Organiza quem é atingido, o que muda no Revalida e na residência e o que ainda depende de regras"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 2
+   },
+   "criterios": [
+    "Documento primário: nota oficial do Planalto (2)",
+    "Ato de poder: lei sancionada (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: quem é atingido (1)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Lula, Alckmin, Barchini, Padilha (1)",
+    "Pede resposta do cristão: trabalho bem feito (1)",
+    "Passagem bíblica que um pastor usaria: Colossenses 3.23 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Lula sanciona lei que fortalece avaliação da formação médica e torna Enamed requisito para exercício da profissão",
+  "nucleo": "A - Brasil",
+  "categoria": "Governo / educação",
+  "coleta": "2026-11-08",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em fonte oficial e reportagem",
+   "contradicoes": "Nenhuma.",
+   "sem_confirmacao": "número da lei e publicação no Diário Oficial; regras de aplicação do exame"
+  },
+  "duplicidade": {
+   "grupo": "Enamed (PLV 14, MP 1.370)",
+   "itens": [
+    "Planalto 06/11",
+    "Agência Brasil 06/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que muda com o Enamed obrigatório para médicos",
+   "entidades": [
+    "Enamed",
+    "MEC",
+    "Inep",
+    "CFM",
+    "MP 1.370",
+    "Revalida"
+   ],
+   "termos": [
+    "Enamed obrigatório",
+    "exame para médicos",
+    "registro CRM Enamed",
+    "Revalida Enamed"
+   ],
+   "atualizacao": "acompanhar a publicação da lei e a regulamentação"
+  }
+ },
+ "descricao_seo": "Lula sancionou em 6/11 a lei que torna o Enamed requisito para o registro de médicos no CRM; exame terá provas no 2º, 4º e 6º anos.",
+ "instituicao": "Presidência da República",
+ "editora": "Presidência da República",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da nota do Planalto e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos vêm da nota oficial do Planalto e da Agência Brasil, atribuídos; as duas frases entre aspas foram lidas no Planalto. A nota não atribui culpa a cursos ou profissionais específicos; a opinião apoia a lei e cobra regras claras.",
+ "imagem": {
+  "arquivo": "capas/lula-sanciona-lei-enamed-obrigatorio-exercer-medicina.jpg",
+  "credito": "Foto: Ricardo Stuckert/PR",
+  "alt": "O presidente Lula exibe a lei sancionada ao lado do vice Geraldo Alckmin, de ministros e parlamentares, em Brasília, em 6 de novembro de 2026",
+  "licenca": "CC BY-ND 3.0 (rodapé do gov.br)",
+  "origem": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/lula-sanciona-lei-que-fortalece-avaliacao-da-formacao-medica-e-torna-enamed-requisito-para-exercicio-da-profissao/enamed_nov26.jpg",
+  "pagina": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/lula-sanciona-lei-que-fortalece-avaliacao-da-formacao-medica-e-torna-enamed-requisito-para-exercicio-da-profissao"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-08T14:57:43-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-08T14:57:43-03:00"
+}
