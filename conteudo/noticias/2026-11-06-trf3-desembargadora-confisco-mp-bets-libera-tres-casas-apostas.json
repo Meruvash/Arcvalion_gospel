@@ -57,7 +57,7 @@
  ],
  "nao_e_para": [
   "As bets não foram liberadas em geral: a liminar vale só para a CDA Gaming e suas três plataformas",
-  "A decisão é provisória e pode ser revista no recurso ou no julgamento do mandado de segurança",
+  "Atualização: em 6/11, o presidente do TRF-3, Johonsom Di Salvo, suspendeu esta liminar a pedido da AGU; as três plataformas voltaram a ficar proibidas, segundo a AGU",
   "A nota leu a decisão na cópia da consulta pública do processo publicada pelo Migalhas; o site do TRF-3 não respondeu na coleta"
  ],
  "veredito": "A gente discorda, com respeito à magistrada. Se o governo cobrou R$ 30 milhões e rompeu o acordo, que devolva o dinheiro ou indenize; segurança jurídica se paga em reais. Mas reabrir a roleta enquanto famílias quebram não é a única saída. Devolva-se a outorga, não o vício. Que o STF decida logo.",
@@ -84,6 +84,12 @@
    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-autoriza-volta-do-funcionamento-de-tres-bets-no-brasil",
    "data": "06/11/2026",
    "tipo": "secundaria"
+  },
+  {
+   "nome": "AGU: Justiça suspende autorização para funcionamento de empresa de apostas (06/11/2026)",
+   "url": "https://www.gov.br/agu/pt-br/comunicacao/noticias/justica-suspende-autorizacao-para-funcionamento-de-empresa-de-apostas",
+   "data": "06/11/2026",
+   "tipo": "primaria"
   }
  ],
  "crivo": {
@@ -205,8 +211,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-06T14:49:29-03:00",
+  "data": "2026-11-08T14:47:49-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-06T14:49:29-03:00"
+ "publicado_em": "2026-11-06T14:49:29-03:00",
+ "atualizado_em": "2026-11-08T14:47:49-03:00"
 }
