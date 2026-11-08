@@ -1,0 +1,196 @@
+{
+ "slug": "cnbb-texto-base-campanha-fraternidade-2027-cuidado-criancas",
+ "data": "2026-11-08",
+ "categoria": "noticias-gospel",
+ "status": "publicado",
+ "selo": "Boa notícia",
+ "titulo": "CNBB lança texto-base da Campanha da Fraternidade 2027 sobre o cuidado das crianças",
+ "lide": "A Conferência Nacional dos Bispos do Brasil (CNBB) lançou na quarta-feira (4) o texto-base da Campanha da Fraternidade 2027, com o tema \"Fraternidade e o Cuidado das Crianças\" e o lema \"Quem recebe uma criança em meu nome a mim recebe\". O material vai orientar as atividades da campanha nas paróquias e comunidades católicas de todo o país.",
+ "por_que_importa": "A Igreja Católica vai passar a Quaresma de 2027 falando de infância, e o texto-base põe na mesa temas que afligem as famílias de qualquer confissão: violência sexual, drogas, adultização e erotização digital e o efeito das telas na saúde mental. É uma pauta em que católicos e evangélicos podem caminhar juntos.",
+ "numeros": [
+  [
+   "3",
+   "capítulos centrais do texto-base, no método Ver, Julgar e Agir",
+   "CNBB, 06/11/2026"
+  ],
+  [
+   "7",
+   "compromissos comunitários e sociais propostos para o cuidado das crianças",
+   "CNBB, 06/11/2026"
+  ],
+  [
+   "2 anos",
+   "de preparação do material, desde a definição do tema pelo Conselho Episcopal Pastoral, em fevereiro de 2025",
+   "CNBB, 06/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O primeiro capítulo faz um retrato da infância no Brasil, com as desigualdades entre realidades rurais, periféricas e urbanas, saúde nos primeiros anos, educação e redes de apoio. Um tópico trata das vulnerabilidades que pedem proteção: violência sexual, uso de drogas, adultização e erotização digital, impacto das telas na saúde mental, infâncias indígenas, crianças migrantes e crianças no cárcere.",
+  "O segundo capítulo reúne a Bíblia, o Magistério e a ética do cuidado, com a criança como dom e vida inviolável no Antigo Testamento e Jesus pondo a criança no centro no Novo. O terceiro propõe sete compromissos, o primeiro deles educar integralmente e habitar com responsabilidade a cultura digital. O material traz ainda depoimentos, orações e desenhos feitos pelas próprias crianças."
+ ],
+ "no_brasil": "O texto foi escrito por especialistas, padres e bispos, entre eles os referenciais nacionais da Pastoral do Menor e da Pastoral da Criança, integrantes da Pastoral Familiar ligados à causa da adoção e o diretor-presidente do Instituto Alana. A apresentação foi feita em live pelo padre Jean Poul Hansen, secretário-executivo de Campanhas da CNBB; o material está disponível pelas Edições CNBB.",
+ "critica": [
+  {
+   "fonte": "Padre Jean Poul Hansen, secretário-executivo de Campanhas da CNBB, segundo a CNBB",
+   "texto": "Nós queremos com a Campanha da Fraternidade gerar um grande mutirão em todo o Brasil para cuidar e proteger e amar nossas crianças",
+   "citacao": true,
+   "url": "https://www.cnbb.org.br/cf-2027-mutirao-cuidar-proteger-criancas/"
+  },
+  {
+   "fonte": "Objetivo da campanha, definido pelos bispos, segundo a CNBB",
+   "texto": "Promover um caminho de conversão cristã para a corresponsabilidade no cuidado das crianças, reconhecendo, à luz do Reino de Deus, a infância como tempo sagrado de desenvolvimento integral, em um ambiente de relações seguras, marcadas pelo amor e pelo respeito",
+   "citacao": true,
+   "url": "https://www.cnbb.org.br/cf-2027-mutirao-cuidar-proteger-criancas/"
+  },
+  {
+   "fonte": "Ponto de atenção da redação",
+   "texto": "O texto-base é extenso e a notícia da CNBB resume só as linhas gerais; o modo como cada tema, sobretudo os ligados à educação e à cultura digital, será tratado só aparece na leitura do livro.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Pais e mães: a campanha reforça a vigilância sobre telas, adultização e violência sexual, temas que vale conversar em casa",
+  "Igrejas evangélicas: o tema abre espaço para ações conjuntas com paróquias na proteção das crianças do bairro",
+  "Ministérios infantis: a lista de vulnerabilidades do texto-base é um bom roteiro para revisar a política de proteção da própria igreja"
+ ],
+ "nao_e_para": [
+  "A campanha é da Igreja Católica e acontece na Quaresma de 2027; o texto-base acaba de ser lançado",
+  "A nota se baseia no resumo publicado pela CNBB, não na leitura do livro inteiro",
+  "Campanha da Fraternidade não é lei nem política pública: orienta as comunidades católicas"
+ ],
+ "veredito": "A gente aplaude o tema. Cuidar das crianças é mandamento de Jesus, não bandeira de uma só igreja. A lista de perigos é real: telas, adultização, abuso, drogas. Que a campanha ponha os pais no centro do cuidado, e que evangélicos e católicos se encontrem nessa causa.",
+ "versiculo": {
+  "texto": "E qualquer que receber em meu nome uma criança tal como esta a mim me recebe",
+  "referencia": "Mateus 18.5",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "CNBB: Texto-base disponível: CF 2027 quer gerar grande mutirão para cuidar, proteger e amar nossas crianças (06/11/2026)",
+   "url": "https://www.cnbb.org.br/cf-2027-mutirao-cuidar-proteger-criancas/",
+   "data": "06/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "CNBB: Edições CNBB lança texto-base da Campanha da Fraternidade 2027 (03/11/2026)",
+   "url": "https://www.cnbb.org.br/lancamento-texto-base-campanha-fraternidade-2027/",
+   "data": "03/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 62,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "fe-e-igreja",
+   "porque": "O fato é uma decisão de igreja nacional sobre o cuidado das crianças: a CNBB lança o texto-base da Campanha da Fraternidade 2027"
+  },
+  "origem": {
+   "nome": "CNBB",
+   "url": "https://www.cnbb.org.br/cf-2027-mutirao-cuidar-proteger-criancas/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Material oficial da conferência dos bispos que vai orientar as comunidades católicas de todo o país em 2027"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Igreja no Brasil e proteção das crianças: núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Lançamento em 4/11, divulgado pela CNBB em 6/11"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Duas notícias oficiais da CNBB com o conteúdo do texto-base; o livro não foi lido"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Destaca as vulnerabilidades do texto-base e o espaço para ação comum entre católicos e evangélicos"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 8,
+    "viral": 2,
+    "cristao": 5
+   },
+   "criterios": [
+    "Documento primário: notícias oficiais da CNBB (2)",
+    "Ato de poder: decisão de igreja nacional (2)",
+    "Proximidade: nacional (2)",
+    "Boa notícia (1)",
+    "Utilidade: temas para conversar em casa (1)",
+    "Pede resposta do cristão: proteção das crianças (2)",
+    "Passagem bíblica que um pastor usaria: Mateus 18.5 (2)",
+    "Rende estudo: Jesus e as crianças (2)",
+    "Personagem com nome: padre Jean Poul Hansen (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Texto-base disponível: CF 2027 quer gerar grande mutirão para cuidar, proteger e amar nossas crianças",
+  "nucleo": "C - Mundo cristão",
+  "categoria": "Igreja / infância",
+  "coleta": "2026-11-08",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em fonte oficial",
+   "contradicoes": "Nenhuma entre as notícias da CNBB.",
+   "sem_confirmacao": "íntegra do texto-base; os sete compromissos além do primeiro"
+  },
+  "duplicidade": {
+   "grupo": "Campanha da Fraternidade 2027",
+   "itens": [
+    "CNBB 03/11",
+    "CNBB 06/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o tema da Campanha da Fraternidade 2027",
+   "entidades": [
+    "CNBB",
+    "Campanha da Fraternidade 2027",
+    "Pastoral da Criança",
+    "Pastoral do Menor"
+   ],
+   "termos": [
+    "Campanha da Fraternidade 2027",
+    "Fraternidade e o Cuidado das Crianças",
+    "texto-base CF 2027",
+    "lema CF 2027"
+   ],
+   "atualizacao": "acompanhar o lançamento da campanha na Quaresma de 2027"
+  }
+ },
+ "descricao_seo": "A CNBB lançou em 4/11 o texto-base da Campanha da Fraternidade 2027, com o tema Fraternidade e o Cuidado das Crianças.",
+ "instituicao": "CNBB",
+ "editora": "CNBB",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das notícias da CNBB, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos vêm de duas notícias oficiais da CNBB; as duas frases entre aspas foram lidas na notícia de 6/11. A nota respeita a tradição católica, não critica pessoas nem entidades da equipe de redação e deixa claro que não leu o livro inteiro.",
+ "imagem": {
+  "arquivo": "capas/cnbb-texto-base-campanha-fraternidade-2027-cuidado-criancas.jpg",
+  "credito": "Lucas Cranach, o Jovem, e oficina, Cristo abençoa as crianças (c. 1545-50), The Metropolitan Museum of Art",
+  "alt": "Pintura de Lucas Cranach, o Jovem: Jesus abençoa crianças trazidas pelas mães, cercado pelos discípulos",
+  "licenca": "Domínio público (Open Access do Met, CC0)",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP280362.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/436035"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-08T14:51:22-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-08T14:51:22-03:00"
+}
