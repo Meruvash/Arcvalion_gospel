@@ -6,9 +6,9 @@
  "manchete": true,
  "opiniao_forte": true,
  "selo": "Motivo de alerta",
- "titulo": "Desembargadora do TRF-3 vê \"confisco\" na MP das bets e libera três casas de apostas",
- "lide": "A desembargadora federal Adriana Pileggi, do TRF da 3ª Região, autorizou em liminar a volta das plataformas Casa de Apostas, Betsul e Jogo Online, da CDA Gaming, proibidas pela Medida Provisória 1.394/2026. A decisão, assinada na terça-feira (3), vale só para essa empresa; as demais bets continuam proibidas. Segundo a Agência Brasil, a AGU vai recorrer.",
- "por_que_importa": "É uma brecha na proibição das bets, e ela veio de um ponto que o governo deixou aberto: a empresa pagou R$ 30 milhões por uma autorização válida até 2029 e a MP a extinguiu em 30 dias, sem devolução nem indenização. Se outras operadoras seguirem o mesmo caminho, a proibição pode virar uma colcha de exceções antes de o STF decidir.",
+ "titulo": "Desembargadora do TRF-3 viu \"confisco\" na MP das bets e liberou três casas; liminar caiu",
+ "lide": "A desembargadora federal Adriana Pileggi, do TRF-3, autorizou em liminar assinada na terça-feira (3) a volta das plataformas Casa de Apostas, Betsul e Jogo Online, da CDA Gaming, proibidas pela MP 1.394/2026. A pedido da AGU, o presidente do TRF-3, Johonsom Di Salvo, suspendeu a liminar em 6/11, e as três voltaram a ficar proibidas.",
+ "por_que_importa": "Foi uma brecha na proibição das bets, fechada em três dias pela presidência do TRF-3, e ela veio de um ponto que o governo deixou aberto: a empresa pagou R$ 30 milhões por uma autorização válida até 2029 e a MP a extinguiu em 30 dias, sem devolução nem indenização. Se outras operadoras seguirem o mesmo caminho, a proibição pode virar uma colcha de exceções antes de o STF decidir.",
  "numeros": [
   [
    "R$ 30 milhões",
@@ -51,9 +51,9 @@
   }
  ],
  "para_quem": [
-  "Famílias com alguém viciado em apostas: três sites voltaram a poder operar; vale redobrar a atenção e procurar ajuda na rede de saúde",
-  "Igrejas que acolhem endividados: a decisão é provisória, mas a oferta de apostas voltou a existir para quem já luta contra o vício",
-  "Quem acompanha o caso: a AGU anunciou recurso, e a palavra final sobre a MP é do STF"
+  "Famílias com alguém viciado em apostas: a liberação durou pouco e as três plataformas voltaram a ser proibidas; vale manter a atenção e procurar ajuda na rede de saúde",
+  "Igrejas que acolhem endividados: a liminar caiu, mas a disputa na Justiça continua e outras operadoras podem tentar o mesmo caminho",
+  "Quem acompanha o caso: a AGU já obteve a suspensão da liminar na presidência do TRF-3, e a palavra final sobre a MP é do STF"
  ],
  "nao_e_para": [
   "As bets não foram liberadas em geral: a liminar vale só para a CDA Gaming e suas três plataformas",
@@ -211,9 +211,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-08T14:47:49-03:00",
+  "data": "2026-11-08T21:14:09-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-06T14:49:29-03:00",
- "atualizado_em": "2026-11-08T14:47:49-03:00"
+ "atualizado_em": "2026-11-08T21:14:09-03:00"
 }

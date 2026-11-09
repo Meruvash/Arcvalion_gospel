@@ -32,8 +32,8 @@
  "critica": [
   {
    "fonte": "Eduardo Ribeiro, presidente do Novo, na nota do partido",
-   "texto": "O TSE tem o dever de julgar com rigor os abusos cometidos por Lula. Democracia exige eleições livres, equilíbrio e respeito à legislação",
-   "citacao": true,
+   "texto": "Eduardo Ribeiro, presidente do Novo, disse na nota do partido que o TSE deve julgar com rigor o que o Novo aponta como abuso de poder da chapa e que a democracia exige eleições livres e respeito à lei.",
+   "citacao": false,
    "url": "https://novo.org.br/noticias/tse-admite-acao-contra-lula/"
   },
   {
@@ -57,7 +57,7 @@
   "A admissão, por si, não muda o resultado da eleição",
   "A decisão do TSE não foi lida pela redação no site do tribunal, que bloqueia leitura automática; a nota segue a nota do autor da ação e o g1"
  ],
- "veredito": "A gente acha certo o caso ir adiante. Quem venceu deve explicar, em juízo, por que tantas medidas saíram justo no ano da eleição; é para isso que a Justiça Eleitoral existe. Mas admitir não é condenar. Que o TSE julgue com rapidez, provas e a mesma régua que usaria com qualquer outro presidente.",
+ "veredito": "A gente acha certo o caso ir adiante. Quem venceu deve responder em juízo ao que o Novo aponta sobre as medidas editadas no ano da eleição; é para isso que a Justiça Eleitoral existe. Mas admitir não é condenar. Que o TSE julgue com rapidez, provas e a mesma régua que usaria com qualquer outro presidente.",
  "fontes": [
   {
    "nome": "Partido Novo: TSE admite ação do NOVO contra Lula e Alckmin por abuso de poder político (05/11/2026)",
@@ -187,8 +187,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-06T02:32:55-03:00",
+  "data": "2026-11-08T21:14:09-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-06T02:32:55-03:00"
+ "publicado_em": "2026-11-06T02:32:55-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-08",
+   "texto": "Correção em 08/11/2026: a frase do presidente do Novo, que só está na nota do partido (que não pôde ser conferida), passou a paráfrase; o veredito deixou de insinuar intenção eleitoral nas medidas."
+  }
+ ],
+ "atualizado_em": "2026-11-08T21:14:09-03:00"
 }

@@ -10,8 +10,8 @@
  "numeros": [
   [
    "3",
-   "provas ao longo da graduação, no 2º, 4º e 6º anos, com peso maior na última",
-   "Planalto, 06/11/2026"
+   "provas ao longo da graduação, no 2º, 4º e 6º anos",
+   "Agência Brasil, 06/11/2026"
   ],
   [
    "19/06/2026",
@@ -31,16 +31,16 @@
  "no_brasil": "A política de avaliação será conduzida em conjunto pelos ministérios da Educação e da Saúde. Segundo o Planalto, a cerimônia de sanção teve a presença do vice-presidente Geraldo Alckmin e dos ministros Leonardo Barchini, da Educação, e Alexandre Padilha, da Saúde.",
  "critica": [
   {
-   "fonte": "Presidente Lula, segundo o Planalto",
-   "texto": "E quanto mais qualificado for o nosso médico, mais garantia nós temos de que vamos viver bem",
+   "fonte": "Presidente Lula, segundo a Agência Brasil",
+   "texto": "Quanto mais qualificado for o nosso médico, mais garantia a gente tem de que nós vamos viver mais",
    "citacao": true,
-   "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/lula-sanciona-lei-que-fortalece-avaliacao-da-formacao-medica-e-torna-enamed-requisito-para-exercicio-da-profissao"
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-exame-que-ira-avaliar-qualidade-de-alunos-de-medicina"
   },
   {
-   "fonte": "Vice-presidente Geraldo Alckmin, segundo o Planalto",
-   "texto": "É um ganha-ganha. Ganham os alunos que vão ser melhor formados. Ganham as faculdades que vão ter que se preparar. E ganha a sociedade com profissionais mais bem qualificados para atendê-los",
-   "citacao": true,
-   "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/lula-sanciona-lei-que-fortalece-avaliacao-da-formacao-medica-e-torna-enamed-requisito-para-exercicio-da-profissao"
+   "fonte": "Vice-presidente Geraldo Alckmin, segundo a Agência Brasil",
+   "texto": "Para o vice-presidente, que é médico, com o Enamed ganham o aluno, a faculdade e a sociedade.",
+   "citacao": false,
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-exame-que-ira-avaliar-qualidade-de-alunos-de-medicina"
   },
   {
    "fonte": "Ponto de atenção da redação",
@@ -190,8 +190,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-08T14:57:43-03:00",
+  "data": "2026-11-08T21:14:54-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-08T14:57:43-03:00"
+ "publicado_em": "2026-11-08T14:57:43-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-08",
+   "texto": "Correção em 08/11/2026: a fala de Lula, segundo a Agência Brasil, é \"mais garantia a gente tem de que nós vamos viver mais\", não \"viver bem\"; a frase de Alckmin e o peso maior da última prova, que só constariam na página do Planalto (não conferida), saíram ou viraram paráfrase."
+  }
+ ],
+ "atualizado_em": "2026-11-08T21:14:54-03:00"
 }

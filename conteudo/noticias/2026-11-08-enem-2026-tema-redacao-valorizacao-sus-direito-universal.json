@@ -10,8 +10,8 @@
  "numeros": [
   [
    "5 milhões",
-   "de inscrições confirmadas no Enem 2026, segundo o MEC",
-   "MEC, 08/11/2026"
+   "de inscritos no Enem 2026 (mais de 5 milhões)",
+   "Agência Brasil, 08/11/2026"
   ],
   [
    "20%",
@@ -19,9 +19,9 @@
    "Agência Brasil, 08/11/2026"
   ],
   [
-   "600 mil",
-   "pessoas envolvidas na aplicação, entre coordenadores, aplicadores e fiscais",
-   "MEC, 08/11/2026"
+   "596 mil",
+   "pessoas envolvidas na aplicação, entre servidores, aplicadores, fiscais e funcionários dos Correios",
+   "Agência Brasil, 08/11/2026"
   ]
  ],
  "corpo": [
@@ -31,19 +31,8 @@
  "no_brasil": "A nota do Enem serve para disputar vagas em universidades e institutos federais de todo o país e para programas como Prouni e Fies, segundo o MEC. A prova começou às 13h30, horário de Brasília, com portões fechados às 13h, de acordo com a Agência Brasil.",
  "critica": [
   {
-   "fonte": "Ministro da Educação, Leonardo Barchini, segundo o MEC",
-   "texto": "Essa prova mudou o país. Antigamente, somente um terço dos estudantes das universidades federais vinha de escola pública. Agora, quase 70% dos estudantes vêm da escola pública",
-   "citacao": true,
-   "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/presidente-lula-e-ministro-leonardo-barchini-acompanham-monitoramento-do-enem"
-  },
-  {
    "fonte": "Guia do Participante, segundo a Agência Brasil",
    "texto": "A redação é argumentativa porque defende um ponto de vista e dissertativa porque usa explicações para justificá-lo.",
-   "citacao": false
-  },
-  {
-   "fonte": "Ponto de atenção da redação",
-   "texto": "Tema de política pública pede argumento e proposta, não militância: o candidato é avaliado pela qualidade do raciocínio, não pelo lado que escolhe.",
    "citacao": false
   }
  ],
@@ -188,8 +177,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-08T14:52:56-03:00",
+  "data": "2026-11-08T21:14:54-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-08T14:52:56-03:00"
+ "publicado_em": "2026-11-08T14:52:56-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-08",
+   "texto": "Correção em 08/11/2026: saiu a frase do ministro Leonardo Barchini, que não pôde ser conferida na página do MEC; o número de pessoas na aplicação é \"mais de 596 mil\", segundo a Agência Brasil."
+  }
+ ],
+ "atualizado_em": "2026-11-08T21:14:54-03:00"
 }

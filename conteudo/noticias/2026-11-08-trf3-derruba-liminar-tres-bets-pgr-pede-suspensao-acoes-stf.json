@@ -22,15 +22,15 @@
   ],
   [
    "3",
-   "ações diretas no STF citadas na decisão do TRF-3 (ADIs 8.024, 8.027 e 8.028), relatadas por Luiz Fux",
-   "AGU, 06/11/2026"
+   "ações diretas no STF citadas na decisão do TRF-3 (ADIs 8.024, 8.027 e 8.028); Fux relata quatro ações sobre a MP",
+   "AGU e Agência Brasil, 06/11/2026"
   ]
  ],
  "corpo": [
   "Segundo a AGU, Di Salvo estendeu à CDA Gaming os efeitos da decisão de outubro que tinha suspendido a liminar da Stake Brazil. Para ele, manter a autorização excepcional para uma empresa trazia grave risco à ordem pública administrativa, à segurança jurídica e à efetividade da política nacional de apostas, e não cabe a decisões isoladas mudar a aplicação da MP enquanto o STF examina sua constitucionalidade.",
   "A suspensão vale até o trânsito em julgado da ação da empresa ou nova decisão da presidência do tribunal. Na petição a Fux, segundo a Agência Brasil, Gonet disse que a proliferação de decisões judiciais liberando casas de apostas gera insegurança jurídica e pediu que todos os processos sobre a MP 1.394/2026 fiquem parados até o julgamento definitivo no Supremo."
  ],
- "no_brasil": "A liminar derrubada tinha visto confisco na extinção da autorização da empresa, que pagou R$ 30 milhões por ela, como o portal noticiou em 6/11. Ainda não há data para o STF julgar as ações sobre a MP; Fux disse, na audiência pública de 3/11, que precisa de tempo para preparar o voto.",
+ "no_brasil": "A liminar derrubada tinha visto confisco na extinção da autorização da empresa, que pagou R$ 30 milhões por ela, como o portal noticiou em 6/11. Ainda não há data para o STF julgar as ações sobre a MP; Fux disse, na sessão do Plenário de 4/11, que vai precisar de tempo para elaborar o voto, segundo o g1.",
  "critica": [
   {
    "fonte": "Desembargador Johonsom Di Salvo, presidente do TRF-3, segundo a AGU",
@@ -88,6 +88,18 @@
   {
    "nome": "Agência Brasil: Justiça suspende decisão que liberou o funcionamento de três bets (06/11/2026)",
    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-suspende-decisao-que-liberou-o-funcionamento-de-tres-bets",
+   "data": "06/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "g1: Fux pede tempo para voto sobre bets; Fachin indica julgamento conjunto com ações sobre jogo do bicho, bingo, loteria e caça-níqueis (04/11/2026)",
+   "url": "https://g1.globo.com/politica/noticia/2026/11/04/fux-pede-tempo-para-voto-sobre-bets-fachin-indica-julgamento-conjunto-com-acoes-sobre-jogo-do-bicho-bingo-loteria-e-caca-niqueis.ghtml",
+   "data": "04/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "O Paladino: desembargadora do TRF-3 libera três bets (06/11/2026)",
+   "url": "https://opaladino.com.br/noticias/trf3-desembargadora-confisco-mp-bets-libera-tres-casas-apostas/",
    "data": "06/11/2026",
    "tipo": "secundaria"
   }
@@ -210,8 +222,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-08T14:47:49-03:00",
+  "data": "2026-11-08T21:14:54-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-08T14:47:49-03:00"
+ "publicado_em": "2026-11-08T14:47:49-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-08",
+   "texto": "Correção em 08/11/2026: Fux pediu tempo para o voto na sessão do Plenário de 4/11, não na audiência pública de 3/11 (g1, 04/11/2026)."
+  }
+ ],
+ "atualizado_em": "2026-11-08T21:14:54-03:00"
 }
