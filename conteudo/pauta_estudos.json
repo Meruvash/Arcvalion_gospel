@@ -164,32 +164,32 @@
   {
    "questao": "As sete igrejas do Apocalipse são eras da história da igreja?",
    "passagem": "Apocalipse 2-3",
-   "status": "na_fila",
+   "status": "sem_fontes",
    "slug": "",
-   "obs": "",
+   "obs": "09/11/2026: nenhum teólogo brasileiro de referência com texto lido defende a leitura das sete eras (só blogs e esboços sem autoria); a CPAD (Claudionor de Andrade, 2012) lê as cartas como dirigidas a igrejas reais. Sem dois autores por lado.",
    "tipo": "debate"
   },
   {
    "questao": "\"Esta geração\": o sermão profético já se cumpriu em 70 d.C.?",
    "passagem": "Mateus 24:29-35",
-   "status": "na_fila",
+   "status": "sem_fontes",
    "slug": "",
-   "obs": "",
+   "obs": "09/11/2026: lado preterista com um só autor brasileiro com texto lido (autodidata); nenhum pastor ou professor brasileiro preterista encontrado. Sem dois autores por lado.",
    "tipo": "debate"
   },
   {
    "questao": "As setenta semanas de Daniel: passado ou futuro?",
    "passagem": "Daniel 9:24-27",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "setenta-semanas-daniel-9",
    "obs": "",
    "tipo": "debate"
   },
   {
    "questao": "O rico e Lázaro: parábola ou relato do estado intermediário?",
    "passagem": "Lucas 16:19-31",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "rico-lazaro-lucas-16",
    "obs": "",
    "tipo": "debate"
   },
@@ -517,24 +517,24 @@
    "questao": "A árvore plantada junto às águas",
    "passagem": "Salmo 1",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "salmo-1",
    "obs": ""
   },
   {
    "questao": "Tudo tem o seu tempo",
    "passagem": "Eclesiastes 3:1-14",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "eclesiastes-3",
    "obs": ""
   },
   {
    "questao": "Novos céus e nova terra: Deus enxugará toda lágrima",
    "passagem": "Apocalipse 21:1-7",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "apocalipse-21",
    "obs": ""
   },
   {

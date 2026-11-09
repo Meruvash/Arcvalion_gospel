@@ -1,0 +1,286 @@
+{
+ "slug": "salmo-1",
+ "status": "publicado",
+ "tipo": "passagem",
+ "titulo": "Salmo 1: a árvore plantada junto às águas e os dois caminhos da vida",
+ "passagem": "Salmo 1",
+ "sigla": "Sl",
+ "livro": "Salmos",
+ "testamento": "Antigo Testamento",
+ "genero": "Poesia e sabedoria",
+ "nivel": 1,
+ "tempo_min": 30,
+ "selo": "Ótimo para começar",
+ "tagline": "O salmo que abre o Saltério põe diante de nós dois caminhos: o de quem se alimenta da Palavra, como árvore junto às águas, e o que o vento leva.",
+ "lede": "\"Bem-aventurado o homem que não anda segundo o conselho dos ímpios.\" O Salmo 1 é a porta de entrada do livro de Salmos. Em seis versículos, ele mostra dois caminhos: o de quem tem prazer na lei do Senhor e cresce como árvore plantada junto a ribeiros de águas, e o dos ímpios, que são como a palha que o vento espalha. Comentaristas de quatro tradições leem o texto, e para nós, pentecostais, ele lembra que a vida firme nasce da Palavra.",
+ "descricao": "Estudo do Salmo 1: os dois caminhos, o prazer na lei do Senhor, a árvore plantada junto às águas e a palha que o vento leva, com comentaristas de quatro tradições e o olhar pentecostal.",
+ "imagem": {
+  "arquivo": "estudo-salmo-1.jpg",
+  "credito": "Louis-Antoine-Léon Riesener, Árvores à beira de um lago (aquarela sobre grafite, 1853-78). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)",
+  "alt": "Aquarela de Louis-Antoine-Léon Riesener: árvores de troncos finos e copas verdes à beira de um lago calmo, com relva em primeiro plano e folhagem clara ao fundo",
+  "pagina": "https://www.metmuseum.org/art/collection/search/339689",
+  "licenca": "domínio público (Open Access CC0 do Metropolitan Museum)"
+ },
+ "versiculo_chave": {
+  "texto": "Pois será como a árvore plantada junto a ribeiros de águas, a qual dá o seu fruto no seu tempo; as suas folhas não cairão, e tudo quanto fizer prosperará.",
+  "referencia": "Salmos 1:3",
+  "traducao": "Almeida Corrigida Fiel (ACF), © Sociedade Bíblica Trinitariana do Brasil, citação curta"
+ },
+ "estrutura": [
+  [
+   "O que o justo evita",
+   "Sl 1:1. Bem-aventurado quem não anda no conselho dos ímpios, não se detém no caminho dos pecadores nem se assenta na roda dos escarnecedores."
+  ],
+  [
+   "O que o justo ama",
+   "Sl 1:2. O prazer dele está na lei do Senhor, e nela medita de dia e de noite."
+  ],
+  [
+   "A árvore",
+   "Sl 1:3. Ele será como a árvore plantada junto a ribeiros de águas, que dá fruto no seu tempo."
+  ],
+  [
+   "A palha",
+   "Sl 1:4-5. Os ímpios são como a moinha que o vento espalha e não subsistirão no juízo."
+  ],
+  [
+   "Os dois destinos",
+   "Sl 1:6. O Senhor conhece o caminho dos justos, mas o caminho dos ímpios perecerá."
+  ]
+ ],
+ "estrutura_resumo": "Dois caminhos, duas imagens e dois destinos. A prédica luterana divide o salmo assim: os caminhos (1-2), as figuras da árvore e da palha (3-4) e o julgamento (5-6). Tudo gira em torno do versículo 2: o que faz a diferença é o prazer na Palavra.",
+ "questao": "O que o Salmo 1 ensina sobre a vida de quem se alimenta da Palavra de Deus, e por que essa vida se parece com uma árvore junto às águas?",
+ "vozes": [
+  {
+   "autor": "Marcelo Oliveira",
+   "quem": "Comentarista das Lições Bíblicas Jovens da CPAD, segundo a revista",
+   "obra": "\"Encorajamento, Instrução e Conselho\", Lições Bíblicas CPAD Jovens, 2º trimestre de 2023, lição 2, \"O caminho do ímpio e do justo\" (reproduzida no site Estudantes da Bíblia)",
+   "url": "https://www.estudantesdabiblia.com.br/licoes_cpad/2023/lbj-2023-02-02.htm",
+   "data": "09/04/2023",
+   "texto": "Marcelo Oliveira mostra a progressão do versículo 1: andar, deter-se, assentar-se, até o ponto de escarnecer. A árvore do versículo 3 fala de segurança, crescimento e maturidade. Para ele, o prazer na lei passa por estudar, memorizar e aplicar a Bíblia, mas só é possível pela graça de Deus, nunca pelo nosso esforço.",
+   "citacao": "O caminho do ímpio representa instabilidade e superficialidade; o do justo, raízes na Palavra de Deus que gera estabilidade e profundidade espiritual."
+  },
+  {
+   "autor": "Ruthild Brakemeier",
+   "quem": "Autora da prédica no Proclamar Libertação, coleção publicada no Portal Luterano, da Igreja Evangélica de Confissão Luterana no Brasil (IECLB)",
+   "obra": "\"O melhor caminho para a vida\", prédica sobre o Salmo 1, Proclamar Libertação, volume 39 (Portal Luterano)",
+   "url": "https://luterano.org.br/salmo-1-proclamar-libertacao-39",
+   "data": "17/05/2015 (data da pregação)",
+   "texto": "Ruthild Brakemeier pede que o salmo não seja lido como um preto e branco entre bons e maus, e sim como ensino do melhor caminho para a vida. \"Bem-aventurado\", diz ela, é como dar parabéns pela escolha. A árvore é sustentada pela proximidade do riacho, como quem busca a vontade de Deus é sustentado por ele. E adverte com honestidade: a fidelidade não é receita de sucesso.",
+   "citacao": "Devemos admitir: fidelidade a Deus e seus mandamentos não é uma receita segura para o êxito nem garantia para o sucesso."
+  },
+  {
+   "autor": "Mauro Fernando Meister",
+   "quem": "Pastor da Igreja Presbiteriana Barra Funda, em São Paulo, diretor do CPAJ e professor de Antigo Testamento, segundo a revista",
+   "obra": "Exposição do Salmo 1, Fides Reformata XXVI, n.º 2, pp. 87-97 (PDF do CPAJ/Mackenzie)",
+   "url": "https://cpaj.mackenzie.br/fileadmin/ARQUIVOS/Public/50-outros/cpaj/Fides_Reformata/26-2/Fides26-2-6-Exposicao-do-Salmo-1-Mauro-Meister.pdf",
+   "data": "2021",
+   "texto": "Mauro Meister lê o Salmo 1 como o portal do Saltério: o versículo 2 dá o tom para ler todo o livro à luz da lei de Deus. A árvore foi plantada junto às águas por alguém que sabe que ela depende de suprimento, e por isso ela não depende das estações nem das chuvas. O bem-aventurado, conclui, não é autônomo: é dependente de Deus.",
+   "citacao": "A árvore plantada junto a correntes de águas foi ali colocada porque quem a plantou sabe que ela depende de suprimento."
+  },
+  {
+   "autor": "Leandro B. Peixoto",
+   "quem": "Pastor da Segunda Igreja Batista em Goiânia, segundo o PDF do sermão",
+   "obra": "\"A primazia da Palavra - Salmo 1\", série Os Salmos (PDF no site da Segunda Igreja Batista em Goiânia)",
+   "url": "https://www.sibgoiania.org/midia/2020/01/10.02.2016_Q-003.-Sl-1_A_primazia_da_Palavra.pdf",
+   "data": "10/02/2016",
+   "texto": "Leandro Peixoto vê os Salmos 1 e 2 como o prefácio do Saltério: o primeiro mostra a primazia da Palavra. Ela dirige os passos do justo, define a sua postura e marca a sua posição. A felicidade não é o alvo dele, e sim consequência da sua relação com a Palavra, e o Espírito Santo o nutre pela Palavra como a água nutre a árvore.",
+   "citacao": "A felicidade não é o objetivo principal da vida dele. A felicidade é um subproduto de sua atitude para com a Palavra de Deus."
+  }
+ ],
+ "contexto": [
+  "O Salmo 1 abre o livro de Salmos e não tem título. A palavra \"bem-aventurado\" traduz o hebraico ashre, que o léxico de Strong, no Bible Hub, explica como uma exclamação: quão feliz! A mesma ideia abre o Sermão do Monte (Mateus 5:3-12).",
+  "\"Lei\" traduz torah, que o léxico Brown-Driver-Briggs, no Bible Hub, define como direção e instrução, não só como regra. \"Medita\" traduz hagah, que o léxico de Strong explica como murmurar e, daí, ponderar: é ler em voz baixa, repetindo. A \"moinha\" do versículo 4 é a palha leve que o vento levava quando o trigo era jogado para o alto na eira.",
+  "Jeremias 17:8 usa a mesma imagem: a árvore plantada junto às águas não receia quando vem o calor. Matthew Henry, comentarista inglês do século 18, escreveu que nenhuma árvore boa cresceu por si mesma: é plantação do Senhor, e por isso ele deve ser glorificado nela (tradução livre)."
+ ],
+ "aplicacao": [
+  "Repare no caminho do versículo 1: primeiro se anda, depois se para, depois se senta. Ninguém chega à roda dos escarnecedores de uma vez. Pergunte-se: que conselhos estou ouvindo, e para onde eles estão me levando?",
+  "E plante-se junto às águas. Escolha um texto curto da Bíblia por semana, leia-o de manhã e à noite e repita-o em voz baixa durante o dia. É assim que a raiz desce, e o fruto vem no seu tempo."
+ ],
+ "destaques": [
+  [
+   "Bem-aventurado",
+   "A primeira palavra do livro de Salmos (1:1)."
+  ],
+  [
+   "Andar, deter-se, assentar-se",
+   "Os três passos do afastamento de Deus (1:1)."
+  ],
+  [
+   "O seu prazer",
+   "\"Antes tem o seu prazer na lei do Senhor\" (1:2)."
+  ],
+  [
+   "De dia e de noite",
+   "A meditação constante na Palavra (1:2)."
+  ],
+  [
+   "Fruto no seu tempo",
+   "A árvore não dá fruto fora de época (1:3)."
+  ],
+  [
+   "O Senhor conhece",
+   "\"O Senhor conhece o caminho dos justos\" (1:6)."
+  ]
+ ],
+ "atencao": [
+  [
+   "Moderada",
+   "Ler \"tudo quanto fizer prosperará\" como promessa de vida sem dificuldade",
+   "A árvore dá fruto \"no seu tempo\". A prédica luterana lembra que a fidelidade não é receita de sucesso; o que o salmo garante é o sustento de Deus."
+  ],
+  [
+   "Moderada",
+   "Achar que o justo se fez sozinho",
+   "A árvore foi plantada. A lição da CPAD lembra que o prazer na Palavra vem pela graça, não pelo esforço."
+  ],
+  [
+   "Leve",
+   "Ler o salmo como desprezo pelos pecadores",
+   "O salmo fala de caminhos e convida à escolha. Quem hoje está no caminho errado ainda pode mudar de direção."
+  ]
+ ],
+ "perfil": [
+  [
+   "Contexto histórico",
+   3
+  ],
+  [
+   "Aplicação prática",
+   5
+  ],
+  [
+   "Profundidade teológica",
+   4
+  ],
+  [
+   "Fé",
+   5
+  ]
+ ],
+ "formatos": [
+  [
+   "Sozinho",
+   "Leia o salmo todos os dias desta semana, de manhã e à noite, e anote o que muda na sua leitura.",
+   5
+  ],
+  [
+   "Em família",
+   "Plantem juntos uma muda e conversem sobre o que ela precisa para crescer, ligando isso ao versículo 3.",
+   5
+  ],
+  [
+   "Em grupo",
+   "Leia o Salmo 1 com Jeremias 17:5-8 e compare as duas árvores e os dois caminhos.",
+   5
+  ]
+ ],
+ "para_quem": [
+  "Quem quer começar a ler a Bíblia todos os dias",
+  "Jovens que estão escolhendo as suas companhias",
+  "Quem se sente seco por dentro"
+ ],
+ "nao_e_para": [
+  "Quem procura no texto uma promessa de riqueza"
+ ],
+ "dica": "Leia o salmo em voz baixa, devagar, como quem murmura. É o sentido do verbo \"meditar\" no versículo 2. Depois escolha uma frase e repita-a ao longo do dia.",
+ "traducoes": "A ACF traz \"ribeiros de águas\" (1:3); outras versões dizem correntes de águas, canais que levavam água ao pomar. \"Moinha\" (1:4) é a palha leve que o vento leva. \"Roda dos escarnecedores\" (1:1) é a roda de conversa de quem zomba de Deus. \"Conhece\" (1:6) tem o sentido de cuidar de perto.",
+ "relacionadas": "O salmo conversa com Josué 1:8, Jeremias 17:5-8, Salmo 119:97-105, Provérbios 4:18-19, Mateus 5:3-12, Mateus 7:13-14, João 15:1-8 e Gálatas 5:22-23.",
+ "comparacoes": [],
+ "versiculos": [
+  [
+   "Salmos 1:1",
+   "Bem-aventurado o homem que não anda segundo o conselho dos ímpios, nem se detém no caminho dos pecadores, nem se assenta na roda dos escarnecedores."
+  ],
+  [
+   "Salmos 1:2",
+   "Antes tem o seu prazer na lei do Senhor, e na sua lei medita de dia e de noite."
+  ],
+  [
+   "Jeremias 17:8",
+   "Porque será como a árvore plantada junto às águas, que estende as suas raízes para o ribeiro, e não receia quando vem o calor, mas a sua folha fica verde; e no ano de sequidão não se preocupa, nem deixa de dar fruto."
+  ]
+ ],
+ "veredito": "O Salmo 1 abre o livro de oração da Bíblia com um convite: escolha o caminho. Quem tem prazer na Palavra de Deus não fica livre das estações secas, mas tem raiz junto às águas, dá fruto no seu tempo e é conhecido pelo Senhor.",
+ "ficha": [
+  [
+   "Livro",
+   "Salmos"
+  ],
+  [
+   "Autor",
+   "Não indicado; o salmo não tem título"
+  ],
+  [
+   "Lugar no livro",
+   "Abertura do Saltério"
+  ],
+  [
+   "Passagem",
+   "6 versículos"
+  ],
+  [
+   "Palavras-chave",
+   "ashre (bem-aventurado), torah (instrução, lei), hagah (meditar), derek (caminho)"
+  ]
+ ],
+ "fontes": [
+  [
+   "Marcelo Oliveira, Lições Bíblicas CPAD Jovens, 2º trimestre de 2023, lição 2 (Estudantes da Bíblia, 09/04/2023)",
+   "https://www.estudantesdabiblia.com.br/licoes_cpad/2023/lbj-2023-02-02.htm",
+   "o caminho do ímpio e do justo"
+  ],
+  [
+   "Ruthild Brakemeier, Proclamar Libertação 39 (Portal Luterano)",
+   "https://luterano.org.br/salmo-1-proclamar-libertacao-39",
+   "o melhor caminho para a vida"
+  ],
+  [
+   "Mauro Fernando Meister, Exposição do Salmo 1 (Fides Reformata, 2021)",
+   "https://cpaj.mackenzie.br/fileadmin/ARQUIVOS/Public/50-outros/cpaj/Fides_Reformata/26-2/Fides26-2-6-Exposicao-do-Salmo-1-Mauro-Meister.pdf",
+   "a árvore dependente"
+  ],
+  [
+   "Leandro B. Peixoto, \"A primazia da Palavra\" (Segunda Igreja Batista em Goiânia, 10/02/2016)",
+   "https://www.sibgoiania.org/midia/2020/01/10.02.2016_Q-003.-Sl-1_A_primazia_da_Palavra.pdf",
+   "a Palavra e a felicidade"
+  ],
+  [
+   "Matthew Henry, comentário do Salmo 1 (Bible Study Tools, domínio público)",
+   "https://www.biblestudytools.com/commentaries/matthew-henry-complete/psalms/1.html",
+   "a plantação do Senhor"
+  ],
+  [
+   "Bible Hub, Strong 835 (ashre), 1897 (hagah) e 8451 (torah)",
+   "https://biblehub.com/hebrew/1897.htm",
+   "as palavras hebraicas"
+  ],
+  [
+   "Declaração de Fé das Assembleias de Deus (CGADB, 2016), caps. I, X e XVII",
+   "https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf",
+   "a Palavra, a lei e a santificação"
+  ],
+  [
+   "Bíblia Online, Salmo 1 (Almeida Corrigida Fiel)",
+   "https://www.bibliaonline.com.br/acf/sl/1",
+   "texto do versículo-chave"
+  ]
+ ],
+ "consulta": "09/11/2026",
+ "legenda": "\"Será como a árvore plantada junto a ribeiros de águas.\" 🌳💧\n\nO Salmo 1 abre o livro de Salmos com dois caminhos: o de quem tem prazer na Palavra de Deus e cresce como árvore junto às águas, e o da palha que o vento leva.\n\nOnde estão as suas raízes hoje?\n\nEstudo completo no link da bio.\n\n#salmo1 #salmos #palavradedeus #estudobiblico #pentecostal #meditacao #fe #biblia #arvoreplantada #bibleStudy",
+ "cor": "#2f5a32",
+ "ia": {
+  "usada": true,
+  "uso": "Pesquisa nas fontes listadas e redação feitas com apoio de inteligência artificial. Citações literais conferidas no texto das páginas citadas. A lição da CPAD foi lida na reprodução do site Estudantes da Bíblia; os subsídios de outros autores reproduzidos nela não foram atribuídos ao comentarista. A Declaração de Fé não cita o Salmo 1; a ligação entre o texto e o que ela ensina é do portal. Linha editorial pentecostal adotada pelo portal em 30/10/2026."
+ },
+ "nossa_posicao": [
+  "O pentecostal é gente da Palavra. A Declaração de Fé das Assembleias de Deus afirma: \"A Bíblia é nossa única regra de fé e prática, a inerrante, completa e infalível Palavra de Deus\". Ao tratar da Lei, explica que \"o termo Torá basicamente significa “instrução, ensino, lei”\". É desse ensino que o Salmo 1 fala: não de um peso, mas de um prazer, a instrução de um Pai que quer ver os filhos firmes.",
+  "E a árvore precisa de água o tempo todo. A Declaração diz que \"Santificação é o ato de separar-se do pecado e dedicar-se a Deus.\" O versículo 1 é a separação; o versículo 2 é a dedicação. Cremos que o Espírito Santo, que inspirou a Palavra, é quem a torna viva em nós quando meditamos nela de dia e de noite, e é assim que a vida dá fruto no seu tempo."
+ ],
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-09T05:37:34-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-09T05:37:34-03:00"
+}
