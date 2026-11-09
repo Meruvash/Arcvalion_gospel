@@ -1,0 +1,212 @@
+{
+ "slug": "fux-suspende-todas-acoes-contra-proibicao-bets-pais",
+ "data": "2026-11-09",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": true,
+ "opiniao_forte": true,
+ "selo": "Boa notícia",
+ "titulo": "Fux suspende no país todas as ações contra a proibição das bets",
+ "lide": "O ministro Luiz Fux, do STF, mandou suspender em todo o país os processos que discutem a constitucionalidade da MP 1.394/2026, que proibiu as bets. A decisão atende a pedido da PGR, já está valendo e dura até o julgamento definitivo no Supremo, segundo o próprio tribunal nesta segunda-feira (9).",
+ "por_que_importa": "Acaba, por ora, a corrida de empresas de apostas atrás de liminares em cada canto do país para voltar ao ar. Enquanto o STF não julga, a proibição vale igual para todos. Para as famílias que lutam contra o vício, é uma porta a menos se abrindo pela Justiça.",
+ "numeros": [
+  [
+   "4",
+   "ações diretas no STF contra a MP das bets (ADIs 8024, 8027, 8028 e 8035), citadas pela PGR",
+   "STF, 09/11/2026"
+  ],
+  [
+   "10+",
+   "processos sobre o tema só em São Paulo, segundo a Agência Brasil",
+   "Agência Brasil, 09/11/2026"
+  ],
+  [
+   "3",
+   "dias entre o pedido da PGR (6/11) e a notícia da decisão de Fux (9/11)",
+   "STF, 09/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo o STF, a medida foi tomada na ADI 8027, depois que a PGR apontou que, embora a MP já seja discutida em quatro ações no Supremo, juízes de outras instâncias concederam decisões provisórias suspendendo seus efeitos. Fux considerou presentes o perigo da demora e a plausibilidade do pedido e decidiu sozinho, em caráter liminar, pela urgência.",
+  "A decisão será submetida a referendo do Plenário, informa o tribunal. Na semana passada, Fux conduziu audiência pública sobre a proibição das bets; a Agência Brasil relata que, na ocasião, ele disse ter a impressão de que as bets devem, de fato, ser banidas."
+ ],
+ "no_brasil": "Na sexta (6), o presidente do TRF-3 derrubou a liminar que tinha liberado três bets da CDA Gaming, como o portal noticiou em 8/11; no mesmo dia, o procurador-geral Paulo Gonet pediu a Fux a suspensão nacional das ações. As entidades do setor, como a ANJL e o IBJR, seguem contestando a MP no STF.",
+ "critica": [
+  {
+   "fonte": "Ministro Luiz Fux, na decisão, segundo a Agência Brasil",
+   "texto": "há o risco de insegurança jurídica em decorrência da possibilidade de múltiplas decisões em sentidos divergentes, com o agravante de se tratar de potencial liberação de atividade reconhecidamente danosa e de elevado risco social, qual seja a exploração de apostas de quota fixa",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-suspende-todas-acoes-judiciais-contra-proibicao-de-bets-no-pais"
+  },
+  {
+   "fonte": "Setor de apostas, nas ações no STF",
+   "texto": "Associações como a ANJL e o IBJR sustentam no Supremo que a MP é inconstitucional; para empresas que pagaram pela autorização, a suspensão adia a discussão sobre eventual indenização.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Famílias com alguém viciado em apostas: nenhuma liminar avulsa deve reabrir bets enquanto o STF não julgar; procure ajuda na rede de saúde",
+  "Igrejas que acolhem endividados: a proibição segue valendo para todas as empresas",
+  "Quem acompanha o caso: o Plenário ainda vai referendar a decisão e julgar as quatro ações"
+ ],
+ "nao_e_para": [
+  "A decisão não julga se a MP é constitucional; só congela os processos até o Supremo decidir",
+  "O Plenário ainda precisa referendar a liminar de Fux",
+  "A íntegra da decisão não foi lida; a nota segue a notícia oficial do STF e a Agência Brasil"
+ ],
+ "veredito": "Decisão acertada. Lei que protege a família não pode virar loteria de liminar, cada juiz abrindo uma exceção. Fux pôs ordem na casa e chamou a aposta pelo nome: atividade danosa e de elevado risco social. Que o Plenário confirme logo e julgue o mérito sem demora.",
+ "versiculo": {
+  "texto": "Porque o amor do dinheiro é a raiz de toda espécie de males; e nessa cobiça alguns se desviaram da fé e se traspassaram a si mesmos com muitas dores",
+  "referencia": "1 Timóteo 6.10",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: STF suspende processos que questionam constitucionalidade de MP das bets (09/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-suspende-processos-que-questionam-constitucionalidade-de-mp-das-bets/",
+   "data": "09/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Fux suspende todas as ações judiciais contra proibição de bets no país (09/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-suspende-todas-acoes-judiciais-contra-proibicao-de-bets-no-pais",
+   "data": "09/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Brasil: PGR pede suspensão de ações contra proibição de bets (06/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-pede-suspensao-de-acoes-contra-proibicao-de-bets",
+   "data": "06/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "O Paladino: TRF-3 derruba liminar e três bets voltam a ser proibidas (08/11/2026)",
+   "url": "https://opaladino.com.br/noticias/trf3-derruba-liminar-tres-bets-pgr-pede-suspensao-acoes-stf/",
+   "data": "08/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 76,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre o vício em apostas que destrói famílias: o STF congela as ações que tentavam reabrir as bets pela Justiça"
+  },
+  "origem": {
+   "nome": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-suspende-processos-que-questionam-constitucionalidade-de-mp-das-bets/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Decisão do STF já valendo que suspende em todo o país os processos contra a proibição das bets"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Vício em apostas e proteção da família: núcleo do portal, que acompanha o caso desde a audiência no STF"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Decisão noticiada pelo STF e pela Agência Brasil na manhã de hoje, 9/11"
+   },
+   "comprovacao": {
+    "pontos": 10,
+    "porque": "Notícia oficial do STF e reportagem da Agência Brasil com trecho da decisão; a íntegra da decisão não foi lida"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Liga a decisão ao pedido da PGR e à liminar derrubada no TRF-3, que o portal acompanhou"
+   }
+  },
+  "publico": {
+   "pontos": 18,
+   "eixos": {
+    "valor": 8,
+    "viral": 6,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: notícia oficial do STF (2)",
+    "Ato de poder: decisão de ministro do STF (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Fux, Gonet (1)",
+    "Boa notícia (1)",
+    "Tema que já mobiliza o público: proibição das bets (1)",
+    "Pede resposta do cristão: famílias endividadas (2)",
+    "Passagem bíblica que um pastor usaria: 1 Timóteo 6.10 (2)",
+    "Rende estudo: amor ao dinheiro (2)",
+    "Gatilho no calendário: referendo do Plenário (1)",
+    "Utilidade: o que vale agora (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "STF suspende processos que questionam constitucionalidade de MP das bets",
+  "nucleo": "A - Brasil",
+  "categoria": "Judiciário / apostas",
+  "coleta": "2026-11-09",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado em notícia oficial do STF e reportagem",
+   "contradicoes": "Nenhuma entre STF e Agência Brasil.",
+   "sem_confirmacao": "íntegra da decisão; data exata da assinatura; data do referendo no Plenário"
+  },
+  "duplicidade": {
+   "grupo": "MP das bets no STF",
+   "itens": [
+    "STF 09/11",
+    "Agência Brasil 09/11",
+    "Claudio Dantas 09/11",
+    "Rondoniaovivo 09/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-08-trf3-derruba-liminar-tres-bets-pgr-pede-suspensao-acoes-stf (o pedido da PGR agora atendido)"
+  },
+  "seo": {
+   "intencao": "saber se as bets podem voltar por decisão judicial",
+   "entidades": [
+    "Luiz Fux",
+    "STF",
+    "PGR",
+    "Paulo Gonet",
+    "MP 1.394/2026",
+    "ADI 8027"
+   ],
+   "termos": [
+    "Fux suspende ações bets",
+    "bets STF suspensão",
+    "proibição das bets",
+    "MP das bets"
+   ],
+   "atualizacao": "acompanhar o referendo do Plenário e o julgamento das ADIs"
+  }
+ },
+ "descricao_seo": "Fux, do STF, suspendeu em todo o país as ações contra a MP que proibiu as bets, a pedido da PGR, até o julgamento definitivo no Supremo.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da notícia do STF e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos atribuídos à notícia oficial do STF e à Agência Brasil; a frase de Fux foi lida na Agência Brasil. A nota registra que a decisão é liminar, depende de referendo e não julga o mérito, e cita a posição do setor. A opinião apoia a decisão sem atacar empresas, entidades ou apostadores.",
+ "imagem": {
+  "arquivo": "capas/fux-suspende-todas-acoes-contra-proibicao-bets-pais.jpg",
+  "credito": "Foto: Joédson Alves/Agência Brasil",
+  "alt": "Tela de site do governo comunica o bloqueio de plataformas de apostas, em Brasília, em outubro de 2026 (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/hIq-5YWDqZE6rmJqO4_skID2_AM=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/06/0d4a2591.jpg?itok=uFxXCQYk",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-suspende-todas-acoes-judiciais-contra-proibicao-de-bets-no-pais"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-09T14:48:50-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-09T14:48:50-03:00"
+}
