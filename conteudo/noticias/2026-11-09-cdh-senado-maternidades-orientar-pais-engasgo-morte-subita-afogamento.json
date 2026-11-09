@@ -1,0 +1,195 @@
+{
+ "slug": "cdh-senado-maternidades-orientar-pais-engasgo-morte-subita-afogamento",
+ "data": "2026-11-09",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "selo": "Vale acompanhar",
+ "titulo": "Projeto obriga maternidades a ensinar pais a socorrer bebê engasgado antes da alta",
+ "lide": "A Comissão de Direitos Humanos do Senado tem na pauta de quarta-feira (11) o PL 1.079/2019, do deputado Celso Sabino, que obriga os serviços de saúde onde o parto é feito a oferecer aos pais orientação e treinamento sobre prevenção de morte súbita, socorro em caso de engasgo, desobstrução das vias aéreas e prevenção de afogamentos. O relator, Sargento Reginauro, é favorável.",
+ "por_que_importa": "Muitas mortes de bebês por engasgo ou afogamento acontecem nos primeiros minutos, antes de o socorro chegar, e um pai que sabe a manobra certa pode salvar o filho. O projeto aproveita o momento em que toda família passa pela maternidade para ensinar o básico. Para o relator, a medida reforça a corresponsabilidade da família, da sociedade e do Estado.",
+ "numeros": [
+  [
+   "180 dias",
+   "prazo para a lei entrar em vigor depois de publicada, pelo texto do projeto",
+   "Relatório da CDH"
+  ],
+  [
+   "3 a 20",
+   "salários mínimos de multa previstos no texto original para quem descumprir; o relator propõe retirar essa punição",
+   "Relatório da CDH"
+  ],
+  [
+   "2019",
+   "ano em que o projeto foi apresentado na Câmara; no Senado, depois da CDH, ainda passa pela CAS",
+   "Relatório da CDH"
+  ]
+ ],
+ "corpo": [
+  "As orientações e o treinamento poderão ser dados individualmente ou em grupo, antes da alta hospitalar, e a adesão dos pais será facultativa. As maternidades terão de afixar, em local visível, a informação de que o treinamento está disponível. Segundo o autor, muitos óbitos e sequelas graves acontecem não por falta de possibilidade de socorro, mas por desconhecimento dos pais nos primeiros momentos da emergência.",
+  "O relator propõe emenda para retirar a multa de três a vinte salários mínimos prevista para os responsáveis pelos serviços de saúde que descumprirem a regra. Para ele, como os recursos podem ser limitados, a punição exporia os administradores, e a obrigação pode ser absorvida pelas rotinas de educação em saúde que os hospitais já fazem."
+ ],
+ "no_brasil": "O projeto não é terminativo na CDH e segue para a Comissão de Assuntos Sociais. Na mesma reunião, a CDH tem na pauta outros projetos que mexem no ECA, como o que dá prioridade a gestantes e lactantes no recebimento de insumos contra epidemias, segundo a agenda oficial do Senado.",
+ "critica": [
+  {
+   "fonte": "Senador Sargento Reginauro, relator, no relatório",
+   "texto": "O treinamento de pais e responsáveis em temas relacionados à prevenção de acidentes e à resposta imediata em emergências contribui para a efetivação do direito à vida, à saúde e ao desenvolvimento seguro da criança.",
+   "citacao": true,
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/b7793172-5280-4576-9428-c6397fbb2ec1"
+  },
+  {
+   "fonte": "Relatório da CDH, sobre a multa",
+   "texto": "O relator avalia que a multa exporia os administradores a punição mesmo com recursos limitados e propõe confiar que os hospitais farão o melhor com o que têm.",
+   "citacao": false
+  },
+  {
+   "fonte": "Ponto de atenção da redação",
+   "texto": "Sem multa e com adesão facultativa, o alcance da lei vai depender de as maternidades realmente oferecerem o treinamento e de os pais aceitarem participar.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Pais de primeira viagem: se virar lei, a maternidade vai oferecer o treinamento antes da alta; vale aceitar",
+  "Avós e cuidadores: a manobra de desobstrução e os cuidados contra afogamento servem para todos que cuidam de criança",
+  "Igrejas com ministério infantil e de casais: um curso de primeiros socorros para pais é serviço concreto à comunidade"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: depois da CDH, o texto vai à CAS",
+  "O treinamento será oferecido, mas os pais não serão obrigados a participar",
+  "A votação de quarta pode ser adiada"
+ ],
+ "veredito": "A gente apoia. Pai e mãe que sabem desengasgar o filho ou reconhecer o perigo da água podem salvar uma vida em segundos. O momento da maternidade é o certo para ensinar. Que o Senado aprove, e que as igrejas também ofereçam esse cuidado às famílias.",
+ "versiculo": {
+  "texto": "Eis que os filhos são herança do Senhor, e o fruto do ventre, o seu galardão",
+  "referencia": "Salmos 127.3",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Senado Federal: relatório do senador Sargento Reginauro na CDH sobre o PL 1.079/2019",
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/b7793172-5280-4576-9428-c6397fbb2ec1",
+   "data": "2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal: agenda das comissões de 9 a 13 de novembro de 2026 (dados abertos), reunião da CDH",
+   "url": "https://legis.senado.leg.br/dadosabertos/comissao/agenda/20261109/20261113",
+   "data": "09/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre a vida dos bebês e o preparo dos pais: o projeto leva treinamento de primeiros socorros à maternidade"
+  },
+  "origem": {
+   "nome": "Senado Federal",
+   "url": "https://legis.senado.leg.br/dadosabertos/comissao/agenda/20261109/20261113"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Votação marcada na CDH, não terminativa; efeito ainda futuro"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Vida dos bebês e responsabilidade dos pais: núcleo do portal, com efeito direto nas famílias"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Votação marcada na pauta oficial da CDH para quarta-feira (11)"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Relatório da CDH lido na íntegra e agenda oficial do Senado"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Explica a emenda que retira a multa e o efeito prático da adesão facultativa"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 8,
+    "viral": 3,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: relatório e agenda oficial (2)",
+    "Ato de poder: votação na CDH do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: treinamento para pais (2)",
+    "Gatilho no calendário: votação na quarta (1)",
+    "Personagem com nome: Sargento Reginauro (1)",
+    "Pede resposta do cristão: cuidado com os filhos (2)",
+    "Passagem bíblica que um pastor usaria: Salmos 127.3 (2)",
+    "Boa notícia (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Reunião da CDH de 11/11/2026: PL 1.079/2019",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / proteção da infância",
+  "coleta": "2026-11-09",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato comprovado em documento primário",
+   "contradicoes": "A agenda fala em duas emendas do relator; o trecho do relatório lido detalha a que retira a multa.",
+   "sem_confirmacao": "teor da segunda emenda; se a votação acontece na quarta"
+  },
+  "duplicidade": {
+   "grupo": "PL 1.079/2019",
+   "itens": [
+    "Agenda CDH 11/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se a maternidade vai ensinar primeiros socorros aos pais",
+   "entidades": [
+    "Senado Federal",
+    "CDH",
+    "PL 1.079/2019",
+    "Sargento Reginauro",
+    "ECA"
+   ],
+   "termos": [
+    "engasgo bebê",
+    "primeiros socorros pais maternidade",
+    "morte súbita bebê",
+    "prevenção afogamento crianças"
+   ],
+   "atualizacao": "acompanhar a votação na CDH e na CAS"
+  }
+ },
+ "descricao_seo": "A CDH do Senado vota em 11/11 o PL 1.079/2019, que obriga maternidades a oferecer aos pais treinamento contra engasgo, morte súbita e afogamento.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do relatório e da agenda oficial, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos vêm do relatório oficial e da agenda do Senado; a frase entre aspas do relator foi lida no relatório. A nota não atribui culpa a pais, hospitais ou pessoas e não cita casos concretos.",
+ "imagem": {
+  "arquivo": "capas/cdh-senado-maternidades-orientar-pais-engasgo-morte-subita-afogamento.jpg",
+  "credito": "Vincenzo Foppa, Virgem com o Menino (c. 1480), The Metropolitan Museum of Art",
+  "alt": "Pintura de Vincenzo Foppa: Maria segura com cuidado o Menino Jesus ao colo",
+  "licenca": "Domínio público (Open Access do Met, CC0)",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP258301.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/436311"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-09T02:37:13-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-09T02:37:13-03:00"
+}
