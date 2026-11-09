@@ -24,7 +24,7 @@ A NTLH traduz "justificar" por "aceitar": "fomos aceitos por Deus" (Romanos 5:9)
 
 ## Divergências entre tradições
 
-Sobre a eleição, Calvino lê Efésios 2:8 depois de tratar "of election and of effectual calling"; a Declaração de Fé diz que a predestinação é "condicionada à fé em Cristo Jesus, estando relacionada à presciência de Deus". O tema já foi tratado no estudo "O que Deus pensa de mim?". Sobre perseverar: a Declaração diz que a salvação é "eterna, completa e eficaz" e que "todos somos exortados a perseverar até o fim"; Wesley diz que quem, já justificado, negligencia de propósito as boas obras "cannot retain the grace he has received". Nenhuma frase de Calvino sobre perseverança foi lida; não o cite nesse ponto.
+Sobre a eleição, Calvino lê Efésios 2:8 depois de tratar "of election and of effectual calling"; a Declaração de Fé diz que a predestinação é "condicionada à fé em Cristo Jesus, estando relacionada à presciência de Deus". O tema é desenvolvido no estudo "O que Deus pensa de mim?". Sobre perseverar: a Declaração diz que a salvação é "eterna, completa e eficaz" e que "todos somos exortados a perseverar até o fim"; Wesley diz que quem, já justificado, negligencia de propósito as boas obras "cannot retain the grace he has received". Nenhuma frase de Calvino sobre perseverança foi lida; não o cite nesse ponto.
 
 ## Dúvidas frequentes
 

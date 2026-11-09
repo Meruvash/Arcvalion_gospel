@@ -36,9 +36,9 @@ Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é 
 
 Um homem que tinha nascido cego foi curado por Jesus. Os líderes religiosos o interrogaram e tentaram fazê-lo dizer que Jesus era pecador. Ele respondeu: "Se ele é pecador, eu não sei. De uma coisa eu sei: eu era cego e agora vejo!" (João 9:25).
 
-Pedro e João também não eram estudiosos. O Conselho Superior "ficaram admirados com a coragem de Pedro e de João, pois sabiam que eram homens simples e sem instrução. E reconheceram que eles tinham sido companheiros de Jesus" (Atos 4:13).
+Pedro e João também não eram estudiosos. Os membros do Conselho Superior "ficaram admirados com a coragem de Pedro e de João, pois sabiam que eram homens simples e sem instrução. E reconheceram que eles tinham sido companheiros de Jesus" (Atos 4:13).
 
-João Calvino, o reformador de Genebra, comentou 1 Pedro 3:15 dizendo que Pedro não manda estar pronto para resolver qualquer questão que apareça. Nem todos precisam saber discutir cada ponto da fé. Basta mostrar que a nossa fé em Cristo é sincera.
+João Calvino, o reformador de Genebra, comentou 1 Pedro 3:15 dizendo que Pedro não manda estar pronto para resolver qualquer questão que apareça. Nem todos precisam saber discutir cada ponto da fé. Basta mostrar que a nossa fé em Cristo está de acordo com a verdadeira piedade.
 
 ### "Venham ver"
 

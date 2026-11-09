@@ -26,7 +26,7 @@ Em Mateus 25:40 a NTLH diz "ao mais humilde dos meus irmãos", onde outras vers�
 
 ## Divergências entre tradições
 
-Todos os autores lidos ligam o serviço à fé verdadeira, com ênfases diferentes. A Declaração de Fé diz que a salvação "não vem das obras". Calvino fala de "a reward of grace, because it depends on adoption". Henry e Wesley usam a expressão "necessary to salvation": Henry fala das obras como "proofs of our love", e Wesley, da continuação da fé de quem já foi salvo. Não diga que eles ensinam salvação por obras.
+Todos os autores lidos ligam o serviço à fé verdadeira, com ênfases diferentes. A Declaração de Fé diz que a salvação "não vem das obras". Calvino fala de "a reward of grace, because it depends on adoption". Henry e Wesley usam a expressão "necessary to salvation": Henry fala das obras como "proofs of our love", e Wesley, da perseverança nas obras de misericórdia ("continuance in works of mercy"). Não diga que eles ensinam salvação por obras.
 
 Sobre "o mais humilde dos meus irmãos", Calvino e Henry pensam nos discípulos; Wesley inclui os aflitos "whether they are good or bad". A Declaração inclui "os não membros".
 

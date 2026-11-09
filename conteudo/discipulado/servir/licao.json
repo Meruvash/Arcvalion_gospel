@@ -109,8 +109,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-08T15:28:33-03:00",
+  "data": "2026-11-08T21:16:56-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-08T15:28:33-03:00"
+ "publicado_em": "2026-11-08T15:28:33-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-08",
+   "texto": "Correção em 08/11/2026: Henry fala de Cristo morrer pelo bem das pessoas de bem (Mc 10); no sermão 98, Wesley trata da perseverança nas obras de misericórdia."
+  }
+ ],
+ "atualizado_em": "2026-11-08T21:16:56-03:00"
 }

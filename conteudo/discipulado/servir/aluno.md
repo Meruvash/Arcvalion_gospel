@@ -28,7 +28,7 @@ Dois discípulos pediram a Jesus os lugares de honra no seu Reino. Os outros fic
 
 O serviço cristão não começa com o que fazemos. Começa com o que Jesus fez: ele "não veio para ser servido, mas para servir e dar a sua vida para salvar muita gente". Ninguém compra a salvação servindo. A Declaração de Fé diz que a salvação "é um ato da graça soberana de Deus pelo mérito de Jesus Cristo e não vem das obras".
 
-Mas quem foi servido por Jesus aprende a servir. Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, perguntou: se ele morreu pelo bem das pessoas, não devemos nós viver pelo bem delas? E escreveu que os mais honrados, agora e depois, são os mais úteis.
+Mas quem foi servido por Jesus aprende a servir. Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, perguntou: se ele morreu pelo bem das pessoas de bem, não devemos nós procurar viver pelo bem delas? E escreveu que os mais honrados, agora e depois, são os mais úteis.
 
 > [!termo] **Servir:** colocar a própria vida a serviço de Deus e dos outros, por amor. Paulo escreve: "que o amor faça com que vocês sirvam uns aos outros" (Gálatas 5:13).
 
@@ -38,7 +38,7 @@ Jesus contou como será o dia em que ele vier como Rei. Ele dirá aos da sua dir
 
 Eles ficaram surpresos: quando foi que fizeram isso? E o Rei responderá: "quando vocês fizeram isso ao mais humilde dos meus irmãos, foi a mim que fizeram" (Mateus 25:40). Os bons nem sabiam que estavam servindo ao Rei.
 
-João Calvino, o reformador de Genebra, comentou que Cristo é desprezado ou honrado na pessoa de quem precisa da nossa ajuda. E lembrou que Jesus reconhece o bem feito de graça, sem esperar recompensa.
+João Calvino, o reformador de Genebra, comentou que Cristo é deixado de lado ou honrado na pessoa de quem precisa da nossa ajuda. E lembrou que Jesus reconhece o bem feito de graça, sem esperar recompensa.
 
 ### Quem é o meu próximo?
 
@@ -68,7 +68,7 @@ Paulo diz: "O que vocês fizerem façam de todo o coração, como se estivessem 
 
 Tiago dá um exemplo duro: se um irmão não tem roupa nem comida, "não adianta nada dizer: 'Que Deus os abençoe! Vistam agasalhos e comam bem.'" E conclui: a fé, "se não vier acompanhada de ações, é coisa morta" (Tiago 2:16-17).
 
-Calvino também alertou para o outro lado: quem ajuda as pessoas mas não se importa com Deus não faz o que Jesus pede. A Declaração de Fé põe juntos, na missão da Igreja, "a adoração, da evangelização, da edificação de seus membros e do trabalho social". Servir ao próximo e servir a Deus andam de mãos dadas.
+Calvino também alertou para o outro lado: quem ajuda as pessoas mas não se importa com Deus não faz o que Jesus pede. A Declaração de Fé diz que a Igreja glorifica a Deus "por meio da adoração, da evangelização, da edificação de seus membros e do trabalho social". Servir ao próximo e servir a Deus andam de mãos dadas.
 
 > [!chave] Servir é seguir Jesus, que veio para servir. Servimos a Deus servindo às pessoas, com o dom que recebemos, sem querer aparecer, e o serviço nasce da comunhão com ele.
 

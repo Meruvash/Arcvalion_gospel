@@ -44,7 +44,7 @@ Daniel foi levado como prisioneiro para a Babilônia e passou a trabalhar no pal
 
 Matthew Henry comentou que Daniel se manteve firme sendo um carvalho, e não um salgueiro: pela constância na virtude, e não pela facilidade de dobrar-se ao vício. E notou que ele era fiel em tudo o que lhe confiavam.
 
-Quando o rei proibiu orações a outro deus, Daniel foi para casa, abriu as janelas, "ajoelhou-se e orou, dando graças ao seu Deus. Ele costumava fazer isso três vezes por dia" (Daniel 6:10). O trabalho bem feito e a oração andavam juntos. Henry escreveu que é bom ter horas de oração, não para prender, mas para lembrar a consciência.
+Quando o rei assinou a ordem que proibia, por trinta dias, fazer pedidos a qualquer deus ou homem que não fosse ele, Daniel foi para casa, abriu as janelas, "ajoelhou-se e orou, dando graças ao seu Deus. Ele costumava fazer isso três vezes por dia" (Daniel 6:10). O trabalho bem feito e a oração andavam juntos. Henry escreveu que é bom ter horas de oração, não para prender, mas para lembrar a consciência.
 
 > [!atencao] Viver a fé no trabalho não é fazer tudo o que o lugar manda. Daniel serviu bem o governo, mas não deixou de orar. A Declaração de Fé diz que, em caso de conflito entre as normas do Estado e a Bíblia, "esta prevalece sobre aquelas".
 
@@ -66,7 +66,7 @@ Esses textos falam de palavras ditas. Mas valem também para mensagens e postage
 
 Jesus disse: "Vocês são a luz para o mundo". E: "a luz de vocês deve brilhar para que os outros vejam as coisas boas que vocês fazem e louvem o Pai de vocês, que está no céu" (Mateus 5:14, 16). O objetivo não é sermos admirados, mas que Deus seja louvado.
 
-Wesley escreveu que o amor não pode ser escondido, assim como a luz. É mais fácil esconder uma cidade do que esconder um cristão.
+Wesley escreveu que o amor não pode ser escondido, assim como a luz. Tentar esconder um cristão é como tentar esconder uma cidade.
 
 > [!chave] A fé não fica na igreja até o domingo. Em casa, no trabalho, com o dinheiro e com as palavras, tudo pode ser feito em nome de Jesus e para a glória de Deus.
 

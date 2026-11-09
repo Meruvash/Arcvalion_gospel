@@ -122,7 +122,7 @@ Paulo escreveu: "Cristo, o nosso Cordeiro da Páscoa, já foi oferecido em sacri
 
 - Convenção Geral das Assembleias de Deus no Brasil, [Declaração de Fé](https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf) (CPAD, 2016): capítulo "Sobre as obras de Cristo", itens 2 e 3; capítulo "Sobre o homem", item 7; capítulo "Sobre os Dez Mandamentos"; capítulo "Sobre o mundo vindouro", item 3.
 
-- Matthew Henry, *Commentary on the Whole Bible*, comentários a [Lucas 24](https://www.biblestudytools.com/commentaries/matthew-henry-complete/luke/24.html) e [1 Coríntios 15](https://www.biblestudytools.com/commentaries/matthew-henry-complete/1-corinthians/15.html) (domínio público).
+- Matthew Henry, *Commentary on the Whole Bible*, comentários a [Lucas 24](https://www.biblestudytools.com/commentaries/matthew-henry-complete/luke/24.html) e [1 Coríntios 15](https://www.biblestudytools.com/commentaries/matthew-henry-complete/1-corinthians/15.html), parte completada por outros ministros depois da morte de Henry (domínio público).
 
 - João Calvino, comentários a [1 Coríntios 15](https://ccel.org/ccel/c/calvin/calcom40/cache/calcom40.txt) e [1 Coríntios 5](https://ccel.org/ccel/c/calvin/calcom39/cache/calcom39.txt) (domínio público).
 

@@ -100,7 +100,7 @@
  "imagem": {
   "arquivo": "discipulado-fe-no-cotidiano.jpg",
   "alt": "Tríptico pintado com molduras douradas: à esquerda, um casal ajoelhado diante de uma porta num jardim; no centro, numa sala de casa, um anjo ajoelha diante de Maria, que lê um livro; à direita, José, idoso de turbante azul e túnica marrom, trabalha numa oficina de carpinteiro, com ferramentas na bancada.",
-  "credito": "Robert Campin e oficina, Tríptico da Anunciação (Retábulo de Mérode) (óleo sobre carvalho, c. 1427-1432). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+  "credito": "Oficina de Robert Campin, Tríptico da Anunciação (Retábulo de Mérode) (óleo sobre carvalho, c. 1427-1432). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
  },
  "ia": {
   "usada": true,
@@ -109,8 +109,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-08T15:32:50-03:00",
+  "data": "2026-11-08T21:16:55-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-08T15:32:50-03:00"
+ "publicado_em": "2026-11-08T15:32:50-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-08",
+   "texto": "Correção em 08/11/2026: a ordem do rei em Daniel 6 proibia, por trinta dias, pedidos a qualquer deus ou homem que não fosse ele; Wesley diz que esconder um cristão é tão impossível quanto esconder uma cidade (sermão 24); a obra é da oficina de Robert Campin (Met)."
+  }
+ ],
+ "atualizado_em": "2026-11-08T21:16:55-03:00"
 }

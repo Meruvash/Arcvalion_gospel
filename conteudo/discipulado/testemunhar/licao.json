@@ -109,8 +109,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-08T15:26:49-03:00",
+  "data": "2026-11-08T21:16:56-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-08T15:26:49-03:00"
+ "publicado_em": "2026-11-08T15:26:49-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-08",
+   "texto": "Correção em 08/11/2026: Calvino pede mostrar que a fé em Cristo está de acordo com a verdadeira piedade (1 Pe 3:15), não só que é sincera."
+  }
+ ],
+ "atualizado_em": "2026-11-08T21:16:56-03:00"
 }

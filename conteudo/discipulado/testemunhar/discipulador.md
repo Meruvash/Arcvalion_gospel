@@ -6,7 +6,7 @@ Ajudar a pessoa a perceber que testemunhar é contar o que Jesus fez por ela e c
 
 ## Fundamentação adicional
 
-A Declaração de Fé das Assembleias de Deus diz que o Espírito Santo "nos capacita a viver como fiéis testemunhas de Jesus Cristo". No capítulo sobre a Igreja, diz que a sua missão inclui "a adoração, da evangelização, da edificação de seus membros e do trabalho social". No capítulo sobre o batismo no Espírito, afirma que ele "significa o recebimento de poder espiritual para realizar a obra da expansão do Evangelho em todo o mundo", e que "Todos os crentes em Jesus já têm o Espírito Santo".
+A Declaração de Fé das Assembleias de Deus diz que o Espírito Santo "nos capacita a viver como fiéis testemunhas de Jesus Cristo". No capítulo sobre a Igreja, diz que a função da Igreja se cumpre "por meio da adoração, da evangelização, da edificação de seus membros e do trabalho social". No capítulo sobre o batismo no Espírito, afirma que ele "significa o recebimento de poder espiritual para realizar a obra da expansão do Evangelho em todo o mundo", e que "Todos os crentes em Jesus já têm o Espírito Santo".
 
 ## Referências
 
