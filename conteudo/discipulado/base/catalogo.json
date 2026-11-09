@@ -11,10 +11,7 @@
    "slug": "salvacao-e-nova-vida",
    "nome": "Salvação e nova vida",
    "descricao": "O que é a salvação, a graça, o arrependimento e a vida nova em Cristo.",
-   "previstos": [
-    "Como posso ter certeza da salvação?",
-    "O que significa viver pela fé?"
-   ]
+   "previstos": []
   },
   {
    "slug": "oracao",
@@ -38,9 +35,7 @@
    "slug": "santidade",
    "nome": "Santidade e transformação",
    "descricao": "Santificação, tentação, perdão e o caráter de Cristo.",
-   "previstos": [
-    "Como desenvolver o caráter de Cristo?"
-   ]
+   "previstos": []
   },
   {
    "slug": "espirito-santo",
@@ -207,6 +202,18 @@
    "categoria": "vida-crista",
    "evidencia": "Google Trends: no Brasil, o termo \"como ajudar\" bateu recorde histórico de buscas durante a pandemia (Tecnoblog, 09/04/2020); o autocomplete do Google sugere \"como servir a deus no dia a dia\" e \"como ajudar o próximo no dia a dia\"",
    "url": "https://tecnoblog.net/noticias/google-buscas-mascara-como-ajudar-atingem-recorde-brasil/"
+  },
+  {
+   "titulo": "Onde está a felicidade verdadeira?",
+   "categoria": "vida-crista",
+   "evidencia": "Dados de busca do Google: o interesse dos brasileiros pela pergunta sobre o que é a felicidade bateu recorde em 2020, com o maior volume de buscas em oito anos em junho (dados fornecidos pelo Google ao Estadão, publicados pela IstoÉ em 21/09/2020); o autocomplete do Google sugere \"felicidade segundo a bíblia\"",
+   "url": "https://istoe.com.br/buscas-no-google-sobre-transtorno-mental-tem-recorde/"
+  },
+  {
+   "titulo": "Como desenvolver o caráter de Cristo?",
+   "categoria": "santidade",
+   "evidencia": "Google Trends, Ano em Pesquisa 2021 (Brasil): na lista \"Como ser\", \"Como ser uma pessoa fria\" é a 1ª e \"Como ser mais confiante\" é a 6ª; em 2022, \"Como ser atraente?\" é a 7ª e \"Como ser bonito?\" a 9ª (consultado em 09/11/2026); o autocomplete do Google sugere \"como ser uma pessoa melhor para deus\"",
+   "url": "https://trends.withgoogle.com/year-in-search/2021/br/"
   }
  ]
 }
