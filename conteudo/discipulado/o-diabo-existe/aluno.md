@@ -38,7 +38,7 @@ O Diabo não é o "deus do mal" do mesmo tamanho que Deus. Ele é criatura. A De
 
 Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, escreveu que ele foi criado anjo de luz e caiu pouco depois da criação do homem. Calvino disse que a maldade do Diabo não vem da criação, mas da corrupção; e que ele não pode fazer nada contra a vontade de Deus.
 
-Há textos do Antigo Testamento, em Isaías 14 e Ezequiel 28, que a Declaração de Fé aplica à queda de Satanás. Na NTLH, esses capítulos falam do "Rei da Babilônia" e do "rei de Tiro", e Calvino os lia só como palavras sobre esses reis. Mas todos concordam no principal: o Diabo foi criado bom e caiu por orgulho.
+Há textos do Antigo Testamento, em Isaías 14 e Ezequiel 28, que a Declaração de Fé aplica à queda de Satanás. Na NTLH, esses capítulos falam do "Rei da Babilônia" e do "rei de Tiro", e Calvino lia Isaías 14 só como palavras sobre o rei da Babilônia. Mas todos concordam no principal: o Diabo foi criado bom e caiu por rebelião.
 
 ### O que ele faz
 
@@ -82,7 +82,7 @@ Paulo descreve a armadura: a verdade, a justiça, a prontidão para anunciar o e
 
 - **Use a armadura.** Leia a Bíblia, ore todos os dias e fique perto da igreja.
 
-- **Fuja do ocultismo.** A Bíblia proíbe adivinhos, feiticeiros e quem invoca os mortos (Deuteronômio 18:10-12). Em Éfeso, os que creram queimaram os seus livros de feitiçaria (Atos 19:19).
+- **Fuja do ocultismo.** A Bíblia proíbe adivinhos, feiticeiros e quem invoca os mortos (Deuteronômio 18:10-12). Em Éfeso, muitos dos que praticavam feitiçaria, depois de crer, queimaram os seus livros (Atos 19:18-19).
 
 - **Busque ajuda com equilíbrio.** Se algo assusta você, fale com o pastor. Se for doença, procure também o médico.
 

@@ -26,7 +26,7 @@ A primeira carta de João começa com o testemunho de quem viu e ouviu Jesus. E 
 
 Repare no que a carta diz: o autor conta o que viu de Jesus "para que vocês estejam unidos conosco, assim como nós estamos unidos com o Pai". A comunhão com Deus e a comunhão com os irmãos andam juntas.
 
-Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, escreveu que a comunhão com Deus vivida em conjunto é a melhor comunhão que podemos ter uns com os outros. Não é só estar no mesmo lugar. É estar unido em torno de Jesus.
+Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, comentando a igreja de Jerusalém em Atos 2, escreveu que a comunhão com Deus vivida em conjunto é a melhor comunhão que podemos ter uns com os outros. Não é só estar no mesmo lugar. É estar unido em torno de Jesus.
 
 > [!termo] **Comunhão:** vida em comum dos que pertencem a Jesus, unidos com Deus e uns com os outros. Em Atos 2:42, onde outras versões dizem "comunhão", a NTLH diz "vivendo em amor cristão".
 

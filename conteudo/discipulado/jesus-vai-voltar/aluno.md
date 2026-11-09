@@ -36,7 +36,7 @@ A volta de Jesus não é invenção de pregador. É promessa dele, repetida pelo
 
 Jesus foi claro: "ninguém sabe nem o dia nem a hora em que tudo isso vai acontecer, nem os anjos do céu, nem o Filho, mas somente o Pai" (Mateus 24:36). Quem marca data contradiz Jesus.
 
-A Declaração de Fé das Assembleias de Deus diz que esse evento "não pode ser visualizado antecipadamente nem datado por esses ou por nenhum outro sinal". João Calvino, o reformador de Genebra, comentou que Cristo quis manter os crentes em suspense, para que ninguém fixasse uma data por imaginação. E falou da nossa curiosidade vã de saber mais do que convém.
+A Declaração de Fé das Assembleias de Deus diz que o arrebatamento "não pode ser visualizado antecipadamente nem datado por esses ou por nenhum outro sinal". João Calvino, o reformador de Genebra, comentou que Cristo quis manter os crentes em suspense, para que ninguém fixasse uma data por imaginação. E falou da nossa curiosidade vã de saber mais do que convém.
 
 Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, resumiu: aquele dia e aquela hora são um grande segredo.
 
@@ -54,11 +54,11 @@ Já no tempo dos apóstolos havia quem zombasse: "Ele prometeu vir, não foi? On
 
 O tempo de espera é tempo de graça. Cada dia a mais é uma chance para alguém se voltar para Deus.
 
-### O que a nossa igreja crê
+### O que a gente crê
 
-A Declaração de Fé ensina que a segunda vinda de Cristo será "um evento a ser realizado em duas fases". A primeira é "o arrebatamento da Igreja antes da Grande Tribulação". A segunda é "a sua vinda em glória depois da Grande Tribulação e visível aos olhos humanos". E diz: "A condição para fazer parte desse glorioso evento é estar em Cristo."
+O próprio Jesus descreveu a ordem dos fatos. "Depois daqueles dias de sofrimento", todos os povos "verão o Filho do Homem descendo nas nuvens, com poder e grande glória". A grande trombeta toca, e os anjos "reunirão os escolhidos de Deus de um lado do mundo até o outro" (Mateus 24:29-31). A gente entende que é a mesma cena de 1 Tessalonicenses 4: uma só vinda de Jesus, pessoal e visível, depois da tribulação, quando os salvos são levados para encontrar o Senhor. João Calvino, o reformador de Genebra, também lia 1 Tessalonicenses 4 como parte da vinda final, quando o arcanjo chama vivos e mortos ao tribunal de Cristo.
 
-Outros cristãos sérios leem o texto de outro modo. Calvino, por exemplo, lia 1 Tessalonicenses 4 como parte de uma só vinda final, quando o arcanjo chama vivos e mortos ao tribunal de Cristo. Mas todos concordam no principal: Jesus volta de verdade, ninguém sabe o dia, e é preciso estar pronto.
+Aqui o portal diverge, com respeito, da Declaração de Fé das Assembleias de Deus, que muitos irmãos pentecostais aprenderam. Ela ensina que a segunda vinda será "um evento a ser realizado em duas fases": primeiro, "o arrebatamento da Igreja antes da Grande Tribulação"; depois, "a sua vinda em glória depois da Grande Tribulação e visível aos olhos humanos". E diz do arrebatamento: "A condição para fazer parte desse glorioso evento é estar em Cristo." Nisso todos concordam: Jesus volta de verdade, ninguém sabe o dia, e é preciso estar pronto.
 
 > [!termo] **Arrebatamento:** palavra que a Declaração de Fé usa para o encontro dos salvos com o Senhor nos ares (1 Tessalonicenses 4:17). A NTLH não usa essa palavra; diz que "seremos levados nas nuvens".
 

@@ -109,8 +109,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-06T15:28:13-03:00",
+  "data": "2026-11-08T21:18:59-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-06T15:28:13-03:00"
+ "publicado_em": "2026-11-06T15:28:13-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-08",
+   "texto": "Correção em 08/11/2026: a lição apresentava a posição pré-tribulacionista da Declaração de Fé como a do portal; a posição do portal é a de Mateus 24:29-31, uma só vinda visível depois da tribulação (docs/PADRAO_EDITORIAL.md, item 7), e a divergência com a Declaração agora é dita com respeito."
+  }
+ ],
+ "atualizado_em": "2026-11-08T21:18:59-03:00"
 }

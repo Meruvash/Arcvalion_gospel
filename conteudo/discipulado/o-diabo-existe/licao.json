@@ -109,8 +109,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-06T15:29:42-03:00",
+  "data": "2026-11-08T21:18:59-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-06T15:29:42-03:00"
+ "publicado_em": "2026-11-06T15:29:42-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-08",
+   "texto": "Correção em 08/11/2026: Calvino comenta Isaías 14, não Ezequiel 28, e não dá o orgulho como causa da queda (Institutas I.14.16); o ponto comum é a rebelião."
+  }
+ ],
+ "atualizado_em": "2026-11-08T21:18:59-03:00"
 }

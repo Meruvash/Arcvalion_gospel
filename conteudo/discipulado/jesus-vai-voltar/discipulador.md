@@ -26,7 +26,7 @@ Em 1 Tessalonicenses 4:17 a NTLH diz "seremos levados nas nuvens", e não "serem
 
 ## Divergências entre tradições
 
-Todas as fontes lidas afirmam que Jesus volta de verdade e que ninguém sabe a data. A Declaração de Fé, na linha do portal, ensina duas fases, com o arrebatamento antes da Grande Tribulação, e o Milênio. Calvino lê 1 Tessalonicenses 4 como parte da vinda final, quando o arcanjo chama "the living and the dead to the tribunal of Christ". Ele rejeita quem limita a vida dos crentes com Cristo a mil anos, o que não é a posição da Declaração. O sermão lido de Wesley liga a vinda direto ao juízo de todos; não atribua a ele posição sobre a Tribulação.
+Todas as fontes lidas afirmam que Jesus volta de verdade e que ninguém sabe a data. A Declaração de Fé ensina duas fases, com o arrebatamento antes da Grande Tribulação, e o Milênio. O portal diverge nesse ponto e segue Mateus 24:29-31: uma só vinda, visível, depois da tribulação (docs/PADRAO_EDITORIAL.md, item 7). Calvino lê 1 Tessalonicenses 4 como parte da vinda final, quando o arcanjo chama "the living and the dead to the tribunal of Christ". Ele rejeita quem limita a vida dos crentes com Cristo a mil anos, o que não é a posição da Declaração. O sermão lido de Wesley liga a vinda direto ao juízo de todos; não atribua a ele posição sobre a Tribulação.
 
 ## Dúvidas frequentes
 
