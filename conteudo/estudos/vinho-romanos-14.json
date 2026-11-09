@@ -12,7 +12,7 @@
  "tempo_min": 40,
  "selo": "Ideal para grupos",
  "tagline": "Todos condenam a embriaguez. A divergência é sobre o copo. Para nós, o amor ao irmão e o testemunho pedem abstinência, e mostramos os outros lados com respeito.",
- "lede": "\"Bom é não comer carne, nem beber vinho, nem fazer outras coisas em que teu irmão tropece.\" As Lições Bíblicas da CPAD ensinam a abstinência total de bebidas alcoólicas. Pastores reformados dizem que a Bíblia não proíbe o vinho, só a embriaguez. Outros, presbiterianos e adventistas, dizem que beber não é pecado, mas que é melhor não beber. Mostramos os três lados, o que eles têm em comum, e dizemos onde estamos.",
+ "lede": "\"Bom é não comer carne, nem beber vinho, nem fazer outras coisas em que teu irmão tropece.\" As Lições Bíblicas da CPAD ensinam a abstinência total de bebidas alcoólicas. Pastores reformados dizem que a Bíblia não proíbe o vinho, só a embriaguez. Outros desaconselham a bebida sem chamá-la de pecado, como Augustus Nicodemus, presbiteriano, e a Igreja Adventista da Promessa. Mostramos os três lados, o que eles têm em comum, e dizemos onde estamos.",
  "descricao": "Estudo de Romanos 14:13-23 sobre o cristão e a bebida alcoólica: a abstinência ensinada nas Assembleias de Deus, a liberdade com moderação e a posição abstencionista, lado a lado.",
  "imagem": {
   "arquivo": "estudo-vinho-romanos-14.jpg",
@@ -86,7 +86,7 @@
     },
     {
      "autor": "Renato Vargens",
-     "quem": "Pastor, autor do blog Renato Vargens (Mensagens pastorais e teologia reformada)",
+     "quem": "Autor do blog Renato Vargens (Mensagens pastorais e teologia reformada)",
      "obra": "\"Crentes bêbados, vergonha de alguns evangélicos\" (blog Renato Vargens)",
      "url": "https://renatovargens.blogspot.com/2017/08/crentes-bebados-vergonha-de-alguns.html",
      "data": "28/08/2017",
@@ -105,7 +105,7 @@
      "obra": "\"Carta a um jovem cristão que frequenta barzinho\" (blog O Tempora, O Mores)",
      "url": "https://tempora-mores.blogspot.com/2015/03/carta-um-jovem-cristao-que-frequenta.html",
      "data": "26/03/2015",
-     "texto": "Em carta a um jovem, Augustus Nicodemus não chama de pecado beber uma cerveja, mas desaconselha frequentar bares por três motivos: o ambiente, a aparência do mal (1 Tessalonicenses 5:22) e o irmão novo na fé que pode imitá-lo e se embriagar (Romanos 14:21). Ele diz que não quer tirar do jovem a liberdade em Cristo, só ajudá-lo a usá-la bem.",
+     "texto": "Numa carta fictícia a um jovem, Augustus Nicodemus não discute se a cerveja em si é pecado, mas desaconselha frequentar bares e dá quatro razões: o ambiente e a aparência do mal (1 Tessalonicenses 5:22), o irmão novo na fé que pode imitá-lo e se embebedar (Romanos 14:21), a semelhança com os libertinos do primeiro século e a pergunta errada de quem quer ficar perto do pecado. Ele diz que não quer tirar do jovem a liberdade em Cristo, só ajudá-lo a usá-la bem.",
      "citacao": "Eu jamais deveria usar minha liberdade de forma a induzir, ocasionar, incentivar e levar um irmão em Cristo a cometer pecado."
     },
     {
@@ -121,7 +121,7 @@
   }
  ],
  "convergencias": [
-  "A embriaguez é pecado: as lições da CPAD, Renato Patrick, Renato Vargens, Augustus Nicodemus e o estudo da Igreja Adventista da Promessa concordam, com base em Efésios 5:18.",
+  "A embriaguez é pecado: as lições da CPAD, Renato Patrick, Renato Vargens e o estudo da Igreja Adventista da Promessa concordam, citando Efésios 5:18; Augustus Nicodemus adverte contra o risco de se embebedar.",
   "O amor ao irmão pode exigir renúncia (Romanos 14:21; 1 Coríntios 8:13): Patrick, Vargens, Nicodemus e o estudo adventista defendem isso, e José Gonçalves, na lição da CPAD sobre Romanos 14 (2016), diz que a liberdade deve ser restringida se escandalizar os imaturos.",
   "Quem tem histórico de vício deve se abster: Patrick e o estudo adventista dizem isso com todas as letras."
  ],
@@ -336,8 +336,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-06T05:35:16-03:00",
+  "data": "2026-11-08T21:21:21-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-06T05:35:16-03:00"
+ "publicado_em": "2026-11-06T05:35:16-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-08",
+   "texto": "Correção em 08/11/2026: a carta de Augustus Nicodemus é declarada fictícia, dá quatro razões e não afirma que beber não é pecado; ele também não cita Efésios 5:18."
+  }
+ ],
+ "atualizado_em": "2026-11-08T21:21:21-03:00"
 }
