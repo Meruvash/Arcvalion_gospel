@@ -13,15 +13,15 @@
 
 #mapa video { position: absolute; left: 0; top: 0; width: 1080px; height: 1080px; object-fit: cover; }</style>
   <div id="mapa" data-composition-id="mapa" data-width="1080" data-height="1080">
-    <video id="mapa-video" class="clip" data-start="0" data-duration="3.25" src="assets/video/sorriso.mp4" muted playsinline></video>
-    <div id="mapa-lt" class="lt clip" data-start="0" data-duration="3.25"><span class="barra"></span><span class="txt">Sorriso (MT) · imagem de satélite</span></div>
+    <video id="mapa-video" class="clip" data-start="0" data-duration="3.25" src="assets/video/fazenda.mp4" muted playsinline></video>
+    <div id="mapa-lt" class="lt clip" data-start="0" data-duration="3.25"><span class="barra"></span><span class="txt">Propriedade rural · Sorriso (MT)</span></div>
     <div id="mapa-cred" class="cred clip" data-layout-ignore data-start="0" data-duration="3.25">Imagem: Esri, Maxar, Earthstar Geographics</div>
   </div>
   <script>
   const tl = gsap.timeline({ paused: true });
 
-  tl.fromTo('#mapa-lt .barra', { scaleY: 0 }, { scaleY: 1, duration: 0.25, ease: 'power3.out', transformOrigin: '50% 100%' }, 1.6);
-  tl.fromTo('#mapa-lt .txt', { clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0% 0 0)', duration: 0.55, ease: 'power3.out' }, 1.7200000000000002);
+  tl.fromTo('#mapa-lt .barra', { scaleY: 0 }, { scaleY: 1, duration: 0.25, ease: 'power3.out', transformOrigin: '50% 100%' }, 0.3);
+  tl.fromTo('#mapa-lt .txt', { clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0% 0 0)', duration: 0.55, ease: 'power3.out' }, 0.42);
   tl.to('#mapa-lt', { opacity: 0, duration: 0.15, ease: 'power2.in' }, 3.05);
   window.__timelines["mapa"] = tl;
   </script>

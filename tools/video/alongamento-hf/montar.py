@@ -114,12 +114,12 @@ def cena_foto(id_, foto, rot, z0=1.0, z1=1.08, x0=0, x1=0, y0=0, y1=0):
 # ---------- cena do mapa ----------
 def cena_mapa():
     id_ = "mapa"; d = dur(id_)
-    corpo = f"""    <video id="mapa-video" class="clip" data-start="0" data-duration="{d}" src="assets/video/sorriso.mp4" muted playsinline></video>
-{rotulo_html(id_, 'Sorriso (MT) · imagem de satélite', d)}
+    corpo = f"""    <video id="mapa-video" class="clip" data-start="0" data-duration="{d}" src="assets/video/fazenda.mp4" muted playsinline></video>
+{rotulo_html(id_, 'Propriedade rural · Sorriso (MT)', d)}
     <div id="mapa-cred" class="cred clip" data-layout-ignore data-start="0" data-duration="{d}">Imagem: Esri, Maxar, Earthstar Geographics</div>"""
     css = """
 #mapa video { position: absolute; left: 0; top: 0; width: 1080px; height: 1080px; object-fit: cover; }"""
-    js = rotulo_js(id_, d, entra=1.6)
+    js = rotulo_js(id_, d, entra=0.3)
     return cena(id_, d, corpo, css, js)
 
 # ---------- cena de documento sobre a mesa ----------
