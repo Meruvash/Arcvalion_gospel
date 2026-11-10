@@ -1,0 +1,11 @@
+[
+ {"id": 1, "quem": "narrador", "texto": "Você sabia que, desde julho, prorrogar uma dívida rural virou decisão do banco?"},
+ {"id": 2, "quem": "narrador", "texto": "Está no Manual de Crédito Rural: o banco prorroga \"por sua conveniência e decisão\"."},
+ {"id": 3, "quem": "segunda", "texto": "Peraí. Quem decide é o banco?"},
+ {"id": 4, "quem": "narrador", "texto": "Parece erro. Mas não é."},
+ {"id": 5, "quem": "narrador", "texto": "E isso vale pra quem perdeu a safra, não conseguiu vender ou teve prejuízo na lavoura."},
+ {"id": 6, "quem": "narrador", "texto": "E é justamente aí que a história fica ainda mais estranha, porque desde 2004 o STJ diz que alongar é direito do devedor."},
+ {"id": 7, "quem": "segunda", "texto": "Opa. Direito do devedor? Então quem manda?"},
+ {"id": 8, "quem": "narrador", "texto": "E será que essa regra vale pro contrato que você já assinou?"},
+ {"id": 9, "quem": "editor", "texto": "Eu sou o Dr. Pelicioni, advogado. Aqui eu explico o que muda no crédito rural. Me segue pra acompanhar."}
+]
