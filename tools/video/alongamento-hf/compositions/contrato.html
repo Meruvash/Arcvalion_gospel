@@ -1,0 +1,51 @@
+<template>
+  <style>
+@font-face { font-family: 'Source Serif'; src: url('assets/fonts/SourceSerif4-var.ttf') format('truetype'); font-weight: 200 900; }
+
+#contrato { position: absolute; inset: 0; overflow: hidden; background: #070c16; }
+#contrato .lt { position: absolute; left: 44px; top: 44px; max-width: 940px; display: flex; align-items: flex-start; gap: 16px; line-height: 1.4;
+  padding: 12px 18px 12px 14px; background: rgba(7,12,22,.72); border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 26px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: #eee8da; text-shadow: 0 2px 10px rgba(0,0,0,.75); }
+#contrato .lt .barra { flex: none; width: 5px; height: 30px; background: #f0c24b; }
+#contrato .cred { position: absolute; right: 40px; bottom: 26px; font-family: 'Inter', sans-serif; font-weight: 400;
+  font-size: 15px; color: rgba(235,232,224,.82); text-shadow: 0 1px 6px rgba(0,0,0,.9); }
+
+#contrato .mesa { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 60% at 50% 45%, #1d2533 0%, #0b111c 70%, #070c16 100%); }
+#contrato .regua { position: absolute; left: 60px; right: 60px; top: 640px; height: 3px; background: #8a93a3; transform-origin: 50% 50%; }
+#contrato .marco { position: absolute; left: 540px; top: 640px; }
+#contrato .marco span { position: absolute; left: -2px; top: -70px; width: 4px; height: 140px; background: #f0c24b; }
+#contrato .marco b { position: absolute; left: -200px; width: 400px; top: 90px; text-align: center; font-family: 'Source Serif', serif; font-weight: 700; font-size: 54px; color: #eee8da; }
+#contrato .marco em { position: absolute; left: -250px; width: 500px; top: 160px; text-align: center; font-style: normal; font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 19px; letter-spacing: .1em; text-transform: uppercase; color: #aab2bf; }
+#contrato .lado { position: absolute; top: 595px; font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 24px; letter-spacing: .3em; color: #8a93a3; }
+#contrato .esq { left: 110px; } #contrato .dir { right: 110px; }
+#contrato .cartao { position: absolute; left: 150px; top: 250px; width: 300px; height: 210px; background: #fbfaf6; border-radius: 4px; padding: 26px 28px;
+  box-shadow: 0 30px 60px rgba(0,0,0,.6); }
+#contrato .cartao i { display: block; font-style: normal; font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 14px; letter-spacing: .12em; color: #555; }
+#contrato .cartao b { display: block; margin-top: 12px; font-family: 'Source Serif', serif; font-weight: 700; font-size: 40px; color: #1b1b1b; }
+#contrato .cartao u { display: block; margin-top: 14px; height: 8px; background: #d8d4c8; border-radius: 4px; text-decoration: none; }
+#contrato .q { position: absolute; left: 470px; top: 210px; font-family: 'Source Serif', serif; font-weight: 900; font-size: 150px; color: #f0c24b; }</style>
+  <div id="contrato" data-composition-id="contrato" data-width="1080" data-height="1080">
+    <div id="contrato-mesa" class="mesa"></div>
+    <div id="contrato-regua" class="regua"></div>
+    <div id="contrato-marco" class="marco"><span></span><b>1º/7/2026</b><em>Res. CMN 5.314 entra em vigor</em></div>
+    <div id="contrato-antes" class="lado esq">ANTES</div>
+    <div id="contrato-depois" class="lado dir">DEPOIS</div>
+    <div id="contrato-cartao" class="cartao"><i>CÉDULA DE CRÉDITO RURAL</i><b>seu contrato</b><u></u><u></u><u></u></div>
+    <div id="contrato-q" class="q">?</div>
+    <div id="contrato-lt" class="lt clip" data-start="0" data-duration="3.58"><span class="barra"></span><span class="txt">Em disputa · a regra alcança contratos anteriores?</span></div>
+  </div>
+  <script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo('#contrato-regua', { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: 'power3.inOut' }, 0);
+  tl.fromTo('#contrato-marco', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: 'expo.out' }, 0.35);
+  tl.fromTo('#contrato-antes, #contrato-depois', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, 0.6);
+  tl.fromTo('#contrato-cartao', { x: 700, y: -40, rotation: 8, opacity: 0 }, { x: 0, y: 0, rotation: -3, opacity: 1, duration: 0.7, ease: 'expo.out' }, 1.54);
+  tl.fromTo('#contrato-q', { opacity: 0, scale: 1.5 }, { opacity: 1, scale: 1, duration: 0.25, ease: 'power4.out' }, 2.94);
+
+  tl.fromTo('#contrato-lt .barra', { scaleY: 0 }, { scaleY: 1, duration: 0.25, ease: 'power3.out', transformOrigin: '50% 100%' }, 0.15);
+  tl.fromTo('#contrato-lt .txt', { clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0% 0 0)', duration: 0.55, ease: 'power3.out' }, 0.27);
+  tl.to('#contrato-lt', { opacity: 0, duration: 0.15, ease: 'power2.in' }, 3.38);
+  window.__timelines["contrato"] = tl;
+  </script>
+</template>

@@ -1,0 +1,40 @@
+<template>
+  <style>
+@font-face { font-family: 'Source Serif'; src: url('assets/fonts/SourceSerif4-var.ttf') format('truetype'); font-weight: 200 900; }
+
+#cartela { position: absolute; inset: 0; overflow: hidden; background: #070c16; }
+#cartela .lt { position: absolute; left: 44px; top: 44px; max-width: 940px; display: flex; align-items: flex-start; gap: 16px; line-height: 1.4;
+  padding: 12px 18px 12px 14px; background: rgba(7,12,22,.72); border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 26px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: #eee8da; text-shadow: 0 2px 10px rgba(0,0,0,.75); }
+#cartela .lt .barra { flex: none; width: 5px; height: 30px; background: #f0c24b; }
+#cartela .cred { position: absolute; right: 40px; bottom: 26px; font-family: 'Inter', sans-serif; font-weight: 400;
+  font-size: 15px; color: rgba(235,232,224,.82); text-shadow: 0 1px 6px rgba(0,0,0,.9); }
+
+#cartela .luz { position: absolute; inset: 0; background: radial-gradient(ellipse 60% 45% at 50% 42%, #1a2232 0%, #0b111c 60%, #070c16 100%); }
+#cartela .nome { position: absolute; left: 0; right: 0; top: 330px; text-align: center; font-family: 'Source Serif', serif; font-weight: 700; font-size: 104px; color: #eee8da; letter-spacing: -0.01em; }
+#cartela .filete { position: absolute; left: 380px; width: 320px; top: 480px; height: 3px; background: #f0c24b; transform-origin: 50% 50%; }
+#cartela .prof { position: absolute; left: 0; right: 0; top: 505px; text-align: center; font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 28px; letter-spacing: .32em; color: #c9ced6; }
+#cartela .tese { position: absolute; left: 0; right: 0; top: 610px; text-align: center; font-family: 'Source Serif', serif; font-style: italic; font-weight: 400; font-size: 34px; color: #d8d4c8; }
+#cartela .direct { position: absolute; left: 0; right: 0; top: 700px; text-align: center; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 30px; color: #f0c24b; }
+#cartela .fontes { position: absolute; left: 60px; right: 60px; bottom: 40px; text-align: center; font-family: 'Inter', sans-serif; font-weight: 400; font-size: 16px; line-height: 1.4; color: #8a93a3; }</style>
+  <div id="cartela" data-composition-id="cartela" data-width="1080" data-height="1080">
+    <div id="cartela-luz" class="luz"></div>
+    <h1 id="cartela-nome" class="nome clip" data-start="0" data-duration="7.09">Dr. Pelicioni</h1>
+    <div id="cartela-filete" class="filete clip" data-start="0" data-duration="7.09"></div>
+    <div id="cartela-prof" class="prof clip" data-start="0" data-duration="7.09">ADVOGADO</div>
+    <p id="cartela-tese" class="tese clip" data-start="0" data-duration="7.09">o que muda no crédito rural, explicado com a fonte</p>
+    <p id="cartela-direct" class="direct clip" data-start="0" data-duration="7.09">Dúvida sobre o seu contrato? Direct aberto.</p>
+    <p id="cartela-fontes" class="fontes clip" data-layout-ignore data-start="0" data-duration="7.09">Fontes: Res. CMN 5.314/2026 e 4.905/2021 (bcb.gov.br) · Súmula 298 (scon.stj.jus.br) · imagens: Esri, Maxar, Earthstar Geographics; NASA Earth Observatory</p>
+  </div>
+  <script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo('#cartela-nome', { opacity: 0, filter: 'blur(8px)' }, { opacity: 1, filter: 'blur(0px)', duration: 0.5, ease: 'power3.out' }, 0.15);
+  tl.fromTo('#cartela-filete', { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: 'expo.out' }, 0.45);
+  tl.fromTo('#cartela-prof', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, 0.7);
+  tl.fromTo('#cartela-tese', { opacity: 0, filter: 'blur(6px)' }, { opacity: 1, filter: 'blur(0px)', duration: 0.4, ease: 'power3.out' }, 2.34);
+  tl.fromTo('#cartela-direct', { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power3.out' }, 4.44);
+  tl.fromTo('#cartela-fontes', { opacity: 0 }, { opacity: 1, duration: 0.6, ease: 'power2.out' }, 0.8);
+  window.__timelines["cartela"] = tl;
+  </script>
+</template>

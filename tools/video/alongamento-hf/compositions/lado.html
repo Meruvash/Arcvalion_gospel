@@ -1,0 +1,54 @@
+<template>
+  <style>
+@font-face { font-family: 'Source Serif'; src: url('assets/fonts/SourceSerif4-var.ttf') format('truetype'); font-weight: 200 900; }
+
+#lado { position: absolute; inset: 0; overflow: hidden; background: #070c16; }
+#lado .lt { position: absolute; left: 44px; top: 44px; max-width: 940px; display: flex; align-items: flex-start; gap: 16px; line-height: 1.4;
+  padding: 12px 18px 12px 14px; background: rgba(7,12,22,.72); border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 26px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: #eee8da; text-shadow: 0 2px 10px rgba(0,0,0,.75); }
+#lado .lt .barra { flex: none; width: 5px; height: 30px; background: #f0c24b; }
+#lado .cred { position: absolute; right: 40px; bottom: 26px; font-family: 'Inter', sans-serif; font-weight: 400;
+  font-size: 15px; color: rgba(235,232,224,.82); text-shadow: 0 1px 6px rgba(0,0,0,.9); }
+
+#lado .mesa { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 60% at 50% 45%, #1d2533 0%, #0b111c 70%, #070c16 100%); }
+#lado .peca { position: absolute; }
+#lado .janela { position: absolute; inset: 0; overflow: hidden; background: #fbfaf6; box-shadow: 0 30px 60px rgba(0,0,0,.6); }
+#lado .janela img { position: absolute; max-width: none; }
+#lado .marca { position: absolute; background: #ffd84a; mix-blend-mode: multiply; border-radius: 3px; }
+#lado .rot { position: absolute; left: 0; top: -44px; font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 19px; letter-spacing: .12em; text-transform: uppercase; color: #eee8da; }
+#lado .vs { position: absolute; left: 0; right: 0; top: 650px; text-align: center; font-family: 'Source Serif', serif; font-weight: 300; font-size: 96px; line-height: 1; color: #f0c24b; }</style>
+  <div id="lado" data-composition-id="lado" data-width="1080" data-height="1080">
+    <div id="lado-mesa" class="mesa"></div>
+    <div id="lado-p0" class="peca" style="left:50px;top:300px;width:471px;height:186px">
+      <div class="janela" style="transform:rotate(-2deg)">
+        <img id="lado-img0" class="clip" data-layout-allow-overflow data-start="0" data-duration="2.98" src="assets/docs/bcb-item4.png" alt=""
+             style="left:-380px;top:-387px;width:1054px;height:682px">
+        <div class="marca" style="left:96px;top:76px;width:279px;height:33px"></div>
+      </div>
+      <div class="rot">MCR 2-6-4 · 2026</div>
+    </div>
+    <div id="lado-p1" class="peca" style="left:560px;top:470px;width:471px;height:186px">
+      <div class="janela" style="transform:rotate(2deg)">
+        <img id="lado-img1" class="clip" data-layout-allow-overflow data-start="0" data-duration="2.98" src="assets/docs/stj-sumula.png" alt=""
+             style="left:-315px;top:-49px;width:1017px;height:260px">
+        <div class="marca" style="left:164px;top:81px;width:144px;height:23px"></div>
+      </div>
+      <div class="rot">Súmula 298 · 2004</div>
+    </div>
+    <div id="lado-vs" class="vs">×</div>
+    <div id="lado-lt" class="lt clip" data-start="0" data-duration="2.98"><span class="barra"></span><span class="txt">A pergunta</span></div>
+  </div>
+  <script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo('#lado-p0', { x: -500, opacity: 0 }, { x: 0, opacity: 1, duration: 0.5, ease: 'expo.out' }, 0.05);
+  tl.fromTo('#lado-p1', { x: 500, opacity: 0 }, { x: 0, opacity: 1, duration: 0.5, ease: 'expo.out' }, 0.2);
+  tl.fromTo('#lado-vs', { opacity: 0, scale: 1.4 }, { opacity: 1, scale: 1, duration: 0.3, ease: 'power3.out' }, 2.08);
+  tl.fromTo('#lado-p0, #lado-p1', { scale: 1 }, { scale: 1.04, duration: 2.38, ease: 'none' }, 0.6);
+
+  tl.fromTo('#lado-lt .barra', { scaleY: 0 }, { scaleY: 1, duration: 0.25, ease: 'power3.out', transformOrigin: '50% 100%' }, 0.1);
+  tl.fromTo('#lado-lt .txt', { clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0% 0 0)', duration: 0.55, ease: 'power3.out' }, 0.22);
+  tl.to('#lado-lt', { opacity: 0, duration: 0.15, ease: 'power2.in' }, 2.78);
+  window.__timelines["lado"] = tl;
+  </script>
+</template>

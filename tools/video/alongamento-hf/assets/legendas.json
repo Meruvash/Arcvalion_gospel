@@ -1,0 +1,692 @@
+[
+{
+"fala": 1,
+"text": "Você",
+"start": 0.0,
+"end": 0.2
+},
+{
+"fala": 1,
+"text": "sabia",
+"start": 0.22,
+"end": 0.52
+},
+{
+"fala": 1,
+"text": "que,",
+"start": 0.6,
+"end": 0.7
+},
+{
+"fala": 1,
+"text": "desde",
+"start": 0.86,
+"end": 1.18
+},
+{
+"fala": 1,
+"text": "julho,",
+"start": 1.26,
+"end": 1.52
+},
+{
+"fala": 1,
+"text": "prorrogar",
+"start": 1.76,
+"end": 2.14
+},
+{
+"fala": 1,
+"text": "uma",
+"start": 2.18,
+"end": 2.32
+},
+{
+"fala": 1,
+"text": "dívida",
+"start": 2.46,
+"end": 2.78
+},
+{
+"fala": 1,
+"text": "rural",
+"start": 2.8,
+"end": 3.1
+},
+{
+"fala": 1,
+"text": "virou",
+"start": 3.3,
+"end": 3.5
+},
+{
+"fala": 1,
+"text": "decisão",
+"start": 3.6,
+"end": 4.08
+},
+{
+"fala": 1,
+"text": "do",
+"start": 4.12,
+"end": 4.16
+},
+{
+"fala": 1,
+"text": "banco?",
+"start": 4.24,
+"end": 4.5
+},
+{
+"fala": 2,
+"text": "Está",
+"start": 4.7,
+"end": 4.98
+},
+{
+"fala": 2,
+"text": "no",
+"start": 5.02,
+"end": 5.12
+},
+{
+"fala": 2,
+"text": "Manual",
+"start": 5.18,
+"end": 5.56
+},
+{
+"fala": 2,
+"text": "de",
+"start": 5.62,
+"end": 5.68
+},
+{
+"fala": 2,
+"text": "Crédito",
+"start": 5.76,
+"end": 6.16
+},
+{
+"fala": 2,
+"text": "Rural:",
+"start": 6.24,
+"end": 6.6
+},
+{
+"fala": 2,
+"text": "o",
+"start": 6.96,
+"end": 7.0
+},
+{
+"fala": 2,
+"text": "banco",
+"start": 7.08,
+"end": 7.3
+},
+{
+"fala": 2,
+"text": "prorroga",
+"start": 7.4,
+"end": 7.86
+},
+{
+"fala": 2,
+"text": "por",
+"start": 8.06,
+"end": 8.14
+},
+{
+"fala": 2,
+"text": "sua",
+"start": 8.32,
+"end": 8.5
+},
+{
+"fala": 2,
+"text": "conveniência",
+"start": 8.52,
+"end": 9.26
+},
+{
+"fala": 2,
+"text": "e",
+"start": 9.3,
+"end": 9.34
+},
+{
+"fala": 2,
+"text": "decisão.",
+"start": 9.46,
+"end": 9.94
+},
+{
+"fala": 3,
+"text": "Peraí.",
+"start": 10.23,
+"end": 11.07
+},
+{
+"fala": 3,
+"text": "Quem",
+"start": 11.07,
+"end": 11.25
+},
+{
+"fala": 3,
+"text": "decide",
+"start": 11.31,
+"end": 11.67
+},
+{
+"fala": 3,
+"text": "é",
+"start": 11.71,
+"end": 11.73
+},
+{
+"fala": 3,
+"text": "o",
+"start": 11.75,
+"end": 11.79
+},
+{
+"fala": 3,
+"text": "banco?",
+"start": 11.89,
+"end": 12.23
+},
+{
+"fala": 4,
+"text": "Parece",
+"start": 12.48,
+"end": 12.82
+},
+{
+"fala": 4,
+"text": "erro.",
+"start": 12.84,
+"end": 13.06
+},
+{
+"fala": 4,
+"text": "Mas",
+"start": 13.6,
+"end": 13.74
+},
+{
+"fala": 4,
+"text": "não",
+"start": 13.76,
+"end": 13.88
+},
+{
+"fala": 4,
+"text": "é.",
+"start": 13.94,
+"end": 13.98
+},
+{
+"fala": 5,
+"text": "E",
+"start": 14.33,
+"end": 14.41
+},
+{
+"fala": 5,
+"text": "isso",
+"start": 14.45,
+"end": 14.69
+},
+{
+"fala": 5,
+"text": "vale",
+"start": 14.71,
+"end": 15.01
+},
+{
+"fala": 5,
+"text": "pra",
+"start": 15.03,
+"end": 15.15
+},
+{
+"fala": 5,
+"text": "quem",
+"start": 15.17,
+"end": 15.31
+},
+{
+"fala": 5,
+"text": "perdeu",
+"start": 15.33,
+"end": 15.63
+},
+{
+"fala": 5,
+"text": "a",
+"start": 15.67,
+"end": 15.69
+},
+{
+"fala": 5,
+"text": "safra,",
+"start": 15.81,
+"end": 16.13
+},
+{
+"fala": 5,
+"text": "não",
+"start": 16.51,
+"end": 16.65
+},
+{
+"fala": 5,
+"text": "conseguiu",
+"start": 16.69,
+"end": 17.07
+},
+{
+"fala": 5,
+"text": "vender",
+"start": 17.09,
+"end": 17.45
+},
+{
+"fala": 5,
+"text": "ou",
+"start": 17.73,
+"end": 17.79
+},
+{
+"fala": 5,
+"text": "teve",
+"start": 17.89,
+"end": 18.13
+},
+{
+"fala": 5,
+"text": "prejuízo",
+"start": 18.17,
+"end": 18.71
+},
+{
+"fala": 5,
+"text": "na",
+"start": 18.75,
+"end": 18.83
+},
+{
+"fala": 5,
+"text": "lavoura.",
+"start": 18.85,
+"end": 19.21
+},
+{
+"fala": 6,
+"text": "E",
+"start": 19.6,
+"end": 19.66
+},
+{
+"fala": 6,
+"text": "é",
+"start": 19.7,
+"end": 19.78
+},
+{
+"fala": 6,
+"text": "justamente",
+"start": 19.84,
+"end": 20.36
+},
+{
+"fala": 6,
+"text": "aí",
+"start": 20.44,
+"end": 20.76
+},
+{
+"fala": 6,
+"text": "que",
+"start": 20.78,
+"end": 20.82
+},
+{
+"fala": 6,
+"text": "a",
+"start": 20.84,
+"end": 20.86
+},
+{
+"fala": 6,
+"text": "história",
+"start": 20.88,
+"end": 21.2
+},
+{
+"fala": 6,
+"text": "fica",
+"start": 21.24,
+"end": 21.4
+},
+{
+"fala": 6,
+"text": "ainda",
+"start": 21.44,
+"end": 21.62
+},
+{
+"fala": 6,
+"text": "mais",
+"start": 21.82,
+"end": 22.06
+},
+{
+"fala": 6,
+"text": "estranha,",
+"start": 22.1,
+"end": 22.54
+},
+{
+"fala": 6,
+"text": "porque",
+"start": 22.98,
+"end": 23.28
+},
+{
+"fala": 6,
+"text": "desde",
+"start": 23.3,
+"end": 23.54
+},
+{
+"fala": 6,
+"text": "2004",
+"start": 23.72,
+"end": 24.32
+},
+{
+"fala": 6,
+"text": "o",
+"start": 24.54,
+"end": 24.62
+},
+{
+"fala": 6,
+"text": "STJ",
+"start": 24.78,
+"end": 25.32
+},
+{
+"fala": 6,
+"text": "diz",
+"start": 25.38,
+"end": 25.54
+},
+{
+"fala": 6,
+"text": "que",
+"start": 25.58,
+"end": 25.62
+},
+{
+"fala": 6,
+"text": "alongar",
+"start": 25.66,
+"end": 26.1
+},
+{
+"fala": 6,
+"text": "é",
+"start": 26.3,
+"end": 26.38
+},
+{
+"fala": 6,
+"text": "direito",
+"start": 26.42,
+"end": 26.82
+},
+{
+"fala": 6,
+"text": "do",
+"start": 26.86,
+"end": 26.9
+},
+{
+"fala": 6,
+"text": "devedor.",
+"start": 26.96,
+"end": 27.38
+},
+{
+"fala": 7,
+"text": "Opa.",
+"start": 27.75,
+"end": 27.99
+},
+{
+"fala": 7,
+"text": "Direito",
+"start": 28.33,
+"end": 28.73
+},
+{
+"fala": 7,
+"text": "do",
+"start": 28.77,
+"end": 28.81
+},
+{
+"fala": 7,
+"text": "devedor?",
+"start": 28.87,
+"end": 29.37
+},
+{
+"fala": 7,
+"text": "Então",
+"start": 29.83,
+"end": 30.05
+},
+{
+"fala": 7,
+"text": "quem",
+"start": 30.07,
+"end": 30.19
+},
+{
+"fala": 7,
+"text": "manda?",
+"start": 30.25,
+"end": 30.45
+},
+{
+"fala": 8,
+"text": "E",
+"start": 30.75,
+"end": 30.85
+},
+{
+"fala": 8,
+"text": "será",
+"start": 30.91,
+"end": 31.11
+},
+{
+"fala": 8,
+"text": "que",
+"start": 31.19,
+"end": 31.23
+},
+{
+"fala": 8,
+"text": "essa",
+"start": 31.27,
+"end": 31.47
+},
+{
+"fala": 8,
+"text": "regra",
+"start": 31.53,
+"end": 31.83
+},
+{
+"fala": 8,
+"text": "vale",
+"start": 31.99,
+"end": 32.19
+},
+{
+"fala": 8,
+"text": "pro",
+"start": 32.21,
+"end": 32.33
+},
+{
+"fala": 8,
+"text": "contrato",
+"start": 32.37,
+"end": 32.77
+},
+{
+"fala": 8,
+"text": "que",
+"start": 32.85,
+"end": 32.95
+},
+{
+"fala": 8,
+"text": "você",
+"start": 32.97,
+"end": 33.33
+},
+{
+"fala": 8,
+"text": "já",
+"start": 33.43,
+"end": 33.55
+},
+{
+"fala": 8,
+"text": "assinou?",
+"start": 33.57,
+"end": 33.95
+},
+{
+"fala": 9,
+"text": "Eu",
+"start": 34.51,
+"end": 34.61
+},
+{
+"fala": 9,
+"text": "sou",
+"start": 34.73,
+"end": 34.81
+},
+{
+"fala": 9,
+"text": "o",
+"start": 34.85,
+"end": 34.87
+},
+{
+"fala": 9,
+"text": "Dr.",
+"start": 34.91,
+"end": 34.99
+},
+{
+"fala": 9,
+"text": "Pelicioni,",
+"start": 34.99,
+"end": 35.81
+},
+{
+"fala": 9,
+"text": "advogado.",
+"start": 35.81,
+"end": 36.47
+},
+{
+"fala": 9,
+"text": "Aqui",
+"start": 36.55,
+"end": 36.71
+},
+{
+"fala": 9,
+"text": "eu",
+"start": 36.73,
+"end": 36.79
+},
+{
+"fala": 9,
+"text": "explico",
+"start": 36.81,
+"end": 37.19
+},
+{
+"fala": 9,
+"text": "o",
+"start": 37.21,
+"end": 37.23
+},
+{
+"fala": 9,
+"text": "que",
+"start": 37.31,
+"end": 37.41
+},
+{
+"fala": 9,
+"text": "muda",
+"start": 37.47,
+"end": 37.69
+},
+{
+"fala": 9,
+"text": "no",
+"start": 37.73,
+"end": 37.81
+},
+{
+"fala": 9,
+"text": "crédito",
+"start": 37.83,
+"end": 38.15
+},
+{
+"fala": 9,
+"text": "rural.",
+"start": 38.19,
+"end": 38.49
+},
+{
+"fala": 9,
+"text": "Me",
+"start": 38.65,
+"end": 38.75
+},
+{
+"fala": 9,
+"text": "segue",
+"start": 38.83,
+"end": 39.13
+},
+{
+"fala": 9,
+"text": "pra",
+"start": 39.15,
+"end": 39.21
+},
+{
+"fala": 9,
+"text": "acompanhar.",
+"start": 39.25,
+"end": 39.69
+}
+]

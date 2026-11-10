@@ -1,0 +1,36 @@
+{
+ "bcb": {
+  "arquivo": "../video/bcb.mp4",
+  "video": true,
+  "credito": "Edifício-sede do Banco Central, Brasília · imagem: Esri, Maxar, Earthstar Geographics",
+  "licenca": "Esri World Imagery (atribuição)",
+  "pino": true
+ },
+ "stj": {
+  "arquivo": "../video/stj.mp4",
+  "video": true,
+  "credito": "Sede do STJ, Brasília · imagem: Esri, Maxar, Earthstar Geographics",
+  "licenca": "Esri World Imagery (atribuição)",
+  "pino": true
+ },
+ "porto": {
+  "arquivo": "../video/paranagua.mp4",
+  "video": true,
+  "credito": "Porto de Paranaguá (PR), terminal de grãos · imagem: Esri, Maxar, Earthstar Geographics",
+  "licenca": "Esri World Imagery (atribuição)"
+ },
+ "seca": {
+  "arquivo": "seca-nasa-2005.jpg",
+  "foco": "45% 62%",
+  "credito": "Seca no Rio Grande do Sul, 2005 (anomalia de vegetação) · imagem: NASA Earth Observatory",
+  "licenca": "domínio público (NASA)",
+  "fonte": "https://science.nasa.gov/earth/earth-observatory/drought-in-brazil-5468/"
+ },
+ "enchente": {
+  "arquivo": "enchente-poa-2024.jpg",
+  "foco": "40% 50%",
+  "credito": "Enchente em Porto Alegre, 8/5/2024 (Landsat 8) · imagem: NASA Earth Observatory",
+  "licenca": "domínio público (NASA)",
+  "fonte": "https://science.nasa.gov/earth/earth-observatory/floods-engulf-porto-alegre-152795/"
+ }
+}
