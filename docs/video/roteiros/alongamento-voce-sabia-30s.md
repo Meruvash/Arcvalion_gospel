@@ -13,7 +13,7 @@ colados como recortes. Nenhuma voz, imagem ou render foi feito: o roteiro espera
 | 6 | 5 Virada | 17,4–24,6 | NARRADOR: "E é justamente aí que a história fica ainda mais estranha, porque desde 2004 o STJ diz que alongar é direito do devedor." | (a) prédio do STJ em recorte de papel desenhado · desliza; (b) **print** da Súmula 298 (scon.stj.jus.br) como recorte com fita, `drop` · aproxima | selo: "STJ · 2004" · realce em "direito do devedor" · Fonte: Súmula 298/STJ, DJ 22/11/2004 |
 | 7 | 8 Reação + "como" | 24,6–26,8 | 2ª VOZ: "Opa. Direito do devedor? Então quem manda?" | Moldura de TV · depois os dois recortes de print lado a lado, puxados por fitas | os dois realces acesos juntos |
 | 8 | 9 Pergunta final | 26,8–30,5 | NARRADOR: "E será que essa regra vale pro contrato que você já assinou?" | Cédula de crédito rural em papel, mão recortada assina · aproxima · corte seco | data da cédula visível por um segundo |
-| 9 | 10 Conclusão do advogado | 30,5–35,5 | [EDITOR, voz gravada por ele]: "Eu sou o [nome], advogado. Aqui eu explico o que muda no crédito rural. Me segue pra acompanhar." | Cartela de colagem: recortes do vídeo se juntam num álbum (`mg_scrapbook`) · afasta | nome · OAB/[UF] [nº] · @[perfil] · linha discreta: "Dúvida sobre o seu contrato? Direct aberto." |
+| 9 | 10 Conclusão do advogado | 30,5–35,5 | DR. PELICIONI (voz clonada do editor, com amostra enviada por ele, ou voz sintética): "Eu sou o Dr. Pelicioni, advogado. Aqui eu explico o que muda no crédito rural. Me segue pra acompanhar." | Cartela de colagem: recortes do vídeo se juntam num álbum (`mg_scrapbook`) · afasta | "Dr. Pelicioni" · @[perfil] · linha discreta: "Dúvida sobre o seu contrato? Direct aberto." |
 
 ## Contagem
 - 110 palavras: 80 do narrador, 13 da 2ª voz e 17 da conclusão. Dá ~35 s. Para voltar a 30 s, corto a fala 4 e encurto
@@ -22,7 +22,7 @@ colados como recortes. Nenhuma voz, imagem ou render foi feito: o roteiro espera
 
 ## Conclusão: limites (Provimento 205/2021 da OAB)
 Informativa e sóbria: diz quem explica e o que a pessoa ganha seguindo. Sem promessa de resultado, sem preço, sem
-"contrate", sem símbolo da OAB. O contato aparece só como canal ("direct aberto"). Nome e inscrição na OAB na tela.
+"contrate", sem símbolo da OAB. O contato aparece só como canal ("direct aberto"). Na tela, só "Dr. Pelicioni": o número da OAB não aparece, por decisão do editor (10/11/2026).
 
 ## Fatos usados
 F1 (citação literal, data e vigência), F2 (as três situações, em paráfrase), F4 (Súmula 298). O ponto em disputa só

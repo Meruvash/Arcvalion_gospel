@@ -30,7 +30,7 @@ de Itaubal (AP) e o Bolsa Família. Analisei a transcrição palavra por palavra
 | 8 | A PERGUNTA DO "COMO" | 45–48 | 25–27 | "Então, como [isso] pode [funcionar/acontecer] assim?" | "Então, como uma cidade inteira pode funcionar assim?" |
 | 9 | A PERGUNTA FINAL | 48–51 | 27–30 | "E seria esse/essa [o mais X do Brasil]?" ou uma pergunta que o espectador quer responder nos comentários. Sem resposta. | "E seria essa a cidade mais inútil do Brasil?" |
 
-| 10 | CONCLUSÃO DO ADVOGADO | 51–56 | 30–35 | Quem explica + o que a pessoa ganha seguindo, em tom de serviço público; contato só como canal ("direct aberto"), na tela. | "Eu sou o [nome], advogado. Aqui eu explico o que muda no crédito rural. Me segue pra acompanhar." |
+| 10 | CONCLUSÃO DO ADVOGADO | 51–56 | 30–35 | Quem explica + o que a pessoa ganha seguindo, em tom de serviço público; contato só como canal ("direct aberto"), na tela. | "Eu sou o Dr. Pelicioni, advogado. Aqui eu explico o que muda no crédito rural. Me segue pra acompanhar." |
 
 Na versão de 30 s, a batida 7 é cortada e a batida 4 pode se fundir com a 6. Diga sempre qual batida saiu e por quê.
 
@@ -94,8 +94,8 @@ Lista F base do alongamento rural (lida nas fontes oficiais em 10/11/2026):
 3. **Conclusão do advogado, sutil e informativa** (exceção pedida pelo editor em 10/11/2026, só para os vídeos de agro).
    Depois da pergunta final, entra a batida 10 (ver abaixo). Limites do Provimento 205/2021 da OAB: publicidade
    informativa, sem promessa de resultado, sem preço, sem "contrate"/"garanta", sem comparação com colegas, sem símbolo
-   da OAB. Na tela: nome e número de inscrição na OAB (o editor fornece). Preferência: a fala é gravada pelo próprio
-   editor; voz sintética não diz "eu sou advogado" em nome dele.
+   da OAB. Na tela: "Dr. Pelicioni" (sem número da OAB, por decisão do editor em 10/11/2026). Voz: clone da voz do editor na
+   ElevenLabs, feito a partir de amostra enviada por ele, ou voz sintética, conforme ele escolher.
 4. **Nenhuma imagem gerada por IA.** As imagens são: (a) prints que nós mesmos fazemos das páginas oficiais (BCB, STJ,
    Diário Oficial), com o trecho realçado; (b) fotos com licença conferida e crédito na tela (ex.: Agência Brasil,
    CC BY 4.0); (c) objetos ou cenas desenhados em código. Licença e crédito registrados antes do render.
