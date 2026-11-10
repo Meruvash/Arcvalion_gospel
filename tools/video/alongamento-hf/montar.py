@@ -64,7 +64,7 @@ BASE_CSS = """
   font-size: 15px; color: rgba(235,232,224,.82); text-shadow: 0 1px 6px rgba(0,0,0,.9); }
 """
 
-def rotulo_js(id_, d, entra=0.25):
+def rotulo_js(id_, d, entra=0.25, vazio=False):
     """Rótulo de arquivo: o filete cresce e o texto é revelado por máscara, da esquerda para a direita."""
     return f"""
   tl.fromTo('#{id_}-lt .barra', {{ scaleY: 0 }}, {{ scaleY: 1, duration: 0.25, ease: 'power3.out', transformOrigin: '50% 100%' }}, {entra});
@@ -86,6 +86,8 @@ def cena(id_, d, corpo, css, js):
 """
 
 def rotulo_html(id_, txt, d):
+    if not txt:
+        return ""
     return f"""    <div id="{id_}-lt" class="lt clip" data-start="0" data-duration="{d}"><span class="barra"></span><span class="txt">{html.escape(txt)}</span></div>"""
 
 # ---------- cena de foto (Ken Burns) ----------
@@ -93,7 +95,7 @@ def cena_foto(id_, foto, rot, z0=1.0, z1=1.08, x0=0, x1=0, y0=0, y1=0):
     d = dur(id_)
     c = CRED[foto]
     src = c["arquivo"].replace("../", "assets/") if c.get("video") else f"assets/img/{c['arquivo']}"
-    midia = (f'<video id="{id_}-img" class="clip" data-start="0" data-duration="{d}" src="{src}" muted playsinline></video>' if c.get("video")
+    midia = (f'<video id="{id_}-img" class="clip" data-start="0" data-duration="{d}" data-media-start="{c.get('inicio', 0)}" src="{src}" muted playsinline></video>' if c.get("video")
              else f'<img id="{id_}-img" class="clip" data-start="0" data-duration="{d}" src="{src}" alt="">')
     pino = f'\n    <div id="{id_}-pino" class="pino"></div>' if c.get("pino") else ""
     corpo = f"""    <div id="{id_}-kb" class="kb">{midia}</div>{pino}
@@ -105,7 +107,7 @@ def cena_foto(id_, foto, rot, z0=1.0, z1=1.08, x0=0, x1=0, y0=0, y1=0):
   box-shadow: 0 0 0 2px rgba(0,0,0,.35), inset 0 0 0 2px rgba(0,0,0,.25); opacity: 0; }}
 #{id_} .kb img, #{id_} .kb video {{ width: 100%; height: 100%; object-fit: cover; object-position: {c.get('foco', '50% 50%')}; }}"""
     js = f"""  tl.fromTo('#{id_}-kb', {{ scale: {z0}, x: {x0}, y: {y0} }}, {{ scale: {z1}, x: {x1}, y: {y1}, duration: {d}, ease: 'power1.inOut' }}, 0);
-{rotulo_js(id_, d)}"""
+{rotulo_js(id_, d) if rot else ""}"""
     if c.get("pino"):
         js += f"""
   tl.fromTo('#{id_}-pino', {{ scale: 1.8, opacity: 0 }}, {{ scale: 1, opacity: 1, duration: 0.35, ease: 'expo.out' }}, {min(0.5, d * 0.4):.2f});"""
@@ -340,7 +342,7 @@ def cena_cartela():
     <div id="cartela-prof" class="prof clip" data-start="0" data-duration="{d}">ADVOGADO</div>
     <p id="cartela-tese" class="tese clip" data-start="0" data-duration="{d}">o que muda no crédito rural, explicado com a fonte</p>
     <p id="cartela-direct" class="direct clip" data-start="0" data-duration="{d}">Dúvida sobre o seu contrato? Direct aberto.</p>
-    <p id="cartela-fontes" class="fontes clip" data-layout-ignore data-start="0" data-duration="{d}">Fontes: Res. CMN 5.314/2026 e 4.905/2021 (bcb.gov.br) · Súmula 298 (scon.stj.jus.br) · imagens: Esri, Maxar, Earthstar Geographics; NASA Earth Observatory</p>"""
+    <p id="cartela-fontes" class="fontes clip" data-layout-ignore data-start="0" data-duration="{d}">Fontes: Res. CMN 5.314/2026 e 4.905/2021 (bcb.gov.br) · Súmula 298 (scon.stj.jus.br) · imagens de arquivo: Coverr e Mixkit (licenças livres)</p>"""
     css = """
 #cartela .luz { position: absolute; inset: 0; background: radial-gradient(ellipse 60% 45% at 50% 42%, #1a2232 0%, #0b111c 60%, #070c16 100%); }
 #cartela .nome { position: absolute; left: 0; right: 0; top: 330px; text-align: center; font-family: 'Source Serif', serif; font-weight: 700; font-size: 104px; color: #eee8da; letter-spacing: -0.01em; }
@@ -415,8 +417,8 @@ def legendas():
 def escreve(nome, txt):
     (P / "compositions" / f"{nome}.html").write_text(txt, encoding="utf-8")
 
-escreve("mapa", cena_mapa())
-fb = cena_foto("bcb", "bcb", "Banco Central do Brasil · Brasília", 1.02, 1.1)
+escreve("mapa", cena_foto("mapa", "abertura", "", 1.0, 1.08))
+fb = cena_foto("bcb", "predio", "", 1.04, 1.12)
 t_html, t_css, t_js = titulo_bcb()
 fb = fb.replace('    <div id="bcb-cred"', t_html + '\n    <div id="bcb-cred"', 1).replace("</style>", t_css + "</style>", 1).replace(
     '  window.__timelines["bcb"]', t_js + '\n  window.__timelines["bcb"]', 1)
@@ -428,14 +430,14 @@ escreve("voz1", cena_voz("voz1", "bcb-item4", "conveniencia"))
 escreve("art11", cena_doc("art11", "bcb-art11", [("vigor", t(4, "Mas"), t(4, "é") + 0.3)], "vigor", 1.15, 1.45, "Art. 11 · vigência",
                           carimbos=[("EM VIGOR · 1º/7/2026", t(4, "erro"), 600, 470, "#b3262d")], entrada=False))
 escreve("alin_b", cena_foto("alin_b", "seca", "MCR 2-6-4 · b) frustração de safras, por fatores adversos", 1.0, 1.1))
-escreve("alin_a", cena_foto("alin_a", "porto", "MCR 2-6-4 · a) dificuldade de comercialização dos produtos", 1.08, 1.0, -20, 20))
-escreve("alin_c", cena_foto("alin_c", "enchente", "MCR 2-6-4 · c) eventuais ocorrências prejudiciais ao desenvolvimento das explorações", 1.0, 1.1))
-escreve("stj", cena_foto("stj", "stj", "Superior Tribunal de Justiça · Brasília", 1.0, 1.08, 0, 0, 20, -20))
+escreve("alin_a", cena_foto("alin_a", "estrada", "MCR 2-6-4 · a) dificuldade de comercialização dos produtos", 1.08, 1.0, -20, 20))
+escreve("alin_c", cena_foto("alin_c", "tornado", "MCR 2-6-4 · c) eventuais ocorrências prejudiciais ao desenvolvimento das explorações", 1.0, 1.1))
+escreve("stj", cena_foto("stj", "binoculo", "", 1.0, 1.06))
 escreve("linha", cena_linha())
 escreve("sumula", cena_doc("sumula", "stj-sumula", [("devedor", t(6, "direito"), t(6, "devedor") + 0.35)], "devedor", 1.0, 1.6,
                            "Súmula 298 · STJ · DJ 22/11/2004", entrada=True))
 escreve("lado", cena_lado())
-escreve("contrato", cena_contrato())
+escreve("contrato", cena_foto("contrato", "contrato", "Em disputa · a regra alcança contratos assinados antes de 1º/7/2026?", 1.0, 1.1))
 escreve("cartela", cena_cartela())
 escreve("legendas", legendas())
 

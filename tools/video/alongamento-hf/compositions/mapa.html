@@ -11,18 +11,19 @@
 #mapa .cred { position: absolute; right: 40px; bottom: 26px; font-family: 'Inter', sans-serif; font-weight: 400;
   font-size: 15px; color: rgba(235,232,224,.82); text-shadow: 0 1px 6px rgba(0,0,0,.9); }
 
-#mapa video { position: absolute; left: 0; top: 0; width: 1080px; height: 1080px; object-fit: cover; }</style>
+#mapa .kb { position: absolute; inset: -4%; }
+#mapa .pino { position: absolute; left: 480px; top: 480px; width: 120px; height: 120px; border-radius: 50%; border: 4px solid #f0c24b;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.35), inset 0 0 0 2px rgba(0,0,0,.25); opacity: 0; }
+#mapa .kb img, #mapa .kb video { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }</style>
   <div id="mapa" data-composition-id="mapa" data-width="1080" data-height="1080">
-    <video id="mapa-video" class="clip" data-start="0" data-duration="3.25" src="assets/video/fazenda.mp4" muted playsinline></video>
-    <div id="mapa-lt" class="lt clip" data-start="0" data-duration="3.25"><span class="barra"></span><span class="txt">Propriedade rural · Sorriso (MT)</span></div>
-    <div id="mapa-cred" class="cred clip" data-layout-ignore data-start="0" data-duration="3.25">Imagem: Esri, Maxar, Earthstar Geographics</div>
+    <div id="mapa-kb" class="kb"><video id="mapa-img" class="clip" data-start="0" data-duration="3.25" data-media-start="2.0" src="assets/video/abertura.mp4" muted playsinline></video></div>
+
+    <div id="mapa-cred" class="cred clip" data-layout-ignore data-start="0" data-duration="3.25">Imagem de arquivo: Coverr</div>
   </div>
   <script>
   const tl = gsap.timeline({ paused: true });
+  tl.fromTo('#mapa-kb', { scale: 1.0, x: 0, y: 0 }, { scale: 1.08, x: 0, y: 0, duration: 3.25, ease: 'power1.inOut' }, 0);
 
-  tl.fromTo('#mapa-lt .barra', { scaleY: 0 }, { scaleY: 1, duration: 0.25, ease: 'power3.out', transformOrigin: '50% 100%' }, 0.3);
-  tl.fromTo('#mapa-lt .txt', { clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0% 0 0)', duration: 0.55, ease: 'power3.out' }, 0.42);
-  tl.to('#mapa-lt', { opacity: 0, duration: 0.15, ease: 'power2.in' }, 3.05);
   window.__timelines["mapa"] = tl;
   </script>
 </template>
