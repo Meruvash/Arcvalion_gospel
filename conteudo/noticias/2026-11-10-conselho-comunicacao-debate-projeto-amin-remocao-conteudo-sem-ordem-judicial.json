@@ -1,0 +1,198 @@
+{
+ "slug": "conselho-comunicacao-debate-projeto-amin-remocao-conteudo-sem-ordem-judicial",
+ "data": "2026-11-10",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Conselho do Congresso debate projeto que obriga redes a avisar remoção de post sem ordem judicial",
+ "lide": "O Conselho de Comunicação Social do Congresso debateu nesta segunda-feira (9) o PL 3.283/2025, do senador Esperidião Amin (PP-SC), que obriga as plataformas a comunicar em até 24 horas toda remoção de conteúdo feita sem ordem judicial. Conselheiros apontaram problemas no texto, e o colegiado adiou a posição para a próxima reunião.",
+ "por_que_importa": "Desde que o STF mudou as regras do Marco Civil, em 2025, as redes passaram a ter mais motivo para tirar posts do ar por conta própria. O projeto quer que cada remoção fique registrada e visível. Para pastores e igrejas que pregam nas redes, é a diferença entre saber ou não por que um vídeo sumiu.",
+ "numeros": [
+  [
+   "24 horas",
+   "prazo para a plataforma comunicar a remoção sem ordem judicial, pelo texto do projeto",
+   "PL 3.283/2025, Senado"
+  ],
+  [
+   "4",
+   "órgãos que receberiam o aviso no texto original: o controle externo de inteligência do Congresso, o CNJ, o CNMP e o Conselho Federal da OAB",
+   "PL 3.283/2025, Senado"
+  ],
+  [
+   "32 mil",
+   "bloqueios de conteúdo por dia só na Meta, segundo levantamento citado pelo consultor do Senado",
+   "Agência Senado, 09/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O texto acrescenta dois parágrafos ao artigo 19 do Marco Civil da Internet e exclui da obrigação as remoções automáticas contra spam, vírus, fraude e violação de direito autoral. Na justificativa, Amin afirma que a decisão do STF no Tema 987 abriu caminho para a remoção sem ordem judicial e quer que esses casos sejam expostos à sociedade.",
+  "No Conselho, segundo a Agência Senado, a discussão foi sobre incluir o próprio colegiado entre os destinatários dos avisos. O consultor legislativo Dilson do Carmo Lima Ferreira disse que o texto não define bem quais bloqueios notificar e sugeriu relatórios periódicos de transparência; a conselheira Rita Freire afirmou que a medida inviabilizaria o trabalho do Conselho."
+ ],
+ "no_brasil": "O projeto foi apresentado em julho de 2025 e aguarda a designação de relator, segundo os dados do Senado. A posição do Conselho deve servir de subsídio para a Comissão de Constituição e Justiça, informou a Agência Senado.",
+ "critica": [
+  {
+   "fonte": "Senador Esperidião Amin, na justificativa do PL 3.283/2025",
+   "texto": "Peço a crítica, o aperfeiçoamento, a atenção e o apoio aos ilustres pares",
+   "citacao": true,
+   "url": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/8a46e2a9-51de-431c-b868-057d93e7179e"
+  },
+  {
+   "fonte": "Dilson do Carmo Lima Ferreira, consultor legislativo do Senado, segundo a Agência Senado",
+   "texto": "Não é com dois parágrafos, em que pese a boa intenção do projeto, que você vai resolver essa questão",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/09/conselho-de-comunicacao-debate-seu-papel-em-remocao-de-conteudos-nas-redes"
+  }
+ ],
+ "para_quem": [
+  "Pastores e igrejas que publicam nas redes: o projeto quer que toda remoção sem ordem judicial fique registrada",
+  "Quem acompanha liberdade de expressão: o texto ainda está no começo da tramitação no Senado",
+  "Quem teve post removido: hoje a lei não obriga a plataforma a avisar órgão nenhum"
+ ],
+ "nao_e_para": [
+  "O projeto não proíbe as plataformas de remover conteúdo; só obriga a comunicar",
+  "O Conselho de Comunicação Social é consultivo e não votou nada",
+  "O texto ainda não tem relator nem data de votação"
+ ],
+ "veredito": "A gente apoia a ideia. Censura que acontece no escuro não pode ser contestada, e transparência protege quem prega e quem opina. O texto precisa de ajustes, como disse o consultor, mas o princípio é bom: remoção sem juiz tem de deixar rastro.",
+ "versiculo": {
+  "texto": "Porquanto tudo o que em trevas dissestes à luz será ouvido; e o que falastes ao ouvido no gabinete sobre os telhados será apregoado",
+  "referencia": "Lucas 12.3",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Senado: texto do PL 3.283/2025, do senador Esperidião Amin (08/07/2025)",
+   "url": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/8a46e2a9-51de-431c-b868-057d93e7179e",
+   "data": "08/07/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Conselho de Comunicação debate seu papel em remoção de conteúdos nas redes (09/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/09/conselho-de-comunicacao-debate-seu-papel-em-remocao-de-conteudos-nas-redes",
+   "data": "09/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado, dados abertos: situação do PL 3.283/2025 (aguardando designação do relator)",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo?sigla=PL&numero=3283&ano=2025",
+   "data": "10/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "liberdade",
+   "porque": "O fato é sobre liberdade de expressão nas redes, onde igrejas e pastores pregam e onde posts somem sem ordem judicial"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/09/conselho-de-comunicacao-debate-seu-papel-em-remocao-de-conteudos-nas-redes"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Projeto de lei em tramitação, ainda sem relator; o Conselho só debateu, sem votar"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Liberdade de expressão e de pregação nas redes, com proposta de senador da oposição contra remoções sem juiz"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Debate realizado na segunda-feira, 9/11, menos de 48 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Texto integral do projeto lido no Senado, mais a reportagem oficial da Agência Senado; sem confirmação de veículo independente"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Traz do texto do projeto os órgãos destinatários, as exceções e a ligação com o Tema 987 do STF, que a reportagem não deu"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: texto do projeto (2)",
+    "Ato de poder: debate em órgão do Congresso (1)",
+    "Proximidade: nacional (2)",
+    "Personagem com nome: Esperidião Amin (1)",
+    "Utilidade: o que muda para quem tem post removido (1)",
+    "Tema que já mobiliza o público: censura nas redes (2)",
+    "Pede resposta do cristão: pregação nas redes (2)",
+    "Passagem bíblica que um pastor usaria: Lucas 12.3 (2)",
+    "Gatilho no calendário: próxima reunião do Conselho (1)",
+    "Rende estudo: verdade e luz (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Conselho de Comunicação debate seu papel em remoção de conteúdos nas redes",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / redes sociais",
+  "coleta": "2026-11-10",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado em fonte oficial e no texto do projeto",
+   "contradicoes": "A Agência Senado diz que a proposta inclui o Conselho entre os destinatários; o texto original lido lista quatro outros órgãos. A nota descreve o debate como sobre incluir o Conselho e não afirma que o texto já o inclui.",
+   "sem_confirmacao": "se há emenda formal incluindo o Conselho; data da próxima reunião"
+  },
+  "duplicidade": {
+   "grupo": "Remoção de conteúdo sem ordem judicial",
+   "itens": [
+    "Agência Senado 09/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se as redes terão de avisar quando removerem posts",
+   "entidades": [
+    "Esperidião Amin",
+    "Conselho de Comunicação Social",
+    "Marco Civil da Internet",
+    "PL 3.283/2025",
+    "Tema 987"
+   ],
+   "termos": [
+    "remoção de conteúdo sem ordem judicial",
+    "PL 3283/2025",
+    "censura redes sociais projeto"
+   ],
+   "atualizacao": "acompanhar a posição do Conselho e a designação de relator na CCJ"
+  }
+ },
+ "descricao_seo": "O Conselho de Comunicação do Congresso debateu o PL 3.283/2025, de Esperidião Amin, que obriga redes a avisar remoção de conteúdo sem ordem judicial.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do projeto e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: o conteúdo do projeto foi lido no texto oficial; as falas vêm da Agência Senado e a frase de Amin da justificativa. A nota registra as críticas dos conselheiros e do consultor e não atribui censura a nenhuma empresa específica.",
+ "imagem": {
+  "arquivo": "capas/conselho-comunicacao-debate-projeto-amin-remocao-conteudo-sem-ordem-judicial.jpg",
+  "credito": "Foto: Carolina Curi/Agência Senado",
+  "alt": "Debatedores durante a reunião do Conselho de Comunicação Social do Congresso, em Brasília",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/09/conselho-de-comunicacao-debate-seu-papel-em-remocao-de-conteudos-nas-redes/20261109_00261cc.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/09/conselho-de-comunicacao-debate-seu-papel-em-remocao-de-conteudos-nas-redes"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-10T02:41:53-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-10T02:41:53-03:00"
+}
