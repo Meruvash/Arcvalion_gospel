@@ -16,7 +16,7 @@ de Itaubal (AP) e o Bolsa Família. Analisei a transcrição palavra por palavra
 - **Movimento:** aproximação lenta em quase todo plano, corte seco, sem transição enfeitada.
 - **Fecho:** duas perguntas, nenhuma resposta. A última é provocativa e puxa comentário.
 
-## As 9 batidas (na ordem; tempos para 50 s e para 30 s)
+## As 10 batidas (na ordem; tempos para 50 s e para 30 s)
 
 | # | Batida | 50 s | 30 s | Função e fórmula | Exemplo da referência |
 |---|---|---|---|---|---|
@@ -29,6 +29,8 @@ de Itaubal (AP) e o Bolsa Família. Analisei a transcrição palavra por palavra
 | 7 | O CUSTO | 39–45 | cortada | O que isso custa ou quem sente o peso. | "Tudo isso continua existindo e custando muito caro pra todos nós…" |
 | 8 | A PERGUNTA DO "COMO" | 45–48 | 25–27 | "Então, como [isso] pode [funcionar/acontecer] assim?" | "Então, como uma cidade inteira pode funcionar assim?" |
 | 9 | A PERGUNTA FINAL | 48–51 | 27–30 | "E seria esse/essa [o mais X do Brasil]?" ou uma pergunta que o espectador quer responder nos comentários. Sem resposta. | "E seria essa a cidade mais inútil do Brasil?" |
+
+| 10 | CONCLUSÃO DO ADVOGADO | 51–56 | 30–35 | Quem explica + o que a pessoa ganha seguindo, em tom de serviço público; contato só como canal ("direct aberto"), na tela. | "Eu sou o [nome], advogado. Aqui eu explico o que muda no crédito rural. Me segue pra acompanhar." |
 
 Na versão de 30 s, a batida 7 é cortada e a batida 4 pode se fundir com a 6. Diga sempre qual batida saiu e por quê.
 
@@ -89,13 +91,27 @@ Lista F base do alongamento rural (lida nas fontes oficiais em 10/11/2026):
    referência mistura opinião com dado ("custando muito caro pra todos nós"); aqui, a opinião só aparece como pergunta
    (batidas 8 e 9), nunca como afirmação.
 2. **Os dois lados.** Se há conflito (norma × súmula), as duas partes aparecem com a fonte, e a pergunta final fica aberta.
-3. **Sem menção à advocacia do editor** e sem oferta de serviço ou contato.
+3. **Conclusão do advogado, sutil e informativa** (exceção pedida pelo editor em 10/11/2026, só para os vídeos de agro).
+   Depois da pergunta final, entra a batida 10 (ver abaixo). Limites do Provimento 205/2021 da OAB: publicidade
+   informativa, sem promessa de resultado, sem preço, sem "contrate"/"garanta", sem comparação com colegas, sem símbolo
+   da OAB. Na tela: nome e número de inscrição na OAB (o editor fornece). Preferência: a fala é gravada pelo próprio
+   editor; voz sintética não diz "eu sou advogado" em nome dele.
 4. **Nenhuma imagem gerada por IA.** As imagens são: (a) prints que nós mesmos fazemos das páginas oficiais (BCB, STJ,
    Diário Oficial), com o trecho realçado; (b) fotos com licença conferida e crédito na tela (ex.: Agência Brasil,
    CC BY 4.0); (c) objetos ou cenas desenhados em código. Licença e crédito registrados antes do render.
 5. **Fonte na tela** sempre que o número ou a citação aparecer (rodapé pequeno: "Fonte: Res. CMN 5.314/2026").
 
-## SISTEMA VISUAL (copiado da referência)
+## SISTEMA VISUAL: COLAGEM VOX, COM PRINTS ONDE COUBER (decisão do editor, 10/11/2026)
+
+- **Base: colagem Vox desenhada em código** (skill `vox-director`, tema `newsprint-editorial` sobre o azul do portal):
+  recortes de papel com borda rasgada, fita nos cantos, retícula, sombra de papel, títulos recortados em caixa-alta;
+  movimentos de câmera variados entre planos vizinhos (aproxima, afasta, desliza, profundidade; parado só na recompensa)
+  e entradas dos recortes `fly_in` / `slap` / `drop` / `pop_settle`. Nenhuma imagem de IA.
+- **Prints onde couber**: sempre que a fala cita norma, súmula ou número oficial, o print real da página oficial entra
+  na colagem como um RECORTE de papel (borda rasgada, preso com fita), com o realce amarelo no instante da fala.
+- **Segunda voz**: moldura de TV antiga recortada em papel, com a onda do áudio.
+
+## Do vídeo de referência 1 (mantido)
 
 - Formato do editor: 1080x1080 (quadrado), 30 fps. Imagem nova a cada ~2 s, aproximação lenta, corte seco.
 - Legenda: 1 a 3 palavras, Inter Black ~56 px, preto sobre caixa amarela (#f0c24b), um pouco abaixo do centro.
@@ -107,12 +123,12 @@ Lista F base do alongamento rural (lida nas fontes oficiais em 10/11/2026):
 ## SAÍDA (formato obrigatório)
 
 Uma tabela, uma linha por frase:
-| # | Batida (1–9) | Tempo | Fala (narrador ou 2ª voz) | Imagem (o quê · origem/licença · movimento) | Legenda em blocos | Texto/realce na tela |
+| # | Batida (1–10) | Tempo | Fala (narrador ou 2ª voz) | Imagem (o quê · origem/licença · movimento) | Legenda em blocos | Texto/realce na tela |
 
 Depois da tabela:
 - Contagem de palavras e duração estimada (a 3,1 palavras/s).
 - Fatos usados, com o código da lista F.
-- Autochecagem: as 9 batidas (presente, fundida ou cortada, com o motivo); frases fixas das batidas 3, 5 e 8
+- Autochecagem: as 10 batidas (presente, fundida ou cortada, com o motivo); frases fixas das batidas 3, 5 e 8
   presentes; nenhum fato fora da lista F; citações inalteradas; nenhuma opinião afirmada; a pergunta final sem resposta.
 
 **Portão:** o roteiro é apresentado ao editor na conversa e aprovado ANTES de qualquer voz, imagem ou render
