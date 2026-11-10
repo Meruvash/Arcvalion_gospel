@@ -1,0 +1,117 @@
+{
+ "slug": "pascoa",
+ "titulo": "O que é a Páscoa para o cristão?",
+ "titulo_seo": "O que é a Páscoa segundo a Bíblia? Origem e sentido para o cristão",
+ "ideia_central": "A Páscoa de Israel apontava para Jesus: ele é o Cordeiro sem defeito, morto em nosso lugar, cujo sangue nos protege do juízo e nos liberta da escravidão do pecado.",
+ "descricao": "O que é a Páscoa segundo a Bíblia? A origem em Êxodo 12, o sentido do nome, os símbolos que apontam para Jesus, o Cordeiro da Páscoa, e se o cristão deve guardar a festa judaica.",
+ "tempo_min": 13,
+ "resumo_rapido": {
+  "resposta": "A Páscoa começou no Egito, na noite em que Deus passou pelas casas marcadas com sangue e libertou Israel. A festa apontava para Jesus, o Cordeiro sem defeito que morreu em nosso lugar. O cristão não guarda o calendário judaico, mas vive a sua Páscoa a vida inteira.",
+  "ideias": [
+   "\"eu verei o sangue e então passarei por vocês sem parar\" (Êxodo 12:13).",
+   "\"Cristo, o nosso Cordeiro da Páscoa, já foi oferecido em sacrifício\" (1 Coríntios 5:7).",
+   "\"Aí está o Cordeiro de Deus, que tira o pecado do mundo!\" (João 1:29)."
+  ],
+  "texto_central": "Êxodo 12:3-14"
+ },
+ "versiculo_chave": {
+  "texto": "Porque a nossa Festa da Páscoa está pronta, agora que Cristo, o nosso Cordeiro da Páscoa, já foi oferecido em sacrifício.",
+  "referencia": "1 Coríntios 5:7"
+ },
+ "contexto": [
+  [
+   "Origem",
+   "Êxodo",
+   "O sangue nos batentes e Deus que passa \"sem parar\" (Êxodo 12:13)"
+  ],
+  [
+   "Cordeiro",
+   "João Batista",
+   "\"Aí está o Cordeiro de Deus\" (João 1:29)"
+  ],
+  [
+   "Cumprimento",
+   "João",
+   "\"Nenhum dos seus ossos será quebrado\" (João 19:36)"
+  ],
+  [
+   "Vida nova",
+   "Paulo",
+   "\"o pão da pureza e da verdade\" (1 Coríntios 5:8)"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Moderada",
+   "Páscoa é só chocolate e feriado",
+   "\"Comemorem esse dia como festa religiosa para lembrar que eu, o Senhor, fiz isso\" (Êxodo 12:14)."
+  ],
+  [
+   "Moderada",
+   "A Páscoa judaica não tem nada a ver com Jesus",
+   "\"Cristo, o nosso Cordeiro da Páscoa, já foi oferecido em sacrifício\" (1 Coríntios 5:7)."
+  ],
+  [
+   "Moderada",
+   "O cristão é obrigado a guardar a festa judaica",
+   "Os dias santos são \"apenas uma sombra daquilo que virá; a realidade é Cristo\" (Colossenses 2:17)."
+  ],
+  [
+   "Leve",
+   "Páscoa é só a ressurreição",
+   "A Páscoa é também \"o sacrifício da Páscoa\" (Êxodo 12:27): Cristo morreu em nosso lugar."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "O que é a Páscoa para o cristão?",
+  "evidencias": [
+   {
+    "fonte": "Google, Ano em Pesquisa 2017 (Brasil)",
+    "url": "https://trends.withgoogle.com/year-in-search/2017/br/",
+    "dado": "na lista \"O que é?\", \"6. O que é Páscoa?\"",
+    "data": "2017-12"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=p%C3%A1scoa%20segundo%20a%20b%C3%ADblia",
+    "dado": "para \"páscoa segundo a bíblia\", sugere \"origem da páscoa segundo a bíblia\", \"símbolos da páscoa segundo a bíblia\" e \"verdadeiro sentido da páscoa segundo a bíblia\"",
+    "data": "2026-11-10"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=o%20que%20%C3%A9%20p%C3%A1scoa",
+    "dado": "para \"o que é páscoa\", sugere \"o que é a páscoa para os cristãos\"",
+    "data": "2026-11-10"
+   }
+  ]
+ },
+ "categoria": "conhecendo-a-biblia",
+ "palavras_chave": [
+  "Páscoa",
+  "o que é Páscoa",
+  "Páscoa segundo a Bíblia",
+  "Êxodo 12",
+  "Cordeiro de Deus",
+  "Cordeiro da Páscoa",
+  "1 Coríntios 5:7",
+  "Páscoa judaica",
+  "Páscoa cristã",
+  "símbolos da Páscoa"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-pascoa.jpg",
+  "alt": "Pequena placa medieval de esmalte azul-escuro com moldura dourada: em figuras de ouro, um homem de túnica longa estende o braço e traça a letra T no frontão de um edifício com torres; embaixo, diante da porta, há um carneiro deitado.",
+  "credito": "Placa com a marcação da porta com a letra Tau (esmalte champlevé sobre cobre dourado, Alemanha, c. 1200). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, comentários de Matthew Henry e João Calvino, notas de John Wesley e lista do Ano em Pesquisa do Google. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-10T15:32:18-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-10T15:32:18-03:00"
+}

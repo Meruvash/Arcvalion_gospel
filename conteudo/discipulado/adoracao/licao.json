@@ -1,0 +1,116 @@
+{
+ "slug": "adoracao",
+ "titulo": "O que é adoração?",
+ "titulo_seo": "O que é adoração a Deus segundo a Bíblia? Em espírito e em verdade",
+ "ideia_central": "Adorar é reconhecer quem Deus é e responder a ele com o coração sincero, conhecendo-o pela sua Palavra, no culto da igreja e em toda a vida.",
+ "descricao": "O que é adoração segundo a Bíblia? Jesus e a samaritana, adorar em espírito e em verdade, lábios sem coração, Romanos 12:1, a diferença entre louvor e adoração e o culto pentecostal.",
+ "tempo_min": 12,
+ "resumo_rapido": {
+  "resposta": "Adorar é reconhecer quem Deus é e o que ele fez, e responder com reverência, louvor e obediência. Só Deus é adorado. Ele quer adoradores em espírito e em verdade, com o coração sincero, no culto da igreja e em toda a vida.",
+  "ideias": [
+   "\"os verdadeiros adoradores vão adorar o Pai em espírito e em verdade\" (João 4:23).",
+   "\"Adore o Senhor, seu Deus, e sirva somente a ele\" (Mateus 4:10).",
+   "\"Esta é a verdadeira adoração que vocês devem oferecer a Deus\" (Romanos 12:1)."
+  ],
+  "texto_central": "João 4:20-24"
+ },
+ "versiculo_chave": {
+  "texto": "Deus é Espírito, e por isso os que o adoram devem adorá-lo em espírito e em verdade.",
+  "referencia": "João 4:24"
+ },
+ "contexto": [
+  [
+   "Poço",
+   "Jesus",
+   "Conversa com a samaritana em Sicar (João 4:5-26)"
+  ],
+  [
+   "Reverência",
+   "Salmo 95",
+   "\"Venham, fiquemos de joelhos e adoremos o Senhor\" (Salmo 95:6)"
+  ],
+  [
+   "Coração",
+   "Isaías",
+   "\"o seu coração está longe de mim\" (Isaías 29:13)"
+  ],
+  [
+   "Vida",
+   "Paulo",
+   "\"se ofereçam completamente a Deus como um sacrifício vivo\" (Romanos 12:1)"
+  ]
+ ],
+ "equivocos": [
+  [
+   "Moderada",
+   "Adoração é só o momento das músicas",
+   "\"Esta é a verdadeira adoração\": oferecer-se completamente a Deus (Romanos 12:1)."
+  ],
+  [
+   "Moderada",
+   "Só se adora no templo e no domingo",
+   "\"chegará o tempo em que ninguém vai adorar a Deus nem neste monte nem em Jerusalém\" (João 4:21)."
+  ],
+  [
+   "Moderada",
+   "Basta cantar bonito",
+   "\"A adoração deste povo é inútil\", porque o coração está longe (Mateus 15:8-9)."
+  ],
+  [
+   "Leve",
+   "Dá para adorar sem conhecer a Deus",
+   "\"Vocês, samaritanos, não sabem o que adoram\" (João 4:22)."
+  ]
+ ],
+ "relevancia": {
+  "pergunta": "O que é adoração?",
+  "evidencias": [
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=o%20que%20%C3%A9%20adora%C3%A7%C3%A3o",
+    "dado": "para \"o que é adoração\", sugere \"o que é adoração a deus\" e \"o que é adoração segundo a bíblia\"",
+    "data": "2026-11-10"
+   },
+   {
+    "fonte": "Autocomplete do Google",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&q=como%20adorar%20a%20deus",
+    "dado": "para \"como adorar a deus\", sugere \"como adorar a deus em espírito e em verdade\" e \"como adorar a deus no dia a dia\"",
+    "data": "2026-11-10"
+   },
+   {
+    "fonte": "Autocomplete do YouTube",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt-BR&q=adora%C3%A7%C3%A3o%20e%20louvor%20diferen%C3%A7a",
+    "dado": "para \"adoração e louvor diferença\", sugere \"diferença entre adoração e louvor\"",
+    "data": "2026-11-10"
+   }
+  ]
+ },
+ "categoria": "igreja-e-comunhao",
+ "palavras_chave": [
+  "adoração",
+  "o que é adoração",
+  "adorar em espírito e em verdade",
+  "João 4",
+  "Romanos 12:1",
+  "louvor e adoração",
+  "culto",
+  "samaritana",
+  "verdadeira adoração"
+ ],
+ "imagem": {
+  "arquivo": "discipulado-adoracao.jpg",
+  "alt": "Pintura a óleo: à esquerda, uma mulher de vestido amarelo-dourado e saia vermelha, inclinada sobre a borda de pedra de um poço, segura um jarro de cobre e olha para Jesus; à direita, Jesus, sentado, de túnica vermelha e manto azul, gesticula com as duas mãos; ao fundo, uma coluna, árvores, céu azul e casas sobre uma colina.",
+  "credito": "Benedetto Luti, Cristo e a samaritana (óleo sobre cobre, 1715-1720). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)"
+ },
+ "ia": {
+  "usada": true,
+  "uso": "Estudo escrito com IA (Claude, da Anthropic) a partir de fontes lidas na página: texto bíblico NTLH, Declaração de Fé das Assembleias de Deus, comentários de Matthew Henry e João Calvino e sermão de John Wesley. Publicação automática autorizada pelo responsável editorial; a revisão é feita na verificação diária do portal."
+ },
+ "status": "publicado",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-10T15:30:29-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-10T15:30:29-03:00"
+}
