@@ -1,0 +1,272 @@
+{
+ "slug": "exodo-3",
+ "status": "publicado",
+ "tipo": "passagem",
+ "titulo": "Êxodo 3:1-15: a sarça que não se consumia e o Deus que ouve o clamor do seu povo",
+ "passagem": "Êxodo 3:1-15",
+ "sigla": "Êx",
+ "livro": "Êxodo",
+ "testamento": "Antigo Testamento",
+ "genero": "Narrativa",
+ "nivel": 1,
+ "tempo_min": 35,
+ "selo": "Ótimo para começar",
+ "tagline": "No deserto, um pastor de ovelhas vê uma sarça que arde sem se queimar. Deus o chama pelo nome, revela quem é e o envia para libertar o seu povo.",
+ "lede": "\"Tira os sapatos de teus pés; porque o lugar em que tu estás é terra santa.\" Moisés cuidava das ovelhas do sogro quando viu a sarça que ardia sem se consumir. Ali Deus disse que tinha visto a aflição do seu povo, desceu para livrá-lo e revelou o seu nome: Eu sou o que sou. Uma lição da CPAD, uma prédica luterana e um sermão batista leem o texto, e para nós, pentecostais, ele mostra o Deus que chama e capacita.",
+ "descricao": "Estudo de Êxodo 3:1-15: a sarça ardente, a terra santa, o Deus que vê a aflição do seu povo, as objeções de Moisés e o nome Eu Sou, com comentaristas de três tradições e o olhar pentecostal.",
+ "imagem": {
+  "arquivo": "estudo-exodo-3.jpg",
+  "credito": "Claude Mellan, Moisés diante da sarça ardente (gravura, 1663). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)",
+  "alt": "Gravura de Claude Mellan, 1663: Moisés, descalço, ajoelhado e curvado diante de uma sarça em chamas, de onde surge a figura de Deus, de barba branca, apontando para ele; ao fundo, ovelhas pastando e o cajado no chão",
+  "pagina": "https://www.metmuseum.org/art/collection/search/392319",
+  "licenca": "domínio público (Open Access CC0 do Metropolitan Museum)"
+ },
+ "versiculo_chave": {
+  "texto": "E disse Deus a Moisés: eu sou o que sou. Disse mais: Assim dirás aos filhos de Israel: eu sou me enviou a vós.",
+  "referencia": "Êxodo 3:14",
+  "traducao": "Almeida Corrigida Fiel (ACF), © Sociedade Bíblica Trinitariana do Brasil, citação curta"
+ },
+ "estrutura": [
+  [
+   "A sarça",
+   "Ex 3:1-3. No Horebe, Moisés vê uma sarça que arde no fogo e não se consome, e se aproxima para ver."
+  ],
+  [
+   "Terra santa",
+   "Ex 3:4-6. Deus o chama pelo nome, manda tirar os sapatos e se apresenta como o Deus de Abraão, Isaque e Jacó."
+  ],
+  [
+   "O Deus que vê",
+   "Ex 3:7-10. Deus viu a aflição do povo, ouviu o clamor, desceu para livrá-lo e envia Moisés a Faraó."
+  ],
+  [
+   "Quem sou eu",
+   "Ex 3:11-12. Moisés se acha incapaz; Deus responde: certamente eu serei contigo."
+  ],
+  [
+   "Qual é o seu nome",
+   "Ex 3:13-15. Deus se revela: eu sou o que sou, o Senhor, Deus dos pais, este é o meu nome eternamente."
+  ]
+ ],
+ "estrutura_resumo": "O texto vai da curiosidade de Moisés à revelação do nome de Deus. No centro está o versículo 7: Deus vê, ouve e conhece a dor do seu povo. As perguntas de Moisés, quem sou eu e qual é o seu nome, recebem uma só resposta: a presença de Deus.",
+ "questao": "O que a sarça ardente revela sobre quem Deus é, sobre o seu cuidado com quem sofre e sobre o chamado que ele faz?",
+ "vozes": [
+  {
+   "autor": "Antonio Gilberto",
+   "quem": "Comentarista das Lições Bíblicas da CPAD, segundo a revista",
+   "obra": "\"Uma jornada de fé — A formação do povo de Israel e sua herança espiritual\", Lições Bíblicas CPAD, 1º trimestre de 2014, lição 2, \"Um Libertador para Israel\" (reproduzida no site Estudantes da Bíblia)",
+   "url": "https://www.estudantesdabiblia.com.br/licoes_cpad/2014/2014-01-02.htm",
+   "data": "12/01/2014",
+   "texto": "Antonio Gilberto destaca que é Deus quem chama e separa os que vão cuidar do seu povo, e que o pastoreio das ovelhas preparou Moisés para pastorear Israel. Ao se chamar também Deus de Jacó, o Senhor se mostra o Deus da graça e da paciência. A promessa \"Certamente eu serei contigo\" era tudo o que Moisés precisava, e as suas desculpas não foram aceitas.",
+   "citacao": "É Deus que chama e separa aqueles que vão dirigir seu rebanho, e Ele continua vocacionando e capacitando para o santo ministério."
+  },
+  {
+   "autor": "Luiz Caetano Grecco Teixeira",
+   "quem": "Autor da prédica no Proclamar Libertação, coleção da Editora Sinodal com apoio da Igreja Evangélica de Confissão Luterana no Brasil (IECLB)",
+   "obra": "\"O Clamor e a Aliança: apontamentos sobre Êxodo 3.1-8,13-15\", Proclamar Libertação, volume 26 (Portal Luterano)",
+   "url": "https://www.luterano.org.br/exodo-3-1-8a-8b-12-13-15-proclamar-libertacao-26",
+   "data": "18/03/2001 (data da pregação)",
+   "texto": "Luiz Caetano Grecco Teixeira diz que o foco do texto não é Moisés, mas a identidade de Deus: o Deus dos pais, que ouve o clamor silencioso dos oprimidos e desce para libertá-los. Ele lê o nome divino como aquele que é, foi e será, e liga a aliança do Êxodo à nova aliança no sangue de Cristo.",
+   "citacao": "Deus se revela a Moisés como Aquele que ouviu o clamor silencioso dos oprimidos no Egito e vem para libertá-los"
+  },
+  {
+   "autor": "Leandro B. Peixoto",
+   "quem": "Pastor da Segunda Igreja Batista em Goiânia, segundo o PDF do sermão",
+   "obra": "\"A Sarça Ardente\", série Êxodo: A Redenção, mensagem n.º 2 (PDF no site da Segunda Igreja Batista em Goiânia)",
+   "url": "https://sibgoiania.org/midia/2024/09/2024-09-01_N_03_Exodo_1-1_4-31_A-Sarca-Ardente.pdf",
+   "data": "01/09/2024",
+   "texto": "Leandro Peixoto vê na sarça a singularidade de Deus, o Deus da aliança com os patriarcas, envolvido com o seu povo. Cada objeção de Moisés recebe resposta: à incapacidade, a presença de Deus; à pergunta do nome, o Eu Sou. Ele aplica o texto à libertação do pecado em Cristo, para uma vida de serviço e adoração.",
+   "citacao": "A suposta incapacidade de Moisés foi refutada pela presença de Deus com ele"
+  }
+ ],
+ "contexto": [
+  "Moisés tinha fugido do Egito e vivia em Midiã, cuidando do rebanho de Jetro, seu sogro, sacerdote em Midiã (3:1). O monte é chamado Horebe, o monte de Deus, o mesmo lugar onde depois Israel receberia a Lei. No versículo 2, quem aparece na chama é o anjo do Senhor, e no versículo 4 é Deus quem fala do meio da sarça.",
+  "O nome revelado no versículo 14 vem do verbo hebraico hayah, ser. O léxico tópico do Bible Hub diz que a autodesignação Eu Sou proclama o ser eterno e autoexistente de Deus. No versículo 15 aparece o nome YHWH, traduzido na ACF por Senhor, que o léxico de Strong liga ao mesmo verbo.",
+  "Matthew Henry, comentarista inglês do século 18, viu na sarça que ardia sem se consumir uma imagem do povo de Deus no Egito, queimando nos fornos de tijolo, mas não destruído. E observou que tirar o calçado era então o que tirar o chapéu é hoje: sinal de respeito e submissão (tradução livre)."
+ ],
+ "aplicacao": [
+  "Leia o versículo 7 devagar. Deus vê, ouve e conhece a dor do seu povo. Se você está atravessando um tempo de aflição, saiba que o seu clamor não se perde no deserto. O mesmo Deus que desceu para livrar Israel conhece as suas dores.",
+  "E se você sente que Deus está chamando, mas pensa como Moisés, quem sou eu, ouça a resposta: certamente eu serei contigo. O chamado não depende da sua capacidade, e sim da presença de quem chama. Pergunte a Deus hoje: eis-me aqui, o que queres que eu faça?"
+ ],
+ "destaques": [
+  [
+   "Não se consumia",
+   "\"A sarça ardia no fogo, e a sarça não se consumia\" (3:2)."
+  ],
+  [
+   "Eis-me aqui",
+   "Moisés responde quando Deus o chama pelo nome (3:4)."
+  ],
+  [
+   "Terra santa",
+   "\"Tira os sapatos de teus pés\" (3:5)."
+  ],
+  [
+   "Tenho visto",
+   "Deus viu a aflição, ouviu o clamor e conheceu as dores (3:7)."
+  ],
+  [
+   "Eu serei contigo",
+   "A resposta de Deus à insegurança de Moisés (3:12)."
+  ],
+  [
+   "Eu sou o que sou",
+   "O nome que Deus revela (3:14)."
+  ]
+ ],
+ "atencao": [
+  [
+   "Moderada",
+   "Ler o chamado só como privilégio de líderes",
+   "Moisés era um pastor de ovelhas no deserto. Deus chama gente comum e a capacita."
+  ],
+  [
+   "Moderada",
+   "Pensar que a insegurança desqualifica",
+   "Moisés fez objeções, e Deus respondeu a cada uma com a sua presença."
+  ],
+  [
+   "Leve",
+   "Perder de vista a santidade de Deus",
+   "Antes de enviar Moisés, Deus o fez tirar os sapatos. A intimidade com Deus começa pela reverência."
+  ]
+ ],
+ "perfil": [
+  [
+   "Contexto histórico",
+   4
+  ],
+  [
+   "Aplicação prática",
+   5
+  ],
+  [
+   "Profundidade teológica",
+   4
+  ],
+  [
+   "Fé",
+   5
+  ]
+ ],
+ "formatos": [
+  [
+   "Sozinho",
+   "Leia Êxodo 3 e 4 inteiros e anote cada objeção de Moisés e a resposta de Deus.",
+   5
+  ],
+  [
+   "Em família",
+   "Leiam o versículo 7 e contem uns aos outros uma vez em que Deus viu e respondeu a uma aflição da família.",
+   5
+  ],
+  [
+   "Em grupo",
+   "Leia Êxodo 3:14 com João 8:58 e conversem sobre o que o nome Eu Sou revela de Deus e de Jesus.",
+   5
+  ]
+ ],
+ "para_quem": [
+  "Quem sente um chamado de Deus e se acha incapaz",
+  "Quem atravessa uma aflição e acha que Deus não vê",
+  "Novos líderes e obreiros"
+ ],
+ "nao_e_para": [
+  "Quem procura no texto uma explicação científica para a sarça"
+ ],
+ "dica": "Leia os versículos 7 e 8 e sublinhe os verbos de Deus: tenho visto, tenho ouvido, conheci, desci. Depois leia o versículo 10 e veja onde Moisés entra nessa sequência.",
+ "traducoes": "A ACF traz \"eu sou o que sou\" (3:14); outras versões dizem Eu Sou o que Sou ou Serei o que Serei, porque o verbo hebraico pode indicar presente e futuro. \"O Senhor\" (3:15) traduz o nome YHWH. \"Exatores\" (3:7) são os capatazes que cobravam o trabalho forçado.",
+ "relacionadas": "O texto conversa com Gênesis 15:13-14, Êxodo 4:1-17, Êxodo 6:2-8, Atos 7:30-35, João 8:58, Isaías 6:1-8 e Hebreus 12:28-29.",
+ "comparacoes": [],
+ "versiculos": [
+  [
+   "Êxodo 3:5",
+   "E disse: Não te chegues para cá; tira os sapatos de teus pés; porque o lugar em que tu estás é terra santa."
+  ],
+  [
+   "Êxodo 3:7",
+   "E disse o Senhor: Tenho visto atentamente a aflição do meu povo, que está no Egito, e tenho ouvido o seu clamor por causa dos seus exatores, porque conheci as suas dores."
+  ],
+  [
+   "Êxodo 3:12",
+   "E disse: Certamente eu serei contigo; e isto te será por sinal de que eu te enviei: Quando houveres tirado este povo do Egito, servireis a Deus neste monte."
+  ]
+ ],
+ "veredito": "Na sarça que não se consumia, Deus mostrou quem é: santo, fiel aos pais, atento à dor do seu povo e presente com quem ele envia. O chamado de Moisés ainda ensina que Deus não chama os capazes por si mesmos; ele capacita quem diz: eis-me aqui.",
+ "ficha": [
+  [
+   "Livro",
+   "Êxodo"
+  ],
+  [
+   "Autor",
+   "Moisés, segundo a tradição judaica e cristã"
+  ],
+  [
+   "Cenário",
+   "O monte Horebe, no deserto, perto de Midiã"
+  ],
+  [
+   "Passagem",
+   "15 versículos (3:1-15)"
+  ],
+  [
+   "Palavras-chave",
+   "seneh (sarça), qodesh (santo), ehyeh (eu sou), YHWH (o Senhor)"
+  ]
+ ],
+ "fontes": [
+  [
+   "Antonio Gilberto, Lições Bíblicas CPAD, 1º trimestre de 2014, lição 2 (Estudantes da Bíblia, 12/01/2014)",
+   "https://www.estudantesdabiblia.com.br/licoes_cpad/2014/2014-01-02.htm",
+   "o chamado de Moisés"
+  ],
+  [
+   "Luiz Caetano Grecco Teixeira, Proclamar Libertação 26 (Portal Luterano)",
+   "https://www.luterano.org.br/exodo-3-1-8a-8b-12-13-15-proclamar-libertacao-26",
+   "o Deus que ouve o clamor"
+  ],
+  [
+   "Leandro B. Peixoto, \"A Sarça Ardente\" (Segunda Igreja Batista em Goiânia, 01/09/2024)",
+   "https://sibgoiania.org/midia/2024/09/2024-09-01_N_03_Exodo_1-1_4-31_A-Sarca-Ardente.pdf",
+   "as objeções de Moisés"
+  ],
+  [
+   "Matthew Henry, comentário de Êxodo 3 (Bible Study Tools, domínio público)",
+   "https://www.biblestudytools.com/commentaries/matthew-henry-complete/exodus/3.html",
+   "a sarça e o povo"
+  ],
+  [
+   "Bible Hub, Strong 1961 (hayah) e 3068 (YHWH)",
+   "https://biblehub.com/hebrew/1961.htm",
+   "o nome de Deus"
+  ],
+  [
+   "Declaração de Fé das Assembleias de Deus (CGADB, 2016), caps. II e VIII",
+   "https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf",
+   "o nome, a santidade e o Anjo do Senhor"
+  ],
+  [
+   "Bíblia Online, Êxodo 3 (Almeida Corrigida Fiel)",
+   "https://www.bibliaonline.com.br/acf/ex/3",
+   "texto do versículo-chave"
+  ]
+ ],
+ "consulta": "10/11/2026",
+ "legenda": "\"Tira os sapatos de teus pés; porque o lugar em que tu estás é terra santa.\" 🔥🌿\n\nNo deserto, Moisés viu uma sarça que ardia sem se consumir. Ali Deus disse: tenho visto a aflição do meu povo. E respondeu à insegurança de Moisés: certamente eu serei contigo.\n\nDeus está chamando você para quê?\n\nEstudo completo no link da bio.\n\n#exodo3 #sarcaardente #moises #estudobiblico #pentecostal #chamado #eusou #biblia #fe #bibleStudy",
+ "cor": "#8a3a1a",
+ "ia": {
+  "usada": true,
+  "uso": "Pesquisa nas fontes listadas e redação feitas com apoio de inteligência artificial. Citações literais conferidas no texto das páginas citadas. A lição da CPAD foi lida na reprodução do site Estudantes da Bíblia; os auxílios de outros autores reproduzidos nela não foram atribuídos ao comentarista. A ligação entre o texto e o que a Declaração de Fé ensina é do portal. Linha editorial pentecostal adotada pelo portal em 30/10/2026."
+ },
+ "nossa_posicao": [
+  "O pentecostal lê a sarça com reverência e com fé. A Declaração de Fé das Assembleias de Deus cita o versículo 14 ao falar da eternidade de Deus: \"Deus mesmo disse: “EU SOU O QUE SOU” (Êx 3.14).\" E explica que o nome \"Isso revela que Deus é o que tem existência própria, ou seja, existe por si mesmo.\" Diz ainda que o nome Javé sugere \"um Deus pessoal que se relaciona diretamente com o povo\". Não é um Deus distante: é o Deus que vê, ouve e desce.",
+  "A Declaração também ensina que \"O Anjo do SENHOR no Antigo Testamento é, muitas vezes, identificado com o próprio Deus\" e cita a sarça entre os textos dessa manifestação. E cremos que o mesmo Deus que chamou Moisés continua chamando e capacitando pelo seu Espírito. A quem pergunta quem sou eu, a resposta ainda é a do versículo 12: certamente eu serei contigo."
+ ],
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-10T05:29:07-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-10T05:29:07-03:00"
+}

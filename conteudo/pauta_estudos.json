@@ -196,16 +196,16 @@
   {
    "questao": "O inferno é castigo eterno ou aniquilação?",
    "passagem": "Mateus 25:41-46",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "inferno-mateus-25",
    "obs": "",
    "tipo": "debate"
   },
   {
    "questao": "Romanos 7: Paulo fala de antes ou depois da conversão?",
    "passagem": "Romanos 7:14-25",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "romanos-7",
    "obs": "",
    "tipo": "debate"
   },
@@ -541,24 +541,24 @@
    "questao": "Rute e Noemi: lealdade e redenção",
    "passagem": "Rute 1",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "rute-1",
    "obs": ""
   },
   {
    "questao": "Neemias: oração, coragem e reconstrução",
    "passagem": "Neemias 1-2",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "neemias-1-2",
    "obs": ""
   },
   {
    "questao": "A sarça ardente: o chamado de Moisés",
    "passagem": "Êxodo 3:1-15",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "exodo-3",
    "obs": ""
   },
   {
