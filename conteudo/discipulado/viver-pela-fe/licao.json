@@ -109,8 +109,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-09T15:35:22-03:00",
+  "data": "2026-11-09T21:20:06-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-09T15:35:22-03:00"
+ "publicado_em": "2026-11-09T15:35:22-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-09",
+   "texto": "Correção em 09/11/2026: Wesley fala de quem tem a fé de servo, não só de fé pequena, e manda continuar buscando a adoção (sermão 106)."
+  }
+ ],
+ "atualizado_em": "2026-11-09T21:20:06-03:00"
 }

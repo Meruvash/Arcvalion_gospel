@@ -12,7 +12,7 @@ A Bíblia fala muito do medo. Ela não finge que os servos de Deus nunca tiveram
 
 ## Fundamentação bíblica
 
-Jesus mandou o povo embora e pediu aos discípulos que fossem de barco na frente, para o lado oeste do lago. Ele subiu um monte para orar sozinho. De madrugada, com o vento contra o barco, aconteceu isto (as falas, que na NTLH vêm depois de travessão, estão aqui entre aspas):
+Jesus mandou os discípulos irem de barco na frente, para o lado oeste do lago, enquanto ele mandava o povo embora. Ele subiu um monte para orar sozinho. De madrugada, com o vento contra o barco, aconteceu isto (as falas, que na NTLH vêm depois de travessão, estão aqui entre aspas):
 
 > **26** Quando os discípulos viram Jesus andando em cima da água, ficaram apavorados e exclamaram: "É um fantasma!" E gritaram de medo.
 >
@@ -166,7 +166,7 @@ Pedro não voltou ao barco sozinho. "Então os dois subiram no barco, e o vento 
 
 - Bíblia, Nova Tradução na Linguagem de Hoje: [Mateus 14](https://www.bibliaonline.com.br/ntlh/mt/14), [Isaías 41](https://www.bibliaonline.com.br/ntlh/is/41), [Salmo 56](https://www.bibliaonline.com.br/ntlh/sl/56), [Salmo 23](https://www.bibliaonline.com.br/ntlh/sl/23), [Provérbios 1](https://www.bibliaonline.com.br/ntlh/pv/1), [Mateus 10](https://www.bibliaonline.com.br/ntlh/mt/10), [2 Timóteo 1](https://www.bibliaonline.com.br/ntlh/2tm/1), [Romanos 8](https://www.bibliaonline.com.br/ntlh/rm/8), [1 João 4](https://www.bibliaonline.com.br/ntlh/1jo/4), [Hebreus 2](https://www.bibliaonline.com.br/ntlh/hb/2), [Hebreus 13](https://www.bibliaonline.com.br/ntlh/hb/13), [Marcos 4](https://www.bibliaonline.com.br/ntlh/mc/4).
 
-- Convenção Geral das Assembleias de Deus no Brasil, [Declaração de Fé](https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf) (CPAD, 2016): capítulos "Sobre a identidade do Senhor Jesus Cristo", "Sobre o Espírito Santo" (item 4), "Sobre o homem" (item 5) e "Sobre a cura divina" (itens 1 e 4).
+- Convenção Geral das Assembleias de Deus no Brasil, [Declaração de Fé](https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf) (CPAD, 2016): capítulos "Sobre a identidade do Senhor Jesus Cristo", "Sobre o Espírito Santo" (item 4), "Sobre o pecado e suas consequências" (item 5) e "Sobre a cura divina" (abertura e itens 1 e 4).
 
 - Matthew Henry, *Commentary on the Whole Bible*, comentários a [Isaías 41](https://www.biblestudytools.com/commentaries/matthew-henry-complete/isaiah/41.html), [Mateus 14](https://www.biblestudytools.com/commentaries/matthew-henry-complete/matthew/14.html) e [Marcos 4](https://www.biblestudytools.com/commentaries/matthew-henry-complete/mark/4.html) (domínio público).
 

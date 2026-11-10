@@ -28,7 +28,7 @@ Em 2 Coríntios 3:18 a NTLH diz "cada vez mais parecidos com o Senhor", sem a pa
 
 Todas as fontes lidas juntam o modelo de Cristo e a obra do Espírito. Calvino põe Cristo "before us as a model" e diz que a transformação vem pela graça do Espírito, "by little and little". Wesley põe o peso no Espírito: "without the Spirit of God, we can do nothing but add sin to sin". Nenhuma fonte lida defende a imitação de Cristo como puro esforço moral; não atribua essa posição a ninguém.
 
-Há divergência real sobre até onde a semelhança chega nesta vida. Wesley prega ser "perfect as our Father in heaven is perfect". Calvino diz que "there is no man who is not far removed from this perfection". A Declaração de Fé fala de um processo de santificação que começa "de imediato". A lição "O que é santificação?" já trata disso; aqui basta uma frase.
+Há divergência real sobre até onde a semelhança chega nesta vida. Wesley prega ser "perfect as our Father in heaven is perfect". Calvino diz que "there is no man who is not far removed from this perfection". A Declaração de Fé fala de um processo de santificação que começa "de imediato". Para aprofundar, indique a lição "O que é santificação?"; aqui basta uma frase.
 
 ## Dúvidas frequentes
 

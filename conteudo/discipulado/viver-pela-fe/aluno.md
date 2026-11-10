@@ -92,7 +92,7 @@ Os apóstolos também pediram: "Aumente a nossa fé". E Jesus falou de uma fé "
 
 Calvino escreveu que a certeza da fé não é uma segurança que nunca sente dúvida. Os crentes vivem uma luta constante com a sua própria desconfiança. Mesmo assim, não abandonam a confiança na misericórdia de Deus.
 
-Wesley disse algo parecido a quem tem uma fé ainda pequena: não deve jogá-la fora nem desprezá-la, mas ser grato por ela.
+Wesley disse algo parecido a quem tem a fé de servo, ainda não a de filho: não deve jogá-la fora nem desprezá-la, mas ser grato por ela, e continuar buscando mais.
 
 Os autores discordam num detalhe. Wesley chamou Hebreus 11:1 de a definição de fé mais completa que já foi dada. Calvino achou um erro ver ali uma definição exata, porque o autor só escolheu a parte da fé ligada à paciência. Mas os dois concordam no essencial: a fé confia no que Deus prometeu e ainda não se vê.
 

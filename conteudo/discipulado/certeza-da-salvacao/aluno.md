@@ -48,13 +48,13 @@ Paulo acrescenta: Deus, "que começou esse bom trabalho na vida de vocês, vai c
 
 A Declaração de Fé diz que o Espírito Santo é quem "concede a segurança da redenção". Em Efésios 1:13-14, a NTLH diz que Deus pôs em nós "a sua marca de proprietário" quando nos deu o Espírito, que é "a garantia" do que ele prometeu.
 
-John Wesley, o pregador inglês que deu origem ao metodismo, escreveu que esse testemunho existe para nos assegurar de que somos filhos de Deus. Mas avisou que ele pode ficar encoberto por um tempo, nas tentações fortes, sem que a parte essencial desapareça.
+John Wesley, o pregador inglês que deu origem ao metodismo, escreveu que esse testemunho existe para nos assegurar de que somos filhos de Deus. Mas avisou que o fruto do Espírito (amor, alegria, paz) pode ficar encoberto por um tempo, nas tentações fortes, sem que a parte essencial desapareça.
 
 ### A vida mudada também confirma
 
 João dá sinais concretos: "Se obedecemos aos mandamentos de Deus, então temos certeza de que o conhecemos" (1 João 2:3). E: "Nós sabemos que já passamos da morte para a vida e sabemos isso porque amamos os nossos irmãos" (1 João 3:14).
 
-Isso não quer dizer que somos salvos por obedecer. Wesley explicou que a alegria cristã é alegria na obediência, mas não como se, por nossas obras, comprássemos o perdão. Já fomos perdoados pela misericórdia de Deus em Cristo. A obediência mostra que a fé é viva.
+Isso não quer dizer que somos salvos por obedecer. Wesley explicou que a alegria cristã é alegria na obediência, mas não como se, por nossas obras, obtivéssemos o perdão e a aceitação de Deus. Já fomos perdoados pela misericórdia de Deus em Cristo. A obediência mostra que a fé é viva.
 
 > [!atencao] Certeza não é licença para pecar. João avisa: "Se alguém diz: 'Eu o conheço', mas não obedece aos seus mandamentos, é mentiroso" (1 João 2:4). Quem tem a vida eterna segue a voz do Pastor (João 10:27).
 
@@ -66,7 +66,7 @@ Wesley disse que nem a alegria nem a paz ficam sempre iguais, e que o próprio t
 
 ### Segurança e perseverança
 
-Os cristãos discutem uma pergunta difícil: quem é salvo pode se perder? Calvino ensinava que os eleitos não correm perigo de cair. A Declaração de Fé, que é a posição do portal, diz que a salvação é "eterna, completa e eficaz" e, ao mesmo tempo, que "todos somos exortados a perseverar até o fim", porque a graça de Deus "não é irresistível".
+Os cristãos discutem uma pergunta difícil: quem é salvo pode se perder? Calvino ensinava que os eleitos não correm perigo de cair. A Declaração de Fé, que é a posição do portal, diz que a salvação é "eterna, completa e eficaz" e, ao mesmo tempo, que "todos somos exortados a perseverar até o fim". Diz também que a graça de Deus "não é irresistível", pois muitos resistem ao Espírito da graça.
 
 As duas verdades andam juntas na Bíblia: as ovelhas de Jesus estão seguras na mão dele, e as ovelhas de Jesus o seguem (João 10:27-28). Paulo também pede: "Examinem-se para descobrir se vocês estão firmes na fé" (2 Coríntios 13:5).
 

@@ -30,7 +30,7 @@ A NTLH traduz as bem-aventuranças por "Felizes", onde a Almeida diz "Bem-aventu
 
 Todas as fontes lidas concordam que a felicidade verdadeira está em Deus, e não nas circunstâncias. Muda a ênfase. Calvino vê a felicidade como condição, não como emoção passageira: "not because they enjoy an evanescent and empty gladness, but because they are in a desirable condition". Henry diz que a santidade é o caminho e a própria felicidade. Wesley fala de felicidade "in the end, and in the way".
 
-Divergem sobre os "pobres" de Mateus 5:3. Para Calvino, são os afligidos pela adversidade. Para Wesley, é uma disposição do coração, quaisquer que sejam as circunstâncias. A NTLH ("espiritualmente pobres") fica mais perto da leitura de Wesley.
+Divergem sobre os "pobres" de Mateus 5:3. Para Calvino, são os que, abatidos pelas aflições, se entregam a Deus com humildade interior. Para Wesley, é uma disposição do coração, quaisquer que sejam as circunstâncias. A NTLH ("espiritualmente pobres") fica mais perto da leitura de Wesley.
 
 ## Dúvidas frequentes
 

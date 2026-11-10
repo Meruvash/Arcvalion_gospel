@@ -109,8 +109,15 @@
  "status": "publicado",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-09T15:26:35-03:00",
+  "data": "2026-11-09T21:20:06-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-09T15:26:35-03:00"
+ "publicado_em": "2026-11-09T15:26:35-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-09",
+   "texto": "Correção em 09/11/2026: para Wesley, o que pode ficar encoberto na tentação é o fruto do Espírito, não o testemunho (sermão 11); na Declaração de Fé, a exortação a perseverar e a graça que não é irresistível são frases separadas, com razões próprias (cap. X)."
+  }
+ ],
+ "atualizado_em": "2026-11-09T21:20:06-03:00"
 }

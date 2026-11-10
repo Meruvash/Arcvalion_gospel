@@ -6,7 +6,7 @@ Você entregou a vida a Jesus e quer mudar. Quer ser mais paciente, mais humilde
 
 ## Introdução
 
-Todo ano o Google publica o Ano em Pesquisa, com listas de buscas em destaque no Brasil. Em 2021, a lista "Como ser" tinha em primeiro lugar "Como ser uma pessoa fria" e em sexto "Como ser mais confiante". Em 2022, a mesma lista trazia "Como ser padrão?", "Como ser atraente?" e "Como ser bonito?". Muita gente quer mudar quem é. Mas boa parte da busca é pela aparência.
+Todo ano o Google publica o Ano em Pesquisa, com listas de buscas em destaque no Brasil. Em 2021, a lista "Como ser" tinha em primeiro lugar "Como ser uma pessoa fria" e em sexto "Como ser mais confiante". Em 2022, a mesma lista trazia "Como ser padrão?", "Como ser atraente?" e "Como ser bonito?". Muita gente quer mudar quem é, e algumas dessas buscas são só pela aparência.
 
 Quem digita no Google "como ser uma pessoa melhor" recebe sugestões como "para deus" e "segundo a bíblia". No YouTube aparece "como ser uma pessoa melhor em cristo". E na busca "caráter de cristo" surgem "versículo" e "significado".
 
@@ -126,7 +126,7 @@ O modelo não é o irmão do lado. É Jesus.
 
 - O alvo de Deus é que sejamos "parecidos com o seu Filho" (Romanos 8:29), não só pessoas melhores.
 
-- O caráter de Cristo começa no coração, não na aparência: Deus "vê o coração".
+- O caráter de Cristo começa no coração, não na aparência: Deus diz: "eu vejo o coração".
 
 - Jesus é o nosso Salvador e o nosso modelo de humildade e serviço.
 

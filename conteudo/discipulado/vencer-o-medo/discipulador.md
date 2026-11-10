@@ -12,7 +12,7 @@ Diz que, depois da Queda, Adão e Eva "procuraram esconder-se da presença de De
 
 ## Referências
 
-- Convenção Geral das Assembleias de Deus no Brasil, *Declaração de Fé* (CPAD, 2016): capítulo II, item 6; capítulo IV; capítulo VI, item 4; capítulo VII, item 5; capítulo XXI, itens 1 e 4 [verificada].
+- Convenção Geral das Assembleias de Deus no Brasil, *Declaração de Fé* (CPAD, 2016): capítulo II, item 6; capítulo IV; capítulo VI, item 4; capítulo IX, item 5; capítulo XXI, itens 1 e 4 [verificada].
 
 - Matthew Henry, comentários a Isaías 41, Mateus 14 e Marcos 4 [verificada].
 
