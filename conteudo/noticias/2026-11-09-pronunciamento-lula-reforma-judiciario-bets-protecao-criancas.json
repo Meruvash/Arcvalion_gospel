@@ -7,10 +7,10 @@
  "selo": "Vale acompanhar",
  "titulo": "Em pronunciamento, Lula pede reforma do Judiciário e diz que bets \"destruíram vidas\"",
  "lide": "Em pronunciamento em rede nacional de rádio e TV neste domingo (8), depois da reeleição, o presidente Lula defendeu debater \"com urgência\" uma reforma política e do Judiciário, anunciou que vai enviar medida provisória para criar o Ministério da Segurança Pública e prometeu ampliar a proteção de crianças e adolescentes no ambiente digital. Também disse que as bets \"destruíram vidas\".",
- "por_que_importa": "O pronunciamento mostra as prioridades do quarto mandato, e várias tocam a família: proibição das bets, proteção de crianças nas telas, combate ao feminicídio e cuidado com os idosos. Ao mesmo tempo, a cobrança por um Judiciário \"livre de conflito de interesses\" abre uma disputa com o STF e o Congresso que vai marcar os próximos meses.",
+ "por_que_importa": "O pronunciamento mostra as prioridades do quarto mandato, e várias tocam a família: proibição das bets, proteção de crianças nas telas, combate ao feminicídio e cuidado com os idosos. Ao mesmo tempo, a cobrança por juízes \"livres de conflito de interesses\" abre uma disputa com o STF e o Congresso que vai marcar os próximos meses.",
  "numeros": [
   [
-   "64 milhões",
+   "Mais de 64 milhões",
    "de votos recebidos na eleição, segundo Lula no pronunciamento",
    "Planalto, 08/11/2026"
   ],
@@ -20,7 +20,7 @@
    "Planalto, 08/11/2026"
   ],
   [
-   "20% do PIB",
+   "Mais de 20% do PIB",
    "meta de investimento do país que Lula diz querer alcançar, em parceria com o setor privado",
    "Planalto, 08/11/2026"
   ]
@@ -35,13 +35,13 @@
    "fonte": "Presidente Lula, no pronunciamento",
    "texto": "O Brasil precisa debater com urgência uma reforma política e do Judiciário. É dever dos agentes públicos atender esse desejo.",
    "citacao": true,
-   "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/discursos-e-pronunciamentos/2026/11/pronunciamento-do-presidente-lula-a-nacao"
+   "url": "https://g1.globo.com/politica/noticia/2026/11/08/leia-a-integra-do-pronunciamento-de-lula-em-rede-nacional-de-radio-e-tv.ghtml"
   },
   {
    "fonte": "Presidente Lula, no pronunciamento",
    "texto": "As bets destruíram vidas e precisam ficar no passado, como o pesadelo do qual o Brasil finalmente acordou.",
    "citacao": true,
-   "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/discursos-e-pronunciamentos/2026/11/pronunciamento-do-presidente-lula-a-nacao"
+   "url": "https://g1.globo.com/politica/noticia/2026/11/08/leia-a-integra-do-pronunciamento-de-lula-em-rede-nacional-de-radio-e-tv.ghtml"
   },
   {
    "fonte": "Ponto de atenção da redação",
@@ -81,6 +81,12 @@
   {
    "nome": "g1: Lula diz que se preocupa com dívida pública e juros e reafirma responsabilidade fiscal (08/11/2026)",
    "url": "https://g1.globo.com/politica/noticia/2026/11/08/lula-fala-em-pronunciamento-em-rede-nacional-de-radio-e-tv.ghtml",
+   "data": "08/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "g1: Leia a íntegra do pronunciamento de Lula em rede nacional de rádio e TV (08/11/2026)",
+   "url": "https://g1.globo.com/politica/noticia/2026/11/08/leia-a-integra-do-pronunciamento-de-lula-em-rede-nacional-de-radio-e-tv.ghtml",
    "data": "08/11/2026",
    "tipo": "secundaria"
   }
@@ -192,7 +198,7 @@
  "imagem": {
   "arquivo": "capas/pronunciamento-lula-reforma-judiciario-bets-protecao-criancas.jpg",
   "credito": "Foto: Ricardo Stuckert/PR",
-  "alt": "O presidente Lula, de terno, sorri diante de bandeiras do Brasil e de um mapa-múndi no Palácio do Planalto, em 8 de novembro de 2026",
+  "alt": "O presidente Lula, de terno, sorri diante de bandeiras do Brasil e de um mapa-múndi",
   "licenca": "CC BY-ND 3.0 (rodapé do gov.br)",
   "origem": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/pronunciamento-do-presidente-lula/whatsapp-image-2026-11-08-at-20-43-53.jpeg",
   "pagina": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/pronunciamento-do-presidente-lula"

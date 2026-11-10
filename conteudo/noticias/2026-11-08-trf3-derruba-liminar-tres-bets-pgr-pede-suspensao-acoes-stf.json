@@ -6,8 +6,8 @@
  "manchete": true,
  "opiniao_forte": true,
  "selo": "Boa notícia",
- "titulo": "TRF-3 derruba liminar e três bets voltam a ser proibidas; PGR quer freio no STF",
- "lide": "O presidente do TRF da 3ª Região, desembargador Johonsom Di Salvo, suspendeu na sexta-feira (6), a pedido da AGU, a liminar que tinha liberado as plataformas Casa de Apostas, Betsul e Jogo Online, da CDA Gaming. No mesmo dia, o procurador-geral Paulo Gonet pediu ao STF que suspenda, no país inteiro, todas as ações contra a MP que proibiu as bets.",
+ "titulo": "TRF-3 derruba liminar de três bets; a pedido da PGR, Fux suspende ações no país",
+ "lide": "O presidente do TRF-3, Johonsom Di Salvo, suspendeu na sexta-feira (6), a pedido da AGU, a liminar que tinha liberado as plataformas Casa de Apostas, Betsul e Jogo Online, da CDA Gaming. No mesmo dia, o procurador-geral Paulo Gonet pediu ao STF que suspenda, no país inteiro, todas as ações contra a MP que proibiu as bets. Na segunda-feira (9), Fux atendeu ao pedido, segundo o STF.",
  "por_que_importa": "A proibição das bets voltou a valer para todos, e o Ministério Público quer impedir que cada juiz abra uma exceção diferente até o Supremo decidir. Para as famílias que lutam contra o vício, isso significa menos portas reabertas no meio do caminho. Para o STF, é mais pressão para julgar logo.",
  "numeros": [
   [
@@ -53,11 +53,11 @@
  "para_quem": [
   "Famílias com alguém viciado em apostas: as três plataformas voltaram a ser proibidas; continue de olho em sites clandestinos e procure ajuda na rede de saúde",
   "Igrejas que acolhem endividados: a proibição segue valendo para todas as empresas, e a decisão final é do STF",
-  "Quem acompanha o caso: o pedido da PGR está com o ministro Fux, que decide se congela as ações no país"
+  "Quem acompanha o caso: Fux já suspendeu as ações no país em 9/11; falta o referendo do Plenário e o julgamento das quatro ADIs"
  ],
  "nao_e_para": [
   "A decisão não encerra o processo da CDA Gaming; ela suspende a liminar até o fim da ação ou nova decisão",
-  "O STF ainda não decidiu o pedido da PGR nem a constitucionalidade da MP",
+  "Fux atendeu ao pedido da PGR em 9/11 e suspendeu as ações no país; o Plenário ainda precisa referendar a decisão e julgar a constitucionalidade da MP",
   "A Agência Brasil publicou datas diferentes para a suspensão; a nota segue a AGU, parte no processo, que informa sexta-feira (6)"
  ],
  "veredito": "A gente comemora. Regra que protege família não pode valer para uns e não para outros, e o tribunal acertou ao fechar a exceção. A PGR tem razão: liminar avulsa vira loteria. Se houver dinheiro a devolver às empresas, que se discuta indenização; a porta da aposta fica fechada. Agora é com o Supremo.",
@@ -102,6 +102,12 @@
    "url": "https://opaladino.com.br/noticias/trf3-desembargadora-confisco-mp-bets-libera-tres-casas-apostas/",
    "data": "06/11/2026",
    "tipo": "secundaria"
+  },
+  {
+   "nome": "STF: suspende processos que questionam constitucionalidade de MP das bets (09/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-suspende-processos-que-questionam-constitucionalidade-de-mp-das-bets/",
+   "data": "09/11/2026",
+   "tipo": "primaria"
   }
  ],
  "crivo": {
@@ -222,7 +228,7 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-09T14:48:50-03:00",
+  "data": "2026-11-09T21:14:11-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-08T14:47:49-03:00",
@@ -232,5 +238,5 @@
    "texto": "Correção em 08/11/2026: Fux pediu tempo para o voto na sessão do Plenário de 4/11, não na audiência pública de 3/11 (g1, 04/11/2026)."
   }
  ],
- "atualizado_em": "2026-11-09T14:48:50-03:00"
+ "atualizado_em": "2026-11-09T21:14:11-03:00"
 }

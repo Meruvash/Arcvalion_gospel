@@ -5,7 +5,7 @@
  "status": "publicado",
  "selo": "Vale acompanhar",
  "titulo": "Lei Alice Brasil: CCJ vota regras de segurança para brinquedos e móveis de escolas e clubes",
- "lide": "A Comissão de Constituição e Justiça do Senado tem na pauta de quarta-feira (11) o PL 5.715/2025, a Lei Alice Brasil, do senador Ciro Nogueira (PP-PI). O texto obriga escolas, clubes e locais de recreação infantil a seguir normas técnicas de segurança e fazer inspeções semestrais em brinquedos, móveis, equipamentos e estrutura, e cria crime para o dirigente que descumprir. A relatora, Professora Dorinha Seabra, é favorável.",
+ "lide": "A Comissão de Constituição e Justiça do Senado tem na pauta de quarta-feira (11) o PL 5.715/2025, a Lei Alice Brasil, do senador Ciro Nogueira (PP-PI). O texto obriga escolas, clubes e locais de recreação infantil a seguir normas técnicas de segurança, exige inspeções semestrais em escolas e espaços de recreação infantil e cria crime para o dirigente que descumprir. A relatora, Professora Dorinha Seabra, é favorável.",
  "por_que_importa": "Quem deixa o filho na escola ou no clube espera que ele volte inteiro. O projeto nasceu, segundo a justificação, depois do caso da menina Alice, em Teresina, e transforma em dever legal o que hoje depende da boa vontade de cada gestor: inspeção, primeiros socorros, ficha médica do aluno e aviso imediato às famílias em caso de acidente.",
  "numeros": [
   [
@@ -25,10 +25,10 @@
   ]
  ],
  "corpo": [
-  "O texto altera a LDB, o ECA e a Lei Lucas. As escolas terão de treinar professores, funcionários e alunos para situações de risco como incêndios, enchentes e ataques com armas, capacitar a equipe em primeiros socorros, cadastrar na matrícula informações médicas do aluno, como tipo sanguíneo e alergias, e avisar as famílias imediatamente em caso de acidente. O descumprimento leva a notificação, multa e, na reincidência, cassação do alvará.",
+  "O texto altera a LDB, o ECA e a Lei Lucas. As escolas terão de treinar professores, funcionários e alunos para situações de risco como incêndios, enchentes e ataques com armas, capacitar a equipe em primeiros socorros, cadastrar na matrícula informações médicas do aluno, como tipo sanguíneo e alergias, e avisar as famílias imediatamente em caso de acidente. O descumprimento leva a notificação, multa (em dobro na reincidência) e, em nova reincidência, cassação do alvará nas escolas particulares.",
   "O dever de seguir normas técnicas de segurança vale para instituições de ensino, clubes, agremiações recreativas e estabelecimentos congêneres com atividades para crianças e adolescentes. O projeto também prevê que o poder público regulamente a presença de bombeiros civis nas escolas e nos passeios escolares e faça campanhas sobre prevenção de acidentes."
  ],
- "no_brasil": "A relatora apresentou emenda de redação. A matéria não é terminativa na CCJ, segundo a agenda oficial, e depois segue na tramitação do Senado. A pauta pode mudar até a reunião de quarta-feira.",
+ "no_brasil": "A relatora apresentou emenda de redação. A matéria não é terminativa na CCJ; depois segue para a Comissão de Educação, que decide em caráter terminativo, segundo a agenda oficial. A pauta pode mudar até a reunião de quarta-feira.",
  "critica": [
   {
    "fonte": "Senador Ciro Nogueira (PP-PI), autor, na justificação citada no relatório",
@@ -49,7 +49,7 @@
  ],
  "para_quem": [
   "Pais: se virar lei, a escola terá de manter relatório de inspeção disponível e avisar a família na hora em caso de acidente",
-  "Escolas e clubes: inspeções semestrais, primeiros socorros e ficha médica dos alunos passam a ser obrigatórios",
+  "Escolas: inspeções semestrais, primeiros socorros e ficha médica dos alunos passam a ser obrigatórios; clubes terão de seguir as normas técnicas de segurança",
   "Igrejas com escola, berçário, ministério infantil ou acampamento: vale revisar brinquedos, móveis e primeiros socorros desde já"
  ],
  "nao_e_para": [
@@ -57,7 +57,7 @@
   "O projeto não cita igrejas expressamente; a dúvida sobre 'estabelecimentos congêneres' é leitura da redação",
   "A votação de quarta pode ser adiada"
  ],
- "veredito": "A gente apoia. Brinquedo quebrado e móvel solto não podem custar a vida de uma criança, e inspeção e primeiros socorros são o mínimo. O cuidado é com o alcance: o texto não pode transformar o voluntário da escola dominical em réu. Que a CCJ deixe claro a quem a lei se aplica.",
+ "veredito": "A gente apoia. Brinquedo quebrado e móvel solto não podem custar a vida de uma criança, e inspeção e primeiros socorros são o mínimo. O cuidado é com o alcance: o texto não pode transformar o dirigente de um ministério infantil em réu por falta de regra clara. Que a CCJ deixe claro a quem a lei se aplica.",
  "versiculo": {
   "texto": "Vede, não desprezeis algum destes pequeninos",
   "referencia": "Mateus 18.10",
@@ -190,8 +190,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-09T02:39:17-03:00",
+  "data": "2026-11-09T21:14:11-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-09T02:39:17-03:00"
+ "publicado_em": "2026-11-09T02:39:17-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-09",
+   "texto": "Correção em 09/11/2026: as inspeções semestrais valem para escolas e espaços de recreação infantil, não para clubes; a decisão terminativa é da Comissão de Educação (agenda oficial do Senado)."
+  }
+ ],
+ "atualizado_em": "2026-11-09T21:14:11-03:00"
 }

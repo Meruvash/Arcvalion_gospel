@@ -40,8 +40,9 @@
   },
   {
    "fonte": "Setor de apostas, nas ações no STF",
-   "texto": "Associações como a ANJL e o IBJR sustentam no Supremo que a MP é inconstitucional; para empresas que pagaram pela autorização, a suspensão adia a discussão sobre eventual indenização.",
-   "citacao": false
+   "texto": "Associações como a ANJL e o IBJR questionam a MP no STF em quatro ações diretas de inconstitucionalidade, segundo a Agência Brasil.",
+   "citacao": false,
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-suspende-todas-acoes-judiciais-contra-proibicao-de-bets-no-pais"
   }
  ],
  "para_quem": [
@@ -74,9 +75,9 @@
    "tipo": "secundaria"
   },
   {
-   "nome": "Agência Brasil: PGR pede suspensão de ações contra proibição de bets (06/11/2026)",
+   "nome": "Agência Brasil: PGR pede suspensão de ações contra proibição de bets (07/11/2026)",
    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-pede-suspensao-de-acoes-contra-proibicao-de-bets",
-   "data": "06/11/2026",
+   "data": "07/11/2026",
    "tipo": "secundaria"
   },
   {
@@ -198,15 +199,22 @@
  "imagem": {
   "arquivo": "capas/fux-suspende-todas-acoes-contra-proibicao-bets-pais.jpg",
   "credito": "Foto: Joédson Alves/Agência Brasil",
-  "alt": "Tela de site do governo comunica o bloqueio de plataformas de apostas, em Brasília, em outubro de 2026 (foto de arquivo)",
+  "alt": "Tela de site do governo comunica o bloqueio de plataformas de apostas, em outubro de 2026 (foto de arquivo)",
   "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
   "origem": "https://imagens.ebc.com.br/hIq-5YWDqZE6rmJqO4_skID2_AM=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/06/0d4a2591.jpg?itok=uFxXCQYk",
   "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-suspende-todas-acoes-judiciais-contra-proibicao-de-bets-no-pais"
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-09T14:48:50-03:00",
+  "data": "2026-11-09T21:14:11-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-09T14:48:50-03:00"
+ "publicado_em": "2026-11-09T14:48:50-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-09",
+   "texto": "Correção em 09/11/2026: saiu a afirmação, sem fonte, de que a suspensão adia a discussão sobre indenização às empresas; ficou o que a Agência Brasil diz sobre as ações da ANJL e do IBJR."
+  }
+ ],
+ "atualizado_em": "2026-11-09T21:14:11-03:00"
 }
