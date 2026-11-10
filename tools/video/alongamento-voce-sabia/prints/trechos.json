@@ -1,0 +1,32 @@
+{
+ "bcb-res-5314": {
+  "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5314",
+  "capturado_em": "2026-11-10T19:25:42.622Z",
+  "trechos": {
+   "por sua conveniência e decisão": [
+    [
+     834.125,
+     1281.96875,
+     1271.34375,
+     1325.96875
+    ]
+   ],
+   "Resolução CMN nº 5.314 de 25/6/2026": null
+  }
+ },
+ "stj-sumula-298": {
+  "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%27298%27.num.&O=JT",
+  "capturado_em": "2026-11-10T19:25:50.169Z",
+  "trechos": {
+   "direito do devedor": [
+    [
+     859.375,
+     994.75,
+     1078.3125,
+     1022.75
+    ]
+   ],
+   "Súmula 298": null
+  }
+ }
+}

@@ -3,14 +3,14 @@
 A fala 9 (Dr. Pelicioni, voz clonada) entra quando existir voz/fala9.mp3; até lá fica uma janela de silêncio reservada.
 """
 import json, os, subprocess
-RESPIRO = {1: .35, 2: .25, 3: .2, 4: .35, 5: .4, 6: .25, 7: .3, 8: .6}
-JANELA_9, CAUDA = 5.5, 0.6
+RESPIRO = {1: .15, 2: .25, 3: .2, 4: .3, 5: .35, 6: .25, 7: .25, 8: .5}
+JANELA_9, CAUDA = 5.5, 0.8
 def dur(p):
     return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p],
                                 capture_output=True, text=True).stdout)
 t, linha, ent, filt = 0.0, [], [], []
 for i in range(1, 10):
-    p = f"voz/fala{i}.mp3"
+    p = f"voz_v3/proc/fala{i}.wav"
     if os.path.exists(p):
         d = dur(p)
         ent += ["-i", p]
@@ -25,5 +25,5 @@ total = round(t + CAUDA, 2)
 json.dump({"total": total, "falas": linha}, open("linha_do_tempo.json", "w"), indent=1)
 n = len(filt)
 fc = ";".join(filt) + ";" + "".join(f"[a{k}]" for k in range(n)) + f"amix=inputs={n}:normalize=0,apad,atrim=0:{total},loudnorm=I=-15:TP=-1.5:LRA=11[out]"
-subprocess.run(["ffmpeg", "-v", "error", "-y", *ent, "-filter_complex", fc, "-map", "[out]", "-ar", "48000", "-b:a", "192k", "voz/previa.mp3"], check=True)
+subprocess.run(["ffmpeg", "-v", "error", "-y", *ent, "-filter_complex", fc, "-map", "[out]", "-ar", "48000", "voz_v3/narracao_completa.wav"], check=True)
 print("total", total); [print(x) for x in linha]

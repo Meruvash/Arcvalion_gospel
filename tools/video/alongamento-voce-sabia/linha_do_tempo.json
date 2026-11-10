@@ -1,51 +1,50 @@
 {
- "total": 41.06,
+ "total": 40.54,
  "falas": [
   {
    "fala": 1,
    "inicio": 0.0,
-   "fim": 5.02
+   "fim": 4.55
   },
   {
    "fala": 2,
-   "inicio": 5.37,
-   "fim": 10.64
+   "inicio": 4.7,
+   "fim": 9.98
   },
   {
    "fala": 3,
-   "inicio": 10.89,
-   "fim": 12.46
+   "inicio": 10.23,
+   "fim": 12.28
   },
   {
    "fala": 4,
-   "inicio": 12.66,
-   "fim": 14.7
+   "inicio": 12.48,
+   "fim": 14.03
   },
   {
    "fala": 5,
-   "inicio": 15.05,
-   "fim": 20.01
+   "inicio": 14.33,
+   "fim": 19.25
   },
   {
    "fala": 6,
-   "inicio": 20.41,
-   "fim": 28.43
+   "inicio": 19.6,
+   "fim": 27.44
   },
   {
    "fala": 7,
-   "inicio": 28.68,
-   "fim": 30.95
+   "inicio": 27.69,
+   "fim": 30.5
   },
   {
    "fala": 8,
-   "inicio": 31.25,
-   "fim": 34.36
+   "inicio": 30.75,
+   "fim": 34.01
   },
   {
    "fala": 9,
-   "inicio": 34.96,
-   "fim": 40.46,
-   "pendente": true
+   "inicio": 34.51,
+   "fim": 39.74
   }
  ]
 }
