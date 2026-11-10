@@ -1,0 +1,216 @@
+{
+ "slug": "fachin-arquiva-inquerito-fake-news-apos-sete-anos",
+ "data": "2026-11-10",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": true,
+ "opiniao_forte": true,
+ "selo": "Boa notícia",
+ "titulo": "Fachin arquiva o inquérito das fake news depois de mais de sete anos",
+ "lide": "O presidente do STF, ministro Edson Fachin, arquivou nesta segunda-feira (9) o Inquérito 4.781, o inquérito das fake news, aberto em março de 2019. Ele atendeu a pedido da PGR e escreveu que a validade do inquérito não autoriza sua perpetuação. As ações penais já abertas continuam, e novas diligências acabam a partir da publicação.",
+ "por_que_importa": "Era a investigação mais longa e mais ampla do Supremo, aberta pelo próprio tribunal e usada para buscas, bloqueio de perfis e quebras de sigilo. Com o arquivamento, fatos novos não podem mais ser puxados para dentro dela. Quem ainda responde a processo segue respondendo, mas cada caso agora anda por conta própria.",
+ "numeros": [
+  [
+   "7 anos e 8 meses",
+   "de tramitação, da Portaria GP 69, de 14 de março de 2019, até o arquivamento em 9/11/2026",
+   "Decisão do STF, 09/11/2026"
+  ],
+  [
+   "104",
+   "procedimentos ligados ao inquérito, que serão examinados um a um para ver se podem seguir sozinhos",
+   "Decisão do STF, 09/11/2026"
+  ],
+  [
+   "1.600+",
+   "ações penais que, segundo a decisão, nasceram de investigações abertas a partir do inquérito",
+   "Decisão do STF, 09/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Na decisão de 31 páginas, Fachin diz que não reexamina a validade do inquérito, confirmada pelo Plenário na ADPF 572, mas que sua continuidade se tornou incompatível com a razoável duração do processo e com a exigência de um objeto definido. Desde setembro de 2026, o caso estava sob a relatoria da Presidência; antes, era conduzido pelo ministro Alexandre de Moraes.",
+  "O arquivamento não anula provas nem ações penais com denúncia recebida. Medidas cautelares ainda em vigor só se mantêm com fundamento próprio e atual. O sigilo continua até a separação de dados bancários, fiscais e pessoais; depois, segundo a decisão, será levantado imediatamente."
+ ],
+ "no_brasil": "Em outubro, Fachin já tinha arquivado investigações derivadas, entre elas a do pastor Silas Malafaia, como o portal noticiou em 30/10. A decisão registra que a então procuradora-geral pediu o arquivamento ainda em 2019 e que o pedido foi indeferido por Moraes.",
+ "critica": [
+  {
+   "fonte": "Ministro Edson Fachin, na decisão de 9/11/2026",
+   "texto": "já não se encontra fundamento bastante para a manutenção indefinida do procedimento originário como eixo aglutinador de sucessivas linhas investigativas sem reavaliação concreta da necessidade de sua continuidade como investigação matriz",
+   "citacao": true,
+   "url": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/11/09195641/Decisao.pdf"
+  },
+  {
+   "fonte": "Paulo Gonet, procurador-geral da República, citado na decisão",
+   "texto": "A hora, assim, conduz ao fecho do inquérito",
+   "citacao": true,
+   "url": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/11/09195641/Decisao.pdf"
+  },
+  {
+   "fonte": "Defensores do inquérito, segundo a própria decisão",
+   "texto": "A decisão destaca que as investigações revelaram organizações com forte atuação digital e permitiram responsabilizar quem tentou subverter a ordem democrática; para esse lado, o inquérito cumpriu papel na defesa das instituições.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Quem foi alvo de bloqueio de perfil ou outra medida: a cautelar só continua se tiver fundamento próprio e atual",
+  "Quem responde a ação penal nascida do inquérito: o processo segue normalmente no órgão competente",
+  "Quem acompanha liberdade de expressão: fatos novos terão de ser investigados em autos próprios"
+ ],
+ "nao_e_para": [
+  "O arquivamento não declara o inquérito nulo nem anula provas e condenações",
+  "Investigações derivadas com objeto próprio podem continuar",
+  "O inquérito pode ser reaberto se surgirem novas provas, como prevê o artigo 18 do Código de Processo Penal"
+ ],
+ "veredito": "Já ia tarde. Investigação sem fim, sem objeto fechado e conduzida pelo próprio ofendido nunca combinou com Estado de Direito, e a PGR dizia isso desde 2019. Fachin acertou ao fechar a porta e devolver cada caso ao seu juiz natural. Que o sigilo caia logo e o país possa ver o que foi feito ali.",
+ "versiculo": {
+  "texto": "O que primeiro começa o seu pleito justo parece; mas vem o seu companheiro e o examina",
+  "referencia": "Provérbios 18.17",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: decisão do ministro Edson Fachin no Inquérito 4.781 (09/11/2026)",
+   "url": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/11/09195641/Decisao.pdf",
+   "data": "09/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: Presidente do STF arquiva inquérito das fake news (09/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/presidente-do-stf-arquiva-inquerito-das-fake-news-inquerito-4-781/",
+   "data": "09/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: STF: ministro Fachin arquiva inquérito das Fake News (09/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-ministro-fachin-arquiva-inquerito-das-fake-news",
+   "data": "09/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "O Paladino: Fachin arquiva investigação contra o pastor Silas Malafaia (30/10/2026)",
+   "url": "https://opaladino.com.br/noticias/fachin-arquiva-investigacao-silas-malafaia/",
+   "data": "30/10/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 79,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "liberdade",
+   "porque": "O fato é sobre liberdade de expressão: acaba o inquérito usado por sete anos para bloquear perfis e investigar postagens"
+  },
+  "origem": {
+   "nome": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/presidente-do-stf-arquiva-inquerito-das-fake-news-inquerito-4-781/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Decisão do STF já valendo que encerra o inquérito matriz e obriga a reavaliar 104 procedimentos e cautelares ligados a ele"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Liberdade de expressão e investigações que atingiram líderes cristãos e conservadores, como o pastor Silas Malafaia"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Decisão assinada e divulgada pelo STF na noite de 9/11, poucas horas antes"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Íntegra da decisão de 31 páginas lida, mais a notícia oficial do STF e reportagem independente da Agência Brasil"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Traz da íntegra o pedido de arquivamento de 2019 negado e liga ao arquivamento da investigação de Malafaia"
+   }
+  },
+  "publico": {
+   "pontos": 17,
+   "eixos": {
+    "valor": 8,
+    "viral": 5,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: íntegra da decisão (2)",
+    "Ato de poder: decisão do presidente do STF (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Fachin, Moraes, Gonet (1)",
+    "Boa notícia (1)",
+    "Tema que já mobiliza o público: inquérito das fake news (2)",
+    "Pede resposta do cristão: liberdade de pregar e de opinar (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 18.17 (2)",
+    "Utilidade: o que vale agora para quem foi alvo (1)",
+    "Gatilho no calendário: levantamento do sigilo (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Presidente do STF arquiva inquérito das fake news (Inquérito 4781)",
+  "nucleo": "A - Brasil",
+  "categoria": "Judiciário / liberdade de expressão",
+  "coleta": "2026-11-10",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado na íntegra da decisão",
+   "contradicoes": "A Agência Brasil fala em 108 procedimentos abertos por Moraes; a decisão cita 104 procedimentos vinculados, certificados pela Secretaria Judiciária. A nota segue a decisão.",
+   "sem_confirmacao": "data do levantamento do sigilo; quais cautelares serão mantidas"
+  },
+  "duplicidade": {
+   "grupo": "Inquérito das fake news",
+   "itens": [
+    "STF 09/11",
+    "Agência Brasil 09/11",
+    "Claudio Dantas 09/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-10-30-fachin-arquiva-investigacao-silas-malafaia e 2026-10-30-fachin-arquiva-mais-cinco-inquerito-fake-news (arquivamentos parciais)"
+  },
+  "seo": {
+   "intencao": "saber se o inquérito das fake news acabou e o que muda",
+   "entidades": [
+    "Edson Fachin",
+    "Alexandre de Moraes",
+    "STF",
+    "PGR",
+    "Paulo Gonet",
+    "Inquérito 4.781",
+    "ADPF 572"
+   ],
+   "termos": [
+    "inquérito das fake news arquivado",
+    "Fachin arquiva inquérito 4781",
+    "fim do inquérito das fake news"
+   ],
+   "atualizacao": "acompanhar o levantamento do sigilo e o destino dos 104 procedimentos"
+  }
+ },
+ "descricao_seo": "Fachin arquivou em 9/11 o inquérito das fake news, aberto em 2019, a pedido da PGR; ações penais seguem e novas diligências acabam.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da íntegra da decisão e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: todos os fatos vêm da íntegra da decisão e da notícia oficial do STF; as frases de Fachin e de Gonet foram lidas na decisão. A nota registra que o arquivamento não anula provas nem condenações e dá voz ao argumento de quem defende o inquérito. A opinião critica o modelo de investigação sem atribuir crime ou má-fé a nenhum ministro.",
+ "imagem": {
+  "arquivo": "capas/fachin-arquiva-inquerito-fake-news-apos-sete-anos.jpg",
+  "credito": "Foto: Fabio Rodrigues-Pozzebom/Agência Brasil",
+  "alt": "Fachada do Supremo Tribunal Federal, em Brasília (foto de arquivo, 2023)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/K-LHa2iu_ZeORwFUS4y-LeXcLKs=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/11042023-pzzb9256.jpg?itok=9EtzfhoB",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-pede-ao-supremo-arquivamento-do-inquerito-das-fake-news"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-10T02:28:21-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-10T02:28:21-03:00"
+}
