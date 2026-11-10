@@ -1,5 +1,7 @@
 # Sistema de roteiro "arroba" para vídeos curtos (Reels, Shorts, TikTok)
 
+> **Substituído para vídeos de agronegócio** (decisão do editor, 10/11/2026): use `PROMPT_VIDEO_AGRO.md`. Este arquivo fica como registro do vídeo de 10 s.
+
 Copiado da estrutura de um Reel de referência (40 s, sobre o Projeto A119) enviado pelo editor em 10/11/2026.
 Copiamos a **estrutura e a linguagem visual**, não as imagens: o original usa ilustrações geradas por IA, que o portal não usa.
 
