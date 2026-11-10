@@ -1,0 +1,190 @@
+{
+ "slug": "senado-vota-quarta-estatuto-aprendiz-internet-escolas-publicas",
+ "data": "2026-11-10",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Senado vota na quarta o Estatuto do Aprendiz e verba protegida para internet nas escolas",
+ "lide": "O Plenário do Senado deve votar nesta quarta-feira (11) o Estatuto do Aprendiz, que dá preferência a adolescentes de 14 a 18 anos no primeiro emprego, e um projeto que impede o bloqueio dos recursos do Fust, fundo que paga internet em escolas públicas. Os dois textos já passaram pela Câmara, segundo a Agência Senado.",
+ "por_que_importa": "Os dois projetos mexem com a vida dos filhos: o primeiro trabalho com carteira assinada e a internet na escola, sobretudo na zona rural. Se aprovados sem mudança, vão à sanção. A votação é na quarta, a partir das 14h.",
+ "numeros": [
+  [
+   "5% a 15%",
+   "cota de aprendizes que médias e grandes empresas teriam de contratar, pelo Estatuto do Aprendiz",
+   "Agência Senado, 09/11/2026"
+  ],
+  [
+   "R$ 465 milhões",
+   "previsão de receitas do Fust para 2026, que ficariam protegidas de contingenciamento",
+   "Agência Senado, 09/11/2026"
+  ],
+  [
+   "14 a 18 anos",
+   "faixa de idade com preferência na contratação de aprendizes; pessoas com deficiência podem ser aprendizes sem limite de idade",
+   "Agência Senado, 09/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O Estatuto do Aprendiz (PL 6.461/2019) define a aprendizagem como contrato de trabalho para formação técnico-profissional, com aulas teóricas e práticas, e reúne numa só lei regras hoje espalhadas em decretos. A contratação fica facultativa para empresas com menos de sete empregados. O relator, senador Veneziano Vital do Rêgo (MDB-PB), é favorável.",
+  "O PLP 230/2025 proíbe o contingenciamento das despesas do Fust, exige que pelo menos metade das receitas anuais vá para financiamentos reembolsáveis e prorroga por cinco anos o desconto de até 50% na contribuição das operadoras que investirem em programas aprovados pelo fundo. A pauta inclui ainda regras para implantes cirúrgicos (PL 6.683/2025)."
+ ],
+ "no_brasil": "Segundo a Agência Senado, o Estatuto do Aprendiz foi aprovado pela Câmara em abril e o projeto do Fust, em agosto; o do Fust será relatado direto no Plenário. A agenda oficial do Plenário para 11/11 confirma os três itens.",
+ "critica": [
+  {
+   "fonte": "Agência Senado, sobre o objetivo do projeto do Fust",
+   "texto": "O texto busca melhorar o acesso à internet nas escolas públicas, sobretudo nas áreas rurais, protegendo de bloqueios os recursos do fundo.",
+   "citacao": false
+  },
+  {
+   "fonte": "Agência Senado, sobre o Estatuto do Aprendiz",
+   "texto": "O texto reúne em uma só lei normas hoje espalhadas em diferentes decretos, e o relator, senador Veneziano Vital do Rêgo (MDB-PB), é favorável à aprovação.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Pais de adolescentes de 14 a 18 anos: o estatuto mexe nas regras do primeiro emprego como aprendiz",
+  "Escolas rurais e redes municipais: o Fust paga projetos de conexão à internet",
+  "Igrejas com projetos de capacitação de jovens: vale acompanhar as novas regras da aprendizagem"
+ ],
+ "nao_e_para": [
+  "Os projetos ainda não foram votados no Senado; a pauta pode mudar",
+  "Se o Senado alterar os textos, eles voltam à Câmara",
+  "O estatuto não obriga empresas com menos de sete empregados a contratar aprendizes"
+ ],
+ "veredito": "A gente apoia. Trabalho honesto cedo, com estudo junto, forma caráter e tira o jovem da rua. E dinheiro carimbado para internet na escola não pode virar reserva de caixa do governo. Que o Senado vote e os textos sigam para sanção.",
+ "versiculo": {
+  "texto": "Viste um homem diligente na sua obra? Perante reis será posto; não será posto perante os de baixa sorte",
+  "referencia": "Provérbios 22.29",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Plenário vota projeto que protege recursos para internet em escolas públicas (09/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/09/plenario-vota-projeto-que-protege-recursos-para-internet-em-escolas-publicas",
+   "data": "09/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado, dados abertos: agenda do Plenário de 11/11/2026",
+   "url": "https://legis.senado.leg.br/dadosabertos/plenario/agenda/dia/20261111",
+   "data": "10/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 55,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "educacao",
+   "porque": "O fato é sobre a educação e o primeiro emprego dos filhos: aprendizagem de adolescentes e internet nas escolas públicas"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/09/plenario-vota-projeto-que-protege-recursos-para-internet-em-escolas-publicas"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Projetos em tramitação, com votação marcada no Plenário do Senado; efeito ainda futuro"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Educação e primeiro emprego dos filhos: aprendizagem de adolescentes e conexão nas escolas públicas"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Votação marcada para quarta-feira, 11/11, no dia seguinte a esta nota"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Reportagem oficial da Agência Senado e agenda do Plenário nos dados abertos do Senado"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Síntese da pauta com foco no que interessa às famílias, confirmada na agenda oficial"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 6,
+    "viral": 3,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: agenda oficial do Plenário (2)",
+    "Ato de poder: votação no Senado (1)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que muda para pais de adolescentes (1)",
+    "Gatilho no calendário: votação na quarta (1)",
+    "Pede resposta do cristão: jovens e trabalho (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 22.29 (2)",
+    "Rende estudo: diligência e trabalho (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Plenário vota projeto que protege recursos para internet em escolas públicas",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / educação e trabalho",
+  "coleta": "2026-11-10",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "pauta confirmada em fonte oficial",
+   "contradicoes": "Nenhuma.",
+   "sem_confirmacao": "resultado da votação; eventuais emendas de Plenário"
+  },
+  "duplicidade": {
+   "grupo": "Pauta do Plenário do Senado de 11/11",
+   "itens": [
+    "Agência Senado 09/11",
+    "Agenda do Plenário 11/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que muda com o Estatuto do Aprendiz e quando o Senado vota",
+   "entidades": [
+    "Senado Federal",
+    "Estatuto do Aprendiz",
+    "PL 6.461/2019",
+    "PLP 230/2025",
+    "Fust",
+    "Veneziano Vital do Rêgo"
+   ],
+   "termos": [
+    "Estatuto do Aprendiz Senado",
+    "jovem aprendiz nova lei",
+    "Fust internet escolas"
+   ],
+   "atualizacao": "atualizar com o resultado da votação de 11/11"
+  }
+ },
+ "descricao_seo": "O Senado vota na quarta (11) o Estatuto do Aprendiz, com preferência a adolescentes de 14 a 18 anos, e a proteção do Fust para internet nas escolas.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da reportagem e da agenda oficial, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: todos os fatos vêm da Agência Senado e da agenda oficial do Plenário; não há acusação a ninguém. A nota registra que a pauta pode mudar e que os textos voltam à Câmara se forem alterados.",
+ "imagem": {
+  "arquivo": "capas/senado-vota-quarta-estatuto-aprendiz-internet-escolas-publicas.jpg",
+  "credito": "Foto: Carlos Moura/Agência Senado",
+  "alt": "Plenário do Senado Federal durante sessão, em Brasília (foto de arquivo, novembro de 2026)",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/09/plenario-vota-projeto-que-protege-recursos-para-internet-em-escolas-publicas/20261103_01870cm.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/09/plenario-vota-projeto-que-protege-recursos-para-internet-em-escolas-publicas"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-10T02:44:30-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-10T02:44:30-03:00"
+}
