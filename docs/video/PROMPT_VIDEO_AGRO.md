@@ -32,6 +32,24 @@ de Itaubal (AP) e o Bolsa Família. Analisei a transcrição palavra por palavra
 
 Na versão de 30 s, a batida 7 é cortada e a batida 4 pode se fundir com a 6. Diga sempre qual batida saiu e por quê.
 
+## Elementos somados da referência 2 (10/11/2026)
+
+Reel de 171 s enviado pelo editor, em inglês: a história do Project Haven (Miami, 1973), no formato de explainer da Vox.
+Tem dois apresentadores, cenas reconstruídas em diorama e recortes de jornal de época. Analisei a transcrição (500
+palavras, ~2,9 palavras/s) e as folhas de contato. Entram no nosso formato só os elementos que funcionam em 30–50 s:
+
+| Elemento | Na referência | Como entra no nosso vídeo |
+|---|---|---|
+| **A segunda voz, que reage** | O produtor interrompe ("Whoa, whoa, whoa") e repete o absurdo em forma de pergunta: "So the new head of the IRS doesn't like…?" | Um interlocutor fala 1 ou 2 vezes, sempre no lugar do espectador: na batida 3 ("Peraí, quem decide é o banco?") e logo depois da virada da batida 5 ("Opa. Direito do devedor?"). Até 7 palavras, nunca traz fato novo. |
+| **Selo de lugar e data** | "Miami, 1973" em néon sobre a cena de abertura | Quando a fonte tem data e lugar, eles aparecem como selo sobre o print (ex.: "BRASÍLIA · 25/6/2026"), sem precisar narrar. |
+| **"O que ele não sabe é que…"** | "And what the man doesn't know is that the woman is a private investigator…" | Opção para a batida 4 em vídeos de 50 s: "O que quase nenhum produtor sabe é que…". |
+| **Documento de época como prova** | Lista manuscrita em close; manchete do NYT com o número realçado em amarelo | Igual ao print da referência 1: documento real, realce amarelo no instante da fala, câmera até o realce. |
+| **"E aqui vem o que acontece depois."** | "So here's what happens next." | Ponte opcional entre a batida 5 e a 6 nos vídeos de 50 s. |
+| **Moldura de TV antiga** | Os apresentadores aparecem em telas de cantos arredondados sobre fundo preto | A segunda voz aparece numa moldura de TV antiga com a forma da onda do áudio, sem rosto (não há pessoa filmada nem rosto gerado). Se o editor gravar a própria reação, o vídeo dele entra na moldura. |
+
+Ficaram de fora: a abertura "deixa eu te contar uma história" com cena reconstruída (precisa de 20 s ou mais e de
+personagens encenados), o humor de bastidor ("você tá comendo um pimentão inteiro?") e a duração de 3 minutos.
+
 ## ENTRADA (preencha)
 
 - Tema: [ex.: prorrogação/alongamento de dívida de crédito rural]
@@ -89,7 +107,7 @@ Lista F base do alongamento rural (lida nas fontes oficiais em 10/11/2026):
 ## SAÍDA (formato obrigatório)
 
 Uma tabela, uma linha por frase:
-| # | Batida (1–9) | Tempo | Fala | Imagem (o quê · origem/licença · movimento) | Legenda em blocos | Texto/realce na tela |
+| # | Batida (1–9) | Tempo | Fala (narrador ou 2ª voz) | Imagem (o quê · origem/licença · movimento) | Legenda em blocos | Texto/realce na tela |
 
 Depois da tabela:
 - Contagem de palavras e duração estimada (a 3,1 palavras/s).

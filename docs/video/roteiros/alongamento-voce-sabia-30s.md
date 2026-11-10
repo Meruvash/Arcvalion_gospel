@@ -1,37 +1,44 @@
-# Alongamento de dívida rural: roteiro "Você sabia" (30 s), para aprovação
+# Alongamento de dívida rural: roteiro "Você sabia" (30 s, v2), para aprovação
 
-Feito com `docs/video/PROMPT_VIDEO_AGRO.md`. Quadrado 1080x1080. Nenhuma voz, imagem ou render foi feito: o roteiro espera aprovação.
+Feito com `docs/video/PROMPT_VIDEO_AGRO.md` (estrutura "Você sabia" + elementos da referência 2). Quadrado 1080x1080.
+Nenhuma voz, imagem ou render foi feito: o roteiro espera aprovação.
 
-| # | Batida | Tempo | Fala | Imagem (o quê · origem · movimento) | Legenda em blocos | Realce/texto na tela |
-|---|---|---|---|---|---|---|
-| 1 | 1 Pergunta-gancho | 0,0–4,2 | "Você sabia que, desde julho, prorrogar uma dívida rural virou decisão do banco?" | (a) lavoura de soja seca · foto com licença a conferir (ex.: Agência Brasil, CC BY) · aproximação lenta; (b) fachada de agência bancária sem marca · foto licenciada ou desenho em código · aproximação | Você sabia · desde julho · prorrogar · dívida rural · virou decisão · do banco? | — |
-| 2 | 2 O dado | 4,2–8,4 | "Está no Manual de Crédito Rural: o banco prorroga 'por sua conveniência e decisão'." | (a) print nosso da página do MCR (www3.bcb.gov.br/mcr) · aproximação; (b) print da Res. CMN 5.314 em bcb.gov.br · câmera vai até o trecho | Está no Manual · de Crédito Rural · o banco prorroga · por sua conveniência · e decisão | "por sua conveniência e decisão" realçado em amarelo no instante da fala · Fonte: Res. CMN 5.314/2026 |
-| 3 | 3 Parece erro, mas não é | 8,4–12,0 | "Parece até erro. Mas não é: é a Resolução 5.314, de junho." | (a) mesmo print, zoom para trás (respiro); (b) print do cabeçalho "RESOLUÇÃO CMN Nº 5.314, DE 25 DE JUNHO DE 2026" | Parece até erro · Mas não é · Resolução 5.314 · de junho | "25 DE JUNHO DE 2026" realçado; depois "entra em vigor em 1º de julho de 2026" (Art. 11) |
-| 4 | 4 + 6 Com você + lista | 12,0–17,2 | "E isso vale pra quem perdeu a safra, não conseguiu vender ou teve prejuízo na lavoura." | Uma imagem por item, 1,5 s cada: (a) lavoura frustrada; (b) grãos ou caminhões parados; (c) lavoura danificada · fotos licenciadas · cortes secos | E isso vale · pra quem perdeu · a safra · não conseguiu vender · ou teve prejuízo · na lavoura | rodapé: "MCR 2-6-4, alíneas a, b e c" |
-| 5 | 5 Virada | 17,2–24,4 | "E é justamente aí que a história fica ainda mais estranha, porque desde 2004 o STJ diz que alongar é direito do devedor." | (a) fachada do STJ · foto licenciada (Agência Brasil/STJ, a conferir) · aproximação; (b) print nosso da Súmula 298 em scon.stj.jus.br · câmera até o trecho | E é justamente aí · que a história · fica ainda · mais estranha · porque desde 2004 · o STJ diz · que alongar · é direito · do devedor | "direito do devedor" realçado · Fonte: Súmula 298/STJ, DJ 22/11/2004 |
-| 6 | 8 Pergunta do "como" | 24,4–27,0 | "Então, quem decide: o banco ou o devedor?" | Tela dividida: à esquerda o print do MCR ("conveniência e decisão"), à direita o da súmula ("direito do devedor") · os dois entram juntos | Então · quem decide · o banco · ou o devedor? | os dois realces acesos ao mesmo tempo |
-| 7 | 9 Pergunta final | 27,0–30,5 | "E será que essa regra vale pro contrato que você já assinou?" | Mãos sobre uma cédula de crédito rural assinada · foto licenciada ou desenho em código · aproximação lenta · corte seco no fim | E será que · essa regra vale · pro contrato · que você · já assinou? | — |
+| # | Batida | Tempo | Fala (narrador ou 2ª voz) | Imagem (o quê · origem · movimento) | Realce/texto na tela |
+|---|---|---|---|---|---|
+| 1 | 1 Pergunta-gancho | 0,0–4,2 | NARRADOR: "Você sabia que, desde julho, prorrogar uma dívida rural virou decisão do banco?" | (a) lavoura de soja seca; (b) fachada de agência sem marca · fotos licenciadas ou desenho em código · aproximação lenta | — |
+| 2 | 2 O dado | 4,2–8,4 | NARRADOR: "Está no Manual de Crédito Rural: o banco prorroga 'por sua conveniência e decisão'." | Print nosso da Res. CMN 5.314 em bcb.gov.br · câmera até o trecho | Selo de data (ref. 2): "BRASÍLIA · 25/6/2026" · realce amarelo em "por sua conveniência e decisão" · Fonte: Res. CMN 5.314/2026 |
+| 3 | 3 Reação + confirmação | 8,4–10,4 | 2ª VOZ: "Peraí. Quem decide é o banco?" | Moldura de TV antiga com a onda do áudio, sobre fundo preto | — |
+| 4 | 3 Reação + confirmação | 10,4–12,2 | NARRADOR: "Parece erro. Mas não é." | Volta ao print, zoom para trás · realce de "entra em vigor em 1º de julho de 2026" (Art. 11) | "1º DE JULHO DE 2026" |
+| 5 | 4 + 6 Com você + lista | 12,2–17,4 | NARRADOR: "E isso vale pra quem perdeu a safra, não conseguiu vender ou teve prejuízo na lavoura." | Três imagens, uma por item, cortes secos de 1,5 s · fotos licenciadas | rodapé: "MCR 2-6-4, alíneas a, b e c" |
+| 6 | 5 Virada | 17,4–24,6 | NARRADOR: "E é justamente aí que a história fica ainda mais estranha, porque desde 2004 o STJ diz que alongar é direito do devedor." | (a) fachada do STJ (foto licenciada); (b) print nosso da Súmula 298 em scon.stj.jus.br · câmera até o trecho | Selo: "STJ · 2004" · realce em "direito do devedor" · Fonte: Súmula 298/STJ, DJ 22/11/2004 |
+| 7 | 8 Reação + "como" | 24,6–26,8 | 2ª VOZ: "Opa. Direito do devedor? Então quem manda?" | Moldura de TV antiga · depois tela dividida: print do MCR à esquerda, súmula à direita | os dois realces acesos ao mesmo tempo |
+| 8 | 9 Pergunta final | 26,8–30,5 | NARRADOR: "E será que essa regra vale pro contrato que você já assinou?" | Mãos sobre uma cédula de crédito rural · foto licenciada ou desenho · aproximação lenta · corte seco | — |
 
 ## Contagem
-- 94 palavras escritas. A 3,1 palavras/s, ~30–31 s (os números lidos por extenso pesam um pouco).
-- 7 frases e 15 imagens: uma nova a cada ~2 s, como na referência.
+- 93 palavras: 80 do narrador e 13 da 2ª voz. A ~3,1 palavras/s, dá ~30 s.
+- 8 falas e 15 imagens: uma nova a cada ~2 s.
+
+## O que entrou da referência 2
+- **A 2ª voz, que reage** (falas 3 e 7): faz a pergunta que o espectador faria e repete o absurdo para fixar. Não traz fato novo.
+- **Selo de lugar e data** sobre os prints (falas 2 e 6), sem custo de fala.
+- **Moldura de TV antiga** para a 2ª voz, com a forma da onda do áudio e sem rosto.
 
 ## Fatos usados
-- F1: "por sua conveniência e decisão" (frase 2, citação literal), Resolução 5.314 de 25/6/2026 com vigência em 1º/7/2026 (frases 1 e 3).
-- F2: as três situações das alíneas a, b e c, em paráfrase (frase 4).
-- F4: Súmula 298, direito do devedor, 2004 (frase 5).
-- Em disputa: se a regra alcança contratos já assinados (frase 7, só como pergunta).
+- F1: "por sua conveniência e decisão" (citação literal), Resolução 5.314 de 25/6/2026, vigência em 1º/7/2026.
+- F2: as três situações das alíneas a, b e c, em paráfrase.
+- F4: Súmula 298, direito do devedor, 2004.
+- Em disputa: se a regra alcança contratos já assinados (só como pergunta, fala 8).
 
 ## Autochecagem
 | Batida | Situação |
 |---|---|
 | 1 Pergunta-gancho | Presente. |
-| 2 O dado, com nome e número | Presente, com o print da fonte realçado. |
-| 3 "Parece erro, mas não é" | Presente, com a frase fixa adaptada. |
-| 4 O que tem a ver com você | **Fundida com a 6**: as três situações da norma são, ao mesmo tempo, a lista e quem é atingido. |
-| 5 Virada "ainda mais estranha" | Presente, com a frase fixa literal. |
-| 6 A lista concreta | Fundida com a 4 (3 itens, uma imagem por item). |
-| 7 O custo | **Cortada**: na versão de 30 s não há tempo, e afirmar custo sem número da lista F seria opinião. |
-| 8 A pergunta do "como" | Presente, adaptada ("quem decide"). |
-| 9 A pergunta final | Presente, sem resposta, e apoiada num ponto que está de fato em disputa. |
-| Outras checagens | Nenhum fato fora da lista F. Citações inalteradas. Nenhuma opinião afirmada. Sem menção a serviço jurídico. Nenhuma imagem de IA (licença de cada foto conferida na etapa de imagens, antes do render). |
+| 2 O dado | Presente, com print realçado e selo de data. |
+| 3 "Parece erro, mas não é" | Presente: a pergunta da 2ª voz e a confirmação do narrador. |
+| 4 Com você | Fundida com a 6 (as três situações da norma). |
+| 5 Virada "ainda mais estranha" | Presente, frase fixa literal. |
+| 6 Lista | Fundida com a 4. |
+| 7 Custo | Cortada: sem número verificado, afirmar custo seria opinião. |
+| 8 Pergunta do "como" | Presente na 2ª voz ("Então quem manda?"). |
+| 9 Pergunta final | Presente, sem resposta, sobre um ponto que está de fato em disputa. |
+| Outras | Nada fora da lista F; citações inalteradas; nenhuma opinião afirmada; sem menção a serviço jurídico; nenhuma imagem de IA. |
