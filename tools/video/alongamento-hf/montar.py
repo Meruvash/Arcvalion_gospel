@@ -464,8 +464,8 @@ index = f"""<!doctype html>
 {hosts}
       <div id="legendas" data-composition-id="legendas" data-composition-src="compositions/legendas.html" data-start="0" data-duration="{TOTAL}"
            data-track-index="2" data-track-kind="captions" data-width="{W}" data-height="{H}" style="z-index:50"></div>
-      <audio id="narracao" class="clip" data-start="0" data-track-index="3" data-volume="1" src="assets/audio/narracao.wav"></audio>
-      <audio id="trilha" class="clip" data-start="0" data-duration="{TOTAL}" data-track-index="4" data-volume="0.2" data-fade-in="0.4" data-fade-out="1.8" src="assets/audio/trilha.mp3"></audio>
+      <audio id="narracao" class="clip" data-start="0" data-track-index="3" data-volume="0.78" src="assets/audio/narracao.wav"></audio>
+      <audio id="trilha" class="clip" data-start="0" data-duration="{TOTAL}" data-track-index="4" data-volume="0.16" data-fade-in="0.4" data-fade-out="1.8" src="assets/audio/trilha.mp3"></audio>
 {sfx}
     </div>
     <script>
