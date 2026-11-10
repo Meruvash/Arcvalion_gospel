@@ -1,0 +1,199 @@
+{
+ "slug": "ministerio-justica-pede-derrubada-348-perfis-influenciadores-bets",
+ "data": "2026-11-10",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Boa notícia",
+ "titulo": "Ministério da Justiça pede derrubada de 348 perfis de influenciadores que divulgam bets ilegais",
+ "lide": "O Ministério da Justiça pediu às plataformas a derrubada de 348 perfis do Instagram usados por influenciadores para divulgar apostas ilegais. Somadas, as contas têm mais de 150 milhões de seguidores, e uma delas tem 1,4 milhão, informou a pasta nesta segunda-feira (9). Desde a proibição das bets, o monitoramento já passa de 60 mil registros.",
+ "por_que_importa": "A propaganda das bets clandestinas chega pelo celular dos filhos, por rosto conhecido e de confiança. Mirar quem divulga, e não só o site, ataca o caminho por onde o vício entra em casa. Os números mostram que o mercado ilegal segue ativo mesmo com a proibição.",
+ "numeros": [
+  [
+   "348",
+   "perfis de influenciadores no Instagram com pedido de derrubada, somando mais de 150 milhões de seguidores",
+   "Ministério da Justiça, 09/11/2026"
+  ],
+  [
+   "60 mil+",
+   "sites, páginas, perfis, grupos e servidores de apostas irregulares identificados desde 25 de setembro; eram 20.318 em 9 de outubro",
+   "Ministério da Justiça, 09/11/2026"
+  ],
+  [
+   "25,6 milhões",
+   "de participantes em 1.442 grupos de Telegram ligados a apostas irregulares",
+   "Ministério da Justiça, 09/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O monitoramento é feito pela Secretaria Nacional de Direitos Digitais e pela Secretaria Nacional de Segurança Pública, por meio do Laboratório de Operações Cibernéticas. Só na segunda-feira, segundo a pasta, foram identificadas também 2.207 páginas no Facebook, com audiência somada de 7,5 milhões, 18 grupos no Telegram e 998 sites.",
+  "A MP 1.394/2026, publicada em 25 de setembro, proibiu a exploração, a oferta e a publicidade das apostas de quota fixa e criou um dever de cuidado para as plataformas, que devem retirar o conteúdo irregular quando notificadas, segundo o g1. O ministério não divulgou os nomes dos perfis."
+ ],
+ "no_brasil": "No mesmo dia, o ministro Luiz Fux, do STF, suspendeu em todo o país as ações contra a proibição das bets, como o portal noticiou. Em 29 de setembro, o ministério já tinha pedido o bloqueio de 5.209 sites e a remoção de 186 aplicativos, segundo o g1.",
+ "critica": [
+  {
+   "fonte": "Wellington César Lima e Silva, ministro da Justiça, em nota da pasta",
+   "texto": "Não basta retirar do ar os sites de apostas ilegais se essas plataformas continuam chegando à população por meio de influenciadores e redes sociais",
+   "citacao": true,
+   "url": "https://www.gov.br/mj/pt-br/assuntos/noticias/mjsp-pede-derrubada-de-348-perfis-de-influenciadores-que-divulgam-bets-ilegais"
+  },
+  {
+   "fonte": "Setor de apostas e críticos da MP",
+   "texto": "Entidades do setor contestam a MP no STF e alegam que a proibição empurra o apostador para o mercado clandestino; a decisão final sobre a constitucionalidade ainda é do Supremo.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Pais e mães: vejam quem seus filhos seguem; influenciador que manda link de aposta está divulgando atividade proibida",
+  "Igrejas que acolhem endividados: o mercado ilegal segue ativo, e a orientação continua necessária",
+  "Quem vê propaganda de bet nas redes: a publicidade é proibida pela MP e pode ser denunciada à plataforma"
+ ],
+ "nao_e_para": [
+  "O ministério pediu a derrubada; a nota não informa quantos perfis já saíram do ar",
+  "Os nomes dos influenciadores não foram divulgados",
+  "A constitucionalidade da MP ainda será julgada pelo STF"
+ ],
+ "veredito": "A gente apoia. Influenciador que vende aposta para seguidor jovem lucra com a ruína alheia, e fechar esse canal protege a família. Que as plataformas cumpram rápido e que o governo informe quantos perfis de fato saíram do ar.",
+ "versiculo": {
+  "texto": "A fazenda que procede da vaidade diminuirá, mas quem a ajunta pelo trabalho terá aumento",
+  "referencia": "Provérbios 13.11",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Ministério da Justiça: MJSP pede derrubada de 348 perfis de influenciadores que divulgam bets ilegais (09/11/2026)",
+   "url": "https://www.gov.br/mj/pt-br/assuntos/noticias/mjsp-pede-derrubada-de-348-perfis-de-influenciadores-que-divulgam-bets-ilegais",
+   "data": "09/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "g1: Ministério pede derrubada de 348 perfis de influenciadores que divulgam bets ilegais (09/11/2026)",
+   "url": "https://g1.globo.com/politica/noticia/2026/11/09/ministerio-pede-derrubada-de-348-perfis-de-influenciadores-que-divulgam-bets-ilegais.ghtml",
+   "data": "09/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "O Paladino: Fux suspende no país todas as ações contra a proibição das bets (09/11/2026)",
+   "url": "https://opaladino.com.br/noticias/fux-suspende-todas-acoes-contra-proibicao-bets-pais/",
+   "data": "09/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 65,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre o vício em apostas que destrói famílias: o governo mira os influenciadores que levam as bets ilegais ao celular"
+  },
+  "origem": {
+   "nome": "Ministério da Justiça",
+   "url": "https://www.gov.br/mj/pt-br/assuntos/noticias/mjsp-pede-derrubada-de-348-perfis-de-influenciadores-que-divulgam-bets-ilegais"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Pedido oficial de derrubada de 348 perfis com mais de 150 milhões de seguidores, ainda dependente das plataformas"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Vício em apostas e proteção da família: núcleo do portal, que acompanha a proibição das bets"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Nota oficial publicada na noite de 9/11, poucas horas antes"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Nota oficial do Ministério da Justiça com os números, confirmada em reportagem do g1"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Liga o pedido à decisão de Fux do mesmo dia e mostra a escalada do monitoramento em um mês"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 6,
+    "viral": 5,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: nota oficial do ministério (2)",
+    "Ato de poder: pedido do Ministério da Justiça (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Número forte: 150 milhões de seguidores (1)",
+    "Boa notícia (1)",
+    "Pede resposta do cristão: famílias e filhos nas redes (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 13.11 (2)",
+    "Utilidade: o que os pais podem observar (1)",
+    "Tema que já mobiliza o público: bets (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "MJSP pede derrubada de 348 perfis de influenciadores que divulgam bets ilegais",
+  "nucleo": "A - Brasil",
+  "categoria": "Governo / apostas",
+  "coleta": "2026-11-10",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado em nota oficial e reportagem",
+   "contradicoes": "Nenhuma entre a nota e o g1.",
+   "sem_confirmacao": "quantos perfis as plataformas já derrubaram; nomes dos influenciadores"
+  },
+  "duplicidade": {
+   "grupo": "MP das bets",
+   "itens": [
+    "Ministério da Justiça 09/11",
+    "g1 09/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-09-fux-suspende-todas-acoes-contra-proibicao-bets-pais"
+  },
+  "seo": {
+   "intencao": "saber o que o governo faz contra influenciadores de bets ilegais",
+   "entidades": [
+    "Ministério da Justiça",
+    "Wellington César Lima e Silva",
+    "Sedigi",
+    "Ciberlab",
+    "MP 1.394/2026"
+   ],
+   "termos": [
+    "influenciadores bets ilegais",
+    "derrubada de perfis bets",
+    "Ministério da Justiça bets Instagram"
+   ],
+   "atualizacao": "acompanhar quantos perfis foram derrubados"
+  }
+ },
+ "descricao_seo": "O Ministério da Justiça pediu a derrubada de 348 perfis de influenciadores que divulgam bets ilegais, com mais de 150 milhões de seguidores.",
+ "instituicao": "Ministério da Justiça e Segurança Pública",
+ "editora": "Ministério da Justiça e Segurança Pública",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da nota oficial e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: números e frase do ministro lidos na nota oficial do Ministério da Justiça; nenhum influenciador é nomeado nem acusado individualmente. A nota registra que o pedido depende das plataformas e cita o argumento do setor contra a MP.",
+ "imagem": {
+  "arquivo": "capas/ministerio-justica-pede-derrubada-348-perfis-influenciadores-bets.jpg",
+  "credito": "Foto: Joédson Alves/Agência Brasil",
+  "alt": "Tela de site do governo comunica o bloqueio de plataformas de apostas, em Brasília, em outubro de 2026 (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/hIq-5YWDqZE6rmJqO4_skID2_AM=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/06/0d4a2591.jpg?itok=uFxXCQYk",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-suspende-todas-acoes-judiciais-contra-proibicao-de-bets-no-pais"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-10T02:32:06-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-10T02:32:06-03:00"
+}
