@@ -7,7 +7,7 @@ segunda voz = escolhida pelo editor; editor = clone da voz do Dr. Pelicioni (VOZ
 """
 import json, os, sys, urllib.request
 VOZES = {"narrador": "plASsyS7JE6GCAvx9uIc", "segunda": sys.argv[2] if len(sys.argv) > 2 else None,
-         "editor": os.environ.get("VOZ_EDITOR")}
+         "editor": "jEMMnqfzSCpo1eh8s9YJ"}  # clone da voz do Dr. Pelicioni (amostra dele, 10/11/2026); usar eleven_multilingual_v2: o v3 erra o nome
 PASTA = sys.argv[3] if len(sys.argv) > 3 else "voz"
 os.makedirs(PASTA, exist_ok=True)
 ids = {int(x) for x in sys.argv[1].split(",")}
