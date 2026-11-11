@@ -8,10 +8,10 @@
  "selo": "Boa notícia",
  "titulo": "Fachin arquiva o inquérito das fake news depois de mais de sete anos",
  "lide": "O presidente do STF, ministro Edson Fachin, arquivou nesta segunda-feira (9) o Inquérito 4.781, o inquérito das fake news, aberto em março de 2019. Ele atendeu a pedido da PGR e escreveu que a validade do inquérito não autoriza sua perpetuação. As ações penais já abertas continuam, e novas diligências acabam a partir da publicação.",
- "por_que_importa": "Era a investigação mais longa e mais ampla do Supremo, aberta pelo próprio tribunal e usada para buscas, bloqueio de perfis e quebras de sigilo. Com o arquivamento, fatos novos não podem mais ser puxados para dentro dela. Quem ainda responde a processo segue respondendo, mas cada caso agora anda por conta própria.",
+ "por_que_importa": "Foi uma investigação de quase oito anos, aberta pelo próprio tribunal e usada para buscas, bloqueio de perfis e quebras de sigilo. Com o arquivamento, fatos novos não podem mais ser puxados para dentro dela. Quem ainda responde a processo segue respondendo, mas cada caso agora anda por conta própria.",
  "numeros": [
   [
-   "7 anos e 8 meses",
+   "Quase 7 anos e 8 meses",
    "de tramitação, da Portaria GP 69, de 14 de março de 2019, até o arquivamento em 9/11/2026",
    "Decisão do STF, 09/11/2026"
   ],
@@ -39,15 +39,16 @@
    "url": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/11/09195641/Decisao.pdf"
   },
   {
-   "fonte": "Paulo Gonet, procurador-geral da República, citado na decisão",
+   "fonte": "Procurador-geral da República, na manifestação citada na decisão",
    "texto": "A hora, assim, conduz ao fecho do inquérito",
    "citacao": true,
    "url": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/11/09195641/Decisao.pdf"
   },
   {
-   "fonte": "Defensores do inquérito, segundo a própria decisão",
-   "texto": "A decisão destaca que as investigações revelaram organizações com forte atuação digital e permitiram responsabilizar quem tentou subverter a ordem democrática; para esse lado, o inquérito cumpriu papel na defesa das instituições.",
-   "citacao": false
+   "fonte": "Ministro Edson Fachin, na decisão de 9/11/2026",
+   "texto": "A decisão destaca que as investigações revelaram organizações com forte atuação digital e permitiram responsabilizar quem tentou subverter a ordem democrática.",
+   "citacao": false,
+   "url": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/11/09195641/Decisao.pdf"
   }
  ],
  "para_quem": [
