@@ -40,7 +40,7 @@ Sobre o que vale da Lei, Wesley diz que a lei cerimonial Jesus veio "utterly abo
 
 ## Cuidados pastorais
 
-Textos duros do Antigo Testamento podem escandalizar quem está começando; não os esconda, mas também não os jogue sem contexto. Ofereça-se para lê-los juntos. Fale de judeus e de outras tradições com respeito. Quem tem formação católica pode perguntar pelos livros a mais; a lição sobre o que é a Bíblia já trata disso.
+Textos duros do Antigo Testamento podem escandalizar quem está começando; não os esconda, mas também não os jogue sem contexto. Ofereça-se para lê-los juntos. Fale de judeus e de outras tradições com respeito. Quem tem formação católica pode perguntar pelos livros a mais; se o assunto surgir, indique a lição sobre o que é a Bíblia.
 
 ## Roteiro do encontro (40 minutos)
 
@@ -52,7 +52,7 @@ Textos duros do Antigo Testamento podem escandalizar quem está começando; não
 
 ## Alertas de interpretação
 
-Não diga que Jeremias 31 anuncia o fim da Lei: diz que ela será escrita no coração. Não diga que 2 Timóteo 3:15 fala só do Antigo Testamento como palavra do texto. Não use a cena de Emaús como eixo: outras lições já usam. Não dê data exata de Jeremias. Na imagem, não traduza a inscrição "FRAVS INIMICA LVCI" como fato: a ficha do museu não a explica.
+Não diga que Jeremias 31 anuncia o fim da Lei: diz que ela será escrita no coração. Não diga que 2 Timóteo 3:15 fala só do Antigo Testamento como palavra do texto. Não use a cena de Emaús como eixo deste encontro. Não dê data exata de Jeremias. Na imagem, não traduza a inscrição "FRAVS INIMICA LVCI" como fato: a ficha do museu não a explica.
 
 ## Sinais de que a pessoa entendeu
 

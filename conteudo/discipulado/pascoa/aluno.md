@@ -28,7 +28,7 @@ O povo de Israel estava no Egito. Deus falou com Moisés e Arão e anunciou que,
 >
 > **14** Comemorem esse dia como festa religiosa para lembrar que eu, o Senhor, fiz isso. Vocês e os seus descendentes devem comemorar a Festa da Páscoa para sempre.
 
-*Texto bíblico: Nova Tradução na Linguagem de Hoje (NTLH). Copyright 2000 Sociedade Bíblica do Brasil. Todos os direitos reservados.* Os versículos são de Êxodo 12:3-14.
+*Texto bíblico: Nova Tradução na Linguagem de Hoje (NTLH). Copyright 2000 Sociedade Bíblica do Brasil. Todos os direitos reservados.* Foram escolhidos os versículos 3, 5, 7, 8, 13 e 14 de Êxodo 12.
 
 ## Desenvolvimento
 
@@ -38,7 +38,7 @@ Deus disse: "Nessa noite eu passarei pela terra do Egito e matarei todos os prim
 
 Daí vem o nome. Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é muito lido, explicou que a palavra hebraica "pesach" quer dizer passagem, um passar por cima. O anjo destruidor passou por cima das casas dos israelitas. João Calvino, o reformador de Genebra, disse o mesmo: o castigo de Deus passou pelos israelitas e os deixou sem dano.
 
-Naquela mesma noite, Deus tirou o povo do Egito (Êxodo 12:51). A Páscoa marca a libertação da escravidão.
+Naquela mesma noite, o rei do Egito mandou o povo sair (Êxodo 12:31). E Deus tirou Israel do Egito (Êxodo 12:51). A Páscoa marca a libertação da escravidão.
 
 > [!termo] **Páscoa:** festa que Deus deu a Israel para lembrar a noite em que ele "passou" pelas casas marcadas com sangue e libertou o povo do Egito. Para o cristão, aponta para Jesus, "o nosso Cordeiro da Páscoa".
 
