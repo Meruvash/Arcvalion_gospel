@@ -1,0 +1,200 @@
+{
+ "slug": "mec-homologa-diretrizes-ia-escolas-criancas-professor",
+ "data": "2026-11-11",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": true,
+ "selo": "Boa notícia",
+ "titulo": "MEC fixa regras para IA nas escolas: criança até o 5º ano só com professor",
+ "lide": "O Ministério da Educação homologou nesta terça-feira (10) o parecer do Conselho Nacional de Educação com as diretrizes para o uso de inteligência artificial em escolas e universidades. Na educação infantil e até o 5º ano, a criança não poderá usar IA sozinha; só em atividade planejada e mediada por profissional da educação, segundo o MEC.",
+ "por_que_importa": "Os filhos já convivem com robôs que conversam e escrevem textos. Agora há regra nacional: professor continua no comando, criança pequena não fica sozinha diante da máquina e dados de alunos não podem virar publicidade. As escolas, públicas e privadas, terão 12 meses para se adequar depois da resolução.",
+ "numeros": [
+  [
+   "12 meses",
+   "prazo para escolas e redes adequarem políticas e contratos após a publicação da resolução; as vedações valem de imediato",
+   "MEC, 10/11/2026"
+  ],
+  [
+   "4",
+   "níveis de risco para o uso de IA na escola: baixo, moderado, alto e excessivo",
+   "MEC, 10/11/2026"
+  ],
+  [
+   "5º ano",
+   "até essa série, nenhum acesso direto, autônomo ou sem supervisão a ferramentas de IA",
+   "MEC, 10/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Ficam vedados, segundo o MEC, sistemas de pontuação social, reconhecimento automático de emoções, vigilância biométrica contínua, exploração de vulnerabilidades, decisões só automatizadas sobre a trajetória do aluno e uso de dados educacionais para publicidade. A IA também não pode, sozinha ou sem correção humana, dar nota a redações e textos autorais.",
+  "Pela Agência Brasil, nos anos finais do fundamental, do 6º ao 9º ano, o uso fica restrito à mediação do professor, e no ensino médio não há restrição, com recomendação de uso pedagógico. O documento estimula a participação das famílias e prevê letramento digital, com ensino sobre dados, vieses, desinformação e ética."
+ ],
+ "no_brasil": "O parecer foi elaborado por uma comissão bicameral do CNE, com relatoria dos conselheiros Celso Niskier e Israel Batista, e será revisado preferencialmente a cada dois anos, informa o MEC. A regra alcança redes públicas e privadas, da educação infantil ao ensino superior.",
+ "critica": [
+  {
+   "fonte": "Leonardo Barchini, ministro da Educação, segundo o MEC",
+   "texto": "A IA pode apoiar a educação, mas jamais substituir o papel dos nossos professores",
+   "citacao": true,
+   "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/mec-estabelece-diretrizes-para-uso-responsavel-da-ia-na-educacao"
+  },
+  {
+   "fonte": "Celso Niskier, conselheiro do CNE e relator, segundo o MEC",
+   "texto": "Não podemos ter medo de inovar. Só que inovar, nesse momento, é criar também salvaguardas de respeito aos direitos da criança",
+   "citacao": true,
+   "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/mec-estabelece-diretrizes-para-uso-responsavel-da-ia-na-educacao"
+  },
+  {
+   "fonte": "Divergência entre as fontes",
+   "texto": "A Agência Brasil escreveu que crianças de 4 e 5 anos não devem usar IA de forma alguma, nem com mediação; a nota do MEC fala em uso apenas em atividades planejadas e mediadas. A íntegra da resolução vai esclarecer.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Pais de crianças pequenas: até o 5º ano, a escola não pode deixar o filho usar IA sozinho",
+  "Pais de adolescentes: a redação do filho não pode ser corrigida só por máquina",
+  "Escolas cristãs e confessionais: a regra vale também para a rede privada, com 12 meses para adequação"
+ ],
+ "nao_e_para": [
+  "A resolução ainda precisa ser publicada; o prazo de 12 meses conta a partir daí",
+  "A regra não proíbe a IA no ensino médio nem na universidade",
+  "A íntegra do parecer não foi lida; a nota segue a nota oficial do MEC e a Agência Brasil"
+ ],
+ "veredito": "A gente apoia. Criança precisa de gente, não de tela que responde tudo, e o professor tem de continuar no comando da sala. A proibição de usar dados de aluno para propaganda protege a família. Agora é fiscalizar, e em casa vale a mesma regra: a máquina ajuda, mas quem educa são os pais.",
+ "versiculo": {
+  "texto": "Instrui o menino no caminho em que deve andar, e, até quando envelhecer, não se desviará dele",
+  "referencia": "Provérbios 22.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "MEC: MEC estabelece diretrizes para uso responsável da IA na educação (10/11/2026)",
+   "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/mec-estabelece-diretrizes-para-uso-responsavel-da-ia-na-educacao",
+   "data": "10/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: MEC aprova diretrizes para uso de IA em cada etapa da educação (10/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/mec-aprova-diretrizes-para-uso-de-ia-em-cada-etapa-da-educacao",
+   "data": "10/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 71,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "educacao",
+   "porque": "O fato é sobre a educação dos filhos: regra nacional para o uso de inteligência artificial nas escolas, com proteção às crianças"
+  },
+  "origem": {
+   "nome": "Ministério da Educação",
+   "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/novembro/mec-estabelece-diretrizes-para-uso-responsavel-da-ia-na-educacao"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Ato do MEC já tomado que fixa regras para todas as escolas e redes; vedações valem com a publicação da resolução"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Educação dos filhos e proteção das crianças: núcleo do portal, com efeito direto nas famílias"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Homologação de terça-feira, 10/11, menos de 48 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Nota oficial do MEC e reportagem independente da Agência Brasil; a íntegra do parecer não foi lida"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Cruza as duas fontes, registra a divergência sobre a educação infantil e traduz as regras para os pais"
+   }
+  },
+  "publico": {
+   "pontos": 19,
+   "eixos": {
+    "valor": 8,
+    "viral": 6,
+    "cristao": 5
+   },
+   "criterios": [
+    "Documento primário: nota oficial do MEC (2)",
+    "Ato de poder: homologação do ministro (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Utilidade: o que muda para pais e escolas (1)",
+    "Tema que já mobiliza o público: IA e crianças (2)",
+    "Boa notícia (1)",
+    "Pede resposta do cristão: educação dos filhos (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 22.6 (2)",
+    "Rende estudo: quem educa os filhos (2)",
+    "Gatilho no calendário: publicação da resolução (1)",
+    "Personagem com nome: Barchini, Niskier (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "MEC estabelece diretrizes para uso responsável da IA na educação",
+  "nucleo": "A - Brasil",
+  "categoria": "Educação / tecnologia",
+  "coleta": "2026-11-11",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado em nota oficial e reportagem",
+   "contradicoes": "A Agência Brasil diz que alunos de 4 e 5 anos não devem usar IA de forma alguma, nem com mediação; o MEC diz que, na educação infantil e até o 5º ano, eventual uso deve ser planejado e mediado. A nota segue o MEC e registra a diferença.",
+   "sem_confirmacao": "íntegra do parecer e data de publicação da resolução"
+  },
+  "duplicidade": {
+   "grupo": "IA na educação",
+   "itens": [
+    "MEC 10/11",
+    "Agência Brasil 10/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber as regras para uso de inteligência artificial nas escolas",
+   "entidades": [
+    "MEC",
+    "Conselho Nacional de Educação",
+    "Leonardo Barchini",
+    "Celso Niskier",
+    "inteligência artificial"
+   ],
+   "termos": [
+    "IA nas escolas regras",
+    "diretrizes inteligência artificial educação",
+    "criança pode usar IA na escola"
+   ],
+   "atualizacao": "acompanhar a publicação da resolução"
+  }
+ },
+ "descricao_seo": "MEC homologou diretrizes para IA na educação: até o 5º ano, só uso mediado por professor; vedadas vigilância biométrica e uso de dados para publicidade.",
+ "instituicao": "Ministério da Educação",
+ "editora": "Ministério da Educação",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da nota do MEC e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regras e frases vêm da nota oficial do MEC e da Agência Brasil, atribuídas; a divergência entre as fontes está registrada. Não há acusação a ninguém.",
+ "imagem": {
+  "arquivo": "capas/mec-homologa-diretrizes-ia-escolas-criancas-professor.jpg",
+  "credito": "Foto: Rafa Neddermeyer/Agência Brasil",
+  "alt": "Alunos do ensino médio em sala de aula de escola pública na Ceilândia, no Distrito Federal (foto de arquivo, junho de 2026)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/7qcUOR7jtt-JO7i91dsPKDZMF34=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/06/25/img_7268.jpg_0.jpg?itok=hCrUo2-6",
+  "pagina": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/mec-aprova-diretrizes-para-uso-de-ia-em-cada-etapa-da-educacao"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-11T02:40:11-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-11T02:40:11-03:00"
+}
