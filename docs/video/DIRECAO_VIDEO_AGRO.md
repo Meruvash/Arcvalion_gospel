@@ -91,6 +91,19 @@ o código desenha rosto mal, e foi o que derrubou a cena do Almeida Júnior.
   os pintores.
 - Nenhuma imagem gerada por IA. Foto real só com licença conferida e crédito.
 
+
+### 2.6 Mapas e dados em aquarela (p5.brush, desde 11/11/2026)
+- **Mapa sempre em aquarela com lápis**, desenhado com o p5.brush (`tools/video/agro-arte/lib/p5brush/`):
+  - Brasil em lavagem clara e contorno a lápis;
+  - estados da história "molhados" um a um no ritmo da fala, com o número escrito a lápis ao lado;
+  - setas e círculos em carvão.
+- Mapa só entra quando há **dado geográfico verificado**. Mapa sem dado é enfeite.
+- Números em sequência (ranking, antes/depois, série trimestral) viram **gráfico de caderno de campo**:
+  barras ou linha em aquarela, eixo e rótulos a lápis, valor escrito à mão. Isso substitui o print do
+  documento sempre que possível.
+- Geometria dos estados: Natural Earth 1:10m admin-1 (domínio público) ou malha do IBGE, com a fonte
+  no rodapé.
+
 ## 3. Voz e som
 - Narrador "Marcio - Viral Hook Narrator" (ElevenLabs `plASsyS7JE6GCAvx9uIc`, `eleven_v3`).
   - **Se uma fala sair com sotaque de Portugal**, regerar com `eleven_multilingual_v2` na mesma voz.

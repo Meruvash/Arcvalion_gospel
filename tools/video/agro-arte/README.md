@@ -12,6 +12,8 @@ em `docs/video/DIRECAO_VIDEO_AGRO.md`.
     `sed "s#p.chromium.launch(args=#p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1243/chrome-linux64/chrome', args=#" render.py > render_local.py`
 - **Montagem:** `hyperframes` 0.9.30 e `gsap` 3.14.2 (npm, numa pasta de trabalho), com
   `DO_NOT_TRACK=1` e `PRODUCER_HEADLESS_SHELL_PATH=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell`.
+- **Aquarela e lápis (mapas e dados):** `lib/p5brush/brush.js` (p5.brush 3.0.0 standalone, MIT). Leia
+  `lib/p5brush/ORIGEM.md` (flags do Chromium, semente por quadro, `brush.render()`).
 - **Vozes:** ElevenLabs (credencial do ambiente). Fontes: Inter, Newsreader e IBM Plex (OFL,
   via @fontsource).
 
