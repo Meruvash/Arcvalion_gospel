@@ -1,0 +1,216 @@
+{
+ "slug": "novo-codigo-civil-senado-nega-pressa-familia-heranca-divorcio",
+ "data": "2026-11-11",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Motivo de alerta",
+ "titulo": "Novo Código Civil: Senado nega pressa, mas texto muda casamento, divórcio e herança",
+ "lide": "A Agência Senado publicou nesta terça-feira (10) que é falso que o Senado vote às pressas o novo Código Civil, o PL 4/2025; a comissão se reúne em 18 de novembro para definir o calendário. A Gazeta do Povo relata articulação para votar ainda neste ano. O texto lido pelo portal tira o cônjuge da lista de herdeiros necessários.",
+ "por_que_importa": "O Código Civil é a lei do dia a dia da família: casamento, divórcio, filhos e herança. Mudanças assim valem por décadas. Seja qual for o calendário, a família brasileira precisa saber o que está no texto antes da votação.",
+ "numeros": [
+  [
+   "269",
+   "páginas do texto original do PL 4/2025, apresentado por Rodrigo Pacheco em 31 de janeiro de 2025",
+   "Senado, texto do PL 4/2025"
+  ],
+  [
+   "893",
+   "emendas já recebidas, segundo o último andamento informado pelo Senado; o relator é o senador Veneziano Vital do Rêgo",
+   "Agência Senado, 10/11/2026"
+  ],
+  [
+   "5 dias",
+   "após a notificação, prazo para o cartório averbar o divórcio pedido por um só cônjuge, pelo texto original",
+   "PL 4/2025, art. 1.582-A"
+  ]
+ ],
+ "corpo": [
+  "No texto original, o novo artigo 1.845 diz que são herdeiros necessários os descendentes e os ascendentes, sem o cônjuge, que hoje está na lista; o cônjuge segue na ordem da sucessão legítima, depois de filhos e pais. O artigo 1.582-A permite que um só cônjuge peça o divórcio no cartório, com averbação em cinco dias após a notificação, inclusive por edital.",
+  "O texto também autoriza a cessão temporária de útero quando a gestação não for possível por causa natural ou contraindicação médica, sem fim lucrativo. Segundo a Agência Senado, o projeto ainda pode mudar e, se aprovado na comissão, passa pelo Plenário e pela Câmara. A Gazeta do Povo afirma que trechos são revistos sem versão consolidada divulgada."
+ ],
+ "no_brasil": "O projeto nasceu de anteprojeto de uma comissão de juristas instalada em 2023 e está desde setembro de 2025 em comissão temporária do Senado, informa a Agência Senado. Segundo a Gazeta, o prazo da comissão vai até dezembro de 2026.",
+ "critica": [
+  {
+   "fonte": "Agência Senado, no serviço Senado Verifica",
+   "texto": "O Senado não está votando às pressas a reforma do Código Civil e o texto da proposta está disponível para consulta pública",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/10/e-falso-que-senado-esteja-votando-as-pressas-a-reforma-do-codigo-civil"
+  },
+  {
+   "fonte": "Gazeta do Povo",
+   "texto": "Ainda não há uma data para a votação, mas o risco de uma tramitação apressada é concreto",
+   "citacao": true,
+   "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/novo-codigo-civil-e-bomba-contra-familia-e-pode-ser-aprovado-as-pressas-no-senado/"
+  },
+  {
+   "fonte": "Defensores da reforma",
+   "texto": "Para quem apoia o projeto, ele atualiza a lei civil e passa a tratar de temas novos, como os direitos no ambiente digital, citados pelo Senado.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Casais: o texto original permite divórcio pedido por um só cônjuge, direto no cartório",
+  "Quem pensa em herança e testamento: o cônjuge deixa de ser herdeiro necessário no texto original",
+  "Pastores e conselheiros de família: a comissão discute o calendário em 18 de novembro"
+ ],
+ "nao_e_para": [
+  "Nada disso é lei: o projeto ainda está em comissão e pode mudar",
+  "A nota se baseia no texto original; emendas podem alterar esses pontos",
+  "Não há data marcada para a votação no Plenário"
+ ],
+ "veredito": "A família não pode ser reescrita no atropelo. Tirar o cônjuge da herança obrigatória e permitir divórcio por um só lado em cinco dias mexem no coração do casamento. Se não há pressa, como diz o Senado, ótimo: que a versão final seja publicada com antecedência e que igrejas e famílias sejam ouvidas antes do voto.",
+ "versiculo": {
+  "texto": "Assim não são mais dois, mas uma só carne. Portanto, o que Deus ajuntou não separe o homem",
+  "referencia": "Mateus 19.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Senado: texto original do PL 4/2025 (31/01/2025)",
+   "url": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/90974bb3-27e0-46af-976a-99a7ebe3584d",
+   "data": "31/01/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: É falso que Senado esteja votando às pressas a reforma do Código Civil (10/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/10/e-falso-que-senado-esteja-votando-as-pressas-a-reforma-do-codigo-civil",
+   "data": "10/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Gazeta do Povo: Novo Código Civil é bomba contra família e pode ser aprovado às pressas no Senado (11/2026)",
+   "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/novo-codigo-civil-e-bomba-contra-familia-e-pode-ser-aprovado-as-pressas-no-senado/",
+   "data": "11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Gazeta do Povo: Senado articula votação acelerada do novo Código Civil ainda neste ano (11/2026)",
+   "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/senado-articula-votacao-acelerada-do-novo-codigo-civil-ainda-neste-ano/",
+   "data": "11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 63,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre a lei que rege casamento, divórcio e herança das famílias brasileiras, em debate no Senado"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/10/e-falso-que-senado-esteja-votando-as-pressas-a-reforma-do-codigo-civil"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Projeto em comissão, sem data de votação; efeito ainda futuro, mas sobre todas as famílias"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Casamento, divórcio, filiação e herança: núcleo da família, tema central do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Nota do Senado de 10/11 e reunião da comissão marcada para 18/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Texto original do projeto lido nos pontos citados, mais a nota oficial do Senado e reportagens da Gazeta do Povo"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Confere no texto do projeto os artigos sobre herança, divórcio e cessão de útero e põe lado a lado as versões do Senado e da Gazeta"
+   }
+  },
+  "publico": {
+   "pontos": 20,
+   "eixos": {
+    "valor": 8,
+    "viral": 7,
+    "cristao": 5
+   },
+   "criterios": [
+    "Documento primário: texto do projeto (2)",
+    "Ato de poder: nota oficial do Senado (1)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Contraste: Senado nega pressa, jornal vê articulação (2)",
+    "Tema que já mobiliza o público: família e casamento (2)",
+    "Utilidade: o que muda para casais e herdeiros (1)",
+    "Pede resposta do cristão: casamento e família (2)",
+    "Passagem bíblica que um pastor usaria: Mateus 19.6 (2)",
+    "Rende estudo: casamento como aliança (2)",
+    "Gatilho no calendário: reunião de 18/11 (1)",
+    "Personagem com nome: Pacheco, Veneziano, Alcolumbre (1)",
+    "Número forte: cinco dias para o divórcio (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "É falso que Senado esteja votando às pressas a reforma do Código Civil",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / família",
+  "coleta": "2026-11-11",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "texto do projeto conferido; calendário em disputa entre as fontes",
+   "contradicoes": "A Agência Senado diz que não há votação às pressas; a Gazeta do Povo relata articulação para votar ainda em 2026. A nota registra as duas versões e não afirma data de votação.",
+   "sem_confirmacao": "versão consolidada do relator; quais emendas serão acolhidas; data da votação"
+  },
+  "duplicidade": {
+   "grupo": "Novo Código Civil",
+   "itens": [
+    "Agência Senado 10/11",
+    "Gazeta do Povo 10/11 (2)"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que o novo Código Civil muda no casamento e na herança e quando será votado",
+   "entidades": [
+    "PL 4/2025",
+    "Código Civil",
+    "Senado Federal",
+    "Veneziano Vital do Rêgo",
+    "Rodrigo Pacheco",
+    "Davi Alcolumbre"
+   ],
+   "termos": [
+    "novo Código Civil família",
+    "divórcio unilateral cartório",
+    "cônjuge herdeiro necessário",
+    "PL 4/2025 votação"
+   ],
+   "atualizacao": "acompanhar a reunião da comissão em 18/11 e a versão do relator"
+  }
+ },
+ "descricao_seo": "Senado nega votação às pressas do novo Código Civil; texto original tira o cônjuge dos herdeiros necessários e cria divórcio unilateral em cartório.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura dos artigos do projeto, da nota do Senado e das reportagens, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os pontos do projeto foram conferidos no texto original; a posição do Senado e a da Gazeta estão atribuídas, com frases lidas nas fontes. A nota não afirma que haverá votação apressada e registra o argumento de quem defende a reforma. A opinião critica o conteúdo, não pessoas.",
+ "imagem": {
+  "arquivo": "capas/novo-codigo-civil-senado-nega-pressa-familia-heranca-divorcio.jpg",
+  "credito": "Foto: Andressa Anholete/Agência Senado",
+  "alt": "Audiência da comissão do Código Civil no Senado com especialistas em Direito de Família e das Sucessões (foto de arquivo, março de 2026)",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/07/24/o-tempo-da-escuta-como-o-senado-tem-construido-a-reforma-do-codigo-civil/20260326_00518aa.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/07/24/o-tempo-da-escuta-como-o-senado-tem-construido-a-reforma-do-codigo-civil"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-11T02:34:45-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-11T02:34:45-03:00"
+}
