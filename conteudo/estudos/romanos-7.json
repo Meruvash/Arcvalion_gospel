@@ -17,7 +17,7 @@
  "imagem": {
   "arquivo": "estudo-romanos-7.jpg",
   "credito": "Michele da Verona, São Paulo (pincel e tinta sobre papel, c. 1510). The Metropolitan Museum of Art, Nova York (domínio público, Open Access CC0)",
-  "alt": "Desenho de Michele da Verona, c. 1510: o apóstolo Paulo de pé, de barba longa e auréola, envolto num manto largo, segura uma espada apoiada no ombro e um livro na outra mão",
+  "alt": "Desenho de Michele da Verona, c. 1510: o apóstolo Paulo de pé, de barba longa e auréola, envolto num manto largo, olha para o alto; segura com a mão direita uma espada erguida, de lâmina para cima, e com a outra mão um livro",
   "pagina": "https://www.metmuseum.org/art/collection/search/459429",
   "licenca": "domínio público (Open Access CC0 do Metropolitan Museum)"
  },
@@ -94,21 +94,21 @@
      "obra": "Artigo sobre a identidade do eu de Romanos 7, Fides Reformata XIV, n.º 1, pp. 101-115 (CPAJ/Mackenzie)",
      "url": "https://cpaj.mackenzie.br/fileadmin/user_upload/5-101-Uma-Hip%C3%B3tese-Plaus%C3%ADvel-da-Identidade-do-%E2%80%9CEu%E2%80%9D-de-Romanos-7-Jair-de-Almeida-Jr.pdf",
      "data": "2009",
-     "texto": "Jair de Almeida Jr. propõe que o \"eu\" de Romanos 7 é um não regenerado encarnado por um convertido: Paulo assume o papel de alguém que, sem a ajuda do Espírito Santo, tenta cumprir a Lei de Deus, e o modelo seria o judeu apegado à Lei, como o jovem rico de Marcos 10. Num artigo de 2013, na revista Verbum (PUC-SP), ele desenvolve a mesma leitura.",
+     "texto": "Jair de Almeida Jr. propõe que o \"eu\" de Romanos 7 é um não regenerado encarnado por um convertido, e que o modelo seria o judeu apegado à Lei, como o jovem rico de Marcos 10. Num artigo de 2013, na revista Verbum (PUC-SP), ele diz que Paulo assume o papel de um eu fictício para mostrar a condição de quem, sem a assistência do Espírito Santo, tenta cumprir a Lei de Deus.",
      "citacao": "É nossa opinião que se trata de um não-regenerado, como que “encarnado” por um convertido."
     }
    ]
   }
  ],
  "convergencias": [
-  "A Lei é santa, espiritual e boa; o problema está no pecado que habita no homem: José Gonçalves diz que não há problema com a Lei, e a Declaração de Fé chama a Lei de santa e espiritual.",
+  "O problema não está na Lei, mas no homem, que não consegue cumpri-la na própria força: José Gonçalves diz que o problema estava no pecado que habitava no homem, e Jair de Almeida Jr. usa o fracasso do judeu em cumprir a Lei para mostrar que o homem não pode ser salvo pelo próprio esforço.",
   "A vitória não vem da Lei, mas do Espírito, em Romanos 8: Esequias Soares, José Gonçalves e Jair de Almeida Jr. dizem isso, cada um a seu modo.",
   "O crente tem conflito real com o pecado e não chega à perfeição sem pecado nesta vida: Augustus Nicodemus diz que não nega esse conflito, e Esequias cita 1 João 1:8."
  ],
  "contexto": [
   "Romanos 7 vem depois do capítulo 6, onde Paulo diz que o crente morreu para o pecado, e antes do capítulo 8, onde fala da vida no Espírito. Nos versículos 7 a 13, Paulo fala no passado; a partir do 14, passa ao presente. Esse detalhe é um dos argumentos de quem lê o texto como experiência do crente.",
   "O debate é antigo. O comentário de Romanos do volume VI do chamado Comentário de Matthew Henry, escrito por John Evans no século 18, expõe as duas leituras e prefere a do regenerado: o texto descreveria as lutas entre a graça e a corrupção nas almas santificadas. Já John Wesley, nas suas notas ao Novo Testamento, escreve que Paulo representa alguém que passa do estado legal ao estado evangélico (tradução livre).",
-  "Augustus Nicodemus lembra que a mudança de leitura não o tirou do cristianismo histórico: é uma divergência entre irmãos que creem na mesma graça."
+  "Augustus Nicodemus escreve que nenhuma das suas mudanças de opinião, entre elas a de Romanos 7, o levou para fora do círculo do cristianismo histórico."
  ],
  "aplicacao": [
   "Se você se reconhece no versículo 19, não desanime e não se acomode. O grito do versículo 24 não é o fim do texto: o versículo 25 dá graças a Deus por Jesus Cristo, e o capítulo 8 começa dizendo que não há condenação para quem está em Cristo.",
@@ -278,7 +278,7 @@
    "do estado legal ao evangélico"
   ],
   [
-   "Declaração de Fé das Assembleias de Deus (CGADB, 2016), caps. X, XVII e XIX",
+   "Declaração de Fé das Assembleias de Deus (CGADB, 2016), Cremos (item 10) e caps. XVII e XIX",
    "https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf",
    "a Lei, a santificação e o poder do Espírito"
   ],
@@ -302,8 +302,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-10T05:29:06-03:00",
+  "data": "2026-11-10T21:12:42-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-10T05:29:06-03:00"
+ "publicado_em": "2026-11-10T05:29:06-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-10",
+   "texto": "Correção em 10/11/2026: a convergência sobre a Lei agora cita os dois lados; saiu frase atribuída a Augustus Nicodemus que não está no texto dele; a leitura de Jair de Almeida Jr. sobre o Espírito Santo é do artigo de 2013 (Verbum)."
+  }
+ ],
+ "atualizado_em": "2026-11-10T21:12:42-03:00"
 }

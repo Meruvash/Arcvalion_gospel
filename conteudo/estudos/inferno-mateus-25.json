@@ -103,7 +103,7 @@
  ],
  "contexto": [
   "Mateus 25:31-46 fecha o sermão profético. O Filho do Homem se assenta no trono da sua glória e separa as nações como o pastor separa as ovelhas dos bodes. O critério que aparece é o cuidado com os pequeninos: o que se fez a eles se fez a Cristo.",
-  "As duas palavras-chave do versículo 46 são kolasis, castigo ou tormento, e aiōnios, eterno. O léxico de Thayer, no Bible Hub, registra que kolasis em Mateus 25:46 tem sentido de punição e que aiōnios se opõe a ela no mesmo versículo, com a vida. O verbete HELPS lê aiōnios pela qualidade da era que vem, não só pela duração. É esse o ponto em que os lados se separam.",
+  "As duas palavras-chave do versículo 46 são kolasis, castigo ou tormento, e aiōnios, eterno. O léxico de Thayer, no Bible Hub, dá a kolasis o sentido de correção, punição, pena, citando Mateus 25:46, e põe esse castigo entre os usos de aiōnios no sentido de sem fim, que nunca cessará, como ideia oposta à vida eterna. O verbete HELPS lê aiōnios pela qualidade da era que vem, não só pela duração. É esse o ponto em que os lados se separam.",
   "Matthew Henry, comentarista inglês do século 18, escreveu sobre o versículo 46 que o castigo dos ímpios no estado futuro será eterno, porque esse estado é inalterável (tradução livre)."
  ],
  "aplicacao": [
@@ -260,12 +260,17 @@
    "um estado inalterável"
   ],
   [
-   "Bible Hub, Strong 166 (aiōnios) e 2851 (kolasis)",
+   "Bible Hub, Strong 2851 (kolasis)",
    "https://biblehub.com/greek/2851.htm",
    "as palavras gregas"
   ],
   [
-   "Declaração de Fé das Assembleias de Deus (CGADB, 2016), caps. VII e XXIII",
+   "Bible Hub, Strong 166 (aiōnios)",
+   "https://biblehub.com/greek/166.htm",
+   "Thayer e HELPS sobre eterno"
+  ],
+  [
+   "Declaração de Fé das Assembleias de Deus (CGADB, 2016), Cremos (item 15) e caps. VII e XXIII",
    "https://cgadb.org.br/wp-content/uploads/2021/01/declaracao_de_fe.pdf",
    "o destino dos condenados"
   ],
@@ -289,8 +294,15 @@
  ],
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-10T05:29:06-03:00",
+  "data": "2026-11-10T21:12:42-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-10T05:29:06-03:00"
+ "publicado_em": "2026-11-10T05:29:06-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-10",
+   "texto": "Correção em 10/11/2026: o léxico de Thayer não diz que aiōnios se opõe a kolasis; põe o castigo de Mateus 25:46 entre os usos de aiōnios no sentido de sem fim, como ideia oposta à vida (Bible Hub, Strong 166)."
+  }
+ ],
+ "atualizado_em": "2026-11-10T21:12:42-03:00"
 }
