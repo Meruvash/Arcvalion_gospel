@@ -60,6 +60,11 @@ em "A Colheita" (1888): céu azul forte, lavouras em xadrez verde e dourado até
 com telhado vermelho, silos, trator ao longe, agricultor de costas.
 **Reprovada:** cena escura e terrosa com figura humana de frente (tentativa "Almeida Júnior").
 
+### 2.1.1 Imagens inéditas em cada vídeo (pedido do editor, 11/11/2026)
+**Nenhuma imagem se repete entre vídeos**: pintura, mapa, gráfico ou foto. A tabela abaixo mostra estilos e cenas já
+feitos como referência de linguagem, não como estoque para reaproveitar. Antes de produzir, confira
+`docs/video/CENAS_USADAS.md`; depois de entregar, registre as cenas novas lá.
+
 ### 2.2 Estilos aprovados e uso por assunto
 Todos de mestres em **domínio público**, sempre **composição nova**, nunca cópia do quadro.
 

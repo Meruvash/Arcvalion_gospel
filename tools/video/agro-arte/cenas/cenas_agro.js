@@ -153,6 +153,97 @@
     return { draw };
   })();
 
+
+  // =====================================================================================
+  // RJ2) Cenas inéditas do vídeo "Cinco por dia" (não repetir em outros vídeos):
+  //   rj_ceifeiros — colheita à maneira de Bruegel, "Os Ceifeiros" (1565): trigal dourado, ceifeiros, pereira com
+  //                  trabalhadores na sombra, aldeia e vale ao fundo (composição nova). Variantes com tempestade.
+  //   rj_turner    — tempestade à maneira de Turner: redemoinho de luz dourada e cinza sobre a lavoura, cortinas de chuva.
+  // =====================================================================================
+  SCENES['rj_ceifeiros'] = (() => {
+    let plate, built = false;
+    function build() {
+      const a = P.canvas(), g = a.getContext('2d'), r = rng(301);
+      g.fillStyle = grad(g, 0, 0, 0, 420, [[0, '#9fb8c4'], [1, '#e8e2c8']]); g.fillRect(0, 0, W, 460);
+      // vale ao fundo: baía azul-esverdeada, morros, aldeia com igreja
+      g.fillStyle = '#9fb4a8'; g.beginPath(); g.moveTo(0, 360); g.quadraticCurveTo(500, 300, 980, 340); g.quadraticCurveTo(1450, 300, 1920, 350); g.lineTo(1920, 470); g.lineTo(0, 470); g.fill();
+      g.fillStyle = '#b8ccc4'; g.fillRect(0, 400, W, 40);
+      g.fillStyle = '#7f9a6c'; g.beginPath(); g.moveTo(0, 440); g.quadraticCurveTo(600, 400, 1100, 430); g.quadraticCurveTo(1500, 410, 1920, 440); g.lineTo(1920, 520); g.lineTo(0, 520); g.fill();
+      for (let k = 0; k < 14; k++) { const x = 520 + k * 46 + r() * 20, y = 432 + r() * 12; g.fillStyle = '#d8c8a8'; g.fillRect(x, y, 22, 14); g.fillStyle = '#9a4a32'; poly(g, [[x - 3, y], [x + 11, y - 9], [x + 25, y]]); g.fill(); }
+      g.fillStyle = '#d8ccb0'; g.fillRect(780, 404, 18, 40); g.fillStyle = '#8a6a5a'; poly(g, [[776, 404], [789, 372], [802, 404]]); g.fill();
+      // campos verdes intermediários e sebes
+      g.fillStyle = '#9ab060'; g.fillRect(0, 500, W, 70);
+      for (let k = 0; k < 20; k++) { g.fillStyle = '#4f6a34'; g.beginPath(); g.ellipse(r() * W, 510 + r() * 50, 30 + r() * 40, 12, 0, 0, TAU); g.fill(); }
+      // trigal dourado: massa grande, com faixa ceifada (restolho claro) na diagonal
+      g.fillStyle = grad(g, 0, 560, 0, H, [[0, '#e0b23a'], [0.5, '#d49a26'], [1, '#b8801c']]); g.fillRect(0, 560, W, H - 560);
+      g.fillStyle = '#ead6a0'; poly(g, [[900, 560], [1320, 560], [1920, 900], [1920, 1080], [1500, 1080]]); g.fill();             // restolho
+      for (let i = 0; i < 2600; i++) { const x = r() * W, y = 570 + Math.pow(r(), 0.8) * 510; const inStub = x > 900 + (y - 560) * 1.15 && x < 1320 + (y - 560) * 1.15 + 600 * ((y - 560) / 520);
+        g.strokeStyle = inStub ? 'rgba(200,170,110,.6)' : ['#f0c850', '#c88a20', '#e8b438', '#a87418'][(r() * 4) | 0]; g.lineWidth = 1.5 + (y - 560) * 0.006; g.beginPath(); g.moveTo(x, y); g.lineTo(x + (r() - .5) * 4, y - (inStub ? 4 : 10 + (y - 560) * 0.06)); g.stroke(); }
+      // feixes de trigo em pé no restolho
+      for (const [x, y, s2] of [[1380, 700, 1], [1520, 760, 1.2], [1680, 840, 1.4], [1300, 640, 0.8]]) { g.fillStyle = '#e8c060'; poly(g, [[x - 18 * s2, y], [x - 4 * s2, y - 70 * s2], [x + 4 * s2, y - 70 * s2], [x + 18 * s2, y]]); g.fill(); g.fillStyle = '#b07a20'; g.fillRect(x - 12 * s2, y - 34 * s2, 24 * s2, 6 * s2); }
+      // pereira grande à esquerda, com sombra
+      g.save(); g.filter = 'blur(6px)'; g.fillStyle = 'rgba(70,60,20,.45)'; g.beginPath(); g.ellipse(560, 960, 300, 60, 0, 0, TAU); g.fill(); g.restore();
+      g.fillStyle = '#4a3a24'; poly(g, [[520, 960], [540, 600], [570, 600], [600, 960]]); g.fill();
+      for (let i = 0; i < 160; i++) { const a2 = r() * TAU, d = Math.sqrt(r()) * 230; g.fillStyle = ['#3f5a2a', '#5a7a34', '#2f4a22', '#6e8c3c'][(r() * 4) | 0]; g.beginPath(); g.ellipse(560 + Math.cos(a2) * d * 1.1, 470 + Math.sin(a2) * d * 0.75, 30 + r() * 30, 22 + r() * 20, r() * 3, 0, TAU); g.fill(); }
+      // trabalhadores descansando na sombra (pequenos, ao estilo de Bruegel)
+      for (const [x, y, c1] of [[470, 930, '#e8e0cc'], [520, 945, '#7a5a3a'], [610, 935, '#e8e0cc'], [660, 950, '#5a6a8a']]) { g.fillStyle = c1; g.beginPath(); g.ellipse(x, y, 22, 14, 0, 0, TAU); g.fill(); g.fillStyle = '#b07a52'; g.beginPath(); g.arc(x + 16, y - 14, 8, 0, TAU); g.fill(); }
+      g.fillStyle = '#efe6d0'; g.fillRect(560, 950, 40, 8);                                                                       // pano com pão
+      return M.broken(a, { cell: 6, len: 15, wid: 5, passes: 2, angle: (x, y) => y < 470 ? 0.02 : y > 560 ? -1.35 + Math.sin(x * 0.02) * 0.2 : 0.05, seed: 33, jit: 12, skip: 0.2, sat: 1.12, warm: [255, 220, 150], cool: [100, 120, 150] });
+    }
+    function reaper(c, x, y, s2, t, ph) {                     // ceifeiro de costas/perfil, camisa branca, foice em arco
+      const sw = Math.sin(t * 2.2 + ph); c.save(); c.translate(x, y); c.scale(s2, s2);
+      c.fillStyle = '#5a4a3a'; c.fillRect(-10, -40, 9, 40); c.fillRect(3, -40, 9, 40);
+      c.fillStyle = '#efe8d6'; c.beginPath(); c.moveTo(-18, -40); c.lineTo(-14, -100); c.lineTo(16, -100); c.lineTo(20, -40); c.closePath(); c.fill();
+      c.fillStyle = '#a87a52'; c.beginPath(); c.arc(2, -112, 10, 0, TAU); c.fill(); c.fillStyle = '#d8c080'; c.beginPath(); c.ellipse(2, -120, 16, 5, 0, 0, TAU); c.fill();
+      c.save(); c.translate(10, -84); c.rotate(-0.4 + sw * 0.7); c.strokeStyle = '#4a3a24'; c.lineWidth = 4; c.beginPath(); c.moveTo(0, 0); c.lineTo(46, 30); c.stroke(); c.strokeStyle = '#8a8a8a'; c.lineWidth = 3; c.beginPath(); c.arc(30, 50, 26, -1.2, 0.6); c.stroke(); c.restore();
+      c.restore();
+    }
+    const birds = Array.from({ length: 8 }, (_, i) => { const r = rng(9000 + i); return [r() * 800 + 900, 120 + r() * 160, r() * TAU]; });
+    function draw(c, lt, k = 0, t2 = 0) {
+      if (!built) { plate = build(); built = true; }
+      const t = Math.max(0, lt);
+      c.drawImage(plate, 0, 0);
+      const r = rng(77); c.save(); c.globalAlpha = 0.5; for (let i = 0; i < 220; i++) { const x = r() * 900, y = 600 + r() * 470, ph = r() * TAU; c.strokeStyle = r() < 0.5 ? '#f4d060' : '#b88420'; c.lineWidth = 3; const sw = Math.sin(t * 2.5 + x * 0.01 + ph) * 6; c.beginPath(); c.moveTo(x, y); c.lineTo(x + sw, y - 16); c.stroke(); } c.restore();
+      reaper(c, 980, 700, 1.0, t, 0); reaper(c, 1100, 760, 1.15, t, 1.3); reaper(c, 860, 650, 0.85, t, 2.4);
+      c.save(); c.strokeStyle = '#2a2a2a'; c.lineWidth = 3; c.lineCap = 'round'; birds.forEach(([x, y, p]) => { const xx = x - t * 25, yy = y + Math.sin(t * 1.4 + p) * 8, f = Math.sin(t * 8 + p) * 8; c.beginPath(); c.moveTo(xx - 14, yy + f * .5); c.quadraticCurveTo(xx - 6, yy - f, xx, yy); c.quadraticCurveTo(xx + 6, yy - f, xx + 14, yy + f * .5); c.stroke(); }); c.restore();
+      storm(c, k, t + t2);
+      c.save(); c.globalCompositeOperation = 'multiply'; c.globalAlpha = 0.16; c.drawImage(P.texture('canvas_bg', '#ece2c8', { scale: 0.006, amt: 12, grain: 8, seed: 14 }), 0, 0); c.restore();
+    }
+    return { draw };
+  })();
+  SCENES['rj_ceifeiros_tempestade'] = { draw(c, lt) { const t = Math.max(0, lt); SCENES['rj_ceifeiros'].draw(c, t, ss(0.8, 5.5, t) * 0.92, 0); } };
+  SCENES['rj_ceifeiros_abre'] = { draw(c, lt) { const t = Math.max(0, lt); SCENES['rj_ceifeiros'].draw(c, t + 6, 0.92 - ss(0.3, 3.8, t) * 0.62, 0); } };
+
+  SCENES['rj_turner'] = (() => {
+    let plate, built = false;
+    const C0 = [960, 330];
+    function build() {
+      const a = P.canvas(), g = a.getContext('2d'), r = rng(401);
+      g.fillStyle = grad(g, 0, 0, 0, 640, [[0, '#4a4a52'], [0.5, '#8a7a5a'], [1, '#c8b07a']]); g.fillRect(0, 0, W, 680);
+      const sg = g.createRadialGradient(C0[0], C0[1], 10, C0[0], C0[1], 520); sg.addColorStop(0, 'rgba(255,236,170,1)'); sg.addColorStop(0.35, 'rgba(240,190,90,.75)'); sg.addColorStop(1, 'rgba(240,190,90,0)'); g.fillStyle = sg; g.fillRect(0, 0, W, 700);
+      g.fillStyle = grad(g, 0, 600, 0, H, [[0, '#8a7a4a'], [0.4, '#6a6a3a'], [1, '#3a3a24']]); g.fillRect(0, 620, W, H - 620);
+      g.fillStyle = '#3a3428'; g.fillRect(1240, 600, 70, 34); poly(g, [[1232, 602], [1275, 578], [1318, 602]]); g.fill();
+      for (let k = 0; k < 6; k++) { g.strokeStyle = '#2e2a20'; g.lineWidth = 6; g.beginPath(); g.moveTo(1380 + k * 40, 640); g.quadraticCurveTo(1380 + k * 40 - 30, 590, 1380 + k * 40 - 50, 570); g.stroke(); }
+      return M.broken(a, { cell: 10, len: 40, wid: 10, passes: 2, angle: (x, y) => y < 640 ? Math.atan2(y - C0[1], x - C0[0]) + Math.PI / 2 + 0.35 : 0.04, seed: 41, jit: 14, skip: 0.04, sat: 1.05, warm: [255, 220, 150], cool: [80, 80, 100] });
+    }
+    function draw(c, lt) {
+      if (!built) { plate = build(); built = true; }
+      const t = Math.max(0, lt);
+      c.drawImage(plate, 0, 0);
+      // redemoinho: véus luminosos desfocados que giram (névoa de Turner, sem contorno)
+      c.save(); c.translate(C0[0], C0[1]); c.filter = 'blur(22px)'; c.lineCap = 'round';
+      for (let k = 0; k < 10; k++) { const R = 110 + k * 64; c.strokeStyle = k < 4 ? 'rgba(255,238,180,.32)' : k < 7 ? 'rgba(225,180,105,.28)' : 'rgba(70,66,74,.32)'; c.lineWidth = 80 - k * 4;
+        const a0 = t * (0.32 - k * 0.018) + k * 0.9; c.beginPath(); c.arc(0, 0, R, a0, a0 + 2.6); c.stroke(); }
+      c.restore();
+      // cortinas de chuva: faixas inclinadas bem suaves
+      c.save(); c.filter = 'blur(34px)'; for (let k = 0; k < 4; k++) { const x = ((k * 560 + t * 80) % 2500) - 300; const gr2 = c.createLinearGradient(0, 120, 0, 1080); gr2.addColorStop(0, 'rgba(60,60,72,0)'); gr2.addColorStop(0.4, 'rgba(60,60,72,.22)'); gr2.addColorStop(1, 'rgba(60,60,72,.10)');
+        c.fillStyle = gr2; poly(c, [[x, 120], [x + 110, 120], [x - 60, 1080], [x - 200, 1080]]); c.fill(); } c.restore();
+      c.save(); c.strokeStyle = 'rgba(220,220,230,.35)'; c.lineWidth = 2; const r = rng(51); for (let i = 0; i < 220; i++) { const x0 = r() * 2100, f = ((t * 1.2 + r()) % 1), y = f * 1120 - 40, x = x0 - f * 220; c.beginPath(); c.moveTo(x, y); c.lineTo(x + 12, y - 50); c.stroke(); } c.restore();
+      c.save(); c.globalCompositeOperation = 'multiply'; c.globalAlpha = 0.16; c.drawImage(P.texture('canvas_tu', '#ece2c8', { scale: 0.006, amt: 12, grain: 8, seed: 15 }), 0, 0); c.restore();
+    }
+    return { draw };
+  })();
+
   // =====================================================================================
   // 1) Almeida Júnior — REPROVADA pelo editor em 10/11/2026 (figura fraca, imagem pouco bonita). Fica só como registro; não usar.
   // =====================================================================================

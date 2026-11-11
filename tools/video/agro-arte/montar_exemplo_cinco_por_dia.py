@@ -1,5 +1,5 @@
 """Gera hf/index.html: vídeo "Cinco por dia" (recuperação judicial no agro), 1080x1080, ~59 s.
-Pinturas em código (Van Gogh, Millet) + mapa e gráficos em aquarela (p5.brush) + legenda amarela + trilha original de moda de viola.
+Pinturas em código (Bruegel, Millet, Turner; inéditas, não repetem o vídeo anterior) + mapa e gráficos em aquarela (p5.brush) + legenda amarela + trilha original de moda de viola.
 Nenhuma imagem gerada por IA; nenhum documento na tela (fonte no rodapé). Uso: python3 montar.py
 """
 import json, re
@@ -48,13 +48,13 @@ def vid(i, src, a, b, ms=0.0, tr=0):
     return (f'<video id="{i}" class="clip artv" data-start="{a:.3f}" data-duration="{b - a:.3f}" data-media-start="{ms:.2f}" '
             f'data-track-index="{tr}" muted playsinline src="assets/art/{src}.mp4"></video>')
 VIDEOS = "\n".join([
-    vid("v-temp", "rj_fazenda_tempestade", 0, C["mapa"] + XF, 0, 0),
+    vid("v-temp", "rj_ceifeiros_tempestade", 0, C["mapa"] + XF, 0, 0),
     vid("v-mapa", "mapa", C["mapa"], C["mapa_fim"], 0, 1),
     vid("v-millet", "rj_millet", C["millet"], C["barras"] + XF, 0, 2),
     vid("v-barras", "barras", C["barras"], C["vendaval"] + XF, 0, 3),
-    vid("v-vend", "mp_vendaval", C["vendaval"], C["queda"] + XF, 0, 4),
+    vid("v-vend", "rj_turner", C["vendaval"], C["queda"] + XF, 0, 4),
     vid("v-queda", "queda", C["queda"], C["abre"] + XF, 0, 5),
-    vid("v-abre", "rj_fazenda_abre", C["abre"], C["cartela"] + XF + 0.2, 0, 6),
+    vid("v-abre", "rj_ceifeiros_abre", C["abre"], C["cartela"] + XF + 0.2, 0, 6),
 ])
 caps = "\n".join(f'<div class="cap" id="cap{i}"><span>{b["txt"]}</span></div>' for i, b in enumerate(leg))
 SRC_SERASA = "FONTE: SERASA EXPERIAN, LEVANTAMENTOS DE 12/8 E 19/10/2026"
@@ -64,19 +64,19 @@ OVS = "\n".join([
     ov("o-5", M["cinco"] - 0.1, C["mapa"] + 0.2, '<div class="mao big">5 por dia</div>', "topo", 10),
     ov("o-922", M["n922"] - 0.2, C["mapa"] + 0.2, '<div class="mao num" id="n922">0</div><div class="mao sub">pedidos no 1º semestre de 2026</div>', "meio", 11),
     ov("o-src1", FI[2]["inicio"], C["mapa"] + 0.2, SRC_SERASA, "rod", 12),
-    ov("o-cred1", 0.6, FI[2]["inicio"] - 0.05, 'PINTURA FEITA EM CÓDIGO, À MANEIRA DE VAN GOGH, “A COLHEITA” (1888)', "cred", 13),
+    ov("o-cred1", 0.6, FI[2]["inicio"] - 0.05, 'PINTURA FEITA EM CÓDIGO, À MANEIRA DE BRUEGEL, “OS CEIFEIROS” (1565)', "cred", 13),
     ov("o-src2", C["mapa"] + 0.8, C["mapa_fim"], 'FONTE: SERASA EXPERIAN, 19/10/2026 · 2º TRIMESTRE DE 2026 · MAPA: NATURAL EARTH', "rod", 14),
     ov("o-cred2", C["millet"] + 0.4, C["barras"], 'PINTURA FEITA EM CÓDIGO, À MANEIRA DE MILLET, “O SEMEADOR” (1850)', "cred", 15),
     ov("o-src3", C["barras"] + 0.4, C["vendaval"], 'FONTE: SERASA EXPERIAN, 19/10/2026 · “SEM PROPRIEDADES” PODE INCLUIR ARRENDATÁRIOS', "rod", 16),
     ov("o-mot", C["vendaval"], C["queda"],
        '<div class="mot" id="m1">custos elevados</div><div class="mot" id="m2">crédito mais seletivo</div><div class="mot" id="m3">endividamento</div>', "motivos", 17),
-    ov("o-src4", C["vendaval"] + 0.4, C["queda"], SRC_SERASA + ' · PINTURA À MANEIRA DE VAN GOGH', "rod", 18),
+    ov("o-src4", C["vendaval"] + 0.4, C["queda"], SRC_SERASA + ' · PINTURA À MANEIRA DE TURNER', "rod", 18),
     ov("o-src5", C["queda"] + 0.4, C["abre"], 'FONTE: SERASA EXPERIAN, 19/10/2026 (565 PEDIDOS NO 2º TRI DE 2025; 448 NO 2º TRI DE 2026)', "rod", 19),
-    ov("o-cred3", C["abre"] + 0.4, C["cartela"], 'PINTURA FEITA EM CÓDIGO, À MANEIRA DE VAN GOGH', "cred", 20),
+    ov("o-cred3", C["abre"] + 0.4, C["cartela"], 'PINTURA FEITA EM CÓDIGO, À MANEIRA DE BRUEGEL', "cred", 20),
 ])
 CART = """<div id="ct-luz"></div><div id="ct-nome">Dr. Pelicioni</div><div id="ct-fil"></div><div id="ct-prof">ADVOGADO</div>
 <div id="ct-tese">antes da recuperação judicial, existe renegociação</div><div id="ct-direct">Dúvida sobre o seu contrato? Direct aberto.</div>
-<div id="ct-fontes">Fontes: Serasa Experian (levantamentos de 12/8 e 19/10/2026) · mapa: Natural Earth · pinturas feitas em código, à maneira de Van Gogh e Millet · trilha original</div>"""
+<div id="ct-fontes">Fontes: Serasa Experian (levantamentos de 12/8 e 19/10/2026) · mapa: Natural Earth · pinturas feitas em código, à maneira de Bruegel, Millet e Turner · trilha original</div>"""
 SFX = [("paper", C["mapa"] + 0.1, .45, .8), ("paper", C["barras"] + 0.05, .4, .8), ("whoosh", C["vendaval"] - 0.2, .25, 1.0),
        ("paper", C["queda"] + 0.05, .4, .8), ("boom", C["cartela"] + 0.1, .22, 1.5)]
 sfx = "\n".join(f'<audio id="sx{n}" class="clip" data-start="{s:.3f}" data-duration="{d}" data-track-index="{40 + n}" data-volume="{v}" src="assets/audio/sfx/{f}.mp3"></audio>' for n, (f, s, v, d) in enumerate(SFX))
