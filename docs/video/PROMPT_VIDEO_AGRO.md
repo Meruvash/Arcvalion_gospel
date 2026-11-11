@@ -4,6 +4,10 @@ Estrutura padrão para os vídeos de agronegócio a partir de 10/11/2026, por de
 @saveo.house, que foi descartado. Ela foi tirada de um Reel de referência de 51 s, enviado pelo editor, sobre a cidade
 de Itaubal (AP) e o Bolsa Família. Analisei a transcrição palavra por palavra e as folhas de contato.
 
+> **Atualização de 11/11/2026 (pedido do editor), que vale acima deste arquivo:** as "frases fixas" das batidas 3, 5 e 8
+> **não são mais assinatura**. Cada vídeo usa palavras próprias e nunca repete fórmula de vídeo anterior. A **segunda
+> voz é opcional**, só quando realmente necessária, e o padrão é não ter. Ver `docs/video/DIRECAO_VIDEO_AGRO.md`, seção 1.
+
 ## O que a referência faz (medido)
 
 - **Duração e fala:** 51 s, 157 palavras, ~3,1 palavras/s. As frases são longas e encadeadas ("porque…", "e não só…,

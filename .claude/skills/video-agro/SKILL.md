@@ -25,9 +25,11 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
    `DIRECAO_VIDEO_AGRO.md`.
 
 ## Não fazer
+- Repetir frase-fórmula de vídeo anterior ("Parece erro. Mas não é.", "E é justamente aí que a história fica ainda mais estranha…" ou qualquer outra). Cada roteiro com palavras próprias.
+- Usar segunda voz sem necessidade real (o padrão é não ter).
 - Repetir o ângulo de um vídeo anterior.
 - Usar documento em tela cheia por muito tempo.
-- Mostrar TV ou onda de áudio para a segunda voz.
+- Mostrar TV ou onda de áudio quando houver segunda voz.
 - Pintar rosto de frente.
 - Usar imagem de IA, foto sem licença, estilo de artista vivo ou estúdio, Portinari ou Tarsila.
 - Fazer render antes de o roteiro ser aprovado.

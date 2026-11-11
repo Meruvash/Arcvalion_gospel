@@ -17,13 +17,16 @@ completo e aprovado: `docs/video/roteiros/mp1376-prazo-quinta.md`.
 5. Entrega: MP4 quadrado e a lista do que o editor precisa ouvir ou conferir.
 
 ## 1. Roteiro: o que vale além do PROMPT_VIDEO_AGRO.md
-- **Estrutura "Você sabia" (10 batidas)**, com as frases fixas: "Parece erro. Mas não é." e
-  "E é justamente aí que a história fica ainda mais estranha, porque…".
+- **Estrutura "Você sabia" (10 batidas)**, mas **sem frases fixas** (pedido do editor, 11/11/2026). As batidas de
+  confirmação e de virada mudam de palavras a cada vídeo. **Nunca repetir** "Parece erro. Mas não é." nem
+  "E é justamente aí que a história fica ainda mais estranha…", nem outra fórmula já usada num vídeo anterior.
+  Antes de entregar o roteiro, compare com os roteiros em `docs/video/roteiros/` e troque qualquer frase repetida.
 - **Gancho com prazo, número ou consequência concreta** para quem produz. Fazer a pergunta "o que
   isso muda pro produtor?" antes de "o que diz a norma?".
-- **Segunda voz**: até 2 reações curtas, no lugar do espectador ("Peraí. Até quinta-feira?").
-  **Sem TV, sem moldura e sem onda de áudio na tela**: o editor achou que "parece que está acusando
-  alguém". A reação toca **sobre a imagem do assunto**.
+- **Segunda voz: só se for realmente necessária** (pedido do editor, 11/11/2026). O padrão é **não ter**.
+  Ela só entra quando o vídeo não funciona sem ela, por exemplo num diálogo que é o próprio formato do episódio.
+  Nesse caso, diga no roteiro por que ela é necessária. Quando entrar: nada de TV, moldura ou onda de áudio
+  na tela (o editor achou que "parece que está acusando alguém"); a fala toca sobre a imagem do assunto.
 - **Datas relativas** ("hoje", "amanhã", "quinta") só se a data de publicação estiver combinada.
   Avise na entrega quais frases dependem do dia.
 - **Conclusão do advogado** (batida 10, voz clonada do editor), nos limites do Provimento 205/2021.
@@ -108,7 +111,7 @@ o código desenha rosto mal, e foi o que derrubou a cena do Almeida Júnior.
 - Narrador "Marcio - Viral Hook Narrator" (ElevenLabs `plASsyS7JE6GCAvx9uIc`, `eleven_v3`).
   - **Se uma fala sair com sotaque de Portugal**, regerar com `eleven_multilingual_v2` na mesma voz.
     Foi o que corrigiu a fala 10 do vídeo da MP 1.376.
-- Segunda voz: Matheus (`36rVQA1AOIPwpA3Hg1tC`), salvo escolha do editor.
+- Segunda voz (só quando necessária): Matheus (`36rVQA1AOIPwpA3Hg1tC`), salvo escolha do editor.
 - Conclusão: clone do editor (`jEMMnqfzSCpo1eh8s9YJ`) com `eleven_multilingual_v2`. Não acelerar
   essa fala.
 - Pós-processamento: encurtar pausas acima de 0,3 s e acelerar 8% o narrador.
