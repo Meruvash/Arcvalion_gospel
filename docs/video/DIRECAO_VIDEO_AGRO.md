@@ -103,17 +103,21 @@ o código desenha rosto mal, e foi o que derrubou a cena do Almeida Júnior.
 ### 2.6 Mapas e dados em aquarela (p5.brush, desde 11/11/2026)
 - **Mapa sempre em aquarela com lápis**, desenhado com o p5.brush (`tools/video/agro-arte/lib/p5brush/`):
   - Brasil em lavagem clara e contorno a lápis;
-  - estados da história "molhados" um a um no ritmo da fala, com o número escrito a lápis ao lado;
+  - estados da história "molhados" um a um no ritmo da fala, **em tons de verde** (pedido do editor, 11/11/2026),
+    com o número escrito a lápis ao lado;
   - setas e círculos em carvão.
 - Mapa só entra quando há **dado geográfico verificado**. Mapa sem dado é enfeite.
 - Números em sequência (ranking, antes/depois, série trimestral) viram **gráfico de caderno de campo**:
   barras ou linha em aquarela, eixo e rótulos a lápis, valor escrito à mão. Isso substitui o print do
   documento sempre que possível.
+- Ferramentas: `tools/video/agro-arte/aquarela/` (`mapa.html`, `graficos.html` e `render_frames.cjs`, que renderiza quadro a
+  quadro no Chromium sem GPU; o mapa leva de 3 a 5 s por quadro).
 - Geometria dos estados: Natural Earth 1:10m admin-1 (domínio público) ou malha do IBGE, com a fonte
   no rodapé.
 
 ## 3. Voz e som
-- Narrador "Marcio - Viral Hook Narrator" (ElevenLabs `plASsyS7JE6GCAvx9uIc`, `eleven_v3`).
+- Narrador "Marcio - Viral Hook Narrator" (ElevenLabs `plASsyS7JE6GCAvx9uIc`). **Desde 11/11/2026, gravar todas as falas no
+  `eleven_multilingual_v2`** (`tools/video/agro-arte/gerar_vozes_v2.py`): o `eleven_v3` puxou sotaque de Portugal.
   - **Se uma fala sair com sotaque de Portugal**, regerar com `eleven_multilingual_v2` na mesma voz.
     Foi o que corrigiu a fala 10 do vídeo da MP 1.376.
 - Segunda voz (só quando necessária): Matheus (`36rVQA1AOIPwpA3Hg1tC`), salvo escolha do editor.
@@ -122,7 +126,10 @@ o código desenha rosto mal, e foi o que derrubou a cena do Almeida Júnior.
 - Pós-processamento: encurtar pausas acima de 0,3 s e acelerar 8% o narrador.
 - **Toda fala é transcrita e comparada com o roteiro.** Se uma palavra vier trocada (no vídeo da MP
   1.376, "pede" saiu no lugar de "perde"), regerar com outra semente até bater.
-- Mixagem: trilha a 0,12 com fade; efeitos de papel, carimbo e whoosh nas entradas; entrega a
+- **Trilha: original, instrumental, estilo moda de viola / sertanejo raiz** (pedido do editor, 11/11/2026): viola
+  caipira ponteada, violão, sanfona leve. Gerar com `tools/video/agro-arte/trilha/gerar_trilha.py` e conferir por
+  transcrição que não há voz cantada. Nunca imitar música existente.
+- Mixagem: trilha a ~0,16 com fade; efeitos de papel, carimbo e whoosh nas entradas; entrega a
   −14,5 LUFS e −1,5 dBTP.
 
 ## 4. Entrega

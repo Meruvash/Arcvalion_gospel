@@ -87,6 +87,72 @@
     return { draw };
   })();
 
+
+  // =====================================================================================
+  // RJ) Vídeo "Cinco por dia": fazenda com tempestade chegando / abrindo, e "O Semeador" à maneira de Millet
+  // =====================================================================================
+  let stormPlate = null;
+  function storm(c, k, t) {                                  // k: 0 = céu limpo, 1 = tempestade cheia
+    if (!stormPlate) { const a = P.canvas(), g = a.getContext('2d'), r = rng(171);
+      for (let i = 0; i < 60; i++) { g.save(); g.filter = 'blur(10px)'; g.fillStyle = r() < 0.5 ? 'rgba(40,46,70,.85)' : 'rgba(80,86,110,.75)'; g.beginPath(); g.ellipse(r() * 2400 - 200, 20 + r() * 380, 140 + r() * 260, 50 + r() * 90, 0, 0, TAU); g.fill(); g.restore(); }
+      stormPlate = M.broken(a, { cell: 11, len: 34, wid: 9, passes: 2, angle: (x, y) => -0.2 + 0.4 * Math.sin(x * 0.004 + y * 0.01), seed: 17, jit: 16, skip: 0.04, warm: [190, 190, 210], cool: [40, 40, 80] }); }
+    if (k <= 0) return;
+    c.save(); c.globalCompositeOperation = 'multiply'; c.fillStyle = `rgba(70,78,104,${0.55 * k})`; c.fillRect(0, 0, W, H); c.restore();
+    c.save(); c.globalAlpha = Math.min(1, k * 1.15); c.drawImage(stormPlate, -500 * (1 - k) - t * 10, 0, W + 400, 520 * (0.6 + 0.4 * k)); c.restore();
+    if (k > 0.55) { const a = (k - 0.55) / 0.45; c.save(); c.strokeStyle = `rgba(210,220,240,${0.45 * a})`; c.lineWidth = 2; c.lineCap = 'round'; const r = rng(31);
+      for (let i = 0; i < 260; i++) { const x0 = r() * 2100 - 100, ph = r(), f = ((t * 1.1 + ph) % 1), y = f * 1140 - 40, x = x0 - f * 160; c.beginPath(); c.moveTo(x, y); c.lineTo(x + 10, y - 44); c.stroke(); } c.restore(); }
+  }
+  SCENES['rj_fazenda_tempestade'] = { draw(c, lt) { const t = Math.max(0, lt); SCENES['mp_fazenda'].draw(c, t); storm(c, ss(0.8, 5.5, t) * 0.92, t); } };
+  SCENES['rj_fazenda_abre'] = { draw(c, lt) { const t = Math.max(0, lt); SCENES['mp_fazenda'].draw(c, t + 6); storm(c, 0.92 - ss(0.3, 3.8, t) * 0.62, t + 6); } };
+
+  // "O Semeador" (Millet, 1850, domínio público) — composição nova: semeador de perfil em terra arrendada, entardecer
+  SCENES['rj_millet'] = (() => {
+    let plate, built = false;
+    function build() {
+      const a = P.canvas(), g = a.getContext('2d'), r = rng(181);
+      g.fillStyle = grad(g, 0, 0, 0, 560, [[0, '#4a5470'], [0.5, '#9a8a78'], [1, '#f0c878']]); g.fillRect(0, 0, W, 600);
+      const sg = g.createRadialGradient(1380, 500, 10, 1380, 500, 700); sg.addColorStop(0, 'rgba(255,214,140,.85)'); sg.addColorStop(1, 'rgba(255,214,140,0)'); g.fillStyle = sg; g.fillRect(0, 0, W, 600);
+      // colina em diagonal (terra lavrada), escura à frente
+      g.fillStyle = grad(g, 0, 380, 0, H, [[0, '#7a6440'], [0.4, '#5e4a2e'], [1, '#3a2c1c']]); poly(g, [[0, 420], [700, 470], [1920, 640], [1920, 1080], [0, 1080]]); g.fill();
+      for (let i = 0; i < 70; i++) { const y = 470 + Math.pow(i / 70, 1.3) * 620; g.strokeStyle = i % 2 ? 'rgba(120,96,60,.6)' : 'rgba(40,30,18,.6)'; g.lineWidth = 3 + i * 0.12; g.beginPath(); g.moveTo(0, y - 40 + i * 0.6); g.lineTo(W, y + 150 - i * 1.4); g.stroke(); }
+      // boi e lavrador ao longe, no topo da colina
+      g.fillStyle = '#2e2418'; g.fillRect(1500, 600, 60, 26); g.fillRect(1505, 624, 6, 14); g.fillRect(1548, 624, 6, 14); g.fillRect(1590, 590, 10, 40);
+      // cerca e placa "ARRENDADA" na margem direita
+      g.strokeStyle = '#3a2c1c'; g.lineWidth = 7; for (let k = 0; k < 6; k++) { const x = 1180 + k * 70, y = 640 + k * 12; g.beginPath(); g.moveTo(x, y + 90); g.lineTo(x + 2, y); g.stroke(); }
+      g.lineWidth = 4; g.beginPath(); g.moveTo(1180, 660); g.lineTo(1530, 720); g.moveTo(1180, 690); g.lineTo(1530, 750); g.stroke();
+      return M.broken(a, { cell: 10, len: 28, wid: 8, passes: 2, angle: (x, y) => y < 520 ? -0.08 : 0.12 + (y - 500) * 0.0002, seed: 19, jit: 14, skip: 0.04, warm: [240, 200, 140], cool: [70, 70, 90], sat: 0.85 });
+    }
+    function sign(c) { c.save(); c.translate(1250, 600); c.rotate(-0.05); c.fillStyle = '#d8c8a0'; c.fillRect(-90, -34, 180, 58); c.strokeStyle = '#3a2c1c'; c.lineWidth = 4; c.strokeRect(-90, -34, 180, 58); c.fillStyle = '#3a2c1c'; c.fillRect(-6, 24, 12, 70);
+      c.font = '700 30px Georgia, serif'; c.textAlign = 'center'; c.fillStyle = '#2a1e12'; c.fillText('ARRENDADA', 0, 6); c.restore(); }
+    function sower(c, t) {                                    // silhueta grande, de perfil, passada diagonal, braço lançando a semente
+      const cv = P.scratch('ml_sower'); if (cv.width !== 900) { cv.width = 900; cv.height = 900; } const g = cv.getContext('2d'); g.reset(); g.clearRect(0, 0, 900, 900);
+      const ph = t * 1.5, arm = Math.sin(ph), step = Math.sin(ph) * 30;
+      g.save(); g.translate(430, 820); g.scale(1.7, 1.7);
+      g.fillStyle = '#2a2016'; poly(g, [[-16, -170], [-62 - step, 0], [-40 - step, 4], [10, -160]]); g.fill();          // perna de trás
+      poly(g, [[-6, -170], [52 + step, -6], [76 + step, -2], [22, -168]]); g.fill();                                       // perna da frente
+      g.fillStyle = '#4a3220'; g.beginPath(); g.moveTo(-34, -330); g.quadraticCurveTo(-52, -250, -30, -160); g.lineTo(34, -160); g.quadraticCurveTo(50, -250, 30, -334); g.closePath(); g.fill();   // casaco
+      g.fillStyle = '#6e4a2c'; g.beginPath(); g.ellipse(-30, -215, 30, 44, 0.3, 0, TAU); g.fill();                         // bolsa de sementes
+      g.save(); g.translate(20, -318); g.rotate(-1.9 + arm * 1.2); g.fillStyle = '#3a2618'; g.beginPath(); g.moveTo(-9, 0); g.lineTo(9, 0); g.lineTo(7, 130); g.lineTo(-7, 130); g.closePath(); g.fill(); g.fillStyle = '#7a5236'; g.beginPath(); g.arc(0, 136, 11, 0, TAU); g.fill(); g.restore();
+      g.fillStyle = '#5a3c26'; g.beginPath(); g.ellipse(8, -362, 24, 28, 0.2, 0, TAU); g.fill();
+      g.fillStyle = '#2a1e14'; g.beginPath(); g.ellipse(6, -382, 44, 11, -0.2, 0, TAU); g.fill(); g.beginPath(); g.ellipse(2, -392, 25, 19, -0.2, Math.PI, TAU); g.fill();
+      g.restore();
+      const rep = M.broken(cv, { cell: 6, len: 14, wid: 5, passes: 2, angle: (x, y) => 1.2 + 0.3 * Math.sin(y * 0.05), seed: 29, jit: 12, skip: 0.05, sat: 0.9, warm: [230, 190, 140], cool: [60, 50, 70] });
+      const x0 = 540 - t * 10; c.drawImage(rep, x0, 230);
+      const r = rng(5 + Math.floor(t * 8)); c.fillStyle = 'rgba(245,220,160,.9)';                                        // sementes no ar
+      const hx = x0 + 430 + Math.cos(-1.9 + arm * 1.2 + Math.PI / 2) * 230, hy = 230 + 820 - 318 * 1.7 + Math.sin(-1.9 + arm * 1.2 + Math.PI / 2) * 230;
+      for (let i = 0; i < 46; i++) { const d = 20 + r() * 300, a2 = 0.2 + r() * 1.0; c.beginPath(); c.arc(hx + Math.cos(a2) * d, hy + Math.sin(a2) * d * 0.9, 2.5 + r() * 2, 0, TAU); c.fill(); }
+    }
+    const crows = Array.from({ length: 9 }, (_, i) => { const r = rng(900 + i); return [r() * 900 + 200, 160 + r() * 260, r() * TAU]; });
+    function draw(c, lt) {
+      if (!built) { plate = build(); built = true; }
+      const t = Math.max(0, lt);
+      c.drawImage(plate, 0, 0); sign(c); sower(c, t);
+      c.save(); c.strokeStyle = '#1e1a16'; c.lineWidth = 3; c.lineCap = 'round'; crows.forEach(([x, y, p]) => { const xx = x + t * 30, yy = y + Math.sin(t * 1.3 + p) * 8, f = Math.sin(t * 7 + p) * 9; c.beginPath(); c.moveTo(xx - 16, yy + f * .5); c.quadraticCurveTo(xx - 7, yy - f, xx, yy); c.quadraticCurveTo(xx + 7, yy - f, xx + 16, yy + f * .5); c.stroke(); }); c.restore();
+      c.save(); c.globalCompositeOperation = 'multiply'; c.globalAlpha = 0.2; c.drawImage(P.texture('canvas_ml', '#e6dcc4', { scale: 0.006, amt: 14, grain: 8, seed: 12 }), 0, 0); c.restore();
+    }
+    return { draw };
+  })();
+
   // =====================================================================================
   // 1) Almeida Júnior — REPROVADA pelo editor em 10/11/2026 (figura fraca, imagem pouco bonita). Fica só como registro; não usar.
   // =====================================================================================

@@ -1,4 +1,4 @@
-# "Cinco por dia": recuperação judicial no agro — roteiro v3 (para aprovação)
+# "Cinco por dia": recuperação judicial no agro — roteiro v3 (aprovado em 11/11/2026; vídeo produzido)
 
 - **Estrutura:** "Você sabia" (`docs/video/PROMPT_VIDEO_AGRO.md`).
 - **Imagem:** `docs/video/DIRECAO_VIDEO_AGRO.md`, com cerca de 95% do tempo em animação e só 1 inserção de documento.
@@ -53,3 +53,11 @@ Fonte: Serasa Experian, sala de imprensa.
 | Documento na tela | Nenhum (fonte no rodapé) |
 | Birô de crédito na narração | Não citado |
 | Pinturas | Feitas em código; nenhuma imagem de IA |
+
+## Produção (11/11/2026)
+- **Aprovado pelo editor:** v3 com a fala nova na conclusão. Prévia do mapa aprovada.
+- **Mapa:** estados em **verde** (pedido do editor), feito com p5.brush.
+- **Fala 8:** **duas barras** (2º tri de 2025 × 2º tri de 2026) no lugar da linha. A linha passaria pelo 1º tri de 2026 e sugeriria uma série contínua, mas faltam os trimestres do meio.
+- **Trilha:** original e instrumental, estilo moda de viola (ElevenLabs Music). A transcrição conferiu que não há voz cantada.
+- **Vozes:** narrador e conclusão gravados com `eleven_multilingual_v2`.
+- **Ferramentas:** `tools/video/agro-arte/montar_exemplo_cinco_por_dia.py`, `aquarela/` e `cenas/` (cenas `rj_*`).

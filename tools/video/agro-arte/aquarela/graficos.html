@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Gráficos em aquarela · recuperação judicial no agro</title>
+<style>
+@font-face{font-family:'Caveat';src:url(caveat-700.woff2) format('woff2');font-weight:700}
+html,body{margin:0;width:1080px;height:1080px;overflow:hidden;background:#f3ead8}
+#c{position:absolute;left:0;top:0;z-index:1}
+#labels{position:absolute;inset:0;z-index:5;font-family:'Caveat';color:#2b211a}
+.t{position:absolute;opacity:0;white-space:nowrap}
+.tit{left:90px;top:84px;font:700 54px/1.05 'Caveat'}
+.tit small{display:block;font-size:36px;color:#5a4a36}
+.lbl{font:700 44px/1 'Caveat'}
+.num{font:700 92px/1 'Caveat';color:#163d1c}
+.pct{font:700 104px/1 'Caveat';color:#1e6b2c}
+</style></head><body>
+<div id="labels"></div>
+<script src="../lib/p5brush/brush.js"></script>
+<script>
+// Gráficos de caderno de campo em aquarela (p5.brush). Modo pelo hash: #barras ou #queda. Quadro = função do tempo local τ.
+// Dados (Serasa Experian, 19/10/2026): produtor pessoa física, 2º tri 2026 — sem propriedades 70, grandes 51, pequenos 39, médios 37;
+// total do agro: 2º tri 2025 = 565, 2º tri 2026 = 448 (−20,7%).
+const S = 1080, MODO = location.hash.slice(1) || 'barras';
+brush.createCanvas(S, S, { id: 'c' }); brush.scaleBrushes(1.5);
+const ease = x => x <= 0 ? 0 : x >= 1 ? 1 : x * x * (3 - 2 * x), ramp = (t, a, d) => ease((t - a) / d);
+const L = document.getElementById('labels');
+const add = (cls, html, x, y) => { const d = document.createElement('div'); d.className = 't ' + cls; d.innerHTML = html; if (x != null) { d.style.left = x + 'px'; d.style.top = y + 'px'; } L.appendChild(d); return d; };
+const wash = (x, y, w, h, cor, op, k) => { if (k <= 0) return; brush.noStroke(); brush.fill(cor, op); brush.fillBleed(0.18, 'out'); brush.fillTexture(0.55, 0.35);
+  brush.beginShape(); brush.vertex(x, y); brush.vertex(x + w * k, y + 4); brush.vertex(x + w * k, y + h); brush.vertex(x, y + h - 3); brush.endShape(true); brush.noFill(); };
+const pencil = (pts, peso = 1.4) => { brush.set('2B', '#3a3026', peso); brush.beginShape(); pts.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(false); };
+const oval = (cx, cy, rx, ry, k) => { if (k <= 0) return; brush.set('charcoal', '#2b211a', 1.8); brush.beginShape(); const n = Math.max(3, Math.round(44 * k));
+  for (let i = 0; i <= n; i++) { const a = -1.3 + i / 44 * Math.PI * 2.08; brush.vertex(cx + Math.cos(a) * rx * (1 + .03 * Math.sin(i)), cy + Math.sin(a) * ry); } brush.endShape(false); };
+let draw;
+if (MODO === 'barras') {
+  const B = [['sem propriedades<br><small style="font-size:30px">(ex.: arrendatários)</small>', 70, 0.2], ['grandes', 51, 0.55], ['pequenos', 39, 0.9], ['médios', 37, 1.25]];
+  const X0 = 360, Y0 = 280, BH = 120, GAP = 60, U = 8.4;
+  const tit = add('tit', 'Pedidos de produtores pessoa física<small>2º trimestre de 2026, por porte</small>');
+  const lb = B.map(([n], i) => add('lbl', n, 70, Y0 + i * (BH + GAP) + 34));
+  const nb = B.map(([, v], i) => add('num', v, X0 + v * U + 26, Y0 + i * (BH + GAP) + 14));
+  draw = (t) => {
+    brush.seed(21); brush.noiseSeed(21); brush.clear('#f3ead8'); brush.push(); brush.translate(-S / 2, -S / 2);
+    pencil([[X0 - 6, Y0 - 30], [X0 - 4, Y0 + 4 * (BH + GAP) - 20]], 1.6 * ramp(t, 0, .5) + .1);
+    B.forEach(([, v, t0], i) => { const k = ramp(t, t0, .9), y = Y0 + i * (BH + GAP);
+      const hl = (i === 1 && t > 1.6) || (i === 2 && t > 3.54);
+      wash(X0, y, v * U, BH, hl ? '#1e6b2c' : '#7fb26a', hl ? 200 : 150, k); });
+    oval(X0 + 260, Y0 + 1.5 * (BH + GAP) + BH / 2, 400, 175, ramp(t, 4.38, .7));
+    brush.pop(); brush.render();
+    tit.style.opacity = ramp(t, 0, .5);
+    B.forEach(([, , t0], i) => { lb[i].style.opacity = ramp(t, t0, .4); nb[i].style.opacity = ramp(t, t0 + .7, .4); });
+  };
+} else {
+  const B = [['2º tri<br>2025', 565, 0.3], ['2º tri<br>2026', 448, 1.25]];
+  const BASE = 860, U = 0.95, W = 220, XS = [170, 460];
+  const tit = add('tit', 'Pedidos de recuperação judicial no agro<small>mesmo trimestre, um ano depois</small>');
+  const lb = B.map(([n], i) => add('lbl', n, XS[i] + 40, BASE + 24));
+  const nb = B.map(([, v], i) => add('num', v, XS[i] + 40, BASE - v * U - 110));
+  const pct = add('pct', '−20,7%', 720, 400);
+  draw = (t) => {
+    brush.seed(31); brush.noiseSeed(31); brush.clear('#f3ead8'); brush.push(); brush.translate(-S / 2, -S / 2);
+    pencil([[150, BASE + 2], [960, BASE + 6]], 1.6 * ramp(t, 0, .5) + .1);
+    B.forEach(([, v, t0], i) => { const k = ramp(t, t0, .9), h = v * U * k; if (k > 0) { brush.noStroke(); brush.fill(i ? '#1e6b2c' : '#9cc489', i ? 200 : 160); brush.fillBleed(0.18, 'out'); brush.fillTexture(0.55, .35);
+      brush.beginShape(); brush.vertex(XS[i], BASE); brush.vertex(XS[i] + W, BASE - 3); brush.vertex(XS[i] + W, BASE - h); brush.vertex(XS[i], BASE - h + 4); brush.endShape(true); brush.noFill(); } });
+    const a = ramp(t, 2.8, .7); if (a > 0) { const x1 = XS[0] + W / 2, y1 = BASE - 565 * U - 40, x2 = XS[1] + W / 2, y2 = BASE - 448 * U - 40;
+      pencil([[x1, y1], [x1 + (x2 - x1) * a, y1 + (y2 - y1) * a]], 2.2); if (a > .95) { pencil([[x2 - 34, y2 - 10], [x2, y2], [x2 - 26, y2 + 24]], 2.2); } }
+    brush.pop(); brush.render();
+    tit.style.opacity = ramp(t, 0, .5);
+    B.forEach(([, , t0], i) => { lb[i].style.opacity = ramp(t, t0, .4); nb[i].style.opacity = ramp(t, t0 + .7, .4); });
+    pct.style.opacity = ramp(t, 3.0, .4); pct.style.transform = `rotate(-5deg) scale(${0.85 + 0.15 * ramp(t, 3.0, .4)})`;
+  };
+}
+window.drawFrame = (t) => draw(t);
+window.READY = document.fonts.ready.then(() => true);
+</script></body></html>
