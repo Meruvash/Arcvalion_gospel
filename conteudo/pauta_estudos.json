@@ -212,16 +212,16 @@
   {
    "questao": "Paulo e Tiago se contradizem sobre fé e obras?",
    "passagem": "Tiago 2:14-26",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "fe-obras-tiago-2",
    "obs": "",
    "tipo": "debate"
   },
   {
    "questao": "O cristão pode viver sem pecar? (santificação em Wesley e na tradição reformada)",
    "passagem": "1 João 3:4-10",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "viver-sem-pecar-1-joao-3",
    "obs": "",
    "tipo": "debate"
   },
@@ -565,17 +565,25 @@
    "questao": "Porque Deus amou o mundo de tal maneira",
    "passagem": "João 3:14-21",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "joao-3-16",
    "obs": ""
   },
   {
    "questao": "Ide e fazei discípulos: a Grande Comissão",
    "passagem": "Mateus 28:16-20",
    "tipo": "passagem",
-   "status": "na_fila",
-   "slug": "",
+   "status": "publicado",
+   "slug": "grande-comissao-mateus-28",
    "obs": ""
+  },
+  {
+   "questao": "A mente de Cristo: o Senhor que se esvaziou e foi exaltado",
+   "passagem": "Filipenses 2:5-11",
+   "tipo": "passagem",
+   "status": "publicado",
+   "slug": "filipenses-2",
+   "obs": "Acrescentado em 11/11/2026 pela rotina de estudos: a fila de passagens tinha só dois temas."
   }
  ]
 }
