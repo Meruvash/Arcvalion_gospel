@@ -1,0 +1,207 @@
+{
+ "slug": "tse-multa-meta-75-milhoes-descumprir-decisoes-eleicoes",
+ "data": "2026-11-11",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Vale acompanhar",
+ "titulo": "TSE multa a Meta em R$ 7,5 milhões por descumprir decisões nas eleições",
+ "lide": "O TSE decidiu por unanimidade nesta terça-feira (10) multar a Meta, dona de Facebook, Instagram e WhatsApp, em R$ 7,5 milhões por cumprir com atraso e de forma incompleta as ordens da Corte durante a campanha. O caso nasceu de ação da coligação de Lula, que acusa a empresa de favorecer Flávio Bolsonaro; a Meta nega.",
+ "por_que_importa": "A multa é pelo jeito como a empresa respondeu ao tribunal, não pela acusação de favorecimento, que segue em apuração. O caso mostra o poder das redes sobre o que o eleitor vê e acende o debate sobre quem fiscaliza os algoritmos. Para a oposição, o tema também toca na liberdade de expressão nas plataformas.",
+ "numeros": [
+  [
+   "R$ 7,5 milhões",
+   "valor da multa aplicada à Meta por unanimidade",
+   "Agência Brasil e g1, 10/11/2026"
+  ],
+  [
+   "17",
+   "medidas de esclarecimento que o relator diz ter determinado à Meta durante as eleições",
+   "Agência Brasil, 10/11/2026"
+  ],
+  [
+   "7 a 0",
+   "placar do julgamento, que seguiu o voto do relator Marco Aurélio Bellizze",
+   "Agência Brasil, 10/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo o g1, o relator apontou que a Meta substituiu prazos fixados pelo TSE por prazos próprios e apresentou informações fracionadas, em língua estrangeira e linguagem técnica. Pela Agência Brasil, Bellizze disse que as informações careceram de transparência. O g1 relata que o relator também afirmou não ser possível apontar, neste processo, que a empresa agiu de forma deliberada para desequilibrar o pleito.",
+  "A Agência Brasil informa que a multa não encerra o caso: o TSE continua investigando se houve favorecimento, sem prazo para o julgamento final. Em outubro, a Meta publicou que só conseguiria cumprir a ordem do TSE sobre anúncios eleitorais criando um sistema novo em poucos dias, com risco de erros e de bloqueio indevido de anunciantes autorizados."
+ ],
+ "no_brasil": "Na campanha, Bellizze determinou que a Meta garantisse tratamento igual às campanhas de Lula e de Flávio Bolsonaro, decisão mantida pelo plenário, segundo o g1. Votaram com o relator Sergio Kukina, Estela Aranha, Nauê Bernardo, André Mendonça, Dias Toffoli e o presidente, Kassio Nunes Marques.",
+ "critica": [
+  {
+   "fonte": "Ministro André Mendonça, vice-presidente do TSE, segundo o g1",
+   "texto": "A importância do cumprimento das decisões judiciais é o eixo central",
+   "citacao": true,
+   "url": "https://g1.globo.com/politica/noticia/2026/11/10/tse-meta-descumprir-decisao-sobre-eleicoes.ghtml"
+  },
+  {
+   "fonte": "Meta, segundo o g1",
+   "texto": "São falsas alegações de que a Meta interferiu ou favoreceu em nome de qualquer candidato ou grupo político",
+   "citacao": true,
+   "url": "https://g1.globo.com/politica/noticia/2026/11/10/tse-meta-descumprir-decisao-sobre-eleicoes.ghtml"
+  },
+  {
+   "fonte": "Angelo Ferraro, advogado da campanha de Lula, segundo a Agência Brasil",
+   "texto": "Para a Meta, tudo isso foi um erro. Mas, ela não explica que o erro foi só para um lado",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/tse-multa-meta-em-r-75-milhoes-por-descumprir-decisao-nas-eleicoes"
+  }
+ ],
+ "para_quem": [
+  "Quem acompanha a eleição de 2026: a acusação de favorecimento a Flávio Bolsonaro ainda não foi julgada",
+  "Quem usa as redes para falar de fé e política: o caso reforça a pressão por regras sobre algoritmos",
+  "Igrejas e ministérios que impulsionam conteúdo: decisões da Justiça Eleitoral mudam o que pode ser anunciado"
+ ],
+ "nao_e_para": [
+  "O TSE não decidiu que a Meta favoreceu um candidato; a multa é por descumprir prazos e dar informações incompletas",
+  "O resultado da eleição não é afetado por esta decisão",
+  "A íntegra do voto não foi lida: o site do TSE bloqueia leitura automática"
+ ],
+ "veredito": "Ordem judicial se cumpre, e empresa bilionária não está acima disso. Mas a multa é por atraso, não por fraude, e convém não transformar falha técnica em tese de conspiração. O cuidado agora é que fiscalizar algoritmo não vire porta para controlar o que o cidadão pode dizer.",
+ "versiculo": {
+  "texto": "Quem é fiel no mínimo também é fiel no muito; quem é injusto no mínimo também é injusto no muito",
+  "referencia": "Lucas 16.10",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Meta: Como a Meta está cumprindo a determinação do TSE sobre anúncios eleitorais no Brasil (outubro de 2026)",
+   "url": "https://about.fb.com/br/news/2026/10/como-a-meta-esta-cumprindo-a-determinacao-do-tse-sobre-anuncios-eleitorais-no-brasil/",
+   "data": "10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: TSE multa Meta em R$ 7,5 milhões por descumprir decisão nas eleições (10/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/tse-multa-meta-em-r-75-milhoes-por-descumprir-decisao-nas-eleicoes",
+   "data": "10/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "g1: TSE decide multar Meta em R$ 7,5 milhões por descumprir decisão durante as eleições (10/11/2026)",
+   "url": "https://g1.globo.com/politica/noticia/2026/11/10/tse-meta-descumprir-decisao-sobre-eleicoes.ghtml",
+   "data": "10/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 69,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "O fato é sobre a eleição presidencial e a liderança da oposição: ação da campanha de Lula acusa a Meta de favorecer Flávio Bolsonaro"
+  },
+  "origem": {
+   "nome": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/tse-multa-meta-em-r-75-milhoes-por-descumprir-decisao-nas-eleicoes"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Decisão unânime do TSE já tomada que multa a Meta em R$ 7,5 milhões; o mérito do favorecimento segue aberto"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Eleição presidencial, Flávio Bolsonaro e liberdade nas redes: núcleo político do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Julgamento de terça-feira, 10/11, menos de 48 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Duas reportagens próprias e independentes, Agência Brasil e g1, que concordam nos fatos; o site do TSE bloqueia leitura automática"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Acrescenta a nota da própria Meta, de outubro, sobre as dificuldades técnicas para cumprir a ordem do TSE"
+   }
+  },
+  "publico": {
+   "pontos": 16,
+   "eixos": {
+    "valor": 7,
+    "viral": 6,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: nota oficial da Meta (2)",
+    "Ato de poder: julgamento do TSE (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Bellizze, Mendonça, Flávio (1)",
+    "Número forte: R$ 7,5 milhões (1)",
+    "Tema que já mobiliza o público: eleição e redes (2)",
+    "Contraste: multa por atraso, não por favorecimento (2)",
+    "Passagem bíblica que um pastor usaria: Lucas 16.10 (2)",
+    "Gatilho no calendário: julgamento do mérito (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "TSE multa Meta em R$ 7,5 milhões por descumprir decisão nas eleições",
+  "nucleo": "A - Brasil",
+  "categoria": "Justiça Eleitoral / redes",
+  "coleta": "2026-11-11",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado em duas reportagens independentes",
+   "contradicoes": "A Agência Brasil grafa o relator como Belizze; o g1, como Bellizze. A nota usa Bellizze.",
+   "sem_confirmacao": "íntegra do voto; prazo para o julgamento do mérito; se a Meta vai recorrer"
+  },
+  "duplicidade": {
+   "grupo": "Meta no TSE",
+   "itens": [
+    "Agência Brasil 10/11",
+    "g1 10/11",
+    "O Observador 10/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber por que o TSE multou a Meta",
+   "entidades": [
+    "TSE",
+    "Meta",
+    "Marco Aurélio Bellizze",
+    "André Mendonça",
+    "Flávio Bolsonaro",
+    "Lula"
+   ],
+   "termos": [
+    "TSE multa Meta",
+    "Meta favoreceu Flávio",
+    "multa 7,5 milhões Meta"
+   ],
+   "atualizacao": "acompanhar o julgamento do mérito sobre favorecimento"
+  }
+ },
+ "descricao_seo": "O TSE multou a Meta em R$ 7,5 milhões por cumprir com atraso e de forma incompleta ordens da eleição; acusação de favorecimento segue em apuração.",
+ "instituicao": "Tribunal Superior Eleitoral",
+ "editora": "Tribunal Superior Eleitoral",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das reportagens e da nota da Meta, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos atribuídos à Agência Brasil e ao g1, frases lidas nas reportagens, e a posição da Meta registrada com destaque. A nota deixa claro que o TSE não julgou o favorecimento e não acusa nenhuma das partes de fraude.",
+ "imagem": {
+  "arquivo": "capas/tse-multa-meta-75-milhoes-descumprir-decisoes-eleicoes.jpg",
+  "credito": "Foto: Rafa Neddermeyer/Agência Brasil",
+  "alt": "Sede do Tribunal Superior Eleitoral, em Brasília (foto de arquivo, julho de 2026)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/J2bVEt-OSPPp8M2ISG7jl1YRn14=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/16/_raf1324.jpg?itok=PawIKfCD",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/condenado-por-lesao-corporal-contra-mulher-fica-inelegivel-decide-tse"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-11T02:31:41-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-11T02:31:41-03:00"
+}
