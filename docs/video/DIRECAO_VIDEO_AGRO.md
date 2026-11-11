@@ -27,6 +27,11 @@ completo e aprovado: `docs/video/roteiros/mp1376-prazo-quinta.md`.
   Ela só entra quando o vídeo não funciona sem ela, por exemplo num diálogo que é o próprio formato do episódio.
   Nesse caso, diga no roteiro por que ela é necessária. Quando entrar: nada de TV, moldura ou onda de áudio
   na tela (o editor achou que "parece que está acusando alguém"); a fala toca sobre a imagem do assunto.
+- **Público é o produtor endividado** (pedido do editor, 11/11/2026). O tom é solidário e de serviço, nunca de cobrança
+  ou estigma. **Na narração, não citar birôs de crédito e cobrança** (Serasa, SPC, Boa Vista, Quod) nem palavras como
+  "caloteiro" ou "nome sujo". Se o dado vier de um deles, a fala diz "o levantamento" ou "os dados do setor", e o nome
+  da fonte fica **só no rodapé** (pequeno, mono) e na descrição do post. A regra "todo fato com fonte" continua valendo.
+  Prefira fonte pública (BCB, CNJ, tribunais, Conab, IBGE) quando houver dado equivalente.
 - **Datas relativas** ("hoje", "amanhã", "quinta") só se a data de publicação estiver combinada.
   Avise na entrega quais frases dependem do dia.
 - **Conclusão do advogado** (batida 10, voz clonada do editor), nos limites do Provimento 205/2021.

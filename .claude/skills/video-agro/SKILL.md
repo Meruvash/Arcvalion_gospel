@@ -25,6 +25,7 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
    `DIRECAO_VIDEO_AGRO.md`.
 
 ## Não fazer
+- Citar na narração birô de crédito ou cobrança (Serasa, SPC, Boa Vista) num vídeo para devedores: a fonte vai só no rodapé.
 - Repetir frase-fórmula de vídeo anterior ("Parece erro. Mas não é.", "E é justamente aí que a história fica ainda mais estranha…" ou qualquer outra). Cada roteiro com palavras próprias.
 - Usar segunda voz sem necessidade real (o padrão é não ter).
 - Repetir o ângulo de um vídeo anterior.
