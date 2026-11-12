@@ -108,7 +108,7 @@ HTML = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>
 .menos30{{position:absolute;left:0;right:0;top:220px;text-align:center;font-size:84px;color:#ffe08a;opacity:0}}
 .tag{{position:absolute;left:70px;top:150px;font:900 58px/1 'Inter';color:#fff6dc;background:rgba(30,40,60,.82);padding:14px 24px;border-left:8px solid #8cc25e;opacity:0}}
 .tag2{{top:270px;border-left-color:#f0c24b}}
-.maplbl{{position:absolute;left:700px;top:205px;font-size:44px;color:#2b211a;text-shadow:none;transform:rotate(-3deg)}}
+.maplbl{{position:absolute;left:720px;top:232px;font-size:44px;color:#2b211a;text-shadow:none;transform:rotate(-3deg)}}
 .juros{{position:absolute;left:0;right:0;top:90px;text-align:center;font-size:120px;line-height:1;opacity:0}}
 .carencia{{position:absolute;left:0;right:0;top:230px;text-align:center;font-size:80px;color:#ffe08a;opacity:0}}
 .cit{{position:absolute;left:70px;right:70px;font:italic 600 62px/1.1 'Newsreader';color:#fff6dc;text-shadow:0 3px 16px rgba(0,0,0,.85);opacity:0}}
@@ -175,7 +175,7 @@ tl.fromTo('#ct-tese', {{ opacity: 0, y: 10 }}, {{ opacity: 1, y: 0, duration: .5
 tl.fromTo('#ct-direct', {{ opacity: 0, y: 10 }}, {{ opacity: 1, y: 0, duration: .5, ease: enter }}, M.segue);
 tl.fromTo('#ct-fontes', {{ opacity: 0 }}, {{ opacity: 1, duration: .6 }}, C.cartela + .8);
 // legendas: sobem para o topo no mapa (embaixo fica o Sul do mapa)
-tl.set('#caps', {{ y: -800 }}, C.mapa); tl.set('#caps', {{ y: 0 }}, C.vermeer);
+tl.set('#caps', {{ y: -800, x: -250 }}, C.mapa); tl.set('#caps', {{ y: 0, x: 0 }}, C.vermeer);
 LEG.forEach((b, i) => {{ tl.fromTo('#cap' + i, {{ opacity: 0, scale: .92 }}, {{ opacity: 1, scale: 1, duration: .12, ease: 'power2.out' }}, b.ini); tl.set('#cap' + i, {{ opacity: 0 }}, b.fim); }});
 tl.to({{}}, {{ duration: {TOTAL} }}, 0);
 window.__timelines = window.__timelines || {{}}; window.__timelines['video'] = tl;

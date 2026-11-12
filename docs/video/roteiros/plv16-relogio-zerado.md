@@ -39,6 +39,12 @@ Congresso (https://www.congressonacional.leg.br/materias/medidas-provisorias/-/m
 - § 13: nas áreas da Sudam, Sudene e Sudeco, os mínimos são de 25% e 35%.
 - **Ainda depende de sanção** (não há sanção até 12/11/2026). Vetos podem mudar tudo isso.
 
+## Entrega (12/11/2026)
+- Vídeo de 1080×1080 e 65,4 s. Áudio em −13,6 LUFS, pico de −1,4 dBTP, H.264 com faststart. A transcrição do arquivo final bate com as falas.
+- Cenas a óleo com espátula do Opuscar: relógio da abertura, folhinha, mapa e relógio do fim. As demais pinturas foram feitas no modelo antigo.
+- Duas inserções de documento, de cerca de 2 s cada: a ementa do autógrafo e o art. 1º, § 2º com o trecho grifado.
+- Trilha original nova, conferida como instrumental (0 palavras na transcrição).
+
 ## v1 (rascunho de 11/11/2026, mantido como registro)
 
 ## Por que este tema (tendência)
