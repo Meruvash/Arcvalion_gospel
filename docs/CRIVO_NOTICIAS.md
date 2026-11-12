@@ -14,7 +14,7 @@ Pedido do responsável editorial: a edição é **nacional primeiro**, depois **
 
 | Ordem | Abrangência | Quando entra |
 |---|---|---|
-| 1 | Brasil | Sempre: é o núcleo da edição (pelo menos 3 das 5 notas do dia) |
+| 1 | Brasil | Sempre: é o núcleo da edição (a maioria das notas do dia) |
 | 2 | Rondônia | Só pauta do estado que passe no **teste temático** (eliminatório 10) e no corte. Não há cota local |
 | 3 | Porto Velho | Idem: fato da capital entra só quando o próprio fato é de fé, igreja, liberdade, vida, família ou educação |
 | 4 | Internacional | Só com **impacto grande e direto no Brasil** (o mesmo projeto tramita aqui, afeta brasileiros, muda regra que vale aqui) ou na trilha **atemporal**. No máximo 1 por dia |
@@ -168,8 +168,7 @@ Regras que o número não muda:
 | 50 a 59 | Relevância moderada | Só para chegar às 5 do dia, depois da varredura completa; nunca como manchete |
 | 0 a 49 | Baixa prioridade | Não entra (`checar_noticia.py` recusa) |
 
-**Mistura do dia**: a manchete é a maior nota do dia (e precisa de 70 ou mais). A meta é de **pelo menos 5 notas
-por dia** (regra do responsável editorial, 02/11/2026): completa-se com notas de menor pontuação e com a trilha atemporal, nunca afrouxando a verificação (eliminatórios, comprovação mínima, fonte primária, foto com licença, crivo jurídico).
+**Mistura do dia**: a manchete é a maior nota do dia (e precisa de 70 ou mais). A meta do dia é de **2 notícias gerais e pelo menos 5 na aba Chamada Agro** (regra do responsável editorial, 12/11/2026, que substitui a de 02/11): completa-se com notas de menor pontuação e com a trilha atemporal, nunca afrouxando a verificação (eliminatórios, comprovação mínima, fonte primária, foto com licença, crivo jurídico).
 
 Na nota, o crivo fica registrado assim (`checar_noticia.py` confere a soma, o teto de cada peso, as justificativas, o
 corte, o piso de comprovação e a abrangência; a página não mostra o motor: mostra o crivo público da seção 4.1):
