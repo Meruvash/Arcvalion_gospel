@@ -46,7 +46,7 @@ Matthew Henry, pastor britânico (1662-1714) cujo comentário bíblico ainda é 
 
 Quando o Diabo ofereceu a Jesus todos os reinos do mundo em troca de adoração, Jesus respondeu: "Adore o Senhor, seu Deus, e sirva somente a ele" (Mateus 4:10).
 
-A Declaração de Fé cita esse versículo na abertura do capítulo sobre adoração. Diz que a adoração pública existe "para que somente Deus seja adorado no culto da Igreja" e que "Nenhuma prerrogativa é dada a anjos e a seres humanos". Diz também que prestamos a adoração "sem o uso de imagens de escultura ou de qualquer outro tipo de representação".
+A Declaração de Fé cita esse versículo na abertura do capítulo sobre adoração. Diz que a adoração pública é feita com ordem e decência "para que somente Deus seja adorado no culto da Igreja" e que "Nenhuma prerrogativa é dada a anjos e a seres humanos". Diz também que prestamos a adoração "sem o uso de imagens de escultura ou de qualquer outro tipo de representação".
 
 Nem cantor, nem pastor, nem anjo, nem objeto recebe adoração. Só Deus.
 

@@ -1,0 +1,191 @@
+{
+ "slug": "senado-aprova-selo-rosa-contratacao-mulheres-cancer-mama-sancao",
+ "data": "2026-11-11",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Boa notícia",
+ "titulo": "Senado aprova Selo Rosa para empresas que contratarem mulheres com câncer de mama",
+ "lide": "O Senado aprovou nesta terça-feira (10) o projeto que cria o Programa Empresa Rosa e o Selo Rosa, para incentivar a contratação de mulheres com diagnóstico, em tratamento ou em remissão de câncer de mama. O texto, da deputada Maria Rosas (Republicanos-SP), segue para a sanção presidencial, informou a Agência Senado.",
+ "por_que_importa": "Muitas mulheres perdem o emprego ou não conseguem voltar ao trabalho durante e depois do tratamento. O programa dá à empresa um motivo público para contratar e manter essas trabalhadoras. Se for sancionado, vira lei e passa a valer em todo o país.",
+ "numeros": [
+  [
+   "73 mil",
+   "casos de câncer de mama por ano no Brasil, em média, na estimativa do Inca para 2023 a 2025",
+   "Agência Senado, 10/11/2026"
+  ],
+  [
+   "2 anos",
+   "de validade do Selo Rosa, renovável por igual período",
+   "Agência Senado, 10/11/2026"
+  ],
+  [
+   "10",
+   "empregados é o mínimo para a empresa pedir o selo; ela também precisa apresentar relatório anual",
+   "Agência Senado, 10/11/2026"
+  ]
+ ],
+ "corpo": [
+  "As empresas do programa devem garantir igualdade de oportunidades, condições de trabalho adequadas e seleção sem discriminação. Elas poderão flexibilizar o regime dessas trabalhadoras com trabalho remoto, carga horária reduzida e estabilidade no emprego, sem redução de salário, segundo a Agência Senado.",
+  "O selo será concedido por uma comissão com representantes do governo, do setor privado e da sociedade civil, poderá ser usado em propaganda e será revogado se a empresa descumprir a legislação trabalhista. No Senado, o projeto (PL 5.608/2023) teve relatoria de Damares Alves (Republicanos-DF) na CDH e de Dra. Eudócia (PSDB-AL) na CAS."
+ ],
+ "no_brasil": "O programa será implementado em parceria com órgãos da administração pública federal, estadual e municipal, segundo o texto aprovado. Agora cabe ao presidente da República sancionar ou vetar o projeto.",
+ "critica": [
+  {
+   "fonte": "Agência Senado, sobre o objetivo do selo",
+   "texto": "A proposta estabelece que o selo reconhecerá a relevância social da empresa e incentivará a adoção de medidas protetivas para as trabalhadoras com câncer de mama",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/10/senado-aprova-incentivo-a-contratacao-de-mulheres-com-cancer-de-mama"
+  },
+  {
+   "fonte": "Agência Senado, sobre os benefícios às empresas",
+   "texto": "Segundo a Agência Senado, as empresas certificadas terão reconhecimento público, acesso a programas de capacitação e orientação e poderão usar o selo em suas propagandas.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Mulheres em tratamento ou em remissão de câncer de mama: o programa busca abrir e manter vagas",
+  "Empresários com mais de dez empregados: a adesão ao programa rende selo público, se o texto for sancionado",
+  "Igrejas com ministério de apoio a doentes: vale orientar as irmãs sobre o novo programa"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: o texto depende de sanção presidencial",
+  "O programa não obriga nenhuma empresa a contratar",
+  "Para ter o selo, a empresa precisa cumprir requisitos e apresentar relatório anual"
+ ],
+ "veredito": "A gente apoia. Mulher que enfrenta o câncer não pode perder também o sustento. Selo não substitui caráter, mas reconhecer quem faz o certo ajuda. Que a sanção venha rápido.",
+ "versiculo": {
+  "texto": "Levai as cargas uns dos outros e assim cumprireis a lei de Cristo",
+  "referencia": "Gálatas 6.2",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Senado aprova incentivo à contratação de mulheres com câncer de mama (10/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/10/senado-aprova-incentivo-a-contratacao-de-mulheres-com-cancer-de-mama",
+   "data": "10/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado, dados abertos: agenda do Plenário de 10/11/2026",
+   "url": "https://legis.senado.leg.br/dadosabertos/plenario/agenda/dia/20261110",
+   "data": "10/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 65,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre o sustento das famílias de mulheres com câncer de mama: votação concluída no Congresso cria incentivo à contratação"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/10/senado-aprova-incentivo-a-contratacao-de-mulheres-com-cancer-de-mama"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Votação concluída no Congresso; o texto vai à sanção e passa a valer no país inteiro se sancionado"
+   },
+   "afinidade": {
+    "pontos": 10,
+    "porque": "Saúde da mulher e sustento da família, com relatoria de Damares Alves; efeito indireto sobre o leitor"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação na terça-feira, 10/11, menos de 48 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Reportagem oficial da Agência Senado, com a pauta confirmada nos dados abertos do Plenário"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Síntese da fonte oficial com o que muda para trabalhadoras e empresas"
+   }
+  },
+  "publico": {
+   "pontos": 14,
+   "eixos": {
+    "valor": 6,
+    "viral": 4,
+    "cristao": 4
+   },
+   "criterios": [
+    "Ato de poder: aprovação final no Senado (2)",
+    "Proximidade: nacional (2)",
+    "Boa notícia (1)",
+    "Número forte: 73 mil casos por ano (1)",
+    "Utilidade: o que muda para trabalhadoras e empresas (1)",
+    "Personagem com nome: Maria Rosas, Damares (1)",
+    "Pede resposta do cristão: cuidado com os doentes (2)",
+    "Passagem bíblica que um pastor usaria: Gálatas 6.2 (2)",
+    "Gatilho no calendário: sanção presidencial (1)",
+    "Rende estudo: levar as cargas uns dos outros (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Senado aprova incentivo à contratação de mulheres com câncer de mama",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / saúde e trabalho",
+  "coleta": "2026-11-11",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "votação confirmada em fonte oficial",
+   "contradicoes": "Nenhuma.",
+   "sem_confirmacao": "data da sanção; regulamentação"
+  },
+  "duplicidade": {
+   "grupo": "Selo Rosa",
+   "itens": [
+    "Agência Senado 10/11 (texto e áudio)"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que é o Selo Rosa e quando vira lei",
+   "entidades": [
+    "Selo Rosa",
+    "Programa Empresa Rosa",
+    "PL 5.608/2023",
+    "Maria Rosas",
+    "Damares Alves"
+   ],
+   "termos": [
+    "Selo Rosa empresas",
+    "contratação mulheres câncer de mama",
+    "Programa Empresa Rosa"
+   ],
+   "atualizacao": "atualizar com a sanção ou veto"
+  }
+ },
+ "descricao_seo": "Senado aprovou o Programa Empresa Rosa e o Selo Rosa para incentivar a contratação de mulheres com câncer de mama; texto vai à sanção.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da reportagem oficial, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: todos os fatos vêm da Agência Senado; não há acusação a ninguém. A nota registra que o texto depende de sanção e regulamentação e que a adesão é voluntária.",
+ "imagem": {
+  "arquivo": "capas/senado-aprova-selo-rosa-contratacao-mulheres-cancer-mama-sancao.jpg",
+  "credito": "Foto: Waldemir Barreto/Agência Senado",
+  "alt": "Plenário do Senado durante a sessão de 10 de novembro de 2026, em Brasília",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/10/senado-aprova-incentivo-a-contratacao-de-mulheres-com-cancer-de-mama/20261110_04076w.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/10/senado-aprova-incentivo-a-contratacao-de-mulheres-com-cancer-de-mama"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-11T02:36:19-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-11T02:36:19-03:00"
+}

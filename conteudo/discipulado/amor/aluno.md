@@ -24,7 +24,7 @@ Na primeira carta aos Coríntios, depois de falar dos dons espirituais, Paulo mo
 >
 > **7** Quem ama nunca desiste, porém suporta tudo com fé, esperança e paciência.
 >
-> **8** O amor é eterno.
+> **8** O amor é eterno. Existem mensagens espirituais, porém elas durarão pouco. Existe o dom de falar em línguas estranhas, mas acabará logo. Existe o conhecimento, mas também terminará.
 >
 > **13** Portanto, agora existem estas três coisas: a fé, a esperança e o amor. Porém a maior delas é o amor.
 

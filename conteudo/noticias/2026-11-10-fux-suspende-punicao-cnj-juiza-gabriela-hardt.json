@@ -7,7 +7,7 @@
  "opiniao_forte": true,
  "selo": "Vale acompanhar",
  "titulo": "Fux suspende punição do CNJ e juíza da Lava Jato Gabriela Hardt pode voltar ao cargo",
- "lide": "O ministro Luiz Fux, do STF, suspendeu em liminar a pena de dois anos de disponibilidade que o CNJ aplicou em agosto à juíza federal Gabriela Hardt, que substituiu Sergio Moro na Lava Jato. Para Fux, a punição prescreveu e atingiu o conteúdo de uma decisão judicial. Ela volta ao cargo depois de uma licença médica.",
+ "lide": "O ministro Luiz Fux, do STF, suspendeu em liminar a pena de dois anos de disponibilidade que o CNJ aplicou em agosto à juíza federal Gabriela Hardt, que substituiu Sergio Moro na Lava Jato. Para Fux, a punição prescreveu e atingiu o conteúdo de uma decisão judicial. Ela poderá voltar ao cargo quando terminar a licença médica.",
  "por_que_importa": "O caso testa até onde um conselho pode punir juiz pelo que ele decidiu. Se a regra valer só contra um lado, nenhum magistrado se sente livre para julgar. A decisão também reabre o debate sobre como a Lava Jato vem sendo revista anos depois.",
  "numeros": [
   [
@@ -54,7 +54,7 @@
   "Fux não julgou se o acordo da Lava Jato com a Petrobras era correto",
   "O retorno só ocorre depois da licença de saúde da juíza"
  ],
- "veredito": "Acertou Fux. Punir juíza cinco anos depois, por uma decisão que o próprio CNJ admite ter sido tomada sem má-fé, cheira a acerto de contas com a Lava Jato. Juiz que erra se corrige no recurso, não no castigo. Que o Plenário confirme e que a régua seja a mesma para todos os magistrados.",
+ "veredito": "Acertou Fux. Punir uma juíza mais de sete anos depois, por uma decisão em que o próprio CNJ não achou prova de vantagem pessoal nem de participação nas tratativas, é transformar recurso em castigo. Juiz que erra se corrige no recurso, não no castigo. Que o Plenário confirme e que a régua seja a mesma para todos os magistrados.",
  "versiculo": {
   "texto": "Não fareis injustiça no juízo; não aceitarás o pobre, nem respeitarás o grande; com justiça julgarás o teu próximo",
   "referencia": "Levítico 19.15",
@@ -182,7 +182,7 @@
   "usada": true,
   "uso": "pesquisa nas fontes, leitura da íntegra da decisão e da reportagem, organização dos fatos e primeira versão do texto"
  },
- "checagem_juridica": "Leitura hostil feita: fatos tirados da íntegra da decisão e da notícia do STF; a frase de Fux foi lida na decisão. A nota registra o argumento do CNJ sobre a prescrição e que a liminar pode mudar. A opinião critica a punição sem atribuir má-fé a conselheiros; a expressão sobre acerto de contas é apresentada como avaliação, não como fato.",
+ "checagem_juridica": "Leitura hostil feita: fatos tirados da íntegra da decisão e da notícia do STF; a frase de Fux foi lida na decisão. A nota registra o argumento do CNJ sobre a prescrição e que a liminar pode mudar. A opinião critica a punição sem atribuir má-fé a conselheiros.",
  "imagem": {
   "arquivo": "capas/fux-suspende-punicao-cnj-juiza-gabriela-hardt.jpg",
   "credito": "Foto: Fabio Rodrigues-Pozzebom/Agência Brasil",
@@ -193,8 +193,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-10T02:38:39-03:00",
+  "data": "2026-11-10T21:10:35-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-10T02:38:39-03:00"
+ "publicado_em": "2026-11-10T02:38:39-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-10",
+   "texto": "Correção em 10/11/2026: a punição veio mais de sete anos depois da decisão, e não cinco (o prazo de cinco anos é o da prescrição); \"sem má-fé\" é expressão do MPF, e o CNJ disse não haver prova de participação nas tratativas nem de vantagem pessoal; saiu a atribuição de motivação aos conselheiros. A juíza poderá voltar quando terminar a licença (decisão no MS 41.154)."
+  }
+ ],
+ "atualizado_em": "2026-11-10T21:10:35-03:00"
 }

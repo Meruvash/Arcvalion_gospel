@@ -27,7 +27,7 @@
  ],
  "corpo": [
   "O monitoramento é feito pela Secretaria Nacional de Direitos Digitais e pela Secretaria Nacional de Segurança Pública, por meio do Laboratório de Operações Cibernéticas. Só na segunda-feira, segundo a pasta, foram identificadas também 2.207 páginas no Facebook, com audiência somada de 7,5 milhões, 18 grupos no Telegram e 998 sites.",
-  "A MP 1.394/2026, publicada em 25 de setembro, proibiu a exploração, a oferta e a publicidade das apostas de quota fixa e criou um dever de cuidado para as plataformas, que devem retirar o conteúdo irregular quando notificadas, segundo o g1. O ministério não divulgou os nomes dos perfis."
+  "A MP 1.394/2026, publicada em 25 de setembro, proibiu a exploração, a oferta, a intermediação e a publicidade das apostas de quota fixa e criou um dever de cuidado para as plataformas, que devem retirar o conteúdo irregular quando notificadas, segundo o g1. O ministério não divulgou os nomes dos perfis."
  ],
  "no_brasil": "No mesmo dia, o ministro Luiz Fux, do STF, suspendeu em todo o país as ações contra a proibição das bets, como o portal noticiou. Em 29 de setembro, o ministério já tinha pedido o bloqueio de 5.209 sites e a remoção de 186 aplicativos, segundo o g1.",
  "critica": [
@@ -38,9 +38,10 @@
    "url": "https://www.gov.br/mj/pt-br/assuntos/noticias/mjsp-pede-derrubada-de-348-perfis-de-influenciadores-que-divulgam-bets-ilegais"
   },
   {
-   "fonte": "Setor de apostas e críticos da MP",
-   "texto": "Entidades do setor contestam a MP no STF e alegam que a proibição empurra o apostador para o mercado clandestino; a decisão final sobre a constitucionalidade ainda é do Supremo.",
-   "citacao": false
+   "fonte": "Associação Nacional de Jogos e Loterias (ANJL) e Instituto Brasileiro de Jogo Responsável (IBJR), segundo a Agência Brasil",
+   "texto": "As entidades contestam a MP no STF em quatro ações diretas de inconstitucionalidade; a decisão final cabe ao plenário do Supremo.",
+   "citacao": false,
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-suspende-todas-acoes-judiciais-contra-proibicao-de-bets-no-pais"
   }
  ],
  "para_quem": [
@@ -53,7 +54,7 @@
   "Os nomes dos influenciadores não foram divulgados",
   "A constitucionalidade da MP ainda será julgada pelo STF"
  ],
- "veredito": "A gente apoia. Influenciador que vende aposta para seguidor jovem lucra com a ruína alheia, e fechar esse canal protege a família. Que as plataformas cumpram rápido e que o governo informe quantos perfis de fato saíram do ar.",
+ "veredito": "A gente apoia. Quem usa a própria audiência para divulgar aposta proibida empurra o seguidor para um prejuízo que a lei quis evitar, e fechar esse canal protege a família. Que as plataformas cumpram rápido e que o governo informe quantos perfis de fato saíram do ar.",
  "versiculo": {
   "texto": "A fazenda que procede da vaidade diminuirá, mas quem a ajunta pelo trabalho terá aumento",
   "referencia": "Provérbios 13.11",
@@ -192,8 +193,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-10T02:32:06-03:00",
+  "data": "2026-11-10T21:10:35-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-10T02:32:06-03:00"
+ "publicado_em": "2026-11-10T02:32:06-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-10",
+   "texto": "Correção em 10/11/2026: saiu o argumento do \"mercado clandestino\" atribuído às entidades do setor, que não está nas fontes; elas contestam a MP no STF em quatro ADIs (Agência Brasil). O veredito deixou de atribuir lucro com a ruína alheia aos 348 perfis, que não foram condenados."
+  }
+ ],
+ "atualizado_em": "2026-11-10T21:10:35-03:00"
 }

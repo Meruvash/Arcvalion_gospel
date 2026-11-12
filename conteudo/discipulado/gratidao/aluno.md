@@ -80,7 +80,7 @@ Paulo diz também: "sabemos que todas as coisas trabalham juntas para o bem daqu
 
 Muita gente pergunta se deve agradecer "por tudo", até pelo mal. A NTLH diz em 1 Tessalonicenses 5:18 "em todas as ocasiões". Em Efésios 5:20 diz "agradeçam sempre todas as coisas a Deus".
 
-John Wesley, o pregador inglês que deu origem ao metodismo, foi o mais forte nesse ponto. Escreveu que quem ora sempre agradece tanto na prosperidade quanto na maior adversidade, porque todas as coisas cooperam para o bem.
+John Wesley, o pregador inglês que deu origem ao metodismo, foi o mais forte nesse ponto. Nas notas a 1 Tessalonicenses, escreveu que quem ora sempre agradece tanto na prosperidade quanto na maior adversidade. Nas notas a Efésios, disse que agradecemos por todas as coisas, prósperas ou adversas, porque todas cooperam para o bem.
 
 Mas nenhum desses textos manda chamar o mal de bem. A Bíblia avisa: "Ai dos que chamam de mau aquilo que é bom e que chamam de bom aquilo que é mau" (Isaías 5:20). Não agradecemos pelo pecado, pela violência ou pela injustiça. Agradecemos a Deus, que continua bom e faz todas as coisas trabalharem para o bem dos que o amam.
 
