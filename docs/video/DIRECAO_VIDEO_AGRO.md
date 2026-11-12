@@ -143,3 +143,6 @@ Mandar sempre junto com o vídeo:
 - falas que o editor deve ouvir (sotaque, nome próprio);
 - estilos ainda em estudo;
 - licença das imagens que não foram feitas em código.
+
+
+**Trilha (12/11/2026):** padrões do modão, estilos prontos e regras de prompt em `docs/video/TRILHA_AGRO.md`.
