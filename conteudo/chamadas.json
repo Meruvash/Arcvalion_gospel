@@ -270,5 +270,29 @@
  "senado-aprova-mp-renegociacao-dividas-rurais-vai-sancao": {
   "chamada": "Chamada Agro: o Senado aprovou a MP que renegocia dívidas de quem perdeu safras pelo clima entre 2019 e 2025, com juros de 5% a 12% e dois anos só de juros. Vai à sanção 🌾",
   "pergunta": "Você ou alguém da sua família perdeu safra por seca ou enchente nos últimos anos?"
+ },
+ "lei-15528-auxilio-produtores-cana-nordeste-sancionada": {
+  "chamada": "Chamada Agro: lei sancionada paga R$ 12 por tonelada a fornecedores de cana do Nordeste que sofreram com seca e tarifa dos EUA. Guarde as notas fiscais 🌾",
+  "pergunta": "Você conhece algum fornecedor de cana que sofreu com a seca?"
+ },
+ "mp-dividas-rurais-cpr-vencida-nova-cedula-oito-anos-fundo-garantidor": {
+  "chamada": "Chamada Agro: a MP das dívidas rurais deixa trocar CPR atrasada desde 2021 por nova cédula de até oito anos. Depende de sanção e regulamentação 📄",
+  "pergunta": "Sua família tem dívida em CPR com revenda ou trading?"
+ },
+ "prorrogacao-divida-rural-resolucao-cmn-5314-sumula-298-stj": {
+  "chamada": "Chamada Agro: o Manual de Crédito Rural agora diz que o banco prorroga a dívida por conveniência; o STJ diz que é direito do produtor. Entenda ⚖️",
+  "pergunta": "Já teve pedido de prorrogação negado pelo banco?"
+ },
+ "comissao-camara-aprova-bndes-energia-renovavel-agricultura-familiar": {
+  "chamada": "Chamada Agro: comissão da Câmara aprovou crédito do BNDES para energia solar na agricultura familiar. Ainda é projeto ☀️",
+  "pergunta": "Energia solar faria diferença na sua propriedade?"
+ },
+ "congresso-prorroga-mp-proibe-bets-ate-marco-2027": {
+  "chamada": "A MP que proíbe as bets foi prorrogada e vale até março de 2027, se não for votada antes. A proibição continua 🎰🚫",
+  "pergunta": "O Congresso deveria transformar a proibição das bets em lei?"
+ },
+ "stf-tema-1485-erro-de-tipo-estupro-de-vulneravel-repercussao-geral": {
+  "chamada": "O STF vai decidir se um réu pode ser absolvido de estupro de vulnerável dizendo que não sabia a idade da vítima. A tese vai valer para todo o país ⚖️",
+  "pergunta": "Para você, o adulto deve responder sempre que a vítima tem menos de 14 anos?"
  }
 }
