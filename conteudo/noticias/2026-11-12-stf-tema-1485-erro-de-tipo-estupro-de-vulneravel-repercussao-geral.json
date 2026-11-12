@@ -1,0 +1,197 @@
+{
+ "slug": "stf-tema-1485-erro-de-tipo-estupro-de-vulneravel-repercussao-geral",
+ "data": "2026-11-12",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Vale acompanhar",
+ "titulo": "STF vai decidir se não saber a idade da vítima absolve estupro de vulnerável",
+ "lide": "O STF reconheceu por unanimidade a repercussão geral de um caso em que o Tribunal de Justiça do Rio absolveu um homem de 31 anos acusado de estupro de uma menina de 13, aceitando que ele não sabia a idade dela. A tese do Tema 1.485 valerá para todos os casos semelhantes, informou o tribunal nesta quarta-feira (11).",
+ "por_que_importa": "A lei diz que relação sexual com menor de 14 anos é estupro de vulnerável. Se a alegação de que o réu não sabia a idade bastar para absolver, a proteção da criança fica mais fraca. O que o Supremo decidir vai orientar todos os juízes do país.",
+ "numeros": [
+  [
+   "13 anos",
+   "idade da vítima no caso que chegou ao STF; o réu tinha 31",
+   "STF, 11/11/2026"
+  ],
+  [
+   "12 anos e 3 meses",
+   "de prisão foi a pena da primeira instância, derrubada pelo TJRJ com base no chamado erro de tipo",
+   "STF, 11/11/2026"
+  ],
+  [
+   "Tema 1.485",
+   "da repercussão geral: a tese valerá para todos os casos semelhantes em tramitação",
+   "STF, 11/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo o STF, o TJRJ absolveu o réu aceitando a alegação de que a menina teria consentido com o namoro e que ele desconhecia a idade real. A Defensoria Pública do Rio, que defende a adolescente, recorreu e sustenta que relativizar a vulnerabilidade de uma menina de 13 anos enfraquece a proteção constitucional. Segundo a Gazeta do Povo, o juiz de primeira instância entendeu que o desconhecimento ocorreu por omissão do próprio réu.",
+  "O presidente do STF, Edson Fachin, lembrou que a Lei 15.353/2026 passou a afirmar no Código Penal a presunção absoluta de vulnerabilidade da vítima, mas disse que a discussão continua para crimes anteriores à nova lei, porque lei penal mais grave não retroage. Não há data para o julgamento do mérito."
+ ],
+ "no_brasil": "Segundo o STF, Fachin citou dados do Anuário Brasileiro de Segurança Pública de 2024 que apontam meninas de 13 anos como as maiores vítimas de estupro de vulnerável. No Senado, a CCJ discute endurecer penas de crimes contra a dignidade sexual, como o portal noticiou em 9/11.",
+ "critica": [
+  {
+   "fonte": "Defensoria Pública do Rio de Janeiro, segundo o STF",
+   "texto": "Relativizar a vulnerabilidade de uma adolescente de 13 anos enfraquece a proteção constitucional e perpetua estigmas que transformam a vítima em culpada de sua própria condição.",
+   "citacao": false
+  },
+  {
+   "fonte": "Defesa do réu, segundo o STF e a Gazeta do Povo",
+   "texto": "O TJRJ acolheu o argumento de erro de tipo: o réu disse que a menina consentiu e que ele não sabia a idade real dela; o STF ainda vai decidir se essa tese pode valer nesses casos.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Pais e mães: a lei protege toda criança menor de 14 anos; acompanhe com quem seus filhos se relacionam, inclusive pela internet",
+  "Igrejas com trabalho com adolescentes: o tema é ocasião para orientar famílias sobre proteção",
+  "Quem acompanha o STF: a tese do Tema 1.485 vai valer para todo o Judiciário"
+ ],
+ "nao_e_para": [
+  "O STF ainda não decidiu o mérito; só reconheceu que o tema tem repercussão geral",
+  "A Lei 15.353/2026 vale para crimes posteriores a ela; a discussão é sobre os casos anteriores",
+  "Não há data para o julgamento"
+ ],
+ "veredito": "Criança de 13 anos não tem idade para consentir, e a lei existe justamente para não deixar essa proteção depender da palavra do adulto. O Supremo acerta ao levar o caso a plenário e deve fechar a porta para absolvições desse tipo.",
+ "versiculo": {
+  "texto": "Mas qualquer que escandalizar um destes pequeninos que creem em mim, melhor lhe fora que se lhe pendurasse ao pescoço uma mó de azenha, e se submergisse na profundeza do mar",
+  "referencia": "Mateus 18.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: STF vai definir se alegação de desconhecimento de idade pode afastar condenação por estupro de vulnerável (11/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-vai-definir-se-alegacao-de-desconhecimento-de-idade-pode-afastar-condenacao-por-estupro-de-vulneravel/",
+   "data": "11/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Gazeta do Povo: Erro de tipo: entenda discussão no STF que pode barrar absolvições por estupro de vulnerável (11/2026)",
+   "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/erro-de-tipo-entenda-discussao-no-stf-que-pode-barrar-absolvicoes-por-estupro-de-vulneravel/",
+   "data": "11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "O Paladino: CCJ do Senado vota Lei da Dignidade Sexual, que endurece penas para estupro e pedofilia (09/11/2026)",
+   "url": "https://opaladino.com.br/noticias/ccj-senado-lei-dignidade-sexual-penas-estupro-pedofilia/",
+   "data": "09/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre a proteção de crianças contra a violência sexual: o STF vai fixar se a alegação de desconhecer a idade absolve"
+  },
+  "origem": {
+   "nome": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-vai-definir-se-alegacao-de-desconhecimento-de-idade-pode-afastar-condenacao-por-estupro-de-vulneravel/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Repercussão geral reconhecida; o mérito, que valerá para todos os casos, ainda não tem data"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Proteção de crianças e adolescentes contra a violência sexual, núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Decisão divulgada pelo STF na noite de 11/11, menos de 48 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Notícia oficial do STF e reportagem independente da Gazeta do Povo, que concordam nos fatos"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Explica o efeito da Lei 15.353/2026 sobre casos antigos e liga ao debate no Senado sobre crimes sexuais"
+   }
+  },
+  "publico": {
+   "pontos": 17,
+   "eixos": {
+    "valor": 8,
+    "viral": 5,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: notícia oficial do STF (2)",
+    "Ato de poder: decisão do Plenário do STF (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Tema que já mobiliza o público: proteção da infância (2)",
+    "Utilidade: o que muda e o que não muda (1)",
+    "Pede resposta do cristão: proteção dos pequeninos (2)",
+    "Passagem bíblica que um pastor usaria: Mateus 18.6 (2)",
+    "Rende estudo: cuidado com as crianças (2)",
+    "Gatilho no calendário: julgamento do mérito (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "STF vai definir se alegação de desconhecimento de idade pode afastar condenação por estupro de vulnerável",
+  "nucleo": "A - Brasil",
+  "categoria": "STF / proteção da infância",
+  "coleta": "2026-11-12",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado em fonte oficial e reportagem",
+   "contradicoes": "Nenhuma entre STF e Gazeta do Povo.",
+   "sem_confirmacao": "data do julgamento do mérito"
+  },
+  "duplicidade": {
+   "grupo": "Tema 1.485 do STF",
+   "itens": [
+    "STF 11/11",
+    "Gazeta do Povo 11/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se o STF pode absolver estupro de vulnerável por erro sobre a idade",
+   "entidades": [
+    "STF",
+    "Tema 1.485",
+    "Edson Fachin",
+    "estupro de vulnerável",
+    "Lei 15.353/2026"
+   ],
+   "termos": [
+    "erro de tipo estupro de vulnerável STF",
+    "Tema 1485 STF",
+    "absolvição estupro de vulnerável idade"
+   ],
+   "atualizacao": "acompanhar o julgamento do mérito"
+  }
+ },
+ "descricao_seo": "STF reconheceu repercussão geral do Tema 1.485: vai decidir se réu pode ser absolvido de estupro de vulnerável alegando não saber a idade da vítima.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da notícia do STF e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos atribuídos ao STF e à Gazeta do Povo; nenhum nome de réu ou vítima é citado; a tese da defesa está registrada. A opinião defende a proteção da criança sem atacar magistrados ou partes.",
+ "imagem": {
+  "arquivo": "capas/stf-tema-1485-erro-de-tipo-estupro-de-vulneravel-repercussao-geral.jpg",
+  "credito": "Foto: Fabio Rodrigues-Pozzebom/Agência Brasil",
+  "alt": "Palácio do Supremo Tribunal Federal, na Praça dos Três Poderes, em Brasília (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/3xcP4VAl8oUtQxbDlKdjwPr_QI8=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/_supremo_tribunal_federal250620213575.jpg?itok=7-xc0U8V",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-pede-parecer-da-pgr-sobre-pedido-de-liberdade-para-vorcaro"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-12T15:06:09-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-12T15:06:09-03:00"
+}
