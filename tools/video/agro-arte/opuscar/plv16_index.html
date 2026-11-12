@@ -4,7 +4,7 @@
 html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style></head>
 <body><script src="lib/d3-array.min.js"></script><script src="lib/d3-geo.min.js"></script><script src="lib/br_uf.js"></script>
 <canvas id="c"></canvas><script type="module">
-import { setup } from './film.js';
+import { setup } from './plv16_film.js';
 const draw = await setup(document.getElementById('c'));
 window.render = t => draw(t); render(0); window.READY = true;
 </script></body></html>

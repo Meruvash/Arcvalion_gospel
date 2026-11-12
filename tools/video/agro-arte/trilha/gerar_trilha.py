@@ -42,12 +42,17 @@ if estilo in args: args.remove(estilo)
 if estilo not in ESTILOS: raise SystemExit(f"estilo desconhecido: {estilo}; use um de {', '.join(ESTILOS)}")
 out = args[0]; ms = int(args[1]) if len(args) > 1 else 62000
 body = json.dumps({"prompt": ESTILOS[estilo] + " " + COMUM, "music_length_ms": ms, "model_id": "music_v1"}).encode()
+feito = False
 for i, wait in enumerate([0, 20, 40, 80, 120, 180]):
     time.sleep(wait)
     req = urllib.request.Request("https://api.elevenlabs.io/v1/music?output_format=mp3_44100_128", body, {"xi-api-key": "dummy", "Content-Type": "application/json"})
     try:
-        open(out, "wb").write(urllib.request.urlopen(req, timeout=600).read()); print("ok", estilo, out); break
+        dados = urllib.request.urlopen(req, timeout=600).read()     # lê tudo antes de tocar no arquivo de saída
     except urllib.error.HTTPError as e:
         msg = e.read()[:400].decode("utf-8", "replace")
         print("tentativa", i + 1, "HTTP", e.code, msg)   # 429 = serviço ocupado: tenta de novo; bad_prompt traz sugestão
         if e.code not in (429, 500, 502, 503): break
+        continue
+    if not dados: print("tentativa", i + 1, "resposta vazia"); continue
+    open(out, "wb").write(dados); print("ok", estilo, out); feito = True; break
+if not feito: raise SystemExit(f"falhou: nenhuma trilha gerada; {out} não foi alterado")

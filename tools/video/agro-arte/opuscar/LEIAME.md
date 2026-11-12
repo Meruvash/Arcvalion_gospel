@@ -5,7 +5,7 @@ Motor `impasto` do Lemo-Opuscar (github.com/lemomo-ai/lemo-opuscar, MIT, LemoLab
 objetos pintados com relevo de tinta e luz rasante (relógio, folhinha) e mapa com a cor "reposta pela espátula".
 As outras cenas continuam no modelo antigo (huashu-art-motion, `../cenas/`).
 
-- `plv16_film.js` + `plv16_index.html`: cenas `relogio`, `folhinha`, `mapa` e `fim` (escolhidas por `?cena=`).
+- `plv16_film.js` + `plv16_index.html` (copie com estes nomes; a página importa `./plv16_film.js`): cenas `relogio`, `folhinha`, `mapa` e `fim` (escolhidas por `?cena=`).
   Copie para uma pasta de projeto com `engine/` (de `~/lemo-opuscar/styles/impasto/demo/engine/`), `lib/`
   (d3 + `br_uf.js` de `../aquarela/`) e `fonts/` (Newsreader 600 itálico).
 - `render_plv16.sh`: render de cada clipe em 1080×1080 a 30 fps com o renderizador da biblioteca. Usa o Chromium do

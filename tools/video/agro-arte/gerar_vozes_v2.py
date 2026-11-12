@@ -9,4 +9,5 @@ for f in json.load(open("falas.json", encoding="utf-8")):
                        "voice_settings": {"stability": 0.45, "similarity_boost": 0.85, "style": 0.25}}).encode()
     r = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{VOZES[f['quem']]}?output_format=mp3_44100_128", body,
                                {"xi-api-key": "dummy", "Content-Type": "application/json"})
-    open(f"voz/fala{f['id']}.mp3", "wb").write(urllib.request.urlopen(r, timeout=240).read()); print("fala", f["id"], "ok")
+    dados = urllib.request.urlopen(r, timeout=240).read()   # lê antes de abrir o arquivo: um erro HTTP não apaga a voz anterior
+    open(f"voz/fala{f['id']}.mp3", "wb").write(dados); print("fala", f["id"], "ok")
