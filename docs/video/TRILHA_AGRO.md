@@ -72,6 +72,13 @@ xote, valsa, mazurca e polca (SESC SP, 2002).
 6. **Nada de imitar música existente**, nem de "parecer" uma música famosa. Os prompts terminam com "Do not imitate any
    existing song".
 
+## 3.1 Escolha do editor (12/11/2026, depois de ouvir as amostras)
+
+- **Padrão: `agronejo`** ("ficou ótima").
+- **Alternativa aprovada: `catira`** ("ficou legal").
+- **Alternância:** vídeos seguidos alternam entre os dois, para cumprir a regra de não repetir trilha.
+- **Os outros estilos** (`toada`, `pagode`, `guarania`) ficam disponíveis só se o editor pedir.
+
 ## 4. Estilos prontos (`tools/video/agro-arte/trilha/gerar_trilha.py --estilo <nome>`)
 
 | Estilo | Ritmo | Clima | Quando usar |

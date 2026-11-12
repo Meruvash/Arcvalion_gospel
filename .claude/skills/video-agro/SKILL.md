@@ -21,7 +21,9 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 4. Aprovado o roteiro: vozes (`tools/video/agro-arte/gerar_vozes.py`), conferência por transcrição,
    pinturas (`tools/video/agro-arte/cenas/`), prints oficiais (`tools/video/agro-arte/prints/`),
    montagem em HyperFrames e render. Os passos estão em `tools/video/agro-arte/README.md`.
-5. **Prévia curta → aprovação → vídeo completo.** Entregue com a lista da seção 4 do
+5. **Trilha:** `tools/video/agro-arte/trilha/gerar_trilha.py --estilo agronejo` (padrão) ou `--estilo catira`, alternando entre
+   vídeos seguidos. Confira que é instrumental (0 palavras na transcrição). Regras em `docs/video/TRILHA_AGRO.md`.
+6. **Prévia curta → aprovação → vídeo completo.** Entregue com a lista da seção 4 do
    `DIRECAO_VIDEO_AGRO.md`.
 
 ## Não fazer

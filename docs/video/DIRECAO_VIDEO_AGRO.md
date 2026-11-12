@@ -145,4 +145,4 @@ Mandar sempre junto com o vídeo:
 - licença das imagens que não foram feitas em código.
 
 
-**Trilha (12/11/2026):** padrões do modão, estilos prontos e regras de prompt em `docs/video/TRILHA_AGRO.md`.
+**Trilha (12/11/2026):** padrões do modão, estilos prontos e regras de prompt em `docs/video/TRILHA_AGRO.md`. Estilo padrão escolhido pelo editor: **agronejo**, alternando com **catira** entre vídeos.

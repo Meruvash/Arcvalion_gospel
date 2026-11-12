@@ -1,7 +1,8 @@
 """Trilha original instrumental para os vídeos do agro (ElevenLabs Music), em estilos da música caipira.
 Padrões e fontes: docs/video/TRILHA_AGRO.md. Nunca ponha nome de artista, dupla, música ou álbum no prompt (Music Terms 2.1).
 
-Uso: python3 gerar_trilha.py saida.mp3 [duracao_ms] [--estilo toada|pagode|guarania|catira|agronejo]
+Uso: python3 gerar_trilha.py saida.mp3 [duracao_ms] [--estilo agronejo|catira|toada|pagode|guarania]
+Padrão do editor (12/11/2026): agronejo; alternativa aprovada: catira. Alterne os dois entre vídeos seguidos.
 Depois confira que não há voz cantada (o speech-to-text deve achar 0 palavras) e misture com volume ~0,15 sob a narração."""
 import json, sys, time, urllib.request, urllib.error
 
@@ -36,7 +37,7 @@ ESTILOS = {
 }
 
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
-estilo = sys.argv[sys.argv.index("--estilo") + 1] if "--estilo" in sys.argv else "toada"
+estilo = sys.argv[sys.argv.index("--estilo") + 1] if "--estilo" in sys.argv else "agronejo"   # preferido do editor (12/11/2026)
 if estilo in args: args.remove(estilo)
 if estilo not in ESTILOS: raise SystemExit(f"estilo desconhecido: {estilo}; use um de {', '.join(ESTILOS)}")
 out = args[0]; ms = int(args[1]) if len(args) > 1 else 62000
