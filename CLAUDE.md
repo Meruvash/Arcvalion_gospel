@@ -14,6 +14,7 @@
 - **Discipulado** (pedido de 30/10/2026): a aba Discipulado ocupa no menu o lugar da Agenda. Lições para novos convertidos
   pela skill `discipulado` (rotina diária às 15h17: 5 estudos, na ordem que completa as trilhas), com as regras de `docs/discipulado/` (padrão editorial e de escrita da coleção) e o material fixo de
   `conteudo/discipulado/base/`. Texto bíblico do aluno na NTLH, lido na fonte. Processo enxuto, sem auditoria por subagente (decisão do editor, 30/10/2026).
+- **Chamada Agro** (pedido de 12/11/2026): aba `/chamada-agro/` com notícias para o produtor rural (alongamento e renegociação de dívida rural, crédito, seguro, normas do CMN, decisões da Justiça), eixo `agro` do crivo. Regras em `.claude/skills/noticias/SKILL.md`, seção "Chamada Agro". A análise de demanda jurídica fica em `curadoria.agro`, fora do site.
 - Nada inventado: todo fato com fonte identificável (link + data); citação literal só de frase lida na fonte.
 - Não edite HTML gerado: como no Elite, o site sai de `tools/build_home.py` (na raiz do repositório) a partir de `conteudo/`, `config/`, `pauta.json` e `consulta/index.html` (bloco RAW dos livros). O deploy publica a raiz sem os arquivos de trabalho (`tools/montar_publicacao.py`).
 - Nunca use imagem gerada por IA em matéria. Nunca coloque segredo no repositório (ver `docs/DEPLOY.md`).

@@ -31,9 +31,9 @@ MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "a
 SELO_CLASSE = {"Boa notícia": "compra", "Vale acompanhar": "acompanhar", "Para refletir": "fas", "Motivo de alerta": "ressalvas", "Informativo": "info"}
 # categorias na ordem dos chips do arquivo de notícias, com o trecho de URL de cada uma
 CATEGORIAS = {"Notícias Gospel": "noticias-gospel", "Política e Sociedade": "politica-e-sociedade", "Família e Valores": "familia-e-valores", "Fé e Bíblia": "fe-e-biblia",
-              "Economia e Negócios": "economia-e-negocios", "Música e Cultura Cristã": "musica-e-cultura", "Eventos": "eventos"}
+              "Economia e Negócios": "economia-e-negocios", "Chamada Agro": "chamada-agro", "Música e Cultura Cristã": "musica-e-cultura", "Eventos": "eventos"}
 CAT_CLASSE = {"Notícias Gospel": "mercado", "Política e Sociedade": "financ", "Família e Valores": "brasil", "Fé e Bíblia": "premios",
-              "Economia e Negócios": "mercado", "Música e Cultura Cristã": "financ", "Eventos": "premios"}
+              "Economia e Negócios": "mercado", "Chamada Agro": "brasil", "Música e Cultura Cristã": "financ", "Eventos": "premios"}
 
 
 def norm(t):
@@ -615,6 +615,23 @@ def build_home():
         destino.parent.mkdir(parents=True, exist_ok=True)
         destino.write_text(pagina(f"Notícias{sufixo} | O Paladino", f"Últimas notícias gospel, de política, família e fé no Brasil e no mundo, com fonte, data e a opinião de O Paladino{sufixo}.", url,
                                   capa_secao("noticias"), p_pre, corpo_arq, jsonld=seo.script(seo.trilha(*trilha_ld))), encoding="utf-8")
+    # aba Chamada Agro (pedido do editor em 12/11/2026): as notas da editoria, da mais nova para a mais antiga
+    agro = [n for n in ns if n["categoria"] == "Chamada Agro"]
+    a_pre, url_a = "../", f"{SITE}/chamada-agro/"
+    grade_a = (f'<ul class="grade-n">{"".join(cartao_nota(n, a_pre) for n in agro)}</ul>' if agro
+               else '<p>As primeiras notas desta aba estão a caminho.</p>')
+    corpo_agro = f"""{cabecalho(a_pre, "Chamada Agro")}
+<main id="conteudo" class="in arq">{trilha(("Início", a_pre), ("Chamada Agro", ""))}
+ <div class="arq-topo"><h1>Chamada Agro</h1><p>O que muda para o produtor rural: alongamento e renegociação de dívida, crédito, seguro e Proagro, normas do CMN e do Banco Central, leis e decisões da Justiça. Sempre com a fonte oficial, a data e o prazo.</p></div>
+ {grade_a}
+</main>
+{rodape(a_pre)}"""
+    destino_a = ROOT / "chamada-agro" / "index.html"
+    destino_a.parent.mkdir(parents=True, exist_ok=True)
+    destino_a.write_text(pagina("Chamada Agro: notícias para o produtor rural | O Paladino",
+                                "Alongamento e renegociação de dívida rural, crédito, seguro, normas do CMN e decisões da Justiça para o produtor rural, com fonte e prazo.",
+                                url_a, capa_secao("noticias"), a_pre, corpo_agro,
+                                jsonld=seo.script(seo.trilha(("Início", f"{SITE}/"), ("Chamada Agro", url_a)))), encoding="utf-8")
     # cada item dos Destaques tem de levar a uma nota que trate do jogo já no título
     for j in home["em_alta"]:
         slug = j["link"].strip("/").split("/")[-1]

@@ -207,7 +207,7 @@ def build():
         return max(datas, key=lambda d: datetime.fromisoformat(d if "T" in d else d + "T00:00:00+00:00")) if datas else None
 
     secoes = [(f"{SITE}/", maior({"noticia", "resenha"})), (f"{SITE}/noticias/", maior({"noticia"})), (f"{SITE}/estudos/", maior({"resenha"})),
-              (f"{SITE}/discipulado/", maior({"licao"}))]
+              (f"{SITE}/discipulado/", maior({"licao"})), (f"{SITE}/chamada-agro/", maior({"noticia"}))]
     for url, lm in reversed(secoes):
         rel = url[len(SITE) + 1:]
         if indexavel(url, ROOT / rel / "index.html"):

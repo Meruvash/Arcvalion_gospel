@@ -52,6 +52,16 @@
    "viva": "#5fd3e0"
   },
   {
+   "slug": "chamada-agro",
+   "nome": "Chamada Agro",
+   "menu": "Chamada Agro",
+   "descricao": "O que muda para o produtor rural: alongamento e renegociação de dívida rural, crédito, seguro e Proagro, normas do CMN e do Banco Central, leis e decisões da Justiça sobre o campo.",
+   "cor": "#3f5f1e",
+   "fundo": "#ebf2e1",
+   "visivel": true,
+   "viva": "#a3d977"
+  },
+  {
    "slug": "musica-e-cultura",
    "nome": "Música e Cultura Cristã",
    "menu": "Cultura",

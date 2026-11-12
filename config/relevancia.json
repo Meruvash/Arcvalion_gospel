@@ -32,7 +32,7 @@
    "regua": [
     [
      20,
-     "núcleo do portal com efeito direto no leitor: igreja e liberdade religiosa no Brasil; vida, família e educação dos filhos; política nacional e lideranças da direita e da oposição (Flávio Bolsonaro, Nikolas Ferreira); ato do poder público (inclusive de Rondônia e Porto Velho) quando o próprio ato é sobre um desses temas"
+     "núcleo do portal com efeito direto no leitor: igreja e liberdade religiosa no Brasil; vida, família e educação dos filhos; política nacional e lideranças da direita e da oposição (Flávio Bolsonaro, Nikolas Ferreira); ato do poder público (inclusive de Rondônia e Porto Velho) quando o próprio ato é sobre um desses temas; produtor rural e agro: dívida rural (alongamento, prorrogação, renegociação), crédito, seguro e Proagro, normas do CMN e do Banco Central, decisões da Justiça sobre o produtor (aba Chamada Agro)"
     ],
     [
      10,
@@ -140,6 +140,7 @@
   "vida": "aborto, eutanásia, bioética, dignidade da vida humana",
   "familia": "casamento, filhos, adoção, papel dos pais, proteção de crianças e adolescentes, vícios que destroem famílias",
   "educacao": "escola, currículo, educação dos filhos, direitos dos pais na educação",
-  "politica": "política nacional: lideranças da direita e da oposição (Flávio Bolsonaro, Nikolas Ferreira, Bolsonaro e aliados), eleições, Congresso, decisões de tribunais e do governo sobre a oposição"
+  "politica": "política nacional: lideranças da direita e da oposição (Flávio Bolsonaro, Nikolas Ferreira, Bolsonaro e aliados), eleições, Congresso, decisões de tribunais e do governo sobre a oposição",
+  "agro": "produtor rural: alongamento, prorrogação e renegociação de dívida rural, crédito rural e Plano Safra, seguro rural e Proagro, normas do CMN e do Banco Central, Funrural e tributos do campo, terra e decisões da Justiça sobre o produtor (aba Chamada Agro, pedido do editor em 12/11/2026)"
  }
 }

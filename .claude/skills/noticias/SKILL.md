@@ -55,3 +55,21 @@ Regras de texto (as do Elite, adaptadas): fato tem fonte, opinião tem dono; o t
 4. Commit e push na `main` do repositório do portal: `Notícias de <dd/mm/aaaa>: <títulos curtos>`. O deploy publica o site.
 5. Escreva em `conteudo/chamadas.json` a `chamada` e a `pergunta` de cada nota (regras de "Chamadas para redes" do padrão). `python3 tools/divulgacao.py` gera os textos de WhatsApp, Telegram e Instagram.
 6. Resumo para a redação: rodadas feitas e o que cada uma achou, as notas publicadas (título, selo, pontos, fonte primária, link), a manchete e o que ficou de fora e por quê.
+
+## Chamada Agro (pedido do editor em 12/11/2026)
+
+Aba `/chamada-agro/`, editoria `chamada-agro` (config/editorias.json), eixo `agro` do crivo (config/relevancia.json).
+
+- **Pauta:** alongamento, prorrogação e renegociação de dívida rural (MP, lei, resolução do CMN, Manual de Crédito
+  Rural); crédito rural e Plano Safra; seguro rural e Proagro; Funrural e tributos do campo; decisões do STJ, do STF e
+  dos TRFs sobre o produtor; prazos de adesão. O mesmo corte de qualidade das outras notas (70; 60 a 69 só para
+  completar), contando na meta de 5 do dia.
+- **Fontes primárias:** Banco Central (resoluções do CMN), Planalto e Diário Oficial (MPs, leis, decretos), Agência
+  Senado e Agência Câmara com a tramitação nos dados abertos, Ministério da Agricultura, notícias do STJ e do STF.
+  A norma é lida na fonte; reportagem de veículo do agro só confirma.
+- **Na nota:** quem tem direito, até quando, o que o produtor precisa pedir ou levar ao banco e o que ainda depende
+  de regulamentação. `para_quem` sempre com o prazo.
+- **Campo interno `curadoria.agro`** (não aparece no site): `{"demanda": "<problema prático do produtor que a norma
+  cria ou resolve>", "prazo": "<data ou 'sem prazo'>", "quem": "<quem é afetado>"}`. É a lista de pautas que pedem
+  orientação especializada. A matéria publicada continua sem mencionar a advocacia do editor e sem oferecer serviço
+  ou contato profissional (regra de 30/10/2026), até decisão em contrário do editor.
