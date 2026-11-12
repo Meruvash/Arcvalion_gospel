@@ -10,7 +10,7 @@
 ## v2: falas gravadas (texto oficial lido em 12/11/2026)
 | # | Fala | Imagem |
 |---|---|---|
-| 1 | "Você sabia que o prazo pra renegociar a dívida rural, que terminou no dia 12, pode recomeçar do zero?" | **Opuscar (óleo com espátula):** lavoura vista da varanda → relógio; o ponteiro chega ao 12, para e volta 12 horas |
+| 1 | "Você sabia que o prazo pra renegociar a dívida rural, que acabava em 12 de novembro, pode recomeçar do zero?" | **Opuscar (óleo com espátula):** lavoura vista da varanda → relógio; o ponteiro chega ao 12, para e volta 12 horas |
 | 2 | "Na quarta-feira, o Senado aprovou o texto da MP das dívidas rurais. Agora, ele vai pra sanção do Presidente." | Congresso no entardecer, à maneira de Monet ("Parlamento"); cartão curto com a ementa do autógrafo |
 | 3 | "Pelo texto, o produtor vai ter 120 dias pra contratar, contados a partir da regulamentação da lei." | **Opuscar:** folhinha "12 NOVEMBRO" riscada a espátula; "120 dias" e o carimbo "depois da regulamentação" |
 | 4 | "Vale pra quem perdeu duas safras ou mais entre 2019 e 2025, com queda de pelo menos 30% da renda esperada." | Sete medas, uma por ano (2019 a 2025), à maneira de Monet |
@@ -23,9 +23,9 @@
 
 **Mudanças da v1 para a v2.** A leitura do autógrafo mostrou que o art. 1º, § 2º admite a perda "por redução dos preços de
 comercialização dos seus produtos agropecuários financiados". Isso virou a batida de virada (fala 5). A fala dos limites
-saiu para caber no tempo. "Amanhã" virou "que terminou no dia 12": o vídeo será postado em 13/11/2026 (sexta), quando o prazo original da MP já terá passado. "Na quarta-feira" (fala 2) e a folhinha "12 · quinta-feira" continuam corretas nessa data.
+saiu para caber no tempo. "Amanhã" virou "12 de novembro": o vídeo será postado na quinta-feira, 12/11/2026, o próprio dia em que terminava o prazo original da MP (correção do editor, que segue o horário de Brasília). "Na quarta-feira" (fala 2) e a folhinha "12 · quinta-feira" estão certas para essa data.
 
-**Antes de postar (13/11):** confira se a lei já foi sancionada ou se houve veto. Se houver sanção, as falas 2, 3 e 9, o rodapé "depende de sanção" e a cartela precisam mudar.
+**Antes de postar (12/11):** confira se a lei já foi sancionada ou se houve veto. Se houver sanção, as falas 2, 3 e 9, o rodapé "depende de sanção" e a cartela precisam mudar.
 
 **Texto oficial:** autógrafo do PLV 16/2026 (Câmara dos Deputados, 11/11/2026), obtido na página da MPV 1.376/2026 no site do
 Congresso (https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/175190).

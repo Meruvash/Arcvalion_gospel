@@ -124,7 +124,7 @@ function ponteiros(m, smear = 0, k = 1) {
   const [cx, cy] = CLK, n = Math.min(10, 1 + Math.floor(Math.abs(smear) / 6));
   for (let i = n - 1; i >= 0; i--) {
     const mm = m - smear * i / n, al = i ? .22 * (1 - i / n) : 1;
-    const am = mm / 60 * TAU, ah = mm / 720 * TAU;
+    const am = mm / 60 * TAU, ah = (mm - 60) / 720 * TAU;
     const hand = (a, len, wid, c) => dyn.push({ x: cx + Math.sin(a) * len * .42, y: cy - Math.cos(a) * len * .42, ang: a - Math.PI / 2, len, wid, c, c2: shade(c, .8), type: KNIFE, taper: .85, alpha: al * k, hgt: 1.3, seed: 11 + i });
     hand(ah, 92, 15, hex('#1c120c')); hand(am, 136, 10, hex('#241610'));
   }
@@ -138,7 +138,7 @@ function frame(t) {
     const k = eio(seg(t, .3, 3.0));
     const C = cam(lerp(1260, 560, k), lerp(650, 470, k), lerp(1.0, 1.28, k) + seg(t, 3, 7) * .05);
     plate(PL.var, { t, cam: C, grey: 0 });
-    const T12 = +(q.get('t12') ?? 3.5), S0 = +(q.get('s0') ?? 4.0), S1 = +(q.get('s1') ?? 5.15);
+    const T12 = +(q.get('t12') ?? 3.55), S0 = +(q.get('s0') ?? 4.55), S1 = +(q.get('s1') ?? 5.7);
     const prev = tt => tt < T12 ? 57.6 + 2.4 * ss(tt / T12) : tt < S0 ? 60 : 60 - 720 * eio(seg(tt, S0, S1));
     ponteiros(prev(t), prev(t) - prev(t - 1 / 30)); flush({ t, cam: C, grey: 0, run: 0 });
     E.finish({ expo: 1.03, sat: 1.08, contrast: 1.05, vig: .24, spec: .24, light: [-.6, -.55, .7] });
