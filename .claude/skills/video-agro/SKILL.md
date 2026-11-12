@@ -13,8 +13,13 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 3. Exemplo aprovado: `docs/video/roteiros/mp1376-prazo-quinta.md`.
 
 ## Fluxo
-1. **Tema novo e verificável.** Procure o assunto da semana no crédito rural (CMN/BCB, MP, lei,
-   STJ, Congresso). Leia a norma na fonte primária e anote link e data.
+1. **Pauta pela política de originalidade** (`docs/video/PAUTA_AGRO.md`, obrigatória):
+   - pelo menos 5 candidatas, de 3 eixos ou mais;
+   - rodízio de eixos, com dívida e crédito em no máximo 1 de cada 4 vídeos;
+   - conferência em `docs/video/PAUTAS_USADAS.md`;
+   - as 3 melhores apresentadas com nota.
+
+   Leia a norma ou o dado na fonte primária e anote link e data.
 2. **Roteiro na conversa**, no formato de tabela do PROMPT. **Pare e espere a aprovação.**
 3. **Plano de imagem** junto com o roteiro: para cada fala, que pintura entra, onde entram os 2 ou 3
    cartões de prova e qual tipografia animada usar. Respeite os 70% de animação.
@@ -33,7 +38,7 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 - Citar na narração birô de crédito ou cobrança (Serasa, SPC, Boa Vista) num vídeo para devedores: a fonte vai só no rodapé.
 - Repetir frase-fórmula de vídeo anterior ("Parece erro. Mas não é.", "E é justamente aí que a história fica ainda mais estranha…" ou qualquer outra). Cada roteiro com palavras próprias.
 - Usar segunda voz sem necessidade real (o padrão é não ter).
-- Repetir o ângulo de um vídeo anterior.
+- Repetir o ângulo, a norma ou o eixo do vídeo anterior (veja `PAUTA_AGRO.md` e `PAUTAS_USADAS.md`).
 - Usar documento em tela cheia por muito tempo.
 - Mostrar TV ou onda de áudio quando houver segunda voz.
 - Pintar rosto de frente.
