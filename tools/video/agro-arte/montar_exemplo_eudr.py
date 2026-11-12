@@ -19,6 +19,12 @@ def ts(n, palavra, k=1):
             c += 1
             if c == k: return w["s"]
     raise KeyError((n, palavra))
+def ts_alt(n, *variantes):
+    """Primeira grafia que a transcrição usou (ex.: siglas que o speech-to-text escreve de jeitos diferentes)."""
+    for v in variantes:
+        try: return ts(n, v)
+        except KeyError: pass
+    raise KeyError((n, variantes))
 
 # ---------- legendas (blocos de até 3 palavras) ----------
 blocos = []
@@ -40,7 +46,7 @@ C = {"boudin": FI[2]["inicio"] - .25, "graf": FI[3]["inicio"] - .25, "delft": FI
      "corte": FI[6]["inicio"] - .25, "klee": FI[7]["inicio"] - .25, "fim": FI[9]["inicio"] - .25, "cartela": FI[10]["inicio"] - .35}
 M = {"n367": ts(1, "367"), "mercosul": ts(2, "Mercosul"), "n148": ts(2, "14,8"), "trinta": ts(4, "30"), "lei": ts(4, "lei"),
      "soja": ts(5, "soja"), "cafe": ts(5, "café"), "carne": ts(5, "carne"), "d31": ts(5, "31"), "autorizado": ts(6, "autorizado"), "fora": ts(6, "fora"),
-     "rasoe": ts(7, "RAZOE"), "gov": ts(7, "gov"), "car": ts(8, "CAR"), "desm": ts(8, "desmatamento"), "emb": ts(8, "embargos"), "areas": ts(8, "áreas"),
+     "rasoe": ts_alt(7, "RASOE", "RAZOE", "RASSOE"), "gov": ts(7, "gov"), "car": ts(8, "CAR"), "desm": ts(8, "desmatamento"), "emb": ts(8, "embargos"), "areas": ts(8, "áreas"),
      "eu": ts(10, "Eu"), "advogado": ts(10, "advogado"), "antes": ts(10, "Antes"), "segue": ts(10, "segue")}
 XF = 0.45
 ORD = ["colmeias", "eu_boudin", "grafico", "eu_delft", "eu_post", "eu_post_corte", "eu_klee", "colmeias_fim"]
