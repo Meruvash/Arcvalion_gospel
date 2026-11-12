@@ -1,0 +1,215 @@
+{
+ "slug": "prorrogacao-divida-rural-resolucao-cmn-5314-sumula-298-stj",
+ "data": "2026-11-12",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Motivo de alerta",
+ "titulo": "Prorrogar dívida rural: norma do CMN fala em decisão do banco, STJ fala em direito",
+ "lide": "Desde 1º de julho, o Manual de Crédito Rural diz que o banco fica autorizado a prorrogar a dívida rural \"por sua conveniência e decisão\", pela Resolução CMN 5.314/2026. A Súmula 298 do STJ diz o contrário: o alongamento não é faculdade do banco, mas direito do devedor nos termos da lei. Entidades do campo pedem a revisão da norma.",
+ "por_que_importa": "Com a renegociação da MP 1.376 dependendo de sanção e regulamentação, a prorrogação prevista no Manual de Crédito Rural segue como a outra porta do produtor em dificuldade. Saber o que diz cada regra ajuda a pedir do jeito certo e a guardar a prova do pedido.",
+ "numeros": [
+  [
+   "1º/07/2026",
+   "data em que entrou em vigor a Resolução CMN 5.314, que mudou o item 4 da seção 2-6 do Manual de Crédito Rural",
+   "Banco Central, Resolução CMN 5.314/2026"
+  ],
+  [
+   "298",
+   "número da súmula do STJ que trata o alongamento da dívida rural como direito do devedor, julgada em 2004",
+   "STJ, Súmula 298"
+  ],
+  [
+   "3",
+   "condições do novo texto: pedido do produtor, prova da dificuldade temporária e atestado do banco sobre a necessidade e a capacidade de pagamento",
+   "Banco Central, Resolução CMN 5.314/2026"
+  ]
+ ],
+ "corpo": [
+  "O novo texto do Manual diz que a instituição fica autorizada, por sua conveniência e decisão, mediante solicitação do mutuário, a prorrogar a dívida aos mesmos encargos, desde que o mutuário comprove a dificuldade temporária para reembolso e que a instituição ateste a necessidade da prorrogação e demonstre a capacidade de pagamento. A resolução foi assinada pelo presidente do Banco Central, Gabriel Galípolo.",
+  "Em ofício ao Banco Central, o Sistema FAEP pediu a revisão da redação e, enquanto isso, que a recusa por mera conveniência seja vedada a quem cumpre os requisitos objetivos. Para a entidade, a norma administrativa não pode restringir o direito que a lei assegura, e citou a Súmula 298."
+ ],
+ "no_brasil": "A prorrogação do Manual é diferente da renegociação da MP 1.376, aprovada pelo Senado em 11/11, que cria linhas próprias para quem perdeu safras pelo clima, como o portal noticiou. As duas coisas podem andar juntas, cada uma com suas regras.",
+ "critica": [
+  {
+   "fonte": "STJ, Súmula 298 (Segunda Seção, 2004)",
+   "texto": "O alongamento de dívida originada de crédito rural não constitui faculdade da instituição financeira, mas, direito do devedor nos termos da lei",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/sumstj/doc.jsp?livre=@num=%27298%27"
+  },
+  {
+   "fonte": "Ágide Meneguette, presidente do Sistema FAEP, segundo a CNA",
+   "texto": "Não podemos deixar que o produtor rural perca o direito legal de alongar suas dívidas",
+   "citacao": true,
+   "url": "https://cnabrasil.org.br/noticias/sistema-faep-questiona-legalidade-da-resolucao-do-conselho-monetario-nacional"
+  },
+  {
+   "fonte": "Conselho Monetário Nacional, no texto da resolução",
+   "texto": "Para o CMN, a prorrogação depende de o produtor comprovar a dificuldade temporária e de o banco atestar a necessidade e a capacidade de pagamento; a resolução não traz justificativa no texto publicado.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Produtor com dificuldade para pagar a parcela: faça o pedido de prorrogação por escrito, antes do vencimento, e guarde o protocolo e as provas da dificuldade",
+  "Quem teve o pedido negado: peça a resposta por escrito, com o motivo",
+  "Quem perdeu safra pelo clima: veja também a renegociação da MP 1.376, que depende de sanção e regulamentação"
+ ],
+ "nao_e_para": [
+  "Esta nota não é orientação para um caso concreto; cada contrato tem suas cláusulas",
+  "A súmula é de 2004 e a resolução de 2026: como os tribunais vão conciliar as duas é o que está em disputa",
+  "O texto vigente do Manual de Crédito Rural está no site do Banco Central"
+ ],
+ "veredito": "A balança pende para o lado errado. Resolução administrativa não deveria transformar em favor do banco o que o STJ chama de direito do produtor há mais de vinte anos. Exigir prova da dificuldade é justo; \"conveniência\" abre porta para recusa sem motivo. Que o Banco Central reveja a redação.",
+ "versiculo": {
+  "texto": "Não detenhas dos seus donos o bem, estando na tua mão poder fazê-lo",
+  "referencia": "Provérbios 3.27",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Banco Central: Resolução CMN nº 5.314, de 25 de junho de 2026 (DOU de 29/06/2026)",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5314",
+   "data": "25/06/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: Súmula 298",
+   "url": "https://scon.stj.jus.br/SCON/sumstj/doc.jsp?livre=@num=%27298%27",
+   "data": "18/10/2004",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "CNA: Sistema FAEP questiona legalidade da resolução do Conselho Monetário Nacional (29/06/2026)",
+   "url": "https://cnabrasil.org.br/noticias/sistema-faep-questiona-legalidade-da-resolucao-do-conselho-monetario-nacional",
+   "data": "29/06/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "O Paladino: Senado aprova MP que renegocia dívidas rurais (12/11/2026)",
+   "url": "https://opaladino.com.br/noticias/senado-aprova-mp-renegociacao-dividas-rurais-vai-sancao/",
+   "data": "12/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 71,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "O fato é sobre dívida rural: a regra de prorrogação do Manual de Crédito Rural e o direito do produtor reconhecido pelo STJ"
+  },
+  "origem": {
+   "nome": "Banco Central",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5314"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Norma do CMN em vigor desde julho que vale para toda prorrogação de dívida rural no país"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Prorrogação de dívida rural, núcleo da aba Chamada Agro, com efeito direto no produtor endividado"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Norma de junho, com gancho na aprovação da MP das dívidas rurais em 11/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Texto integral da resolução lido no Banco Central e súmula lida no site do STJ, mais a nota da entidade do setor"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Põe lado a lado a norma do CMN e a súmula do STJ e explica a diferença para a renegociação da MP"
+   }
+  },
+  "publico": {
+   "pontos": 16,
+   "eixos": {
+    "valor": 8,
+    "viral": 4,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: resolução e súmula lidas (2)",
+    "Ato de poder: norma do CMN (2)",
+    "Proximidade: nacional (2)",
+    "Contraste: banco decide x direito do devedor (2)",
+    "Utilidade: como pedir e guardar prova (2)",
+    "Pede resposta do cristão: justiça com o devedor honesto (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 3.27 (2)",
+    "Rende estudo: dívida e justiça (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN nº 5.314",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / prorrogação de dívida rural",
+  "coleta": "2026-11-12",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "textos primários lidos",
+   "contradicoes": "A norma do CMN e a súmula do STJ apontam em sentidos diferentes; a nota relata as duas sem dizer qual prevalece em cada caso.",
+   "sem_confirmacao": "resposta do Banco Central ao ofício da FAEP; decisões recentes do STJ sobre a nova redação"
+  },
+  "duplicidade": {
+   "grupo": "Prorrogação de dívida rural",
+   "itens": [
+    "Banco Central 25/06",
+    "CNA/FAEP 29/06"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-12-senado-aprova-mp-renegociacao-dividas-rurais-vai-sancao"
+  },
+  "seo": {
+   "intencao": "saber se o banco pode negar a prorrogação da dívida rural",
+   "entidades": [
+    "Resolução CMN 5.314/2026",
+    "Manual de Crédito Rural",
+    "Súmula 298 do STJ",
+    "Banco Central",
+    "Sistema FAEP"
+   ],
+   "termos": [
+    "prorrogação dívida rural banco pode negar",
+    "Súmula 298 STJ alongamento",
+    "Resolução 5314 CMN"
+   ],
+   "atualizacao": "acompanhar resposta do Banco Central e decisões do STJ"
+  },
+  "agro": {
+   "demanda": "Produtor com pedido de prorrogação negado ou ignorado pelo banco, com base na nova redação do MCR, diante da Súmula 298; precisa de prova da dificuldade, protocolo do pedido e resposta formal",
+   "prazo": "pedido antes do vencimento da parcela",
+   "quem": "Todos os produtores com crédito rural que enfrentam dificuldade temporária de pagamento"
+  }
+ },
+ "descricao_seo": "Resolução CMN 5.314 diz que o banco prorroga dívida rural por conveniência e decisão; a Súmula 298 do STJ diz que o alongamento é direito do devedor.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da resolução, da súmula e da nota da entidade, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os textos da resolução e da súmula foram lidos nas fontes oficiais e citados literalmente; a posição da FAEP está atribuída. A nota não diz qual regra prevalece em cada caso, avisa que não é orientação para caso concreto e não oferece serviço nem menciona a advocacia do editor. A opinião critica a redação da norma, não pessoas.",
+ "imagem": {
+  "arquivo": "capas/prorrogacao-divida-rural-resolucao-cmn-5314-sumula-298-stj.jpg",
+  "credito": "Foto: Valter Campanato/Agência Brasil",
+  "alt": "Produtor colhe morangos em lavoura de Brazlândia, no Distrito Federal (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/3y2td54PZzEaTHpMcySOUSgChlc=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/1089300-vcapto_abr_2408172783_1.jpg?itok=5Ovht1Ft",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-03/agricultores-com-perda-de-producao-comecam-receber-o-garantia-safra"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-12T14:55:39-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-12T14:55:39-03:00"
+}
