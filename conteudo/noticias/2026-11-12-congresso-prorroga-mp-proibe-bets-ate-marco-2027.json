@@ -1,0 +1,199 @@
+{
+ "slug": "congresso-prorroga-mp-proibe-bets-ate-marco-2027",
+ "data": "2026-11-12",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Congresso prorroga MP que proíbe as bets, que agora vale até março de 2027",
+ "lide": "O presidente do Congresso, Davi Alcolumbre, prorrogou por 60 dias a medida provisória que proibiu as bets no país, a MP 1.394/2026. Pelo Ato nº 118, registrado na quarta-feira (11), o prazo para o Congresso votá-la vai até 4 de março de 2027. A comissão mista que analisa a MP ainda não foi instalada.",
+ "por_que_importa": "Enquanto não for votada nem perder a validade, a MP continua valendo, e com ela a proibição das apostas. A prorrogação dá mais tempo à proibição, mas também empurra para 2027 a decisão definitiva do Congresso. O STF também julga a constitucionalidade da norma.",
+ "numeros": [
+  [
+   "4/3/2027",
+   "nova data final para o Congresso deliberar sobre a MP, depois da prorrogação por 60 dias",
+   "Senado, dados abertos, 11/11/2026"
+  ],
+  [
+   "R$ 62,5 bilhões",
+   "de perdas das famílias brasileiras com apostas em 2025, segundo dados citados pelo governo",
+   "Agência Brasil, 11/11/2026"
+  ],
+  [
+   "4",
+   "ações no STF contra a MP; as ações em outras instâncias estão suspensas por decisão de Fux",
+   "Agência Brasil, 11/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo os dados abertos do Senado, a MP aguarda a instalação da comissão mista e a designação de membros. Na tramitação, cinco emendas foram retiradas pelos autores, e o deputado Capitão Alden (PL-BA) pediu documentos preparatórios da MP e audiência pública com autoridades.",
+  "A Agência Brasil lembra que a MP proibiu a exploração, a oferta, a intermediação e a publicidade das apostas de quota fixa, criou um comitê de fiscalização e estabeleceu regras para devolver os valores que os apostadores tinham nas contas das empresas."
+ ],
+ "no_brasil": "No STF, o ministro Luiz Fux suspendeu em todo o país as ações contra a proibição até o julgamento das quatro ADIs, como o portal noticiou em 9/11. As bets foram autorizadas no Brasil por lei de 2018 e regulamentadas em dezembro de 2023.",
+ "critica": [
+  {
+   "fonte": "Presidente Lula, ao assinar a MP, segundo a Agência Brasil",
+   "texto": "Eu tomei uma medida dura e drástica necessária. Isso é como um câncer",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/congresso-prorroga-por-60-dias-mp-que-proibe-bets-no-pais"
+  },
+  {
+   "fonte": "Setor de apostas, nas ações no STF",
+   "texto": "Entidades do setor sustentam em quatro ações no Supremo que a MP é inconstitucional; a decisão sobre o mérito ainda não tem data.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Famílias com alguém viciado em apostas: a proibição segue valendo pelo menos até a votação ou até 4 de março de 2027",
+  "Igrejas que acolhem endividados: o tema volta ao Congresso em 2027; vale acompanhar a comissão mista",
+  "Quem tinha saldo em bet: a MP prevê regras para devolver os valores"
+ ],
+ "nao_e_para": [
+  "A prorrogação não aprova a MP: o Congresso ainda precisa votá-la",
+  "Se não for votada até 4 de março de 2027, a MP perde a validade",
+  "A constitucionalidade da proibição será decidida pelo STF"
+ ],
+ "veredito": "Mais tempo para a proibição é bom para a família. Mas MP não é lei definitiva, e deixar a comissão sem instalar só adia a briga. O Congresso precisa assumir sua parte e votar a proibição com clareza, em vez de empurrar o assunto para o Supremo.",
+ "versiculo": {
+  "texto": "Mas os que querem ser ricos caem em tentação, e em laço, e em muitas concupiscências loucas e nocivas, que submergem os homens na perdição e ruína",
+  "referencia": "1 Timóteo 6.9",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Senado, dados abertos: tramitação da MPV 1.394/2026 (Ato do Presidente da Mesa do Congresso nº 118, de 2026)",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9110686",
+   "data": "11/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Congresso prorroga por 60 dias MP que proíbe bets no país (11/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/congresso-prorroga-por-60-dias-mp-que-proibe-bets-no-pais",
+   "data": "11/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "O Paladino: Fux suspende no país todas as ações contra a proibição das bets (09/11/2026)",
+   "url": "https://opaladino.com.br/noticias/fux-suspende-todas-acoes-contra-proibicao-bets-pais/",
+   "data": "09/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 71,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "O fato é sobre o vício em apostas que destrói famílias: o Congresso estende a validade da MP que proíbe as bets"
+  },
+  "origem": {
+   "nome": "Senado Federal",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9110686"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Ato já publicado que mantém a proibição das bets em vigor por mais 60 dias"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Vício em apostas e proteção da família, tema que o portal acompanha desde a proibição"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Ato registrado em 11/11, menos de 48 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Tramitação oficial nos dados abertos do Senado e reportagem independente da Agência Brasil"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Traz da tramitação oficial a comissão não instalada, as emendas retiradas e o pedido de audiência"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: tramitação oficial (2)",
+    "Ato de poder: ato do presidente do Congresso (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Utilidade: até quando vale a proibição (1)",
+    "Número forte: R$ 62,5 bilhões perdidos (1)",
+    "Pede resposta do cristão: famílias e vício (2)",
+    "Passagem bíblica que um pastor usaria: 1 Timóteo 6.9 (2)",
+    "Gatilho no calendário: 4 de março de 2027 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Congresso prorroga por 60 dias MP que proíbe bets no país",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / apostas",
+  "coleta": "2026-11-12",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado em dados oficiais e reportagem",
+   "contradicoes": "Nenhuma.",
+   "sem_confirmacao": "data de instalação da comissão mista"
+  },
+  "duplicidade": {
+   "grupo": "MP das bets",
+   "itens": [
+    "Senado dados abertos 11/11",
+    "Agência Brasil 11/11",
+    "Terra Brasil 12/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-09-fux-suspende-todas-acoes-contra-proibicao-bets-pais"
+  },
+  "seo": {
+   "intencao": "saber até quando vale a proibição das bets",
+   "entidades": [
+    "MP 1.394/2026",
+    "Davi Alcolumbre",
+    "Congresso Nacional",
+    "Luiz Fux",
+    "bets"
+   ],
+   "termos": [
+    "MP das bets prorrogada",
+    "proibição das bets até quando",
+    "MP 1394 prazo"
+   ],
+   "atualizacao": "acompanhar instalação da comissão mista e votação"
+  }
+ },
+ "descricao_seo": "Alcolumbre prorrogou por 60 dias a MP 1.394/2026, que proíbe as bets; o prazo para o Congresso votar vai até 4 de março de 2027.",
+ "instituicao": "Congresso Nacional",
+ "editora": "Congresso Nacional",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da tramitação oficial e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: datas e atos vêm dos dados abertos do Senado e a frase de Lula da Agência Brasil; a posição do setor está registrada. A opinião cobra o Congresso sem atacar pessoas.",
+ "imagem": {
+  "arquivo": "capas/congresso-prorroga-mp-proibe-bets-ate-marco-2027.jpg",
+  "credito": "Foto: Tânia Rêgo/Agência Brasil",
+  "alt": "Pessoa segura um celular (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/NKur-MhGnpSD2W0jkdQKc3u_gFc=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/trbr2482.jpg?itok=dNnGsRCQ",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/gastos-com-apostas-online-no-rio-chegam-r-22-bilhoes-anualmente"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-12T15:03:10-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-12T15:03:10-03:00"
+}
