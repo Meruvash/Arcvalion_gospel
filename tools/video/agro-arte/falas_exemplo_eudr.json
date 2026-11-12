@@ -1,0 +1,62 @@
+[
+ {
+  "id": 1,
+  "quem": "narrador",
+  "texto": "Você sabia que as vendas de mel do Brasil para a Europa subiram 367% em cinco meses?",
+  "fala": "Você sabia que as vendas de mel do Brasil pra Europa subiram trezentos e sessenta e sete por cento em cinco meses?"
+ },
+ {
+  "id": 2,
+  "quem": "narrador",
+  "texto": "É o acordo entre Mercosul e União Europeia, que fez seis meses: o agro vendeu 14,8% a mais pro bloco.",
+  "fala": "É o acordo entre Mercosul e União Europeia, que fez seis meses: o agro vendeu quatorze vírgula oito por cento a mais pro bloco."
+ },
+ {
+  "id": 3,
+  "quem": "narrador",
+  "texto": "As carnes mais que dobraram em valor, e a soja em grão subiu 49%.",
+  "fala": "As carnes mais que dobraram em valor, e a soja em grão subiu quarenta e nove por cento."
+ },
+ {
+  "id": 4,
+  "quem": "narrador",
+  "texto": "Mas essa porta que abriu ganha um porteiro no dia 30 de dezembro: a lei europeia contra o desmatamento.",
+  "fala": "Mas essa porta que abriu ganha um porteiro no dia trinta de dezembro: a lei europeia contra o desmatamento."
+ },
+ {
+  "id": 5,
+  "quem": "narrador",
+  "texto": "A partir daí, as grandes empresas europeias vão ter que provar que a soja, o café e a carne não vieram de área desmatada depois de 31 de dezembro de 2020.",
+  "fala": "A partir daí, as grandes empresas europeias vão ter que provar que a soja, o café e a carne não vieram de área desmatada depois de trinta e um de dezembro de dois mil e vinte."
+ },
+ {
+  "id": 6,
+  "quem": "narrador",
+  "texto": "E tem um detalhe que pega muita gente: pra Europa, não importa se o desmate foi autorizado aqui. Depois dessa data, aquela área fica de fora.",
+  "fala": "E tem um detalhe que pega muita gente: pra Europa, não importa se o desmate foi autorizado aqui. Depois dessa data, aquela área fica de fora."
+ },
+ {
+  "id": 7,
+  "quem": "narrador",
+  "texto": "Pra comprovar, o governo criou um relatório gratuito, o RASOE, que o próprio produtor pede pela conta gov.br.",
+  "fala": "Pra comprovar, o governo criou um relatório gratuito, o Rasoe, que o próprio produtor pede pela conta gov ponto br."
+ },
+ {
+  "id": 8,
+  "quem": "narrador",
+  "texto": "O sistema cruza o CAR com registros de desmatamento, embargos e áreas protegidas, e o relatório pode ser mostrado ao comprador.",
+  "fala": "O sistema cruza o CAR com registros de desmatamento, embargos e áreas protegidas, e o relatório pode ser mostrado ao comprador."
+ },
+ {
+  "id": 9,
+  "quem": "narrador",
+  "texto": "A sua fazenda passaria nesse teste?",
+  "fala": "A sua fazenda passaria nesse teste?"
+ },
+ {
+  "id": 10,
+  "quem": "editor",
+  "texto": "Eu sou o Dr. Pelicioni, advogado. Antes de dezembro, confira o seu CAR: é nele que o sistema se baseia. Me segue pra não perder as novidades do agro.",
+  "fala": "Eu sou o Dr. Pelicioni, advogado. Antes de dezembro, confira o seu CAR: é nele que o sistema se baseia. Me segue pra não perder as novidades do agro."
+ }
+]
