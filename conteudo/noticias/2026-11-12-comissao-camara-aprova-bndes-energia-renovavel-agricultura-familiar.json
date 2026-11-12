@@ -1,0 +1,194 @@
+{
+ "slug": "comissao-camara-aprova-bndes-energia-renovavel-agricultura-familiar",
+ "data": "2026-11-12",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Comissão da Câmara aprova crédito do BNDES para energia solar na agricultura familiar",
+ "lide": "A Comissão de Meio Ambiente da Câmara aprovou em 4 de novembro o PL 1.286/2025, que autoriza o BNDES a aplicar até 2% dos recursos do FAT em energia renovável na agricultura familiar, com prioridade para o Pronaf. O parecer foi publicado nesta quinta-feira (12), e o texto segue para a Comissão de Agricultura.",
+ "por_que_importa": "Energia é custo fixo pesado na propriedade pequena, da bomba d'água à refrigeração do leite. A proposta abre uma linha para placa solar, eólica ou biomassa e inclui assistência técnica para montar o projeto que o banco exige. Por enquanto, é projeto: nada muda no crédito de hoje.",
+ "numeros": [
+  [
+   "2%",
+   "dos recursos do FAT repassados ao BNDES poderiam ir para energia renovável na agricultura familiar",
+   "Agência Câmara, 11/11/2026"
+  ],
+  [
+   "R$ 22 bi de R$ 30 bi",
+   "do Pronaf previstos por ano são contratados, segundo dados do TCU de 2019 citados pelo relator",
+   "Agência Câmara, 11/11/2026"
+  ],
+  [
+   "3",
+   "comissões ainda vão analisar o texto: Agricultura, Finanças e Tributação, e Constituição e Justiça",
+   "Agência Câmara, 11/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O financiamento alcança energia solar, eólica, biomassa e aproveitamentos hidroenergéticos, proíbe sobreposição com linhas de crédito já existentes e prioriza o Pronaf. O texto também inclui a agricultura familiar com assistência técnica entre as ações financiáveis pelo Fundo Nacional sobre Mudança do Clima e pelo Fundo Nacional do Meio Ambiente.",
+  "Segundo o relator, deputado Fernando Mineiro (PT-RN), parte do Pronaf não chega ao agricultor porque ele esbarra no desconhecimento das linhas, nas exigências dos bancos e na dificuldade de elaborar projetos, e a assistência técnica prevista busca resolver esse gargalo."
+ ],
+ "no_brasil": "O projeto é do deputado Zé Neto (PT-BA) e está na Comissão de Agricultura desde 5 de novembro, segundo os dados abertos da Câmara. Depois das comissões, precisa ser aprovado pela Câmara e pelo Senado para virar lei.",
+ "critica": [
+  {
+   "fonte": "Deputado Fernando Mineiro (PT-RN), relator, segundo a Agência Câmara",
+   "texto": "A iniciativa favorece a transição energética justa e inclusiva, beneficiando populações vulneráveis e articulando descarbonização e desenvolvimento rural num mesmo instrumento",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1318363-comissao-aprova-uso-de-recursos-do-bndes-para-financiar-energia-renovavel-na-agricultura-familiar"
+  },
+  {
+   "fonte": "Ponto em debate",
+   "texto": "Segundo a própria reportagem, o texto proíbe sobrepor financiamentos às linhas já existentes; o desafio apontado pelo relator é fazer o recurso chegar a quem hoje não consegue contratar o Pronaf.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Agricultor familiar com conta de luz alta: acompanhe a tramitação; hoje a linha ainda não existe",
+  "Cooperativas e técnicos de assistência rural: a proposta prevê apoio para elaborar o projeto exigido pelo banco",
+  "Quem já tem crédito do Pronaf: o texto proíbe sobrepor financiamentos"
+ ],
+ "nao_e_para": [
+  "Nada muda agora: o projeto ainda passa por três comissões, pelo Plenário e pelo Senado",
+  "A proposta autoriza o BNDES; não obriga o banco a liberar o recurso",
+  "A data da votação (4/11) e o número do projeto vêm dos dados abertos da Câmara; a reportagem foi publicada em 11/11"
+ ],
+ "veredito": "A gente apoia. Energia própria baixa o custo do pequeno produtor, e assistência técnica para montar o projeto é o que costuma faltar. Mas crédito no papel não paga conta: que a tramitação ande e que a regra chegue ao balcão do banco sem exigência impossível.",
+ "versiculo": {
+  "texto": "Abundância de mantimento há na lavoura do pobre, mas alguns há que se consomem por falta de juízo",
+  "referencia": "Provérbios 13.23",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Câmara: Comissão aprova uso de recursos do BNDES para financiar energia renovável na agricultura familiar (11/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1318363-comissao-aprova-uso-de-recursos-do-bndes-para-financiar-energia-renovavel-na-agricultura-familiar",
+   "data": "11/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara, dados abertos: tramitação do PL 1.286/2025",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2490590/tramitacoes",
+   "data": "12/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 50,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "O fato é sobre crédito rural para o agricultor familiar: projeto abre linha do BNDES para energia renovável no campo"
+  },
+  "origem": {
+   "nome": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1318363-comissao-aprova-uso-de-recursos-do-bndes-para-financiar-energia-renovavel-na-agricultura-familiar"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Projeto aprovado em uma comissão, com mais três comissões e duas Casas pela frente"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Crédito rural para o agricultor familiar, eixo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Votação na comissão em 4/11, noticiada em 11/11 e com parecer publicado em 12/11"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Reportagem oficial da Agência Câmara e tramitação conferida nos dados abertos da Câmara"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Síntese da fonte oficial com o que muda, e o que ainda não muda, para o agricultor"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 5,
+    "viral": 3,
+    "cristao": 4
+   },
+   "criterios": [
+    "Ato de poder: aprovação em comissão da Câmara (1)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que ainda falta para valer (1)",
+    "Número forte: Pronaf que não chega ao agricultor (1)",
+    "Pede resposta do cristão: cuidado com o pequeno produtor (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 13.23 (2)",
+    "Rende estudo: trabalho e sustento (2)",
+    "Gatilho no calendário: próximas comissões (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Comissão aprova uso de recursos do BNDES para financiar energia renovável na agricultura familiar",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / crédito e energia",
+  "coleta": "2026-11-12",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "aprovação em comissão confirmada em fonte oficial",
+   "contradicoes": "A reportagem é de 11/11, mas a votação na comissão foi em 4/11, segundo os dados abertos; a nota usa a data da votação.",
+   "sem_confirmacao": "calendário na Comissão de Agricultura"
+  },
+  "duplicidade": {
+   "grupo": "BNDES e agricultura familiar",
+   "itens": [
+    "Agência Câmara 11/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se há crédito do BNDES para energia solar na agricultura familiar",
+   "entidades": [
+    "BNDES",
+    "FAT",
+    "Pronaf",
+    "Fernando Mineiro",
+    "Câmara dos Deputados"
+   ],
+   "termos": [
+    "energia solar agricultura familiar financiamento",
+    "BNDES FAT energia renovável",
+    "Pronaf energia solar"
+   ],
+   "atualizacao": "acompanhar a Comissão de Agricultura"
+  },
+  "agro": {
+   "demanda": "Agricultor familiar que não consegue acessar o Pronaf por exigências do banco e falta de projeto; se a lei passar, haverá linha nova e assistência técnica",
+   "prazo": "sem prazo; projeto em tramitação",
+   "quem": "Agricultores familiares do Pronaf"
+  }
+ },
+ "descricao_seo": "Comissão da Câmara aprovou proposta que autoriza o BNDES a usar até 2% dos recursos do FAT em energia renovável na agricultura familiar.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da reportagem oficial, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos e frase do relator vêm da Agência Câmara; a nota avisa que nada muda até a aprovação final. Sem acusação e sem oferta de serviço.",
+ "imagem": {
+  "arquivo": "capas/comissao-camara-aprova-bndes-energia-renovavel-agricultura-familiar.jpg",
+  "credito": "Foto: Vinicius Loures/Câmara dos Deputados",
+  "alt": "Deputado Fernando Mineiro, relator da proposta, em reunião na Câmara (foto de arquivo)",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/11/img20260414171205420.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1318363-comissao-aprova-uso-de-recursos-do-bndes-para-financiar-energia-renovavel-na-agricultura-familiar"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-12T14:58:29-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-12T14:58:29-03:00"
+}
