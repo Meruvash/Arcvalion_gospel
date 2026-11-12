@@ -142,7 +142,19 @@ Mandar sempre junto com o vídeo:
 - frases que dependem da data de publicação;
 - falas que o editor deve ouvir (sotaque, nome próprio);
 - estilos ainda em estudo;
-- licença das imagens que não foram feitas em código.
+- licença das imagens que não foram feitas em código;
+- **legenda do Instagram**, pronta para colar (pedido do editor, 12/11/2026):
+  - gancho na 1ª linha e fatos só da fonte, com os números do vídeo;
+  - pergunta para comentários e chamada para compartilhar;
+  - "Me segue" e "Direct aberto" para dúvidas, sem prometer resultado, sem preço e sem "contrate"
+    (Provimento 205/2021 da OAB);
+  - linha de fontes com data e de 8 a 10 hashtags do agro;
+  - birô de crédito, se for fonte, só na linha de fontes;
+- **título do YouTube** (pedido do editor, 12/11/2026):
+  - até 100 caracteres, com o gancho forte nos primeiros 60 (é o que aparece no celular);
+  - fiel ao fato: "pode" quando ainda depende de sanção ou regulamentação, nunca promessa;
+  - sem caixa alta inteira e sem "URGENTE";
+  - mande também 2 alternativas e uma descrição curta com as fontes.
 
 
 **Trilha (12/11/2026):** padrões do modão, estilos prontos e regras de prompt em `docs/video/TRILHA_AGRO.md`. Estilo padrão escolhido pelo editor: **agronejo**, alternando com **catira** entre vídeos.
