@@ -1,10 +1,43 @@
-# "O relógio zerou": MP das dívidas rurais aprovada no Senado — roteiro v1 (11/11/2026)
+# "O relógio zerou": MP das dívidas rurais aprovada no Senado — roteiro v2 (aprovado e produzido em 12/11/2026)
 
 - **Estrutura:** "Você sabia" (`docs/video/PROMPT_VIDEO_AGRO.md`).
 - **Imagem:** `docs/video/DIRECAO_VIDEO_AGRO.md` mais os critérios de direção do Lemo-Opuscar (`~/lemo-opuscar/DIRECTOR.md` e o
   `STYLE.md` do estilo escolhido). Cerca de 90% do tempo em animação e 1 ou 2 inserções curtas de documento.
 - **Formato:** 1080×1080, ~55 s.
-- **Status:** rascunho. Ainda não foi gerada nenhuma voz nem imagem; o roteiro e o estilo aguardam aprovação do editor.
+- **Status:** aprovado pelo editor em 12/11/2026 ("pintura a óleo, padrões do modelo antigo e Opuscar nas cenas isoladas
+  em que for visualmente superior"). A v2 abaixo, conferida no texto oficial do PLV, é a que foi gravada.
+
+## v2: falas gravadas (texto oficial lido em 12/11/2026)
+| # | Fala | Imagem |
+|---|---|---|
+| 1 | "Você sabia que o prazo pra renegociar a dívida rural, que acabava em 12 de novembro, pode recomeçar do zero?" | **Opuscar (óleo com espátula):** lavoura vista da varanda → relógio; o ponteiro chega ao 12, para e volta 12 horas |
+| 2 | "Na quarta-feira, o Senado aprovou o texto da MP das dívidas rurais. Agora, ele vai pra sanção do Presidente." | Congresso no entardecer, à maneira de Monet ("Parlamento"); cartão curto com a ementa do autógrafo |
+| 3 | "Pelo texto, o produtor vai ter 120 dias pra contratar, contados a partir da regulamentação da lei." | **Opuscar:** folhinha "12 NOVEMBRO" riscada a espátula; "120 dias" e o carimbo "depois da regulamentação" |
+| 4 | "Vale pra quem perdeu duas safras ou mais entre 2019 e 2025, com queda de pelo menos 30% da renda esperada." | Sete medas, uma por ano (2019 a 2025), à maneira de Monet |
+| 5 | "E tem uma novidade: a perda não precisa ter vindo só do clima. Queda no preço de venda da produção também conta." | Sacas e balança, à maneira de Chardin; cartão do art. 1º, § 2º com o trecho grifado |
+| 6 | "No Norte, no Nordeste e no Centro-Oeste, a perda exigida cai pra 25%." | **Opuscar:** mapa cinza; N, NE e CO ganham cor pela espátula; "30%" riscado vira "25%" |
+| 7 | "Os juros vão de 6% a 12% ao ano, conforme o porte, e nos dois primeiros anos o produtor paga só os juros." | Mesa com livro-caixa e moedas que se empilham, à maneira de Vermeer |
+| 8 | "Mas teve senador que chamou a medida de paliativo. E quem apoiou o texto admitiu: não é a solução definitiva." | Céu fechando sobre o trigal, à maneira de Ruisdael; as duas citações com nome |
+| 9 | "Agora, tudo depende da caneta do Presidente. Vai ser sancionado do jeito que saiu do Congresso?" | **Opuscar:** o mesmo relógio, no fim da tarde |
+| 10 | DR. PELICIONI: "Eu sou o Dr. Pelicioni, advogado. Enquanto a lei não sai, guarde os laudos e os contratos. Me segue que eu aviso quando sancionar." | Cartela |
+
+**Mudanças da v1 para a v2.** A leitura do autógrafo mostrou que o art. 1º, § 2º admite a perda "por redução dos preços de
+comercialização dos seus produtos agropecuários financiados". Isso virou a batida de virada (fala 5). A fala dos limites
+saiu para caber no tempo. "Amanhã" virou "12 de novembro", porque o vídeo sai depois dessa data.
+
+**Texto oficial:** autógrafo do PLV 16/2026 (Câmara dos Deputados, 11/11/2026), obtido na página da MPV 1.376/2026 no site do
+Congresso (https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/175190).
+- Art. 1º, § 1º: perdas em 2 ou mais safras entre 2019 e 2025, com redução de no mínimo 30% da renda bruta agropecuária
+  esperada, comprovadas por laudo.
+- § 2º: causa da perda: eventos climáticos extremos ou "redução dos preços de comercialização".
+- § 4º, II: juros de 6% (Pronaf), 9% (Pronamp) e 12% (demais).
+- § 4º, III: reembolso em até 8 anos, juros na carência, primeira parcela do principal 2 anos após a contratação.
+- § 4º, IV: "prazo para contratação de até 120 (cento e vinte) dias, contado da regulamentação desta Lei".
+- § 7º: perda mais grave (3 ou mais safras por clima, 40%): juros de 5%, 8% e 11%, prazo de 10 anos.
+- § 13: nas áreas da Sudam, Sudene e Sudeco, os mínimos são de 25% e 35%.
+- **Ainda depende de sanção** (não há sanção até 12/11/2026). Vetos podem mudar tudo isso.
+
+## v1 (rascunho de 11/11/2026, mantido como registro)
 
 ## Por que este tema (tendência)
 Hoje, 11/11/2026, é o assunto que domina o noticiário do agro. A comissão mista e a Câmara aprovaram o texto em 10/11, e o
