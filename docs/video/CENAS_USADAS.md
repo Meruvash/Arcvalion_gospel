@@ -9,6 +9,7 @@ as cenas do vídeo novo. Um mesmo pintor pode voltar, mas sempre com outra compo
 | MP 1.376, "O prazo é quinta" | 10/11/2026 | `mp_fazenda` (Van Gogh, "A Colheita"), `mp_seca` (Van Gogh), `47_sisley` (enchente), `mp_granizo`, `mp_geada` (Monet), `mp_vendaval` (Van Gogh), `46_pissarro` (feira); prints do BCB e do Congresso; calendário de novembro; "duas datas" |
 | "Cinco por dia" (recuperação judicial) | 11/11/2026 | `rj_ceifeiros_tempestade` / `rj_ceifeiros_abre` (Bruegel, "Os Ceifeiros"), `rj_millet` (Millet, "O Semeador"), `rj_turner` (tempestade de Turner); mapa do Brasil em aquarela verde (MT, GO, SP, MG, PR); barras por porte; barras 2º tri 2025 × 2026 |
 | "O relógio zerou" (PLV 16/2026) | 12/11/2026 | Óleo com espátula (Opuscar): varanda da sede com relógio, folhinha "12 NOV" e chapéu (`relogio`, `folhinha`, `fim`), mapa do Brasil em óleo com N/NE/CO em cor e "30% → 25%" (`mapa`); `plv_congresso` (Monet, "Parlamento"), `plv_medas` (Monet, "Medas"), `plv_chardin` (sacas e balança), `plv_vermeer` (mesa com livro-caixa e moedas), `plv_ruisdael` (céu de nuvens sobre o trigal); recortes do autógrafo do PLV 16/2026 (ementa e art. 1º, § 2º) |
+| "A porta e o porteiro" (Mercosul–UE + EUDR) | 12/11/2026 | Óleo com espátula (Opuscar): colmeias coloridas, campo florido e ipê-amarelo (`colmeias`, `colmeias_fim`); `eu_boudin` (porto com graneleiro), `eu_delft` (cidade com porta, à maneira de Vermeer), `eu_post` e `eu_post_corte` (Frans Post, mata e lavoura; desmate em cinza), `eu_klee` (lavouras vistas de cima com camadas do CAR); gráfico em aquarela de exportações para a UE; cartões com texto do MAPA |
 | (descartadas, não usar) | 10–11/11/2026 | `mp_almeida` (reprovada); `rj_fazenda_tempestade` e `rj_fazenda_abre` (variações de `mp_fazenda`, trocadas por repetirem imagem) |
 
 ## Trilhas usadas (não repetir o estilo do vídeo anterior)
@@ -19,3 +20,4 @@ Veja `docs/video/TRILHA_AGRO.md`.
 |---|---|---|
 | "Cinco por dia" | 11/11/2026 | toada / moda de viola, 84 BPM, Ré maior (prompt anterior aos estilos) |
 | "O relógio zerou" | 12/11/2026 | pagode / cururu suave, 96 BPM, Sol maior, "relógio" em cordas abafadas (prompt anterior aos estilos) |
+| "A porta e o porteiro" | 12/11/2026 | agronejo (gerador com estilos, padrão do editor) |
