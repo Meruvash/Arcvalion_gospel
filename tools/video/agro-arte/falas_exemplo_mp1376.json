@@ -1,0 +1,68 @@
+[
+ {
+  "id": 1,
+  "quem": "narrador",
+  "fala": "Você sabia que quem perdeu duas safras tem só até quinta-feira pra trocar a dívida rural por uma nova, com oito anos pra pagar?",
+  "texto": "Você sabia que quem perdeu duas safras tem só até quinta-feira pra trocar a dívida rural por uma nova, com oito anos pra pagar?"
+ },
+ {
+  "id": 2,
+  "quem": "narrador",
+  "fala": "Está na Resolução cinco mil, trezentos e trinta, do Conselho Monetário: perdeu trinta por cento da renda em duas safras, entre dois mil e dezenove e dois mil e vinte e cinco?",
+  "texto": "Está na Resolução 5.330 do Conselho Monetário: perdeu 30% da renda em duas safras, entre 2019 e 2025?"
+ },
+ {
+  "id": 3,
+  "quem": "segunda",
+  "fala": "[surprised] Peraí. Até quinta-feira?",
+  "texto": "Peraí. Até quinta-feira?"
+ },
+ {
+  "id": 4,
+  "quem": "narrador",
+  "fala": "Parece erro. Mas não é. Doze de novembro. Oito anos pra pagar, dois sem pagar o principal.",
+  "texto": "Parece erro. Mas não é. 12 de novembro. 8 anos pra pagar, 2 sem pagar o principal."
+ },
+ {
+  "id": 5,
+  "quem": "narrador",
+  "fala": "Vale pra seca, enchente, granizo, geada, vendaval... e até pra queda de preço do que você plantou.",
+  "texto": "Vale pra seca, enchente, granizo, geada, vendaval… e até pra queda de preço do que você plantou."
+ },
+ {
+  "id": 6,
+  "quem": "narrador",
+  "fala": "Com laudo de um profissional habilitado provando a perda.",
+  "texto": "Com laudo de um profissional habilitado provando a perda."
+ },
+ {
+  "id": 7,
+  "quem": "narrador",
+  "fala": "E é justamente aí que a história fica ainda mais estranha, porque a medida provisória que criou essa linha perde a validade um dia antes: amanhã, onze de novembro.",
+  "texto": "E é justamente aí que a história fica ainda mais estranha, porque a medida provisória que criou essa linha perde a validade um dia antes: amanhã, 11 de novembro."
+ },
+ {
+  "id": 8,
+  "quem": "narrador",
+  "fala": "Os juros vão de seis a doze por cento ao ano, conforme o tamanho do produtor.",
+  "texto": "Os juros vão de 6 a 12% ao ano, conforme o tamanho do produtor."
+ },
+ {
+  "id": 9,
+  "quem": "segunda",
+  "fala": "[curious] Então como fica quem ainda não assinou?",
+  "texto": "Então como fica quem ainda não assinou?"
+ },
+ {
+  "id": 10,
+  "quem": "narrador",
+  "fala": "A Câmara recebeu a medida hoje. Será que ela vota a tempo?",
+  "texto": "A Câmara recebeu a medida hoje. Será que ela vota a tempo?"
+ },
+ {
+  "id": 11,
+  "quem": "editor",
+  "fala": "Eu sou o Dr. Pelicioni, advogado. Aqui eu explico o que muda no crédito rural. Me segue pra acompanhar.",
+  "texto": "Eu sou o Dr. Pelicioni, advogado. Aqui eu explico o que muda no crédito rural. Me segue pra acompanhar."
+ }
+]

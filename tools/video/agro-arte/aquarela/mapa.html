@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Mapa em aquarela · recuperação judicial no agro (2º tri 2026)</title>
+<style>
+@font-face{font-family:'Caveat';src:url(caveat-700.woff2) format('woff2');font-weight:700}
+html,body{margin:0;width:1080px;height:1080px;overflow:hidden;background:#f3ead8}
+#c{position:absolute;left:0;top:0;z-index:1}
+#labels{position:absolute;inset:0;z-index:5}
+.lb{position:absolute;font:700 40px/1 'Caveat';color:#2b211a;white-space:nowrap;opacity:0;transform:translate(-50%,-50%)}
+.lb b{display:block;font-size:84px;color:#163d1c;line-height:.9}
+.lb.big{color:#f6efd8}
+.lb.big b{font-size:132px;color:#f6efd8}
+.lb.sm b{font-size:64px}
+</style></head><body>
+<div id="labels"></div>
+<script src="../lib/p5brush/brush.js"></script>
+<script src="d3-array.min.js"></script>
+<script src="d3-geo.min.js"></script>
+<script src="br_uf.js"></script>
+<script>
+// Mapa do Brasil em aquarela + lápis (p5.brush). Quadro = função do tempo local τ (s); determinístico por semente.
+// Dados: pedidos de recuperação judicial no agro, 2º trimestre de 2026 (Serasa Experian, 19/10/2026): MT 107, GO 84, SP 72, MG 54, PR 42.
+const S = 1080;
+brush.createCanvas(S, S, { id: 'c' });
+brush.scaleBrushes(1.4);
+const proj = d3.geoMercator().fitExtent([[70, 70], [1010, 1010]], BR);
+const area = (r) => { let a = 0; for (let i = 0, j = r.length - 1; i < r.length; j = i++) a += (r[j][0] + r[i][0]) * (r[j][1] - r[i][1]); return a / 2; };
+const rings = {};                                   // uf -> lista de anéis externos projetados (só os maiores)
+for (const f of BR.features) {
+  const polys = f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
+  rings[f.properties.uf] = polys.map(p => p[0].map(c => proj(c))).filter(r => Math.abs(area(r)) > 60)
+    .map(r => r.filter((_, i) => i % 3 === 0 || r.length < 60));
+}
+const cent = {}; for (const f of BR.features) cent[f.properties.uf] = proj(d3.geoCentroid(f));
+const HL = [ // uf, cor, opacidade, início (τ), rótulo, deslocamento do rótulo, classe
+  ['MT', '#1e6b2c', 210, 2.24, ['Mato Grosso', 107], [0, -10], 'big'],
+  ['GO', '#2e8538', 190, 6.56, ['Goiás', 84], [70, -40], ''],
+  ['SP', '#4a9c44', 175, 7.04, ['São Paulo', 72], [-20, 15], 'sm'],
+  ['MG', '#6cb04f', 165, 7.58, ['Minas Gerais', 54], [120, 10], 'sm'],
+  ['PR', '#8cc25e', 155, 8.24, ['Paraná', 42], [-40, 25], 'sm'],
+];
+const lab = document.getElementById('labels');
+HL.forEach(([uf, , , , [nome, n], , cls]) => { const d = document.createElement('div'); d.className = 'lb ' + cls; d.id = 'lb-' + uf; d.innerHTML = `<b>${n}</b>${nome}`; lab.appendChild(d); });
+const ease = x => x <= 0 ? 0 : x >= 1 ? 1 : x * x * (3 - 2 * x);
+const ramp = (t, a, d) => ease((t - a) / d);
+// câmera: começa no Brasil inteiro, aproxima em MT, abre para o centro-sul
+const CAM = (t) => {
+  const mt = cent.MT, cs = [(cent.GO[0] + cent.SP[0] + cent.MG[0] + cent.PR[0]) / 4, (cent.GO[1] + cent.SP[1] + cent.MG[1] + cent.PR[1]) / 4];
+  const a = ramp(t, 1.9, 2.6), b = ramp(t, 5.9, 1.4);
+  const z = 1 + 0.32 * a - 0.32 * b + 0.12 * b;
+  const fx = (mt[0] + cs[0]) / 2, fy = (mt[1] + cs[1]) / 2 + 40;
+  const px = S / 2 + (mt[0] - S / 2) * a * (1 - b) + (fx - S / 2) * b, py = S / 2 + (mt[1] - S / 2) * a * (1 - b) + (fy - S / 2) * b;
+  return { z, px, py };
+};
+const shape = (r) => { brush.beginShape(); r.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(true); };
+window.drawFrame = (t) => {
+  brush.seed(11); brush.noiseSeed(11);
+  brush.clear('#f3ead8');
+  const { z, px, py } = CAM(t);
+  brush.push(); brush.translate(-S / 2, -S / 2); brush.translate(S / 2, S / 2); brush.scale(z, z); brush.translate(-px, -py);
+  // lavagem de base do país (entra nos primeiros 0,8 s)
+  const base = ramp(t, 0, 0.8);
+  if (base > 0) { brush.noStroke(); brush.fill('#e9dcb8', 115 * base); brush.fillBleed(0.12); brush.fillTexture(0.55, 0.35);
+    for (const uf in rings) rings[uf].forEach(shape); }
+  // estados destacados, cada um no tempo do nome falado
+  for (const [uf, cor, op, t0] of HL) { const k = ramp(t, t0, 0.55); if (k <= 0) continue;
+    brush.noStroke(); brush.fill(cor, op * k); brush.fillBleed(0.22 * k + 0.05, 'out'); brush.fillTexture(0.6, 0.4); rings[uf].forEach(shape); }
+  brush.noFill();
+  // contornos a lápis
+  const lin = ramp(t, 0.2, 0.9);
+  if (lin > 0) { brush.set('2B', '#3a3026', 1.6 * lin + 0.2); for (const uf in rings) rings[uf].forEach(r => { brush.beginShape(); r.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(true); }); }
+  // círculo de carvão em MT quando o número aparece
+  const ci = ramp(t, 3.45, 0.6);
+  if (ci > 0) { const [cx, cy] = cent.MT; brush.set('charcoal', '#2b211a', 1.6); brush.beginShape(); const n = Math.max(3, Math.round(40 * ci));
+    for (let k = 0; k <= n; k++) { const a = -1.2 + k / 40 * Math.PI * 2.1; brush.vertex(cx + Math.cos(a) * 150 * (1 + 0.04 * Math.sin(k)), cy + Math.sin(a) * 120); } brush.endShape(false); }
+  brush.pop();
+  brush.render();
+  // rótulos a lápis (HTML por cima, posicionados pela mesma câmera)
+  HL.forEach(([uf, , , t0, , [ox, oy]]) => { const el = document.getElementById('lb-' + uf); const k = ramp(t, uf === 'MT' ? 3.5 : t0 + 0.1, 0.4);
+    const [x, y] = cent[uf]; const sx = (x - px) * z + S / 2 + ox, sy = (y - py) * z + S / 2 + oy;
+    el.style.left = sx + 'px'; el.style.top = sy + 'px'; el.style.opacity = k; el.style.transform = `translate(-50%,-50%) rotate(-4deg) scale(${0.9 + 0.1 * k})`; });
+};
+window.READY = document.fonts.ready.then(() => true);
+</script></body></html>
