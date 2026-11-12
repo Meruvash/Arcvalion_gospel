@@ -108,3 +108,47 @@ Cerca de 175 palavras, ou ~55 s com as pausas.
 | Opinião | Nenhuma afirmada; as críticas aparecem com nome, e a pergunta final fica sem resposta |
 | Birô de crédito | Não citado |
 | Imagens | Todas novas (ver `CENAS_USADAS.md`), feitas em código; nenhuma imagem de IA |
+
+## Publicação (12/11/2026)
+
+**Título do YouTube** (91 caracteres; o gancho fica nos primeiros 60):
+> Dívida rural: prazo pra renegociar pode recomeçar do zero — e queda de preço entra na conta
+
+Alternativas:
+- Renegociação de dívidas rurais aprovada no Senado: o que muda pro produtor
+- 120 dias depois da regulamentação: o novo prazo da renegociação de dívidas rurais
+
+**Descrição do YouTube:**
+```
+O Senado aprovou, em 11/11/2026, o texto da MP das dívidas rurais (PLV 16/2026). Pelo texto, o prazo para contratar a renegociação passa a ser de 120 dias depois da regulamentação da lei, e a perda de renda pode ter vindo do clima ou da queda no preço de venda da produção. O texto ainda depende de sanção do Presidente.
+
+Fontes: PLV 16/2026, texto aprovado em 11/11/2026 (art. 1º, §§ 1º, 2º, 4º e 13), e Agência Senado (11/11/2026).
+Pinturas feitas em código, à maneira de Monet, Chardin, Vermeer e Ruisdael, e em óleo com espátula (Lemo-Opuscar). Trilha original.
+
+#agro #dividarural #creditorural #produtorrural #Shorts
+```
+
+**Legenda do Instagram:**
+```
+O prazo pra renegociar a dívida rural acabava em 12 de novembro. Agora ele pode recomeçar do zero. ⏰🌾
+
+Na quarta-feira (11/11), o Senado aprovou o texto da MP das dívidas rurais. Pelo texto, o produtor vai ter 120 dias pra contratar, contados a partir da regulamentação da lei.
+
+Quem pode: quem perdeu 2 safras ou mais entre 2019 e 2025, com queda de pelo menos 30% da renda esperada. No Norte, no Nordeste e no Centro-Oeste, a exigência cai pra 25%.
+
+E tem uma novidade importante: a perda não precisa ter vindo só do clima. Queda no preço de venda da produção também conta.
+
+Os juros vão de 6% a 12% ao ano, conforme o porte, e nos 2 primeiros anos o produtor paga só os juros.
+
+Mas atenção: o texto ainda depende da sanção do Presidente, e pode haver veto. Teve senador chamando a medida de paliativo, e quem apoiou admitiu que não é a solução definitiva.
+
+👉 Enquanto a lei não sai, guarde os laudos e os contratos.
+💬 Você perdeu safra ou vendeu abaixo do custo nos últimos anos? Conta aqui.
+📲 Manda pra quem é do campo e precisa saber disso.
+
+Me segue que eu aviso quando sancionar. Dúvida sobre o seu contrato? Direct aberto.
+
+Fontes: PLV 16/2026, texto aprovado em 11/11/2026 (art. 1º), e Agência Senado (11/11/2026). Pinturas feitas em código. Trilha original.
+
+#agro #agronegocio #produtorrural #creditorural #dividarural #renegociacao #pronaf #pronamp #safra #campo
+```
