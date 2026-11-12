@@ -8,7 +8,7 @@ pauta recusada.
 | 10/11/2026 | "O prazo é quinta" | A | MP 1.376/2026 (renegociação; prazo de contratação) | prazo que acaba × MP que vence | publicado |
 | 11/11/2026 | "Cinco por dia" | A | Serasa Experian, recuperação judicial no agro (1º e 2º tri 2026) | número surpreendente (5 por dia) + mapa | publicado |
 | 12/11/2026 | "O relógio zerou" | A | PLV 16/2026 (MP 1.376 aprovada no Senado) | prazo que recomeça + queda de preço conta | entregue |
-| 12/11/2026 | "A porta e o porteiro" | D | Acordo Mercosul–UE, 6 meses (MAPA/Agrostat) + EUDR (Comissão Europeia, 30/12/2026) + RASOE (Res. CEC 17/2026) | número surpreendente positivo (mel +367%) → porta que abre e porteiro que chega | em produção |
+| 12/11/2026 | "A porta e o porteiro" | D | Acordo Mercosul–UE, 6 meses (MAPA/Agrostat) + EUDR (Comissão Europeia, 30/12/2026) + RASOE (Res. CEC 17/2026) | número surpreendente positivo (mel +367%) → porta que abre e porteiro que chega | entregue |
 | 12/11/2026 | "Cinco palavras" | A | Res. CMN 5.314/2026 × Súmula 298 do STJ (prorrogação) | contradição banco × tribunal | **recusado pelo editor: 4º seguido no eixo A**. Pode voltar mais adiante, respeitando o rodízio |
 
 **Situação do rodízio:** depois de três vídeos do eixo A, veio um do eixo D. O próximo não pode ser D, e o eixo A só volta
