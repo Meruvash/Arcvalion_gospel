@@ -1,0 +1,198 @@
+{
+ "slug": "lei-15528-auxilio-produtores-cana-nordeste-sancionada",
+ "data": "2026-11-12",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Boa notícia",
+ "titulo": "Lei sancionada paga R$ 12 por tonelada a produtores de cana do Nordeste",
+ "lide": "Foi publicada nesta quinta-feira (12) a Lei 15.528/2026, sancionada sem vetos pelo presidente em exercício Geraldo Alckmin. Ela garante R$ 12 por tonelada de cana entregue na safra 2025/2026 a produtores do Nordeste prejudicados pela seca ou pelas tarifas dos Estados Unidos e libera linhas do BNDES para frota e tecnologia agrícola.",
+ "por_que_importa": "O fornecedor independente de cana vende para a usina e ficou espremido entre a estiagem e a queda das exportações. O auxílio chega por tonelada entregue, comprovada em nota fiscal. A lei também abre crédito para máquinas e tecnologia nacional no campo.",
+ "numeros": [
+  [
+   "R$ 12",
+   "por tonelada de cana entregue a usinas, destilarias ou cooperativas do Nordeste na safra 2025/2026",
+   "Agência Senado, 12/11/2026"
+  ],
+  [
+   "R$ 270 milhões",
+   "impacto estimado do auxílio neste ano",
+   "Agência Senado, 12/11/2026"
+  ],
+  [
+   "R$ 10 bilhões",
+   "em financiamento para tecnologias e equipamentos nacionais inovadores na produção agrícola",
+   "Agência Câmara, 12/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O pagamento exige comprovação por nota fiscal eletrônica e não vale para quem tem participação societária na usina ou cooperativa que recebe a cana. Segundo o relator no Senado, Fernando Dueire (PSD-PE), a execução depende do orçamento disponível e da decisão do governo, já que a lei autoriza ações que o Executivo já realiza.",
+  "A lei autoriza ainda até R$ 14,5 bilhões em financiamentos do BNDES para renovar frotas de transporte de cargas e passageiros, com caminhoneiros autônomos e cooperativas entre os beneficiários, e amplia o uso do Fundo de Garantia à Exportação para a aviação civil. O projeto é do deputado Augusto Coutinho (Republicanos-PE)."
+ ],
+ "no_brasil": "Segundo o presidente da Câmara, Hugo Motta, o projeto foi aprovado porque a medida provisória que previa o benefício estava perto de vencer. Na Câmara, o relator foi o deputado Lula da Fonte (PP-PE).",
+ "critica": [
+  {
+   "fonte": "Hugo Motta, presidente da Câmara, segundo a Agência Câmara",
+   "texto": "A lei vai ajudar a preservar a renda de quem planta e os empregos que a cana gera, do campo ao comércio local",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1318917-motta-destaca-sancao-de-lei-que-garante-auxilio-a-produtores-de-cana-de-acucar-do-nordeste"
+  },
+  {
+   "fonte": "Senador Fernando Dueire (PSD-PE), relator, segundo a Agência Senado",
+   "texto": "Para o relator, o projeto não altera receitas nem gastos da União, porque apenas autoriza ações que o Executivo já realiza; a execução depende do orçamento e da conveniência do governo.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Fornecedor independente de cana do Nordeste: guarde as notas fiscais eletrônicas das entregas da safra 2025/2026",
+  "Quem tem participação na usina ou cooperativa compradora: o auxílio não vale para você",
+  "Produtor que quer trocar máquinas por tecnologia nacional: acompanhe as linhas do BNDES previstas na lei"
+ ],
+ "nao_e_para": [
+  "A lei autoriza o pagamento, mas a execução depende do orçamento e do governo",
+  "O auxílio é só para a cana entregue no Nordeste na safra 2025/2026",
+  "O texto integral da lei não foi lido: o site do Planalto não respondeu; a nota segue as agências do Senado e da Câmara"
+ ],
+ "veredito": "Medida justa e rápida. O fornecedor de cana pagou por uma seca que não causou e por uma tarifa decidida em Washington. Falta agora o mais importante: dinheiro na conta, sem burocracia, antes que a próxima safra comece no prejuízo.",
+ "versiculo": {
+  "texto": "O lavrador que trabalha deve ser o primeiro a gozar dos frutos",
+  "referencia": "2 Timóteo 2.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Lei libera apoio a produtores de cana e até R$ 14,5 bi para renovar frota de caminhões (12/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/12/lei-libera-apoio-a-produtores-de-cana-e-ate-r-14-5-bi-para-renovar-frota-de-caminhoes",
+   "data": "12/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Motta destaca sanção de lei que garante auxílio a produtores de cana-de-açúcar do Nordeste (12/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1318917-motta-destaca-sancao-de-lei-que-garante-auxilio-a-produtores-de-cana-de-acucar-do-nordeste",
+   "data": "12/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 77,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "O fato é sobre renda e crédito do produtor rural: lei sancionada paga auxílio a fornecedores de cana e abre financiamento agrícola"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/12/lei-libera-apoio-a-produtores-de-cana-e-ate-r-14-5-bi-para-renovar-frota-de-caminhoes"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Lei sancionada e publicada no Diário Oficial, com auxílio e linhas de crédito já autorizados"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Renda do produtor rural e crédito para o campo, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Sanção em 11/11 e publicação no Diário Oficial em 12/11"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Reportagens oficiais do Senado e da Câmara, que concordam nos números; o texto da lei não foi lido"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Junta as duas agências e traduz as condições de pagamento para o fornecedor"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: reportagens oficiais do Congresso (2)",
+    "Ato de poder: lei sancionada (2)",
+    "Proximidade: nacional, com foco no Nordeste (1)",
+    "Duas fontes oficiais que se confirmam (1)",
+    "Utilidade: quem recebe e como comprovar (2)",
+    "Número forte: R$ 12 por tonelada (1)",
+    "Boa notícia (1)",
+    "Pede resposta do cristão: justiça com quem trabalha a terra (2)",
+    "Passagem bíblica que um pastor usaria: 2 Timóteo 2.6 (2)",
+    "Gatilho no calendário: pagamento da safra 2025/2026 (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Lei libera apoio a produtores de cana e até R$ 14,5 bi para renovar frota de caminhões",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / auxílio e crédito",
+  "coleta": "2026-11-12",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "lei sancionada, confirmada por Senado e Câmara",
+   "contradicoes": "O Senado fala em produtores afetados pela seca e por barreiras comerciais dos EUA; a Câmara, em produtores independentes prejudicados pelas tarifas dos EUA ou por eventos climáticos extremos. A nota usa as duas descrições.",
+   "sem_confirmacao": "texto integral da lei; regulamentação e calendário de pagamento"
+  },
+  "duplicidade": {
+   "grupo": "Lei 15.528/2026",
+   "itens": [
+    "Agência Senado 12/11",
+    "Agência Câmara 12/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber quem recebe o auxílio de R$ 12 por tonelada de cana",
+   "entidades": [
+    "Lei 15.528/2026",
+    "BNDES",
+    "Geraldo Alckmin",
+    "Hugo Motta",
+    "Augusto Coutinho",
+    "Fernando Dueire"
+   ],
+   "termos": [
+    "auxílio produtores de cana Nordeste",
+    "R$ 12 por tonelada de cana",
+    "Lei 15.528"
+   ],
+   "atualizacao": "acompanhar regulamentação e início dos pagamentos"
+  },
+  "agro": {
+   "demanda": "Fornecedor independente precisa provar a entrega por nota fiscal eletrônica e a ausência de participação societária na compradora; atraso, negativa ou falta de orçamento podem exigir orientação",
+   "prazo": "safra 2025/2026; pagamento depende de orçamento e regulamentação",
+   "quem": "Produtores independentes de cana do Nordeste afetados por seca ou pelas tarifas dos EUA"
+  }
+ },
+ "descricao_seo": "Lei 15.528/2026, sancionada sem vetos, paga R$ 12 por tonelada a produtores de cana do Nordeste e libera crédito do BNDES para frota e tecnologia agrícola.",
+ "instituicao": "Congresso Nacional",
+ "editora": "Congresso Nacional",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das reportagens oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos e frase de Motta lidos nas agências do Senado e da Câmara; a nota avisa que a execução depende do orçamento e que o texto integral não foi lido. Sem acusação a ninguém e sem oferta de serviço.",
+ "imagem": {
+  "arquivo": "capas/lei-15528-auxilio-produtores-cana-nordeste-sancionada.jpg",
+  "credito": "Foto: Fernando Frazão/Agência Brasil",
+  "alt": "Trator pulveriza lavoura em fazenda de Balsas, no Maranhão (foto de arquivo, outubro de 2025)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/JYCslV22urVLPMcOzIsARCv9C-8=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/10/31/_d6a9557_0.jpg?itok=d5bJvINV",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cmn-aprova-credito-de-r-10-bilhoes-para-inovacao-no-agronegocio"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-12T14:50:55-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-12T14:50:55-03:00"
+}
