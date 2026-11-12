@@ -1,12 +1,62 @@
 [
- {"id":1,"quem":"narrador","texto":"Você sabia que o prazo pra renegociar a dívida rural, que acabava em 12 de novembro, pode recomeçar do zero?","fala":"Você sabia que o prazo pra renegociar a dívida rural, que acabava em doze de novembro, pode recomeçar do zero?"},
- {"id":2,"quem":"narrador","texto":"Na quarta-feira, o Senado aprovou o texto da MP das dívidas rurais. Agora, ele vai pra sanção do Presidente.","fala":"Na quarta-feira, o Senado aprovou o texto da MP das dívidas rurais. Agora, ele vai pra sanção do Presidente."},
- {"id":3,"quem":"narrador","texto":"Pelo texto, o produtor vai ter 120 dias pra contratar, contados a partir da regulamentação da lei.","fala":"Pelo texto, o produtor vai ter cento e vinte dias pra contratar, contados a partir da regulamentação da lei."},
- {"id":4,"quem":"narrador","texto":"Vale pra quem perdeu duas safras ou mais entre 2019 e 2025, com queda de pelo menos 30% da renda esperada.","fala":"Vale pra quem perdeu duas safras ou mais entre dois mil e dezenove e dois mil e vinte e cinco, com queda de pelo menos trinta por cento da renda esperada."},
- {"id":5,"quem":"narrador","texto":"E tem uma novidade: a perda não precisa ter vindo só do clima. Queda no preço de venda da produção também conta.","fala":"E tem uma novidade: a perda não precisa ter vindo só do clima. Queda no preço de venda da produção também conta."},
- {"id":6,"quem":"narrador","texto":"No Norte, no Nordeste e no Centro-Oeste, a perda exigida cai pra 25%.","fala":"No Norte, no Nordeste e no Centro-Oeste, a perda exigida cai pra vinte e cinco por cento."},
- {"id":7,"quem":"narrador","texto":"Os juros vão de 6% a 12% ao ano, conforme o porte, e nos dois primeiros anos o produtor paga só os juros.","fala":"Os juros vão de seis a doze por cento ao ano, conforme o porte, e nos dois primeiros anos o produtor paga só os juros."},
- {"id":8,"quem":"narrador","texto":"Mas teve senador que chamou a medida de paliativo. E quem apoiou o texto admitiu: não é a solução definitiva.","fala":"Mas teve senador que chamou a medida de paliativo. E quem apoiou o texto admitiu: não é a solução definitiva."},
- {"id":9,"quem":"narrador","texto":"Agora, tudo depende da caneta do Presidente. Vai ser sancionado do jeito que saiu do Congresso?","fala":"Agora, tudo depende da caneta do Presidente. Vai ser sancionado do jeito que saiu do Congresso?"},
- {"id":10,"quem":"editor","texto":"Eu sou o Dr. Pelicioni, advogado. Enquanto a lei não sai, guarde os laudos e os contratos. Me segue que eu aviso quando sancionar.","fala":"Eu sou o Dr. Pelicioni, advogado. Enquanto a lei não sai, guarde os laudos e os contratos. Me segue que eu aviso quando sancionar."}
+ {
+  "id": 1,
+  "quem": "narrador",
+  "texto": "Você sabia que o prazo pra renegociar a dívida rural, que terminou no dia 12, pode recomeçar do zero?",
+  "fala": "Você sabia que o prazo pra renegociar a dívida rural, que terminou no dia doze, pode recomeçar do zero?"
+ },
+ {
+  "id": 2,
+  "quem": "narrador",
+  "texto": "Na quarta-feira, o Senado aprovou o texto da MP das dívidas rurais. Agora, ele vai pra sanção do Presidente.",
+  "fala": "Na quarta-feira, o Senado aprovou o texto da MP das dívidas rurais. Agora, ele vai pra sanção do Presidente."
+ },
+ {
+  "id": 3,
+  "quem": "narrador",
+  "texto": "Pelo texto, o produtor vai ter 120 dias pra contratar, contados a partir da regulamentação da lei.",
+  "fala": "Pelo texto, o produtor vai ter cento e vinte dias pra contratar, contados a partir da regulamentação da lei."
+ },
+ {
+  "id": 4,
+  "quem": "narrador",
+  "texto": "Vale pra quem perdeu duas safras ou mais entre 2019 e 2025, com queda de pelo menos 30% da renda esperada.",
+  "fala": "Vale pra quem perdeu duas safras ou mais entre dois mil e dezenove e dois mil e vinte e cinco, com queda de pelo menos trinta por cento da renda esperada."
+ },
+ {
+  "id": 5,
+  "quem": "narrador",
+  "texto": "E tem uma novidade: a perda não precisa ter vindo só do clima. Queda no preço de venda da produção também conta.",
+  "fala": "E tem uma novidade: a perda não precisa ter vindo só do clima. Queda no preço de venda da produção também conta."
+ },
+ {
+  "id": 6,
+  "quem": "narrador",
+  "texto": "No Norte, no Nordeste e no Centro-Oeste, a perda exigida cai pra 25%.",
+  "fala": "No Norte, no Nordeste e no Centro-Oeste, a perda exigida cai pra vinte e cinco por cento."
+ },
+ {
+  "id": 7,
+  "quem": "narrador",
+  "texto": "Os juros vão de 6% a 12% ao ano, conforme o porte, e nos dois primeiros anos o produtor paga só os juros.",
+  "fala": "Os juros vão de seis a doze por cento ao ano, conforme o porte, e nos dois primeiros anos o produtor paga só os juros."
+ },
+ {
+  "id": 8,
+  "quem": "narrador",
+  "texto": "Mas teve senador que chamou a medida de paliativo. E quem apoiou o texto admitiu: não é a solução definitiva.",
+  "fala": "Mas teve senador que chamou a medida de paliativo. E quem apoiou o texto admitiu: não é a solução definitiva."
+ },
+ {
+  "id": 9,
+  "quem": "narrador",
+  "texto": "Agora, tudo depende da caneta do Presidente. Vai ser sancionado do jeito que saiu do Congresso?",
+  "fala": "Agora, tudo depende da caneta do Presidente. Vai ser sancionado do jeito que saiu do Congresso?"
+ },
+ {
+  "id": 10,
+  "quem": "editor",
+  "texto": "Eu sou o Dr. Pelicioni, advogado. Enquanto a lei não sai, guarde os laudos e os contratos. Me segue que eu aviso quando sancionar.",
+  "fala": "Eu sou o Dr. Pelicioni, advogado. Enquanto a lei não sai, guarde os laudos e os contratos. Me segue que eu aviso quando sancionar."
+ }
 ]

@@ -138,7 +138,8 @@ function frame(t) {
     const k = eio(seg(t, .3, 3.0));
     const C = cam(lerp(1260, 560, k), lerp(650, 470, k), lerp(1.0, 1.28, k) + seg(t, 3, 7) * .05);
     plate(PL.var, { t, cam: C, grey: 0 });
-    const prev = tt => tt < 3.55 ? 57.6 + 2.4 * ss(tt / 3.55) : tt < 4.55 ? 60 : 60 - 720 * eio(seg(tt, 4.55, 5.75));
+    const T12 = +(q.get('t12') ?? 3.5), S0 = +(q.get('s0') ?? 4.0), S1 = +(q.get('s1') ?? 5.15);
+    const prev = tt => tt < T12 ? 57.6 + 2.4 * ss(tt / T12) : tt < S0 ? 60 : 60 - 720 * eio(seg(tt, S0, S1));
     ponteiros(prev(t), prev(t) - prev(t - 1 / 30)); flush({ t, cam: C, grey: 0, run: 0 });
     E.finish({ expo: 1.03, sat: 1.08, contrast: 1.05, vig: .24, spec: .24, light: [-.6, -.55, .7] });
   } else if (CENA === 'fim') {                                // fala 9: fim de tarde, ponteiro parado perto do 12
