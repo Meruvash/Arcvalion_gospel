@@ -60,6 +60,19 @@ em "A Colheita" (1888): céu azul forte, lavouras em xadrez verde e dourado até
 com telhado vermelho, silos, trator ao longe, agricultor de costas.
 **Reprovada:** cena escura e terrosa com figura humana de frente (tentativa "Almeida Júnior").
 
+### 2.1.0 Primeiro quadro = capa (thumbnail) (pedido do editor, 12/11/2026)
+O **quadro 0** do vídeo tem de funcionar sozinho como capa para atrair cliques: é ele que aparece na grade do Instagram,
+no feed parado e na miniatura do YouTube.
+- **Imagem:** a pintura de abertura, viva e colorida, já pronta no quadro 0. Nada de fade a partir do preto.
+- **Texto da capa:** de 2 a 4 palavras com o gancho, gigante (cerca de 160 px, Inter Black, branco com contorno escuro).
+  Acima, uma etiqueta amarela com o assunto ("EXPORTAÇÃO PRA EUROPA"). Abaixo, uma linha curta de reforço.
+- **Tudo legível em miniatura de cerca de 200 px:** o texto ocupa só a metade de cima, e a de baixo fica livre para a
+  legenda.
+- **Fiel ao fato,** como o título: sem exagero e sem promessa. Se a fonte diz "mel e derivados", a capa também diz.
+- **Tempo:** fica de 0 a 1,1 s e sai antes do gancho falado, para não repetir o número em cima dele.
+- **Entrega:** exporte também a capa como `capa.jpg` (quadro 0) e mande junto com o vídeo. Ela serve de capa do Reels e
+  de miniatura do YouTube.
+
 ### 2.1.1 Imagens inéditas em cada vídeo (pedido do editor, 11/11/2026)
 **Nenhuma imagem se repete entre vídeos**: pintura, mapa, gráfico ou foto. A tabela abaixo mostra estilos e cenas já
 feitos como referência de linguagem, não como estoque para reaproveitar. Antes de produzir, confira
@@ -134,8 +147,16 @@ o código desenha rosto mal, e foi o que derrubou a cena do Almeida Júnior.
 - **Trilha: original, instrumental, estilo moda de viola / sertanejo raiz** (pedido do editor, 11/11/2026): viola
   caipira ponteada, violão, sanfona leve. Gerar com `tools/video/agro-arte/trilha/gerar_trilha.py` e conferir por
   transcrição que não há voz cantada. Nunca imitar música existente.
-- Mixagem: trilha a ~0,16 com fade; efeitos de papel, carimbo e whoosh nas entradas; entrega a
-  −14,5 LUFS e −1,5 dBTP.
+- **Mixagem** (corrigida em 12/11/2026, pedido do editor: "a trilha ficou muito baixa"):
+  - **Trilha normalizada antes** de entrar na montagem:
+    `ffmpeg -i trilha.mp3 -af loudnorm=I=-30:TP=-6:LRA=11 trilha_mix.wav`.
+  - **Volume 1 na composição.** A trilha fica cerca de 12 LU abaixo da narração (cerca de −18 LUFS), audível no celular
+    sem cobrir a voz.
+  - **Não use mais o volume 0,15 sobre o arquivo cru:** as músicas geradas saem baixas, perto de −26 LUFS, e a trilha
+    ficava 25 LU abaixo da voz, praticamente muda.
+  - **Conferência:** a transcrição do arquivo final precisa trazer a narração inteira.
+  - Efeitos de papel, carimbo e whoosh nas entradas.
+  - Entrega a −14,5 LUFS e −1,5 dBTP.
 
 ## 4. Entrega
 Mandar sempre junto com o vídeo:

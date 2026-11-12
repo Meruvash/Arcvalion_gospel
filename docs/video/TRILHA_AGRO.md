@@ -65,8 +65,11 @@ xote, valsa, mazurca e polca (SESC SP, 2002).
    proíbem isso (Music Terms, seção 2.1). Descreva gênero, instrumento, ritmo e clima.
 3. **Viola nos respiros, quieta sob a voz** (**decisão nossa**, inspirada no recortado). Peça introdução curta de viola
    solo de 1 a 2 s, acompanhamento discreto durante a fala e frase de viola resolvendo na cartela.
-4. **Volume** (**decisão nossa**): a trilha entra em cerca de 0,15 (uns −16 dB) sob a narração. O master final fica em
-   −14,5 LUFS e −1,5 dBTP.
+4. **Volume** (corrigido em 12/11/2026, a pedido do editor):
+   - Normalize a trilha para −30 LUFS (`loudnorm=I=-30:TP=-6`) e use volume 1 na montagem. Ela fica cerca de 12 LU abaixo
+     da voz.
+   - O antigo "0,15 sobre o arquivo cru" deixava a trilha 25 LU abaixo, quase inaudível.
+   - O master final fica em −14,5 LUFS e −1,5 dBTP.
 5. **Uma trilha nova por vídeo, sem repetir o estilo do vídeo anterior.** Registre em `docs/video/CENAS_USADAS.md`, na
    seção de trilhas.
 6. **Nada de imitar música existente**, nem de "parecer" uma música famosa. Os prompts terminam com "Do not imitate any

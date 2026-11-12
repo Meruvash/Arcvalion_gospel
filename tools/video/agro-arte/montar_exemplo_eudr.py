@@ -60,6 +60,7 @@ CARD2 = ('<div class="card" id="card2"><div class="cardsrc">gov.br · Ministéri
          'Os resultados são consolidados no <mark>Relatório de Análise Socioambiental para Operações de Exportação (RASOE)</mark>, documento oficial brasileiro previsto na '
          'Resolução CEC nº 17, de 8 de setembro de 2026 […]”</div></div>')
 OVS = [
+    ov("o-capa", 0, 1.5, '<div class="capa" id="capa"><div class="capa-chip">EXPORTAÇÃO PRA EUROPA</div><div class="capa-big">MEL +367%</div><div class="capa-sub">mel e derivados, em 5 meses. E em 30/12 chega o porteiro.</div></div>', "", 9),
     ov("o-cred0", .6, C["boudin"], 'PINTURA A ÓLEO COM ESPÁTULA, FEITA EM CÓDIGO', "cred", 10),
     ov("o-367", M["n367"] - .15, C["boudin"] + .2, '<div class="mao big" id="b367">+367%</div><div class="mao sub" id="s367">mel e produtos de abelha · maio a setembro de 2026</div>', "", 11),
     ov("o-card1", M["mercosul"] - .1, M["mercosul"] + 3.2, CARD1, "", 12),
@@ -99,6 +100,10 @@ HTML = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>
 .mao{{font-family:'Caveat';font-weight:700;color:#fff6dc;text-shadow:0 3px 14px rgba(10,14,30,.8),0 0 2px rgba(10,14,30,.9)}}
 .rod{{top:auto;bottom:0;height:auto;padding:14px 40px 18px;background:rgba(243,234,216,.93);color:#3a3026;font:500 20px/1.35 'IBM Plex Mono';letter-spacing:.03em}}
 .cred{{top:auto;bottom:0;height:auto;padding:14px 40px 18px;background:linear-gradient(0deg,rgba(10,14,26,.75),rgba(10,14,26,0));color:#f6efd8;font:500 21px/1.35 'IBM Plex Mono';letter-spacing:.04em}}
+.capa{{position:absolute;left:0;right:0;top:120px;text-align:center}}
+.capa-chip{{display:inline-block;font:900 34px 'Inter';letter-spacing:.08em;color:#14240f;background:#f0c24b;padding:8px 18px;border-radius:6px}}
+.capa-big{{font:900 168px/1 'Inter';color:#fff;margin-top:18px;-webkit-text-stroke:6px #14240f;paint-order:stroke fill;text-shadow:0 10px 30px rgba(0,0,0,.45)}}
+.capa-sub{{font:900 46px/1.15 'Inter';color:#fff;margin:18px 60px 0;-webkit-text-stroke:3px #14240f;paint-order:stroke fill}}
 .card{{position:absolute;left:70px;right:70px;top:90px;background:#fffdf6;padding:22px 26px 20px;box-shadow:0 18px 40px rgba(0,0,0,.45);transform:rotate(-1deg);opacity:0}}
 .cardsrc{{font:500 20px/1.3 'IBM Plex Mono';color:#4a6a3a;letter-spacing:.02em;margin-bottom:12px;border-bottom:1px solid #d8d0bc;padding-bottom:10px}}
 .cardtxt{{font:500 27px/1.5 'Newsreader';color:#1e1a16}} .cardtxt mark{{background:#ffd84a;padding:0 3px}}
@@ -131,7 +136,7 @@ HTML = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>
 <div id="cartela" class="clip ov" data-start="{C['cartela']:.3f}" data-duration="{TOTAL - C['cartela']:.3f}" data-track-index="27">{CART}</div>
 <div id="caps" class="clip" data-start="0" data-duration="{TOTAL}" data-track-index="28">{''.join(f'<div class="cap" id="cap{i}"><span>{b["txt"]}</span></div>' for i, b in enumerate(leg))}</div>
 <audio id="voz" class="clip" data-start="0" data-duration="{TOTAL}" data-track-index="29" data-volume="1" src="assets/audio/narracao.wav"></audio>
-<audio id="trilha" class="clip" data-start="0" data-duration="{TOTAL}" data-track-index="30" data-volume="0.15" data-fade-in="0.6" data-fade-out="2.0" src="assets/audio/trilha.mp3"></audio>
+<audio id="trilha" class="clip" data-start="0" data-duration="{TOTAL}" data-track-index="30" data-volume="1" data-fade-in="0.3" data-fade-out="2.0" src="assets/audio/trilha_mix.wav"></audio>
 {sfx}
 </div>
 <script>
@@ -142,6 +147,8 @@ const enter = 'power3.out';
 for (let k = 1; k < 8; k++) tl.fromTo('#v' + k, {{ opacity: 0 }}, {{ opacity: 1, duration: XF, ease: 'none' }}, INI[k]);
 [1, 3, 4, 5].forEach(k => tl.fromTo('#v' + k, {{ scale: 1.0 }}, {{ scale: 1.08, duration: INI[k + 1] - INI[k] + XF, ease: 'none' }}, INI[k]));
 document.querySelectorAll('.rod, .cred').forEach(el => tl.fromTo(el, {{ opacity: 0 }}, {{ opacity: 1, duration: .5 }}, +el.dataset.start + .05));
+// capa: visível desde o quadro 0 e sai antes do número de abertura
+tl.set('#capa', {{ opacity: 1 }}, 0); tl.to('#capa', {{ opacity: 0, y: -20, duration: .35, ease: 'power2.in' }}, 1.1);
 // número de abertura e cartão 1
 tl.fromTo('#b367', {{ opacity: 0, scale: 1.3 }}, {{ opacity: 1, scale: 1, duration: .45, ease: 'back.out(2)' }}, M.n367 - .1);
 tl.fromTo('#s367', {{ opacity: 0, y: 12 }}, {{ opacity: 1, y: 0, duration: .4 }}, M.n367 + .3);

@@ -52,6 +52,11 @@
 ## Entrega (12/11/2026)
 - 1080×1080, 71,7 s, −13,7 LUFS, pico de −1,3 dBFS. A transcrição do arquivo final bate com as falas.
 - **Fala 1:** a voz diz "pra Europa". A legenda foi corrigida para isso.
+- **Versão 2 (12/11/2026, pedido do editor):**
+  - **Capa no quadro 0:** "EXPORTAÇÃO PRA EUROPA / MEL +367% / mel e derivados, em 5 meses. E em 30/12 chega o
+    porteiro." Exportada como `capa.jpg`.
+  - **Trilha:** normalizada em −30 LUFS, volume 1, cerca de 12 LU abaixo da voz. Na v1 estava 25 LU abaixo.
+  - **Master:** −13,8 LUFS, pico de −1,2 dBFS.
 
 ## Publicação (12/11/2026)
 
