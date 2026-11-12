@@ -3,6 +3,35 @@
 Ferramentas do vídeo da MP 1.376 (10/11/2026), que é o padrão dos vídeos do agro. A direção está
 em `docs/video/DIRECAO_VIDEO_AGRO.md`.
 
+## Sessão nova: preparar a máquina (cerca de 5 min, uma vez por sessão)
+Rode os comandos a partir de `/home/user`. O Chromium e o Playwright já vêm instalados no container: não instale outros.
+
+```sh
+# 1) Motor de pinturas (modelo antigo), com as cenas do projeto
+git clone -q https://github.com/alchaincyf/huashu-art-motion /home/user/huashu && git -C /home/user/huashu checkout -q 1468196
+E=/home/user/huashu/scripts/engine; R=/home/user/Arcvalion_gospel/tools/video/agro-arte
+cp $R/cenas/*.js $E/ && cd $E && sed "s#p.chromium.launch(args=#p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1243/chrome-linux64/chrome', args=#" render.py > render_local.py
+# render: cd $E && uv run -q --with playwright python render_local.py --film plv --solo <cena> --from 0 --to <s> --fps 30 --crf 16 --no-counter --out x.mp4
+
+# 2) Montagem: HyperFrames + GSAP numa pasta de trabalho
+mkdir -p /home/user/hf-tools && cd /home/user/hf-tools && npm init -y >/dev/null && npm i -s hyperframes@0.9.30 gsap@3.14.2
+export DO_NOT_TRACK=1 PRODUCER_HEADLESS_SHELL_PATH=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell
+
+# 3) Óleo com espátula (Lemo-Opuscar): a skill do projeto baixa a biblioteca em ~/lemo-opuscar
+sh /home/user/Arcvalion_gospel/.claude/skills/lemo-opuscar/scripts/setup.sh
+cd ~/lemo-opuscar && npm install --no-audit --no-fund --loglevel=error && git checkout -q -- package.json package-lock.json
+sh plugin/skills/lemo-opuscar/scripts/setup.sh demo impasto      # motor impasto (engine/impasto.js, engine/plate.js)
+export PLAYWRIGHT_CHROME=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell
+```
+
+- **ElevenLabs:** voz, transcrição e música usam a credencial do ambiente. Nos scripts, a chave é `xi-api-key: dummy`, e
+  o proxy troca pela real.
+- **Exemplo completo mais recente:** "O relógio zerou" (`montar_exemplo_plv16.py`, `falas_exemplo_plv16.json`,
+  `opuscar/`, `cenas/plv_scenes.js`). Roteiro em `docs/video/roteiros/plv16-relogio-zerado.md`.
+- **Trilha:** `trilha/gerar_trilha.py --estilo agronejo` (padrão) ou `catira`. Veja `docs/video/TRILHA_AGRO.md`.
+- **Lento por natureza:** neste container, o WebGL roda em software. Cada cena do Opuscar leva vários minutos, então
+  renderize em segundo plano.
+
 ## Dependências (fora do repositório)
 - **Motor de pinturas:** skill `huashu-art-motion` (MIT, github.com/alchaincyf/huashu-art-motion,
   commit `1468196505a51728686db118d52561aa27a25124`). Para usar, clone numa pasta de trabalho fora do
