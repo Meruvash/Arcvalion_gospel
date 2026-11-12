@@ -1,0 +1,204 @@
+{
+ "slug": "mp-dividas-rurais-cpr-vencida-nova-cedula-oito-anos-fundo-garantidor",
+ "data": "2026-11-12",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "MP das dívidas rurais deixa trocar CPR atrasada por nova cédula de até oito anos",
+ "lide": "Além da renegociação para quem perdeu safras, a MP 1.376/2026, aprovada pelo Congresso e enviada à sanção, autoriza bancos a comprar uma nova Cédula de Produto Rural para quitar CPR em atraso desde 2021, com até oito anos para pagar. O texto também cria um fundo garantidor privado e pune quem usar laudo falso, segundo a Agência Câmara.",
+ "por_que_importa": "A regra alcança a CPR emitida não só a bancos, mas também a revendas de insumos e a empresas que compram a produção. É uma porta para alongar esse papel atrasado. Mas taxa, garantias e carência vão depender da regulamentação e da negociação com cada banco.",
+ "numeros": [
+  [
+   "8 anos",
+   "prazo de reembolso da nova CPR comprada pelo banco",
+   "Agência Câmara, 10/11/2026"
+  ],
+  [
+   "1º/01/2021",
+   "a CPR a ser quitada precisa estar inadimplente a partir dessa data e registrada em entidade autorizada pelo Banco Central",
+   "Agência Câmara, 10/11/2026"
+  ],
+  [
+   "5 anos",
+   "de proibição de crédito rural subvencionado para quem fraudar laudo ou declaração de perda",
+   "Agência Câmara, 10/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Pelo relatório do deputado Paulo Pimenta (PT-RS), a CPR antiga pode ter sido emitida não só a bancos, mas também a fornecedores de insumos e a empresas que compram, armazenam ou comercializam produção, desde que emitida até 31 de dezembro de 2025. A operação deve ser contratada em até 120 dias da regulamentação, e o banco pode usar recursos livres ou direcionados ao crédito rural.",
+  "O fundo garantidor cobrirá só atrasos dos novos empréstimos de produtores afetados pelo clima, terá natureza privada e não terá aval do poder público; a União pode ser cotista, a critério do ministro da Fazenda. Quem usar laudo ou declaração falsa perde o benefício, devolve o valor com correção e fica até cinco anos sem crédito subvencionado."
+ ],
+ "no_brasil": "O Senado aprovou a MP em 11/11 retirando só três temas estranhos a ela, sobre cigarros eletrônicos, free shops e dívidas do antigo SFH, como o portal noticiou. O texto vai à sanção e depende de regulamentação.",
+ "critica": [
+  {
+   "fonte": "Agência Câmara, sobre o fundo garantidor",
+   "texto": "O fundo cobrirá apenas os atrasos de pagamento de empréstimos feitos por produtores afetados por eventos climáticos adversos e não contará com qualquer tipo de garantia ou aval por parte do poder público",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1318105-medida-provisoria-aprovada-cria-fundo-garantidor-para-novas-operacoes-de-credito-rural"
+  },
+  {
+   "fonte": "Senadora Tereza Cristina (PP-MS), segundo a Agência Senado",
+   "texto": "Não é a solução definitiva. Precisamos do fundo garantidor, do seguro rural, de outras medidas",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/renegociacao-de-dividas-rurais-e-aprovada-pelo-senado-e-vai-a-sancao-presidencial"
+  }
+ ],
+ "para_quem": [
+  "Produtor com CPR em atraso desde 2021 com revenda, trading ou banco: separe a cédula e o registro dela; o prazo de 120 dias corre após a regulamentação",
+  "Quem pensa em usar laudo coletivo ou individual: a informação falsa custa o benefício e cinco anos sem crédito subvencionado",
+  "Cooperativas: também estão sujeitas às punições por fraude"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: depende de sanção e pode ter vetos",
+  "Taxa, garantias, carência e forma de pagamento da nova CPR serão definidas na regulamentação e na negociação com o banco",
+  "O banco não é obrigado a comprar a nova cédula: a MP autoriza a operação"
+ ],
+ "veredito": "Ponto acertado da MP. Incluir a CPR dada à revenda e à trading alcança o produtor que não devia só ao banco. Mas autorizar não é garantir: se a regulamentação demorar e os bancos não comprarem as cédulas, a porta fica no papel.",
+ "versiculo": {
+  "texto": "O rico domina sobre os pobres, e o que toma emprestado é servo do que empresta",
+  "referencia": "Provérbios 22.7",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Câmara: Medida provisória aprovada cria fundo garantidor para novas operações de crédito rural (10/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1318105-medida-provisoria-aprovada-cria-fundo-garantidor-para-novas-operacoes-de-credito-rural",
+   "data": "10/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Renegociação de dívidas rurais é aprovada pelo Senado e vai à sanção presidencial (11/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/renegociacao-de-dividas-rurais-e-aprovada-pelo-senado-e-vai-a-sancao-presidencial",
+   "data": "11/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "O Paladino: Senado aprova MP que renegocia dívidas rurais de quem perdeu safras pelo clima (12/11/2026)",
+   "url": "https://opaladino.com.br/noticias/senado-aprova-mp-renegociacao-dividas-rurais-vai-sancao/",
+   "data": "12/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 71,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "O fato é sobre dívida rural: regra aprovada no Congresso permite alongar CPR em atraso e cria fundo garantidor para o crédito do produtor"
+  },
+  "origem": {
+   "nome": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1318105-medida-provisoria-aprovada-cria-fundo-garantidor-para-novas-operacoes-de-credito-rural"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Votação concluída no Congresso; a regra vale para produtores de todo o país depois da sanção e da regulamentação"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Dívida rural em CPR e crédito do produtor, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação na Câmara em 10/11 e no Senado em 11/11, menos de 48 horas antes"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Reportagem oficial da Agência Câmara com as regras e confirmação da aprovação final pela Agência Senado"
+   },
+   "originalidade": {
+    "pontos": 0,
+    "porque": "Reescrita das regras descritas pela Agência Câmara, sem documento novo lido"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: reportagem oficial da Câmara (2)",
+    "Ato de poder: votação concluída no Congresso (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: quem pode trocar a CPR e o risco do laudo falso (2)",
+    "Número forte: oito anos para pagar (1)",
+    "Pede resposta do cristão: dívida e honestidade (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 22.7 (2)",
+    "Gatilho no calendário: sanção e regulamentação (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Medida provisória aprovada cria fundo garantidor para novas operações de crédito rural",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / CPR e fundo garantidor",
+  "coleta": "2026-11-12",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "regras descritas pela Agência Câmara; aprovação final confirmada pela Agência Senado",
+   "contradicoes": "Nenhuma entre as fontes; o Senado retirou só três temas estranhos à MP.",
+   "sem_confirmacao": "texto final sancionado; regulamentação; eventuais vetos"
+  },
+  "duplicidade": {
+   "grupo": "MP 1.376/2026",
+   "itens": [
+    "Agência Câmara 10/11",
+    "Agência Senado 11/11"
+   ],
+   "ja_publicado_por_nos": true,
+   "relacionada": "2026-11-12-senado-aprova-mp-renegociacao-dividas-rurais-vai-sancao (a renegociação para perdas climáticas; esta nota trata só da CPR, do fundo e das punições)"
+  },
+  "seo": {
+   "intencao": "saber se dá para alongar CPR atrasada pela MP 1.376",
+   "entidades": [
+    "MP 1.376/2026",
+    "Cédula de Produto Rural",
+    "CPR",
+    "fundo garantidor",
+    "Paulo Pimenta"
+   ],
+   "termos": [
+    "CPR atrasada renegociação",
+    "alongamento CPR MP 1376",
+    "fundo garantidor crédito rural"
+   ],
+   "atualizacao": "acompanhar sanção, vetos e regulamentação"
+  },
+  "agro": {
+   "demanda": "Produtor com CPR inadimplente desde 2021 perante revenda, trading ou banco precisa provar registro da cédula, enquadramento e negociar a nova CPR; recusa do banco, cobrança judicial em curso e risco de punição por laudo pedem orientação",
+   "prazo": "120 dias após a regulamentação; sanção pendente",
+   "quem": "Produtores e cooperativas com CPR emitida até 31/12/2025 e em atraso desde 1º/01/2021"
+  }
+ },
+ "descricao_seo": "MP 1.376/2026 autoriza banco a comprar nova CPR de até oito anos para quitar CPR atrasada desde 2021, cria fundo garantidor e pune laudo falso.",
+ "instituicao": "Congresso Nacional",
+ "editora": "Congresso Nacional",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das reportagens oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: as regras vêm da Agência Câmara, lida na íntegra, e a aprovação final da Agência Senado; a nota diz que o banco não é obrigado e que tudo depende de sanção e regulamentação. A opinião critica a possível demora, sem acusar banco ou pessoa específica. Sem oferta de serviço.",
+ "imagem": {
+  "arquivo": "capas/mp-dividas-rurais-cpr-vencida-nova-cedula-oito-anos-fundo-garantidor.jpg",
+  "credito": "Foto: Fernando Frazão/Agência Brasil",
+  "alt": "Máquinas agrícolas em fazenda de soja em Balsas, no Maranhão (foto de arquivo, outubro de 2025)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/VQdF64eZQB6yv3zH9BmFxkd3K0o=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/10/31/_d6a9325_0.jpg?itok=VzoU7-n8",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cmn-flexibiliza-uso-de-recursos-para-renegociar-dividas-rurais"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-12T14:52:45-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-12T14:52:45-03:00"
+}
