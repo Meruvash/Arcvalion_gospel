@@ -1,0 +1,202 @@
+{
+ "slug": "projeto-cria-cide-exportacao-soja-carne-fundo-agricultura-familiar",
+ "data": "2026-11-13",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Projeto na Câmara cria contribuição de 1% sobre exportação de soja, carne e café",
+ "lide": "O PL 3380/2026, do deputado Rubens Pereira Júnior (PT-MA), cria uma Cide de 1% sobre a receita de exportação de commodities agrícolas de empresas que faturam mais de R$ 500 milhões por ano, para bancar um Fundo Nacional da Agricultura Familiar. O texto aguarda relator na Comissão de Agricultura, segundo a Câmara.",
+ "por_que_importa": "É tributo novo sobre a principal fonte de divisas do país, a exportação do agro. Mesmo cobrado das grandes exportadoras, um custo a mais na ponta da venda pode chegar ao preço pago ao produtor. O projeto ainda está no começo, mas vale acompanhar.",
+ "numeros": [
+  [
+   "1%",
+   "sobre o valor FOB das exportações de soja, milho, carnes, café, açúcar e algodão",
+   "PL 3380/2026, art. 18"
+  ],
+  [
+   "R$ 500 milhões",
+   "de receita bruta anual é o piso para a empresa pagar, corrigido pelo IPCA",
+   "PL 3380/2026, art. 18"
+  ],
+  [
+   "5%",
+   "da arrecadação do Funrural seriam desviados para o novo fundo",
+   "PL 3380/2026, art. 4º"
+  ]
+ ],
+ "corpo": [
+  "Pelo texto, o fundo também receberia 3% do PIS/Cofins já cobrado sobre insumos comprados por propriedades com mais de mil hectares e pelo menos 2% das dotações do Plano Safra da Agricultura Familiar, fora o crédito. Na parte das grandes propriedades, portanto, o projeto não cria cobrança nova: redireciona arrecadação que já existe.",
+  "O dinheiro iria direto a fundos de estados e municípios: 70% pelo número de agricultores no Cadastro Nacional da Agricultura Familiar, 20% pela área rural e 10% por um índice de desenvolvimento rural. Pelo menos 20% teriam de ir para assistência técnica, 15% para cooperativas e 15% para máquinas, informou a Agência Câmara."
+ ],
+ "no_brasil": "O projeto foi apresentado em 1º de julho e tramita em caráter conclusivo nas comissões de Agricultura, Finanças e Tributação e Constituição e Justiça. Para virar lei, precisa passar pela Câmara e pelo Senado.",
+ "critica": [
+  {
+   "fonte": "Deputado Rubens Pereira Júnior (PT-MA), autor, segundo a Agência Câmara",
+   "texto": "A sistemática de transferências automáticas fundo a fundo eliminará intermediações burocráticas e garantirá a alocação eficiente dos recursos em consonância com a densidade territorial dos agricultores familiares",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1314167-projeto-cria-fundo-para-agricultura-familiar-bancado-por-taxas-sobre-exportacao-e-grandes-propriedades"
+  },
+  {
+   "fonte": "PL 3380/2026, justificação",
+   "texto": "O FNAF se financia, portanto, a partir de contribuições sociais (Funrural e parcela do PIS/Cofins) e de CIDE sobre exportações de commodities",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3154761"
+  }
+ ],
+ "para_quem": [
+  "Exportadoras e cooperativas grandes de soja, milho, carnes, café, açúcar e algodão",
+  "Agricultores familiares e prefeituras, que receberiam os repasses",
+  "Produtor que vende para exportação e quer acompanhar o efeito no preço"
+ ],
+ "nao_e_para": [
+  "Não é lei: aguarda relator na Comissão de Agricultura desde setembro",
+  "Não cria cobrança sobre o produtor pessoa física nem sobre a propriedade de mais de mil hectares",
+  "A notícia da Câmara fala em taxas sobre grandes propriedades; no texto, essa parte é repasse de PIS/Cofins já arrecadado"
+ ],
+ "veredito": "Ajudar o pequeno agricultor é dever, mas não com tributo sobre quem exporta e segura a balança comercial. Custo na ponta da venda costuma voltar ao preço pago no campo. Antes de criar Cide, o governo deveria mostrar por que o Plano Safra de R$ 89 bilhões não chega à infraestrutura.",
+ "versiculo": {
+  "texto": "Disse-lhes, então: Dai, pois, a César o que é de César e a Deus, o que é de Deus",
+  "referencia": "Lucas 20.25",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados: íntegra do PL 3380/2026",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3154761",
+   "data": "01/07/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: tramitação do PL 3380/2026",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2636035",
+   "data": "08/09/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Projeto cria fundo para agricultura familiar bancado por taxas sobre exportação e grandes propriedades (12/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1314167-projeto-cria-fundo-para-agricultura-familiar-bancado-por-taxas-sobre-exportacao-e-grandes-propriedades",
+   "data": "12/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 56,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Proposta de tributo novo sobre a exportação agrícola, com efeito possível sobre o preço pago ao produtor"
+  },
+  "origem": {
+   "nome": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1314167-projeto-cria-fundo-para-agricultura-familiar-bancado-por-taxas-sobre-exportacao-e-grandes-propriedades"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Projeto sem relator, ainda no início da tramitação"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Tributação da exportação do agro e política para a agricultura familiar, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Projeto de julho, noticiado pela Câmara em 12/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Íntegra do projeto e tramitação lidas nas bases da Câmara"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "A leitura da íntegra corrige a ideia de taxa sobre grandes propriedades: a parte delas é repasse de tributo existente"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: íntegra do projeto (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Número forte: 1% sobre exportação (1)",
+    "Tema que já mobiliza o público: imposto sobre o agro (2)",
+    "Contraste: fundo para pequenos, tributo sobre exportadores (2)",
+    "Utilidade: quem paga e quem recebe (1)",
+    "Passagem bíblica que um pastor usaria: Lucas 20.25 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Projeto cria fundo para agricultura familiar bancado por taxas sobre exportação e grandes propriedades",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / tributação",
+  "coleta": "2026-11-13",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na íntegra do projeto",
+   "contradicoes": "A Agência Câmara fala em taxas sobre grandes propriedades; o texto destina 3% do PIS/Cofins já cobrado sobre insumos de propriedades acima de mil hectares, sem tributo novo para elas.",
+   "sem_confirmacao": "compatibilidade da Cide com a regra constitucional sobre receitas de exportação (texto constitucional não lido nesta edição); efeito no preço ao produtor é opinião"
+  },
+  "duplicidade": {
+   "grupo": "PL 3380/2026",
+   "itens": [
+    "Agência Câmara 12/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se vai haver imposto sobre exportação do agro",
+   "entidades": [
+    "PL 3380/2026",
+    "Rubens Pereira Júnior",
+    "Fundo Nacional da Agricultura Familiar",
+    "Cide",
+    "Funrural"
+   ],
+   "termos": [
+    "imposto exportação soja",
+    "Cide commodities agrícolas",
+    "Fundo Nacional da Agricultura Familiar"
+   ],
+   "atualizacao": "acompanhar designação de relator na Comissão de Agricultura"
+  },
+  "agro": {
+   "demanda": "Exportadoras e cooperativas podem acompanhar e contestar a nova Cide se aprovada; agricultores familiares e municípios podem se organizar para receber repasses",
+   "prazo": "Sem prazo: projeto aguarda relator; se virar lei, vale no exercício seguinte à publicação",
+   "quem": "Exportadoras e cooperativas com receita acima de R$ 500 milhões; agricultores familiares e prefeituras"
+  }
+ },
+ "descricao_seo": "PL 3380/2026 cria Cide de 1% sobre exportação de soja, milho, carnes, café, açúcar e algodão para bancar fundo da agricultura familiar.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da íntegra do projeto, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos tirados da íntegra do projeto e da Agência Câmara, falas citadas literalmente; o efeito no preço ao produtor aparece como opinião. Crítica à proposta, sem ataque pessoal ao autor. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/projeto-cria-cide-exportacao-soja-carne-fundo-agricultura-familiar.jpg",
+  "credito": "Foto: Kayo Magalhães/Câmara dos Deputados",
+  "alt": "Deputado Rubens Pereira Júnior fala ao microfone em comissão da Câmara",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/10/img20260617125152919.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1314167-projeto-cria-fundo-para-agricultura-familiar-bancado-por-taxas-sobre-exportacao-e-grandes-propriedades"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-13T02:48:34-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-13T02:48:34-03:00"
+}
