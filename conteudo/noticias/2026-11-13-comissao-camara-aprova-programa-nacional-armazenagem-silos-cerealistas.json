@@ -1,0 +1,196 @@
+{
+ "slug": "comissao-camara-aprova-programa-nacional-armazenagem-silos-cerealistas",
+ "data": "2026-11-13",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Boa notícia",
+ "titulo": "Comissão da Câmara aprova programa nacional de armazenagem com crédito para silos no campo",
+ "lide": "A Comissão de Agricultura da Câmara aprovou em 4 de novembro o Programa Nacional de Armazenagem e Secagem da Produção Agropecuária (PNAS), do PL 1621/2026, com linhas de crédito favorecidas para silos, armazéns e secadores. O relator, Dilceu Sperafico (PP-PR), incluiu as cerealistas entre os atendidos.",
+ "por_que_importa": "Sem armazém próprio, o produtor vende na colheita, quando o preço está mais baixo, e paga frete caro. Um programa com crédito para silo na fazenda dá ao produtor mais tempo para vender e mais poder de negociação.",
+ "numeros": [
+  [
+   "5",
+   "eixos de execução: crédito favorecido, incentivo a silos e secadores, estruturas cooperativas, tecnologia e integração com seguro e crédito",
+   "Substitutivo ao PL 1621/2026, art. 3º"
+  ],
+  [
+   "2",
+   "comissões ainda vão analisar o texto: Finanças e Tributação e Constituição e Justiça",
+   "Agência Câmara, 09/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O texto aprovado é o substitutivo do relator ao projeto do deputado Mauricio do Vôlei (PL-MG). Pela versão aprovada, podem ter prioridade os pequenos e médios produtores, associações, cooperativas e cerealistas, as regiões com falta de armazéns e os municípios de forte vocação agropecuária.",
+  "O substitutivo deixa para o Poder Executivo definir critérios e limites de financiamento e diz que a implementação observará o orçamento, \"não implicando criação automática de novas despesas obrigatórias\". O parecer foi lido pelo deputado Pezenti e aprovado sem emendas apresentadas ao substitutivo, segundo a tramitação na Câmara."
+ ],
+ "no_brasil": "O projeto tramita em caráter conclusivo e foi recebido pela Comissão de Finanças e Tributação em 9 de novembro. Se passar também na de Constituição e Justiça sem recurso ao Plenário, segue para o Senado.",
+ "critica": [
+  {
+   "fonte": "Deputado Dilceu Sperafico (PP-PR), relator, no parecer citado pela Agência Câmara",
+   "texto": "Ao estimular investimentos descentralizados em silos e secadores diretamente nas propriedades e cooperativas, o projeto promove a desconcentração logística, otimiza o fluxo de abastecimento e confere maior margem de comercialização e autonomia ao produtor rural",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1317119-comissao-aprova-programa-para-ampliar-armazenagem-agropecuaria"
+  },
+  {
+   "fonte": "Substitutivo aprovado, art. 7º",
+   "texto": "A implementação desta Lei observará as disponibilidades orçamentárias e financeiras, não implicando criação automática de novas despesas obrigatórias.",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3170090"
+  }
+ ],
+ "para_quem": [
+  "Pequeno e médio produtor de grãos que vende na colheita por falta de armazém",
+  "Cooperativas, associações e cerealistas que pensam em ampliar silos e secadores",
+  "Municípios de forte vocação agropecuária com falta de armazenagem"
+ ],
+ "nao_e_para": [
+  "Não é lei: faltam duas comissões da Câmara e o Senado",
+  "O texto não fixa valor, juros nem prazo do crédito; isso fica para o regulamento",
+  "Não cria despesa obrigatória: depende do orçamento"
+ ],
+ "veredito": "Boa direção: armazém na fazenda é liberdade para o produtor escolher a hora de vender. Mas o texto ainda é moldura sem números; o Congresso precisa garantir juros e prazos de verdade, ou o programa vira só nome.",
+ "versiculo": {
+  "texto": "E ajuntem toda a comida destes bons anos, que vêm, e amontoem trigo debaixo da mão de Faraó, para mantimento nas cidades, e o guardem",
+  "referencia": "Gênesis 41.35",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados: parecer e substitutivo do relator ao PL 1621/2026",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3170090",
+   "data": "11/08/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: tramitação do PL 1621/2026",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613712/tramitacoes",
+   "data": "09/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Comissão aprova programa para ampliar armazenagem agropecuária (09/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1317119-comissao-aprova-programa-para-ampliar-armazenagem-agropecuaria",
+   "data": "09/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 52,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Crédito e infraestrutura de armazenagem para o produtor rural"
+  },
+  "origem": {
+   "nome": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1317119-comissao-aprova-programa-para-ampliar-armazenagem-agropecuaria"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Aprovado na primeira de três comissões; texto sem valores definidos"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Crédito rural e armazenagem, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Aprovação em 4/11, publicada em 9 e 10/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Substitutivo e tramitação lidos nas bases da Câmara"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Mostra que o texto aprovado não fixa juros, valores nem despesa obrigatória"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 6,
+    "viral": 3,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: substitutivo aprovado (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Utilidade: quem pode ter prioridade (2)",
+    "Tema que já mobiliza o público: armazenagem e preço na colheita (2)",
+    "Número forte: duas comissões pela frente (1)",
+    "Passagem bíblica que um pastor usaria: José e os celeiros (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Comissão aprova programa para ampliar armazenagem agropecuária",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / crédito e infraestrutura",
+  "coleta": "2026-11-13",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido no substitutivo e na tramitação",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "déficit nacional de armazenagem (dado não lido nesta edição)"
+  },
+  "duplicidade": {
+   "grupo": "PL 1621/2026",
+   "itens": [
+    "Agência Câmara 09/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-12-comissao-camara-aprova-bndes-energia-renovavel-agricultura-familiar"
+  },
+  "seo": {
+   "intencao": "saber se vai haver crédito para silo na fazenda",
+   "entidades": [
+    "PL 1621/2026",
+    "PNAS",
+    "Dilceu Sperafico",
+    "Mauricio do Vôlei",
+    "Comissão de Agricultura"
+   ],
+   "termos": [
+    "programa nacional de armazenagem",
+    "crédito para silo",
+    "PNAS armazenagem secagem"
+   ],
+   "atualizacao": "acompanhar a Comissão de Finanças e Tributação"
+  },
+  "agro": {
+   "demanda": "Produtores, cooperativas e cerealistas que planejam silos podem acompanhar a regulamentação para acessar o crédito quando existir",
+   "prazo": "Sem prazo: projeto na Comissão de Finanças e Tributação",
+   "quem": "Pequenos e médios produtores de grãos, cooperativas e cerealistas"
+  }
+ },
+ "descricao_seo": "Comissão de Agricultura da Câmara aprovou o PNAS, programa com crédito favorecido para silos, armazéns e secadores; cerealistas entraram no texto.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do substitutivo e da tramitação, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos do substitutivo e da tramitação, falas citadas literalmente. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/comissao-camara-aprova-programa-nacional-armazenagem-silos-cerealistas.jpg",
+  "credito": "Foto: Kayo Magalhães/Câmara dos Deputados",
+  "alt": "Deputado Dilceu Sperafico fala ao microfone no Plenário da Câmara",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/11/img20260616151534953.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1317119-comissao-aprova-programa-para-ampliar-armazenagem-agropecuaria"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-13T02:51:57-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-13T02:51:57-03:00"
+}
