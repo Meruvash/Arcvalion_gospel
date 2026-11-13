@@ -1,0 +1,195 @@
+{
+ "slug": "projeto-proagro-cobertura-integral-agricultor-familiar-seca-80-por-cento",
+ "data": "2026-11-13",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Projeto autoriza Proagro a cobrir 100% da perda do agricultor familiar atingido pela seca",
+ "lide": "O PL 3647/2026, do deputado Ícaro de Valmir (Republicanos-SE), autoriza o governo a pagar a cobertura integral do Proagro e do Proagro Mais ao agricultor familiar de município em emergência ou calamidade reconhecida pela União, quando a seca ou outro evento climático levar 80% ou mais da produção esperada.",
+ "por_que_importa": "Hoje o Proagro não cobre toda a perda: as normas do CMN fixam um teto abaixo de 100%, como diz a própria justificação do projeto. Para o pequeno produtor que perdeu quase tudo, a diferença pesa na hora de pagar o custeio.",
+ "numeros": [
+  [
+   "80%",
+   "de perda da produção esperada é o mínimo para a cobertura integral proposta",
+   "PL 3647/2026, art. 1º"
+  ],
+  [
+   "100%",
+   "seria a cobertura, acima do teto fixado pelo CMN, se o governo usar a autorização",
+   "PL 3647/2026, justificação"
+  ]
+ ],
+ "corpo": [
+  "O texto acrescenta o art. 66-C à Lei de Política Agrícola (Lei 8.171/1991). O autor conta na justificação que a estiagem na safra de milho 2025/2026 causou perdas totais ou acima de 80% a agricultores familiares de vários municípios de Sergipe, mas propõe regra para todo o país.",
+  "O projeto é autorizativo: diz que o Poder Executivo \"fica autorizado\" a adotar a cobertura integral, em caráter temporário e excepcional, \"observada a disponibilidade orçamentária\". Ou seja, mesmo aprovado, não obriga o governo a pagar."
+ ],
+ "no_brasil": "Apresentado em 13 de julho, o projeto tramita em caráter conclusivo nas comissões de Agricultura, Finanças e Tributação e Constituição e Justiça, segundo a Agência Câmara. Pelos dados abertos da Câmara, aguarda encaminhamento às comissões desde 3 de setembro.",
+ "critica": [
+  {
+   "fonte": "Deputado Ícaro de Valmir (Republicanos-SE), na justificação do projeto",
+   "texto": "O caso sergipano, contudo, não é isolado: fenômenos climáticos adversos dessa magnitude podem ocorrer, e com frequência ocorrem, em qualquer unidade da Federação",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3161585"
+  },
+  {
+   "fonte": "PL 3647/2026, justificação",
+   "texto": "A medida preserva a competência do Conselho Monetário Nacional para o crédito rural em caráter geral, dela excepcionando apenas a situação de emergência ora tratada.",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3161585"
+  }
+ ],
+ "para_quem": [
+  "Agricultor familiar com custeio amparado pelo Proagro ou Proagro Mais",
+  "Quem está em município com emergência ou calamidade reconhecida pela União por seca ou outro evento climático",
+  "Quem perdeu 80% ou mais da produção esperada"
+ ],
+ "nao_e_para": [
+  "Não é lei e ainda não chegou às comissões",
+  "Mesmo aprovado, só autoriza: o governo decide e depende de orçamento",
+  "Não vale para médio e grande produtor nem para perda abaixo de 80%"
+ ],
+ "veredito": "Ideia justa para quem perdeu quase tudo na seca, mas projeto que só autoriza costuma ficar no papel. Se o Congresso quer proteger o agricultor familiar, que ponha a regra como obrigação e diga de onde sai o dinheiro.",
+ "versiculo": {
+  "texto": "Enquanto a terra durar, sementeira e sega, e frio e calor, e verão e inverno, e dia e noite não cessarão",
+  "referencia": "Gênesis 8.22",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados: íntegra do PL 3647/2026",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3161585",
+   "data": "13/07/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: tramitação do PL 3647/2026",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2639107",
+   "data": "03/09/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Projeto autoriza cobertura integral de seguro rural para perdas climáticas (10/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1313876-projeto-autoriza-cobertura-integral-de-seguro-rural-para-perdas-climaticas",
+   "data": "10/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 52,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Seguro da produção do agricultor familiar diante de perda climática"
+  },
+  "origem": {
+   "nome": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1313876-projeto-autoriza-cobertura-integral-de-seguro-rural-para-perdas-climaticas"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Projeto autorizativo, ainda antes das comissões"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Proagro e perda de safra, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Projeto de julho, noticiado pela Câmara em 10/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Íntegra e tramitação lidas nas bases da Câmara"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Mostra que o texto só autoriza o governo, ponto que a notícia oficial deixa em segundo plano"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 6,
+    "viral": 3,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: íntegra do projeto (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Número forte: 80% de perda (1)",
+    "Tema que já mobiliza o público: seca e seguro rural (2)",
+    "Utilidade: quem teria direito (2)",
+    "Passagem bíblica que um pastor usaria: Gênesis 8.22 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Projeto autoriza cobertura integral de seguro rural para perdas climáticas",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / seguro rural",
+  "coleta": "2026-11-13",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na íntegra do projeto",
+   "contradicoes": "A Agência Câmara diz que a indenização total \"ficará garantida\"; o texto apenas autoriza o Executivo, sujeito a orçamento.",
+   "sem_confirmacao": "percentual exato do teto atual do Proagro no Manual de Crédito Rural (não lido nesta edição)"
+  },
+  "duplicidade": {
+   "grupo": "PL 3647/2026",
+   "itens": [
+    "Agência Câmara 10/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se o Proagro vai cobrir 100% da perda na seca",
+   "entidades": [
+    "PL 3647/2026",
+    "Ícaro de Valmir",
+    "Proagro",
+    "Proagro Mais",
+    "Lei 8.171/1991"
+   ],
+   "termos": [
+    "Proagro cobertura integral",
+    "seguro rural seca agricultor familiar",
+    "Proagro Mais 80% perda"
+   ],
+   "atualizacao": "acompanhar envio às comissões e relatoria na Comissão de Agricultura"
+  },
+  "agro": {
+   "demanda": "Agricultor familiar com perda climática precisa acionar o Proagro dentro das regras atuais e guardar laudo e decreto de emergência; se o projeto virar lei, poderá pedir a cobertura integral",
+   "prazo": "Sem prazo: projeto aguarda envio às comissões",
+   "quem": "Agricultores familiares com Proagro ou Proagro Mais em municípios em emergência por seca"
+  }
+ },
+ "descricao_seo": "PL 3647/2026 autoriza Proagro e Proagro Mais a cobrir 100% da perda do agricultor familiar em município em emergência, com perda de 80% ou mais.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da íntegra do projeto, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos tirados da íntegra e da tramitação, falas citadas literalmente, natureza autorizativa explicada. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/projeto-proagro-cobertura-integral-agricultor-familiar-seca-80-por-cento.jpg",
+  "credito": "Foto: Vinicius Loures/Câmara dos Deputados",
+  "alt": "Deputado Ícaro de Valmir discursa na tribuna da Câmara segurando papéis",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/11/img20261027152322474.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1313876-projeto-autoriza-cobertura-integral-de-seguro-rural-para-perdas-climaticas"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-13T02:50:19-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-13T02:50:19-03:00"
+}
