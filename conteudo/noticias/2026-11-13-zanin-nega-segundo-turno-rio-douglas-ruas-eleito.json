@@ -1,0 +1,193 @@
+{
+ "slug": "zanin-nega-segundo-turno-rio-douglas-ruas-eleito",
+ "data": "2026-11-13",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": true,
+ "selo": "Informativo",
+ "titulo": "Zanin nega segundo turno no Rio e mantém Douglas Ruas eleito governador",
+ "lide": "O ministro Cristiano Zanin, do STF, negou nesta quinta-feira (12) o pedido do PSD para haver segundo turno na eleição para governador do Rio de Janeiro. Fica mantida, por ora, a decisão do TSE que anulou os 274 mil votos de Anthony Garotinho e, com a retotalização, deu a Douglas Ruas (PL) 50,88% dos votos válidos.",
+ "por_que_importa": "A decisão mantém o resultado que elegeu no primeiro turno um governador do PL no Rio de Janeiro. O motivo é processual, não de mérito: a disputa ainda pode voltar ao STF depois que o TSE julgar os recursos pendentes.",
+ "numeros": [
+  [
+   "274 mil",
+   "votos de Anthony Garotinho (Republicanos) anulados pelo TSE no primeiro turno",
+   "STF, 12/11/2026"
+  ],
+  [
+   "49,27% → 50,88%",
+   "dos votos válidos de Douglas Ruas antes e depois da retotalização",
+   "Agência Brasil, 12/11/2026"
+  ],
+  [
+   "8 de outubro",
+   "data em que Zanin já tinha negado pedido semelhante da coligação de Eduardo Paes",
+   "STF, 12/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo o STF, Zanin considerou que o PSD usou a ADPF, ação de controle de constitucionalidade, no lugar de um recurso. Como ainda há embargos de declaração pendentes no TSE, o caso pode chegar ao Supremo por recurso extraordinário. O partido defendia que os votos de Garotinho, que concorreu sub judice, entrassem na conta da maioria absoluta.",
+  "A decisão é liminar e monocrática. Para o ministro, a situação é a mesma de 8 de outubro, quando ele negou o pedido cautelar da coligação \"Juntos para Mudar, Coragem para Reconstruir\", de Eduardo Paes, contra a decisão do TSE."
+ ],
+ "no_brasil": "Garotinho concorreu com o registro sob discussão na Justiça Eleitoral; a anulação dos votos dele mudou a base de cálculo e tirou a necessidade de segundo turno. Os embargos no TSE ainda serão julgados.",
+ "critica": [
+  {
+   "fonte": "Ministro Cristiano Zanin, segundo a Agência Brasil",
+   "texto": "A arguição de descumprimento de preceito fundamental, contudo, não constitui sucedâneo de recurso nem instrumento destinado à revisão de pronunciamentos jurisdicionais concretos",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/zanin-rejeita-acao-para-determinar-segundo-turno-para-o-governo-do-rio"
+  },
+  {
+   "fonte": "PSD, segundo a Agência Brasil",
+   "texto": "Para o partido, o segundo turno deveria depender só dos votos dos eleitores, e não de eventos processuais; manter a regra permitiria que candidato com registro negado capte votos e depois os tire da base de cálculo.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Eleitor do Rio: o resultado do primeiro turno continua valendo",
+  "Quem acompanha a oposição: o PL mantém o governo do Rio, sujeito aos recursos no TSE",
+  "Quem estuda direito eleitoral: a discussão sobre votos de candidato sub judice pode voltar ao STF"
+ ],
+ "nao_e_para": [
+  "Zanin não julgou o mérito da anulação dos votos; negou o pedido por questão processual",
+  "A decisão é individual e liminar",
+  "Os embargos no TSE ainda estão pendentes"
+ ],
+ "veredito": "Decisão tecnicamente correta. Atalho processual não pode substituir o recurso próprio, e a regra vale para todos os partidos. O Rio precisa de estabilidade para governar, e o caminho certo para contestar o resultado é o TSE e, depois, o recurso ao Supremo.",
+ "versiculo": {
+  "texto": "Fazer justiça e julgar com retidão é mais aceitável ao Senhor do que oferecer-lhe sacrifício",
+  "referencia": "Provérbios 21.3",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: Por questões processuais, relator nega pedido do PSD para realizar segundo turno das eleições no RJ (12/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/por-questoes-processuais-relator-nega-pedido-do-psd-para-realizar-segundo-turno-das-eleicoes-no-rj/",
+   "data": "12/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Zanin rejeita ação para determinar segundo turno para o governo do Rio (12/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/zanin-rejeita-acao-para-determinar-segundo-turno-para-o-governo-do-rio",
+   "data": "12/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 77,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "O fato é sobre eleição e liderança da direita: decisão do STF mantém governador do PL eleito no Rio no primeiro turno"
+  },
+  "origem": {
+   "nome": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/por-questoes-processuais-relator-nega-pedido-do-psd-para-realizar-segundo-turno-das-eleicoes-no-rj/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Decisão do STF já valendo que mantém o resultado da eleição de governador de um estado"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Eleição e governador do PL, partido da oposição: política nacional no núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Decisão de quinta-feira, 12/11, poucas horas antes"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Notícia oficial do STF e reportagem independente da Agência Brasil, com trecho da decisão"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Síntese das duas fontes com o que muda e o que ainda pode mudar"
+   }
+  },
+  "publico": {
+   "pontos": 16,
+   "eixos": {
+    "valor": 8,
+    "viral": 5,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: notícia oficial do STF (2)",
+    "Ato de poder: decisão de ministro do STF (2)",
+    "Proximidade: nacional, com efeito no Rio (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Zanin, Ruas, Paes, Garotinho (1)",
+    "Tema que já mobiliza o público: eleição no Rio (2)",
+    "Contraste: votos anulados mudam o resultado (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 21.3 (2)",
+    "Gatilho no calendário: embargos no TSE (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Por questões processuais, relator nega pedido do PSD para realizar segundo turno das eleições no RJ",
+  "nucleo": "A - Brasil",
+  "categoria": "STF / eleições",
+  "coleta": "2026-11-13",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "fato confirmado em fonte oficial e reportagem",
+   "contradicoes": "Nenhuma.",
+   "sem_confirmacao": "íntegra da decisão (o portal de processos do STF bloqueia leitura automática); data do julgamento dos embargos no TSE"
+  },
+  "duplicidade": {
+   "grupo": "Eleição no Rio",
+   "itens": [
+    "STF 12/11",
+    "Agência Brasil 12/11",
+    "Claudio Dantas 12/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se haverá segundo turno para governador do Rio",
+   "entidades": [
+    "Cristiano Zanin",
+    "Douglas Ruas",
+    "Eduardo Paes",
+    "Anthony Garotinho",
+    "PSD",
+    "TSE"
+   ],
+   "termos": [
+    "segundo turno Rio de Janeiro STF",
+    "Douglas Ruas eleito primeiro turno",
+    "Zanin PSD segundo turno"
+   ],
+   "atualizacao": "acompanhar os embargos no TSE e eventual recurso ao STF"
+  }
+ },
+ "descricao_seo": "Zanin, do STF, negou pedido do PSD por segundo turno no Rio; fica mantida a decisão do TSE que deu a Douglas Ruas (PL) 50,88% dos votos válidos.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da notícia do STF e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos atribuídos ao STF e à Agência Brasil; a frase de Zanin foi lida na Agência Brasil; o argumento do PSD está registrado. A nota deixa claro que a decisão é processual e liminar e não atribui irregularidade a candidato algum.",
+ "imagem": {
+  "arquivo": "capas/zanin-nega-segundo-turno-rio-douglas-ruas-eleito.jpg",
+  "credito": "Foto: Marcello Casal Jr./Agência Brasil",
+  "alt": "Fachada do edifício-sede do Tribunal Superior Eleitoral, em Brasília (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/BA1Jh39bl7nrN6-y66Za1k8z3Qg=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/tse_1908200982.jpg?itok=hnUKsnIE",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/tse-altera-entendimento-sobre-cota-de-genero-e-mantem-mandato"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-13T02:30:42-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-13T02:30:42-03:00"
+}
