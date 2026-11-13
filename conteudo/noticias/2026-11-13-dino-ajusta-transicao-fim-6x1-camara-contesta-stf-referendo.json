@@ -1,0 +1,211 @@
+{
+ "slug": "dino-ajusta-transicao-fim-6x1-camara-contesta-stf-referendo",
+ "data": "2026-11-13",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": true,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Dino mantém fim da 6x1 em dezembro, mas muda regras, e Câmara contesta no STF",
+ "lide": "O ministro Flávio Dino, do STF, manteve para 16 de dezembro a jornada de 42 horas com dois dias de descanso, mas permitiu, sem acordo coletivo, até 8 horas e 24 minutos por dia sem hora extra. Nesta sexta-feira (13), a Câmara pediu ao Supremo que não referende seis pontos da liminar, segundo O Antagonista.",
+ "por_que_importa": "A regra mexe com a semana de cerca de 26,8 milhões de trabalhadores, pela estimativa do Ministério do Trabalho citada pela Agência Senado. E o caso testa um limite: até onde um ministro do STF pode ajustar uma emenda constitucional aprovada pelo Congresso.",
+ "numeros": [
+  [
+   "16/12",
+   "é a data em que a jornada cai de 44 para 42 horas semanais, com dois repousos remunerados",
+   "STF, 12/11/2026"
+  ],
+  [
+   "8h24",
+   "por dia, sem hora extra pelos 24 minutos, é o limite permitido por Dino quando não houver acordo coletivo até 15/12",
+   "STF, 12/11/2026"
+  ],
+  [
+   "75 a 1",
+   "foi o placar no Senado, nos dois turnos, da emenda que acabou com a escala 6x1",
+   "Agência Senado, 13/11/2026"
+  ]
+ ],
+ "corpo": [
+  "A liminar foi dada nas ADIs 8041 e 8042, da Confederação Nacional do Comércio (CNC) e da Confederação Nacional da Indústria (CNI), contra a Emenda Constitucional 141/2026. Segundo o STF, Dino não viu violação de cláusula pétrea, mas apontou \"contradições e lacunas\" e fixou ajustes: 90 dias para renegociar acordos coletivos, liberdade para distribuir as folgas por negociação e prazo de 180 dias para o Congresso regulamentar regimes diferenciados e regras para micro e pequenas empresas.",
+  "O referendo está no plenário virtual, em sessão extraordinária que vai até as 23h59 de segunda-feira (16), informou o STF. Dino votou para manter a própria decisão e Alexandre de Moraes o acompanhou, segundo O Antagonista. A Câmara defende o calendário da emenda, mas contesta a jornada de 8h24 sem acordo coletivo, o fim dos limites semanal e mensal das folgas, o prazo dado ao Congresso e a extensão de uma exceção a empregados de estatais."
+ ],
+ "no_brasil": "A emenda foi aprovada no Senado em 14 de outubro e promulgada em 16 de outubro. Ela garante dois dias de repouso remunerado por semana, preferencialmente aos domingos, sem redução de salário, e baixa a jornada para 40 horas em dezembro de 2027, segundo a Agência Senado.",
+ "critica": [
+  {
+   "fonte": "Advocacia da Câmara dos Deputados, na manifestação ao STF, segundo O Antagonista",
+   "texto": "à preservação do texto, e não à sua reconfiguração",
+   "citacao": true,
+   "url": "https://oantagonista.com.br/brasil/camara-pede-para-stf-derrubar-parte-de-decisao-de-dino-sobre-6x1/"
+  },
+  {
+   "fonte": "STF, na notícia oficial sobre a liminar",
+   "texto": "A medida visou assegurar o diálogo institucional e buscar soluções que conciliem a efetividade da reforma constitucional com a segurança jurídica",
+   "citacao": true,
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-mantem-regra-de-transicao-para-implementacao-da-jornada-5x2/"
+  }
+ ],
+ "para_quem": [
+  "Trabalhador na escala 6x1 ou com jornada acima de 40 horas: a regra nova começa em 16 de dezembro",
+  "Empregador sem acordo coletivo: até a decisão do plenário, vale a jornada de até 8h24 em cinco dias",
+  "Sindicatos: há 90 dias, a partir de 16/12, para renegociar contrapartidas dos acordos em vigor"
+ ],
+ "nao_e_para": [
+  "A liminar não adia o início da nova jornada: 16 de dezembro está mantido",
+  "Não autoriza redução de salário, inclusive dos pisos",
+  "O julgamento ainda não terminou: o plenário pode mudar os ajustes até segunda (16)"
+ ],
+ "veredito": "O próprio Dino diz que não há cláusula pétrea violada. Então quem ajusta a emenda é o Congresso, que a aprovou por 75 a 1 no Senado, e não um ministro por liminar. Corrigir lacunas é legítimo; reescrever escolhas do Legislativo enfraquece a separação de Poderes.",
+ "versiculo": {
+  "texto": "E disse-lhes: O sábado foi feito por causa do homem, e não o homem, por causa do sábado",
+  "referencia": "Marcos 2.27",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: STF mantém regra de transição para implementação da jornada 5x2 (12/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-mantem-regra-de-transicao-para-implementacao-da-jornada-5x2/",
+   "data": "12/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: Confira os destaques do Plenário Virtual desta semana (13/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/confira-os-destaques-do-plenario-virtual-desta-semana-8/",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Senado aprova fim da 6x1 e garante dois dias de descanso semanal (13/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/senado-aprova-fim-da-6x1-e-garante-dois-dias-de-descanso-semanal",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "O Antagonista: Câmara pede para STF derrubar parte de decisão de Dino sobre 6x1 (13/11/2026)",
+   "url": "https://oantagonista.com.br/brasil/camara-pede-para-stf-derrubar-parte-de-decisao-de-dino-sobre-6x1/",
+   "data": "13/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 83,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "Disputa entre STF e Congresso sobre a emenda que mudou a jornada de trabalho e o descanso semanal das famílias"
+  },
+  "origem": {
+   "nome": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-mantem-regra-de-transicao-para-implementacao-da-jornada-5x2/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Liminar já em vigor muda as regras da nova jornada que começa em 16/12 para milhões de trabalhadores"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Política nacional com efeito direto no leitor: relação entre STF e Congresso e o descanso semanal das famílias, preferencialmente aos domingos"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Liminar de 12/11, referendo aberto e manifestação da Câmara em 13/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Decisão e pauta lidas nas notícias oficiais do STF; emenda descrita pela Agência Senado; manifestação da Câmara por veículo de imprensa"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Junta a liminar, o referendo em curso, o pedido da Câmara e os números da emenda num só texto, com o que muda para trabalhador e empregador"
+   }
+  },
+  "publico": {
+   "pontos": 18,
+   "eixos": {
+    "valor": 8,
+    "viral": 6,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: decisão e pauta do STF (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Flávio Dino (1)",
+    "Contraste: STF ajusta, Câmara contesta (2)",
+    "Tema que já mobiliza o público: fim da 6x1 (2)",
+    "Número forte: 8h24 sem hora extra (1)",
+    "Utilidade: o que muda em 16/12 (2)",
+    "Passagem bíblica que um pastor usaria: Marcos 2.27 (2)",
+    "Gatilho no calendário: referendo até segunda (16) (2)",
+    "Descanso preferencialmente aos domingos (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "STF mantém regra de transição para implementação da jornada 5x2",
+  "nucleo": "A - Brasil",
+  "categoria": "Política / STF e trabalho",
+  "coleta": "2026-11-13",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "liminar e pauta confirmadas no STF; emenda pela Agência Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "íntegra da manifestação da Câmara (lida só pela reportagem de O Antagonista); votos no plenário virtual (lidos só pela reportagem)"
+  },
+  "duplicidade": {
+   "grupo": "Fim da escala 6x1",
+   "itens": [
+    "STF 12/11",
+    "STF 13/11",
+    "Agência Senado 13/11",
+    "O Antagonista 13/11",
+    "Claudio Dantas 13/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que muda na escala 6x1 e o que o STF decidiu",
+   "entidades": [
+    "Flávio Dino",
+    "STF",
+    "Emenda Constitucional 141/2026",
+    "CNC",
+    "CNI",
+    "Câmara dos Deputados"
+   ],
+   "termos": [
+    "fim da escala 6x1",
+    "jornada 42 horas dezembro",
+    "Dino 6x1 8h24"
+   ],
+   "atualizacao": "resultado do referendo no plenário virtual em 16/11"
+  }
+ },
+ "descricao_seo": "Dino manteve a jornada de 42 horas a partir de 16/12, mas permitiu 8h24 diárias sem acordo; Câmara pede ao STF que não referende seis pontos.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das notícias oficiais do STF e do Senado, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: decisão descrita pela notícia oficial do STF, manifestação da Câmara atribuída a O Antagonista, frases citadas literalmente. A opinião critica a decisão, sem atacar o ministro pessoalmente. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/dino-ajusta-transicao-fim-6x1-camara-contesta-stf-referendo.jpg",
+  "credito": "Foto: Agência Senado",
+  "alt": "Plenário do Senado lotado na sessão solene que promulgou o fim da escala 6x1",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/13/senado-aprova-fim-da-6x1-e-garante-dois-dias-de-descanso-semanal/sau_9268.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/13/senado-aprova-fim-da-6x1-e-garante-dois-dias-de-descanso-semanal"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-13T14:52:27-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-13T14:52:27-03:00"
+}
