@@ -27,7 +27,8 @@
  ],
  "corpo": [
   "O projeto, enviado pelo Poder Executivo em setembro de 2025, muda a lei de defesa da concorrência e cria no Cade uma Superintendência de Mercados Digitais. O Cade poderá obrigar as empresas designadas a divulgar critérios de ranqueamento e resultados de busca, permitir aplicativos de terceiros, oferecer portabilidade de dados e submeter ao órgão as compras de outras empresas, além de proibi-las de favorecer os próprios produtos.",
-  "A Folha cita Google, Meta (dona de Facebook, Instagram e WhatsApp), Microsoft, Uber, iFood e 99 entre os alvos. O relator apresentou parecer preliminar em 8 de julho para restringir as empresas atingidas; segundo o jornal, as companhias consideraram as mudanças insuficientes. Hugo Motta disse à Folha que quer votar o projeto, mas sem pressa e com um texto negociado com os líderes."
+  "A Folha cita Google, Meta (dona de Facebook, Instagram e WhatsApp), Microsoft, Uber, iFood e 99 entre os alvos. O relator apresentou parecer preliminar em 8 de julho para restringir as empresas atingidas; segundo o jornal, as companhias consideraram as mudanças insuficientes. Hugo Motta disse à Folha que quer votar o projeto, mas sem pressa e com um texto negociado com os líderes.",
+  "Atualização (10/11): o relator Aliel Machado (PV-PR) confirmou, após reunião de líderes, que o PL 4.675/2025 deve ser votado no plenário da Câmara na terça-feira (17), sem mudanças previstas no parecer apresentado em julho, segundo o site de Claudio Dantas. Ele disse que vai conversar antes com as bancadas."
  ],
  "no_brasil": "O texto original lido pelo portal trata de concorrência e não usa a palavra conteúdo nenhuma vez; também não traz cláusula dizendo que o Cade não pode tratar de moderação ou de publicações. O parecer preliminar do relator, de julho, não estava disponível para leitura. Lula defendeu a regulação das big techs no discurso de vitória de 25 de outubro, segundo a Folha.",
  "critica": [
@@ -101,6 +102,12 @@
    "nome": "Mural de pautas do Ancapsu: Governo Lula quer dar ao Cade poderes para regular e fiscalizar big techs (pauta sugerida pelo público)",
    "url": "https://ancap.su/site/noticias",
    "data": "30/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Claudio Dantas: regulação das big techs deve ser votada na próxima terça (10/11/2026)",
+   "url": "https://claudiodantas.com.br/regulacao-big-techs-votado-na-proxima-terca/",
+   "data": "10/11/2026",
    "tipo": "secundaria"
   }
  ],
@@ -219,8 +226,8 @@
  "publicado_em": "2026-10-30T14:57:07-03:00",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-11T02:37:59-03:00",
+  "data": "2026-11-13T14:57:24-03:00",
   "modo": "automatica"
  },
- "atualizado_em": "2026-11-11T02:37:59-03:00"
+ "atualizado_em": "2026-11-13T14:57:24-03:00"
 }

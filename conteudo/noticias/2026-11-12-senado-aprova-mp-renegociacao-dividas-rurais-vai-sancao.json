@@ -27,7 +27,8 @@
  ],
  "corpo": [
   "Valem as perdas de duas ou mais safras por enxurradas, alagamentos, chuvas intensas, tornados, geadas e estiagens, e também a perda de receita por queda de preço dos produtos financiados. Agricultores do Pronaf e do Pronamp poderão usar laudo técnico coletivo da região e da atividade, em vez de laudo individual. As dívidas de referência passaram de maio para outubro deste ano.",
-  "Para perdas em três ou mais safras, com queda de pelo menos 40% da renda (35% na Sudam, Sudene e Sudeco), os limites sobem: Pronaf até R$ 500 mil a 5%, Pronamp até R$ 2,5 milhões a 8% e demais até R$ 8 milhões a 11%. Os limites somam todas as dívidas do produtor, em um ou mais bancos, e o risco de crédito fica com as instituições financeiras."
+  "Para perdas em três ou mais safras, com queda de pelo menos 40% da renda (35% na Sudam, Sudene e Sudeco), os limites sobem: Pronaf até R$ 500 mil a 5%, Pronamp até R$ 2,5 milhões a 8% e demais até R$ 8 milhões a 11%. Os limites somam todas as dívidas do produtor, em um ou mais bancos, e o risco de crédito fica com as instituições financeiras.",
+  "Atualização (12/11): o prazo de contratação, que pela MP original terminava em 12 de novembro, passa a ser de 120 dias depois da regulamentação da lei, segundo a Agência Senado. Até 27 de outubro, só R$ 14,3 bilhões dos R$ 25,8 bilhões liberados tinham sido autorizados, com 27,2 mil novas operações e 45,4 mil renegociadas, segundo o Sistema FAEP."
  ],
  "no_brasil": "O Senado retirou trechos incluídos pela Câmara sem relação com a MP, sobre cigarros eletrônicos, free shops e dívidas do antigo SFH. O senador Jaime Bagattoli (PL-RO) chamou a medida de paliativo e defendeu securitização do endividamento em 2027. Segundo o g1, a FPA afirmou que pouco mais de R$ 20 bilhões dos R$ 100 bilhões previstos foram contratados.",
  "critica": [
@@ -77,6 +78,12 @@
    "url": "https://g1.globo.com/politica/noticia/2026/11/11/senado-aprova-mp-que-renegocia-dividas-rurais-e-retira-mudancas-em-regras-propostas-pela-camara-sobre-cigarros-eletronicos.ghtml",
    "data": "11/11/2026",
    "tipo": "secundaria"
+  },
+  {
+   "nome": "CNA: Com prazo curto, produtor tem até 12 de novembro para pedir renegociação de dívidas (Sistema FAEP, 04/11/2026)",
+   "url": "https://cnabrasil.org.br/noticias/com-prazo-curto-produtor-tem-ate-12-de-novembro-para-pedir-renegociacao-de-dividas",
+   "data": "04/11/2026",
+   "tipo": "primaria"
   }
  ],
  "crivo": {
@@ -199,9 +206,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-12T14:56:08-03:00",
+  "data": "2026-11-13T14:57:48-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-12T11:14:40-03:00",
- "atualizado_em": "2026-11-12T14:56:08-03:00"
+ "atualizado_em": "2026-11-13T14:57:48-03:00"
 }

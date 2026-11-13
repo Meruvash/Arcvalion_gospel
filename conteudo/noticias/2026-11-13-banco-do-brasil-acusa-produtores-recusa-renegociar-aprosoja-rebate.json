@@ -63,9 +63,9 @@
  },
  "fontes": [
   {
-   "nome": "CNA: Com prazo curto, produtor tem até 12 de novembro para pedir renegociação de dívidas (Sistema FAEP, 2026)",
+   "nome": "CNA: Com prazo curto, produtor tem até 12 de novembro para pedir renegociação de dívidas (Sistema FAEP, 04/11/2026)",
    "url": "https://cnabrasil.org.br/noticias/com-prazo-curto-produtor-tem-ate-12-de-novembro-para-pedir-renegociacao-de-dividas",
-   "data": "2026",
+   "data": "04/11/2026",
    "tipo": "primaria"
   },
   {
@@ -206,8 +206,15 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-13T02:37:14-03:00",
+  "data": "2026-11-13T14:57:48-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-13T02:37:14-03:00"
+ "publicado_em": "2026-11-13T02:37:14-03:00",
+ "correcoes": [
+  {
+   "data": "2026-11-13",
+   "texto": "Data da fonte da CNA/FAEP corrigida para 04/11/2026"
+  }
+ ],
+ "atualizado_em": "2026-11-13T14:57:48-03:00"
 }

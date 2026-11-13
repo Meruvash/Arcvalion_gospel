@@ -27,7 +27,8 @@
  ],
  "corpo": [
   "A Conamp, associação de membros do Ministério Público, sustenta que as escusas absolutórias, aplicadas em casos de violência doméstica, criam uma imunidade que deixa o autor sem pena e revitimiza a mulher. Ela cita o marido que furta a esposa e o pai que se apropria dos bens da filha. O PV diz que a regra impede punir homens que furtam ou se apropriam de bens de mulheres da família quando não há violência física.",
-  "As duas ações não pedem que o artigo seja derrubado por inteiro: pedem que o STF declare inconstitucional a interpretação que aplica a isenção aos crimes patrimoniais cometidos em contexto de violência doméstica e familiar contra a mulher. Para o PV, a regra contraria os objetivos da Lei Maria da Penha."
+  "As duas ações não pedem que o artigo seja derrubado por inteiro: pedem que o STF declare inconstitucional a interpretação que aplica a isenção aos crimes patrimoniais cometidos em contexto de violência doméstica e familiar contra a mulher. Para o PV, a regra contraria os objetivos da Lei Maria da Penha.",
+  "Atualização (12/11): o STF formou unanimidade para afastar a isenção de pena do art. 181 do Código Penal. Toffoli votou na quarta (11) para afastá-la nos casos de violência doméstica contra a mulher; na quinta (12), por proposta de Alexandre de Moraes acolhida por todos, a isenção caiu para qualquer vítima da família, e também o art. 182. O Plenário define na quarta (18) os efeitos sobre casos anteriores, informou o STF."
  ],
  "no_brasil": "As duas ações estão com o mesmo relator, Dias Toffoli, e serão julgadas em conjunto no Plenário. Segundo a pauta do STF, a sessão de 11/11 também traz o piso dos professores estaduais de São Paulo, e a pauta do Plenário pode ser alterada.",
  "critica": [
@@ -81,6 +82,18 @@
    "nome": "STF: Partido questiona no STF impedimento à punição por crimes patrimoniais contra mulheres em ambiente doméstico (10/07/2025), ADPF 1241",
    "url": "https://noticias.stf.jus.br/postsnoticias/partido-questiona-no-stf-impedimento-a-punicao-por-crimes-patrimoniais-contra-mulher-em-ambiente-domestico/",
    "data": "10/07/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: Relator vota pelo fim da isenção de pena em crimes patrimoniais contra mulheres no ambiente familiar (11/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/relator-vota-pelo-fim-da-isencao-de-pena-em-crimes-patrimoniais-contra-mulheres-no-ambiente-familiar/",
+   "data": "11/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: STF tem unanimidade para afastar isenção de pena em crimes patrimoniais entre familiares (12/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-forma-unanimidade-para-afastar-isencao-de-pena-em-crimes-patrimoniais-entre-familiares/",
+   "data": "12/11/2026",
    "tipo": "primaria"
   }
  ],
@@ -197,8 +210,8 @@
  "publicado_em": "2026-11-08T14:55:50-03:00",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-13T02:31:38-03:00",
+  "data": "2026-11-13T14:57:09-03:00",
   "modo": "automatica"
  },
- "atualizado_em": "2026-11-13T02:31:38-03:00"
+ "atualizado_em": "2026-11-13T14:57:09-03:00"
 }
