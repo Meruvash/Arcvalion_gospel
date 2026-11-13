@@ -1,0 +1,199 @@
+{
+ "slug": "senado-aprova-texto-base-ajuste-fiscal-plp-299-oposicao-contra",
+ "data": "2026-11-13",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Motivo de alerta",
+ "titulo": "Senado aprova ajuste fiscal de Lula por 45 a 31, com a oposição contra",
+ "lide": "O Senado aprovou nesta quinta-feira (12), por 45 votos a 31, o texto principal do PLP 299/2026, o ajuste fiscal do governo, relatado por Eduardo Braga (MDB-AM). O texto corta 10% dos benefícios tributários e reduz repasses aos estados. Quatro destaques ficam para terça (17); depois, o projeto vai à Câmara.",
+ "por_que_importa": "O pacote busca de R$ 45 bilhões a R$ 60 bilhões para fechar as contas de 2027, mas boa parte vem de corte em benefício tributário, que pesa sobre quem produz. Estados exportadores, como Mato Grosso, perdem repasses. A urgência passou por dois votos.",
+ "numeros": [
+  [
+   "45 a 31",
+   "placar do texto principal; a urgência passou por 40 a 38",
+   "Agência Senado, 12/11/2026"
+  ],
+  [
+   "10%",
+   "de redução linear nos benefícios tributários, além do corte aprovado no fim de 2025",
+   "Agência Brasil, 12/11/2026"
+  ],
+  [
+   "R$ 4 bi → R$ 1 bi",
+   "repasse anual aos estados pela desoneração das exportações entre 2027 e 2030; a diferença só será paga até 2037",
+   "Agência Senado, 12/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O texto limita a 2% acima da inflação o crescimento das despesas nos anos de contenção fiscal, permite bloquear gastos para buscar o centro da meta, restringe o uso de créditos tributários e tira da meta de 2026 até R$ 10,5 bilhões do subsídio ao diesel. Ficam fora do corte benefícios da folha, da tecnologia da informação, dos semicondutores e a isenção de veículos para pessoas com deficiência e autistas.",
+  "O líder da oposição, Rogério Marinho (PL-RN), disse que o projeto transfere o custo do ajuste para estados e setor produtivo sem conter as despesas e que a oposição tinha alternativa de R$ 75 bilhões sem aumento de impostos. O senador Marcos Pontes (PL-SP) estimou perdas de cerca de R$ 2,5 bilhões para São Paulo e Mato Grosso, cada um, entre 2027 e 2030."
+ ],
+ "no_brasil": "O projeto também dá 120 dias para o Congresso regulamentar os supersalários no serviço público. Segundo a Agência Senado, o relator acatou 21 das 74 emendas; a Agência Brasil fala em cerca de 50 emendas incorporadas durante a elaboração do parecer.",
+ "critica": [
+  {
+   "fonte": "Senador Eduardo Braga (MDB-AM), relator, segundo a Agência Senado",
+   "texto": "Queremos um país que possa crescer com a redução de desigualdades. Que possamos assegurar um país melhor para as futuras gerações",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/12/texto-principal-do-ajuste-fiscal-e-aprovado-pelo-senado"
+  },
+  {
+   "fonte": "Senador Rogério Marinho (PL-RN), líder da oposição, segundo a Agência Senado",
+   "texto": "Para Marinho, o projeto transfere parte do custo do ajuste para os estados e o setor produtivo, sem conter o crescimento das despesas públicas.",
+   "citacao": false
+  }
+ ],
+ "para_quem": [
+  "Quem tem empresa ou produz no campo: benefícios tributários podem cair mais 10%; acompanhe os destaques na terça (17)",
+  "Estados exportadores: o repasse da desoneração das exportações cai de R$ 4 bilhões para R$ 1 bilhão por ano até 2030",
+  "Servidor público: o texto dá 120 dias para o Congresso regulamentar os supersalários"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: faltam os destaques no Senado e a votação na Câmara",
+  "A economia estimada é do governo e varia entre as fontes, de R$ 45 bilhões a R$ 60 bilhões",
+  "O texto não detalha como será a desvinculação de receitas, segundo a Agência Senado"
+ ],
+ "veredito": "Ajuste que corta incentivo de quem produz e adia dinheiro dos estados é ajuste pelo lado errado. Conta pública se arruma cortando gasto do próprio governo, não apertando quem gera emprego. A Câmara tem a chance de corrigir.",
+ "versiculo": {
+  "texto": "O avisado vê o mal e esconde-se; mas os simples passam e sofrem a pena",
+  "referencia": "Provérbios 22.3",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Texto principal do ajuste fiscal é aprovado pelo Senado (12/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/12/texto-principal-do-ajuste-fiscal-e-aprovado-pelo-senado",
+   "data": "12/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Mesmo com urgência, projeto de ajuste fiscal foi alterado por emendas (12/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/12/mesmo-com-urgencia-projeto-de-ajuste-fiscal-foi-alterado-por-emendas",
+   "data": "12/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Senado aprova texto-base de pacote que prevê economia de até R$ 60 bi (12/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-aprova-texto-base-de-pacote-que-preve-economia-de-ate-r-60-bi",
+   "data": "12/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "O fato é sobre o Congresso e a oposição: o Senado aprova o pacote fiscal do governo com a bancada do PL contra"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/12/texto-principal-do-ajuste-fiscal-e-aprovado-pelo-senado"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Texto aprovado só no Senado, com destaques pendentes e votação na Câmara pela frente"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Política nacional com a oposição em votação dura no Senado, núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Votação na noite de quinta-feira, 12/11"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Duas reportagens oficiais da Agência Senado e reportagem independente da Agência Brasil"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Junta as duas versões, registra a divergência sobre emendas e destaca o efeito sobre estados exportadores"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 7,
+    "viral": 5,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: reportagens oficiais do Senado (2)",
+    "Ato de poder: votação no Senado (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Braga, Marinho, Pontes (1)",
+    "Contraste: urgência aprovada por dois votos (2)",
+    "Utilidade: o que muda para quem produz (1)",
+    "Passagem bíblica que um pastor usaria: Provérbios 22.3 (2)",
+    "Gatilho no calendário: destaques na terça (17) (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Texto principal do ajuste fiscal é aprovado pelo Senado",
+  "nucleo": "A - Brasil",
+  "categoria": "Congresso / contas públicas",
+  "coleta": "2026-11-13",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "votação confirmada em fonte oficial e reportagem",
+   "contradicoes": "Emendas: 21 de 74 acatadas (Agência Senado) ou cerca de 50 incorporadas (Agência Brasil). Economia: R$ 45,1 a 56,1 bilhões (Agência Senado) ou R$ 50 a 60 bilhões (Agência Brasil, citando o ministro). A nota registra as duas.",
+   "sem_confirmacao": "resultado dos destaques; tramitação na Câmara"
+  },
+  "duplicidade": {
+   "grupo": "Ajuste fiscal",
+   "itens": [
+    "Agência Senado 12/11 (2)",
+    "Agência Brasil 12/11",
+    "Claudio Dantas 13/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que muda com o ajuste fiscal aprovado no Senado",
+   "entidades": [
+    "PLP 299/2026",
+    "Eduardo Braga",
+    "Rogério Marinho",
+    "Senado Federal",
+    "Lei Kandir"
+   ],
+   "termos": [
+    "ajuste fiscal Senado aprovado",
+    "PLP 299/2026",
+    "corte benefícios tributários 10%"
+   ],
+   "atualizacao": "atualizar com os destaques de 17/11 e a votação na Câmara"
+  }
+ },
+ "descricao_seo": "Senado aprovou por 45 a 31 o texto principal do ajuste fiscal (PLP 299/2026), com corte de 10% em benefícios tributários e redução de repasses aos estados.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das reportagens oficiais e independentes, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: números e falas vêm das agências do Senado e Brasil, com as divergências registradas; a frase do relator foi lida na fonte e a posição da oposição está atribuída. A opinião critica o desenho do projeto, não pessoas.",
+ "imagem": {
+  "arquivo": "capas/senado-aprova-texto-base-ajuste-fiscal-plp-299-oposicao-contra.jpg",
+  "credito": "Foto: Carlos Moura/Agência Senado",
+  "alt": "O relator Eduardo Braga discursa na tribuna do Senado durante a votação do ajuste fiscal, em 12 de novembro de 2026",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/12/texto-principal-do-ajuste-fiscal-e-aprovado-pelo-senado/20261112_02739cm.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/12/texto-principal-do-ajuste-fiscal-e-aprovado-pelo-senado"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-13T02:33:04-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-13T02:33:04-03:00"
+}
