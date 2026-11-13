@@ -1,0 +1,213 @@
+{
+ "slug": "banco-do-brasil-acusa-produtores-recusa-renegociar-aprosoja-rebate",
+ "data": "2026-11-13",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Motivo de alerta",
+ "titulo": "Banco do Brasil diz que parte do agro se recusa a renegociar; produtores rebatem",
+ "lide": "A presidente do Banco do Brasil, Tarciana Medeiros, disse nesta quinta-feira (12) que parte dos médios e grandes produtores inadimplentes se recusa a pagar, renegociar e dar garantias, e que, para esses, o instrumento é a cobrança. A Aprosoja Brasil rebateu que o produtor perdeu renda e não é caloteiro, segundo o g1.",
+ "por_que_importa": "O maior credor do agro anuncia cobrança mais dura no mesmo mês em que o Congresso aprovou nova renegociação. Para quem está atrasado, a mensagem é clara: o banco quer acordo ou garantia. Saber os prazos e direitos de cada programa virou questão de sobrevivência da propriedade.",
+ "numeros": [
+  [
+   "6,92%",
+   "de inadimplência acima de 90 dias na carteira agro do BB em setembro de 2026, contra 4,84% um ano antes",
+   "Agência Brasil, 12/11/2026"
+  ],
+  [
+   "90%",
+   "dos clientes do agronegócio estão com pagamentos em dia, segundo a presidente do banco",
+   "Agência Brasil, 12/11/2026"
+  ],
+  [
+   "66,5%",
+   "foi a queda do lucro ajustado do BB no terceiro trimestre, para R$ 1,27 bilhão",
+   "Agência Brasil, 12/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo a Agência Brasil, a direção do banco disse que os atrasos se concentram em médios e grandes produtores de soja, milho e pecuária do Centro-Oeste e que o BB intensificou a cobrança e ampliou as exigências de garantias. A presidente afirmou que \"mesmo com colheitas recordes, parte dos grandes e médios produtores optaram por não pagar, nem renegociar, e se recusaram a apresentar garantias\".",
+  "Em nota, a Aprosoja Brasil disse que \"produtor rural não é caloteiro\", segundo o g1. Depois das críticas, o BB divulgou comunicado negando ter culpado todo o setor. Em texto publicado pela CNA, a FAEP já registrava queixas de produtores sobre bancos que exigiam novas garantias e cobravam taxas inviáveis na renegociação."
+ ],
+ "no_brasil": "O Senado aprovou em 11/11 a MP 1.376, que amplia a renegociação das dívidas rurais e segue para sanção, como o portal noticiou. Para o senador Luis Carlos Heinze (PP-RS), não é possível generalizar o comportamento dos produtores, segundo a Gazeta do Povo.",
+ "critica": [
+  {
+   "fonte": "Tarciana Medeiros, presidente do Banco do Brasil, segundo a Agência Brasil",
+   "texto": "Para quem não negocia e não paga, o instrumento é a cobrança",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-aponta-recusa-de-parte-dos-produtores-em-renegociar-dividas-do-agro"
+  },
+  {
+   "fonte": "Aprosoja Brasil, em nota reproduzida pelo g1",
+   "texto": "O produtor perdeu renda, viu suas dívidas encarecerem e passou a enfrentar dificuldades crescentes para obter crédito. Não é razoável transformar essa realidade em acusação de inadimplência deliberada.",
+   "citacao": true,
+   "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/12/nota-aprosoja.ghtml"
+  }
+ ],
+ "para_quem": [
+  "Produtor com parcela atrasada: procure o banco por escrito e guarde o protocolo; quem não negocia vai para a cobrança, avisou o BB",
+  "Quem perdeu safra pelo clima: acompanhe a sanção e a regulamentação da MP 1.376, que abre nova renegociação",
+  "Quem foi chamado a dar nova garantia: peça por escrito a exigência e o motivo"
+ ],
+ "nao_e_para": [
+  "O BB diz que 90% dos clientes do agro pagam em dia; a acusação é sobre um grupo",
+  "Os números de inadimplência são da carteira do BB, não do sistema inteiro",
+  "A íntegra da teleconferência e o comunicado do banco não foram lidos; a nota segue as reportagens"
+ ],
+ "veredito": "Produtor que perdeu safra não é caloteiro, e banco público não deveria tratar crise de renda como má-fé. Quem pode pagar e não paga deve responder, é justo. Mas generalizar em teleconferência só esquenta a briga. O caminho é renegociar com regra clara e prazo real.",
+ "versiculo": {
+  "texto": "E como vós quereis que os homens vos façam, da mesma maneira fazei-lhes vós também",
+  "referencia": "Lucas 6.31",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "CNA: Com prazo curto, produtor tem até 12 de novembro para pedir renegociação de dívidas (Sistema FAEP, 2026)",
+   "url": "https://cnabrasil.org.br/noticias/com-prazo-curto-produtor-tem-ate-12-de-novembro-para-pedir-renegociacao-de-dividas",
+   "data": "2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: BB aponta recusa de parte dos produtores em renegociar dívidas do agro (12/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-aponta-recusa-de-parte-dos-produtores-em-renegociar-dividas-do-agro",
+   "data": "12/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "g1: Produtores de soja rebatem Banco do Brasil sobre dívidas do agro; estatal nega ter culpado todo o setor (12/11/2026)",
+   "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/12/nota-aprosoja.ghtml",
+   "data": "12/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Gazeta do Povo: Agro rebate executivos do BB que atribuem resultado do banco a inadimplência deliberada do setor (11/2026)",
+   "url": "https://www.gazetadopovo.com.br/economia/agro-rebate-bb-inadimplencia-deliberada/",
+   "data": "11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "O fato é sobre dívida rural: o maior credor do agro anuncia cobrança mais dura e acusa parte dos produtores de não renegociar"
+  },
+  "origem": {
+   "nome": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-aponta-recusa-de-parte-dos-produtores-em-renegociar-dividas-do-agro"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Declarações e anúncio de cobrança mais dura, com efeito possível sobre produtores inadimplentes do banco"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Dívida rural e relação do produtor com o banco, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Teleconferência e respostas do setor na quinta-feira, 12/11"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Três reportagens independentes que concordam nas falas e números, mais a nota institucional da FAEP sobre as exigências dos bancos"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Põe lado a lado banco e produtores e liga ao prazo da MP 1.376 e às queixas registradas pela FAEP"
+   }
+  },
+  "publico": {
+   "pontos": 16,
+   "eixos": {
+    "valor": 7,
+    "viral": 6,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: nota institucional da FAEP (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Tarciana Medeiros, Heinze (1)",
+    "Contraste: banco acusa, produtores rebatem (2)",
+    "Tema que já mobiliza o público: dívida rural (2)",
+    "Número forte: inadimplência de 6,92% (1)",
+    "Utilidade: o que fazer diante da cobrança (1)",
+    "Passagem bíblica que um pastor usaria: Lucas 6.31 (2)",
+    "Gatilho no calendário: regulamentação da MP (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "BB aponta recusa de parte dos produtores em renegociar dívidas do agro",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / dívida e bancos",
+  "coleta": "2026-11-13",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "falas confirmadas em três reportagens independentes",
+   "contradicoes": "A Gazeta atribui frase parecida ao diretor financeiro em 11/11; a nota usa só as falas de 12/11 da presidente, confirmadas por Agência Brasil e g1.",
+   "sem_confirmacao": "íntegra da teleconferência; comunicado do BB (citado pelo g1); nota da Aprosoja no site da entidade (protegido contra leitura automática)"
+  },
+  "duplicidade": {
+   "grupo": "BB e inadimplência do agro",
+   "itens": [
+    "Agência Brasil 12/11",
+    "g1 12/11",
+    "Gazeta do Povo 12/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-12-senado-aprova-mp-renegociacao-dividas-rurais-vai-sancao"
+  },
+  "seo": {
+   "intencao": "saber o que o Banco do Brasil disse sobre produtores inadimplentes",
+   "entidades": [
+    "Banco do Brasil",
+    "Tarciana Medeiros",
+    "Aprosoja Brasil",
+    "MP 1.376/2026",
+    "Luis Carlos Heinze"
+   ],
+   "termos": [
+    "Banco do Brasil produtores inadimplentes",
+    "BB risco moral agro",
+    "Aprosoja nota Banco do Brasil"
+   ],
+   "atualizacao": "acompanhar a regulamentação da MP e a política de cobrança do BB"
+  },
+  "agro": {
+   "demanda": "Produtor inadimplente no BB diante de cobrança intensificada e pedido de novas garantias; precisa saber se cabe renegociação pela MP 1.376 ou prorrogação pelo MCR e documentar os pedidos",
+   "prazo": "Depende da sanção e da regulamentação da MP 1.376 (ainda sem data)",
+   "quem": "Médios e grandes produtores com atraso no BB, sobretudo do Centro-Oeste"
+  }
+ },
+ "descricao_seo": "Presidente do BB diz que parte dos produtores recusa renegociar e que o caminho será a cobrança; Aprosoja rebate que o produtor perdeu renda.",
+ "instituicao": "Banco do Brasil",
+ "editora": "Banco do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das reportagens e da nota da entidade, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: falas e números atribuídos às reportagens, com as duas posições citadas literalmente; o BB tem registrada a ressalva de que 90% pagam em dia e o comunicado negando generalização. A opinião critica a generalização, sem acusar pessoa de má-fé. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/banco-do-brasil-acusa-produtores-recusa-renegociar-aprosoja-rebate.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Plantação de soja em Alto Paraíso, em Goiás (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/OLWDLzg_1oustU0zL-qP6o3M7DA=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/1057811-ebc_07.12.2016-2948_07.12.16.jpg?itok=8rmCU0Nc",
+  "pagina": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-07/credito-rural-financiou-r-924-bi-em-areas-com-alertas-ambientais"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-13T02:37:14-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-13T02:37:14-03:00"
+}
