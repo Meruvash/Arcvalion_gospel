@@ -78,6 +78,18 @@
    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-aprova-texto-base-de-pacote-que-preve-economia-de-ate-r-60-bi",
    "data": "12/11/2026",
    "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Senado: Ajuste fiscal: adiamento de votação dá mais tempo para reflexão, diz Davi (13/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/ajuste-fiscal-adiamento-de-votacao-da-mais-tempo-para-reflexao-diz-davi",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "O Antagonista: Motta levará ajuste fiscal imediatamente ao plenário, diz Guimarães (13/11/2026)",
+   "url": "https://oantagonista.com.br/economia/motta-levara-ajuste-fiscal-imediatamente-ao-plenario-diz-guimaraes/",
+   "data": "13/11/2026",
+   "tipo": "secundaria"
   }
  ],
  "crivo": {
@@ -192,8 +204,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-13T02:33:04-03:00",
+  "data": "2026-11-13T14:53:45-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-13T02:33:04-03:00"
+ "publicado_em": "2026-11-13T02:33:04-03:00",
+ "atualizado_em": "2026-11-13T14:53:45-03:00"
 }

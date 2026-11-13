@@ -71,6 +71,12 @@
    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/zanin-rejeita-acao-para-determinar-segundo-turno-para-o-governo-do-rio",
    "data": "12/11/2026",
    "tipo": "secundaria"
+  },
+  {
+   "nome": "O Antagonista: AGU pede rejeição de ação do PSD por segundo turno no Rio (13/11/2026)",
+   "url": "https://oantagonista.com.br/brasil/agu-pede-rejeicao-de-acao-do-psd-por-segundo-turno-no-rio/",
+   "data": "13/11/2026",
+   "tipo": "secundaria"
   }
  ],
  "crivo": {
@@ -186,8 +192,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-13T02:30:42-03:00",
+  "data": "2026-11-13T14:53:30-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-13T02:30:42-03:00"
+ "publicado_em": "2026-11-13T02:30:42-03:00",
+ "atualizado_em": "2026-11-13T14:53:30-03:00"
 }
