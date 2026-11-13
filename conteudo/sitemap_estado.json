@@ -496,8 +496,8 @@
   "lastmod": "2026-11-11T05:25:07-03:00"
  },
  "https://opaladino.com.br/lancamentos/": {
-  "hash": "4f53cda18c2baa0c",
-  "lastmod": null
+  "hash": "af0be2f77e81e22b",
+  "lastmod": "2026-11-13T05:44:47+00:00"
  },
  "https://opaladino.com.br/noticias/audiencia-stf-bets-saude-vicio-crime-organizado/": {
   "hash": "2a7b8f286ed003ca",
@@ -528,8 +528,8 @@
   "lastmod": "2026-10-29T20:47:33-03:00"
  },
  "https://opaladino.com.br/noticias/categoria/chamada-agro/": {
-  "hash": "9216c7193aff19cf",
-  "lastmod": "2026-11-13T05:37:19+00:00"
+  "hash": "54e25a8bc45b9a96",
+  "lastmod": "2026-11-13T05:44:47+00:00"
  },
  "https://opaladino.com.br/noticias/categoria/familia-e-valores/": {
   "hash": "caa68902d56a3b51",
@@ -692,16 +692,20 @@
   "lastmod": "2026-11-11T02:34:45-03:00"
  },
  "https://opaladino.com.br/noticias/pagina/2/": {
-  "hash": "fdf093712019109a",
-  "lastmod": "2026-11-13T05:37:19+00:00"
+  "hash": "9f908c6ff8109ad8",
+  "lastmod": "2026-11-13T05:44:47+00:00"
  },
  "https://opaladino.com.br/noticias/pagina/3/": {
-  "hash": "bc7863c48adeba42",
-  "lastmod": "2026-11-13T05:37:19+00:00"
+  "hash": "5ea644f6ee24f4b9",
+  "lastmod": "2026-11-13T05:44:47+00:00"
  },
  "https://opaladino.com.br/noticias/pec-seguranca-votacao-senado-maioridade-penal/": {
   "hash": "fd88ce94bc6c1f13",
   "lastmod": "2026-11-01T00:12:21+00:00"
+ },
+ "https://opaladino.com.br/noticias/pequena-propriedade-rural-impenhoravel-stf-tema-961-cobranca-dividas/": {
+  "hash": "1e243bfcd24c12e9",
+  "lastmod": "2026-11-13T02:44:03-03:00"
  },
  "https://opaladino.com.br/noticias/pew-religiao-estavel-jovens-eua/": {
   "hash": "8883157564bfd0ab",

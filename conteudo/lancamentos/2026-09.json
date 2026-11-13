@@ -1,0 +1,936 @@
+{
+ "mes": "2026-09",
+ "label": "Setembro de 2026",
+ "titulo_previstos": "Previstos para setembro",
+ "total": 44,
+ "lancados": [
+  {
+   "id_jogo": 84662,
+   "nome": "Entropia",
+   "url": "https://ludopedia.com.br/jogo/entropy",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/84662_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4857,
+    "nome": "Mosaico Jogos",
+    "url": "https://ludopedia.com.br/editora/4857/Mosaico Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 5,
+   "url_topico": "https://ludopedia.com.br/topico/101276/-topico-oficial-entropia",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 52074,
+   "nome": "Final Girl: Uma Batida na Porta",
+   "url": "https://ludopedia.com.br/jogo/final-girl-a-knock-at-the-door",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/52074_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6011,
+    "nome": "Ludofun",
+    "url": "https://ludopedia.com.br/editora/6011/Ludofun"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 5,
+   "url_topico": "https://ludopedia.com.br/topico/96480/-topico-oficial-final-girl-uma-batida-na-porta",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 64136,
+   "nome": "Wroth",
+   "url": "https://ludopedia.com.br/jogo/wroth",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/64136_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 2,
+   "url_topico": "https://ludopedia.com.br/topico/84501/-topico-oficial-wroth",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 85069,
+   "nome": "Caçadores das Relíquias Perdidas",
+   "url": "https://ludopedia.com.br/jogo/cacadores-das-reliquias-perdidas",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85069_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11296,
+    "nome": "Cubo Jogos",
+    "url": "https://ludopedia.com.br/editora/11296/Cubo Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 1,
+   "url_topico": "https://ludopedia.com.br/topico/102347/-topico-oficial-cacadores-das-reliquias-perdidas",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 77252,
+   "nome": "Abroad",
+   "url": "https://ludopedia.com.br/jogo/abroad",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/77252_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4541,
+    "nome": "Grok Games",
+    "url": "https://ludopedia.com.br/editora/4541/Grok Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 66163,
+   "nome": "Avalon: The Riven Veil",
+   "url": "https://ludopedia.com.br/jogo/avalon-the-riven-veil",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/66163_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4857,
+    "nome": "Mosaico Jogos",
+    "url": "https://ludopedia.com.br/editora/4857/Mosaico Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 83092,
+   "nome": "Brazil - Vapor & Magia",
+   "url": "https://ludopedia.com.br/jogo/brazil-vapor-magia",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/83092_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 4752,
+    "nome": "Universo Simulado Estúdio",
+    "url": "https://ludopedia.com.br/editora/4752/Universo Simulado Estúdio"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88836,
+   "nome": "Caçadores das Relíquias Perdidas - Bloco de Pontuação",
+   "url": "https://ludopedia.com.br/jogo/cacadores-das-reliquias-perdidas-bloco-de-pontuacao",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88836_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11296,
+    "nome": "Cubo Jogos",
+    "url": "https://ludopedia.com.br/editora/11296/Cubo Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88835,
+   "nome": "Caçadores das Relíquias Perdidas - Carta Promo Harold Quack",
+   "url": "https://ludopedia.com.br/jogo/cacadores-das-reliquias-perdidas-carta-promo-harold-quack",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88835_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11296,
+    "nome": "Cubo Jogos",
+    "url": "https://ludopedia.com.br/editora/11296/Cubo Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88834,
+   "nome": "Caçadores das Relíquias Perdidas - Moeda de Primeiro Jogador",
+   "url": "https://ludopedia.com.br/jogo/cacadores-das-reliquias-perdidas-moeda-de-primeiro-jogador",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88834_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 5774,
+    "nome": "Moedas & Co.",
+    "url": "https://ludopedia.com.br/editora/5774/Moedas & Co."
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88837,
+   "nome": "Caçadores das Relíquias Perdidas - Playmat",
+   "url": "https://ludopedia.com.br/jogo/cacadores-das-reliquias-perdidas-playmat",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88837_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11296,
+    "nome": "Cubo Jogos",
+    "url": "https://ludopedia.com.br/editora/11296/Cubo Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88833,
+   "nome": "Caçadores das Relíquias Perdidas - Soloman Game",
+   "url": "https://ludopedia.com.br/jogo/cacadores-das-reliquias-perdidas-soloman-game",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88833_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11296,
+    "nome": "Cubo Jogos",
+    "url": "https://ludopedia.com.br/editora/11296/Cubo Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 80266,
+   "nome": "Carnival of Sins",
+   "url": "https://ludopedia.com.br/jogo/carnival-of-sins",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/80266_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4307,
+    "nome": "Across the Board",
+    "url": "https://ludopedia.com.br/editora/4307/Across the Board"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 26980,
+   "nome": "Delta Green: The Role-Playing Game",
+   "url": "https://ludopedia.com.br/jogo/delta-green-the-role-playing-game",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/26980_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 2650,
+    "nome": "RetroPunk Publicações",
+    "url": "https://ludopedia.com.br/editora/2650/RetroPunk Publicações"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101809/-topico-oficial-delta-green-the-role-playing-game",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 88897,
+   "nome": "Duelo de Bruxos",
+   "url": "https://ludopedia.com.br/jogo/duelo-de-bruxos",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88897_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 71434,
+   "nome": "Dungeons & Dragons (5.5e) - Escudo do Dungeon Master",
+   "url": "https://ludopedia.com.br/jogo/dungeons-dragons-5-5-edition-dungeon-master-s-screen",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/71434_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/102047/-topico-oficial-dungeons-dragons-5-5e-escudo-do-dungeon-master",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 81491,
+   "nome": "Emblems",
+   "url": "https://ludopedia.com.br/jogo/emblems",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/81491_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4307,
+    "nome": "Across the Board",
+    "url": "https://ludopedia.com.br/editora/4307/Across the Board"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86481,
+   "nome": "Eternamente Temporário",
+   "url": "https://ludopedia.com.br/jogo/eternamente-temporario",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86481_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11133,
+    "nome": "Carteado",
+    "url": "https://ludopedia.com.br/editora/11133/Carteado"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88772,
+   "nome": "Everdell Farshore: Kit de Componentes 3D - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/everdell-farshore-kit-de-componentes-3d-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88772_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88771,
+   "nome": "Everdell Silverfrost: Kit de Componentes - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/everdell-silverfrost-kit-de-componentes-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88771_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 52076,
+   "nome": "Final Girl: Era uma vez sob a Lua Cheia",
+   "url": "https://ludopedia.com.br/jogo/final-girl-once-upon-a-full-moon",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/52076_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6011,
+    "nome": "Ludofun",
+    "url": "https://ludopedia.com.br/editora/6011/Ludofun"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101280/-topico-oficial-final-girl-era-uma-vez-sob-a-lua-cheia",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 52093,
+   "nome": "Final Girl: Loucura na Escuridão",
+   "url": "https://ludopedia.com.br/jogo/final-girl-madness-in-the-dark",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/52093_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6011,
+    "nome": "Ludofun",
+    "url": "https://ludopedia.com.br/editora/6011/Ludofun"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101281/-topico-oficial-final-girl-loucura-na-escuridao",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 61056,
+   "nome": "Final Girl: Miniaturas Temporada 2",
+   "url": "https://ludopedia.com.br/jogo/final-girl-s2-miniatures-box",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/61056_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6011,
+    "nome": "Ludofun",
+    "url": "https://ludopedia.com.br/editora/6011/Ludofun"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 52077,
+   "nome": "Final Girl: Pânico na Estação 2891",
+   "url": "https://ludopedia.com.br/jogo/final-girl-panic-at-station-2891",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/52077_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6011,
+    "nome": "Ludofun",
+    "url": "https://ludopedia.com.br/editora/6011/Ludofun"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101257/-topico-oficial-final-girl-panico-na-estacao-2891",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 52078,
+   "nome": "Final Girl: Rumo ao Vazio",
+   "url": "https://ludopedia.com.br/jogo/final-girl-into-the-void",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/52078_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6011,
+    "nome": "Ludofun",
+    "url": "https://ludopedia.com.br/editora/6011/Ludofun"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101256/-topico-oficial-final-girl-rumo-ao-vazio",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 52079,
+   "nome": "Final Girl: Terror da Cripta",
+   "url": "https://ludopedia.com.br/jogo/final-girl-terror-from-the-grave",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/52079_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6011,
+    "nome": "Ludofun",
+    "url": "https://ludopedia.com.br/editora/6011/Ludofun"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101255/-topico-oficial-final-girl-terror-da-cripta",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 88773,
+   "nome": "Flamecraft: Kit de Recursos Luxo 3D - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/flamecraft-kit-de-recursos-luxo-3d-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88773_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 84573,
+   "nome": "Flip 7: A Vingança Nunca é Plena",
+   "url": "https://ludopedia.com.br/jogo/flip-7-with-a-vengeance",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/84573_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4541,
+    "nome": "Grok Games",
+    "url": "https://ludopedia.com.br/editora/4541/Grok Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88775,
+   "nome": "Fromage: Kit de Recursos: Frutas, Animais e Construções 3D - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/fromage-kit-de-recursos-frutas-animais-e-construcoes-3d-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88775_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88512,
+   "nome": "Hitster: Promo Rock in Rio",
+   "url": "https://ludopedia.com.br/jogo/hitster-promo-rock-in-rio",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88512_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 89538,
+   "nome": "In the Footsteps of Darwin - Kit de Bússolas",
+   "url": "https://ludopedia.com.br/jogo/in-the-footsteps-of-darwin-kit-de-bussolas",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/89538_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 5774,
+    "nome": "Moedas & Co.",
+    "url": "https://ludopedia.com.br/editora/5774/Moedas & Co."
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 70642,
+   "nome": "Invocathlon",
+   "url": "https://ludopedia.com.br/jogo/invocathlon",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/70642_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 9768,
+    "nome": "Solara",
+    "url": "https://ludopedia.com.br/editora/9768/Solara"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 78512,
+   "nome": "Kingdom Crossing",
+   "url": "https://ludopedia.com.br/jogo/kingdom-crossing",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/78512_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4307,
+    "nome": "Across the Board",
+    "url": "https://ludopedia.com.br/editora/4307/Across the Board"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 89503,
+   "nome": "Monopoly: Guerreiras do Kpop",
+   "url": "https://ludopedia.com.br/jogo/monopoly-kpop-demon-hunters",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/89503_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4023,
+    "nome": "Hasbro do Brasil",
+    "url": "https://ludopedia.com.br/editora/4023/Hasbro do Brasil"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88774,
+   "nome": "Moon Colony Bloodbath: Kit de Recursos e Marcadores 3D - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/moon-colony-bloodbath-kit-de-recursos-e-marcadores-3d-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88774_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 58482,
+   "nome": "Mythic - Criador de Aventura",
+   "url": "https://ludopedia.com.br/jogo/mythic-the-adventure-crafter",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/58482_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 2650,
+    "nome": "RetroPunk Publicações",
+    "url": "https://ludopedia.com.br/editora/2650/RetroPunk Publicações"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88621,
+   "nome": "Nhac!",
+   "url": "https://ludopedia.com.br/jogo/fischfutter",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88621_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3248,
+    "nome": "PaperGames",
+    "url": "https://ludopedia.com.br/editora/3248/PaperGames"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/102346/-topico-oficial-nhac",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 86917,
+   "nome": "The Walking Dead Universe – Escudo do Mestre ",
+   "url": "https://ludopedia.com.br/jogo/the-walking-dead-universe-roleplaying-gm-screen",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86917_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 5946,
+    "nome": "Tria Editora",
+    "url": "https://ludopedia.com.br/editora/5946/Tria Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88777,
+   "nome": "Tiletum: Kit de Recursos 3D - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/tiletum-kit-de-recursos-3d-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88777_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88924,
+   "nome": "TLG: To Literalmente Gargalhando",
+   "url": "https://ludopedia.com.br/jogo/tlg-to-literalmente-gargalhando",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88924_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 1091,
+    "nome": "Buró Editora",
+    "url": "https://ludopedia.com.br/editora/1091/Buró Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 27894,
+   "nome": "Tucano",
+   "url": "https://ludopedia.com.br/jogo/tucano",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/27894_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3248,
+    "nome": "PaperGames",
+    "url": "https://ludopedia.com.br/editora/3248/PaperGames"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101967/-topico-oficial-tucano",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 86933,
+   "nome": "Turma da Mônica: Aventuras no Limoeiro",
+   "url": "https://ludopedia.com.br/jogo/turma-da-monica-aventuras-no-limoeiro",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86933_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 69721,
+   "nome": "Wroth: Paldeyn",
+   "url": "https://ludopedia.com.br/jogo/wroth-paldeyn",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/69721_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 69723,
+   "nome": "Wroth: Venna",
+   "url": "https://ludopedia.com.br/jogo/wroth-venna",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/69723_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  }
+ ],
+ "previstos": [],
+ "anterior": "2026-08",
+ "proximo": "2026-10",
+ "filtros": ""
+}

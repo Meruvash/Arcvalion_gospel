@@ -1,0 +1,1419 @@
+{
+ "mes": "2026-03",
+ "label": "Março de 2026",
+ "titulo_previstos": "Previstos para março",
+ "total": 67,
+ "lancados": [
+  {
+   "id_jogo": 61134,
+   "nome": "Café Baras",
+   "url": "https://ludopedia.com.br/jogo/cafe-baras",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/61134_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6011,
+    "nome": "Ludofun",
+    "url": "https://ludopedia.com.br/editora/6011/Ludofun"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 8,
+   "url_topico": "https://ludopedia.com.br/topico/96503/-topico-oficial-cafe-baras",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 22176,
+   "nome": "Munchkin 11: Tumbas Terríveis",
+   "url": "https://ludopedia.com.br/jogo/munchkin-6-5-terrible-tombs",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/22176_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 6,
+   "url_topico": "https://ludopedia.com.br/topico/97437/-topico-oficial-munchkin-11-tumbas-terriveis",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 63556,
+   "nome": "Puerto Rico 1897: Edição Especial ",
+   "url": "https://ludopedia.com.br/jogo/puerto-rico-1897-special-edition",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/63556_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3289,
+    "nome": "MeepleBR Jogos",
+    "url": "https://ludopedia.com.br/editora/3289/MeepleBR Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 3,
+   "url_topico": "https://ludopedia.com.br/topico/97729/-topico-oficial-puerto-rico-1897-edicao-especial",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 70711,
+   "nome": "Águas Rasas",
+   "url": "https://ludopedia.com.br/jogo/shallow-sea",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/70711_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4857,
+    "nome": "Mosaico Jogos",
+    "url": "https://ludopedia.com.br/editora/4857/Mosaico Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 2,
+   "url_topico": "https://ludopedia.com.br/topico/96450/-topico-oficial-aguas-rasas",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 78376,
+   "nome": "Puerto Rico 1897: Edição Básica ",
+   "url": "https://ludopedia.com.br/jogo/puerto-rico-1897-standard-edition",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/78376_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3289,
+    "nome": "MeepleBR Jogos",
+    "url": "https://ludopedia.com.br/editora/3289/MeepleBR Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 1,
+   "url_topico": "https://ludopedia.com.br/topico/97731/-topico-oficial-puerto-rico-1897-edicao-basica",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 85164,
+   "nome": "AACD - Festa em Família",
+   "url": "https://ludopedia.com.br/jogo/aacd-festa-em-familia",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85164_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11115,
+    "nome": "Mol Impacto",
+    "url": "https://ludopedia.com.br/editora/11115/Mol Impacto"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/97185/-topico-oficial-aacd-festa-em-familia",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 81999,
+   "nome": "Acarajé",
+   "url": "https://ludopedia.com.br/jogo/acaraje",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/81999_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86952,
+   "nome": "Bandeiras do Mundo",
+   "url": "https://ludopedia.com.br/jogo/bandeiras-do-mundo",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86952_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 930,
+    "nome": "Toyster",
+    "url": "https://ludopedia.com.br/editora/930/Toyster"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85524,
+   "nome": "Baralho do Silvinho",
+   "url": "https://ludopedia.com.br/jogo/baralho-do-silvinho",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85524_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 840,
+    "nome": "Pais & Filhos",
+    "url": "https://ludopedia.com.br/editora/840/Pais & Filhos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85525,
+   "nome": "Baú da Felicidade",
+   "url": "https://ludopedia.com.br/jogo/bau-da-felicidade",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85525_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 840,
+    "nome": "Pais & Filhos",
+    "url": "https://ludopedia.com.br/editora/840/Pais & Filhos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85813,
+   "nome": "Cabanagem",
+   "url": "https://ludopedia.com.br/jogo/cabanagem",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85813_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 5869,
+    "nome": "Ilanautas",
+    "url": "https://ludopedia.com.br/editora/5869/Ilanautas"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85272,
+   "nome": "Clichê RPG Advanced",
+   "url": "https://ludopedia.com.br/jogo/cliche-rpg-advanced",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85272_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86379,
+   "nome": "Cocô, o Jogo: Banheiro Público",
+   "url": "https://ludopedia.com.br/jogo/coco-o-jogo-banheiro-publico",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86379_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 1091,
+    "nome": "Buró Editora",
+    "url": "https://ludopedia.com.br/editora/1091/Buró Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 87988,
+   "nome": "Cocô, o Jogo: Cocô de Festa",
+   "url": "https://ludopedia.com.br/jogo/coco-o-jogo-coco-de-festa",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/87988_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 1091,
+    "nome": "Buró Editora",
+    "url": "https://ludopedia.com.br/editora/1091/Buró Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86396,
+   "nome": "Corrida no tempo",
+   "url": "https://ludopedia.com.br/jogo/corrida-no-tempo",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86396_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 930,
+    "nome": "Toyster",
+    "url": "https://ludopedia.com.br/editora/930/Toyster"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 79355,
+   "nome": "Dirt & Dust",
+   "url": "https://ludopedia.com.br/jogo/dirt-dust",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/79355_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4541,
+    "nome": "Grok Games",
+    "url": "https://ludopedia.com.br/editora/4541/Grok Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/97450/-topico-oficial-dirt-dust",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 80351,
+   "nome": "empathos",
+   "url": "https://ludopedia.com.br/jogo/empathos",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/80351_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 81919,
+   "nome": "Faith Battle - Coleção Filhos de Israel",
+   "url": "https://ludopedia.com.br/jogo/faith-battle-colecao-filhos-de-israel",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/81919_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 9551,
+    "nome": "Lion Editora",
+    "url": "https://ludopedia.com.br/editora/9551/Lion Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86155,
+   "nome": "Faith Battle - Promos do FC - Coleção Filhos de Israel",
+   "url": "https://ludopedia.com.br/jogo/faith-battle-promos-do-fc-colecao-filhos-de-israel",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86155_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 9551,
+    "nome": "Lion Editora",
+    "url": "https://ludopedia.com.br/editora/9551/Lion Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 83034,
+   "nome": "Faz de Conta RPG",
+   "url": "https://ludopedia.com.br/jogo/faz-de-conta-rpg",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/83034_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85742,
+   "nome": "FDP - Foi de Propósito 8",
+   "url": "https://ludopedia.com.br/jogo/h-d-p-8-hasta-donde-puedas",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85742_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 1091,
+    "nome": "Buró Editora",
+    "url": "https://ludopedia.com.br/editora/1091/Buró Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 63358,
+   "nome": "Frankezen",
+   "url": "https://ludopedia.com.br/jogo/frankezen",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/63358_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 9543,
+    "nome": "Ludovia Estúdio",
+    "url": "https://ludopedia.com.br/editora/9543/Ludovia Estúdio"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86160,
+   "nome": "Frankezen - Expansão Modo Substâncias",
+   "url": "https://ludopedia.com.br/jogo/frankezen-expansao-modo-substancias",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86160_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 9543,
+    "nome": "Ludovia Estúdio",
+    "url": "https://ludopedia.com.br/editora/9543/Ludovia Estúdio"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 66495,
+   "nome": "Geeks Vs Trolls",
+   "url": "https://ludopedia.com.br/jogo/geeks-vs-trolls",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/66495_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85231,
+   "nome": "Geeks Vs Trolls - Expansão Batalha Contra o Rei Troll",
+   "url": "https://ludopedia.com.br/jogo/geeks-vs-trolls-expansao-batalha-contra-o-rei-troll",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85231_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85230,
+   "nome": "Geeks Vs Trolls - Expansão Caos em 8",
+   "url": "https://ludopedia.com.br/jogo/geeks-vs-trolls-expansao-caos-em-8",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85230_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85232,
+   "nome": "Geeks Vs Trolls - Pack Cartas Promocionais",
+   "url": "https://ludopedia.com.br/jogo/geeks-vs-trolls-pack-cartas-promocionais",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85232_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85233,
+   "nome": "Geeks Vs Trolls - Pack Metas Estendidas",
+   "url": "https://ludopedia.com.br/jogo/geeks-vs-trolls-pack-metas-estendidas",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85233_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 65024,
+   "nome": "Gladiadores",
+   "url": "https://ludopedia.com.br/jogo/gladiadores",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/65024_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4184,
+    "nome": "Calamity Games",
+    "url": "https://ludopedia.com.br/editora/4184/Calamity Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/97061/-topico-oficial-gladiadores",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 78923,
+   "nome": "Guerra das Tempestades - Guia do Mundo",
+   "url": "https://ludopedia.com.br/jogo/stormlight-world-guide",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/78923_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 5946,
+    "nome": "Tria Editora",
+    "url": "https://ludopedia.com.br/editora/5946/Tria Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 71153,
+   "nome": "Guerra das Tempestades - Livro de Regras",
+   "url": "https://ludopedia.com.br/jogo/stormlight-handbook",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/71153_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 5946,
+    "nome": "Tria Editora",
+    "url": "https://ludopedia.com.br/editora/5946/Tria Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 78924,
+   "nome": "Guerra das Tempestades - Pisa Pedras",
+   "url": "https://ludopedia.com.br/jogo/stonewalkers-stormlight-adventure",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/78924_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 5946,
+    "nome": "Tria Editora",
+    "url": "https://ludopedia.com.br/editora/5946/Tria Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 59939,
+   "nome": "Lunar",
+   "url": "https://ludopedia.com.br/jogo/lunar",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/59939_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 8985,
+    "nome": "Jelly Monster",
+    "url": "https://ludopedia.com.br/editora/8985/Jelly Monster"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/98309/-topico-oficial-lunar",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 69075,
+   "nome": "LUZ (I)",
+   "url": "https://ludopedia.com.br/jogo/luz-i",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/69075_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 8985,
+    "nome": "Jelly Monster",
+    "url": "https://ludopedia.com.br/editora/8985/Jelly Monster"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 80452,
+   "nome": "Mad Mix",
+   "url": "https://ludopedia.com.br/jogo/mad-mix",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/80452_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 82874,
+   "nome": "Masala",
+   "url": "https://ludopedia.com.br/jogo/masala",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/82874_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 5100,
+    "nome": "Nozes Game Studio",
+    "url": "https://ludopedia.com.br/editora/5100/Nozes Game Studio"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88661,
+   "nome": "Masmorras de Sempreterna - Temporada 5",
+   "url": "https://ludopedia.com.br/jogo/masmorras-de-sempreterna-temporada-5",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88661_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6214,
+    "nome": "Nat20 Games",
+    "url": "https://ludopedia.com.br/editora/6214/Nat20 Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 89005,
+   "nome": "Miaugic - Set de Expansão - Eclipse no Canil",
+   "url": "https://ludopedia.com.br/jogo/miaugic-set-de-expansao-eclipse-no-canil",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/89005_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11398,
+    "nome": "Miaugic",
+    "url": "https://ludopedia.com.br/editora/11398/Miaugic"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 79249,
+   "nome": "MicroMacro Kids: Parque Maluco",
+   "url": "https://ludopedia.com.br/jogo/micromacro-kids-crazy-city-park",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/79249_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85554,
+   "nome": "Monopoly: Comprando Tudo",
+   "url": "https://ludopedia.com.br/jogo/monopoly-buy-everything",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85554_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4023,
+    "nome": "Hasbro do Brasil",
+    "url": "https://ludopedia.com.br/editora/4023/Hasbro do Brasil"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85553,
+   "nome": "Monopoly: Estacionamento Grátis",
+   "url": "https://ludopedia.com.br/jogo/monopoly-free-parking-jackpot",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85553_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4023,
+    "nome": "Hasbro do Brasil",
+    "url": "https://ludopedia.com.br/editora/4023/Hasbro do Brasil"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85555,
+   "nome": "Monopoly: Vá para a Prisão",
+   "url": "https://ludopedia.com.br/jogo/monopoly-go-to-jail",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85555_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4023,
+    "nome": "Hasbro do Brasil",
+    "url": "https://ludopedia.com.br/editora/4023/Hasbro do Brasil"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86464,
+   "nome": "Não Pode Geek",
+   "url": "https://ludopedia.com.br/jogo/nao-pode-geek",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86464_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 9227,
+    "nome": "Party Games",
+    "url": "https://ludopedia.com.br/editora/9227/Party Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86465,
+   "nome": "Não Pode Só Para Maiores",
+   "url": "https://ludopedia.com.br/jogo/nao-pode-so-para-maiores",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86465_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 9227,
+    "nome": "Party Games",
+    "url": "https://ludopedia.com.br/editora/9227/Party Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 72975,
+   "nome": "O Gato e a Torre",
+   "url": "https://ludopedia.com.br/jogo/cat-and-the-tower",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/72975_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3289,
+    "nome": "MeepleBR Jogos",
+    "url": "https://ludopedia.com.br/editora/3289/MeepleBR Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 81993,
+   "nome": "O Senhor dos Anéis: As Duas Torres - O Jogo de Vaza",
+   "url": "https://ludopedia.com.br/jogo/the-lord-of-the-rings-the-two-towers-trick-taking-game",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/81993_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/97493/-topico-oficial-o-senhor-dos-aneis-as-duas-torres-o-jogo-de-vaza",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 83511,
+   "nome": "O Senhor dos Anéis: As Duas Torres - O Jogo de Vazas: Cavalos & Haradrim",
+   "url": "https://ludopedia.com.br/jogo/the-lord-of-the-rings-the-two-towers-trick-taking-game-horses-and-haradrim",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/83511_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 81109,
+   "nome": "O Senhor dos Anéis: Duelo pela Terra Média - Aliados",
+   "url": "https://ludopedia.com.br/jogo/the-lord-of-the-rings-duel-for-middle-earth-allies",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/81109_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/97728/-topico-oficial-o-senhor-dos-aneis-duelo-pela-terra-media-aliados",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 84483,
+   "nome": "Pathfinder 2ª Edição - Kingmaker – Gerenciador de Reino",
+   "url": "https://ludopedia.com.br/jogo/pathfinder-roleplaying-game-2nd-edition-kingmaker-kingdom-tracker",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/84483_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 3183,
+    "nome": "New Order Editora",
+    "url": "https://ludopedia.com.br/editora/3183/New Order Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 84481,
+   "nome": "Pathfinder 2ª Edição - Kingmaker – Guia do Jogador",
+   "url": "https://ludopedia.com.br/jogo/pathfinder-roleplaying-game-2nd-edition-kingmaker-player-s-guide",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/84481_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 3183,
+    "nome": "New Order Editora",
+    "url": "https://ludopedia.com.br/editora/3183/New Order Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 84479,
+   "nome": "Pathfinder 2ª Edição - Kingmaker – Guia dos Companheiros",
+   "url": "https://ludopedia.com.br/jogo/pathfinder-roleplaying-game-2nd-edition-kingmaker-companion-guide",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/84479_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 3183,
+    "nome": "New Order Editora",
+    "url": "https://ludopedia.com.br/editora/3183/New Order Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 84480,
+   "nome": "Pathfinder 2ª Edição - Kingmaker – Kit de Mapas",
+   "url": "https://ludopedia.com.br/jogo/pathfinder-roleplaying-game-2nd-edition-kingmaker-poster-map-folio",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/84480_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 3183,
+    "nome": "New Order Editora",
+    "url": "https://ludopedia.com.br/editora/3183/New Order Editora"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 80017,
+   "nome": "Pegadinos",
+   "url": "https://ludopedia.com.br/jogo/pegadinos",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/80017_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 82875,
+   "nome": "Pindorama RPG",
+   "url": "https://ludopedia.com.br/jogo/pindorama-rpg",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/82875_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 5100,
+    "nome": "Nozes Game Studio",
+    "url": "https://ludopedia.com.br/editora/5100/Nozes Game Studio"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 80763,
+   "nome": "Pulo do Gato",
+   "url": "https://ludopedia.com.br/jogo/discat",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/80763_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3248,
+    "nome": "PaperGames",
+    "url": "https://ludopedia.com.br/editora/3248/PaperGames"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/97253/-topico-oficial-pulo-do-gato",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 85521,
+   "nome": "Qual é a Música",
+   "url": "https://ludopedia.com.br/jogo/qual-e-a-musica",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85521_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 840,
+    "nome": "Pais & Filhos",
+    "url": "https://ludopedia.com.br/editora/840/Pais & Filhos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88814,
+   "nome": "Quebra cabeça de madeira Tigre",
+   "url": "https://ludopedia.com.br/jogo/quebra-cabeca-de-madeira-tigre",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88814_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 4,
+   "editora": {
+    "id": 474,
+    "nome": "Copag",
+    "url": "https://ludopedia.com.br/editora/474/Copag"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85522,
+   "nome": "Quiz 45 Anos SBT",
+   "url": "https://ludopedia.com.br/jogo/quiz-45-anos-sbt",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85522_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 840,
+    "nome": "Pais & Filhos",
+    "url": "https://ludopedia.com.br/editora/840/Pais & Filhos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 68960,
+   "nome": "Rainbow (II)",
+   "url": "https://ludopedia.com.br/jogo/rainbow-ii",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/68960_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 8985,
+    "nome": "Jelly Monster",
+    "url": "https://ludopedia.com.br/editora/8985/Jelly Monster"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/98307/-topico-oficial-rainbow-ii",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 68203,
+   "nome": "Shackleton Base: Uma Jornada para a Lua",
+   "url": "https://ludopedia.com.br/jogo/shackleton-base-a-journey-to-the-moon",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/68203_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4541,
+    "nome": "Grok Games",
+    "url": "https://ludopedia.com.br/editora/4541/Grok Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/97237/-topico-oficial-shackleton-base-uma-jornada-para-a-lua",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 64269,
+   "nome": "Super Boss Monster",
+   "url": "https://ludopedia.com.br/jogo/super-boss-monster",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/64269_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/97928/-topico-oficial-super-boss-monster",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 85520,
+   "nome": "Super Trunfo – Motos do Futuro",
+   "url": "https://ludopedia.com.br/jogo/super-trunfo-motos-do-futuro",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85520_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 68,
+    "nome": "Grow Jogos e Brinquedos",
+    "url": "https://ludopedia.com.br/editora/68/Grow Jogos e Brinquedos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85523,
+   "nome": "Topa Tudo Por Dinheiro - Provas e Desafios",
+   "url": "https://ludopedia.com.br/jogo/topa-tudo-por-dinheiro-provas-e-desafios",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85523_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 840,
+    "nome": "Pais & Filhos",
+    "url": "https://ludopedia.com.br/editora/840/Pais & Filhos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 78912,
+   "nome": "Trickerion: Anniversary Edition",
+   "url": "https://ludopedia.com.br/jogo/trickerion-anniversary-edition",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/78912_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4541,
+    "nome": "Grok Games",
+    "url": "https://ludopedia.com.br/editora/4541/Grok Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/98308/-topico-oficial-trickerion-anniversary-edition",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 82876,
+   "nome": "Velhas Histórias ao Redor dos Vagalumes",
+   "url": "https://ludopedia.com.br/jogo/velhas-historias-ao-redor-dos-vagalumes",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/82876_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 5100,
+    "nome": "Nozes Game Studio",
+    "url": "https://ludopedia.com.br/editora/5100/Nozes Game Studio"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 50702,
+   "nome": "Zombicide: White Death",
+   "url": "https://ludopedia.com.br/jogo/zombicide-white-death",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/50702_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 63952,
+   "nome": "Zombicide: White Death - Divine Beasts",
+   "url": "https://ludopedia.com.br/jogo/zombicide-white-death-divine-beasts",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/63952_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  }
+ ],
+ "previstos": [],
+ "anterior": "2026-02",
+ "proximo": "2026-04",
+ "filtros": ""
+}

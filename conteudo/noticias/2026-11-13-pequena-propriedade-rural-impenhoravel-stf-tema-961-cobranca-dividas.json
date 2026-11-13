@@ -1,0 +1,197 @@
+{
+ "slug": "pequena-propriedade-rural-impenhoravel-stf-tema-961-cobranca-dividas",
+ "data": "2026-11-13",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Informativo",
+ "titulo": "Pequena propriedade rural trabalhada pela família não pode ser penhorada, decidiu o STF",
+ "lide": "A Constituição e o Código de Processo Civil protegem da penhora a pequena propriedade rural trabalhada pela família, e o STF confirmou essa proteção no Tema 961, em dezembro de 2020: ela vale mesmo quando a família tem mais de um terreno, desde que vizinhos e com área total inferior a quatro módulos fiscais.",
+ "por_que_importa": "Com bancos apertando a cobrança no campo, saber o que não pode ser tomado numa execução faz diferença para o pequeno produtor. A regra protege a terra da família de dívidas da própria atividade, mas tem condições e uma exceção importante.",
+ "numeros": [
+  [
+   "4",
+   "módulos fiscais é o limite da pequena propriedade rural, pela Lei da Reforma Agrária citada pelo STF",
+   "STF, 29/12/2020"
+  ],
+  [
+   "6 a 5",
+   "foi o placar pela impenhorabilidade mesmo com a terra dada em hipoteca: seis votos com o relator, cinco divergentes",
+   "STF, 29/12/2020"
+  ]
+ ],
+ "corpo": [
+  "O caso chegou ao STF por uma fornecedora de insumos que queria penhorar a terra de uma família de agricultores do Paraná, alegando que o imóvel não era o único da família e que fora dado em garantia. O relator, ministro Edson Fachin, votou pela proteção: \"A pequena propriedade rural, afinal, é impenhorável. Tal direito fundamental é indisponível, pouco importando a gravação do bem em hipoteca\".",
+  "O ministro Luís Roberto Barroso divergiu, acompanhado por Alexandre de Moraes e Luiz Fux: para ele, quem oferece o imóvel em garantia por vontade própria afasta a proteção, e a regra ampla pode encarecer o crédito do pequeno produtor. Nunes Marques e Gilmar Mendes votaram pelo recurso da empresa. A tese fixada foi: \"É impenhorável a pequena propriedade rural familiar constituída de mais de 01 (um) terreno, desde que contínuos e com área total inferior a 04 (quatro) módulos fiscais do município de localização\"."
+ ],
+ "no_brasil": "O Código de Processo Civil (art. 833, VIII) repete a proteção, mas abre uma exceção no § 1º: ela não vale contra a dívida do próprio bem, \"inclusive àquela contraída para sua aquisição\". A cobrança mais dura anunciada pelo Banco do Brasil em 12/11 mira médios e grandes produtores, segundo a Agência Brasil.",
+ "critica": [
+  {
+   "fonte": "Ministro Edson Fachin, relator do Tema 961, segundo o STF",
+   "texto": "A regra geral, portanto, quando se trata de dívida contraída pela família, em prol da atividade produtiva desenvolvida na pequena propriedade rural, pelo grupo doméstico, é a da impenhorabilidade",
+   "citacao": true,
+   "url": "https://noticias.stf.jus.br/postsnoticias/pequena-propriedade-rural-e-impenhoravel-para-pagamento-de-dividas/"
+  },
+  {
+   "fonte": "Ministro Nunes Marques, voto vencido, segundo o STF",
+   "texto": "A circunstância de a hipoteca ter sido oferecida em garantia real desautoriza a invocação do postulado da impenhorabilidade da propriedade em análise",
+   "citacao": true,
+   "url": "https://noticias.stf.jus.br/postsnoticias/pequena-propriedade-rural-e-impenhoravel-para-pagamento-de-dividas/"
+  }
+ ],
+ "para_quem": [
+  "Pequeno produtor que trabalha a terra com a família e foi cobrado na Justiça por dívida da atividade",
+  "Família com mais de um terreno vizinho: a soma das áreas é que conta, abaixo de quatro módulos fiscais",
+  "Quem deu a terra em hipoteca: pela tese do STF, a garantia não afasta a proteção"
+ ],
+ "nao_e_para": [
+  "Não protege médios e grandes produtores nem áreas a partir de quatro módulos fiscais",
+  "Não vale contra a dívida do próprio imóvel, inclusive a da compra (CPC, art. 833, § 1º)",
+  "Não protege terra que não é trabalhada pela família"
+ ],
+ "veredito": "Boa regra, que guarda o pão da família do pequeno produtor. Mas não é carta branca: quem está em execução precisa provar que a terra é pequena, contínua e trabalhada pela família, e a dívida da compra do próprio imóvel fica de fora.",
+ "versiculo": {
+  "texto": "Porém Nabote disse a Acabe: Guarde-me o Senhor de que eu te dê a herança de meus pais",
+  "referencia": "1 Reis 21.3",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: Pequena propriedade rural é impenhorável para pagamento de dívidas (29/12/2020)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/pequena-propriedade-rural-e-impenhoravel-para-pagamento-de-dividas/",
+   "data": "29/12/2020",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Legislação: Lei 13.105/2015, Código de Processo Civil, art. 833",
+   "url": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-publicacaooriginal-146341-pl.html",
+   "data": "16/03/2015",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: BB aponta recusa de parte dos produtores em renegociar dívidas do agro (12/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-aponta-recusa-de-parte-dos-produtores-em-renegociar-dividas-do-agro",
+   "data": "12/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 57,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Proteção da terra do pequeno produtor contra a penhora, tema central para quem enfrenta cobrança de dívida rural"
+  },
+  "origem": {
+   "nome": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/pequena-propriedade-rural-e-impenhoravel-para-pagamento-de-dividas/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Tese de repercussão geral que vale para todos os processos de penhora de pequena propriedade rural no país"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Dívida rural e defesa do pequeno produtor, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Decisão de 2020, com gancho no anúncio de cobrança mais dura do BB em 12/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Tese e votos lidos na notícia oficial do STF e texto do CPC lido na base de legislação da Câmara"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Explica a regra com os limites e a exceção, no momento em que a cobrança no campo aperta"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: tese do STF e texto do CPC (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Utilidade: o que pode e o que não pode ser penhorado (1)",
+    "Tema que já mobiliza o público: dívida rural (2)",
+    "Número forte: quatro módulos fiscais (1)",
+    "Passagem bíblica que um pastor usaria: a vinha de Nabote (2)",
+    "Contraste: maioria e divergência no STF (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Pequena propriedade rural é impenhorável para pagamento de dívidas",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / dívida e Justiça",
+  "coleta": "2026-11-13",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "tese e votos lidos na notícia oficial do STF; CPC lido no texto publicado",
+   "contradicoes": "A tese fala em área \"inferior a\" quatro módulos; a lei citada pelo STF fala em \"até\" quatro módulos. A nota usa a redação da tese.",
+   "sem_confirmacao": "acórdão do ARE 1.038.507 (portal de processos do STF fechado a robôs); evolução posterior da jurisprudência do STJ sobre ônus da prova"
+  },
+  "duplicidade": {
+   "grupo": "Pequena propriedade rural impenhorável",
+   "itens": [
+    "STF 29/12/2020"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-13-banco-do-brasil-acusa-produtores-recusa-renegociar-aprosoja-rebate"
+  },
+  "seo": {
+   "intencao": "saber se a pequena propriedade rural pode ser penhorada",
+   "entidades": [
+    "STF",
+    "Tema 961",
+    "ARE 1.038.507",
+    "Edson Fachin",
+    "Código de Processo Civil"
+   ],
+   "termos": [
+    "pequena propriedade rural impenhorável",
+    "Tema 961 STF",
+    "penhora de terra do pequeno produtor"
+   ],
+   "atualizacao": "acompanhar decisões do STJ sobre prova da exploração familiar"
+  },
+  "agro": {
+   "demanda": "Defesa do pequeno produtor em execução ou penhora da terra: provar área abaixo de quatro módulos fiscais, terrenos contínuos e trabalho da família; checar se a dívida é da atividade e não da compra do imóvel",
+   "prazo": "Na execução, no prazo de defesa contra a penhora",
+   "quem": "Pequenos produtores e agricultores familiares cobrados judicialmente"
+  }
+ },
+ "descricao_seo": "STF fixou no Tema 961 que a pequena propriedade rural trabalhada pela família é impenhorável, mesmo dada em hipoteca. Veja limites e exceção.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da notícia do STF e do CPC, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: tese citada literalmente, votos atribuídos à notícia oficial do STF, exceção do CPC informada e alcance limitado aos pequenos produtores. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/pequena-propriedade-rural-impenhoravel-stf-tema-961-cobranca-dividas.jpg",
+  "credito": "Pierre-Auguste Renoir, A fazenda em Les Collettes, Cagnes (1908–14), The Metropolitan Museum of Art",
+  "alt": "Pintura de Renoir mostra casa de fazenda entre árvores, com duas pessoas no quintal",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP-22988-001.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/437433"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-13T02:44:03-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-13T02:44:03-03:00"
+}

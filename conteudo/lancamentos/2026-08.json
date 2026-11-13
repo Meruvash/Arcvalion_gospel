@@ -1,0 +1,726 @@
+{
+ "mes": "2026-08",
+ "label": "Agosto de 2026",
+ "titulo_previstos": "Previstos para agosto",
+ "total": 34,
+ "lancados": [
+  {
+   "id_jogo": 78104,
+   "nome": "As Ruínas Perdidas de Arnak: Baú de Aventuras",
+   "url": "https://ludopedia.com.br/jogo/lost-ruins-of-arnak-adventure-chest",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/78104_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3525,
+    "nome": "Devir Brasil",
+    "url": "https://ludopedia.com.br/editora/3525/Devir Brasil"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 8,
+   "url_topico": "https://ludopedia.com.br/topico/93308/-topico-oficial-as-ruinas-perdidas-de-arnak-adventure-chest",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 649,
+   "nome": "Fortaleza Funesta",
+   "url": "https://ludopedia.com.br/jogo/fearsome-floors",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/649_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6011,
+    "nome": "Ludofun",
+    "url": "https://ludopedia.com.br/editora/6011/Ludofun"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 8,
+   "url_topico": "https://ludopedia.com.br/topico/99177/-topico-oficial-fortaleza-funesta",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 8664,
+   "nome": "Celestia",
+   "url": "https://ludopedia.com.br/jogo/celestia",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/8664_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 2767,
+    "nome": "Ludofy Creative",
+    "url": "https://ludopedia.com.br/editora/2767/Ludofy Creative"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 3,
+   "url_topico": "https://ludopedia.com.br/topico/99178/-topico-oficial-celestia",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 69632,
+   "nome": "O senhor dos Anéis : Card Game - O Retorno do Rei (Expansão de Saga)",
+   "url": "https://ludopedia.com.br/jogo/lord-of-the-rings-the-card-game-return-of-the-king-saga-expansion",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/69632_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 3,
+   "url_topico": "https://ludopedia.com.br/topico/101400/-topico-oficial-o-senhor-dos-aneis-card-game-o-retorno-do-rei-expansao-de-saga",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 88252,
+   "nome": "Xô Barata!",
+   "url": "https://ludopedia.com.br/jogo/xo-barata",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88252_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 248,
+    "nome": "Game Office",
+    "url": "https://ludopedia.com.br/editora/248/Game Office"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 2,
+   "url_topico": "https://ludopedia.com.br/topico/101757/-topico-oficial-xo-barata",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 84266,
+   "nome": "Bandido Alcatraz",
+   "url": "https://ludopedia.com.br/jogo/bandido-alcatraz-10th-anniversary-edition",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/84266_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3248,
+    "nome": "PaperGames",
+    "url": "https://ludopedia.com.br/editora/3248/PaperGames"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 1,
+   "url_topico": "https://ludopedia.com.br/topico/101575/-topico-oficial-bandido-alcatraz",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 71432,
+   "nome": "Dungeons & Dragons 5.5e: Livro do Mestre",
+   "url": "https://ludopedia.com.br/jogo/dungeons-dragons-5th-edition-dungeon-master-s-guide-2024",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/71432_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 1,
+   "url_topico": "https://ludopedia.com.br/topico/101754/-topico-oficial-dungeons-dragons-5-5e-livro-do-mestre",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 88079,
+   "nome": "All in RPG",
+   "url": "https://ludopedia.com.br/jogo/all-in-rpg",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88079_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 69389,
+   "nome": "Armada dos Cães",
+   "url": "https://ludopedia.com.br/jogo/armada-dos-caes",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/69389_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 9768,
+    "nome": "Solara",
+    "url": "https://ludopedia.com.br/editora/9768/Solara"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101578/-topico-oficial-armada-dos-caes",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 88409,
+   "nome": "AUÊ: O Jogo",
+   "url": "https://ludopedia.com.br/jogo/aue-o-jogo",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88409_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11572,
+    "nome": "Preguiça Games",
+    "url": "https://ludopedia.com.br/editora/11572/Preguiça Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 87656,
+   "nome": "Bio-Fábrica",
+   "url": "https://ludopedia.com.br/jogo/bio-fabrica",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/87656_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101151/-topico-oficial-bio-fabrica",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 88783,
+   "nome": "Brass: Birmingham: Conexões e Marcadores 3D - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/brass-birmingham-conexoes-e-marcadores-3d-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88783_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88341,
+   "nome": "Cadê? Sonic",
+   "url": "https://ludopedia.com.br/jogo/cade-sonic",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88341_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 9834,
+    "nome": "GGB Plast Brinquedos",
+    "url": "https://ludopedia.com.br/editora/9834/GGB Plast Brinquedos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 66348,
+   "nome": "Clank!: Catacombs – Covis e Câmaras Perdidas",
+   "url": "https://ludopedia.com.br/jogo/clank-catacombs-lairs-and-lost-chambers",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/66348_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101437/-topico-oficial-clank-catacombs-covis-e-camaras-perdidas",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 81156,
+   "nome": "Código Secreto: Regresso a Hogwarts",
+   "url": "https://ludopedia.com.br/jogo/codenames-back-to-hogwarts",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/81156_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3525,
+    "nome": "Devir Brasil",
+    "url": "https://ludopedia.com.br/editora/3525/Devir Brasil"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101755/-topico-oficial-codigo-secreto-regresso-a-hogwarts",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 88779,
+   "nome": "Critter Kitchen: Kit Menu Degustação Deluxe 3D - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/critter-kitchen-kit-menu-degustacao-deluxe-3d-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88779_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88558,
+   "nome": "Do Tamanho de uma Criança",
+   "url": "https://ludopedia.com.br/jogo/do-tamanho-de-uma-crianca",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88558_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11589,
+    "nome": "Editora Padre Pio",
+    "url": "https://ludopedia.com.br/editora/11589/Editora Padre Pio"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 79792,
+   "nome": "Dominó Dungeon",
+   "url": "https://ludopedia.com.br/jogo/domino-dungeon",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/79792_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 5109,
+    "nome": "101 Games",
+    "url": "https://ludopedia.com.br/editora/5109/101 Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88208,
+   "nome": "Everdell Silverfrost: Edição de Colecionador",
+   "url": "https://ludopedia.com.br/jogo/everdell-silverfrost-collector-s-edition",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88208_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86906,
+   "nome": "Gatunos: Crimes em Porto Linber",
+   "url": "https://ludopedia.com.br/jogo/gatunos-crimes-em-porto-linber",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86906_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 2,
+   "editora": {
+    "id": 311,
+    "nome": "Coisinha Verde Games",
+    "url": "https://ludopedia.com.br/editora/311/Coisinha Verde Games"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101761/-topico-oficial-gatunos-crimes-em-porto-linber",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 88780,
+   "nome": "Grasse: Kit de Recursos e Perfumes 3D - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/grasse-kit-de-recursos-e-perfumes-3d-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88780_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 84249,
+   "nome": "LEGO: NINJAGO – Destiny’s Bounty Adventures",
+   "url": "https://ludopedia.com.br/jogo/lego-ninjago-destiny-s-bounty-adventures",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/84249_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101753/-topico-oficial-lego-ninjago-destiny-s-bounty-adventures",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 89086,
+   "nome": "Letraria - Um Jogo de Stop",
+   "url": "https://ludopedia.com.br/jogo/letraria-um-jogo-de-stop",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/89086_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4307,
+    "nome": "Across the Board",
+    "url": "https://ludopedia.com.br/editora/4307/Across the Board"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 83087,
+   "nome": "Moonlight - The Land of the Wolves",
+   "url": "https://ludopedia.com.br/jogo/moonlight-the-land-of-the-wolves",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/83087_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4307,
+    "nome": "Across the Board",
+    "url": "https://ludopedia.com.br/editora/4307/Across the Board"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 87927,
+   "nome": "Ninjago: Destiny's Bounty Adventures - A Aventura Controle",
+   "url": "https://ludopedia.com.br/jogo/lego-ninjago-destiny-s-bounty-adventures-the-controller-adventure",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/87927_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101438/-topico-oficial-ninjago-destiny-s-bounty-adventures-a-aventura-controle",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 79997,
+   "nome": "Ordem ao Caos",
+   "url": "https://ludopedia.com.br/jogo/ordem-ao-caos",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/79997_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 9768,
+    "nome": "Solara",
+    "url": "https://ludopedia.com.br/editora/9768/Solara"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101756/-topico-oficial-ordem-ao-caos",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 88778,
+   "nome": "Puerto Rico: Kit Estruturas e Mercadorias 3D - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/puerto-rico-kit-estruturas-e-mercadorias-3d-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88778_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 62698,
+   "nome": "Rebelião dos Gatos",
+   "url": "https://ludopedia.com.br/jogo/rebeliao-dos-gatos",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/62698_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 9768,
+    "nome": "Solara",
+    "url": "https://ludopedia.com.br/editora/9768/Solara"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101577/-topico-oficial-rebeliao-dos-gatos",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 87593,
+   "nome": "SETI: Agências Espaciais - Kit Marcadores de Sinal",
+   "url": "https://ludopedia.com.br/jogo/seti-agencias-espaciais-kit-marcadores-de-sinal",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/87593_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 5774,
+    "nome": "Moedas & Co.",
+    "url": "https://ludopedia.com.br/editora/5774/Moedas & Co."
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88776,
+   "nome": "SETI: Kit de Recursos e Marcadores Temáticos 3D - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/seti-kit-de-recursos-e-marcadores-tematicos-3d-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88776_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86320,
+   "nome": "Star Wars: The Deckbuilding Game – Reforços Rebeldes e Imperiais (Expansão)",
+   "url": "https://ludopedia.com.br/jogo/star-wars-the-deckbuilding-game-rebels-empire-reinforcements-expansion",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86320_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 89009,
+   "nome": "Stitch: Descobrindo as emoções",
+   "url": "https://ludopedia.com.br/jogo/stitch-descobrindo-as-emocoes",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/89009_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 840,
+    "nome": "Pais & Filhos",
+    "url": "https://ludopedia.com.br/editora/840/Pais & Filhos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 9236,
+   "nome": "Vírus",
+   "url": "https://ludopedia.com.br/jogo/virus-i",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/9236_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3248,
+    "nome": "PaperGames",
+    "url": "https://ludopedia.com.br/editora/3248/PaperGames"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": "https://ludopedia.com.br/topico/101430/-topico-oficial-virus",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 88782,
+   "nome": "Wingspan: Américas: Marcadores de Beija-Flor 3D - MeepleHive 3D",
+   "url": "https://ludopedia.com.br/jogo/wingspan-americas-marcadores-de-beija-flor-3d-meeplehive-3d",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88782_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11181,
+    "nome": "MeepleHive 3D",
+    "url": "https://ludopedia.com.br/editora/11181/MeepleHive 3D"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  }
+ ],
+ "previstos": [],
+ "anterior": "2026-07",
+ "proximo": "2026-09",
+ "filtros": ""
+}

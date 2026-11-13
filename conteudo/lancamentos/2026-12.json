@@ -1,0 +1,286 @@
+{
+ "mes": "2026-12",
+ "label": "Dezembro de 2026",
+ "titulo_previstos": "Previstos para dezembro",
+ "total": 13,
+ "lancados": [
+  {
+   "id_jogo": 82854,
+   "nome": "Vudú: Quadrinhos Vs. Mangás",
+   "url": "https://ludopedia.com.br/jogo/vudu-comics-vs-manga",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/82854_t.jpg",
+   "fl_jogo_base": 0,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3289,
+    "nome": "MeepleBR Jogos",
+    "url": "https://ludopedia.com.br/editora/3289/MeepleBR Jogos"
+   },
+   "status": {
+    "id": 1,
+    "label": "Lançado",
+    "slug": "lancado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  }
+ ],
+ "previstos": [
+  {
+   "id_jogo": 61365,
+   "nome": "A Anarquia",
+   "url": "https://ludopedia.com.br/jogo/the-anarchy",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/61365_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4857,
+    "nome": "Mosaico Jogos",
+    "url": "https://ludopedia.com.br/editora/4857/Mosaico Jogos"
+   },
+   "status": {
+    "id": 3,
+    "label": "Anunciado",
+    "slug": "anunciado"
+   },
+   "comentarios": 2,
+   "url_topico": "https://ludopedia.com.br/topico/97950/-topico-oficial-a-anarquia",
+   "pode_criar_topico": false
+  },
+  {
+   "id_jogo": 69155,
+   "nome": "Agent Avenue",
+   "url": "https://ludopedia.com.br/jogo/agent-avenue",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/69155_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11298,
+    "nome": "Forjamundo Editora",
+    "url": "https://ludopedia.com.br/editora/11298/Forjamundo Editora"
+   },
+   "status": {
+    "id": 3,
+    "label": "Anunciado",
+    "slug": "anunciado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86857,
+   "nome": "Arvan Cup",
+   "url": "https://ludopedia.com.br/jogo/arvan-cup",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86857_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 3289,
+    "nome": "MeepleBR Jogos",
+    "url": "https://ludopedia.com.br/editora/3289/MeepleBR Jogos"
+   },
+   "status": {
+    "id": 3,
+    "label": "Anunciado",
+    "slug": "anunciado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 89562,
+   "nome": "Coveiros vs Caveiras",
+   "url": "https://ludopedia.com.br/jogo/coveiros-vs-caveiras",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/89562_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 11679,
+    "nome": "Amaze Games",
+    "url": "https://ludopedia.com.br/editora/11679/Amaze Games"
+   },
+   "status": {
+    "id": 4,
+    "label": "Em Pré Venda",
+    "slug": "pre-venda"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 32557,
+   "nome": "Earthborne Rangers",
+   "url": "https://ludopedia.com.br/jogo/earthborne-rangers",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/32557_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6011,
+    "nome": "Ludofun",
+    "url": "https://ludopedia.com.br/editora/6011/Ludofun"
+   },
+   "status": {
+    "id": 3,
+    "label": "Anunciado",
+    "slug": "anunciado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 87820,
+   "nome": "Eleição",
+   "url": "https://ludopedia.com.br/jogo/eleicao",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/87820_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 5,
+    "label": "Em Financiamento Coletivo",
+    "slug": "fc"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 88508,
+   "nome": "Mares de Pesca",
+   "url": "https://ludopedia.com.br/jogo/mares-de-pesca",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/88508_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 3,
+    "label": "Anunciado",
+    "slug": "anunciado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86712,
+   "nome": "Mecadroids",
+   "url": "https://ludopedia.com.br/jogo/mecadroids",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86712_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 6,
+    "label": "Em Desenvolvimento",
+    "slug": "desenvolvimento"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 4897,
+   "nome": "Money!",
+   "url": "https://ludopedia.com.br/jogo/money",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/4897_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 6011,
+    "nome": "Ludofun",
+    "url": "https://ludopedia.com.br/editora/6011/Ludofun"
+   },
+   "status": {
+    "id": 3,
+    "label": "Anunciado",
+    "slug": "anunciado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 86132,
+   "nome": "Rogue Duel",
+   "url": "https://ludopedia.com.br/jogo/rogue-duel",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/86132_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 86,
+    "nome": "Independente",
+    "url": "https://ludopedia.com.br/editora/86/Independente"
+   },
+   "status": {
+    "id": 3,
+    "label": "Anunciado",
+    "slug": "anunciado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 78685,
+   "nome": "Santorini: Segunda Edição",
+   "url": "https://ludopedia.com.br/jogo/santorini-second-edition",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/78685_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 92,
+    "nome": "Asmodee (Galápagos)",
+    "url": "https://ludopedia.com.br/editora/92/Asmodee (Galápagos)"
+   },
+   "status": {
+    "id": 3,
+    "label": "Anunciado",
+    "slug": "anunciado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  },
+  {
+   "id_jogo": 85624,
+   "nome": "Sol Nascente",
+   "url": "https://ludopedia.com.br/jogo/sol-nascente",
+   "capa": "https://storage.googleapis.com/ludopedia-capas/85624_t.jpg",
+   "fl_jogo_base": 1,
+   "fl_tipo": 1,
+   "editora": {
+    "id": 4890,
+    "nome": "Voxelhouse",
+    "url": "https://ludopedia.com.br/editora/4890/Voxelhouse"
+   },
+   "status": {
+    "id": 3,
+    "label": "Anunciado",
+    "slug": "anunciado"
+   },
+   "comentarios": 0,
+   "url_topico": null,
+   "pode_criar_topico": true
+  }
+ ],
+ "anterior": "2026-11",
+ "proximo": "2027-01",
+ "filtros": ""
+}
