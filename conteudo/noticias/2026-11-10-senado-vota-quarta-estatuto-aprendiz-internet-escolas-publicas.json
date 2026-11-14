@@ -27,7 +27,8 @@
  ],
  "corpo": [
   "O Estatuto do Aprendiz (PL 6.461/2019) define a aprendizagem como contrato de trabalho para formação técnico-profissional, com aulas teóricas e práticas, e reúne numa só lei regras hoje espalhadas em decretos. A contratação fica facultativa para empresas com menos de sete empregados. O relator, senador Veneziano Vital do Rêgo (MDB-PB), é favorável.",
-  "O PLP 230/2025 proíbe o contingenciamento das despesas do Fust, exige que pelo menos metade das receitas anuais vá para financiamentos reembolsáveis e prorroga por cinco anos o desconto de até 50% na contribuição das operadoras que investirem em programas aprovados pelo fundo. A pauta inclui ainda regras para implantes cirúrgicos (PL 6.683/2025)."
+  "O PLP 230/2025 proíbe o contingenciamento das despesas do Fust, exige que pelo menos metade das receitas anuais vá para financiamentos reembolsáveis e prorroga por cinco anos o desconto de até 50% na contribuição das operadoras que investirem em programas aprovados pelo fundo. A pauta inclui ainda regras para implantes cirúrgicos (PL 6.683/2025).",
+  "Atualização (14/11): o Senado aprovou o PLP 230/2025 na quarta-feira (11), por 68 votos a 0, com parecer favorável do senador Esperidião Amin, e o texto vai à sanção. O Estatuto do Aprendiz foi transferido para a continuação da sessão em 12/11 e, pelos dados abertos do Senado, ainda não foi votado."
  ],
  "no_brasil": "Segundo a Agência Senado, o Estatuto do Aprendiz foi aprovado pela Câmara em abril e o projeto do Fust, em agosto; o do Fust será relatado direto no Plenário. A agenda oficial do Plenário para 11/11 confirma os três itens.",
  "critica": [
@@ -69,6 +70,18 @@
    "nome": "Senado, dados abertos: agenda do Plenário de 11/11/2026",
    "url": "https://legis.senado.leg.br/dadosabertos/plenario/agenda/dia/20261111",
    "data": "10/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: tramitação do PLP 230/2025",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9101131",
+   "data": "11/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: tramitação do PL 6.461/2019",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9044129",
+   "data": "11/11/2026",
    "tipo": "primaria"
   }
  ],
@@ -183,8 +196,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-10T02:44:30-03:00",
+  "data": "2026-11-14T02:45:14-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-10T02:44:30-03:00"
+ "publicado_em": "2026-11-10T02:44:30-03:00",
+ "atualizado_em": "2026-11-14T02:45:14-03:00"
 }
