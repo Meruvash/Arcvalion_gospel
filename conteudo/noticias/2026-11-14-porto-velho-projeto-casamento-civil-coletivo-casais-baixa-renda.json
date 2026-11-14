@@ -1,0 +1,191 @@
+{
+ "slug": "porto-velho-projeto-casamento-civil-coletivo-casais-baixa-renda",
+ "data": "2026-11-14",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Boa notícia",
+ "titulo": "Projeto em Porto Velho prevê casamento civil coletivo pago pela prefeitura para casais de baixa renda",
+ "lide": "O vereador Everaldo Fogaça (PSD) apresentou na Câmara de Porto Velho o PL 5234/2026, que autoriza a prefeitura a custear todo ano um casamento civil coletivo para casais que não podem pagar o cartório, sobretudo os inscritos em programas sociais. O projeto foi protocolado nesta sexta-feira (13).",
+ "por_que_importa": "Muitos casais vivem juntos e criam filhos sem oficializar a união por falta de dinheiro, diz a justificativa. O casamento dá segurança à família: herança, pensão, guarda e nome. Um mutirão anual ajuda a tirar essas famílias da informalidade.",
+ "numeros": [
+  [
+   "2 anos",
+   "de moradia em Porto Velho é exigência para o casal participar",
+   "PL 5234/2026, art. 2º"
+  ],
+  [
+   "120 dias",
+   "é o prazo para a prefeitura regulamentar a lei, se aprovada",
+   "PL 5234/2026, art. 3º"
+  ]
+ ],
+ "corpo": [
+  "Pelo texto, a prefeitura cadastra os interessados e organiza os casamentos em data única, podendo fazer parcerias com outros órgãos e com a iniciativa privada. O casal comprova a baixa renda preenchendo um questionário e assinando uma declaração de hipossuficiência.",
+  "O projeto é autorizativo: diz que o Município \"fica autorizado\" a custear, e as despesas saem do orçamento próprio. Ele ainda vai passar pelas comissões e pelo plenário da Câmara Municipal antes de ir à sanção do prefeito."
+ ],
+ "no_brasil": "O Código Civil já garante, no art. 1.512, que a habilitação, o registro e a primeira certidão de casamento são isentos de custas \"para as pessoas cuja pobreza for declarada\". O projeto, portanto, não cria a gratuidade: organiza a cerimônia coletiva e o cadastro.",
+ "critica": [
+  {
+   "fonte": "Vereador Everaldo Fogaça (PSD), na justificativa do projeto",
+   "texto": "Muitas pessoas se unem em consórcio afetivo, da maioria das vezes com filhos, mas, por razões de ordem material preferem não oficializar a união, a míngua de recursos.",
+   "citacao": true,
+   "url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/materialegislativa/2026/47712/pl_n.5234_2026.pdf"
+  },
+  {
+   "fonte": "Código Civil, art. 1.512, parágrafo único",
+   "texto": "A habilitação para o casamento, o registro e a primeira certidão serão isentos de selos, emolumentos e custas, para as pessoas cuja pobreza for declarada, sob as penas da lei.",
+   "citacao": true,
+   "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-publicacaooriginal-1-pl.html"
+  }
+ ],
+ "para_quem": [
+  "Casais de baixa renda de Porto Velho que vivem juntos e querem oficializar a união",
+  "Famílias inscritas em programas sociais",
+  "Igrejas e entidades que queiram apoiar casamentos coletivos em parceria com a prefeitura"
+ ],
+ "nao_e_para": [
+  "Não é lei: o projeto acabou de ser protocolado",
+  "Não é preciso esperar o projeto: a gratuidade do cartório para quem declara pobreza já está no Código Civil",
+  "Vale só para quem mora em Porto Velho há pelo menos dois anos"
+ ],
+ "veredito": "Boa iniciativa: casamento protege a família e os filhos, e o Estado faz bem em facilitar. Mas o primeiro passo é divulgar que o cartório já é gratuito para quem declara pobreza. Igrejas podem ajudar casais a oficializar a união desde já.",
+ "versiculo": {
+  "texto": "Venerado seja entre todos o matrimônio e o leito sem mácula",
+  "referencia": "Hebreus 13.4",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Câmara Municipal de Porto Velho (SAPL): Projeto de Lei nº 5234 de 2026",
+   "url": "https://sapl.portovelho.ro.leg.br/materia/47712",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara Municipal de Porto Velho: íntegra do PL 5234/2026",
+   "url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/materialegislativa/2026/47712/pl_n.5234_2026.pdf",
+   "data": "06/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Código Civil (Lei 10.406/2002), art. 1.512, na base de legislação da Câmara dos Deputados",
+   "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-publicacaooriginal-1-pl.html",
+   "data": "10/01/2002",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 63,
+  "trilha": "quente",
+  "abrangencia": "porto-velho",
+  "tema": {
+   "eixo": "familia",
+   "porque": "Casamento civil de famílias de baixa renda em Porto Velho"
+  },
+  "origem": {
+   "nome": "Câmara Municipal de Porto Velho (SAPL)",
+   "url": "https://sapl.portovelho.ro.leg.br/materia/47712"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "PL 5234/2026, protocolado em 13/11 na Câmara Municipal de Porto Velho e ainda sem votação: efeito futuro para casais de baixa renda da capital"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Ato do poder público de Porto Velho sobre a própria família: o casamento"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Projeto apresentado na sexta-feira, 13/11/2026, e registrado no SAPL da Câmara de Porto Velho no mesmo dia"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Íntegra do projeto e ficha no SAPL lidas; Código Civil lido na base oficial"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Nenhum veículo cobriu; a nota mostra que a gratuidade já existe no Código Civil"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 6,
+    "viral": 3,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: íntegra do projeto (2)",
+    "Proximidade: Porto Velho (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Everaldo Fogaça (1)",
+    "Utilidade: a gratuidade que já existe (2)",
+    "Tema que já mobiliza o público: casamento e família (2)",
+    "Passagem bíblica que um pastor usaria: Hebreus 13.4 (2)",
+    "Número forte: dois anos de moradia (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Projeto de Lei nº 5234 de 2026",
+  "nucleo": "B - Porto Velho",
+  "categoria": "Família / casamento",
+  "coleta": "2026-11-14",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na íntegra do projeto",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "redação vigente do art. 1.512 conferida na publicação original da lei (sem alteração conhecida); custo estimado do programa não consta do projeto"
+  },
+  "duplicidade": {
+   "grupo": "PL 5234/2026 Porto Velho",
+   "itens": [
+    "SAPL 13/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber como casar de graça em Porto Velho",
+   "entidades": [
+    "Câmara Municipal de Porto Velho",
+    "Everaldo Fogaça",
+    "PL 5234/2026",
+    "Código Civil"
+   ],
+   "termos": [
+    "casamento coletivo Porto Velho",
+    "casamento civil gratuito",
+    "casamento comunitário baixa renda"
+   ],
+   "atualizacao": "acompanhar votação nas comissões da Câmara Municipal"
+  }
+ },
+ "descricao_seo": "PL 5234/2026 autoriza a Prefeitura de Porto Velho a custear casamento civil coletivo anual para casais de baixa renda. Cartório já é gratuito por lei.",
+ "instituicao": "Câmara Municipal de Porto Velho",
+ "editora": "Câmara Municipal de Porto Velho",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do projeto e do Código Civil, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos do projeto e do Código Civil, citações literais conferidas nas páginas indicadas. Sem acusação a ninguém. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/porto-velho-projeto-casamento-civil-coletivo-casais-baixa-renda.jpg",
+  "credito": "Juan de Flandes, As Bodas de Caná (c. 1497), The Metropolitan Museum of Art",
+  "alt": "Pintura As Bodas de Caná: Jesus e Maria à mesa de um casamento, com jarros de água em primeiro plano",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DT1459.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/436801"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-14T02:31:10-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-14T02:31:10-03:00"
+}
