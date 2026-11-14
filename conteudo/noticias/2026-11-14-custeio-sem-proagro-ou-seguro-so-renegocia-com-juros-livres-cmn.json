@@ -1,0 +1,197 @@
+{
+ "slug": "custeio-sem-proagro-ou-seguro-so-renegocia-com-juros-livres-cmn",
+ "data": "2026-11-14",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Motivo de alerta",
+ "titulo": "Custeio sem Proagro ou seguro só pode ser renegociado com juros livres, diz norma do CMN",
+ "lide": "Desde 30 de junho, pela Resolução CMN 5.322, o custeio agrícola que não teve cobertura do Proagro ou de seguro rural só pode ser renegociado se o saldo passar para recursos livres, fora das taxas controladas do crédito rural. Outra norma, a 5.315, mudou a comprovação de perdas no Proagro desde 1º de julho.",
+ "por_que_importa": "Na safra 2026/27, quem planta sem Proagro ou seguro corre um risco a mais: se o clima levar a lavoura, a renegociação do custeio sai das taxas controladas. Com o período de chuvas e a inadimplência rural em alta, contratar a cobertura virou parte da conta do crédito.",
+ "numeros": [
+  [
+   "30/06/2026",
+   "é a data em que a regra da renegociação passou a valer, com a publicação da Resolução 5.322",
+   "Resolução CMN 5.322/2026, art. 12"
+  ],
+  [
+   "3 fotos",
+   "coloridas e georreferenciadas, no mínimo, por vistoria de perda no Proagro, uma delas com o agricultor na lavoura",
+   "Resolução CMN 5.315/2026, art. 1º"
+  ],
+  [
+   "1 vistoria",
+   "basta para concluir a comprovação de perda parcial em evento de alta gravidade, cumpridas as condições",
+   "Resolução CMN 5.315/2026, art. 1º"
+  ]
+ ],
+ "corpo": [
+  "O novo item 10-A da Seção 1 do Capítulo 2 do Manual de Crédito Rural diz que as operações de custeio agrícola \"que não tenham sido objeto de cobertura pelo Proagro ou por modalidade de seguro rural apenas poderão ser renegociadas se o saldo for reclassificado para fonte de recursos livres e não controlada\".",
+  "No Proagro, a Resolução 5.315 permite concluir a comprovação de perda parcial com uma única vistoria quando o evento for de alta gravidade, contando como receita a produção estimada nessa visita. E cada vistoria deve ter pelo menos três fotos coloridas com pontos de referência, uma com o agricultor ou seu preposto, feitas com tecnologia que ateste a localização na área enquadrada."
+ ],
+ "no_brasil": "As duas resoluções fazem parte das normas do Plano Safra 2026/27. A MP 1.376, aprovada pelo Senado em 11/11, é outra via: renegocia dívidas de quem perdeu safras pelo clima entre 2019 e 2025, com regras próprias.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.322/2026, art. 2º (MCR 2-1-10-A)",
+   "texto": "As operações de custeio agrícola que não tenham sido objeto de cobertura pelo Proagro ou por modalidade de seguro rural apenas poderão ser renegociadas se o saldo for reclassificado para fonte de recursos livres e não controlada.",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5322"
+  },
+  {
+   "fonte": "Resolução CMN 5.315/2026, art. 1º (MCR 12-4-16)",
+   "texto": "documentar, em cada visita realizada, a situação do empreendimento com pelo menos três fotos coloridas",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5315"
+  }
+ ],
+ "para_quem": [
+  "Produtor que contrata custeio agrícola na safra 2026/27",
+  "Quem tem Proagro e precisa comunicar perda nesta temporada de chuvas",
+  "Quem pensa em dispensar seguro ou Proagro para economizar"
+ ],
+ "nao_e_para": [
+  "Não proíbe renegociar custeio sem cobertura: muda a fonte do dinheiro para recursos livres",
+  "Não vale para crédito de investimento, só para custeio agrícola",
+  "Não substitui a MP 1.376, que tem regras próprias para perdas de 2019 a 2025"
+ ],
+ "veredito": "A regra empurra o produtor para o seguro, o que faz sentido. Mas cobrar cobertura sem garantir seguro acessível em todas as regiões é transferir o risco do clima só para o campo. O governo precisa ampliar a subvenção ao seguro antes de apertar a renegociação.",
+ "versiculo": {
+  "texto": "Reparte com sete e ainda até com oito, porque não sabes que mal haverá sobre a terra",
+  "referencia": "Eclesiastes 11.2",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.322, de 30 de junho de 2026",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5322",
+   "data": "30/06/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.315, de 25 de junho de 2026",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5315",
+   "data": "25/06/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 67,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Normas do CMN que ligam a renegociação do custeio ao Proagro e ao seguro rural e mudam a comprovação de perdas"
+  },
+  "origem": {
+   "nome": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5322"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Regras do Manual de Crédito Rural em vigor desde 30/06 e 1º/07 para todo custeio agrícola do país"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Normas do CMN sobre renegociação, Proagro e seguro, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Normas de junho, com gancho na temporada de chuvas da safra 2026/27 e na inadimplência rural relatada pelo BB em 12/11"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "As duas resoluções lidas na íntegra no site do Banco Central; sem confirmação independente da aplicação pelos bancos"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Não encontramos cobertura do item 10-A na imprensa; a nota liga as duas normas e explica o efeito para o produtor"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 8,
+    "viral": 2,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: duas resoluções do CMN (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Utilidade: o que muda no custeio e no Proagro (2)",
+    "Tema que já mobiliza o público: renegociação e seguro (2)",
+    "Número forte: três fotos georreferenciadas (1)",
+    "Passagem bíblica que um pastor usaria: Eclesiastes 11.2 (2)",
+    "Contraste: renegociar sim, mas com juros livres (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN nº 5.322, de 30 de junho de 2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Proagro e seguro",
+  "coleta": "2026-11-14",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na íntegra das resoluções",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "como cada banco aplica a reclassificação; alíquotas da tabela anexa da 5.315 (anexo não lido)"
+  },
+  "duplicidade": {
+   "grupo": "Normas do Plano Safra 2026/27 sobre Proagro",
+   "itens": [
+    "Res CMN 5.322",
+    "Res CMN 5.315"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-12-prorrogacao-divida-rural-resolucao-cmn-5314-sumula-298-stj"
+  },
+  "seo": {
+   "intencao": "saber se dá para renegociar custeio sem seguro ou Proagro",
+   "entidades": [
+    "Resolução CMN 5.322",
+    "Resolução CMN 5.315",
+    "Proagro",
+    "Manual de Crédito Rural",
+    "Conselho Monetário Nacional"
+   ],
+   "termos": [
+    "renegociação custeio sem seguro",
+    "Proagro fotos georreferenciadas",
+    "recursos livres crédito rural"
+   ],
+   "atualizacao": "acompanhar novas resoluções do CMN sobre Proagro e seguro rural"
+  },
+  "agro": {
+   "demanda": "Produtores com custeio sem cobertura que perderam lavoura enfrentam renegociação em recursos livres; produtores com Proagro precisam cumprir as novas exigências de vistoria e fotos; possíveis disputas sobre a aplicação da regra e a Súmula 298 do STJ",
+   "prazo": "Regras em vigor desde 30/06 e 1º/07/2026; comunicação de perdas segue os prazos do Proagro",
+   "quem": "Produtores com custeio agrícola na safra 2026/27, sobretudo os sem seguro ou Proagro"
+  }
+ },
+ "descricao_seo": "Resolução CMN 5.322: custeio sem Proagro ou seguro só renegocia em recursos livres. Resolução 5.315 exige fotos georreferenciadas nas vistorias.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das resoluções, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regras citadas literalmente das resoluções, sem afirmar como os bancos aplicam. A crítica é à política pública, sem acusar pessoa. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/custeio-sem-proagro-ou-seguro-so-renegocia-com-juros-livres-cmn.jpg",
+  "credito": "Jean-François Millet, Fugindo da tempestade (c. 1846), The Metropolitan Museum of Art",
+  "alt": "Pintura de Millet: camponesa com lenha e uma criança apressam o passo diante da tempestade",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DT1986.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/438616"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-14T02:51:15-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-14T02:51:15-03:00"
+}
