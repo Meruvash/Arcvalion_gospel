@@ -1,0 +1,196 @@
+{
+ "slug": "credito-rural-empresarial-cai-19-norte-rondonia-safra-2026-27",
+ "data": "2026-11-14",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": true,
+ "selo": "Motivo de alerta",
+ "titulo": "Crédito rural empresarial cai 19,5% no início da safra; no Norte, queda chega a 47,9%",
+ "lide": "De julho a outubro, os produtores fora do Pronaf contrataram R$ 149,1 bilhões em crédito rural e CPR, 19,5% menos que no mesmo período da safra passada, segundo boletim do Ministério da Agricultura divulgado em 13 de novembro. No Norte, sem contar a CPR, o valor caiu 47,9%, a maior queda do país; Rondônia responde por 23% da região.",
+ "por_que_importa": "O custeio convencional, que paga semente, adubo e defensivo, encolheu 31,7%, e o número de contratos caiu 30,4%. Quem sustenta o plantio é a CPR, que já responde por quase metade do dinheiro e fica fora das fontes controladas do Plano Safra. No Norte, o crédito rural recuou quase pela metade justamente no plantio da safra de verão.",
+ "numeros": [
+  [
+   "R$ 149,1 bi",
+   "em crédito rural e CPR contratados pela agricultura empresarial de julho a outubro de 2026, ante R$ 185,2 bilhões um ano antes",
+   "Mapa, 4º Boletim de Desempenho da safra 2026/27"
+  ],
+  [
+   "-47,9%",
+   "foi a queda do valor concedido no Norte, para R$ 3,8 bilhões sem a CPR, a maior entre as cinco regiões",
+   "Mapa, 4º Boletim de Desempenho da safra 2026/27, seção 5"
+  ],
+  [
+   "47,8%",
+   "é a fatia da CPR no total concedido, ante 38,1% no mesmo período da safra passada",
+   "Ministério da Agricultura e Pecuária, nota de 13/11/2026"
+  ],
+  [
+   "28,8%",
+   "dos R$ 97,6 bilhões programados em recursos equalizáveis já foram concedidos até outubro",
+   "Mapa, boletim, seção 6; Portaria MF nº 2.922/2026"
+  ]
+ ],
+ "corpo": [
+  "Pelo boletim, a retração se concentrou na industrialização (-47,2%), nos programas de investimento (-39,8%) e no custeio convencional (-31,7%). Todos os programas de investimento recuaram: o Moderfrota, de máquinas, caiu 51,6%, e o Inovagro, 59,6%. A CPR somou R$ 71,2 bilhões, alta de 0,8%, e se tornou o principal instrumento de financiamento do setor.",
+  "No Norte, foram 4.411 contratos, ante 9.129 um ano antes, queda de 51,7%. Tocantins tem 42% do valor concedido na região, o Pará 30% e Rondônia 23%. O Fundo Constitucional de Financiamento do Norte (FNO) aplicou R$ 1,3 bilhão, 44,9% menos. Entre as fontes, a Poupança Rural Livre caiu 85,1%, enquanto a Poupança Rural Controlada cresceu 43,4%."
+ ],
+ "no_brasil": "Os dados são provisórios, extraídos do Sistema de Operações do Crédito Rural e do Proagro (Sicor), do Banco Central, em 5 de novembro, e cobrem só os quatro primeiros meses da safra 2026/27. O Nordeste teve a menor queda em valor (-23,9%). A MP 1.376, das dívidas rurais, aprovada pelo Senado em 11/11, aguarda sanção.",
+ "critica": [
+  {
+   "fonte": "Ministério da Agricultura e Pecuária, 4º Boletim de Desempenho da safra 2026/27",
+   "texto": "Observa-se, neste início de safra, que as fontes controladas estão se sobressaindo em relação às fontes não controladas, o que se constitui, na prática, em maior volume de financiamentos contratados com taxas de juros mais baixas.",
+   "citacao": true,
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027/boletim_credito_rural_empresarialsempronaf_safra20262027_julout2026_4oboletim.pdf"
+  },
+  {
+   "fonte": "Ministério da Agricultura e Pecuária, nota de 13/11/2026, sobre a soma de CPR e custeio (80% do total)",
+   "texto": "comportamento compatível com o início do plantio da safra de verão",
+   "citacao": true,
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027"
+  }
+ ],
+ "para_quem": [
+  "Produtor que ainda vai contratar custeio para a safra de verão: 66% da programação equalizável de custeio segue por contratar, e a safra 2026/27 vai até 30 de junho de 2027",
+  "Produtor do Norte e de Rondônia que planeja investimento: Moderfrota (82%) e Pronamp (72%) ainda têm a maior parte da programação equalizável por contratar até 30 de junho de 2027",
+  "Quem financia o plantio por CPR: o título já é quase metade do crédito e fica fora das fontes controladas, então vale comparar o custo com uma linha do Plano Safra antes de assinar"
+ ],
+ "nao_e_para": [
+  "Os dados são provisórios, extraídos em 5 de novembro, e podem mudar nos próximos boletins",
+  "O boletim não aponta as causas da queda",
+  "Os números do Norte e de Rondônia não incluem a CPR, que o boletim não divide por região"
+ ],
+ "veredito": "Crédito que cai quase pela metade no Norte em pleno plantio é sinal de alerta, não estatística. O Ministério precisa explicar a queda e dizer como vai chegar ao produtor com os 71% do dinheiro equalizável ainda por contratar. Ao produtor, o conselho é pedir a linha controlada ao banco antes de aceitar só a CPR.",
+ "fontes": [
+  {
+   "nome": "Ministério da Agricultura e Pecuária: Crédito rural para a agricultura empresarial soma R$ 149,1 bilhões nos quatro primeiros meses da safra 2026/2027",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Ministério da Agricultura e Pecuária: Boletim de Desempenho, Plano Safra 2026/2027, Crédito Rural, julho a outubro de 2026 (4º boletim, dados do Sicor/Banco Central)",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027/boletim_credito_rural_empresarialsempronaf_safra20262027_julout2026_4oboletim.pdf",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 71,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Balanço oficial do crédito rural da safra 2026/27, com a queda do custeio e do investimento para o produtor"
+  },
+  "origem": {
+   "nome": "Ministério da Agricultura e Pecuária",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Mostra crédito já contratado, e não contratado, no país: 161.379 contratos, ante 231.885 um ano antes, e queda de 47,9% no Norte; é dado, não muda regra"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Crédito rural e Plano Safra, núcleo da aba Chamada Agro, com recorte do Norte e de Rondônia"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Boletim divulgado em 13/11/2026, às 14h17, menos de 48 horas antes da publicação, no plantio da safra de verão"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Nota e boletim oficiais lidos na íntegra, com dados do Sicor do Banco Central; não há confirmação independente, porque a imprensa só repercute o Mapa"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "A nota oficial destaca o total e a CPR; tiramos do boletim a queda do Norte (-47,9%), a fatia de Rondônia, o FNO e a queda do custeio e dos contratos"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: boletim oficial do Mapa com dados do Banco Central (2)",
+    "Atinge milhares: 161 mil contratos de crédito rural (2)",
+    "Proximidade: nacional, com recorte de Rondônia (2)",
+    "Número forte: queda de 47,9% no Norte (1)",
+    "Surpreende: o Norte perdeu quase metade do crédito (1)",
+    "Utilidade: quanto ainda há de linha controlada por contratar (1)",
+    "Calendário: plantio da safra de verão (1)",
+    "Cabe num cartão: crédito rural cai 19,5% e quase metade no Norte (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Crédito rural para a agricultura empresarial soma R$ 149,1 bilhões nos quatro primeiros meses da safra 2026/2027",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Crédito rural e Plano Safra",
+  "coleta": "2026-11-14",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na íntegra da nota e do boletim do Mapa",
+   "contradicoes": "a nota oficial fala em 'variação de 19,5%'; o boletim confirma que é queda (cifra 19,5% inferior)",
+   "sem_confirmacao": "causas da queda; valor exato de Rondônia (o boletim dá só a fatia de 23% do Norte, sem CPR)"
+  },
+  "duplicidade": {
+   "grupo": "Boletins mensais de crédito rural da safra 2026/27",
+   "itens": [
+    "4º boletim (jul-out/2026)"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-13-banco-do-brasil-acusa-produtores-recusa-renegociar-aprosoja-rebate"
+  },
+  "seo": {
+   "intencao": "saber quanto crédito rural foi liberado na safra 2026/27 e por que caiu",
+   "entidades": [
+    "Ministério da Agricultura e Pecuária",
+    "Plano Safra 2026/2027",
+    "Cédula de Produto Rural",
+    "FNO",
+    "Sicor"
+   ],
+   "termos": [
+    "crédito rural safra 2026/27",
+    "queda crédito rural Norte",
+    "crédito rural Rondônia"
+   ],
+   "atualizacao": "atualizar com o 5º boletim (julho a novembro de 2026)"
+  },
+  "agro": {
+   "demanda": "Produtores do Norte e de Rondônia com dificuldade de contratar custeio e investimento em linha controlada, empurrados para a CPR, e dúvidas sobre o acesso aos recursos equalizáveis ainda disponíveis",
+   "prazo": "Safra 2026/27 até 30/06/2027; plantio da safra de verão em curso",
+   "quem": "Produtores fora do Pronaf (Pronamp e demais), sobretudo no Norte"
+  }
+ },
+ "descricao_seo": "Boletim do Mapa de 13/11: crédito rural da agricultura empresarial soma R$ 149,1 bi de julho a outubro, queda de 19,5%; no Norte, -47,9%.",
+ "instituicao": "Ministério da Agricultura e Pecuária",
+ "editora": "Ministério da Agricultura e Pecuária",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da nota e do boletim, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: todos os números são do boletim e da nota oficiais, sem atribuir causa à queda nem intenção a ninguém. A crítica é à política pública (cobrança de explicação ao Ministério), sem acusar pessoa. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/credito-rural-empresarial-cai-19-norte-rondonia-safra-2026-27.jpg",
+  "credito": "Camille Pissarro, A colheita, Pontoise (1881), The Metropolitan Museum of Art",
+  "alt": "Pintura de Pissarro: três camponeses colhem e ensacam a safra numa encosta verde, com ciprestes ao fundo",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/rl/original/DP-34499-001.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/459108"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-14T14:50:49-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-14T14:50:49-03:00"
+}
