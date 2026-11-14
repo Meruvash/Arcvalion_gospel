@@ -28,7 +28,8 @@
  ],
  "corpo": [
   "A liminar foi dada nas ADIs 8041 e 8042, da Confederação Nacional do Comércio (CNC) e da Confederação Nacional da Indústria (CNI), contra a Emenda Constitucional 141/2026. Segundo o STF, Dino não viu violação de cláusula pétrea, mas apontou \"contradições e lacunas\" e fixou ajustes: 90 dias para renegociar acordos coletivos, liberdade para distribuir as folgas por negociação e prazo de 180 dias para o Congresso regulamentar regimes diferenciados e regras para micro e pequenas empresas.",
-  "O referendo está no plenário virtual, em sessão extraordinária que vai até as 23h59 de segunda-feira (16), informou o STF. Dino votou para manter a própria decisão e Alexandre de Moraes o acompanhou, segundo O Antagonista. A Câmara defende o calendário da emenda, mas contesta a jornada de 8h24 sem acordo coletivo, o fim dos limites semanal e mensal das folgas, o prazo dado ao Congresso e a extensão de uma exceção a empregados de estatais."
+  "O referendo está no plenário virtual, em sessão extraordinária que vai até as 23h59 de segunda-feira (16), informou o STF. Dino votou para manter a própria decisão e Alexandre de Moraes o acompanhou, segundo O Antagonista. A Câmara defende o calendário da emenda, mas contesta a jornada de 8h24 sem acordo coletivo, o fim dos limites semanal e mensal das folgas, o prazo dado ao Congresso e a extensão de uma exceção a empregados de estatais.",
+  "Atualização (14/11): até a sexta-feira (13), o referendo tinha quatro votos para manter a liminar: Flávio Dino, Alexandre de Moraes, Cármen Lúcia e Gilmar Mendes, segundo O Observador e News Rondônia. O julgamento virtual termina na segunda-feira (16)."
  ],
  "no_brasil": "A emenda foi aprovada no Senado em 14 de outubro e promulgada em 16 de outubro. Ela garante dois dias de repouso remunerado por semana, preferencialmente aos domingos, sem redução de salário, e baixa a jornada para 40 horas em dezembro de 2027, segundo a Agência Senado.",
  "critica": [
@@ -83,6 +84,18 @@
   {
    "nome": "O Antagonista: Câmara pede para STF derrubar parte de decisão de Dino sobre 6x1 (13/11/2026)",
    "url": "https://oantagonista.com.br/brasil/camara-pede-para-stf-derrubar-parte-de-decisao-de-dino-sobre-6x1/",
+   "data": "13/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "O Observador: STF tem 4 votos para manter início da escala 5x2 em dezembro (13/11/2026)",
+   "url": "https://www.oobservador.com/2026/11/stf-tem-4-votos-para-manter-inicio-da.html",
+   "data": "13/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "News Rondônia: STF soma quatro votos para confirmar regras de transição da escala de trabalho 5x2 (14/11/2026)",
+   "url": "https://newsrondonia.com.br/politica/2026/11/14/stf-soma-quatro-votos-para-confirmar-regras-de-transicao-da-escala-de-trabalho-5x2/",
    "data": "13/11/2026",
    "tipo": "secundaria"
   }
@@ -204,8 +217,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-13T14:52:27-03:00",
+  "data": "2026-11-14T14:46:19-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-13T14:52:27-03:00"
+ "publicado_em": "2026-11-13T14:52:27-03:00",
+ "atualizado_em": "2026-11-14T14:46:19-03:00"
 }
