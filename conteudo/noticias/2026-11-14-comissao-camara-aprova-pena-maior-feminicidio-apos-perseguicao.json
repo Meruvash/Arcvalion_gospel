@@ -1,0 +1,191 @@
+{
+ "slug": "comissao-camara-aprova-pena-maior-feminicidio-apos-perseguicao",
+ "data": "2026-11-14",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Comissão da Câmara aprova pena maior para feminicídio cometido depois de perseguição à vítima",
+ "lide": "A Comissão de Defesa dos Direitos da Mulher da Câmara aprovou na quarta-feira (11) o PL 1181/2026, que aumenta de um terço até a metade a pena do feminicídio praticado após perseguição reiterada da vítima, inclusive por meios digitais. A pena atual é de 20 a 40 anos de reclusão.",
+ "por_que_importa": "Muitos feminicídios são o fim de meses de perseguição, vigilância e ameaça. Hoje, diz a relatora, essa perseguição costuma ser absorvida pelo crime maior e some na pena. O projeto faz o histórico de terror contar na condenação.",
+ "numeros": [
+  [
+   "1/3 a 1/2",
+   "é o aumento da pena previsto quando houver perseguição reiterada antes do crime",
+   "PL 1181/2026, parecer da relatora"
+  ],
+  [
+   "20 a 40 anos",
+   "de reclusão é a pena atual do feminicídio",
+   "Agência Câmara, 13/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O texto cria uma causa de aumento no § 2º do art. 121-A do Código Penal para o crime cometido em contexto de vigilância, monitoramento, controle ou intimidação, por qualquer meio. A relatora, deputada Nely Aquino (Pode-MG), aprovou o projeto de Rodrigo Gambale (Pode-SP) com uma emenda que troca a expressão \"de gênero\" por \"contra a mulher\", por \"maior precisão terminológica\".",
+  "Discutiram a matéria as deputadas Chris Tonietto (PL-RJ), Priscila Costa (PL-CE), Carla Dickson (PL-RN) e Clarissa Tércio (PP-PE), segundo a tramitação na Câmara."
+ ],
+ "no_brasil": "O projeto ainda passa pela Comissão de Constituição e Justiça e pelo Plenário da Câmara e, depois, pelo Senado, informou a Agência Câmara. Não vale ainda: a pena só muda se virar lei.",
+ "critica": [
+  {
+   "fonte": "Deputada Nely Aquino (Pode-MG), relatora, segundo a Agência Câmara",
+   "texto": "Embora a vítima tenha sido submetida a um período de terror e intimidação, tal circunstância é frequentemente tratada apenas como um elemento genérico, sem reflexo direto na definição da pena.",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1319262-comissao-aprova-aumento-de-pena-para-feminicidio-antecedido-por-perseguicao"
+  },
+  {
+   "fonte": "Parecer da relatora, sobre a emenda",
+   "texto": "por conferir maior precisão terminológica, sem prejuízo da proteção integral assegurada às mulheres em situação de violência",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191023"
+  }
+ ],
+ "para_quem": [
+  "Mulheres que sofrem perseguição, vigilância ou ameaça de ex-companheiro ou conhecido",
+  "Famílias de vítimas de feminicídio que acompanham a lei penal",
+  "Igrejas e grupos de apoio que acolhem mulheres em situação de violência"
+ ],
+ "nao_e_para": [
+  "Não é lei: faltam a CCJ, o Plenário da Câmara e o Senado",
+  "Não muda processos em andamento: lei penal mais dura não retroage",
+  "Não substitui a medida protetiva: quem é perseguida deve denunciar já"
+ ],
+ "veredito": "Proposta justa: quem passa meses aterrorizando uma mulher antes de matá-la merece pena maior. E a troca de \"gênero\" por \"mulher\" acerta: lei penal precisa de palavra clara. Que a CCJ e o Plenário andem logo.",
+ "versiculo": {
+  "texto": "Abre a tua boca a favor do mudo, pelo direito de todos os que se acham em desolação",
+  "referencia": "Provérbios 31.8",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados: parecer da relatora ao PL 1181/2026 (CMULHER)",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191023",
+   "data": "06/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: tramitação do PL 1181/2026",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2609056/tramitacoes",
+   "data": "11/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Comissão aprova aumento de pena para feminicídio antecedido por perseguição (13/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1319262-comissao-aprova-aumento-de-pena-para-feminicidio-antecedido-por-perseguicao",
+   "data": "13/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 56,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "vida",
+   "porque": "Proteção da vida da mulher contra o feminicídio precedido de perseguição"
+  },
+  "origem": {
+   "nome": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1319262-comissao-aprova-aumento-de-pena-para-feminicidio-antecedido-por-perseguicao"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "PL 1181/2026 aprovado na primeira comissão em 11/11; ainda passa pela CCJ, pelo Plenário e pelo Senado"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Defesa da vida e da família, com deputadas da direita no debate e a troca de \"gênero\" por \"mulher\" no texto"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Aprovação em 11/11, noticiada pela Câmara em 13/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Parecer e tramitação lidos nas bases da Câmara"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Mostra a troca de \"de gênero\" por \"contra a mulher\" e quem debateu, lidos no parecer e na tramitação"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 6,
+    "viral": 4,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: parecer da relatora (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Nely Aquino (1)",
+    "Tema que já mobiliza o público: feminicídio (2)",
+    "Número forte: pena até metade maior (1)",
+    "Utilidade: o que muda e o que não muda (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 31.8 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Comissão aprova aumento de pena para feminicídio antecedido por perseguição",
+  "nucleo": "A - Brasil",
+  "categoria": "Vida / violência contra a mulher",
+  "coleta": "2026-11-14",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido no parecer e na tramitação",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "posição de cada deputada no debate (a tramitação só lista quem discutiu)"
+  },
+  "duplicidade": {
+   "grupo": "PL 1181/2026",
+   "itens": [
+    "Agência Câmara 13/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se a pena do feminicídio vai aumentar",
+   "entidades": [
+    "PL 1181/2026",
+    "Nely Aquino",
+    "Rodrigo Gambale",
+    "Comissão de Defesa dos Direitos da Mulher",
+    "Código Penal"
+   ],
+   "termos": [
+    "feminicídio perseguição pena",
+    "aumento de pena feminicídio",
+    "stalking feminicídio projeto"
+   ],
+   "atualizacao": "acompanhar a CCJ"
+  }
+ },
+ "descricao_seo": "Comissão da Câmara aprovou o PL 1181/2026: pena do feminicídio sobe de 1/3 até a metade se houver perseguição reiterada antes do crime.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do parecer e da tramitação, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos do parecer e da tramitação, citações literais conferidas; não se atribui posição a deputadas além de terem discutido a matéria. Sem acusação a pessoa. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/comissao-camara-aprova-pena-maior-feminicidio-apos-perseguicao.jpg",
+  "credito": "Foto: Vinicius Loures/Câmara dos Deputados",
+  "alt": "Deputada Nely Aquino fala ao microfone em comissão da Câmara",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/11/img20250916170153620.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1319262-comissao-aprova-aumento-de-pena-para-feminicidio-antecedido-por-perseguicao"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-14T02:35:43-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-14T02:35:43-03:00"
+}
