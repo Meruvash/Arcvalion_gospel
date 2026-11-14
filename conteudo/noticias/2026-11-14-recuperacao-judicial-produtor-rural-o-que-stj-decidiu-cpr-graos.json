@@ -1,0 +1,200 @@
+{
+ "slug": "recuperacao-judicial-produtor-rural-o-que-stj-decidiu-cpr-graos",
+ "data": "2026-11-14",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Informativo",
+ "titulo": "Recuperação judicial do produtor rural: três decisões do STJ que pesam na hora da crise",
+ "lide": "Com a dívida rural em alta, a recuperação judicial volta à conversa no campo. O STJ já decidiu que o produtor com mais de dois anos de atividade empresarial pode pedir a recuperação se estiver na Junta Comercial, que a CPR física e a de troca por insumos ficam fora dela e que soja e milho não são bens de capital protegidos.",
+ "por_que_importa": "Recuperação judicial não é renegociação: muda a relação com todos os credores e tem regras próprias. Saber de antemão o que entra e o que fica fora evita surpresa, sobretudo para quem financiou a lavoura com CPR ou troca de insumos.",
+ "numeros": [
+  [
+   "2 anos",
+   "de atividade rural empresarial são exigidos para pedir recuperação, sem tempo mínimo de registro na Junta",
+   "STJ, Tema 1.145, 29/06/2022"
+  ],
+  [
+   "180 dias",
+   "é o prazo de suspensão em que bens de capital essenciais não podem ser retirados do devedor",
+   "STJ, 30/06/2022"
+  ]
+ ],
+ "corpo": [
+  "No Tema 1.145, repetitivo que orienta juízes de todo o país, a Segunda Seção fixou que o produtor que exerce a atividade de forma empresarial há mais de dois anos pode pedir a recuperação \"desde que esteja inscrito na Junta Comercial no momento em que formalizar o pedido, independentemente do tempo de registro\". Em 2025, a Terceira Turma decidiu que o crédito de CPR ligada a operação de troca (barter) não entra na recuperação, mesmo quando a cobrança vira dinheiro porque os grãos não foram entregues.",
+  "Em 2022, a mesma turma decidiu que soja e milho são produto final, e não bens de capital: por isso podem ser entregues ao credor durante a suspensão de 180 dias. Para a ministra Nancy Andrighi, bens de capital são o aparato da produção, como silos, colheitadeiras e tratores."
+ ],
+ "no_brasil": "A Lei 14.112/2020 abriu ao produtor rural um plano especial de reestruturação (art. 70-A da Lei de Recuperação e Falência) e excluiu da recuperação os créditos de CPR física e de barter, salvo caso fortuito ou força maior, segundo o STJ.",
+ "critica": [
+  {
+   "fonte": "Ministro Luis Felipe Salomão, relator do Tema 1.145, segundo o STJ",
+   "texto": "acarreta sua sujeição ao regime empresarial, descortinando-se, então, uma série de benefícios e ônus de titularidade apenas daqueles que se registram na forma preconizada no artigo 968 do Código Civil de 2002",
+   "citacao": true,
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/29062022-Segunda-Secao-confirma-possibilidade-de-produtor-rural-inscrito-em-Junta-Comercial-pedir-recuperacao-.aspx"
+  },
+  {
+   "fonte": "Ministra Nancy Andrighi, relatora, segundo o STJ",
+   "texto": "não há razão apta a sustentar a hipótese de que os grãos cultivados e comercializados (soja e milho) constituam bens de capital, pois, a toda evidência, não se trata de bens utilizados no processo produtivo, mas, sim, do produto final da atividade empresarial por eles desempenhada",
+   "citacao": true,
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/30062022-Na-recuperacao-judicial--produtos-agricolas-nao-podem-ser-enquadrados-como-bens-de-capital-essenciais-.aspx"
+  }
+ ],
+ "para_quem": [
+  "Produtor com dívidas em vários credores que estuda a recuperação judicial",
+  "Quem financiou a safra com CPR física ou troca de insumos por grãos",
+  "Produtor ainda não inscrito na Junta Comercial que quer conhecer as exigências"
+ ],
+ "nao_e_para": [
+  "Não é a renegociação da MP 1.376, que é feita direto com o banco",
+  "Não tira da recuperação as CPRs físicas e de barter, que ficam fora por lei",
+  "Não protege a safra colhida como bem essencial durante a suspensão"
+ ],
+ "veredito": "O retrato do STJ é claro: a recuperação judicial pode dar fôlego, mas não apaga tudo. Antes de qualquer passo, o produtor precisa separar CPR, crédito bancário e garantias e saber que a colheita não fica blindada.",
+ "versiculo": {
+  "texto": "Ao fim dos sete anos, farás remissão",
+  "referencia": "Deuteronômio 15.1",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STJ: Segunda Seção confirma possibilidade de produtor rural inscrito em Junta Comercial pedir recuperação (29/06/2022)",
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/29062022-Segunda-Secao-confirma-possibilidade-de-produtor-rural-inscrito-em-Junta-Comercial-pedir-recuperacao-.aspx",
+   "data": "29/06/2022",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: Crédito representado por CPR vinculada a operação Barter não se submete aos efeitos da recuperação (07/10/2025)",
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/07102025-Credito-representado-por-CPR-vinculada-a-operacao-Barter-nao-se-submete-aos-efeitos-da-recuperacao.aspx",
+   "data": "07/10/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: Na recuperação judicial, produtos agrícolas não podem ser enquadrados como bens de capital essenciais (30/06/2022)",
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/30062022-Na-recuperacao-judicial--produtos-agricolas-nao-podem-ser-enquadrados-como-bens-de-capital-essenciais-.aspx",
+   "data": "30/06/2022",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Recuperação judicial do produtor rural endividado e decisões do STJ sobre CPR e safra"
+  },
+  "origem": {
+   "nome": "STJ",
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/29062022-Segunda-Secao-confirma-possibilidade-de-produtor-rural-inscrito-em-Junta-Comercial-pedir-recuperacao-.aspx"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Tese repetitiva do Tema 1.145 vincula juízes de todo o país; as outras duas decisões orientam casos de CPR e de grãos em recuperação"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Decisões da Justiça sobre o produtor e dívida rural, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Decisões de 2022 e 2025, com gancho na alta da inadimplência no agro relatada pelo Banco do Brasil em 12/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Três notícias oficiais do STJ lidas, com relatores e fundamentos"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Junta três decisões separadas num guia do que entra e do que fica fora da recuperação do produtor"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: notícias oficiais do STJ (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Utilidade: o que entra e o que fica fora (2)",
+    "Tema que já mobiliza o público: dívida rural (2)",
+    "Número forte: dois anos de atividade (1)",
+    "Contraste: recuperação ajuda, mas não blinda a safra (1)",
+    "Passagem bíblica que um pastor usaria: Deuteronômio 15.1 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Segunda Seção confirma possibilidade de produtor rural inscrito em Junta Comercial pedir recuperação",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / recuperação judicial",
+  "coleta": "2026-11-14",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido nas notícias oficiais do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "íntegra dos acórdãos (página de processos do STJ não abriu para leitura automática); texto vigente da Lei 14.112/2020 (Planalto inacessível nesta edição), descrito pelo STJ"
+  },
+  "duplicidade": {
+   "grupo": "Recuperação judicial do produtor rural",
+   "itens": [
+    "STJ 29/06/2022",
+    "STJ 30/06/2022",
+    "STJ 07/10/2025"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se o produtor rural pode pedir recuperação judicial e o que fica fora",
+   "entidades": [
+    "STJ",
+    "Tema 1.145",
+    "CPR",
+    "Barter",
+    "Lei 14.112/2020",
+    "Nancy Andrighi",
+    "Luis Felipe Salomão"
+   ],
+   "termos": [
+    "recuperação judicial produtor rural",
+    "CPR barter recuperação judicial",
+    "Tema 1145 STJ"
+   ],
+   "atualizacao": "acompanhar novas decisões do STJ sobre recuperação do produtor"
+  },
+  "agro": {
+   "demanda": "Produtores endividados avaliando recuperação judicial ou plano especial; credores de CPR física e barter cobrando fora da recuperação; disputas sobre retirada de grãos durante a suspensão",
+   "prazo": "Na recuperação, suspensão de 180 dias; pedido exige dois anos de atividade empresarial e inscrição na Junta no momento do pedido",
+   "quem": "Produtores rurais com dívidas em vários credores, tradings e fornecedores de insumos com CPR"
+  }
+ },
+ "descricao_seo": "STJ: produtor com 2 anos de atividade pode pedir recuperação se inscrito na Junta; CPR física e barter ficam fora; grãos não são bens de capital.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das notícias oficiais do STJ, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: decisões descritas pelas notícias oficiais do STJ, citações literais conferidas, sem recomendação de caminho jurídico a ninguém. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/recuperacao-judicial-produtor-rural-o-que-stj-decidiu-cpr-graos.jpg",
+  "credito": "Vincent van Gogh, Campo de trigo com ciprestes (1889), The Metropolitan Museum of Art",
+  "alt": "Pintura de Van Gogh: campo de trigo dourado com ciprestes e céu de nuvens",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/436535"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-14T02:41:26-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-14T02:41:26-03:00"
+}
