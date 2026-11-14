@@ -1,0 +1,225 @@
+{
+ "slug": "projetos-alivio-divida-rural-parados-congresso-securitizacao-suspensao",
+ "data": "2026-11-14",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Motivo de alerta",
+ "titulo": "Além da MP: três projetos de alívio da dívida rural estão parados no Congresso",
+ "lide": "Enquanto a MP 1.376 vai à sanção, três propostas maiores de socorro ao produtor seguem paradas: a securitização de até R$ 60 bilhões em dívidas (PL 320/2025), pronta para a pauta da CAE do Senado desde maio, e dois projetos na Câmara que aguardam relator na fase seguinte.",
+ "por_que_importa": "A MP resolve parte do problema, com limite e prazo. Para quem perdeu safras seguidas, as propostas mais amplas estão nesses projetos, e nenhum andou desde o primeiro semestre. Saber onde cada um está ajuda o produtor e suas entidades a cobrar.",
+ "numeros": [
+  [
+   "R$ 60 bilhões",
+   "em títulos do Tesouro para securitizar dívidas rurais, pelo PL 320/2025",
+   "Agência Senado, 20/05/2025"
+  ],
+  [
+   "36 meses",
+   "de suspensão de parcelas para produtores de estados com estiagem ou chuva extrema, pelo PL 2062/2024",
+   "Agência Câmara, 12/05/2026"
+  ],
+  [
+   "20 anos",
+   "de prazo, com dois de carência e juros de 1% a 3% ao ano, na securitização proposta",
+   "Agência Senado, 20/05/2025"
+  ]
+ ],
+ "corpo": [
+  "O PL 320/2025, de Luiz Carlos Heinze (PP-RS), passou na Comissão de Agricultura do Senado em maio de 2025. Na CAE, o relator Irajá apresentou parecer favorável em 21 de maio de 2026, com oito emendas, e desde então a matéria está \"pronta para a pauta na comissão\", segundo os dados abertos do Senado.",
+  "Na Câmara, o PL 2062/2024, de Leo Prates (Republicanos-BA), que suspende por 36 meses parcelas de Pronaf, Pronamp e outras linhas, passou na Comissão de Agricultura e aguarda relator na de Finanças. O PL 5029/2025, do mesmo autor, cria o Programa de Amparo ao Produtor Rural, com crédito emergencial a até 2% ao ano, e também aguarda relator desde junho."
+ ],
+ "no_brasil": "A MP 1.376, aprovada pelo Senado em 11/11, renegocia dívidas de quem perdeu safras pelo clima entre 2019 e 2025, com limites por produtor. Os três projetos iriam além, com prazos mais longos, juros menores ou suspensão de cobrança.",
+ "critica": [
+  {
+   "fonte": "Deputado Coronel Meira (PL-PE), relator do PL 2062/2024, segundo a Agência Câmara",
+   "texto": "É um instrumento transitório, direcionado e proporcional à gravidade da situação enfrentada",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1271166-comissao-aprova-suspensao-de-dividas-rurais-por-36"
+  },
+  {
+   "fonte": "Deputado Leo Prates (Republicanos-BA), autor do PL 5029/2025, segundo a Agência Câmara",
+   "texto": "Para o autor, os mecanismos atuais são muitas vezes insuficientes, lentos ou burocráticos demais para socorrer com agilidade quem sofre um desastre climático.",
+   "citacao": false,
+   "url": "https://www.camara.leg.br/noticias/1278893-projeto-cria-programa-de-amparo-a-produtor-rural-afetado-por-desastre-climatico"
+  }
+ ],
+ "para_quem": [
+  "Produtores que perderam safras seguidas pelo clima desde 2021",
+  "Entidades do campo que acompanham a pauta do Congresso",
+  "Quem ficou de fora dos limites da MP 1.376"
+ ],
+ "nao_e_para": [
+  "Nenhum dos três é lei; não há como pedir esses benefícios hoje",
+  "A securitização ainda depende da CAE e da Câmara",
+  "Projeto parado não garante aprovação nem as condições descritas"
+ ],
+ "veredito": "Socorro que não anda vira promessa. A securitização está pronta para votar desde maio e não entra na pauta. Se o Congresso que se diz amigo do campo quer ajudar, que vote: sim ou não, mas que o produtor saiba com o que pode contar.",
+ "versiculo": {
+  "texto": "A esperança demorada enfraquece o coração, mas o desejo chegado é árvore de vida",
+  "referencia": "Provérbios 13.12",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Senado Federal, Dados Abertos: tramitação do PL 320/2025",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/8789006",
+   "data": "21/05/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Securitização de dívida rural após desastres climáticos é aprovada na CRA (20/05/2025)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2025/05/20/securitizacao-de-divida-rural-apos-desastres-climaticos-e-aprovada-na-cra",
+   "data": "20/05/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: PL 2062/2024",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2436542",
+   "data": "06/05/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: PL 5029/2025",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2569135",
+   "data": "01/06/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Comissão aprova suspensão de dívidas rurais por 36 meses devido ao El Niño (12/05/2026)",
+   "url": "https://www.camara.leg.br/noticias/1271166-comissao-aprova-suspensao-de-dividas-rurais-por-36",
+   "data": "12/05/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Projeto cria programa de amparo a produtor rural afetado por desastre climático (03/05/2026)",
+   "url": "https://www.camara.leg.br/noticias/1278893-projeto-cria-programa-de-amparo-a-produtor-rural-afetado-por-desastre-climatico",
+   "data": "03/05/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 51,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Projetos de renegociação, securitização e suspensão de dívida rural sem votação no Congresso"
+  },
+  "origem": {
+   "nome": "Senado Federal, Dados Abertos",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/8789006"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Três projetos ainda em comissão, sem efeito até serem aprovados"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Dívida rural e renegociação, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Últimos movimentos em maio e junho de 2026, com gancho na MP 1.376 aprovada em 11/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Tramitação dos três projetos lida nos dados abertos do Senado e da Câmara; conteúdo pelas agências oficiais"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Levantamento próprio da situação de cada projeto, que nenhuma das fontes reúne"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: dados abertos do Senado e da Câmara (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Número forte: R$ 60 bilhões (1)",
+    "Tema que já mobiliza o público: dívida rural (2)",
+    "Contraste: pronto para votar e parado (2)",
+    "Utilidade: onde cada projeto está (1)",
+    "Passagem bíblica que um pastor usaria: Provérbios 13.12 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Securitização de dívida rural após desastres climáticos é aprovada na CRA",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / dívida rural",
+  "coleta": "2026-11-14",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "situação conferida nos dados abertos em 14/11",
+   "contradicoes": "A data de status do PL 2062/2024 nos dados abertos (06/05) é anterior à da notícia da aprovação na comissão (12/05); a nota não cita a data da aprovação.",
+   "sem_confirmacao": "teor das oito emendas do relator na CAE"
+  },
+  "duplicidade": {
+   "grupo": "Projetos de dívida rural em tramitação",
+   "itens": [
+    "PL 320/2025",
+    "PL 2062/2024",
+    "PL 5029/2025"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-12-senado-aprova-mp-renegociacao-dividas-rurais-vai-sancao"
+  },
+  "seo": {
+   "intencao": "saber se vai haver securitização ou suspensão de dívidas rurais",
+   "entidades": [
+    "PL 320/2025",
+    "PL 2062/2024",
+    "PL 5029/2025",
+    "Luiz Carlos Heinze",
+    "Irajá",
+    "Leo Prates",
+    "CAE"
+   ],
+   "termos": [
+    "securitização dívida rural",
+    "suspensão dívida rural 36 meses",
+    "Programa de Amparo ao Produtor Rural"
+   ],
+   "atualizacao": "acompanhar a pauta da CAE e a designação de relatores na Câmara"
+  },
+  "agro": {
+   "demanda": "Produtores com perdas seguidas e fora dos limites da MP 1.376 acompanham alternativas legislativas; entidades podem pedir pauta",
+   "prazo": "Sem prazo: projetos parados nas comissões",
+   "quem": "Produtores, cooperativas e agroindústrias com dívidas de custeio e investimento após eventos climáticos"
+  }
+ },
+ "descricao_seo": "PL 320/2025, de securitização de até R$ 60 bi em dívidas rurais, está pronto na CAE desde maio; dois projetos na Câmara aguardam relator.",
+ "instituicao": "Congresso Nacional",
+ "editora": "Congresso Nacional",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura dos dados abertos e das agências oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: situação de cada projeto conferida nos dados abertos, conteúdo pelas agências oficiais, citações literais conferidas. A crítica é à demora do Congresso, sem acusar parlamentar. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/projetos-alivio-divida-rural-parados-congresso-securitizacao-suspensao.jpg",
+  "credito": "Foto: Jefferson Rudy/Agência Senado",
+  "alt": "Senador Hamilton Mourão lê relatório na Comissão de Agricultura do Senado, ao lado de outros senadores",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2025/05/20/securitizacao-de-divida-rural-apos-desastres-climaticos-e-aprovada-na-cra/foto-cra-20maio25.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2025/05/20/securitizacao-de-divida-rural-apos-desastres-climaticos-e-aprovada-na-cra"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-14T02:44:22-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-14T02:44:22-03:00"
+}

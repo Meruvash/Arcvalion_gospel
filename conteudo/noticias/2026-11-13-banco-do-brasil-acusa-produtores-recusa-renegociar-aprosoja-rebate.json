@@ -30,7 +30,7 @@
   "Segundo a Agência Brasil, a direção do banco disse que os atrasos se concentram em médios e grandes produtores de soja, milho e pecuária do Centro-Oeste e que o BB intensificou a cobrança e ampliou as exigências de garantias. A presidente afirmou que \"mesmo com colheitas recordes, parte dos grandes e médios produtores optaram por não pagar, nem renegociar, e se recusaram a apresentar garantias\".",
   "Em nota, a Aprosoja Brasil disse que \"produtor rural não é caloteiro\", segundo o g1. Depois das críticas, o BB divulgou comunicado negando ter culpado todo o setor. Em texto publicado pela CNA, a FAEP já registrava queixas de produtores sobre bancos que exigiam novas garantias e cobravam taxas inviáveis na renegociação."
  ],
- "no_brasil": "O Senado aprovou em 11/11 a MP 1.376, que amplia a renegociação das dívidas rurais e segue para sanção, como o portal noticiou. Para o senador Luis Carlos Heinze (PP-RS), não é possível generalizar o comportamento dos produtores, segundo a Gazeta do Povo.",
+ "no_brasil": "O Senado aprovou em 11/11 a MP 1.376, que amplia a renegociação das dívidas rurais e segue para sanção, como o portal noticiou. Para o senador Luiz Carlos Heinze (PP-RS), não é possível generalizar o comportamento dos produtores, segundo a Gazeta do Povo.",
  "critica": [
   {
    "fonte": "Tarciana Medeiros, presidente do Banco do Brasil, segundo a Agência Brasil",
@@ -171,7 +171,7 @@
     "Tarciana Medeiros",
     "Aprosoja Brasil",
     "MP 1.376/2026",
-    "Luis Carlos Heinze"
+    "Luiz Carlos Heinze"
    ],
    "termos": [
     "Banco do Brasil produtores inadimplentes",
@@ -206,7 +206,7 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-13T14:57:48-03:00",
+  "data": "2026-11-14T02:44:22-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-13T02:37:14-03:00",
@@ -214,7 +214,11 @@
   {
    "data": "2026-11-13",
    "texto": "Data da fonte da CNA/FAEP corrigida para 04/11/2026"
+  },
+  {
+   "data": "2026-11-14",
+   "texto": "Grafia do nome do senador corrigida para Luiz Carlos Heinze"
   }
  ],
- "atualizado_em": "2026-11-13T14:57:48-03:00"
+ "atualizado_em": "2026-11-14T02:44:22-03:00"
 }
