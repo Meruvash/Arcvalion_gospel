@@ -1,0 +1,200 @@
+{
+ "slug": "funrural-stf-inconstitucional-antes-2018-produtor-o-que-muda",
+ "data": "2026-11-14",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "STF julgou inconstitucional o Funrural antes de 2018; efeitos para o produtor ainda dependem de recurso",
+ "lide": "O STF decidiu em 15 de outubro, na ADI 4395, que a contribuição do produtor rural pessoa física ao Funrural e a cobrança feita pelas empresas compradoras em nome dele (sub-rogação) foram inconstitucionais antes de 1º de janeiro de 2018. Mas o tribunal ainda não disse o que acontece com o que já foi pago.",
+ "por_que_importa": "Por anos, o produtor teve o Funrural descontado na venda da produção. Agora o STF disse que essa cobrança não tinha base válida até 2018. Quem vendeu produção nesse período precisa acompanhar o julgamento dos efeitos, que decide se haverá devolução e para quem.",
+ "numeros": [
+  [
+   "1º/1/2018",
+   "é a data de corte: antes dela, contribuição e sub-rogação foram julgadas inconstitucionais",
+   "STF, 15/10/2026"
+  ],
+  [
+   "1,2%",
+   "da receita bruta da comercialização é a alíquota do produtor pessoa física fixada pela Lei 13.606/2018",
+   "STF, 15/10/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo o STF, a maioria acompanhou o \"voto médio\" do ministro Dias Toffoli, que vai redigir o acórdão. Para ele, a sub-rogação violou a legalidade tributária, porque a Lei 10.256/2001 não definiu todos os elementos da cobrança. A partir da Lei 13.606/2018, a contribuição sobre a receita bruta e a sub-rogação passaram a ser constitucionais.",
+  "O tribunal não analisou os limites dos efeitos da decisão. O STF informou que a questão deve ser tratada em embargos de declaração e que, até lá, as consequências para cobranças anteriores, parcelamentos e processos \"dependerão do resultado dos embargos e das particularidades de cada caso\"."
+ ],
+ "no_brasil": "Em janeiro de 2025, o ministro Gilmar Mendes suspendeu todos os processos no país sobre a sub-rogação até o fim do julgamento da ADI 4395, decisão referendada pelo Plenário em fevereiro de 2025, segundo o STF. A suspensão não alcançou casos com decisão definitiva.",
+ "critica": [
+  {
+   "fonte": "STF, na notícia oficial sobre o julgamento",
+   "texto": "Até que o STF defina essa questão, as consequências para cobranças anteriores, parcelamentos e processos judiciais dependerão do resultado dos embargos e das particularidades de cada caso.",
+   "citacao": true,
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-considera-inconstitucional-cobranca-do-funrural-a-empresas-que-compram-producao-rural/"
+  },
+  {
+   "fonte": "Ministro Gilmar Mendes, relator, na decisão de 2025, segundo o STF",
+   "texto": "Vê-se, assim, que várias reclamações têm sido ajuizadas nesta Corte com o objetivo de sobrestar os processos que tratam desse assunto na origem e, diante do resultado positivo, a tendência é que esse número aumente",
+   "citacao": true,
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-suspende-processos-que-discutem-recolhimento-de-contribuicao-social-de-empregador-rural/"
+  }
+ ],
+ "para_quem": [
+  "Produtor rural pessoa física que vendeu produção antes de 2018 com desconto de Funrural",
+  "Quem aderiu ao parcelamento do PRR para pagar débitos de Funrural",
+  "Empresas compradoras que recolheram o Funrural em nome do produtor"
+ ],
+ "nao_e_para": [
+  "Não vale para o Funrural depois de 1º/1/2018, que segue constitucional",
+  "Não garante devolução: os efeitos ainda serão definidos pelo STF",
+  "Não alcança processos já encerrados com decisão definitiva, pela suspensão de 2025"
+ ],
+ "veredito": "O produtor pagou por anos um tributo que o próprio STF agora diz que não tinha base legal. Justiça pela metade é deixar a devolução no limbo. O Supremo deve julgar logo os efeitos e não pode premiar o erro do Estado contra quem trabalha no campo.",
+ "versiculo": {
+  "texto": "Não detenhas dos seus donos o bem, estando na tua mão poder fazê-lo",
+  "referencia": "Provérbios 3.27",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: STF considera inconstitucional cobrança de contribuição ao Funrural de produtores rurais antes de 2018 (15/10/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-considera-inconstitucional-cobranca-do-funrural-a-empresas-que-compram-producao-rural/",
+   "data": "15/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: STF suspende processos que discutem recolhimento de contribuição social de empregador rural (07/01/2025)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-suspende-processos-que-discutem-recolhimento-de-contribuicao-social-de-empregador-rural/",
+   "data": "07/01/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: Supremo na Semana discute decisão sobre contribuição para o Funrural antes de janeiro de 2018 (17/10/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/supremo-na-semana-discute-decisao-sobre-contribuicao-para-o-funrural-antes-de-janeiro-de-2018/",
+   "data": "17/10/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Funrural, contribuição descontada na venda da produção rural, julgado em parte inconstitucional pelo STF"
+  },
+  "origem": {
+   "nome": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-considera-inconstitucional-cobranca-do-funrural-a-empresas-que-compram-producao-rural/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Julgamento de mérito da ADI 4395 concluído em 15/10, mas com efeitos ainda indefinidos para cobranças antigas"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Decisão da Justiça sobre o produtor e o Funrural, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Decisão de 15/10, com os efeitos ainda pendentes de embargos no STF"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Três notícias oficiais do STF lidas: o julgamento, o programa sobre ele e a suspensão de 2025"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Explica ao produtor o que vale, o que não vale e o que ainda falta decidir, juntando decisões de 2025 e 2026"
+   }
+  },
+  "publico": {
+   "pontos": 14,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: notícias oficiais do STF (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Contraste: inconstitucional, mas sem devolução definida (2)",
+    "Tema que já mobiliza o público: Funrural (2)",
+    "Número forte: data de corte de 2018 (1)",
+    "Utilidade: quem é atingido (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 3.27 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "STF considera inconstitucional cobrança de contribuição ao Funrural de produtores rurais antes de 2018",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Funrural",
+  "coleta": "2026-11-14",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido nas notícias oficiais do STF",
+   "contradicoes": "O título da notícia do STF fala em cobrança a empresas compradoras; o texto diz que a inconstitucionalidade vale para a contribuição do produtor pessoa física e para a sub-rogação. A nota segue o texto.",
+   "sem_confirmacao": "acórdão ainda não publicado; existência de embargos já apresentados não confirmada"
+  },
+  "duplicidade": {
+   "grupo": "Funrural ADI 4395",
+   "itens": [
+    "STF 15/10/2026",
+    "STF 17/10/2026",
+    "STF 07/01/2025"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se o Funrural antes de 2018 vai ser devolvido",
+   "entidades": [
+    "STF",
+    "ADI 4395",
+    "Funrural",
+    "Dias Toffoli",
+    "Gilmar Mendes",
+    "Lei 13.606/2018"
+   ],
+   "termos": [
+    "Funrural inconstitucional antes de 2018",
+    "sub-rogação Funrural STF",
+    "restituição Funrural"
+   ],
+   "atualizacao": "acompanhar embargos de declaração e modulação de efeitos na ADI 4395"
+  },
+  "agro": {
+   "demanda": "Produtores pessoa física e compradores que pagaram ou recolheram Funrural antes de 2018 podem ter direito a restituição ou defesa em cobranças, conforme a modulação dos efeitos; quem aderiu ao PRR precisa avaliar o parcelamento",
+   "prazo": "Depende do julgamento dos embargos e da modulação na ADI 4395; prazos de prescrição tributária correm",
+   "quem": "Produtores rurais pessoa física com vendas antes de 2018, adquirentes que recolheram por sub-rogação e devedores no PRR"
+  }
+ },
+ "descricao_seo": "STF julgou inconstitucional, na ADI 4395, o Funrural do produtor pessoa física e a sub-rogação antes de 2018; efeitos ainda serão definidos.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das notícias oficiais do STF, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos das notícias oficiais do STF, com a ressalva de que os efeitos não foram definidos; a nota não afirma que haverá devolução. Citações literais conferidas. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/funrural-stf-inconstitucional-antes-2018-produtor-o-que-muda.jpg",
+  "credito": "Pieter Bruegel, o Velho, Os Ceifeiros (1565), The Metropolitan Museum of Art",
+  "alt": "Pintura Os Ceifeiros: camponeses colhem trigo e descansam à sombra de uma árvore",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/435809"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-14T02:39:45-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-14T02:39:45-03:00"
+}
