@@ -1,0 +1,195 @@
+{
+ "slug": "procera-assentados-liquidar-divida-desconto-80-prazo-20-dezembro",
+ "data": "2026-11-14",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Boa notícia",
+ "titulo": "Assentados podem quitar dívidas antigas do Procera com 80% de desconto até 20 de dezembro",
+ "lide": "A Resolução CMN 5.311, de 25 de junho, autoriza a liquidação das dívidas do Procera, o antigo crédito da reforma agrária, com desconto de 80% sobre o saldo recalculado e mais R$ 2 mil por mutuário. O prazo para quitar termina em 20 de dezembro de 2026, segundo o texto publicado pelo Banco Central.",
+ "por_que_importa": "Quem ainda tem dívida antiga do Procera pode quitá-la com um desconto grande, mas o prazo é curto: depois de 20 de dezembro, a condição deixa de valer. Dívida rural em aberto costuma dificultar o acesso a crédito novo para a família assentada.",
+ "numeros": [
+  [
+   "80%",
+   "de desconto sobre o saldo devedor recalculado, mais R$ 2 mil fixos por mutuário",
+   "Resolução CMN 5.311/2026, art. 1º"
+  ],
+  [
+   "1,15% ao ano",
+   "é a taxa usada para recalcular a dívida desde a contratação, sem multa, mora nem honorários",
+   "Resolução CMN 5.311/2026, art. 1º"
+  ],
+  [
+   "20/12/2026",
+   "é o prazo final para a liquidação",
+   "Resolução CMN 5.311/2026, art. 1º"
+  ]
+ ],
+ "corpo": [
+  "A regra vale para operações do Procera contratadas com recursos do Orçamento da União, renegociadas ou não, cuja soma dos saldos por mutuário passava de R$ 10 mil em 27 de dezembro de 2013. O saldo é recalculado a 1,15% ao ano desde a contratação, sem bônus contratuais, multa, mora, outros encargos ou honorários; sobre ele incide o desconto de 80%, mais R$ 2 mil.",
+  "Ficam de fora os débitos já inscritos em Dívida Ativa da União, e ninguém recebe devolução por causa do recálculo. Em operações feitas por cooperativas, associações ou de forma coletiva, o saldo é dividido por mutuário ou por cooperado ativo, para ver quem se enquadra."
+ ],
+ "no_brasil": "A fórmula de 80% mais R$ 2 mil não é nova: a MP 636, de 2013, já a usava para créditos de instalação do Incra acima de R$ 10 mil, segundo a Agência Câmara. A resolução de 2026 reabre a liquidação do Procera com prazo até 20 de dezembro.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.311/2026, art. 1º, inciso III",
+   "texto": "não haverá devolução de valores ao mutuário em função de recálculo, aplicação do rebate e desconto previsto neste artigo",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5311"
+  },
+  {
+   "fonte": "Resolução CMN 5.311/2026, art. 2º",
+   "texto": "Não estão abrangidos por esta Resolução os débitos já inscritos em Dívida Ativa da União – DAU.",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5311"
+  }
+ ],
+ "para_quem": [
+  "Assentados da reforma agrária com dívida do Procera feita com recursos da União",
+  "Cooperativas e associações de assentados com operações coletivas do Procera",
+  "Famílias com saldo acima de R$ 10 mil em 2013 que querem limpar o nome para tomar crédito novo"
+ ],
+ "nao_e_para": [
+  "Não vale para dívida já inscrita em Dívida Ativa da União",
+  "Não vale para Pronaf nem para outras linhas: é só para o Procera com recursos da União",
+  "Não devolve dinheiro a quem já pagou"
+ ],
+ "veredito": "Boa oportunidade para quem carrega dívida antiga da reforma agrária: o desconto é grande e a regra é clara. O problema é o prazo curto e a falta de divulgação. Sindicatos, cooperativas e igrejas do campo podem ajudar as famílias a procurar o banco antes de 20 de dezembro.",
+ "versiculo": {
+  "texto": "E santificareis o ano quinquagésimo e apregoareis liberdade na terra a todos os seus moradores",
+  "referencia": "Levítico 25.10",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.311, de 25 de junho de 2026",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5311",
+   "data": "25/06/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Medida provisória muda regra para assentado quitar dívida da casa própria (31/12/2013)",
+   "url": "https://www.camara.leg.br/noticias/424491-medida-provisoria-muda-regra-para-assentado-quitar-divida-da-casa-propria",
+   "data": "31/12/2013",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 67,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Liquidação com desconto de dívidas do crédito da reforma agrária (Procera)"
+  },
+  "origem": {
+   "nome": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5311"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Norma do CMN em vigor desde 25/06 garante desconto de 80% a assentados com dívida do Procera em todo o país"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Norma do CMN e renegociação de dívida rural, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Resolução de junho, com gancho no prazo de 20/12/2026"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Resolução lida na íntegra no site do Banco Central; sem confirmação independente recente sobre a aplicação nos bancos"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Não encontramos cobertura da regra na imprensa; a nota mostra o cálculo, quem fica de fora e o histórico da fórmula"
+   }
+  },
+  "publico": {
+   "pontos": 14,
+   "eixos": {
+    "valor": 8,
+    "viral": 3,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: resolução do CMN (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Número forte: 80% de desconto (1)",
+    "Utilidade: quem pode quitar e até quando (2)",
+    "Gatilho no calendário: prazo de 20/12 (2)",
+    "Tema que já mobiliza o público: dívida rural (2)",
+    "Passagem bíblica que um pastor usaria: Levítico 25.10 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN nº 5.311, de 25 de junho de 2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / dívida da reforma agrária",
+  "coleta": "2026-11-14",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na íntegra da resolução",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "quantas famílias têm dívida do Procera; procedimento de cada banco para a liquidação"
+  },
+  "duplicidade": {
+   "grupo": "Procera Res CMN 5.311",
+   "itens": [
+    "BCB 25/06/2026"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber como quitar dívida do Procera com desconto",
+   "entidades": [
+    "Procera",
+    "Resolução CMN 5.311",
+    "Banco Central",
+    "Conselho Monetário Nacional",
+    "reforma agrária"
+   ],
+   "termos": [
+    "dívida Procera desconto",
+    "liquidação Procera 2026",
+    "rebate 80% assentados"
+   ],
+   "atualizacao": "acompanhar eventual prorrogação do prazo de 20/12"
+  },
+  "agro": {
+   "demanda": "Assentados e cooperativas com dívidas do Procera precisam pedir a liquidação com o recálculo e o desconto; cabe conferir o enquadramento (saldo acima de R$ 10 mil em 2013, recursos da União, fora da Dívida Ativa)",
+   "prazo": "Até 20 de dezembro de 2026",
+   "quem": "Assentados da reforma agrária, cooperativas e associações com operações do Procera"
+  }
+ },
+ "descricao_seo": "Resolução CMN 5.311 permite quitar dívidas do Procera com 80% de desconto e R$ 2 mil por mutuário até 20/12/2026; Dívida Ativa fica de fora.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da resolução e da notícia da Câmara, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regras tiradas do texto da resolução, citações literais conferidas, limites e exclusões informados. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/procera-assentados-liquidar-divida-desconto-80-prazo-20-dezembro.jpg",
+  "credito": "Anton Mauve, Mudança de pasto (c. 1880), The Metropolitan Museum of Art",
+  "alt": "Pintura de Anton Mauve: camponesa conduz duas vacas por uma estrada de terra no campo",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP-22428-001.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/437040"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-14T02:48:58-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-14T02:48:58-03:00"
+}
