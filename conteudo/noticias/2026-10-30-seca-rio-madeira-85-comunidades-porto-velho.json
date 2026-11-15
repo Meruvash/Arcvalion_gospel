@@ -26,7 +26,8 @@
  ],
  "corpo": [
   "A Operação S.O.S. Estiagem, coordenada pelo tenente-coronel Marcelo Duarte, chefe do Gabinete Militar e supervisor das ações da Defesa Civil, divide o trabalho em forças-tarefas terrestres e fluviais. Calama e São Carlos receberam água potável e cestas básicas antes das demais localidades. Pelo critério da Defesa Civil municipal, a comunidade conta como atingida quando ao menos uma família é afetada.",
-  "Em 27 de outubro, a prefeitura lançou uma campanha que pede economia de água, orienta a não usar fogo para eliminar lixo e incentiva a proteção de rios e nascentes. A campanha também procura mobilizar a população para ajudar as famílias atingidas."
+  "Em 27 de outubro, a prefeitura lançou uma campanha que pede economia de água, orienta a não usar fogo para eliminar lixo e incentiva a proteção de rios e nascentes. A campanha também procura mobilizar a população para ajudar as famílias atingidas.",
+  "Atualização (15/11): o governo federal reconheceu a situação de emergência por estiagem em Porto Velho pela Portaria SEDEC/MIDR nº 3.611, de 20 de outubro, publicada no Diário Oficial da União em 22 de outubro. Segundo o Rondoniaovivo, a estiagem já atinge 85 localidades rurais, ribeirinhas e indígenas da capital."
  ],
  "no_brasil": "O decreto municipal de emergência, de nível II, vale por 180 dias, segundo o Rondoniaovivo. Com a situação de emergência decretada, o município pode pedir à Defesa Civil Nacional o reconhecimento federal e recursos para insumos humanitários; até esta publicação, não localizamos portaria federal sobre a seca de 2026 em Porto Velho.",
  "critica": [
@@ -75,6 +76,18 @@
    "nome": "Rondoniaovivo: Seca faz praias surgirem no rio Madeira e Porto Velho decreta emergência (07/10/2026)",
    "url": "https://www.rondoniaovivo.com/noticia/geral/2026/10/07/estiagem-seca-faz-praias-surgirem-no-rio-madeira-e-porto-velho-decreta-emergencia.html",
    "data": "29/10/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Diário Oficial da União (reprodução Atlas Público): Portaria SEDEC/MIDR nº 3.611, de 20/10/2026",
+   "url": "https://atlaspublico.com.br/regulacao/dou/portaria-n-3-611-de-20-de-outubro-de-2026-869146",
+   "data": "22/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Rondoniaovivo: Três municípios de RO já decretaram emergência diante dos riscos do El Niño (15/11/2026)",
+   "url": "https://www.rondoniaovivo.com/noticia/geral/2026/11/15/seca-intensa-tres-municipios-de-ro-ja-decretaram-emergencia-diante-dos-riscos-do-el-nino.html",
+   "data": "15/11/2026",
    "tipo": "secundaria"
   }
  ],
