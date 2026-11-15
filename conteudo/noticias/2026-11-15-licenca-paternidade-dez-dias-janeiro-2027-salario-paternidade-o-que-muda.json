@@ -1,0 +1,204 @@
+{
+ "slug": "licenca-paternidade-dez-dias-janeiro-2027-salario-paternidade-o-que-muda",
+ "data": "2026-11-15",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Boa notícia",
+ "titulo": "Licença-paternidade dobra para dez dias em janeiro: o que muda para o pai e a família",
+ "lide": "A partir de 1º de janeiro de 2027, a licença-paternidade passa de cinco para dez dias, pela Lei 15.371, de 31 de março de 2026. Sobe para 15 dias em 2028 e 20 em 2029, se a meta fiscal for cumprida, e passa a ser paga como salário-paternidade pela Previdência, segundo a Agência Senado.",
+ "por_que_importa": "Cinco dias mal dão para o pai acompanhar a mãe no pós-parto. Com dez dias, e depois mais, o pai fica mais tempo em casa nos primeiros dias do filho. A lei também protege o emprego dele durante a licença e logo depois dela.",
+ "numeros": [
+  [
+   "10 dias",
+   "de licença-paternidade a partir de 2027; 15 em 2028 e 20 em 2029",
+   "Agência Senado, 13/11/2026"
+  ],
+  [
+   "1 mês",
+   "depois do fim da licença em que o pai não pode ser dispensado sem justa causa",
+   "Agência Brasil, 01/04/2026"
+  ],
+  [
+   "19 anos",
+   "de tramitação: o projeto original é o PLS 666/2007",
+   "Agência Brasil, 31/03/2026"
+  ]
+ ],
+ "corpo": [
+  "A ampliação para 20 dias em 2029 depende do cumprimento da meta fiscal da Lei de Diretrizes Orçamentárias; se não for cumprida, fica adiada, segundo a Agência Senado. A licença vale também para adoção e guarda judicial para fins de adoção. Se a mãe ou o bebê ficar internado por causa do parto, a licença é prorrogada pelo tempo da internação e volta a contar da alta, informou a Agência Brasil.",
+  "O salário-paternidade, novo benefício da Previdência, alcança empregados, avulsos, domésticos, contribuintes individuais e segurados especiais. Para o empregado, a empresa paga e é reembolsada pelo INSS. O pai também pode emendar férias depois da licença, se avisar com 30 dias de antecedência da data esperada do parto."
+ ],
+ "no_brasil": "A lei vem do PLS 666/2007, da ex-senadora Patrícia Saboya, aprovado pelo Senado em março e sancionado em 31 de março de 2026. Em 2026, a licença continua de cinco dias, segundo a Agência Brasil.",
+ "critica": [
+  {
+   "fonte": "Roufran dos Santos, pai ouvido pela Agência Senado",
+   "texto": "Cinco dias dão para viver o nascimento, mas não para aprender a ser pai. Quando você começa a entender o ritmo do bebê, já precisa voltar",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/nova-licenca-paternidade-amplia-tempo-para-cuidados-com-recem-nascido"
+  },
+  {
+   "fonte": "Agência Brasil, sobre a proteção do emprego",
+   "texto": "É vedada a dispensa arbitrária ou sem justa causa do empregado no período entre o início da licença-paternidade até um mês após o término do benefício.",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-04/novos-prazos-para-licenca-paternidade-valem-partir-de-2027-entenda"
+  }
+ ],
+ "para_quem": [
+  "Pais com filhos previstos para 2027 em diante",
+  "Pais que vão adotar ou obter guarda para adoção",
+  "Trabalhadores domésticos, avulsos, autônomos que contribuem e segurados especiais do campo"
+ ],
+ "nao_e_para": [
+  "Não vale ainda em 2026: até 31 de dezembro, a licença segue de cinco dias",
+  "Os 20 dias de 2029 dependem da meta fiscal",
+  "Não substitui a licença-maternidade, que segue com regras próprias"
+ ],
+ "veredito": "Boa notícia para a família: pai presente nos primeiros dias faz diferença para a mãe e para o bebê. Mas lei não faz pai; o tempo a mais só vale se for usado em casa, cuidando. Igrejas podem preparar os pais para isso.",
+ "versiculo": {
+  "texto": "Eis que os filhos são herança do Senhor, e o fruto do ventre, o seu galardão",
+  "referencia": "Salmos 127.3",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Nova licença-paternidade amplia tempo para cuidados com recém-nascido (13/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/nova-licenca-paternidade-amplia-tempo-para-cuidados-com-recem-nascido",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: Lei nº 15.371, de 31/03/2026",
+   "url": "https://legis.senado.leg.br/dadosabertos/legislacao/lista?tipo=LEI&numero=15371&ano=2026",
+   "data": "31/03/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Novos prazos para licença-paternidade valem a partir de 2027; entenda (01/04/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-04/novos-prazos-para-licenca-paternidade-valem-partir-de-2027-entenda",
+   "data": "01/04/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Brasil: Lula sanciona lei que amplia licença-paternidade (31/03/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-03/lula-sanciona-lei-que-amplia-licenca-paternidade",
+   "data": "31/03/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 67,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "Tempo do pai com o recém-nascido e proteção do emprego dele"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/nova-licenca-paternidade-amplia-tempo-para-cuidados-com-recem-nascido"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Lei 15.371 sancionada em 31/03/2026, com licença de dez dias a partir de 1º/1/2027 para segurados de todo o país"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Família e cuidado dos filhos, núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Lei de março, com gancho no início da regra em 1º/1/2027 e na matéria da Agência Senado de 13/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Lei registrada nos dados abertos do Senado; regras pela Agência Senado e confirmadas pela Agência Brasil"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Junta calendário, condição fiscal, proteção do emprego e casos de internação num guia para a família"
+   }
+  },
+  "publico": {
+   "pontos": 14,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: lei nos dados abertos (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: o pai Roufran (1)",
+    "Utilidade: quem tem direito e quando (2)",
+    "Gatilho no calendário: janeiro de 2027 (2)",
+    "Número forte: licença dobra (1)",
+    "Tema que já mobiliza o público: família (1)",
+    "Passagem bíblica que um pastor usaria: Salmos 127.3 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Nova licença-paternidade amplia tempo para cuidados com recém-nascido",
+  "nucleo": "A - Brasil",
+  "categoria": "Família / trabalho",
+  "coleta": "2026-11-15",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido nas agências oficiais e nos dados abertos do Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "texto integral da lei (Planalto inacessível nesta edição)"
+  },
+  "duplicidade": {
+   "grupo": "Lei 15.371/2026",
+   "itens": [
+    "Agência Senado 13/11",
+    "Agência Brasil 31/03 e 01/04"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber quando a licença-paternidade aumenta e quem tem direito",
+   "entidades": [
+    "Lei 15.371/2026",
+    "licença-paternidade",
+    "salário-paternidade",
+    "INSS",
+    "PLS 666/2007"
+   ],
+   "termos": [
+    "licença-paternidade 10 dias 2027",
+    "salário-paternidade INSS",
+    "nova licença-paternidade o que muda"
+   ],
+   "atualizacao": "acompanhar a regulamentação do salário-paternidade pelo INSS"
+  }
+ },
+ "descricao_seo": "Pela Lei 15.371, a licença-paternidade passa de 5 para 10 dias em 1º/1/2027, 15 em 2028 e 20 em 2029, paga como salário-paternidade.",
+ "instituicao": "Congresso Nacional",
+ "editora": "Congresso Nacional",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das matérias da Agência Senado e da Agência Brasil, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regras atribuídas às agências oficiais, citações literais conferidas, condição fiscal informada. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/licenca-paternidade-dez-dias-janeiro-2027-salario-paternidade-o-que-muda.jpg",
+  "credito": "Foto: Kingofkings_LJ/Pixabay",
+  "alt": "Pai sorri para o bebê, que ri e toca o rosto dele",
+  "licenca": "Licença Pixabay: uso livre, sem necessidade de atribuição",
+  "origem": "https://imagens.ebc.com.br/U7TLkU1mKlB8SUqsmVqIoyQMJ1o=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/fathers-day-5469310.jpg?itok=K4nhBHdS",
+  "pagina": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-03/lula-sanciona-lei-que-amplia-licenca-paternidade"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-15T02:31:43-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-15T02:31:43-03:00"
+}
