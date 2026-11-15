@@ -1,0 +1,196 @@
+{
+ "slug": "pronaf-2026-2027-caf-ativo-grupo-b-60-mil-regularizacao-fundiaria",
+ "data": "2026-11-15",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Informativo",
+ "titulo": "Pronaf 2026/27: CAF ativo, Grupo B até R$ 60 mil e crédito para regularizar a terra",
+ "lide": "As regras do Pronaf para o ano agrícola 2026/2027, fixadas pela Resolução CMN 5.323, de 30 de junho, exigem o Cadastro Nacional da Agricultura Familiar (CAF) ativo, enquadram no Grupo B famílias com renda bruta anual de até R$ 60 mil e permitem usar o Pronaf Mais Alimentos para regularizar o imóvel rural.",
+ "por_que_importa": "Sem o CAF ativo com o enquadramento certo, o agricultor familiar não contrata o Pronaf. E a novidade do Mais Alimentos pode ajudar quem tem a terra sem documento: medição, georreferenciamento e custas de cartório passam a caber no financiamento.",
+ "numeros": [
+  [
+   "R$ 60 mil",
+   "de renda bruta familiar anual é o teto do Grupo B, sem trabalho assalariado permanente",
+   "Resolução CMN 5.323/2026"
+  ],
+  [
+   "R$ 85,2 bilhões",
+   "para o Pronaf na safra 2026/27, alta de 9% sobre a anterior",
+   "Portal do Cooperativismo Financeiro, 06/2026"
+  ],
+  [
+   "5 anos",
+   "de prazo no Mais Alimentos para caminhonetes de carga, motos, triciclos e quadriciclos adaptados à atividade rural",
+   "Resolução CMN 5.323/2026"
+  ]
+ ],
+ "corpo": [
+  "Pela resolução, o Mais Alimentos fica restrito a itens ligados à produção, à moradia no imóvel rural, inclusive acessibilidade, à regularização fundiária, \"incluindo serviços de medição, topografia e georreferenciamento, além de emolumentos, custas cartorárias e honorários advocatícios\", e à informática e conectividade no campo. Os custos de projetos para outorga de água e licenciamento ambiental podem ser financiados até 20% do crédito.",
+  "O CAF ativo é suficiente para comprovar o vínculo com a terra no microcrédito do Grupo B e, a critério do banco, nas demais linhas. Ele deve ser feito para a unidade familiar e vale para todos os membros que exploram as mesmas áreas. Posseiros podem ser atendidos se a posse estiver registrada no CAF."
+ ],
+ "no_brasil": "O Plano Safra da Agricultura Familiar 2026/27 soma R$ 97,3 bilhões, contando crédito e demais políticas, segundo o Portal do Cooperativismo Financeiro. A resolução vale desde a publicação, em 30 de junho.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.323/2026 (MCR 10-2-3-b)",
+   "texto": "Grupo “B”: beneficiários cuja renda bruta familiar anual, de que trata a alínea “f” do item 1, não seja superior a R$60.000,00 (sessenta mil reais) e que não contratem trabalho assalariado permanente",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5323"
+  },
+  {
+   "fonte": "Resolução CMN 5.323/2026 (MCR 10-2-5)",
+   "texto": "o CAF ativo é suficiente para fins de contratação de financiamento do Pronaf, desde que conste o enquadramento na linha de crédito de que trata a Seção Microcrédito Produtivo Rural (Grupo “B”)",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5323"
+  }
+ ],
+ "para_quem": [
+  "Agricultores familiares que vão contratar o Pronaf na safra 2026/27",
+  "Quem tem terra sem regularização e precisa de georreferenciamento e cartório",
+  "Posseiros com a posse registrada no CAF"
+ ],
+ "nao_e_para": [
+  "Não dispensa o CAF: sem ele ativo e com o enquadramento certo, não há Pronaf",
+  "O Grupo B não vale para quem contrata trabalhador assalariado permanente",
+  "Não é dinheiro automático: o banco analisa o projeto e a capacidade de pagamento"
+ ],
+ "veredito": "Bom ajuste: incluir a regularização da terra no Mais Alimentos ataca um nó antigo do pequeno produtor. Mas o CAF precisa funcionar na ponta; sem cadastro rápido e sem banco disposto, a linha fica no papel.",
+ "versiculo": {
+  "texto": "Procura conhecer o estado das tuas ovelhas; põe o teu coração sobre o gado",
+  "referencia": "Provérbios 27.23",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.323, de 30 de junho de 2026",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5323",
+   "data": "30/06/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Portal do Cooperativismo Financeiro: Plano Safra 26/27 para a agricultura familiar (06/2026)",
+   "url": "https://cooperativismodecredito.coop.br/2026/06/plano-safra-26-27-para-a-agricultura-familiar/",
+   "data": "06/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 66,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Regras do Pronaf 2026/27 para o agricultor familiar"
+  },
+  "origem": {
+   "nome": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5323"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Norma do CMN em vigor desde 30/06 para todo o crédito do Pronaf na safra 2026/27"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Crédito rural e Plano Safra, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Resolução de junho, com gancho na safra em curso"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Resolução lida na íntegra; números do plano por um portal especializado, sem a nota oficial do MDA (site fora do ar nesta edição)"
+   },
+   "originalidade": {
+    "pontos": 7,
+    "porque": "Destaca pontos da resolução pouco divulgados, como a regularização fundiária no Mais Alimentos e o CAF dos posseiros"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 8,
+    "viral": 2,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: resolução do CMN (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Número forte: R$ 60 mil do Grupo B (1)",
+    "Utilidade: o que dá para financiar (2)",
+    "Tema que já mobiliza o público: crédito rural (2)",
+    "Família no campo (1)",
+    "Passagem bíblica que um pastor usaria: Provérbios 27.23 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN nº 5.323, de 30 de junho de 2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Pronaf",
+  "coleta": "2026-11-15",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "regras conferidas na íntegra da resolução",
+   "contradicoes": "Fontes secundárias divergem sobre a taxa do Pronaf Investimento; a nota não cita taxas.",
+   "sem_confirmacao": "resumo oficial das linhas do MDA (PDF não abriu); números totais do plano por portal especializado"
+  },
+  "duplicidade": {
+   "grupo": "Pronaf 2026/27",
+   "itens": [
+    "BCB 30/06/2026",
+    "Portal do Cooperativismo Financeiro 06/2026"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber as regras do Pronaf 2026/2027",
+   "entidades": [
+    "Pronaf",
+    "Resolução CMN 5.323",
+    "CAF",
+    "Pronaf Mais Alimentos",
+    "Grupo B"
+   ],
+   "termos": [
+    "Pronaf 2026 2027 regras",
+    "CAF Pronaf",
+    "Pronaf Mais Alimentos regularização fundiária"
+   ],
+   "atualizacao": "acompanhar novas resoluções do CMN sobre o Pronaf"
+  },
+  "agro": {
+   "demanda": "Agricultores familiares precisam regularizar o CAF e podem financiar georreferenciamento, cartório e regularização fundiária pelo Mais Alimentos; posseiros dependem do registro da posse no CAF",
+   "prazo": "Safra 2026/27, até 30 de junho de 2027",
+   "quem": "Agricultores familiares, posseiros e cooperativas da agricultura familiar"
+  }
+ },
+ "descricao_seo": "Resolução CMN 5.323 fixa o Pronaf 2026/27: CAF ativo obrigatório, Grupo B com renda até R$ 60 mil e Mais Alimentos para regularizar a terra.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da resolução, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regras citadas literalmente da resolução, números do plano atribuídos ao portal. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/pronaf-2026-2027-caf-ativo-grupo-b-60-mil-regularizacao-fundiaria.jpg",
+  "credito": "Léon-Augustin Lhermitte, A colheita das uvas (1884), The Metropolitan Museum of Art",
+  "alt": "Pintura de família colhendo uvas no campo, com uma criança sentada ao lado do cesto",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP318213.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/436882"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-15T02:36:43-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-15T02:36:43-03:00"
+}
