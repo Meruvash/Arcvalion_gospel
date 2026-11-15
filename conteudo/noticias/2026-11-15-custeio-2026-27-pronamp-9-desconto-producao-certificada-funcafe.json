@@ -1,0 +1,196 @@
+{
+ "slug": "custeio-2026-27-pronamp-9-desconto-producao-certificada-funcafe",
+ "data": "2026-11-15",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Informativo",
+ "titulo": "Custeio da safra 2026/27: Pronamp a 9%, desconto para produção certificada e café no Funcafé",
+ "lide": "Na safra 2026/27, a taxa máxima do Pronamp caiu de 10% para 9% ao ano, segundo o Portal do Cooperativismo Financeiro, e a Resolução CMN 5.322 dá desconto de 0,5 ponto no custeio com recursos equalizados e obrigatórios para produção sustentável certificada, como a do programa de Boas Práticas Agropecuárias do Mapa.",
+ "por_que_importa": "Meio ponto de juro faz diferença na conta do custeio. Para ter o desconto, o produtor precisa de certificação válida e ativa num dos programas listados. E o cafeicultor tem taxas próprias no Funcafé, que vale conhecer antes de fechar o crédito.",
+ "numeros": [
+  [
+   "9% ao ano",
+   "é a taxa máxima do Pronamp em 2026/27, ante 10% na safra anterior",
+   "Portal do Cooperativismo Financeiro, 06/2026"
+  ],
+  [
+   "0,5 ponto",
+   "de desconto no custeio para produção sustentável certificada, de 1º/7/2026 a 30/6/2027",
+   "Resolução CMN 5.322/2026"
+  ],
+  [
+   "9% e 10,5%",
+   "ao ano no Funcafé: 9% para custeio, comercialização e recuperação de cafezais; 10,5% para aquisição de café e capital de giro de indústrias",
+   "Resolução CMN 5.322/2026"
+  ]
+ ],
+ "corpo": [
+  "O desconto vale para o custeio do Pronamp e dos demais produtores contratado com recursos equalizados, dentro dos limites de cada banco fixados pelo Ministério da Fazenda, e com recursos obrigatórios, desde que destinado a atividades produtivas sustentáveis enquadradas nos programas listados e, em parte deles, com certificação válida e ativa, como o BPA-Mapa.",
+  "A mesma resolução permite que o crédito de investimento do Pronamp com recursos equalizáveis financie a compra de animais para reprodução ou cria até 30% do valor total do projeto, e amplia linhas do InvestAgro para geração e armazenamento de energia renovável para consumo próprio."
+ ],
+ "no_brasil": "O Plano Safra empresarial 2026/27 tem R$ 525,1 bilhões, e o Pronamp tem R$ 72,6 bilhões reservados, segundo o Portal do Cooperativismo Financeiro. As regras da Resolução 5.322 valem desde a publicação, em 30 de junho.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.322/2026, art. 3º (MCR 3-2-6-E)",
+   "texto": "será reduzida em 0,5 (meio) ponto percentual quando o crédito de custeio for contratado com recursos equalizados",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5322"
+  },
+  {
+   "fonte": "Resolução CMN 5.322/2026, art. 6º (MCR 8-1-6)",
+   "texto": "Fica permitida a contratação de operação de crédito de investimento com recursos equalizáveis ao amparo deste programa para aquisição de animais para reprodução ou cria, limitada a 30% (trinta por cento) do valor total do projeto de investimento.",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5322"
+  }
+ ],
+ "para_quem": [
+  "Médio produtor do Pronamp que vai contratar custeio",
+  "Quem tem ou pode obter certificação de boas práticas para ter o desconto",
+  "Cafeicultores e cooperativas que usam o Funcafé"
+ ],
+ "nao_e_para": [
+  "O desconto não é automático: exige certificação válida e ativa onde a norma pede",
+  "Depende do limite de recursos equalizados de cada banco",
+  "As taxas do Funcafé não valem para outras culturas"
+ ],
+ "veredito": "Juro menor para quem produz bem é estímulo certo, melhor do que punição. Mas certificação custa caro para o médio produtor; sem apoio para obtê-la, o desconto fica com quem já é grande.",
+ "versiculo": {
+  "texto": "Os pensamentos do diligente tendem à abundância, mas os de todo apressado, tão somente à pobreza",
+  "referencia": "Provérbios 21.5",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.322, de 30 de junho de 2026",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5322",
+   "data": "30/06/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Portal do Cooperativismo Financeiro: Divulgado o Plano Safra 26/27 para a agricultura empresarial (06/2026)",
+   "url": "https://cooperativismodecredito.coop.br/2026/06/divulgado-o-plano-safra-26-27-para-a-agricultura-empresarial/",
+   "data": "06/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 64,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Juros do custeio do Plano Safra 2026/27 para o médio produtor e o cafeicultor"
+  },
+  "origem": {
+   "nome": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5322"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Norma do CMN em vigor desde 30/06 para todo custeio do Pronamp e dos demais produtores na safra 2026/27"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Crédito rural e Plano Safra, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Norma de junho, com gancho na safra em curso"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Resolução lida na íntegra; taxa máxima do Pronamp por um portal especializado"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Junta regras pouco divulgadas da resolução: desconto por certificação, animais no Pronamp e taxas do Funcafé"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 7,
+    "viral": 2,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: resolução do CMN (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Número forte: Pronamp a 9% (1)",
+    "Utilidade: como ter o desconto (2)",
+    "Tema que já mobiliza o público: juros do crédito rural (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 21.5 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN nº 5.322, de 30 de junho de 2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Plano Safra",
+  "coleta": "2026-11-15",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "regras conferidas na íntegra da resolução",
+   "contradicoes": "Reportagens citam desconto adicional pelo CAR regular; a nota trata só do que está na Resolução 5.322.",
+   "sem_confirmacao": "lista completa dos programas que dão desconto (trecho resumido na resolução); tabelas de juros do MCR 7-1 e 7-4"
+  },
+  "duplicidade": {
+   "grupo": "Plano Safra 2026/27 custeio",
+   "itens": [
+    "BCB 30/06/2026",
+    "Portal do Cooperativismo 06/2026"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-14-custeio-sem-proagro-ou-seguro-so-renegocia-com-juros-livres-cmn"
+  },
+  "seo": {
+   "intencao": "saber os juros do Pronamp e do Funcafé na safra 2026/27",
+   "entidades": [
+    "Resolução CMN 5.322",
+    "Pronamp",
+    "Funcafé",
+    "BPA-Mapa",
+    "Plano Safra 2026/2027"
+   ],
+   "termos": [
+    "Pronamp 2026 2027 juros",
+    "desconto custeio produção sustentável",
+    "Funcafé taxa 2026"
+   ],
+   "atualizacao": "acompanhar novas resoluções do CMN na safra"
+  },
+  "agro": {
+   "demanda": "Médios produtores podem buscar certificação para o desconto de 0,5 ponto; cafeicultores conferir as taxas do Funcafé; produtores de leite e corte podem incluir matrizes no investimento do Pronamp",
+   "prazo": "Desconto vale de 1º/7/2026 a 30/6/2027",
+   "quem": "Médios produtores do Pronamp, demais produtores com custeio equalizado e cafeicultores"
+  }
+ },
+ "descricao_seo": "Safra 2026/27: Pronamp com taxa máxima de 9%, desconto de 0,5 ponto no custeio para produção certificada e Funcafé a 9% e 10,5% ao ano.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da resolução, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regras citadas literalmente da resolução, taxas do Pronamp atribuídas ao portal. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/custeio-2026-27-pronamp-9-desconto-producao-certificada-funcafe.jpg",
+  "credito": "Camille Pissarro, A colheita, Pontoise (1881), The Metropolitan Museum of Art",
+  "alt": "Pintura de Pissarro: três camponeses colhem e ensacam a produção numa encosta verde",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/rl/original/DP-34499-001.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/459108"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-15T02:39:06-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-15T02:39:06-03:00"
+}
