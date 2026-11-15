@@ -1,0 +1,197 @@
+{
+ "slug": "credito-rural-prodes-desmatamento-2019-bloqueio-janeiro-2027-cmn",
+ "data": "2026-11-15",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Motivo de alerta",
+ "titulo": "A partir de janeiro, desmatamento apontado pelo Prodes depois de 2019 pode barrar crédito rural",
+ "lide": "Pela Resolução CMN 5.303, o banco terá de checar na lista do Ministério do Meio Ambiente, feita com dados do Prodes, se houve supressão de vegetação nativa depois de 31 de julho de 2019 no imóvel antes de liberar crédito rural. A exigência começa em 4 de janeiro de 2027 para imóveis acima de 15 módulos fiscais.",
+ "por_que_importa": "Em menos de dois meses, o produtor com área acima de 15 módulos que tiver alerta do Prodes pode ter o custeio travado se não apresentar a autorização ou o termo de regularização. Para quem está na Amazônia, como em Rondônia, a regra pesa mais. Quem tem a papelada em ordem precisa tê-la em mãos antes de ir ao banco.",
+ "numeros": [
+  [
+   "4/1/2027",
+   "início da exigência para imóveis acima de 15 módulos fiscais",
+   "Resolução CMN 5.303/2026"
+  ],
+  [
+   "1º/7/2027",
+   "início para imóveis acima de 4 e até 15 módulos fiscais",
+   "Resolução CMN 5.303/2026"
+  ],
+  [
+   "3/1/2028",
+   "início para imóveis de até 4 módulos, assentamentos e comunidades tradicionais com CAR coletivo",
+   "Resolução CMN 5.303/2026"
+  ]
+ ],
+ "corpo": [
+  "O crédito ainda pode sair se o produtor apresentar um dos documentos aceitos, segundo a página Meu Imóvel Rural do governo federal: autorização de supressão de vegetação (ASV), autorização de uso alternativo do solo (UAS) ou ato equivalente, projeto de recuperação de área degradada (PRAD), termo do Programa de Regularização Ambiental, TAC com o Ministério Público, termo de compromisso com o órgão ambiental estadual ou laudo de sensoriamento remoto, a cargo do banco, que mostre que não houve desmatamento depois de 31/7/2019.",
+  "A resolução tem regras de data para os documentos: UAS ou ato equivalente só valem se emitidos antes de 15 de março de 2026, quando entrou em vigor a Resolução Conama 510/2025, e a ASV pode ser aceita mesmo se emitida antes de 15 de setembro de 2025."
+ ],
+ "no_brasil": "A Resolução 5.303, de 12 de maio de 2026, escalonou a exigência pelo tamanho do imóvel, informa o governo federal. Os assentamentos da reforma agrária e os povos e comunidades tradicionais com CAR do perímetro coletivo ficam com o prazo mais longo, de janeiro de 2028.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.303/2026, item 17 da Seção 9 do Capítulo 2 do MCR",
+   "texto": "A instituição financeira deve verificar se houve supressão da vegetação nativa após 31 de julho de 2019 no imóvel rural onde será conduzido o empreendimento",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5303"
+  },
+  {
+   "fonte": "Governo federal, página Meu Imóvel Rural",
+   "texto": "o crédito ainda poderá ser concedido mediante apresentação de um dos documentos listados abaixo",
+   "citacao": true,
+   "url": "https://www.gov.br/gestao/pt-br/assuntos/meu-imovel-rural/fique-em-dia/supressao-vegetacao-nativa"
+  }
+ ],
+ "para_quem": [
+  "Produtor com imóvel acima de 15 módulos fiscais que vai tomar crédito em 2027",
+  "Quem tem alerta de desmatamento posterior a julho de 2019 e precisa regularizar",
+  "Produtores da Amazônia Legal, como os de Rondônia, onde o Prodes faz o monitoramento"
+ ],
+ "nao_e_para": [
+  "Não vale ainda em 2026: a primeira etapa começa em 4 de janeiro",
+  "Não bloqueia quem apresentar ASV, UAS, PRAD, termo do PRA, TAC, termo com o órgão estadual ou laudo do banco",
+  "Pequeno imóvel de até 4 módulos só entra em janeiro de 2028"
+ ],
+ "veredito": "Ninguém defende desmatamento ilegal, mas alerta de satélite não é sentença. O produtor que desmatou com autorização ou já assinou termo de regularização não pode ser tratado como infrator. Bancos e governo precisam garantir defesa e prazo rápido, e o produtor deve juntar a papelada já.",
+ "versiculo": {
+  "texto": "E tomou o Senhor Deus o homem e o pôs no jardim do Éden para o lavrar e o guardar",
+  "referencia": "Gênesis 2.15",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.303, de 12 de maio de 2026",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5303",
+   "data": "12/05/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Governo federal, Meu Imóvel Rural: Supressão de vegetação nativa",
+   "url": "https://www.gov.br/gestao/pt-br/assuntos/meu-imovel-rural/fique-em-dia/supressao-vegetacao-nativa",
+   "data": "2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 71,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Nova exigência ambiental do Manual de Crédito Rural que pode barrar crédito ao produtor"
+  },
+  "origem": {
+   "nome": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5303"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Norma do CMN em vigor, com bloqueio de crédito a partir de 4/1/2027 para imóveis acima de 15 módulos em todo o país"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Norma do CMN e crédito rural, núcleo da aba Chamada Agro, com peso maior na Amazônia e em Rondônia"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Resolução de maio, com gancho no início da exigência em 4/1/2027"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Resolução lida na íntegra no Banco Central e confirmada pela página oficial do governo federal"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Reúne prazos por porte, documentos aceitos e regras de data dos documentos, que as fontes trazem separadas"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 8,
+    "viral": 4,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: resolução do CMN (2)",
+    "Proximidade: nacional, com peso na Amazônia (2)",
+    "Duas fontes independentes (1)",
+    "Utilidade: documentos que destravam o crédito (2)",
+    "Gatilho no calendário: 4 de janeiro (2)",
+    "Tema que já mobiliza o público: crédito rural (2)",
+    "Contraste: alerta de satélite e produtor regular (2)",
+    "Passagem bíblica que um pastor usaria: Gênesis 2.15 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN nº 5.303, de 12 de maio de 2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / crédito e meio ambiente",
+  "coleta": "2026-11-15",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na íntegra da resolução e na página do governo federal",
+   "contradicoes": "Um site especializado diz que a regra original começaria em 2026 e foi adiada; a nota usa só as datas da Resolução 5.303.",
+   "sem_confirmacao": "lista do MMA e procedimento de cada banco para contestação"
+  },
+  "duplicidade": {
+   "grupo": "Prodes e crédito rural",
+   "itens": [
+    "BCB 12/05/2026",
+    "gov.br Meu Imóvel Rural"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se o desmatamento do Prodes vai barrar o crédito rural e quando",
+   "entidades": [
+    "Resolução CMN 5.303",
+    "Prodes",
+    "Manual de Crédito Rural",
+    "Ministério do Meio Ambiente",
+    "Resolução Conama 510/2025"
+   ],
+   "termos": [
+    "Prodes crédito rural 2027",
+    "desmatamento após 2019 crédito rural",
+    "Resolução 5.303 CMN"
+   ],
+   "atualizacao": "acompanhar a lista do MMA e eventual novo adiamento"
+  },
+  "agro": {
+   "demanda": "Produtores com alerta do Prodes precisam obter ou reunir ASV, UAS, PRAD, termo do PRA, TAC ou termo com o órgão estadual antes de pedir crédito; contestação de alertas indevidos",
+   "prazo": "4/1/2027 (acima de 15 módulos), 1º/7/2027 (4 a 15 módulos), 3/1/2028 (até 4 módulos e assentamentos)",
+   "quem": "Produtores com imóveis na Amazônia Legal e demais biomas monitorados, a começar pelos maiores"
+  }
+ },
+ "descricao_seo": "Resolução CMN 5.303: banco checará desmatamento pós-2019 no Prodes antes do crédito rural, a partir de 4/1/2027 para imóveis acima de 15 módulos.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da resolução e da página do governo, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regras citadas literalmente da resolução e da página oficial; a opinião critica o risco de tratar alerta como infração, sem defender desmatamento ilegal nem acusar ninguém. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/credito-rural-prodes-desmatamento-2019-bloqueio-janeiro-2027-cmn.jpg",
+  "credito": "Narcisse-Virgile Diaz de la Peña, A floresta de Fontainebleau (1874), The Metropolitan Museum of Art",
+  "alt": "Pintura de floresta densa com clareira e um caminhante entre as árvores",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP366371.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/436196"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-15T02:34:51-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-15T02:34:51-03:00"
+}
