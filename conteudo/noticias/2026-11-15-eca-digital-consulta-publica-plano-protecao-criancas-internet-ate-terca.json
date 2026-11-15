@@ -1,0 +1,211 @@
+{
+ "slug": "eca-digital-consulta-publica-plano-protecao-criancas-internet-ate-terca",
+ "data": "2026-11-15",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": true,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "ECA Digital: famílias podem opinar até terça no plano federal de proteção às crianças na internet",
+ "lide": "O comitê federal da política de proteção de crianças e adolescentes no ambiente digital recebe até terça-feira (17) contribuições para o plano 2027-2029, segundo a Agência Brasil. A consulta é aberta a famílias, conselhos tutelares e escolas e vem oito meses depois de o ECA Digital, a Lei 15.211/2025, começar a valer.",
+ "por_que_importa": "O plano vai definir por três anos como o governo aplica a lei que obriga redes, jogos e lojas de aplicativos a proteger os filhos. É raro os pais terem voz direta nisso. E a lei mexe em pontos sensíveis, como a retirada de conteúdo sem ordem judicial.",
+ "numeros": [
+  [
+   "17/11",
+   "é o último dia para enviar contribuições ao plano trienal 2027-2029",
+   "News Rondônia e Rondônia Dinâmica, 13/11/2026, com informações da Agência Brasil"
+  ],
+  [
+   "16 anos",
+   "é a idade até a qual a conta em rede social deve estar vinculada à de um responsável legal",
+   "Agência Senado, 13/11/2026"
+  ],
+  [
+   "10%",
+   "do faturamento no Brasil é a multa máxima para a empresa que descumprir a lei",
+   "Agência Senado, 13/11/2026"
+  ],
+  [
+   "92%",
+   "dos brasileiros de 9 a 17 anos usam a internet, segundo a TIC Kids Online Brasil 2025",
+   "Agência Senado, 13/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O ECA Digital vale desde 17 de março de 2026, segundo a Agência Brasil. A lei exige verificação de idade que não se baseie só na palavra do usuário, ferramentas de supervisão parental, configurações de privacidade mais protetivas por padrão e proíbe as caixas de recompensa (loot boxes) em jogos para crianças. O download de aplicativos depende do consentimento dos pais, e \"a ausência de manifestação não pode ser interpretada como autorização\", resume a Agência Senado.",
+  "O plano trienal tem sete eixos, entre eles prevenção de violências, privacidade desde a concepção dos serviços e formação de profissionais e famílias. Segundo o governo, as contribuições serão sistematizadas para a versão final do texto no comitê intersetorial."
+ ],
+ "no_brasil": "A lei também manda as plataformas retirarem, sem ordem judicial, conteúdo denunciado pela vítima, pelo Ministério Público ou por entidades de defesa da infância; conteúdo jornalístico fica fora, e quem teve o material removido pode recorrer, segundo a Agência Senado.",
+ "critica": [
+  {
+   "fonte": "Agência Senado, sobre as regras da lei",
+   "texto": "O download de aplicativos por crianças e adolescentes depende de consentimento livre e informado dos pais ou responsáveis. A ausência de manifestação não pode ser interpretada como autorização.",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/eca-digital-estabelece-regras-para-proteger-criancas-e-adolescentes"
+  },
+  {
+   "fonte": "Governo federal, em nota reproduzida pela Rondônia Dinâmica",
+   "texto": "Após o encerramento da consulta, as manifestações recebidas serão sistematizadas e analisadas juntamente com as contribuições apresentadas nas reuniões técnicas, de modo a subsidiar o aperfeiçoamento do documento e a consolidação de sua versão final no âmbito do Comitê Intersetorial",
+   "citacao": true,
+   "url": "https://www.rondoniadinamica.com/noticias/2026/11/governo-recebera-sugestoes-para-proteger-criancas-no-ambiente-digital,258710.shtml"
+  }
+ ],
+ "para_quem": [
+  "Pais e mães que querem opinar sobre como o governo aplica a lei na internet dos filhos",
+  "Conselheiros tutelares, professores e igrejas que trabalham com crianças",
+  "Quem quer saber o que as redes e os jogos já são obrigados a oferecer aos pais"
+ ],
+ "nao_e_para": [
+  "A consulta não muda a lei; trata do plano de ações do governo",
+  "A lei não proíbe crianças nas redes; exige conta vinculada a um responsável até 16 anos",
+  "Não substitui a vigilância dos pais: as ferramentas só funcionam se forem usadas"
+ ],
+ "veredito": "Proteger criança na internet é dever, e a lei acerta ao cobrar das big techs. Mas quem educa é a família, não o Estado. Pais e igrejas devem participar da consulta e vigiar a retirada de conteúdo sem ordem judicial para que não vire porta para censura.",
+ "versiculo": {
+  "texto": "Instrui o menino no caminho em que deve andar, e, até quando envelhecer, não se desviará dele",
+  "referencia": "Provérbios 22.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: ECA Digital estabelece regras para proteger crianças e adolescentes (13/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/eca-digital-estabelece-regras-para-proteger-criancas-e-adolescentes",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: ECA Digital começa a valer nesta terça; confira principais pontos (17/03/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-03/eca-digital-comeca-valer-nesta-terca-confira-principais-pontos",
+   "data": "17/03/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "News Rondônia: Consulta pública recebe propostas para plano digital infantil (13/11/2026), com informações da Agência Brasil",
+   "url": "https://newsrondonia.com.br/politica/2026/11/13/consulta-publica-recebe-propostas-para-plano-digital-infantil/",
+   "data": "13/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Rondônia Dinâmica: Governo receberá sugestões para proteger crianças no ambiente digital (13/11/2026)",
+   "url": "https://www.rondoniadinamica.com/noticias/2026/11/governo-recebera-sugestoes-para-proteger-criancas-no-ambiente-digital,258710.shtml",
+   "data": "13/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 79,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "Proteção dos filhos na internet e participação das famílias no plano federal do ECA Digital"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/eca-digital-estabelece-regras-para-proteger-criancas-e-adolescentes"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Lei 15.211/2025 em vigor desde 17/03 para redes, jogos e lojas de aplicativos; o plano define as ações de 2027 a 2029"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Família e educação dos filhos, com ponto sensível de liberdade: retirada de conteúdo sem ordem judicial"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Consulta pública aberta, com prazo final na terça-feira, 17/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Regras da lei pela Agência Senado e pela Agência Brasil; consulta confirmada por dois veículos com base na Agência Brasil e na nota do governo"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Junta a consulta com o que a lei já obriga e com o ponto da retirada sem ordem judicial"
+   }
+  },
+  "publico": {
+   "pontos": 17,
+   "eixos": {
+    "valor": 8,
+    "viral": 5,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: Agência Senado sobre a lei (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Utilidade: como participar e o que a lei garante (2)",
+    "Gatilho no calendário: prazo na terça (2)",
+    "Tema que já mobiliza o público: crianças nas redes (2)",
+    "Número forte: multa de até 10% do faturamento (1)",
+    "Contraste: proteção e risco de censura (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 22.6 (2)",
+    "Família como protagonista (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Consulta pública recebe propostas para plano digital infantil",
+  "nucleo": "A - Brasil",
+  "categoria": "Família / internet",
+  "coleta": "2026-11-15",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "lei descrita pela Agência Senado e pela Agência Brasil; consulta confirmada por dois veículos",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "página oficial da consulta e nome do ministério responsável (não lidos; a matéria original da Agência Brasil não abriu)"
+  },
+  "duplicidade": {
+   "grupo": "ECA Digital",
+   "itens": [
+    "Agência Senado 13/11",
+    "News Rondônia 13/11",
+    "Rondônia Dinâmica 13/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que o ECA Digital exige e como participar da consulta",
+   "entidades": [
+    "ECA Digital",
+    "Lei 15.211/2025",
+    "Agência Senado",
+    "consulta pública"
+   ],
+   "termos": [
+    "ECA Digital consulta pública",
+    "plano proteção crianças internet",
+    "ECA Digital o que muda para os pais"
+   ],
+   "atualizacao": "acompanhar a versão final do plano 2027-2029"
+  }
+ },
+ "descricao_seo": "Consulta pública do plano 2027-2029 de proteção a crianças na internet vai até 17/11. Veja o que o ECA Digital já exige das plataformas.",
+ "instituicao": "Governo federal",
+ "editora": "Governo federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das matérias da Agência Senado e da Agência Brasil, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regras da lei atribuídas à Agência Senado e à Agência Brasil, consulta a dois veículos, citações literais conferidas. A opinião critica o risco de abuso, sem acusar pessoa. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/eca-digital-consulta-publica-plano-protecao-criancas-internet-ate-terca.jpg",
+  "credito": "Foto: Rovena Rosa/Agência Brasil",
+  "alt": "Duas jovens sentadas em bancos de praça olham o celular, sem o rosto aparecer (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/Be4eUz8xoJeXS9Bx7zl8vFE7808=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/rvrsa_abr_22081921127.jpg?itok=g2MZIE9O",
+  "pagina": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-03/eca-digital-comeca-valer-nesta-terca-confira-principais-pontos"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-15T02:29:28-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-15T02:29:28-03:00"
+}
