@@ -1,0 +1,193 @@
+{
+ "slug": "aval-cedula-credito-rural-valido-cpr-impenhoravel-stj-garantias",
+ "data": "2026-11-15",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Motivo de alerta",
+ "titulo": "Quem assina como avalista de cédula rural responde pela dívida, decidiu o STJ",
+ "lide": "A Quarta Turma do STJ decidiu que é válido o aval dado em cédula de crédito rural, e o banco pode cobrar o avalista quando o produtor não paga. Em outro caso, a mesma turma decidiu que os bens dados em garantia de Cédula de Produto Rural são impenhoráveis e não respondem nem por dívida trabalhista.",
+ "por_que_importa": "Com a cobrança apertando no campo, parentes e amigos que assinaram como avalistas podem ser chamados a pagar. Saber o que vale em cada título evita surpresa: a proibição de aval existe para a nota promissória e a duplicata rurais, não para a cédula.",
+ "numeros": [
+  [
+   "1967",
+   "é o ano do Decreto-Lei 167, que regula os títulos de crédito rural e cujo art. 60 está no centro da discussão sobre o aval",
+   "STJ, 17/03/2015"
+  ],
+  [
+   "1994",
+   "é o ano da Lei 8.929, que criou a CPR e torna impenhoráveis os bens dados em garantia dela",
+   "STJ, 2019"
+  ]
+ ],
+ "corpo": [
+  "No caso do aval, o relator, ministro Luis Felipe Salomão, concluiu que a nulidade do § 3º do art. 60 do Decreto-Lei 167/1967 vale só para nota promissória rural e duplicata rural, títulos em que o produtor costuma ser o credor. Na cédula, que representa um financiamento tomado pelo produtor, o aval vale, e o banco pôde seguir com a execução contra o avalista. A turma acompanhou decisão anterior da Terceira Turma.",
+  "No caso da CPR, a turma reformou decisão do Tribunal de Justiça do Rio Grande do Sul e afirmou que a impenhorabilidade dos bens dados em garantia cedular decorre da lei e é absoluta. Para Salomão, \"a impenhorabilidade dos bens dados em garantia cedular\" não é voluntária: \"Esta, indubitavelmente, decorre da lei, e só dela\"."
+ ],
+ "no_brasil": "As duas são decisões de turma, de 2015 e 2019, e não teses repetitivas; outros tribunais podem decidir de outro modo em casos concretos. Em 2025, a Terceira Turma reforçou a proteção da CPR ao decidir que o crédito de CPR de troca por insumos fica fora da recuperação judicial, como o portal noticiou.",
+ "critica": [
+  {
+   "fonte": "Ministro Luis Felipe Salomão, relator, segundo o STJ (2015)",
+   "texto": "A partir das regras cambiais ordinárias referentes à responsabilidade do endossante, o produtor rural ficava responsável pela solvência do título para com o endossatário, de modo que, à falta de pagamento da cártula pela agroindústria devedora, o produtor rural perdia seu produto e ainda suportava, como endossante, a solvência do título junto à instituição financeira. Ou seja, era duplamente sacrificado",
+   "citacao": true,
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias-antigas/2015/2015-03-17_08-30_Quarta-Turma-considera-valido-o-aval-prestado-em-cedula-de-credito-rural.aspx"
+  },
+  {
+   "fonte": "Ministro Luis Felipe Salomão, relator, segundo o STJ (2019)",
+   "texto": "Esta, indubitavelmente, decorre da lei, e só dela",
+   "citacao": true,
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias-antigas/2019/Cedula-de-produto-rural-e-impenhoravel-por-lei-e-nao-pode-ser-usada-para-satisfazer-credito-trabalhista.aspx"
+  }
+ ],
+ "para_quem": [
+  "Quem assinou como avalista de cédula de crédito rural de parente ou amigo",
+  "Produtor que emitiu CPR com bens em garantia",
+  "Credores trabalhistas de cooperativas e empresas rurais"
+ ],
+ "nao_e_para": [
+  "Não vale para nota promissória rural e duplicata rural, em que o aval é vedado com exceções",
+  "Não são teses repetitivas: o resultado pode variar em cada caso",
+  "Não impede a cobrança da dívida do próprio produtor"
+ ],
+ "veredito": "Aval não é favor, é dívida. A Bíblia já avisa contra ser fiador sem medida, e a lei confirma: quem assina a cédula responde. Antes de avalizar o crédito de alguém, a família precisa medir se pode pagar.",
+ "versiculo": {
+  "texto": "Não estejas entre os que dão as mãos e entre os que ficam por fiadores de dívidas",
+  "referencia": "Provérbios 22.26",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STJ: Quarta Turma considera válido o aval prestado em cédula de crédito rural (17/03/2015)",
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias-antigas/2015/2015-03-17_08-30_Quarta-Turma-considera-valido-o-aval-prestado-em-cedula-de-credito-rural.aspx",
+   "data": "17/03/2015",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: Cédula de produto rural é impenhorável por lei e não pode ser usada para satisfazer crédito trabalhista (2019)",
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias-antigas/2019/Cedula-de-produto-rural-e-impenhoravel-por-lei-e-nao-pode-ser-usada-para-satisfazer-credito-trabalhista.aspx",
+   "data": "2019",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 56,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Garantias do crédito rural: aval na cédula e bens dados em garantia de CPR"
+  },
+  "origem": {
+   "nome": "STJ",
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias-antigas/2015/2015-03-17_08-30_Quarta-Turma-considera-valido-o-aval-prestado-em-cedula-de-credito-rural.aspx"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Decisões de turma do STJ que orientam cobranças contra avalistas e penhoras de bens de CPR"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Decisões da Justiça sobre o produtor e o crédito rural, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 0,
+    "porque": "Decisões de 2015 e 2019, sem desdobramento novo; gancho apenas no aperto da cobrança no campo"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Duas notícias oficiais do STJ lidas, com relator e fundamentos"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Junta duas decisões pouco lembradas e diferencia cédula, nota promissória e duplicata rurais"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 7,
+    "viral": 2,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: notícias oficiais do STJ (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Utilidade: quem responde pela dívida (2)",
+    "Tema que já mobiliza o público: dívida rural (2)",
+    "Contraste: aval válido na cédula, vedado na nota rural (1)",
+    "Passagem bíblica que um pastor usaria: Provérbios 22.26 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Quarta Turma considera válido o aval prestado em cédula de crédito rural",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / garantias",
+  "coleta": "2026-11-15",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido nas notícias oficiais do STJ",
+   "contradicoes": "O STJ registrou em 2015 divergência anterior entre as turmas sobre o aval; a nota informa que as decisões são de turma.",
+   "sem_confirmacao": "jurisprudência posterior a 2019 sobre os dois temas (não pesquisada na íntegra)"
+  },
+  "duplicidade": {
+   "grupo": "Garantias do crédito rural no STJ",
+   "itens": [
+    "STJ 2015",
+    "STJ 2019"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-14-recuperacao-judicial-produtor-rural-o-que-stj-decidiu-cpr-graos"
+  },
+  "seo": {
+   "intencao": "saber se o avalista de cédula rural paga a dívida",
+   "entidades": [
+    "STJ",
+    "Decreto-Lei 167/1967",
+    "Lei 8.929/1994",
+    "CPR",
+    "cédula de crédito rural",
+    "Luis Felipe Salomão"
+   ],
+   "termos": [
+    "aval cédula de crédito rural",
+    "avalista dívida rural",
+    "CPR impenhorável"
+   ],
+   "atualizacao": "acompanhar eventual tese repetitiva sobre aval em títulos rurais"
+  },
+  "agro": {
+   "demanda": "Avalistas de cédulas rurais cobrados pelo banco; discussão de penhora de bens dados em garantia de CPR; distinção entre cédula e nota promissória ou duplicata rural",
+   "prazo": "Prazos de defesa das execuções em curso",
+   "quem": "Avalistas, produtores com CPR e credores trabalhistas de empresas rurais"
+  }
+ },
+ "descricao_seo": "STJ: aval em cédula de crédito rural é válido e o avalista pode ser cobrado; bens dados em garantia de CPR são impenhoráveis.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das notícias oficiais do STJ, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: decisões descritas pelas notícias oficiais do STJ, com ressalva de que são de turma; citações literais conferidas. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/aval-cedula-credito-rural-valido-cpr-impenhoravel-stj-garantias.jpg",
+  "credito": "Jean-François Millet, Medas de feno: outono (c. 1874), The Metropolitan Museum of Art",
+  "alt": "Pintura de Millet: três medas de feno e um rebanho de ovelhas sob céu de tempestade",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP124093.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/437097"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-15T02:40:44-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-15T02:40:44-03:00"
+}
