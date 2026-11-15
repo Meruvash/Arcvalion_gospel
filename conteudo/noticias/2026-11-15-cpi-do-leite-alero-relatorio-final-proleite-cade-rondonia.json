@@ -1,0 +1,197 @@
+{
+ "slug": "cpi-do-leite-alero-relatorio-final-proleite-cade-rondonia",
+ "data": "2026-11-15",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Vale acompanhar",
+ "titulo": "CPI do Leite da Assembleia de Rondônia aprova relatório e manda dados de preços ao Cade",
+ "lide": "A CPI da Cadeia Produtiva do Leite da Assembleia Legislativa de Rondônia aprovou, na quinta-feira (12), o relatório final, por unanimidade dos três deputados presentes. O texto aponta concentração na compra do leite, recomenda enviar os dados ao Cade e mostra que o Fundo Proleite pagou só 21,57% do orçamento autorizado entre 2018 e 2025.",
+ "por_que_importa": "O relatório põe no papel o que o produtor de leite de Rondônia já sente: entregar o leite sem saber quanto vai receber. Com a produção em queda há uma década e um fundo estadual que gastou um quinto do previsto, a cobrança agora recai sobre o governo do estado e sobre a fiscalização da concorrência.",
+ "numeros": [
+  [
+   "21,57%",
+   "do orçamento autorizado do Fundo Proleite foi pago de 2018 a 2025: R$ 28,3 milhões de R$ 131,5 milhões",
+   "Assembleia Legislativa de Rondônia, com dados da Seagri, 13/11/2026"
+  ],
+  [
+   "-32,7%",
+   "foi a queda da produção de leite de Rondônia entre 2013 (920,5 milhões de litros) e 2024 (619,5 milhões)",
+   "IBGE, Pesquisa da Pecuária Municipal, tabela 74"
+  ],
+  [
+   "-50,8%",
+   "foi a queda das vacas ordenhadas no estado entre 2017 (692.798) e 2024 (340.655)",
+   "IBGE, Pesquisa da Pecuária Municipal, tabela 94"
+  ]
+ ],
+ "corpo": [
+  "Segundo a Assembleia, o relatório do deputado Eyder Brasil (PSD), lido pela presidente da comissão, deputada Cláudia de Jesus (PT), apontou baixa remuneração dos produtores, falta de previsibilidade dos preços, concentração do mercado de compra e pouca assistência técnica. Produtores relataram que entregam o leite aos laticínios sem conhecer antes o valor e sem acesso aos resultados das análises de qualidade.",
+  "A comissão diz que os elementos reunidos não permitem concluir que haja cartel, mas recomenda enviar as informações ao Conselho Administrativo de Defesa Econômica (Cade). Entre as medidas propostas estão pôr em funcionamento o Laboratório de Qualidade do Leite de Rondônia, ampliar a assistência técnica, dar transparência à formação dos preços, abrir linhas de crédito e recuperar estradas vicinais. Instalada em março, a CPI fez reuniões em Alvorada do Oeste, Machadinho do Oeste, Jaru, Ji-Paraná e Nova Mamoré."
+ ],
+ "no_brasil": "Rondônia produziu 619,5 milhões de litros de leite em 2024, 1,7% dos 35,7 bilhões de litros do país, segundo o IBGE. A CPI cita queda de cerca de 43% entre 2013 e 2025, conta que inclui um ano ainda sem dado oficial do IBGE.",
+ "critica": [
+  {
+   "fonte": "Assembleia Legislativa de Rondônia (Secom), sobre a conclusão do relatório",
+   "texto": "Embora os elementos reunidos não permitam concluir pela ocorrência de cartel, o relatório recomenda o encaminhamento das informações ao Conselho Administrativo de Defesa Econômica (Cade) para aprofundamento da investigação.",
+   "citacao": true,
+   "url": "https://www.al.ro.leg.br/noticias/cpi-do-leite-aprova-relatorio-final-e-recomenda-medidas-para-fortalecer-o-setor"
+  },
+  {
+   "fonte": "Assembleia Legislativa de Rondônia (Secom), sobre o relato dos produtores",
+   "texto": "Entre as dificuldades relatadas está a prática de entregar o leite aos laticínios sem conhecer antecipadamente o valor que será recebido",
+   "citacao": true,
+   "url": "https://www.al.ro.leg.br/noticias/cpi-do-leite-aprova-relatorio-final-e-recomenda-medidas-para-fortalecer-o-setor"
+  }
+ ],
+ "para_quem": [
+  "Produtor de leite de Rondônia: as recomendações ainda serão enviadas aos órgãos, sem prazo definido; vale acompanhar na Comissão de Agropecuária da Assembleia, que ficou encarregada de cobrar a execução",
+  "Quem entrega leite sem preço combinado: o relatório pede transparência na formação do preço e acesso às análises de qualidade, um pedido que o produtor pode fazer por escrito ao laticínio desde já",
+  "Cooperativas e associações do leite: o envio dos dados ao Cade abre caminho para levar relatos próprios sobre a concentração da compra"
+ ],
+ "nao_e_para": [
+  "A CPI não concluiu que haja cartel; recomendou que o Cade aprofunde a investigação",
+  "Os números da CPI vêm da nota oficial da Assembleia; a íntegra do relatório não foi lida",
+  "As recomendações não obrigam o governo do estado nem os laticínios"
+ ],
+ "veredito": "A gente apoia a CPI e cobra o passo seguinte. Um fundo que pagou um quinto do previsto não ajuda quem tira leite todo dia. O governo de Rondônia precisa explicar o Proleite, e o Cade precisa olhar os dados com a mesma seriedade.",
+ "fontes": [
+  {
+   "nome": "Assembleia Legislativa de Rondônia: CPI do Leite aprova relatório final e recomenda medidas para fortalecer o setor",
+   "url": "https://www.al.ro.leg.br/noticias/cpi-do-leite-aprova-relatorio-final-e-recomenda-medidas-para-fortalecer-o-setor",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "IBGE, Sidra: Pesquisa da Pecuária Municipal, tabela 74 (produção de origem animal) e tabela 94 (vacas ordenhadas), Rondônia",
+   "url": "https://sidra.ibge.gov.br/tabela/74",
+   "data": "15/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Rondoniagora: CPI do Leite aprova relatório final e recomenda medidas para fortalecer o setor",
+   "url": "https://www.rondoniagora.com/politica/cpi-do-leite-aprova-relatorio-final-e-recomenda-medidas-para-fortalecer-o-setor",
+   "data": "14/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 57,
+  "trilha": "quente",
+  "abrangencia": "rondonia",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Relatório da Assembleia de Rondônia sobre o preço pago ao produtor de leite e a execução do fundo estadual do setor"
+  },
+  "origem": {
+   "nome": "Rondoniagora",
+   "url": "https://www.rondoniagora.com/politica/cpi-do-leite-aprova-relatorio-final-e-recomenda-medidas-para-fortalecer-o-setor"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 8,
+    "porque": "Relatório aprovado com recomendações e envio ao Cade; nada muda de imediato para o produtor, mas abre investigação possível e cobrança ao fundo estadual"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Produtor rural de Rondônia, preço do leite e fundo público do setor, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Relatório aprovado em 12/11 e divulgado em 13/11, há mais de 48 horas"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Nota oficial da Assembleia lida na íntegra e queda da produção confirmada no IBGE; a íntegra do relatório não foi lida"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Acrescentamos os números do IBGE (produção de 2013 a 2024, vacas ordenhadas e peso no país), que a Assembleia não deu"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 8,
+    "viral": 2,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: nota oficial da Assembleia e dados do IBGE (2)",
+    "Ato de quem tem poder: relatório de CPI aprovado (2)",
+    "Proximidade: Rondônia (2)",
+    "Número forte: Proleite pagou 21,57% do autorizado (1)",
+    "Duas fontes independentes: Assembleia e IBGE (1)",
+    "Utilidade: o que o produtor pode cobrar do laticínio (1)",
+    "Cabe num cartão: fundo do leite pagou um quinto do previsto (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "CPI do Leite aprova relatório final e recomenda medidas para fortalecer o setor",
+  "nucleo": "B - Rondônia",
+  "categoria": "Agro / Pecuária leiteira",
+  "coleta": "2026-11-15",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na nota oficial da Assembleia e no IBGE",
+   "contradicoes": "a CPI fala em queda de cerca de 43% (2013 a 2025); o IBGE mostra -32,7% de 2013 a 2024 e -39,9% de 2017 a 2024",
+   "sem_confirmacao": "íntegra do relatório; resposta da Seagri sobre a execução do Proleite"
+  },
+  "duplicidade": {
+   "grupo": "CPI do Leite da ALE-RO",
+   "itens": [
+    "nota da Secom ALE-RO",
+    "Rondoniagora"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber o que a CPI do Leite de Rondônia concluiu",
+   "entidades": [
+    "CPI do Leite",
+    "Assembleia Legislativa de Rondônia",
+    "Fundo Proleite",
+    "Cade",
+    "IBGE"
+   ],
+   "termos": [
+    "CPI do Leite Rondônia relatório",
+    "Proleite Rondônia",
+    "preço do leite produtor Rondônia"
+   ],
+   "atualizacao": "publicar o relatório integral quando sair no Sapl e o andamento no Cade"
+  },
+  "agro": {
+   "demanda": "Produtores de leite sem preço prévio e sem acesso às análises de qualidade; possível representação ao Cade sobre concentração na compra; cobrança da execução do Fundo Proleite",
+   "prazo": "sem prazo",
+   "quem": "Produtores de leite de Rondônia, cooperativas e associações do setor"
+  }
+ },
+ "descricao_seo": "CPI do Leite da ALE-RO aprova relatório em 12/11: pede envio de dados ao Cade e mostra que o Proleite pagou 21,57% do autorizado de 2018 a 2025.",
+ "instituicao": "Assembleia Legislativa de Rondônia",
+ "editora": "Assembleia Legislativa de Rondônia",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da nota oficial, consulta ao IBGE, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: nenhum laticínio é citado nem acusado; a nota diz expressamente que a CPI não concluiu haver cartel. A crítica é à execução de um fundo público e cobra explicação do governo estadual, sem imputar crime a ninguém. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/cpi-do-leite-alero-relatorio-final-proleite-cade-rondonia.jpg",
+  "credito": "Aelbert Cuyp, Jovens vaqueiros com vacas (c. 1655-60), The Metropolitan Museum of Art",
+  "alt": "Pintura de Cuyp: vacas deitadas e de pé num pasto à beira do rio, com dois vaqueiros ao lado",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP146445.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/436064"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-15T02:31:25-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-15T02:31:25-03:00"
+}
