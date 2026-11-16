@@ -1,0 +1,193 @@
+{
+ "slug": "lei-15526-seguro-rural-subvencao-obrigatoria-fundo-catastrofe-veto",
+ "data": "2026-11-16",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Nova lei do seguro rural torna subvenção obrigatória, mas limitada ao valor do orçamento",
+ "lide": "A Lei 15.526, sancionada com vetos em 29 de setembro, tornou despesa obrigatória, livre de contingenciamento, o apoio federal ao seguro rural e tenta pôr em funcionamento o Fundo Catástrofe, criado em 2010. O texto limita as subvenções de cada ano ao valor previsto no projeto de orçamento enviado pelo governo e permite exigir seguro para o crédito de custeio.",
+ "por_que_importa": "O seguro ficou obrigatório até o teto que o próprio governo escolhe. A lei protege a verba do corte no meio do ano, o que é avanço real, mas deixa o tamanho do apoio na mão de quem escreve o orçamento. Em ano de El Niño e safra de verão no campo, é esse número que vai dizer se o produtor consegue pagar a apólice.",
+ "numeros": [
+  [
+   "2010",
+   "é o ano de criação do Fundo Catástrofe (Lei Complementar 137), que até a nova lei nunca funcionou",
+   "Agência Senado, 30/09/2026"
+  ],
+  [
+   "R$ 2 bi e R$ 4 bi",
+   "eram os limites da contribuição da União ao fundo, na adesão e em títulos públicos; a lei acabou com esses tetos",
+   "Agência Senado, 30/09/2026"
+  ],
+  [
+   "1 veto",
+   "derrubou a isenção de todos os tributos federais sobre o seguro rural e ainda será analisado pelo Congresso",
+   "Agência Senado, 30/09/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo a Agência Senado, a lei nasceu do PL 2.951/2024, da senadora Tereza Cristina (PP-MS), relatado no Senado por Jaime Bagattoli (PL-RO). Ela prevê articulação com estados e municípios para complementar a subvenção e baratear o seguro; no plano federal, o apoio segue pelo Programa de Subvenção ao Prêmio do Seguro Rural (PSR).",
+  "Para o Fundo Catástrofe, a lei permite que o governo designe provisoriamente uma instituição para organizá-lo, acaba com o limite da contribuição da União e faz do investimento das seguradoras como cotistas um requisito para receber a subvenção do PSR. No crédito, quem tem seguro ganha prioridade nas linhas de renegociação, e o poder público passa a poder exigir seguro para o custeio, o que a Lei 10.823/2003 proibia."
+ ],
+ "no_brasil": "O Executivo vetou a isenção de todos os tributos federais sobre o seguro rural, alegando falta de estudo de impacto e de compensação fiscal. O Congresso ainda deve decidir se mantém ou derruba o veto; não encontramos deliberação até 16/11.",
+ "critica": [
+  {
+   "fonte": "Senadora Tereza Cristina (PP-MS), autora do projeto, segundo a Agência Senado",
+   "texto": "Um seguro rural mais eficiente ajuda a enfrentar as adversidades, preservar a produção e garantir a continuidade do abastecimento.",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/09/30/lei-fortalece-seguro-rural-e-fundo-para-catastrofes-que-atinjam-a-producao"
+  },
+  {
+   "fonte": "Lei 15.526/2026, segundo a Agência Senado, sobre o limite das subvenções",
+   "texto": "limitadas ao montante previsto no projeto de lei orçamentária anual encaminhado pelo Poder Executivo federal ao Congresso Nacional",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/09/30/lei-fortalece-seguro-rural-e-fundo-para-catastrofes-que-atinjam-a-producao"
+  }
+ ],
+ "para_quem": [
+  "Produtor que vai contratar custeio nesta safra de verão: pergunte ao banco pelo seguro com subvenção do PSR, porque com seguro você tem prioridade numa futura renegociação, enquanto durar a safra 2026/27",
+  "Quem já sofreu com seca ou excesso de chuva: a apólice pode virar garantia do financiamento, e o banco recebe a indenização em caso de perda; leia a cláusula antes de assinar",
+  "Quem acompanha o orçamento: o valor do PSR para 2027 está no projeto de lei orçamentária, que tramita no Congresso"
+ ],
+ "nao_e_para": [
+  "O Fundo Catástrofe ainda depende de regulamentação e de aportes para funcionar",
+  "O veto à isenção de tributos ainda será analisado pelo Congresso",
+  "A exigência de seguro no custeio é uma possibilidade aberta pela lei; depende de regra do poder público para valer"
+ ],
+ "veredito": "A gente aplaude a verba blindada contra corte e cobra o número. Despesa obrigatória com teto escolhido pelo governo é promessa com tampa. O Congresso tem o orçamento de 2027 nas mãos: se quer seguro de verdade no campo, o PSR precisa caber nele.",
+ "fontes": [
+  {
+   "nome": "Agência Senado: Lei fortalece seguro rural e fundo para catástrofes que atinjam a produção",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/09/30/lei-fortalece-seguro-rural-e-fundo-para-catastrofes-que-atinjam-a-producao",
+   "data": "30/09/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Mudanças no seguro rural seguem para sanção",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/09/03/mudancas-no-seguro-rural-seguem-para-sancao",
+   "data": "03/09/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 60,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Lei em vigor que muda a subvenção do seguro rural, o Fundo Catástrofe e a ligação entre seguro e crédito de custeio"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/09/30/lei-fortalece-seguro-rural-e-fundo-para-catastrofes-que-atinjam-a-producao"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Lei sancionada e em vigor desde 30/09 para todo o seguro rural do país"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Seguro rural e crédito de custeio, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Lei de setembro; o gancho é a safra de verão, o veto ainda pendente e o orçamento de 2027 em votação"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Agência Senado, fonte oficial do Congresso; o texto da lei no Planalto não abriu para leitura automática"
+   },
+   "originalidade": {
+    "pontos": 1,
+    "porque": "Síntese da cobertura oficial com o contraste entre despesa obrigatória e teto orçamentário"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 6,
+    "viral": 4,
+    "cristao": 1
+   },
+   "criterios": [
+    "Documento primário: lei sancionada, pela Agência Senado (2)",
+    "Ato de quem tem poder: lei federal em vigor (2)",
+    "Proximidade: nacional, com relator de Rondônia (2)",
+    "Contraria a narrativa: obrigatória, mas com teto do governo (1)",
+    "Utilidade: o que pedir ao banco no custeio (1)",
+    "Calendário: safra de verão e orçamento de 2027 (1)",
+    "Cabe num cartão: seguro rural obrigatório até o teto do orçamento (1)",
+    "Pede resposta do cristão: prudência diante do risco (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Lei fortalece seguro rural e fundo para catástrofes que atinjam a produção",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Seguro rural",
+  "coleta": "2026-11-16",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na Agência Senado",
+   "contradicoes": "parte da imprensa cita um segundo veto, sobre Letras de Risco de Seguro; a Agência Senado só menciona o veto tributário",
+   "sem_confirmacao": "texto integral da lei e da mensagem de veto; valor do PSR no projeto de orçamento de 2027"
+  },
+  "duplicidade": {
+   "grupo": "Lei 15.526/2026",
+   "itens": [
+    "Agência Senado 30/09",
+    "Agência Senado 03/09"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-14-custeio-sem-proagro-ou-seguro-so-renegocia-com-juros-livres-cmn"
+  },
+  "seo": {
+   "intencao": "entender o que muda com a nova lei do seguro rural",
+   "entidades": [
+    "Lei 15.526/2026",
+    "Fundo Catástrofe",
+    "PSR",
+    "Tereza Cristina",
+    "Jaime Bagattoli"
+   ],
+   "termos": [
+    "nova lei seguro rural",
+    "Lei 15.526",
+    "subvenção seguro rural obrigatória"
+   ],
+   "atualizacao": "acompanhar a análise do veto e o valor do PSR no orçamento de 2027"
+  },
+  "agro": {
+   "demanda": "Produtores que precisam entender a prioridade de quem tem seguro nas renegociações, o uso da apólice como garantia e a possível exigência de seguro no custeio",
+   "prazo": "sem prazo; safra 2026/27 em curso",
+   "quem": "Produtores rurais que contratam custeio e seguro com subvenção do PSR"
+  }
+ },
+ "descricao_seo": "Lei 15.526, sancionada em 29/09, torna obrigatória a subvenção ao seguro rural até o valor do orçamento e reativa o Fundo Catástrofe.",
+ "instituicao": "Congresso Nacional",
+ "editora": "Agência Senado",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das notícias oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a ironia mira o desenho da lei (despesa obrigatória com teto definido pelo Executivo), com a frase da própria lei citada; a autora tem o seu argumento em O que dizem. Nenhuma pessoa é acusada. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/lei-15526-seguro-rural-subvencao-obrigatoria-fundo-catastrofe-veto.jpg",
+  "credito": "Foto: Agência Senado",
+  "alt": "Plenário do Senado na votação do projeto do seguro rural, em 3 de setembro, com a senadora Tereza Cristina no telão",
+  "licenca": "Reprodução livre com citação da Agência Senado e do autor, sem descaracterizar o conteúdo",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/09/03/mudancas-no-seguro-rural-seguem-para-sancao/20260903_02377t.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/09/03/mudancas-no-seguro-rural-seguem-para-sancao"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-16T02:32:17-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-16T02:32:17-03:00"
+}
