@@ -1,0 +1,198 @@
+{
+ "slug": "pgpaf-bonus-novembro-pronaf-cacau-laranja-caf-ativo-ate-9-dezembro",
+ "data": "2026-11-16",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Boa notícia",
+ "titulo": "Bônus de garantia de preços dá desconto no Pronaf a cacau, laranja e manga até 9/12",
+ "lide": "A Portaria SAF/MDA 377, publicada em 9 de novembro, fixou os descontos do Programa de Garantia de Preços para a Agricultura Familiar (PGPAF) nas parcelas do Pronaf que vencem de 10 de novembro a 9 de dezembro. O cacau da Bahia entrou na lista, com 6,38%, e a laranja de Sergipe tem o maior desconto, 77,29%, segundo a Conab.",
+ "por_que_importa": "O bônus devolve ao agricultor familiar parte da parcela quando o preço de mercado do produto financiado cai abaixo do preço de garantia. Só que o desconto não chega sozinho: pela regra do Conselho Monetário Nacional, ele exige CAF ativo e pagamento em dia na data da parcela, e milho e feijão saíram da lista porque os preços subiram.",
+ "numeros": [
+  [
+   "77,29%",
+   "é o maior bônus de novembro, para a laranja em Sergipe; no Pará, a laranja tem 64,53%",
+   "Conab, 09/11/2026, com base na Portaria SAF/MDA 377"
+  ],
+  [
+   "6,38%",
+   "é o desconto do cacau da agricultura familiar da Bahia, que entrou na lista neste mês",
+   "Conab, 09/11/2026"
+  ],
+  [
+   "10/11 a 9/12",
+   "é a validade dos percentuais, calculados com as cotações de outubro",
+   "Conab, 09/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo a Conab, que calcula os percentuais, também tiveram mudança alho em Minas Gerais (2,57%), banana no Rio de Janeiro (0,62%), borracha natural em Minas (3,29%), cana-de-açúcar em Alagoas (1,16%), castanha-de-caju no Ceará (1,27%), laranja em Minas (1,25%) e em São Paulo (3,44%), manga no Distrito Federal (11,82%), mel no Mato Grosso do Sul (13,11%) e mandioca no Rio Grande do Norte (0,06%). Os maiores descontos ficaram com laranja, manga (62,54% em Minas), banana (60,71% em Pernambuco) e feijão-caupi (54,4% no Amapá).",
+  "A Resolução CMN 5.312, em vigor desde 10 de julho, diz que o banco só pode conceder o bônus a quem tiver, na data do pagamento, o Cadastro Nacional da Agricultura Familiar (CAF) ativo e enquadrado no Pronaf, com o pagamento feito até o vencimento. Em parcela prorrogada, o desconto vale sobre o saldo devedor, pelos percentuais da nova data de vencimento."
+ ],
+ "no_brasil": "O PGPAF cobre as operações de custeio e investimento do Pronaf que vencem de 10/7/2026 a 9/7/2027, com preços de garantia fixados pela Resolução CMN 5.312. A lista muda todo mês: em novembro, milho e feijão ficaram acima do preço de referência e deixaram de ter bônus.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.312/2026, art. 2º (MCR 10-15-14)",
+   "texto": "A instituição financeira somente pode conceder bônus de desconto por conta do PGPAF para os mutuários que, na data de pagamento da prestação, possuam o Cadastro Nacional da Agricultura Familiar – CAF ativo",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5312"
+  },
+  {
+   "fonte": "Conab, nota de 09/11/2026",
+   "texto": "Os percentuais de referência têm validade entre 10 de novembro e 9 de dezembro e buscam equalizar os valores de comercialização inferiores ao mínimo estabelecido pelo PGPAF, com base nas cotações praticadas em outubro.",
+   "citacao": true,
+   "url": "https://www.gov.br/conab/pt-br/assuntos/noticias/cacau-e-incluido-na-lista-de-produtos-com-direito-ao-bonus-pgpaf-em-novembro"
+  }
+ ],
+ "para_quem": [
+  "Agricultor familiar com parcela do Pronaf vencendo até 9 de dezembro: confira na Portaria SAF/MDA 377 se o seu produto e o seu estado têm bônus e pague até o vencimento",
+  "Quem está com o CAF vencido ou inativo: regularize antes da data da parcela, porque sem CAF ativo o banco não pode dar o desconto",
+  "Quem prorrogou a parcela: o bônus vale sobre o saldo devedor, pelo percentual da nova data de vencimento"
+ ],
+ "nao_e_para": [
+  "A lista completa por produto e estado está no anexo da Portaria SAF/MDA 377, que não abriu para leitura automática no Diário Oficial; os números aqui são os da Conab",
+  "Milho e feijão não têm bônus em novembro",
+  "Os percentuais valem só até 9 de dezembro; a lista de dezembro sai em nova portaria"
+ ],
+ "veredito": "A gente recomenda olhar o bônus antes de pagar a parcela. Desconto de até 77% não é detalhe para quem vive de pomar e roça. E vale o recado prático: o CAF em dia vale dinheiro. Sem ele, o desconto existe no papel e não chega à parcela.",
+ "fontes": [
+  {
+   "nome": "Conab: Cacau é incluído na lista de produtos com direito ao bônus PGPAF em novembro",
+   "url": "https://www.gov.br/conab/pt-br/assuntos/noticias/cacau-e-incluido-na-lista-de-produtos-com-direito-ao-bonus-pgpaf-em-novembro",
+   "data": "09/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.312, de 25 de junho de 2026 (PGPAF)",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5312",
+   "data": "25/06/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Diário Oficial da União: Portaria SAF/MDA nº 377, de 6 de novembro de 2026",
+   "url": "https://www.in.gov.br/web/dou/-/portaria-saf/mda-n-377-de-6-de-novembro-de-2026-742426003",
+   "data": "09/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 64,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Desconto em vigor nas parcelas do Pronaf para agricultores familiares cujo produto está abaixo do preço de garantia"
+  },
+  "origem": {
+   "nome": "Conab",
+   "url": "https://www.gov.br/conab/pt-br/assuntos/noticias/cacau-e-incluido-na-lista-de-produtos-com-direito-ao-bonus-pgpaf-em-novembro"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Desconto em vigor de 10/11 a 9/12 nas parcelas do Pronaf de produtores de dezenas de produtos e estados"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Crédito rural da agricultura familiar, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Portaria publicada em 9/11, há sete dias, com percentuais válidos até 9/12"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Nota oficial da Conab e Resolução CMN 5.312 lidas na íntegra; o anexo da portaria não abriu para leitura"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Acrescentamos a regra da Resolução 5.312 (CAF ativo, pagamento em dia e parcelas prorrogadas), que a Conab não explicou"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: portaria, resolução do CMN e nota da Conab (2)",
+    "Ato de quem tem poder: portaria do MDA e norma do CMN (2)",
+    "Proximidade: nacional (2)",
+    "Número forte: desconto de até 77,29% (1)",
+    "Utilidade: como garantir o desconto na parcela (1)",
+    "Calendário: validade até 9 de dezembro (1)",
+    "Cabe num cartão: bônus de até 77% no Pronaf com CAF ativo (1)",
+    "Moeda social: regra do CAF que pouca gente conhece (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Cacau é incluído na lista de produtos com direito ao bônus PGPAF em novembro",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Crédito rural e Pronaf",
+  "coleta": "2026-11-16",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na nota da Conab e na Resolução CMN 5.312",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "lista completa do anexo da portaria, inclusive se Rondônia tem algum produto com bônus"
+  },
+  "duplicidade": {
+   "grupo": "PGPAF novembro 2026",
+   "itens": [
+    "Portaria SAF/MDA 377",
+    "Conab 09/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-15-pronaf-2026-2027-caf-ativo-grupo-b-60-mil-regularizacao-fundiaria"
+  },
+  "seo": {
+   "intencao": "saber se o produto tem bônus do PGPAF em novembro",
+   "entidades": [
+    "PGPAF",
+    "Portaria SAF/MDA 377",
+    "Conab",
+    "Pronaf",
+    "CAF"
+   ],
+   "termos": [
+    "bônus PGPAF novembro 2026",
+    "desconto Pronaf PGPAF",
+    "PGPAF CAF ativo"
+   ],
+   "atualizacao": "atualizar com a portaria de dezembro"
+  },
+  "agro": {
+   "demanda": "Agricultores familiares que podem perder o bônus por CAF inativo ou pagamento atrasado; dúvidas sobre bônus em parcela prorrogada e sobre bônus negado pelo banco",
+   "prazo": "09/12/2026",
+   "quem": "Agricultores familiares com parcelas do Pronaf de produtos listados na Portaria SAF/MDA 377"
+  }
+ },
+ "descricao_seo": "Portaria SAF/MDA 377: bônus do PGPAF no Pronaf de 10/11 a 9/12; cacau da Bahia entra com 6,38% e laranja de Sergipe tem 77,29%. Exige CAF ativo.",
+ "instituicao": "Ministério do Desenvolvimento Agrário e Agricultura Familiar",
+ "editora": "Conab",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da nota da Conab e da resolução do CMN, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: percentuais copiados da nota oficial da Conab e regra citada literalmente da Resolução CMN 5.312; a opinião só orienta o agricultor, sem acusar banco ou pessoa. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/pgpaf-bonus-novembro-pronaf-cacau-laranja-caf-ativo-ate-9-dezembro.jpg",
+  "credito": "Vincent van Gogh, O pomar em flor (1888), The Metropolitan Museum of Art",
+  "alt": "Pintura de Van Gogh: árvores de um pomar em flor, com cerca e campo ao fundo",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-045.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/436527"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-16T14:49:50-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-16T14:49:50-03:00"
+}
