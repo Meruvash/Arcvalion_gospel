@@ -16,6 +16,7 @@ está acima do hábito de procurar "o assunto da semana no crédito rural".
 | **F. Família, sucessão e contratos** | herança de fazenda, holding, arrendamento, parceria, Estatuto da Terra |
 | **G. Trabalho e segurança** | NR-31, trabalhador rural, aposentadoria rural, acidentes, roubo de gado e defensivos |
 | **H. Meio ambiente e licenças** | Código Florestal, outorga de água, licenciamento, multas ambientais |
+| **I. Histórias e curiosidades do campo** | casos reais e lugares curiosos do agro, "existe um lugar onde…", história de uma lavoura, de uma cidade ou de uma família |
 
 - **Rodízio:** nunca dois vídeos seguidos no mesmo eixo.
 - **Limite do eixo A:** no máximo **1 vídeo em cada 4**, porque é o eixo do público endividado e o mais fácil de repetir.
@@ -40,6 +41,26 @@ tipos de fonte:
 3. **Imprensa do agro:** Canal Rural, Globo Rural, Notícias Agrícolas, Agência Senado/Câmara e portais regionais. Use para
    achar a pauta, nunca como prova final.
 
+## 2.1 Aprendizado de desempenho (16/11/2026)
+"A porta e o porteiro" (acordo Mercosul–UE + EUDR) **praticamente não teve visualização**. Era um assunto institucional e
+macroeconômico, com dado positivo de mercado e sem conflito nem dinheiro do espectador em jogo.
+
+Os vídeos de agro que mais viralizaram no Brasil entre agosto e novembro de 2026 (pesquisa no Virlo, 16/11/2026) têm três
+coisas em comum:
+- **Lacuna de curiosidade logo na 1ª frase:** "Existe uma cidade aqui do lado de Mossoró que foi construída do zero…",
+  "poucas pessoas sabem disso, mas existe…".
+- **História com conflito:** herança dividida entre irmãos, patrão e trabalhador, quem fica com a fazenda.
+- **Algo do espectador em jogo:** a terra dele, o dinheiro dele, a família dele. Exemplo: "Você financiou um carro de 50
+  mil… vai pagar 100 mil?".
+
+Nos vídeos de direito, o que mais roda é o mito × verdade sobre um direito que a pessoa acha que não tem.
+
+**Regras daí em diante:**
+- **Evite:** pauta institucional, macroeconômica ou de "boa notícia do setor" sem algo do espectador em jogo.
+- **Prefira:** pergunta que o produtor faria no balcão do sindicato ("o vizinho pode me cobrar a cerca?", "o caseiro pode
+  ficar com a fazenda?").
+- **Use o Virlo** (`find_videos`, `search_hooks`) na pesquisa de demanda, sempre que estiver disponível.
+
 ## 3. Critérios de escolha (nota de 1 a 5 em cada um)
 
 | Critério | Pergunta |
@@ -49,6 +70,8 @@ tipos de fonte:
 | Utilidade | O produtor faz algo diferente depois de ver? |
 | Prova | Há documento oficial para mostrar e citar? |
 | Gancho | Cabe numa frase de "Você sabia…" que surpreende? |
+| **Curiosidade (peso 2)** | A primeira frase abre uma pergunta que a pessoa precisa ver respondida? |
+| **Em jogo para o espectador (peso 2)** | Mexe com a terra, o dinheiro ou a família de quem assiste? |
 | Originalidade | Eixo, ângulo e fonte são diferentes dos últimos vídeos (§ 4)? |
 
 Apresente ao editor as **3 melhores**, com a nota de cada uma e uma linha de justificativa, mais a recomendação. Só depois
