@@ -1,0 +1,192 @@
+{
+ "slug": "capital-de-giro-cooperativas-rs-enchentes-2024-pronaf-procap-agro-30-dezembro",
+ "data": "2026-11-16",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Cooperativas do RS atingidas pelas enchentes têm até 30 de dezembro para capital de giro",
+ "lide": "A Resolução CMN 5.321, de 30 de junho, abriu até 30 de dezembro de 2026 duas linhas de capital de giro para cooperativas agropecuárias com indústria ou armazém em municípios gaúchos que tiveram emergência ou calamidade reconhecida entre abril e julho de 2024. São até R$ 90 milhões por cooperativa, cinco anos para pagar e juros de 8% (Pronaf) ou 10% (Procap-Agro) ao ano.",
+ "por_que_importa": "Mais de dois anos depois da enchente, o dinheiro existe, mas a porta é estreita. A cooperativa precisa de projeto validado pelo Sescoop/RS e do aval de credores que somem metade das dívidas que vencem em 2025 e 2026. Quem mais precisa de fôlego depende justamente de quem já está cobrando.",
+ "numeros": [
+  [
+   "R$ 90 milhões",
+   "é o limite por cooperativa, somando todos os bancos, com teto de R$ 90 mil por associado",
+   "Resolução CMN 5.321/2026"
+  ],
+  [
+   "8% e 10%",
+   "são os juros anuais da linha do Pronaf Agroindústria e da linha do Procap-Agro, cobrados também na carência",
+   "Resolução CMN 5.321/2026"
+  ],
+  [
+   "50%",
+   "é a fatia mínima dos créditos com vencimento em 2025 e 2026 cujos credores precisam aprovar o projeto da cooperativa",
+   "Resolução CMN 5.321/2026"
+  ]
+ ],
+ "corpo": [
+  "A resolução vale para cooperativas que demonstrem dificuldade de pagar parte das dívidas de curto prazo em 2025 e 2026 e apresentem projeto de reestruturação financeira, gestão de ativos e governança validado pelo Serviço Nacional de Aprendizagem do Cooperativismo do Rio Grande do Sul (Sescoop/RS), mostrando viabilidade e capacidade de pagamento.",
+  "As duas linhas têm reembolso em até cinco anos, com até 24 meses de carência, e usam só recursos equalizados pelo Tesouro, conforme portaria do Ministério da Fazenda. A do Pronaf é para cooperativas da agricultura familiar; a do Procap-Agro, para as demais cooperativas de produção agropecuária."
+ ],
+ "no_brasil": "As enchentes de abril a julho de 2024 levaram o governo federal a reconhecer emergência ou calamidade em municípios do Rio Grande do Sul. Em abril de 2026, a Resolução CMN 5.293 já havia definido condições especiais de capital de giro para cooperativas no âmbito do Pronaf.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.321/2026, sobre a exigência de viabilidade",
+   "texto": "que demonstrem a viabilidade econômica da cooperativa e, considerando os recursos da linha de crédito de capital de giro, a capacidade de pagamento do conjunto de suas dívidas com vencimento durante o prazo do financiamento",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5321"
+  },
+  {
+   "fonte": "Resolução CMN 5.321/2026, sobre a aprovação dos credores",
+   "texto": "tenham os projetos de que trata o inciso III aprovados pelo conjunto das instituições financeiras credoras que representem, no mínimo, 50% (cinquenta por cento) do valor dos créditos com vencimento em 2025 e 2026",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5321"
+  }
+ ],
+ "para_quem": [
+  "Cooperativa gaúcha com indústria ou armazém em município atingido em 2024: o prazo é 30 de dezembro, e projeto validado e aval de credores levam tempo; comece a montar a papelada agora",
+  "Associado de cooperativa do RS: pergunte à diretoria se ela pediu a linha, porque o capital de giro ajuda a manter a compra da sua produção",
+  "Quem acompanha o crédito rural: a exigência de aval de 50% dos credores é o ponto que mais trava a linha e merece cobrança ao governo"
+ ],
+ "nao_e_para": [
+  "A linha não é para produtor individual, só para cooperativas",
+  "Os juros de 8% e 10% são cobrados também durante a carência",
+  "Não encontramos balanço de quantas cooperativas já contrataram as linhas"
+ ],
+ "veredito": "A gente concorda em exigir projeto sério, mas condicionar o socorro ao sim de quem já é credor é pedir licença ao cobrador. Mais de dois anos depois da água, o prazo de 30 de dezembro precisa vir com regra que chegue a quem ficou de pé.",
+ "fontes": [
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.321, de 30 de junho de 2026",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5321",
+   "data": "30/06/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.293, de 23 de abril de 2026",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5293",
+   "data": "23/04/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 54,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Linha de crédito rural com prazo até 30/12 para cooperativas agropecuárias atingidas pelas enchentes de 2024"
+  },
+  "origem": {
+   "nome": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5321"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Norma em vigor para um grupo definido: cooperativas com unidades em municípios gaúchos atingidos em 2024"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Crédito rural e reestruturação de dívida de cooperativas, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Resolução de junho; o gancho é o prazo de 30 de dezembro"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Resoluções 5.321 e 5.293 lidas no Banco Central; sem dado de contratação"
+   },
+   "originalidade": {
+    "pontos": 3,
+    "porque": "Explicação própria das exigências da resolução, que a imprensa pouco cobriu"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 6,
+    "viral": 3,
+    "cristao": 1
+   },
+   "criterios": [
+    "Documento primário: resolução do CMN (2)",
+    "Ato de quem tem poder: norma do Conselho Monetário Nacional (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: prazo e papéis para a cooperativa (1)",
+    "Calendário: prazo de 30 de dezembro (1)",
+    "Contraria a narrativa: socorro que depende do credor (1)",
+    "Pede resposta do cristão: cuidar de quem perdeu na enchente (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN nº 5.321, de 30 de junho de 2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Crédito rural e cooperativas",
+  "coleta": "2026-11-16",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na íntegra da resolução",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "número de cooperativas que contrataram; diferenças em relação à Resolução 5.293 além do prazo"
+  },
+  "duplicidade": {
+   "grupo": "Capital de giro para cooperativas do RS",
+   "itens": [
+    "Res CMN 5.321",
+    "Res CMN 5.293"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber se a cooperativa do RS pode pedir capital de giro por causa das enchentes",
+   "entidades": [
+    "Resolução CMN 5.321",
+    "Sescoop/RS",
+    "Pronaf Agroindústria",
+    "Procap-Agro",
+    "enchentes de 2024"
+   ],
+   "termos": [
+    "capital de giro cooperativas RS enchentes",
+    "Procap-Agro capital de giro 2026",
+    "Resolução CMN 5.321"
+   ],
+   "atualizacao": "atualizar se o prazo de 30/12 for prorrogado"
+  },
+  "agro": {
+   "demanda": "Cooperativas gaúchas que precisam montar projeto de reestruturação e obter aval de credores antes de 30/12; risco de negativa dos bancos",
+   "prazo": "30/12/2026",
+   "quem": "Cooperativas agropecuárias com unidades em municípios do RS atingidos pelas enchentes de 2024 e seus associados"
+  }
+ },
+ "descricao_seo": "Resolução CMN 5.321: cooperativas do RS atingidas pelas enchentes de 2024 têm até 30/12/2026 para capital de giro de até R$ 90 milhões, a 8% ou 10% ao ano.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das resoluções, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a ironia mira o desenho da norma (aprovação pelos credores), com o texto da resolução citado literalmente em O que dizem, inclusive o argumento da viabilidade. Nenhum banco ou pessoa é acusado. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/capital-de-giro-cooperativas-rs-enchentes-2024-pronaf-procap-agro-30-dezembro.jpg",
+  "credito": "Georges Michel, Paisagem com campo arado e uma aldeia (depois de 1827), The Metropolitan Museum of Art",
+  "alt": "Pintura de Georges Michel: campo arado e uma aldeia ao longe sob céu carregado de nuvens de tempestade",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP-15730-001.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/437079"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-16T14:54:59-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-16T14:54:59-03:00"
+}
