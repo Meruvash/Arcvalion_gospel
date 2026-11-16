@@ -1,0 +1,189 @@
+{
+ "slug": "lei-15163-penas-abandono-maus-tratos-idosos-o-que-mudou",
+ "data": "2026-11-16",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Informativo",
+ "titulo": "Abandono e maus-tratos de idosos: o que mudou nas penas com a Lei 15.163",
+ "lide": "Desde a Lei 15.163, de 3 de julho de 2025, expor a perigo a saúde de uma pessoa com 60 anos ou mais, privando-a de comida ou cuidados, dá de dois a cinco anos de reclusão, e não mais de dois meses a um ano de detenção, segundo a Agência Senado. Se o abandono de idoso resultar em morte, a pena pode chegar a 18 anos e oito meses.",
+ "por_que_importa": "Honrar pai e mãe é mandamento, e cuidar dos idosos da família é dever. A lei agora trata com mais dureza quem abandona ou maltrata idosos sob seus cuidados, inclusive dentro de casa. Famílias, cuidadores e casas de repouso precisam conhecer as regras.",
+ "numeros": [
+  [
+   "2 a 5 anos",
+   "de reclusão para quem expõe a perigo a saúde de pessoa idosa; antes eram 2 meses a 1 ano de detenção",
+   "Agência Senado, 13/11/2026"
+  ],
+  [
+   "8 a 14 anos",
+   "de reclusão se o crime resultar em morte; antes eram 4 a 12 anos",
+   "Agência Senado, 13/11/2026"
+  ],
+  [
+   "179.378",
+   "denúncias de violações de direitos de pessoas idosas em 2024, cerca de 490 por dia",
+   "Ouvidoria Nacional dos Direitos Humanos, citada pela Agência Senado"
+  ]
+ ],
+ "corpo": [
+  "A lei mudou o Código Penal e o Estatuto da Pessoa Idosa. Se a exposição a perigo causar lesão corporal grave, a pena passou de um a quatro anos para três a sete anos de reclusão. A reclusão, que pode começar em regime fechado, substituiu a detenção onde ela ainda não existia.",
+  "A lei também afastou os Juizados Especiais dos crimes do Estatuto da Pessoa Idosa e dos praticados com violência contra idosos, qualquer que seja a pena. Esses juizados julgam infrações de menor potencial ofensivo, com procedimentos simplificados e possibilidade de medidas alternativas, explica a Agência Senado."
+ ],
+ "no_brasil": "O Brasil tinha 32,1 milhões de pessoas com 60 anos ou mais no Censo de 2022, 15,8% da população; em 1980, eram 6,1%. As notificações de violência contra idosos na rede de saúde passaram de 9.223 em 2014 para 30.097 em 2024, segundo o Atlas da Violência 2026, citado pela Agência Senado.",
+ "critica": [
+  {
+   "fonte": "Agência Senado, sobre a mudança no Estatuto da Pessoa Idosa",
+   "texto": "Antes da nova lei, a pena para esse crime era de dois meses a um ano de detenção, além de multa. Agora, a punição é de dois a cinco anos de reclusão.",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/lei-amplia-penas-para-abandono-e-maus-tratos-contra-pessoas-idosas"
+  },
+  {
+   "fonte": "Atlas da Violência 2026, segundo a Agência Senado",
+   "texto": "Parte do aumento das notificações de violência contra idosos pode estar ligada à ampliação e ao aperfeiçoamento do sistema de notificações.",
+   "citacao": false,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/lei-amplia-penas-para-abandono-e-maus-tratos-contra-pessoas-idosas"
+  }
+ ],
+ "para_quem": [
+  "Filhos e parentes que cuidam de pais idosos",
+  "Cuidadores e casas de repouso",
+  "Quem conhece um idoso abandonado ou maltratado e quer denunciar pelo Disque 100"
+ ],
+ "nao_e_para": [
+  "Não é lei nova de 2026: vale desde julho de 2025",
+  "Não pune quem cuida com dificuldade, mas quem expõe o idoso a perigo",
+  "Penas maiores não substituem a rede de apoio às famílias que cuidam"
+ ],
+ "veredito": "Lei dura para quem abandona idoso é justa. Mas o cuidado começa em casa e na igreja: muitos idosos ficam sós por falta de apoio, não por crueldade. Famílias e congregações precisam visitar, ajudar e denunciar quando houver maus-tratos.",
+ "versiculo": {
+  "texto": "Diante das cãs te levantarás, e honrarás a face do velho, e terás temor do teu Deus. Eu sou o Senhor",
+  "referencia": "Levítico 19.32",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Lei ampliou penas para abandono e maus-tratos contra pessoas idosas (13/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/lei-amplia-penas-para-abandono-e-maus-tratos-contra-pessoas-idosas",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: Lei nº 15.163, de 03/07/2025",
+   "url": "https://legis.senado.leg.br/dadosabertos/legislacao/lista?tipo=LEI&numero=15163&ano=2025",
+   "data": "03/07/2025",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 62,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "Cuidado e proteção dos idosos da família"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/lei-amplia-penas-para-abandono-e-maus-tratos-contra-pessoas-idosas"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Lei 15.163 em vigor desde julho de 2025, com penas maiores em todo o país"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Família e honra aos pais e idosos, núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 0,
+    "porque": "Lei de 2025, sem desdobramento novo; trazida pela Agência Senado em 13/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Lei registrada nos dados abertos do Senado e regras detalhadas pela Agência Senado"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Resume para as famílias o que mudou nas penas e na forma de julgamento"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: lei nos dados abertos (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Número forte: 179 mil denúncias (1)",
+    "Utilidade: o que mudou e como denunciar (2)",
+    "Tema que já mobiliza o público: cuidado com idosos (2)",
+    "Família como protagonista (1)",
+    "Passagem bíblica que um pastor usaria: Levítico 19.32 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Lei ampliou penas para abandono e maus-tratos contra pessoas idosas",
+  "nucleo": "A - Brasil",
+  "categoria": "Família / idosos",
+  "coleta": "2026-11-16",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "lei confirmada nos dados abertos; regras pela Agência Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "texto integral da lei (Planalto inacessível)"
+  },
+  "duplicidade": {
+   "grupo": "Lei 15.163/2025",
+   "itens": [
+    "Agência Senado 13/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber a pena por abandono e maus-tratos de idoso",
+   "entidades": [
+    "Lei 15.163/2025",
+    "Estatuto da Pessoa Idosa",
+    "Código Penal",
+    "Disque 100"
+   ],
+   "termos": [
+    "pena abandono de idoso",
+    "maus-tratos idoso lei 15.163",
+    "crime contra idoso pena"
+   ],
+   "atualizacao": "acompanhar novas mudanças no Estatuto da Pessoa Idosa"
+  }
+ },
+ "descricao_seo": "Pela Lei 15.163/2025, expor idoso a perigo dá 2 a 5 anos de reclusão; com morte, até 14 anos. Veja o que mudou e como denunciar.",
+ "instituicao": "Congresso Nacional",
+ "editora": "Congresso Nacional",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da matéria da Agência Senado, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: penas e números atribuídos à Agência Senado e às fontes que ela cita; citação literal conferida. Sem acusação a pessoa. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/lei-15163-penas-abandono-maus-tratos-idosos-o-que-mudou.jpg",
+  "credito": "Jacob Backer, Senhora idosa numa poltrona (século XVII), The Metropolitan Museum of Art",
+  "alt": "Retrato de uma senhora idosa de touca branca sentada numa poltrona",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP146473.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/435596"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-16T02:31:00-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-16T02:31:00-03:00"
+}
