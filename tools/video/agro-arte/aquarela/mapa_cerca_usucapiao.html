@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Cerca avançando · usucapião</title>
+<style>
+@font-face{font-family:'Caveat';src:url(caveat-700.woff2) format('woff2');font-weight:700}
+html,body{margin:0;width:1080px;height:1080px;overflow:hidden;background:#f3ead8}
+#c{position:absolute;left:0;top:0;z-index:1}
+#labels{position:absolute;inset:0;z-index:5;font-family:'Caveat';color:#2b211a}
+.t{position:absolute;opacity:0;white-space:nowrap;font:700 60px/1 'Caveat'}
+</style></head><body>
+<div id="labels"></div>
+<script src="brush.js"></script>
+<script>
+// Fazenda vista de cima em aquarela e lápis (p5.brush). A cerca do vizinho avança sobre a divisa no tempo da fala 6;
+// casinha no pedaço ocupado na fala 7 ("morar"); contorno do pedaço na fala 8. Quadro = função do tempo local τ.
+const S = 1080; brush.createCanvas(S, S, { id: 'c' }); brush.scaleBrushes(1.4);
+const ease = x => x <= 0 ? 0 : x >= 1 ? 1 : x * x * (3 - 2 * x), ramp = (t, a, d) => ease((t - a) / d);
+const q = new URLSearchParams(location.search), T = k => +(q.get(k) ?? ({ entra: .8, cerca: 2.3, planta: 2.6, morar: 8.8, area: 14.2 })[k]);
+const L = document.getElementById('labels');
+const add = (html, x, y, rot = -3, extra = '') => { const d = document.createElement('div'); d.className = 't'; d.innerHTML = html; d.style.left = x + 'px'; d.style.top = y + 'px'; d.style.transform = `rotate(${rot}deg)`; d.style.cssText += extra; L.appendChild(d); return d; };
+const poly = (pts, cor, op, bleed = .15) => { brush.noStroke(); brush.fill(cor, op); brush.fillBleed(bleed, 'out'); brush.fillTexture(.55, .35); brush.beginShape(); pts.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(true); brush.noFill(); };
+const pencil = (pts, peso = 1.6, cor = '#3a3026', close = false) => { brush.set('2B', cor, peso); brush.beginShape(); pts.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(close); };
+const DIV = 700, X1 = 520;                                             // divisa original e até onde a cerca nova avança
+const lSua = add('sua terra', 150, 120, -4), lViz = add('vizinho', 820, 120, 3), lDiv = add('divisa', 712, 960, -90, 'font-size:34px;color:#5a4a36');
+const lOc = add('pedaço ocupado', 440, 380, -6, 'color:#7a2a18;background:rgba(243,234,216,.75);padding:2px 10px');
+const lCn = add('cerca nova', 330, 930, -3, 'font-size:48px');
+draw = (t) => {
+  brush.seed(51); brush.noiseSeed(51); brush.clear('#f3ead8'); brush.push(); brush.translate(-S / 2, -S / 2);
+  const base = ramp(t, 0, .8);
+  if (base > 0) {
+    poly([[60, 80], [DIV, 80], [DIV, 1000], [60, 1000]], '#7cb84e', 205 * base);            // sua terra
+    poly([[DIV, 80], [1020, 80], [1020, 1000], [DIV, 1000]], '#d8a850', 200 * base);         // terra do vizinho
+    for (let k = 0; k < 9; k++) pencil([[90, 140 + k * 95], [DIV - 30, 150 + k * 95]], 1.4 * base + .05, '#3a6a24');   // fileiras da sua lavoura
+  }
+  pencil([[DIV, 70], [DIV + 4, 1010]], 2.2 * ramp(t, .3, .6) + .1, '#5a3a20');                // divisa (cerca antiga)
+  const k = ramp(t, T('entra'), 4.2);                                                           // cerca nova avança
+  if (k > 0) { const x = DIV - (DIV - X1) * k;
+    poly([[x, 160], [DIV, 160], [DIV, 900], [x, 900]], '#c8603a', 225, .12);                   // pedaço tomado
+    pencil([[x, 150], [x - 4, 910]], 3, '#2b211a');                                             // a cerca nova, a lápis grosso
+    for (let y = 170; y < 900; y += 60) pencil([[x - 10, y], [x + 10, y]], 2.4, '#2b211a');     // moirões
+  }
+  const kp = ramp(t, T('planta'), 1.4);                                                         // plantio no pedaço
+  if (kp > 0) for (let j = 0; j < Math.round(8 * kp); j++) pencil([[X1 + 20, 200 + j * 85], [DIV - 20, 205 + j * 85]], 2.2, '#1e4a14');
+  const km = ramp(t, T('morar'), .8);                                                           // casinha
+  if (km > 0) { poly([[560, 560], [660, 560], [660, 640], [560, 640]], '#fff6dc', 255 * km, .04); poly([[548, 562], [610, 515], [672, 562]], '#8a2a18', 255 * km, .04); pencil([[560, 560], [660, 560], [660, 640], [560, 640]], 1.8 * km + .01, '#2b211a', true); }
+  const ka = ramp(t, T('area'), .8);                                                            // contorno do pedaço (até 50 ha)
+  if (ka > 0) { brush.set('charcoal', '#7a2a18', 2.2); brush.beginShape(); const n = Math.max(3, Math.round(40 * ka)); for (let i = 0; i <= n; i++) { const a = -1.4 + i / 40 * Math.PI * 2.1; brush.vertex(610 + Math.cos(a) * 140, 530 + Math.sin(a) * 420); } brush.endShape(false); }
+  brush.pop(); brush.render();
+  lSua.style.opacity = base; lViz.style.opacity = base; lDiv.style.opacity = ramp(t, .3, .6); lOc.style.opacity = ramp(t, T('cerca') + 1.2, .5); lCn.style.opacity = ramp(t, T('cerca'), .5);
+};
+window.drawFrame = t => draw(t);
+window.READY = document.fonts.ready.then(() => true);
+</script></body></html>

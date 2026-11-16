@@ -42,3 +42,58 @@ https://legis.senado.leg.br/norma/552282/publicacao/15676634
   informativa (Provimento 205/2021), sem promessa nem oferta de serviço.
 - **O caseiro da fala 1 é um exemplo hipotético,** não um caso real. Nenhum caso é narrado como verdadeiro.
 - **Opinião:** nenhuma. O vídeo explica a lei e termina em pergunta.
+
+## Entrega (16/11/2026)
+- **Formato:** 1080×1080, 57 s.
+- **Som:** −13,6 LUFS, pico de −1,4 dBFS. Trilha **catira** normalizada em −30 LUFS. A transcrição do arquivo final bate
+  com as falas.
+- **Capa:** quadro 0 exportado como `capa.jpg`.
+- **Cenas:**
+  - óleo com espátula do Opuscar: a sede com a casinha do caseiro e "posse" pintado a espátula; a sede no fim de tarde;
+  - à maneira de Winslow Homer: o caseiro consertando a cerca;
+  - à maneira de Rosa Bonheur: o gado do vizinho com a porteira aberta;
+  - mapa em aquarela: a cerca nova avançando sobre a divisa.
+- **Cartões:** arts. 1.198 e 1.239.
+
+## Publicação (16/11/2026)
+
+**Título do YouTube** (73 caracteres):
+> O caseiro vira dono da sua fazenda? A lei diz que não. Mas o vizinho pode
+
+Alternativas:
+- Usucapião rural: quem pode virar dono de um pedaço da sua terra (e em quanto tempo)
+- 5 anos, 10 ou 15: o prazo pra alguém virar dono da sua terra
+
+**Descrição do YouTube:**
+```
+O caseiro que mora há anos na fazenda não vira dono por usucapião enquanto for caseiro: pela lei, ele é detentor, guarda a posse em nome do patrão (Código Civil, art. 1.198). Quem usa a terra por permissão ou tolerância também não ganha posse (art. 1.208). Já quem entra num pedaço da terra e age como dono, sem oposição, conta tempo: 15 anos, ou 10 se morar ou produzir ali (art. 1.238); e 5 anos em até 50 hectares, se não tiver outro imóvel, morar e produzir na área (art. 1.239).
+
+Fonte: Código Civil (Lei 10.406/2002), texto publicado pelo Senado Federal. O caso do caseiro é um exemplo hipotético.
+Pinturas feitas em código: óleo com espátula (Lemo-Opuscar) e à maneira de Winslow Homer e Rosa Bonheur. Mapa ilustrativo. Trilha original.
+
+#usucapiao #agro #produtorrural #direitoagrario #Shorts
+```
+
+**Legenda do Instagram:**
+```
+O caseiro que mora há 20 anos na sua fazenda pode ficar com ela? 🤔🏡
+
+Não. Pela lei, enquanto for caseiro ele é DETENTOR, não possuidor: cuida da terra em nome do patrão, seguindo ordens dele (Código Civil, art. 1.198). E só quem possui como dono pode pedir usucapião.
+
+O mesmo vale pra quem usa sua terra por favor seu: permissão e tolerância não geram posse (art. 1.208).
+
+Agora, a virada 👇
+Quem entra num pedaço da sua terra, cerca, planta e age como dono, SEM NINGUÉM SE OPOR, começa a contar tempo pra virar dono:
+⏳ 15 anos
+⏳ 10 anos, se morar ali ou produzir
+⏳ 5 anos, se a área tiver até 50 hectares, ele não tiver outro imóvel e morar e produzir ali
+
+💬 Tem alguém usando um pedaço da sua terra sem você dizer nada? Conta aqui.
+📲 Manda pra quem tem sítio ou fazenda.
+
+Na usucapião, ficar calado conta tempo contra você. Me segue pra proteger o que é seu. Dúvida? Direct aberto.
+
+Fonte: Código Civil (Lei 10.406/2002), arts. 1.198, 1.208, 1.238 e 1.239 (texto do Senado Federal). Exemplo hipotético. Pinturas feitas em código. Trilha original.
+
+#usucapiao #agro #agronegocio #produtorrural #fazenda #sitio #direitoagrario #terra #campo #roça
+```
