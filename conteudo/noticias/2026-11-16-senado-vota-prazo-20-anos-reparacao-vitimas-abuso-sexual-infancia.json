@@ -1,0 +1,199 @@
+{
+ "slug": "senado-vota-prazo-20-anos-reparacao-vitimas-abuso-sexual-infancia",
+ "data": "2026-11-16",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Senado vota na quarta prazo de 20 anos para vítima de abuso na infância pedir reparação",
+ "lide": "O Plenário do Senado tem na pauta de quarta-feira (18) o PL 4.186/2021, que dá às vítimas de crimes sexuais sofridos na infância ou adolescência 20 anos, contados a partir dos 18 anos, para pedir reparação civil. Hoje a regra geral do Código Civil é de três anos, segundo a Agência Senado.",
+ "por_que_importa": "Muita vítima de abuso só consegue falar do que sofreu anos depois, quando o prazo para pedir indenização já acabou. O projeto amplia a janela de justiça civil e mira o agressor no bolso, além da pena criminal que já existe.",
+ "numeros": [
+  [
+   "20 anos",
+   "de prazo para pedir reparação civil, contados a partir dos 18 anos da vítima",
+   "Agência Senado, 11/11/2026"
+  ],
+  [
+   "3 anos",
+   "é o prazo geral atual do Código Civil para ação de reparação civil",
+   "Agência Senado, 11/11/2026"
+  ],
+  [
+   "18/11",
+   "é o dia da votação no Plenário, pendente do requerimento de urgência",
+   "Senado Federal, dados abertos"
+  ]
+ ],
+ "corpo": [
+  "O projeto, da deputada Sâmia Bomfim (PSOL-SP), já passou pela Câmara. No Senado, a CCJ aprovou em 11 de novembro o relatório da senadora Professora Dorinha Seabra (União-TO), com uma emenda de redação, e um pedido de urgência, segundo os dados abertos do Senado. A relatora incluiu referência expressa ao Estatuto da Criança e do Adolescente, para deixar claro que o foco é a idade da vítima.",
+  "A reparação civil é a indenização por dano moral, psicológico ou material e não se confunde com a punição criminal do agressor, explica a Agência Senado. Para Dorinha, a demora em revelar o abuso vem de mecanismos como vergonha, medo, repressão, dependência e amnésia traumática, e não de negligência da vítima."
+ ],
+ "no_brasil": "A matéria está na Ordem do Dia de 18 de novembro, pendente da votação do requerimento de urgência. O prazo para emendas no Plenário vai até o dia 18, segundo os dados abertos do Senado.",
+ "critica": [
+  {
+   "fonte": "Senadora Professora Dorinha Seabra (União-TO), relatora, à Agência Senado",
+   "texto": "O prazo de 20 anos amplia de modo substancial a janela de acesso à justiça civil, sem romper completamente com a lógica da prescrição, preservando o valor da segurança jurídica.",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/prazo-de-20-anos-para-reparacao-por-crimes-sexuais-contra-menores-vai-a-plenario"
+  },
+  {
+   "fonte": "Senadora Professora Dorinha Seabra, sobre a referência ao ECA, segundo a Agência Senado",
+   "texto": "tornar inequívoco que o foco é a condição da vítima [criança ou adolescente], e não uma subcategoria restrita de tipos penais",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/prazo-de-20-anos-para-reparacao-por-crimes-sexuais-contra-menores-vai-a-plenario"
+  }
+ ],
+ "para_quem": [
+  "Adultos que sofreram abuso sexual na infância ou adolescência",
+  "Famílias, igrejas e conselheiros que acolhem vítimas",
+  "Quem acompanha a pauta de proteção às crianças no Congresso"
+ ],
+ "nao_e_para": [
+  "Não é lei ainda: depende da votação no Senado e da sanção",
+  "Não muda a pena criminal do agressor, só o prazo da ação de indenização",
+  "Não garante indenização: a vítima ainda precisa provar o dano na Justiça"
+ ],
+ "veredito": "Abuso de criança é dos crimes mais graves, e a ferida leva anos para vir à tona. Dar à vítima mais tempo para buscar reparação é justo. O Senado deve aprovar na quarta, e igrejas precisam ser lugar seguro para essas vítimas falarem.",
+ "versiculo": {
+  "texto": "Mas qualquer que escandalizar um destes pequeninos que creem em mim, melhor lhe fora que se lhe pendurasse ao pescoço uma mó de azenha, e se submergisse na profundeza do mar",
+  "referencia": "Mateus 18.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Prazo de 20 anos para reparação por crimes sexuais contra menores vai a Plenário (11/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/prazo-de-20-anos-para-reparacao-por-crimes-sexuais-contra-menores-vai-a-plenario",
+   "data": "11/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: tramitação do PL 4.186/2021",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/8603270",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: Ordem do Dia de 18/11/2026",
+   "url": "https://legis.senado.leg.br/dadosabertos/plenario/agenda/dia/20261118",
+   "data": "18/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 63,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "vida",
+   "porque": "Proteção de crianças e adolescentes vítimas de abuso sexual"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/prazo-de-20-anos-para-reparacao-por-crimes-sexuais-contra-menores-vai-a-plenario"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Projeto pautado para 18/11; ainda depende de votação e sanção"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Vida e família: proteção de crianças contra abuso sexual"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Votação no Plenário marcada para quarta-feira, 18/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Tramitação e pauta lidas nos dados abertos do Senado; conteúdo pela Agência Senado"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Junta a pauta de quarta, a emenda só de redação e o prazo de emendas lidos nos dados abertos"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: dados abertos do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Dorinha Seabra (1)",
+    "Gatilho no calendário: votação na quarta (2)",
+    "Tema que já mobiliza o público: abuso infantil (2)",
+    "Número forte: 20 anos contra 3 (1)",
+    "Utilidade: o que muda para a vítima (2)",
+    "Passagem bíblica que um pastor usaria: Mateus 18.6 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Prazo de 20 anos para reparação por crimes sexuais contra menores vai a Plenário",
+  "nucleo": "A - Brasil",
+  "categoria": "Vida / proteção à infância",
+  "coleta": "2026-11-16",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na Agência Senado e nos dados abertos",
+   "contradicoes": "Peças da Rádio Senado falam em prescrição de crime sexual; o projeto trata da reparação civil, como diz a Agência Senado.",
+   "sem_confirmacao": "texto final da emenda de redação"
+  },
+  "duplicidade": {
+   "grupo": "PL 4.186/2021",
+   "itens": [
+    "Agência Senado 11/11",
+    "Rádio Senado 12/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que muda no prazo de indenização para vítima de abuso na infância",
+   "entidades": [
+    "PL 4.186/2021",
+    "Senado Federal",
+    "Professora Dorinha Seabra",
+    "Código Civil",
+    "Estatuto da Criança e do Adolescente"
+   ],
+   "termos": [
+    "prazo reparação abuso sexual infância",
+    "prescrição 20 anos vítima abuso",
+    "PL 4186/2021"
+   ],
+   "atualizacao": "resultado da votação de 18/11"
+  }
+ },
+ "descricao_seo": "Senado vota em 18/11 o PL 4.186/2021: vítima de abuso sexual na infância terá 20 anos, a partir dos 18, para pedir reparação civil.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da matéria e dos dados abertos do Senado, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos da Agência Senado e dos dados abertos, citações literais conferidas, diferença entre reparação civil e pena criminal explicada. Sem acusação a pessoa. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/senado-vota-prazo-20-anos-reparacao-vitimas-abuso-sexual-infancia.jpg",
+  "credito": "Foto: Edilson Rodrigues/Agência Senado",
+  "alt": "Reunião da Comissão de Constituição e Justiça do Senado com senadores à mesa",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/11/prazo-de-20-anos-para-reparacao-por-crimes-sexuais-contra-menores-vai-a-plenario/20261111_00384e.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/11/prazo-de-20-anos-para-reparacao-por-crimes-sexuais-contra-menores-vai-a-plenario"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-16T02:28:02-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-16T02:28:02-03:00"
+}
