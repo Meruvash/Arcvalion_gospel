@@ -1,0 +1,196 @@
+{
+ "slug": "desenrola-rural-prazo-adesao-20-dezembro-agricultura-familiar-pronaf",
+ "data": "2026-11-16",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Informativo",
+ "titulo": "Desenrola Rural: agricultor familiar tem até 20 de dezembro para aderir à renegociação",
+ "lide": "O prazo de adesão às condições especiais do Desenrola Rural, programa do governo federal para regularizar dívidas da agricultura familiar, termina em 20 de dezembro de 2026, conforme o Decreto 12.956, de 5 de maio. O programa dá descontos para quitar dívidas em atraso e renegocia contratos do Pronaf de 2012 a 2022 em até dez anos.",
+ "por_que_importa": "Faltam cinco semanas para o fim do prazo, em plena safra de verão. Para o agricultor familiar com parcela atrasada do Pronaf, o Desenrola Rural é a via com desconto e prazo de até dez anos, e deixar a dívida em ordem pesa na hora de pedir o próximo financiamento.",
+ "numeros": [
+  [
+   "20/12/2026",
+   "é o último dia para aderir às condições especiais de regularização de dívidas do programa",
+   "Casa Civil, nota de 05/05/2026 sobre o Decreto 12.956/2026"
+  ],
+  [
+   "até 10 anos",
+   "é o prazo de pagamento das dívidas renegociadas, com as parcelas começando em 2027, conforme o valor",
+   "Casa Civil, nota de 05/05/2026"
+  ],
+  [
+   "2012 a 2022",
+   "são os anos dos contratos do Pronaf com recursos dos fundos constitucionais que podem ser renegociados",
+   "Casa Civil, nota de 05/05/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo a Casa Civil, o Decreto 12.956/2026 reinstituiu e ampliou o Programa de Regularização de Dívidas e Facilitação de Acesso ao Crédito Rural da Agricultura Familiar, o Desenrola Rural. Ele prevê descontos (rebates) para liquidar dívidas em atraso e a renegociação de operações do Pronaf contratadas de 2012 a 2022 com recursos dos fundos constitucionais, com prazo de até dez anos e parcelas a partir de 2027.",
+  "O decreto também ampliou a regularização para assentados da reforma agrária, incluindo dívidas antigas do Procera, e autorizou novas operações do Pronaf para quem tem contratos anteriores em atraso, desde que não tenha débito inscrito na Dívida Ativa da União."
+ ],
+ "no_brasil": "O Desenrola Rural é voltado à agricultura familiar do Pronaf. Para os médios e grandes produtores, a renegociação de dívidas de quem perdeu safras pelo clima segue outra via, a MP 1.376, aprovada pelo Congresso em 11/11 e à espera de sanção.",
+ "critica": [
+  {
+   "fonte": "Casa Civil da Presidência da República, nota de 05/05/2026",
+   "texto": "prorroga até 20 de dezembro de 2026 o prazo para adesão às condições especiais de regularização de dívidas, ampliando a oportunidade para que agricultores familiares possam renegociar ou quitar seus débitos com condições facilitadas",
+   "citacao": true,
+   "url": "https://www.gov.br/casacivil/pt-br/assuntos/noticias/2026/maio/governo-do-brasil-amplia-alcance-do-desenrola-rural-e-facilita-credito-para-agricultura-familiar"
+  },
+  {
+   "fonte": "Casa Civil da Presidência da República, sobre o crédito novo",
+   "texto": "inclusive para produtores com operações anteriores em atraso, desde que não possuam débitos inscritos em Dívida Ativa da União",
+   "citacao": true,
+   "url": "https://www.gov.br/casacivil/pt-br/assuntos/noticias/2026/maio/governo-do-brasil-amplia-alcance-do-desenrola-rural-e-facilita-credito-para-agricultura-familiar"
+  }
+ ],
+ "para_quem": [
+  "Agricultor familiar com parcela do Pronaf em atraso: procure o banco antes de 20 de dezembro de 2026 e peça a simulação do desconto e da renegociação pelo Desenrola Rural",
+  "Quem tem contrato do Pronaf de 2012 a 2022 com recursos do FNO, FNE ou FCO: pergunte ao banco se ele entra na renegociação em até dez anos, até 20 de dezembro",
+  "Assentado com dívida antiga do Procera: confira também a liquidação com desconto, que tem o mesmo prazo de 20 de dezembro"
+ ],
+ "nao_e_para": [
+  "Os percentuais de desconto por faixa de dívida estão no decreto e nas normas do Conselho Monetário Nacional, que não lemos na íntegra",
+  "Quem tem débito inscrito na Dívida Ativa da União não pode contratar o crédito novo do Pronaf por esse caminho",
+  "A nota oficial não informa quantos agricultores já aderiram"
+ ],
+ "veredito": "A gente recomenda não deixar para dezembro. Prazo de programa público costuma acabar com fila no banco e papel faltando. O agricultor que separar o contrato e o CAF ativo agora chega à agência com a conversa pronta. Dívida resolvida devolve o crédito para a próxima safra.",
+ "fontes": [
+  {
+   "nome": "Casa Civil da Presidência da República: Governo do Brasil amplia alcance do Desenrola Rural e facilita crédito para agricultura familiar",
+   "url": "https://www.gov.br/casacivil/pt-br/assuntos/noticias/2026/maio/governo-do-brasil-amplia-alcance-do-desenrola-rural-e-facilita-credito-para-agricultura-familiar",
+   "data": "05/05/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Diário Oficial da União: Decreto nº 12.956, de 5 de maio de 2026",
+   "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.956-de-5-de-maio-de-2026-703399088",
+   "data": "05/05/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.311, de 25 de junho de 2026 (liquidação do Procera)",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5311",
+   "data": "25/06/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Prazo de adesão do programa federal de renegociação de dívidas do Pronaf, que termina em 20/12/2026"
+  },
+  "origem": {
+   "nome": "Casa Civil da Presidência da República",
+   "url": "https://www.gov.br/casacivil/pt-br/assuntos/noticias/2026/maio/governo-do-brasil-amplia-alcance-do-desenrola-rural-e-facilita-credito-para-agricultura-familiar"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Decreto em vigor que dá desconto e renegociação para dívidas do Pronaf em todo o país, com prazo fixado"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Renegociação de dívida rural da agricultura familiar, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Decreto de maio; o gancho é o prazo de adesão, que termina em 20/12, a cinco semanas"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Nota oficial da Casa Civil lida na íntegra; o texto do decreto no Diário Oficial não abriu para leitura automática"
+   },
+   "originalidade": {
+    "pontos": 2,
+    "porque": "Síntese da nota oficial com o prazo e a ligação com a liquidação do Procera, que tem a mesma data"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 6,
+    "viral": 4,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: decreto e nota oficial da Casa Civil (2)",
+    "Ato de quem tem poder: decreto presidencial em vigor (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que levar ao banco e até quando (1)",
+    "Calendário: prazo de 20 de dezembro (1)",
+    "Cabe num cartão: até 20/12 para renegociar o Pronaf com desconto (1)",
+    "Moeda social: data que muita gente ainda não sabe (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Governo do Brasil amplia alcance do Desenrola Rural e facilita crédito para agricultura familiar",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Renegociação de dívida rural",
+  "coleta": "2026-11-16",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na nota oficial da Casa Civil",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "percentuais de desconto por faixa; número de adesões"
+  },
+  "duplicidade": {
+   "grupo": "Desenrola Rural 2026",
+   "itens": [
+    "Decreto 12.956/2026"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-14-procera-assentados-liquidar-divida-desconto-80-prazo-20-dezembro"
+  },
+  "seo": {
+   "intencao": "saber até quando dá para aderir ao Desenrola Rural",
+   "entidades": [
+    "Desenrola Rural",
+    "Decreto 12.956/2026",
+    "Pronaf",
+    "Casa Civil",
+    "Procera"
+   ],
+   "termos": [
+    "Desenrola Rural prazo",
+    "Desenrola Rural 20 de dezembro",
+    "renegociar dívida Pronaf"
+   ],
+   "atualizacao": "acompanhar eventual nova prorrogação e o balanço de adesões"
+  },
+  "agro": {
+   "demanda": "Agricultores familiares com dívidas do Pronaf em atraso que precisam aderir à renegociação com desconto antes do prazo; dúvidas sobre enquadramento e sobre a exclusão de quem tem Dívida Ativa da União",
+   "prazo": "20/12/2026",
+   "quem": "Agricultores familiares do Pronaf e assentados da reforma agrária"
+  }
+ },
+ "descricao_seo": "Desenrola Rural: prazo de adesão à renegociação de dívidas do Pronaf termina em 20/12/2026, pelo Decreto 12.956. Veja quem pode e o que levar ao banco.",
+ "instituicao": "Presidência da República",
+ "editora": "Casa Civil da Presidência da República",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da nota oficial, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: todas as regras vêm da nota oficial da Casa Civil, com o que não foi lido marcado em Pontos de atenção. A opinião só recomenda que o agricultor se antecipe, sem criticar pessoa nem instituição. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/desenrola-rural-prazo-adesao-20-dezembro-agricultura-familiar-pronaf.jpg",
+  "credito": "Jean-François Millet, Chamando as vacas para casa (c. 1872), The Metropolitan Museum of Art",
+  "alt": "Pintura de Millet: vaqueiro sopra uma trompa no alto de uma pedra ao entardecer, com vacas ao redor",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP345570.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/437095"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-16T02:27:00-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-16T02:27:00-03:00"
+}
