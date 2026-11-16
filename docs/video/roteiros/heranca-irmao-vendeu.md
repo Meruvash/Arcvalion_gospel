@@ -44,3 +44,46 @@ https://legis.senado.leg.br/norma/552282/publicacao/15676634
 - **Fala 6:** aplica a regra do condomínio (art. 1.314) à herança antes da partilha, como manda o art. 1.791, parágrafo
   único.
 - **Família:** nenhum caso real é narrado. O "seu irmão" é o próprio espectador sendo chamado a se imaginar na situação.
+
+## Publicação (16/11/2026)
+
+**Título do YouTube:**
+> Seu irmão vendeu a parte da herança sem avisar? Você pode tomar o negócio pra você
+
+Alternativas:
+- Herança de fazenda: o irmão não pode vender pra estranho sem te oferecer antes
+- "Tanto por tanto": a regra da herança que pode te devolver a fazenda (180 dias)
+
+**Descrição do YouTube:**
+```
+Enquanto a herança não é partilhada, a fazenda é de todos os herdeiros juntos, como num condomínio (Código Civil, art. 1.791, parágrafo único). Um herdeiro não pode vender a parte dele a um estranho se outro herdeiro quiser pagar o mesmo preço: "tanto por tanto" (art. 1.794). Quem não foi avisado pode depositar o preço e ficar com a parte vendida, se pedir em até 180 dias (art. 1.795). Nenhum herdeiro pode arrendar ou emprestar a fazenda a estranho sem o acordo dos outros (art. 1.314). E se a fazenda não puder ser dividida e não houver acordo, ela pode ser vendida e o dinheiro repartido, com preferência do condômino sobre o estranho em condições iguais (art. 1.322).
+
+Fonte: Código Civil (Lei 10.406/2002), texto publicado pelo Senado Federal. Exemplo hipotético.
+Pinturas feitas em código: óleo com espátula (Lemo-Opuscar) e à maneira de John Constable e Gustave Courbet. Mapa ilustrativo. Trilha original.
+
+#heranca #agro #produtorrural #direitoagrario #Shorts
+```
+
+**Legenda do Instagram:**
+```
+Seu irmão vendeu a parte dele da fazenda da herança pra um estranho sem te avisar? 😳🏡
+
+A lei te dá uma saída. São três palavras: TANTO POR TANTO.
+
+Enquanto a herança não é dividida, a fazenda é de todos os irmãos juntos, como num condomínio. E o Código Civil diz que um herdeiro não pode vender a parte dele a um estranho se outro herdeiro quiser pagar o mesmo preço (art. 1.794).
+
+⏳ Se ninguém te avisou, você pode depositar o mesmo valor e ficar com a parte vendida, em até 180 dias (art. 1.795).
+
+E tem mais 👇
+🔒 Nenhum irmão pode arrendar ou emprestar a fazenda pra um estranho sem o acordo dos outros.
+⚖️ Se a fazenda não pode ser dividida e não há acordo, ela pode ser vendida e o dinheiro repartido. Mas, em condições iguais, irmão tem preferência sobre estranho (art. 1.322).
+
+💬 Na sua família, alguém já vendeu parte da herança sem avisar? Conta aqui.
+📲 Manda pra quem tem herança de sítio ou fazenda pra resolver.
+
+Em herança de fazenda, prazo perdido não volta. Me segue pra proteger o que é da sua família. Dúvida? Direct aberto.
+
+Fonte: Código Civil (Lei 10.406/2002), arts. 1.314, 1.322, 1.791, 1.794 e 1.795 (texto do Senado Federal). Exemplo hipotético. Pinturas feitas em código. Trilha original.
+
+#heranca #inventario #agro #agronegocio #produtorrural #fazenda #sitio #direitoagrario #familia #campo
+```

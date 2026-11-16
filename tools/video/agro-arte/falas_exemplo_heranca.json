@@ -1,0 +1,62 @@
+[
+ {
+  "id": 1,
+  "quem": "narrador",
+  "texto": "Você sabia que, se o seu irmão vender a parte dele da fazenda da herança pra um estranho sem te avisar, você pode tomar o negócio pra você?",
+  "fala": "Você sabia que, se o seu irmão vender a parte dele da fazenda da herança pra um estranho sem te avisar, você pode tomar o negócio pra você?"
+ },
+ {
+  "id": 2,
+  "quem": "narrador",
+  "texto": "A explicação está em três palavras: tanto por tanto.",
+  "fala": "A explicação está em três palavras: tanto... por... tanto."
+ },
+ {
+  "id": 3,
+  "quem": "narrador",
+  "texto": "Enquanto a herança não é dividida, a fazenda é de todos os irmãos juntos, como num condomínio.",
+  "fala": "Enquanto a herança não é dividida, a fazenda é de todos os irmãos juntos, como num condomínio."
+ },
+ {
+  "id": 4,
+  "quem": "narrador",
+  "texto": "E o Código Civil diz: um herdeiro não pode vender a parte dele a um estranho, se outro herdeiro quiser pagar o mesmo preço.",
+  "fala": "E o Código Civil diz: um herdeiro não pode vender a parte dele a um estranho, se outro herdeiro quiser pagar o mesmo preço."
+ },
+ {
+  "id": 5,
+  "quem": "narrador",
+  "texto": "Se ninguém te avisou, você pode depositar o mesmo valor e ficar com a parte vendida, em até 180 dias.",
+  "fala": "Se ninguém te avisou, você pode depositar o mesmo valor e ficar com a parte vendida, em até cento e oitenta dias."
+ },
+ {
+  "id": 6,
+  "quem": "narrador",
+  "texto": "E tem mais: nenhum irmão pode arrendar ou emprestar a fazenda pra um estranho sem o acordo dos outros.",
+  "fala": "E tem mais: nenhum irmão pode arrendar ou emprestar a fazenda pra um estranho sem o acordo dos outros."
+ },
+ {
+  "id": 7,
+  "quem": "narrador",
+  "texto": "Agora, o lado que pouca gente conta: se a fazenda não pode ser dividida e vocês não chegam a um acordo, ela pode ser vendida, e o dinheiro repartido.",
+  "fala": "Agora, o lado que pouca gente conta: se a fazenda não pode ser dividida e vocês não chegam a um acordo, ela pode ser vendida, e o dinheiro repartido."
+ },
+ {
+  "id": 8,
+  "quem": "narrador",
+  "texto": "E mesmo nessa venda, em condições iguais, irmão tem preferência sobre estranho.",
+  "fala": "E mesmo nessa venda, em condições iguais, irmão tem preferência sobre estranho."
+ },
+ {
+  "id": 9,
+  "quem": "narrador",
+  "texto": "Na sua família, alguém já vendeu parte da herança sem avisar?",
+  "fala": "Na sua família, alguém já vendeu parte da herança sem avisar?"
+ },
+ {
+  "id": 10,
+  "quem": "editor",
+  "texto": "Eu sou o Dr. Pelicioni, advogado. Em herança de fazenda, prazo perdido não volta. Me segue pra proteger o que é da sua família.",
+  "fala": "Eu sou o Dr. Pelicioni, advogado. Em herança de fazenda, prazo perdido não volta. Me segue pra proteger o que é da sua família."
+ }
+]
