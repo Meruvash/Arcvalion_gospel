@@ -23,7 +23,7 @@ const pencil = (pts, peso = 1.6, cor = '#3a3026', close = false) => { brush.set(
 const FAZ = [[110, 170], [930, 130], [990, 560], [900, 940], [170, 970], [80, 560]];
 const lTit = add('fazenda da herança', 250, 52, -2, 'font-size:68px');
 const lA = add('irmã', 220, 330, -6), lB = add('irmão', 680, 280, 4), lV = add('você', 440, 640, -3, 'font-size:76px;color:#1e4a14');
-const lE = add('estranho', 640, 860, -4, 'color:#8a2a18'), lP = add('a parte vendida', 560, 470, -5, 'font-size:46px;color:#8a2a18;background:rgba(243,234,216,.8);padding:2px 10px');
+const lE = add('estranho', 690, 940, -4, 'color:#8a2a18;font-size:56px'), lP = add('a parte vendida', 560, 470, -5, 'font-size:46px;color:#8a2a18;background:rgba(243,234,216,.8);padding:2px 10px');
 const lVolta = add('volta pra você', 380, 730, -3, 'font-size:56px;color:#1e4a14;background:rgba(243,234,216,.8);padding:2px 10px');
 draw = (t) => {
   brush.seed(77); brush.noiseSeed(77); brush.clear('#f3ead8'); brush.push(); brush.translate(-S / 2, -S / 2);

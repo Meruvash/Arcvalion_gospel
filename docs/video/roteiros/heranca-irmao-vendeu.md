@@ -1,4 +1,4 @@
-# "O irmão vendeu sem avisar": herança de fazenda — roteiro v1 (16/11/2026)
+# "O irmão vendeu sem avisar": herança de fazenda — roteiro v1, aprovado (16/11/2026)
 
 - **Molde:** o do "O caseiro e o vizinho", aprovado pelo editor depois de 150 visualizações em minutos.
   - Estrutura de 10 batidas.
@@ -44,6 +44,18 @@ https://legis.senado.leg.br/norma/552282/publicacao/15676634
 - **Fala 6:** aplica a regra do condomínio (art. 1.314) à herança antes da partilha, como manda o art. 1.791, parágrafo
   único.
 - **Família:** nenhum caso real é narrado. O "seu irmão" é o próprio espectador sendo chamado a se imaginar na situação.
+
+## Entrega (16/11/2026)
+- **Formato:** 1080×1080, 61 s.
+- **Som:** −13,7 LUFS, pico de −1,0 dBFS. Trilha **agronejo** normalizada em −30 LUFS. A transcrição do arquivo final bate
+  com as falas.
+- **Capa:** quadro 0 exportado como `capa.jpg`.
+- **Cenas:**
+  - óleo com espátula do Opuscar: o casarão da fazenda com "tanto por tanto" pintado a espátula; o casarão no fim de tarde;
+  - mapa em aquarela: a fazenda da herança, o estranho entrando e a parte voltando pra "você";
+  - à maneira de John Constable: a porteira fechada com corrente;
+  - à maneira de Gustave Courbet: a placa "VENDE-SE" com o céu fechando.
+- **Cartões:** arts. 1.794 e 1.322.
 
 ## Publicação (16/11/2026)
 

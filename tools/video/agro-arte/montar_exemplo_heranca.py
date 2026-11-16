@@ -58,7 +58,7 @@ VIDEOS = "\n".join(vid(f"v{k}", s, INI[k], INI[k + 1] + XF + (.2 if k == 4 else 
 def ov(i, a, b, html, cls="", tr=10):
     return f'<div id="{i}" class="clip ov {cls}" data-start="{a:.3f}" data-duration="{b - a:.3f}" data-track-index="{tr}">{html}</div>'
 SRC_CC = 'Código Civil (Lei 10.406/2002) · texto publicado pelo Senado Federal'
-CARD1 = (f'<div class="card" id="card1"><div class="cardsrc">{SRC_CC}</div><div class="cardtxt">“Art. 1.794. O co-herdeiro <mark>não poderá ceder a sua quota hereditária '
+CARD1 = (f'<div class="card" id="card1" style="top:36px"><div class="cardsrc">{SRC_CC}</div><div class="cardtxt">“Art. 1.794. O co-herdeiro <mark>não poderá ceder a sua quota hereditária '
          'a pessoa estranha</mark> à sucessão, se outro co-herdeiro a quiser, <mark>tanto por tanto</mark>.”</div></div>')
 CARD2 = (f'<div class="card" id="card2"><div class="cardsrc">{SRC_CC}</div><div class="cardtxt">“Art. 1.322. Quando a coisa for indivisível, e os consortes não quiserem '
          'adjudicá-la a um só, indenizando os outros, será vendida e repartido o apurado, <mark>preferindo-se, na venda, em condições iguais de oferta, o condômino ao '
