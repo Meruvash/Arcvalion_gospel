@@ -22,7 +22,8 @@
  ],
  "corpo": [
   "O caso chegou ao STF por uma fornecedora de insumos que queria penhorar a terra de uma família de agricultores do Paraná, alegando que o imóvel não era o único da família e que fora dado em garantia. O relator, ministro Edson Fachin, votou pela proteção: \"A pequena propriedade rural, afinal, é impenhorável. Tal direito fundamental é indisponível, pouco importando a gravação do bem em hipoteca\".",
-  "O ministro Luís Roberto Barroso divergiu, acompanhado por Alexandre de Moraes e Luiz Fux: para ele, quem oferece o imóvel em garantia por vontade própria afasta a proteção, e a regra ampla pode encarecer o crédito do pequeno produtor. Nunes Marques e Gilmar Mendes votaram pelo recurso da empresa. A tese fixada foi: \"É impenhorável a pequena propriedade rural familiar constituída de mais de 01 (um) terreno, desde que contínuos e com área total inferior a 04 (quatro) módulos fiscais do município de localização\"."
+  "O ministro Luís Roberto Barroso divergiu, acompanhado por Alexandre de Moraes e Luiz Fux: para ele, quem oferece o imóvel em garantia por vontade própria afasta a proteção, e a regra ampla pode encarecer o crédito do pequeno produtor. Nunes Marques e Gilmar Mendes votaram pelo recurso da empresa. A tese fixada foi: \"É impenhorável a pequena propriedade rural familiar constituída de mais de 01 (um) terreno, desde que contínuos e com área total inferior a 04 (quatro) módulos fiscais do município de localização\".",
+  "Atualização (16/11): em 2026, a Terceira Turma do STJ manteve a penhora de 30% dos rendimentos de arrendamento de uma pequena propriedade rural, preservado o mínimo existencial da família: a proteção vale para o imóvel, não automaticamente para o que ele rende."
  ],
  "no_brasil": "O Código de Processo Civil (art. 833, VIII) repete a proteção, mas abre uma exceção no § 1º: ela não vale contra a dívida do próprio bem, \"inclusive àquela contraída para sua aquisição\". A cobrança mais dura anunciada pelo Banco do Brasil em 12/11 mira médios e grandes produtores, segundo a Agência Brasil.",
  "critica": [
@@ -73,6 +74,12 @@
    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-aponta-recusa-de-parte-dos-produtores-em-renegociar-dividas-do-agro",
    "data": "12/11/2026",
    "tipo": "secundaria"
+  },
+  {
+   "nome": "STJ: Impenhorabilidade da pequena propriedade rural não se estende automaticamente aos seus rendimentos (01/09/2026)",
+   "url": "https://www.stj.jus.br/sites/portalp/paginas/comunicacao/noticias/2026/01092026-impenhorabilidade-da-pequena-propriedade-rural-nao-se-estende-automaticamente-aos-seus-rendimentos.aspx",
+   "data": "01/09/2026",
+   "tipo": "primaria"
   }
  ],
  "crivo": {
@@ -190,8 +197,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-13T02:44:03-03:00",
+  "data": "2026-11-16T02:32:19-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-13T02:44:03-03:00"
+ "publicado_em": "2026-11-13T02:44:03-03:00",
+ "atualizado_em": "2026-11-16T02:32:19-03:00"
 }
