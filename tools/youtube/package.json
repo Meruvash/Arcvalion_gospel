@@ -1,0 +1,17 @@
+{
+  "name": "baixar-youtube",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Baixa vídeo público do YouTube em MP4 com áudio, sem login, sem cookies, sem yt-dlp e sem Cobalt.",
+  "type": "module",
+  "bin": { "baixar-youtube": "./baixar.mjs" },
+  "scripts": {
+    "baixar": "node baixar.mjs",
+    "test": "node --test teste.mjs"
+  },
+  "engines": { "node": ">=22.22.2" },
+  "dependencies": {
+    "@distube/ytdl-core": "5.2.1",
+    "youtubei.js": "18.3.0"
+  }
+}
