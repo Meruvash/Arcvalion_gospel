@@ -1,0 +1,192 @@
+{
+ "slug": "stj-tema-1406-prescricao-divida-rural-suspensa-automaticamente-leis-renegociacao",
+ "data": "2026-11-17",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Motivo de alerta",
+ "titulo": "STJ fixa que leis de renegociação suspenderam a prescrição de dívidas rurais sem adesão do devedor",
+ "lide": "A Corte Especial do STJ decidiu, no Tema 1.406 dos recursos repetitivos, que a suspensão do prazo de prescrição prevista nas leis de liquidação e renegociação de dívidas rurais vale de pleno direito, sem manifestação nem adesão do devedor, quando a própria lei a estabelece. A tese, julgada em 2 de setembro, transitou em julgado em 19 de outubro e vale para todo o país.",
+ "por_que_importa": "A prescrição é o prazo depois do qual uma dívida não pode mais ser cobrada na Justiça. Pela tese, os períodos de suspensão criados por oito leis de renegociação, de 2008 a 2018, contam mesmo para quem nunca aderiu a elas. Na prática, execuções de dívidas rurais antigas que pareciam vencidas pelo tempo podem seguir.",
+ "numeros": [
+  [
+   "8 leis",
+   "de 2008 a 2018 (11.775, 12.716, 12.844, 13.001, 13.340, 13.306, 13.606 e 13.729) estão na tese",
+   "STJ, Tema Repetitivo 1.406"
+  ],
+  [
+   "19/10/2026",
+   "é a data do trânsito em julgado; o acórdão foi publicado em 24/09/2026",
+   "STJ, Tema Repetitivo 1.406"
+  ],
+  [
+   "4 recursos",
+   "foram julgados juntos como representativos, dois do TJMA e dois do TRF4, sob relatoria de Raul Araújo",
+   "STJ, Tema Repetitivo 1.406"
+  ]
+ ],
+ "corpo": [
+  "A questão era saber se essas leis suspenderam automaticamente o prazo de prescrição nas execuções de títulos de crédito rural ou se a suspensão dependia de o devedor manifestar interesse em renegociar ou liquidar a dívida. O STJ fixou duas regras: a suspensão opera de pleno direito quando o dispositivo legal a estabelece diretamente para as operações enquadráveis; e só depende de manifestação, adesão ou outra providência do devedor quando o próprio dispositivo exigir isso.",
+  "O caso chegou ao STJ a partir de um incidente de assunção de competência do Tribunal de Justiça do Maranhão. Durante a análise, ficaram suspensos os processos com recurso especial ou agravo pendente sobre o tema; com o trânsito em julgado, a tese passa a ser aplicada por juízes e tribunais."
+ ],
+ "no_brasil": "Os recursos repetitivos do STJ servem para fixar uma tese que os tribunais do país devem seguir em casos iguais. A MP 1.376, aprovada pelo Congresso em 11/11 e à espera de sanção, trata de nova renegociação de dívidas rurais; a tese do Tema 1.406 trata das leis anteriores.",
+ "critica": [
+  {
+   "fonte": "STJ, Tema 1.406, tese firmada (item I)",
+   "texto": "A suspensão do prazo prescricional prevista nas leis que instituíram medidas de liquidação ou renegociação de dívidas de crédito rural opera de pleno direito, independentemente de manifestação ou adesão do devedor, quando o respectivo dispositivo legal a estabelecer diretamente para as operações nele enquadráveis.",
+   "citacao": true,
+   "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1406&cod_tema_final=1406"
+  },
+  {
+   "fonte": "STJ, Tema 1.406, tese firmada (item II)",
+   "texto": "A suspensão somente dependerá de manifestação, adesão ou outra providência do devedor quando o próprio dispositivo legal expressamente a estabelecer como condição para a sua incidência, observados os requisitos objetivos de enquadramento da operação.",
+   "citacao": true,
+   "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1406&cod_tema_final=1406"
+  }
+ ],
+ "para_quem": [
+  "Produtor com execução antiga de cédula rural em que a defesa se apoia na prescrição: a tese já está em vigor desde 19/10/2026; vale reavaliar o caso com quem acompanha o processo",
+  "Quem tem dívida rural antiga sem cobrança: a contagem do prazo pode ter ficado suspensa pelas leis de renegociação, mesmo sem adesão",
+  "Quem pensa em renegociar pela MP 1.376 quando ela for sancionada: dívida antiga não necessariamente está prescrita"
+ ],
+ "nao_e_para": [
+  "Cada lei tem dispositivo e período próprios: a suspensão vale só para as operações que a própria lei enquadra",
+  "Quando a lei exige adesão ou pedido do devedor, a suspensão continua dependendo disso",
+  "A íntegra do acórdão não foi lida; a tese vem da página oficial dos repetitivos do STJ"
+ ],
+ "veredito": "A gente acha a tese coerente com o texto das leis, mas o recado ao produtor é duro: prescrição não é saída garantida para dívida rural antiga. Melhor olhar o contrato com calma agora do que descobrir a cobrança viva na hora da penhora.",
+ "fontes": [
+  {
+   "nome": "Superior Tribunal de Justiça: Tema Repetitivo 1.406 (REsp 2219068/MA, 2217707/MA, 2232278/PR e 2236997/RS)",
+   "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1406&cod_tema_final=1406",
+   "data": "26/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Renegociação de dívidas rurais é aprovada pelo Senado e vai à sanção presidencial",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/renegociacao-de-dividas-rurais-e-aprovada-pelo-senado-e-vai-a-sancao-presidencial",
+   "data": "11/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 69,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Tese obrigatória do STJ sobre prescrição em execuções de dívidas de crédito rural"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1406&cod_tema_final=1406"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Tese repetitiva da Corte Especial, transitada em julgado, que vale para todas as execuções de dívida rural enquadradas nas oito leis"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Dívida rural e decisões do STJ sobre o produtor, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Julgada em setembro e transitada em julgado em 19/10; gancho na nova renegociação da MP 1.376, à espera de sanção"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Tese, datas e recursos lidos na página oficial dos repetitivos do STJ"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Explicamos o efeito prático da tese para o produtor e a ligação com a nova renegociação, sem cobertura ampla na imprensa"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 1
+   },
+   "criterios": [
+    "Documento primário: tese oficial do STJ (2)",
+    "Ato de quem tem poder: decisão da Corte Especial do STJ (2)",
+    "Proximidade: nacional (2)",
+    "Número forte: oito leis de renegociação (1)",
+    "Contraria a narrativa: prescrição não livra a dívida (1)",
+    "Moeda social: tese pouco divulgada (1)",
+    "Utilidade: o que revisar em execuções antigas (1)",
+    "Cabe num cartão: dívida rural antiga pode não estar prescrita (1)",
+    "Pede resposta do cristão: honrar compromissos com prudência (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Tema Repetitivo 1406",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Justiça e dívida rural",
+  "coleta": "2026-11-17",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na página oficial dos repetitivos do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "íntegra do acórdão e quantos processos estavam suspensos"
+  },
+  "duplicidade": {
+   "grupo": "Tema 1.406 do STJ",
+   "itens": [
+    "STJ repetitivos"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-12-prorrogacao-divida-rural-resolucao-cmn-5314-sumula-298-stj"
+  },
+  "seo": {
+   "intencao": "saber se dívida rural antiga prescreveu",
+   "entidades": [
+    "STJ",
+    "Tema 1406",
+    "prescrição",
+    "crédito rural",
+    "Lei 11.775/2008"
+   ],
+   "termos": [
+    "prescrição dívida rural STJ",
+    "Tema 1406 STJ",
+    "suspensão prescrição renegociação dívida rural"
+   ],
+   "atualizacao": "atualizar com a íntegra do acórdão"
+  },
+  "agro": {
+   "demanda": "Produtores em execuções antigas de cédulas rurais cuja defesa de prescrição fica enfraquecida; análise de quais leis e períodos se aplicam a cada operação",
+   "prazo": "tese em vigor desde 19/10/2026",
+   "quem": "Produtores com dívidas rurais antigas enquadráveis nas leis de 2008 a 2018 e em cobrança judicial"
+  }
+ },
+ "descricao_seo": "STJ, Tema 1.406: suspensão da prescrição prevista nas leis de renegociação de dívidas rurais vale sem adesão do devedor. Tese transitou em 19/10/2026.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da página oficial do STJ, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a tese é citada literalmente; o efeito prático é apresentado como possibilidade, com as ressalvas da própria tese; não há recomendação de serviço profissional nem menção à advocacia do editor. Nenhuma parte é acusada.",
+ "imagem": {
+  "arquivo": "capas/stj-tema-1406-prescricao-divida-rural-suspensa-automaticamente-leis-renegociacao.jpg",
+  "credito": "Jean-François Millet, Mulher com ancinho (c. 1856-57), The Metropolitan Museum of Art",
+  "alt": "Pintura de Millet: camponesa de perfil segura um ancinho num campo de feno",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DT1978.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/437099"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-17T02:35:53-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-17T02:35:53-03:00"
+}
