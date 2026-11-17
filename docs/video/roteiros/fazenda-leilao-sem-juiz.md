@@ -70,3 +70,66 @@ Endereço: https://legis.senado.leg.br/norma/551390/publicacao/34619692
   aceitar".
 - **Fala 9** é informativa (Provimento 205/2021), com fecho diferente dos vídeos anteriores.
 - **Imagens reais:** fazenda vista de drone, do TikTok, com crédito na tela. Nenhuma pessoa identificável.
+
+## Entrega (17/11/2026)
+- **Formato:** 1080×1080, 58,5 s.
+- **Som:** −13,4 LUFS, pico de −1,4 dBFS. Trilha **agronejo** normalizada em −30 LUFS. A transcrição do arquivo final bate
+  com as falas.
+- **Abertura (retenção nos 3 primeiros segundos, pedido do editor):**
+  - a imagem real mais forte em tela cheia: a colheitadeira vindo de frente com a bandeira do Brasil e as outras em
+    formação atrás;
+  - aproximação lenta;
+  - aos 0,4 s, batida grave com tranco e clarão;
+  - a pergunta da capa fica até os 2 s;
+  - "IMAGEM ILUSTRATIVA" com o crédito do perfil.
+- **Cenas:**
+  - **reais (TikTok, com crédito e "imagem ilustrativa"):** a colheita em formação (@miqueiasdoagro), em tela cheia e
+    numa moldura de react, e a colheitadeira na poeira (@hohljd), em moldura;
+  - **óleo com espátula (Opuscar):** a fazenda de soja madura com silos e "alienação fiduciária" a espátula; a mesma
+    fazenda no fim de tarde;
+  - **modelo antigo:** o cartório (à maneira de Pieter de Hooch), a mesa do leilão com o martelo batendo duas vezes (à
+    maneira de Willem Claesz. Heda) e a porteira se abrindo ao amanhecer (à maneira de Camille Corot).
+- **Cartões:** art. 26, § 1º, e art. 27, § 5º-A.
+- **Capas:** quadro 0 (`capa.jpg`) e capas do Instagram em 9:16 e 4:5.
+
+## Publicação (17/11/2026)
+
+**Título do YouTube:**
+> O banco pode leiloar a sua fazenda sem juiz? Pode. E você ainda pode ficar devendo
+
+Alternativas:
+- Alienação fiduciária: o banco toma a fazenda pelo cartório em 15 dias
+- Fazenda dada em garantia: o leilão sem juiz e o saldo que continua com você
+
+**Descrição do YouTube:**
+```
+Na alienação fiduciária, a fazenda dada em garantia passa para o nome do banco até você quitar (Lei 9.514/1997, art. 22). Atrasou a parcela, o oficial do registro de imóveis intima você a pagar em 15 dias; se não pagar, a propriedade é consolidada em nome do banco (art. 26). Depois vêm dois leilões; no segundo, se ninguém oferecer o valor da dívida, o banco pode aceitar lance de pelo menos metade da avaliação (art. 27, § 2º). E se o leilão não cobrir a dívida, o devedor continua obrigado pelo saldo (art. 27, § 5º-A, incluído pela Lei 14.711/2023). Até o segundo leilão, você tem preferência para recomprar a fazenda pelo valor da dívida e das despesas (art. 27, § 2º-B).
+
+Fonte: Lei 9.514/1997, com a redação da Lei 14.711/2023 (texto compilado publicado pelo Senado Federal).
+Imagens reais ilustrativas: @miqueiasdoagro e @hohljd (TikTok). Pinturas feitas em código: óleo com espátula (Lemo-Opuscar) e à maneira de Pieter de Hooch, Willem Claesz. Heda e Camille Corot. Trilha original.
+
+#dividarural #agro #produtorrural #direitoagrario #Shorts
+```
+
+**Legenda do Instagram:**
+```
+O banco pode leiloar a sua fazenda SEM JUIZ? 😳🚜
+
+Pode. Se a fazenda foi dada em ALIENAÇÃO FIDUCIÁRIA, no papel ela passa para o banco até você quitar (Lei 9.514/1997, art. 22).
+
+⏳ Atrasou a parcela: o cartório de registro de imóveis intima você a pagar em 15 dias. Não pagou, a fazenda passa para o nome do banco (art. 26).
+🔨 Depois vêm dois leilões. No segundo, se ninguém cobrir a dívida, o banco pode aceitar METADE da avaliação (art. 27, § 2º).
+⚠️ E o pior: se o leilão não cobrir a dívida, você continua devendo o resto (art. 27, § 5º-A).
+
+A saída 👇
+🚪 Até o segundo leilão, você tem preferência para recomprar a fazenda pelo valor da dívida e das despesas (art. 27, § 2º-B).
+
+💬 A sua fazenda está em alienação fiduciária? Você sabe o que diz o seu contrato?
+📲 Manda pra quem deu a terra em garantia.
+
+Na alienação fiduciária, o prazo corre no cartório. Me segue pra proteger a sua fazenda. Dúvida? Direct aberto.
+
+Fonte: Lei 9.514/1997, com a redação da Lei 14.711/2023 (texto do Senado Federal). Imagens ilustrativas: @miqueiasdoagro e @hohljd. Pinturas feitas em código. Trilha original.
+
+#dividarural #alienacaofiduciaria #agro #agronegocio #produtorrural #fazenda #leilao #direitoagrario #creditorural #campo
+```

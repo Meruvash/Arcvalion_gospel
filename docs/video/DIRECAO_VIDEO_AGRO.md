@@ -76,6 +76,13 @@ no feed parado e na miniatura do YouTube.
 Regras de texto da capa e do título do YouTube no padrão vencedor: `docs/video/PADRAO_CASEIRO.md`, seção 3 (pergunta
 com personagem + verbo de perda ou ganho; nunca número, sigla ou órgão sozinhos).
 
+### 2.1.2 Os 3 primeiros segundos (retenção; pedido do editor, 17/11/2026)
+- **Imagem:** a mais chamativa do vídeo, em **tela cheia** (não em moldura), já em movimento: aproximação lenta.
+  Prefira imagem real de impacto, com crédito e "IMAGEM ILUSTRATIVA" quando for de terceiros.
+- **Quebra de padrão:** aos 0,3 a 0,5 s, batida sonora grave com tranco e clarão rápidos.
+- **Pergunta da capa:** na tela até cerca de 2 s, enquanto o narrador já começa o "Você sabia…".
+- **Exemplo:** `docs/video/roteiros/fazenda-leilao-sem-juiz.md`.
+
 ### 2.1.1 Imagens inéditas em cada vídeo (pedido do editor, 11/11/2026)
 **Nenhuma imagem se repete entre vídeos**: pintura, mapa, gráfico ou foto. A tabela abaixo mostra estilos e cenas já
 feitos como referência de linguagem, não como estoque para reaproveitar. Antes de produzir, confira
