@@ -35,7 +35,9 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 6. **Prévia curta → aprovação → vídeo completo.** Entregue com a lista da seção 4 do
    `DIRECAO_VIDEO_AGRO.md`.
 7. **Capa no quadro 0** (seção 2.1.0 da direção): o primeiro quadro funciona como thumbnail, com a pintura viva e o
-   gancho em 2 a 4 palavras gigantes. Exporte `capa.jpg` e mande junto. **Trilha normalizada em −30 LUFS**, com volume 1
+   gancho em 2 a 4 palavras gigantes. Exporte `capa.jpg` e mande junto. Gere também as **capas do Instagram
+   em 9:16 e 4:5** (`tools/video/agro-arte/capa_instagram/LEIAME.md`), porque o quadro do vídeo quadrado fica mal formatado no
+   Instagram (pedido do editor, 17/11/2026). **Trilha normalizada em −30 LUFS**, com volume 1
    (seção 3).
 8. **Sempre, junto com o vídeo final:** a **legenda do Instagram** e o **título do YouTube** (com 2 alternativas e
    descrição curta), nas regras da seção 4 da direção. Guarde os dois no arquivo do roteiro, seção "Publicação".
