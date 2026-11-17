@@ -170,6 +170,11 @@ código só para o que não tiver imagem real boa. O teste começa no vídeo da 
 - a narração comenta o que o criador diz;
 - o arquivo vem do editor (gravação de tela ou botão do app), nunca de raspagem.
 
+**O react é com IMAGENS, não com pessoas** (pedido do editor, 17/11/2026): imagens bonitas do assunto (lavoura,
+colheita, drone, gado, clima, porteira), que o editor usa como referência e às quais reage. Nada de vídeo de gente
+falando nem comentário sobre pessoas. As imagens saem do TikTok pela `tools/video/tiktok_baixar/baixar_tiktok.cjs`, na
+maior resolução, com o crédito do perfil na tela.
+
 **No react, a estrutura validada continua** (Padrão Caseiro e as 10 batidas), e **quem reage é o editor, com a voz
 clonada dele** (pedido de 17/11/2026). O narrador fica com o gancho, a chave, a prova e a pergunta. Na tela da reação,
 a etiqueta "DR. PELICIONI" sobre o trecho congelado, sem TV nem onda de áudio.

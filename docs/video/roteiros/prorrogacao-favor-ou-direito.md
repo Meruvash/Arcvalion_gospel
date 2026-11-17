@@ -123,3 +123,41 @@ Pedido do editor (17/11/2026): buscar os vídeos no TikTok e extrair os trechos.
 | 9 | Editor | "Eu sou o Dr. Pelicioni, advogado. Na dívida rural, o não do gerente não é a última palavra. Me segue pra defender a sua safra." | Cartela |
 
 **Antes do render:** conferir no STJ e no STF se algum tribunal superior já decidiu (fala 7).
+
+---
+
+# Roteiro v4 (17/11/2026): react com IMAGENS
+
+Pedido do editor (17/11/2026): "React com imagens. Eu não quero ficar falando sobre pessoas, comentando sobre as pessoas.
+Eu quero imagens de ilustração que eu possa falar sobre o assunto, utilizar como referência e reagir a essas imagens,
+que sejam imagens bonitas." O vídeo do advogado da v3 sai.
+
+## As imagens (TikTok, baixadas na maior resolução e verificadas, `tools/video/tiktok_baixar/`)
+
+| Imagem | Origem | Arquivo | Uso |
+|---|---|---|---|
+| Orquestra de colheitadeiras do Grupo Horita no oeste da Bahia, vista de drone, com "HORITA 2025" desenhado na lavoura | @miqueiasdoagro, 28/3/2025 (repostagem; marca d'água "Consagrado Editora") | 1080×1920 HEVC, 54,9 s; a imagem útil é uma faixa 16:9 | Abertura e reação 1 |
+| Chuva de granizo cobrindo o gramado e a varanda, "Granizo em Tatuí S.P. 27/01/2024" | @galera_do_agro_brasil, 28/1/2024 | 720×1284, 70,8 s | Reação 2: frustração de safra |
+| Colheitadeira John Deere S790 colhendo soja no meio da poeira | @hohljd, 29/4/2024 | 576×1024, 24,6 s | Fala 7 |
+
+Na tela, cada imagem fica numa moldura, com o crédito "IMAGENS: @perfil · TikTok" o tempo todo.
+
+## Estrutura (cerca de 61 s; 73 palavras do narrador e 96 do editor)
+
+| # | Quem | Fala | Imagem |
+|---|---|---|---|
+| 1 | Narrador | "Você sabia que, quando o gerente diz que prorrogar a sua dívida rural é favor do banco, o STJ diz o contrário, mas, desde julho, uma regra nova escreveu o que o banco queria?" | Capa "PRORROGAR É FAVOR DO BANCO?" sobre a orquestra de colheitadeiras |
+| 2 | **Editor (reação)** | "Olha o tamanho dessa colheita. Agora imagina essa safra frustrada, com a parcela do banco vencendo." | A orquestra de colheitadeiras, com o "HORITA 2025" aparecendo na lavoura |
+| 3 | Narrador | "Tudo está em cinco palavras: por sua conveniência e decisão." | As cinco palavras a espátula |
+| 4 | Narrador | "Desde julho, o Manual de Crédito Rural diz que o banco prorroga por sua conveniência e decisão." | **Cartão 1:** Res. CMN 5.314/2026 |
+| 5 | **Editor** | "Só que a Súmula 298 do STJ diz: prorrogar não é faculdade do banco, é direito do devedor." | **Cartão 2:** Súmula 298 |
+| 6 | **Editor (reação)** | "Um granizo desses acaba com a lavoura em minutos. É isso que a lei chama de frustração de safra." | O granizo de Tatuí |
+| 7 | **Editor (virada)** | "A briga ainda não acabou: vale a súmula ou a resolução? Nenhum tribunal superior decidiu isso até agora." | A colheitadeira na poeira, com a balança pintada "súmula × resolução" por cima |
+| 8 | Narrador | "O seu banco já te negou uma prorrogação dizendo que era favor?" | Lavoura ao fim do dia (Opuscar) |
+| 9 | Editor | "Eu sou o Dr. Pelicioni, advogado. Na dívida rural, o não do gerente não é a última palavra. Me segue pra defender a sua safra." | Cartela |
+
+## Cuidados
+- **Fala 6:** o MCR 2-6-4 fala em "frustração de safras, por fatores adversos". O granizo é exemplo de fator adverso. O vídeo
+  é de Tatuí (SP), em 27/1/2024, como diz a legenda da própria gravação, e a fala não afirma nada sobre aquela lavoura.
+- **Fala 2:** a colheita do Grupo Horita é só imagem de referência. Não dizemos nada sobre a situação financeira da empresa.
+- **Antes do render:** conferir no STJ e no STF se algum tribunal superior já decidiu (fala 7).
