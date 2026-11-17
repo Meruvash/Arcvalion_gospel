@@ -170,6 +170,10 @@ código só para o que não tiver imagem real boa. O teste começa no vídeo da 
 - a narração comenta o que o criador diz;
 - o arquivo vem do editor (gravação de tela ou botão do app), nunca de raspagem.
 
+**No react, a estrutura validada continua** (Padrão Caseiro e as 10 batidas), e **quem reage é o editor, com a voz
+clonada dele** (pedido de 17/11/2026). O narrador fica com o gancho, a chave, a prova e a pergunta. Na tela da reação,
+a etiqueta "DR. PELICIONI" sobre o trecho congelado, sem TV nem onda de áudio.
+
 A base é a citação do art. 46, III da Lei 9.610/1998 e, no caso de criador americano, também o fair use (comentário e
 crítica). Exemplo: `docs/video/roteiros/aposentadoria-rural-roca.md`, v2.
 

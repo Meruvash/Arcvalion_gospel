@@ -1,6 +1,6 @@
 # "Aposentadoria da roça sem carnê do INSS" — roteiro v1 (17/11/2026), primeiro teste com imagens reais
 
-> **Substituído pela v3 (react de criadora brasileira), no fim deste arquivo**, por decisão do editor em 17/11/2026.
+> **Substituído pela v4 (estrutura validada + react na voz do editor), no fim deste arquivo**, por decisão do editor em 17/11/2026.
 
 - **Pauta:** eixo G (trabalho e previdência). Vinha da pesquisa de 17/11/2026, com **14/16 no Crivo do Caseiro**. O vídeo
   anterior foi do eixo B, então o rodízio está respeitado.
@@ -160,3 +160,37 @@ base continua sendo a citação para comentário (Lei 9.610/1998, art. 46, III).
 - **Crédito:** "@analucapacio.previdencia · TikTok · trecho citado para comentário" o tempo todo em que o trecho passa. O
   link vai na legenda e na descrição.
 - Os fatos da v1 continuam valendo.
+
+---
+
+# Roteiro v4 (17/11/2026): estrutura validada + react na voz do editor
+
+Pedido do editor (17/11/2026): manter a estrutura de roteiro que já funcionou (Padrão Caseiro) e, na hora de reagir ao
+vídeo da criadora, usar a voz dele.
+- **Narrador (Marcio):** gancho "Você sabia", chave, prova e pergunta, como nos vídeos validados.
+- **Editor (voz clonada):** as duas reações ao trecho e a conclusão. Na tela, a etiqueta "DR. PELICIONI" sobre a criadora
+  congelada. Sem TV e sem onda de áudio (regra da skill).
+- **Vídeo comentado:** o mesmo da v3 (@analucapacio.previdencia).
+
+**Capa (quadro 0):** etiqueta "APOSENTADORIA RURAL", título gigante "SEM CARNÊ DO INSS?" e a linha "quem trabalhou na roça
+pode, com uma condição".
+
+| # | Batida | Quem | Fala ou trecho | Imagem |
+|---|---|---|---|---|
+| 1 | Gancho (mito × ameaça) | Narrador | "Você sabia que o seu pai, que trabalhou a vida toda na roça, pode se aposentar sem carnê do INSS, mas sai dessa regra se a terra passar de quatro módulos?" | Capa no quadro 0; roça brasileira com o lavrador de costas |
+| 2 | O vídeo que viralizou | Criadora | **Trecho (0 a 7,7 s):** "agora é lei… com apenas quinze anos de contribuição" | Moldura com "@analucapacio.previdencia · TikTok", "115 mil visualizações" |
+| 3 | Reação 1 | **Editor** | "Agora é lei? É lei há mais de trinta anos. E na roça não se pede contribuição: pede-se trabalho." | Criadora congelada; etiqueta "DR. PELICIONI"; carimbo "DESDE 1995" |
+| 4 | Chave | Narrador | "O nome disso é segurado especial: quem trabalha na terra sozinho ou com a família." | "segurado especial" em tipografia grande sobre a roça |
+| 5 | Prova | Narrador | "A lei pede quinze anos de roça provados e garante um salário mínimo: sessenta anos pro homem, cinquenta e cinco pra mulher." | **Cartão 1:** Lei 8.213, art. 39, I; contador "15 anos · 60 · 55" |
+| 6 | Reação 2 (virada) | **Editor** | "E o que esse vídeo não contou: acima de quatro módulos fiscais, precisa ter pago o INSS, e a idade não cai." | Mapa em aquarela "4 módulos fiscais"; **cartão 2:** art. 11, V, a; criadora pequena no canto, com crédito |
+| 7 | Pergunta | Narrador | "Seu pai ou sua mãe trabalharam a vida toda na roça e nunca pediram essa aposentadoria?" | Varanda da casa de roça no fim de tarde |
+| 8 | Conclusão | Editor | "Eu sou o Dr. Pelicioni, advogado. Na aposentadoria rural, quem guarda papel guarda direito. Me segue pra não deixar esse direito pra trás." | Cartela |
+
+**Tamanho:** 147 palavras (84 do narrador e 63 do editor) mais 7,7 s de trecho, cerca de 59 s. Saiu a fala dos papéis
+(contrato, bloco, nota), que vai para a legenda do Instagram.
+
+**Crivo do Caseiro:** 14/16, como na v1. O gancho tem personagem ("o seu pai"), bem em jogo (a aposentadoria), mito
+desfeito ("sem carnê") e ameaça ("sai dessa regra") na mesma frase.
+
+**Cuidados:** os mesmos das versões anteriores. Antes do render: conferir no texto o trecho da criadora (pela nossa
+transcrição do arquivo que o editor mandar) e a data do art. 48, § 1º (Lei 9.032/1995).
