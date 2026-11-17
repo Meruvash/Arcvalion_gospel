@@ -2,7 +2,7 @@
  "slug": "juiz-paraiba-nega-alvara-meninas-canal-familia-150-mil-trabalho-infantil",
  "data": "2026-11-17",
  "categoria": "familia-e-valores",
- "status": "publicado",
+ "status": "despublicado",
  "manchete": false,
  "opiniao_forte": true,
  "selo": "Vale acompanhar",
@@ -209,5 +209,13 @@
   "data": "2026-11-17T02:31:15-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-17T02:31:15-03:00"
+ "publicado_em": "2026-11-17T02:31:15-03:00",
+ "historico": [
+  {
+   "data": "2026-11-17T02:32:38-03:00",
+   "acao": "despublicado",
+   "por": "anderson-pelicioni-de-castro",
+   "motivo": "Duplicada: o mesmo caso já estava publicado minutos antes em justica-paraiba-nega-alvara-irmas-canal-monetizado-150-mil-resolucao-cnj-687"
+  }
+ ]
 }
