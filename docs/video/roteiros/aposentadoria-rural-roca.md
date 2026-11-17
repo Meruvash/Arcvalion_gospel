@@ -1,6 +1,6 @@
 # "Aposentadoria da roça sem carnê do INSS" — roteiro v1 (17/11/2026), primeiro teste com imagens reais
 
-> **Substituído pela v2 (formato react), no fim deste arquivo**, por decisão do editor em 17/11/2026.
+> **Substituído pela v3 (react de criadora brasileira), no fim deste arquivo**, por decisão do editor em 17/11/2026.
 
 - **Pauta:** eixo G (trabalho e previdência). Vinha da pesquisa de 17/11/2026, com **14/16 no Crivo do Caseiro**. O vídeo
   anterior foi do eixo B, então o rodízio está respeitado.
@@ -111,3 +111,52 @@ Pedido do editor (17/11/2026): usar o vídeo de um criador americano no formato 
 - **Crédito:** "@pinkppp9999 · TikTok · trecho citado para comentário" aparece o tempo todo em que o criador está na tela.
   O link entra na legenda do Instagram e na descrição do YouTube.
 - Os fatos e os demais cuidados da v1 continuam valendo.
+
+---
+
+# Roteiro v3 (17/11/2026): react de vídeo brasileiro
+
+Pedido do editor (17/11/2026): no react, o vídeo comentado pode ser de criador brasileiro, que é mais fácil de achar. A
+base continua sendo a citação para comentário (Lei 9.610/1998, art. 46, III).
+
+## O vídeo comentado
+- **Criadora:** @analucapacio.previdencia (TikTok), publicado em 27/10/2026.
+  - Endereço: https://www.tiktok.com/@analucapacio.previdencia/video/7701276874646818066
+  - No Virlo (17/11/2026): 115.451 visualizações, 2.086 curtidas e 556 compartilhamentos.
+- **Trecho (0 s a cerca de 7,7 s), pela transcrição automática do Virlo:** "agora é lei o NSS é obrigado a conceder
+  aposentadoria pra mulheres aos cinquenta e cinco e homens aos sessenta anos e o melhor de tudo com apenas quinze anos
+  de contribuição".
+  - Quando o editor mandar o arquivo, a fala será conferida pela nossa transcrição antes de entrar na legenda.
+  - A transcrição automática escreveu "NSS"; a palavra provável é "INSS".
+- **Por que este vídeo:**
+  - viralizou com uma frase de impacto ("agora é lei");
+  - acerta as idades;
+  - tem dois pontos que pedem complemento: a regra não é nova, e o trabalhador rural prova trabalho, não contribuição;
+  - deixa de fora o limite de 4 módulos fiscais.
+- **Tom:** comentário respeitoso, que completa a informação, sem atacar a criadora. Se ela for advogada, o editor confere
+  antes o que o Código de Ética e o Provimento 205/2021 permitem ao comentar o conteúdo de colegas.
+
+## Estrutura (cerca de 57 s: 162 palavras de narração + 7,7 s de trecho)
+
+| # | Batida | Fala ou trecho | Imagem |
+|---|---|---|---|
+| 0 | Capa e gancho | **Trecho da criadora** (0 a 7,7 s), na moldura, com "@analucapacio.previdencia · TikTok" o tempo todo | Quadro 0 = capa: etiqueta "APOSENTADORIA RURAL", título "AGORA É LEI?" e a linha "o que esse vídeo não contou" |
+| 1 | Comentário | "Agora é lei? Essa regra existe há mais de trinta anos, e ela acertou nas idades." | Criadora congelada na moldura; carimbo "DESDE 1995" (Lei 9.032/1995, que deu a redação ao art. 48, § 1º) |
+| 2 | Virada (mito × verdade) | "Mas você sabia que, pro trabalhador da roça, nem é preciso ter quinze anos de contribuição? E que, se a terra passar de quatro módulos fiscais, sai dessa regra?" | Roça brasileira |
+| 3 | Chave | "O nome disso é segurado especial: quem trabalha na terra sozinho ou com a família." | "segurado especial" em tipografia grande |
+| 4 | Prova | "A lei pede quinze anos de trabalho rural provado, e não de carnê pago, e garante um salário mínimo." | **Cartão 1:** Lei 8.213, art. 39, I |
+| 5 | Papéis | "Vale como prova contrato de arrendamento, bloco do produtor e nota da venda da safra." | Natureza-morta dos papéis (pintura em código) |
+| 6 | O que faltou | "Agora, o detalhe que o vídeo não contou: acima de quatro módulos fiscais, ele vira contribuinte individual. Aí precisa ter pago o INSS, e a idade não cai." | Mapa em aquarela "4 módulos fiscais". **Cartão 2:** art. 11, V, a |
+| 7 | Pergunta | "Seu pai ou sua mãe trabalharam a vida toda na roça e nunca pediram essa aposentadoria?" | Varanda da casa de roça no fim de tarde |
+| 8 | Conclusão | DR. PELICIONI: "Eu sou o Dr. Pelicioni, advogado. Na aposentadoria rural, quem guarda papel guarda direito. Me segue pra não deixar esse direito pra trás." | Cartela |
+
+## Cuidados da v3
+- **"Há mais de trinta anos" (fala 1):** a redução para 60 e 55 anos está no art. 48, § 1º da Lei 8.213/1991. O parágrafo
+  foi acrescentado pela Lei 9.032, de 28/4/1995, segundo a nota do texto compilado. Antes do render, conferir também a
+  redação original da Lei 8.213/1991.
+- **"Nem é preciso ter quinze anos de contribuição" (fala 2)** vem do art. 39, I: o segurado especial comprova atividade
+  rural pelo número de meses da carência. Ele contribui sobre a venda da produção (Lei 8.212/1991), mas não precisa provar
+  contribuição mensal.
+- **Crédito:** "@analucapacio.previdencia · TikTok · trecho citado para comentário" o tempo todo em que o trecho passa. O
+  link vai na legenda e na descrição.
+- Os fatos da v1 continuam valendo.
