@@ -84,3 +84,42 @@ O trecho entra entre as falas 1 e 5 e é comentado pelo editor na reação 1.
 | 7 | **Editor (reação 2, virada)** | "E a briga ainda não acabou: vale a súmula ou a resolução? Nenhum tribunal superior decidiu isso até agora." |
 | 8 | Narrador | "O seu banco já te negou uma prorrogação dizendo que era favor?" |
 | 9 | Editor | "Eu sou o Dr. Pelicioni, advogado. Na dívida rural, o não do gerente não é a última palavra. Me segue pra defender a sua safra." |
+
+---
+
+# Roteiro v3 (17/11/2026): react de vídeo do TikTok
+
+Pedido do editor (17/11/2026): buscar os vídeos no TikTok e extrair os trechos. O YouTube exige login e fica para depois.
+
+## O vídeo comentado (baixado da página pública e transcrito pela ElevenLabs em 17/11/2026)
+- **João Domingos Advogados** (@joaodomingosadvogados, 191 mil seguidores), corte do podcast Agro em Debate, publicado em
+  8/4/2023.
+  - Endereço: https://www.tiktok.com/@joaodomingosadvogados/video/7219717228873256197
+  - Números da página em 17/11/2026: 106,9 mil visualizações, 1.016 curtidas e 335 compartilhamentos.
+- **Trechos** (na pasta de trabalho, `react/trecho_a|b|c.mp4`):
+  - **A (10,30 s a 14,30 s):** "Cê chegou no banco, cê pede pra prorrogar, ele vai prorrogar se ele quiser, se ele não
+    quiser, não prorroga."
+  - **B (15,12 s a 18,10 s):** "Agora o crédito rural, esse que é subsidiado ali, é diferente."
+  - **C (25,80 s a 26,70 s):** "o banco é obrigado."
+- **Por que este vídeo:**
+  - em 2023, ele diz que no crédito rural o banco é obrigado a prorrogar, ao contrário do empréstimo comum, em que o
+    banco prorroga "se ele quiser";
+  - em julho de 2026, o MCR passou a dizer "por sua conveniência e decisão";
+  - o react **atualiza** a informação, sem desmentir o colega: a Súmula 298 continua dizendo o que ele disse.
+  - Como ele é advogado, o editor confere antes o que o Código de Ética permite.
+
+## Estrutura (cerca de 60 s)
+
+| # | Quem | Fala ou trecho | Imagem |
+|---|---|---|---|
+| 1 | Narrador | "Você sabia que, quando o gerente diz que prorrogar a sua dívida rural é favor do banco, o STJ diz o contrário, mas, desde julho, uma regra nova escreveu o que o banco queria?" | Capa "PRORROGAR É FAVOR DO BANCO?"; lavoura com a colheita atrasada |
+| 2 | **Trechos A + B + C** (cerca de 8 s) | Advogado no podcast, de 2023 | Moldura com "@joaodomingosadvogados · TikTok · 2023" o tempo todo |
+| 3 | **Editor (reação 1)** | "Em 2023, era isso mesmo. Mas, em julho deste ano, o Manual de Crédito Rural ganhou cinco palavras: por sua conveniência e decisão." | Trecho congelado; etiqueta "DR. PELICIONI"; as cinco palavras a espátula |
+| 4 | Narrador | "Agora o texto diz que o banco está autorizado a prorrogar por sua conveniência e decisão, e que ele mesmo atesta se você pode pagar." | **Cartão 1:** Res. CMN 5.314/2026 (MCR 2-6-4) |
+| 5 | **Editor (reação 2)** | "Só que a Súmula 298 do STJ continua dizendo: prorrogar não é faculdade do banco, é direito do devedor." | **Cartão 2:** Súmula 298 |
+| 6 | Narrador | "E o pedido depende de um motivo: dificuldade de vender, frustração de safra ou outro problema que prejudique a lavoura." | Seca, granizo e armazém cheio, em pintura |
+| 7 | **Editor (virada)** | "A briga ainda não acabou: vale a súmula ou a resolução? Nenhum tribunal superior decidiu isso até agora." | Balança pintada: súmula × resolução |
+| 8 | Narrador | "O seu banco já te negou uma prorrogação dizendo que era favor?" | Agência no interior ao fim do dia |
+| 9 | Editor | "Eu sou o Dr. Pelicioni, advogado. Na dívida rural, o não do gerente não é a última palavra. Me segue pra defender a sua safra." | Cartela |
+
+**Antes do render:** conferir no STJ e no STF se algum tribunal superior já decidiu (fala 7).
