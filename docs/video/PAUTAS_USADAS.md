@@ -9,6 +9,7 @@ pauta recusada.
 | 11/11/2026 | "Cinco por dia" | A | Serasa Experian, recuperação judicial no agro (1º e 2º tri 2026) | número surpreendente (5 por dia) + mapa | publicado |
 | 12/11/2026 | "O relógio zerou" | A | PLV 16/2026 (MP 1.376 aprovada no Senado) | prazo que recomeça + queda de preço conta | entregue |
 | 12/11/2026 | "A porta e o porteiro" | D | Acordo Mercosul–UE, 6 meses (MAPA/Agrostat) + EUDR (Comissão Europeia, 30/12/2026) + RASOE (Res. CEC 17/2026) | número surpreendente positivo (mel +367%) → porta que abre e porteiro que chega | **publicado: praticamente sem visualização** (editor, 16/11/2026). Pauta macro, sem nada do espectador em jogo |
+| 17/11/2026 | "O gado do vizinho comeu a sua roça" | B | Código Civil, art. 936 (dano causado por animal) e art. 1.297, §§ 1º e 3º (cerca divisória) | mito × verdade com virada ("quem paga é ele, mas se a culpa foi sua…"); Crivo do Caseiro 15/16 | roteiro v1, aguardando aprovação |
 | 16/11/2026 | "O irmão vendeu sem avisar" | F | Código Civil, arts. 1.791, 1.794, 1.795, 1.314 e 1.322 (herança em condomínio, preferência do herdeiro, 180 dias, venda da coisa indivisível) | mito × verdade com virada, no molde do caseiro | roteiro aprovado pelo editor (16/11/2026); **entregue** em 16/11/2026 |
 | 16/11/2026 | "Produtor é caloteiro?" | A (exceção por tendência) | Banco do Brasil: lucro do 3T26 −66,5%, atribuído à inadimplência do agro; fala da presidente; nota da Aprosoja; comparação da Farsul | polêmica da semana, estrutura de 10 batidas | **roteiro não aprovado pelo editor** (16/11/2026); produção interrompida |
 | 16/11/2026 | "O caseiro e o vizinho" | B | Código Civil, arts. 1.198, 1.208, 1.238 e 1.239 (posse, detenção e usucapião) | mito × verdade com virada ("o caseiro não vira dono, o estranho pode") | **publicado: 150 visualizações em minutos (16/11) e 2.200 (17/11/2026)**. Virou padrão: `PADRAO_CASEIRO.md` |
@@ -16,6 +17,16 @@ pauta recusada.
 
 **Situação do rodízio:** depois de três vídeos do eixo A, veio um do eixo D. O próximo não pode ser D, e o eixo A só volta
 depois de pelo menos mais 2 eixos diferentes.
+
+## Pautas em espera (pesquisa de 17/11/2026, com o Crivo do Caseiro)
+
+| Eixo | Pauta | Crivo | O que falta |
+|---|---|---|---|
+| B | Passagem forçada: o vizinho é obrigado a deixar você passar até a estrada, mediante indenização (CC, art. 1.285, lido em 17/11/2026) | 15/16 | Nada. Autocomplete: "passagem forçada", "requisitos", "indenização" |
+| A | "O banco pode tomar o seu sítio?": pequena propriedade rural trabalhada pela família é impenhorável (CPC, art. 833, VIII, lido em 17/11/2026; CF, art. 5º, XXVI) e o STF (Tema 961) a protege mesmo dada em garantia, segundo fontes secundárias | 14/16 | Ler a tese do Tema 961 no STF (portal deu 403 em 17/11/2026), o art. 5º, XXVI da CF e o art. 4º da Lei 8.629/1993 (até 4 módulos fiscais). Autocomplete: "pequena propriedade rural pode ser penhorada", "…dada em garantia pode ser penhorada" |
+| G | Aposentadoria rural sem contribuir: o segurado especial comprova 15 anos de atividade rural, 60 anos (homem) e 55 (mulher); acima de 4 módulos fiscais deixa de ser segurado especial (Lei 8.213/1991, arts. 11, VII, 39, I e 48, §§ 1º e 2º, texto compilado lido em 17/11/2026) | 14/16 | Nada de fonte. Tema muito disputado por outros advogados. Autocomplete: "aposentadoria rural precisa contribuir" |
+| F | "Contrato de boca vale?" (arrendamento e parceria verbal) | 13/16 | Ler o Decreto 59.566/1966. Só depois do rodízio (o último vídeo foi do eixo F) |
+| C | "Produtor rural vai pagar IBS e CBS?" | 8/16 | Abaixo de 12: sem personagem, sem texto lido (LC 214/2025), datado |
 
 ## Pautas em espera (pesquisa de 12/11/2026)
 
