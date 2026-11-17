@@ -163,6 +163,16 @@ código só para o que não tiver imagem real boa. O teste começa no vídeo da 
 - O risco cai no perfil do editor: denúncia, remoção do vídeo e bloqueio da conta.
 - A regra do projeto já exige licença conferida e crédito (`PROMPT_VIDEO_AGRO.md`, regras do portal, item 4).
 
+**Formato react (decisão do editor, 17/11/2026):** o vídeo de outro criador, de qualquer país, pode entrar quando for
+**o objeto do comentário**, e não imagem de fundo:
+- trecho curto, só o necessário para o comentário;
+- nome do criador e origem na tela o tempo todo, com o link na legenda;
+- a narração comenta o que o criador diz;
+- o arquivo vem do editor (gravação de tela ou botão do app), nunca de raspagem.
+
+A base é a citação do art. 46, III da Lei 9.610/1998 e, no caso de criador americano, também o fair use (comentário e
+crítica). Exemplo: `docs/video/roteiros/aposentadoria-rural-roca.md`, v2.
+
 **Pessoas:** de costas, de longe ou com autorização. Nunca um rosto identificável de alguém que não autorizou.
 **Crédito:** rodapé no padrão "FOTO/VÍDEO: autor · banco · licença".
 **Registro:** cada imagem real usada entra no `CENAS_USADAS.md`, com link e licença.

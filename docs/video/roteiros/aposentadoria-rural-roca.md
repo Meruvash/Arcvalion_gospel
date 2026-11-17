@@ -1,5 +1,7 @@
 # "Aposentadoria da roça sem carnê do INSS" — roteiro v1 (17/11/2026), primeiro teste com imagens reais
 
+> **Substituído pela v2 (formato react), no fim deste arquivo**, por decisão do editor em 17/11/2026.
+
 - **Pauta:** eixo G (trabalho e previdência). Vinha da pesquisa de 17/11/2026, com **14/16 no Crivo do Caseiro**. O vídeo
   anterior foi do eixo B, então o rodízio está respeitado.
 - **Demanda:** o Google sugere "aposentadoria rural **precisa contribuir**", "precisa de contribuição", "precisa de
@@ -57,3 +59,55 @@ https://legis.senado.leg.br/norma/550089/publicacao/34619956
 - **Fala 10:** é informativa (Provimento 205/2021) e tem fecho diferente dos vídeos anteriores.
 - **Imagens reais:** só com licença que permita uso comercial em rede social, com crédito na tela quando a licença pedir.
   Pessoas de costas, de longe ou com autorização. Ver a direção, seção 2.7.
+
+---
+
+# Roteiro v2 (17/11/2026): formato react, comentando o vídeo de um criador americano
+
+Pedido do editor (17/11/2026): usar o vídeo de um criador americano no formato react, **comentando a obra**.
+
+## Por que este formato cabe na lei
+- O trecho do criador é o **objeto do comentário**: o vídeo compara o que ele diz sobre a aposentadoria americana com a
+  regra brasileira. Não é imagem de fundo.
+- O uso é curto (dois trechos, cerca de 9 s no total), e o nome do criador e a origem aparecem na tela o tempo todo
+  em que o trecho passa.
+- Isso cabe na citação "para fins de estudo, crítica ou polêmica, na medida justificada para o fim a atingir,
+  indicando-se o nome do autor e a origem da obra" (Lei 9.610/1998, art. 46, III). Também cabe no fair use americano
+  (comentário e crítica da própria obra).
+- **O arquivo:** o editor grava a tela do trecho, ou baixa pelo botão do próprio app, e manda. Nós não raspamos o
+  TikTok.
+
+## O vídeo comentado
+- **Criador:** @pinkppp9999 (TikTok), "Full Social Security at 60 New Bill Explaine…", publicado em 29/9/2026.
+  - Endereço: https://www.tiktok.com/@pinkppp9999/video/7690899517918481686
+  - No Virlo (17/11/2026): 219.921 visualizações e Virality Score 26,7.
+- **Trecho A (6,58 s a 12,70 s):** "you might be able to collect your full Social Security benefit at age 60. Not 62,".
+  Na tela vai a tradução: "você pode receber o benefício integral da previdência aos 60 anos".
+- **Trecho B (34,94 s a 38,22 s):** "This is a proposed Bill. It has not become law yet." Na tela: "Isso é um projeto de
+  lei. Ainda não virou lei."
+- **Transcrição:** veio do Virlo (`raw_transcript`, 17/11/2026). Não afirmamos nada sobre a lei americana: só
+  repetimos o que o próprio criador diz.
+
+## Estrutura (cerca de 60 s, 171 palavras de narração + 9 s de trechos)
+
+| # | Batida | Fala ou trecho | Imagem |
+|---|---|---|---|
+| 0 | Capa e gancho | **Trecho A** do criador, com a tradução na legenda amarela | Quadro 0 = capa: etiqueta "APOSENTADORIA RURAL", título "LÁ É PROJETO. AQUI JÁ É LEI." Depois, o vídeo do criador numa moldura, com "@pinkppp9999 · TikTok" |
+| 1 | Comentário | "Nos Estados Unidos, isso ainda é projeto, como ele mesmo avisa." + **trecho B** | Moldura do criador; carimbo "PROJETO DE LEI" |
+| 2 | Virada (mito × verdade) | "Pois você sabia que, no Brasil, quem trabalhou a vida inteira na roça já se aposenta aos sessenta, sem carnê do INSS, mas, se a terra passar de quatro módulos fiscais, sai dessa regra?" | Roça brasileira (imagem real com licença, ou pintura se não houver) |
+| 3 | Chave | "O nome disso é segurado especial: quem trabalha na terra sozinho ou com a família." | "segurado especial" em tipografia grande sobre a roça |
+| 4 | Prova | "A lei garante um salário mínimo, se ele provar quinze anos de trabalho rural." | **Cartão 1:** Lei 8.213, art. 39, I |
+| 5 | Comparação | "E a idade é sessenta pro homem e cinquenta e cinco pra mulher. Lá, os sessenta seriam só pra trabalho pesado." | Tela dividida: o criador congelado (com crédito) × "60 · 55" sobre a roça |
+| 6 | Papéis | "Vale como prova contrato de arrendamento, bloco do produtor e nota da venda da safra." | Natureza-morta dos papéis (pintura em código) |
+| 7 | Atenção | "Agora, o detalhe: acima de quatro módulos fiscais, ele vira contribuinte individual. Precisa ter pago o INSS, e a idade não cai." | Mapa em aquarela "4 módulos fiscais". **Cartão 2:** art. 11, V, a |
+| 8 | Pergunta | "Seu pai ou sua mãe trabalharam a vida toda na roça e nunca pediram essa aposentadoria?" | Varanda da casa de roça no fim de tarde |
+| 9 | Conclusão | DR. PELICIONI: "Eu sou o Dr. Pelicioni, advogado. Na aposentadoria rural, quem guarda papel guarda direito. Me segue pra não deixar esse direito pra trás." | Cartela |
+
+## Cuidados da v2
+- **"Lá, os sessenta seriam só pra trabalho pesado" (fala 5)** resume o que o criador diz no vídeo (um projeto para quem
+  fez trabalho fisicamente pesado). Não dizemos nada além do vídeo sobre o direito americano.
+- **"Quinze anos" (fala 4):** são os 180 meses de carência (art. 25, II) que o art. 39, I manda comprovar em trabalho
+  rural.
+- **Crédito:** "@pinkppp9999 · TikTok · trecho citado para comentário" aparece o tempo todo em que o criador está na tela.
+  O link entra na legenda do Instagram e na descrição do YouTube.
+- Os fatos e os demais cuidados da v1 continuam valendo.
