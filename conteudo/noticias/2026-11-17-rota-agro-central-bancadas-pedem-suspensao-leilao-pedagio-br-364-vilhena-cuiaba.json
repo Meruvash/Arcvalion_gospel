@@ -1,0 +1,217 @@
+{
+ "slug": "rota-agro-central-bancadas-pedem-suspensao-leilao-pedagio-br-364-vilhena-cuiaba",
+ "data": "2026-11-17",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Bancadas de Rondônia, Mato Grosso e Acre pedem suspensão do leilão da Rota Agro Central",
+ "lide": "Os coordenadores das bancadas de Rondônia, Mato Grosso e Acre assinaram ofício ao ministro dos Transportes pedindo a suspensão da licitação da Rota Agro Central, os 887,6 km de BR-364, BR-174 e BR-070 entre Vilhena (RO) e Cuiabá (MT). O leilão está marcado para 17 de dezembro na B3, segundo o News Rondônia (16/11).",
+ "por_que_importa": "É por esse corredor que sai a soja, o milho e o gado do sul de Rondônia e do oeste de Mato Grosso. O produtor da região já paga pedágio no trecho concedido da BR-364 em Rondônia; nova praça de cobrança entra direto no custo do frete e no preço que ele recebe.",
+ "numeros": [
+  [
+   "887,6 km",
+   "de BR-364, BR-174 e BR-070 entre Vilhena e Cuiabá no lote CN3",
+   "Agência Senado, 10/11/2026"
+  ],
+  [
+   "R$ 23,4 bi",
+   "de arrecadação bruta de pedágio em 30 anos, pela conta citada por Bagattoli",
+   "Agência Senado, 10/11/2026"
+  ],
+  [
+   "17/12",
+   "é a data do leilão na B3, em São Paulo",
+   "Agência Senado, 10/11/2026"
+  ]
+ ],
+ "corpo": [
+  "A ANTT aprovou o Edital de Concessão 2/2026 pela Deliberação 263, publicada no Diário Oficial em 4 de setembro. Em 10 de novembro, a Comissão de Infraestrutura do Senado aprovou dois requerimentos do senador Jaime Bagattoli (PL-RO): pedido de auditoria do TCU sobre a licitação do lote CN3 e audiência pública sobre a viabilidade do edital, este subscrito por Jayme Campos, segundo os dados abertos do Senado.",
+  "O ofício das bancadas, assinado por Maurício Carvalho (RO), Coronel Fernanda (MT) e Alan Rick (AC), pede ainda revisão dos estudos e da modelagem. O presidente da comissão, Marcos Rogério (PL-RO), disse que fará a audiência se o leilão for mantido."
+ ],
+ "no_brasil": "O projeto prevê R$ 6,13 bilhões em investimentos. A Rota Agro Norte, de Porto Velho a Vilhena, já tem pedágio eletrônico em funcionamento. Até a manhã de 17/11 não havia notícia de resposta do Ministério dos Transportes nem de decisão do TCU sobre o pedido.",
+ "critica": [
+  {
+   "fonte": "Senador Jaime Bagattoli (PL-RO), na Comissão de Infraestrutura, segundo a Agência Senado",
+   "texto": "Se fizerem a concessão desses outros 800 e pouco quilômetros, vai inviabilizar totalmente a produção.",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/10/ci-pede-auditoria-em-concessao-rodoviaria-entre-rondonia-e-mato-grosso"
+  },
+  {
+   "fonte": "Defensores do modelo de concessão, pelo próprio edital",
+   "texto": "O contrato traz R$ 6,13 bilhões em obras e manutenção em 30 anos, com obrigações fiscalizadas pela ANTT, numa rodovia que hoje depende de dinheiro público.",
+   "citacao": false,
+   "url": "https://atlaspublico.com.br/noticias/antt-aprova-edital-para-concessao-da-rota-agro-central-com-85843"
+  }
+ ],
+ "para_quem": [
+  "Produtores de grãos e pecuaristas do sul de Rondônia e do oeste de Mato Grosso",
+  "Transportadoras e caminhoneiros que usam a BR-364",
+  "Cooperativas e cerealistas que pagam o frete até os portos do Norte"
+ ],
+ "nao_e_para": [
+  "Não suspende o leilão: o ofício e os requerimentos são pedidos, e a data de 17/12 segue mantida",
+  "Não define ainda o valor do pedágio: a tarifa sai da proposta vencedora",
+  "Não muda o pedágio já cobrado na Rota Agro Norte, entre Porto Velho e Vilhena"
+ ],
+ "veredito": "Estrada boa é bom para o produtor, mas o Norte não pode pagar a conta sozinho. Antes de leiloar 887 km, o governo deve fazer a audiência pedida pelo Senado e mostrar quanto o frete vai subir. Leiloar primeiro e explicar depois é desrespeito a quem produz.",
+ "versiculo": {
+  "texto": "O que lavra a sua terra se fartará de pão, mas o que segue os ociosos está falto de juízo.",
+  "referencia": "Provérbios 12.11",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: CI pede auditoria em concessão rodoviária entre Rondônia e Mato Grosso (10/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/10/ci-pede-auditoria-em-concessao-rodoviaria-entre-rondonia-e-mato-grosso",
+   "data": "10/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: tramitação do REQ 86/2026 - CI (auditoria do TCU no lote CN3)",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9108604",
+   "data": "10/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: tramitação do REQ 87/2026 - CI (audiência pública sobre o Edital 2/2026)",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9109195",
+   "data": "10/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Atlas Público: ANTT aprova edital para concessão da Rota Agro Central (Deliberação ANTT 263/2026, DOU de 04/09/2026)",
+   "url": "https://atlaspublico.com.br/noticias/antt-aprova-edital-para-concessao-da-rota-agro-central-com-85843",
+   "data": "04/09/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "News Rondônia: Senador Bagattoli conquista apoio das bancadas de Rondônia, Acre e Mato Grosso contra a concessão da Rota Agro Central (16/11/2026)",
+   "url": "https://newsrondonia.com.br/politica/2026/11/16/senador-bagattoli-conquista-apoio-das-bancadas-de-rondonia-acre-e-mato-grosso-contra-a-concessao-da-rota-agro-central/",
+   "data": "16/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 68,
+  "trilha": "quente",
+  "abrangencia": "rondonia",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Custo do frete da produção de grãos e gado de Rondônia e Mato Grosso pela BR-364"
+  },
+  "origem": {
+   "nome": "News Rondônia",
+   "url": "https://newsrondonia.com.br/politica/2026/11/16/senador-bagattoli-conquista-apoio-das-bancadas-de-rondonia-acre-e-mato-grosso-contra-a-concessao-da-rota-agro-central/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Concessão de 887,6 km define pedágio para produtores e transportadores de RO e MT; leilão ainda não feito"
+   },
+   "afinidade": {
+    "pontos": 15,
+    "porque": "Agro: custo de escoamento da safra, sem ser crédito ou dívida rural"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Ofício divulgado em 16/11 e leilão marcado para 17/12"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Requerimentos aprovados lidos nos dados abertos do Senado; reunião pela Agência Senado; ofício pelo News Rondônia"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Junta o ofício das bancadas, os dois requerimentos aprovados e a deliberação da ANTT no DOU"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 7,
+    "viral": 6,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: dados abertos do Senado (2)",
+    "Proximidade: Rondônia (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Jaime Bagattoli (1)",
+    "Gatilho no calendário: leilão em 17/12 (2)",
+    "Número forte: R$ 23,4 bi de pedágio em 30 anos (1)",
+    "Conflito claro: bancadas contra o modelo do governo (2)",
+    "Utilidade: o que o produtor da BR-364 deve acompanhar (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Senador Bagattoli conquista apoio das bancadas de Rondônia, Acre e Mato Grosso contra a concessão da Rota Agro Central",
+  "nucleo": "B - Rondônia",
+  "categoria": "Agro / logística",
+  "coleta": "2026-11-17",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "requerimentos conferidos nos dados abertos do Senado; reunião pela Agência Senado; ofício pela imprensa de Rondônia",
+   "contradicoes": "Investimento aparece como R$ 6,13 bi (Agência Senado, citando o senador) e R$ 6,0 bi em apresentação anterior do Ministério dos Transportes; usamos o valor atribuído ao senador.",
+   "sem_confirmacao": "íntegra do ofício das bancadas e valores das tarifas-teto por praça (PDF do ministério não lido)"
+  },
+  "duplicidade": {
+   "grupo": "Rota Agro Central",
+   "itens": [
+    "News Rondônia 16/11",
+    "Rondônia Ao Vivo 16/11",
+    "Agência Senado 10/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se o leilão da Rota Agro Central vai acontecer e quanto o produtor vai pagar de pedágio",
+   "entidades": [
+    "Rota Agro Central",
+    "BR-364",
+    "ANTT",
+    "Jaime Bagattoli",
+    "Comissão de Infraestrutura do Senado",
+    "TCU"
+   ],
+   "termos": [
+    "rota agro central leilão",
+    "pedágio br-364 vilhena cuiabá",
+    "concessão lote cn3"
+   ],
+   "atualizacao": "resposta do Ministério dos Transportes, decisão do TCU e data da audiência pública"
+  },
+  "agro": {
+   "demanda": "Produtores e transportadores de RO e MT preocupados com nova cobrança de pedágio somada à da BR-364 em Rondônia; participação na audiência pública e acompanhamento do edital e das tarifas",
+   "prazo": "leilão em 17/12/2026 na B3",
+   "quem": "Produtores de grãos, pecuaristas, cooperativas e transportadoras do sul de Rondônia e do oeste de Mato Grosso"
+  }
+ },
+ "descricao_seo": "Bancadas de RO, MT e AC pedem a suspensão do leilão da Rota Agro Central, 887 km da BR-364 entre Vilhena e Cuiabá marcados para 17/12.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura dos dados abertos do Senado, da Agência Senado e da imprensa de Rondônia, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: pedidos tratados como pedidos, sem afirmar suspensão; valores atribuídos a quem os disse; outro lado registrado com o próprio edital. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/rota-agro-central-bancadas-pedem-suspensao-leilao-pedagio-br-364-vilhena-cuiaba.jpg",
+  "credito": "Foto: Geraldo Magela/Agência Senado",
+  "alt": "Senador de terno e gravata verde fala ao microfone na reunião da Comissão de Infraestrutura do Senado de 10/11",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/10/ci-pede-auditoria-em-concessao-rodoviaria-entre-rondonia-e-mato-grosso/20261110_01261g.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/10/ci-pede-auditoria-em-concessao-rodoviaria-entre-rondonia-e-mato-grosso"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-17T02:38:18-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-17T02:38:18-03:00"
+}
