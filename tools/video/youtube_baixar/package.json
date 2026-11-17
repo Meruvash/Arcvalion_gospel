@@ -1,0 +1,10 @@
+{
+  "name": "youtube-baixar",
+  "private": true,
+  "type": "module",
+  "description": "Baixa vídeo público do YouTube em MP4 via Cobalt local ou YouTube.js, sem login, sem cookies e sem yt-dlp",
+  "dependencies": {
+    "undici": "6.24.1",
+    "youtubei.js": "18.3.0"
+  }
+}
