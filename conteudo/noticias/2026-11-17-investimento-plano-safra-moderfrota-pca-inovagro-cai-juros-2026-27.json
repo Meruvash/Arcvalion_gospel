@@ -1,0 +1,197 @@
+{
+ "slug": "investimento-plano-safra-moderfrota-pca-inovagro-cai-juros-2026-27",
+ "data": "2026-11-17",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Motivo de alerta",
+ "titulo": "Investimento do Plano Safra cai até 60%, e 82% do dinheiro do Moderfrota segue por contratar",
+ "lide": "O crédito dos programas de investimento do Plano Safra caiu 39,8% de julho a outubro, para R$ 11,9 bilhões, segundo o boletim do Ministério da Agricultura de 13 de novembro. O programa de armazéns (PCA) recuou 59,8%, o Inovagro 59,6% e o Moderfrota, de máquinas, 51,6%. Pela Resolução CMN 5.324, os juros dessas linhas vão de 8% a 12,5% ao ano.",
+ "por_que_importa": "Máquina, silo e irrigação são o que faz a próxima safra render mais. Com o investimento em queda e a maior parte do dinheiro subsidiado ainda parada no programa, o produtor que planeja comprar trator ou armazém pode ter linha disponível sem saber, enquanto o banco oferece outra mais cara.",
+ "numeros": [
+  [
+   "-59,8%",
+   "foi a queda do Programa para Construção e Ampliação de Armazéns (PCA), para R$ 610 milhões de julho a outubro",
+   "Mapa, boletim de 13/11/2026"
+  ],
+  [
+   "82%",
+   "da programação equalizável do Moderfrota, de R$ 5,8 bilhões, ainda estava por contratar no fim de outubro",
+   "Mapa, boletim de 13/11/2026, seção 6.2"
+  ],
+  [
+   "8%",
+   "é a taxa prefixada do PCA para quem tem até 12 mil toneladas de armazenagem; a do RenovAgro para recuperar pasto é 8,5%",
+   "Resolução CMN 5.324/2026, Tabela 1 do MCR 7-7"
+  ],
+  [
+   "12,5%",
+   "é a taxa prefixada do Moderfrota para quem fatura até R$ 45 milhões; no Pronamp, 11,5%",
+   "Resolução CMN 5.324/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo o boletim, todos os programas de investimento recuaram: Proirriga -47,9%, RenovAgro -36,7% e Pronamp investimento -28,9%. O saldo das linhas equalizáveis ainda por contratar era de 90% no PCA e no Proirriga, 83% no Inovagro e 80% no RenovAgro.",
+  "Pela Resolução 5.324, que fixou os encargos do Plano Safra 2026/27, o Inovagro e o Proirriga têm taxa prefixada de 11,5% ao ano; o RenovAgro, 8,5% para recuperação de pastagem e adequação ambiental e 9,5% nas demais finalidades; o PCA, 8% para armazém de grãos de quem tem até 12 mil toneladas de capacidade e 9,5% nos demais casos. Há também opção pós-fixada, com parte fixa mais o Fator de Atualização Monetária (FAM)."
+ ],
+ "no_brasil": "Os dados do Mapa são provisórios, extraídos do Sicor, do Banco Central, e cobrem só os quatro primeiros meses da safra 2026/27, que vai até 30 de junho de 2027. Os recursos equalizáveis somam R$ 97,6 bilhões, pela Portaria MF 2.922/2026.",
+ "critica": [
+  {
+   "fonte": "Ministério da Agricultura, boletim de julho a outubro de 2026, sobre os programas de investimento",
+   "texto": "Todos os programas registraram retração na aplicação efetiva no período.",
+   "citacao": true,
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027/boletim_credito_rural_empresarialsempronaf_safra20262027_julout2026_4oboletim.pdf"
+  },
+  {
+   "fonte": "Ministério da Agricultura, boletim, sobre o ritmo das linhas equalizáveis",
+   "texto": "O volume concedido cresce gradualmente conforme as instituições financeiras avançam na contratação das novas linhas equalizáveis",
+   "citacao": true,
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027/boletim_credito_rural_empresarialsempronaf_safra20262027_julout2026_4oboletim.pdf"
+  }
+ ],
+ "para_quem": [
+  "Produtor que vai comprar trator, colheitadeira ou implemento: peça ao banco a simulação no Moderfrota, que ainda tinha 82% da verba subsidiada por contratar; a safra vai até 30 de junho de 2027",
+  "Quem pensa em silo na propriedade: o PCA a 8% é a linha mais barata do pacote para quem tem até 12 mil toneladas de armazenagem",
+  "Pecuarista com pasto degradado: o RenovAgro a 8,5% financia a recuperação, com 80% da programação ainda disponível no fim de outubro"
+ ],
+ "nao_e_para": [
+  "Os números são provisórios e podem mudar nos próximos boletins",
+  "O boletim não aponta as causas da queda",
+  "Ter verba disponível não garante a aprovação: o banco analisa garantias e capacidade de pagamento"
+ ],
+ "veredito": "A gente recomenda que o produtor pergunte pelas linhas do Plano Safra antes de assinar qualquer financiamento de máquina ou silo. Dinheiro subsidiado parado no programa não ajuda ninguém. E o Ministério precisa explicar por que o investimento no campo caiu tanto.",
+ "fontes": [
+  {
+   "nome": "Ministério da Agricultura e Pecuária: Boletim de Desempenho, Crédito Rural, julho a outubro de 2026",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027/boletim_credito_rural_empresarialsempronaf_safra20262027_julout2026_4oboletim.pdf",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.324, de 30 de junho de 2026",
+   "url": "https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolu%C3%A7%C3%A3o%20CMN&p2=5324",
+   "data": "30/06/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 64,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Queda do crédito de investimento do Plano Safra e juros em vigor das linhas de máquinas, armazéns e recuperação de pastagem"
+  },
+  "origem": {
+   "nome": "Ministério da Agricultura e Pecuária",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027/boletim_credito_rural_empresarialsempronaf_safra20262027_julout2026_4oboletim.pdf"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Mostra o crédito de investimento efetivamente contratado no país e as taxas em vigor até 30/06/2027"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Crédito rural e Plano Safra, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Boletim de 13/11, há quatro dias"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Boletim do Mapa e resolução do CMN lidos na íntegra, documentos de órgãos diferentes"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Cruzamos a queda por programa e o saldo por contratar com as taxas da resolução, que a nota oficial não trouxe"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 8,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: boletim oficial e resolução do CMN (2)",
+    "Ato de quem tem poder: norma do Conselho Monetário Nacional (2)",
+    "Proximidade: nacional (2)",
+    "Número forte: queda de até 59,8% (1)",
+    "Duas fontes independentes: Mapa e Banco Central (1)",
+    "Utilidade: qual linha pedir para máquina e silo (1)",
+    "Surpreende: dinheiro subsidiado parado com investimento em queda (1)",
+    "Calendário: safra 2026/27 em curso (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Boletim de Desempenho, Crédito Rural, julho a outubro de 2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Crédito rural e Plano Safra",
+  "coleta": "2026-11-17",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na íntegra do boletim e da resolução",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "causas da queda; ritmo de novembro"
+  },
+  "duplicidade": {
+   "grupo": "Boletins de crédito rural 2026/27",
+   "itens": [
+    "4º boletim do Mapa",
+    "Res CMN 5.324"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-14-credito-rural-empresarial-cai-19-norte-rondonia-safra-2026-27"
+  },
+  "seo": {
+   "intencao": "saber os juros do Moderfrota, PCA e RenovAgro na safra 2026/27",
+   "entidades": [
+    "Moderfrota",
+    "PCA",
+    "Inovagro",
+    "RenovAgro",
+    "Resolução CMN 5.324"
+   ],
+   "termos": [
+    "juros Moderfrota 2026/27",
+    "PCA armazém juros",
+    "RenovAgro recuperação de pastagem juros"
+   ],
+   "atualizacao": "atualizar com o 5º boletim do Mapa"
+  },
+  "agro": {
+   "demanda": "Produtores que não conseguem acessar linhas equalizáveis de investimento e acabam em crédito mais caro; dúvidas sobre enquadramento no PCA, RenovAgro e Moderfrota",
+   "prazo": "contratos até 30/06/2027",
+   "quem": "Produtores e cooperativas fora do Pronaf que planejam investimento em máquinas, armazéns, irrigação e pastagem"
+  }
+ },
+ "descricao_seo": "Boletim do Mapa: crédito de investimento do Plano Safra cai 39,8% até outubro; PCA -59,8%. Juros vão de 8% a 12,5% pela Resolução CMN 5.324.",
+ "instituicao": "Ministério da Agricultura e Pecuária",
+ "editora": "Ministério da Agricultura e Pecuária",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do boletim e da resolução, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: números copiados do boletim e taxas da resolução; a opinião cobra explicação do Ministério sobre a queda, sem acusar banco ou pessoa. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/investimento-plano-safra-moderfrota-pca-inovagro-cai-juros-2026-27.jpg",
+  "credito": "Camille Pissarro, Medas de feno, manhã, Eragny (1899), The Metropolitan Museum of Art",
+  "alt": "Pintura de Pissarro: medas de feno num campo ao amanhecer, com árvores e casas ao fundo",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP-20613-001.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/438738"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-17T02:33:30-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-17T02:33:30-03:00"
+}
