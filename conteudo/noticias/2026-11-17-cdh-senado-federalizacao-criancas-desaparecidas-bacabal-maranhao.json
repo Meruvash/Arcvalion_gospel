@@ -1,0 +1,194 @@
+{
+ "slug": "cdh-senado-federalizacao-criancas-desaparecidas-bacabal-maranhao",
+ "data": "2026-11-17",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Motivo de alerta",
+ "titulo": "Comissão do Senado vai pedir federalização do caso das crianças desaparecidas em Bacabal",
+ "lide": "A Comissão de Direitos Humanos do Senado vai pedir ao Ministério da Justiça, ainda nesta semana, a federalização das investigações sobre o desaparecimento de Ágatha Isabelly, de 6 anos, e Allan Michael, de 4, no quilombo São Sebastião dos Pretos, em Bacabal (MA), em 4 de janeiro. A presidente da comissão, Damares Alves, anunciou o pedido no domingo (15), segundo a Agência Brasil.",
+ "por_que_importa": "Dez meses depois, duas crianças continuam sem paradeiro, e a mãe só pede uma investigação bem feita. Levar o caso à esfera federal põe a Polícia Federal no centro da busca. É também um teste para o país: criança que some num quilombo do interior precisa receber a mesma atenção que receberia numa capital.",
+ "numeros": [
+  [
+   "4/1/2026",
+   "é a data em que Ágatha Isabelly e Allan Michael foram vistos pela última vez, brincando perto de casa",
+   "Agência Brasil, 16/11/2026"
+  ],
+  [
+   "54 km²",
+   "foi a área de buscas, com mata fechada, açudes e o Rio Mearim, e mais de 500 pessoas envolvidas",
+   "Agência Brasil, 16/11/2026"
+  ],
+  [
+   "5 casos",
+   "de crianças desaparecidas terão pedido de federalização pela comissão, incluindo os dois irmãos de Bacabal",
+   "Agência Brasil, 16/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo a Agência Brasil, a comissão fez uma diligência no fim de semana, ouviu as autoridades da investigação e a mãe, Clarice Cardoso. Além de Bacabal, a CDH vai pedir a federalização dos desaparecimentos de Arthur Sousa Barros, em Eldorado do Carajás (PA), de Elisa Ladeira Rodrigues, em Anajás (PA), e de Edson Davi Silva Almeida, no Rio de Janeiro.",
+  "O primo das crianças, Anderson Kauan, de 8 anos, foi achado três dias depois numa estrada de um povoado vizinho e levou os policiais até uma cabana abandonada perto do Rio Mearim. Integrantes da comissão citaram a suspeita de tráfico de pessoas, mas a senadora Eliziane Gama (PT-MA) disse que só a polícia pode confirmar essa linha. Não há suspeitos."
+ ],
+ "no_brasil": "A federalização se faz pelo Incidente de Deslocamento de Competência, previsto no artigo 109, § 5º, da Constituição para graves violações de direitos humanos: o procurador-geral da República pede, e o Superior Tribunal de Justiça decide se o caso passa à Justiça Federal.",
+ "critica": [
+  {
+   "fonte": "Senadora Damares Alves (Republicanos-DF), presidente da CDH, segundo a Agência Brasil",
+   "texto": "A gente vem, primeiro, para reconhecer o trabalho local que foi feito, que a gente reconhece que foi incrível. Segundo, para a gente unir forças ao Estado, às forças de segurança do Estado, para a gente dar uma resposta para a família",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/cdh-do-senado-pede-federalizacao-do-desaparecimento-de-criancas-no-ma"
+  },
+  {
+   "fonte": "Clarice Cardoso, mãe das crianças, segundo a Agência Brasil",
+   "texto": "Tudo o que eu peço é que seja uma investigação bem feita, que tenha uma resposta e que os culpados paguem por isso.",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/cdh-do-senado-pede-federalizacao-do-desaparecimento-de-criancas-no-ma"
+  }
+ ],
+ "para_quem": [
+  "Quem tem informação sobre Ágatha Isabelly e Allan Michael: procure a polícia; nenhuma pista é pequena demais",
+  "Igrejas: orem pela família de Clarice e pelas buscas, e acompanhem com cuidado, sem espalhar boato sobre suspeitos",
+  "Pais: o caso lembra que criança desaparecida exige comunicação imediata à polícia; não existe prazo de espera"
+ ],
+ "nao_e_para": [
+  "A federalização ainda não foi pedida formalmente: a comissão anunciou que vai se reunir com o ministro da Justiça nesta semana",
+  "Quem decide a federalização é o STJ, a pedido do procurador-geral da República",
+  "A suspeita de tráfico de pessoas não foi confirmada pela polícia"
+ ],
+ "veredito": "A gente apoia o pedido de federalização e cobra pressa. Dez meses é tempo demais para uma mãe sem resposta. Se o caso subir para a esfera federal, que venha com mais gente, mais técnica e mais cuidado, e nunca com espetáculo.",
+ "versiculo": {
+  "texto": "Assim também não é vontade de vosso Pai, que está nos céus, que um destes pequeninos se perca.",
+  "referencia": "Mateus 18.14",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Brasil: CDH do Senado pede federalização do desaparecimento de crianças no MA",
+   "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/cdh-do-senado-pede-federalizacao-do-desaparecimento-de-criancas-no-ma",
+   "data": "16/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Senadoras acompanham investigação de crianças desaparecidas no Maranhão",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/13/senadoras-acompanham-investigacao-sobre-criancas-desaparecidas-no-maranhao",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "Proteção de crianças: pedido do Senado para levar à esfera federal a investigação de crianças desaparecidas"
+  },
+  "origem": {
+   "nome": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/cdh-do-senado-pede-federalizacao-do-desaparecimento-de-criancas-no-ma"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Anúncio de pedido de federalização; ainda depende do Ministério da Justiça, da PGR e do STJ"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Proteção de crianças, núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Anúncio de domingo (15), com reunião no Ministério da Justiça marcada para esta semana"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Agência Brasil lida na íntegra e Agência Senado, fontes públicas independentes entre si"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Acrescentamos como funciona o Incidente de Deslocamento de Competência (quem pede e quem decide)"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 6,
+    "viral": 3,
+    "cristao": 4
+   },
+   "criterios": [
+    "Ato de quem tem poder: comissão do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Número forte: 54 km² de buscas (1)",
+    "Personagem com nome: Clarice, a mãe (1)",
+    "Emoção de alta ativação: compaixão (1)",
+    "Utilidade: o que fazer quando uma criança some (1)",
+    "Passagem bíblica que um pastor usaria: Mateus 18.14 (2)",
+    "Pede resposta do cristão: oração pela família (1)",
+    "Mostra fé vivida: mãe que persiste (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "CDH do Senado pede federalização do desaparecimento de crianças no MA",
+  "nucleo": "A - Brasil",
+  "categoria": "Família / Proteção de crianças",
+  "coleta": "2026-11-17",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na Agência Brasil e na Agência Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "data da reunião com o ministro da Justiça"
+  },
+  "duplicidade": {
+   "grupo": "Crianças desaparecidas em Bacabal (MA)",
+   "itens": [
+    "Agência Brasil 16/11",
+    "Agência Senado 13/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber o andamento do caso das crianças desaparecidas em Bacabal",
+   "entidades": [
+    "Ágatha Isabelly",
+    "Allan Michael",
+    "Bacabal",
+    "CDH do Senado",
+    "Incidente de Deslocamento de Competência"
+   ],
+   "termos": [
+    "crianças desaparecidas Bacabal",
+    "federalização caso Bacabal",
+    "Damares CDH crianças Maranhão"
+   ],
+   "atualizacao": "acompanhar a reunião com o Ministério da Justiça e eventual pedido da PGR ao STJ"
+  }
+ },
+ "descricao_seo": "CDH do Senado anunciou em 15/11 que vai pedir a federalização do caso de Ágatha e Allan, desaparecidos em Bacabal (MA) desde 4 de janeiro.",
+ "instituicao": "Senado Federal",
+ "editora": "Agência Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das reportagens oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: ninguém é apontado como suspeito (a reportagem diz que não há suspeitos), a hipótese de tráfico aparece só atribuída e com a ressalva da senadora; a opinião cobra rapidez das instituições sem acusar ninguém. Nomes das crianças já são públicos na cobertura oficial e no apelo da família.",
+ "imagem": {
+  "arquivo": "capas/cdh-senado-federalizacao-criancas-desaparecidas-bacabal-maranhao.jpg",
+  "credito": "Foto: Agência Senado/Agência Brasil",
+  "alt": "Reunião da diligência da Comissão de Direitos Humanos do Senado com autoridades no Maranhão, em sala de escola",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/oNPRFtcnQ55uqdnMnxTAKpIePoM=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/16/hxqzeymxuaauc10.jpg?itok=bv02Gwe_",
+  "pagina": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/cdh-do-senado-pede-federalizacao-do-desaparecimento-de-criancas-no-ma"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-17T02:31:15-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-17T02:31:15-03:00"
+}
