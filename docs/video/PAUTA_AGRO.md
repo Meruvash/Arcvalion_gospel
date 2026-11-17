@@ -61,8 +61,9 @@ Nos vídeos de direito, o que mais roda é o mito × verdade sobre um direito qu
   ficar com a fazenda?").
 - **Use o Virlo** (`find_videos`, `search_hooks`) na pesquisa de demanda, sempre que estiver disponível.
 
-**Resultado (16/11/2026):** "O caseiro e o vizinho" (mito × verdade sobre a terra de quem assiste) fez 150 visualizações
-em minutos. O editor confirmou que o sistema vale assim:
+**Resultado (16 e 17/11/2026):** "O caseiro e o vizinho" (mito × verdade sobre a terra de quem assiste) fez 150 visualizações
+em minutos e passou de **2.200** no dia seguinte. A análise dos motivos e as regras que saíram dela estão em
+`docs/video/PADRAO_CASEIRO.md`; o **Crivo do Caseiro** (seção 4 de lá) é aplicado a toda candidata antes da seção 3. O editor confirmou que o sistema vale assim:
 - **Estrutura de 10 batidas do `PROMPT_VIDEO_AGRO.md`**, sem trocar por formato novo.
 - **Tema** que gera curiosidade e põe em jogo a terra, o dinheiro ou a família de quem assiste, de preferência ligado a
   uma tendência da semana.

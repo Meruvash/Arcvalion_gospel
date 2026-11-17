@@ -8,6 +8,10 @@ de Itaubal (AP) e o Bolsa Família. Analisei a transcrição palavra por palavra
 > **não são mais assinatura**. Cada vídeo usa palavras próprias e nunca repete fórmula de vídeo anterior. A **segunda
 > voz é opcional**, só quando realmente necessária, e o padrão é não ter. Ver `docs/video/DIRECAO_VIDEO_AGRO.md`, seção 1.
 
+> **Atualização de 17/11/2026, que vale acima deste arquivo:** o roteiro segue o `docs/video/PADRAO_CASEIRO.md`
+> (o que fez "O caseiro vira dono" passar de 2.200 visualizações). Ali estão as regras das falas 1, 2 e 9, da capa e
+> do título, e o Crivo do Caseiro. A duração-alvo passa a ser de 50 a 62 s.
+
 ## O que a referência faz (medido)
 
 - **Duração e fala:** 51 s, 157 palavras, ~3,1 palavras/s. As frases são longas e encadeadas ("porque…", "e não só…,

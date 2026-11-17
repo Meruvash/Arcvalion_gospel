@@ -1,0 +1,99 @@
+# Padrão "Caseiro" — o que fez o vídeo do agro funcionar (padrão editorial desde 17/11/2026)
+
+Pedido do editor (17/11/2026): "O caseiro vira dono" passou de **2.200 visualizações**. A tarefa era descobrir os
+motivos e transformar em padrão. Este arquivo vale para **todo** roteiro da skill `video-agro`. Está acima do
+`PROMPT_VIDEO_AGRO.md` e do `PAUTA_AGRO.md` no que os dois disserem de diferente.
+
+## 1. A comparação (medida nos arquivos dos vídeos)
+
+| | "A porta e o porteiro" (EUDR) — quase sem visualização | "O caseiro e o vizinho" — 2.200 visualizações |
+|---|---|---|
+| **Assunto** | Mercado e exportação (acordo Mercosul–UE e lei europeia) | A terra de quem assiste |
+| **Quem está em jogo** | O "agro" e o "Brasil" | **Você**, dono da fazenda, e uma pessoa que você conhece (o caseiro) |
+| **Primeira frase** | "Você sabia que as vendas de mel do Brasil pra Europa subiram 367%…?" (16 palavras): número bom, sem conflito | "Você sabia que o caseiro que mora há vinte anos na sua fazenda **não pode** ficar com ela, **mas um estranho** que entra num pedaço dela **pode**?" (27 palavras): mito desfeito e ameaça nova na mesma frase |
+| **Capa** | "MEL +367%" (número sem dono) | "O CASEIRO VIRA DONO?" (personagem + verbo + perda) |
+| **Chave** | Siglas e órgãos: MAPA, Agrostat, EUDR, RASOE, CAR, gov.br | **Uma palavra**, dita aos 7 s: "posse" |
+| **Números** | 6 percentuais e 2 datas | Uma escada de prazos com condição: 15 → 10 → 5 anos |
+| **Pergunta final** | "A sua fazenda passaria nesse teste?" (abstrata) | "Tem alguém usando um pedaço da sua terra sem você dizer nada?" (a pessoa pensa num vizinho real) |
+| **Duração** | 72 s | 57 s |
+| **Validade** | Datado (30/12/2026) | Atemporal: continua valendo daqui a um ano |
+| **Busca real** | Nenhuma sugestão no autocomplete | O Google sugere "caseiro **pode pedir usucapião**" e "caseiro **tem direito a usucapião**" (consulta de 17/11/2026) |
+
+**Limite desta análise:** não vimos as métricas internas do Instagram (retenção, compartilhamentos, salvamentos, origem
+das visualizações). As causas abaixo vêm da comparação dos dois roteiros, da pesquisa no Virlo (16/11/2026) e do
+autocomplete. Quando o editor mandar esses números, este arquivo é revisto.
+
+## 2. Os 8 motivos, que viram regra
+
+1. **A pergunta já existe na boca do produtor.** "Caseiro pode pedir usucapião?" é busca real. A pauta nasce de uma
+   dúvida que a pessoa digita, e não de uma notícia que o setor comemora.
+   - **Regra:** antes de propor, confira no autocomplete do Google e do YouTube (user-agent padrão) se a pergunta aparece.
+   - Pauta que não aparece em busca nenhuma precisa de outra prova de demanda (Virlo, comentários) e é dita ao editor.
+2. **Um personagem que todo dono conhece.** Caseiro, vizinho, irmão, arrendatário, peão, comprador da safra. Uma
+   pessoa concreta e próxima, descrita com um detalhe ("mora há vinte anos").
+   - **Regra:** a fala 1 tem um personagem do dia a dia de quem assiste. Proibido abrir com órgão, sigla, país ou
+     percentual de mercado.
+3. **Medo de perder o que é seu.** O vídeo mexe com a terra, o dinheiro ou a família de quem assiste, e o risco é
+   **perder**, não ganhar.
+   - **Regra:** a fala 1 contém "sua"/"seu" + um bem do espectador (fazenda, terra, herança, gado, safra, dinheiro).
+4. **Mito desfeito e ameaça nova na mesma frase.** "Não pode… mas um estranho pode." O espectador recebe uma resposta e,
+   no mesmo segundo, uma pergunta nova. É isso que segura os primeiros 6 segundos.
+   - **Regra:** a fala 1 segue o molde "Você sabia que [o que todo mundo acha] **não**…, **mas** [o que ninguém
+     espera]…?" ou o inverso, sempre com a virada dentro da própria frase. Até 30 palavras, até 7 s.
+5. **Uma palavra-chave só.** "A explicação está numa palavra: posse." Um conceito jurídico vira uma palavra que a
+   pessoa leva para casa e repete.
+   - **Regra:** a fala 2 entrega em até 10 palavras a chave da explicação (uma palavra ou expressão curta, dita até
+     os 11 s), pintada na tela. Nada de sigla.
+6. **Prova curta e escada de números com condição.** Um cartão com o texto literal da lei e números em sequência
+   (15 → 10 → 5 anos), cada um com a sua condição. A pessoa salva o vídeo para consultar.
+   - **Regra:** no máximo 2 cartões de lei e no máximo 3 números. Os números formam escada ou contraste, nunca lista solta.
+7. **Pergunta final que faz a pessoa pensar num caso real dela.** "Tem alguém usando um pedaço da sua terra…?" puxa
+   comentário e marcação.
+   - **Regra:** a fala 9 pergunta sobre a vida de quem assiste ("na sua família", "na sua terra", "no seu contrato"),
+     nunca sobre o setor ou o país.
+8. **Curto e atemporal.**
+   - **Regra:** de 50 a 62 s.
+   - O tema é atemporal sempre que possível: regra de lei que vale hoje e daqui a um ano.
+   - Pauta datada (prazo, MP, decisão) só como exceção avisada ao editor, nos termos do `PAUTA_AGRO.md`.
+
+## 3. Capa e título (somam-se à seção 2.1.0 da direção)
+
+- **Capa:**
+  - 2 a 4 palavras gigantes em forma de pergunta;
+  - personagem + verbo de perda ou ganho de bem ("VIRA DONO?", "VENDEU SEM AVISAR?", "PODE TE COBRAR?");
+  - etiqueta amarela com o tema em linguagem de balcão ("TERRA E USUCAPIÃO", "HERANÇA DE FAZENDA");
+  - linha de baixo com a promessa ("e quem pode virar, de verdade", "a lei te dá 180 dias").
+  - Proibido: número de mercado sozinho, sigla, nome de órgão.
+- **Título do YouTube:**
+  - repete a pergunta da capa;
+  - vem seguido do mito desfeito e da virada, como em "O caseiro vira dono da sua fazenda? A lei diz que não. Mas o
+    vizinho pode".
+  - Até 80 caracteres, com a pergunta inteira nos primeiros 50.
+
+## 4. Crivo do Caseiro (nota de 0 a 2 em cada item; a pauta precisa de 12 ou mais de 16)
+
+| # | Pergunta | 0 | 1 | 2 |
+|---|---|---|---|---|
+| 1 | A dúvida aparece no autocomplete ou nos vídeos do Virlo? | não | parecida | igual |
+| 2 | Tem um personagem que o dono conhece? | não | genérico ("alguém") | concreto (caseiro, irmão, vizinho) |
+| 3 | Está em jogo a terra, o dinheiro ou a família de quem assiste? | não | indireto | direto, com risco de perder |
+| 4 | A fala 1 desfaz um mito e abre uma ameaça na mesma frase? | não | só um dos dois | os dois |
+| 5 | Cabe numa palavra-chave sem sigla? | não | expressão longa | sim |
+| 6 | Tem prova em texto literal de lei ou fonte oficial? | não | fonte secundária | texto lido na fonte primária |
+| 7 | A pergunta final é sobre a vida de quem assiste? | não | meio a meio | sim |
+| 8 | É atemporal? | vence em semanas | vale por meses | vale por anos |
+
+No `PAUTA_AGRO.md`, este crivo entra **antes** dos critérios da seção 3. Pauta com menos de 12 pontos não é apresentada
+como recomendação.
+
+## 5. O que continua igual
+- A estrutura de 10 batidas do `PROMPT_VIDEO_AGRO.md`.
+- O rodízio de eixos. O padrão Caseiro vale em qualquer eixo: dívida, tributo e clima também têm personagem, perda e
+  mito ("o banco pode tomar a sua máquina?").
+- Todas as regras do portal: fatos lidos na fonte, nenhuma imagem de IA, fala do advogado informativa.
+
+## 6. Próximos testes do padrão
+- **"O irmão vendeu sem avisar"** (herança) segue o padrão em todos os itens menos o 1: o autocomplete mostra pouco
+  ("meu irmão vendeu"). O resultado dele vai dizer quanto pesa a busca real.
+- **Pedir ao editor** a retenção nos 3 primeiros segundos, o tempo médio assistido, os compartilhamentos e os
+  salvamentos do caseiro e do irmão. Com esses números, a seção 2 é revista.

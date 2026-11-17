@@ -6,17 +6,21 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 # Vídeo do agro
 
 **Leia antes de qualquer coisa:**
+0. `docs/video/PADRAO_CASEIRO.md`: o padrão que fez "O caseiro vira dono" passar de 2.200 visualizações. Vale
+   acima dos outros arquivos: fala 1 com personagem + "sua" terra/família + mito desfeito e ameaça na mesma frase;
+   palavra-chave na fala 2; pergunta final sobre a vida de quem assiste; 50 a 62 s; Crivo do Caseiro de 12/16 ou mais.
 1. `docs/video/DIRECAO_VIDEO_AGRO.md`: imagem, voz e proporção. É o padrão atual, com **mais
    animação e menos documento**.
 2. `docs/video/PROMPT_VIDEO_AGRO.md`: estrutura do roteiro ("Você sabia", 10 batidas) e regras do
    portal.
-3. Exemplo aprovado: `docs/video/roteiros/mp1376-prazo-quinta.md`.
+3. Exemplo de referência: `docs/video/roteiros/usucapiao-caseiro-vizinho.md` (o que mais rodou).
 
 ## Fluxo
 1. **Pauta pela política de originalidade** (`docs/video/PAUTA_AGRO.md`, obrigatória):
    - pelo menos 5 candidatas, de 3 eixos ou mais;
    - rodízio de eixos, com dívida e crédito em no máximo 1 de cada 4 vídeos;
    - conferência em `docs/video/PAUTAS_USADAS.md`;
+   - Crivo do Caseiro (`PADRAO_CASEIRO.md`, seção 4) em cada uma, com a busca no autocomplete;
    - as 3 melhores apresentadas com nota.
 
    Leia a norma ou o dado na fonte primária e anote link e data.
@@ -37,6 +41,7 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
    descrição curta), nas regras da seção 4 da direção. Guarde os dois no arquivo do roteiro, seção "Publicação".
 
 ## Não fazer
+- Abrir com órgão, sigla, país ou percentual de mercado; capa com número sozinho; pergunta final sobre o setor (`PADRAO_CASEIRO.md`).
 - Repetir imagem de vídeo anterior (pintura, mapa, gráfico ou foto). Confira e atualize `docs/video/CENAS_USADAS.md`.
 - Citar na narração birô de crédito ou cobrança (Serasa, SPC, Boa Vista) num vídeo para devedores: a fonte vai só no rodapé.
 - Repetir frase-fórmula de vídeo anterior ("Parece erro. Mas não é.", "E é justamente aí que a história fica ainda mais estranha…" ou qualquer outra). Cada roteiro com palavras próprias.

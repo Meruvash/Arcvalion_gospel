@@ -73,6 +73,9 @@ no feed parado e na miniatura do YouTube.
 - **Entrega:** exporte também a capa como `capa.jpg` (quadro 0) e mande junto com o vídeo. Ela serve de capa do Reels e
   de miniatura do YouTube.
 
+Regras de texto da capa e do título do YouTube no padrão vencedor: `docs/video/PADRAO_CASEIRO.md`, seção 3 (pergunta
+com personagem + verbo de perda ou ganho; nunca número, sigla ou órgão sozinhos).
+
 ### 2.1.1 Imagens inéditas em cada vídeo (pedido do editor, 11/11/2026)
 **Nenhuma imagem se repete entre vídeos**: pintura, mapa, gráfico ou foto. A tabela abaixo mostra estilos e cenas já
 feitos como referência de linguagem, não como estoque para reaproveitar. Antes de produzir, confira
