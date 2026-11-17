@@ -4,6 +4,20 @@ Pedido do editor (12/11/2026), depois de quatro roteiros seguidos sobre dívida 
 tratando do mesmo assunto em todos os vídeos". Esta política vale **antes** de qualquer roteiro da skill `video-agro` e
 está acima do hábito de procurar "o assunto da semana no crédito rural".
 
+## 0. Foco do editor (decisão de 17/11/2026, acima do resto deste arquivo)
+
+O editor trabalha com **direito do agronegócio de alto valor (high ticket)**. Os vídeos tratam só de:
+- **A. Dívida e crédito rural:** prorrogação, alongamento, renegociação, recuperação judicial do produtor, garantias;
+- **B. Terra e regularização fundiária:** georreferenciamento, CAR, CCIR, usucapião rural, posse, escritura, Incra.
+
+O que fica de fora:
+- **Direito previdenciário:** "não me interessa nem um pouco". A pauta da aposentadoria rural foi recusada.
+- **Outros eixos (C a I):** só entram quando o assunto tocar diretamente dívida ou terra, como herança de fazenda ou
+  conflito de divisa.
+
+**Rodízio:** alternar A e B. Nunca dois vídeos seguidos com a mesma norma ou o mesmo ângulo. Por esta decisão, deixa de
+valer o limite de "1 em cada 4" do eixo A.
+
 ## 1. Eixos de pauta (rodízio obrigatório)
 
 | Eixo | Exemplos de assunto |
