@@ -136,6 +136,37 @@ o código desenha rosto mal, e foi o que derrubou a cena do Almeida Júnior.
 - Geometria dos estados: Natural Earth 1:10m admin-1 (domínio público) ou malha do IBGE, com a fonte
   no rodapé.
 
+### 2.7 Imagens reais (teste pedido pelo editor em 17/11/2026)
+
+O editor pediu um teste com **imagens reais de alta qualidade** de fazendas e lugares do agro, deixando a imagem feita em
+código só para o que não tiver imagem real boa. O teste começa no vídeo da aposentadoria rural.
+
+**Fontes permitidas, nesta ordem:**
+1. Vídeo ou foto do próprio editor, ou de quem autorizar **por escrito** (mensagem guardada). Para um vídeo do TikTok
+   ou do Instagram de outro criador, este é o único caminho: pedir autorização e dar crédito.
+2. Bancos com licença de uso comercial e sem pagamento, conferida na página da licença no dia do download e registrada
+   (link, autor, licença e data), como Pexels e Pixabay. Os dois sites barram acesso automático; o caminho é a API
+   oficial, com a chave do editor guardada como credencial do ambiente.
+3. Wikimedia Commons, só com licença CC BY, CC BY-SA, CC0 ou domínio público, e crédito na tela como a licença pede.
+4. Imagem pública oficial só quando a política do órgão permitir. A Agência Brasil, por exemplo, autoriza reprodução
+   para "veículos de comunicação com fins jornalísticos", mas manda pedir licença para "produções audiovisuais, redes
+   sociais aliadas a produtos" (política de reprodução lida em 17/11/2026). Por isso, ela não entra sem licença.
+
+**Não usar:** trecho de vídeo do TikTok, do Instagram ou do YouTube de terceiros sem autorização escrita. Os motivos:
+- No Brasil não existe "fair use". A Lei 9.610/1998, art. 46, traz uma lista fechada de usos livres:
+  - a citação "para fins de estudo, crítica ou polêmica, na medida justificada" (inciso III);
+  - os "pequenos trechos" de outra obra, quando "a reprodução em si não seja o objetivo principal da obra nova" e não
+    prejudique "a exploração normal da obra reproduzida" (inciso VIII).
+  - Usar o vídeo alheio como fundo de um vídeo nosso não é crítica da obra. É a própria imagem fazendo o papel principal
+    da cena.
+- Os termos das plataformas proíbem baixar e reutilizar o conteúdo de outro usuário.
+- O risco cai no perfil do editor: denúncia, remoção do vídeo e bloqueio da conta.
+- A regra do projeto já exige licença conferida e crédito (`PROMPT_VIDEO_AGRO.md`, regras do portal, item 4).
+
+**Pessoas:** de costas, de longe ou com autorização. Nunca um rosto identificável de alguém que não autorizou.
+**Crédito:** rodapé no padrão "FOTO/VÍDEO: autor · banco · licença".
+**Registro:** cada imagem real usada entra no `CENAS_USADAS.md`, com link e licença.
+
 ## 3. Voz e som
 - Narrador "Marcio - Viral Hook Narrator" (ElevenLabs `plASsyS7JE6GCAvx9uIc`). **Desde 11/11/2026, gravar todas as falas no
   `eleven_multilingual_v2`** (`tools/video/agro-arte/gerar_vozes_v2.py`): o `eleven_v3` puxou sotaque de Portugal.
