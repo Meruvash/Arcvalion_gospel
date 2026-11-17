@@ -1,4 +1,4 @@
-# "O gado do vizinho comeu a sua roça": quem paga — roteiro v1 (17/11/2026)
+# "O gado do vizinho comeu a sua roça": quem paga — roteiro v1, aprovado (17/11/2026)
 
 - **Pauta:** eixo B (terra e vizinhança). Escolhida na pesquisa de 17/11/2026 (ver `docs/video/PAUTAS_USADAS.md`), com
   **15/16 no Crivo do Caseiro** (`docs/video/PADRAO_CASEIRO.md`). O vídeo anterior foi do eixo F, então o rodízio está
