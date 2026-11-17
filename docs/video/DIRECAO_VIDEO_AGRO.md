@@ -194,6 +194,20 @@ crítica). Exemplo: `docs/video/roteiros/aposentadoria-rural-roca.md`, v2.
 **Registro:** cada imagem real usada entra no `CENAS_USADAS.md`, com link e licença.
 
 ## 3. Voz e som
+
+**Voz do editor sem "S" chiado (pedido do editor, 17/11/2026).** Gerado com as configurações antigas (style 0,25,
+similarity 0,85), o clone puxava o "S" carioca no fim de sílaba: "desses", "resto", "juiz".
+- **Medição:** razão entre a energia de 5 a 11 kHz (o "s" neutro) e a de 2 a 4,5 kHz (o chiado), no trecho de cada
+  "s" marcado pela transcrição com tempo por letra.
+- **Antes da correção:** de 0,15 a 0,65 nas três palavras.
+- **Depois da correção:** de 4,8 a 20,9.
+- **Regra para o editor:**
+  - sempre `tools/video/agro-arte/voz_editor_s_neutro.py`;
+  - modelo eleven_multilingual_v2, style 0, stability de 0,65 a 0,80, similarity de 0,60 a 0,70;
+  - de 6 a 8 candidatas, fica a de maior nota com a transcrição conferida;
+  - o eleven_turbo_v2_5 chiou mais que todos e fica fora;
+  - o relatório (`voz/s_neutro_relatorio.json`) vai junto com a pasta do vídeo.
+- **Narrador:** a regra não muda. O "S" dele já é neutro: nota 544 na mesma medida.
 - Narrador "Marcio - Viral Hook Narrator" (ElevenLabs `plASsyS7JE6GCAvx9uIc`). **Desde 11/11/2026, gravar todas as falas no
   `eleven_multilingual_v2`** (`tools/video/agro-arte/gerar_vozes_v2.py`): o `eleven_v3` puxou sotaque de Portugal.
   - **Se uma fala sair com sotaque de Portugal**, regerar com `eleven_multilingual_v2` na mesma voz.

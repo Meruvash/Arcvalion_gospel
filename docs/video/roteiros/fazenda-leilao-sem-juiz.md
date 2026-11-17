@@ -92,6 +92,15 @@ Endereço: https://legis.senado.leg.br/norma/551390/publicacao/34619692
 - **Cartões:** art. 26, § 1º, e art. 27, § 5º-A.
 - **Capas:** quadro 0 (`capa.jpg`) e capas do Instagram em 9:16 e 4:5.
 
+### Correção da voz do editor (17/11/2026)
+O editor ouviu um "S" chiado de sotaque carioca nas falas dele. As falas 3, 6 e 9 foram regeradas pelo
+`voz_editor_s_neutro.py`, com 8 candidatas cada:
+- "desses" passou de 0,32 para 8,5;
+- "juiz" passou de 0,15 para 4,8;
+- "resto" passou de 0,65 para 20,9.
+
+O vídeo foi remontado com 59,3 s, −13,7 LUFS e pico de −1,8 dBFS. A transcrição final bate com as falas.
+
 ## Publicação (17/11/2026)
 
 **Título do YouTube:**

@@ -27,7 +27,11 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 2. **Roteiro na conversa**, no formato de tabela do PROMPT. **Pare e espere a aprovação.**
 3. **Plano de imagem** junto com o roteiro: para cada fala, que pintura entra, onde entram os 2 ou 3
    cartões de prova e qual tipografia animada usar. Respeite os 70% de animação.
-4. Aprovado o roteiro: vozes (`tools/video/agro-arte/gerar_vozes.py`), conferência por transcrição,
+4. Aprovado o roteiro: vozes (`tools/video/agro-arte/gerar_vozes.py`), conferência por transcrição.
+   **Voz do editor (clone): sempre pelo `tools/video/agro-arte/voz_editor_s_neutro.py`.** Ele gera candidatas sem
+   "style" e com mais estabilidade, mede o "S" de cada uma e fica com a mais neutra, sem o chiado carioca (pedido do
+   editor, 17/11/2026).
+   Depois:
    pinturas (`tools/video/agro-arte/cenas/`), prints oficiais (`tools/video/agro-arte/prints/`),
    montagem em HyperFrames e render. Os passos estão em `tools/video/agro-arte/README.md`.
 5. **Trilha:** `tools/video/agro-arte/trilha/gerar_trilha.py --estilo agronejo` (padrão) ou `--estilo catira`, alternando entre
@@ -43,6 +47,7 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
    descrição curta), nas regras da seção 4 da direção. Guarde os dois no arquivo do roteiro, seção "Publicação".
 
 ## Não fazer
+- Gerar a voz do editor com "style" acima de 0, com o modelo eleven_turbo_v2_5, ou sem passar pelo seletor de "S" (`voz_editor_s_neutro.py`): o clone chia o "S" de fim de sílaba ("desses", "resto", "juiz").
 - Abrir com órgão, sigla, país ou percentual de mercado; capa com número sozinho; pergunta final sobre o setor (`PADRAO_CASEIRO.md`).
 - Repetir imagem de vídeo anterior (pintura, mapa, gráfico ou foto). Confira e atualize `docs/video/CENAS_USADAS.md`.
 - Citar na narração birô de crédito ou cobrança (Serasa, SPC, Boa Vista) num vídeo para devedores: a fonte vai só no rodapé.
