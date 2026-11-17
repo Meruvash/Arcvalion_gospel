@@ -43,3 +43,61 @@ https://legis.senado.leg.br/norma/552282/publicacao/15676634
   cartão mostra o texto literal.
 - **Fala 10:** é informativa (Provimento 205/2021). O fecho é diferente dos vídeos anteriores, para não repetir fórmula.
 - **Nenhum caso real é narrado.**
+
+## Entrega (17/11/2026)
+- **Formato:** 1080×1080, 56 s.
+- **Som:** −13,8 LUFS, pico de −1,4 dBFS. Trilha **catira** normalizada em −30 LUFS. A transcrição do arquivo final bate
+  com as falas. Na fala 5, a transcrição isolada tinha posto um "A" que o narrador não disse; a legenda segue a fala.
+- **Capa:** quadro 0 exportado como `capa.jpg`.
+- **Cenas:**
+  - óleo com espátula do Opuscar: a roça de milho com os bois malhados entrando pela cerca caída e "culpa" pintado a
+    espátula; a roça no fim de tarde, com a cerca refeita;
+  - à maneira de Paulus Potter: o boi comendo o milho pisoteado;
+  - mapa em aquarela, em duas partes: a porteira aberta com a trilha do gado e a cerca derrubada; depois, a cerca da
+    divisa "é dos dois", "50% · 50%";
+  - à maneira de Théodore Rousseau: a árvore caída sobre a cerca depois do temporal;
+  - à maneira de Jean-François Millet: as galinhas no terreiro junto da tela.
+- **Cartões:** art. 936 e art. 1.297, § 3º.
+
+## Publicação (17/11/2026)
+
+**Título do YouTube** (76 caracteres):
+> O gado do vizinho comeu sua roça? Quem paga é ele. Mas tem um caso em que é você
+
+Alternativas:
+- Gado invadiu a lavoura: quem paga o prejuízo, segundo o Código Civil
+- Cerca da divisa: o vizinho tem que pagar metade? (e quando a tela é só dele)
+
+**Descrição do YouTube:**
+```
+Se o gado do vizinho invade e come a sua roça, o dono do animal paga o estrago, a não ser que prove culpa da vítima ou força maior (Código Civil, art. 936). Culpa da vítima pode ser a sua, como a porteira que você deixou aberta. Força maior é o que ninguém consegue evitar. A cerca da divisa se presume dos dois vizinhos, e a despesa de fazer e conservar é dividida em partes iguais, conforme o costume do lugar (art. 1.297, § 1º). E a tela especial para bicho pequeno pode ser exigida de quem precisa dela (art. 1.297, § 3º).
+
+Fonte: Código Civil (Lei 10.406/2002), texto publicado pelo Senado Federal. Exemplos hipotéticos.
+Pinturas feitas em código: óleo com espátula (Lemo-Opuscar) e à maneira de Paulus Potter, Théodore Rousseau e Jean-François Millet. Mapa ilustrativo. Trilha original.
+
+#direitoagrario #agro #produtorrural #fazenda #Shorts
+```
+
+**Legenda do Instagram:**
+```
+O gado do vizinho invadiu e comeu a sua roça. Quem paga? 🐄🌽
+
+Pela lei, o DONO DO ANIMAL paga o estrago (Código Civil, art. 936)...
+a não ser que ele prove uma de duas coisas:
+
+⚠️ Culpa da vítima: a porteira que VOCÊ deixou aberta, a cerca que você mesmo derrubou. Aí a conta pode ficar com você.
+⛈️ Força maior: o que ninguém consegue evitar, como um temporal que joga uma árvore em cima da cerca.
+
+E a cerca da divisa? 👇
+🤝 A lei presume que ela é dos dois vizinhos, e a despesa de fazer e conservar é dividida em partes iguais, conforme o costume da região (art. 1.297, § 1º).
+🐔 Mas, se a criação dele é de bicho pequeno e precisa de tela especial, quem paga a tela é ele (art. 1.297, § 3º).
+
+💬 O gado do vizinho já entrou na sua roça? E quem pagou a conta? Conta aqui.
+📲 Manda pro vizinho (com carinho 😅).
+
+Na divisa, cerca bem cuidada é prejuízo evitado. Me segue pra não pagar conta que não é sua. Dúvida? Direct aberto.
+
+Fonte: Código Civil (Lei 10.406/2002), arts. 936 e 1.297 (texto do Senado Federal). Exemplos hipotéticos. Pinturas feitas em código. Trilha original.
+
+#direitoagrario #agro #agronegocio #produtorrural #fazenda #sitio #gado #pecuaria #roça #campo
+```
