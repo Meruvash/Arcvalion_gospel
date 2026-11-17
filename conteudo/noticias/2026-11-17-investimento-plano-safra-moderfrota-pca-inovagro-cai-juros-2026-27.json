@@ -7,7 +7,7 @@
  "selo": "Motivo de alerta",
  "titulo": "Investimento do Plano Safra cai até 60%, e 82% do dinheiro do Moderfrota segue por contratar",
  "lide": "O crédito dos programas de investimento do Plano Safra caiu 39,8% de julho a outubro, para R$ 11,9 bilhões, segundo o boletim do Ministério da Agricultura de 13 de novembro. O programa de armazéns (PCA) recuou 59,8%, o Inovagro 59,6% e o Moderfrota, de máquinas, 51,6%. Pela Resolução CMN 5.324, os juros dessas linhas vão de 8% a 12,5% ao ano.",
- "por_que_importa": "Máquina, silo e irrigação são o que faz a próxima safra render mais. Com o investimento em queda e a maior parte do dinheiro subsidiado ainda parada no programa, o produtor que planeja comprar trator ou armazém pode ter linha disponível sem saber, enquanto o banco oferece outra mais cara.",
+ "por_que_importa": "O dinheiro barato existe; o que não chega é o trator. Máquina, silo e irrigação são o que faz a próxima safra render mais, e o investimento caiu justamente nelas, com a maior parte da verba subsidiada ainda no programa. O produtor que planeja comprar pode ter linha disponível sem saber, enquanto o banco oferece outra mais cara.",
  "numeros": [
   [
    "-59,8%",
@@ -59,7 +59,7 @@
   "O boletim não aponta as causas da queda",
   "Ter verba disponível não garante a aprovação: o banco analisa garantias e capacidade de pagamento"
  ],
- "veredito": "A gente recomenda que o produtor pergunte pelas linhas do Plano Safra antes de assinar qualquer financiamento de máquina ou silo. Dinheiro subsidiado parado no programa não ajuda ninguém. E o Ministério precisa explicar por que o investimento no campo caiu tanto.",
+ "veredito": "A gente cobra do Ministério uma explicação: subsídio que fica na gaveta não planta nada. Ao produtor, o conselho é pedir por escrito a simulação nas linhas do Plano Safra antes de assinar qualquer financiamento de máquina ou silo.",
  "fontes": [
   {
    "nome": "Ministério da Agricultura e Pecuária: Boletim de Desempenho, Crédito Rural, julho a outubro de 2026",
@@ -190,8 +190,10 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-17T02:33:30-03:00",
+  "data": "2026-11-17T02:38:08-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-17T02:33:30-03:00"
+ "publicado_em": "2026-11-17T02:33:30-03:00",
+ "opiniao_forte": true,
+ "atualizado_em": "2026-11-17T02:38:08-03:00"
 }

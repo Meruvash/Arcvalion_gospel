@@ -1,0 +1,197 @@
+{
+ "slug": "garantia-safra-2026-2027-inscricoes-beneficio-1200-agricultor-familiar",
+ "data": "2026-11-17",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Informativo",
+ "titulo": "Garantia-Safra 2026/27 paga R$ 1.200 a agricultor familiar que perder a lavoura; inscrições estão abertas",
+ "lide": "As inscrições do Garantia-Safra 2026/2027, benefício federal para agricultores familiares que perdem a lavoura por seca ou excesso de chuva, estão abertas em municípios de 11 estados, com prazo que varia por prefeitura: em Caxias (MA), vai até 21 de novembro. O benefício é de R$ 1.200 em parcela única, e o agricultor paga R$ 24 por ano.",
+ "por_que_importa": "Para quem planta feijão e milho no semiárido, o Garantia-Safra é o seguro que existe. Quem não se inscreve agora fica sem proteção na safra inteira, porque a adesão é anual e depende de a prefeitura também aderir. São R$ 1.200 que fazem diferença na casa de quem perdeu tudo.",
+ "numeros": [
+  [
+   "R$ 1.200",
+   "é o benefício, pago em parcela única pela Caixa a quem comprovar a perda",
+   "Ministério do Desenvolvimento Agrário, página do programa"
+  ],
+  [
+   "R$ 24",
+   "é a contribuição anual do agricultor para participar da safra 2026/2027",
+   "Prefeitura de Caxias (MA), 16/10/2026"
+  ],
+  [
+   "0,6 a 5 ha",
+   "é a área plantada exigida, com feijão, milho, arroz, mandioca ou algodão",
+   "Ministério do Desenvolvimento Agrário"
+  ]
+ ],
+ "corpo": [
+  "Segundo o Ministério do Desenvolvimento Agrário, pode participar o agricultor familiar com CAF ativo, renda familiar mensal de até 1,5 salário mínimo e área plantada de 0,6 a 5 hectares das culturas do programa; as prefeituras acrescentam o limite de imóvel de até quatro módulos fiscais. O benefício sai quando o estado e o município cumprem as etapas de verificação de perdas.",
+  "Para a safra 2026/2027, a Prefeitura de Vitória da Conquista (BA) informa que as inscrições são para agricultores de Alagoas, Amazonas, Bahia, Ceará, Maranhão, Minas Gerais, Paraíba, Pernambuco, Piauí, Rio Grande do Norte e Sergipe, presencialmente na secretaria municipal ou pela plataforma gov.br."
+ ],
+ "no_brasil": "O Garantia-Safra foi criado pela Lei 10.420, de 2002, para o Nordeste e o norte de Minas Gerais; desde 2012, municípios de fora da área da Sudene podem aderir se comprovarem perdas sistemáticas por seca ou excesso de chuva. O valor do benefício e o número de cotas são definidos todo ano pelo Comitê Gestor.",
+ "critica": [
+  {
+   "fonte": "Ministério do Desenvolvimento Agrário, sobre o pagamento",
+   "texto": "ter sido comprovado perdas de pelo menos,  40% do conjunto das culturas produzidas",
+   "citacao": true,
+   "url": "https://www.gov.br/mda/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/programa-garantia-safra/sobre-o-garantia-safra"
+  },
+  {
+   "fonte": "Prefeitura de Vitória da Conquista (BA), sobre a perda exigida",
+   "texto": "Atualmente, é paga uma parcela no valor de R$1.200,00 aos produtores inscritos no CAF que comprovem a perda de, pelo menos, 50% dos cultivos de feijão, milho, arroz, mandioca ou algodão.",
+   "citacao": true,
+   "url": "https://www.pmvc.ba.gov.br/garantia-safra-2026-2027-esta-com-inscricoes-abertas-produtores-podem-procurar-smdr-para-buscar-orientacoes/"
+  }
+ ],
+ "para_quem": [
+  "Agricultor familiar de município participante: procure a secretaria de agricultura da prefeitura antes do fim do prazo local (em Caxias, 21 de novembro) com o CAF ativo",
+  "Quem está com o CAF vencido: atualize antes, porque sem CAF ativo não há inscrição",
+  "Igrejas do interior do Nordeste: ajudem os irmãos do campo a não perder o prazo; um aviso no culto pode valer R$ 1.200 numa seca"
+ ],
+ "nao_e_para": [
+  "O prazo de inscrição varia por município; confirme na prefeitura",
+  "O MDA fala em perda mínima de 40%, e a Prefeitura de Vitória da Conquista, em 50%; a regra que vale é a da resolução do Comitê Gestor, que não lemos",
+  "O programa não atende Rondônia nesta safra, segundo a lista de estados da prefeitura baiana"
+ ],
+ "veredito": "A gente recomenda que nenhum agricultor elegível deixe de se inscrever: R$ 24 por ano é pouco perto do que a seca leva. E cobra do governo que divulgue com clareza a regra da perda mínima, para ninguém perder o benefício por informação desencontrada.",
+ "fontes": [
+  {
+   "nome": "Ministério do Desenvolvimento Agrário e Agricultura Familiar: Sobre o Garantia-Safra",
+   "url": "https://www.gov.br/mda/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/programa-garantia-safra/sobre-o-garantia-safra",
+   "data": "17/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Prefeitura de Caxias (MA): Garantia-Safra 2026/2027 está com inscrições abertas para agricultores",
+   "url": "https://caxias.ma.gov.br/2026/10/16/garantia-safra-2026-2027-esta-com-inscricoes-abertas-para-agricultores/",
+   "data": "16/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Prefeitura de Vitória da Conquista (BA): Garantia-Safra 2026/2027 está com inscrições abertas",
+   "url": "https://www.pmvc.ba.gov.br/garantia-safra-2026-2027-esta-com-inscricoes-abertas-produtores-podem-procurar-smdr-para-buscar-orientacoes/",
+   "data": "04/08/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 55,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Inscrições do benefício federal que protege o agricultor familiar contra perda de safra por clima"
+  },
+  "origem": {
+   "nome": "Ministério do Desenvolvimento Agrário e Agricultura Familiar",
+   "url": "https://www.gov.br/mda/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/programa-garantia-safra/sobre-o-garantia-safra"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Benefício em vigor para agricultores familiares de 11 estados, com adesão anual"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Proteção da renda do agricultor contra perdas climáticas, tema de seguro da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Inscrições abertas desde agosto; gancho no fim do prazo em municípios como Caxias (21/11)"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Página oficial do MDA e duas prefeituras lidas; resolução do Comitê Gestor de 2026/27 não lida"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Síntese das fontes oficiais, com a divergência sobre o percentual de perda apontada"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 5,
+    "viral": 3,
+    "cristao": 1
+   },
+   "criterios": [
+    "Documento primário: página oficial do programa (2)",
+    "Proximidade: nacional (2)",
+    "Número forte: R$ 1.200 por R$ 24 ao ano (1)",
+    "Utilidade: como se inscrever e até quando (1)",
+    "Calendário: fim das inscrições em novembro (1)",
+    "Cabe num cartão: R$ 24 por ano garante R$ 1.200 na seca (1)",
+    "Pede resposta do cristão: ajudar o irmão do campo a não perder o prazo (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Garantia-Safra 2026/2027 está com inscrições abertas para agricultores",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Seguro e proteção de renda",
+  "coleta": "2026-11-17",
+  "verificacao": {
+   "grau_de_confianca": "médio-alto",
+   "status": "conferido no MDA e em duas prefeituras",
+   "contradicoes": "percentual mínimo de perda: 40% (MDA) ou 50% (Prefeitura de Vitória da Conquista)",
+   "sem_confirmacao": "resolução do Comitê Gestor de 2026/27 e número de cotas"
+  },
+  "duplicidade": {
+   "grupo": "Garantia-Safra 2026/27",
+   "itens": [
+    "MDA",
+    "Prefeitura de Caxias",
+    "Prefeitura de Vitória da Conquista"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber como se inscrever no Garantia-Safra 2026/2027",
+   "entidades": [
+    "Garantia-Safra",
+    "MDA",
+    "CAF",
+    "Lei 10.420/2002"
+   ],
+   "termos": [
+    "Garantia-Safra 2026/2027 inscrição",
+    "Garantia-Safra valor 1200",
+    "Garantia-Safra prazo"
+   ],
+   "atualizacao": "atualizar com a resolução do Comitê Gestor e o calendário de pagamentos"
+  },
+  "agro": {
+   "demanda": "Agricultores familiares que podem perder a inscrição por CAF inativo ou prazo municipal; benefício negado por divergência no percentual de perda",
+   "prazo": "varia por município (Caxias: 21/11/2026)",
+   "quem": "Agricultores familiares de municípios participantes em 11 estados"
+  }
+ },
+ "descricao_seo": "Garantia-Safra 2026/2027: inscrições abertas em 11 estados, benefício de R$ 1.200 e contribuição de R$ 24; em Caxias (MA), prazo até 21/11.",
+ "instituicao": "Ministério do Desenvolvimento Agrário e Agricultura Familiar",
+ "editora": "Ministério do Desenvolvimento Agrário e Agricultura Familiar",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das páginas oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regras citadas das páginas oficiais, com a divergência de percentual apontada; a opinião só recomenda a inscrição e cobra reajuste do valor, sem acusar ninguém. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/garantia-safra-2026-2027-inscricoes-beneficio-1200-agricultor-familiar.jpg",
+  "credito": "Jacob van Ruisdael, Paisagem com uma aldeia ao longe (1646), The Metropolitan Museum of Art",
+  "alt": "Pintura de Ruisdael: estrada de terra entre árvores e campos, com uma aldeia ao longe sob céu nublado",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP145939.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/437545"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-17T02:37:53-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-17T02:37:53-03:00"
+}
