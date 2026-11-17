@@ -6,6 +6,9 @@
 //   1. @distube/ytdl-core 5.x  — InnerTube próprio, assinatura resolvida localmente, PO token gerado
 //      localmente (BotGuard via bgutils-js), formatos só-SABR via googlevideo.
 //   2. youtubei.js (LuanRT)    — InnerTube, clientes ANDROID_VR e MWEB.
+//   3. site (loader.to)        — serviço web de terceiros aberto num Chromium sem tela (Playwright): o servidor DELE
+//      baixa do YouTube e entrega o MP4 pronto. Reserva para redes onde os motores 1 e 2 levam 403/429
+//      (ex.: contêiner de nuvem do Claude Code). Sem login, sem cookies, sem resolver CAPTCHA.
 // Vídeo e áudio chegam separados (DASH) e são juntados com ffmpeg sem recodificar.
 //
 // Uso:  node tools/youtube/baixar.mjs <url-ou-id> [opções]
@@ -13,7 +16,7 @@
 //   --nome <arquivo.mp4>     nome do arquivo final (padrão: título + id)
 //   --max-altura <n>         limita a resolução (ex.: 1080). Padrão: a maior disponível
 //   --h264                   só vídeo H.264 (avc1): máxima compatibilidade; no YouTube vai até 1080p
-//   --motor distube|youtubei força um motor (padrão: distube e, se falhar, youtubei)
+//   --motor distube|youtubei|site  força um motor (padrão: distube → youtubei → site)
 //   --verificar-decodificacao decodifica o arquivo inteiro com ffmpeg para achar corrupção (mais lento)
 //   --info                   só lista os formatos, sem baixar
 //   --diagnostico            testa a rede (IP de extração × IP do servidor de mídia) e sai
@@ -26,6 +29,7 @@ import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { createRequire } from "node:module";
 
 // O fetch nativo do Node só respeita HTTPS_PROXY com NODE_USE_ENV_PROXY=1 (Node 22.21+): reinicia com ele.
 if ((process.env.HTTPS_PROXY || process.env.https_proxy) && !process.env.NODE_USE_ENV_PROXY && import.meta.url === `file://${process.argv[1]}`) {
@@ -198,6 +202,7 @@ async function gravar(origem, destino, total, rotulo) {
       n += pedaco.length;
       const pct = total ? Math.floor((n / total) * 100) : -1;
       if (pct >= 0 && pct >= ultimo + 10) { ultimo = pct - (pct % 10); log(`  ${rotulo}: ${pct}% (${(n / 1e6).toFixed(1)} MB)`); }
+      else if (pct < 0 && Math.floor(n / 25e6) > ultimo) { ultimo = Math.floor(n / 25e6); log(`  ${rotulo}: ${(n / 1e6).toFixed(0)} MB (tamanho total não informado)`); }
       yield pedaco;
     }
   };
@@ -278,6 +283,95 @@ export async function diagnosticarIp(url) {
 
 // ---------- fluxo principal ----------
 
+// ---------- motor 3: site de conversão (loader.to) via Playwright ----------
+
+let META = null; // título e duração obtidos por um motor anterior (servem para nomear e conferir o arquivo do site)
+export const SITE = "https://en.loader.to/4/";
+
+/** Opções do seletor do loader.to a tentar, da melhor para a pior (no máximo 3). */
+export function opcoesSite(maxAltura = Infinity, h264 = false) {
+  const lim = h264 ? Math.min(maxAltura, 1080) : maxAltura;
+  return [2160, 1440, 1080, 720, 480, 360].filter((a) => a <= lim).slice(0, 3).map((a) => (a === 2160 ? "4k" : String(a)));
+}
+
+function carregarPlaywright() {
+  const req = createRequire(import.meta.url);
+  for (const nome of ["playwright", "playwright-core"]) {
+    try { return req(nome); } catch { /* tenta o próximo */ }
+  }
+  throw new Falha(SAIDA.DOWNLOAD, "motor site precisa do Playwright com Chromium (npm i -g playwright && npx playwright install chromium)");
+}
+
+/** Abre o site, cola o link, escolhe o formato e espera o link final do arquivo. */
+async function linkDoSite(navegador, url, opcao, limiteMs) {
+  const ctx = await navegador.newContext({ viewport: { width: 1280, height: 900 } });
+  const p = await ctx.newPage();
+  ctx.on("page", (aba) => { if (aba !== p) aba.close().catch(() => {}); }); // fecha abas de anúncio
+  try {
+    await p.goto(SITE, { waitUntil: "domcontentloaded", timeout: 60000 });
+    const valores = await p.$$eval("#format option", (os) => os.map((o) => o.value));
+    if (!valores.includes(opcao)) throw new Error(`o site não oferece mais a opção ${opcao} (layout mudou?)`);
+    await p.fill("#link", url);
+    await p.selectOption("#format", opcao);
+    await p.click("#load");
+    const inicio = Date.now();
+    let ultimo = "";
+    while (Date.now() - inicio < limiteMs) {
+      await p.waitForTimeout(4000);
+      const r = await p.evaluate(() => {
+        const a = document.querySelector('a[id$="_downloadLink"]');
+        const b = document.querySelector('button[id$="_downloadButton"]');
+        const pr = document.querySelector('[id$="_progress"]') || document.querySelector('.progress');
+        const erro = [...document.querySelectorAll('[id*="error"], .error, .alert')].find((e) => e.offsetParent && e.innerText.trim());
+        return { href: a?.href || "", pronto: Boolean(b && !b.disabled), progresso: pr?.innerText.trim() || "", erro: erro?.innerText.trim() || "" };
+      });
+      if (r.erro) throw new Error(`o site informou erro: ${r.erro.slice(0, 150)}`);
+      if (r.progresso && r.progresso !== ultimo) { ultimo = r.progresso; log(`  site: convertendo ${r.progresso}`); }
+      if (r.pronto && r.href && !r.href.endsWith("#")) return r.href;
+    }
+    throw new Error(`o site não terminou a conversão em ${Math.round(limiteMs / 60000)} min`);
+  } finally { await ctx.close().catch(() => {}); }
+}
+
+async function baixarViaSite(id, o) {
+  const url = `https://www.youtube.com/watch?v=${id}`;
+  const opcoes = opcoesSite(o.maxAltura, o.h264);
+  if (!opcoes.length) throw new Falha(SAIDA.ARGS, "--max-altura abaixo de 360 não é oferecido pelo site");
+  log(`motor site: convertendo ${id} em ${SITE} (serviço de terceiros; sem login, sem cookies)`);
+  if (o.info || o.diagnostico) throw new Falha(SAIDA.ARGS, "--info e --diagnostico não se aplicam ao motor site");
+  const { chromium } = carregarPlaywright();
+  const proxy = process.env.HTTPS_PROXY || process.env.https_proxy;
+  const navegador = await chromium.launch(proxy ? { proxy: { server: proxy } } : {});
+  let href, opcao, erroUltimo;
+  try {
+    for (opcao of opcoes) {
+      try { log(`  site: pedindo MP4 ${opcao === "4k" ? "2160p" : opcao + "p"}`); href = await linkDoSite(navegador, url, opcao, (opcao === "4k" ? 20 : 12) * 60000); break; }
+      catch (e) { erroUltimo = e; log(`  site: ${opcao} falhou: ${e.message}`); }
+    }
+  } finally { await navegador.close().catch(() => {}); }
+  if (!href) throw new Falha(SAIDA.DOWNLOAD, `site não entregou o arquivo: ${erroUltimo?.message}`);
+
+  mkdirSync(o.saida, { recursive: true });
+  const final = path.join(o.saida, o.nome || nomeArquivo(META?.titulo || `youtube`, id));
+  const tmp = path.join(o.saida, `.${id}.${process.pid}`);
+  const pb = `${tmp}.site.mp4`, pm = `${tmp}.final.mp4`;
+  try {
+    const r = await fetch(href);
+    if (!r.ok || !r.body) throw new Falha(SAIDA.DOWNLOAD, `servidor do site respondeu HTTP ${r.status}`);
+    const tipo = r.headers.get("content-type") || "";
+    if (/text\/html|json/.test(tipo)) throw new Falha(SAIDA.DOWNLOAD, `o site devolveu ${tipo} em vez de vídeo`);
+    await gravar(Readable.fromWeb(r.body), pb, Number(r.headers.get("content-length")) || 0, `arquivo do site (${opcao})`);
+    remuxar(pb, pm); // MP4 com faststart; sem recodificar
+    const ver = verificar(pm, META?.duracao || 0, { decodificar: o.decodificar });
+    renameSync(pm, final);
+    log(`  verificado: ${ver.video.largura}x${ver.video.altura} ${ver.video.codec} + ${ver.audio.codec}, ${ver.duracao}s, ${(ver.tamanho_bytes / 1e6).toFixed(1)} MB` +
+      (META?.duracao ? "" : " (duração não conferida: nenhum motor anterior obteve os metadados)"));
+    return { ok: true, motor: "site", servico: SITE, id, titulo: META?.titulo || null, arquivo: path.resolve(final), ...ver };
+  } finally {
+    for (const p of [pb, pm]) if (existsSync(p)) rmSync(p, { force: true });
+  }
+}
+
 function lerArgs(argv) {
   const o = { saida: ".", maxAltura: Infinity, h264: false, motor: null, info: false, diagnostico: false, json: false, decodificar: false };
   const pos = [];
@@ -297,7 +391,7 @@ function lerArgs(argv) {
     else pos.push(a);
   }
   o.entrada = pos[0];
-  if (o.motor && !MOTORES[o.motor]) throw new Falha(SAIDA.ARGS, `motor inválido: ${o.motor} (use distube ou youtubei)`);
+  if (o.motor && !MOTORES[o.motor] && o.motor !== "site") throw new Falha(SAIDA.ARGS, `motor inválido: ${o.motor} (use distube, youtubei ou site)`);
   if (!Number.isFinite(o.maxAltura) && o.maxAltura !== Infinity) throw new Falha(SAIDA.ARGS, "--max-altura precisa ser um número");
   return o;
 }
@@ -305,6 +399,7 @@ function lerArgs(argv) {
 async function baixarCom(nomeMotor, id, o) {
   log(`motor ${nomeMotor}: extraindo formatos de ${id} (sem login, sem cookies)`);
   const fonte = await MOTORES[nomeMotor](id);
+  META = { titulo: fonte.titulo, duracao: fonte.duracao };
   const alturas = [...new Set(fonte.formatos.filter((f) => f.video).map((f) => f.altura))].sort((a, b) => b - a);
   log(`  título: ${fonte.titulo} · duração ${fonte.duracao}s · ${fonte.formatos.length} formatos · alturas ${alturas.join("/")}`);
   const escolha = escolherFormatos(fonte.formatos, { maxAltura: o.maxAltura, h264: o.h264 });
@@ -349,7 +444,7 @@ async function principal() {
   const o = lerArgs(process.argv.slice(2));
   if (o.ajuda || !o.entrada) {
     process.stdout.write("Uso: node tools/youtube/baixar.mjs <url-ou-id> [--saida pasta] [--nome x.mp4] [--max-altura 1080] [--h264]\n" +
-      "       [--motor distube|youtubei] [--verificar-decodificacao] [--info] [--diagnostico] [--json]\n");
+      "       [--motor distube|youtubei|site] [--verificar-decodificacao] [--info] [--diagnostico] [--json]\n");
     return o.ajuda ? SAIDA.OK : SAIDA.ARGS;
   }
   const id = extrairId(o.entrada);
@@ -357,11 +452,12 @@ async function principal() {
   if (!o.info && !o.diagnostico && !temFfmpeg()) throw new Falha(SAIDA.FFMPEG, "ffmpeg/ffprobe não encontrados no PATH (instale: apt install ffmpeg)");
   if (!o.info && !o.diagnostico) { mkdirSync(o.saida, { recursive: true }); ARQ_LOG = path.join(o.saida, "baixar-youtube.log"); }
 
-  const ordem = o.motor ? [o.motor] : ["distube", "youtubei"];
+  // --info e --diagnostico só fazem sentido nos motores que falam com o YouTube direto
+  const ordem = o.motor ? [o.motor] : (o.info || o.diagnostico) ? ["distube", "youtubei"] : ["distube", "youtubei", "site"];
   const erros = [];
   for (const m of ordem) {
     try {
-      const r = await baixarCom(m, id, o);
+      const r = m === "site" ? await baixarViaSite(id, o) : await baixarCom(m, id, o);
       if (o.json || o.info) process.stdout.write(JSON.stringify(r, null, 2) + "\n");
       else if (r.arquivo) process.stdout.write(r.arquivo + "\n");
       return SAIDA.OK;

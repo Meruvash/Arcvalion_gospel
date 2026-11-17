@@ -5,7 +5,7 @@ import { spawnSync } from "node:child_process";
 import { mkdtempSync, writeFileSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import { extrairId, normalizar, escolherFormatos, nomeArquivo, explicarErro, verificar } from "./baixar.mjs";
+import { extrairId, normalizar, escolherFormatos, nomeArquivo, explicarErro, verificar, opcoesSite } from "./baixar.mjs";
 
 test("extrairId aceita os formatos de link comuns e recusa o resto", () => {
   for (const u of ["aqz-KE-bpKQ", "https://www.youtube.com/watch?v=aqz-KE-bpKQ&t=10", "https://youtu.be/aqz-KE-bpKQ?si=x",
@@ -55,6 +55,13 @@ test("áudio estéreo vence 5.1 mesmo com bitrate menor", () => {
 test("normalizar entende o formato do youtubei.js", () => {
   const n = normalizar({ itag: 137, height: 1080, fps: 30, mime_type: 'video/mp4; codecs="avc1.640028"', has_video: true, has_audio: false, bitrate: 4e6, content_length: "123" });
   assert.deepEqual([n.itag, n.altura, n.mime, n.codec, n.video, n.audio, n.tamanho], [137, 1080, "video/mp4", "avc1.640028", true, false, 123]);
+});
+
+test("opcoesSite: melhor primeiro, no máximo 3, --h264 limita a 1080", () => {
+  assert.deepEqual(opcoesSite(), ["4k", "1440", "1080"]);
+  assert.deepEqual(opcoesSite(1080), ["1080", "720", "480"]);
+  assert.deepEqual(opcoesSite(Infinity, true), ["1080", "720", "480"]);
+  assert.deepEqual(opcoesSite(200), []);
 });
 
 test("nomeArquivo remove caracteres proibidos e inclui o id", () => {

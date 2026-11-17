@@ -12,9 +12,10 @@ Ferramenta implementada: `tools/youtube/` (CLI) + skill `.claude/skills/baixar-y
    (rede do Google, AS396982) chega ao `youtube.com` por um IPv6 interno (`fda3:…`) e ao `googlevideo.com` por um IPv4
    público (`160.79.106.x`, pool rotativo). A URL de mídia vem assinada para o IPv6 (`ip=`); o servidor de mídia vê o
    IPv4 (`mip=`), redireciona e devolve 403. Isso afetou **todos** os cinco candidatos, inclusive o 360p progressivo.
-3. Melhor solução: `@distube/ytdl-core` 5.2.1 (motor principal) + `youtubei.js` 18.3.0 (reserva), via CLI direta com uma
-   skill que a documenta. **Status: implementada e testada até a extração; o download ponta a ponta ainda precisa ser
-   confirmado numa máquina com IP único** (o Claude Code local do usuário). Rode `--diagnostico` primeiro.
+3. Solução em produção: CLI com três motores em sequência — `@distube/ytdl-core` 5.2.1, `youtubei.js` 18.3.0 e o site
+   loader.to via Playwright — e uma skill que a documenta. **Status: download ponta a ponta comprovado na nuvem do Claude
+   Code pelo motor `site` (1080p60 H.264 + AAC, verificado).** Os motores diretos ainda precisam de confirmação numa rede
+   com IP único (o Claude Code local).
 
 ## 1. Tabela comparativa
 
@@ -98,7 +99,19 @@ descompasso de IP deste contêiner. Resultado:
 | Piped: api.piped.private.coffee, pipedapi.ducks.party | a própria instância levou `SignInConfirmNotBotException` do YouTube |
 | Piped: outras 12 instâncias conhecidas | fora do ar ou sem resposta JSON |
 
-Nenhuma instância pública serviu o vídeo. A VPN do usuário não ajudaria: ela vale para a máquina dele, não para este
+Nenhuma instância pública serviu o vídeo.
+
+### Terceira rodada: site conversor via Playwright (17/11/2026) — FUNCIONOU
+
+A pedido do editor, abrimos sites conversores num Chromium sem tela (Playwright), colando o link como um usuário faria.
+yt1s.com e 9convert.com hoje mostram página da IFPI (derrubados). **loader.to** funcionou:
+
+- Resultado: `Big Buck Bunny`, MP4 **1920×1080, 60 fps, H.264 + AAC, 634,64 s** (esperado 635 s), 267.764.354 bytes;
+  conversão em ~18 s, download a ~0,3–0,8 MB/s; decodificação de 3 trechos (0 s, 300 s, 615 s) sem erro.
+- Sem login, sem cookies, sem CAPTCHA. Funciona porque o servidor do site baixa pelo IP dele.
+- Ressalvas: serviço de terceiros com anúncios (as abas de anúncio são fechadas sem interação); pode sair do ar ou mudar o
+  layout; provavelmente usa yt-dlp no servidor dele (fora do nosso controle e do nosso código).
+- Integrado como **motor 3 (`site`)** de `tools/youtube/baixar.mjs`, depois dos dois motores diretos. A VPN do usuário não ajudaria: ela vale para a máquina dele, não para este
 contêiner, e IPs de VPN são os mais barrados pelo YouTube. Daqui, os caminhos sem autenticação estão esgotados.
 
 ## 4. Arquitetura escolhida
