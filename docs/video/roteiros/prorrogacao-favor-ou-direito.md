@@ -55,3 +55,32 @@ A biblioteca do Virlo tem poucos vídeos sobre prorrogação de dívida rural (b
 - um vídeo que o próprio editor indicar.
 
 O trecho entra entre as falas 1 e 5 e é comentado pelo editor na reação 1.
+
+---
+
+# Roteiro v2 (17/11/2026): com react de reportagem do Canal do Boi
+
+## O vídeo comentado (achado no YouTube em 17/11/2026; transcrição pelo Virlo)
+- **Reportagem:** "Farsul alerta produtores do RS sobre novas regras para alongamento de dívidas rurais", Canal do Boi
+  (oficial), de cerca de 4 meses atrás, com 1.564 visualizações.
+  - Endereço: https://www.youtube.com/watch?v=JRYKhPZGAPU
+  - É uma reportagem, não vídeo de colega advogado: evita a questão de ética de comentar outro advogado.
+- **Trecho A (cerca de 27,4 s a 40 s), fala da repórter:** "A partir de agora, as instituições financeiras passam a avaliar
+  cada pedido de alongamento dos contratos considerando a situação do produtor e a capacidade de pagamento."
+- **Trecho B (cerca de 175,8 s a 189,8 s), opcional:** "A Farsul alerta ainda que o decreto de situação de emergência do
+  município, sozinho, não garante direito à prorrogação […]"
+- **Antes do render:** conferir os dois trechos pela nossa transcrição do arquivo baixado.
+
+## Estrutura (cerca de 60 s)
+
+| # | Quem | Fala ou trecho |
+|---|---|---|
+| 1 | Narrador | "Você sabia que, quando o gerente diz que prorrogar a sua dívida rural é favor do banco, o STJ diz o contrário, mas, desde julho, uma regra nova escreveu o que o banco queria?" |
+| 2 | Narrador | "Tudo está em cinco palavras: por sua conveniência e decisão." |
+| 3 | **Trecho A** | Repórter do Canal do Boi: "A partir de agora, as instituições financeiras passam a avaliar cada pedido…" (moldura com "Canal do Boi · YouTube") |
+| 4 | **Editor (reação 1)** | "Avaliar, sim. Mas o Superior Tribunal de Justiça tem súmula há mais de vinte anos: prorrogar não é favor, é direito do devedor." (Cartão: Súmula 298) |
+| 5 | Narrador | "A resolução diz que o banco está autorizado a prorrogar por sua conveniência e decisão, e que ele mesmo atesta se você pode pagar." (Cartão: Res. CMN 5.314) |
+| 6 | Narrador | "E o pedido depende de um motivo: dificuldade de vender, frustração de safra ou outro problema que prejudique a lavoura." |
+| 7 | **Editor (reação 2, virada)** | "E a briga ainda não acabou: vale a súmula ou a resolução? Nenhum tribunal superior decidiu isso até agora." |
+| 8 | Narrador | "O seu banco já te negou uma prorrogação dizendo que era favor?" |
+| 9 | Editor | "Eu sou o Dr. Pelicioni, advogado. Na dívida rural, o não do gerente não é a última palavra. Me segue pra defender a sua safra." |
