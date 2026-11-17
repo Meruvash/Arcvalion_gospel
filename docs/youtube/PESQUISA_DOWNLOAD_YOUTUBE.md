@@ -86,6 +86,21 @@ extrair; o bloqueio foi no servidor de mídia.
 
 O comando `node tools/youtube/baixar.mjs <id> --diagnostico` reproduz essa medição em qualquer rede.
 
+### Segunda rodada: front-ends que baixam pelo IP deles (17/11/2026, noite)
+
+Invidious com `local=true` e Piped buscam a mídia no YouTube pelo IP da instância e a repassam, o que eliminaria o
+descompasso de IP deste contêiner. Resultado:
+
+| Instância | Resultado |
+|---|---|
+| Invidious: yt.chocolatemoo53.com, invidious.nerdvpn.de, invidious.tiekoetter.com | 403 (`access_denied`: recusam acesso automatizado) |
+| Invidious: inv.nadeko.net | 403 na API, 502 no stream |
+| Piped: api.piped.private.coffee, pipedapi.ducks.party | a própria instância levou `SignInConfirmNotBotException` do YouTube |
+| Piped: outras 12 instâncias conhecidas | fora do ar ou sem resposta JSON |
+
+Nenhuma instância pública serviu o vídeo. A VPN do usuário não ajudaria: ela vale para a máquina dele, não para este
+contêiner, e IPs de VPN são os mais barrados pelo YouTube. Daqui, os caminhos sem autenticação estão esgotados.
+
 ## 4. Arquitetura escolhida
 
 | Critério | A. Skill | B. MCP Server | C. CLI direta |
