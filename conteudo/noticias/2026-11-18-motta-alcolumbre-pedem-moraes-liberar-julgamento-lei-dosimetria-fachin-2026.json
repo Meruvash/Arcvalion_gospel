@@ -1,0 +1,208 @@
+{
+ "slug": "motta-alcolumbre-pedem-moraes-liberar-julgamento-lei-dosimetria-fachin-2026",
+ "data": "2026-11-18",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Motta e Alcolumbre pedem a Moraes que libere julgamento da Lei da Dosimetria ainda este ano",
+ "lide": "Os presidentes da Câmara, Hugo Motta, e do Senado, Davi Alcolumbre, pediram na terça-feira (17) ao ministro Alexandre de Moraes que libere para o Plenário do STF as ações contra a Lei da Dosimetria, que reduz penas de condenados pelos atos de 8 de janeiro de 2023. Horas depois, o presidente do STF, Edson Fachin, disse que o caso pode ser julgado neste ano.",
+ "por_que_importa": "A lei foi aprovada pelo Congresso, vetada por Lula e promulgada depois da derrubada do veto, mas está suspensa desde maio por decisão individual de Moraes. Enquanto o Plenário não julga, nenhum condenado pode pedir o recálculo da pena com base nela.",
+ "numeros": [
+  [
+   "49 e 318",
+   "senadores e deputados votaram para derrubar o veto, em abril",
+   "Agência Senado, 17/11/2026"
+  ],
+  [
+   "1,4 mil",
+   "pessoas condenadas pelo STF por crimes contra a democracia, segundo levantamento do tribunal",
+   "News Rondônia, 17/11/2026"
+  ],
+  [
+   "20/12",
+   "começa o recesso do Judiciário, prazo prático para julgar ainda em 2026",
+   "Claudio Dantas, 17/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo a nota conjunta divulgada pelos dois presidentes, Moraes ouviu os argumentos e informou que dará retorno sobre o pedido assim que possível. A lei está suspensa desde maio, quando Moraes, relator das ações, entendeu que não poderia aplicar a redução de penas caso a caso enquanto o STF não decidisse se o texto é constitucional, informou a Agência Brasil.",
+  "Perguntado por jornalistas se pretende julgar o caso neste ano, Fachin respondeu que sim, mas a data depende de Moraes liberar o processo. A lei faz valer só a pena mais grave quando golpe de Estado e abolição violenta do Estado Democrático de Direito ocorrem no mesmo contexto, em vez de somar as duas."
+ ],
+ "no_brasil": "As ações que contestam a lei foram apresentadas pela Associação Brasileira de Imprensa e pela federação PSOL-Rede. O projeto original é do deputado Marcelo Crivella. A defesa de Jair Bolsonaro, condenado a 27 anos e três meses, calcula redução de dois anos e cinco meses a três anos, segundo o portal Claudio Dantas.",
+ "critica": [
+  {
+   "fonte": "Nota conjunta de Davi Alcolumbre e Hugo Motta, publicada pela Agência Senado",
+   "texto": "Davi Alcolumbre e Hugo Motta ressaltaram a importância de uma decisão do STF sobre a validade da lei aprovada pelo Congresso Nacional.",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/17/davi-e-motta-pedem-julgamento-das-acoes-da-lei-da-dosimetria"
+  },
+  {
+   "fonte": "Ministro Alexandre de Moraes, ao suspender a lei, segundo a Agência Brasil",
+   "texto": "Não seria possível começar a julgar pedidos de redução de pena com base na nova lei enquanto houver ações no STF questionando a validade do texto.",
+   "citacao": false,
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-sinaliza-que-stf-pode-julgar-lei-da-dosimetria-neste-ano"
+  }
+ ],
+ "para_quem": [
+  "Condenados pelos atos de 8 de janeiro e suas famílias",
+  "Quem acompanha a relação entre Congresso e STF",
+  "Eleitores da direita e da oposição"
+ ],
+ "nao_e_para": [
+  "Não reduz pena de ninguém por enquanto: a lei segue suspensa",
+  "Não marca data de julgamento: isso depende de Moraes liberar e de Fachin pautar",
+  "Não é anistia: a lei muda o cálculo das penas, não apaga as condenações"
+ ],
+ "veredito": "Lei aprovada pelo Congresso e promulgada após derrubada de veto não pode ficar parada indefinidamente por decisão de um só ministro. Se há dúvida sobre a validade, o Plenário deve julgar. Moraes deve liberar as ações e o STF julgar antes do recesso.",
+ "versiculo": {
+  "texto": "Não torcerás o juízo, não farás acepção de pessoas, nem tomarás suborno",
+  "referencia": "Deuteronômio 16.19",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Davi e Motta pedem julgamento das ações da Lei da Dosimetria, com a íntegra da nota conjunta (17/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/17/davi-e-motta-pedem-julgamento-das-acoes-da-lei-da-dosimetria",
+   "data": "17/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Fachin sinaliza que STF pode julgar Lei da Dosimetria neste ano (17/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-sinaliza-que-stf-pode-julgar-lei-da-dosimetria-neste-ano",
+   "data": "17/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Claudio Dantas: Fachin sinaliza julgamento da Lei da Dosimetria ainda em 2026, caso Moraes libere ações (17/11/2026)",
+   "url": "https://claudiodantas.com.br/fachin-sinaliza-julgamento-lei-da-dosimetria/",
+   "data": "17/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "News Rondônia: Hugo Motta e Davi Alcolumbre pedem a Moraes julgamento da Lei da Dosimetria ainda este ano (17/11/2026)",
+   "url": "https://newsrondonia.com.br/politica/2026/11/17/hugo-motta-e-davi-alcolumbre-pedem-a-moraes-julgamento-da-lei-da-dosimetria-ainda-este-ano/",
+   "data": "17/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 63,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "Congresso, STF e a lei que reduz penas dos condenados de 8 de janeiro"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/17/davi-e-motta-pedem-julgamento-das-acoes-da-lei-da-dosimetria"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Ações ainda sem julgamento; lei segue suspensa"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Política nacional: Congresso cobra do STF julgamento de lei suspensa por decisão individual"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Reunião e declaração de Fachin na terça, 17/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Íntegra da nota conjunta lida na Agência Senado; fala de Fachin confirmada pela Agência Brasil"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Junta a nota do Congresso, a fala de Fachin, o placar da derrubada do veto e o que a lei muda no cálculo das penas"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 6,
+    "viral": 7,
+    "cristao": 2
+   },
+   "criterios": [
+    "Documento primário: nota conjunta na íntegra (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagens com nome: Motta, Alcolumbre, Moraes, Fachin (1)",
+    "Gatilho no calendário: recesso em 20/12 (2)",
+    "Tema que já mobiliza o público: 8 de janeiro (2)",
+    "Conflito claro: Congresso e STF (2)",
+    "Número forte: 1,4 mil condenados (1)",
+    "Passagem bíblica sobre juízo reto (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Davi e Motta pedem julgamento das ações da Lei da Dosimetria",
+  "nucleo": "A - Brasil",
+  "categoria": "Política / Congresso e STF",
+  "coleta": "2026-11-18",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "nota conjunta lida na íntegra; fala de Fachin em duas fontes",
+   "contradicoes": "nenhuma relevante entre as fontes",
+   "sem_confirmacao": "número da lei e data de eventual liberação por Moraes; cálculo da defesa de Bolsonaro é estimativa da própria defesa"
+  },
+  "duplicidade": {
+   "grupo": "Lei da Dosimetria no STF",
+   "itens": [
+    "Agência Senado 17/11",
+    "Agência Brasil 17/11",
+    "Claudio Dantas 17/11",
+    "News Rondônia 17/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber quando o STF julga a Lei da Dosimetria",
+   "entidades": [
+    "Lei da Dosimetria",
+    "Alexandre de Moraes",
+    "Edson Fachin",
+    "Hugo Motta",
+    "Davi Alcolumbre",
+    "8 de janeiro"
+   ],
+   "termos": [
+    "lei da dosimetria julgamento stf",
+    "dosimetria moraes suspensa",
+    "redução de penas 8 de janeiro"
+   ],
+   "atualizacao": "liberação das ações por Moraes e data do julgamento"
+  }
+ },
+ "descricao_seo": "Motta e Alcolumbre pedem a Moraes que libere as ações da Lei da Dosimetria; Fachin diz que o STF pode julgar ainda em 2026.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Congresso Nacional",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da nota conjunta e das reportagens, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: nota oficial citada literalmente; posição de Moraes registrada com o fundamento dele, sem atribuir intenção; 'não é anistia' explicado; opinião no veredito como posição do portal, sem ataque pessoal. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/motta-alcolumbre-pedem-moraes-liberar-julgamento-lei-dosimetria-fachin-2026.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Manifestantes com camisas verde e amarela diante do Palácio do Planalto em 8 de janeiro de 2023 (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/17/davi-e-motta-pedem-julgamento-das-acoes-da-lei-da-dosimetria/manifestacao_09.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/17/davi-e-motta-pedem-julgamento-das-acoes-da-lei-da-dosimetria"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-18T02:30:18-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-18T02:30:18-03:00"
+}
