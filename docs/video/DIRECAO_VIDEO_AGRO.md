@@ -189,6 +189,15 @@ a etiqueta "DR. PELICIONI" sobre o trecho congelado, sem TV nem onda de áudio.
 A base é a citação do art. 46, III da Lei 9.610/1998 e, no caso de criador americano, também o fair use (comentário e
 crítica). Exemplo: `docs/video/roteiros/aposentadoria-rural-roca.md`, v2.
 
+**Resultado do teste com imagens reais (18/11/2026):**
+- "O banco leiloa a sua fazenda sem juiz?" é o único vídeo com trechos de terceiros: ~25 s de TikTok, inclusive a
+  abertura, e uma das gravações é repostagem com marca d'água de outra editora.
+- **Foi o único que o YouTube Shorts não distribuiu.** Os outros vídeos, 100% pintura e animação em código, foram bem.
+- **Hipótese principal:** conteúdo reutilizado ou reivindicação de direitos (Content ID), o que limita a distribuição.
+  A confirmar no YouTube Studio, nas restrições e direitos autorais do vídeo e na origem do tráfego ("Feed de Shorts").
+- **Regra daqui em diante:** vídeo do YouTube é 100% imagem própria (pintura e animação em código). Trecho de terceiros
+  só em react, curto, citado e com crédito, e nunca na abertura.
+
 **Espelhar ou inverter vídeo de terceiros para escapar da detecção das plataformas: não se faz** (pedido do editor em
 18/11/2026, recusado). Os motivos:
 - é técnica para esconder a reutilização dos sistemas que detectam conteúdo copiado (Content ID e afins);
