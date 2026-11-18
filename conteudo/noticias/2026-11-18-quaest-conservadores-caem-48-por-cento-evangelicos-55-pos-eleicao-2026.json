@@ -2,7 +2,7 @@
  "slug": "quaest-conservadores-caem-48-por-cento-evangelicos-55-pos-eleicao-2026",
  "data": "2026-11-18",
  "categoria": "politica-e-sociedade",
- "status": "publicado",
+ "status": "despublicado",
  "manchete": false,
  "selo": "Para refletir",
  "titulo": "Quaest: conservadores são 48% dos brasileiros, menor fatia da série; entre evangélicos, 55%",
@@ -201,5 +201,13 @@
   "data": "2026-11-18T02:32:17-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-18T02:32:17-03:00"
+ "publicado_em": "2026-11-18T02:32:17-03:00",
+ "historico": [
+  {
+   "data": "2026-11-18T02:32:59-03:00",
+   "acao": "despublicado",
+   "por": "anderson-pelicioni-de-castro",
+   "motivo": "Terceira nota geral do dia com menos de 70 pontos (regra de 12/11): saiu por publicação simultânea com a outra rotina"
+  }
+ ]
 }
