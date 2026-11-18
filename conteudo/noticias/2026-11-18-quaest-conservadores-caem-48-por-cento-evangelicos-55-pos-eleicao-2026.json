@@ -1,0 +1,205 @@
+{
+ "slug": "quaest-conservadores-caem-48-por-cento-evangelicos-55-pos-eleicao-2026",
+ "data": "2026-11-18",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Para refletir",
+ "titulo": "Quaest: conservadores são 48% dos brasileiros, menor fatia da série; entre evangélicos, 55%",
+ "lide": "A pesquisa pós-eleitoral da Quaest \"O Brasil depois das urnas\", feita de 30 de outubro a 2 de novembro com 2.004 entrevistas, mostra 48% dos brasileiros com valores conservadores, 23% progressistas e 28% nem uma coisa nem outra. Em agosto, os conservadores eram 55%. Entre os evangélicos, a fatia caiu de 67% para 55%.",
+ "por_que_importa": "O Brasil continua mais conservador que progressista em valores: quase metade contra pouco mais de um quinto. Mas a queda depois da campanha, maior entre evangélicos, mostra que essa identidade não é automática. Valores que não são ensinados em casa e na igreja se diluem quando a política entra no meio.",
+ "numeros": [
+  [
+   "48%",
+   "se identificam com valores conservadores, ante 55% em agosto de 2026 e 50% em dezembro de 2023",
+   "Quaest, O Brasil depois das urnas, volume 6"
+  ],
+  [
+   "55%",
+   "dos evangélicos se dizem conservadores, ante 67% em agosto; entre católicos, 48%, ante 55%",
+   "Quaest, O Brasil depois das urnas, volume 6"
+  ],
+  [
+   "34%",
+   "se posicionam à direita, 39% no centro e 24% à esquerda; a direita tinha 39% em 2019",
+   "Quaest, O Brasil depois das urnas, volume 6"
+  ],
+  [
+   "2 pontos",
+   "é a margem de erro da pesquisa, com 2.004 entrevistas presenciais e 95% de confiança",
+   "Quaest, ficha técnica"
+  ]
+ ],
+ "corpo": [
+  "A Quaest mede valores numa escala de 1 (moderno/progressista) a 11 (tradicional/conservador) e ideologia numa escala de 0 (esquerda) a 10 (direita). Os dois resultados são diferentes: há conservadores no centro e até na esquerda. Entre os que se dizem lulistas, 41% se identificam com valores conservadores; entre os independentes, 42%; entre os bolsonaristas, 69%.",
+  "Na série da Quaest, a fatia conservadora foi de 50% em dezembro de 2023, 54% em janeiro de 2025, 52% em novembro de 2025 e em junho de 2026, e 55% em agosto de 2026, antes de cair para 48%. Entre os católicos, o grupo nem conservador nem progressista subiu de 18% para 26%; entre os evangélicos, de 15% para 27%."
+ ],
+ "no_brasil": "A pesquisa foi feita com eleitores de 16 anos ou mais, em entrevistas domiciliares, logo depois do segundo turno de 2026. O volume 6 do estudo, sobre o perfil do eleitorado, foi publicado pela Quaest com o jornal O Globo.",
+ "critica": [
+  {
+   "fonte": "Quaest, nota metodológica do volume 6",
+   "texto": "Em dez/23, a pergunta também mencionava igualdade entre homens e mulheres, orientação sexual e papéis familiares.",
+   "citacao": true,
+   "url": "https://quaest.com.br/wp-content/uploads/2026/11/6.QUAESTBRASILDEPOISURNASVOL6IDEOLOGIA.pdf"
+  },
+  {
+   "fonte": "Portal Claudio Dantas, sobre o mesmo levantamento",
+   "texto": "Destacou que quase metade dos brasileiros se identifica com posições conservadoras, enquanto 34% afirmam ter orientação de direita.",
+   "citacao": false,
+   "url": "https://claudiodantas.com.br/quaest-48-brasileiros-declaram-conservadores/"
+  }
+ ],
+ "para_quem": [
+  "Pastores e líderes: a queda entre evangélicos depois de uma eleição dura é um convite a ensinar valores pela Bíblia, não pela torcida política",
+  "Pais: os valores que a família quer passar precisam de conversa em casa, porque não chegam prontos pela política",
+  "Quem acompanha política: conservador em valores não é sinônimo de eleitor de direita; a pesquisa mostra conservadores em todos os grupos"
+ ],
+ "nao_e_para": [
+  "A pergunta de dezembro de 2023 tinha redação diferente, o que limita a comparação com aquele ponto",
+  "A queda de agosto para novembro pode refletir o clima da eleição; só as próximas rodadas vão dizer se é tendência",
+  "As margens de erro por religião são maiores (4 pontos entre católicos e 5 entre evangélicos)"
+ ],
+ "veredito": "A gente lê o número com sobriedade: o Brasil segue conservador em valores, mas fé que vira só bandeira eleitoral perde força quando a eleição passa. A tarefa da igreja é formar convicção, não torcida.",
+ "versiculo": {
+  "texto": "Ensina a criança no caminho em que deve andar, e, ainda quando for velho, não se desviará dele.",
+  "referencia": "Provérbios 22.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Quaest: Pesquisa pós-eleitoral O Brasil depois das urnas, volume 6, Perfil do eleitorado (PDF)",
+   "url": "https://quaest.com.br/wp-content/uploads/2026/11/6.QUAESTBRASILDEPOISURNASVOL6IDEOLOGIA.pdf",
+   "data": "17/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Quaest: página do relatório O Brasil depois das urnas, volume 6",
+   "url": "https://quaest.com.br/relatorios/pesquisa-pos-eleitoral-o-brasil-depois-das-urnas-volume-06-perfil-do-eleitorado-05-11-2026/",
+   "data": "17/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Claudio Dantas: Quaest: 48% dos brasileiros se declaram conservadores",
+   "url": "https://claudiodantas.com.br/quaest-48-brasileiros-declaram-conservadores/",
+   "data": "17/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 63,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "fe-e-igreja",
+   "porque": "Pesquisa nacional sobre valores morais dos brasileiros, com recorte de evangélicos e católicos"
+  },
+  "origem": {
+   "nome": "Claudio Dantas",
+   "url": "https://claudiodantas.com.br/quaest-48-brasileiros-declaram-conservadores/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Pesquisa de opinião, sem efeito direto, mas com retrato nacional dos valores do eleitorado"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Valores conservadores e evangélicos no Brasil, núcleo do público do portal"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Relatório publicado pela Quaest em 17/11/2026"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Relatório original da Quaest lido, com ficha técnica e gráficos conferidos"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Mostramos a queda de 55% para 48% e a dos evangélicos, de 67% para 55%, que a cobertura não destacou"
+   }
+  },
+  "publico": {
+   "pontos": 14,
+   "eixos": {
+    "valor": 5,
+    "viral": 5,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: relatório da Quaest (2)",
+    "Proximidade: nacional (2)",
+    "Número forte com ficha técnica: 2.004 entrevistas (1)",
+    "Contraria a narrativa: conservadores caíram depois da eleição (1)",
+    "Moeda social: dado sobre evangélicos que poucos viram (1)",
+    "Calendário: balanço pós-eleição (1)",
+    "Cabe num cartão: 48% conservadores; evangélicos 55% (1)",
+    "Emoção de alta ativação: surpresa (1)",
+    "Passagem bíblica que um pastor usaria: Provérbios 22.6 (2)",
+    "Pede resposta do cristão: formação de valores na família e na igreja (1)",
+    "Rende estudo: fé e política (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Pesquisa pós eleitoral: o Brasil depois das urnas. Volume 06: Perfil do eleitorado",
+  "nucleo": "A - Brasil",
+  "categoria": "Fé e sociedade / Pesquisa",
+  "coleta": "2026-11-18",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido no relatório original da Quaest",
+   "contradicoes": "a pergunta de dez/2023 tinha redação diferente, segundo a própria Quaest",
+   "sem_confirmacao": "nenhuma"
+  },
+  "duplicidade": {
+   "grupo": "Quaest pós-eleição 2026",
+   "itens": [
+    "Quaest volume 6",
+    "Claudio Dantas"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber quantos brasileiros são conservadores segundo a Quaest",
+   "entidades": [
+    "Quaest",
+    "conservadores",
+    "evangélicos",
+    "O Brasil depois das urnas"
+   ],
+   "termos": [
+    "Quaest conservadores 48%",
+    "evangélicos conservadores pesquisa",
+    "brasileiros conservadores 2026"
+   ],
+   "atualizacao": "comparar com a próxima rodada da Quaest"
+  }
+ },
+ "descricao_seo": "Pesquisa Quaest pós-eleição: 48% dos brasileiros se dizem conservadores em valores, ante 55% em agosto; entre evangélicos, 55%, ante 67%.",
+ "instituicao": "Quaest",
+ "editora": "Quaest",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do relatório e dos gráficos, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: números lidos nos gráficos do relatório original, com a ressalva metodológica da própria Quaest; nenhuma pessoa ou grupo é desqualificado. A posição do portal Claudio Dantas aparece parafraseada, sem aspas.",
+ "imagem": {
+  "arquivo": "capas/quaest-conservadores-caem-48-por-cento-evangelicos-55-pos-eleicao-2026.jpg",
+  "credito": "Pieter Neeffs, o Velho, Interior de uma igreja gótica de dia (c. 1635-40), The Metropolitan Museum of Art",
+  "alt": "Pintura de Pieter Neeffs em preto e branco: nave de uma igreja gótica com colunas altas e fiéis caminhando",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/ep30.58.20.bw.R.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/437187"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-18T02:32:17-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-18T02:32:17-03:00"
+}
