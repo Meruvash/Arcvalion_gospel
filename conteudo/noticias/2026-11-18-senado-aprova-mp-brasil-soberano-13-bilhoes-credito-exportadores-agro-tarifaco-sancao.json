@@ -1,0 +1,202 @@
+{
+ "slug": "senado-aprova-mp-brasil-soberano-13-bilhoes-credito-exportadores-agro-tarifaco-sancao",
+ "data": "2026-11-18",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": true,
+ "opiniao_forte": false,
+ "selo": "Informativo",
+ "titulo": "Senado aprova até R$ 13,5 bilhões a mais em crédito para exportadores atingidos pelo tarifaço",
+ "lide": "O Plenário do Senado aprovou na terça-feira (17) o projeto de conversão da MP 1.379/2026, que soma até R$ 13,5 bilhões aos R$ 15 bilhões do Plano Brasil Soberano, a linha do BNDES para exportadores prejudicados pelo tarifaço dos Estados Unidos e pelos conflitos no Oriente Médio. O texto vai à sanção, informou a Agência Senado.",
+ "por_que_importa": "O Congresso já tinha estendido o programa à agropecuária, à pesca e às florestas plantadas, além dos fornecedores dessas cadeias. Com mais dinheiro na linha, exportador do agro que perdeu mercado nos Estados Unidos tem mais chance de conseguir capital de giro e investimento com juros menores.",
+ "numeros": [
+  [
+   "R$ 13,5 bi",
+   "a mais para o Plano Brasil Soberano, somados aos R$ 15 bi já autorizados",
+   "Agência Senado, 17/11/2026"
+  ],
+  [
+   "R$ 14,3 bi",
+   "em operações já protocoladas no BNDES, acima do que havia para 2026",
+   "Agência Câmara, 17/11/2026"
+  ],
+  [
+   "5 mil",
+   "empresas afetadas diretamente pelo tarifaço, segundo a relatora",
+   "Agência Senado, 17/11/2026"
+  ]
+ ],
+ "corpo": [
+  "A relatora, senadora Leany Lemos (PSB-DF), retirou a exigência de que o dinheiro extra viesse só de devoluções anteriores à União, sem mudar o teto de R$ 13,5 bilhões. O texto permite somar a verba a recursos próprios do BNDES e cria governança entre ministérios. A MP perderia a validade nesta quarta (18), segundo a Agência Senado.",
+  "Na mesma terça, a Câmara aprovou crédito extra de R$ 6,5 bilhões no Orçamento para o programa. Segundo o governo, as operações protocoladas no BNDES já somavam R$ 14,3 bilhões e o banco remanejou recursos entre modalidades, sem conseguir atender toda a demanda, informou a Agência Câmara. O crédito ainda depende do Senado."
+ ],
+ "no_brasil": "Os dados abertos do Senado registram a aprovação do PLV 15/2026 em 17/11 e o envio à sanção. Nas duas primeiras edições, o programa aprovou mais de R$ 27 bilhões em mais de 1,7 mil operações, segundo a relatora.",
+ "critica": [
+  {
+   "fonte": "Senadora Leany Lemos (PSB-DF), relatora, segundo a Agência Senado",
+   "texto": "É importante destacar que estamos tratando de financiamentos, ou seja, recursos reembolsáveis. Estamos falando de crédito, e não de subsídios",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/17/medida-que-amplia-credito-a-exportacoes-segue-para-sancao"
+  },
+  {
+   "fonte": "Mensagem do Executivo que pediu o crédito extra, segundo a Agência Câmara",
+   "texto": "A programação adotada naquele momento pressupunha que os recursos de 2026 seriam suficientes, mas informações do BNDES revelaram que as operações protocoladas já batiam R$ 14,3 bilhões",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1320334-camara-aprova-credito-de-r-65-bi-para-ajudar-exportadores-atingidos-pelo-tarifaco-dos-eua"
+  }
+ ],
+ "para_quem": [
+  "Exportadores do agro, da pesca e de florestas plantadas que perderam vendas aos Estados Unidos",
+  "Fornecedores dessas cadeias exportadoras",
+  "Cooperativas que exportam café, carne e frutas"
+ ],
+ "nao_e_para": [
+  "Não é dinheiro a fundo perdido: são financiamentos que precisam ser pagos",
+  "Não vale ainda: falta a sanção presidencial",
+  "Não é renegociação de dívida rural nem linha do Plano Safra"
+ ],
+ "veredito": "Medida útil para quem exporta e foi atingido pelas tarifas dos Estados Unidos. É crédito, não subsídio, e o acesso depende do banco habilitado. O produtor exportador deve procurar o BNDES ou o banco dele logo após a sanção, porque a demanda já passou do dinheiro disponível.",
+ "versiculo": {
+  "texto": "O que lavra a sua terra se fartará de pão, mas o que segue os ociosos está falto de juízo.",
+  "referencia": "Provérbios 12.11",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Medida que amplia crédito a exportações segue para sanção (17/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/17/medida-que-amplia-credito-a-exportacoes-segue-para-sancao",
+   "data": "17/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: tramitação da MPV 1.379/2026 (PLV 15/2026)",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9088062",
+   "data": "17/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Câmara aprova crédito de R$ 6,5 bi para ajudar exportadores atingidos pelo tarifaço dos EUA (17/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1320334-camara-aprova-credito-de-r-65-bi-para-ajudar-exportadores-atingidos-pelo-tarifaco-dos-eua",
+   "data": "17/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 72,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Crédito do BNDES para exportadores do agro, da pesca e de florestas plantadas atingidos pelo tarifaço"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/17/medida-que-amplia-credito-a-exportacoes-segue-para-sancao"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Votação concluída no Congresso: até R$ 13,5 bilhões a mais de crédito para exportadores de todo o país"
+   },
+   "afinidade": {
+    "pontos": 10,
+    "porque": "Crédito que alcança o exportador do agro, mas não é dívida rural nem Plano Safra: efeito indireto no produtor"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação no Senado na terça, 17/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Aprovação conferida nos dados abertos do Senado; conteúdo pelas agências do Senado e da Câmara"
+   },
+   "originalidade": {
+    "pontos": 7,
+    "porque": "Junta a MP aprovada no Senado e o crédito extra de R$ 6,5 bi na Câmara, com o recorte do agro"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 1
+   },
+   "criterios": [
+    "Documento primário: dados abertos do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Leany Lemos (1)",
+    "Número forte: R$ 13,5 bi (2)",
+    "Utilidade: quem pode pedir o crédito (2)",
+    "Tema que já mobiliza o público: tarifaço (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Medida que amplia crédito a exportações segue para sanção",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / crédito à exportação",
+  "coleta": "2026-11-18",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "aprovação conferida nos dados abertos do Senado; números das agências oficiais",
+   "contradicoes": "A Agência Câmara lista setores como minerais críticos, fertilizantes e indústria; a relatora cita a extensão anterior à agropecuária, pesca e florestas. As duas coisas convivem no programa.",
+   "sem_confirmacao": "taxas de juros e condições por setor da terceira edição; regras do BNDES para o agro"
+  },
+  "duplicidade": {
+   "grupo": "Plano Brasil Soberano 3",
+   "itens": [
+    "Agência Senado 17/11",
+    "Agência Câmara 17/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se o exportador do agro atingido pelo tarifaço tem crédito do BNDES",
+   "entidades": [
+    "Plano Brasil Soberano",
+    "MP 1.379/2026",
+    "BNDES",
+    "Leany Lemos",
+    "tarifaço"
+   ],
+   "termos": [
+    "plano brasil soberano agro",
+    "crédito exportador tarifaço bndes",
+    "mp 1379/2026"
+   ],
+   "atualizacao": "sanção da lei e votação do crédito de R$ 6,5 bi no Senado"
+  },
+  "agro": {
+   "demanda": "Exportadores do agro, da pesca e de florestas plantadas, e seus fornecedores, atingidos pelo tarifaço americano, em busca de capital de giro e investimento pelo BNDES",
+   "prazo": "sanção presidencial em até 15 dias úteis; demanda já acima dos recursos",
+   "quem": "Empresas, cooperativas e produtores exportadores de café, carne, frutas, pescado e madeira plantada"
+  }
+ },
+ "descricao_seo": "Senado aprova a MP 1.379/2026: mais R$ 13,5 bi no Plano Brasil Soberano para exportadores, inclusive do agro, atingidos pelo tarifaço.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura dos dados abertos do Senado e das agências do Congresso, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: aprovação conferida na fonte primária; deixa claro que falta sanção e que é crédito reembolsável; citações literais das agências oficiais. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/senado-aprova-mp-brasil-soberano-13-bilhoes-credito-exportadores-agro-tarifaco-sancao.jpg",
+  "credito": "Foto: Carlos Moura/Agência Senado",
+  "alt": "Senadora de óculos e lenço estampado discursa na tribuna do Plenário do Senado",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/17/medida-que-amplia-credito-a-exportacoes-segue-para-sancao/20261117_02241cm.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/17/medida-que-amplia-credito-a-exportacoes-segue-para-sancao"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-18T02:32:47-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-18T02:32:47-03:00"
+}
