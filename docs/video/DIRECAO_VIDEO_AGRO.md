@@ -189,6 +189,17 @@ a etiqueta "DR. PELICIONI" sobre o trecho congelado, sem TV nem onda de áudio.
 A base é a citação do art. 46, III da Lei 9.610/1998 e, no caso de criador americano, também o fair use (comentário e
 crítica). Exemplo: `docs/video/roteiros/aposentadoria-rural-roca.md`, v2.
 
+**Espelhar ou inverter vídeo de terceiros para escapar da detecção das plataformas: não se faz** (pedido do editor em
+18/11/2026, recusado). Os motivos:
+- é técnica para esconder a reutilização dos sistemas que detectam conteúdo copiado (Content ID e afins);
+- contradiz o crédito na tela e a base legal da citação (art. 46, III, da Lei 9.610/1998 exige indicar a origem);
+- trocar o padrão de alcance pelo padrão de denúncia expõe o perfil do editor.
+
+Quando precisar de alcance, a saída é a imagem própria: animação e pintura em código, que é a base do formato.
+
+**Metadados limpos no arquivo final, sim:** o MP4 que vai para a rede sai com `-map_metadata -1` (sem nome de
+ferramenta, data de criação ou caminhos de arquivo).
+
 **Pessoas:** de costas, de longe ou com autorização. Nunca um rosto identificável de alguém que não autorizou.
 **Crédito:** rodapé no padrão "FOTO/VÍDEO: autor · banco · licença".
 **Registro:** cada imagem real usada entra no `CENAS_USADAS.md`, com link e licença.
