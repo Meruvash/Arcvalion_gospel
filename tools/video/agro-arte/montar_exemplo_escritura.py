@@ -70,16 +70,22 @@ OVS = [
     ov("o-tags", M["contrato"] - .15, M["diz"] - .1, '<div class="tag" id="t1">escritura = contrato</div><div class="tag tag2" id="t2">registro = dono</div>', "", 11),
     ov("o-card1", M["diz"] - .1, C["mapa"] + .1, CARD1, "", 12),
     ov("o-src1", C["cartorio"] + .4, C["mapa"], 'CÓDIGO CIVIL, ART. 1.245 · PINTURA À MANEIRA DE GERARD TER BORCH', "rod", 13),
-    ov("o-dr1", C["mapa"] + .1, FI[6]["inicio"] - .1, '<div class="drtag" id="dr1">DR. PELICIONI</div>', "", 14),
+    ov("o-dr1", FI[5]["inicio"], FI[5]["fim"] + .2, '<div class="drtag drpres" id="dr1">DR. PELICIONI</div>', "", 14),
     ov("o-card2", M["registro6"] - .1, FI[7]["inicio"] - .1, CARD2, "", 15),
     ov("o-src2", C["mapa"] + .4, C["gaveta"], 'CÓDIGO CIVIL, ARTS. 1.245 E 1.246 · LEI 6.015/1973, ART. 169 · MAPA ILUSTRATIVO EM AQUARELA', "rod", 16),
-    ov("o-dr2", C["gaveta"] + .1, C["fim"], '<div class="drtag" id="dr2">DR. PELICIONI</div>', "", 17),
+    ov("o-dr2", FI[8]["inicio"], FI[8]["fim"] + .2, '<div class="drtag drpres" id="dr2">DR. PELICIONI</div>', "", 17),
     ov("o-src3", C["gaveta"] + .3, C["fim"], 'PINTURA À MANEIRA DE SAMUEL VAN HOOGSTRATEN', "rod", 18),
     ov("o-cred9", C["fim"] + .3, C["cartela"], 'PINTURA A ÓLEO COM ESPÁTULA, FEITA EM CÓDIGO', "cred", 19),
 ]
 CART = """<div id="ct-luz"></div><div id="ct-nome">Dr. Pelicioni</div><div id="ct-fil"></div><div id="ct-prof">ADVOGADO</div>
 <div id="ct-tese">na compra de terra, quem não registra não é dono</div><div id="ct-direct">Dúvida? Direct aberto.</div>
 <div id="ct-fontes">Fontes: Código Civil (Lei 10.406/2002), arts. 108, 1.245 e 1.246, texto publicado pelo Senado Federal · Lei 6.015/1973, art. 169 · pinturas feitas em código: óleo com espátula (motor Lemo-Opuscar, MIT) e à maneira de Gerard ter Borch e Samuel van Hoogstraten · mapa ilustrativo · trilha original</div>"""
+JAN_ED = [(FI[n]["inicio"], FI[n]["fim"]) for n in (5, 8)]          # falas gravadas pelo editor (voz real)
+def pres(i, src, n):
+    a, b = FI[n]["inicio"] - .05, FI[n]["fim"] + .25
+    return (f'<div id="pb{i}" class="clip ov" data-start="{a - .25:.3f}" data-duration="{b - a + .45:.3f}" data-track-index="{24 + i}"><div class="presbg" id="pbg{i}"></div></div>'
+            f'<video id="p{i}" class="clip pres" data-start="{a:.3f}" data-duration="{b - a:.3f}" data-media-start="0" data-track-index="{26 + i}" muted playsinline src="assets/art/{src}"></video>')
+PRES = pres(0, "f5_recorte.webm", 5) + pres(1, "f8_recorte.webm", 8)
 SFX = [("boom", 0.38, .5, 1.5), ("paper", M["diz"] - .1, .4, .8), ("whoosh", C["mapa"] - .2, .22, 1.0), ("paper", M["registro6"] - .1, .4, .8), ("boom", C["cartela"] + .1, .22, 1.5)]
 sfx = "\n".join(f'<audio id="sx{n}" class="clip" data-start="{s:.3f}" data-duration="{d}" data-track-index="{40 + n}" data-volume="{v}" src="assets/audio/sfx/{f}.mp3"></audio>' for n, (f, s, v, d) in enumerate(SFX))
 HTML = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Comprou a terra e não é dono? · registro</title>
@@ -108,6 +114,10 @@ HTML = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>
 .capa-big{{font-size:118px !important;line-height:1.0 !important}}
 #flash{{position:absolute;inset:0;background:#fff8e6;opacity:0}}
 .selo{{position:absolute;left:0;right:0;margin:auto;top:640px;width:max-content;padding:12px 30px;border:9px solid #c0281a;border-radius:14px;color:#c0281a;font:900 78px 'Inter';letter-spacing:.04em;transform:rotate(-8deg);background:rgba(255,248,236,.88);opacity:0}}
+.pres{{position:absolute;right:-10px;bottom:0;width:420px;height:747px;object-fit:cover;opacity:0;z-index:35;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 22%),linear-gradient(to top,transparent 0,#000 9%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent 0,#000 22%),linear-gradient(to top,transparent 0,#000 9%);mask-composite:intersect}}
+.presbg{{position:absolute;z-index:34;right:-120px;bottom:-140px;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle,rgba(240,194,75,.55),rgba(240,194,75,0) 68%);opacity:0}}
+.drpres{{left:auto !important;right:28px !important;top:auto !important;bottom:96px !important;z-index:40}}
+.capL{{justify-content:flex-start !important;padding-left:40px}}
 .drtag{{position:absolute;left:44px;top:44px;font:900 30px 'Inter';letter-spacing:.12em;color:#14240f;background:#f0c24b;padding:8px 16px;border-radius:6px;opacity:0}}
 .carimbo{{position:absolute;left:130px;top:130px;padding:10px 26px;border:7px solid #c0281a;color:#c0281a;font:900 58px 'Inter';text-transform:uppercase;letter-spacing:.03em;transform:rotate(-6deg);background:rgba(255,248,236,.9);opacity:0}}
 .tag{{position:absolute;left:70px;top:140px;font:900 54px/1 'Inter';color:#fff6dc;background:rgba(30,40,60,.84);padding:14px 22px;border-left:8px solid #f0c24b;opacity:0}}
@@ -130,9 +140,10 @@ HTML = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>
 </style></head><body>
 <div id="root" data-composition-id="video" data-start="0" data-duration="{TOTAL}" data-width="1080" data-height="1080">
 {VIDEOS}
+{PRES}
 {chr(10).join(OVS)}
 <div id="cartela" class="clip ov" data-start="{C['cartela']:.3f}" data-duration="{TOTAL - C['cartela']:.3f}" data-track-index="27">{CART}</div>
-<div id="caps" class="clip" data-start="0" data-duration="{TOTAL}" data-track-index="28">{''.join(f'<div class="cap" id="cap{i}"><span>{b["txt"]}</span></div>' for i, b in enumerate(leg))}</div>
+<div id="caps" class="clip" data-start="0" data-duration="{TOTAL}" data-track-index="28">{''.join(f'<div class="cap{' capL' if any(a - .1 <= b['ini'] <= z + .1 for a, z in JAN_ED) else ''}" id="cap{i}"><span>{b["txt"]}</span></div>' for i, b in enumerate(leg))}</div>
 <audio id="voz" class="clip" data-start="0" data-duration="{TOTAL}" data-track-index="29" data-volume="1" src="assets/audio/narracao.wav"></audio>
 <audio id="trilha" class="clip" data-start="0" data-duration="{TOTAL}" data-track-index="30" data-volume="1" data-fade-in="0.3" data-fade-out="2.0" src="assets/audio/trilha_mix.wav"></audio>
 {sfx}
@@ -151,6 +162,11 @@ tl.fromTo('#v0', {{ scale: 1.0 }}, {{ scale: 1.18, duration: INI[1] + XF, ease: 
 tl.to('#v0', {{ x: 14, y: -10, duration: .05, yoyo: true, repeat: 5, ease: 'none' }}, 0.4); tl.set('#v0', {{ x: 0, y: 0 }}, 0.71);
 tl.fromTo('#capa', {{ scale: 1.0 }}, {{ scale: 1.06, duration: .08, yoyo: true, repeat: 1 }}, 0.4);
 tl.fromTo('#flash', {{ opacity: 0 }}, {{ opacity: .55, duration: .05 }}, 0.4); tl.to('#flash', {{ opacity: 0, duration: .35 }}, 0.45);
+// apresentador no canto (gravação do editor, fundo removido)
+[0, 1].forEach(i => {{ const v = document.querySelector('#p' + i), a = +v.dataset.start, d = +v.dataset.duration;
+  tl.fromTo('#p' + i, {{ opacity: 0, y: 80 }}, {{ opacity: 1, y: 0, duration: .35, ease: 'power3.out' }}, a);
+  tl.fromTo('#pbg' + i, {{ opacity: 0, scale: .7 }}, {{ opacity: 1, scale: 1, duration: .45, ease: 'power3.out' }}, a - .1);
+  tl.to(['#p' + i, '#pbg' + i], {{ opacity: 0, y: 30, duration: .3, ease: 'power2.in' }}, a + d - .3); }});
 // carimbo, reações do editor e cartões
 tl.fromTo('#selo', {{ opacity: 0, scale: 2.2 }}, {{ opacity: 1, scale: 1, duration: .12, ease: 'power4.in' }}, 0.32);
 tl.to('#selo', {{ opacity: 0, duration: .3 }}, 2.3);

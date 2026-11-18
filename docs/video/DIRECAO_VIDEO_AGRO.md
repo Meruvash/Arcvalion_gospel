@@ -213,6 +213,45 @@ ferramenta, data de criação ou caminhos de arquivo).
 **Crédito:** rodapé no padrão "FOTO/VÍDEO: autor · banco · licença".
 **Registro:** cada imagem real usada entra no `CENAS_USADAS.md`, com link e licença.
 
+### 2.8 Editor no canto (formato aprovado pelo editor em 18/11/2026)
+Estreou em "Comprou a terra e não é dono?". Nas falas do editor, no lugar do clone:
+
+**Gravação**
+- O editor grava cada frase no celular, na vertical, do peito para cima, com o rosto bem iluminado.
+- O fundo pode ser qualquer um, mas sem gente atrás.
+- O roteiro manda a ele as frases num bloco de copiar e colar.
+
+**Corte**
+- Transcrever a gravação com tempo por palavra.
+- Cortar só a frase, sem as pausas.
+- O texto da fala passa a ser o que ele disse de fato. No `falas.json`, a fala leva `"origem": "gravacao_do_editor"`.
+
+**Som**
+- Filtro: `highpass=f=80,afftdn=nf=-25,acompressor=threshold=-20dB:ratio=2.5,loudnorm=I=-18:TP=-2:LRA=7`.
+- Mono, 48 kHz.
+- A voz real dele não passa pelo seletor de S, que vale só para o clone.
+
+**Fundo removido**
+- Comando: `tools/video/agro-arte/recortar_apresentador.py gravacao.mp4 INICIO FIM saida.webm`.
+- Usa o MediaPipe com o modelo selfie_multiclass (Apache-2.0).
+- Faz média entre quadros e esfuma a borda.
+- Sai WebM VP9 com transparência.
+- Não é inteligência artificial que gera imagem: é recorte da gravação real.
+
+**Na tela** (`montar_exemplo_escritura.py`, função `pres`)
+- **Posição:** canto inferior direito, 420×747 px, sobre um brilho amarelo radial.
+- **Bordas:** esfumadas à esquerda e embaixo (`mask-image`).
+- **Animação:** entra subindo 80 px e sai em fade.
+- **Legenda:** vai para a esquerda (`.capL`).
+- **Etiqueta:** "DR. PELICIONI" fica no peito, nunca sobre o rosto.
+- **Pintura:** continua ocupando o quadro; ele não cobre a pintura.
+
+**Antes do vídeo completo**
+- Prévia curta só com o trecho das falas dele, para aprovação.
+- Conferir no celular o contorno do cabelo e dos óculos.
+
+**Se faltar alguma gravação**, aquela fala fica no clone (seção 3) e o editor é avisado.
+
 ## 3. Voz e som
 
 **Voz do editor sem "S" chiado (pedido do editor, 17/11/2026).** Gerado com as configurações antigas (style 0,25,

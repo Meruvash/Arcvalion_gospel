@@ -64,7 +64,16 @@ Endereço: https://legis.senado.leg.br/norma/552282/publicacao/15676634
   chiado (nota máxima de 2,97).
 
 ## Entrega (18/11/2026, para publicar em 19/11)
-- **Formato:** 1080×1080, 50,4 s.
+- **Versão final (18/11/2026, aprovada pelo editor depois da prévia):** primeiro vídeo no formato **"editor no canto"**
+  (direção, seção 2.8).
+  - Nas falas 5 e 8, o editor aparece gravado no celular, com o fundo removido, no canto inferior direito, e a voz é a
+    dele mesmo.
+  - Os textos dessas duas falas passaram a ser os que ele gravou.
+  - A fala 10 continua no clone, porque a 3ª gravação não chegou.
+  - 1080×1080, 51,1 s, −13,7 LUFS, pico de −1,8 dBFS. A transcrição do arquivo final confere com as falas (98,5%; só "Dr." por extenso).
+  - Metadados limpos.
+  - A capa (quadro 0) não mudou.
+- **Primeira versão (substituída):** 1080×1080, 50,4 s.
 - **Som:** −13,0 LUFS, pico de −1,9 dBFS. Trilha catira normalizada em −30 LUFS. A transcrição do arquivo final bate com
   as falas.
 - **Metadados:** limpos (`-map_metadata -1`, sem nome de codificador nem de ferramenta).

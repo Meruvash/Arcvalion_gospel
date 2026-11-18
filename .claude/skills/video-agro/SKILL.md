@@ -46,6 +46,13 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 8. **Sempre, junto com o vídeo final:** a **legenda do Instagram** e o **título do YouTube** (com 2 alternativas e
    descrição curta), nas regras da seção 4 da direção. Guarde os dois no arquivo do roteiro, seção "Publicação".
 
+## Editor no canto (desde 18/11/2026)
+- Quando o editor mandar a gravação das falas dele, siga a direção, seção 2.8:
+  - recorte com `tools/video/agro-arte/recortar_apresentador.py`;
+  - voz real dele;
+  - prévia curta antes do vídeo completo.
+- Sem gravação, a fala vai pelo clone com o seletor de S neutro.
+
 ## Não fazer
 - Gerar a voz do editor com "style" acima de 0, com o modelo eleven_turbo_v2_5, ou sem passar pelo seletor de "S" (`voz_editor_s_neutro.py`): o clone chia o "S" de fim de sílaba ("desses", "resto", "juiz").
 - Abrir com órgão, sigla, país ou percentual de mercado; capa com número sozinho; pergunta final sobre o setor (`PADRAO_CASEIRO.md`).

@@ -26,8 +26,9 @@
  {
   "id": 5,
   "quem": "editor",
-  "texto": "E o pior: se ele vender de novo e o outro comprador registrar primeiro, a terra pode ficar com o outro.",
-  "fala": "E o pior: se ele vender de novo e o outro comprador registrar primeiro, a terra pode ficar com o outro."
+  "texto": "E o pior, se ele vender de novo e o outro comprador registrar primeiro, a terra pode ficar com o outro.",
+  "fala": "E o pior, se ele vender de novo e o outro comprador registrar primeiro, a terra pode ficar com o outro.",
+  "origem": "gravacao_do_editor"
  },
  {
   "id": 6,
@@ -44,8 +45,9 @@
  {
   "id": 8,
   "quem": "editor",
-  "texto": "Por isso, papel guardado na gaveta não protege a sua terra.",
-  "fala": "Por isso, papel guardado na gaveta não protege a sua terra."
+  "texto": "Por isso, o papel guardado na gaveta não protege a sua terra.",
+  "fala": "Por isso, o papel guardado na gaveta não protege a sua terra.",
+  "origem": "gravacao_do_editor"
  },
  {
   "id": 9,
