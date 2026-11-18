@@ -1,0 +1,193 @@
+{
+ "slug": "stj-juros-cedula-credito-rural-12-por-cento-sem-teto-cmn-recursos-livres",
+ "data": "2026-11-18",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "STJ mantém juros de 12% ao ano em cédula rural quando o CMN não fixa teto",
+ "lide": "A Terceira Turma do Superior Tribunal de Justiça confirmou que os juros de uma cédula de crédito rural ficam limitados a 12% ao ano quando o Conselho Monetário Nacional não fixa um teto, ainda que o dinheiro seja de recursos livres. O acórdão do AgInt no REsp 2.262.895/PR, relatado pelo ministro Humberto Martins, foi julgado em 27 de outubro e publicado em 29 de outubro.",
+ "por_que_importa": "Boa parte do crédito rural com recursos livres é contratada a juros de mercado, bem acima de 12% ao ano. O STJ diz que a liberdade de pactuar prevista no Manual de Crédito Rural, sem um teto fixado pelo CMN, é omissão, e que nesse vazio vale a Lei de Usura. Para quem discute contrato no Judiciário, é um precedente recente e unânime da Terceira Turma.",
+ "numeros": [
+  [
+   "12%",
+   "ao ano é o limite de juros remuneratórios aplicado pelo STJ à cédula de crédito rural quando o CMN não fixa teto",
+   "STJ, AgInt no REsp 2.262.895/PR, ementa"
+  ],
+  [
+   "Art. 5º",
+   "do Decreto-Lei 167/1967 atribui ao CMN o dever de fixar os juros das cédulas de crédito rural",
+   "STJ, AgInt no REsp 2.262.895/PR, ementa"
+  ],
+  [
+   "MCR 6-3",
+   "é o item do Manual de Crédito Rural que autoriza a livre pactuação, tratada pelo STJ como omissão normativa",
+   "STJ, AgInt no REsp 2.262.895/PR, ementa"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, as cédulas de crédito rural, industrial e comercial têm regramento próprio, que dá ao CMN o dever de fixar os juros; sem atuação do Conselho, adota-se a limitação de 12% ao ano do Decreto 22.626/1933, a Lei de Usura. A Turma afirmou que a autorização de livre pactuação do MCR 6-3, desacompanhada de teto, configura omissão, e não opção regulatória capaz de afastar o limite legal.",
+  "O banco alegava que a operação seria regida pelas regras da Cédula de Crédito Bancário e da Cédula de Produto Rural. O STJ respondeu que o tribunal de origem qualificou o título como cédula de crédito rural e que rever isso exigiria reexame de provas, vedado pela Súmula 7. O agravo interno foi negado, mantendo a decisão que deu provimento ao recurso especial."
+ ],
+ "no_brasil": "Segundo o portal Agro Pujante, que divulgou o julgado em 8 de novembro, o agravo era do Santander, a decisão foi unânime em sessão virtual de 20 a 27 de outubro e a ministra Nancy Andrighi se declarou impedida. Por ser julgamento de turma, o precedente não vincula outros tribunais como um recurso repetitivo.",
+ "critica": [
+  {
+   "fonte": "STJ, Terceira Turma, ementa do AgInt no REsp 2.262.895/PR",
+   "texto": "A autorização de livre pactuação constante do Manual de Crédito Rural (MCR 6-3, item 1), desacompanhada da fixação de teto que o art. 5º do Decreto-Lei nº 167/1967 impõe ao CMN estabelecer, configura autêntica omissão normativa, e não opção regulatória apta a afastar a limitação legal supletiva.",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2262895&O=JT"
+  },
+  {
+   "fonte": "Banco agravante, segundo o resumo da tese na ementa",
+   "texto": "Sustentou que não haveria lacuna normativa, que as operações são heterogêneas e que valeriam as regras da Cédula de Crédito Bancário (Lei 10.931/2004) e da Cédula de Produto Rural (Lei 8.929/1994).",
+   "citacao": false,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2262895&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor com cédula de crédito rural de recursos livres a juros acima de 12% ao ano: guarde o contrato e os extratos; o precedente pode ser levado a uma revisão",
+  "Quem vai renegociar dívida rural: antes de assinar, confira se o título novo é cédula de crédito rural, cédula de crédito bancário ou CPR, porque o STJ trata cada um de forma diferente",
+  "Sindicatos e cooperativas: o ponto a levar ao CMN é a fixação de um teto claro para as operações com recursos livres"
+ ],
+ "nao_e_para": [
+  "O caso concreto dependeu de o tribunal de origem ter qualificado o título como cédula de crédito rural; CCB e CPR seguem outras regras",
+  "É precedente de turma, não tese repetitiva: outros tribunais e a Quarta Turma podem decidir de outro modo",
+  "O banco ainda pode tentar outros recursos dentro do próprio STJ"
+ ],
+ "veredito": "A gente acha que o STJ pôs o dedo na ferida: a lei manda o CMN fixar os juros do crédito rural, e o CMN deixa em branco. Enquanto a regra não vem, quem paga a conta da omissão não pode ser o produtor. Cabe ao Conselho fazer o que a lei pede desde 1967.",
+ "fontes": [
+  {
+   "nome": "Superior Tribunal de Justiça: acórdão do AgInt no REsp 2.262.895/PR, pesquisa de jurisprudência (SCON)",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2262895&O=JT",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agro Pujante: STJ mantém limite de 12% ao ano para juros em cédula de crédito rural",
+   "url": "https://agropujante.com.br/julgado/stj-mantem-limite-de-12-ao-ano-para-juros-em-cedula-de-credito-rural",
+   "data": "08/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 58,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Limite de juros em cédula de crédito rural com recursos livres, decidido pela Terceira Turma do STJ"
+  },
+  "origem": {
+   "nome": "Agro Pujante",
+   "url": "https://agropujante.com.br/julgado/stj-mantem-limite-de-12-ao-ano-para-juros-em-cedula-de-credito-rural"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Precedente unânime da Terceira Turma sobre juros de cédulas rurais com recursos livres, usado em ações revisionais de todo o país"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Dívida e juros do crédito rural, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Acórdão publicado no DJEN de 29/10/2026 e divulgado em 08/11; ainda não coberto pelo portal"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa e dados do julgamento conferidos na pesquisa de jurisprudência do próprio STJ"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Explicamos o que muda para quem tem cédula de recursos livres e os limites do precedente"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 8,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: decisão do STJ (2)",
+    "Proximidade: nacional (2)",
+    "Número forte: 12% ao ano (1)",
+    "Duas fontes independentes: STJ e Agro Pujante (1)",
+    "Utilidade: o que conferir no contrato (1)",
+    "Contraria a narrativa: liberdade do MCR é omissão (1)",
+    "Cabe num cartão: sem teto do CMN, juros de 12% (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "AgInt no REsp 2.262.895/PR: cédula de crédito rural, juros remuneratórios, omissão do CMN, limitação a 12% ao ano",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Juros e Justiça",
+  "coleta": "2026-11-18",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa, data de julgamento e de publicação conferidas no SCON do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "nome do banco, placar e impedimento, vindos do Agro Pujante; íntegra do voto"
+  },
+  "duplicidade": {
+   "grupo": "Juros de cédula rural no STJ",
+   "itens": [
+    "SCON AgInt no REsp 2.262.895",
+    "Agro Pujante 08/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-17-stj-tema-1406-prescricao-divida-rural-suspensa-automaticamente-leis-renegociacao"
+  },
+  "seo": {
+   "intencao": "saber se os juros da cédula de crédito rural são limitados a 12% ao ano",
+   "entidades": [
+    "STJ",
+    "cédula de crédito rural",
+    "Conselho Monetário Nacional",
+    "Lei de Usura",
+    "Humberto Martins"
+   ],
+   "termos": [
+    "juros cédula de crédito rural 12%",
+    "STJ juros crédito rural recursos livres",
+    "limite juros crédito rural CMN"
+   ],
+   "atualizacao": "acompanhar se a Quarta Turma ou a Segunda Seção julgam o tema"
+  },
+  "agro": {
+   "demanda": "Produtores com cédulas de crédito rural de recursos livres a juros acima de 12% ao ano que buscam revisão do contrato",
+   "prazo": "sem prazo fixo; revisão depende do contrato e da prescrição de cada caso",
+   "quem": "Produtores rurais e cooperativas com cédulas de crédito rural, sobretudo de recursos livres"
+  }
+ },
+ "descricao_seo": "STJ confirma limite de 12% ao ano para juros de cédula de crédito rural quando o CMN não fixa teto, mesmo com recursos livres. Veja o que muda.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da ementa e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a ementa é citada literalmente e o argumento do banco aparece parafraseado em O que dizem; a nota deixa claro que é precedente de turma, não vinculante, e que CCB e CPR seguem outras regras. A crítica mira a omissão do CMN, não pessoas. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-juros-cedula-credito-rural-12-por-cento-sem-teto-cmn-recursos-livres.jpg",
+  "credito": "Rosa Bonheur, Desmamando os bezerros (1879), The Metropolitan Museum of Art",
+  "alt": "Pintura de Rosa Bonheur: vaca e bezerros junto a uma cerca de troncos num pasto de montanha",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DT2579.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/435703"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-18T14:50:27-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-18T14:50:27-03:00"
+}
