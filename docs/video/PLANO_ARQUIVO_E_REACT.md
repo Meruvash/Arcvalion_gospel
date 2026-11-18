@@ -74,6 +74,30 @@ react por cima.
   - um buscador de arquivo aberto (Commons, Senado no Flickr, Landsat) que anote a licença de cada imagem, a construir
     no primeiro web documentário.
 
+## 2.4 De onde tirar vídeo sem prejudicar a distribuição (resposta ao editor, 18/11/2026)
+O TikTok de terceiros não serve (resultado do leilão). Ordem de preferência:
+1. **Gravação própria do editor:** celular ou drone, em fazendas de clientes com autorização, cartório, agência ou
+   estrada. É 100% original, nunca dá reivindicação e reforça a autoridade dele.
+2. **Animação e pintura em código:** o que temos feito, com bom alcance.
+3. **Bancos de vídeo com licença de uso comercial:**
+   - grátis: Pexels (pela API, com a chave do editor guardada como variável do ambiente) e Pixabay;
+   - pagos, se o editor quiser: Storyblocks, Envato Elements, Artgrid.
+   - Entram como imagem de apoio por baixo da narração própria. Conferir sempre nas verificações do YouTube Studio,
+     porque às vezes aparece reivindicação indevida sobre material de banco.
+4. **Arquivo público:** Landsat e NASA (domínio público), Copernicus (licença aberta), fotos da Agência Senado e
+   Senado Multimídia (com crédito), Wikimedia Commons com licença aberta.
+5. **Vídeo de criador com licença por escrito**, por exemplo um piloto de drone do agro. Vale para imagem de apoio sob
+   narração própria.
+
+**O que faz o YouTube distribuir:**
+- originalidade, isto é, imagem e narração próprias;
+- retenção nos 3 primeiros segundos;
+- tempo assistido;
+- nenhuma reivindicação de direitos;
+- constância no nicho.
+
+**Antes de publicar:** subir como privado e esperar as verificações.
+
 ## 3. O que não fazemos
 Espelhar, inverter, mudar a velocidade ou o tom só para que o sistema não reconheça o trecho de outra pessoa. Não há
 proibição legal específica de espelhar. O problema é o propósito: esconder a origem do material, o que vai contra a
