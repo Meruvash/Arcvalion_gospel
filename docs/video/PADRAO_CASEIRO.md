@@ -101,6 +101,36 @@ como recomendação.
 - **Regra que sai daí:** o que está em jogo precisa ser **a própria terra ou a fazenda** (perder, ficar sem, ir para
   outra pessoa), e não um prejuízo menor. No Crivo, o item 3 só leva nota 2 quando o risco é perder a terra.
 
+- **Alcance fraco: "Comprou a terra e não é dono?"** (escritura sem registro, 19/11/2026). Comparamos com o roteiro
+  do caseiro em 18/11/2026. Sem as métricas internas, estas são hipóteses tiradas da comparação dos roteiros.
+  1. **Sem personagem.** "Quem vendeu" e "outro comprador" não têm rosto nem detalhe.
+  2. **O mito já era conhecido.** "Quem não registra não é dono" é ditado de cartório, e o vídeo terminava nele. Quem
+     assiste pensa "isso eu já sei".
+  3. **O gancho entregava a resposta.** A fala 1 abria com uma condição longa e as falas 2 e 3 explicavam tudo. Depois
+     de 10 s, não sobrava pergunta aberta.
+  4. **Demanda trocada.** O autocomplete pedia "escritura de posse tem validade" e "comprar terra sem escritura". O
+     vídeo respondia outra dúvida.
+  5. **Uma ideia só.** "Registro" se repetia cerca de 6 vezes, sem nenhum número e sem uma segunda revelação. Uma fala
+     entrou só para chegar aos 50 s.
+  6. **Pergunta final de sim ou não** ("registrada ou na gaveta?"), e não sobre uma pessoa.
+  7. **Variável nova no meio do vídeo:** o editor gravado no canto, em 3 falas. Como várias coisas mudaram juntas, não
+     dá para separar o efeito do formato.
+  8. **Capa sem personagem:** "COMPROU E NÃO É DONO?".
+  - **Crivo inflado:** a pauta levou 15/16, mas a conta honesta dá 12 ou 13.
+
+## 5.2 Regras novas (18/11/2026, depois da escritura)
+1. **Crivo justificado:** cada nota do Crivo vem com uma linha de justificativa no roteiro. A nota 2 no item 1 exige
+   que a pergunta do vídeo seja **a mesma** do autocomplete, não uma vizinha.
+2. **Mito que já é ditado não vale.** Se a "verdade" do vídeo já circula como frase pronta ("quem não registra não é
+   dono"), o item 4 do Crivo leva 0.
+3. **Pergunta aberta até a metade:** a fala 1 não pode responder ao próprio gancho. A resposta completa chega só
+   depois da fala 4.
+4. **Duas revelações ou uma escada de números.** Se o vídeo for de uma ideia só, ele é reprovado no roteiro. Nenhuma
+   fala entra só para encher tempo.
+5. **Pergunta final sobre uma pessoa ou situação da vida de quem assiste,** nunca de sim ou não.
+6. **Uma variável nova por vídeo.** Formato novo (editor no canto, imagem real, outra trilha) só entra num vídeo que,
+   fora isso, siga o padrão ouro, e a mudança é anotada em `PAUTAS_USADAS.md`.
+
 ## 6. Próximos testes do padrão
 - **"O irmão vendeu sem avisar"** (herança) segue o padrão em todos os itens menos o 1: o autocomplete mostra pouco
   ("meu irmão vendeu"). O resultado dele vai dizer quanto pesa a busca real.
