@@ -1,0 +1,204 @@
+{
+ "slug": "renegociacao-mp-1376-28-bilhoes-banco-central-banco-da-amazonia-veto",
+ "data": "2026-11-18",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "selo": "Motivo de alerta",
+ "titulo": "Renegociação da MP 1.376 fecha em R$ 28 bilhões, menos de um terço do previsto",
+ "lide": "A renegociação de dívidas rurais pela MP 1.376 somou R$ 28,04 bilhões em operações contratadas até 12 de novembro, último dia de vigência da medida, segundo dados do Banco Central obtidos pelo Estadão/Broadcast e reproduzidos pelo Jornal do Brasil. O governo previa potencial de até R$ 100 bilhões. Foram 70,57 mil operações antigas, transformadas em 43,58 mil novas.",
+ "por_que_importa": "O dinheiro para baixar os juros sobrou: dos R$ 24,6 bilhões disponíveis para equalização, R$ 17,3 bilhões foram usados. O gargalo não foi orçamento. E o produtor que ficou de fora depende agora da sanção do projeto que reabre o prazo por 120 dias após a regulamentação, que o governo, segundo o Broadcast, avalia vetar.",
+ "numeros": [
+  [
+   "R$ 28,04 bi",
+   "em operações renegociadas até 12/11, ante potencial de até R$ 100 bilhões estimado pelo governo",
+   "Banco Central, segundo o Estadão/Broadcast"
+  ],
+  [
+   "R$ 21,12 bi",
+   "ficaram com grandes produtores; Pronamp somou R$ 5,4 bilhões e Pronaf, R$ 1,51 bilhão",
+   "Banco Central, segundo o Estadão/Broadcast"
+  ],
+  [
+   "R$ 1,8 bi",
+   "foram renegociados pelo Banco da Amazônia; o Banco do Brasil liderou, com R$ 13,3 bilhões",
+   "Banco Central, segundo o Estadão/Broadcast, via RPAnews"
+  ],
+  [
+   "10,04%",
+   "ao ano foi a taxa média das operações prefixadas, com prazo médio de 8,44 anos e tíquete médio de R$ 643,28 mil",
+   "Banco Central, segundo o Estadão/Broadcast"
+  ]
+ ],
+ "corpo": [
+  "Por finalidade, segundo os dados divulgados, R$ 13,28 bilhões vieram de custeio, R$ 12,65 bilhões de operações da MP 1.314/2025, R$ 1,15 bilhão de investimento e o restante de renegociações anteriores e comercialização. Entre os bancos, depois do Banco do Brasil vieram Sicredi (R$ 5 bilhões), Banrisul (R$ 3,3 bilhões), Caixa (R$ 2,7 bilhões) e Banco da Amazônia (R$ 1,8 bilhão).",
+  "O Rio Grande do Sul concentrou R$ 9,4 bilhões, em cerca de 43 mil contratos, seguido de Minas Gerais (R$ 2,5 bilhões), Mato Grosso (R$ 2,2 bilhões), Goiás (R$ 2 bilhões) e São Paulo (R$ 1,9 bilhão). Das fontes equalizadas, as LCAs responderam por R$ 12,58 bilhões."
+ ],
+ "no_brasil": "O Congresso converteu a MP em projeto de lei, aprovado pelo Senado em 11 de novembro e enviado à sanção. Pelo texto, segundo a Agência Senado, o prazo para contratar as novas operações passa a contar da regulamentação da futura lei. Segundo o Broadcast, interlocutores dizem que a equipe econômica deve recomendar veto integral; o governo não se manifestou publicamente.",
+ "critica": [
+  {
+   "fonte": "RPAnews, com informações do Estadão/Broadcast",
+   "texto": "o governo avalia a possibilidade de veto integral ao projeto.",
+   "citacao": true,
+   "url": "https://revistarpanews.com.br/renegociacao-de-dividas-rurais-alcanca-r-28-bi-em-70-mil-operacoes-aquem-do-esperado/"
+  },
+  {
+   "fonte": "Agência Senado, sobre o texto aprovado pelo Congresso",
+   "texto": "O projeto amplia o alcance das operações que podem ser renegociadas e faz o prazo de contratação contar a partir da regulamentação da futura lei.",
+   "citacao": false,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/renegociacao-de-dividas-rurais-e-aprovada-pelo-senado-e-vai-a-sancao-presidencial"
+  }
+ ],
+ "para_quem": [
+  "Produtor que perdeu o prazo de 12/11: reúna desde já contratos, laudos de perda e extratos; se o projeto for sancionado, a nova janela conta da regulamentação",
+  "Cliente do Banco da Amazônia em Rondônia e no Norte: o banco aparece entre os cinco que mais renegociaram; peça por escrito a situação do seu pedido",
+  "Entidades do agro: o dado de que sobrou verba de equalização é o argumento para cobrar a sanção do projeto"
+ ],
+ "nao_e_para": [
+  "Os números vêm de relatório do Banco Central obtido pelo Broadcast; o portal não localizou a publicação oficial do BC",
+  "O veto é avaliação de bastidor, atribuída a interlocutores, não decisão anunciada",
+  "As parcelas por finalidade divulgadas não batem exatamente com o total em todas as reportagens"
+ ],
+ "veredito": "Se sobrou verba de equalização e ainda há produtor endividado, vetar a reabertura do prazo seria deixar de fora justamente quem não conseguiu fechar a tempo. A gente defende a sanção, com regulamentação rápida.",
+ "fontes": [
+  {
+   "nome": "Jornal do Brasil: Crédito rural renegociado fica em R$ 28,04 bilhões e governo analisa veto",
+   "url": "https://www.jb.com.br/economia/2026/11/1061582-renegociacao-de-dividas-rurais-soma-rs-2804-bilhoes-com-mp-1-376-2026.html",
+   "data": "18/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "RPAnews (Agência Estado): Renegociação de dívidas rurais alcança R$ 28 bi em 70 mil operações, aquém do esperado",
+   "url": "https://revistarpanews.com.br/renegociacao-de-dividas-rurais-alcanca-r-28-bi-em-70-mil-operacoes-aquem-do-esperado/",
+   "data": "18/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Senado: Renegociação de dívidas rurais é aprovada pelo Senado e vai à sanção presidencial",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/renegociacao-de-dividas-rurais-e-aprovada-pelo-senado-e-vai-a-sancao-presidencial",
+   "data": "11/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 65,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Balanço nacional da renegociação de dívidas rurais pela MP 1.376 e risco de veto ao projeto que reabre o prazo"
+  },
+  "origem": {
+   "nome": "Jornal do Brasil",
+   "url": "https://www.jb.com.br/economia/2026/11/1061582-renegociacao-de-dividas-rurais-soma-rs-2804-bilhoes-com-mp-1-376-2026.html"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Mostra quanto das dívidas rurais foi renegociado no país, por banco e por estado, e o que depende da sanção"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Renegociação de dívida rural, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Dados do Banco Central divulgados nesta quarta-feira (18), com o projeto aguardando sanção"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Números conferidos em duas reportagens que reproduzem a apuração do Broadcast, iguais entre si; texto do projeto pela Agência Senado; publicação oficial do BC não localizada"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Destacamos o Banco da Amazônia e a sobra da verba de equalização, com o que fazer quem ficou de fora"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 6,
+    "viral": 4,
+    "cristao": 0
+   },
+   "criterios": [
+    "Ato de quem tem poder: projeto aguardando sanção (2)",
+    "Proximidade: nacional, com dado do Banco da Amazônia (2)",
+    "Número forte: R$ 28 bi ante R$ 100 bi (1)",
+    "Contraria a narrativa: sobrou verba de equalização (1)",
+    "Utilidade: o que fazer quem perdeu o prazo (1)",
+    "Calendário: sanção pendente (1)",
+    "Moeda social: ranking por banco e estado (1)",
+    "Cabe num cartão: R$ 28 bi de R$ 100 bi (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Crédito rural renegociado fica em R$ 28,04 bilhões e governo analisa veto",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Dívida rural",
+  "coleta": "2026-11-18",
+  "verificacao": {
+   "grau_de_confianca": "médio",
+   "status": "números iguais no JB e na RPAnews (ambos com base no Broadcast); conteúdo do projeto pela Agência Senado",
+   "contradicoes": "no JB, a soma por finalidade omite R$ 842 milhões de renegociações anteriores, que a RPAnews traz",
+   "sem_confirmacao": "relatório oficial do Banco Central; decisão sobre o veto"
+  },
+  "duplicidade": {
+   "grupo": "MP 1.376 renegociação",
+   "itens": [
+    "JB 18/11",
+    "RPAnews 18/11",
+    "Agência Senado 11/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-17-caixa-inadimplencia-agro-25-por-cento-renegocia-4-bilhoes-mp-1376"
+  },
+  "seo": {
+   "intencao": "saber quanto foi renegociado pela MP 1.376 e se o prazo será reaberto",
+   "entidades": [
+    "MP 1.376",
+    "Banco Central",
+    "Banco da Amazônia",
+    "Banco do Brasil",
+    "renegociação de dívidas rurais"
+   ],
+   "termos": [
+    "MP 1376 renegociação resultado",
+    "renegociação dívida rural 28 bilhões",
+    "MP 1376 veto prazo 120 dias"
+   ],
+   "atualizacao": "atualizar com a sanção ou o veto do projeto"
+  },
+  "agro": {
+   "demanda": "Produtores que não conseguiram renegociar até 12/11 e dependem da sanção do projeto que reabre o prazo",
+   "prazo": "sanção ou veto do projeto de conversão da MP 1.376; nova janela contaria da regulamentação",
+   "quem": "Produtores com dívidas rurais afetadas por clima e preços, sobretudo clientes de BB, Sicredi, Banrisul, Caixa e Banco da Amazônia"
+  }
+ },
+ "descricao_seo": "Renegociação pela MP 1.376 somou R$ 28,04 bi até 12/11, ante R$ 100 bi previstos, segundo o BC. Governo avalia vetar a reabertura do prazo.",
+ "instituicao": "Banco Central do Brasil",
+ "editora": "Jornal do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura e comparação das reportagens, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: todos os números são atribuídos ao Banco Central segundo o Broadcast, e o veto é apresentado como avaliação de bastidor, não como decisão; nenhuma pessoa é acusada. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/renegociacao-mp-1376-28-bilhoes-banco-central-banco-da-amazonia-veto.jpg",
+  "credito": "Charles Jacque, O redil (1857), The Metropolitan Museum of Art",
+  "alt": "Pintura de Charles Jacque: pastor leva feno às ovelhas num curral de madeira, com galinhas no chão de palha",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP-22553-001.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/436772"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-18T14:58:25-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-18T14:58:25-03:00"
+}

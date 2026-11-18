@@ -544,8 +544,8 @@
   "lastmod": "2026-11-16T14:54:59-03:00"
  },
  "https://opaladino.com.br/noticias/categoria/chamada-agro/": {
-  "hash": "d68e2abe835f6bf0",
-  "lastmod": "2026-11-18T17:50:41+00:00"
+  "hash": "179296c556286a7d",
+  "lastmod": "2026-11-18T17:58:32+00:00"
  },
  "https://opaladino.com.br/noticias/categoria/familia-e-valores/": {
   "hash": "49b2f1a2ca5b6777",
@@ -792,20 +792,20 @@
   "lastmod": "2026-11-11T02:34:45-03:00"
  },
  "https://opaladino.com.br/noticias/pagina/2/": {
-  "hash": "2cdb108dd404643f",
-  "lastmod": "2026-11-18T17:50:41+00:00"
+  "hash": "fd5e3a1f96b0fcb1",
+  "lastmod": "2026-11-18T17:58:32+00:00"
  },
  "https://opaladino.com.br/noticias/pagina/3/": {
-  "hash": "4b408da807c96195",
-  "lastmod": "2026-11-18T17:50:41+00:00"
+  "hash": "904c4f9c2c02e43d",
+  "lastmod": "2026-11-18T17:58:32+00:00"
  },
  "https://opaladino.com.br/noticias/pagina/4/": {
-  "hash": "bc6611c70a4c995e",
-  "lastmod": "2026-11-18T17:50:41+00:00"
+  "hash": "11ef3c73570416ca",
+  "lastmod": "2026-11-18T17:58:32+00:00"
  },
  "https://opaladino.com.br/noticias/pagina/5/": {
-  "hash": "aa4cda155512ccb1",
-  "lastmod": "2026-11-18T17:50:41+00:00"
+  "hash": "040c0adc42fb270e",
+  "lastmod": "2026-11-18T17:58:32+00:00"
  },
  "https://opaladino.com.br/noticias/pec-seguranca-votacao-senado-maioridade-penal/": {
   "hash": "fd88ce94bc6c1f13",
@@ -886,6 +886,10 @@
  "https://opaladino.com.br/noticias/relator-pec-maioridade-penal-camara-governo-aceita-crimes-hediondos/": {
   "hash": "a5efcadc783bb78b",
   "lastmod": "2026-11-11T02:29:19-03:00"
+ },
+ "https://opaladino.com.br/noticias/renegociacao-mp-1376-28-bilhoes-banco-central-banco-da-amazonia-veto/": {
+  "hash": "6df9be0fbce3b9f2",
+  "lastmod": "2026-11-18T14:58:25-03:00"
  },
  "https://opaladino.com.br/noticias/rondonia-lei-cartao-material-escolar-veto-derrubado/": {
   "hash": "1092f7e863566a11",
