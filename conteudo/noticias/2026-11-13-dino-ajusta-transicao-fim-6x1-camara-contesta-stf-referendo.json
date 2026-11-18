@@ -29,7 +29,7 @@
  "corpo": [
   "A liminar foi dada nas ADIs 8041 e 8042, da Confederação Nacional do Comércio (CNC) e da Confederação Nacional da Indústria (CNI), contra a Emenda Constitucional 141/2026. Segundo o STF, Dino não viu violação de cláusula pétrea, mas apontou \"contradições e lacunas\" e fixou ajustes: 90 dias para renegociar acordos coletivos, liberdade para distribuir as folgas por negociação e prazo de 180 dias para o Congresso regulamentar regimes diferenciados e regras para micro e pequenas empresas.",
   "O referendo está no plenário virtual, em sessão extraordinária que vai até as 23h59 de segunda-feira (16), informou o STF. Dino votou para manter a própria decisão e Alexandre de Moraes o acompanhou, segundo O Antagonista. A Câmara defende o calendário da emenda, mas contesta a jornada de 8h24 sem acordo coletivo, o fim dos limites semanal e mensal das folgas, o prazo dado ao Congresso e a extensão de uma exceção a empregados de estatais.",
-  "Atualização (16/11): com quatro votos para manter a liminar, o referendo foi interrompido por pedido de destaque do ministro Luiz Fux no sábado (14). O julgamento recomeça no plenário presencial, ainda sem data a ser marcada por Edson Fachin, segundo o Conjur e o portal Claudio Dantas."
+  "Atualização (17/11): o referendo, com quatro votos a favor, parou por destaque de Luiz Fux. Na terça (17), Dino levou as ações direto ao mérito no plenário presencial, deu cinco dias para Congresso, centrais e confederações se manifestarem e manteve a liminar e o início em 16/12."
  ],
  "no_brasil": "A emenda foi aprovada no Senado em 14 de outubro e promulgada em 16 de outubro. Ela garante dois dias de repouso remunerado por semana, preferencialmente aos domingos, sem redução de salário, e baixa a jornada para 40 horas em dezembro de 2027, segundo a Agência Senado.",
  "critica": [
@@ -109,6 +109,18 @@
    "nome": "Claudio Dantas: Fux leva julgamento sobre fim da 6×1 ao plenário físico do STF (16/11/2026)",
    "url": "https://claudiodantas.com.br/fux-julgamento-6x1-plenario-fisico-stf/",
    "data": "16/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "News Rondônia: Flávio Dino envia ações sobre jornada 5x2 direto ao plenário presencial do STF (17/11/2026)",
+   "url": "https://newsrondonia.com.br/politica/2026/11/17/flavio-dino-envia-acoes-sobre-jornada-5x2-direto-ao-plenario-presencial-do-stf/",
+   "data": "17/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "O Observador: Dino decide que escala 5x2 será julgada de forma definitiva pelo STF (17/11/2026)",
+   "url": "https://www.oobservador.com/2026/11/dino-decide-que-escala-5x2-sera-julgada.html",
+   "data": "17/11/2026",
    "tipo": "secundaria"
   }
  ],
@@ -229,9 +241,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-16T14:47:14-03:00",
+  "data": "2026-11-18T02:26:31-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-13T14:52:27-03:00",
- "atualizado_em": "2026-11-16T14:47:14-03:00"
+ "atualizado_em": "2026-11-18T02:26:31-03:00"
 }
