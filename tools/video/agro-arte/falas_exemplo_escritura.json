@@ -1,0 +1,62 @@
+[
+ {
+  "id": 1,
+  "quem": "narrador",
+  "texto": "Você sabia que, se você comprou a sua terra com escritura e não registrou no cartório, quem vendeu ainda é o dono, e pode vender de novo pra outro?",
+  "fala": "Você sabia que, se você comprou a sua terra com escritura e não registrou no cartório, quem vendeu ainda é o dono, e pode vender de novo pra outro?"
+ },
+ {
+  "id": 2,
+  "quem": "narrador",
+  "texto": "A palavra que resolve isso é registro.",
+  "fala": "A palavra que resolve isso é... registro."
+ },
+ {
+  "id": 3,
+  "quem": "narrador",
+  "texto": "Escritura é o contrato. Quem passa a terra pro seu nome é o registro no cartório de imóveis.",
+  "fala": "Escritura é o contrato. Quem passa a terra pro seu nome é o registro no cartório de imóveis."
+ },
+ {
+  "id": 4,
+  "quem": "narrador",
+  "texto": "O Código Civil diz: enquanto não se registrar o título, quem vendeu continua sendo o dono.",
+  "fala": "O Código Civil diz: enquanto não se registrar o título, quem vendeu continua sendo o dono."
+ },
+ {
+  "id": 5,
+  "quem": "editor",
+  "texto": "E o pior: se ele vender de novo e o outro comprador registrar primeiro, a terra pode ficar com o outro.",
+  "fala": "E o pior: se ele vender de novo e o outro comprador registrar primeiro, a terra pode ficar com o outro."
+ },
+ {
+  "id": 6,
+  "quem": "narrador",
+  "texto": "Pra lei, o registro vale desde o dia em que a escritura dá entrada no cartório.",
+  "fala": "Pra lei, o registro vale desde o dia em que a escritura dá entrada no cartório."
+ },
+ {
+  "id": 7,
+  "quem": "narrador",
+  "texto": "E o registro é feito no cartório de imóveis da região onde a terra fica.",
+  "fala": "E o registro é feito no cartório de imóveis da região onde a terra fica."
+ },
+ {
+  "id": 8,
+  "quem": "editor",
+  "texto": "Por isso, papel guardado na gaveta não protege a sua terra.",
+  "fala": "Por isso, papel guardado na gaveta não protege a sua terra."
+ },
+ {
+  "id": 9,
+  "quem": "narrador",
+  "texto": "A escritura da sua terra está registrada, ou está na gaveta?",
+  "fala": "A escritura da sua terra está registrada, ou está na gaveta?"
+ },
+ {
+  "id": 10,
+  "quem": "editor",
+  "texto": "Eu sou o Dr. Pelicioni, advogado. Na compra de terra, quem não registra não é dono. Me segue pra garantir o que é seu.",
+  "fala": "Eu sou o Dr. Pelicioni, advogado. Na compra de terra, quem não registra não é dono. Me segue pra garantir o que é seu."
+ }
+]

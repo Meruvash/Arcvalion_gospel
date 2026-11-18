@@ -227,6 +227,8 @@ similarity 0,85), o clone puxava o "S" carioca no fim de sílaba: "desses", "res
   - de 6 a 8 candidatas, fica a de maior nota com a transcrição conferida;
   - o eleven_turbo_v2_5 chiou mais que todos e fica fora;
   - o relatório (`voz/s_neutro_relatorio.json`) vai junto com a pasta do vídeo.
+- **Ao escrever a fala do editor:** evitar o S antes de consoante quando houver sinônimo natural ("papel" no lugar de
+  "escritura", "o restante" no lugar de "o resto"). O "es-" inicial ("escritura", "está") é onde o clone mais chia.
 - **Narrador:** a regra não muda. O "S" dele já é neutro: nota 544 na mesma medida.
 - Narrador "Marcio - Viral Hook Narrator" (ElevenLabs `plASsyS7JE6GCAvx9uIc`). **Desde 11/11/2026, gravar todas as falas no
   `eleven_multilingual_v2`** (`tools/video/agro-arte/gerar_vozes_v2.py`): o `eleven_v3` puxou sotaque de Portugal.

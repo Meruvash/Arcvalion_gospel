@@ -92,6 +92,15 @@ como recomendação.
   mito ("o banco pode tomar a sua máquina?").
 - Todas as regras do portal: fatos lidos na fonte, nenhuma imagem de IA, fala do advogado informativa.
 
+## 5.1 Desempenho por vídeo (editor, 18/11/2026)
+- **Foram bem:** "O caseiro e o vizinho" (2.200 visualizações), "O irmão vendeu sem avisar" e os demais 100% animação.
+- **Mais fraco:** "O gado do vizinho comeu a sua roça". O que estava em jogo era um prejuízo (a lavoura comida), não a
+  terra.
+- **Não distribuído no YouTube Shorts:** "O banco leiloa a sua fazenda sem juiz?", por causa das imagens do TikTok (ver
+  a direção, seção 2.7).
+- **Regra que sai daí:** o que está em jogo precisa ser **a própria terra ou a fazenda** (perder, ficar sem, ir para
+  outra pessoa), e não um prejuízo menor. No Crivo, o item 3 só leva nota 2 quando o risco é perder a terra.
+
 ## 6. Próximos testes do padrão
 - **"O irmão vendeu sem avisar"** (herança) segue o padrão em todos os itens menos o 1: o autocomplete mostra pouco
   ("meu irmão vendeu"). O resultado dele vai dizer quanto pesa a busca real.
