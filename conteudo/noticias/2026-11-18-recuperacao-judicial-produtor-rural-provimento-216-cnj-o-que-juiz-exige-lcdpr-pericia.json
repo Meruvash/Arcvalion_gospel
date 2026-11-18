@@ -1,0 +1,200 @@
+{
+ "slug": "recuperacao-judicial-produtor-rural-provimento-216-cnj-o-que-juiz-exige-lcdpr-pericia",
+ "data": "2026-11-18",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Informativo",
+ "titulo": "Recuperação judicial do produtor rural: o que o juiz exige, pela norma nacional do CNJ",
+ "lide": "Com a inadimplência do crédito rural em alta, cresce no campo a dúvida sobre recuperação judicial. Desde março, o Provimento 216/2026 da Corregedoria Nacional de Justiça manda os juízes de todo o país exigirem registro na Junta Comercial, mais de dois anos de atividade comprovada por livro-caixa e imposto de renda e um laudo das condições da lavoura e do rebanho.",
+ "por_que_importa": "Pedido mal instruído é indeferido logo na entrada. A norma diz quais papéis o produtor precisa ter organizados antes de ir à Justiça e avisa que quem só arrenda terra ou só participa de sociedade, sem tocar a atividade pessoalmente, não tem direito ao benefício.",
+ "numeros": [
+  [
+   "2 anos",
+   "de atividade rural comprovada é o mínimo para pedir a recuperação",
+   "Provimento CNJ 216/2026, art. 3º"
+  ],
+  [
+   "R$ 4,8 mi",
+   "é o teto de dívidas para usar o plano especial, mais simples",
+   "Provimento CNJ 216/2026, art. 7º"
+  ],
+  [
+   "25,44%",
+   "dos financiamentos rurais da Caixa tinham atraso de mais de 90 dias em setembro",
+   "InfoMoney, 13/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Pessoa física comprova a atividade pelo Livro Caixa Digital do Produtor Rural e pela declaração do imposto de renda, contando inclusive o tempo anterior ao registro na Junta; empresa, pela Escrituração Contábil Fiscal. A contabilidade deve seguir o regime de competência, com balanço feito por contador habilitado. As custas podem ser parceladas se o pedido constar da petição inicial.",
+  "O juiz pode mandar um perito à propriedade antes de aceitar o pedido, para conferir se o produtor trabalha pessoalmente a terra, onde fica o principal estabelecimento, quais garantias pesam sobre a safra e se há sinal de fraude. Recusado o pedido, não há falência automática, diz o provimento."
+ ],
+ "no_brasil": "A regra completa a jurisprudência do STJ: no Tema 1.145, a Segunda Seção fixou que basta estar na Junta Comercial no dia do pedido e comprovar mais de dois anos de atividade empresarial. O provimento nasceu de pedido do Ministério da Agricultura ao CNJ.",
+ "critica": [
+  {
+   "fonte": "Provimento CNJ 216/2026, art. 10, § 2º",
+   "texto": "sendo vedada a concessão de tal benefício legal àqueles que apenas arrendam terras agrícolas ou participam de sociedades de exploração rural, sem exercerem pessoalmente, sob risco próprio, a atividade rural",
+   "citacao": true,
+   "url": "https://atos.cnj.jus.br/atos/detalhar/6778"
+  },
+  {
+   "fonte": "Provimento CNJ 216/2026, art. 10, § 10",
+   "texto": "O indeferimento do pedido não acarreta a automática convolação da recuperação judicial em falência.",
+   "citacao": true,
+   "url": "https://atos.cnj.jus.br/atos/detalhar/6778"
+  }
+ ],
+ "para_quem": [
+  "Produtores rurais endividados que avaliam a recuperação judicial (regra em vigor desde março de 2026, sem prazo final)",
+  "Contadores e famílias que cuidam da escrita do produtor",
+  "Credores, cooperativas e revendas que têm garantia sobre a safra"
+ ],
+ "nao_e_para": [
+  "Não é a renegociação da MP das dívidas rurais: recuperação judicial é processo na Justiça",
+  "Não vale para quem só arrenda a terra a terceiros",
+  "Não garante aprovação: o juiz examina a crise e a viabilidade caso a caso"
+ ],
+ "veredito": "Recuperação judicial é ferramenta séria, não atalho para deixar de pagar. A norma do CNJ separa quem produz e está em crise de quem quer só ganhar tempo. Quem pensa nesse caminho precisa organizar livro-caixa, imposto de renda e contabilidade antes de qualquer passo.",
+ "versiculo": {
+  "texto": "O que lavra a sua terra se fartará de pão, mas o que segue os ociosos está falto de juízo.",
+  "referencia": "Provérbios 12.11",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Conselho Nacional de Justiça: Provimento nº 216/2026, diretrizes para recuperação judicial e falência de produtor rural (DJe/CNJ nº 58/2026, 11/03/2026)",
+   "url": "https://atos.cnj.jus.br/atos/detalhar/6778",
+   "data": "11/03/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: Segunda Seção confirma possibilidade de produtor rural inscrito em Junta Comercial pedir recuperação (Tema 1.145)",
+   "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/29062022-Segunda-Secao-confirma-possibilidade-de-produtor-rural-inscrito-em-Junta-Comercial-pedir-recuperacao-.aspx",
+   "data": "29/06/2022",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "InfoMoney: Caixa renegocia R$ 4 bilhões em dívidas do agro e diz que pior já passou (13/11/2026)",
+   "url": "https://infomoney.com.br/business/caixa-renegocia-r-4-bilhoes-em-dividas-do-agro-e-diz-que-pior-ja-passou",
+   "data": "13/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 63,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Regras que os juízes devem seguir no pedido de recuperação judicial do produtor rural"
+  },
+  "origem": {
+   "nome": "Conselho Nacional de Justiça",
+   "url": "https://atos.cnj.jus.br/atos/detalhar/6778"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Norma em vigor para todos os juízes do país nos pedidos de recuperação de produtor rural"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Produtor rural endividado e decisões da Justiça sobre o produtor"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Norma de março; gancho na inadimplência rural recorde divulgada pelos bancos em novembro"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Provimento lido na íntegra no site oficial de atos do CNJ"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Explica em linguagem simples os documentos e a perícia exigidos, que a nota de 14/11 sobre o STJ não tratou"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 8,
+    "viral": 2,
+    "cristao": 1
+   },
+   "criterios": [
+    "Documento primário: provimento do CNJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: lista do que o produtor precisa ter (2)",
+    "Número forte: 2 anos e R$ 4,8 milhões (1)",
+    "Tema que já mobiliza o público: dívida rural (2)",
+    "Passagem bíblica sobre trabalho na terra (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Provimento CNJ nº 216/2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / recuperação judicial",
+  "coleta": "2026-11-18",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "norma lida na íntegra na fonte oficial",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "número de pedidos de recuperação de produtores em 2026"
+  },
+  "duplicidade": {
+   "grupo": "recuperação judicial do produtor rural",
+   "itens": [
+    "nota de 14/11 sobre decisões do STJ (outro recorte)"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que precisa para o produtor rural pedir recuperação judicial",
+   "entidades": [
+    "Provimento CNJ 216/2026",
+    "Corregedoria Nacional de Justiça",
+    "LCDPR",
+    "Lei 11.101/2005",
+    "Tema 1.145 do STJ"
+   ],
+   "termos": [
+    "recuperação judicial produtor rural requisitos",
+    "provimento 216 cnj",
+    "lcdpr recuperação judicial"
+   ],
+   "atualizacao": "mudanças na Lei 11.101 ou novo provimento"
+  },
+  "agro": {
+   "demanda": "Produtores em crise que avaliam recuperação judicial sem a escrita organizada (LCDPR, IR, balanço) ou que só arrendam a terra; credores com garantia sobre a safra",
+   "prazo": "sem prazo (norma em vigor desde 11/03/2026)",
+   "quem": "Produtores rurais pessoa física e jurídica endividados, seus contadores e credores"
+  }
+ },
+ "descricao_seo": "Provimento 216/2026 do CNJ: o que o produtor rural precisa ter para pedir recuperação judicial, da Junta Comercial ao LCDPR e à perícia.",
+ "instituicao": "Conselho Nacional de Justiça",
+ "editora": "Conselho Nacional de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da norma do CNJ, organização dos requisitos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: cada requisito conferido no texto do provimento; sem recomendar ou desaconselhar a recuperação a ninguém; sem acusar produtor de fraude; deixa claro que é norma de orientação aos juízes. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/recuperacao-judicial-produtor-rural-provimento-216-cnj-o-que-juiz-exige-lcdpr-pericia.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Lavoura de soja em fileiras verdes sobre terra vermelha em Alto Paraíso, Goiás (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/jj9-EjE--VMJ_kwrctTFQBezQwQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/1057809-ebc_07.12.2016-3002_07.12.16.jpg?itok=bnbnJyVL",
+  "pagina": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/entenda-impasse-entre-bancada-do-agro-e-governo-sobre-dividas-rurais"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-18T02:38:55-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-18T02:38:55-03:00"
+}

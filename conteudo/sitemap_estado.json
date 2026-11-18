@@ -544,8 +544,8 @@
   "lastmod": "2026-11-16T14:54:59-03:00"
  },
  "https://opaladino.com.br/noticias/categoria/chamada-agro/": {
-  "hash": "fa3247a0b04b9c72",
-  "lastmod": "2026-11-18T05:36:33+00:00"
+  "hash": "78d5da07b5ddc0c5",
+  "lastmod": "2026-11-18T05:39:01+00:00"
  },
  "https://opaladino.com.br/noticias/categoria/familia-e-valores/": {
   "hash": "49b2f1a2ca5b6777",
@@ -792,16 +792,20 @@
   "lastmod": "2026-11-11T02:34:45-03:00"
  },
  "https://opaladino.com.br/noticias/pagina/2/": {
-  "hash": "37309d75726536a2",
-  "lastmod": "2026-11-18T05:36:33+00:00"
+  "hash": "d434b905f6f7596d",
+  "lastmod": "2026-11-18T05:39:01+00:00"
  },
  "https://opaladino.com.br/noticias/pagina/3/": {
-  "hash": "6ce1b4cf70ace78e",
-  "lastmod": "2026-11-18T05:36:33+00:00"
+  "hash": "dc97f8825212b0ff",
+  "lastmod": "2026-11-18T05:39:01+00:00"
  },
  "https://opaladino.com.br/noticias/pagina/4/": {
-  "hash": "30b7ad3b149dc25d",
-  "lastmod": "2026-11-18T05:36:33+00:00"
+  "hash": "0bdd3bb89004bd82",
+  "lastmod": "2026-11-18T05:39:01+00:00"
+ },
+ "https://opaladino.com.br/noticias/pagina/5/": {
+  "hash": "0514f4f6469855b9",
+  "lastmod": null
  },
  "https://opaladino.com.br/noticias/pec-seguranca-votacao-senado-maioridade-penal/": {
   "hash": "fd88ce94bc6c1f13",
@@ -874,6 +878,10 @@
  "https://opaladino.com.br/noticias/recuperacao-judicial-produtor-rural-o-que-stj-decidiu-cpr-graos/": {
   "hash": "90c657b0f3a9eda9",
   "lastmod": "2026-11-14T02:41:26-03:00"
+ },
+ "https://opaladino.com.br/noticias/recuperacao-judicial-produtor-rural-provimento-216-cnj-o-que-juiz-exige-lcdpr-pericia/": {
+  "hash": "8143ca70e5c5abab",
+  "lastmod": "2026-11-18T02:38:55-03:00"
  },
  "https://opaladino.com.br/noticias/relator-pec-maioridade-penal-camara-governo-aceita-crimes-hediondos/": {
   "hash": "a5efcadc783bb78b",
