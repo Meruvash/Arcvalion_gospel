@@ -28,7 +28,8 @@
  ],
  "corpo": [
   "O projeto, da deputada Sâmia Bomfim (PSOL-SP), já passou pela Câmara. No Senado, a CCJ aprovou em 11 de novembro o relatório da senadora Professora Dorinha Seabra (União-TO), com uma emenda de redação, e um pedido de urgência, segundo os dados abertos do Senado. A relatora incluiu referência expressa ao Estatuto da Criança e do Adolescente, para deixar claro que o foco é a idade da vítima.",
-  "A reparação civil é a indenização por dano moral, psicológico ou material e não se confunde com a punição criminal do agressor, explica a Agência Senado. Para Dorinha, a demora em revelar o abuso vem de mecanismos como vergonha, medo, repressão, dependência e amnésia traumática, e não de negligência da vítima."
+  "A reparação civil é a indenização por dano moral, psicológico ou material e não se confunde com a punição criminal do agressor, explica a Agência Senado. Para Dorinha, a demora em revelar o abuso vem de mecanismos como vergonha, medo, repressão, dependência e amnésia traumática, e não de negligência da vítima.",
+  "Atualização (19/11): o Plenário do Senado aprovou o projeto na quarta-feira (18), em regime de urgência e votação simbólica, e o texto segue para sanção presidencial, informou a Agência Senado. Para a relatora, com o novo prazo \"vamos diminuir a impunidade\"."
  ],
  "no_brasil": "A matéria está na Ordem do Dia de 18 de novembro, pendente da votação do requerimento de urgência. O prazo para emendas no Plenário vai até o dia 18, segundo os dados abertos do Senado.",
  "critica": [
@@ -51,7 +52,7 @@
   "Quem acompanha a pauta de proteção às crianças no Congresso"
  ],
  "nao_e_para": [
-  "Não é lei ainda: depende da votação no Senado e da sanção",
+  "Não é lei ainda: aprovado pelo Congresso, depende da sanção presidencial",
   "Não muda a pena criminal do agressor, só o prazo da ação de indenização",
   "Não garante indenização: a vítima ainda precisa provar o dano na Justiça"
  ],
@@ -77,6 +78,12 @@
   {
    "nome": "Senado Federal, Dados Abertos: Ordem do Dia de 18/11/2026",
    "url": "https://legis.senado.leg.br/dadosabertos/plenario/agenda/dia/20261118",
+   "data": "18/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Vai à sanção prazo maior para pedir reparação por crime sexual na infância (18/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/prazo-maior-para-pedir-reparacao-por-crime-sexual-na-infancia-vai-a-sancao",
    "data": "18/11/2026",
    "tipo": "primaria"
   }
@@ -192,8 +199,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-16T02:28:02-03:00",
+  "data": "2026-11-19T02:26:21-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-16T02:28:02-03:00"
+ "publicado_em": "2026-11-16T02:28:02-03:00",
+ "atualizado_em": "2026-11-19T02:26:21-03:00"
 }
