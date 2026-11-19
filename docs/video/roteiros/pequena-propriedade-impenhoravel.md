@@ -143,6 +143,22 @@
 - **Fala 10:** informativa (Provimento 205/2021), sem promessa nem oferta de serviço.
 - **Imagens:** todas feitas em código, nenhuma de terceiros e nenhuma gerada por IA.
 
+## Entrega (19/11/2026)
+- **Formato:** 1080×1080, 54,3 s.
+- **Som:** −13,7 LUFS, pico de −1,8 dBFS. Trilha agronejo normalizada em −30 LUFS; a transcrição dela não tem voz cantada.
+- **Conferência:** a transcrição do arquivo final bate com as falas (99,4%; só "Dr." por extenso).
+- **Metadados:** limpos.
+- **Imagem:** 100% feita em código, nenhum vídeo de terceiros, nenhuma imagem de IA. Cenas registradas em `CENAS_USADAS.md`.
+- **Voz:** narrador em todas as falas, menos a 10. A fala 10 é o clone do editor pelo seletor de S neutro; ela não tem S em fim de sílaba.
+- **Uma variável só:** sem o editor no canto, como ele pediu ("gera sem eu no canto").
+- **Capas:** quadro 0 e capas do Instagram em 9:16 e 4:5.
+- **Fontes no repositório:**
+  - `tools/video/agro-arte/opuscar/pequena_propriedade_*`;
+  - `cenas/pp_scenes.js` e `cenas/eras_pp.js`;
+  - `aquarela/balanca_quatro_modulos.html`;
+  - `montar_exemplo_pequena_propriedade.py`.
+- **Pendente:** conferir a tese do Tema 961 no portal do STF, que não abriu nesta sessão.
+
 ## Publicação
 
 **Título do YouTube** (71 caracteres):
