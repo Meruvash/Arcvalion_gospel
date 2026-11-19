@@ -34,7 +34,7 @@
   "Segundo a Consultoria de Orçamentos, o artigo 8º do texto aprovado faz o próprio ajuste fiscal servir de compensação para as medidas da Lei do Seguro Rural aprovadas até sua publicação e afasta a vedação da LDO 2026 a novas despesas obrigatórias. Com isso, a subvenção obrigatória ao prêmio do seguro rural pode ser executada sem outra medida compensatória.",
   "O artigo 6º-D permite ao Executivo contingenciar despesas obrigatórias cujo pagamento é limitado à dotação, ressalvadas as obrigações constitucionais, o serviço da dívida, o FNDCT e o que a LDO ressalvar. A nota lembra que a Lei 15.526 excluiu expressamente o seguro rural da limitação de empenho, mas que o texto aprovado não trata de forma explícita da relação entre as duas normas. Emenda da senadora Tereza Cristina (PP-MS) foi acolhida para restringir esse artigo."
  ],
- "no_brasil": "O projeto agora vai à Câmara. Segundo a Agência Senado, o relator Eduardo Braga (MDB-AM) mudou o repasse da Lei Kandir, que compensa estados pela isenção de ICMS das exportações: o piso sobe de R$ 1 bilhão para R$ 2 bilhões por ano, e a diferença será compensada de 2028 a 2030, não mais de 2031 a 2037.",
+ "no_brasil": "O projeto vai à Câmara, onde Hugo Motta prevê sessão extraordinária na segunda-feira (23), segundo a Agência Câmara. No Senado, o relator Eduardo Braga (MDB-AM) mudou o repasse da Lei Kandir, que compensa estados pela isenção de ICMS das exportações: o piso sobe para R$ 2 bilhões por ano, e a diferença será compensada de 2028 a 2030, segundo a Agência Senado.",
  "critica": [
   {
    "fonte": "Consultoria de Orçamentos do Senado, nota informativa de 13/11/2026",
@@ -50,7 +50,7 @@
   }
  ],
  "para_quem": [
-  "Produtor que conta com a subvenção do seguro na safra 2026/27 e na de 2027/28: acompanhe a passagem do projeto pela Câmara, porque é ali que se define se o seguro fica blindado",
+  "Produtor que conta com a subvenção do seguro na safra 2026/27 e na de 2027/28: acompanhe a votação na Câmara, prevista para a segunda-feira (23), porque é ali que se define se o seguro fica blindado",
   "Entidades e cooperativas do agro: o ponto a cobrar dos deputados é uma linha explícita dizendo que o seguro rural não entra no contingenciamento do artigo 6º-D",
   "Quem exporta ou vive em município exportador: o destaque da Lei Kandir mexe no repasse que compensa estados pela isenção das exportações"
  ],
@@ -77,6 +77,12 @@
    "nome": "Agência Brasil: Senado adia votação de destaques do projeto de ajuste fiscal",
    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-adia-votacao-de-destaques-do-projeto-de-ajuste-fiscal",
    "data": "17/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Proposta de ajuste fiscal entra na pauta de sessão extraordinária da Câmara na próxima segunda-feira",
+   "url": "https://www.camara.leg.br/noticias/1320935-proposta-de-ajuste-fiscal-entra-na-pauta-de-sessao-extraordinaria-da-camara-na-proxima-segunda-feira",
+   "data": "18/11/2026",
    "tipo": "primaria"
   }
  ],
@@ -173,7 +179,7 @@
   },
   "agro": {
    "demanda": "Produtores e entidades que dependem da subvenção ao prêmio do seguro rural e precisam de garantia de que ela não será contingenciada",
-   "prazo": "votação concluída no Senado em 18/11/2026; agora, Câmara",
+   "prazo": "votação concluída no Senado em 18/11/2026; Câmara prevê sessão extraordinária em 23/11",
    "quem": "Produtores que contratam seguro rural com subvenção do PSR"
   }
  },
@@ -198,8 +204,8 @@
  "publicado_em": "2026-11-18T02:36:08-03:00",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-19T02:26:19-03:00",
+  "data": "2026-11-19T14:46:39-03:00",
   "modo": "automatica"
  },
- "atualizado_em": "2026-11-19T02:26:19-03:00"
+ "atualizado_em": "2026-11-19T14:46:39-03:00"
 }
