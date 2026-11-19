@@ -141,7 +141,7 @@ somar 100). Cada critério recebe de 0 até o peso, com o **porquê em fatos con
 | Critério | Peso | Régua (pontos mínimos da faixa) |
 |---|---|---|
 | Impacto público | 30 | 25: muda regra, direito ou dinheiro público já valendo para um estado, o país ou milhares (decisão, lei sancionada, decreto, votação concluída) · 15: efeito concreto numa cidade, comunidade ou grupo (serviço essencial, obra, ato do prefeito, decisão de denominação ou convenção nacional) · 5: efeito possível ou futuro (projeto em tramitação, ação sem julgamento, pesquisa) · 0: declaração, evento, homenagem, polêmica |
-| Afinidade com o público | 25 | 20: núcleo do portal com efeito direto no leitor (igreja e liberdade religiosa no Brasil; vida, família, educação dos filhos; ato do poder público, inclusive de Rondônia e Porto Velho, **só quando o ato é sobre um desses temas**; produtor rural e agro, da aba Chamada Agro, desde 12/11/2026) · 10: tema do portal com efeito indireto (outro país, debate sem caso aqui) · 0: lateral (e aí a pauta já caiu no eliminatório 10) |
+| Afinidade com o público | 25 | 20: núcleo do portal com efeito direto no leitor (igreja e liberdade religiosa no Brasil; vida, família, educação dos filhos; ato do poder público, inclusive de Rondônia e Porto Velho, **só quando o ato é sobre um desses temas**; produtor rural e agro, da aba Agro, desde 12/11/2026) · 10: tema do portal com efeito indireto (outro país, debate sem caso aqui) · 0: lateral (e aí a pauta já caiu no eliminatório 10) |
 | Atualidade e urgência | 20 | 17: até 48 h, ou prazo, votação ou julgamento nos próximos dias · 10: até 7 dias · 5: mais antigo com desdobramento ou gancho de calendário · 0: sem novidade |
 | Qualidade da comprovação | 15 | 13: documento primário lido na íntegra e confirmação independente · 9: fonte oficial ou duas reportagens próprias independentes · 5: uma reportagem própria · 0: agregador, republicação ou declaração sem prova |
 | Originalidade e aprofundamento | 10 | 8: acrescenta fato, número ou contexto que as fontes não deram · 4: síntese com contexto próprio · 0: reescrita de uma fonte |
@@ -168,7 +168,7 @@ Regras que o número não muda:
 | 50 a 59 | Relevância moderada | Só para chegar às 5 do dia, depois da varredura completa; nunca como manchete |
 | 0 a 49 | Baixa prioridade | Não entra (`checar_noticia.py` recusa) |
 
-**Mistura do dia**: a manchete é a maior nota do dia (e precisa de 70 ou mais). A meta do dia é de **2 notícias gerais e pelo menos 5 na aba Chamada Agro** (regra do responsável editorial, 12/11/2026, que substitui a de 02/11): completa-se com notas de menor pontuação e com a trilha atemporal, nunca afrouxando a verificação (eliminatórios, comprovação mínima, fonte primária, foto com licença, crivo jurídico).
+**Mistura do dia**: a manchete é a maior nota do dia (e precisa de 70 ou mais). A meta do dia é de **2 notícias gerais e pelo menos 5 na aba Agro** (regra do responsável editorial, 12/11/2026, que substitui a de 02/11): completa-se com notas de menor pontuação e com a trilha atemporal, nunca afrouxando a verificação (eliminatórios, comprovação mínima, fonte primária, foto com licença, crivo jurídico).
 
 Na nota, o crivo fica registrado assim (`checar_noticia.py` confere a soma, o teto de cada peso, as justificativas, o
 corte, o piso de comprovação e a abrangência; a página não mostra o motor: mostra o crivo público da seção 4.1):
