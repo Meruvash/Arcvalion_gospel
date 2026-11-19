@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>O prazo e o que pesa</title>
+<style>
+@font-face{font-family:'Caveat';src:url(caveat-700.woff2) format('woff2');font-weight:700}
+html,body{margin:0;width:1080px;height:1080px;overflow:hidden;background:#f3ead8}
+#c{position:absolute;left:0;top:0;z-index:1}
+#labels{position:absolute;inset:0;z-index:5;font-family:'Caveat';color:#2b211a}
+.t{position:absolute;opacity:0;white-space:nowrap;font:700 56px/1 'Caveat'}
+.n{position:absolute;opacity:0;font:900 150px/1 Georgia,serif;color:#2b211a}
+</style></head><body>
+<div id="labels"></div>
+<script src="brush.js"></script>
+<script>
+// Aquarela e lápis (p5.brush), ilustrativo. Fala 7: a fazenda da herança vista de cima e o prazo da usucapião, 15 anos
+// riscado para 10 ("mora ali" / "faz a terra produzir"). Fala 8: o que pesa para o juiz, marcado a lápis.
+const S = 1080; brush.createCanvas(S, S, { id: 'c' }); brush.scaleBrushes(1.4);
+const ease = x => x <= 0 ? 0 : x >= 1 ? 1 : x * x * (3 - 2 * x), ramp = (t, a, d) => ease((t - a) / d);
+const q = new URLSearchParams(location.search), T = k => +(q.get(k) ?? ({ quinze: .75, dez: 1.95, mora: 2.6, produz: 3.3, oito: 4.7, contas: 6.1, reclamou: 7.3 })[k]);
+const L = document.getElementById('labels');
+const add = (html, x, y, rot = -3, extra = '', cls = 't') => { const d = document.createElement('div'); d.className = cls; d.innerHTML = html; d.style.left = x + 'px'; d.style.top = y + 'px'; d.style.transform = `rotate(${rot}deg)`; d.style.cssText += extra; L.appendChild(d); return d; };
+const poly = (pts, cor, op, bleed = .15) => { brush.noStroke(); brush.fill(cor, op); brush.fillBleed(bleed, 'out'); brush.fillTexture(.55, .35); brush.beginShape(); pts.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(true); brush.noFill(); };
+const pencil = (pts, peso = 1.6, cor = '#3a3026', close = false) => { brush.set('2B', cor, peso); brush.beginShape(); pts.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(close); };
+const FAZ = [[120, 160], [960, 130], [990, 700], [140, 730]];
+const lTit = add('a fazenda da herança', 280, 40, -2, 'font-size:62px');
+const n15 = add('15 anos', 300, 250, -3, '', 'n');
+const n10 = add('10 anos', 300, 420, -3, 'color:#7a2a18', 'n');
+const lMora = add('se mora ali', 640, 600, -4, 'color:#1e4a8a');
+const lProd = add('ou faz a terra produzir', 520, 660, -3, 'color:#1e4a8a');
+const lJuiz = add('o que pesa pro juiz:', 160, 220, -2, 'font-size:66px');
+const l1 = add('quem paga as contas', 230, 360, -2, 'font-size:64px');
+const l2 = add('alguém da família reclamou?', 230, 500, -2, 'font-size:64px;color:#7a2a18');
+draw = (t) => {
+  brush.seed(41); brush.noiseSeed(41); brush.clear('#f3ead8'); brush.push(); brush.translate(-S / 2, -S / 2);
+  const a = ramp(t, 0, .7) * (1 - .75 * ramp(t, T('oito') - .3, .5));
+  if (a > 0) { poly(FAZ, '#9ac868', 160 * a); pencil([...FAZ, FAZ[0]], 2.2 * a + .05, '#5a3a20');
+    poly([[780, 200], [880, 200], [880, 270], [780, 270]], '#fff6dc', 255 * a, .04); poly([[770, 202], [830, 165], [890, 202]], '#c0502a', 255 * a, .04);   // a sede
+    for (let k = 0; k < 4; k++) pencil([[180, 560 + k * 30], [560, 540 + k * 30]], 1.2 * a + .05, '#3a6a24'); }
+  const r15 = ramp(t, T('dez') - .1, .4);                                     // o 15 é riscado
+  if (r15 > 0 && t < T('oito')) pencil([[290, 330], [290 + 520 * r15, 300]], 7, '#b0281a');
+  const b = ramp(t, T('oito'), .5);                                            // fala 8: as marcas a lápis
+  [[T('contas'), 410]].forEach(([tt, y]) => { const k = ramp(t, tt - .1, .35); if (k > 0) { pencil([[160, y], [180 + 10 * k, y + 22 * k], [210 + 20 * k, y - 30 * k]], 5, '#2a6a24'); } });
+  brush.pop(); brush.render();
+  const fA = 1 - ramp(t, T('oito') - .3, .4);
+  lTit.style.opacity = ramp(t, .2, .5) * fA; n15.style.opacity = ramp(t, T('quinze'), .3) * fA; n15.style.transform = `rotate(-3deg) scale(${1.3 - .3 * ramp(t, T('quinze'), .3)})`;
+  n10.style.opacity = ramp(t, T('dez'), .3) * fA; n10.style.transform = `rotate(-3deg) scale(${1.3 - .3 * ramp(t, T('dez'), .3)})`;
+  lMora.style.opacity = ramp(t, T('mora'), .4) * fA; lProd.style.opacity = ramp(t, T('produz'), .4) * fA;
+  lJuiz.style.opacity = ramp(t, T('oito') + .1, .4); l1.style.opacity = ramp(t, T('contas') - .2, .4); l2.style.opacity = ramp(t, T('reclamou') - .2, .4);
+};
+window.drawFrame = t => draw(t);
+window.READY = document.fonts.ready.then(() => true);
+</script></body></html>

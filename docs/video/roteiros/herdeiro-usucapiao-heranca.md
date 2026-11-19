@@ -1,4 +1,4 @@
-# "O irmão vira dono da herança?": usucapião entre herdeiros — roteiro v1 (19/11/2026), aguardando aprovação
+# "O irmão vira dono da herança?": usucapião entre herdeiros — roteiro v1 (19/11/2026), aprovado pelo editor em 19/11/2026
 
 ## Pesquisa de tendência (19/11/2026, autocomplete do Google e do YouTube, user-agent padrão)
 
@@ -130,3 +130,64 @@
 - **"Pro juiz, pesa…" (fala 8)** resume o que as ementas citam (custos, benfeitorias) e o requisito "sem oposição" do
   art. 1.238. Não é promessa de resultado.
 - **Fala 10:** informativa (Provimento 205/2021), sem oferta de serviço e sem palavra-chave.
+
+## Entrega (19/11/2026)
+- **Formato:** 1080×1080, 59,8 s.
+- **Som:** −14,1 LUFS, pico de −1,8 dBFS. Trilha catira normalizada em −30 LUFS; a transcrição dela não tem voz cantada.
+- **Conferência:** a transcrição do arquivo final bate com as falas (98,5%; "Dr." por extenso e uma marcação de "música
+  suave" da transcrição).
+- **Metadados:** limpos.
+- **Auditoria:**
+  - Parte 1 (roteiro): 23/23.
+  - Parte 3 (vídeo renderizado): V1 a V5 e S1 aprovados.
+  - O S2 (informativo) apontou as falas 2 e 8 sem um salto forte de imagem, o mesmo que acontece no ouro.
+- **Imagem:** 100% feita em código, nenhum vídeo de terceiros, nenhuma imagem de IA.
+  - Sede a óleo, com o carimbo "SÓ DELE?" na abertura.
+  - À maneira de Pissarro, Bastien-Lepage e Caillebotte.
+  - Aquarela do prazo e do que pesa para o juiz.
+  - Sede no fim de tarde.
+- **Voz:** narrador em todas as falas, menos a 10. A fala 10 é o clone do editor pelo seletor de S neutro.
+- **Sem palavra-chave** e sem variável nova.
+- **Capas:** quadro 0 e capas do Instagram em 9:16 e 4:5.
+- **Fontes no repositório:**
+  - `opuscar/herdeiro_*`;
+  - `cenas/hd_scenes.js` e `cenas/eras_hd.js`;
+  - `aquarela/prazo_herdeiro.html`;
+  - `montar_exemplo_herdeiro.py`.
+
+## Publicação
+
+**Título do YouTube** (74 caracteres):
+> O irmão vira dono da fazenda da herança? Morar não basta. Mas agir como dono, sim
+
+Alternativas:
+- Herdeiro pode pedir usucapião? O que o STJ decidiu em 2026
+- Seu irmão mora na fazenda da herança? Ele pode virar dono da sua parte
+
+**Descrição do YouTube:**
+```
+Enquanto a herança não é dividida, a fazenda é de todos os herdeiros (Código Civil, art. 1.791). Morar no imóvel por tolerância da família não gera posse (art. 1.208): o STJ negou a usucapião a um herdeiro que alegava mais de 50 anos de posse, porque ele estava ali por tolerância dos outros (REsp 2.246.985/SP, 2026).
+
+Mas o herdeiro pode pedir a usucapião de imóvel da herança se cumprir os requisitos da usucapião extraordinária (STJ, REsp 2.092.914/MG, 2026): posse exclusiva, como dono, sem oposição, por 15 anos, ou 10 se morar ali ou fizer a terra produzir (art. 1.238). Pesa quem paga as contas, quem faz as melhorias e se a família reclamou (STJ, REsp 2.083.514/MG).
+
+Fontes: Código Civil (texto publicado pelo Senado Federal); STJ, REsp 2.092.914/MG, 2.246.985/SP e 2.083.514/MG.
+Pinturas feitas em código: óleo com espátula (Lemo-Opuscar) e à maneira de Camille Pissarro, Jules Bastien-Lepage e Gustave Caillebotte. Ilustração em aquarela. Trilha original.
+
+#heranca #usucapiao #agro #produtorrural #Shorts
+```
+
+**Legenda do Instagram:**
+```
+O seu irmão toca sozinho a fazenda da herança? 🏡⚖️
+
+Morar lá, mesmo por muitos anos, não basta: se for por tolerância da família, não gera posse. O STJ negou a usucapião a um herdeiro que alegava mais de 50 anos de posse.
+
+Mas, se ele age como dono único, paga as contas, faz melhorias e ninguém reclama, a Justiça já reconheceu a usucapião. O prazo é de 15 anos, ou 10 se ele mora ali ou faz a terra produzir.
+
+Tem alguém da sua família tocando sozinho a terra da herança, sem ninguém falar nada? Conta aqui 👇
+
+Fontes: Código Civil, arts. 1.208, 1.238 e 1.791 · STJ, REsp 2.092.914, 2.246.985 e 2.083.514.
+
+#heranca #usucapiao #produtorrural #agro #direitoagrario
+```
+
