@@ -1,0 +1,190 @@
+{
+ "slug": "stj-mantem-renegociacao-lei-13606-produtor-negativado-danos-morais-10-mil",
+ "data": "2026-11-19",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "STJ mantém ordem para banco renegociar dívida rural e indenizar produtor negativado",
+ "lide": "A Quarta Turma do STJ manteve, em julgamento de 10 de novembro publicado no dia 13, a decisão do Tribunal de Justiça de Minas Gerais que mandou um banco renegociar operações de crédito rural pela Lei 13.606/2018, afastou a mora, dispensou a amortização mínima, tirou o nome do produtor dos cadastros de inadimplentes e fixou R$ 10 mil de danos morais.",
+ "por_que_importa": "Mostra que o produtor que tinha direito à renegociação prevista em lei e foi negativado pode conseguir na Justiça a renegociação e a indenização. O STJ não entrou nas provas, mas deixou de pé o que as instâncias de Minas decidiram, e o banco ainda arcou com honorários maiores.",
+ "numeros": [
+  [
+   "R$ 10 mil",
+   "de danos morais ao produtor pela negativação indevida, fixados na sentença e mantidos",
+   "STJ, REsp 2.257.686/MG"
+  ],
+  [
+   "20%",
+   "de honorários, depois que o TJMG elevou a condenação de 15%",
+   "STJ, REsp 2.257.686/MG"
+  ],
+  [
+   "13.606",
+   "é o número da lei de 2018 que, junto com a Resolução 4.660/2018, embasou a renegociação",
+   "STJ, REsp 2.257.686/MG"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, a sentença mandou renegociar as operações nos moldes da lei e da resolução, afastou a mora, dispensou a amortização mínima e excluiu as restrições de crédito. O TJMG manteve tudo. No STJ, o banco alegou que o produtor já tinha anotação anterior, o que afastaria o dano moral pela Súmula 385.",
+  "O relator, ministro João Otávio de Noronha, aplicou a Súmula 7, que impede o STJ de reexaminar provas: o TJMG havia registrado que não existiam apontamentos negativos anteriores. O recurso foi conhecido em parte e desprovido."
+ ],
+ "no_brasil": "O caso trata das renegociações abertas pela Lei 13.606/2018, mas o mesmo raciocínio vale como referência para outras renegociações previstas em lei. Em 17 de novembro, o portal publicou outra decisão do STJ sobre dívida rural, a do Tema 1.406, sobre prescrição.",
+ "critica": [
+  {
+   "fonte": "STJ, Quarta Turma, tese de julgamento",
+   "texto": "Incide a Súmula n. 7 do STJ para vedar o reexame de fatos e provas quanto à legitimidade de anotação preexistente e à falha na prestação do serviço, restando prejudicado o conhecimento por divergência jurisprudencial.",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2257686&O=JT"
+  },
+  {
+   "fonte": "Banco recorrente, segundo a ementa",
+   "texto": "Sustentou que inscrição anterior legítima afastaria a responsabilidade e o dano moral, com base na Súmula 385 do STJ, e citou divergência com outro julgado do tribunal.",
+   "citacao": false,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2257686&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor que tinha direito a renegociação prevista em lei e foi negativado: a decisão mostra que dá para pedir na Justiça a renegociação, a retirada do nome e indenização",
+  "Quem já tinha outra anotação negativa: o dano moral pode cair pela Súmula 385; aqui ele ficou porque não havia anotação anterior",
+  "Bancos: negativar produtor com direito à renegociação legal tem custo"
+ ],
+ "nao_e_para": [
+  "O STJ não decidiu o mérito: só manteve o que o TJMG julgou, sem reexaminar provas",
+  "É caso concreto, sem efeito vinculante para outros processos",
+  "Não trata da MP 1.376, que tem regras próprias"
+ ],
+ "veredito": "A gente acha justo: se a lei dá ao produtor o direito de renegociar, negativar quem tem esse direito é erro do banco, e erro tem preço. Produtor nessa situação deve guardar por escrito os pedidos que fez ao banco.",
+ "fontes": [
+  {
+   "nome": "Superior Tribunal de Justiça: REsp 2.257.686/MG, Quarta Turma, relator Ministro João Otávio de Noronha",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2257686&O=JT",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Superior Tribunal de Justiça: base de jurisprudência, pesquisa de acórdãos sobre alongamento de dívida rural publicados em novembro de 2026",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=alongamento%20e%20rural&O=JT",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Renegociação de dívida rural prevista em lei, negativação indevida e indenização ao produtor"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2257686&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Decisão de turma do STJ que mantém renegociação legal e indenização em caso concreto"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Renegociação de dívida rural e relação do produtor com o banco, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 12,
+    "porque": "Julgado em 10/11 e publicado em 13/11, há seis dias"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa e tese lidas na íntegra na base de jurisprudência do STJ"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Decisão sem cobertura na imprensa; explicamos o que ficou de pé e por quê"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Número forte: R$ 10 mil de danos morais (1)",
+    "Utilidade: o que pedir se for negativado (2)",
+    "Moeda social: decisão que poucos viram (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "REsp 2.257.686/MG",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Justiça e dívida rural",
+  "coleta": "2026-11-19",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa e tese conferidas na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "nome do banco e das partes; valor das operações"
+  },
+  "duplicidade": {
+   "grupo": "STJ e dívida rural",
+   "itens": [
+    "REsp 2.257.686/MG"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-17-stj-tema-1406-prescricao-divida-rural-suspensa-automaticamente-leis-renegociacao"
+  },
+  "seo": {
+   "intencao": "saber se o produtor negativado com direito a renegociação pode ser indenizado",
+   "entidades": [
+    "STJ",
+    "Lei 13.606/2018",
+    "Resolução CMN 4.660",
+    "negativação",
+    "danos morais"
+   ],
+   "termos": [
+    "renegociação dívida rural negativação danos morais",
+    "Lei 13.606 renegociação STJ",
+    "produtor rural negativado indevidamente"
+   ],
+   "atualizacao": "acompanhar outros julgados sobre renegociação legal"
+  },
+  "agro": {
+   "demanda": "Produtores com direito a renegociação prevista em lei que foram negativados pelo banco",
+   "prazo": "sem prazo próprio; prescrição conforme o caso",
+   "quem": "Produtores rurais com operações renegociáveis por lei"
+  }
+ },
+ "descricao_seo": "STJ mantém decisão que mandou banco renegociar dívida rural pela Lei 13.606, tirar o produtor dos cadastros e pagar R$ 10 mil de danos morais.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura da ementa, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a nota deixa claro que o STJ não decidiu o mérito e só manteve o julgamento do TJMG pela Súmula 7; a tese é citada literalmente e a posição do banco aparece em O que dizem. Não nomeia o banco nem as partes. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-mantem-renegociacao-lei-13606-produtor-negativado-danos-morais-10-mil.jpg",
+  "credito": "Constant Troyon, A caminho do mercado (1860), The Metropolitan Museum of Art",
+  "alt": "Pintura de Troyon: camponês conduz gado e ovelhas por uma estrada de terra rumo ao mercado",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP-47651-001.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/437846"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-19T15:12:03-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-19T15:12:03-03:00"
+}
