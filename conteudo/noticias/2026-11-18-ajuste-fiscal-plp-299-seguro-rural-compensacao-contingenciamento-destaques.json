@@ -6,7 +6,7 @@
  "manchete": false,
  "selo": "Vale acompanhar",
  "titulo": "Ajuste fiscal no Senado dá compensação ao seguro rural, mas deixa dúvida sobre cortes",
- "lide": "O texto-base do PLP 299/2026, o ajuste fiscal aprovado pelo Senado por 45 a 31 em 12 de novembro, considera compensada a subvenção obrigatória ao seguro rural criada pela Lei 15.526. Mas outro artigo permite contingenciar despesas obrigatórias com teto, e o texto não diz como isso convive com a proteção do seguro, segundo a Consultoria de Orçamentos do Senado. Os destaques são votados nesta quarta (18).",
+ "lide": "O Senado concluiu nesta quarta-feira (18) a votação do PLP 299/2026, o ajuste fiscal, por 69 a 2 em turno suplementar, e o texto segue para a Câmara. O projeto considera compensada a subvenção obrigatória ao seguro rural da Lei 15.526, mas outro artigo permite contingenciar despesas obrigatórias com teto, e, segundo a Consultoria de Orçamentos do Senado, o texto não diz como isso convive com a proteção do seguro.",
  "por_que_importa": "A lei do seguro rural tornou a subvenção obrigatória, mas precisava de uma compensação fiscal para sair do papel. O ajuste fiscal resolve isso no artigo 8º. Ao mesmo tempo, abre a porta para bloquear temporariamente despesas obrigatórias com teto, categoria em que o seguro rural se encaixa. Para o produtor, é a diferença entre ter e não ter a subvenção em ano de El Niño.",
  "numeros": [
   [
@@ -15,21 +15,26 @@
    "Consultoria de Orçamentos do Senado, nota de 13/11/2026"
   ],
   [
+   "69 a 2",
+   "foi o placar do turno suplementar que concluiu a votação no Senado, em 18/11/2026",
+   "Agência Senado, 18/11/2026"
+  ],
+  [
    "Art. 8º",
    "considera atendida a exigência de compensação da Lei de Responsabilidade Fiscal para as medidas do seguro rural já aprovadas",
    "PLP 299/2026, texto aprovado"
   ],
   [
-   "4 destaques",
-   "ficaram para votação em separado, entre eles o que trata dos repasses da Lei Kandir a estados e municípios",
-   "Consultoria de Orçamentos do Senado; Agência Brasil"
+   "3 de 4",
+   "destaques foram rejeitados; o da Lei Kandir foi retirado depois de acordo que elevou o repasse mínimo a estados para R$ 2 bilhões por ano",
+   "Agência Senado, 18/11/2026"
   ]
  ],
  "corpo": [
   "Segundo a Consultoria de Orçamentos, o artigo 8º do texto aprovado faz o próprio ajuste fiscal servir de compensação para as medidas da Lei do Seguro Rural aprovadas até sua publicação e afasta a vedação da LDO 2026 a novas despesas obrigatórias. Com isso, a subvenção obrigatória ao prêmio do seguro rural pode ser executada sem outra medida compensatória.",
   "O artigo 6º-D permite ao Executivo contingenciar despesas obrigatórias cujo pagamento é limitado à dotação, ressalvadas as obrigações constitucionais, o serviço da dívida, o FNDCT e o que a LDO ressalvar. A nota lembra que a Lei 15.526 excluiu expressamente o seguro rural da limitação de empenho, mas que o texto aprovado não trata de forma explícita da relação entre as duas normas. Emenda da senadora Tereza Cristina (PP-MS) foi acolhida para restringir esse artigo."
  ],
- "no_brasil": "Depois dos destaques, o projeto vai à Câmara. Segundo a Agência Brasil, um dos destaques, do PL, tenta impedir o adiamento dos repasses da Lei Kandir, que compensa estados pela isenção de exportações agropecuárias; no texto do governo, cerca de R$ 12 bilhões seriam pagos entre 2031 e 2037.",
+ "no_brasil": "O projeto agora vai à Câmara. Segundo a Agência Senado, o relator Eduardo Braga (MDB-AM) mudou o repasse da Lei Kandir, que compensa estados pela isenção de ICMS das exportações: o piso sobe de R$ 1 bilhão para R$ 2 bilhões por ano, e a diferença será compensada de 2028 a 2030, não mais de 2031 a 2037.",
  "critica": [
   {
    "fonte": "Consultoria de Orçamentos do Senado, nota informativa de 13/11/2026",
@@ -45,12 +50,12 @@
   }
  ],
  "para_quem": [
-  "Produtor que conta com a subvenção do seguro na safra 2026/27 e na de 2027/28: acompanhe a votação desta quarta e a passagem pela Câmara, porque é ali que se define se o seguro fica blindado",
+  "Produtor que conta com a subvenção do seguro na safra 2026/27 e na de 2027/28: acompanhe a passagem do projeto pela Câmara, porque é ali que se define se o seguro fica blindado",
   "Entidades e cooperativas do agro: o ponto a cobrar dos deputados é uma linha explícita dizendo que o seguro rural não entra no contingenciamento do artigo 6º-D",
   "Quem exporta ou vive em município exportador: o destaque da Lei Kandir mexe no repasse que compensa estados pela isenção das exportações"
  ],
  "nao_e_para": [
-  "A votação ainda não terminou: os destaques podem mudar o texto, e depois a Câmara pode alterar de novo",
+  "A votação no Senado terminou, mas a Câmara ainda pode alterar o texto; a cobertura da Agência Senado não registra mudança no artigo do contingenciamento ligada ao seguro rural",
   "A nota técnica aponta a dúvida, mas não afirma que o seguro rural será contingenciado",
   "O valor do seguro rural para 2027 depende do orçamento, que tramita separadamente"
  ],
@@ -60,6 +65,12 @@
    "nome": "Senado Federal, Consultoria de Orçamentos: Nota informativa sobre o texto-base do PLP nº 299/2026 aprovado pelo Plenário",
    "url": "https://www12.senado.leg.br/orcamento/documentos/estudos/tipos-de-estudos/notas-tecnicas-e-informativos/nota_informativa_texto_aprovado_plp_299_2026.pdf",
    "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Senado completa votação, e ajuste fiscal segue para a Câmara",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/senado-completa-votacao-e-ajuste-fiscal-segue-para-a-camara",
+   "data": "18/11/2026",
    "tipo": "primaria"
   },
   {
@@ -85,7 +96,7 @@
   "criterios": {
    "impacto": {
     "pontos": 10,
-    "porque": "Texto-base aprovado no Senado, com efeito sobre a execução do seguro rural; ainda depende dos destaques e da Câmara"
+    "porque": "Projeto aprovado pelo Senado, com efeito sobre a execução do seguro rural; ainda depende da Câmara"
    },
    "afinidade": {
     "pontos": 20,
@@ -93,11 +104,11 @@
    },
    "atualidade": {
     "pontos": 17,
-    "porque": "Texto-base aprovado em 12/11 e destaques adiados por Alcolumbre para a sessão desta quarta-feira (18), às 16h"
+    "porque": "Votação concluída no Senado na quarta-feira (18), há menos de 12 horas"
    },
    "comprovacao": {
     "pontos": 13,
-    "porque": "Nota técnica oficial da Consultoria do Senado lida na íntegra nos trechos do seguro rural, e reportagem da Agência Brasil"
+    "porque": "Nota técnica oficial da Consultoria do Senado lida nos trechos do seguro rural, e reportagens da Agência Senado e da Agência Brasil"
    },
    "originalidade": {
     "pontos": 8,
@@ -118,7 +129,7 @@
     "Duas fontes independentes (1)",
     "Moeda social: detalhe técnico que a cobertura não deu (1)",
     "Utilidade: o que cobrar dos deputados (1)",
-    "Calendário: votação nesta quarta (1)",
+    "Calendário: projeto chega à Câmara (1)",
     "Cabe num cartão: ajuste fiscal pode bloquear o seguro rural? (1)"
    ]
   }
@@ -130,15 +141,16 @@
   "coleta": "2026-11-18",
   "verificacao": {
    "grau_de_confianca": "alto",
-   "status": "conferido na nota técnica do Senado e na Agência Brasil",
+   "status": "conferido na nota técnica do Senado, na Agência Senado e na Agência Brasil",
    "contradicoes": "nenhuma",
-   "sem_confirmacao": "resultado dos destaques desta quarta"
+   "sem_confirmacao": "redação final enviada à Câmara; tramitação na Câmara"
   },
   "duplicidade": {
    "grupo": "PLP 299/2026 e seguro rural",
    "itens": [
     "Nota Conorf 13/11",
-    "Agência Brasil 17/11"
+    "Agência Brasil 17/11",
+    "Agência Senado 18/11"
    ],
    "ja_publicado_por_nos": false,
    "relacionada": "2026-11-16-lei-15526-seguro-rural-subvencao-obrigatoria-fundo-catastrofe-veto"
@@ -161,11 +173,11 @@
   },
   "agro": {
    "demanda": "Produtores e entidades que dependem da subvenção ao prêmio do seguro rural e precisam de garantia de que ela não será contingenciada",
-   "prazo": "votação dos destaques em 18/11/2026; depois, Câmara",
+   "prazo": "votação concluída no Senado em 18/11/2026; agora, Câmara",
    "quem": "Produtores que contratam seguro rural com subvenção do PSR"
   }
  },
- "descricao_seo": "PLP 299: ajuste fiscal no Senado compensa a subvenção obrigatória ao seguro rural, mas abre dúvida sobre contingenciamento. Destaques em 18/11.",
+ "descricao_seo": "Senado conclui o ajuste fiscal (PLP 299) e envia à Câmara: compensa a subvenção ao seguro rural, mas deixa dúvida sobre contingenciamento.",
  "instituicao": "Senado Federal",
  "editora": "Senado Federal",
  "estudos": [],
@@ -186,7 +198,8 @@
  "publicado_em": "2026-11-18T02:36:08-03:00",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-18T02:36:08-03:00",
+  "data": "2026-11-19T02:26:19-03:00",
   "modo": "automatica"
- }
+ },
+ "atualizado_em": "2026-11-19T02:26:19-03:00"
 }
