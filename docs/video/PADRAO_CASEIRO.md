@@ -118,6 +118,11 @@ como recomendação.
   8. **Capa sem personagem:** "COMPROU E NÃO É DONO?".
   - **Crivo inflado:** a pauta levou 15/16, mas a conta honesta dá 12 ou 13.
 
+- **"O irmão vendeu sem avisar" passou de 5.000 visualizações** (editor, 19/11/2026). Virou o segundo vídeo de padrão
+  ouro, ao lado do caseiro. A comparação dos dois e a auditoria que sai dela estão em `AUDITORIA_PADRAO_OURO.md`.
+  - O item 1 do Crivo (busca no autocomplete) pesou menos do que se pensava: o irmão tinha pouca sugestão de busca e
+    foi mais longe que o caseiro.
+
 ## 5.2 Regras novas (18/11/2026, depois da escritura)
 1. **Crivo justificado:** cada nota do Crivo vem com uma linha de justificativa no roteiro. A nota 2 no item 1 exige
    que a pergunta do vídeo seja **a mesma** do autocomplete, não uma vizinha.

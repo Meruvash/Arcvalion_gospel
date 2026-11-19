@@ -143,6 +143,49 @@
 - **Fala 10:** informativa (Provimento 205/2021), sem promessa nem oferta de serviço.
 - **Imagens:** todas feitas em código, nenhuma de terceiros e nenhuma gerada por IA.
 
+## Auditoria de padrão ouro (feita depois da entrega, em 19/11/2026)
+
+A auditoria foi criada depois da entrega; o resultado está em `AUDITORIA_PADRAO_OURO.md`, seção 4.
+
+| Item | Este roteiro | Caseiro | Irmão |
+|---|---|---|---|
+| A1 fala 1 abre com 'Você sabia que' | ✅ Você sabia que o geren… | ✅ Você sabia que o casei… | ✅ Você sabia que, se o s… |
+| A2 personagem próximo na fala 1 | ❌ nenhum | ✅ caseiro | ✅ irmão |
+| A3 alguém de fora em contraste (estranho) | ❌ não | ✅ estranho | ✅ estranho |
+| A4 bem de quem assiste (sua terra, sua fazenda, a herança) | ✅ seu sítio | ✅ sua fazenda | ✅ da fazenda |
+| A5 virada de poder ('pode' / 'não pode') | ✅ sim | ✅ sim | ✅ sim |
+| A6 fala 1 com até 30 palavras | ✅ 28 palavras | ✅ 27 palavras | ✅ 28 palavras |
+| A7 fala 1 sem sigla nem número | ✅ limpa | ✅ limpa | ✅ limpa |
+| B1 fala 2 no molde 'A explicação está em/numa … palavra(s): X' | ❌ A palavra que protege o seu sítio é impenhorável. | ✅ A explicação está numa palavra: posse. | ✅ A explicação está em três palavras: tanto por tanto. |
+| B2 chave curta (até 3 palavras depois dos dois-pontos) | ❌ sem dois-pontos | ✅ posse. | ✅ tanto por tanto. |
+| C1 o personagem volta na fala 3 | ❌ não | ✅ sim | ✅ sim |
+| D1 fala 4 cita a lei ('O Código Civil diz' / 'A lei diz') | ❌ Uma empresa de insumos foi até o Supremo… | ✅ O Código Civil diz que detentor é quem c… | ✅ E o Código Civil diz: um herdeiro não po… |
+| E1 virada marcada com 'Agora,' (falas 5 a 8) | ❌ não | ✅ fala 6 | ✅ fala 7 |
+| F1 número de prazo (anos, dias, meses) no meio | ❌ não | ✅ anos | ✅ dias |
+| F2 até 8 números ditos (escada curta, não lista) | ✅ 2 | ✅ 7 | ✅ 7 |
+| G1 penúltima fala é pergunta | ✅ Se o banco batesse na sua porteira amanhã, como você provaria que a su | ✅ Tem alguém usando um pedaço da sua terra sem você dizer nada? | ✅ Na sua família, alguém já vendeu parte da herança sem avisar? |
+| G2 a pergunta é sobre uma pessoa ('alguém') | ❌ não | ✅ sim | ✅ sim |
+| G3 a pergunta fala da vida de quem assiste (sua/seu) | ✅ sim | ✅ sim | ✅ sim |
+| H1 fecho no molde 'Eu sou o Dr. Pelicioni, advogado. Na/Em X, … Me segue pra …' | ✅ sim | ✅ sim | ✅ sim |
+| H2 moral do fecho é sobre tempo ou omissão | ❌ Na pequena propriedade, a lei protege quem trabalha a terra com a famí | ✅ Na usucapião, ficar calado conta tempo contra você. | ✅ Em herança de fazenda, prazo perdido não volta. |
+| I1 editor só no fecho (uma voz até a pergunta) | ✅ sim | ✅ sim | ✅ sim |
+| I2 10 falas | ✅ 10 | ✅ 10 | ✅ 10 |
+| I3 de 160 a 195 palavras (o ouro tem 183 e 193; 55 a 57 s) | ✅ 177 | ✅ 183 | ✅ 193 |
+
+**Nota automática:** 12/22 (caseiro 22/22, irmão 22/22).
+
+**Desvios do padrão ouro** (itens que os dois vídeos de ouro, ou um deles, cumprem e este não):
+- A2 personagem próximo na fala 1
+- A3 alguém de fora em contraste (estranho)
+- B1 fala 2 no molde 'A explicação está em/numa … palavra(s): X'
+- B2 chave curta (até 3 palavras depois dos dois-pontos)
+- C1 o personagem volta na fala 3
+- D1 fala 4 cita a lei ('O Código Civil diz' / 'A lei diz')
+- E1 virada marcada com 'Agora,' (falas 5 a 8)
+- F1 número de prazo (anos, dias, meses) no meio
+- G2 a pergunta é sobre uma pessoa ('alguém')
+- H2 moral do fecho é sobre tempo ou omissão
+
 ## Entrega (19/11/2026)
 - **Formato:** 1080×1080, 54,3 s.
 - **Som:** −13,7 LUFS, pico de −1,8 dBFS. Trilha agronejo normalizada em −30 LUFS; a transcrição dela não tem voz cantada.
