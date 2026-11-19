@@ -1,4 +1,4 @@
-# "O banco pode tomar o seu sítio?": a pequena propriedade impenhorável — roteiro v1 (18/11/2026), aguardando aprovação
+# "O banco pode tomar o seu sítio?": a pequena propriedade impenhorável — roteiro v1 (18/11/2026), aprovado pelo editor em 19/11 (“gera sem eu no canto”)
 
 ## Pesquisa de tendência (18/11/2026)
 
@@ -142,3 +142,41 @@
   tradução de balcão para "contínuos". A Lei 8.629 diz "até quatro módulos" e a tese do STF, "inferior a 04"; a fala segue a lei e o rodapé cita as duas.
 - **Fala 10:** informativa (Provimento 205/2021), sem promessa nem oferta de serviço.
 - **Imagens:** todas feitas em código, nenhuma de terceiros e nenhuma gerada por IA.
+
+## Publicação
+
+**Título do YouTube** (71 caracteres):
+> O banco toma o seu sítio? Nem com ele em garantia. Mas tem uma exceção
+
+Alternativas:
+- Pequena propriedade rural pode ser penhorada? O que o Supremo decidiu
+- Deu o sítio em garantia? Veja quando o banco não pode penhorar
+
+**Descrição do YouTube:**
+```
+A pequena propriedade rural trabalhada pela família não pode ser penhorada por dívida da produção (Constituição Federal, art. 5º, XXVI; CPC, art. 833, VIII). O Supremo decidiu que a proteção vale mesmo com a terra hipotecada (ARE 1.038.507, Tema 961) e que terrenos vizinhos se somam no limite de 4 módulos fiscais (Lei 8.629/1993, art. 4º, II).
+
+A exceção: a proteção não vale contra a dívida do próprio imóvel, inclusive a que foi feita para comprá-lo (CPC, art. 833, § 1º). E quem precisa provar que a família trabalha na terra é o devedor (STJ, Tema 1.234).
+
+A decisão do Supremo trata de hipoteca. Alienação fiduciária tem regra própria.
+
+Fontes: Constituição Federal; CPC (Lei 13.105/2015); Lei 8.629/1993 (textos publicados pelo Senado Federal); STF, ARE 1.038.507; STJ, REsp 2.080.023.
+Pinturas feitas em código: óleo com espátula (Lemo-Opuscar) e à maneira de Almeida Júnior, Léon Lhermitte e Jean-Siméon Chardin. Ilustração em aquarela. Trilha original.
+
+#dividarural #pequenapropriedade #agro #produtorrural #Shorts
+```
+
+**Legenda do Instagram:**
+```
+O banco pode tomar o seu sítio? 🏡⚖️
+
+Se a propriedade é pequena (até 4 módulos fiscais) e a família trabalha nela, ela não pode ser penhorada por dívida da produção, nem se você deu a terra em garantia (hipoteca). Foi o que o Supremo decidiu.
+
+Mas tem uma exceção: a dívida da própria terra, como a que você fez pra comprar o sítio. E quem precisa provar que a família trabalha ali é você.
+
+Se o banco batesse na sua porteira amanhã, como você provaria? Conta aqui 👇
+
+Fontes: Constituição Federal, art. 5º, XXVI · CPC, art. 833 · STF, Tema 961 · STJ, Tema 1.234.
+
+#dividarural #produtorrural #pequenapropriedade #agro #direitoagrario
+```
