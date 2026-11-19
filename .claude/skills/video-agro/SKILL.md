@@ -25,9 +25,10 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 
    Leia a norma ou o dado na fonte primária e anote link e data.
 2. **Auditoria de padrão ouro antes de mostrar o roteiro** (`docs/video/AUDITORIA_PADRAO_OURO.md`):
-   - parte automática: `python3 tools/video/agro-arte/auditar_roteiro.py falas.json --md auditoria.md`, que precisa de 20/22 ou mais;
+   - parte automática: `python3 tools/video/agro-arte/auditar_roteiro.py falas.json --md auditoria.md`, que precisa de 21/23 ou mais;
    - parte de julgamento: os itens M1 a M8;
-   - as duas tabelas vão no roteiro e um resumo na mensagem ao editor.
+   - as duas tabelas vão no roteiro e um resumo na mensagem ao editor;
+   - depois do render: `python3 tools/video/agro-arte/auditar_video.py video.mp4 --tempos hf/assets/data/tempos.json` (Parte 3: abertura e ritmo, todos os itens de V1 a V5 e S1).
 2.1. **Roteiro na conversa**, no formato de tabela do PROMPT. **Pare e espere a aprovação.**
 3. **Plano de imagem** junto com o roteiro: para cada fala, que pintura entra, onde entram os 2 ou 3
    cartões de prova e qual tipografia animada usar. Respeite os 70% de animação.

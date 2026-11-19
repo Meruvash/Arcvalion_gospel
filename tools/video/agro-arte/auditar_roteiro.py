@@ -52,6 +52,8 @@ def checar(F):
     R["A4 bem de quem assiste (sua terra, sua fazenda, a herança)"] = (bool(re.search(BEM, f1, re.I)), (re.search(BEM, f1, re.I).group(0) if re.search(BEM, f1, re.I) else "não"))
     R["A5 virada de poder ('pode' / 'não pode')"] = (bool(re.search(r"\bpode\b", f1, re.I)), "sim" if re.search(r"\bpode\b", f1, re.I) else "não")
     R["A6 fala 1 com até 30 palavras"] = (len(palavras(f1)) <= 30, f"{len(palavras(f1))} palavras")
+    p8 = " ".join(palavras(f1)[:8])
+    R["A8 o personagem aparece nas 8 primeiras palavras"] = (bool(re.search(PROXIMOS, p8, re.I)), p8 + "…")
     R["A7 fala 1 sem sigla nem número"] = (not re.search(SIGLA, f1) and not re.search(r"\d", f1), "limpa" if not re.search(SIGLA, f1) and not re.search(r"\d", f1) else "tem")
     R["B1 fala 2 no molde 'A explicação está em/numa … palavra(s): X'"] = (bool(re.match(r"A explicação está (numa|em \w+) palavras?:", f2)), f2)
     R["B2 chave curta (até 3 palavras depois dos dois-pontos)"] = (0 < len(palavras(chave)) <= 3, chave.strip() or "sem dois-pontos")

@@ -155,6 +155,7 @@ A auditoria foi criada depois da entrega; o resultado está em `AUDITORIA_PADRAO
 | A4 bem de quem assiste (sua terra, sua fazenda, a herança) | ✅ seu sítio | ✅ sua fazenda | ✅ da fazenda |
 | A5 virada de poder ('pode' / 'não pode') | ✅ sim | ✅ sim | ✅ sim |
 | A6 fala 1 com até 30 palavras | ✅ 28 palavras | ✅ 27 palavras | ✅ 28 palavras |
+| A8 o personagem aparece nas 8 primeiras palavras | ❌ Você sabia que o gerente do banco não… | ✅ Você sabia que o caseiro que mora há… | ✅ Você sabia que se o seu irmão vender… |
 | A7 fala 1 sem sigla nem número | ✅ limpa | ✅ limpa | ✅ limpa |
 | B1 fala 2 no molde 'A explicação está em/numa … palavra(s): X' | ❌ A palavra que protege o seu sítio é impenhorável. | ✅ A explicação está numa palavra: posse. | ✅ A explicação está em três palavras: tanto por tanto. |
 | B2 chave curta (até 3 palavras depois dos dois-pontos) | ❌ sem dois-pontos | ✅ posse. | ✅ tanto por tanto. |
@@ -172,11 +173,12 @@ A auditoria foi criada depois da entrega; o resultado está em `AUDITORIA_PADRAO
 | I2 10 falas | ✅ 10 | ✅ 10 | ✅ 10 |
 | I3 de 160 a 195 palavras (o ouro tem 183 e 193; 55 a 57 s) | ✅ 177 | ✅ 183 | ✅ 193 |
 
-**Nota automática:** 12/22 (caseiro 22/22, irmão 22/22).
+**Nota automática:** 12/23 (caseiro 23/23, irmão 23/23).
 
 **Desvios do padrão ouro** (itens que os dois vídeos de ouro, ou um deles, cumprem e este não):
 - A2 personagem próximo na fala 1
 - A3 alguém de fora em contraste (estranho)
+- A8 o personagem aparece nas 8 primeiras palavras
 - B1 fala 2 no molde 'A explicação está em/numa … palavra(s): X'
 - B2 chave curta (até 3 palavras depois dos dois-pontos)
 - C1 o personagem volta na fala 3
