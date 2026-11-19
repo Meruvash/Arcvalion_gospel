@@ -1,0 +1,193 @@
+{
+ "slug": "stf-campanha-andar-com-fe-liberdade-religiosa-intolerancia-adpf-973",
+ "data": "2026-11-19",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Para refletir",
+ "titulo": "STF lança campanha “Andar com Fé” pela liberdade religiosa até 10 de dezembro",
+ "lide": "O Supremo Tribunal Federal lançou nesta quinta-feira (19) a campanha “Andar com Fé”, com vídeos e publicações nas redes sociais do Tribunal até 10 de dezembro, para promover a liberdade religiosa e combater a intolerância e o racismo religioso. Segundo o STF, a campanha cumpre uma determinação da própria Corte no julgamento da ADPF 973, sobre racismo estrutural.",
+ "por_que_importa": "A liberdade religiosa protege o cristão tanto quanto qualquer outro fiel, e a gente apoia que o Estado a defenda. O próprio STF diz que a campanha vai tratar do direito de viver a fé, mudar de religião ou não ter nenhuma. A medida vem um dia depois de o Tribunal receber o Oxê de Xangô em seu acervo.",
+ "numeros": [
+  [
+   "10/12",
+   "é o fim da campanha, no Dia Internacional dos Direitos Humanos",
+   "STF, 19/11/2026"
+  ],
+  [
+   "973",
+   "é o número da ADPF em que o STF reconheceu, por unanimidade, o racismo estrutural no Brasil e mandou fazer campanhas sobre liberdade religiosa",
+   "STF"
+  ],
+  [
+   "100",
+   "é o Disque 100, canal indicado pelo STF para denunciar casos de intolerância religiosa",
+   "STF, 19/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo o STF, o slogan é “No caminho das crenças, o respeito é a melhor direção”, e as peças vão tratar de pluralidade religiosa e de como agir em casos de discriminação. A campanha dará atenção especial às religiões de matriz africana, que, segundo o Tribunal, lideram as estatísticas de denúncias de intolerância e violência no país.",
+  "Na ADPF 973, apresentada por sete partidos (PT, PSOL, PSB, PCdoB, Rede, PDT e PV), o Plenário determinou ao poder público, entre outras providências, campanhas de comunicação sobre igualdade racial, liberdade religiosa e respeito à diversidade cultural e religiosa. A maioria não reconheceu o estado de coisas inconstitucional."
+ ],
+ "no_brasil": "Na terça-feira (17), o STF inaugurou a escultura do Oxê de Xangô no acervo da Corte, com base na tese do Tema 1.086, que considera válidos símbolos religiosos em prédios públicos quando expressam a tradição cultural. O Disque 100 é o canal federal para denúncias de violações de direitos humanos.",
+ "critica": [
+  {
+   "fonte": "Supremo Tribunal Federal, sobre a campanha",
+   "texto": "A iniciativa busca conscientizar a sociedade sobre o direito de toda pessoa de viver sua fé, mudar de religião ou não seguir nenhuma crença.",
+   "citacao": true,
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-lanca-campanha-para-combater-intolerancia-religiosa-e-valorizar-diversidade-de-crencas/"
+  },
+  {
+   "fonte": "Supremo Tribunal Federal, sobre o julgamento da ADPF 973",
+   "texto": "Os ministros Cristiano Zanin, André Mendonça, Nunes Marques, Alexandre de Moraes, Dias Toffoli e Gilmar Mendes, com o relator, consideraram que há graves violações, mas afastaram o estado de coisas inconstitucional.",
+   "citacao": false,
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-reconhece-existencia-de-racismo-estrutural-no-brasil/"
+  }
+ ],
+ "para_quem": [
+  "Igrejas e líderes: a campanha reconhece o direito de viver a fé e de mudar de religião; é base para defender também o culto cristão quando for atacado",
+  "Quem sofrer ou presenciar intolerância religiosa, de qualquer fé: o canal indicado pelo STF é o Disque 100",
+  "Pais: boa conversa com os filhos sobre respeitar a fé do outro sem abrir mão da própria"
+ ],
+ "nao_e_para": [
+  "É campanha de comunicação, sem efeito de lei nem nova regra",
+  "O STF não divulgou o custo nem as peças da campanha",
+  "A ênfase nas religiões de matriz africana é escolha do Tribunal com base nos dados de denúncias citados por ele"
+ ],
+ "veredito": "A gente apoia a campanha e cobra a régua de sempre: liberdade religiosa vale para o terreiro, para a igreja e para quem não crê. Se o STF vai ensinar o direito de mudar de religião, que defenda também o pregador e o culto quando forem eles os alvos.",
+ "fontes": [
+  {
+   "nome": "STF: STF lança campanha para combater intolerância religiosa e valorizar diversidade de crenças",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-lanca-campanha-para-combater-intolerancia-religiosa-e-valorizar-diversidade-de-crencas/",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: STF reconhece existência de racismo estrutural no Brasil (ADPF 973)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-reconhece-existencia-de-racismo-estrutural-no-brasil/",
+   "data": "18/12/2025",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 68,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "liberdade",
+   "porque": "Campanha do STF sobre liberdade religiosa e combate à intolerância religiosa no Brasil"
+  },
+  "origem": {
+   "nome": "Supremo Tribunal Federal",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-lanca-campanha-para-combater-intolerancia-religiosa-e-valorizar-diversidade-de-crencas/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Campanha nacional do STF nas redes até 10/12, sem efeito normativo, mas que cumpre decisão do Plenário"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Liberdade religiosa no Brasil, núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 20,
+    "porque": "Lançada nesta quinta-feira (19), dia de publicação"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Nota oficial do STF lida na íntegra e notícia oficial do julgamento da ADPF 973"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Ligamos a campanha à decisão da ADPF 973 e à inauguração do Oxê de Xangô na mesma semana"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 5,
+    "viral": 4,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: nota oficial do STF (2)",
+    "Ato de quem tem poder: STF (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes oficiais (1)",
+    "Calendário: campanha até 10/12 (1)",
+    "Cabe num cartão: STF lança Andar com Fé (1)",
+    "Pede resposta do cristão: respeitar a fé do outro sem abrir mão da própria (2)",
+    "Passagem bíblica que um pastor usaria: Romanos 14.5 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "STF lança campanha para combater intolerância religiosa e valorizar diversidade de crenças",
+  "nucleo": "A - Brasil",
+  "categoria": "Liberdade religiosa / STF",
+  "coleta": "2026-11-19",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido nas notas oficiais do STF",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "custo da campanha; data exata da conclusão da ADPF 973"
+  },
+  "duplicidade": {
+   "grupo": "STF e liberdade religiosa",
+   "itens": [
+    "STF 19/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-18-stf-oxe-xango-acervo-simbolos-religiosos-tema-1086-crucifixo"
+  },
+  "seo": {
+   "intencao": "saber o que é a campanha Andar com Fé do STF",
+   "entidades": [
+    "STF",
+    "Andar com Fé",
+    "liberdade religiosa",
+    "intolerância religiosa",
+    "ADPF 973",
+    "Disque 100"
+   ],
+   "termos": [
+    "campanha Andar com Fé STF",
+    "STF liberdade religiosa campanha",
+    "intolerância religiosa Disque 100"
+   ],
+   "atualizacao": "acompanhar as peças da campanha até 10/12"
+  }
+ },
+ "descricao_seo": "STF lança a campanha Andar com Fé pela liberdade religiosa e contra a intolerância, até 10/12, em cumprimento à decisão da ADPF 973.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das notas oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os fatos vêm das notas oficiais do STF, com o texto da campanha citado literalmente; a nota não desqualifica nenhuma religião nem a escolha do Tribunal, só registra que ela se baseia nos dados citados pelo próprio STF. A opinião defende a liberdade religiosa de todos. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stf-campanha-andar-com-fe-liberdade-religiosa-intolerancia-adpf-973.jpg",
+  "credito": "Matthias Stom, Mulher idosa rezando (fim da década de 1630), The Metropolitan Museum of Art",
+  "alt": "Pintura de Matthias Stom: mulher idosa de mãos postas em oração, iluminada por uma vela",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP146510.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/437757"
+ },
+ "versiculo": {
+  "texto": "Um faz diferença entre dia e dia, mas outro julga iguais todos os dias. Cada um esteja inteiramente seguro em seu próprio ânimo.",
+  "referencia": "Romanos 14.5",
+  "traducao": "ARC"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-19T15:17:01-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-19T15:17:01-03:00"
+}
