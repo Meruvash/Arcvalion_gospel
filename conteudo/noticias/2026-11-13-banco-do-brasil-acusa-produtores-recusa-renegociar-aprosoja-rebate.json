@@ -29,7 +29,7 @@
  "corpo": [
   "Segundo a Agência Brasil, a direção do banco disse que os atrasos se concentram em médios e grandes produtores de soja, milho e pecuária do Centro-Oeste e que o BB intensificou a cobrança e ampliou as exigências de garantias. A presidente afirmou que \"mesmo com colheitas recordes, parte dos grandes e médios produtores optaram por não pagar, nem renegociar, e se recusaram a apresentar garantias\".",
   "Em nota, a Aprosoja Brasil disse que \"produtor rural não é caloteiro\", segundo o g1. Depois das críticas, o BB divulgou comunicado negando ter culpado todo o setor. Em texto publicado pela CNA, a FAEP já registrava queixas de produtores sobre bancos que exigiam novas garantias e cobravam taxas inviáveis na renegociação.",
-  "Atualização (17/11): a Comissão de Agricultura da Câmara tem na pauta de quarta-feira (18) dois requerimentos do deputado Evair Vieira de Melo: uma moção de repúdio às declarações da presidente do BB, Tarciana Medeiros, e uma audiência pública para que ela explique as falas sobre a inadimplência dos produtores, segundo a pauta oficial da comissão."
+  "Atualização (19/11): a Comissão de Agricultura da Câmara aprovou na quarta-feira (18) os dois requerimentos do deputado Evair Vieira de Melo: a moção de repúdio às declarações da presidente do BB, Tarciana Medeiros, e a audiência pública para que ela explique as falas sobre a inadimplência dos produtores. Só o deputado Welter votou contra, segundo os dados abertos da Câmara."
  ],
  "no_brasil": "O Senado aprovou em 11/11 a MP 1.376, que amplia a renegociação das dívidas rurais e segue para sanção, como o portal noticiou. Para o senador Luiz Carlos Heinze (PP-RS), não é possível generalizar o comportamento dos produtores, segundo a Gazeta do Povo.",
  "critica": [
@@ -91,6 +91,18 @@
    "nome": "Câmara dos Deputados, Dados Abertos: pauta da Comissão de Agricultura (CAPADR) de 18/11/2026, REQ 112/2026 e REQ 113/2026",
    "url": "https://dadosabertos.camara.leg.br/api/v2/eventos/83270/pauta",
    "data": "17/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: tramitação do REQ 112/2026 CAPADR (moção de repúdio)",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653960/tramitacoes",
+   "data": "18/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: tramitação do REQ 113/2026 CAPADR (audiência com a presidente do BB)",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653961/tramitacoes",
+   "data": "18/11/2026",
    "tipo": "primaria"
   }
  ],
@@ -213,7 +225,7 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-17T02:34:51-03:00",
+  "data": "2026-11-19T02:29:51-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-13T02:37:14-03:00",
@@ -227,5 +239,5 @@
    "texto": "Grafia do nome do senador corrigida para Luiz Carlos Heinze"
   }
  ],
- "atualizado_em": "2026-11-17T02:34:51-03:00"
+ "atualizado_em": "2026-11-19T02:29:51-03:00"
 }
