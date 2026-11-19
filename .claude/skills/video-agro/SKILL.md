@@ -58,6 +58,9 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
   - prévia curta antes do vídeo completo.
 - Sem gravação, a fala vai pelo clone com o seletor de S neutro.
 
+## Entrega técnica
+- Áudio final em **48 kHz** (`-ar 48000` depois do `loudnorm`). Confira com `ffprobe` antes de entregar. Ver a direção, seção 3.
+
 ## Não fazer
 - Gerar a voz do editor com "style" acima de 0, com o modelo eleven_turbo_v2_5, ou sem passar pelo seletor de "S" (`voz_editor_s_neutro.py`): o clone chia o "S" de fim de sílaba ("desses", "resto", "juiz").
 - Abrir com órgão, sigla, país ou percentual de mercado; capa com número sozinho; pergunta final sobre o setor (`PADRAO_CASEIRO.md`).

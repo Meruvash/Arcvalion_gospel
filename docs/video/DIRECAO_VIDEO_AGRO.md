@@ -292,6 +292,12 @@ similarity 0,85), o clone puxava o "S" carioca no fim de sílaba: "desses", "res
   - **Conferência:** a transcrição do arquivo final precisa trazer a narração inteira.
   - Efeitos de papel, carimbo e whoosh nas entradas.
   - Entrega a −14,5 LUFS e −1,5 dBTP.
+  - **Áudio do arquivo final sempre em 48 kHz** (a taxa que o YouTube recomenda; correção de 19/11/2026).
+    - O `loudnorm` sobe a taxa internamente. Sem `-ar 48000` na saída, o AAC sai em 96 kHz.
+    - Foi o que aconteceu, por erro, nos vídeos da escritura, da pequena propriedade e do herdeiro; o caseiro e o irmão
+      estavam em 48 kHz.
+    - Comando: `-af "loudnorm=I=-14.5:TP=-2:LRA=11,alimiter=limit=0.83:level=disabled,aresample=48000" -ar 48000 -c:a aac -b:a 192k`.
+    - Conferir antes de entregar: `ffprobe -select_streams a -show_entries stream=sample_rate` precisa dar 48000.
 
 ## 4. Entrega
 Mandar sempre junto com o vídeo:
