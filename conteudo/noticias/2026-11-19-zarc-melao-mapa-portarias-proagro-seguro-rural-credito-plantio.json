@@ -1,0 +1,190 @@
+{
+ "slug": "zarc-melao-mapa-portarias-proagro-seguro-rural-credito-plantio",
+ "data": "2026-11-19",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Melão ganha zoneamento de risco climático, base para Proagro, seguro e crédito",
+ "lide": "O Ministério da Agricultura publicou no Diário Oficial de terça-feira (17) as portarias do Zoneamento Agrícola de Risco Climático (Zarc) para o melão, tropical e subtropical. O Zarc indica os municípios aptos e as épocas de plantio de menor risco e é a base oficial para o acesso ao crédito, ao Proagro e à subvenção do seguro rural, segundo o ministério.",
+ "por_que_importa": "Para quem planta melão, plantar fora da janela do zoneamento pode significar ficar sem Proagro e sem desconto no prêmio do seguro. Agora a cultura tem regra oficial por município e por ciclo, o que permite ao produtor planejar o plantio e conferir, antes de contratar crédito, se está dentro do zoneamento.",
+ "numeros": [
+  [
+   "2",
+   "modalidades de zoneamento: melão tropical, irrigado e tecnificado (Norte, Nordeste, Centro-Oeste e Sudeste), e subtropical, irrigado ou de sequeiro (Sul)",
+   "Mapa, 17/11/2026"
+  ],
+  [
+   "4",
+   "fases do ciclo foram avaliadas: do transplantio à floração, floração e polinização, crescimento dos frutos e maturação",
+   "Mapa, 17/11/2026"
+  ],
+  [
+   "23",
+   "unidades da federação, entre elas Rondônia, estão no Zarc do melão tropical irrigado (22 estados e o Distrito Federal)",
+   "Portaria SPA/MAPA nº 420/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo o ministério, o estudo é da Embrapa e considera dados climáticos recentes. No Nordeste, onde o cultivo é irrigado, o principal risco é o excesso de chuva na floração e na maturação, que derruba flores, favorece fungos e racha os frutos. No Sul, o limite é o frio, e parte dos produtores usa cobertura plástica no início do ciclo.",
+  "O ministério diz que produtores do Ceará e do Rio Grande do Norte têm ampliado a área plantada mesmo no período chuvoso, o que aumenta o risco climático. As recomendações podem ser consultadas no Painel de Indicação de Riscos do Mapa, nas portarias por estado e no aplicativo Plantio Certo."
+ ],
+ "no_brasil": "A Portaria SPA/MAPA nº 420, do melão tropical irrigado, vale para o Distrito Federal e 22 estados, entre eles Rondônia, e entrou em vigor na publicação. Os principais polos citados pelo ministério são Mossoró e Vale do Açu (RN), Baixo Jaguaribe (CE), Petrolina (PE) e Juazeiro (BA).",
+ "critica": [
+  {
+   "fonte": "Marlos Bezerra, pesquisador da Embrapa, segundo o Ministério da Agricultura",
+   "texto": "O zoneamento atua como um guia prático para o planejamento da lavoura, ajudando o agricultor a escolher o momento e o local adequados para o plantio, minimizando perdas e conferindo maior segurança às decisões no campo",
+   "citacao": true,
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/mapa-publica-zoneamento-agricola-de-risco-climatico-para-o-cultivo-do-melao"
+  },
+  {
+   "fonte": "Magna Moura, pesquisadora da Embrapa, segundo o Ministério da Agricultura",
+   "texto": "O sucesso da produção também depende da qualidade das sementes, do manejo adequado do solo, da irrigação, da nutrição das plantas e do controle de pragas e doenças",
+   "citacao": true,
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/mapa-publica-zoneamento-agricola-de-risco-climatico-para-o-cultivo-do-melao"
+  }
+ ],
+ "para_quem": [
+  "Produtor de melão que vai financiar a lavoura: confira no Plantio Certo ou no Painel de Indicação de Riscos se o município e a data de plantio estão no zoneamento antes de assinar o crédito",
+  "Quem quer Proagro ou subvenção do seguro: o Zarc é a base oficial para esse acesso, segundo o ministério",
+  "Técnicos e cooperativas do Nordeste: a janela de plantio no período chuvoso é a que tem mais risco"
+ ],
+ "nao_e_para": [
+  "O Zarc não elimina os riscos climáticos nem garante produtividade, diz a própria Embrapa",
+  "Não conferimos a lista de municípios e janelas de cada estado; ela está nas portarias e no aplicativo",
+  "O zoneamento não define o valor da subvenção nem a taxa do crédito"
+ ],
+ "veredito": "A gente acha que zoneamento bom é o que chega ao produtor antes do plantio. Fica o conselho: conferir o município e a data no aplicativo antes de assinar o crédito evita surpresa na hora de acionar o Proagro.",
+ "fontes": [
+  {
+   "nome": "Ministério da Agricultura e Pecuária: Mapa publica zoneamento agrícola de risco climático para o cultivo do melão",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/mapa-publica-zoneamento-agricola-de-risco-climatico-para-o-cultivo-do-melao",
+   "data": "17/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Ministério da Agricultura: Portaria SPA/MAPA nº 420, de 13 de novembro de 2026 (Zarc do melão tropical irrigado)",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/riscos-seguro/programa-nacional-de-zoneamento-agricola-de-risco-climatico/portarias/safra-vigente/acre/PORTN420MELOTROPICALIRRIGADO.pdf",
+   "data": "17/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 57,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Zoneamento de risco climático que define o acesso do produtor de melão ao crédito, ao Proagro e à subvenção do seguro"
+  },
+  "origem": {
+   "nome": "Ministério da Agricultura e Pecuária",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/mapa-publica-zoneamento-agricola-de-risco-climatico-para-o-cultivo-do-melao"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Norma oficial que vale para todos os produtores de melão do país, uma cultura concentrada em poucos polos"
+   },
+   "afinidade": {
+    "pontos": 15,
+    "porque": "Proagro, seguro e crédito rural, mas para uma única cultura"
+   },
+   "atualidade": {
+    "pontos": 15,
+    "porque": "Portarias publicadas no Diário Oficial de terça-feira (17), em vigor desde a publicação, antes dos próximos plantios"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Nota oficial do ministério e texto da Portaria SPA/MAPA nº 420 lidos; listas por município não conferidas"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Destacamos o efeito do zoneamento no acesso ao Proagro e ao seguro, que é o que importa ao produtor"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 7,
+    "viral": 2,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: nota oficial do ministério (2)",
+    "Ato de quem tem poder: portarias do Mapa (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: onde conferir antes do crédito (2)",
+    "Calendário: portarias desta semana (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Mapa publica zoneamento agrícola de risco climático para o cultivo do melão",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Zarc, Proagro e seguro",
+  "coleta": "2026-11-19",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na nota oficial e na Portaria SPA/MAPA nº 420",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "lista de municípios e janelas por estado"
+  },
+  "duplicidade": {
+   "grupo": "Zarc 2026",
+   "itens": [
+    "Mapa 17/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber se o melão tem Zarc e o que muda para Proagro e seguro",
+   "entidades": [
+    "Zarc",
+    "melão",
+    "Proagro",
+    "PSR",
+    "Embrapa",
+    "Plantio Certo"
+   ],
+   "termos": [
+    "Zarc melão",
+    "zoneamento agrícola melão 2026",
+    "Proagro melão"
+   ],
+   "atualizacao": "acompanhar novas portarias de Zarc"
+  },
+  "agro": {
+   "demanda": "Produtores de melão que precisam se enquadrar no zoneamento para ter crédito, Proagro e subvenção do seguro",
+   "prazo": "vale a partir das portarias de 17/11/2026, para os próximos plantios",
+   "quem": "Produtores de melão tropical (RN, CE, PE, BA) e subtropical (Sul)"
+  }
+ },
+ "descricao_seo": "Mapa publica o Zarc do melão tropical e subtropical: zoneamento define municípios e épocas de plantio e é base para Proagro, seguro e crédito.",
+ "instituicao": "Ministério da Agricultura e Pecuária",
+ "editora": "Ministério da Agricultura e Pecuária",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da nota oficial, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: todos os fatos vêm da nota oficial do ministério, com as falas dos pesquisadores atribuídas; a nota avisa que as portarias por estado não foram lidas. Nenhuma crítica a pessoa ou órgão. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/zarc-melao-mapa-portarias-proagro-seguro-rural-credito-plantio.jpg",
+  "credito": "Marquesa de Grollier, Natureza-morta com vaso de flores, melão, pêssegos e uvas (1780), The Metropolitan Museum of Art",
+  "alt": "Pintura de natureza-morta: vaso de flores ao lado de um melão aberto, pêssegos e uvas",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP-25141-001.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/888924"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-19T15:09:18-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-19T15:09:18-03:00"
+}
