@@ -60,6 +60,7 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 
 ## Entrega técnica
 - Áudio final em **48 kHz** (`-ar 48000` depois do `loudnorm`). Confira com `ffprobe` antes de entregar. Ver a direção, seção 3.
+- **Sem limpeza de metadados** (decisão do editor, 19/11/2026): o arquivo sai igual ao do caseiro e do irmão, com a etiqueta padrão do ffmpeg. Nada de `-map_metadata -1`, `-fflags +bitexact` ou remoção de `encoder`.
 
 ## Não fazer
 - Gerar a voz do editor com "style" acima de 0, com o modelo eleven_turbo_v2_5, ou sem passar pelo seletor de "S" (`voz_editor_s_neutro.py`): o clone chia o "S" de fim de sílaba ("desses", "resto", "juiz").

@@ -206,8 +206,13 @@ crítica). Exemplo: `docs/video/roteiros/aposentadoria-rural-roca.md`, v2.
 
 Quando precisar de alcance, a saída é a imagem própria: animação e pintura em código, que é a base do formato.
 
-**Metadados limpos no arquivo final, sim:** o MP4 que vai para a rede sai com `-map_metadata -1` (sem nome de
-ferramenta, data de criação ou caminhos de arquivo).
+**Metadados: arquivo igual ao do ouro, sem limpeza** (decisão do editor, 19/11/2026, substitui a regra de 17/11).
+- O MP4 sai como o do caseiro e o do irmão: com a etiqueta padrão do ffmpeg e sem `-map_metadata -1`, `-fflags +bitexact`
+  nem remoção do `encoder`.
+- **Por quê:** a limpeza só tirava o nome do ffmpeg; o ouro nunca teve dado de câmera nem de data. Ela entrou junto com o
+  áudio em 96 kHz nos três vídeos que travaram, e não dá para separar as duas mudanças. Voltar ao arquivo que funcionou
+  tira as duas da conta.
+- **Arquivo de trabalho:** o arquivo continua sem caminhos ou nomes pessoais, porque nada disso entra no MP4 pelo ffmpeg.
 
 **Pessoas:** de costas, de longe ou com autorização. Nunca um rosto identificável de alguém que não autorizou.
 **Crédito:** rodapé no padrão "FOTO/VÍDEO: autor · banco · licença".
@@ -296,7 +301,9 @@ similarity 0,85), o clone puxava o "S" carioca no fim de sílaba: "desses", "res
     - O `loudnorm` sobe a taxa internamente. Sem `-ar 48000` na saída, o AAC sai em 96 kHz.
     - Foi o que aconteceu, por erro, nos vídeos da escritura, da pequena propriedade e do herdeiro; o caseiro e o irmão
       estavam em 48 kHz.
-    - Comando: `-af "loudnorm=I=-14.5:TP=-2:LRA=11,alimiter=limit=0.83:level=disabled,aresample=48000" -ar 48000 -c:a aac -b:a 192k`.
+    - Comando completo da entrega (padrão desde 19/11/2026, igual ao do ouro):
+      `ffmpeg -i render.mp4 -af "loudnorm=I=-14.5:TP=-2:LRA=11,alimiter=limit=0.83:level=disabled,aresample=48000" -ar 48000 -c:v libx264 -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k -movflags +faststart final.mp4`
+      (sem limpeza de metadados).
     - Conferir antes de entregar: `ffprobe -select_streams a -show_entries stream=sample_rate` precisa dar 48000.
 
 ## 4. Entrega

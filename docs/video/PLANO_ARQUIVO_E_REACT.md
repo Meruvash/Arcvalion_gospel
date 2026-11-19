@@ -58,7 +58,7 @@ react por cima.
 ### 2.2 Antes de publicar (lista de conferência)
 - **Proporção:** pelo menos 80% do tempo de tela é imagem própria ou de domínio público. Medir e anotar.
 - **Trechos de terceiros:** cada um ≤ 8 s, fora da abertura, com crédito e com comentário por cima.
-- **Metadados:** arquivo final com metadados limpos (`-map_metadata -1`).
+- **Arquivo:** igual ao do ouro, com áudio em 48 kHz e sem limpeza de metadados (decisão de 19/11/2026; ver a direção, seção 2.7).
 - **Verificações do YouTube Studio:** subir como **privado**, esperar o resultado das verificações de direitos autorais
   e de adequação a anúncios ("Checks") e só então publicar.
   - Se aparecer reivindicação: trocar o trecho por imagem própria, ou contestar com base na citação (art. 46, III, ou
