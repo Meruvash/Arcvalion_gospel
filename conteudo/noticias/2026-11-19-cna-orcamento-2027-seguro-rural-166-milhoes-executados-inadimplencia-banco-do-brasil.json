@@ -1,0 +1,199 @@
+{
+ "slug": "cna-orcamento-2027-seguro-rural-166-milhoes-executados-inadimplencia-banco-do-brasil",
+ "data": "2026-11-19",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Motivo de alerta",
+ "titulo": "CNA diz que só R$ 166 milhões do seguro rural foram pagos em 2026",
+ "lide": "A Confederação da Agricultura e Pecuária do Brasil (CNA) disse na quarta-feira (18), na Comissão Mista de Orçamento, que o seguro rural teve R$ 1 bilhão no Orçamento de 2026, quando seriam necessários R$ 4 bilhões, e que só R$ 166 milhões foram executados até agora. Segundo a entidade, a inadimplência do setor subiu de 0,86% em 2023 para 5,62% neste ano.",
+ "por_que_importa": "Sem subvenção, o produtor planta sem seguro ou paga o prêmio cheio, e uma seca vira dívida no banco. A CNA liga uma coisa à outra: menos seguro, mais inadimplência. O recado para o Orçamento de 2027 é que pôr dinheiro na lei não basta se ele for cortado ou chegar depois do plantio.",
+ "numeros": [
+  [
+   "R$ 166 mi",
+   "executados no seguro rural em 2026, de R$ 1 bilhão previstos, segundo a CNA",
+   "CNA na Comissão Mista de Orçamento, segundo a Agência Câmara, 18/11/2026"
+  ],
+  [
+   "R$ 4 bi",
+   "seriam necessários para o seguro rural em 2026, segundo a entidade",
+   "CNA, segundo a Agência Câmara"
+  ],
+  [
+   "5,62%",
+   "é a inadimplência do setor neste ano, ante 0,86% em 2023, segundo a CNA",
+   "CNA, segundo a Agência Câmara"
+  ],
+  [
+   "R$ 292 mi",
+   "é o orçamento previsto para a Embrapa em 2027; a média até 2014 era de R$ 1 bilhão, segundo a presidente da empresa",
+   "Agência Câmara, 18/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo a Agência Câmara, o setor apresentou cerca de R$ 1 bilhão em emendas ao Orçamento de 2027 (PLN 24/26), sobretudo para pesquisa, defesa agropecuária e estradas vicinais. A assessora da CNA Isabel Mendes de Faria disse que os recursos precisam estar garantidos e defendeu trabalhar a Lei de Diretrizes Orçamentárias para evitar cortes e contingenciamentos.",
+  "Na mesma audiência, os deputados Alceu Moreira (MDB-RS) e Domingos Sávio (PL-MG) criticaram a presidente do Banco do Brasil, Tarciana Medeiros, que em 12 de novembro disse que médios e grandes produtores inadimplentes se recusaram a renegociar. Alceu Moreira pediu uma comissão especial sobre o banco; Domingos Sávio quer convocar a presidente e o ministro da Fazenda."
+ ],
+ "no_brasil": "O relator setorial de Agricultura no Orçamento, deputado Gabriel Nunes (PSD-BA), disse que vai buscar os ajustes possíveis. O Congresso tem até dezembro para votar o Orçamento de 2027. O ajuste fiscal aprovado pelo Senado na quarta, que vai à Câmara, permite contingenciar despesas obrigatórias com teto.",
+ "critica": [
+  {
+   "fonte": "Isabel Mendes de Faria, assessora da CNA, segundo a Agência Câmara",
+   "texto": "Não adianta suplementar se essas políticas vão sofrer cortes e contingenciamentos, ou se elas vão chegar num momento em que não poderão ser aplicadas.",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1320734-setor-agropecuario-defende-aumento-de-recursos-no-orcamento-de-2027"
+  },
+  {
+   "fonte": "Deputado Alceu Moreira (MDB-RS), segundo a Agência Câmara",
+   "texto": "Nós queremos um agro tratado com respeito porque nós somos capazes de gerar a riqueza que carrega esse país nas costas.",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1320734-setor-agropecuario-defende-aumento-de-recursos-no-orcamento-de-2027"
+  }
+ ],
+ "para_quem": [
+  "Produtor que conta com a subvenção do prêmio para a próxima safra: confirme com a seguradora se há saldo de subvenção antes de fechar a apólice",
+  "Cooperativas e sindicatos rurais: o ponto a levar aos deputados é a execução do seguro, não só o valor no Orçamento",
+  "Quem está inadimplente no Banco do Brasil: a cobrança política sobre o banco não muda o contrato; renegociação continua sendo feita com o banco"
+ ],
+ "nao_e_para": [
+  "Os números de execução e de inadimplência são da CNA, relatados pela Agência Câmara; não foram conferidos em base oficial",
+  "O Orçamento de 2027 ainda está em votação e pode mudar",
+  "A comissão especial sobre o Banco do Brasil é só um pedido, ainda não criada"
+ ],
+ "veredito": "A gente cobra coerência: seguro rural que tem R$ 1 bilhão na lei e paga R$ 166 milhões em novembro é promessa, não política. Antes de discutir emenda nova, o governo precisa pagar o que já está no Orçamento.",
+ "fontes": [
+  {
+   "nome": "Agência Câmara: Setor agropecuário defende aumento de recursos no Orçamento de 2027",
+   "url": "https://www.camara.leg.br/noticias/1320734-setor-agropecuario-defende-aumento-de-recursos-no-orcamento-de-2027",
+   "data": "18/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Senado completa votação, e ajuste fiscal segue para a Câmara",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/senado-completa-votacao-e-ajuste-fiscal-segue-para-a-camara",
+   "data": "18/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 67,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Execução do seguro rural em 2026, inadimplência do setor e Orçamento de 2027 para a agropecuária"
+  },
+  "origem": {
+   "nome": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1320734-setor-agropecuario-defende-aumento-de-recursos-no-orcamento-de-2027"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Mostra o tamanho do corte de fato na subvenção ao seguro rural e abre a disputa do Orçamento de 2027 para o setor"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Seguro rural, inadimplência e crédito, núcleo da aba Chamada Agro"
+   },
+   "atualidade": {
+    "pontos": 18,
+    "porque": "Audiência na Comissão Mista de Orçamento na quarta-feira (18)"
+   },
+   "comprovacao": {
+    "pontos": 10,
+    "porque": "Agência Câmara lida na íntegra, com falas atribuídas; os números são da CNA e não foram conferidos em base oficial"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Ligamos a execução do seguro ao artigo de contingenciamento do ajuste fiscal, que a reportagem não citou"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 0
+   },
+   "criterios": [
+    "Ato de quem tem poder: audiência na Comissão Mista de Orçamento (2)",
+    "Proximidade: nacional (2)",
+    "Número forte: R$ 166 milhões de R$ 1 bilhão (1)",
+    "Duas fontes independentes: Agência Câmara e Agência Senado (1)",
+    "Personagem com nome: CNA e deputados (1)",
+    "Contraria a narrativa: inadimplência ligada ao seguro, não ao produtor (1)",
+    "Utilidade: o que conferir antes da apólice (1)",
+    "Calendário: Orçamento de 2027 em votação (1)",
+    "Cabe num cartão: só 166 milhões do seguro rural pagos (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Setor agropecuário defende aumento de recursos no Orçamento de 2027",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Seguro rural e orçamento",
+  "coleta": "2026-11-19",
+  "verificacao": {
+   "grau_de_confianca": "médio-alto",
+   "status": "conferido na Agência Câmara; números atribuídos à CNA",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "execução do PSR em base oficial (Siop, Portal da Transparência)"
+  },
+  "duplicidade": {
+   "grupo": "Seguro rural e orçamento",
+   "itens": [
+    "Agência Câmara 18/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-18-ajuste-fiscal-plp-299-seguro-rural-compensacao-contingenciamento-destaques"
+  },
+  "seo": {
+   "intencao": "saber quanto do seguro rural foi pago em 2026 e o que muda no Orçamento de 2027",
+   "entidades": [
+    "CNA",
+    "seguro rural",
+    "Orçamento 2027",
+    "Comissão Mista de Orçamento",
+    "Banco do Brasil",
+    "Embrapa"
+   ],
+   "termos": [
+    "seguro rural 2026 execução",
+    "orçamento 2027 agro",
+    "subvenção seguro rural 166 milhões"
+   ],
+   "atualizacao": "atualizar com o relatório setorial de Agricultura do Orçamento de 2027"
+  },
+  "agro": {
+   "demanda": "Produtores sem subvenção ao prêmio do seguro rural e com dívidas em atraso, em especial no Banco do Brasil",
+   "prazo": "votação do Orçamento de 2027 até dezembro; safra 2026/27 em curso",
+   "quem": "Produtores que contratam seguro rural com subvenção e entidades do setor"
+  }
+ },
+ "descricao_seo": "CNA diz na Comissão de Orçamento que o seguro rural teve R$ 1 bi em 2026, mas só R$ 166 mi foram pagos; inadimplência do agro foi a 5,62%.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Agência Câmara",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das reportagens, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os números são atribuídos à CNA, com aviso de que não foram conferidos em base oficial; as críticas ao Banco do Brasil são dos deputados, citadas como tais, e a nota não imputa fraude a ninguém nem repete a menção genérica a denúncias. A opinião cobra execução do orçamento, sem acusar pessoa. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/cna-orcamento-2027-seguro-rural-166-milhoes-executados-inadimplencia-banco-do-brasil.jpg",
+  "credito": "Foto: Vinicius Loures/Câmara dos Deputados",
+  "alt": "Isabel Mendes de Faria, assessora da CNA, fala em audiência da Comissão Mista de Orçamento",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/11/img20261118114727841.jpeg",
+  "pagina": "https://www.camara.leg.br/noticias/1320734-setor-agropecuario-defende-aumento-de-recursos-no-orcamento-de-2027"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-19T02:31:53-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-19T02:31:53-03:00"
+}
