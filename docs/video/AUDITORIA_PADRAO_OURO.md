@@ -13,6 +13,7 @@ irmão vendeu sem avisar. Esse último bateu 5.000 visualizações."
 | Vídeo | Visualizações (informadas pelo editor) | Nota automática nesta auditoria |
 |---|---|---|
 | **"O irmão vendeu sem avisar"** (herança, CC arts. 1.794, 1.795, 1.314, 1.322) | **5.000** | **23/23** |
+| **"O irmão vira dono da herança?"** (herdeiro, roteiro feito já com esta auditoria) | **mais de 1.000 no Instagram** no teste (editor, 20/11/2026); 1 no YouTube (arquivo com áudio em 96 kHz) | **23/23** |
 | **"O caseiro e o vizinho"** (usucapião, CC arts. 1.198, 1.208, 1.238, 1.239) | **2.200** | **23/23** |
 | "O gado do vizinho comeu a sua roça" | o mais fraco dos 100% animação | 15/23 |
 | "Comprou a terra e não é dono?" | alcance fraco | 13/23 |
