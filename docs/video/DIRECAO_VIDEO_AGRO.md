@@ -276,6 +276,22 @@ vontade."
    - precisa de uma conta gratuita do editor, com a chave salva nas configurações do ambiente, nunca no chat.
 3. **O computador do editor,** se tiver placa NVIDIA com 8 GB ou mais: Wan2GP, sem limite.
 
+**Primeiro teste real (20/11/2026, Kaggle, conta gratuita do editor):**
+- **Script:** `tools/video/agro-arte/ia_kaggle/wan22_ti2v_t4.py`. Ele é enviado pela API do Kaggle, com o segredo salvo no
+  ambiente, e roda privado na T4 grátis.
+- **Resultado:** a pintura da sede virou 2,5 s de clipe em 576×576, ampliado depois para 1080.
+  - O modelo leva cerca de 5 min para carregar e cerca de 41 min para gerar.
+  - Na cota de cerca de 30 h por semana, isso dá em torno de 40 clipes.
+- **Para a T4 aguentar** (16 GB de vídeo e 29 GB de RAM), foram precisos quatro ajustes:
+  - o texto é codificado primeiro e o codificador sai da memória;
+  - o modelo é descarregado em blocos (`block_level`, sem `use_stream`);
+  - a resolução fica em 576;
+  - o clipe tem 61 quadros.
+- **O que ainda precisa ajustar:**
+  - o modelo inventou um homem em primeiro plano e deslocou a mangueira;
+  - o prompt deve pedir só movimento sutil (vento, nuvem, luz), sem descrever pessoas fazendo ações, e usar guidance
+    mais baixo.
+
 **Sem custo também na ferramenta:**
 - nada de MuAPI, nem de créditos pagos da Higgsfield, nem de qualquer serviço cobrado;
 - se aparecer cobrança, a geração para.
