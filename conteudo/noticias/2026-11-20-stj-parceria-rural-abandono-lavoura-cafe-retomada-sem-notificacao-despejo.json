@@ -1,0 +1,189 @@
+{
+ "slug": "stj-parceria-rural-abandono-lavoura-cafe-retomada-sem-notificacao-despejo",
+ "data": "2026-11-20",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "STJ: dono pode retomar terra de parceria rural abandonada sem despejo nem aviso",
+ "lide": "Na parceria rural, se o parceiro abandona a lavoura ou descumpre gravemente o contrato, o dono da terra pode retomar a área sem notificação prévia e sem ação de despejo, decidiu a Terceira Turma do STJ em acórdão publicado em 16 de novembro. O caso envolvia uma lavoura de café em Minas Gerais, e o parceiro que perdeu a área pedia indenização.",
+ "por_que_importa": "Parceria rural é contrato comum no café, na cana e em outras culturas. A decisão separa a parceria do arrendamento e diz quando o proprietário precisa avisar antes ou ir à Justiça para reaver a terra. Para quem trabalha em terra alheia, mostra o risco de deixar a lavoura sem manejo.",
+ "numeros": [
+  [
+   "16/11",
+   "foi a publicação do acórdão, julgado em 10 de novembro pela Terceira Turma",
+   "STJ, REsp 2.271.481/MG"
+  ],
+  [
+   "Art. 32",
+   "do Decreto 59.566/1966 lista as infrações graves que dispensam a notificação, entre elas o abandono total ou parcial do cultivo",
+   "STJ, REsp 2.271.481/MG"
+  ],
+  [
+   "2",
+   "exigências afastadas no caso de abandono: notificação premonitória e ação de despejo prévia",
+   "STJ, REsp 2.271.481/MG"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, relatada pela ministra Nancy Andrighi, a parceria difere do arrendamento porque as partes dividem riscos e resultados e o parceiro não recebe a posse plena. A notificação premonitória serve para proteger a exploração regular quando o dono quer encerrar o contrato, ceder a área ou explorá-la ele mesmo; ela é dispensável quando há abandono ou infração grave.",
+  "A ação de despejo, diz a decisão, só é necessária quando, extinta a parceria, o parceiro permanece na área ou resiste a devolvê-la. No caso, o Tribunal de Justiça de Minas Gerais reconheceu que o parceiro abandonou a lavoura de café e deixou de fazer o manejo, e o STJ manteve a decisão."
+ ],
+ "no_brasil": "A parceria e o arrendamento rural são regulados pelo Estatuto da Terra (Lei 4.504/1964) e pelo Decreto 59.566/1966, citados na decisão. Pelo artigo 92 do Estatuto, o descumprimento do contrato permite encerrá-lo, segundo a ementa.",
+ "critica": [
+  {
+   "fonte": "STJ, Terceira Turma, REsp 2.271.481/MG",
+   "texto": "A ação de despejo somente é necessária quando, extinta a parceria, o parceiro-outorgado permanece na área ou oferece resistência à restituição.",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2271481&O=JT"
+  },
+  {
+   "fonte": "Parceiro-outorgado, autor da ação, segundo a ementa",
+   "texto": "Pediu reparação de danos materiais e morais pela retomada do imóvel de café e alegou cerceamento de defesa por não ter tido acesso a documentos mantidos sob sigilo.",
+   "citacao": false,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2271481&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Quem planta em parceria na terra de outro: abandonar a lavoura ou deixar de cumprir o contrato pode levar à perda da área sem aviso",
+  "Proprietário com parceria rural: a retomada sem despejo vale para abandono ou infração grave; se o parceiro resistir a sair, o despejo continua necessário",
+  "Arrendatários: a decisão trata da parceria; o arrendamento tem regras próprias, e o STJ destacou a diferença"
+ ],
+ "nao_e_para": [
+  "Não vale para o fim normal do contrato: nesse caso, a notificação continua exigida",
+  "É decisão de turma em caso concreto, sem efeito vinculante",
+  "Não trata de arrendamento rural, que transfere a posse ao arrendatário"
+ ],
+ "veredito": "A gente acha a decisão equilibrada: parceria é sociedade, e quem abandona a lavoura rompe o trato. Mas o dono só dispensa o despejo se o abandono for claro; na dúvida, documentar a situação da lavoura antes de retomar evita briga longa.",
+ "fontes": [
+  {
+   "nome": "STJ: REsp 2.271.481/MG, Terceira Turma, relatora Ministra Nancy Andrighi",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2271481&O=JT",
+   "data": "16/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: base de jurisprudência, pesquisa sobre parceria rural e Estatuto da Terra (novembro de 2026)",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=%22parceria%20rural%22%20e%20%22Estatuto%20da%20Terra%22&O=JT",
+   "data": "20/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 60,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Decisão do STJ sobre contrato de parceria rural, abandono da lavoura e retomada da terra pelo proprietário"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2271481&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Decisão de mérito do STJ que orienta parceiros e proprietários rurais sobre a retomada da terra"
+   },
+   "afinidade": {
+    "pontos": 17,
+    "porque": "Contratos agrários e direito do produtor, eixo da aba Agro, fora do núcleo de crédito e dívida"
+   },
+   "atualidade": {
+    "pontos": 14,
+    "porque": "Acórdão publicado em 16/11, há quatro dias"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa integral lida na base de jurisprudência do STJ"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Decisão sem cobertura na imprensa; explicamos quando o aviso e o despejo são exigidos"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 7,
+    "viral": 2,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: quando é preciso avisar e despejar (2)",
+    "Moeda social: regra que poucos conhecem (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "REsp 2.271.481/MG",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Contratos agrários",
+  "coleta": "2026-11-20",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa integral conferida na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "nomes das partes e valores pedidos"
+  },
+  "duplicidade": {
+   "grupo": "Contratos agrários no STJ",
+   "itens": [
+    "REsp 2.271.481/MG"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber se o dono pode retomar terra de parceria rural sem despejo",
+   "entidades": [
+    "STJ",
+    "parceria rural",
+    "Estatuto da Terra",
+    "Decreto 59.566/1966",
+    "Nancy Andrighi"
+   ],
+   "termos": [
+    "parceria rural abandono lavoura",
+    "retomada parceria rural sem despejo",
+    "notificação premonitória parceria rural"
+   ],
+   "atualizacao": "acompanhar julgados sobre contratos agrários"
+  },
+  "agro": {
+   "demanda": "Parceiros e proprietários em contratos de parceria rural, com dúvida sobre retomada da área e notificação",
+   "prazo": "sem prazo próprio",
+   "quem": "Parceiros-outorgados e proprietários rurais, em especial em café e outras culturas perenes"
+  }
+ },
+ "descricao_seo": "STJ decide que, na parceria rural, o dono pode retomar a terra abandonada sem notificação nem despejo; o caso era de lavoura de café em MG.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura da ementa, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: as regras vêm da ementa, citada literalmente; a nota não nomeia partes e avisa que é caso concreto e que o fim normal do contrato ainda exige notificação. A opinião é conselho geral, sem assegurar resultado. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-parceria-rural-abandono-lavoura-cafe-retomada-sem-notificacao-despejo.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Xícara de café sobre pires em mesa de madeira (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/QvX6f-giQ6jgi75lAZS4CXT15w8=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mcamg_abr_011018_7285_1.jpg?itok=WvkSuo7b",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/consumo-de-cafe-sobe-244-no-primeiro-quadrimestre-deste-ano"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-20T14:58:05-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-20T14:58:05-03:00"
+}
