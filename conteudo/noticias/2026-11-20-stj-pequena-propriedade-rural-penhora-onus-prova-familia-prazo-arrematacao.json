@@ -1,0 +1,198 @@
+{
+ "slug": "stj-pequena-propriedade-rural-penhora-onus-prova-familia-prazo-arrematacao",
+ "data": "2026-11-20",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "STJ: produtor tem de provar que a família trabalha a terra para evitar penhora",
+ "lide": "Para livrar a pequena propriedade rural da penhora, cabe ao produtor provar que, além de pequena, ela é explorada pela família, reafirmou a Terceira Turma do STJ em decisão publicada na quinta-feira (19). Em outro caso, a Quarta Turma manteve o entendimento de que essa proteção só pode ser alegada até a assinatura do auto de arrematação.",
+ "por_que_importa": "A proteção existe, mas não é automática. O produtor que deixa para falar da impenhorabilidade tarde demais, ou sem prova de que a família vive do trabalho na terra, pode perder o imóvel no leilão. As decisões dizem quem tem de provar e até quando.",
+ "numeros": [
+  [
+   "19/11",
+   "foi a publicação da decisão da Terceira Turma sobre o ônus da prova, tomada por unanimidade em sessão virtual",
+   "STJ, AgInt no AREsp 3.225.036/MG"
+  ],
+  [
+   "Auto",
+   "de arrematação assinado é o limite para alegar a impenhorabilidade, segundo a Quarta Turma",
+   "STJ, REsp 2.294.133/GO"
+  ],
+  [
+   "4 módulos",
+   "fiscais é o teto de área para a impenhorabilidade de mais de um terreno, pela tese do STF no Tema 961",
+   "STF, Tema 961"
+  ]
+ ],
+ "corpo": [
+  "No caso de Minas Gerais, relatado pela ministra Nancy Andrighi, o produtor não comprovou que o imóvel penhorado era trabalhado pela família. A ementa registra que a jurisprudência da Segunda Seção do STJ põe esse ônus no devedor. No caso de Goiás, relatado pelo ministro João Otávio de Noronha, o STJ manteve o entendimento de que a impenhorabilidade pode ser arguida só até a consumação da arrematação, que se dá com a assinatura do auto.",
+  "Numa terceira decisão, também publicada em 19 de novembro, de Santa Catarina, a Terceira Turma tratou a contiguidade dos terrenos como requisito da proteção quando a família tem mais de um imóvel, e manteve a conclusão do tribunal local de que as glebas não eram contíguas."
+ ],
+ "no_brasil": "A impenhorabilidade da pequena propriedade rural trabalhada pela família está na Constituição e no Código de Processo Civil. O STF fixou no Tema 961 que ela vale também para mais de um terreno, se contínuos e com área total abaixo de quatro módulos fiscais, como o portal explicou em 13 de novembro.",
+ "critica": [
+  {
+   "fonte": "STJ, Terceira Turma, AgInt no AREsp 3.225.036/MG",
+   "texto": "A jurisprudência firmada pela Segunda Seção do STJ é no sentido de que, para efeitos de impenhorabilidade, é ônus do devedor comprovar que além de pequena, a propriedade destina-se à exploração familiar.",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3225036&O=JT"
+  },
+  {
+   "fonte": "STJ, Quarta Turma, REsp 2.294.133/GO",
+   "texto": "Não ocorreu a ofensa aos arts. 833, VIII, 903 e 507 do CPC diante da possibilidade de alegação de impenhorabilidade apenas até a consumação da arrematação.",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2294133&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Pequeno produtor executado: alegue a impenhorabilidade logo e com prova de que a família trabalha a terra; depois do auto de arrematação assinado, é tarde",
+  "Família com mais de um terreno: a proteção do conjunto depende de os terrenos serem vizinhos e somarem menos de quatro módulos fiscais",
+  "Credores e bancos: o ônus de provar a exploração familiar é do devedor, segundo o STJ"
+ ],
+ "nao_e_para": [
+  "São decisões em casos concretos; nos três, o STJ não reexaminou provas",
+  "A proteção vale para o imóvel; os rendimentos dele, como arrendamento, podem ser penhorados em parte, segundo outro julgado do STJ",
+  "Não muda a regra: o STJ aplicou entendimentos que já tinha"
+ ],
+ "veredito": "A gente acha a proteção justa, mas o recado do STJ é duro: quem cala ou não prova perde a terra. Pequeno produtor executado não deve esperar o leilão; precisa mostrar cedo, com documentos, que a família vive do trabalho naquela terra.",
+ "fontes": [
+  {
+   "nome": "STJ: AgInt no AREsp 3.225.036/MG, Terceira Turma, relatora Ministra Nancy Andrighi",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3225036&O=JT",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: REsp 2.294.133/GO, Quarta Turma, relator Ministro João Otávio de Noronha",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2294133&O=JT",
+   "data": "05/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: AgInt no AREsp 3.106.957/SC, Terceira Turma, relatora Ministra Daniela Teixeira",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3106957&O=JT",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 64,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Impenhorabilidade da pequena propriedade rural do produtor executado: quem prova e até quando"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3225036&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Decisões de turmas do STJ que orientam a defesa do pequeno produtor contra a penhora da terra"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Execução de dívida e proteção da terra do produtor, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 15,
+    "porque": "Duas das decisões publicadas na quinta-feira (19), há um dia"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementas das três decisões lidas na base de jurisprudência do STJ"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Reunimos três decisões recentes sem cobertura na imprensa num guia de prova e prazo"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 8,
+    "viral": 2,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdãos do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: até quando e como alegar (2)",
+    "Moeda social: regra que poucos conhecem (1)",
+    "Duas fontes independentes: turmas diferentes (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "AgInt no AREsp 3.225.036/MG; REsp 2.294.133/GO; AgInt no AREsp 3.106.957/SC",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Justiça e penhora",
+  "coleta": "2026-11-20",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementas conferidas na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "nomes das partes e valores das execuções"
+  },
+  "duplicidade": {
+   "grupo": "Impenhorabilidade da pequena propriedade rural",
+   "itens": [
+    "AREsp 3.225.036",
+    "REsp 2.294.133",
+    "AREsp 3.106.957"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-13-pequena-propriedade-rural-impenhoravel-stf-tema-961-cobranca-dividas"
+  },
+  "seo": {
+   "intencao": "saber como livrar a pequena propriedade rural da penhora",
+   "entidades": [
+    "STJ",
+    "pequena propriedade rural",
+    "impenhorabilidade",
+    "arrematação",
+    "Nancy Andrighi"
+   ],
+   "termos": [
+    "pequena propriedade rural penhora prova",
+    "impenhorabilidade pequena propriedade prazo arrematação",
+    "STJ ônus da prova exploração familiar"
+   ],
+   "atualizacao": "acompanhar novos julgados sobre o tema"
+  },
+  "agro": {
+   "demanda": "Pequenos produtores com a terra penhorada em execução de dívida",
+   "prazo": "até a assinatura do auto de arrematação",
+   "quem": "Pequenos produtores e famílias que trabalham a própria terra"
+  }
+ },
+ "descricao_seo": "STJ: para livrar a pequena propriedade rural da penhora, o produtor tem de provar a exploração familiar e alegar antes da arrematação.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura das ementas, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: as regras vêm das ementas, citadas literalmente; a nota avisa que são casos concretos sem reexame de provas e não nomeia partes. A opinião é conselho geral de prudência, sem assegurar resultado a ninguém. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-pequena-propriedade-rural-penhora-onus-prova-familia-prazo-arrematacao.jpg",
+  "credito": "Foto: Fabio Rodrigues-Pozzebom/Agência Brasil",
+  "alt": "Abóboras e verduras da agricultura familiar em caixas plásticas (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/wXHBQYCcVUWj22yqZhuwZo84gTk=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/15/pzzb7529.jpg?itok=gWxMlTAe",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/projeto-destina-recursos-agricultura-familiar-no-semiarido-da-bahia"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-20T14:51:31-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-20T14:51:31-03:00"
+}
