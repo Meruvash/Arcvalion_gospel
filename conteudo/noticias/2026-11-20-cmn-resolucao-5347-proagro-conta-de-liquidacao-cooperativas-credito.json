@@ -1,0 +1,200 @@
+{
+ "slug": "cmn-resolucao-5347-proagro-conta-de-liquidacao-cooperativas-credito",
+ "data": "2026-11-20",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "CMN muda regras do Proagro e deixa cooperativas de crédito usarem conta própria no BC",
+ "lide": "O Conselho Monetário Nacional aprovou na quinta-feira (19) a Resolução 5.347, que altera o capítulo do Proagro no Manual de Crédito Rural. A partir de 7 de dezembro, o adicional do programa pode ser debitado, e as indenizações pagas, também na Conta de Liquidação do agente, e não só na conta Reservas Bancárias. Cooperativas com Conta de Liquidação própria passam a liquidar os valores diretamente.",
+ "por_que_importa": "No custeio de lavoura permanente, a cobertura do Proagro começa com o débito do adicional; na temporária, esse débito é condição para a cobertura valer. Para o produtor que financia pela cooperativa, a mudança abre um caminho a mais para esse débito e para o repasse da indenização, sem depender de um banco conveniado.",
+ "numeros": [
+  [
+   "7/12",
+   "é a data em que a Resolução CMN 5.347 entra em vigor",
+   "Resolução CMN 5.347/2026"
+  ],
+  [
+   "5 dias úteis",
+   "é o prazo do agente do Proagro para repassar a indenização, contado do lançamento na conta",
+   "Resolução CMN 5.347/2026, MCR 12-7-19"
+  ],
+  [
+   "12% a.a.",
+   "são os juros a partir do sexto dia útil sobre valores não repassados ao beneficiário",
+   "Resolução CMN 5.347/2026, MCR 12-7-20"
+  ],
+  [
+   "3 dias",
+   "é o prazo do Banco Central para debitar o adicional depois do registro da operação no Sicor",
+   "Resolução CMN 5.347/2026, MCR 12-3-11"
+  ]
+ ],
+ "corpo": [
+  "Segundo a resolução, a liquidação de valores de responsabilidade das cooperativas de crédito deve ser feita pela própria cooperativa, se tiver Conta de Liquidação própria, ou pela instituição com conta Reservas Bancárias ou Conta de Liquidação com a qual tenha convênio. Se o lançamento não for confirmado na data do registro, o valor passa a ter juros de 12% ao ano.",
+  "A norma também ajusta as regras de pagamento das despesas do programa: o Banco Central paga por lançamento na conta de cada agente, pode impugnar pagamento de decisão manifestamente ilegal e cobrar de volta valores pagos indevidamente, com juros de 12% ao ano."
+ ],
+ "no_brasil": "O Proagro, previsto na Lei 8.171/1991 citada na resolução, livra o produtor de obrigações do custeio rural em caso de perdas cobertas pelo programa. A resolução saiu na mesma reunião em que o CMN ampliou o envio de dados fiscais dos bancos ao Banco Central, segundo a Agência Brasil.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.347/2026, item 12 da Seção 3 do Capítulo 12 do MCR",
+   "texto": "a liquidação de valores de responsabilidade de cooperativas de crédito deve ser efetuada pela: I - própria cooperativa, caso detenha Conta de Liquidação própria; ou II - instituição financeira detentora de conta Reservas Bancárias ou de Conta de Liquidação com a qual a cooperativa possua convênio",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5347"
+  },
+  {
+   "fonte": "Resolução CMN 5.347/2026, item 21 da Seção 7 do Capítulo 12 do MCR",
+   "texto": "O Banco Central do Brasil pode impugnar o pagamento de despesa decorrente de decisão manifestamente ilegal ou contrária ao regulamento do programa",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5347"
+  }
+ ],
+ "para_quem": [
+  "Produtor que financia custeio pela cooperativa: a partir de 7/12, o adicional do Proagro pode ser debitado direto na conta da cooperativa no Banco Central",
+  "Quem espera indenização do Proagro: o agente tem cinco dias úteis para repassar; depois disso, o valor rende 12% ao ano até o repasse",
+  "Cooperativas de crédito: decidir se liquidam pela própria Conta de Liquidação ou mantêm o convênio com um banco"
+ ],
+ "nao_e_para": [
+  "Não muda o valor do adicional, a cobertura nem as regras de comprovação de perdas",
+  "Não altera os recursos do Proagro no Orçamento",
+  "Vale só a partir de 7 de dezembro de 2026"
+ ],
+ "veredito": "A gente vê com bons olhos: tirar intermediário do caminho do Proagro tende a encurtar o percurso do dinheiro até o produtor. O que falta é o governo garantir que haja recurso no programa quando a perda vier.",
+ "fontes": [
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.347, de 19 de novembro de 2026",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5347",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Banco Central do Brasil: Manual de Crédito Rural, Capítulo 12 (Proagro)",
+   "url": "https://www3.bcb.gov.br/mcr",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: CMN amplia controle sobre recolhimentos de tributos dos bancos",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-amplia-controle-sobre-recolhimentos-de-tributos-dos-bancos",
+   "data": "19/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 60,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Norma do CMN que muda procedimentos do Proagro, com efeito para cooperativas de crédito e seus associados"
+  },
+  "origem": {
+   "nome": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5347"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 8,
+    "porque": "Mudança operacional no Proagro, sem alterar cobertura nem valores; afeta cooperativas e quem financia por elas"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Proagro e normas do CMN, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 15,
+    "porque": "Aprovada pelo CMN na quinta-feira (19), em vigor a partir de 7/12"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Texto integral da resolução lido no Banco Central"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Explicamos o efeito para o produtor de uma norma técnica que a imprensa não cobriu"
+   }
+  },
+  "publico": {
+   "pontos": 8,
+   "eixos": {
+    "valor": 7,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: resolução do CMN (2)",
+    "Ato de quem tem poder: Conselho Monetário Nacional (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: prazo de repasse da indenização (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN nº 5.347, de 19/11/2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Proagro e normas do CMN",
+  "coleta": "2026-11-20",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "texto integral conferido no Banco Central",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "quantas cooperativas têm Conta de Liquidação própria"
+  },
+  "duplicidade": {
+   "grupo": "Normas do CMN de novembro de 2026",
+   "itens": [
+    "Resolução CMN 5.347"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber o que muda no Proagro com a Resolução CMN 5.347",
+   "entidades": [
+    "Proagro",
+    "CMN",
+    "Resolução 5.347",
+    "Conta de Liquidação",
+    "cooperativas de crédito",
+    "MCR"
+   ],
+   "termos": [
+    "Resolução CMN 5347 Proagro",
+    "Proagro cooperativa conta de liquidação",
+    "prazo indenização Proagro"
+   ],
+   "atualizacao": "conferir a aplicação a partir de 7/12"
+  },
+  "agro": {
+   "demanda": "Produtores que contratam custeio com Proagro por cooperativas de crédito e esperam indenizações",
+   "prazo": "vigência a partir de 7/12/2026",
+   "quem": "Associados de cooperativas de crédito e beneficiários do Proagro"
+  }
+ },
+ "descricao_seo": "Resolução CMN 5.347 muda o Proagro: a partir de 7/12, adicional e indenizações podem passar pela Conta de Liquidação de cooperativas no BC.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da resolução, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: todos os pontos vêm do texto da resolução, com trechos citados literalmente; a nota não amplia o alcance da norma e diz o que ela não muda. Nenhuma crítica a pessoa ou instituição. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/cmn-resolucao-5347-proagro-conta-de-liquidacao-cooperativas-credito.jpg",
+  "credito": "Jacob van Strij, Paisagem com gado (provavelmente c. 1800), The Metropolitan Museum of Art",
+  "alt": "Pintura de Jacob van Strij: gado no pasto à beira de um rio, com árvores e céu claro",
+  "licenca": "Domínio público (CC0), Open Access do Metropolitan Museum of Art",
+  "origem": "https://images.metmuseum.org/CRDImages/ep/original/DP143202.jpg",
+  "pagina": "https://www.metmuseum.org/art/collection/search/437760"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-20T02:29:43-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-20T02:29:43-03:00"
+}
