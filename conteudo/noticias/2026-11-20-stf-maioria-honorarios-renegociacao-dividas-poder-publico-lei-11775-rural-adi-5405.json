@@ -1,0 +1,199 @@
+{
+ "slug": "stf-maioria-honorarios-renegociacao-dividas-poder-publico-lei-11775-rural-adi-5405",
+ "data": "2026-11-20",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": true,
+ "opiniao_forte": false,
+ "selo": "Motivo de alerta",
+ "titulo": "STF tem maioria para derrubar dispensa de honorários em renegociações, inclusive de dívida rural",
+ "lide": "O Supremo Tribunal Federal formou maioria na quinta-feira (19) para declarar inconstitucionais trechos de cinco leis federais que dispensam honorários advocatícios em acordos e parcelamentos de dívidas com o poder público. Entre elas estão as Leis 11.775/2008 e 12.844/2013, usadas em renegociações de dívida rural. O julgamento da ADI 5405 foi suspenso e falta o voto de dois ministros.",
+ "por_que_importa": "Segundo o STF, as leis questionadas isentam de honorários quem encerra o processo com acordo ou adesão a parcelamento com o poder público. Duas delas são leis de renegociação de dívida rural. Se a dispensa cair, renegociações futuras podem custar mais ao produtor. O voto de Flávio Dino propõe preservar o que já foi feito, mas o alcance só fica claro no fim do julgamento.",
+ "numeros": [
+  [
+   "9",
+   "votos pela inconstitucionalidade das normas, incluído o do ministro aposentado Luís Roberto Barroso; faltam Nunes Marques e Gilmar Mendes",
+   "STF, 19/11/2026"
+  ],
+  [
+   "5",
+   "leis federais questionadas: 11.775/2008, 11.941/2009, 12.249/2010, 12.844/2013 e 13.043/2014",
+   "STF, ADI 5405"
+  ],
+  [
+   "2",
+   "das leis questionadas, a 11.775 e a 12.844, estão entre as leis de renegociação de dívida rural citadas pelo STJ no Tema 1.406",
+   "STJ, Tema 1.406"
+  ]
+ ],
+ "corpo": [
+  "A ação foi proposta pela OAB, que sustenta que os honorários têm natureza remuneratória. O relator, ministro Dias Toffoli, considera que as normas interferem na propriedade privada dos advogados públicos ou privados e na remuneração pelo trabalho deles. O julgamento começou no plenário virtual e foi retomado em sessão presencial.",
+  "O ministro Flávio Dino acompanhou o relator, mas propôs preservar os atos já praticados e aplicar, nos casos futuros, o artigo 90 do Código de Processo Civil: quem desiste da ação, renuncia ao direito ou reconhece o pedido arca com as despesas e os honorários."
+ ],
+ "no_brasil": "A Lei 11.775/2008 criou medidas para liquidar ou regularizar dívidas de crédito rural, e outras leis de renegociação vieram depois, como a 12.844/2013, segundo o STJ no Tema 1.406. Não há data para a conclusão do julgamento no STF.",
+ "critica": [
+  {
+   "fonte": "Ministro Dias Toffoli, relator, segundo o STF",
+   "texto": "na propriedade privada dos advogados públicos ou privados e na remuneração decorrente do trabalho desses profissionais",
+   "citacao": true,
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-tem-maioria-a-favor-de-honorarios-advocaticios-em-renegociacoes-de-dividas-com-poder-publico/"
+  },
+  {
+   "fonte": "Vicente Braga, advogado da OAB, em sustentação oral em agosto de 2025, segundo o STF",
+   "texto": "Honorários são remuneração pelo desempenho. Recebê-los é um direito autônomo do advogado",
+   "citacao": true,
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-inicia-julgamento-sobre-pagamento-de-honorarios-em-caso-de-acordo-ou-parcelamento-de-dividas-com-o-poder-publico/"
+  }
+ ],
+ "para_quem": [
+  "Produtor que pensa em renegociar dívida rural com a União desistindo de ação judicial: o custo com honorários pode mudar; aguarde o fim do julgamento antes de assinar",
+  "Quem já renegociou: o voto de Flávio Dino propõe preservar os atos já praticados, mas isso ainda não é a decisão final",
+  "Entidades do agro: o ponto a acompanhar é a modulação, que define se a mudança vale só para o futuro"
+ ],
+ "nao_e_para": [
+  "O julgamento não terminou: faltam dois votos e a definição da tese e da modulação",
+  "O STF não detalhou quais dispositivos de cada lei caem nem se vale para dívidas rurais já renegociadas",
+  "A notícia do STF não cita dívida rural; a ligação com o produtor vem das leis questionadas, apontadas pelo STJ como leis de renegociação rural"
+ ],
+ "veredito": "A gente acha que o produtor não pode ser surpreendido: quem renegociou confiando na lei não deve pagar a conta depois. O STF deve deixar claro, na modulação, que a mudança vale só para o futuro, como propôs Flávio Dino.",
+ "fontes": [
+  {
+   "nome": "STF: STF tem maioria a favor de honorários advocatícios em renegociações de dívidas com poder público",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-tem-maioria-a-favor-de-honorarios-advocaticios-em-renegociacoes-de-dividas-com-poder-publico/",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: Iniciado julgamento sobre pagamento de honorários em caso de acordo ou parcelamento de dívidas com o poder público",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-inicia-julgamento-sobre-pagamento-de-honorarios-em-caso-de-acordo-ou-parcelamento-de-dividas-com-o-poder-publico/",
+   "data": "28/08/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: Tema Repetitivo 1.406, leis de renegociação de dívida rural",
+   "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1406&cod_tema_final=1406",
+   "data": "17/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 73,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Fim da dispensa de honorários em renegociações com o poder público, inclusive pelas leis de renegociação de dívida rural"
+  },
+  "origem": {
+   "nome": "Supremo Tribunal Federal",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-tem-maioria-a-favor-de-honorarios-advocaticios-em-renegociacoes-de-dividas-com-poder-publico/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Maioria no STF para derrubar dispensa de honorários prevista em leis de renegociação, com efeito sobre o custo de futuras renegociações rurais"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Renegociação de dívida rural e custo para o produtor, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 19,
+    "porque": "Maioria formada na quinta-feira (19), ontem"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Notas oficiais do STF sobre a ADI 5405 e tese do STJ que lista as leis de renegociação rural"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Mostramos o efeito para o produtor rural, que a nota do STF não menciona"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 8,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: notas oficiais do STF (2)",
+    "Ato de quem tem poder: STF (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes: STF e STJ (1)",
+    "Utilidade: esperar antes de assinar renegociação (2)",
+    "Contraria a narrativa: decisão sobre advogados afeta o produtor (1)",
+    "Calendário: julgamento a concluir (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "STF tem maioria a favor de honorários advocatícios em renegociações de dívidas com poder público",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Justiça e renegociação",
+  "coleta": "2026-11-20",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido nas notas oficiais do STF e no Tema 1.406 do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "dispositivos exatos atingidos; modulação; data da conclusão"
+  },
+  "duplicidade": {
+   "grupo": "Leis de renegociação de dívida rural",
+   "itens": [
+    "STF ADI 5405 19/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-17-stj-tema-1406-prescricao-divida-rural-suspensa-automaticamente-leis-renegociacao"
+  },
+  "seo": {
+   "intencao": "saber se o produtor vai pagar honorários ao renegociar dívida rural",
+   "entidades": [
+    "STF",
+    "ADI 5405",
+    "honorários",
+    "Lei 11.775/2008",
+    "Lei 12.844/2013",
+    "Dias Toffoli",
+    "Flávio Dino"
+   ],
+   "termos": [
+    "honorários renegociação dívida rural STF",
+    "ADI 5405 honorários",
+    "Lei 11.775 honorários"
+   ],
+   "atualizacao": "atualizar com a conclusão do julgamento e a modulação"
+  },
+  "agro": {
+   "demanda": "Produtores que renegociaram ou vão renegociar dívidas rurais com a União desistindo de ações judiciais",
+   "prazo": "conclusão do julgamento da ADI 5405 sem data",
+   "quem": "Produtores com dívidas rurais renegociadas ou inscritas com a União"
+  }
+ },
+ "descricao_seo": "STF forma maioria para derrubar dispensa de honorários em renegociações com o poder público, inclusive em leis de dívida rural (ADI 5405).",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura das notas oficiais e da tese do STJ, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os fatos vêm das notas oficiais do STF, com o voto do relator citado literalmente; a nota avisa que o julgamento não terminou e que a ligação com a dívida rural vem das leis questionadas, apontadas pelo STJ. Não critica advogados nem ministros. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stf-maioria-honorarios-renegociacao-dividas-poder-publico-lei-11775-rural-adi-5405.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Presidente do STF, ministro Edson Fachin, em sessão do Plenário (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/CAkMlRo1nXtCNzcZ8o43w9Z5W5Y=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/02/02/abertura-stf-mc_abr_30012026-9.jpg?itok=pwBEFW-j",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/caso-master-fachin-encaminha-pgr-citacoes-quatro-ministros-do-stf"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-20T14:54:51-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-20T14:54:51-03:00"
+}
