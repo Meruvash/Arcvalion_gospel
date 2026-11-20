@@ -1,0 +1,206 @@
+{
+ "slug": "van-hattem-stf-julga-denuncia-discurso-tribuna-imunidade-parlamentar-primeira-turma",
+ "data": "2026-11-20",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "STF começa a julgar se Van Hattem vira réu por discurso feito na tribuna da Câmara",
+ "lide": "A Primeira Turma do STF começa nesta sexta-feira (20), no plenário virtual, a analisar a denúncia da PGR contra o deputado Marcel van Hattem (Novo-RS), senador eleito, por crimes contra a honra de um delegado da Polícia Federal em discurso feito na tribuna da Câmara em agosto de 2024. A sessão vai até 30 de novembro, segundo o Estado de Minas e o portal Claudio Dantas.",
+ "por_que_importa": "A Constituição diz que deputados e senadores são invioláveis por suas opiniões, palavras e votos. Se o STF receber a denúncia por uma fala feita no plenário, abre um precedente sobre até onde vai a proteção da tribuna, que vale para qualquer parlamentar, de qualquer partido.",
+ "numeros": [
+  [
+   "20 a 30/11",
+   "é o período do julgamento no plenário virtual da Primeira Turma",
+   "Claudio Dantas, 19/11/2026"
+  ],
+  [
+   "4 anos",
+   "de prisão é a pena máxima que o deputado diz correr",
+   "Estado de Minas, 19/11/2026"
+  ],
+  [
+   "14/08/2024",
+   "é a data do discurso na Câmara que originou o caso",
+   "Câmara dos Deputados, dados abertos"
+  ]
+ ],
+ "corpo": [
+  "No discurso, registrado nos dados abertos da Câmara, Van Hattem disse que um policial federal \"fez vários relatórios absolutamente fraudulentos contra pessoas inocentes, inclusive contra Filipe Martins\". A PF o indiciou por calúnia e difamação em novembro de 2024, e a PGR apresentou a denúncia em abril, entendendo que ele passou dos limites da imunidade.",
+  "Nesta fase, a Turma só decide se há elementos para abrir ação penal, não se o deputado é culpado. A defesa, do advogado Alexandre Wunderlich, pediu que o caso vá ao plenário presencial, com sustentação oral; o relator é Flávio Dino."
+ ],
+ "no_brasil": "Quando o indiciamento saiu, em novembro de 2024, o então presidente da Câmara, Arthur Lira, criticou em plenário investigações de parlamentares por discursos na tribuna, segundo a Agência Câmara. O delegado citado conduziu o inquérito que levou à condenação de Jair Bolsonaro e hoje assessora o ministro Alexandre de Moraes, informou o Estado de Minas.",
+ "critica": [
+  {
+   "fonte": "Deputado Marcel van Hattem, segundo o portal Claudio Dantas",
+   "texto": "Posso virar réu no STF amanhã. Posso vir a ser preso por um discurso que dei na tribuna",
+   "citacao": true,
+   "url": "https://claudiodantas.com.br/van-hattem-alerta-para-risco-de-prisao-por-discurso-na-camara-antes-de-julgamento-no-stf/"
+  },
+  {
+   "fonte": "Procuradoria-Geral da República, na denúncia, segundo o Estado de Minas",
+   "texto": "O deputado extrapolou os limites da imunidade parlamentar ao usar termos ofensivos contra o delegado.",
+   "citacao": false,
+   "url": "https://www.em.com.br/politica/2026/11/7541114-van-hattem-pede-ajuda-posso-pegar-quatro-anos-de-prisao.html"
+  }
+ ],
+ "para_quem": [
+  "Quem acompanha a relação entre Congresso e STF",
+  "Eleitores da oposição e do Novo",
+  "Quem defende a liberdade de expressão no Parlamento"
+ ],
+ "nao_e_para": [
+  "Não é condenação: a Turma decide só se recebe a denúncia",
+  "Não é decisão final sobre a imunidade parlamentar: pode haver destaque e julgamento presencial",
+  "Não é prisão imediata: mesmo réu, o deputado teria ação penal com direito de defesa"
+ ],
+ "veredito": "A tribuna existe para o parlamentar falar sem medo, inclusive contra autoridades. Exageros se respondem no Conselho de Ética e no debate, não com processo criminal. O STF deveria levar o caso ao plenário presencial e respeitar a imunidade que a Constituição garante.",
+ "versiculo": {
+  "texto": "Abre a tua boca a favor do mudo, pelo direito de todos os que se acham em desolação.",
+  "referencia": "Provérbios 31.8",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: discursos do deputado Marcel van Hattem em 14/08/2024",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/156190/discursos?dataInicio=2024-08-14&dataFim=2024-08-14",
+   "data": "14/08/2024",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Presidente da Câmara critica indiciamento dos deputados Van Hattem e Cabo Gilberto Silva pela Polícia Federal (11/2024)",
+   "url": "https://www.camara.leg.br/noticias/1115152-PRESIDENTE-DA-CAMARA-CRITICA-INDICIAMENTO-DOS-DEPUTADOS-VAN-HATTEM-E-CABO-GILBERTO-SILVA-PELA-POLICIA-FEDERAL",
+   "data": "27/11/2024",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Estado de Minas: Van Hattem pede ajuda: Posso pegar quatro anos de prisão (19/11/2026)",
+   "url": "https://www.em.com.br/politica/2026/11/7541114-van-hattem-pede-ajuda-posso-pegar-quatro-anos-de-prisao.html",
+   "data": "19/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Claudio Dantas: Van Hattem alerta para risco de prisão por discurso na Câmara antes de julgamento no STF (19/11/2026)",
+   "url": "https://claudiodantas.com.br/van-hattem-alerta-para-risco-de-prisao-por-discurso-na-camara-antes-de-julgamento-no-stf/",
+   "data": "19/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 59,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "Oposição, imunidade parlamentar e liberdade de expressão na tribuna diante do STF"
+  },
+  "origem": {
+   "nome": "Claudio Dantas",
+   "url": "https://claudiodantas.com.br/van-hattem-alerta-para-risco-de-prisao-por-discurso-na-camara-antes-de-julgamento-no-stf/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Denúncia ainda sem recebimento; julgamento começa em 20/11"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Política nacional e oposição: deputado do Novo processado por fala na tribuna"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Julgamento no plenário virtual de 20 a 30 de novembro"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Pauta e pedido da defesa em dois veículos; discurso e indiciamento conferidos nos registros da Câmara"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Traz o trecho exato do discurso nos dados abertos da Câmara e a reação de Lira em 2024"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 6,
+    "viral": 7,
+    "cristao": 2
+   },
+   "criterios": [
+    "Documento primário: discurso nos dados abertos da Câmara (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: Van Hattem (1)",
+    "Gatilho no calendário: julgamento de 20 a 30/11 (2)",
+    "Conflito claro: STF e imunidade parlamentar (2)",
+    "Tema que já mobiliza o público: liberdade de expressão (2)",
+    "Número forte: até 4 anos de prisão (1)",
+    "Passagem bíblica sobre falar pelo direito (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Van Hattem alerta para risco de prisão por discurso na Câmara antes de julgamento no STF",
+  "nucleo": "A - Brasil",
+  "categoria": "Política / STF e Congresso",
+  "coleta": "2026-11-20",
+  "verificacao": {
+   "grau_de_confianca": "médio-alto",
+   "status": "discurso e indiciamento conferidos na Câmara; pauta do julgamento em dois veículos",
+   "contradicoes": "Estado de Minas fala em calúnia e injúria; a Agência Câmara, em 2024, em calúnia e difamação. Usamos 'crimes contra a honra' no lide e a versão da Agência Câmara no corpo.",
+   "sem_confirmacao": "decisão sobre o pedido de destaque e número do processo no STF"
+  },
+  "duplicidade": {
+   "grupo": "Van Hattem e imunidade parlamentar",
+   "itens": [
+    "Claudio Dantas 19/11",
+    "Estado de Minas 19/11",
+    "Diário do Poder 19/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber por que Van Hattem pode virar réu no STF",
+   "entidades": [
+    "Marcel van Hattem",
+    "Primeira Turma do STF",
+    "Flávio Dino",
+    "PGR",
+    "imunidade parlamentar"
+   ],
+   "termos": [
+    "van hattem réu stf discurso",
+    "imunidade parlamentar tribuna stf",
+    "van hattem denúncia pgr"
+   ],
+   "atualizacao": "resultado do julgamento até 30/11 ou destaque para o plenário presencial"
+  }
+ },
+ "descricao_seo": "Primeira Turma do STF julga de 20 a 30/11 se recebe denúncia da PGR contra Van Hattem por discurso na tribuna da Câmara em 2024.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do discurso nos dados abertos e das reportagens, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: o delegado não é nomeado no texto e a acusação contra ele aparece só como fala atribuída ao deputado, objeto da denúncia; posição da PGR registrada; deixa claro que não há condenação; opinião do veredito é tese constitucional, sem ataque pessoal. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/van-hattem-stf-julga-denuncia-discurso-tribuna-imunidade-parlamentar-primeira-turma.jpg",
+  "credito": "Foto: Mário Agra/Câmara dos Deputados",
+  "alt": "Arthur Lira, então presidente da Câmara, fala ao microfone na Mesa do plenário em novembro de 2024 (foto de arquivo)",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2024/11/img20241127213556796.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1115152-PRESIDENTE-DA-CAMARA-CRITICA-INDICIAMENTO-DOS-DEPUTADOS-VAN-HATTEM-E-CABO-GILBERTO-SILVA-PELA-POLICIA-FEDERAL"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-20T02:35:44-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-20T02:35:44-03:00"
+}
