@@ -1,0 +1,195 @@
+{
+ "slug": "bndes-aprova-42-9-bilhoes-agropecuaria-janeiro-setembro-2026-credito-rural",
+ "data": "2026-11-20",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "BNDES aprovou R$ 42,9 bilhões para a agropecuária de janeiro a setembro",
+ "lide": "O BNDES aprovou R$ 42,9 bilhões em financiamentos para a agropecuária nos nove primeiros meses de 2026, segundo o balanço divulgado na quinta-feira (19) e relatado pela Agência Brasil. O setor ficou em segundo lugar, atrás da infraestrutura, com R$ 75,7 bilhões. No total, o banco aprovou R$ 190,5 bilhões em financiamentos no período.",
+ "por_que_importa": "O BNDES é o principal banco de fomento do país, e o número mostra quanto ele aprovou para o agro em 2026. O dado chega num momento em que o boletim do Ministério da Agricultura registrou queda nas contratações dos programas de investimento da safra 2026/27, como os de máquinas e armazéns, em todo o sistema financeiro.",
+ "numeros": [
+  [
+   "R$ 42,9 bi",
+   "em aprovações para a agropecuária de janeiro a setembro de 2026",
+   "BNDES, segundo a Agência Brasil, 19/11/2026"
+  ],
+  [
+   "R$ 190,5 bi",
+   "em financiamentos aprovados pelo BNDES no período, 35% a mais que em 2025, sem descontar a inflação",
+   "BNDES, segundo a Agência Brasil"
+  ],
+  [
+   "R$ 166,9 bi",
+   "dos financiamentos aprovados foram para micro, pequenas e médias empresas",
+   "BNDES, segundo a Agência Brasil"
+  ],
+  [
+   "-39,8%",
+   "foi a queda no crédito dos programas de investimento do Plano Safra de julho a outubro, em todo o sistema financeiro",
+   "Ministério da Agricultura, boletim de 13/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo a Agência Brasil, os desembolsos do BNDES somaram R$ 135,9 bilhões nos nove meses, alta de 33%. O valor aprovado é maior que o desembolsado porque parte dos recursos é liberada em etapas, ao longo de vários anos. A reportagem não detalha quanto da aprovação agropecuária foi para linhas do Plano Safra.",
+  "Os números não são diretamente comparáveis: o BNDES informa aprovações do ano civil, e o boletim do Ministério da Agricultura mede contratações da safra 2026/27 em todo o sistema financeiro, de julho a outubro. Pelo boletim, o crédito dos programas de investimento caiu 39,8% no período, para R$ 11,9 bilhões."
+ ],
+ "no_brasil": "O BNDES teve lucro líquido de R$ 20,3 bilhões de janeiro a setembro, alta de 18%, segundo a Agência Brasil. O presidente do banco, Aloizio Mercadante, atribuiu o desempenho à capacidade de indução do crédito.",
+ "critica": [
+  {
+   "fonte": "Aloizio Mercadante, presidente do BNDES, segundo a Agência Brasil",
+   "texto": "O que esse balanço, mais uma vez, mostra é uma evolução muito sólida, muito rápida e muito promissora do BNDES. A nossa capacidade de indução e de fomento ao crédito vem crescendo expressivamente",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bndes-injetou-r-254-bi-de-credito-na-economia-de-janeiro-setembro"
+  },
+  {
+   "fonte": "Ministério da Agricultura, boletim de julho a outubro de 2026, sobre os programas de investimento",
+   "texto": "Todos os programas registraram retração na aplicação efetiva no período.",
+   "citacao": true,
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027/boletim_credito_rural_empresarialsempronaf_safra20262027_julout2026_4oboletim.pdf"
+  }
+ ],
+ "para_quem": [
+  "Produtor que planeja investir em máquina, armazém ou irrigação: pergunte ao banco ou à cooperativa se há linha com recursos do BNDES antes de aceitar crédito livre",
+  "Cooperativas: o BNDES diz que a maior parte das aprovações foi para micro, pequenas e médias empresas",
+  "Quem acompanha o Plano Safra: aprovação não é dinheiro na conta; o desembolso vem em etapas"
+ ],
+ "nao_e_para": [
+  "Os números são do balanço do BNDES relatado pela Agência Brasil; não lemos o relatório do banco",
+  "Aprovação do BNDES e contratação do Plano Safra medem coisas diferentes e não devem ser somadas ou subtraídas",
+  "A reportagem não detalha a divisão da aprovação agropecuária por programa ou região"
+ ],
+ "veredito": "A gente vê dinheiro de fomento aprovado e, ao mesmo tempo, investimento do Plano Safra contratado em queda. O produtor merece saber por quê: cabe ao BNDES e ao Ministério da Agricultura explicar onde está travando o crédito de investimento.",
+ "fontes": [
+  {
+   "nome": "Agência Brasil: BNDES injetou R$ 254 bi de crédito na economia de janeiro a setembro",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bndes-injetou-r-254-bi-de-credito-na-economia-de-janeiro-setembro",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Ministério da Agricultura e Pecuária: Boletim de Desempenho, Crédito Rural, julho a outubro de 2026",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027/boletim_credito_rural_empresarialsempronaf_safra20262027_julout2026_4oboletim.pdf",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 62,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Crédito do BNDES aprovado para a agropecuária em 2026, com as linhas de investimento do Plano Safra em queda"
+  },
+  "origem": {
+   "nome": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bndes-injetou-r-254-bi-de-credito-na-economia-de-janeiro-setembro"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Mostra o volume de crédito de fomento aprovado para o agro no país, sem mudar regra"
+   },
+   "afinidade": {
+    "pontos": 18,
+    "porque": "Crédito rural e investimento do produtor, eixo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 18,
+    "porque": "Balanço do BNDES divulgado na quinta-feira (19), no meio da safra 2026/27, que vai até 30/06/2027"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Números do BNDES relatados pela Agência Brasil e boletim oficial do Ministério da Agricultura; relatório do banco não lido"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Destacamos o número do agro, que a cobertura geral do balanço deixou em segundo plano, e o contexto do Plano Safra"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 7,
+    "viral": 2,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: boletim oficial do Mapa (2)",
+    "Ato de quem tem poder: BNDES (2)",
+    "Proximidade: nacional (2)",
+    "Número forte: R$ 42,9 bilhões (1)",
+    "Utilidade: pedir linha com repasse do BNDES (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "BNDES injetou R$ 254 bi de crédito na economia de janeiro a setembro",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Crédito rural e BNDES",
+  "coleta": "2026-11-20",
+  "verificacao": {
+   "grau_de_confianca": "médio-alto",
+   "status": "números do BNDES via Agência Brasil; boletim do Mapa lido",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "divisão da aprovação agropecuária por programa; relatório do BNDES"
+  },
+  "duplicidade": {
+   "grupo": "Crédito rural 2026/27",
+   "itens": [
+    "Agência Brasil 19/11",
+    "boletim Mapa 13/11"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-17-investimento-plano-safra-moderfrota-pca-inovagro-cai-juros-2026-27"
+  },
+  "seo": {
+   "intencao": "saber quanto o BNDES aprovou para o agro em 2026",
+   "entidades": [
+    "BNDES",
+    "agropecuária",
+    "Plano Safra",
+    "Aloizio Mercadante",
+    "crédito rural"
+   ],
+   "termos": [
+    "BNDES agropecuária 2026",
+    "BNDES crédito agro aprovações",
+    "BNDES 42,9 bilhões agro"
+   ],
+   "atualizacao": "atualizar com o balanço anual do BNDES"
+  },
+  "agro": {
+   "demanda": "Produtores que buscam crédito de investimento com recursos do BNDES",
+   "prazo": "safra 2026/27, até 30/06/2027",
+   "quem": "Produtores e cooperativas que investem em máquinas, armazéns e infraestrutura"
+  }
+ },
+ "descricao_seo": "BNDES aprovou R$ 42,9 bilhões para a agropecuária de janeiro a setembro de 2026, segundo balanço divulgado em 19/11.",
+ "instituicao": "BNDES",
+ "editora": "Agência Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura da reportagem e do boletim, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os números vêm da reportagem da Agência Brasil e do boletim oficial, citados com atribuição; a nota avisa que as métricas não são comparáveis e que o relatório do banco não foi lido. Nenhuma crítica a pessoa ou instituição. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/bndes-aprova-42-9-bilhoes-agropecuaria-janeiro-setembro-2026-credito-rural.jpg",
+  "credito": "Foto: Fernando Frazão/Agência Brasil",
+  "alt": "Fachada do edifício-sede do BNDES no Rio de Janeiro (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/ad9CfXnQ67R0olSUG5i3PIEdilA=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/edificio_sede_do_bndes250620211182.jpg?itok=E2kYRsrp",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bndes-injetou-r-254-bi-de-credito-na-economia-de-janeiro-setembro"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-20T15:00:43-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-20T15:00:43-03:00"
+}
