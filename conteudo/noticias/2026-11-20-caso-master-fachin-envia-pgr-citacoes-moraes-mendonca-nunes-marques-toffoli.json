@@ -1,0 +1,208 @@
+{
+ "slug": "caso-master-fachin-envia-pgr-citacoes-moraes-mendonca-nunes-marques-toffoli",
+ "data": "2026-11-20",
+ "categoria": "politica-e-sociedade",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Caso Master: Fachin envia à PGR relatórios da PF que citam quatro ministros do STF",
+ "lide": "O presidente do STF, Edson Fachin, enviou na quinta-feira (19) à Procuradoria-Geral da República quatro relatórios da Polícia Federal com menções aos ministros Alexandre de Moraes, André Mendonça, Kassio Nunes Marques e Dias Toffoli em conversas achadas no celular do ex-banqueiro Daniel Vorcaro, do Banco Master. Outros seis relatórios foram arquivados, informou a Agência Brasil.",
+ "por_que_importa": "É a primeira vez que o caso Master chega formalmente à mesa do procurador-geral com nomes de ministros do Supremo. Agora cabe a Paulo Gonet dizer se pede arquivamento ou investigação, e qualquer investigação de ministro depende do plenário do próprio STF.",
+ "numeros": [
+  [
+   "10",
+   "relatórios da PF entregues a Fachin em 18/11; 4 foram à PGR e 6 arquivados",
+   "Agência Brasil, 19/11/2026"
+  ],
+  [
+   "15 dias",
+   "é o prazo regimental para a PGR examinar o material",
+   "STF, Informe à Imprensa, 18/11/2026"
+  ],
+  [
+   "4",
+   "ministros citados nos relatórios enviados: Moraes, Mendonça, Nunes Marques e Toffoli",
+   "Agência Brasil, 19/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Os relatórios foram entregues na quarta-feira (18) pelo diretor-geral da PF, Andrei Rodrigues, em atenção a um ofício de Fachin de outubro, segundo o STF. Fachin arquivou os relatórios sobre Luiz Fux, Cármen Lúcia, Gilmar Mendes, Flávio Dino, Cristiano Zanin e ele próprio. A decisão está em segredo de Justiça e os motivos não foram divulgados.",
+  "O teor dos relatórios é sigiloso. A Agência Brasil afirma que não é possível saber o contexto das citações nem o grau de relação dos ministros com Vorcaro, que está preso. Menção em conversa de terceiro não significa crime."
+ ],
+ "no_brasil": "No Senado, a Comissão de Fiscalização e Controle aprovou em 18/11 proposta do senador Marcio Bittar (PL-AC) para fiscalizar, com ajuda do TCU, a atuação do Banco Central e da CVM antes da liquidação do Master, informou a Agência Senado.",
+ "critica": [
+  {
+   "fonte": "Presidência do STF, Informe à Imprensa de 18/11/2026",
+   "texto": "As informações de polícia judiciária recebidas mantêm, por ora, caráter sigiloso e serão tratadas com a devida reserva",
+   "citacao": true,
+   "url": "https://noticias.stf.jus.br/postsnoticias/informe-a-imprensa-2/"
+  },
+  {
+   "fonte": "Portal Claudio Dantas, sobre a remessa",
+   "texto": "A remessa não abre automaticamente procedimento criminal contra os ministros nem significa que a PF tenha concluído pela existência de crimes; os documentos reúnem referências encontradas em mensagens.",
+   "citacao": false,
+   "url": "https://claudiodantas.com.br/fachin-inclui-mendonca-relatorio-banco-master/"
+  }
+ ],
+ "para_quem": [
+  "Quem acompanha o caso Banco Master e o STF",
+  "Eleitores que cobram transparência dos tribunais",
+  "Correntistas e investidores atingidos pela liquidação do Master"
+ ],
+ "nao_e_para": [
+  "Não é acusação contra os ministros: a PGR ainda vai avaliar o material",
+  "Não abre investigação: isso depende de pedido da PGR e aval do plenário do STF",
+  "Não revela o conteúdo das conversas, que segue sob sigilo"
+ ],
+ "veredito": "Citação não é culpa, mas sigilo total sobre o nome de ministros alimenta desconfiança. A PGR deve decidir no prazo e explicar ao país o que fará. Ministro citado não deve votar sobre o próprio caso.",
+ "versiculo": {
+  "texto": "Fazer justiça e julgar com retidão é mais aceitável ao Senhor do que oferecer-lhe sacrifício.",
+  "referencia": "Provérbios 21.3",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: Informe à Imprensa, presidente do STF recebe diretor-geral da PF em reunião sobre a Operação Compliance Zero (18/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/informe-a-imprensa-2/",
+   "data": "18/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Caso Master: Fachin encaminha à PGR citações a quatro ministros do STF (19/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/caso-master-fachin-encaminha-pgr-citacoes-quatro-ministros-do-stf",
+   "data": "19/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Claudio Dantas: Fachin inclui Mendonça em remessa de relatório de Moraes, Nunes e Toffoli à PGR (19/11/2026)",
+   "url": "https://claudiodantas.com.br/fachin-inclui-mendonca-relatorio-banco-master/",
+   "data": "19/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Senado: Comissão do Senado vai fiscalizar atuação de órgãos reguladores no caso Master (18/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/comissao-do-senado-vai-fiscalizar-atuacao-de-orgaos-reguladores-no-caso-master",
+   "data": "18/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 63,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "Ministros do STF citados no caso Banco Master e o papel da PGR"
+  },
+  "origem": {
+   "nome": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/caso-master-fachin-encaminha-pgr-citacoes-quatro-ministros-do-stf"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Material enviado à PGR; ainda não há investigação nem decisão"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Política nacional e STF: transparência sobre ministros citados no maior escândalo bancário recente"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Decisão de Fachin na quinta, 19/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Informe oficial do STF sobre a entrega e o rito; decisão confirmada por Agência Brasil e Claudio Dantas"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Junta o rito oficial do STF, os nomes enviados e arquivados e a fiscalização aberta no Senado"
+   }
+  },
+  "publico": {
+   "pontos": 14,
+   "eixos": {
+    "valor": 6,
+    "viral": 7,
+    "cristao": 1
+   },
+   "criterios": [
+    "Documento primário: informe do STF (2)",
+    "Proximidade: nacional (2)",
+    "Duas fontes independentes (1)",
+    "Personagens com nome: quatro ministros (1)",
+    "Tema que já mobiliza o público: caso Master (2)",
+    "Conflito claro: STF investigado pelo próprio STF (2)",
+    "Gatilho no calendário: prazo de 15 dias da PGR (2)",
+    "Passagem bíblica sobre justiça reta (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Caso Master: Fachin encaminha à PGR citações a quatro ministros do STF",
+  "nucleo": "A - Brasil",
+  "categoria": "Política / STF",
+  "coleta": "2026-11-20",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "rito conferido no informe do STF; nomes em duas fontes independentes",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "conteúdo dos relatórios e motivos dos arquivamentos (sigilo)"
+  },
+  "duplicidade": {
+   "grupo": "Caso Master e ministros do STF",
+   "itens": [
+    "Agência Brasil 19/11",
+    "Claudio Dantas 19/11",
+    "STF 18/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber quais ministros do STF foram citados no caso Master e o que acontece agora",
+   "entidades": [
+    "Banco Master",
+    "Edson Fachin",
+    "Paulo Gonet",
+    "Alexandre de Moraes",
+    "André Mendonça",
+    "Kassio Nunes Marques",
+    "Dias Toffoli",
+    "Daniel Vorcaro"
+   ],
+   "termos": [
+    "caso master ministros stf pgr",
+    "fachin relatórios pf vorcaro",
+    "ministros citados banco master"
+   ],
+   "atualizacao": "manifestação da PGR em 15 dias"
+  }
+ },
+ "descricao_seo": "Fachin envia à PGR relatórios da PF que citam Moraes, Mendonça, Nunes Marques e Toffoli no caso Master; seis foram arquivados.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do informe do STF e das reportagens, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: nenhum ministro acusado; texto repete que citação não é crime e que o conteúdo é sigiloso; rito descrito pelo informe oficial; opinião do veredito é pedido de transparência, sem imputar conduta. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/caso-master-fachin-envia-pgr-citacoes-moraes-mendonca-nunes-marques-toffoli.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Diretor-geral da Polícia Federal, Andrei Rodrigues, fala ao microfone em solenidade em Brasília (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/neTGwyVxjUHRnqeBrNh02myHtZ8=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/16/dia-do-policial-federal-mc_abr_16112026-4.jpg?itok=85-TYmLy",
+  "pagina": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/andrei-entrega-fachin-relatorios-sobre-ministros-no-caso-master"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-20T02:30:54-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-20T02:30:54-03:00"
+}
