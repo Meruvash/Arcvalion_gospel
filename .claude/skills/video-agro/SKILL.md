@@ -58,6 +58,14 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
   - prévia curta antes do vídeo completo.
 - Sem gravação, a fala vai pelo clone com o seletor de S neutro.
 
+## Antes de todo roteiro (pedido do editor, 20/11/2026)
+1. **Pesquisa de tendências, sempre:**
+   - autocomplete do Google e do YouTube, com sementes da linha que rende (família, herança, terra);
+   - notícias da semana;
+   - a lista do que está em alta vai no topo do roteiro.
+2. **Prévia realista com o Wan:** gerar 2 a 4 imagens das cenas principais com o Wan 2.2 em modo imagem, na GPU grátis do
+   Kaggle (`tools/video/agro-arte/ia_kaggle/wan22_previa_t4.py`), e mandar ao editor junto com o roteiro.
+
 ## Entrega técnica
 - Áudio final em **48 kHz** (`-ar 48000` depois do `loudnorm`). Confira com `ffprobe` antes de entregar. Ver a direção, seção 3.
 - **Sem limpeza de metadados** (decisão do editor, 19/11/2026): o arquivo sai igual ao do caseiro e do irmão, com a etiqueta padrão do ffmpeg. Nada de `-map_metadata -1`, `-fflags +bitexact` ou remoção de `encoder`.
