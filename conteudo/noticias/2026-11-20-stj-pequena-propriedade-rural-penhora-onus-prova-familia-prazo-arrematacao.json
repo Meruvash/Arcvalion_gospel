@@ -28,7 +28,7 @@
  ],
  "corpo": [
   "No caso de Minas Gerais, relatado pela ministra Nancy Andrighi, o produtor não comprovou que o imóvel penhorado era trabalhado pela família. A ementa registra que a jurisprudência da Segunda Seção do STJ põe esse ônus no devedor. No caso de Goiás, relatado pelo ministro João Otávio de Noronha, o STJ manteve o entendimento de que a impenhorabilidade pode ser arguida só até a consumação da arrematação, que se dá com a assinatura do auto.",
-  "Numa terceira decisão, também publicada em 19 de novembro, de Santa Catarina, a Terceira Turma tratou a contiguidade dos terrenos como requisito da proteção quando a família tem mais de um imóvel, e manteve a conclusão do tribunal local de que as glebas não eram contíguas."
+  "Numa terceira decisão, também publicada em 19 de novembro, de Santa Catarina, a Terceira Turma tratou a contiguidade dos terrenos como requisito da proteção quando a família tem mais de um imóvel, e manteve a conclusão do tribunal local de que as glebas não eram contíguas. Também em 19 de novembro, a Terceira Turma publicou decisão do Rio Grande do Sul segundo a qual a proteção pressupõe pequena propriedade explorada pela família para subsistência, o que não se compatibiliza com atividade agrícola em escala empresarial."
  ],
  "no_brasil": "A impenhorabilidade da pequena propriedade rural trabalhada pela família está na Constituição e no Código de Processo Civil. O STF fixou no Tema 961 que ela vale também para mais de um terreno, se contínuos e com área total abaixo de quatro módulos fiscais, como o portal explicou em 13 de novembro.",
  "critica": [
@@ -72,6 +72,12 @@
   {
    "nome": "STJ: AgInt no AREsp 3.106.957/SC, Terceira Turma, relatora Ministra Daniela Teixeira",
    "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3106957&O=JT",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: AgInt nos EDcl no REsp 2.257.090/RS, Terceira Turma, relator Ministro Humberto Martins",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2257090&O=JT",
    "data": "19/11/2026",
    "tipo": "primaria"
   }
@@ -191,8 +197,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-20T14:51:31-03:00",
+  "data": "2026-11-20T15:01:24-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-20T14:51:31-03:00"
+ "publicado_em": "2026-11-20T14:51:31-03:00",
+ "atualizado_em": "2026-11-20T15:01:24-03:00"
 }
