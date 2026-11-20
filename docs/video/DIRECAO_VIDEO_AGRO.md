@@ -125,7 +125,7 @@ o código desenha rosto mal, e foi o que derrubou a cena do Almeida Júnior.
 - Tinta azul-marinho `#13233F`, papel `#EEE8DC`, acento vermelho `#C23B22`, realce `#f0c24b`.
 - Crédito honesto na tela: "PINTURA FEITA EM CÓDIGO, À MANEIRA DE …". Cartela final com as fontes e
   os pintores.
-- Nenhuma imagem gerada por IA. Foto real só com licença conferida e crédito.
+- **IA liberada nos vídeos quando não custa nada (decisão do editor, 20/11/2026): a proibição existia só por causa de custo. Imagem e movimento gerados por IA podem entrar, desde que por caminho gratuito (modelo aberto rodando em GPU gratuita, cota grátis); serviço pago continua vetado sem aprovação. Continuam valendo: nada que se passe por fato, documento, pessoa ou lugar reais; aviso de conteúdo sintético no YouTube quando a cena for realista; crédito "IMAGEM GERADA POR IA" na tela.** Foto real só com licença conferida e crédito. Ver a seção 2.9.
 
 
 ### 2.6 Mapas e dados em aquarela (p5.brush, desde 11/11/2026)
@@ -256,6 +256,36 @@ Estreou em "Comprou a terra e não é dono?". Nas falas do editor, no lugar do c
 - Conferir no celular o contorno do cabelo e dos óculos.
 
 **Se faltar alguma gravação**, aquela fala fica no clone (seção 3) e o editor é avisado.
+
+### 2.9 IA gratuita na imagem (desde 20/11/2026)
+
+**Decisão do editor:** "A nossa regra que proíbe IA só existe por causa de custo. Desde que não tenha custo, pode usar IA à
+vontade."
+
+**O que entra:**
+- **Animar as nossas pinturas** (imagem → vídeo). É o uso preferido, porque a arte continua nossa e só o movimento é de IA.
+- **Cenas geradas do zero**, quando a pintura em código não alcança. Exemplos: multidão, gado andando, chuva caindo na lavoura.
+
+**Caminhos gratuitos, por ordem:**
+1. **Hugging Face Spaces (ZeroGPU):**
+   - a cota grátis é pequena (cerca de 5 min de GPU por dia na conta gratuita, e menos sem conta);
+   - serve para 1 ou 2 clipes curtos por dia.
+2. **Kaggle:**
+   - cerca de 30 h de GPU por semana, segundo fontes de terceiros;
+   - roda o Wan 2.2 (Apache 2.0) num notebook;
+   - precisa de uma conta gratuita do editor, com a chave salva nas configurações do ambiente, nunca no chat.
+3. **O computador do editor,** se tiver placa NVIDIA com 8 GB ou mais: Wan2GP, sem limite.
+
+**Sem custo também na ferramenta:**
+- nada de MuAPI, nem de créditos pagos da Higgsfield, nem de qualquer serviço cobrado;
+- se aparecer cobrança, a geração para.
+
+**O que continua valendo:**
+- **Nada se passa por real:** nada de documento, decisão, pessoa, lugar ou acontecimento real inventado. Fato só com fonte.
+- **Crédito na tela:** "IMAGEM GERADA POR IA", ou "PINTURA FEITA EM CÓDIGO, ANIMADA POR IA".
+- **Aviso no YouTube:** marcar "conteúdo alterado ou sintético" quando a cena for realista.
+- **Licença:** o modelo precisa de licença que permita uso comercial (Wan e Apache 2.0 permitem).
+- **Registro:** cada clipe entra no `CENAS_USADAS.md`, com o modelo e o caminho gratuito usado.
 
 ## 3. Voz e som
 

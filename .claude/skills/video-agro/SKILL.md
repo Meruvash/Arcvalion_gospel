@@ -73,5 +73,5 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 - Usar documento em tela cheia por muito tempo.
 - Mostrar TV ou onda de áudio quando houver segunda voz.
 - Pintar rosto de frente.
-- Usar imagem de IA, foto sem licença, estilo de artista vivo ou estúdio, Portinari ou Tarsila.
+- Usar IA paga (MuAPI, créditos da Higgsfield ou qualquer serviço cobrado); IA gratuita pode (direção, seção 2.9). Foto sem licença, estilo de artista vivo ou estúdio, Portinari ou Tarsila.
 - Fazer render antes de o roteiro ser aprovado.

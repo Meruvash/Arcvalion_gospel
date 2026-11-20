@@ -90,7 +90,7 @@ como recomendação.
 - A estrutura de 10 batidas do `PROMPT_VIDEO_AGRO.md`.
 - O rodízio de eixos. O padrão Caseiro vale em qualquer eixo: dívida, tributo e clima também têm personagem, perda e
   mito ("o banco pode tomar a sua máquina?").
-- Todas as regras do portal: fatos lidos na fonte, nenhuma imagem de IA, fala do advogado informativa.
+- Todas as regras do portal: fatos lidos na fonte, IA só de graça (direção, seção 2.9), fala do advogado informativa.
 
 ## 5.1 Desempenho por vídeo (editor, 18/11/2026)
 - **Foram bem:** "O caseiro e o vizinho" (2.200 visualizações), "O irmão vendeu sem avisar" e os demais 100% animação.

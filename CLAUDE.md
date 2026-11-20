@@ -17,7 +17,7 @@
 - **Chamada Agro** (pedido de 12/11/2026): aba `/chamada-agro/` com notícias para o produtor rural (alongamento e renegociação de dívida rural, crédito, seguro, normas do CMN, decisões da Justiça), eixo `agro` do crivo. Regras em `.claude/skills/noticias/SKILL.md`, seção "Chamada Agro". A análise de demanda jurídica fica em `curadoria.agro`, fora do site.
 - Nada inventado: todo fato com fonte identificável (link + data); citação literal só de frase lida na fonte.
 - Não edite HTML gerado: como no Elite, o site sai de `tools/build_home.py` (na raiz do repositório) a partir de `conteudo/`, `config/`, `pauta.json` e `consulta/index.html` (bloco RAW dos livros). O deploy publica a raiz sem os arquivos de trabalho (`tools/montar_publicacao.py`).
-- Nunca use imagem gerada por IA em matéria. Nunca coloque segredo no repositório (ver `docs/DEPLOY.md`).
+- Nunca use imagem gerada por IA em matéria do site. **Nos vídeos do agro, IA pode, desde que de graça** (decisão do editor, 20/11/2026: a proibição era só por custo; ver `docs/video/DIRECAO_VIDEO_AGRO.md`, seção 2.9). Nunca coloque segredo no repositório (ver `docs/DEPLOY.md`).
 - Antes de commit: `python3 tools/noticias/checar_noticia.py`, `python3 tools/estudos/checar_estudo.py`, `python3 tools/discipulado/checar_licao.py`, `python3 -m unittest discover -s tests`, `python3 tools/checar_isolamento.py`.
 - O workflow Deploy publica a cada push na main (aprovado em 29/10/2026); o que está em revisão fica só em /previa/.
 - Design: copiado do Elite Boardgamers com o preto trocado por azul (tools/estilo_elite.py). Mantenha classes e medidas.
