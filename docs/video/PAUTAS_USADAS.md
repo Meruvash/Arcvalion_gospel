@@ -26,6 +26,19 @@ pauta recusada.
 **Situação do rodízio:** depois de três vídeos do eixo A, veio um do eixo D. O próximo não pode ser D, e o eixo A só volta
 depois de pelo menos mais 2 eixos diferentes.
 
+## Pautas em espera (pesquisa ampla de 20/11/2026, depois do pedido do editor: "os assuntos estão ficando repetitivos")
+
+| Eixo | Pauta | Busca real (autocomplete de 20/11/2026) | Molde do ouro | O que falta |
+|---|---|---|---|---|
+| B | **CCIR atrasado trava a fazenda:** sem o CCIR em dia, não dá para vender, hipotecar, arrendar nem dividir a terra | "ccir atrasado o que fazer", "pagar ccir atrasado", "ccir 2026" | Terra em jogo; prazo anual; personagem: o comprador ou o banco | Ler a Lei 4.947/1966, art. 22, no Senado |
+| A | **Recuperação judicial do produtor pessoa física:** "RJ é só pra empresa?" | "produtor rural pessoa física pode pedir recuperação judicial", "produtor rural pode pedir recuperação judicial" | Alto valor; prazo de 2 anos de atividade; mito × verdade | Ler o STJ, Tema 1.145, e a Lei 11.101/2005, art. 48 |
+| B/ambiental | **Multa do Ibama prescreve?** | "multa ibama prescreve", "multa do ibama prescreve em quantos anos", "embargo ibama consulta" | Escada de prazos (5 anos e 3 anos parada); dinheiro e terra embargada | Ler a Lei 9.873/1999 |
+| A | **Trator financiado repassado de gaveta:** quem assume a dívida pode perder a máquina | "trator financiado para assumir dívida", "trator financiado pelo pronaf" | Personagem: o vizinho que vendeu; o dinheiro em jogo | Ler a alienação fiduciária de bem móvel (DL 911/1969) |
+| B | **Linha de energia passando na fazenda:** a indenização da servidão e o prazo para cobrar | "servidão administrativa indenização", "indenização servidão rede elétrica prescrição" | Terra; prazo de prescrição | Ler a jurisprudência do STJ sobre o prazo |
+| B/ambiental | Poço artesiano precisa de outorga? | "todo poço artesiano precisa de outorga" | Multa; mito | Ler a Lei 9.433/1997 e a norma estadual |
+| fora de A/B | Arma na fazenda (posse em toda a área × transporte na estrada) | "produtor rural pode ter porte de arma", "fazendeiro pode andar armado" | Busca muito forte | Fora do foco do editor (penal); só se ele quiser |
+| F | Imposto sobre herança vai aumentar (ITCMD progressivo) | "imposto herança vai aumentar", "itcmd 2026", "itcmd reforma tributária" | Datado; alto valor (holding) | Ler a EC 132/2023 e a lei do estado |
+
 ## Pautas em espera (pesquisa de 17/11/2026, com o Crivo do Caseiro)
 
 | Eixo | Pauta | Crivo | O que falta |
