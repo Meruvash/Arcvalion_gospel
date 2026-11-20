@@ -28,7 +28,8 @@
  ],
  "corpo": [
   "Segundo a nota conjunta divulgada pelos dois presidentes, Moraes ouviu os argumentos e informou que dará retorno sobre o pedido assim que possível. A lei está suspensa desde maio, quando Moraes, relator das ações, entendeu que não poderia aplicar a redução de penas caso a caso enquanto o STF não decidisse se o texto é constitucional, informou a Agência Brasil.",
-  "Perguntado por jornalistas se pretende julgar o caso neste ano, Fachin respondeu que sim, mas a data depende de Moraes liberar o processo. A lei faz valer só a pena mais grave quando golpe de Estado e abolição violenta do Estado Democrático de Direito ocorrem no mesmo contexto, em vez de somar as duas."
+  "Perguntado por jornalistas se pretende julgar o caso neste ano, Fachin respondeu que sim, mas a data depende de Moraes liberar o processo. A lei faz valer só a pena mais grave quando golpe de Estado e abolição violenta do Estado Democrático de Direito ocorrem no mesmo contexto, em vez de somar as duas.",
+  "Atualização (20/11): Moraes liberou o caso, e o julgamento das quatro ações contra a Lei 15.402/2026 foi marcado para o plenário virtual a partir de 4 de dezembro, segundo a Agência Brasil. O portal Claudio Dantas informa que a sessão virtual vai até 15 de dezembro."
  ],
  "no_brasil": "As ações que contestam a lei foram apresentadas pela Associação Brasileira de Imprensa e pela federação PSOL-Rede. O projeto original é do deputado Marcelo Crivella. A defesa de Jair Bolsonaro, condenado a 27 anos e três meses, calcula redução de dois anos e cinco meses a três anos, segundo o portal Claudio Dantas.",
  "critica": [
@@ -52,7 +53,7 @@
  ],
  "nao_e_para": [
   "Não reduz pena de ninguém por enquanto: a lei segue suspensa",
-  "Não marca data de julgamento: isso depende de Moraes liberar e de Fachin pautar",
+  "O julgamento marcado é virtual, de 4 a 15 de dezembro; pedido de vista ou de destaque pode adiar a decisão",
   "Não é anistia: a lei muda o cálculo das penas, não apaga as condenações"
  ],
  "veredito": "Lei aprovada pelo Congresso e promulgada após derrubada de veto não pode ficar parada indefinidamente por decisão de um só ministro. Se há dúvida sobre a validade, o Plenário deve julgar. Moraes deve liberar as ações e o STF julgar antes do recesso.",
@@ -84,6 +85,18 @@
    "nome": "News Rondônia: Hugo Motta e Davi Alcolumbre pedem a Moraes julgamento da Lei da Dosimetria ainda este ano (17/11/2026)",
    "url": "https://newsrondonia.com.br/politica/2026/11/17/hugo-motta-e-davi-alcolumbre-pedem-a-moraes-julgamento-da-lei-da-dosimetria-ainda-este-ano/",
    "data": "17/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Brasil: Moraes pauta julgamento da Lei da Dosimetria para o dia 4 de dezembro",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/moraes-pauta-julgamento-da-lei-da-dosimetria-para-o-dia-4-de-dezembro",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Claudio Dantas: Moraes marca julgamento da Lei da Dosimetria para dezembro no STF",
+   "url": "https://claudiodantas.com.br/moraes-marca-lei-da-dosimetria-dezembro/",
+   "data": "19/11/2026",
    "tipo": "secundaria"
   }
  ],
@@ -151,7 +164,7 @@
    "grau_de_confianca": "alto",
    "status": "nota conjunta lida na íntegra; fala de Fachin em duas fontes",
    "contradicoes": "nenhuma relevante entre as fontes",
-   "sem_confirmacao": "número da lei e data de eventual liberação por Moraes; cálculo da defesa de Bolsonaro é estimativa da própria defesa"
+   "sem_confirmacao": "resultado do julgamento virtual; cálculo da defesa de Bolsonaro é estimativa da própria defesa"
   },
   "duplicidade": {
    "grupo": "Lei da Dosimetria no STF",
@@ -201,8 +214,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-18T02:30:18-03:00",
+  "data": "2026-11-20T02:26:46-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-18T02:30:18-03:00"
+ "publicado_em": "2026-11-18T02:30:18-03:00",
+ "atualizado_em": "2026-11-20T02:26:46-03:00"
 }
