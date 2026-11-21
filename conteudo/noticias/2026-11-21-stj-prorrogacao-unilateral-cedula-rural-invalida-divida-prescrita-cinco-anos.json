@@ -1,0 +1,190 @@
+{
+ "slug": "stj-prorrogacao-unilateral-cedula-rural-invalida-divida-prescrita-cinco-anos",
+ "data": "2026-11-21",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "STJ: banco que prorroga cédula rural sozinho pode perder o direito de cobrar",
+ "lide": "A prorrogação de cédula de crédito rural feita só pelo banco, sem pedido formal do produtor, não vale, e o prazo de prescrição corre do vencimento original, decidiu a Terceira Turma do STJ em acórdão publicado na quinta-feira (19). No caso, de Mato Grosso do Sul, o banco havia carimbado a prorrogação sem a assinatura dos devedores, e a cobrança foi considerada prescrita em cinco anos.",
+ "por_que_importa": "Muitos contratos rurais trazem carimbos de prorrogação. A decisão diz que o alongamento é direito do produtor, mas depende de pedido dele; se o banco prorroga por conta própria, não ganha mais prazo para cobrar. Para quem é cobrado de dívida antiga, a data do vencimento original pode fazer diferença.",
+ "numeros": [
+  [
+   "5 anos",
+   "é o prazo de prescrição da cobrança da cédula rural no caso, contado do vencimento original",
+   "STJ, AgInt no REsp 2.052.107/MS"
+  ],
+  [
+   "19/11",
+   "foi a publicação do acórdão da Terceira Turma, julgado em 17 de novembro",
+   "STJ, AgInt no REsp 2.052.107/MS"
+  ],
+  [
+   "Súmula 298",
+   "do STJ diz que o alongamento da dívida rural é direito do devedor, mas a decisão lembra que ele depende de requerimento",
+   "STJ, AgInt no REsp 2.052.107/MS"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, relatada pela ministra Daniela Teixeira, o alongamento e a prorrogação da dívida rural não se operam automaticamente: dependem do requerimento formal do produtor e da comprovação dos requisitos da lei, das resoluções do Banco Central e do Manual de Crédito Rural. As instâncias de origem registraram que não houve pedido dos devedores e que os carimbos foram postos só pelo banco.",
+  "Sem prorrogação válida, vale o vencimento original da cédula para contar o prazo prescricional. Por isso, o STJ manteve a decisão que restabeleceu a sentença de primeiro grau e reconheceu a prescrição quinquenal da cobrança."
+ ],
+ "no_brasil": "A prorrogação da dívida rural é regulada pelo Manual de Crédito Rural, e o portal explicou em 12 de novembro a mudança feita pela Resolução CMN 5.314 e a Súmula 298 do STJ. A decisão vale para o caso concreto, mas mostra como a Terceira Turma trata a prorrogação sem pedido do produtor.",
+ "critica": [
+  {
+   "fonte": "STJ, Terceira Turma, AgInt no REsp 2.052.107/MS",
+   "texto": "O alongamento e a prorrogação de dívida oriunda de crédito rural, embora constituam direito do devedor (Súmula 298/STJ), não se operam automaticamente; condicionam-se ao requerimento formal do mutuário",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2052107&O=JT"
+  },
+  {
+   "fonte": "Banco credor, segundo a ementa",
+   "texto": "Recorreu sustentando a validade da prorrogação do vencimento registrada nos títulos, que afastaria a prescrição da cobrança.",
+   "citacao": false,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2052107&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor cobrado por cédula rural antiga: confira a data do vencimento original e se você pediu, por escrito, alguma prorrogação",
+  "Quem quer prorrogar a dívida: faça o pedido formal ao banco e guarde o protocolo; sem pedido, não há prorrogação válida",
+  "Bancos: carimbo de prorrogação sem assinatura do produtor não segura o prazo de cobrança"
+ ],
+ "nao_e_para": [
+  "É decisão de turma em caso concreto; a prescrição depende das datas e dos documentos de cada contrato",
+  "Não significa que toda dívida rural antiga está prescrita",
+  "O pedido de prorrogação feito pelo produtor também muda a contagem; cada caso precisa ser conferido"
+ ],
+ "veredito": "A gente acha a decisão justa e coerente: se a prorrogação é direito do produtor, quem decide pedir é ele. Banco que muda o vencimento sozinho, sem assinatura de ninguém, não pode usar isso para esticar o prazo de cobrança.",
+ "fontes": [
+  {
+   "nome": "STJ: AgInt no REsp 2.052.107/MS, Terceira Turma, relatora Ministra Daniela Teixeira",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2052107&O=JT",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: base de jurisprudência, acórdãos sobre crédito rural publicados a partir de 19/11/2026",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=rural%20e%20%40DTPB%3E%3D20261119&O=JT",
+   "data": "21/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 64,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Prorrogação de cédula de crédito rural e prescrição da cobrança da dívida do produtor"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2052107&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Decisão de turma do STJ que pode extinguir cobrança de dívida rural antiga prorrogada só pelo banco"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Prorrogação e cobrança de dívida rural, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 15,
+    "porque": "Acórdão publicado na quinta-feira (19), há dois dias"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa integral lida na base de jurisprudência do STJ"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Decisão sem cobertura na imprensa; explicamos o que conferir no contrato"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 8,
+    "viral": 2,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que conferir na cédula (2)",
+    "Contraria a narrativa: banco perde o prazo (1)",
+    "Moeda social: regra que poucos conhecem (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "AgInt no REsp 2.052.107/MS",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Justiça e dívida rural",
+  "coleta": "2026-11-21",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa conferida na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "nome do banco e valor da cédula"
+  },
+  "duplicidade": {
+   "grupo": "Prorrogação de dívida rural",
+   "itens": [
+    "AgInt no REsp 2.052.107/MS"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-12-prorrogacao-divida-rural-resolucao-cmn-5314-sumula-298-stj"
+  },
+  "seo": {
+   "intencao": "saber se a prorrogação feita pelo banco vale e quando a dívida rural prescreve",
+   "entidades": [
+    "STJ",
+    "cédula de crédito rural",
+    "prescrição",
+    "prorrogação",
+    "Súmula 298"
+   ],
+   "termos": [
+    "prorrogação cédula rural sem pedido",
+    "prescrição cédula de crédito rural",
+    "STJ prorrogação unilateral banco"
+   ],
+   "atualizacao": "acompanhar outros julgados sobre prorrogação unilateral"
+  },
+  "agro": {
+   "demanda": "Produtores cobrados por cédulas rurais antigas com carimbos de prorrogação feitos pelo banco",
+   "prazo": "prescrição de cinco anos contada do vencimento original, conforme o caso",
+   "quem": "Produtores e avalistas de cédulas de crédito rural"
+  }
+ },
+ "descricao_seo": "STJ: prorrogação de cédula rural feita só pelo banco, sem pedido do produtor, não vale; prescrição corre do vencimento original.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura da ementa, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a regra vem da ementa, citada literalmente; a nota avisa que é caso concreto e que não torna prescrita toda dívida antiga. Não nomeia partes nem acusa o banco de má-fé. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-prorrogacao-unilateral-cedula-rural-invalida-divida-prescrita-cinco-anos.jpg",
+  "credito": "Foto: Valter Campanato/Agência Brasil",
+  "alt": "Pivô central de irrigação molha lavoura sob céu azul (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/i-t3ixYoTySz-DL3zbcgZvu-OIY=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/vac_abr_10061916762_0.jpg?itok=vo5EsY5k",
+  "pagina": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/mp-de-renegociacao-de-dividas-rurais-preve-punicoes-contra-fraudes"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-21T14:46:59-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-21T14:46:59-03:00"
+}
