@@ -28,7 +28,8 @@
  ],
  "corpo": [
   "Os relatórios foram entregues na quarta-feira (18) pelo diretor-geral da PF, Andrei Rodrigues, em atenção a um ofício de Fachin de outubro, segundo o STF. Fachin arquivou os relatórios sobre Luiz Fux, Cármen Lúcia, Gilmar Mendes, Flávio Dino, Cristiano Zanin e ele próprio. A decisão está em segredo de Justiça e os motivos não foram divulgados.",
-  "O teor dos relatórios é sigiloso. A Agência Brasil afirma que não é possível saber o contexto das citações nem o grau de relação dos ministros com Vorcaro, que está preso. Menção em conversa de terceiro não significa crime."
+  "O teor dos relatórios é sigiloso. A Agência Brasil afirma que não é possível saber o contexto das citações nem o grau de relação dos ministros com Vorcaro, que está preso. Menção em conversa de terceiro não significa crime.",
+  "Atualização (21/11): a pedido de André Mendonça, Fachin retirou o sigilo do relatório sobre ele. A PF escreveu que não identificou \"registros que evidenciem diálogo direto\" entre Vorcaro e o ministro, informou a Agência Brasil. Os outros três relatórios seguem sob sigilo."
  ],
  "no_brasil": "No Senado, a Comissão de Fiscalização e Controle aprovou em 18/11 proposta do senador Marcio Bittar (PL-AC) para fiscalizar, com ajuda do TCU, a atuação do Banco Central e da CVM antes da liquidação do Master, informou a Agência Senado.",
  "critica": [
@@ -85,6 +86,12 @@
    "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/comissao-do-senado-vai-fiscalizar-atuacao-de-orgaos-reguladores-no-caso-master",
    "data": "18/11/2026",
    "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: PF diz que não há conversas de Mendonça com Vorcaro (20/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pf-diz-que-nao-ha-conversas-de-mendonca-com-vorcaro",
+   "data": "20/11/2026",
+   "tipo": "secundaria"
   }
  ],
  "crivo": {
@@ -201,8 +208,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-20T02:30:54-03:00",
+  "data": "2026-11-21T02:29:47-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-20T02:30:54-03:00"
+ "publicado_em": "2026-11-20T02:30:54-03:00",
+ "atualizado_em": "2026-11-21T02:29:47-03:00"
 }
