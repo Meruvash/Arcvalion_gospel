@@ -1,0 +1,206 @@
+{
+ "slug": "tjro-derruba-lei-rondonia-pais-vetar-filhos-aulas-genero-6468",
+ "data": "2026-11-21",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": true,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "TJ de Rondônia derruba lei que deixava pais vetarem filhos em aulas sobre gênero",
+ "lide": "O Tribunal de Justiça de Rondônia declarou inconstitucional, por unanimidade, a Lei estadual 6.468/2026, que garantia aos pais o direito de vetar a participação dos filhos em atividades escolares sobre identidade de gênero, orientação sexual, diversidade sexual e igualdade de gênero. A ação foi movida pelo PSB, e a decisão anula a lei desde a origem, segundo o g1 e o Valor e Mercado RO.",
+ "por_que_importa": "A lei valia para escolas públicas e privadas de todo o estado e obrigava a escola a avisar os pais antes dessas atividades. Com a decisão, os pais de Rondônia perdem o instrumento legal de autorizar ou recusar por escrito a participação dos filhos nesses conteúdos.",
+ "numeros": [
+  [
+   "6.468",
+   "é o número da lei estadual promulgada em 9 de julho de 2026 pela Assembleia",
+   "Lei 6.468/2026, Casa Civil de Rondônia"
+  ],
+  [
+   "4",
+   "temas que a lei definia como atividades de gênero: identidade, orientação sexual, diversidade e igualdade",
+   "Lei 6.468/2026, art. 2º"
+  ],
+  [
+   "16/11",
+   "é a data do julgamento unânime no TJRO",
+   "Valor e Mercado RO"
+  ]
+ ],
+ "corpo": [
+  "Pela lei, a escola tinha de informar os pais antes de qualquer atividade sobre esses temas, e os pais diziam por escrito se concordavam ou não; o descumprimento sujeitava a escola a sanções civis e penais. A Assembleia promulgou o texto em julho, assinado pelo presidente Alex Redano.",
+  "O relator, desembargador Hiram Souza Marques, entendeu que o estado invadiu a competência da União sobre diretrizes da educação e que a lei feria os artigos 205 e 206 da Constituição. Para ele, o poder familiar não é absoluto e a liberdade de orientar os filhos \"não se confunde com o poder de impedir conteúdos educacionais\" da formação básica."
+ ],
+ "no_brasil": "O STF já derrubou leis parecidas, como a do Maranhão, em 3 de novembro, e a do Espírito Santo. A Assembleia de Rondônia não respondeu ao g1 até a publicação. A decisão ainda pode ser contestada em recurso ao STF.",
+ "critica": [
+  {
+   "fonte": "Desembargador Hiram Souza Marques, relator, segundo o Valor e Mercado RO",
+   "texto": "Não se trata, portanto, de afastar a participação legítima das famílias na educação dos filhos, mas de reconhecer que essa participação deve ocorrer dentro dos limites da Constituição Federal.",
+   "citacao": true,
+   "url": "https://www.valoremercadoro.com.br/por-unanimidade-tjro-derruba-lei-sobre-veto-de-pais-a-pedagogia-de-genero/"
+  },
+  {
+   "fonte": "Defensores da lei, pelo próprio texto aprovado na Assembleia",
+   "texto": "A lei afirmava o direito de pais e responsáveis vetarem a participação dos filhos em atividades pedagógicas de gênero e exigia aviso prévio da escola.",
+   "citacao": false,
+   "url": "https://ditel.casacivil.ro.gov.br/cotel/Livros/Files/L6468.pdf"
+  }
+ ],
+ "para_quem": [
+  "Pais de alunos de escolas públicas e privadas de Rondônia",
+  "Diretores, professores e escolas confessionais do estado",
+  "Deputados e igrejas que defendem o direito dos pais na educação"
+ ],
+ "nao_e_para": [
+  "Não obriga a escola a dar aulas sobre gênero: derruba só a lei do veto dos pais",
+  "Não tira dos pais o direito de conversar com a escola e acompanhar o que é ensinado",
+  "Não vale para outros estados: é decisão sobre a lei de Rondônia"
+ ],
+ "veredito": "Quem educa os filhos em valores são os pais, não o Estado. O tribunal invocou a competência da União, mas o recado é ruim: a família pede para ser avisada e consultada e ouve que não pode. O Congresso precisa garantir em lei federal o direito dos pais.",
+ "versiculo": {
+  "texto": "e as intimarás a teus filhos e delas falarás assentado em tua casa, e andando pelo caminho, e deitando-te, e levantando-te.",
+  "referencia": "Deuteronômio 6.7",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Casa Civil de Rondônia: texto da Lei estadual nº 6.468, de 9 de julho de 2026",
+   "url": "https://ditel.casacivil.ro.gov.br/cotel/Livros/Files/L6468.pdf",
+   "data": "09/07/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "g1 Rondônia: TJ derruba lei que permitia aos pais proibir filhos de participar de aulas sobre gênero em RO (20/11/2026)",
+   "url": "https://g1.globo.com/ro/rondonia/noticia/2026/11/20/tj-derruba-lei-que-permitia-aos-pais-proibir-filhos-de-participar-de-aulas-sobre-genero-em-ro.ghtml",
+   "data": "20/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Valor e Mercado RO: Por unanimidade, TJRO derruba lei sobre veto de pais a pedagogia de gênero (11/2026)",
+   "url": "https://www.valoremercadoro.com.br/por-unanimidade-tjro-derruba-lei-sobre-veto-de-pais-a-pedagogia-de-genero/",
+   "data": "19/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "STF: STF invalida lei do Maranhão que permitia aos pais vetar participação dos filhos em aulas sobre gênero e sexualidade",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-lei-do-maranhao-que-permitia-aos-pais-vetar-participacao-dos-filhos-em-aulas-sobre-genero-e-sexualidade/",
+   "data": "03/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 72,
+  "trilha": "quente",
+  "abrangencia": "rondonia",
+  "tema": {
+   "eixo": "familia",
+   "porque": "Direito dos pais sobre a educação dos filhos em temas de gênero nas escolas de Rondônia"
+  },
+  "origem": {
+   "nome": "g1 Rondônia",
+   "url": "https://g1.globo.com/ro/rondonia/noticia/2026/11/20/tj-derruba-lei-que-permitia-aos-pais-proibir-filhos-de-participar-de-aulas-sobre-genero-em-ro.ghtml"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Decisão judicial que anula lei válida para todas as escolas públicas e privadas de Rondônia"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Família e educação dos filhos; ato sobre Rondônia em tema do núcleo do portal"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Julgamento de 16/11, noticiado entre 19 e 20/11"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Texto da lei lido na fonte oficial; decisão relatada por dois veículos independentes"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Mostra o que a lei exigia (aviso prévio, autorização escrita, sanções) a partir do texto oficial"
+   }
+  },
+  "publico": {
+   "pontos": 17,
+   "eixos": {
+    "valor": 6,
+    "viral": 6,
+    "cristao": 5
+   },
+   "criterios": [
+    "Documento primário: texto da lei (2)",
+    "Proximidade: Rondônia (2)",
+    "Duas fontes independentes (1)",
+    "Personagem com nome: relator e presidente da Assembleia (1)",
+    "Tema que já mobiliza o público: gênero nas escolas (2)",
+    "Conflito claro: pais e Justiça (2)",
+    "Utilidade: o que muda para os pais (2)",
+    "Passagem bíblica que um pastor usaria: Deuteronômio 6 (2)",
+    "Gancho cristão direto: educação dos filhos (3)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "TJ derruba lei que permitia aos pais proibir filhos de participar de aulas sobre gênero em RO",
+  "nucleo": "B - Rondônia",
+  "categoria": "Família / educação",
+  "coleta": "2026-11-21",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "lei lida na fonte oficial; julgamento em dois veículos",
+   "contradicoes": "g1 diz que a decisão foi publicada na quarta (18); o Valor e Mercado RO diz que o julgamento foi na segunda (16). Usamos 16/11 como data do julgamento.",
+   "sem_confirmacao": "acórdão na íntegra (não localizado no site do TJRO) e eventual recurso da Assembleia"
+  },
+  "duplicidade": {
+   "grupo": "Lei 6.468/2026 de Rondônia",
+   "itens": [
+    "g1 RO 20/11",
+    "Valor e Mercado RO 19/11",
+    "Rondônia em Pauta"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se os pais de Rondônia ainda podem vetar aulas sobre gênero",
+   "entidades": [
+    "Tribunal de Justiça de Rondônia",
+    "Lei 6.468/2026",
+    "Assembleia Legislativa de Rondônia",
+    "Hiram Souza Marques",
+    "PSB"
+   ],
+   "termos": [
+    "lei 6468 rondônia gênero",
+    "tjro lei pais aulas gênero inconstitucional",
+    "pais vetar aulas de gênero rondônia"
+   ],
+   "atualizacao": "recurso da Assembleia ao STF"
+  }
+ },
+ "descricao_seo": "TJRO declara inconstitucional a Lei 6.468/2026, que deixava pais vetarem a participação dos filhos em aulas sobre gênero em Rondônia.",
+ "instituicao": "Tribunal de Justiça de Rondônia",
+ "editora": "Tribunal de Justiça de Rondônia",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas fontes, leitura do texto da lei e das reportagens, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fundamentos do relator reproduzidos com atribuição; texto da lei citado pela fonte oficial; outro lado (defesa da lei) registrado; opinião no veredito critica a decisão sem atacar magistrados; 'pode ser contestada' explícito. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/tjro-derruba-lei-rondonia-pais-vetar-filhos-aulas-genero-6468.jpg",
+  "credito": "Foto: José Cruz/Agência Brasil",
+  "alt": "Professor escreve no quadro branco diante de alunos sentados em sala de aula (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/rQmDuaR1ZRpPOIs_NeTcEcKw2jI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/10/24/0d9a2969.jpg?itok=1AOHZYIk",
+  "pagina": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/fies-candidatos-tem-ate-hoje-para-validar-informacoes-da-inscricao"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-21T02:28:17-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-21T02:28:17-03:00"
+}
