@@ -1,0 +1,189 @@
+{
+ "slug": "stj-incendio-propriedade-rural-vizinho-indeniza-plantacao-lucros-cessantes",
+ "data": "2026-11-21",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "STJ mantém indenização a produtor que perdeu plantação em incêndio vindo do vizinho",
+ "lide": "A Quarta Turma do STJ manteve a condenação de um proprietário rural do Pará a indenizar o vizinho pela destruição de uma plantação produtiva em incêndio que, segundo a Justiça estadual, começou na propriedade dele. A decisão, publicada em 13 de novembro, reconhece danos materiais e lucros cessantes, com o valor a ser apurado em liquidação.",
+ "por_que_importa": "Em época de queimadas, o fogo que passa a cerca vira conta para quem deixou começar. A decisão mostra que laudo policial e testemunhas bastaram para provar a origem do incêndio e que o produtor atingido pode cobrar o que deixou de colher, não só o que perdeu.",
+ "numeros": [
+  [
+   "10%",
+   "de perda natural da produção foram considerados no cálculo da indenização, que será apurado em liquidação",
+   "STJ, REsp 2.266.148/PA"
+  ],
+  [
+   "13/11",
+   "foi a publicação do acórdão da Quarta Turma, julgado em 10 de novembro",
+   "STJ, REsp 2.266.148/PA"
+  ],
+  [
+   "61",
+   "municípios do Pará tiveram situação de emergência reconhecida por incêndios florestais em 15 de novembro",
+   "Agência Brasil, 15/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, relatada pela ministra Maria Isabel Gallotti, a conclusão de que o fogo se iniciou na propriedade do recorrente se apoiou em laudo policial e prova testemunhal, e o STJ não pode reexaminar essas provas. Um documento da secretaria estadual de meio ambiente foi expressamente afastado pelo tribunal paraense, que deu razões para isso.",
+  "O STJ também rejeitou a alegação de cerceamento de defesa no julgamento virtual da apelação, porque havia ferramenta para sustentação oral gravada, não usada pelo recorrente. Reconhecidos o dano emergente e o lucro cessante pela destruição da plantação, o valor vai ser calculado em liquidação de sentença."
+ ],
+ "no_brasil": "O Pará enfrenta temporada de incêndios: em 15 de novembro, o governo federal reconheceu emergência em 61 municípios do estado por incêndios florestais, e outros 50 estão em emergência por queimadas e estiagem, segundo a Agência Brasil.",
+ "critica": [
+  {
+   "fonte": "STJ, Quarta Turma, REsp 2.266.148/PA",
+   "texto": "Reconhecida a existência de dano emergente e de lucro cessante decorrentes da destruição de plantação produtiva, o quantum pode ser apurado em liquidação de sentença.",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2266148&O=JT"
+  },
+  {
+   "fonte": "Proprietário recorrente, segundo a ementa",
+   "texto": "Alegou cerceamento de defesa no julgamento virtual e defendeu que documento da secretaria estadual de meio ambiente provaria outra origem para o incêndio.",
+   "citacao": false,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2266148&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor que teve lavoura ou pasto queimado por fogo vindo do vizinho: registre boletim, peça laudo e junte testemunhas; foi essa prova que sustentou o caso",
+  "Quem usa fogo na propriedade: se o incêndio passar para o vizinho, pode haver condenação por dano e por lucro cessante",
+  "Quem calcula o prejuízo: a indenização pode incluir o que a plantação deixaria de render, descontada a perda natural"
+ ],
+ "nao_e_para": [
+  "É decisão de turma em caso concreto; o STJ não reexaminou as provas",
+  "O valor da indenização ainda não foi definido; será apurado em liquidação",
+  "Não trata de multa ambiental nem de responsabilidade criminal"
+ ],
+ "veredito": "A gente acha a decisão correta: quem deixa o fogo escapar responde pelo estrago. E fica a lição prática para o produtor atingido: sem boletim, laudo e testemunhas, não há como provar de onde veio o fogo.",
+ "fontes": [
+  {
+   "nome": "STJ: REsp 2.266.148/PA, Quarta Turma, relatora Ministra Maria Isabel Gallotti",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2266148&O=JT",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Pará tem 61 cidades em situação de emergência por incêndios florestais",
+   "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/para-tem-61-cidades-em-situacao-de-emergencia-por-incendios-florestais",
+   "data": "15/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 60,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Responsabilidade civil por incêndio entre propriedades rurais e indenização ao produtor que perdeu a plantação"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2266148&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Decisão de turma do STJ que orienta a cobrança de prejuízo por incêndio vindo da propriedade vizinha"
+   },
+   "afinidade": {
+    "pontos": 17,
+    "porque": "Direito do produtor e prejuízo na lavoura, eixo da aba Agro fora do núcleo de crédito"
+   },
+   "atualidade": {
+    "pontos": 14,
+    "porque": "Acórdão publicado em 13/11, em plena temporada de incêndios no Pará"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa integral lida no STJ e dados oficiais da emergência na Agência Brasil"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Decisão sem cobertura na imprensa; ligamos ao momento dos incêndios no Pará"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 7,
+    "viral": 2,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: que prova juntar (2)",
+    "Calendário: temporada de incêndios (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "REsp 2.266.148/PA",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Justiça e responsabilidade civil",
+  "coleta": "2026-11-21",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa conferida no STJ; dados da emergência na Agência Brasil",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "cultura plantada, área e valor do prejuízo"
+  },
+  "duplicidade": {
+   "grupo": "STJ e produtor",
+   "itens": [
+    "REsp 2.266.148/PA"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber se o produtor pode cobrar do vizinho o prejuízo de incêndio",
+   "entidades": [
+    "STJ",
+    "incêndio",
+    "propriedade rural",
+    "lucros cessantes",
+    "Pará"
+   ],
+   "termos": [
+    "incêndio vizinho indenização plantação",
+    "fogo propriedade rural responsabilidade civil STJ",
+    "lucro cessante plantação queimada"
+   ],
+   "atualizacao": "acompanhar outros julgados sobre incêndio rural"
+  },
+  "agro": {
+   "demanda": "Produtores que perderam lavoura ou pasto em incêndio vindo de propriedade vizinha",
+   "prazo": "sem prazo próprio; prescrição civil conforme o caso",
+   "quem": "Produtores rurais vizinhos, em especial em áreas de queimada"
+  }
+ },
+ "descricao_seo": "STJ mantém indenização a produtor que perdeu plantação em incêndio iniciado no vizinho, com danos e lucros cessantes, no Pará.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura da ementa e da reportagem, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os fatos vêm da ementa, citada literalmente; a nota não nomeia partes e registra os argumentos do recorrente. A ligação com a temporada de incêndios usa dados oficiais. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-incendio-propriedade-rural-vizinho-indeniza-plantacao-lucros-cessantes.jpg",
+  "credito": "Foto: Rafa Neddermeyer/Agência Brasil",
+  "alt": "Coluna de fumaça de incêndio sobre área de floresta e pasto no Pará (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/XKOLBqw4TE_jQL8ZNKwYhjgYKlk=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/13/img_e1094-1_1.jpg?itok=VL-asVhm",
+  "pagina": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/para-tem-61-cidades-em-situacao-de-emergencia-por-incendios-florestais"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-21T14:50:58-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-21T14:50:58-03:00"
+}
