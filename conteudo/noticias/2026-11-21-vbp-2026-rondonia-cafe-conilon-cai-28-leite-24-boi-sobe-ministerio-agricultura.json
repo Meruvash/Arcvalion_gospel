@@ -1,0 +1,198 @@
+{
+ "slug": "vbp-2026-rondonia-cafe-conilon-cai-28-leite-24-boi-sobe-ministerio-agricultura",
+ "data": "2026-11-21",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Motivo de alerta",
+ "titulo": "VBP: Rondônia perde 28,5% no café e 23,8% no leite em 2026, mostra Ministério da Agricultura",
+ "lide": "O faturamento bruto do café conilon em Rondônia deve cair 28,5% em 2026, e o do leite, 23,8%, segundo a planilha regional do Valor Bruto da Produção (VBP) divulgada pelo Ministério da Agricultura na quinta-feira (19). O total do estado fica estável, em R$ 34,55 bilhões, sustentado pelo boi, que sobe 12,7%. No país, o VBP deve recuar 2,6%.",
+ "por_que_importa": "O VBP mede quanto entra de faturamento bruto com o que o produtor colhe e cria. Em Rondônia, a queda está no café e no leite, enquanto a pecuária de corte cresce. Menos receita no café e no leite pesa na hora de pagar custeio e parcelas.",
+ "numeros": [
+  [
+   "-28,5%",
+   "é a queda estimada do VBP do café conilon em Rondônia em 2026, para R$ 3,14 bilhões",
+   "Mapa, VBP regional de outubro de 2026, valores deflacionados"
+  ],
+  [
+   "-23,8%",
+   "é a queda estimada do leite no estado, para R$ 988 milhões",
+   "Mapa, VBP regional"
+  ],
+  [
+   "+12,7%",
+   "é a alta estimada dos bovinos em Rondônia, para R$ 20,7 bilhões",
+   "Mapa, VBP regional"
+  ],
+  [
+   "-10,5%",
+   "é a queda estimada das lavouras no estado, para R$ 12,3 bilhões; Rondônia é o 11º VBP do país",
+   "Mapa, VBP regional"
+  ]
+ ],
+ "corpo": [
+  "Pela planilha, as lavouras de Rondônia caem de R$ 13,76 bilhões em 2025 para R$ 12,32 bilhões em 2026, e o cacau recua 57,4%. A soja sobe 3,2%, para R$ 5,22 bilhões, e o milho cai 3,5%. A pecuária vai de R$ 20,25 bilhões para R$ 22,23 bilhões, puxada pelos bovinos. Os valores são deflacionados pelo IGP-DI e preliminares, com dados até outubro.",
+  "No país, segundo o ministério, as lavouras somam R$ 938,1 bilhões, queda de 3,9%, com retrações no cacau (-55,8%), arroz (-22,1%) e café (-10%). O ministério atribui parte do resultado ao excesso de chuvas e às estiagens. Para 2027, a projeção nacional é de alta de 2,6%."
+ ],
+ "no_brasil": "O VBP nacional de 2026 está estimado em R$ 1,46 trilhão, 2,6% abaixo do recorde de R$ 1,504 trilhão de 2025, segundo o Ministério da Agricultura. Mato Grosso lidera, com 15,7% do total.",
+ "critica": [
+  {
+   "fonte": "Ministério da Agricultura, sobre o VBP de 2026",
+   "texto": "Entre os fatores que contribuíram para o resultado estão o excesso de chuvas e os períodos de estiagem, que afetaram o desempenho de diferentes culturas ao longo do ano.",
+   "citacao": true,
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/valor-bruto-da-producao-de-outubro-esta-estimado-em-r-1-46-trilhao"
+  },
+  {
+   "fonte": "Ministério da Agricultura, sobre 2027",
+   "texto": "Para 2027, a projeção é de recuperação do VBP, com crescimento nos dois segmentos da produção agropecuária.",
+   "citacao": true,
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/valor-bruto-da-producao-de-outubro-esta-estimado-em-r-1-46-trilhao"
+  }
+ ],
+ "para_quem": [
+  "Cafeicultor e produtor de leite de Rondônia: com faturamento menor, vale rever o fluxo de caixa antes de assumir parcela nova e, se preciso, pedir a prorrogação com laudo",
+  "Pecuarista de corte: o boi segue em alta no estado, segundo a estimativa",
+  "Cooperativas e técnicos: os números por produto estão na planilha regional do ministério"
+ ],
+ "nao_e_para": [
+  "Os valores de 2026 são preliminares, com dados até outubro, e podem mudar",
+  "VBP é faturamento bruto, não lucro: não desconta custos",
+  "Os percentuais do estado foram calculados pelo portal a partir da planilha oficial, em valores deflacionados"
+ ],
+ "veredito": "A gente vê o retrato de dois Rondônias: o boi vai bem, o café e o leite vão mal. É para quem vive do café e do leite que a renegociação e o Proagro precisam chegar primeiro, porque é ali que falta caixa para a parcela.",
+ "fontes": [
+  {
+   "nome": "Ministério da Agricultura e Pecuária: Valor Bruto da Produção de outubro está estimado em R$ 1,46 trilhão",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/valor-bruto-da-producao-de-outubro-esta-estimado-em-r-1-46-trilhao",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Ministério da Agricultura e Pecuária: VBP Regional, outubro de 2026 (planilha)",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/politica-agricola/valor-bruto-da-producao-agropecuaria-vbp/202610VBPREGIONAL.xlsx",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 63,
+  "trilha": "quente",
+  "abrangencia": "rondonia",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Queda do faturamento do café e do leite em Rondônia e efeito sobre a capacidade de pagamento do produtor"
+  },
+  "origem": {
+   "nome": "Ministério da Agricultura e Pecuária",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/valor-bruto-da-producao-de-outubro-esta-estimado-em-r-1-46-trilhao"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Mostra a queda de receita das principais atividades da agricultura familiar de Rondônia em 2026"
+   },
+   "afinidade": {
+    "pontos": 17,
+    "porque": "Renda do produtor de Rondônia e capacidade de pagar dívidas, eixo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 15,
+    "porque": "Estimativa divulgada pelo ministério na quinta-feira (19)"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Nota oficial e planilha regional do ministério lidas; percentuais calculados pelo portal"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Calculamos os números de Rondônia na planilha regional, que a nota nacional não traz"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: planilha oficial do VBP (2)",
+    "Proximidade: Rondônia (2)",
+    "Número forte: café -28,5% (1)",
+    "Duas fontes oficiais (1)",
+    "Moeda social: dado de Rondônia que ninguém deu (1)",
+    "Utilidade: rever o caixa antes de nova parcela (2)",
+    "Cabe num cartão: café e leite caem em RO (1)",
+    "Emoção: preocupação (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Valor Bruto da Produção de outubro está estimado em R$ 1,46 trilhão",
+  "nucleo": "B - Rondônia",
+  "categoria": "Agro / Renda do produtor",
+  "coleta": "2026-11-21",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "nota e planilha regional oficiais conferidas",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "números finais de 2026"
+  },
+  "duplicidade": {
+   "grupo": "VBP 2026",
+   "itens": [
+    "Mapa 19/11",
+    "VBP regional outubro/2026"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber como está o faturamento do agro de Rondônia em 2026",
+   "entidades": [
+    "VBP",
+    "Rondônia",
+    "café conilon",
+    "leite",
+    "Ministério da Agricultura"
+   ],
+   "termos": [
+    "VBP Rondônia 2026",
+    "café conilon Rondônia queda",
+    "leite Rondônia faturamento"
+   ],
+   "atualizacao": "atualizar com o VBP de dezembro"
+  },
+  "agro": {
+   "demanda": "Cafeicultores e produtores de leite de Rondônia com receita menor e parcelas de crédito rural a pagar",
+   "prazo": "safra 2026/27",
+   "quem": "Agricultores familiares de café e leite em Rondônia"
+  }
+ },
+ "descricao_seo": "VBP de 2026: em Rondônia, café conilon cai 28,5% e leite 23,8%, enquanto o boi sobe 12,7%, segundo planilha do Ministério da Agricultura.",
+ "instituicao": "Ministério da Agricultura e Pecuária",
+ "editora": "Ministério da Agricultura e Pecuária",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da nota e da planilha oficial, cálculo dos percentuais de Rondônia, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: números tirados da planilha oficial, com aviso de que os percentuais do estado foram calculados pelo portal e de que os dados são preliminares e brutos. Nenhuma crítica a pessoa ou órgão. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/vbp-2026-rondonia-cafe-conilon-cai-28-leite-24-boi-sobe-ministerio-agricultura.jpg",
+  "credito": "Foto: Marcello Casal Jr./Agência Brasil",
+  "alt": "Ordenha de vaca leiteira (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/JzIuI-JObYOxKnNVX99UV-SFyGo=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/ordenha_de_vaca.jpg?itok=lUALFzzi",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-de-leite-bate-recorde-mesmo-com-reducao-de-vacas-ordenhadas"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-21T14:53:30-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-21T14:53:30-03:00"
+}
