@@ -2,10 +2,10 @@
 // Composições novas, à maneira de mestres em domínio público:
 //   cc_cezanne  — Paul Cézanne (1839–1906): a fazenda vista do alto, retalhada em lotes como no cadastro, pinceladas
 //                 construtivas em diagonal, serra azulada ao fundo
-//   cc_corot    — Camille Corot (1796–1875): dois homens conversando ao pé de uma árvore grande, junto da cerca e da
-//                 porteira; verdes prateados, luz de manhã
-//   cc_courbet  — Gustave Courbet (1819–1877): o escrevente no balcão escuro, livro de registro aberto, lamparina
-//   cc_seurat   — Georges Seurat (1859–1891): a praça da cidade pequena com a agência do banco, em pontos de cor
+//   cc_corot    — Camille Corot (1796–1875): a árvore grande junto da cerca e da porteira, a pasta de papéis no
+//                 mourão (sem figura humana); verdes prateados, luz de manhã
+//   cc_courbet  — Gustave Courbet (1819–1877): o balcão escuro, livro de registro aberto, lamparina, pena no tinteiro (sem figura humana)
+//   cc_seurat   — Georges Seurat (1859–1891): a praça da cidade pequena com a agência do banco, em pontos de cor (sem figura humana)
 (() => {
   const W = 1920, H = 1080, { clamp, lerp, rng, ss } = U, P = PAINT, M = MEDIUM, TAU = Math.PI * 2;
   const poly = (g, pts) => { g.beginPath(); pts.forEach(([x, y], i) => i ? g.lineTo(x, y) : g.moveTo(x, y)); g.closePath(); };
@@ -76,9 +76,7 @@
       for (let k = 0; k < 3; k++) g.fillRect(960, 700 + k * 50, 520, 14);
       for (let k = 0; k < 4; k++) g.fillRect(960 + k * 170, 680, 18, 190);
       g.fillStyle = '#8a6a44'; poly(g, [[1000, 712], [1140, 762], [1140, 776], [1000, 726]]); g.fill();
-      figura(g, 780, 900, 1.6, '#3a4a6a', '#8a5a3a', '#c8b070');           // o vizinho que quer comprar
-      figura(g, 950, 910, 1.6, '#d8d0c0', '#a06a44', '#d8c080', '#4a4a5a'); // o dono, com a pasta
-      g.fillStyle = '#c8a070'; g.fillRect(975, 680, 64, 80);   // a pasta de papéis
+      g.fillStyle = '#c8a070'; g.fillRect(1118, 640, 58, 46); g.fillStyle = '#a8804a'; g.fillRect(1118, 640, 58, 6);   // a pasta de papéis deixada no mourão
       return M.broken(a, { cell: 7, len: 14, wid: 9, passes: 3, angle: (x, y) => Math.sin(x * .01 + y * .02) * .9, seed: 611, jit: 12, skip: 0.05, sat: 0.92, warm: [240, 232, 200], cool: [120, 140, 140] });
     }
     function draw(c, lt) {
@@ -100,7 +98,6 @@
       g.fillStyle = grad(g, 0, 0, W, H, [[0, '#2a2018'], [1, '#14100c']]); g.fillRect(0, 0, W, H);
       g.fillStyle = '#3a2c20'; for (let k = 0; k < 5; k++) g.fillRect(480 + k * 200, 120, 150, 380);   // as estantes de livros
       for (let k = 0; k < 40; k++) { g.fillStyle = ['#5a3a24', '#6a4a2a', '#4a3a2a', '#7a5a34'][k % 4]; g.fillRect(490 + (k % 8) * 125 + (k % 3) * 6, 140 + Math.floor(k / 8) * 72, 26, 62); }
-      figura(g, 960, 700, 1.9, '#e8e0cc', '#b07a50', null, '#2a2018');   // o escrevente, atrás do balcão
       g.fillStyle = '#5a3a22'; g.fillRect(380, 640, 1160, 440);   // o balcão
       g.fillStyle = '#eee4c8'; poly(g, [[700, 700], [960, 680], [1220, 700], [1240, 820], [960, 840], [680, 820]]); g.fill();   // o livro aberto
       g.strokeStyle = 'rgba(80,60,40,.5)'; g.lineWidth = 2; for (let k = 0; k < 8; k++) { g.beginPath(); g.moveTo(720, 712 + k * 14); g.lineTo(940, 694 + k * 14); g.stroke(); g.beginPath(); g.moveTo(980, 694 + k * 14); g.lineTo(1210, 712 + k * 14); g.stroke(); }
@@ -113,8 +110,9 @@
       const fl = .55 + .12 * Math.sin(t * 9) + .06 * Math.sin(t * 23);   // a chama da lamparina
       const gr = c.createRadialGradient(1360, 600, 10, 1360, 600, 700); gr.addColorStop(0, `rgba(255,200,110,${.45 * fl})`); gr.addColorStop(1, 'rgba(255,200,110,0)');
       c.save(); c.globalCompositeOperation = 'screen'; c.fillStyle = gr; c.fillRect(0, 0, W, H); c.restore();
-      const px = 900 + Math.sin(t * 2.2) * 50, py = 740 + Math.cos(t * 4.4) * 6;   // a mão escrevendo
-      ell(c, px, py, 22, 14, .3, '#b07a50'); c.strokeStyle = '#1a1410'; c.lineWidth = 4; c.beginPath(); c.moveTo(px, py); c.lineTo(px + 30, py - 40); c.stroke();
+      ell(c, 1280, 800, 26, 16, 0, '#1a1410'); c.strokeStyle = '#e8dcc0'; c.lineWidth = 4; c.beginPath(); c.moveTo(1280, 796); c.lineTo(1310 + Math.sin(t * 1.5) * 3, 720); c.stroke();   // a pena no tinteiro
+      const vira = (t * 0.25) % 1, fx = 960 + Math.cos(vira * Math.PI) * 250;   // a folha do livro virando devagar
+      c.fillStyle = `rgba(238,228,200,${.55 * Math.sin(vira * Math.PI)})`; poly(c, [[960, 684], [fx, 690 - Math.sin(vira * Math.PI) * 60], [fx, 830 - Math.sin(vira * Math.PI) * 60], [960, 840]]); c.fill();
       tela(c, 'canvas_cb', '#d8cbb0');
     }
     return { draw };
@@ -134,8 +132,6 @@
       g.fillStyle = grad(g, 0, 620, 0, H, [[0, '#d8c8a0'], [1, '#b8a070']]); g.fillRect(0, 620, W, H - 620);   // a praça
       g.fillStyle = '#5a4a3a'; g.fillRect(480, 360, 24, 300); for (let k = 0; k < 7; k++) ell(g, 492 + Math.cos(k) * 90, 350 + Math.sin(k) * 30, 110, 22, k * .9, '#3a7a4a');   // a palmeira
       g.fillStyle = '#2a6a3a'; ell(g, 1440, 520, 120, 160, 0, '#3a7a3a');
-      figura(g, 760, 900, 1.1, '#c84a3a', '#9a6a44', '#e8d8a0'); figura(g, 1180, 940, 1.2, '#3a5a8a', '#7a5a3a', '#d8c080'); figura(g, 1300, 880, 1.0, '#e8e0cc', '#a07040', null);
-      ell(g, 1300, 700, 70, 20, 0, '#7a3a5a');   // a sombrinha
       return M.broken(a, { cell: 6, len: 6, wid: 6, passes: 3, angle: () => 0, seed: 829, jit: 26, skip: 0.02, sat: 1.15, warm: [255, 220, 150], cool: [110, 130, 220] });
     }
     function draw(c, lt) {
@@ -143,7 +139,7 @@
       const t = Math.max(0, lt); c.drawImage(plate, 0, 0);
       const r = rng(71);
       for (let i = 0; i < 260; i++) { const x = 420 + r() * 1080, y = r() * H, a = .25 + .2 * Math.sin(t * 2 + i); c.fillStyle = `rgba(${r() > .5 ? '255,230,160' : '140,160,240'},${a})`; c.fillRect(x, y, 6, 6); }   // os pontos vibrando
-      const x = 420 + ((t * 60) % 1200); figura(c, x, 1000, .9, '#4a7a4a', '#8a5a3a', '#e8d8a0');   // alguém atravessando a praça
+      const r2 = rng(5); c.fillStyle = 'rgba(250,250,250,.7)'; for (let i = 0; i < 4; i++) { const x = 420 + ((r2() * 1080 + t * 40) % 1080); ell(c, x, 34 + i * 20, 60, 12, 0, 'rgba(250,250,250,.6)'); }   // nuvens em pontos
       tela(c, 'canvas_se', '#ece2cc');
     }
     return { draw };

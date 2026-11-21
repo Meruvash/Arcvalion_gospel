@@ -303,6 +303,20 @@ vontade."
 - **Licença:** o modelo precisa de licença que permita uso comercial (Wan e Apache 2.0 permitem).
 - **Registro:** cada clipe entra no `CENAS_USADAS.md`, com o modelo e o caminho gratuito usado.
 
+**Crivo de qualidade da imagem (pedido do editor, 21/11/2026, depois de gente deformada no vídeo do CCIR):**
+- **Nada vai ao editor sem crivo:** vídeo, prévia e capa passam por `tools/video/agro-arte/crivo_qualidade.py`, e quem
+  produz abre todas as folhas e marca os itens H1 a H7 (rostos, mãos, corpo, movimento, figuras pintadas, nitidez,
+  tela). A tabela preenchida vai no roteiro, na seção "Entrega". Um item reprovado faz a cena ser refeita ou trocada.
+- **Fonte de IA com gente:** antes de entrar no vídeo, a imagem passa pelo crivo em modo imagem (recortes ampliados
+  2×). Rosto torto ou mão estranha reprova a imagem, mesmo que o resto esteja bonito.
+- **Gente da IA não se anima:** o Wan em 576 px, ampliado para 1080, derreteu rosto e mão no vídeo do CCIR. Cena de
+  IA com pessoa entra como foto parada, na resolução em que foi gerada (960 px ou mais), com movimento de câmera.
+  Animação por IA só em cena sem gente (paisagem, gado, lavoura, objetos).
+- **Cena de IA sem gente é preferível:** quando a fala pede um lugar (cartório, banco, porteira), gere o lugar e os
+  objetos sem pessoas ("no people, no hands" no pedido e "person, hands, face" no negativo).
+- **Figura pintada:** ou tem forma humana completa (cabeça com rosto, braços e mãos), ou não aparece. O boneco
+  geométrico sem braço e sem rosto está aposentado.
+
 **Prévia realista sem virar ilustração (aprendido em 20/11/2026):** cena noturna com abajur ("night", "warm lamp light")
 fez o Wan 2.2 sair do realismo e desenhar, com corpos deformados. O pedido corrigido funcionou:
 - abrir com "RAW photo, DSLR photograph, real people";

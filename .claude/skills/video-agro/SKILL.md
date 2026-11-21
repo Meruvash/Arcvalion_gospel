@@ -48,6 +48,9 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
    em 9:16 e 4:5** (`tools/video/agro-arte/capa_instagram/LEIAME.md`), porque o quadro do vídeo quadrado fica mal formatado no
    Instagram (pedido do editor, 17/11/2026). **Trilha normalizada em −30 LUFS**, com volume 1
    (seção 3).
+7b. **Crivo de qualidade antes de entregar** (pedido do editor, 21/11/2026): `python3 tools/video/agro-arte/crivo_qualidade.py
+   final.mp4` e revisão visual de TODAS as folhas, item por item (H1 a H7). As fontes de IA com gente passam antes pelo
+   crivo em modo imagem. Gente da IA só como foto parada; nada de boneco pintado sem braço e sem rosto. Tabela no roteiro.
 8. **Sempre, junto com o vídeo final:** a **legenda do Instagram** e o **título do YouTube** (com 2 alternativas e
    descrição curta), nas regras da seção 4 da direção. Guarde os dois no arquivo do roteiro, seção "Publicação".
 
