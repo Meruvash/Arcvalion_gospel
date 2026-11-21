@@ -88,7 +88,7 @@
 ## Entrega (21/11/2026)
 - **Aprovação:** o editor aprovou o roteiro e pediu animação junto com cenas realistas de IA gratuita ("os dois modelos de
   vídeo a gente vai usar juntos").
-- **Arquivo:** `ccir-papel-atrasado.mp4`, 1080×1080, 53,5 s, áudio AAC 48 kHz, masterizado no padrão do ouro, sem
+- **Arquivo (v1, substituída pela v2 abaixo):** `ccir-papel-atrasado.mp4`, 1080×1080, 53,5 s, áudio AAC 48 kHz, masterizado no padrão do ouro, sem
   limpeza de metadados.
 - **Imagem:**
   - cerca de 72% em pinturas feitas em código: Cézanne, Corot, Courbet e Seurat, em `cenas/cc_scenes.js`;
@@ -104,6 +104,35 @@
 - **Montagem:** `tools/video/agro-arte/montar_exemplo_ccir.py`. Scripts do Kaggle em `ia_kaggle/wan22_i2v_ccir_*.py`.
 - **Ao publicar no YouTube:** marcar "conteúdo alterado ou sintético", porque as cenas da porteira e do cartório são
   realistas.
+
+## Correção (v2, 21/11/2026), depois do crivo de qualidade
+- **O que o editor apontou:** na v1, as pessoas saíram deformadas.
+- **Causas encontradas:**
+  - na imagem de origem do cartório, o rosto do produtor já estava torto;
+  - a animação do Wan em 576 px, ampliada para 1080, derreteu os rostos e a mão do escrevente;
+  - nas pinturas, os bonecos não tinham braço nem rosto.
+- **O que mudou:**
+  - a porteira agora é a foto parada em 960 px, com movimento de câmera, sem animação de IA;
+  - o cartório virou uma mesa de cartório sem gente: livro de registro, carimbo, fita vermelha e óculos;
+  - os bonecos saíram de Corot, Courbet e Seurat;
+  - a abertura foi reenquadrada (céu estendido) para o título não tapar os rostos;
+  - o "CCIR EM DIA?" foi para o canto direito;
+  - saiu a folha virando do Courbet, que parecia defeito.
+- **Arquivo:** `ccir-papel-atrasado-v2.mp4`. A v1 não deve ser publicada.
+
+**Crivo de qualidade** (`crivo_qualidade.py`, 14 folhas, todas revistas):
+
+| Item | Resultado | Onde / observação |
+|---|---|---|
+| H1 Rostos | aprovado | porteira (0 a 4,6 s e 40,5 a 45,6 s): olhos, nariz e boca no lugar. O homem da esquerda tem uma marca escura na orelha, que parece um fone |
+| H2 Mãos | aprovado | aperto de mão inteiro; a mão do homem de xadrez segura a pasta. Nenhuma outra mão aparece |
+| H3 Corpo | aprovado | os dois de corpo inteiro, nas proporções certas |
+| H4 Movimento | aprovado | sem animação de IA em gente; só zoom e pan de câmera |
+| H5 Figuras pintadas | aprovado | nenhuma figura humana nas pinturas |
+| H6 Nitidez | aprovado | as cenas de IA usam a imagem de 960 px, sem ampliar vídeo de 576 px |
+| H7 Tela | aprovado | o título e o carimbo da abertura não tapam rosto; o crédito de IA está legível nas três cenas de IA |
+
+**Auditoria do vídeo:** 7/7.
 
 ## Publicação
 

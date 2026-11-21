@@ -51,7 +51,7 @@ M = {"anulada": ts(1, "anulada"), "cadastro": ts(2, "cadastro"), "vender": ts(3,
      "credito": ts(7, "crédito"), "exigido": ts(7, "exigido"), "todo": ts(8, "todo"), "taxa": ts(8, "taxa"), "ccir9": ts(9, "CCIR"),
      "eu": ts(10, "Eu"), "advogado": ts(10, "advogado"), "antes": ts(10, "Na"), "segue": ts(10, "segue")}
 XF = 0.4
-ORD = [("wan_a", 0), ("cc_cezanne", 0), ("cc_corot", 0), ("cc_courbet", 0), ("wan_b", 0), ("cc_seurat", 0), ("cc_cezanne", 5.0), ("wan_a", 0)]
+ORD = [("wan_a_open", 0), ("cc_cezanne", 0), ("cc_corot", 0), ("cc_courbet", 0), ("wan_b", 0), ("cc_seurat", 0), ("cc_cezanne", 5.0), ("wan_a", 0)]
 INI = [0, C["cz"], C["co"], C["cb"], C["wb"], C["se"], C["cz2"], C["wa2"], C["cartela"]]
 ZOOM = [k for k, (s, _) in enumerate(ORD)]
 def vid(i, src, ms, a, b, tr):
@@ -67,9 +67,9 @@ CARD2 = ('<div class="card" id="card2"><div class="cardsrc">Lei 4.947/1966, art.
          '[…] sem a apresentação do Certificado de Cadastro”</div></div>')
 IA = 'IMAGEM GERADA POR IA (WAN 2.2, MODELO ABERTO) · CENA ILUSTRATIVA'
 OVS = [
-    ov("o-capa", 0, 2.5, '<div class="capa" id="capa"><div class="capa-chip">TERRA E DOCUMENTO</div><div class="capa-big">PAPEL<br>ATRASADO<br>TRAVA A<br>FAZENDA?</div></div>', "", 9),
+    ov("o-capa", 0, 2.5, '<div class="capa" id="capa"><div class="capa-chip">TERRA E DOCUMENTO</div><div class="capa-big" style="font-size:78px !important;margin-top:10px">PAPEL ATRASADO<br>TRAVA A FAZENDA?</div></div>', "", 9),
     ov("o-flash", 0, 1.2, '<div id="flash"></div>', "", 8),
-    ov("o-selo", 0.3, 2.6, '<div class="selo" id="selo">VENDA NULA?</div>', "", 7),
+    ov("o-selo", 0.3, 2.6, '<div class="selo" id="selo" style="top:720px">VENDA NULA?</div>', "", 7),
     ov("o-cred0", 0, C["cz"], IA, "cred", 10),
     ov("o-anul", M["anulada"] - .05, M["cadastro"] - .15, '<div class="selo" id="anul" style="top:560px">ANULADA</div>', "", 19),
     ov("o-cad", M["cadastro"] - .1, C["co"], '<div class="anos" id="cad">CADASTRO<br>RURAL</div>', "", 20),
@@ -87,7 +87,7 @@ OVS = [
     ov("o-src3", C["se"] + .4, C["cz2"], 'LEI 4.947/1966, ART. 22, CAPUT · PINTURA À MANEIRA DE GEORGES SEURAT', "rod", 15),
     ov("o-todo", M["todo"] - .1, C["wa2"], '<div class="anos" id="todo">TODO ANO</div><div class="tag tag2" id="tg6" style="top:330px">TAXA DO INCRA PAGA</div>', "", 32),
     ov("o-src4", C["cz2"] + .4, C["wa2"], 'INCRA: O CCIR É EMITIDO TODO ANO · PINTURA À MANEIRA DE PAUL CÉZANNE', "rod", 16),
-    ov("o-emdia", M["ccir9"] - .05, C["cartela"], '<div class="tag" id="tg7">CCIR EM DIA?</div>', "", 33),
+    ov("o-emdia", M["ccir9"] - .05, C["cartela"], '<div class="tag" id="tg7" style="top:40px;left:auto;right:60px">CCIR EM DIA?</div>', "", 33),
     ov("o-cred2", C["wa2"] + .3, C["cartela"], IA, "cred", 17),
 ]
 CART = """<div id="ct-luz"></div><div id="ct-nome">Dr. Pelicioni</div><div id="ct-fil"></div><div id="ct-prof">ADVOGADO</div>
@@ -112,7 +112,7 @@ HTML = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>
 .mao{{font-family:'Caveat';font-weight:700;color:#fff6dc;text-shadow:0 3px 14px rgba(10,14,30,.8),0 0 2px rgba(10,14,30,.9)}}
 .rod{{top:auto;bottom:0;height:auto;padding:14px 40px 18px;background:rgba(243,234,216,.93);color:#3a3026;font:500 20px/1.35 'IBM Plex Mono';letter-spacing:.03em}}
 .cred{{top:auto;bottom:0;height:auto;padding:14px 40px 18px;background:linear-gradient(0deg,rgba(10,14,26,.75),rgba(10,14,26,0));color:#f6efd8;font:500 21px/1.35 'IBM Plex Mono';letter-spacing:.04em}}
-.capa{{position:absolute;left:0;right:0;top:120px;text-align:center}}
+.capa{{position:absolute;left:0;right:0;top:40px;text-align:center}}
 .capa-chip{{display:inline-block;font:900 34px 'Inter';letter-spacing:.08em;color:#14240f;background:#f0c24b;padding:8px 18px;border-radius:6px}}
 .capa-big{{font:900 168px/1 'Inter';color:#fff;margin-top:18px;-webkit-text-stroke:6px #14240f;paint-order:stroke fill;text-shadow:0 10px 30px rgba(0,0,0,.45)}}
 .capa-sub{{font:900 46px/1.15 'Inter';color:#fff;margin:18px 60px 0;-webkit-text-stroke:3px #14240f;paint-order:stroke fill}}

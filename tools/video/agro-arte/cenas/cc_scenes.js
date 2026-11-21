@@ -111,8 +111,6 @@
       const gr = c.createRadialGradient(1360, 600, 10, 1360, 600, 700); gr.addColorStop(0, `rgba(255,200,110,${.45 * fl})`); gr.addColorStop(1, 'rgba(255,200,110,0)');
       c.save(); c.globalCompositeOperation = 'screen'; c.fillStyle = gr; c.fillRect(0, 0, W, H); c.restore();
       ell(c, 1280, 800, 26, 16, 0, '#1a1410'); c.strokeStyle = '#e8dcc0'; c.lineWidth = 4; c.beginPath(); c.moveTo(1280, 796); c.lineTo(1310 + Math.sin(t * 1.5) * 3, 720); c.stroke();   // a pena no tinteiro
-      const vira = (t * 0.25) % 1, fx = 960 + Math.cos(vira * Math.PI) * 250;   // a folha do livro virando devagar
-      c.fillStyle = `rgba(238,228,200,${.55 * Math.sin(vira * Math.PI)})`; poly(c, [[960, 684], [fx, 690 - Math.sin(vira * Math.PI) * 60], [fx, 830 - Math.sin(vira * Math.PI) * 60], [960, 840]]); c.fill();
       tela(c, 'canvas_cb', '#d8cbb0');
     }
     return { draw };
