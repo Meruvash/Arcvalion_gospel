@@ -1,0 +1,196 @@
+{
+ "slug": "damares-cdh-protocolo-nacional-criancas-desaparecidas-edson-davi-rio",
+ "data": "2026-11-21",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Damares defende protocolo nacional imediato para buscar crianças desaparecidas",
+ "lide": "A presidente da Comissão de Direitos Humanos do Senado, Damares Alves (Republicanos-DF), defendeu na quinta-feira (19), no Rio de Janeiro, um protocolo unificado nacional a ser acionado assim que uma criança desaparece. Ela acompanha as investigações do caso Edson Davi, menino de 6 anos que sumiu em 2024 na praia da Barra da Tijuca, informou a Agência Senado.",
+ "por_que_importa": "Nas primeiras horas de um desaparecimento, cada minuto conta, e hoje cada estado e cada polícia age do seu jeito. Uma regra nacional pode definir quem é acionado, quando e como, para que nenhuma família espere enquanto o tempo passa.",
+ "numeros": [
+  [
+   "6 anos",
+   "era a idade de Edson Davi quando desapareceu, em 2024",
+   "Agência Senado, 19/11/2026"
+  ],
+  [
+   "2 dias",
+   "de diligências da Comissão de Direitos Humanos no Rio",
+   "Agência Senado, 19/11/2026"
+  ],
+  [
+   "1",
+   "câmera principal da orla estava em manutenção no dia, segundo a delegada do caso",
+   "Agência Senado, 19/11/2026"
+  ]
+ ],
+ "corpo": [
+  "Damares se reuniu com o Ministério Público do Rio e com a delegada Elen Souto, responsável pelo caso. Os pais de Edson Davi trabalham como barraqueiros na praia, e a tese mais provável é de afogamento, mas o corpo nunca foi encontrado. Segundo a delegada, a câmera que mostraria o menino na areia estava em manutenção.",
+  "A subprocuradora-geral Patrícia Mothé Glioche disse que a proposta de protocolo é bem-vinda. Na sexta-feira (20), a senadora previa encontrar a família e visitar o local do desaparecimento, perto do Posto 4 da Barra."
+ ],
+ "no_brasil": "A diligência foi pedida por Damares no REQ 135/2026, de 4 de novembro, segundo os dados abertos do Senado. Edson Davi sumiu em 4 de janeiro de 2024. Também participou da reunião o deputado federal eleito Leniel Borel (PP-RJ), pai do menino Henri Borel.",
+ "critica": [
+  {
+   "fonte": "Senadora Damares Alves, segundo a Agência Senado",
+   "texto": "acabamos concordando que temos que ter um protocolo unificado nacional para ser acionado imediatamente quando uma criança desaparece",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/19/damares-defende-protocolo-nacional-para-desaparecimento-de-criancas"
+  },
+  {
+   "fonte": "Subprocuradora-geral Patrícia Mothé Glioche, do MP do Rio, segundo a Agência Senado",
+   "texto": "Aqui no Rio de Janeiro nós conseguimos, de fato, alcançar todas as linhas de investigação, mas sempre é bom o aprimoramento",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/19/damares-defende-protocolo-nacional-para-desaparecimento-de-criancas"
+  }
+ ],
+ "para_quem": [
+  "Pais e mães, principalmente de crianças pequenas",
+  "Igrejas e escolas que lidam com crianças em eventos e passeios",
+  "Quem acompanha a pauta de proteção à infância no Congresso"
+ ],
+ "nao_e_para": [
+  "Não é lei: é proposta em estudo na Comissão de Direitos Humanos",
+  "Não resolve o caso Edson Davi, que segue sob investigação sigilosa",
+  "Não substitui o registro imediato do desaparecimento na polícia"
+ ],
+ "veredito": "Proposta certa. Criança desaparecida não pode esperar burocracia nem disputa entre órgãos. Um protocolo nacional simples, com prazos e responsáveis claros, protege famílias de todo o país. O Senado deve transformar a ideia em projeto logo.",
+ "versiculo": {
+  "texto": "Assim também não é vontade de vosso Pai, que está nos céus, que um destes pequeninos se perca.",
+  "referencia": "Mateus 18.14",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Damares defende protocolo nacional para desaparecimento de crianças (19/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/19/damares-defende-protocolo-nacional-para-desaparecimento-de-criancas",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: REQ 135/2026 - CDH, diligência no Rio sobre o desaparecimento de Edson Davi",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9120384",
+   "data": "04/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Atlas Público: Damares Alves requer diligência no Rio para acompanhar caso Edson Davi (11/2026)",
+   "url": "https://atlaspublico.com.br/senado/noticias/damares-alves-requer-diligencia-no-rio-para-acompanhar-caso-98418",
+   "data": "04/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 51,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "Proteção de crianças: protocolo nacional para desaparecimentos"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/19/damares-defende-protocolo-nacional-para-desaparecimento-de-criancas"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 0,
+    "porque": "Proposta de protocolo nacional ainda sem projeto de lei apresentado no Senado"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Família e proteção das crianças: regra nacional para buscas nas primeiras horas após o sumiço"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Declaração e diligência de 19/11, dentro de 48 horas"
+   },
+   "comprovacao": {
+    "pontos": 9,
+    "porque": "Agência Senado com falas das autoridades; requerimento da diligência conferido nos dados abertos do Senado"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Explica o que falta hoje e o que a proposta mudaria para as famílias"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 6,
+    "viral": 4,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: Agência Senado (2)",
+    "Proximidade: nacional (2)",
+    "Personagem com nome: Damares e Edson Davi (1)",
+    "Tema que já mobiliza o público: crianças desaparecidas (2)",
+    "Utilidade: proteção nas primeiras horas (2)",
+    "Passagem bíblica que um pastor usaria: Mateus 18.14 (2)",
+    "Gancho cristão: cuidado com os pequeninos (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Damares defende protocolo nacional para desaparecimento de crianças",
+  "nucleo": "A - Brasil",
+  "categoria": "Família / infância",
+  "coleta": "2026-11-21",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na Agência Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "texto de eventual projeto de lei e resultado da visita de 20/11"
+  },
+  "duplicidade": {
+   "grupo": "CDH e crianças desaparecidas",
+   "itens": [
+    "Agência Senado 19/11",
+    "nota de 17/11 sobre Bacabal (outro caso)"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que é o protocolo nacional para crianças desaparecidas",
+   "entidades": [
+    "Damares Alves",
+    "Comissão de Direitos Humanos do Senado",
+    "Edson Davi",
+    "Ministério Público do Rio de Janeiro"
+   ],
+   "termos": [
+    "protocolo nacional criança desaparecida",
+    "caso edson davi",
+    "damares crianças desaparecidas"
+   ],
+   "atualizacao": "apresentação de projeto de lei pela CDH"
+  }
+ },
+ "descricao_seo": "Damares Alves defende protocolo nacional acionado na hora em que uma criança some, após reunião sobre o caso Edson Davi no Rio.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da matéria da Agência Senado, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: nenhuma pessoa acusada; tese de afogamento e sigilo das investigações registrados como dito pelas autoridades; citações literais conferidas na fonte; família não exposta além do já público. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/damares-cdh-protocolo-nacional-criancas-desaparecidas-edson-davi-rio.jpg",
+  "credito": "Reprodução/TV Senado",
+  "alt": "Senadora Damares Alves em reunião sobre o caso Edson Davi no Rio de Janeiro (reprodução da TV Senado)",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/19/damares-defende-protocolo-nacional-para-desaparecimento-de-criancas/damares2.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/19/damares-defende-protocolo-nacional-para-desaparecimento-de-criancas"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-21T02:33:38-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-21T02:33:38-03:00"
+}
