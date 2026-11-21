@@ -1,0 +1,189 @@
+{
+ "slug": "stj-renegociacao-divida-rural-cedula-credito-bancario-novacao-execucao",
+ "data": "2026-11-21",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Motivo de alerta",
+ "titulo": "STJ: dívida rural renegociada em cédula de crédito bancário pode virar título novo e ser executada",
+ "lide": "Quando a dívida de crédito rural é renegociada numa cédula de crédito bancário e a Justiça reconhece que houve novação, o novo título pode ser executado mesmo sem a juntada dos contratos antigos, decidiu a Quarta Turma do STJ em acórdão publicado em 13 de novembro. O produtor, do Rio Grande do Sul, pedia a extinção da execução.",
+ "por_que_importa": "Renegociar a dívida rural trocando-a por uma cédula de crédito bancário muda a natureza do papel. Segundo a decisão, a cédula de crédito bancário é título executivo de dívida certa, líquida e exigível, e a possibilidade de discutir os contratos anteriores não basta para derrubar a execução. Vale olhar com cuidado o tipo de título antes de assinar a renegociação.",
+ "numeros": [
+  [
+   "13/11",
+   "foi a publicação do acórdão da Quarta Turma, julgado em 10 de novembro",
+   "STJ, REsp 2.277.196/RS"
+  ],
+  [
+   "Lei 10.931",
+   "de 2004, artigo 28, define a cédula de crédito bancário como título executivo de dívida certa, líquida e exigível",
+   "STJ, REsp 2.277.196/RS"
+  ],
+  [
+   "Súmula 286",
+   "do STJ permite discutir os contratos anteriores renegociados, mas isso não tira a força executiva do novo título, segundo a decisão",
+   "STJ, REsp 2.277.196/RS"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, relatada pela ministra Maria Isabel Gallotti, as instâncias de origem reconheceram, com base no contrato e nas circunstâncias da operação, que a renegociação foi uma novação, ou seja, substituiu a dívida antiga por uma nova. O STJ não reexaminou essa conclusão, porque isso exigiria interpretar cláusulas e provas, o que as Súmulas 5 e 7 do tribunal impedem.",
+  "A Quarta Turma também afastou a tese de que a falta dos contratos anteriores no processo tiraria a liquidez e a exigibilidade do novo título. O recurso do produtor foi conhecido em parte e negado."
+ ],
+ "no_brasil": "A decisão vem num momento de renegociações de dívida rural em todo o país, com a MP 1.376 aprovada pelo Congresso e à espera de sanção. O portal publicou em 21 de novembro outra decisão do STJ, sobre prorrogação de cédula rural feita só pelo banco.",
+ "critica": [
+  {
+   "fonte": "STJ, Quarta Turma, REsp 2.277.196/RS",
+   "texto": "A possibilidade de discussão de contratos anteriores, nos termos da Súmula 286/STJ, não implica, por si só, perda da liquidez, certeza e exigibilidade do título executivo resultante da renegociação, tampouco conduz à extinção da execução pela ausência dos instrumentos antecedentes.",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2277196&O=JT"
+  },
+  {
+   "fonte": "Produtor recorrente, segundo a ementa",
+   "texto": "Sustentou que a execução deveria ser extinta pela falta dos contratos anteriores e contestou o reconhecimento da novação.",
+   "citacao": false,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2277196&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor que vai renegociar: pergunte ao banco se a nova dívida será cédula de crédito rural ou cédula de crédito bancário, e leia a cláusula de novação",
+  "Quem já renegociou em cédula de crédito bancário e foi executado: a falta dos contratos antigos no processo, sozinha, não derruba a execução",
+  "Quem quer discutir encargos antigos: a Súmula 286 permite, mas isso não suspende automaticamente a cobrança"
+ ],
+ "nao_e_para": [
+  "O STJ não decidiu se toda renegociação é novação: manteve o que as instâncias de origem concluíram no caso",
+  "A decisão não diz que a renegociação em cédula de crédito bancário é ilegal",
+  "É caso concreto, sem efeito vinculante"
+ ],
+ "veredito": "A gente acha que o recado é de cautela: renegociar ajuda, mas o tipo de papel que se assina pesa depois. O produtor precisa saber, antes de assinar, em que título a dívida vai ficar e se o contrato fala em novação.",
+ "fontes": [
+  {
+   "nome": "STJ: REsp 2.277.196/RS, Quarta Turma, relatora Ministra Maria Isabel Gallotti",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2277196&O=JT",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: base de jurisprudência, acórdãos sobre crédito rural publicados a partir de 12/11/2026",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=rural%20e%20%40DTPB%3E%3D20261112&O=JT",
+   "data": "21/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Renegociação de dívida rural em cédula de crédito bancário, novação e execução contra o produtor"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2277196&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Decisão de turma do STJ que mostra o efeito de renegociar dívida rural em cédula de crédito bancário"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Renegociação e execução de dívida rural, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 12,
+    "porque": "Acórdão publicado em 13/11, há oito dias, em plena fase de renegociações"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa integral lida na base de jurisprudência do STJ"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Decisão sem cobertura na imprensa; explicamos o cuidado na hora de assinar"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 7,
+    "viral": 2,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que perguntar antes de assinar (2)",
+    "Moeda social: regra que poucos conhecem (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "REsp 2.277.196/RS",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Justiça e renegociação",
+  "coleta": "2026-11-21",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa conferida na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "nome do banco e valor da dívida"
+  },
+  "duplicidade": {
+   "grupo": "STJ e dívida rural",
+   "itens": [
+    "REsp 2.277.196/RS"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-21-stj-prorrogacao-unilateral-cedula-rural-invalida-divida-prescrita-cinco-anos"
+  },
+  "seo": {
+   "intencao": "saber o que muda ao renegociar dívida rural em cédula de crédito bancário",
+   "entidades": [
+    "STJ",
+    "cédula de crédito bancário",
+    "novação",
+    "dívida rural",
+    "Súmula 286"
+   ],
+   "termos": [
+    "renegociação dívida rural cédula de crédito bancário",
+    "novação dívida rural STJ",
+    "execução CCB renegociação rural"
+   ],
+   "atualizacao": "acompanhar outros julgados sobre novação de dívida rural"
+  },
+  "agro": {
+   "demanda": "Produtores que renegociaram ou vão renegociar dívida rural em cédula de crédito bancário e enfrentam execução",
+   "prazo": "sem prazo próprio",
+   "quem": "Produtores com dívidas rurais renegociadas em bancos"
+  }
+ },
+ "descricao_seo": "STJ: dívida rural renegociada em cédula de crédito bancário, com novação reconhecida, vira título novo executável sem os contratos antigos.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura da ementa, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a regra vem da ementa, citada literalmente; a nota avisa que o STJ não decidiu que toda renegociação é novação nem que a cédula de crédito bancário é ilegal. Não nomeia partes. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-renegociacao-divida-rural-cedula-credito-bancario-novacao-execucao.jpg",
+  "credito": "Foto: Rafa Neddermeyer/Agência Brasil",
+  "alt": "Quiabos da agricultura familiar empilhados (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/uOguG9TQRAYMv_MC3HfgRTZjRmQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/raf06538.jpg?itok=lZAcEwQl",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/garantia-safra-veja-lista-dos-que-receberao-pagamento-em-abril"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-21T14:49:08-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-21T14:49:08-03:00"
+}
