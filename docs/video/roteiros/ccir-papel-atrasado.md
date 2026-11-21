@@ -1,4 +1,4 @@
-# "Papel atrasado trava a fazenda?": CCIR — roteiro v1 (20/11/2026), aguardando aprovação
+# "Papel atrasado trava a fazenda?": CCIR — roteiro v1 (20/11/2026), aprovado e entregue (21/11/2026)
 
 ## Pesquisa
 - **Origem:** pesquisa ampla de 20/11/2026, fora da linha herança, feita a pedido do editor ("os assuntos estão ficando
@@ -84,3 +84,60 @@
   diz que todo banco exige.
 - **"Os seus filhos ficam travados" (fala 6)** traduz o § 2º: a partilha não é homologada sem o CCIR.
 - **Fala 8:** "renovado todo ano" e "taxa do Incra paga", conforme a notícia do Incra.
+
+## Entrega (21/11/2026)
+- **Aprovação:** o editor aprovou o roteiro e pediu animação junto com cenas realistas de IA gratuita ("os dois modelos de
+  vídeo a gente vai usar juntos").
+- **Arquivo:** `ccir-papel-atrasado.mp4`, 1080×1080, 53,5 s, áudio AAC 48 kHz, masterizado no padrão do ouro, sem
+  limpeza de metadados.
+- **Imagem:**
+  - cerca de 72% em pinturas feitas em código: Cézanne, Corot, Courbet e Seurat, em `cenas/cc_scenes.js`;
+  - cerca de 28% em cenas realistas do Wan 2.2 (modelo aberto, GPU gratuita do Kaggle);
+  - as cenas de IA são a porteira (abertura e pergunta final) e o cartório (partilha), com o crédito "IMAGEM GERADA POR
+    IA (WAN 2.2, MODELO ABERTO) · CENA ILUSTRATIVA" na tela o tempo todo;
+  - dois cartões da lei, com o § 1º e o § 2º do art. 22.
+- **Voz:** narrador; o editor no fecho, pelo clone com o "S" neutro (candidata de nota 1,14).
+- **Trilha:** agronejo, normalizada em −30 LUFS, sem voz cantada (0 palavras na transcrição).
+- **Capas:** quadro 0 (`ccir-capa.jpg`), Instagram 9:16 e 4:5, com o crédito de IA.
+- **Auditoria do vídeo** (`auditar_video.py`): 7/7. V1 a V5 passaram, a primeira palavra vem aos 0,17 s, e a imagem muda
+  em toda fala.
+- **Montagem:** `tools/video/agro-arte/montar_exemplo_ccir.py`. Scripts do Kaggle em `ia_kaggle/wan22_i2v_ccir_*.py`.
+- **Ao publicar no YouTube:** marcar "conteúdo alterado ou sintético", porque as cenas da porteira e do cartório são
+  realistas.
+
+## Publicação
+
+**Título do YouTube:**
+> Papel do Incra atrasado pode anular a venda da sua fazenda? O que diz a lei do CCIR
+
+Alternativas:
+- CCIR atrasado: a venda da fazenda pode ser anulada?
+- Sem o CCIR em dia, você não vende, não arrenda e não divide a herança
+
+**Descrição do YouTube:**
+```
+Sem o Certificado de Cadastro de Imóvel Rural (CCIR), o dono não pode desmembrar, arrendar, hipotecar, vender ou prometer em venda o imóvel rural, sob pena de nulidade (Lei 4.947/1966, art. 22, § 1º). O certificado só vale acompanhado da prova de quitação do ITR dos últimos cinco exercícios (§ 3º), e sem ele nenhuma partilha de herança é homologada (§ 2º). Ele também é exigido para as facilidades de órgãos federais e de bancos de economia mista controlados pela União (caput).
+
+O CCIR é emitido todo ano pelo Incra e só fica válido com a taxa de serviços cadastrais paga.
+
+Fontes: Lei 4.947/1966, art. 22 (texto publicado pelo Senado Federal); Incra, CCIR 2026.
+Pinturas feitas em código à maneira de Paul Cézanne, Camille Corot, Gustave Courbet e Georges Seurat. Cenas realistas geradas por IA (Wan 2.2, modelo aberto), ilustrativas: não mostram pessoas nem lugares reais. Trilha original.
+
+#ccir #incra #produtorrural #agro #Shorts
+```
+
+**Legenda do Instagram:**
+```
+O vizinho quer comprar a sua fazenda, mas o papel do Incra está atrasado? 📄🚜
+
+Sem o CCIR (o certificado do cadastro rural), a lei diz que a venda, o arrendamento e a hipoteca da terra são nulos. E ele só vale junto com o ITR dos últimos 5 anos pago.
+
+Tem mais: sem o certificado, nenhuma partilha de herança é homologada, e o banco público também exige o documento pro crédito rural.
+
+O CCIR da sua fazenda está em dia, ou você só vai descobrir quando alguém quiser comprar? Conta aqui 👇
+
+Fontes: Lei 4.947/1966, art. 22 · Incra.
+Cenas realistas geradas por IA, ilustrativas.
+
+#ccir #incra #produtorrural #agro #direitoagrario
+```
