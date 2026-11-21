@@ -303,6 +303,13 @@ vontade."
 - **Licença:** o modelo precisa de licença que permita uso comercial (Wan e Apache 2.0 permitem).
 - **Registro:** cada clipe entra no `CENAS_USADAS.md`, com o modelo e o caminho gratuito usado.
 
+**Prévia realista sem virar ilustração (aprendido em 20/11/2026):** cena noturna com abajur ("night", "warm lamp light")
+fez o Wan 2.2 sair do realismo e desenhar, com corpos deformados. O pedido corrigido funcionou:
+- abrir com "RAW photo, DSLR photograph, real people";
+- usar "evening", "dusk" e "tungsten ceiling bulb" em vez de noite fechada;
+- fechar com "film grain, natural skin texture, documentary photojournalism";
+- somar ao negativo "flat illustration, vector art, drawing, stylized".
+
 ## 3. Voz e som
 
 **Voz do editor sem "S" chiado (pedido do editor, 17/11/2026).** Gerado com as configurações antigas (style 0,25,
