@@ -1,0 +1,197 @@
+{
+ "slug": "stj-alongamento-divida-rural-negado-sem-prova-requisitos-sumula-7",
+ "data": "2026-11-21",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Sem prova dos requisitos, produtor perde no STJ o pedido de alongamento da dívida rural",
+ "lide": "O STJ manteve, em decisões publicadas em 13 e 19 de novembro, julgamentos de Minas Gerais e de Mato Grosso que negaram o alongamento e a prorrogação de dívidas rurais. Nos dois casos, as instâncias de origem concluíram que os requisitos não foram comprovados, e o STJ não reexaminou as provas. O direito ao alongamento existe, mas depende de pedido e de prova.",
+ "por_que_importa": "O alongamento da dívida rural é direito do produtor pela Súmula 298 do STJ, mas a disputa se decide nas provas. Quem chega ao STJ sem ter provado, na origem, a dificuldade de pagamento e os demais requisitos, não consegue reverter a negativa, porque o tribunal não reavalia fatos.",
+ "numeros": [
+  [
+   "2",
+   "decisões do STJ publicadas em novembro mantiveram negativas de alongamento e prorrogação por falta de prova dos requisitos",
+   "STJ, AREsp 3.189.092/MG e AgInt no AREsp 3.233.485/MT"
+  ],
+  [
+   "Súmula 7",
+   "do STJ impede o tribunal de reexaminar provas em recurso especial, o que barrou os dois recursos",
+   "STJ"
+  ],
+  [
+   "19/11",
+   "foi a publicação da decisão de Minas Gerais, julgada em 17 de novembro pela Terceira Turma",
+   "STJ, AREsp 3.189.092/MG"
+  ]
+ ],
+ "corpo": [
+  "No caso de Minas Gerais, relatado pelo ministro Ricardo Villas Bôas Cueva, o produtor discutia em embargos à execução de cédula de crédito rural o direito ao alongamento; as instâncias de origem concluíram pela não comprovação dos requisitos legais. No de Mato Grosso, relatado pela ministra Nancy Andrighi, a ação pedia a declaração do direito à prorrogação, e o STJ também não reexaminou fatos nem cláusulas.",
+  "Em outra decisão publicada em 19 de novembro, a Terceira Turma lembrou que o alongamento e a prorrogação não são automáticos e dependem de requerimento formal do produtor e da comprovação dos requisitos da lei, das resoluções do Banco Central e do Manual de Crédito Rural."
+ ],
+ "no_brasil": "Pelo Manual de Crédito Rural, a prorrogação depende de pedido do produtor e de prova da dificuldade temporária de pagamento, com atestado do banco sobre a necessidade e a capacidade de pagamento, como o portal explicou em 12 de novembro.",
+ "critica": [
+  {
+   "fonte": "STJ, Terceira Turma, AREsp 3.189.092/MG",
+   "texto": "Rever o entendimento firmado pelas instâncias ordinárias, que concluíram pela não comprovação dos requisitos legais para o alongamento da dívida, demandaria o reexame de matéria fático-probatória, providência vedada em recurso especial",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3189092&O=JT"
+  },
+  {
+   "fonte": "STJ, Terceira Turma, AgInt no REsp 2.052.107/MS",
+   "texto": "O alongamento e a prorrogação de dívida oriunda de crédito rural, embora constituam direito do devedor (Súmula 298/STJ), não se operam automaticamente; condicionam-se ao requerimento formal do mutuário",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2052107&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor que vai pedir alongamento: faça o pedido por escrito ao banco, com laudo de perda e de capacidade de pagamento, antes do vencimento",
+  "Quem já está na Justiça: a prova se produz na primeira e na segunda instância; o STJ não refaz essa análise",
+  "Sindicatos e cooperativas: orientar o associado a documentar o pedido evita perder o direito por falta de prova"
+ ],
+ "nao_e_para": [
+  "As decisões não negam o direito ao alongamento; dizem que, nos casos, faltou prova",
+  "São casos concretos, sem efeito vinculante",
+  "Os detalhes de cada caso, como valores e culturas, não aparecem nas ementas"
+ ],
+ "veredito": "A gente reforça o recado das três decisões da semana: o alongamento é direito, mas não cai do céu. Pedido por escrito, laudo e prova de capacidade de pagamento são o que separa o produtor que ganha do que perde.",
+ "fontes": [
+  {
+   "nome": "STJ: AREsp 3.189.092/MG, Terceira Turma, relator Ministro Ricardo Villas Bôas Cueva",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3189092&O=JT",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: AgInt no AREsp 3.233.485/MT, Terceira Turma, relatora Ministra Nancy Andrighi",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3233485&O=JT",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: AgInt no REsp 2.052.107/MS, Terceira Turma, relatora Ministra Daniela Teixeira",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2052107&O=JT",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 59,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Alongamento e prorrogação de dívida rural negados por falta de prova dos requisitos"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3189092&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 8,
+    "porque": "Decisões que mantêm negativas em casos concretos, mas orientam como o produtor deve provar o direito"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Alongamento de dívida rural, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 14,
+    "porque": "Acórdãos publicados em 13 e 19/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Três ementas lidas na base de jurisprudência do STJ"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Reunimos decisões sem cobertura na imprensa num alerta prático sobre prova"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdãos do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: como pedir e provar o alongamento (2)",
+    "Duas fontes independentes: relatores diferentes (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "AREsp 3.189.092/MG; AgInt no AREsp 3.233.485/MT",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Justiça e dívida rural",
+  "coleta": "2026-11-21",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementas conferidas na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "detalhes dos casos"
+  },
+  "duplicidade": {
+   "grupo": "Alongamento de dívida rural",
+   "itens": [
+    "AREsp 3.189.092",
+    "AREsp 3.233.485"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-21-stj-prorrogacao-unilateral-cedula-rural-invalida-divida-prescrita-cinco-anos"
+  },
+  "seo": {
+   "intencao": "saber por que o pedido de alongamento da dívida rural é negado",
+   "entidades": [
+    "STJ",
+    "alongamento",
+    "dívida rural",
+    "Súmula 298",
+    "Súmula 7",
+    "Manual de Crédito Rural"
+   ],
+   "termos": [
+    "alongamento dívida rural negado",
+    "requisitos alongamento crédito rural",
+    "prova alongamento dívida rural STJ"
+   ],
+   "atualizacao": "acompanhar julgados sobre alongamento"
+  },
+  "agro": {
+   "demanda": "Produtores que pedem ou vão pedir alongamento e prorrogação de dívida rural na Justiça",
+   "prazo": "pedido antes do vencimento, conforme o Manual de Crédito Rural",
+   "quem": "Produtores com dívidas rurais em atraso ou a vencer"
+  }
+ },
+ "descricao_seo": "STJ mantém negativas de alongamento de dívida rural em MG e MT: sem prova dos requisitos na origem, o tribunal não reexamina os fatos.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura das ementas, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: as conclusões vêm das ementas, citadas literalmente; a nota deixa claro que o direito ao alongamento não foi negado, só faltou prova nos casos. Não nomeia partes. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-alongamento-divida-rural-negado-sem-prova-requisitos-sumula-7.jpg",
+  "credito": "Foto: Fernando Frazão/Agência Brasil",
+  "alt": "Pulverizador trabalha em lavoura colhida sob céu cinzento (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/JYCslV22urVLPMcOzIsARCv9C-8=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/10/31/_d6a9557_0.jpg?itok=d5bJvINV",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/safra-de-graos-deve-alcancar-360-milhoes-de-toneladas-estima-conab"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-21T14:55:03-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-21T14:55:03-03:00"
+}
