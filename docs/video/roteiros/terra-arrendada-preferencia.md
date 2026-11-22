@@ -96,3 +96,15 @@
   alongar; entra na descrição se houver espaço.
 - **Imagem:** pelo crivo de 21/11/2026, gente gerada por IA só como foto parada e conferida de perto. As prévias são o
   produtor no trator, de longe, e a porteira sem gente, com o envelope da notificação.
+
+## Prévia realista (Wan 2.2, grátis no Kaggle, 22/11/2026) e crivo de qualidade
+
+Quatro imagens geradas (duas sementes por cena). Cada uma passou por `crivo_qualidade.py` (recortes 3×3 ampliados) e
+pela revisão visual de perto; a do produtor foi conferida também em zoom de 4× no rosto e nas mãos.
+
+| Imagem | Resultado | Observação |
+|---|---|---|
+| Cena 1, semente 11 (produtor no trator, de longe) | aprovada | rosto de perfil inteiro, mãos no volante, braços e pernas no lugar. Só de longe: não ampliar mais que 1,2× no produtor. |
+| Cena 1, semente 23 | **reprovada** | rosto virou mancha vermelha sem olhos nem boca (H1). Não entra. |
+| Cena 2, semente 11 (porteira com envelope, sem gente) | aprovada | sem gente; estrada de terra vermelha entre o milho. |
+| Cena 2, semente 23 | aprovada (preferida) | envelope maior e no centro da porteira; lê melhor como "notificação". |
