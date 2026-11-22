@@ -108,3 +108,31 @@ pela revisão visual de perto; a do produtor foi conferida também em zoom de 4�
 | Cena 1, semente 23 | **reprovada** | rosto virou mancha vermelha sem olhos nem boca (H1). Não entra. |
 | Cena 2, semente 11 (porteira com envelope, sem gente) | aprovada | sem gente; estrada de terra vermelha entre o milho. |
 | Cena 2, semente 23 | aprovada (preferida) | envelope maior e no centro da porteira; lê melhor como "notificação". |
+
+## Ganchos alternativos ao "Você sabia" (pedido do editor, 22/11/2026)
+
+Pesquisa no Virlo (22/11/2026, vídeos em português):
+- Força dos tipos de gancho, medida pela parte dos vídeos com Virality Score 18 ou mais: cliffhanger 30%, "POV" 30%,
+  mistério 29%, frase de choque 28% e comparação 27%. Pergunta comum fica em 23%; promessa de ensinar ("você sabia",
+  "vou te explicar") fica em 19%, o mais fraco.
+- Moldes em alta no nicho de dinheiro e direito (outubro e novembro de 2026):
+  - pergunta que a pessoa já faz, seguida de ordem contrária: "Caiu um pix na sua conta de alguém que você não conhece?
+    Não devolve. Pelo menos, não do jeito que ele pede." (@dinheironotraco, Instagram, Virality Score 48);
+  - história curta com a ameaça: "João ganhou um milhão de reais este ano. O governo ligou e disse, João, você nos deve
+    400 mil reais." (@abarbaracontadora, Instagram, 50);
+  - cenário imaginado: "agora imagina se o INSS fosse obrigado a te pagar em dobro" (@linikeradvogado, TikTok).
+
+Os quatro ganchos foram testados na fala 1, com as falas 2 a 10 iguais. Pelo `auditar_roteiro.py`, eles só perdem o item
+A1, que exige "Você sabia que".
+
+| # | Molde | Fala 1 | Nota |
+|---|---|---|---|
+| 1 | Pergunta do Google + resposta seca | "Fazenda arrendada pode ser vendida? Pode. O arrendatário é que pode ficar com a sua fazenda, se você vender pra um estranho sem avisar." | 22/23 |
+| 2 | Ordem contrária (molde do pix) | "Tem arrendatário na sua fazenda? Não vende pra um estranho. Pelo menos, não sem avisar ele antes, ou ele pode ficar com a terra." | 22/23 |
+| 3 | Cliffhanger | "O arrendatário pode ficar com a sua fazenda, se você vender pra um estranho. E tudo por causa de um aviso que quase ninguém manda." | 22/23 |
+| 4 | Cenário imaginado | "Imagina: o arrendatário pode ficar com a sua fazenda, depois que você vendeu pra um estranho sem avisar ele." | 22/23 |
+
+A história com nome (molde do João) ficou de fora, porque exigiria um caso inventado.
+
+Quando o editor escolher, o item A1 do `auditar_roteiro.py` passa a aceitar o molde escolhido, além do "Você sabia que".
+Também entra o rodízio de moldes: nenhum molde em dois vídeos seguidos.
