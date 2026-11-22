@@ -1,0 +1,195 @@
+{
+ "slug": "stj-arrendamento-rural-plantio-liminar-revogada-sem-boa-fe-sem-indenizacao",
+ "data": "2026-11-22",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Plantou amparado em liminar que caiu? STJ mantém decisão que negou indenização no Paraná",
+ "lide": "Em plena safra de verão, uma decisão do STJ alerta quem planta em área disputada: no Paraná, um pedido de indenização por lavoura plantada em área arrendada, com base em liminar depois revogada, foi negado. A Justiça local concluiu que não houve boa-fé no plantio e que o autor sabia do risco de a liminar cair; o STJ não reexaminou as provas.",
+ "por_que_importa": "Liminar é decisão provisória. Quem investe em semente, adubo e máquinas numa área garantida só por liminar assume o risco de perder a lavoura e o investimento se ela for revogada, sem direito automático a ressarcimento.",
+ "numeros": [
+  [
+   "10/11",
+   "foi o julgamento na Terceira Turma do STJ, com publicação em 12 de novembro",
+   "STJ, AREsp 3.194.703/PR"
+  ],
+  [
+   "Súmula 7",
+   "do STJ impediu o tribunal de rever a conclusão sobre a falta de boa-fé",
+   "STJ"
+  ],
+  [
+   "80%",
+   "do crédito do agro empresarial de julho a outubro foi para CPR e custeio, no início do plantio da safra de verão",
+   "Ministério da Agricultura"
+  ]
+ ],
+ "corpo": [
+  "A ementa registra que se tratava de ação de indenização ligada a arrendamento rural, com plantio feito sob liminar precária, depois revogada. Entre os pontos do caso, ela lista ilegitimidade ativa configurada, dação em pagamento registrada e boa-fé possessória.",
+  "O relator, ministro Ricardo Villas Bôas Cueva, afirmou que rever a conclusão sobre a falta de boa-fé e a ciência dos riscos exigiria reexaminar provas, o que a Súmula 7 veda. O recurso não foi conhecido."
+ ],
+ "no_brasil": "Pelo Código Civil (art. 1.255), quem semeia ou planta em terreno alheio perde as plantas para o proprietário, mas tem direito a indenização se agiu de boa-fé, o que explica o peso da boa-fé no caso. Segundo o Ministério da Agricultura, custeio e CPR somaram 80% do crédito do agro empresarial de julho a outubro, no início do plantio.",
+ "critica": [
+  {
+   "fonte": "STJ, Terceira Turma, AREsp 3.194.703/PR",
+   "texto": "Rever as conclusões do tribunal local sobre a inexistência de boa-fé no plantio e a ciência inequívoca quanto aos riscos da revogação da liminar demandaria o reexame do conjunto fático probatório dos autos",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3194703&O=JT"
+  },
+  {
+   "fonte": "Ministério da Agricultura (13/11/2026)",
+   "texto": "Somados, CPR e custeio representam 80,0% de tudo o que foi concedido, comportamento compatível com o início do plantio da safra de verão",
+   "citacao": true,
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027"
+  }
+ ],
+ "para_quem": [
+  "Arrendatário que vai plantar em área com disputa judicial: avalie o risco antes de investir, porque a liminar pode cair a qualquer momento do processo",
+  "Quem arrenda área: confira a matrícula do imóvel antes de assinar e de plantar, inclusive registros de dação em pagamento",
+  "Dono da terra em litígio: a decisão final sobre a posse pesa mais que a liminar"
+ ],
+ "nao_e_para": [
+  "O STJ não julgou o mérito; manteve a decisão do Paraná por não poder reexaminar provas",
+  "É um caso concreto, sem efeito vinculante",
+  "A ementa não informa a cultura plantada, a área nem os valores pedidos"
+ ],
+ "veredito": "A gente vê no caso uma lição de safra: liminar não é escritura. Plantar em terra disputada sem uma decisão definitiva é apostar a lavoura no resultado do processo.",
+ "fontes": [
+  {
+   "nome": "STJ: AREsp 3.194.703/PR, Terceira Turma, relator Ministro Ricardo Villas Bôas Cueva",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3194703&O=JT",
+   "data": "12/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Ministério da Agricultura: Crédito rural para a agricultura empresarial soma R$ 149,1 bilhões nos quatro primeiros meses da safra 2026/2027",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Código Civil (Lei 10.406/2002), arts. 1.254 a 1.256 (plantações em terreno alheio)",
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+   "data": "10/01/2002",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 51,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Arrendamento rural e lavoura plantada com base em liminar revogada"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3194703&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 8,
+    "porque": "Caso concreto, com lição para arrendatários e produtores em áreas disputadas"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Arrendamento rural e decisão da Justiça sobre o produtor"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Decisão publicada em 12/11, com gancho no plantio da safra de verão"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa lida na base do STJ; dados do Ministério da Agricultura"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Acórdão de 12/11 sem cobertura na imprensa, explicado com a regra do Código Civil sobre plantio em terreno alheio"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: risco de plantar com liminar (2)",
+    "Duas fontes independentes: STJ e Ministério da Agricultura (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "AREsp 3.194.703/PR",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Arrendamento e posse",
+  "coleta": "2026-11-22",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa conferida na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "partes, cultura e valores do caso"
+  },
+  "duplicidade": {
+   "grupo": "Arrendamento e parceria rural",
+   "itens": [
+    "AREsp 3.194.703"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-20-stj-parceria-rural-abandono-lavoura-cafe-retomada-sem-notificacao-despejo"
+  },
+  "seo": {
+   "intencao": "saber se quem planta com liminar revogada é indenizado",
+   "entidades": [
+    "STJ",
+    "arrendamento rural",
+    "liminar",
+    "boa-fé",
+    "Código Civil"
+   ],
+   "termos": [
+    "plantio liminar revogada indenização",
+    "arrendamento rural liminar",
+    "lavoura terreno alheio boa-fé"
+   ],
+   "atualizacao": "acompanhar julgados sobre arrendamento rural"
+  },
+  "agro": {
+   "demanda": "Arrendatários e produtores que plantam em áreas sob disputa judicial ou com base em liminar",
+   "prazo": "sem prazo",
+   "quem": "Arrendatários, parceiros e proprietários rurais em litígio de posse"
+  }
+ },
+ "descricao_seo": "STJ mantém decisão do Paraná que negou indenização por lavoura plantada em área arrendada com base em liminar depois revogada.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência e nas fontes oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os fatos vêm da ementa, citada literalmente, sem acrescentar o que ela não diz (partes, cultura, valores); a nota diz que o STJ não julgou o mérito. A referência ao Código Civil é genérica e atribuída à lei. Não nomeia partes. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-arrendamento-rural-plantio-liminar-revogada-sem-boa-fe-sem-indenizacao.jpg",
+  "credito": "Foto: Fernando Frazão/Agência Brasil",
+  "alt": "Implementos agrícolas e galpão em propriedade rural sob céu nublado (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/VQdF64eZQB6yv3zH9BmFxkd3K0o=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/10/31/_d6a9325_0.jpg?itok=VzoU7-n8",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cmn-flexibiliza-uso-de-recursos-para-renegociar-dividas-rurais"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-22T14:50:52-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-22T14:50:52-03:00"
+}
