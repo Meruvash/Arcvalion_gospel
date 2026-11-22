@@ -558,5 +558,9 @@
  "comissao-camara-aprova-fim-carencia-salario-maternidade-autonomas-rurais-pl-1599": {
   "chamada": "Mãe autônoma ou trabalhadora rural pode deixar de precisar de carência para receber o salário-maternidade 🤱",
   "pergunta": "Você conhece alguém que ficou sem o benefício por isso?"
+ },
+ "temporal-rs-proagro-vistoria-fotos-localizacao-produtor-lavoura-perdas": {
+  "chamada": "Agro: lavoura atingida por temporal? Para o Proagro, a vistoria exige três fotos com localização e o produtor na lavoura 📸🌾",
+  "pergunta": "Você já precisou acionar o Proagro?"
  }
 }
