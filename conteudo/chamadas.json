@@ -562,5 +562,21 @@
  "temporal-rs-proagro-vistoria-fotos-localizacao-produtor-lavoura-perdas": {
   "chamada": "Agro: lavoura atingida por temporal? Para o Proagro, a vistoria exige três fotos com localização e o produtor na lavoura 📸🌾",
   "pergunta": "Você já precisou acionar o Proagro?"
+ },
+ "cpr-entrega-outro-produto-nao-quita-sem-alteracao-formal-stj-mato-grosso": {
+  "chamada": "Agro: na CPR, o que vale é o papel. Entregou outro grão sem aditivo? A dívida continua no produto do contrato 🌽📄",
+  "pergunta": "Você já fez acerto de boca na CPR?"
+ },
+ "stj-arrendamento-rural-plantio-liminar-revogada-sem-boa-fe-sem-indenizacao": {
+  "chamada": "Agro: liminar não é escritura. Plantou em área disputada, a liminar caiu e a indenização foi negada ⚖️🌱",
+  "pergunta": "Você plantaria numa área garantida só por liminar?"
+ },
+ "stj-rondonia-arrendamento-rural-cobranca-monitoria-pericia-negada-documentos": {
+  "chamada": "Agro em Rondônia: cobrança de arrendamento decidida só com documentos, sem perícia na área 📑",
+  "pergunta": "Seu contrato de arrendamento está todo no papel?"
+ },
+ "stj-itr-valor-terra-nua-laudo-recusado-sipt-receita-mato-grosso-do-sul": {
+  "chamada": "Agro: laudo fraco vira ITR maior. STJ mantém valor da terra da tabela da Receita 🧾",
+  "pergunta": "Você confere o valor da terra que declara no ITR?"
  }
 }
