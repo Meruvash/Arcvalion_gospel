@@ -28,7 +28,7 @@
  ],
  "corpo": [
   "A Resolução CMN 5.315, de 25 de junho, também mudou a vistoria única: em perda parcial de alta gravidade, o relatório de comprovação de perdas pode ser concluído com uma só visita, e a produção estimada nessa visita passa a contar como receita obtida, descontada do cálculo da cobertura. As fotos devem retratar os efeitos do evento e a amostra colhida.",
-  "O primeiro passo é do beneficiário: a comunicação de perdas ao agente financeiro, pelo procedimento do item 12-4-1 do Manual. Segundo o governo gaúcho, a supercélula de sexta deixou mortos, feridos e 5 mil casas destelhadas no município; a Agência Brasil informou que a tempestade atingiu outras 33 cidades."
+  "O primeiro passo é do beneficiário: a comunicação de perdas ao agente financeiro, pelo procedimento do item 12-4-1 do Manual. Segundo o governo gaúcho, a supercélula de sexta deixou mortos, feridos e 5 mil casas destelhadas no município; a Agência Brasil informou que a tempestade atingiu outras 33 cidades. Atualização (22/11, tarde): a Defesa Civil Nacional reconheceu o estado de calamidade pública em Tupanciretã, segundo o Ministério da Integração."
  ],
  "no_brasil": "O Manual veda novo enquadramento no Proagro a quem acumula comunicações de perdas em pelo menos três dos últimos cinco anos agrícolas, somadas a outras condições; em 2025, o CMN deixou de contar as comunicações de lavouras em municípios gaúchos em emergência nas enchentes de 2024. Desde dezembro de 2025, a Resolução 5.275 prevê bloqueio de municípios conforme o orçamento do programa fica comprometido.",
  "critica": [
@@ -92,6 +92,12 @@
    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/cmn-passa-exigir-fotos-com-localizacao-comprovada-em-seguro-rural",
    "data": "25/06/2026",
    "tipo": "secundaria"
+  },
+  {
+   "nome": "Ministério da Integração e do Desenvolvimento Regional: Governo Federal agiliza socorro imediato a Tupanciretã (RS) (atualizado em 22/11/2026)",
+   "url": "https://www.gov.br/mdr/pt-br/noticias/governo-federal-agiliza-socorro-imediato-a-tupancireta-rs",
+   "data": "22/11/2026",
+   "tipo": "primaria"
   }
  ],
  "crivo": {
@@ -207,8 +213,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-22T02:41:11-03:00",
+  "data": "2026-11-22T14:46:36-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-22T02:41:11-03:00"
+ "publicado_em": "2026-11-22T02:41:11-03:00",
+ "atualizado_em": "2026-11-22T14:46:36-03:00"
 }
