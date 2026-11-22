@@ -300,7 +300,25 @@ vontade."
 - **Nada se passa por real:** nada de documento, decisão, pessoa, lugar ou acontecimento real inventado. Fato só com fonte.
 - **Crédito na tela:** "IMAGEM GERADA POR IA", ou "PINTURA FEITA EM CÓDIGO, ANIMADA POR IA".
 - **Aviso no YouTube:** marcar "conteúdo alterado ou sintético" quando a cena for realista.
-- **Licença:** o modelo precisa de licença que permita uso comercial (Wan e Apache 2.0 permitem).
+- **Licença:** o modelo precisa de licença que permita uso comercial (Wan e Apache 2.0 permitem). Licenças lidas
+  na íntegra em 22/11/2026:
+  - **LTX-2** (LTX-2 Community License, 05/01/2026, https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2):
+    - pode, para qualquer fim, sem pagar (item 2);
+    - só paga licença comercial quem fatura US$ 10 milhões por ano ou mais (item 2);
+    - o vídeo gerado é nosso (item 5);
+    - é obrigatório avisar que o conteúdo é gerado por máquina (Anexo A, item 5);
+    - é proibido fazer deepfake de pessoa real (Anexo A, item 7).
+  - **HunyuanVideo 1.5** (Tencent Hunyuan Community License, https://huggingface.co/tencent/HunyuanVideo-1.5/blob/main/LICENSE):
+    - vale no mundo todo, menos União Europeia, Reino Unido e Coreia do Sul, e o Brasil está dentro (itens 1.l e 2);
+    - só pede licença à Tencent quem tem mais de 100 milhões de usuários por mês (item 4);
+    - o vídeo gerado é nosso (item 6.d);
+    - é obrigatório identificar o conteúdo como gerado por máquina (Anexo A, item 12);
+    - é proibido se passar por outra pessoa (Anexo A, item 13).
+  - Nas duas licenças, o aviso "IMAGEM GERADA POR IA" na tela cumpre a exigência.
+  - Licenças lidas no Hugging Face em 22/11/2026, todas Apache 2.0: **Z-Image-Turbo**, **FLUX.2 klein 4B**,
+    **Wan 2.2**.
+  - Lidas e reprovadas para o nosso uso: **FLUX.2 klein 9B** e **FLUX.2 dev** (não comerciais); **Qwen-Image-2.1**
+    (só pesquisa).
 - **Registro:** cada clipe entra no `CENAS_USADAS.md`, com o modelo e o caminho gratuito usado.
 
 **Crivo de qualidade da imagem (pedido do editor, 21/11/2026, depois de gente deformada no vídeo do CCIR):**
