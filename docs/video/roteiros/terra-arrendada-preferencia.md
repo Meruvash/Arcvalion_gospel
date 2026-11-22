@@ -1,4 +1,4 @@
-# "Vendeu a terra arrendada sem avisar?": direito de preferência do arrendatário — roteiro v1 (22/11/2026), aguardando aprovação
+# "Vendeu a terra arrendada sem avisar?": direito de preferência do arrendatário — aprovado e entregue (22/11/2026)
 
 ## Pesquisa de tendência (22/11/2026)
 - **Autocomplete do Google:**
