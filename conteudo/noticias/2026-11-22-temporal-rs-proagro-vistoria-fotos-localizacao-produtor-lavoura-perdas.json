@@ -1,0 +1,214 @@
+{
+ "slug": "temporal-rs-proagro-vistoria-fotos-localizacao-produtor-lavoura-perdas",
+ "data": "2026-11-22",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Temporal no RS: Proagro exige fotos com localização e o produtor na lavoura",
+ "lide": "Depois do temporal que devastou Tupanciretã (RS) na sexta-feira (20), o produtor atingido que tem custeio no Proagro precisa conhecer as regras de comprovação de perdas em vigor desde 1º de julho: em cada vistoria, pelo menos três fotos coloridas tiradas dentro da área financiada, com tecnologia que ateste o local, e uma delas com o agricultor ou um preposto na lavoura.",
+ "por_que_importa": "O Proagro é o programa público que cobre o custeio rural quando a lavoura é perdida por evento climático. Quem tem área enquadrada e foi atingido precisa que a comprovação siga as regras do Manual de Crédito Rural; vistoria fora do padrão pode atrasar ou comprometer a cobertura.",
+ "numeros": [
+  [
+   "3",
+   "fotos coloridas, no mínimo, em cada vistoria de perda, uma delas com o agricultor ou seu preposto no local",
+   "Resolução CMN 5.315/2026"
+  ],
+  [
+   "114 km/h",
+   "foram as rajadas de vento registradas pelo Inmet em Tupanciretã na madrugada de 20 de novembro",
+   "Governo do Rio Grande do Sul"
+  ],
+  [
+   "1º/7/2026",
+   "é a data a partir da qual as novas regras valem para os empreendimentos enquadrados no Proagro",
+   "Agência Brasil, com informações do Banco Central"
+  ]
+ ],
+ "corpo": [
+  "A Resolução CMN 5.315, de 25 de junho, também mudou a vistoria única: em perda parcial de alta gravidade, o relatório de comprovação de perdas pode ser concluído com uma só visita, e a produção estimada nessa visita passa a contar como receita obtida, descontada do cálculo da cobertura. As fotos devem retratar os efeitos do evento e a amostra colhida.",
+  "O primeiro passo é do beneficiário: a comunicação de perdas ao agente financeiro, pelo procedimento do item 12-4-1 do Manual. Segundo o governo gaúcho, a supercélula de sexta deixou mortos, feridos e 5 mil casas destelhadas no município; a Agência Brasil informou que a tempestade atingiu outras 33 cidades."
+ ],
+ "no_brasil": "O Manual veda novo enquadramento no Proagro a quem acumula comunicações de perdas em pelo menos três dos últimos cinco anos agrícolas, somadas a outras condições; em 2025, o CMN deixou de contar as comunicações de lavouras em municípios gaúchos em emergência nas enchentes de 2024. Desde dezembro de 2025, a Resolução 5.275 prevê bloqueio de municípios conforme o orçamento do programa fica comprometido.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.315/2026, Manual de Crédito Rural, item 12-4-16",
+   "texto": "documentar, em cada visita realizada, a situação do empreendimento com pelo menos três fotos coloridas",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5315"
+  },
+  {
+   "fonte": "Agência Brasil, sobre nota do Banco Central (25/06/2026)",
+   "texto": "medida tem como objetivo comprovar que as imagens foram capturadas na área afetada",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/cmn-passa-exigir-fotos-com-localizacao-comprovada-em-seguro-rural"
+  }
+ ],
+ "para_quem": [
+  "Produtor com lavoura enquadrada no Proagro atingida pelo temporal: comunique a perda ao banco ou à cooperativa logo; o procedimento e o prazo estão no item 12-4-1 do Manual de Crédito Rural",
+  "Quem vai acompanhar a vistoria: esteja na lavoura ou mande um preposto, porque uma das fotos exige essa presença",
+  "Quem tem seguro rural privado: as regras de aviso e de vistoria são as da apólice; confira com a seguradora"
+ ],
+ "nao_e_para": [
+  "A nota não trata de seguro rural privado, que segue a apólice",
+  "Ainda não há balanço oficial das perdas agrícolas em Tupanciretã",
+  "Ter a lavoura atingida não garante a cobertura; a perda precisa ser comprovada e o empreendimento, enquadrado"
+ ],
+ "veredito": "A gente recomenda não esperar: comunicação de perda feita cedo e vistoria acompanhada, com as fotos no padrão do Banco Central, são o que garante ao produtor atingido a cobertura pela qual ele pagou o adicional do Proagro.",
+ "fontes": [
+  {
+   "nome": "Banco Central: Resolução CMN 5.315, de 25 de junho de 2026 (Proagro: comprovação de perdas e alíquotas)",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5315",
+   "data": "25/06/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Banco Central: Resolução CMN 5.224, de 6 de junho de 2025 (Proagro: enquadramento e reincidência de perdas)",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5224",
+   "data": "06/06/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Banco Central: Resolução CMN 5.275, de 18 de dezembro de 2025 (bloqueio de enquadramento no Proagro)",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5275",
+   "data": "18/12/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Governo do Rio Grande do Sul: Leite anuncia liberação de mais R$ 5 milhões a Tupanciretã (20/11/2026)",
+   "url": "https://www.estado.rs.gov.br/leite-anuncia-liberacao-de-mais-r-5-milhoes-a-tupancireta-por-meio-do-programa-volta-por-cima",
+   "data": "20/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Sobe para 4 o número de mortos em Tupanciretã, no Sul (21/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/sobe-para-4-o-numero-de-mortos-em-tupancireta-no-sul",
+   "data": "21/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Brasil: CMN passa a exigir fotos com localização comprovada em seguro rural (25/06/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/cmn-passa-exigir-fotos-com-localizacao-comprovada-em-seguro-rural",
+   "data": "25/06/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 55,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Regras do Proagro para comprovar perdas de lavoura atingida por evento climático"
+  },
+  "origem": {
+   "nome": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5315"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Vale para todo produtor com custeio enquadrado no Proagro que sofrer perda, e o temporal no RS atingiu dezenas de municípios"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Proagro e comprovação de perdas, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 8,
+    "porque": "Norma de junho, com gancho no temporal de 20/11 em Tupanciretã"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Texto das três resoluções lido no Banco Central; fatos do temporal do governo gaúcho e da Agência Brasil"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Ligamos o temporal às regras de vistoria do Proagro, ausentes da cobertura do desastre"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: resoluções do CMN (2)",
+    "Ato de quem tem poder: Conselho Monetário Nacional (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que fazer para acionar o Proagro (2)",
+    "Duas fontes independentes: Banco Central e governo gaúcho (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN 5.315/2026; Leite anuncia liberação de mais R$ 5 milhões a Tupanciretã",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Proagro e seguro rural",
+  "coleta": "2026-11-22",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "resoluções lidas no Banco Central; temporal conferido no governo do RS",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "tamanho das perdas agrícolas no município"
+  },
+  "duplicidade": {
+   "grupo": "Proagro",
+   "itens": [
+    "Resolução CMN 5.315",
+    "Temporal em Tupanciretã"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-20-cmn-resolucao-5347-proagro-conta-de-liquidacao-cooperativas-credito"
+  },
+  "seo": {
+   "intencao": "saber como acionar o Proagro depois de perda por temporal",
+   "entidades": [
+    "Proagro",
+    "Conselho Monetário Nacional",
+    "Banco Central",
+    "Tupanciretã",
+    "Manual de Crédito Rural"
+   ],
+   "termos": [
+    "Proagro comprovação de perdas",
+    "Proagro fotos georreferenciadas",
+    "temporal Tupanciretã lavoura Proagro"
+   ],
+   "atualizacao": "acompanhar balanço de perdas agrícolas e eventual medida do CMN para o RS"
+  },
+  "agro": {
+   "demanda": "Produtores atingidos por temporal que precisam comunicar a perda e comprovar o dano para receber a cobertura do Proagro",
+   "prazo": "comunicação de perdas pelo item 12-4-1 do Manual de Crédito Rural; regras de vistoria vigentes desde 1º/7/2026",
+   "quem": "Produtores com custeio enquadrado no Proagro, a começar pelos da Região Central do RS"
+  }
+ },
+ "descricao_seo": "Depois do temporal em Tupanciretã (RS), as regras do Proagro: vistoria com três fotos com localização comprovada, uma com o produtor na lavoura.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa nas resoluções do CMN e nas fontes oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: as regras vêm do texto das Resoluções CMN 5.315, 5.224 e 5.275, com citação literal; a nota não afirma prazo de comunicação que não leu (remete ao item 12-4-1 do Manual), não diz que a cobertura está garantida e separa o Proagro do seguro privado. Fatos do temporal atribuídos ao governo gaúcho e à Agência Brasil. Não nomeia produtores. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/temporal-rs-proagro-vistoria-fotos-localizacao-produtor-lavoura-perdas.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Emas caminham ao fundo de uma lavoura verde (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/RAWYCMQ9WLLbY0SAq6InZRiFWec=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/1057808-ebc_07.12.2016-3007_07.12.16.jpg?itok=aZS0AGNI",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/cmn-passa-exigir-fotos-com-localizacao-comprovada-em-seguro-rural"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-22T02:41:11-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-22T02:41:11-03:00"
+}
