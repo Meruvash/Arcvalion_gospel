@@ -4,11 +4,11 @@
  "categoria": "chamada-agro",
  "status": "publicado",
  "manchete": false,
- "opiniao_forte": false,
+ "opiniao_forte": true,
  "selo": "Vale acompanhar",
  "titulo": "CPR: entregar outro produto não muda o contrato sem alteração formal, mostra caso no STJ",
  "lide": "Com a Cédula de Produto Rural (CPR) respondendo por 47,8% do financiamento do agro empresarial nesta safra, segundo o Ministério da Agricultura, um caso de Mato Grosso serve de alerta: o produtor entregou parte em produto diverso, a Justiça só abateu o entregue e manteve a dívida restante no produto do contrato. O STJ não reexaminou a decisão.",
- "por_que_importa": "Na CPR o produtor recebe antes e paga com a entrega do produto combinado. Quem acerta de boca com o credor entregar outro grão, sem aditivo assinado, corre o risco de continuar devendo o produto original, com execução e honorários.",
+ "por_que_importa": "Na CPR, aperto de mão não muda contrato. O produtor recebe antes e paga com o produto combinado; quem acerta de boca entregar outro grão, sem aditivo assinado, pode descobrir na execução que continua devendo o produto original, com honorários em cima.",
  "numeros": [
   [
    "47,8%",
@@ -39,6 +39,12 @@
    "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3190504&O=JT"
   },
   {
+   "fonte": "Argumento do produtor no recurso, segundo a ementa do STJ",
+   "texto": "alegação de iliquidez e desvio de finalidade em razão de entregas parciais de produto diverso",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3190504&O=JT"
+  },
+  {
    "fonte": "Ministério da Agricultura (13/11/2026)",
    "texto": "O instrumento se consolidou como o principal mecanismo de financiamento do setor, à frente do custeio convencional",
    "citacao": true,
@@ -55,7 +61,7 @@
   "É um caso concreto, sem efeito vinculante",
   "A ementa não informa quais produtos nem os valores envolvidos"
  ],
- "veredito": "A gente vê aqui um recado simples para quem vive de CPR: o que vale é o papel. Acerto de boca com o comprador, por mais bem-intencionado, não muda o produto devido, e a conta chega na execução.",
+ "veredito": "A gente defende o óbvio que o caso confirma: na CPR, o que vale é o papel. Combinou outro grão com o comprador? Ponha no aditivo antes de carregar o caminhão, porque a boa vontade de hoje não aparece na perícia de amanhã.",
  "fontes": [
   {
    "nome": "STJ: AgInt nos EDcl no AREsp 3.190.504/MT, Terceira Turma, relatora Ministra Daniela Teixeira",
@@ -188,8 +194,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-22T14:49:38-03:00",
+  "data": "2026-11-22T14:53:05-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-22T14:49:38-03:00"
+ "publicado_em": "2026-11-22T14:49:38-03:00",
+ "atualizado_em": "2026-11-22T14:53:05-03:00"
 }

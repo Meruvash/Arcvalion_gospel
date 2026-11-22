@@ -1,0 +1,189 @@
+{
+ "slug": "stj-rondonia-arrendamento-rural-cobranca-monitoria-pericia-negada-documentos",
+ "data": "2026-11-22",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Arrendamento rural em Rondônia: STJ mantém cobrança decidida só com documentos, sem perícia",
+ "lide": "O STJ manteve, em decisão publicada no dia 16, a cobrança de um contrato de arrendamento rural de Rondônia julgada sem perícia na área arrendada. A parte cobrada alegou cerceamento de defesa, mas a Quarta Turma entendeu que os documentos bastavam e que o juiz pode recusar provas desnecessárias. Os honorários subiram 10%.",
+ "por_que_importa": "Em cobrança de arrendamento, o que pesa é o papel: contrato, recibos e comunicações. Quem pretende provar que a área não rendeu o combinado ou não foi entregue como prometido precisa reunir documentos desde o início, porque a perícia pode ser negada.",
+ "numeros": [
+  [
+   "16/11",
+   "foi a publicação da decisão da Quarta Turma, julgada em 10 de novembro",
+   "STJ, AREsp 3.300.663/RO"
+  ],
+  [
+   "10%",
+   "foi a majoração dos honorários sobre o valor já fixado na origem",
+   "STJ, AREsp 3.300.663/RO"
+  ],
+  [
+   "Súmula 7",
+   "do STJ impediu rever se a perícia e o depoimento eram necessários",
+   "STJ"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, a ação monitória se baseava em contrato de arrendamento rural, e a Justiça de Rondônia rejeitou o cerceamento de defesa e manteve a procedência do pedido. O recorrente queria perícia na área arrendada e o depoimento pessoal do autor, e contestava o julgamento antecipado do mérito.",
+  "O relator, desembargador convocado Luís Carlos Gambogi, afirmou que, sendo suficiente a prova documental, é legítimo julgar antecipadamente, sem cerceamento quando não há prejuízo concreto demonstrado. Rever a necessidade da perícia exigiria reexaminar provas."
+ ],
+ "no_brasil": "A ação monitória é o caminho de quem tem prova escrita de uma dívida sem força de título executivo; o devedor pode se defender com embargos. No caso de Rondônia, a defesa da parte cobrada não convenceu porque a prova documental foi considerada suficiente pelas instâncias locais.",
+ "critica": [
+  {
+   "fonte": "STJ, Quarta Turma, AREsp 3.300.663/RO",
+   "texto": "O julgador, como destinatário da prova, pode indeferir as diligências impertinentes, desnecessárias ou protelatórias",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3300663&O=JT"
+  },
+  {
+   "fonte": "STJ, Quarta Turma, AREsp 3.300.663/RO",
+   "texto": "sendo suficiente o acervo documental, é legítimo o julgamento antecipado do mérito",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3300663&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Quem é cobrado por arrendamento: junte desde a primeira defesa os documentos do que alega (fotos, laudos, notificações), porque a perícia pode não ser deferida",
+  "Arrendador: contrato escrito e recibos permitem cobrar por ação monitória",
+  "Quem vai assinar arrendamento: registre por escrito qualquer problema na entrega da área, no prazo do contrato"
+ ],
+ "nao_e_para": [
+  "O STJ não reexaminou os fatos; manteve a decisão de Rondônia",
+  "É um caso concreto, sem efeito vinculante",
+  "A ementa não informa o município, a área nem o valor cobrado"
+ ],
+ "veredito": "A gente tira do caso uma regra de bolso para o arrendamento: o que não está escrito dificilmente se prova depois. Contrato, recibo e notificação valem mais que a promessa de uma perícia que o juiz pode negar.",
+ "fontes": [
+  {
+   "nome": "STJ: AREsp 3.300.663/RO, Quarta Turma, relator Desembargador convocado Luís Carlos Gambogi",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3300663&O=JT",
+   "data": "16/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Código de Processo Civil (Lei 13.105/2015), arts. 355, 370, 371 e 700 a 702 (julgamento antecipado e ação monitória)",
+   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+   "data": "16/03/2015",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 54,
+  "trilha": "quente",
+  "abrangencia": "rondonia",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Cobrança de arrendamento rural em Rondônia decidida pelo STJ"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3300663&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 8,
+    "porque": "Caso concreto de Rondônia, com lição para arrendatários e arrendadores"
+   },
+   "afinidade": {
+    "pontos": 18,
+    "porque": "Arrendamento rural e decisão da Justiça sobre o produtor, em Rondônia"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Decisão publicada em 16/11, há seis dias"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa lida na base do STJ"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Acórdão de Rondônia sem cobertura na imprensa local nem nacional"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 8,
+    "viral": 2,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: Rondônia (3)",
+    "Utilidade: como se defender na cobrança de arrendamento (2)",
+    "Lei citada: Código de Processo Civil (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "AREsp 3.300.663/RO",
+  "nucleo": "B - Rondônia",
+  "categoria": "Agro / Arrendamento e cobrança",
+  "coleta": "2026-11-22",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa conferida na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "município, área e valores"
+  },
+  "duplicidade": {
+   "grupo": "Arrendamento e parceria rural",
+   "itens": [
+    "AREsp 3.300.663"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-22-stj-arrendamento-rural-plantio-liminar-revogada-sem-boa-fe-sem-indenizacao"
+  },
+  "seo": {
+   "intencao": "saber como funciona a cobrança de arrendamento rural na Justiça",
+   "entidades": [
+    "STJ",
+    "arrendamento rural",
+    "ação monitória",
+    "Rondônia",
+    "cerceamento de defesa"
+   ],
+   "termos": [
+    "arrendamento rural ação monitória",
+    "cobrança arrendamento Rondônia",
+    "perícia negada arrendamento"
+   ],
+   "atualizacao": "acompanhar julgados sobre arrendamento rural"
+  },
+  "agro": {
+   "demanda": "Arrendatários e arrendadores em Rondônia em disputa de cobrança de arrendamento",
+   "prazo": "prazo de embargos na ação monitória",
+   "quem": "Arrendatários e proprietários rurais"
+  }
+ },
+ "descricao_seo": "STJ mantém cobrança de arrendamento rural de Rondônia julgada só com documentos: perícia na área foi negada e honorários subiram 10%.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos da ementa, citada literalmente; não nomeia partes nem acrescenta valores ou município. A explicação da ação monitória é genérica e atribuída ao Código de Processo Civil. Sem oferta de serviço nem menção à advocacia do editor. A ementa não diz se a parte cobrada era arrendatária ou arrendadora, e a nota não afirma.",
+ "imagem": {
+  "arquivo": "capas/stj-rondonia-arrendamento-rural-cobranca-monitoria-pericia-negada-documentos.jpg",
+  "credito": "Foto: Valter Campanato/Agência Brasil",
+  "alt": "Trabalhadores cuidam de canteiros de morango sob irrigação (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/V7mTRyPKXV1vHPibLV3fa6AUZrI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/1089294-vcapto_abr_2408172792_1.jpg?itok=RR6XMdOi",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2020-02/cresce-numero-de-agricultores-com-acesso-ao-seguro-rural"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-22T14:52:35-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-22T14:52:35-03:00"
+}

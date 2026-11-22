@@ -4,11 +4,11 @@
  "categoria": "chamada-agro",
  "status": "publicado",
  "manchete": false,
- "opiniao_forte": false,
+ "opiniao_forte": true,
  "selo": "Vale acompanhar",
  "titulo": "Plantou amparado em liminar que caiu? STJ mantém decisão que negou indenização no Paraná",
  "lide": "Em plena safra de verão, uma decisão do STJ alerta quem planta em área disputada: no Paraná, um pedido de indenização por lavoura plantada em área arrendada, com base em liminar depois revogada, foi negado. A Justiça local concluiu que não houve boa-fé no plantio e que o autor sabia do risco de a liminar cair; o STJ não reexaminou as provas.",
- "por_que_importa": "Liminar é decisão provisória. Quem investe em semente, adubo e máquinas numa área garantida só por liminar assume o risco de perder a lavoura e o investimento se ela for revogada, sem direito automático a ressarcimento.",
+ "por_que_importa": "Liminar não é escritura. Quem investe semente, adubo e máquina numa área garantida só por decisão provisória aposta a safra no resultado do processo, e, se a liminar cair, pode perder a lavoura sem direito automático a ressarcimento.",
  "numeros": [
   [
    "10/11",
@@ -55,7 +55,7 @@
   "É um caso concreto, sem efeito vinculante",
   "A ementa não informa a cultura plantada, a área nem os valores pedidos"
  ],
- "veredito": "A gente vê no caso uma lição de safra: liminar não é escritura. Plantar em terra disputada sem uma decisão definitiva é apostar a lavoura no resultado do processo.",
+ "veredito": "A gente vê no caso uma lição de safra: liminar não é escritura. Plantar em terra disputada sem decisão definitiva é apostar a colheita no processo, e quem sabe do risco não pode depois pedir que outro pague a conta.",
  "fontes": [
   {
    "nome": "STJ: AREsp 3.194.703/PR, Terceira Turma, relator Ministro Ricardo Villas Bôas Cueva",
@@ -188,8 +188,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-22T14:50:52-03:00",
+  "data": "2026-11-22T14:53:05-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-22T14:50:52-03:00"
+ "publicado_em": "2026-11-22T14:50:52-03:00",
+ "atualizado_em": "2026-11-22T14:53:05-03:00"
 }
