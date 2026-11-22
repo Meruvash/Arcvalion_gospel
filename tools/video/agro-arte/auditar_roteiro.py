@@ -6,6 +6,8 @@ Compara as falas de um roteiro, batida a batida, com os dois vídeos de padrão 
 
 Uso: python3 auditar_roteiro.py falas.json [--md saida.md]
 Entrada: a lista de falas no formato de sempre ({"id", "quem", "texto"}).
+Rodízio de ganchos: o molde da fala 1 não se repete em dois vídeos seguidos (coluna "Gancho" em
+docs/video/PAUTAS_USADAS.md).
 Saída: tabela item a item (o roteiro × caseiro × irmão), nota automática e lista do que falta.
 
 A máquina só mede o que dá para medir no texto. Os itens de julgamento (busca real, terra em jogo, mito que não é
@@ -30,6 +32,21 @@ def n(s):
 def palavras(s):
     return re.findall(r"[\wÀ-ú]+", s)
 
+MOLDES = "Você sabia que · pergunta do Google + resposta seca · ordem contrária · suspense (cliffhanger) · imagina"
+
+def molde(f1):
+    """Molde de abertura (pedido do editor, 22/11/2026: variar o gancho, que todo dia "Você sabia" enjoa).
+    Força medida no Virlo em 22/11/2026: suspense 30% de vídeos fortes, pergunta 23%, "você sabia"/ensinar 19%."""
+    frases = [x.strip() for x in re.split(r"(?<=[.?!])\s+", f1) if x.strip()]
+    if f1.startswith("Você sabia que"): return "você sabia"
+    if f1.startswith("Imagina"): return "imagina"
+    if len(frases) >= 2 and frases[0].endswith("?"):
+        if re.match(r"(Pode|Não pode|Perde|Fica)\b", frases[1]): return "pergunta + resposta seca"
+        if re.match(r"Não\b", frases[1]): return "ordem contrária"
+    if len(frases) >= 2 and re.search(r"por causa d|um detalhe|quase ninguém|um aviso|um papel|uma assinatura", frases[-1], re.I):
+        return "suspense"
+    return ""
+
 def carregar(p):
     d = json.load(open(p, encoding="utf-8"))
     return {f["id"]: f for f in d}
@@ -46,7 +63,8 @@ def checar(F):
     total = sum(len(palavras(x)) for x in t.values())
     editor_meio = [i for i in F if F[i]["quem"] != "narrador" and i != ult]
     R = {}
-    R["A1 fala 1 abre com 'Você sabia que'"] = (f1.startswith("Você sabia que"), f1[:22] + "…")
+    m = molde(f1)
+    R["A1 fala 1 abre num molde aprovado (sabia, pergunta+resposta, ordem contrária, suspense, imagina)"] = (bool(m), m or f1[:22] + "…")
     R["A2 personagem próximo na fala 1"] = (bool(pers), ", ".join(sorted(set(p.lower() for p in pers))) or "nenhum")
     R["A3 alguém de fora em contraste (estranho)"] = (bool(re.search(FORA, f1, re.I)), (re.search(FORA, f1, re.I) or [None])[0] if re.search(FORA, f1, re.I) else "não")
     R["A4 bem de quem assiste (sua terra, sua fazenda, a herança)"] = (bool(re.search(BEM, f1, re.I)), (re.search(BEM, f1, re.I).group(0) if re.search(BEM, f1, re.I) else "não"))

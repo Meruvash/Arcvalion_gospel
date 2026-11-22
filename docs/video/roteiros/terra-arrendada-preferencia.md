@@ -22,7 +22,7 @@
 
 | # | Fala |
 |---|---|
-| 1 | "Você sabia que o arrendatário da sua fazenda pode ficar com ela, se você vender pra um estranho sem avisar ele antes?" |
+| 1 | "O arrendatário pode ficar com a sua fazenda, se você vender pra um estranho. E tudo por causa de um aviso que quase ninguém manda." (gancho 3, suspense, escolhido pelo editor em 22/11/2026; antes: "Você sabia que o arrendatário da sua fazenda pode ficar com ela…") |
 | 2 | "A explicação está em três palavras: direito de preferência." |
 | 3 | "Se a fazenda for vendida, o arrendatário tem prioridade pra comprar, pelo mesmo preço e nas mesmas condições do estranho." |
 | 4 | "A lei diz que o dono precisa notificar quem arrenda, e ele tem trinta dias pra dizer se quer comprar." |
@@ -37,13 +37,13 @@
 
 | Item | Este roteiro | Caseiro | Irmão |
 |---|---|---|---|
-| A1 fala 1 abre com 'Você sabia que' | ✅ Você sabia que o arren… | ✅ Você sabia que o casei… | ✅ Você sabia que, se o s… |
+| A1 fala 1 abre num molde aprovado | ✅ suspense (gancho 3) | ✅ Você sabia que o casei… | ✅ Você sabia que, se o s… |
 | A2 personagem próximo na fala 1 | ✅ arrendatário | ✅ caseiro | ✅ irmão |
 | A3 alguém de fora em contraste (estranho) | ✅ estranho | ✅ estranho | ✅ estranho |
 | A4 bem de quem assiste (sua terra, sua fazenda, a herança) | ✅ da sua fazenda | ✅ sua fazenda | ✅ da fazenda |
 | A5 virada de poder ('pode' / 'não pode') | ✅ sim | ✅ sim | ✅ sim |
 | A6 fala 1 com até 30 palavras | ✅ 22 palavras | ✅ 27 palavras | ✅ 28 palavras |
-| A8 o personagem aparece nas 8 primeiras palavras | ✅ Você sabia que o arrendatário da sua fazenda… | ✅ Você sabia que o caseiro que mora há… | ✅ Você sabia que se o seu irmão vender… |
+| A8 o personagem aparece nas 8 primeiras palavras | ✅ O arrendatário pode ficar com a sua… | ✅ Você sabia que o caseiro que mora há… | ✅ Você sabia que se o seu irmão vender… |
 | A7 fala 1 sem sigla nem número | ✅ limpa | ✅ limpa | ✅ limpa |
 | B1 fala 2 no molde 'A explicação está em/numa … palavra(s): X' | ✅ A explicação está em três palavras: direito de preferência. | ✅ A explicação está numa palavra: posse. | ✅ A explicação está em três palavras: tanto por tanto. |
 | B2 chave curta (até 3 palavras depois dos dois-pontos) | ✅ direito de preferência. | ✅ posse. | ✅ tanto por tanto. |
@@ -134,5 +134,5 @@ A1, que exige "Você sabia que".
 
 A história com nome (molde do João) ficou de fora, porque exigiria um caso inventado.
 
-Quando o editor escolher, o item A1 do `auditar_roteiro.py` passa a aceitar o molde escolhido, além do "Você sabia que".
+**Escolhido pelo editor (22/11/2026): gancho 3, suspense.** O item A1 do `auditar_roteiro.py` passou a aceitar os cinco moldes (você sabia, pergunta + resposta seca, ordem contrária, suspense, imagina); com o gancho 3, a nota é 23/23.
 Também entra o rodízio de moldes: nenhum molde em dois vídeos seguidos.

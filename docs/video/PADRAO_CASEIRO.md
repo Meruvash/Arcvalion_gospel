@@ -136,6 +136,23 @@ como recomendação.
 6. **Uma variável nova por vídeo.** Formato novo (editor no canto, imagem real, outra trilha) só entra num vídeo que,
    fora isso, siga o padrão ouro, e a mudança é anotada em `PAUTAS_USADAS.md`.
 
+## 5.3 Gancho variado (pedido do editor, 22/11/2026)
+
+"Todo dia 'Você sabia' vai enjoar." No Virlo, em 22/11/2026 e em vídeos em português, a abertura de ensinar
+("você sabia", "vou te explicar") é a que menos rende: 19% dos vídeos fortes, contra 30% do suspense.
+
+A fala 1 usa um destes cinco moldes, todos com personagem, "sua" terra, "pode" e estranho, como antes:
+1. **Você sabia:** o molde do caseiro e do irmão.
+2. **Pergunta do Google + resposta seca:** "Fazenda arrendada pode ser vendida? Pode. O arrendatário é que pode…"
+3. **Ordem contrária:** "Tem arrendatário na sua fazenda? Não vende pra um estranho. Pelo menos, não sem…"
+4. **Suspense:** a ameaça e, em seguida, a causa escondida ("E tudo por causa de um aviso que quase ninguém manda.").
+5. **Imagina:** "Imagina: o arrendatário pode ficar com a sua fazenda, depois que…"
+
+Regras:
+- O molde não se repete em dois vídeos seguidos. Ele fica anotado em `PAUTAS_USADAS.md`.
+- Nada de história com nome inventado ("João ganhou…"): o portal não inventa caso.
+- `auditar_roteiro.py` (item A1) reconhece os cinco moldes.
+
 ## 6. Próximos testes do padrão
 - **"O irmão vendeu sem avisar"** (herança) segue o padrão em todos os itens menos o 1: o autocomplete mostra pouco
   ("meu irmão vendeu"). O resultado dele vai dizer quanto pesa a busca real.
