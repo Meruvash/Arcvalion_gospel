@@ -5,6 +5,8 @@
 //   ar_hobbema   — Meindert Hobbema (1638–1709): a estrada reta entre árvores altas e finas até a sede da fazenda
 //   ar_kuindzhi  — Arkhip Kuindzhi (1842–1910): o fim de tarde em brasa sobre os sulcos, a enxada e o chapéu de palha
 //                  deixados na terra (quem trabalha a terra com as próprias mãos)
+//   ar_levitan   — Isaac Levitan (1860–1900): a caixa de correio de madeira na beira da estrada de terra, bétulas e névoa;
+//                  a bandeirinha sobe (chegou a notificação)
 //   ar_hammershoi — Vilhelm Hammershøi (1864–1916): a sala vazia e cinzenta, a mesa com papéis e a janela para a lavoura
 //                  lá longe (quem arrenda só como negócio)
 (() => {
@@ -150,6 +152,39 @@
       for (let i = 0; i < 30; i++) { const x = 900 + r() * 500, y = 300 + ((r() * 700 + t * 12) % 700); c.fillStyle = 'rgba(255,250,230,.35)'; c.fillRect(x, y, 2, 2); }
       c.restore();
       tela(c, 'canvas_hm', '#e4e0d4');
+    }
+    return { draw };
+  })();
+  // ---------------------------------------------------------------- Levitan: a caixa de correio na beira da estrada
+  SCENES['ar_levitan'] = (() => {
+    let plate, built = false;
+    function build() {
+      const a = P.canvas(), g = a.getContext('2d');
+      g.fillStyle = grad(g, 0, 0, 0, 600, [[0, '#9ab0c4'], [.7, '#e8dcc0'], [1, '#f4e4c4']]); g.fillRect(0, 0, W, 600);
+      g.fillStyle = '#8a9aa0'; poly(g, [[0, 600], [500, 570], [1000, 590], [1500, 560], [1920, 590], [1920, 620], [0, 620]]); g.fill();   // mata azulada ao longe
+      g.fillStyle = grad(g, 0, 610, 0, H, [[0, '#a8a86a'], [1, '#5a6a32']]); g.fillRect(0, 610, W, H - 610);   // o pasto
+      g.fillStyle = '#b8683a'; poly(g, [[1000, 612], [1030, 612], [1500, 1080], [1100, 1080]]); g.fill();   // a estrada de terra
+      for (let k = 0; k < 6; k++) {   // as bétulas finas à esquerda
+        const x = 520 + k * 70, h = 520 - k * 30;
+        g.fillStyle = '#efeae0'; g.fillRect(x, 640 - h, 10, h); g.fillStyle = '#3a3a34'; for (let j = 0; j < 8; j++) g.fillRect(x, 640 - h + j * h / 8 + 10, 10, 4);
+        const rr = rng(50 + k); for (let j = 0; j < 14; j++) ell(g, x + 5 + (rr() - .5) * 90, 640 - h + rr() * h * .55, 10 + rr() * 16, 8 + rr() * 12, rr() * 3, ['#c8b860', '#a8a050', '#d8c870', '#b8a84a'][j % 4]);
+      }
+      g.fillStyle = '#5a4026'; g.fillRect(1240, 600, 22, 300);   // o mourão da caixa de correio
+      g.fillStyle = '#7a5434'; g.fillRect(1180, 540, 150, 80); ell(g, 1255, 540, 75, 26, 0, '#7a5434');   // a caixa de correio de madeira
+      g.fillStyle = '#4a3020'; g.fillRect(1180, 556, 12, 64);
+      return M.broken(a, { cell: 7, len: 15, wid: 8, passes: 3, angle: (x, y) => y < 600 ? 0.05 : -0.9, seed: 1201, jit: 11, skip: 0.05, sat: 0.95, warm: [245, 230, 190], cool: [110, 130, 150] });
+    }
+    function draw(c, lt) {
+      if (!built) { plate = build(); built = true; }
+      const t = Math.max(0, lt); c.drawImage(plate, 0, 0);
+      const up = clamp((t - 1.0) / 0.8, 0, 1);   // a bandeirinha vermelha sobe: chegou correspondência
+      c.save(); c.translate(1330, 590); c.rotate(-Math.PI / 2 * up); c.fillStyle = '#5a4026'; c.fillRect(0, -4, 60, 8); c.fillStyle = '#c0281a'; c.fillRect(44, -20, 34, 26); c.restore();
+      c.save(); c.globalCompositeOperation = 'screen';   // a névoa da manhã passando
+      for (let i = 0; i < 3; i++) { const x = ((t * 40 + i * 700) % 2300) - 200; const gr = c.createRadialGradient(x, 640, 10, x, 640, 420); gr.addColorStop(0, 'rgba(255,248,230,.28)'); gr.addColorStop(1, 'rgba(255,248,230,0)'); c.fillStyle = gr; c.fillRect(0, 380, W, 500); }
+      c.restore();
+      const r = rng(11); c.strokeStyle = 'rgba(200,200,120,.6)'; c.lineWidth = 3;   // o capim balançando
+      for (let i = 0; i < 60; i++) { const x = 420 + r() * 1080, y = 900 + r() * 170, sw = Math.sin(t * 2 + i) * 10; c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(x + sw / 2, y - 30, x + sw, y - 60); c.stroke(); }
+      tela(c, 'canvas_lv', '#ece2cc');
     }
     return { draw };
   })();

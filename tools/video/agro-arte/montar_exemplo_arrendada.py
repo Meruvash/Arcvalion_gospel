@@ -1,6 +1,7 @@
 """Gera hf/index.html: vídeo "Vendeu a terra arrendada sem avisar?" (Estatuto da Terra, art. 92, §§ 3º e 4º; Decreto 59.566/1966,
 arts. 45 a 47; STJ, REsp 2.140.209/SP, j. 02/09/2025), 1080x1080, ~55 s. Pinturas feitas em código (huashu-art-motion), sem figura
-humana, à maneira de Ruisdael, Hobbema, Kuindzhi e Hammershøi; duas fotos paradas geradas por IA grátis (Wan 2.2), conferidas no crivo.
+humana, à maneira de Ruisdael, Levitan, Hobbema, Kuindzhi e Hammershøi; uma foto parada gerada por IA grátis (Wan 2.2), sem gente.
+v2 (22/11/2026, pedido do editor: foco em animação e paisagem, sem humanos): saiu a foto do produtor no trator.
 Uso: python3 montar.py
 """
 import json, re
@@ -50,7 +51,7 @@ M = {"estranho": ts(1, "estranho"), "aviso": ts(1, "aviso"), "pref": ts(2, "pref
      "registro": ts(6, "registro"), "superior": ts(7, "Superior"), "negocio": ts(8, "negócio"), "pode": ts(8, "pode"), "na9": ts(9, "Na"),
      "eu": ts(10, "Eu"), "advogado": ts(10, "advogado"), "antes": ts(10, "Em"), "segue": ts(10, "segue")}
 XF = 0.4
-ORD = [("wan_trator", 0), ("ar_ruisdael", 0), ("wan_porteira", 0), ("ar_hobbema", 0), ("ar_kuindzhi", 0), ("ar_hammershoi", 0), ("ar_kuindzhi", 6.5)]
+ORD = [("wan_porteira", 0), ("ar_ruisdael", 0), ("ar_levitan", 0), ("ar_hobbema", 0), ("ar_kuindzhi", 0), ("ar_hammershoi", 0), ("ar_kuindzhi", 6.5)]
 INI = [0, C["ru"], C["wp"], C["hb"], C["kz"], C["hm"], C["kz2"], C["cartela"]]
 def vid(i, src, ms, a, b, tr):
     b = min(b, a + dur(src) - ms)
@@ -75,7 +76,7 @@ OVS = [
     ov("o-pref", M["pref"] - .1, FAL(3) - .1, '<div class="anos" id="pref" style="font-size:96px">DIREITO DE<br>PREFERÊNCIA</div>', "", 21),
     ov("o-src0", C["ru"] + .4, C["wp"], 'PINTURA À MANEIRA DE JACOB VAN RUISDAEL', "rod", 11),
     ov("o-prior", M["prior"] - .05, C["wp"], '<div class="tag" id="tg2">PRIORIDADE PRA COMPRAR</div><div class="tag tag2" id="tg3">MESMO PREÇO</div>', "", 22),
-    ov("o-cred1", C["wp"] + .3, C["hb"], IA, "cred", 12),
+    ov("o-src5", C["wp"] + .4, C["hb"], 'ESTATUTO DA TERRA, ART. 92, § 3º · PINTURA À MANEIRA DE ISAAC LEVITAN', "rod", 12),
     ov("o-card1", M["lei"] - .1, M["trinta"] - .1, CARD1, "", 23),
     ov("o-trinta", M["trinta"] - .1, C["hb"], '<div class="anos" id="trinta">30 DIAS</div>', "", 24),
     ov("o-card2", M["deposita"] - .1, M["fica"] - .1, CARD2, "", 25),
@@ -92,7 +93,7 @@ OVS = [
 ]
 CART = """<div id="ct-luz"></div><div id="ct-nome">Dr. Pelicioni</div><div id="ct-fil"></div><div id="ct-prof">ADVOGADO</div>
 <div id="ct-tese">vender terra arrendada começa pelo aviso</div><div id="ct-direct">Dúvida? Direct aberto.</div>
-<div id="ct-fontes">Fontes: Estatuto da Terra (Lei 4.504/1964), art. 92, §§ 3º e 4º, texto do Planalto · Decreto 59.566/1966, arts. 38 e 45 a 47 · STJ, REsp 2.140.209/SP, 3ª Turma, j. 02/09/2025 · pinturas feitas em código à maneira de Jacob van Ruisdael, Meindert Hobbema, Arkhip Kuindzhi e Vilhelm Hammershøi · cenas realistas geradas por IA (Wan 2.2, modelo aberto), ilustrativas · trilha original</div>"""
+<div id="ct-fontes">Fontes: Estatuto da Terra (Lei 4.504/1964), art. 92, §§ 3º e 4º, texto do Planalto · Decreto 59.566/1966, arts. 38 e 45 a 47 · STJ, REsp 2.140.209/SP, 3ª Turma, j. 02/09/2025 · pinturas feitas em código à maneira de Jacob van Ruisdael, Meindert Hobbema, Arkhip Kuindzhi, Isaac Levitan e Vilhelm Hammershøi · cena realista gerada por IA (Wan 2.2, modelo aberto), ilustrativa, sem pessoas · trilha original</div>"""
 SFX = [("boom", 0.38, .45, 1.5), ("whoosh", C["ru"] - .2, .22, 1.0), ("stamp", M["aviso"] - .05, .55, 1.0), ("whoosh", C["wp"] - .2, .22, 1.0),
        ("paper", M["lei"] - .1, .4, .8), ("whoosh", C["hb"] - .2, .22, 1.0), ("paper", M["deposita"] - .1, .4, .8), ("stamp", M["fica"] - .05, .55, 1.0),
        ("whoosh", C["kz"] - .2, .22, 1.0), ("paper", M["superior"] - .1, .4, .8), ("whoosh", C["hm"] - .2, .22, 1.0), ("stamp", M["pode"] - .05, .5, 1.0),

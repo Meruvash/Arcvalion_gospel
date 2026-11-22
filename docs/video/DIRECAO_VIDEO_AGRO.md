@@ -317,7 +317,14 @@ vontade."
 - **Figura pintada:** ou tem forma humana completa (cabeça com rosto, braços e mãos), ou não aparece. O boneco
   geométrico sem braço e sem rosto está aposentado.
 
-**Prévia realista sem virar ilustração (aprendido em 20/11/2026):** cena noturna com abajur ("night", "warm lamp light")
+****Foco em animação e paisagem, sem gente gerada** (pedido do editor, 22/11/2026: "evite gerar humanos porque eles
+ficam distorcidos"):
+- O padrão passa a ser pintura animada em código, paisagem e objeto. Nenhuma pessoa gerada por IA, nem como foto parada.
+- O personagem da fala 1 aparece pela palavra, pelos letreiros e pelos objetos dele (porteira, enxada, chapéu, caixa de
+  correio), nunca pelo corpo.
+- Exceção, só com o editor pedindo: foto parada de longe, conferida no crivo.
+
+Prévia realista sem virar ilustração (aprendido em 20/11/2026):** cena noturna com abajur ("night", "warm lamp light")
 fez o Wan 2.2 sair do realismo e desenhar, com corpos deformados. O pedido corrigido funcionou:
 - abrir com "RAW photo, DSLR photograph, real people";
 - usar "evening", "dusk" e "tungsten ceiling bulb" em vez de noite fechada;

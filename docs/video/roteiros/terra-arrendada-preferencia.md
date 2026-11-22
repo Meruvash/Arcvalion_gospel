@@ -170,6 +170,20 @@ Também entra o rodízio de moldes: nenhum molde em dois vídeos seguidos.
 | H6 Nitidez | aprovado | Os avisos de nitidez caem nas fusões entre cenas (10,2; 16,2; 21,2; 37,2 s) e na cartela escura (47,2 s), sem gente. |
 | H7 Tela | aprovado | Cartões e carimbos não tapam o produtor; crédito de IA legível nas duas fotos; a placa VENDE-SE e o chapéu foram subidos para não ficarem sob a legenda. |
 
+## Versão 2, sem humanos (22/11/2026)
+
+Pedido do editor: "com foco em animações e paisagens, evite gerar humanos porque eles ficam distorcidos".
+- Saiu a foto do produtor no trator. A abertura e a capa agora são a porteira com o envelope, que casa com o gancho
+  ("um aviso que quase ninguém manda").
+- Na fala 4, a porteira deu lugar a uma pintura nova, `ar_levitan`, à maneira de Isaac Levitan: caixa de correio de
+  madeira na beira da estrada de terra, bétulas e névoa, com a bandeirinha vermelha subindo (chegou a notificação).
+- Resultado: 88% de pintura animada e uma única foto de IA, de paisagem e sem gente.
+- **Crivo v2:** 14 folhas revistas, todos os itens aprovados (H1 a H3 não se aplicam: não há gente). `auditar_video.py`: 7/7.
+- Arquivos: `terra-arrendada-preferencia-v2.mp4`, `arrendada-capa-v2.jpg` e as capas do Instagram `-v2`. **A v2 é a versão de postar.**
+- Descrição do YouTube: trocar "Cenas realistas geradas por IA (Wan 2.2, modelo aberto), ilustrativas: não mostram pessoas
+  nem lugares reais" por "Cena realista gerada por IA (Wan 2.2, modelo aberto), ilustrativa, sem pessoas" e acrescentar
+  Isaac Levitan à lista de pinturas.
+
 ## Publicação
 
 **Título do YouTube:**
@@ -186,7 +200,7 @@ Se a fazenda arrendada for vendida, o arrendatário tem preferência para compra
 Mas o STJ decidiu que esse direito é de quem explora a terra de forma direta e familiar. No caso julgado, arrendatários que não moravam no imóvel e tinham outras fazendas, tratados como empresários do ramo agrícola, ficaram sem a preferência (REsp 2.140.209/SP, 3ª Turma, julgado em 02/09/2025).
 
 Fontes: Lei 4.504/1964 (Estatuto da Terra), art. 92, §§ 3º e 4º; Decreto 59.566/1966, arts. 38 e 45 a 47 (Planalto); STJ, REsp 2.140.209/SP.
-Pinturas feitas em código à maneira de Jacob van Ruisdael, Meindert Hobbema, Arkhip Kuindzhi e Vilhelm Hammershøi. Cenas realistas geradas por IA (Wan 2.2, modelo aberto), ilustrativas: não mostram pessoas nem lugares reais. Trilha original.
+Pinturas feitas em código à maneira de Jacob van Ruisdael, Isaac Levitan, Meindert Hobbema, Arkhip Kuindzhi e Vilhelm Hammershøi. Cena realista gerada por IA (Wan 2.2, modelo aberto), ilustrativa, sem pessoas. Trilha original.
 
 #arrendamentorural #terraarrendada #produtorrural #agro #Shorts
 ```
