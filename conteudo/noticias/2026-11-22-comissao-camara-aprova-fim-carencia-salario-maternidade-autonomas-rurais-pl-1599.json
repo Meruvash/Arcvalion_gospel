@@ -1,0 +1,190 @@
+{
+ "slug": "comissao-camara-aprova-fim-carencia-salario-maternidade-autonomas-rurais-pl-1599",
+ "data": "2026-11-22",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Comissão da Câmara aprova fim da carência do salário-maternidade para autônomas e trabalhadoras rurais",
+ "lide": "A Comissão de Previdência e Família da Câmara aprovou na quarta-feira (18) o PL 1.599/2026, que acaba com a exigência de carência para o salário-maternidade de contribuintes individuais, facultativas e seguradas especiais, como as trabalhadoras rurais. Hoje a lei exige 10 contribuições mensais ou 12 meses de atividade rural, segundo a Agência Câmara.",
+ "por_que_importa": "Muitas mães autônomas, donas de casa que contribuem e mulheres do campo engravidam antes de completar a carência e ficam sem o benefício. O projeto põe na lei o que o STF já decidiu e evita que elas precisem brigar na Justiça para receber.",
+ "numeros": [
+  [
+   "10",
+   "contribuições mensais exigidas hoje das contribuintes individuais e facultativas",
+   "Agência Câmara, 19/11/2026"
+  ],
+  [
+   "12 meses",
+   "de atividade rural exigidos hoje das seguradas especiais",
+   "Agência Câmara, 19/11/2026"
+  ],
+  [
+   "1 mês",
+   "de atividade rural nos 12 meses anteriores continua exigido da segurada especial no texto aprovado",
+   "Agência Câmara, 19/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O texto aprovado é o da relatora, deputada Rogéria Santos (Republicanos-BA), para o projeto da deputada Laura Carneiro (PSD-RJ). Ele revoga os trechos da Lei 8.213/91 que tratam da carência e inclui o salário-maternidade entre os benefícios que não a exigem. A proposta adapta a lei a decisão do STF que declarou essa carência inconstitucional.",
+  "A trabalhadora rural continua tendo de comprovar atividade no campo, ainda que descontínua, em pelo menos um dos 12 meses anteriores ao parto. O projeto foi recebido pela Comissão de Finanças em 19/11, com o PL 2.517/2026 apensado, segundo os dados abertos da Câmara."
+ ],
+ "no_brasil": "O projeto ainda passa pelas comissões de Finanças e Tributação e de Constituição e Justiça. Para virar lei, precisa ser aprovado pela Câmara e pelo Senado e sancionado.",
+ "critica": [
+  {
+   "fonte": "Deputada Rogéria Santos (Republicanos-BA), relatora, no parecer, segundo a Agência Câmara",
+   "texto": "Essa mudança expurga do ordenamento jurídico um dispositivo excludente e discriminatório",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1321151-comissao-aprova-fim-de-carencia-para-salario-maternidade-de-tres-categorias"
+  },
+  {
+   "fonte": "Exigência que o projeto mantém, segundo a Agência Câmara",
+   "texto": "Para as seguradas especiais, continua obrigatória a comprovação de atividade rural em pelo menos um dos 12 meses anteriores ao fato gerador do benefício.",
+   "citacao": false,
+   "url": "https://www.camara.leg.br/noticias/1321151-comissao-aprova-fim-de-carencia-para-salario-maternidade-de-tres-categorias"
+  }
+ ],
+ "para_quem": [
+  "Mães autônomas e contribuintes facultativas do INSS",
+  "Trabalhadoras rurais e mulheres da agricultura familiar",
+  "Famílias que planejam filhos e contribuem por conta própria"
+ ],
+ "nao_e_para": [
+  "Não é lei ainda: faltam duas comissões, o Senado e a sanção",
+  "Não muda o valor do salário-maternidade, só a exigência de tempo de contribuição",
+  "Não dispensa a trabalhadora rural de comprovar atividade no campo"
+ ],
+ "veredito": "Medida justa e pró-família. Maternidade não pode depender de contar contribuições. Se o STF já derrubou a carência, a lei deve dizer isso com clareza para que nenhuma mãe tenha de ir à Justiça. O Congresso deve aprovar sem demora.",
+ "versiculo": {
+  "texto": "Levantam-se seus filhos, e chamam-na bem-aventurada",
+  "referencia": "Provérbios 31.28",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Câmara: Comissão aprova fim de carência para salário-maternidade de três categorias (19/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1321151-comissao-aprova-fim-de-carencia-para-salario-maternidade-de-tres-categorias",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: tramitação do PL 1.599/2026",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613436/tramitacoes",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 54,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "Maternidade e proteção da renda da mãe autônoma e da trabalhadora rural"
+  },
+  "origem": {
+   "nome": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1321151-comissao-aprova-fim-de-carencia-para-salario-maternidade-de-tres-categorias"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Projeto aprovado em comissão, ainda em tramitação na Câmara"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Família: renda da mãe no nascimento do filho, inclusive no campo"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Aprovação em 18/11, dentro de 7 dias"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Matéria oficial da Câmara e aprovação conferida nos dados abertos"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Explica quem ganha, o que continua exigido da trabalhadora rural e os próximos passos"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 3
+   },
+   "criterios": [
+    "Documento primário: dados abertos da Câmara (2)",
+    "Proximidade: nacional (2)",
+    "Personagem com nome: Rogéria Santos (1)",
+    "Utilidade: quem passa a ter direito (2)",
+    "Número forte: 10 contribuições (2)",
+    "Passagem bíblica sobre a mãe (2)",
+    "Gancho de família (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Comissão aprova fim de carência para salário-maternidade de três categorias",
+  "nucleo": "A - Brasil",
+  "categoria": "Família / previdência",
+  "coleta": "2026-11-22",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na Agência Câmara e nos dados abertos",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "número da ação do STF citada pela relatora"
+  },
+  "duplicidade": {
+   "grupo": "PL 1.599/2026",
+   "itens": [
+    "Agência Câmara 19/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se acabou a carência do salário-maternidade para autônoma e trabalhadora rural",
+   "entidades": [
+    "PL 1.599/2026",
+    "salário-maternidade",
+    "INSS",
+    "Rogéria Santos",
+    "Laura Carneiro"
+   ],
+   "termos": [
+    "salário-maternidade sem carência",
+    "carência salário-maternidade autônoma",
+    "salário-maternidade segurada especial"
+   ],
+   "atualizacao": "votação na Comissão de Finanças"
+  }
+ },
+ "descricao_seo": "PL 1.599/2026 acaba com a carência do salário-maternidade para autônomas, facultativas e trabalhadoras rurais; aprovado em comissão da Câmara.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da matéria oficial e dos dados abertos da Câmara, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: deixa claro que é projeto em tramitação; requisitos atuais e mantidos conforme a fonte oficial; decisão do STF citada como a relatora a cita, sem número inventado. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/comissao-camara-aprova-fim-carencia-salario-maternidade-autonomas-rurais-pl-1599.jpg",
+  "credito": "Foto: Vinicius Loures/Câmara dos Deputados",
+  "alt": "Deputada Rogéria Santos, de blazer amarelo, em reunião de comissão da Câmara",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/11/img20251021161505934.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1321151-comissao-aprova-fim-de-carencia-para-salario-maternidade-de-tres-categorias"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-22T02:28:32-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-22T02:28:32-03:00"
+}
