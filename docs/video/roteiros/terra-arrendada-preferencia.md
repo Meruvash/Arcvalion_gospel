@@ -73,7 +73,12 @@
   - **art. 38:** os benefícios valem para quem explora a atividade rural de forma pessoal e direta.
 - **Lei 4.504/1964 (Estatuto da Terra), art. 92, §§ 3º e 4º** (Planalto,
   https://www.planalto.gov.br/ccivil_03/leis/l4504.htm): a mesma regra (preferência em igualdade de condições, 30 dias e
-  6 meses). **Conferir o texto integral antes do render:** o trecho veio de um resumo da página, não da leitura literal.
+  6 meses). **Conferido em 22/11/2026, texto literal da página do Planalto:** § 3º "No caso de alienação do imóvel arrendado,
+  o arrendatário terá preferência para adquiri-lo em igualdade de condições, devendo o proprietário dar-lhe conhecimento da
+  venda, a fim de que possa exercitar o direito de perempção dentro de trinta dias, a contar da notificação judicial ou
+  comprovadamente efetuada, mediante recibo."; § 4º "O arrendatário a quem não se notificar a venda poderá, depositando o
+  preço, haver para si o imóvel arrendado, se o requerer no prazo de seis meses, a contar da transcrição do ato de alienação
+  no Registro de Imóveis." 
 - **STJ, REsp 2.140.209, 3ª Turma, relator Ricardo Villas Bôas Cueva** (Conjur, coluna "Cio da Terra", 10/12/2025,
   https://www.conjur.com.br/2025-dez-10/preferencia-de-compra-de-imovel-rural-e-de-quem-o-cultiva-diz-stj/):
   - o arrendamento não dá a preferência automaticamente;
@@ -81,7 +86,11 @@
     art. 38 do Decreto 59.566;
   - no caso, os arrendatários não moravam no imóvel, um deles tinha outros imóveis, e eles foram "considerados
     empresários do ramo agrícola": ficaram sem a preferência.
-  - **A conferir no acórdão:** a data do julgamento, porque a notícia só dá a data da publicação.
+  - **Acórdão lido (PDF do inteiro teor, 22/11/2026):** REsp 2.140.209/SP, julgado em 02/09/2025, por unanimidade
+    (Moura Ribeiro, Daniela Teixeira, Nancy Andrighi e Humberto Martins com o relator). Ementa, item 5: "O Estatuto da
+    Terra busca a proteção daquele que explora a terra de forma direta e familiar, ficando o direito de preferência do
+    arrendatário condicionado à presença desses requisitos." Item 6: os recorrentes "não residem no bem, além de serem
+    proprietários de outros imóveis rurais, sendo verdadeiros empresários do ramo agrícola".
 - **STJ, REsp 1.175.438:** o preço a depositar é o da escritura registrada (citado em pesquisa; conferir antes de
   usar na descrição).
 
@@ -136,3 +145,63 @@ A história com nome (molde do João) ficou de fora, porque exigiria um caso inv
 
 **Escolhido pelo editor (22/11/2026): gancho 3, suspense.** O item A1 do `auditar_roteiro.py` passou a aceitar os cinco moldes (você sabia, pergunta + resposta seca, ordem contrária, suspense, imagina); com o gancho 3, a nota é 23/23.
 Também entra o rodízio de moldes: nenhum molde em dois vídeos seguidos.
+
+## Entrega (22/11/2026)
+
+- **Vídeo:** `terra-arrendada-preferencia.mp4`, 1080×1080, 55,4 s, áudio de 48 kHz, fora do repositório (`/home/user/webdoc-research/roteiros/`).
+- **Capa no quadro 0:** "ARRENDATÁRIO FICA COM A FAZENDA?" sobre a foto do trator. Capas do Instagram em 9:16 e 4:5, com
+  o carimbo "SEM AVISO?" no céu.
+- **Montagem:** `tools/video/agro-arte/montar_exemplo_arrendada.py`. **Cenas:** `cenas/ar_scenes.js` e `cenas/eras_ar.js`.
+- **Imagem:** 76% de pintura animada (4 pinturas, uma delas repetida na pergunta final), 2 fotos paradas de IA (Wan 2.2)
+  e 3 cartões de prova.
+- **Voz:** narrador ElevenLabs. Fala do editor pelo `voz_editor_s_neutro.py`, com a candidata 0 e nota S de 1,29.
+- **Trilha:** catira, alternando com o agronejo do CCIR. Zero palavras na transcrição; normalizada em −30 LUFS.
+- **`auditar_video.py`:** 7/7.
+
+### Crivo de qualidade (`crivo_qualidade.py`, 14 folhas, todas revistas)
+
+| Item | Resultado | Onde / observação |
+|---|---|---|
+| H1 Rostos | aprovado | A única pessoa é o produtor no trator, de longe, de 0 a 6,6 s. Rosto de perfil conferido em 4× antes da montagem; zoom de no máximo 1,05×. |
+| H2 Mãos | aprovado | As mãos do produtor estão no volante. |
+| H3 Corpo | aprovado | Braços e pernas no lugar; o corpo não atravessa o trator. |
+| H4 Movimento | aprovado | Não há animação de IA; as fotos são paradas, só com câmera lenta. |
+| H5 Figuras pintadas | aprovado | Nenhuma figura humana nas pinturas. |
+| H6 Nitidez | aprovado | Os avisos de nitidez caem nas fusões entre cenas (10,2; 16,2; 21,2; 37,2 s) e na cartela escura (47,2 s), sem gente. |
+| H7 Tela | aprovado | Cartões e carimbos não tapam o produtor; crédito de IA legível nas duas fotos; a placa VENDE-SE e o chapéu foram subidos para não ficarem sob a legenda. |
+
+## Publicação
+
+**Título do YouTube:**
+> Vendeu a fazenda arrendada sem avisar? O arrendatário pode ficar com ela
+
+Alternativas:
+- Terra arrendada pode ser vendida? O aviso que quase ninguém manda
+- Direito de preferência do arrendatário: 30 dias, 6 meses e o que o STJ decidiu
+
+**Descrição do YouTube:**
+```
+Se a fazenda arrendada for vendida, o arrendatário tem preferência para comprar em igualdade de condições. O dono precisa avisar, e ele tem trinta dias, contados da notificação, para responder (Estatuto da Terra, art. 92, § 3º). Se não foi avisado, o arrendatário pode depositar o preço e haver para si o imóvel, se pedir em até seis meses do registro da venda no cartório (§ 4º).
+
+Mas o STJ decidiu que esse direito é de quem explora a terra de forma direta e familiar. No caso julgado, arrendatários que não moravam no imóvel e tinham outras fazendas, tratados como empresários do ramo agrícola, ficaram sem a preferência (REsp 2.140.209/SP, 3ª Turma, julgado em 02/09/2025).
+
+Fontes: Lei 4.504/1964 (Estatuto da Terra), art. 92, §§ 3º e 4º; Decreto 59.566/1966, arts. 38 e 45 a 47 (Planalto); STJ, REsp 2.140.209/SP.
+Pinturas feitas em código à maneira de Jacob van Ruisdael, Meindert Hobbema, Arkhip Kuindzhi e Vilhelm Hammershøi. Cenas realistas geradas por IA (Wan 2.2, modelo aberto), ilustrativas: não mostram pessoas nem lugares reais. Trilha original.
+
+#arrendamentorural #terraarrendada #produtorrural #agro #Shorts
+```
+
+**Legenda do Instagram:**
+```
+Vai vender a fazenda que está arrendada? Avisa o arrendatário antes. 📩🚜
+
+Pela lei, quem arrenda tem preferência pra comprar, pelo mesmo preço do estranho. O dono precisa notificar, e ele tem 30 dias pra responder.
+
+Se não foi avisado, o arrendatário pode depositar o preço na Justiça e ficar com a fazenda, em até 6 meses do registro da venda.
+
+Mas atenção: o STJ decidiu que esse direito é de quem trabalha a terra de forma direta e familiar. Quem arrenda só como negócio pode ficar sem ele.
+
+Na sua região, alguém já vendeu terra arrendada sem avisar quem planta nela? Conta aqui 👇
+
+#arrendamentorural #terraarrendada #produtorrural #agro #direitorural
+```
