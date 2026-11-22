@@ -1,0 +1,195 @@
+{
+ "slug": "cpr-entrega-outro-produto-nao-quita-sem-alteracao-formal-stj-mato-grosso",
+ "data": "2026-11-22",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "CPR: entregar outro produto não muda o contrato sem alteração formal, mostra caso no STJ",
+ "lide": "Com a Cédula de Produto Rural (CPR) respondendo por 47,8% do financiamento do agro empresarial nesta safra, segundo o Ministério da Agricultura, um caso de Mato Grosso serve de alerta: o produtor entregou parte em produto diverso, a Justiça só abateu o entregue e manteve a dívida restante no produto do contrato. O STJ não reexaminou a decisão.",
+ "por_que_importa": "Na CPR o produtor recebe antes e paga com a entrega do produto combinado. Quem acerta de boca com o credor entregar outro grão, sem aditivo assinado, corre o risco de continuar devendo o produto original, com execução e honorários.",
+ "numeros": [
+  [
+   "47,8%",
+   "do crédito do agro empresarial de julho a outubro veio de CPR, ante 38,1% na safra passada",
+   "Ministério da Agricultura"
+  ],
+  [
+   "R$ 71,2 bilhões",
+   "em CPR foram emitidos nos quatro primeiros meses da safra 2026/27",
+   "Ministério da Agricultura"
+  ],
+  [
+   "12/11",
+   "foi a publicação da decisão do STJ no caso de Mato Grosso, julgado em 10 de novembro",
+   "STJ, AgInt nos EDcl no AREsp 3.190.504/MT"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, a Justiça de Mato Grosso registrou os abatimentos das entregas parciais, rejeitou a tese de novação, isto é, de que um contrato novo teria substituído o antigo, e manteve a exigência do restante no produto originalmente pactuado. Uma perícia confirmou os abatimentos e a ausência de alteração contratual formal.",
+  "No STJ, o produtor alegou iliquidez do título e nulidade da execução. A Terceira Turma, com relatoria da ministra Daniela Teixeira, aplicou a Súmula 7, que impede reexaminar provas, e manteve a majoração dos honorários, mas negou o pedido do credor de multa por recurso protelatório."
+ ],
+ "no_brasil": "O recurso invocava a Lei 8.929/1994, que criou a CPR, além do Código de Processo Civil. Como a CPR já é o principal instrumento de financiamento do agro empresarial, segundo o Ministério da Agricultura, o caso mostra o risco de mudar produto, quantidade ou prazo sem aditivo escrito.",
+ "critica": [
+  {
+   "fonte": "STJ, Terceira Turma, AgInt nos EDcl no AREsp 3.190.504/MT",
+   "texto": "A controvérsia de origem registrou abatimentos por entregas parciais e rejeitou a ocorrência de novação, mantendo a exigência de cumprimento da obrigação remanescente no produto originalmente pactuado",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3190504&O=JT"
+  },
+  {
+   "fonte": "Ministério da Agricultura (13/11/2026)",
+   "texto": "O instrumento se consolidou como o principal mecanismo de financiamento do setor, à frente do custeio convencional",
+   "citacao": true,
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027"
+  }
+ ],
+ "para_quem": [
+  "Produtor que emitiu CPR e quer pagar com outro produto: assine um aditivo com o credor antes de entregar; o vencimento é o da cédula",
+  "Quem já entregou parte: guarde os comprovantes de entrega e de peso, que garantem o abatimento",
+  "Cerealistas e tradings: o acordo informal também é risco para o credor, que pode ter de provar o que recebeu"
+ ],
+ "nao_e_para": [
+  "O STJ não julgou o mérito; manteve a decisão de Mato Grosso por não poder reexaminar provas",
+  "É um caso concreto, sem efeito vinculante",
+  "A ementa não informa quais produtos nem os valores envolvidos"
+ ],
+ "veredito": "A gente vê aqui um recado simples para quem vive de CPR: o que vale é o papel. Acerto de boca com o comprador, por mais bem-intencionado, não muda o produto devido, e a conta chega na execução.",
+ "fontes": [
+  {
+   "nome": "STJ: AgInt nos EDcl no AREsp 3.190.504/MT, Terceira Turma, relatora Ministra Daniela Teixeira",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3190504&O=JT",
+   "data": "12/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Ministério da Agricultura: Crédito rural para a agricultura empresarial soma R$ 149,1 bilhões nos quatro primeiros meses da safra 2026/2027",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Lei 8.929/1994 (Cédula de Produto Rural)",
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8929.htm",
+   "data": "22/08/1994",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 52,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Execução de Cédula de Produto Rural e entrega de produto diverso do pactuado"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3190504&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 9,
+    "porque": "Caso concreto, mas a CPR financiou R$ 71,2 bilhões do agro empresarial em quatro meses"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "CPR e execução de dívida do produtor, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Decisão publicada em 12/11, com gancho nos dados do Mapa sobre o peso da CPR nesta safra"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa lida na base do STJ e dados do Ministério da Agricultura"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Decisão sem cobertura na imprensa, transformada em alerta prático"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: como evitar dívida na CPR (2)",
+    "Duas fontes independentes: STJ e Ministério da Agricultura (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "AgInt nos EDcl no AREsp 3.190.504/MT",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / CPR e execução",
+  "coleta": "2026-11-22",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa conferida na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "produtos e valores do caso"
+  },
+  "duplicidade": {
+   "grupo": "CPR",
+   "itens": [
+    "AREsp 3.190.504"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-21-stj-renegociacao-divida-rural-cedula-credito-bancario-novacao-execucao"
+  },
+  "seo": {
+   "intencao": "saber se entregar outro produto quita a CPR",
+   "entidades": [
+    "STJ",
+    "Cédula de Produto Rural",
+    "novação",
+    "Lei 8.929/1994",
+    "Ministério da Agricultura"
+   ],
+   "termos": [
+    "CPR entrega de outro produto",
+    "CPR novação execução",
+    "CPR aditivo"
+   ],
+   "atualizacao": "acompanhar julgados sobre CPR"
+  },
+  "agro": {
+   "demanda": "Produtores que emitiram CPR e combinaram entregar produto diferente sem aditivo, sujeitos a execução do restante",
+   "prazo": "vencimento da cédula",
+   "quem": "Produtores emitentes de CPR e seus credores"
+  }
+ },
+ "descricao_seo": "STJ mantém decisão de MT: entrega de outro produto na CPR só abate o entregue, sem alteração formal a dívida segue no produto do contrato.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência e nas fontes oficiais, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os fatos do caso vêm da ementa, citada literalmente; a nota deixa claro que o STJ não julgou o mérito (Súmula 7) e que é caso concreto. Não nomeia partes. A recomendação de aditivo escrito decorre da própria decisão (ausência de alteração formal). Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/cpr-entrega-outro-produto-nao-quita-sem-alteracao-formal-stj-mato-grosso.jpg",
+  "credito": "Foto: Elza Fiúza/Agência Brasil",
+  "alt": "Espigas de milho secas na lavoura antes da colheita (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/oftg1Vai8SqN18fwi-0a4httLe0=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/milho_elzafiuza_2308.jpg?itok=pZeR7njf",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2019-11/governo-quer-aumentar-lavouras-com-seguro-rural"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-22T14:49:38-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-22T14:49:38-03:00"
+}
