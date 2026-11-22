@@ -1,0 +1,190 @@
+{
+ "slug": "stj-itr-valor-terra-nua-laudo-recusado-sipt-receita-mato-grosso-do-sul",
+ "data": "2026-11-22",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "ITR: STJ mantém valor da terra arbitrado pela Receita depois de laudo de avaliação recusado",
+ "lide": "O STJ manteve, em decisão publicada na quinta-feira (19), o ITR de um imóvel rural de Mato Grosso do Sul calculado com o valor da terra nua arbitrado pela Receita no Sistema de Preços de Terras (SIPT). A Justiça local considerou inadequado o laudo de avaliação do imóvel, e o STJ não reexaminou as provas.",
+ "por_que_importa": "O valor da terra nua é a base do ITR. Quando a Receita não aceita o valor declarado, usa a sua própria tabela de preços, e o proprietário só a derruba com laudo técnico que convença. Laudo fraco vira imposto maior.",
+ "numeros": [
+  [
+   "19/11",
+   "foi a publicação da decisão da Primeira Turma, julgada em 17 de novembro",
+   "STJ, AgInt no AREsp 2.746.436/MS"
+  ],
+  [
+   "Art. 14",
+   "da Lei 9.393/1996 autoriza o lançamento de ofício com informações do sistema de preços de terras da Receita",
+   "Lei 9.393/1996"
+  ],
+  [
+   "Súmula 7",
+   "do STJ impediu rever a conclusão sobre o laudo",
+   "STJ"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, o tribunal de origem concluiu pela inadequação do laudo de avaliação do valor da terra nua e pela correção do arbitramento pelo SIPT. O relator, ministro Paulo Sérgio Domingues, afirmou que revisar essas conclusões exigiria reexaminar fatos e provas, o que a Súmula 7 veda, e negou provimento ao agravo.",
+  "O recurso também alegava falta de fundamentação do acórdão local, tese rejeitada pela turma."
+ ],
+ "no_brasil": "Pela Lei 9.393/1996, em caso de subavaliação ou informação inexata, a Receita lança o imposto de ofício com base em preços de terras do seu sistema, que deve considerar levantamentos das secretarias de Agricultura dos estados ou dos municípios. O caminho do proprietário para contestar é o laudo técnico de avaliação.",
+ "critica": [
+  {
+   "fonte": "STJ, Primeira Turma, AgInt no AREsp 2.746.436/MS",
+   "texto": "A revisão da conclusão do Tribunal de origem acerca da inadequação do laudo de avaliação do VTN e da correção do arbitramento pelo SIPT exigiria reexame do conjunto fático-probatório",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2746436&O=JT"
+  },
+  {
+   "fonte": "Lei 9.393/1996, art. 14",
+   "texto": "considerando informações sobre preços de terras, constantes de sistema a ser por ela instituído",
+   "citacao": true,
+   "url": "https://www2.camara.leg.br/legin/fed/lei/1996/lei-9393-19-dezembro-1996-372239-normaatualizada-pl.html"
+  }
+ ],
+ "para_quem": [
+  "Proprietário rural autuado no ITR: a contestação depende de laudo técnico de avaliação bem fundamentado; o prazo de defesa é o da intimação",
+  "Quem declara o ITR: valor da terra muito abaixo dos preços da região tende a ser revisto pela Receita",
+  "Municípios conveniados: os levantamentos de preços das secretarias de Agricultura alimentam o sistema da Receita"
+ ],
+ "nao_e_para": [
+  "O STJ não analisou o laudo; manteve a decisão de origem por não poder reexaminar provas",
+  "É um caso concreto, sem efeito vinculante",
+  "A ementa não informa o município, a área nem os valores do imposto"
+ ],
+ "veredito": "A gente lembra a lição prática do caso: contra a tabela da Receita, só laudo sólido. Economizar no laudo pode sair mais caro que o próprio imposto discutido.",
+ "fontes": [
+  {
+   "nome": "STJ: AgInt no AREsp 2.746.436/MS, Primeira Turma, relator Ministro Paulo Sérgio Domingues",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2746436&O=JT",
+   "data": "19/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Lei 9.393/1996 (ITR), art. 14, texto atualizado na Câmara dos Deputados",
+   "url": "https://www2.camara.leg.br/legin/fed/lei/1996/lei-9393-19-dezembro-1996-372239-normaatualizada-pl.html",
+   "data": "19/12/1996",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 53,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "ITR do imóvel rural e valor da terra nua arbitrado pela Receita"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2746436&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 8,
+    "porque": "Caso concreto, mas o arbitramento pelo SIPT alcança qualquer proprietário rural com valor declarado contestado"
+   },
+   "afinidade": {
+    "pontos": 15,
+    "porque": "Tributo do imóvel rural, ligado à vida do produtor"
+   },
+   "atualidade": {
+    "pontos": 12,
+    "porque": "Decisão publicada em 19/11, há três dias"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa lida na base do STJ e texto da Lei 9.393/1996"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Acórdão de 19/11 sem cobertura na imprensa, explicado com o art. 14 da lei do ITR"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: como contestar o valor da terra no ITR (2)",
+    "Lei citada: Lei 9.393/1996 (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "AgInt no AREsp 2.746.436/MS",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Tributos do imóvel rural",
+  "coleta": "2026-11-22",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa conferida na base do STJ; lei lida no texto da Câmara",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "município e valores"
+  },
+  "duplicidade": {
+   "grupo": "ITR",
+   "itens": [
+    "AREsp 2.746.436"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber como contestar o valor da terra nua no ITR",
+   "entidades": [
+    "STJ",
+    "ITR",
+    "valor da terra nua",
+    "SIPT",
+    "Receita Federal",
+    "Lei 9.393/1996"
+   ],
+   "termos": [
+    "ITR SIPT laudo",
+    "valor da terra nua arbitramento",
+    "contestar VTN ITR"
+   ],
+   "atualizacao": "acompanhar julgados sobre ITR e SIPT"
+  },
+  "agro": {
+   "demanda": "Proprietários rurais autuados no ITR por subavaliação do valor da terra nua",
+   "prazo": "prazo de defesa contado da intimação do lançamento",
+   "quem": "Proprietários e possuidores de imóveis rurais"
+  }
+ },
+ "descricao_seo": "STJ mantém ITR de imóvel de MS calculado pelo valor da terra nua do SIPT, depois que o laudo do proprietário foi considerado inadequado.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência e na lei, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos da ementa, citada literalmente; a lei citada literalmente no trecho do art. 14. Não nomeia partes nem acusa ninguém de fraude (a nota fala em laudo considerado inadequado). Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-itr-valor-terra-nua-laudo-recusado-sipt-receita-mato-grosso-do-sul.jpg",
+  "credito": "Foto: Elza Fiúza/Agência Brasil",
+  "alt": "Agricultor trabalha em lavoura de agricultura familiar (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/9ne_XOJazxC3CQY_AxFML-nBwFg=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/lavoura_agricultura_familiar.jpg?itok=e3CcSAiH",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2019-01/agricultura-estuda-mudar-financiamento-do-agronegocio-e-seguro-rural"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-22T14:55:34-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-22T14:55:34-03:00"
+}
