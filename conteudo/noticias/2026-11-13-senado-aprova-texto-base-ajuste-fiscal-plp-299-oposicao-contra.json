@@ -29,7 +29,7 @@
  "corpo": [
   "O texto limita a 2% acima da inflação o crescimento das despesas nos anos de contenção fiscal, permite bloquear gastos para buscar o centro da meta, restringe o uso de créditos tributários e tira da meta de 2026 até R$ 10,5 bilhões do subsídio ao diesel. Ficam fora do corte benefícios da folha, da tecnologia da informação, dos semicondutores e a isenção de veículos para pessoas com deficiência e autistas.",
   "O líder da oposição, Rogério Marinho (PL-RN), disse que o projeto transfere o custo do ajuste para estados e setor produtivo sem conter as despesas e que a oposição tinha alternativa de R$ 75 bilhões sem aumento de impostos. O senador Marcos Pontes (PL-SP) estimou perdas de cerca de R$ 2,5 bilhões para São Paulo e Mato Grosso, cada um, entre 2027 e 2030.",
-  "Atualização (19/11): depois de adiar os destaques, o Senado concluiu a votação na quarta-feira (18), em turno suplementar, por 69 votos a 2, e o projeto segue para a Câmara. O relator Eduardo Braga acatou três das 15 emendas, segundo a Agência Senado."
+  "Atualização (23/11): o Senado concluiu a votação em 18/11, por 69 a 2, e enviou o texto à Câmara. O PLP 299/2026 está na pauta da sessão deliberativa do Plenário da Câmara desta segunda-feira (23), às 18h, segundo os dados abertos da Câmara."
  ],
  "no_brasil": "O projeto também dá 120 dias para o Congresso regulamentar os supersalários no serviço público. Segundo a Agência Senado, o relator acatou 21 das 74 emendas; a Agência Brasil fala em cerca de 50 emendas incorporadas durante a elaboração do parecer.",
  "critica": [
@@ -96,6 +96,12 @@
    "nome": "Agência Senado: Senado completa votação, e ajuste fiscal segue para a Câmara (18/11/2026)",
    "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/senado-completa-votacao-e-ajuste-fiscal-segue-para-a-camara",
    "data": "18/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: pauta da sessão deliberativa de 23/11/2026",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419/pauta",
+   "data": "23/11/2026",
    "tipo": "primaria"
   }
  ],
@@ -211,9 +217,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-19T02:26:34-03:00",
+  "data": "2026-11-23T02:29:05-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-13T02:33:04-03:00",
- "atualizado_em": "2026-11-19T02:26:34-03:00"
+ "atualizado_em": "2026-11-23T02:29:05-03:00"
 }
