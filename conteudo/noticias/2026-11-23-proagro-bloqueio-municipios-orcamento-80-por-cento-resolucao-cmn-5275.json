@@ -4,11 +4,11 @@
  "categoria": "chamada-agro",
  "status": "publicado",
  "manchete": false,
- "opiniao_forte": false,
+ "opiniao_forte": true,
  "selo": "Vale acompanhar",
  "titulo": "Proagro pode travar novos contratos por município quando o orçamento aperta; entenda a regra",
  "lide": "Com o PLP 299, o ajuste fiscal que mexe no seguro rural, na pauta da Câmara nesta segunda-feira (23), vale conhecer outra trava: desde janeiro, o Proagro pode deixar de aceitar novos contratos nos municípios com mais risco quando as perdas e riscos assumidos passam de 80% do orçamento do programa, pela Resolução CMN 5.275.",
- "por_que_importa": "O Manual de Crédito Rural torna obrigatório o enquadramento no Proagro em parte do custeio agrícola. Se o município entra no bloqueio, o produtor pode ficar sem a garantia do programa justamente na hora de financiar a safra, e a dispensa fica a critério do banco.",
+ "por_que_importa": "Garantia que some quando mais se precisa dela não é garantia. O Manual de Crédito Rural torna obrigatório o Proagro em parte do custeio agrícola; se o município entra no bloqueio, o produtor fica sem a cobertura justamente no ano ruim, e a dispensa da exigência fica a critério do banco.",
  "numeros": [
   [
    "80%",
@@ -43,6 +43,12 @@
    "texto": "Os municípios bloqueados poderão tornar a ter empreendimentos enquadrados no Proagro quando deixarem de estar abrangidos pelas hipóteses",
    "citacao": true,
    "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5275"
+  },
+  {
+   "fonte": "Resolução CMN 5.275/2025, Manual de Crédito Rural 12-13-7 (o argumento do CMN: aviso aos ministérios antes do bloqueio)",
+   "texto": "para que, antes de efetivado eventual bloqueio, possam avaliar a conveniência e a disponibilidade orçamentária para aporte de recursos adicionais ao programa",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5275"
   }
  ],
  "para_quem": [
@@ -55,7 +61,7 @@
   "Os percentuais valem sobre o orçamento disponível do ano, que muda com suplementações e aportes do Tesouro",
   "A nota não trata do seguro rural privado, que tem regras próprias"
  ],
- "veredito": "A gente acha que o produtor tem o direito de saber, antes de plantar, se o seu município está na lista. Uma regra que pode tirar a garantia do custeio no meio da safra precisa de divulgação clara e pública, e não só de um cálculo quinzenal interno.",
+ "veredito": "A gente acha que o produtor tem o direito de saber, antes de plantar, se o seu município está na lista. Uma trava que pode tirar a garantia do custeio no meio da safra precisa de lista pública e aviso prévio, e não de um cálculo quinzenal que só o governo vê.",
  "fontes": [
   {
    "nome": "Banco Central: Resolução CMN 5.275, de 18 de dezembro de 2025 (bloqueio dinâmico ao enquadramento no Proagro)",
@@ -182,8 +188,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-23T14:51:02-03:00",
+  "data": "2026-11-23T15:12:17-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-23T14:51:02-03:00"
+ "publicado_em": "2026-11-23T14:51:02-03:00",
+ "atualizado_em": "2026-11-23T15:12:17-03:00"
 }
