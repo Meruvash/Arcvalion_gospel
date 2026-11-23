@@ -51,22 +51,20 @@ Fonte: IBGE, Censo 2010, frequência de nascimentos por década
 - **Nome que combina com a idade**, pelo IBGE.
 - **Sem nome de pessoa famosa** nem de personagem de novela.
 
-## 4. Voz (ElevenLabs, amostras em `elenco/voz/`)
-Todas as amostras foram geradas com eleven_multilingual_v2, style 0, e conferidas por transcrição (scribe_v1): o texto
-saiu certo em todas. O editor escolhe uma de cada par.
+## 4. Voz (ElevenLabs, eleven_multilingual_v2, style 0; amostras em `elenco/voz/`)
+Escolhas do editor em 23/11/2026. Cada voz confirmada fica fixa para sempre. Todas as amostras foram conferidas por
+transcrição (scribe_v1).
 
-| Personagem | Opção A | Opção B | O que a voz precisa ter |
+| Personagem | Voz | voice_id | Situação |
 |---|---|---|---|
-| Dr. Pelicioni | voz clonada do editor (`voz_editor_s_neutro.py`) | — | calma, grave, sem "S" chiado |
-| Rosa | `rosa_edna` (Edna: calorosa, maternal) | `rosa_lucinda` (Lucinda: terrosa, rouca) | humilde e firme, que dá pena e depois dá orgulho |
-| Valdir | `valdir_adriano` (Adriano: grave, áspero) | `valdir_sergio` (Sergio: grave, decidido) | arrogante, de quem "tem dinheiro" |
-| Cleide | `cleide_bianca` (Bianca: rouca, com malícia) | `cleide_elena` (Elena: elegante, falsa doçura) | doce na superfície e veneno embaixo |
-| Tavares | `tavares_diego` (Diego: locutor de comercial) | `tavares_cassio` (Cassio Cruz) | voz de vendedor, segura demais |
-| Seu Antônio | `antonio_manoel` (Manoel Lopes: idoso, caloroso) | `antonio_jairo` (Jairo Moraes: 60 anos, sotaque do interior) | voz de roça, lenta e sábia |
-| Bruna | `bruna_raquel` (Raquel: jovem, enérgica) | `bruna_roberta` (Roberta: jovem, segura) | rápida, de quem resolve |
-| Zuleide | `zuleide_lucinda` (Lucinda) | `zuleide_amandoca` (Amandoca: divertida) | simpática, cômica sem ser boba |
-
-Depois da escolha, cada personagem fica com **uma voz e um ajuste fixos para sempre**. Isso é registrado aqui.
+| Dr. Pelicioni | clonada do editor (`voz_editor_s_neutro.py`) | `jEMMnqfzSCpo1eh8s9YJ` | ✔ fixa |
+| Valdir | Sergio: grave, decidido (`valdir_sergio`) | `rnJZLKxtlBZt77uIED10` | ✔ confirmada |
+| Cleide | Bianca: rouca, com malícia (`cleide_bianca`) | `HReOQZPV9tH5iTEnSbGo` | ✔ confirmada |
+| Tavares | Cassio Cruz (`tavares_cassio`) | `TY3h8ANhQUsJaa0Bga5F` | ✔ confirmada |
+| Seu Antônio | Manoel Lopes: idoso, caloroso (`antonio_manoel`) | `zoe2cQFqDDW4DteHDEWI` | ✔ confirmada |
+| Bruna | Raquel: jovem, enérgica (`bruna_raquel`) | `GDzHdQOi6jjf8zaXhCYD` | ✔ confirmada |
+| Zuleide | Lucinda: terrosa, rouca (`zuleide_lucinda`) | `fs3nd19KF2GO2hLTzkBm` | ✔ confirmada |
+| Rosa | 2ª rodada: `rosa_interior` (55 anos, interior de SP, `CS2gH5fPqUCmkVNpHsy4`), `rosa_ester` (`tafm7ExcoJRarAhYvRDv`), `rosa_sara` (`woJb39z6DzSDNXoKKEnJ`), `rosa_carla_rural` (`x8FWrDHAK5xiFTJLpnHq`) | — | aguardando escolha (Edna e Lucinda recusadas; Lucinda é a Zuleide) |
 
 ## 5. Aparência (código visual)
 Inspiração: o **código de cor** das novelas de sucesso. A vilã se veste de cor forte, estampa animal e dourado; a
