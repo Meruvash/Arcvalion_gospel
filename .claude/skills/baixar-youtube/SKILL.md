@@ -33,7 +33,10 @@ Ferramenta: `tools/youtube/baixar.mjs` (CLI). Pesquisa, testes e limitações em
    - sem `--max-altura`: a maior resolução (4K em AV1/MP4 pelos motores 1–2; no site, 4K demora bem mais);
    - `--h264`: só H.264, que toca em qualquer aparelho (até 1080p);
    - `--motor site`: pula direto para o site (economiza ~10 s na nuvem, onde os motores 1–2 sempre levam 403);
-   - `--verificar-decodificacao`: decodifica o arquivo inteiro (mais lento, pega corrupção).
+   - `--verificar-decodificacao`: decodifica o arquivo inteiro (mais lento, pega corrupção);
+   - vídeo **vertical** (Shorts, Reels, novelas 9:16): use `--max-altura 1920`. O site rotula pelo lado errado em vertical
+     ("1080" entrega 480×854); a ferramenta detecta o 9:16 pelos metadados e pede a opção certa. Com `--motor site`
+     sozinho, passe também `--vertical`. Se vier abaixo do pedido, o log mostra `AVISO`.
    Rode em segundo plano (`run_in_background`): pelo site, um vídeo de 10 min em 1080p leva ~5–10 min para baixar.
    O progresso vai para o stderr e para `<pasta>/baixar-youtube.log`.
 3. Conferir o JSON final (`ok`, `motor`, `video.altura`, `audio.codec`, `duracao`) e entregar o arquivo ao usuário

@@ -16,6 +16,7 @@
 //   --nome <arquivo.mp4>     nome do arquivo final (padrão: título + id)
 //   --max-altura <n>         limita a resolução (ex.: 1080). Padrão: a maior disponível
 //   --h264                   só vídeo H.264 (avc1): máxima compatibilidade; no YouTube vai até 1080p
+//   --vertical               avisa que o vídeo é 9:16 (Shorts/Reels) quando só o motor site roda (ajusta a opção pedida)
 //   --motor distube|youtubei|site  força um motor (padrão: distube → youtubei → site)
 //   --verificar-decodificacao decodifica o arquivo inteiro com ffmpeg para achar corrupção (mais lento)
 //   --info                   só lista os formatos, sem baixar
@@ -288,10 +289,25 @@ export async function diagnosticarIp(url) {
 let META = null; // título e duração obtidos por um motor anterior (servem para nomear e conferir o arquivo do site)
 export const SITE = "https://en.loader.to/4/";
 
-/** Opções do seletor do loader.to a tentar, da melhor para a pior (no máximo 3). */
-export function opcoesSite(maxAltura = Infinity, h264 = false) {
+/**
+ * Opções do seletor do loader.to a tentar, da melhor para a pior (no máximo 3).
+ * Em vídeo VERTICAL o site rotula pelo lado errado: medido em 23/11/2026, "1080" entregou 480x854 e "1440" entregou
+ * 720x1280. Por isso, em vertical, a opção pedida sobe um degrau ("4k" para buscar 1080x1920), e --h264 não corta o 4k.
+ */
+export function opcoesSite(maxAltura = Infinity, h264 = false, vertical = false) {
+  if (vertical) {
+    const lado = Math.min(maxAltura, 1920); // altura do vertical (1920 = 1080x1920)
+    const mapa = [[1920, "4k"], [1280, "1440"], [854, "1080"], [640, "720"], [426, "480"]];
+    return mapa.filter(([a]) => a <= lado).slice(0, 3).map(([, o]) => o);
+  }
   const lim = h264 ? Math.min(maxAltura, 1080) : maxAltura;
   return [2160, 1440, 1080, 720, 480, 360].filter((a) => a <= lim).slice(0, 3).map((a) => (a === 2160 ? "4k" : String(a)));
+}
+
+/** Lado curto esperado para a opção pedida (horizontal: a própria altura; vertical: a largura). */
+export function ladoCurtoEsperado(opcao, vertical = false) {
+  if (vertical) return { "4k": 1080, "1440": 720, "1080": 480, "720": 360, "480": 240 }[opcao] ?? 0;
+  return opcao === "4k" ? 2160 : Number(opcao);
 }
 
 function carregarPlaywright() {
@@ -335,7 +351,8 @@ async function linkDoSite(navegador, url, opcao, limiteMs) {
 
 async function baixarViaSite(id, o) {
   const url = `https://www.youtube.com/watch?v=${id}`;
-  const opcoes = opcoesSite(o.maxAltura, o.h264);
+  const vertical = Boolean(META?.vertical || o.vertical);
+  const opcoes = opcoesSite(o.maxAltura, o.h264, vertical);
   if (!opcoes.length) throw new Falha(SAIDA.ARGS, "--max-altura abaixo de 360 não é oferecido pelo site");
   log(`motor site: convertendo ${id} em ${SITE} (serviço de terceiros; sem login, sem cookies)`);
   if (o.info || o.diagnostico) throw new Falha(SAIDA.ARGS, "--info e --diagnostico não se aplicam ao motor site");
@@ -363,6 +380,11 @@ async function baixarViaSite(id, o) {
     await gravar(Readable.fromWeb(r.body), pb, Number(r.headers.get("content-length")) || 0, `arquivo do site (${opcao})`);
     remuxar(pb, pm); // MP4 com faststart; sem recodificar
     const ver = verificar(pm, META?.duracao || 0, { decodificar: o.decodificar });
+    const curto = Math.min(ver.video.largura, ver.video.altura), esperado = ladoCurtoEsperado(opcao, vertical);
+    if (esperado && curto < esperado * 0.95)
+      log(`  AVISO: o site entregou ${ver.video.largura}x${ver.video.altura}, abaixo do pedido (${opcao}, lado curto ${esperado}). ` +
+        (vertical ? "Em vertical o site rotula errado; tente --max-altura 1920." : "O vídeo pode não ter essa resolução."));
+    if (ver.video.codec !== "h264" && o.h264) log(`  AVISO: --h264 pedido, mas o site entregou ${ver.video.codec}`);
     renameSync(pm, final);
     log(`  verificado: ${ver.video.largura}x${ver.video.altura} ${ver.video.codec} + ${ver.audio.codec}, ${ver.duracao}s, ${(ver.tamanho_bytes / 1e6).toFixed(1)} MB` +
       (META?.duracao ? "" : " (duração não conferida: nenhum motor anterior obteve os metadados)"));
@@ -381,6 +403,7 @@ function lerArgs(argv) {
     else if (a === "--nome") o.nome = argv[++i];
     else if (a === "--max-altura") o.maxAltura = Number(argv[++i]);
     else if (a === "--h264") o.h264 = true;
+    else if (a === "--vertical") o.vertical = true;
     else if (a === "--motor") o.motor = argv[++i];
     else if (a === "--info") o.info = true;
     else if (a === "--diagnostico") o.diagnostico = true;
@@ -399,7 +422,8 @@ function lerArgs(argv) {
 async function baixarCom(nomeMotor, id, o) {
   log(`motor ${nomeMotor}: extraindo formatos de ${id} (sem login, sem cookies)`);
   const fonte = await MOTORES[nomeMotor](id);
-  META = { titulo: fonte.titulo, duracao: fonte.duracao };
+  const maior = fonte.formatos.filter((f) => f.video).sort((a, b) => b.altura - a.altura)[0];
+  META = { titulo: fonte.titulo, duracao: fonte.duracao, vertical: Boolean(maior && maior.largura && maior.largura < maior.altura) };
   const alturas = [...new Set(fonte.formatos.filter((f) => f.video).map((f) => f.altura))].sort((a, b) => b - a);
   log(`  título: ${fonte.titulo} · duração ${fonte.duracao}s · ${fonte.formatos.length} formatos · alturas ${alturas.join("/")}`);
   const escolha = escolherFormatos(fonte.formatos, { maxAltura: o.maxAltura, h264: o.h264 });

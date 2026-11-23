@@ -9,7 +9,7 @@ Mede, sem IA e sem rede (só ffmpeg + numpy):
 - enquadramento: fração de pixels de pele (YCbCr) como indicador de escala do plano (close × aberto) e altura do centro
   de massa da pele (onde fica o rosto);
 - movimento: diferença média absoluta entre quadros vizinhos do mesmo plano;
-- legenda: presença de texto claro de alto contraste no terço inferior e no topo;
+- legenda: texto branco centralizado entre 50% e 90% da altura, medido em 480 px de largura (fração de quadros, posição, largura);
 - áudio: loudness integrada (EBU R128) e faixa de loudness.
 """
 import argparse
@@ -104,6 +104,35 @@ def resumo(xs):
             "p25": round(float(q[1]), 4), "mediana": round(float(q[2]), 4), "p75": round(float(q[3]), 4), "p90": round(float(q[4]), 4)}
 
 
+def legenda_hd(video, duracao, n=120):
+    """Legenda queimada: amostra n quadros em 480 px de largura e procura linhas de texto branco centralizado
+    entre 50% e 90% da altura (a amostra de 90x160 é pequena demais para letra fina)."""
+    Wl = 480
+    achados = []
+    for i in range(n):
+        t = 1 + i * max(duracao - 2, 0.1) / n
+        r = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t:.2f}", "-i", video, "-frames:v", "1", "-vf", f"scale={Wl}:-2",
+                            "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True)
+        b = r.stdout
+        Hl = len(b) // (Wl * 3)
+        if Hl < 10:
+            continue
+        f = np.frombuffer(b[:Wl * Hl * 3], np.uint8).reshape(Hl, Wl, 3).astype(np.int16)
+        mx, mn = f.max(-1), f.min(-1)
+        branco = (mn > 225) & ((mx - mn) < 25)
+        y0, y1 = int(Hl * 0.50), int(Hl * 0.90)
+        xs = np.arange(Wl)
+        cand = [y for y in range(y0, y1) if branco[y].sum() > 8 and abs((branco[y] * xs).sum() / branco[y].sum() - Wl / 2) < Wl * 0.12]
+        if len(cand) >= 6:
+            achados.append({"topo": min(cand) / Hl, "base": max(cand) / Hl, "largura": max(np.ptp(np.nonzero(branco[y])[0]) for y in cand) / Wl})
+        else:
+            achados.append(None)
+    com = [a for a in achados if a]
+    med = lambda k: round(float(np.median([a[k] for a in com])), 3) if com else None
+    return {"amostras": len(achados), "fracao_quadros_com_legenda": round(len(com) / max(len(achados), 1), 3),
+            "topo_bloco_0a1": med("topo"), "base_bloco_0a1": med("base"), "largura_bloco_0a1": med("largura")}
+
+
 def loudness(video):
     r = sh(["ffmpeg", "-hide_banner", "-nostats", "-i", video, "-vn", "-af", "ebur128", "-f", "null", "-"])
     i = re.findall(r"I:\s+(-?[0-9.]+) LUFS", r.stderr)
@@ -175,10 +204,7 @@ def main():
             "tarjas_pretas": {"topo": resumo(k("preto_topo")), "base": resumo(k("preto_base"))},
         },
         "movimento_dif_media_0a255": resumo(movimento),
-        "legenda": {
-            "fracao_quadros_texto_terco_inferior": round(float(np.mean([m["txt_baixo"] > 0.004 for m in ms])), 3),
-            "fracao_quadros_texto_topo": round(float(np.mean([m["txt_topo"] > 0.004 for m in ms])), 3),
-        },
+        "legenda": legenda_hd(a.video, info["duracao"]),
         "abertura_3s": {"y": resumo([m["y"] for m in abertura]), "sat": resumo([m["sat"] for m in abertura]),
                         "pele": resumo([m["pele"] for m in abertura])},
         "audio": loudness(a.video),

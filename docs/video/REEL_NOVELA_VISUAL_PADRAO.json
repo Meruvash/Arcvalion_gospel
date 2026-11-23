@@ -1,0 +1,27 @@
+{
+  "nome": "Reel Novela Visual padrão",
+  "versao": 1,
+  "data": "2026-11-23",
+  "fonte": "Medição de https://youtu.be/iqlSvK0sH60 (84 min, 1.779 planos, 10.060 quadros a 2 fps), tools/video/analisar_visual.py",
+  "como_usar": "python3 tools/video/checar_reel_novela.py <metricas.json>; cada medida dentro de [min,max] vale 1, fora dela cai linearmente até 0 a uma largura de faixa de distância; aderência = média ponderada; aprovado com >= 0.80",
+  "medidas": [
+    {"chave": "ritmo.duracao_plano_s.mediana", "alvo": 2.43, "min": 1.9, "max": 3.0, "peso": 3, "rotulo": "mediana da duração do plano (s)"},
+    {"chave": "ritmo.cortes_por_minuto.media", "alvo": 21.4, "min": 17, "max": 26, "peso": 3, "rotulo": "cortes por minuto"},
+    {"chave": "ritmo.fracao_planos_menores_que_2s", "alvo": 0.373, "min": 0.28, "max": 0.47, "peso": 2, "rotulo": "fração de planos < 2 s"},
+    {"chave": "ritmo.fracao_planos_maiores_que_6s", "alvo": 0.052, "min": 0.0, "max": 0.08, "peso": 2, "rotulo": "fração de planos > 6 s"},
+    {"chave": "ritmo.primeiro_corte_s", "alvo": 0.6, "min": 0.0, "max": 1.5, "peso": 2, "rotulo": "primeiro corte (s)"},
+    {"chave": "cor.luminancia_Y_0a255.media", "alvo": 104, "min": 92, "max": 118, "peso": 2, "rotulo": "luminância média (0-255)"},
+    {"chave": "cor.contraste_dpY.media", "alvo": 57, "min": 50, "max": 64, "peso": 1, "rotulo": "contraste (desvio de Y)"},
+    {"chave": "cor.saturacao_0a1.media", "alvo": 0.30, "min": 0.24, "max": 0.37, "peso": 2, "rotulo": "saturação média (0-1)"},
+    {"chave": "cor.temperatura_R_menos_B.media", "alvo": 22.6, "min": 11, "max": 34, "peso": 2, "rotulo": "temperatura R-B (quente > 0)"},
+    {"chave": "cor.colorido_HS.media", "alvo": 33, "min": 26, "max": 39, "peso": 1, "rotulo": "colorido Hasler-Süsstrunk"},
+    {"chave": "movimento_dif_media_0a255.mediana", "alvo": 17.8, "min": 10.8, "max": 31, "peso": 1, "rotulo": "movimento (dif. média a cada 0,5 s)"},
+    {"chave": "legenda.fracao_quadros_com_legenda", "alvo": 0.70, "min": 0.55, "max": 0.90, "peso": 2, "rotulo": "quadros com legenda"},
+    {"chave": "legenda.topo_bloco_0a1", "alvo": 0.694, "min": 0.64, "max": 0.74, "peso": 2, "rotulo": "topo do bloco de legenda (fração da altura)"},
+    {"chave": "legenda.largura_bloco_0a1", "alvo": 0.625, "min": 0.45, "max": 0.80, "peso": 1, "rotulo": "largura do bloco de legenda"},
+    {"chave": "audio.lufs_integrado", "alvo": -11, "min": -14, "max": -8, "peso": 1, "rotulo": "loudness integrada (LUFS)"},
+    {"chave": "video.altura", "alvo": 1920, "min": 1920, "max": 1920, "peso": 1, "rotulo": "altura do quadro (px, 9:16)"},
+    {"chave": "video.largura", "alvo": 1080, "min": 1080, "max": 1080, "peso": 1, "rotulo": "largura do quadro (px, 9:16)"}
+  ],
+  "aprovacao": 0.8
+}

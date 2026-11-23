@@ -5,7 +5,7 @@ import { spawnSync } from "node:child_process";
 import { mkdtempSync, writeFileSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import { extrairId, normalizar, escolherFormatos, nomeArquivo, explicarErro, verificar, opcoesSite } from "./baixar.mjs";
+import { extrairId, normalizar, escolherFormatos, nomeArquivo, explicarErro, verificar, opcoesSite, ladoCurtoEsperado } from "./baixar.mjs";
 
 test("extrairId aceita os formatos de link comuns e recusa o resto", () => {
   for (const u of ["aqz-KE-bpKQ", "https://www.youtube.com/watch?v=aqz-KE-bpKQ&t=10", "https://youtu.be/aqz-KE-bpKQ?si=x",
@@ -62,6 +62,13 @@ test("opcoesSite: melhor primeiro, no máximo 3, --h264 limita a 1080", () => {
   assert.deepEqual(opcoesSite(1080), ["1080", "720", "480"]);
   assert.deepEqual(opcoesSite(Infinity, true), ["1080", "720", "480"]);
   assert.deepEqual(opcoesSite(200), []);
+});
+
+test("opcoesSite em vídeo vertical sobe um degrau (o site rotula pelo lado errado)", () => {
+  assert.deepEqual(opcoesSite(Infinity, true, true), ["4k", "1440", "1080"]);
+  assert.deepEqual(opcoesSite(1280, false, true), ["1440", "1080", "720"]);
+  assert.equal(ladoCurtoEsperado("1440", true), 720);
+  assert.equal(ladoCurtoEsperado("1080", false), 1080);
 });
 
 test("nomeArquivo remove caracteres proibidos e inclui o id", () => {
