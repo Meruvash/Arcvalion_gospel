@@ -37,16 +37,6 @@
    }
   },
   {
-   "arq": "../planos/k5r_720.mp4",
-   "ini": 0.0,
-   "fim": 8.05,
-   "fala": "E ladra, na frente de todos, é calúnia.",
-   "lei": {
-    "png": "cartao_138.png",
-    "de": 1.2
-   }
-  },
-  {
    "arq": "../planos/k5_720.mp4",
    "ini": 11.42,
    "fim": 18.05,
