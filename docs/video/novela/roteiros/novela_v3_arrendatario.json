@@ -8,10 +8,10 @@
    "t": 0,
    "fim": 3,
    "tipo": "GANCHO",
-   "quem": "Marcos",
+   "quem": "Valdir",
    "modo": "texto",
    "fala": "Comprei a fazenda. O senhor tem até a colheita pra sumir daqui.",
-   "tela": "Grupo «Comunidade Córrego Fundo 🌽». Etiqueta MARCOS · o novo dono",
+   "tela": "Grupo «Vila do Jatobá 🌽». Etiqueta VALDIR · o novo dono",
    "marcas": [
     "ataque",
     "testemunhas"
@@ -21,7 +21,7 @@
    "t": 3,
    "fim": 9,
    "tipo": "HUMILHACAO",
-   "quem": "Marcos",
+   "quem": "Valdir",
    "modo": "audio",
    "fala": "Arrendatário não é dono de nada, seu Antônio. O senhor só planta no que é meu.",
    "tela": "Balão de áudio; vizinhos visualizam",
@@ -33,9 +33,9 @@
    "t": 9,
    "fim": 15,
    "tipo": "HUMILHACAO",
-   "quem": "Marcos",
+   "quem": "Valdir",
    "modo": "texto",
-   "fala": "Paguei um milhão e duzentos à vista. Já pode ir encaixotando.",
+   "fala": "Paguei um milhão e duzentos à vista, com o dinheiro da herança. Pode ir encaixotando.",
    "tela": "Foto da placa «VENDIDO» na porteira (IA, sem gente)",
    "marcas": [
     "dinheiro",
@@ -46,7 +46,7 @@
    "t": 15,
    "fim": 21,
    "tipo": "PROVA_DESPREZADA",
-   "quem": "Marcos",
+   "quem": "Valdir",
    "modo": "audio",
    "fala": "Contrato de arrendamento? Isso é papel de pão. Ninguém avisa arrendatário.",
    "tela": "Antônio mandou foto do contrato dele, com carimbo (objeto fictício)",
@@ -59,7 +59,7 @@
    "t": 21,
    "fim": 27,
    "tipo": "DESCRENCA",
-   "quem": "Vizinho Jair",
+   "quem": "Cleide",
    "modo": "texto",
    "fala": "Seu Antônio agora inventou de ser advogado 😂",
    "tela": "Duas reações 😂",
@@ -120,7 +120,7 @@
    "tipo": "TRANSICAO",
    "quem": "Dr. Pelicioni",
    "modo": "video",
-   "fala": "Daqui a pouco o Marcos vai lhe perguntar se dá pra conversar com calma.",
+   "fala": "Daqui a pouco o Valdir vai lhe perguntar se dá pra conversar com calma.",
    "tela": "Vídeo real, fala baixa e pausada",
    "marcas": [
     "previsao"
@@ -130,7 +130,7 @@
    "t": 59,
    "fim": 63,
    "tipo": "QUEDA",
-   "quem": "Marcos",
+   "quem": "Valdir",
    "modo": "texto",
    "fala": "Seu Antônio, vamos conversar com calma?",
    "tela": "Chega exatamente a mensagem prevista",
@@ -145,18 +145,24 @@
    "quem": "Dr. Pelicioni",
    "modo": "video",
    "fala": "Pode responder que sim, seu Antônio. Agora quem conversa é a lei.",
-   "tela": "Close real; no grupo, Jair apaga o 😂 e chovem 👏",
+   "tela": "Close real; no grupo, Cleide apaga o 😂 e chovem 👏",
    "marcas": []
   },
   {
    "t": 70,
    "fim": 75,
    "tipo": "GANCHO_FINAL",
-   "quem": "Marcos",
+   "quem": "Cleide",
    "modo": "texto",
    "fala": "Confere a data do teu contrato, seu Antônio. Venceu ontem.",
    "tela": "Tela congela; «PARTE 2»",
    "marcas": []
   }
+ ],
+ "elenco": [
+  "Dr. Pelicioni",
+  "Antônio",
+  "Valdir",
+  "Cleide"
  ]
 }

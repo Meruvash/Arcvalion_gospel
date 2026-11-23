@@ -64,7 +64,7 @@ transcrição (scribe_v1).
 | Seu Antônio | Manoel Lopes: idoso, caloroso (`antonio_manoel`) | `zoe2cQFqDDW4DteHDEWI` | ✔ confirmada |
 | Bruna | Raquel: jovem, enérgica (`bruna_raquel`) | `GDzHdQOi6jjf8zaXhCYD` | ✔ confirmada |
 | Zuleide | Lucinda: terrosa, rouca (`zuleide_lucinda`) | `fs3nd19KF2GO2hLTzkBm` | ✔ confirmada |
-| Rosa | 2ª rodada: `rosa_interior` (55 anos, interior de SP, `CS2gH5fPqUCmkVNpHsy4`), `rosa_ester` (`tafm7ExcoJRarAhYvRDv`), `rosa_sara` (`woJb39z6DzSDNXoKKEnJ`), `rosa_carla_rural` (`x8FWrDHAK5xiFTJLpnHq`) | — | aguardando escolha (Edna e Lucinda recusadas; Lucinda é a Zuleide) |
+| Rosa | voz de 55 anos do interior de SP (`rosa_interior`) | `CS2gH5fPqUCmkVNpHsy4` | ✔ confirmada |
 
 ## 5. Aparência (código visual)
 Inspiração: o **código de cor** das novelas de sucesso. A vilã se veste de cor forte, estampa animal e dourado; a
@@ -97,7 +97,7 @@ marca**, para ser reconhecido em 1 segundo, mesmo pela foto de perfil do WhatsAp
   personagens humanos. O Dr. Pelicioni continua só com imagem real.
 - **Rótulo:** todo post leva o rótulo de IA do Instagram e o aviso "dramatização".
 
-## 6. O que muda nos roteiros V1 a V3
+## 6. Roteiros V1 a V3 já ajustados ao elenco (23/11/2026)
 - **V1, "O livro do pai":** já usa Rosa, Valdir e Tavares. Entra a Cleide no grupo, como quem ri e manda "joga no
   lixo", e a Bruna, que adiciona o doutor.
 - **V2, "O doutor falso":** o Tavares é o falso doutor, e quem o contratou é a Cleide.

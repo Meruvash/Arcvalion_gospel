@@ -11,7 +11,7 @@
    "quem": "Tavares",
    "modo": "texto",
    "fala": "Sou advogado. A parte do Valdir agora é minha. Assunto encerrado.",
-   "tela": "Grupo «Herança do Pai 🌾»: «Valdir adicionou Tavares». Etiqueta O COMPRADOR",
+   "tela": "Grupo «Herança do Pai 🌾»: «Cleide adicionou Tavares». Etiqueta O COMPRADOR",
    "marcas": [
     "ataque",
     "testemunhas"
@@ -46,9 +46,9 @@
    "t": 15,
    "fim": 21,
    "tipo": "DESCRENCA",
-   "quem": "Lúcia",
+   "quem": "Cleide",
    "modo": "texto",
-   "fala": "Rosa, deixa disso. Ele é doutor, e você só estudou até a quarta série.",
+   "fala": "Rosinha, deixa disso. Ele é doutor, e você só estudou até a quarta série.",
    "tela": "3 reações 😂",
    "marcas": [
     "testemunhas"
@@ -154,21 +154,29 @@
    "t": 65,
    "fim": 70,
    "tipo": "RECOMPENSA",
-   "quem": "Lúcia / Rosa",
+   "quem": "Bruna / Rosa",
    "modo": "texto",
-   "fala": "Desculpa, Rosa. Você estava certa. — Obrigada, doutor.",
-   "tela": "Lúcia apaga o 😂; Rosa manda 🙏",
+   "fala": "Viu, mãe? A senhora estava certa. — Obrigada, doutor.",
+   "tela": "Cleide apaga o 😂; Rosa manda 🙏",
    "marcas": []
   },
   {
    "t": 70,
    "fim": 75,
    "tipo": "GANCHO_FINAL",
-   "quem": "Número desconhecido",
+   "quem": "Cleide",
    "modo": "texto",
-   "fala": "Doutor Pelicioni? Aqui é o advogado de verdade do Tavares. Vamos conversar.",
-   "tela": "Notificação; «PARTE 2»",
+   "fala": "Calma, Valdir. Eu ainda tenho outro plano.",
+   "tela": "Conversa privada «Valdir ❤️»; tela congela; «PARTE 2»",
    "marcas": []
   }
+ ],
+ "elenco": [
+  "Dr. Pelicioni",
+  "Rosa",
+  "Valdir",
+  "Cleide",
+  "Tavares",
+  "Bruna"
  ]
 }

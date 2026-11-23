@@ -24,7 +24,7 @@
    "quem": "Valdir",
    "modo": "audio",
    "fala": "Você nunca teve dinheiro nem pra adubo, Rosa. Agora quem manda lá é o doutor Tavares.",
-   "tela": "Balão de áudio; «Lúcia está digitando…»",
+   "tela": "Balão de áudio; «Cleide está digitando…»",
    "marcas": [
     "testemunhas"
    ]
@@ -45,10 +45,10 @@
    "t": 15,
    "fim": 21,
    "tipo": "PROVA_DESPREZADA",
-   "quem": "Valdir",
+   "quem": "Cleide",
    "modo": "audio",
-   "fala": "Livro velho do pai? Isso não vale nada. Joga no lixo.",
-   "tela": "Rosa mandou no grupo a foto do Código Civil antigo do pai (objeto, sem gente)",
+   "fala": "Livro velho do seu pai, Rosinha? Isso não vale nada, querida. Joga no lixo.",
+   "tela": "Rosa mandou no grupo a foto do Código Civil antigo do pai (objeto, sem gente); áudio da Cleide",
    "marcas": [
     "objeto:livro_do_pai",
     "testemunhas"
@@ -61,7 +61,7 @@
    "quem": "Valdir",
    "modo": "texto",
    "fala": "Para de inventar lei, Rosa. Chama quem você quiser. Ninguém vai te ajudar 😂",
-   "tela": "Lúcia reage 😂",
+   "tela": "Cleide reage 😂",
    "marcas": [
     "testemunhas"
    ]
@@ -70,10 +70,10 @@
    "t": 27,
    "fim": 32,
    "tipo": "TRANSICAO",
-   "quem": "Rosa",
+   "quem": "Bruna",
    "modo": "texto",
-   "fala": "Doutor, vão tomar a terra do meu pai.",
-   "tela": "Conversa com «Dr. Pelicioni ✔» (foto real dele no perfil): ✓✓ azul, «digitando…»",
+   "fala": "Doutor, sou a Bruna, filha da dona Rosa. Vão tomar a terra do meu avô.",
+   "tela": "Bruna escreve a «Dr. Pelicioni ✔» (foto real dele no perfil): ✓✓ azul, «digitando…»",
    "marcas": []
   },
   {
@@ -82,7 +82,7 @@
    "tipo": "TRANSICAO",
    "quem": "Sistema",
    "modo": "tela",
-   "fala": "Rosa adicionou Dr. Pelicioni.",
+   "fala": "Bruna adicionou Dr. Pelicioni.",
    "tela": "Aviso de sistema no grupo; Valdir «digitando…»; o grupo fica em silêncio",
    "marcas": []
   },
@@ -106,7 +106,7 @@
    "quem": "Valdir",
    "modo": "texto",
    "fala": "Quem é esse aí?",
-   "tela": "Chega exatamente a mensagem prevista; Lúcia: 😳",
+   "tela": "Chega exatamente a mensagem prevista; Cleide: 😳",
    "marcas": [
     "previsao_cumprida"
    ]
@@ -152,7 +152,7 @@
    "quem": "Dr. Pelicioni",
    "modo": "video",
    "fala": "Dona Rosa, a senhora não está sozinha.",
-   "tela": "Close real no rosto dele, meio sorriso; Rosa: «Obrigada, doutor 🙏»",
+   "tela": "Close real no rosto dele, meio sorriso; Rosa: «Obrigada, doutor 🙏»; Bruna: ❤️",
    "marcas": []
   },
   {
@@ -165,5 +165,13 @@
    "tela": "Tela congela; «PARTE 2»",
    "marcas": []
   }
+ ],
+ "elenco": [
+  "Dr. Pelicioni",
+  "Rosa",
+  "Valdir",
+  "Cleide",
+  "Tavares",
+  "Bruna"
  ]
 }
