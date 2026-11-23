@@ -35,3 +35,11 @@ as sílabas da voz nova. O certo é o contrário: **primeiro o áudio exato, dep
    - Preço cotado em 23/11/2026: **28,98 créditos para um clipe de 8 s**, cerca de 3,6 créditos por segundo.
 4. Medir de novo com `sincronia.py`. A cena só entra na montagem quando passa.
 5. Montar com `montar_cena.py`, que já trava o áudio de cada clipe na duração da imagem.
+
+## Resultado do LatentSync grátis (Kaggle T4, 23/11/2026)
+- 13 de 15 clipes saíram (c06 e c08 sem saída). Medidos no clipe inteiro e só na janela da montagem: **2 de 13 aprovados**
+  (c01 e c02), igual ao que já passava antes.
+- O defeito que sobra é **boca mexendo sem voz** (0,4 a 1,7 s por clipe) e atraso de até 600 ms: o LatentSync 1.5 em 256 px
+  redesenha a boca, mas não fecha a boca nos silêncios nem segura planos com mais de um rosto.
+- Conclusão: consertar boca depois não salva a V1. O caminho daqui em diante é gerar fala e boca juntas no próprio vídeo
+  (fluxo Drama do Higgsfield, Seedance 2.5 com a voz do personagem) e **nunca trocar o áudio depois**.
