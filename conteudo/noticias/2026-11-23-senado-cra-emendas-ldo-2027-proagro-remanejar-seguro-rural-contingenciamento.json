@@ -1,0 +1,207 @@
+{
+ "slug": "senado-cra-emendas-ldo-2027-proagro-remanejar-seguro-rural-contingenciamento",
+ "data": "2026-11-23",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Emendas do Senado à LDO 2027 permitem tirar dinheiro do Proagro para o seguro rural",
+ "lide": "A Comissão de Agricultura do Senado aprovou, na quarta-feira (18), 19 emendas ao projeto da LDO 2027. Entre elas, texto da senadora Tereza Cristina (PP-MS) permite reforçar a subvenção ao seguro rural com dinheiro remanejado do Proagro, desde que preservada a capacidade do programa, e outras emendas blindam a subvenção contra bloqueios de verba.",
+ "por_que_importa": "Cobertor curto não esquenta duas lavouras. Seguro rural e Proagro protegem o mesmo produtor contra a mesma seca; tirar de um para pôr no outro só ajuda se o Proagro não ficar no limite, e desde janeiro o programa pode travar novos contratos por município quando o orçamento aperta.",
+ "numeros": [
+  [
+   "19",
+   "emendas da Comissão de Agricultura do Senado ao projeto da LDO 2027 foram aprovadas em 18 de novembro",
+   "Senado Federal, CRA"
+  ],
+  [
+   "5,62%",
+   "é a inadimplência do setor em 2026, ante 0,86% em 2023, segundo a CNA",
+   "Agência Senado"
+  ],
+  [
+   "R$ 1 bilhão",
+   "foi o valor alocado ao seguro agrícola em 2026, quando seriam necessários R$ 4 bilhões, segundo a CNA",
+   "Agência Senado"
+  ]
+ ],
+ "corpo": [
+  "A emenda sobre o Proagro diz que o remanejamento deve preservar a capacidade operacional, financeira e atuarial do programa, sem cortar recursos a ponto de comprometer sua execução ou as operações já contratadas. Outras emendas da senadora tiram a subvenção ao seguro rural da limitação de empenho, citando a Lei 15.526, e impedem que essas verbas sirvam de fonte para cancelamentos.",
+  "A comissão também aprovou emenda que protege da limitação de empenho a assistência técnica e extensão rural do Ministério da Agricultura. O relator das emendas foi o senador Zequinha Marinho. Os textos seguem para a Comissão Mista de Orçamento, que decide o que entra no relatório."
+ ],
+ "no_brasil": "Em audiência na Comissão Mista de Orçamento, também em 18 de novembro, a assessora da CNA Isabel Mendes de Faria atribuiu parte da alta da inadimplência à redução dos recursos para o seguro agrícola. Pela Resolução CMN 5.275, o Proagro pode bloquear novos enquadramentos por município quando perdas e riscos passam de 80% do orçamento do programa.",
+ "critica": [
+  {
+   "fonte": "Emenda CRA001 ao PLDO 2027, da senadora Tereza Cristina (PP-MS)",
+   "texto": "poderão ser acrescidas por dotações remanejadas do Programa de Garantia da Atividade Agropecuária – Proagro",
+   "citacao": true,
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/4cc365bc-b452-4a18-94d4-762503d96f3c"
+  },
+  {
+   "fonte": "Parágrafo único da mesma emenda, que limita o remanejamento",
+   "texto": "vedada a redução de recursos em montante que comprometa a execução regular do Programa ou o atendimento das operações já contratadas",
+   "citacao": true,
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/4cc365bc-b452-4a18-94d4-762503d96f3c"
+  },
+  {
+   "fonte": "Isabel Mendes de Faria, assessora da CNA, na Comissão Mista de Orçamento, segundo a Agência Senado",
+   "texto": "Não adianta suplementar se essas políticas vão sofrer cortes e contingenciamentos",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/agro-pede-menos-contingenciamento-de-recursos-no-orcamento-de-2027"
+  }
+ ],
+ "para_quem": [
+  "Produtor que depende do seguro rural subvencionado: a blindagem contra bloqueios ainda é proposta; acompanhe o relatório da Comissão Mista de Orçamento, que fecha a LDO 2027",
+  "Quem financia custeio com Proagro: um Proagro com menos verba fica mais perto do patamar de bloqueio por município",
+  "Sindicatos e cooperativas: é na Comissão Mista de Orçamento que essas emendas sobrevivem ou caem"
+ ],
+ "nao_e_para": [
+  "As emendas ainda não valem: dependem da Comissão Mista de Orçamento e da aprovação da LDO 2027",
+  "A emenda não fixa quanto sairia do Proagro; só autoriza o remanejamento com limites",
+  "Os números de inadimplência e de necessidade de recursos são da CNA, não do governo"
+ ],
+ "veredito": "A gente apoia blindar o seguro rural contra a tesoura do contingenciamento: seguro que some no meio da safra não é seguro. Mas trocar Proagro por seguro é mudar o remendo de lugar; o produtor precisa dos dois inteiros, e quem tem de achar o dinheiro é o Orçamento, não o próprio produtor.",
+ "fontes": [
+  {
+   "nome": "Senado Federal: Parecer da CRA com as emendas ao PLDO 2027 (PLN 2/2026), relator senador Zequinha Marinho",
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/4cc365bc-b452-4a18-94d4-762503d96f3c",
+   "data": "18/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal: agenda e resultado da 22ª reunião extraordinária da CRA (dados abertos)",
+   "url": "https://legis.senado.leg.br/dadosabertos/comissao/agenda/20261116/20261122",
+   "data": "18/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Agro pede menos contingenciamento de recursos no Orçamento de 2027 (18/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/agro-pede-menos-contingenciamento-de-recursos-no-orcamento-de-2027",
+   "data": "18/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Banco Central: Resolução CMN 5.275 (bloqueio de enquadramento no Proagro)",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5275",
+   "data": "18/12/2025",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 61,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Orçamento do seguro rural e do Proagro na LDO 2027"
+  },
+  "origem": {
+   "nome": "Senado Federal, Comissão de Agricultura e Reforma Agrária",
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/4cc365bc-b452-4a18-94d4-762503d96f3c"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 13,
+    "porque": "Define se a subvenção ao seguro rural pode ser bloqueada em 2027 e se o Proagro pode perder verba"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Seguro rural e Proagro, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Emendas aprovadas em 18/11, cinco dias atrás, ainda pendentes na Comissão Mista"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Texto das emendas lido no parecer oficial da CRA; números da CNA pela Agência Senado"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Detalhe da emenda do Proagro, ausente da cobertura, cruzado com a regra de bloqueio do CMN"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 8,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: parecer da CRA (2)",
+    "Ato de quem tem poder: comissão do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: onde acompanhar a decisão (2)",
+    "Contraste que gera debate: seguro contra Proagro (3)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Parecer da CRA ao PLDO 2027",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Seguro rural e Proagro",
+  "coleta": "2026-11-23",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "emendas lidas no parecer da CRA; resultado na agenda oficial do Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "valores que seriam remanejados"
+  },
+  "duplicidade": {
+   "grupo": "Orçamento 2027 do agro",
+   "itens": [
+    "Parecer CRA PLDO 2027"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-19-comissao-agricultura-camara-3-bilhoes-seguro-rural-orcamento-2027-emendas"
+  },
+  "seo": {
+   "intencao": "saber o que muda no orçamento do seguro rural e do Proagro em 2027",
+   "entidades": [
+    "LDO 2027",
+    "Proagro",
+    "seguro rural",
+    "Tereza Cristina",
+    "Comissão de Agricultura do Senado"
+   ],
+   "termos": [
+    "LDO 2027 seguro rural",
+    "Proagro remanejamento seguro rural",
+    "emendas CRA LDO 2027"
+   ],
+   "atualizacao": "acompanhar o relatório da CMO sobre a LDO 2027"
+  },
+  "agro": {
+   "demanda": "Produtores que dependem do seguro rural subvencionado e do Proagro, sujeitos a cortes e bloqueios de verba em 2027",
+   "prazo": "votação da LDO 2027 na Comissão Mista de Orçamento",
+   "quem": "Produtores com seguro rural subvencionado ou custeio enquadrado no Proagro"
+  }
+ },
+ "descricao_seo": "Comissão de Agricultura do Senado aprova emendas à LDO 2027: dinheiro do Proagro pode reforçar o seguro rural, que fica blindado contra bloqueios.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura do parecer e das fontes do Senado, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: o conteúdo das emendas vem do parecer oficial, citado literalmente, e os números da CNA são atribuídos a ela via Agência Senado. A opinião critica a solução orçamentária, não a senadora nem a comissão, e reconhece o limite que a própria emenda impõe. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/senado-cra-emendas-ldo-2027-proagro-remanejar-seguro-rural-contingenciamento.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Fachada do prédio do Ministério da Fazenda, em Brasília (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/s-m2J1M2f6TZcMMp2oNOBBqryRE=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/fachada-ministerio_mcamgo_abr_100420231818-30.jpg?itok=dh6skjwg",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-02/haddad-recorrera-tcu-para-liberar-recursos-do-plano-safra"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-23T15:11:38-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-23T15:11:38-03:00"
+}
