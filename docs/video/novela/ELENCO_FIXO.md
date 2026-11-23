@@ -57,7 +57,7 @@ transcrição (scribe_v1).
 
 | Personagem | Voz | voice_id | Situação |
 |---|---|---|---|
-| Dr. Pelicioni | clonada do editor (`voz_editor_s_neutro.py`) | `jEMMnqfzSCpo1eh8s9YJ` | ✔ fixa |
+| Dr. Pelicioni | **Higgsfield (desde 23/11/2026):** clone da voz real do editor, gravada no celular (112 s, texto em `elenco/voz/TEXTO_CLONAGEM_DR.md`); voice_type `element` | `95b656d3-17a2-4e00-aead-31e43fd9aeda` | ✔ fixa na novela (40 créditos) · antes: ElevenLabs `jEMMnqfzSCpo1eh8s9YJ` |
 | Valdir | Sergio: grave, decidido (`valdir_sergio`) | `rnJZLKxtlBZt77uIED10` | ✔ confirmada |
 | Cleide | Bianca: rouca, com malícia (`cleide_bianca`) | `HReOQZPV9tH5iTEnSbGo` | ✔ confirmada |
 | Tavares | Henrique Rodrigues: envolvente, persuasivo (`tavares_henrique`; troca de 23/11/2026, a Cassio foi reprovada) | `5caTbRMcqFgu2Gjuby8U` | ✔ confirmada |
