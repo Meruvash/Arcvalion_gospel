@@ -56,7 +56,7 @@ class TestSerieEAvisos(unittest.TestCase):
 
     def test_aviso_porque(self):
         r = self._v1()
-        self.assertEqual(auditar(r)["avisos"], [])
+        self.assertFalse(any(a.startswith("A2") for a in auditar(r)["avisos"]))
         for b in r["batidas"]:
             b.pop("porque", None)
         self.assertTrue(any(a.startswith("A2") for a in auditar(r)["avisos"]))

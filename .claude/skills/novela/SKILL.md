@@ -13,7 +13,10 @@ description: Produz um episódio da novelinha do outro Instagram do editor (Reel
 4. `docs/video/novela/REGRAS_ROTEIRO.md`: gancho com o corpo, vilão que pensa, o doutor que parece inteligente, diálogo,
    série e montagem.
 5. `docs/video/novela/FORMATO_CENA.md`: modelos, preços e os testes de 23/11/2026.
-6. `docs/video/novela/NOVELAS_USADAS.md`: o que já foi usado (objeto, previsão, gancho) e as contas abertas da temporada.
+6. `docs/video/novela/PADRAO_OURO_NOVELA.md`: o padrão ouro (Jorge Amado, Dostoiévski, João Emanuel Carneiro), com
+   assinatura sensorial, bordão, fala longa com brecha, confissão entre 70% e 88%, segredos em três camadas e gancho
+   congelado. Resolva os avisos A5 a A8.
+7. `docs/video/novela/NOVELAS_USADAS.md`: o que já foi usado (objeto, previsão, gancho) e as contas abertas da temporada.
 
 ## Fluxo
 

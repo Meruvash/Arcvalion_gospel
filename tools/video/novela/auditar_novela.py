@@ -8,7 +8,7 @@ As fórmulas, os números e o modo de medir estão em docs/video/novela/FORMULAS
 Duas camadas de regras:
 1. Obrigatórias (O1 a O10; O8 e O9 só quando o roteiro tem "protagonista", O10 só na parte 2 em diante): nossas regras e o que o formato exige. Se uma falha, o roteiro reprova, qualquer que seja
    a nota.
-Avisos (A1 a A4, não reprovam): docs/video/novela/REGRAS_ROTEIRO.md.
+Avisos (A1 a A8, não reprovam): docs/video/novela/REGRAS_ROTEIRO.md e PADRAO_OURO_NOVELA.md.
 2. Fórmula do modelo (F1 a F10): cada item vale o peso medido nos 6 ciclos-pilar do modelo (a fração de pilares em
    que ele aparece). Aprovação com nota igual ou maior que 0,85.
 
@@ -154,6 +154,21 @@ def auditar(r):
     fisicas = [x for x in antes if x["tipo"] in ("HUMILHACAO", "ATAQUE") and not x.get("modo") in ("texto", "tela")]
     if len(hum) >= 2 and not fisicas:
         avisos.append("A4 escada só de palavras: nenhuma humilhação encenada antes da virada")
+
+    # Padrão ouro (PADRAO_OURO_NOVELA.md §3): avisos
+    def marca(x, m): return m in x.get("marcas", []) or x["tipo"] == m.upper()
+    if not any(marca(x, "ruptura") and 0.20 * dur <= x["t"] <= 0.50 * dur for x in b):
+        avisos.append("A5 ruptura: falta interrupção física entre 20% e 50% (marca 'ruptura')")
+    if not any(marca(x, "riso") and x["fim"] - x["t"] <= 4 and 0.35 * dur <= x["t"] <= 0.75 * dur
+               and x["tipo"] not in ("REVELACAO", "LEI") for x in b):
+        avisos.append("A6 riso: falta batida cômica de até 4 s entre 35% e 75% (marca 'riso')")
+    moral = r"culpa|consci[eê]ncia|perd[aã]o|perdoa|pecado|vergonha|errei|confesso"
+    if not any(marca(x, "confissao") and 0.70 * dur <= x["t"] <= 0.88 * dur and (tv is None or x["t"] > tv)
+               and re.search(moral, x.get("fala", ""), re.I) for x in b):
+        avisos.append("A7 confissão: falta confissão com vocabulário moral entre 70% e 88%, depois da virada")
+    ws = sorted(palavras(x.get("fala")) for x in b if x.get("fala"))
+    if ws and max(ws) < 2.5 * ws[len(ws) // 2]:
+        avisos.append("A8 fala longa: nenhuma fala chega a 2,5× a mediana (autojustificação ou confissão)")
 
     obrig_ok = all(x["ok"] for x in res if x["item"].startswith("O"))
     tot = sum(x["peso"] for x in res if x["peso"])
