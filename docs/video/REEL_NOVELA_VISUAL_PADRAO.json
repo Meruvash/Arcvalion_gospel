@@ -1,7 +1,8 @@
 {
   "nome": "Reel Novela Visual padrão",
-  "versao": 1,
+  "versao": 1.1,
   "data": "2026-11-23",
+  "evidencias": "docs/video/REEL_NOVELA_VISUAL_EVIDENCIAS.md e docs/video/pesquisa/reel_novela/",
   "fonte": "Medição de https://youtu.be/iqlSvK0sH60 (84 min, 1.779 planos, 10.060 quadros a 2 fps), tools/video/analisar_visual.py",
   "como_usar": "python3 tools/video/checar_reel_novela.py <metricas.json>; cada medida dentro de [min,max] vale 1, fora dela cai linearmente até 0 a uma largura de faixa de distância; aderência = média ponderada; aprovado com >= 0.80",
   "medidas": [

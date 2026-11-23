@@ -1,0 +1,83 @@
+{
+  "anotador": "Claude (inspeção visual das pranchas geradas por tools/video/validar_medicao.py, semente 42)",
+  "data": "2026-11-23",
+  "cortes_precisao": {
+    "amostra": 24,
+    "claros": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "duvidosos": {
+      "11": "antes e depois quase idênticos (emenda entre clipes parecidos)",
+      "16": "composição quase igual",
+      "18": "porta fechando: pode ser movimento no mesmo plano"
+    },
+    "falsos_claros": []
+  },
+  "cortes_revocacao": {
+    "janela_1_400s_412s": {
+      "detectados_claros": 6,
+      "detectado_duvidoso": [
+        "411.65"
+      ],
+      "perdidos_claros": [
+        "402.15 (após movimento borrado)"
+      ],
+      "ambiguos_nao_marcados": [
+        "406.40",
+        "409.40",
+        "410.65"
+      ]
+    },
+    "janela_2_536s_548s": {
+      "detectados_claros": 4,
+      "perdidos": [],
+      "falsos": []
+    }
+  },
+  "legenda": {
+    "amostra": 48,
+    "verdadeiro_positivo": 30,
+    "falso_positivo": [
+      27
+    ],
+    "falso_negativo": [],
+    "verdadeiro_negativo": 17,
+    "estilo_B": [
+      33,
+      35,
+      38,
+      43,
+      44
+    ]
+  },
+  "observacoes_novas": [
+    "vídeo é compilação de episódios (cartela 'TO BE CONTINUED' em 4466,9 s)",
+    "plano de revelação: câmera sobe da mão ao rosto em ~5,5 s (536,5–542,0 s)"
+  ],
+  "folha_contato_24": {
+    "uma_pessoa": 11,
+    "duas_pessoas": 6,
+    "grupo": 6,
+    "detalhe": 1
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "video": {
+    "duracao": 5029.966333,
+    "largura": 480,
+    "altura": 854,
+    "fps": 30.0,
+    "codec": "h264"
+  },
+  "reprodutibilidade_limiar_0_30": {
+    "cortes": 1798,
+    "mediana_plano_s": 2.43,
+    "cortes_por_minuto": 21.45,
+    "frac_menor_2s": 0.373,
+    "frac_maior_6s": 0.052
+  },
+  "sensibilidade_limiar_corte": {
+    "0.25": {
+      "cortes": 1891,
+      "mediana_plano_s": 2.33,
+      "cortes_por_minuto": 22.56,
+      "frac_menor_2s": 0.408,
+      "frac_maior_6s": 0.048
+    },
+    "0.3": {
+      "cortes": 1798,
+      "mediana_plano_s": 2.43,
+      "cortes_por_minuto": 21.45,
+      "frac_menor_2s": 0.373,
+      "frac_maior_6s": 0.052
+    },
+    "0.4": {
+      "cortes": 1595,
+      "mediana_plano_s": 2.66,
+      "cortes_por_minuto": 19.03,
+      "frac_menor_2s": 0.338,
+      "frac_maior_6s": 0.085
+    }
+  },
+  "ajuste_duracao_plano": {
+    "n": 1779,
+    "ks_critico_alfa_0_05": 0.0322,
+    "lognormal": {
+      "mu": 0.8465,
+      "sigma": 0.6472,
+      "ks": 0.0357,
+      "aic": 6516.2
+    },
+    "gama": {
+      "k": 2.399,
+      "theta": 1.178,
+      "ks": 0.0387,
+      "aic": 6494.9
+    },
+    "exponencial": {
+      "lambda": 0.3538,
+      "ks": 0.209,
+      "aic": 7256.8
+    },
+    "nota": "KS com parâmetros estimados dos próprios dados é conservador (Lilliefors); serve para comparar modelos, AIC decide."
+  },
+  "ic95_bootstrap_blocos_1min": {
+    "mediana_plano_s": [
+      2.33,
+      2.567
+    ],
+    "frac_planos_menor_2s": [
+      0.3446,
+      0.4016
+    ],
+    "cortes_por_minuto_media": [
+      20.5119,
+      22.3571
+    ],
+    "luminancia_media": [
+      101.7127,
+      106.4198
+    ],
+    "saturacao_media": [
+      0.2903,
+      0.3182
+    ],
+    "temperatura_media": [
+      20.3783,
+      24.6899
+    ]
+  },
+  "metades": {
+    "primeira": {
+      "mediana_plano_s": 2.333,
+      "cortes_por_minuto": 23.38,
+      "luminancia_media": 104.16,
+      "saturacao_media": 0.2995,
+      "temperatura_media": 21.0
+    },
+    "segunda": {
+      "mediana_plano_s": 2.63,
+      "cortes_por_minuto": 19.51,
+      "luminancia_media": 104.07,
+      "saturacao_media": 0.309,
+      "temperatura_media": 24.01
+    }
+  },
+  "wilson_ic95_folha_contato_24": {
+    "uma_pessoa_11_de_24": [
+      0.279,
+      0.649
+    ],
+    "duas_pessoas_6_de_24": [
+      0.12,
+      0.449
+    ],
+    "grupo_6_de_24": [
+      0.12,
+      0.449
+    ]
+  },
+  "semente": 42
+}

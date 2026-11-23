@@ -1,6 +1,8 @@
 # Reel Novela Visual padrão
 
-Referência visual medida (não opinião) para Reels no formato de "novela curta" vertical. Versão 1, 23/11/2026.
+Referência visual medida para Reels no formato de "novela curta" vertical. Versão 1.1, 23/11/2026.
+Evidências, testes e classificação de cada afirmação em `REEL_NOVELA_VISUAL_EVIDENCIAS.md`. As marcas indicam a origem:
+**[V]** medido e validado manualmente · **[M]** medido · **[E]** estimativa visual em amostra pequena · **[D]** decisão nossa, não medida.
 
 - **Fonte medida:** *Married Into a Wealthy Family by Mistake — Now I'm Spoiled Rotten* (canal com marca "Whisper of Romance"),
   https://youtu.be/iqlSvK0sH60, versão completa de 83min50s: 1.779 planos, 10.060 quadros analisados a 2 fps, 240 quadros
@@ -25,20 +27,28 @@ Referência visual medida (não opinião) para Reels no formato de "novela curta
 
 ## 2. Ritmo de corte
 
-A duração de cada plano segue uma **log-normal**:
+**[V]** Duração de cada plano D, em segundos (n = 1.779). Quantis medidos, com IC 95% da mediana entre 2,33 e 2,57 s:
+
+| p10 | p25 | p50 | p75 | p90 |
+|---|---|---|---|---|
+| 1,00 | 1,57 | 2,43 | 3,67 | 5,00 |
+
+**Fórmula de geração (sem depender de modelo): transformação inversa pelos quantis medidos.**
 
 ```
-D ~ LogNormal(μ = 0,85 ; σ = 0,65)        (D em segundos)
-mediana = e^μ ≈ 2,3 s     média = e^(μ + σ²/2) ≈ 2,9 s     (medido: mediana 2,43 s · média 2,83 s)
-```
-
-Para gerar a lista de planos de um Reel com duração T:
-
-```
-d_i = clamp( exp(0,85 + 0,65 · z_i) , 1,0 , 6,0 )      z_i ~ Normal(0,1)
+u_i ~ Uniforme(0,1)
+d_i = interpolação linear de u_i em {(0,10 ; 1,00) (0,25 ; 1,57) (0,50 ; 2,43) (0,75 ; 3,67) (0,90 ; 5,00)}
+      para u_i < 0,10 use 0,8 s; para u_i > 0,90 interpole de 5,0 a 7,0 s
 somar d_i até alcançar T; o último plano absorve a sobra
 N ≈ T / 2,83          →  Reel de 60 s ≈ 21 planos · 90 s ≈ 32 planos
 ```
+
+Forma fechada aproximada: **D ~ Gama(k = 2,40 ; θ = 1,18 s)**, com média kθ = 2,83 s e moda (k−1)θ = 1,65 s. A gama venceu a
+log-normal no AIC (ΔAIC = 21); nenhum dos dois modelos passa no teste KS a 5%, então use a gama só como aproximação.
+(Versão 1.0 dizia "log-normal": corrigido pela auditoria.)
+
+**[M] O ritmo desacelera:** 23,4 cortes/min na primeira metade e 19,5 na segunda. Para Reel curto, use o ritmo da primeira
+metade nos primeiros 30 s.
 
 | Medida | Alvo | Faixa aceita |
 |---|---|---|
@@ -47,8 +57,8 @@ N ≈ T / 2,83          →  Reel de 60 s ≈ 21 planos · 90 s ≈ 32 planos
 | Planos com mais de 6 s | 5% | 0% – 8% |
 | Primeiro corte | 0,6 s | ≤ 1,5 s |
 
-Regra prática: plano de **fala** de 2,5 a 4 s; plano de **reação** (olhos arregalados, mão no rosto) de 1 a 2 s, logo
-depois de cada revelação; plano **acima de 6 s só 1 em cada 20**.
+Regra prática: plano **acima de 6 s só 1 em cada 20** [V]. Plano de **fala** de 2,5 a 4 s e de **reação** (olhos
+arregalados, mão no rosto) de 1 a 2 s logo depois de cada revelação **[D]**: impressão visual, ainda não medida.
 
 ## 3. Cor e luz
 
@@ -78,11 +88,11 @@ Luz suave, frontal ou lateral, sem sombra dura, com fundo desfocado.
 
 **Acentos** (pouca área, muito significado): **vermelho** (vestido e batom da antagonista), **dourado** (riqueza: colunas,
 lustres, portas), **azul-marinho** (homens de poder), **rosa e creme** (a protagonista).
-Fórmula de acento: área do acento ≤ 10% do quadro, saturação do acento ≥ 2 × a saturação média do quadro.
+Fórmula de acento **[D]** (proposta, não medida): área do acento ≤ 10% do quadro, saturação do acento ≥ 2 × a saturação média do quadro.
 
 ## 4. Enquadramento e encenação
 
-Leitura dos 24 quadros da folha de contato (amostra pequena: proporções aproximadas):
+**[E]** Leitura dos 24 quadros da folha de contato (amostra pequena; IC 95% de "uma pessoa" vai de 28% a 65%):
 
 | Tipo de plano | Frequência |
 |---|---|
@@ -103,13 +113,13 @@ Medido em 240 quadros em resolução cheia:
 
 | Medida | Valor |
 |---|---|
-| Quadros com legenda | **70%** (todo plano com fala) |
+| Quadros com legenda | **63–70%** [V] (62,5% na conferência manual de 48 quadros; 70,8% no detector) |
 | Topo do bloco | **0,694 H** · base 0,746 H (sobre o peito do personagem, nunca na boca) |
 | Largura do bloco | 0,62 W (máximo ≈ 0,80 W) |
 | Linhas | 1 ou 2, centralizadas |
 | Altura da linha | ≈ 0,026 H (≈ 50 px em 1920) → corpo da fonte ≈ 0,024 H (≈ 46 px) |
-| Estilo | branco puro, sem serifa, **negrito condensado**, contorno ou sombra escura fina, sem caixa de fundo |
-| Pontuação | sem ponto final; frase curta, ≤ 35 caracteres por linha |
+| Estilo [V] | branco puro, sem serifa, contorno ou sombra escura fina, sem caixa de fundo. **Dois estilos**: A, negrito condensado sem pontuação (≈ 83%), e B, regular com "?" e ponto (≈ 17%, IC 7%–34%) |
+| Comprimento [D] | frase curta, ≤ 35 caracteres por linha (estimado de 2 quadros, não medido) |
 
 Fórmula de posição: `y_topo = 0,69 · H`, `x_centro = W / 2`, `largura ≤ 0,80 · W`.
 Na linha de vídeo do portal a legenda é **amarela** (regra do editor para os vídeos do agro); este padrão mede o branco da fonte.
@@ -119,7 +129,7 @@ Quem decide a cor de cada série é o editor.
 
 | Medida | Fonte | Alvo nosso |
 |---|---|---|
-| Loudness integrada | −7,9 LUFS (muito alto) | **−11 LUFS** (faixa −14 a −8) |
+| Loudness integrada | −7,9 LUFS [M] (muito alto) | **−11 LUFS** [D] (faixa −14 a −8) |
 | Faixa de loudness (LRA) | 13 LU | 8 – 14 LU |
 
 O app normaliza o volume; acima de −8 LUFS só se ganha distorção.
@@ -153,6 +163,8 @@ Calibração: o próprio vídeo-fonte tira **A = 0,930**. Perde só na resoluç�
 volume, porque −7,9 LUFS fica acima do teto que adotamos.
 
 ## 9. Limites desta medição
+
+Detalhe completo em `REEL_NOVELA_VISUAL_EVIDENCIAS.md`, seções 7 e 8.
 
 - Um único vídeo-fonte: as faixas são do estilo desse canal. Para virar padrão geral, medir mais 3 ou 4 novelas e recalcular.
 - A cópia medida é 480 × 854: as medidas de cor, ritmo e posição não dependem da resolução, mas detalhe fino de textura não foi medido.
