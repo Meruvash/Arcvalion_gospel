@@ -60,7 +60,7 @@ transcrição (scribe_v1).
 | Dr. Pelicioni | clonada do editor (`voz_editor_s_neutro.py`) | `jEMMnqfzSCpo1eh8s9YJ` | ✔ fixa |
 | Valdir | Sergio: grave, decidido (`valdir_sergio`) | `rnJZLKxtlBZt77uIED10` | ✔ confirmada |
 | Cleide | Bianca: rouca, com malícia (`cleide_bianca`) | `HReOQZPV9tH5iTEnSbGo` | ✔ confirmada |
-| Tavares | Cassio Cruz (`tavares_cassio`) | `TY3h8ANhQUsJaa0Bga5F` | ✔ confirmada |
+| Tavares | Henrique Rodrigues: envolvente, persuasivo (`tavares_henrique`; troca de 23/11/2026, a Cassio foi reprovada) | `5caTbRMcqFgu2Gjuby8U` | ✔ confirmada |
 | Seu Antônio | Manoel Lopes: idoso, caloroso (`antonio_manoel`) | `zoe2cQFqDDW4DteHDEWI` | ✔ confirmada |
 | Bruna | Raquel: jovem, enérgica (`bruna_raquel`) | `GDzHdQOi6jjf8zaXhCYD` | ✔ confirmada |
 | Zuleide | Lucinda: terrosa, rouca (`zuleide_lucinda`) | `fs3nd19KF2GO2hLTzkBm` | ✔ confirmada |
