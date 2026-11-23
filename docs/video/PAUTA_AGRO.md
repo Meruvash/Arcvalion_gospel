@@ -18,6 +18,12 @@ O que fica de fora:
 **Rodízio:** alternar A e B. Nunca dois vídeos seguidos com a mesma norma ou o mesmo ângulo. Por esta decisão, deixa de
 valer o limite de "1 em cada 4" do eixo A.
 
+## 0. Lado do produtor (decisão do editor, 23/11/2026)
+O portal é **a favor do produtor rural**. A pauta defende o produtor: o que ele ganha, como se protege, o prazo que corre a
+favor dele. Não entra pauta que ensine empregado, caseiro, peão, arrendatário ou fiscal a cobrar o produtor, mesmo
+quando o aviso parece servir ao dono. Recusada nessa linha: "A casa do peão vira salário?" (23/11/2026). Quando o
+personagem for alguém próximo (vizinho, irmão, comprador), o produtor é quem assiste e é quem sai protegido.
+
 ## 1. Eixos de pauta (rodízio obrigatório)
 
 | Eixo | Exemplos de assunto |

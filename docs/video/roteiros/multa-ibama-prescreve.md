@@ -1,4 +1,4 @@
-# "Multa do Ibama prescreve?": prescrição da multa ambiental — roteiro v1 (20/11/2026), aguardando aprovação
+# "Multa do Ibama prescreve?": prescrição da multa ambiental — roteiro v2 (23/11/2026), aguardando aprovação
 
 ## Pesquisa
 - **Origem:** pesquisa ampla de 20/11/2026 (pedido do editor: "os assuntos estão ficando repetitivos"). É a 3ª da ordem
@@ -12,18 +12,34 @@
 
 | # | Fala |
 |---|---|
-| 1 | "Você sabia que, se o seu vizinho levar uma multa ambiental dentro da fazenda, ela pode simplesmente morrer quando o processo fica parado na gaveta tempo demais?" |
+| 1 | "O vizinho jurou que multa ambiental nunca prescreve? Pode prescrever, e a da sua fazenda pode ter morrido na gaveta do órgão." |
 | 2 | "A explicação está numa palavra: prescrição." |
-| 3 | "Se o processo da multa do vizinho ficar parado mais de três anos esperando decisão, a lei manda arquivar." |
+| 3 | "Ao contrário do que o vizinho disse, se o processo da multa ficar parado mais de três anos esperando decisão, a lei manda arquivar." |
 | 4 | "A lei diz também que o Ibama tem cinco anos, contados da infração, pra apurar e multar." |
 | 5 | "E, se a infração é permanente, esses cinco anos só começam a contar do dia em que ela parou." |
 | 6 | "Agora, cuidado: depois que a multa fica definitiva, o órgão ainda tem cinco anos pra cobrar na Justiça." |
 | 7 | "E toda notificação ou ato que investiga o caso interrompe o prazo, e a conta recomeça do zero." |
 | 8 | "E tem mais: a multa prescrever não apaga o dever de reparar o dano ambiental." |
-| 9 | "Tem alguém aí guardando uma multa ambiental na gaveta, sem saber se a sua já prescreveu?" |
+| 9 | "Na sua fazenda, alguém guarda uma multa ambiental antiga sem saber se ela já prescreveu?" |
 | 10 | DR. PELICIONI: "Eu sou o Dr. Pelicioni, advogado. Em multa ambiental, prazo perdido pelo órgão conta a seu favor. Me segue pra proteger a sua fazenda." |
 
-## Auditoria de padrão ouro
+## Versão 2 (23/11/2026)
+- **Por que voltou:** o editor recusou "A casa do peão vira salário?" ("a gente é a favor do produtor rural e não contra").
+  Esta pauta defende o produtor.
+- **Gancho trocado:** de "Você sabia" para "pergunta + resposta seca". O mito sai da boca do vizinho, a ameaça vira a
+  favor do produtor, e a pergunta é a do Google ("multa ambiental prescreve", 1ª sugestão em 23/11/2026).
+- Trocadas também as falas 3 e 9.
+- **Auditoria:** 22/23; só falta o A3, o "estranho".
+- **Cenas com gente (Higgsfield, só planos abertos):**
+  - o produtor de chapéu, de costas na varanda, abrindo um envelope antigo;
+  - dois vizinhos na cerca de arame, de longe;
+  - a caminhonete do fiscal parada na porteira, sem rostos.
+- **O resto em pinturas de código:**
+  - a gaveta com papéis amarelados;
+  - o calendário com os anos passando;
+  - o carimbo "ARQUIVADO".
+
+## Auditoria de padrão ouro (v1)
 
 | Item | Este roteiro | Caseiro | Irmão |
 |---|---|---|---|

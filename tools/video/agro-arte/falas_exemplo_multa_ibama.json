@@ -2,7 +2,7 @@
  {
   "id": 1,
   "quem": "narrador",
-  "texto": "Você sabia que, se o seu vizinho levar uma multa ambiental dentro da fazenda, ela pode simplesmente morrer quando o processo fica parado na gaveta tempo demais?"
+  "texto": "O vizinho jurou que multa ambiental nunca prescreve? Pode prescrever, e a da sua fazenda pode ter morrido na gaveta do órgão."
  },
  {
   "id": 2,
@@ -12,7 +12,7 @@
  {
   "id": 3,
   "quem": "narrador",
-  "texto": "Se o processo da multa do vizinho ficar parado mais de três anos esperando decisão, a lei manda arquivar."
+  "texto": "Ao contrário do que o vizinho disse, se o processo da multa ficar parado mais de três anos esperando decisão, a lei manda arquivar."
  },
  {
   "id": 4,
@@ -42,7 +42,7 @@
  {
   "id": 9,
   "quem": "narrador",
-  "texto": "Tem alguém aí guardando uma multa ambiental na gaveta, sem saber se a sua já prescreveu?"
+  "texto": "Na sua fazenda, alguém guarda uma multa ambiental antiga sem saber se ela já prescreveu?"
  },
  {
   "id": 10,
