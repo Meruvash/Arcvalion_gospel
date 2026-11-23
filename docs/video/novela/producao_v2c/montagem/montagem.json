@@ -1,0 +1,57 @@
+{
+ "trilha": "trilha_v2c_alinhada.mp3",
+ "trilha_db": -16,
+ "clipes": [
+  {
+   "arq": "../planos/k1_720.mp4",
+   "ini": 2.5,
+   "fim": 15.05,
+   "fala": "Essa vaca é roubada! É minha! É a Estrela. Criei na mamadeira. Pobre assim, com vaca de doze mil?"
+  },
+  {
+   "arq": "../planos/k2_720.mp4",
+   "ini": 0.8,
+   "fim": 14.0,
+   "fala": "Doze mil ajuda no depósito da terra. Essa aí não tem onde cair morta. Dona Rosa, com acusação eu tiro o lote."
+  },
+  {
+   "arq": "../planos/k3_720.mp4",
+   "ini": 0.8,
+   "fim": 14.6,
+   "fala": "Cadê a nota dela? Cadê o papel? O papel ficou em casa. Deus sabe. Roça de pobre não cria vaca assim."
+  },
+  {
+   "arq": "../planos/k4_720.mp4",
+   "ini": 0.0,
+   "fim": 15.05,
+   "fala": "Chama a polícia. Ladra não sai daqui. Ela vai dizer que marcou na anca. Marquei na anca, sim! Pode olhar!"
+  },
+  {
+   "arq": "../planos/k5_720.mp4",
+   "ini": 0.0,
+   "fim": 6.04,
+   "fala": "Na anca, a lei não deixa marcar.",
+   "lei": {
+    "png": "cartao_4714.png",
+    "de": 2.4
+   }
+  },
+  {
+   "arq": "../planos/k5r_720.mp4",
+   "ini": 0.0,
+   "fim": 8.05,
+   "fala": "E ladra, na frente de todos, é calúnia.",
+   "lei": {
+    "png": "cartao_138.png",
+    "de": 1.2
+   }
+  },
+  {
+   "arq": "../planos/k5_720.mp4",
+   "ini": 11.42,
+   "fim": 18.05,
+   "fala": "Vende a vaca. O pasto é nosso."
+  }
+ ],
+ "parte2": true
+}

@@ -1,0 +1,384 @@
+{
+ "title": "A marca da Estrela",
+ "logline": "At a cattle auction, Cleide claims Rosa's dairy heifer is stolen to stop the sale that pays for the family land; Dr. Pelicioni predicts where she will say she branded it, and her lie becomes the proof.",
+ "template": "live-action",
+ "format": "dialogue",
+ "style": "Cinematic live action, camera-ready faces in soft, bright, flattering light from the scene's own sources, natural colour.",
+ "durationSeconds": 78,
+ "aspectRatio": "9:16",
+ "resolution": "720p",
+ "asked": {
+  "from": "Editor: dialogue in Brazilian Portuguese; fixed cast and voices (ELENCO_FIXO.md); 720p; cap 700 credits"
+ },
+ "screenplay": "TITLE: A MARCA DA ESTRELA\nRuntime: ~78 s | Locations: a cattle auction ring in the São Paulo countryside | Cast: Rosa (protagonist), Cleide (antagonist), Valdir (antagonist), Dr. Pelicioni (protector), Leiloeiro (auctioneer), Bruna (ally) + buyers in the bleachers\n\n— CLIP k1 (0:00–0:15) — l1 —\n\nHOOK (0:00)\nRosa stands in the sand ring holding the rope of Estrela, a spotted dairy heifer. In the bleachers, Cleide springs up and points at the heifer.\n\nCLEIDE\nEssa vaca é roubada! É minha!\n\nRosa lifts her chin toward the bleachers.\n\nROSA\nÉ a Estrela. Criei na mamadeira.\n\nValdir, seated beside Cleide, laughs.\n\nVALDIR\nPobre assim, com vaca de doze mil?\n\n[INSERT: the small R hot-iron brand on the left side of Estrela's neck, Rosa's hand on the rope below it.]\n\nFRICTION (0:12)\nRosa presses her lips together and holds Cleide's look.\n\n— CLIP k2 (0:15–0:30) — l1 —\n\nJOLT 1 (0:15)\nRosa turns to the auctioneer at his wooden pulpit.\n\nROSA\nDoze mil ajuda no depósito da terra.\n\nCleide turns to the buyers, smiling.\n\nCLEIDE\nEssa aí não tem onde cair morta.\n\nThe auctioneer lowers his microphone.\n\nLEILOEIRO\nDona Rosa, com acusação eu tiro o lote.\n\nRosa's hand tightens on the rope.\n\n— CLIP k3 (0:30–0:45) — l1 —\n\nCleide comes down two steps to the ring's fence.\n\nCLEIDE\nCadê a nota dela? Cadê o papel?\n\nRosa's eyes fill.\n\nROSA\nO papel ficou em casa. Deus sabe.\n\nValdir stands up beside the fence.\n\nVALDIR\nRoça de pobre não cria vaca assim.\n\nJOLT 2 (0:42)\nAt the black iron gate, Bruna appears, out of breath.\n\n— CLIP k4 (0:45–1:00) — l1 —\n\nVALDIR\nChama a polícia. Ladra não sai daqui.\n\nDr. Pelicioni walks in through the gate behind Bruna and stops beside Rosa. He looks only at Cleide.\n\nDR. PELICIONI\nEla vai dizer que marcou na anca.\n\nCLEIDE\nMarquei na anca, sim! Pode olhar!\n\nSPIKE (0:56)\nThe auctioneer turns Estrela by the rope: her hip is clean, no brand.\n\n— CLIP k5 (1:00–1:18) — l1 —\n\n[INSERT: the small R hot-iron brand on the left side of Estrela's neck.]\n\nDR. PELICIONI\nNa anca, a lei não deixa marcar.\n\nCleide's smile drops.\n\nDR. PELICIONI\nE ladra, na frente de todos, é calúnia.\n\nThe auctioneer points Cleide and Valdir to the gate. They walk out.\n\nCLEIDE\nVende a vaca. O pasto é nosso.\n\nENDING (1:13)\nThe auctioneer strikes his gavel on the pulpit. Rosa strokes Estrela's neck over the R. Dr. Pelicioni stands beside her, looking at the gate.\n\nCUT TO BLACK.",
+ "locations": [
+  {
+   "id": "l1",
+   "description": "a present-day small-town cattle auction ring in the São Paulo countryside, Brazil: a round ring of raked sand fenced with weathered wooden planks; a semicircle of wooden bleacher steps rising on one side, filled with buyers; a corrugated zinc roof on wooden beams; across the ring, the auctioneer's wooden pulpit with a microphone and a dark wooden gavel, and beside it a black iron gate, the ring's entrance",
+   "light": "late afternoon, warm golden sunlight slanting in through the gaps in the zinc roof, dust floating in the beams, faces lit soft and bright",
+   "anchor": "the auctioneer's wooden pulpit"
+  }
+ ],
+ "cast": [
+  {
+   "id": "c1",
+   "kind": "human",
+   "name": "Rosa",
+   "age": 56,
+   "gender": "woman",
+   "role": "protagonist — the small farmer selling her heifer",
+   "appearance": "Brazilian woman, warm tan brown skin, brown eyes, dark hair with grey strands tied back in a low bun, slim, kind lined face",
+   "wardrobe": "pale cream cotton blouse with a small pink-and-green floral print, dark trousers, worn leather boots",
+   "voice": "warm, gentle countrywoman's alto",
+   "faceImage": null,
+   "voiceFrom": "seed_audio"
+  },
+  {
+   "id": "c2",
+   "kind": "human",
+   "name": "Cleide",
+   "age": 50,
+   "gender": "woman",
+   "role": "antagonist — Valdir's wife, the accuser",
+   "appearance": "Brazilian woman, fair skin, dyed platinum-blonde blow-dried hair, heavy makeup, long red nails",
+   "wardrobe": "leopard-print satin blouse, black trousers, big gold hoop earrings",
+   "voice": "husky, sly woman's voice, low register",
+   "faceImage": null,
+   "voiceFrom": "seed_audio"
+  },
+  {
+   "id": "c3",
+   "kind": "human",
+   "name": "Valdir",
+   "age": 59,
+   "gender": "man",
+   "role": "antagonist — Rosa's brother, Cleide's husband",
+   "appearance": "Brazilian man, ruddy sun-reddened skin, thick grey moustache, grey hair, heavy belly",
+   "wardrobe": "red-and-navy plaid flannel shirt with rolled sleeves, faded blue jeans, brown leather belt with a big silver buckle, white cowboy hat, thin gold chain, brown boots",
+   "voice": "deep, gravelly bass",
+   "faceImage": null,
+   "voiceFrom": "seed_audio"
+  },
+  {
+   "id": "c4",
+   "kind": "human",
+   "name": "Dr. Pelicioni",
+   "age": 45,
+   "gender": "man",
+   "role": "protector — the lawyer Bruna brought",
+   "appearance": "Brazilian man, light olive skin, short dark curly hair greying at the temples, short dark beard with grey, dark rectangular glasses",
+   "wardrobe": "navy blazer with a navy pocket square with small white dots, light blue shirt open at the collar, grey trousers, brown belt, dark wristwatch",
+   "voice": "calm, low baritone",
+   "faceImage": null,
+   "voiceFrom": "seed_audio"
+  },
+  {
+   "id": "c5",
+   "kind": "human",
+   "name": "Bruna",
+   "age": 27,
+   "gender": "woman",
+   "role": "ally — Rosa's daughter, who brought the lawyer",
+   "appearance": "Brazilian woman, light brown skin, loose curly dark hair, freckles",
+   "wardrobe": "plain yellow t-shirt, light denim jacket, jeans, white sneakers",
+   "voice": "bright young woman's voice",
+   "faceImage": null,
+   "voiceFrom": "seed_audio"
+  },
+  {
+   "id": "c6",
+   "kind": "human",
+   "name": "Leiloeiro",
+   "age": 55,
+   "gender": "man",
+   "role": "ally — the auctioneer who runs the ring",
+   "appearance": "Brazilian man, light brown skin, short grey hair, trimmed grey moustache, broad build",
+   "wardrobe": "long-sleeved white dress shirt, brown leather vest, dark trousers, black boots; a handheld microphone",
+   "voice": "dry, flat baritone",
+   "faceImage": null,
+   "voiceFrom": "seed_audio"
+  }
+ ],
+ "groups": [
+  {
+   "id": "g1",
+   "name": "buyers in the bleachers",
+   "kind": "crowd",
+   "size": 30,
+   "description": "adult cattle buyers aged 30 to 65 seated in the bleachers: sun-lined faces, grey and dark hair, straw hats, felt cowboy hats and caps, plaid shirts"
+  }
+ ],
+ "props": [
+  {
+   "id": "p1",
+   "name": "Estrela",
+   "description": "a young red-and-white spotted dairy heifer with short horns and a thin sisal rope halter; one small R-shaped hot-iron brand, the size of a palm, on the left side of her neck, an old healed burn scar with rough paler hair along the letter; her hip and rump clean; at the end Rosa still holds her rope",
+   "holder": "c1",
+   "sheetFrom": null
+  }
+ ],
+ "clips": [
+  {
+   "id": "k1",
+   "start": 0,
+   "end": 15,
+   "location": "l1",
+   "make": "fresh",
+   "images": [
+    "l1",
+    "c1",
+    "c2",
+    "c3",
+    "p1"
+   ],
+   "videos": [],
+   "voices": [
+    "c2",
+    "c1",
+    "c3"
+   ],
+   "positions": "Rosa stands in the sand ring in front of the bleachers holding Estrela's rope, Estrela beside her; Cleide and Valdir in the second row of the bleachers behind the ring fence, Cleide on Valdir's left; the pulpit across the ring behind the camera",
+   "stateIn": "Rosa stands in the ring holding the rope; Cleide sits in the bleachers; Valdir sits beside her",
+   "stateOut": "Rosa stands in the ring holding the rope; Cleide stands in the bleachers; Valdir sits beside her"
+  },
+  {
+   "id": "k2",
+   "start": 15,
+   "end": 30,
+   "location": "l1",
+   "make": "fresh",
+   "images": [
+    "frame:k1@0.5",
+    "l1",
+    "c1",
+    "c2",
+    "c6",
+    "p1"
+   ],
+   "videos": [],
+   "voices": [
+    "c1",
+    "c2",
+    "c6"
+   ],
+   "positions": "Rosa stands in the sand ring holding Estrela's rope; the auctioneer stands behind his wooden pulpit across the ring beside the gate; Cleide stands in the bleachers",
+   "stateIn": "Rosa stands in the ring holding the rope; Cleide stands in the bleachers; the auctioneer stands behind the pulpit holding his microphone",
+   "stateOut": "Rosa stands in the ring holding the rope; Cleide stands in the bleachers; the auctioneer stands behind the pulpit, microphone lowered"
+  },
+  {
+   "id": "k3",
+   "start": 30,
+   "end": 45,
+   "location": "l1",
+   "make": "fresh",
+   "images": [
+    "frame:k1@0.5",
+    "l1",
+    "c2",
+    "c1",
+    "c3",
+    "c5",
+    "p1"
+   ],
+   "videos": [],
+   "voices": [
+    "c2",
+    "c1",
+    "c3"
+   ],
+   "positions": "Cleide stands at the ring's wooden fence below the bleachers; Valdir sits in the bleachers behind her; Rosa stands in the ring with Estrela; the black iron gate across the ring",
+   "stateIn": "Cleide stands in the bleachers; Valdir sits in the bleachers; Rosa stands in the ring holding the rope",
+   "stateOut": "Cleide stands at the fence; Valdir stands at the fence beside her; Rosa stands in the ring holding the rope; Bruna stands at the gate"
+  },
+  {
+   "id": "k4",
+   "start": 45,
+   "end": 60,
+   "location": "l1",
+   "make": "fresh",
+   "images": [
+    "frame:k1@0.5",
+    "l1",
+    "c3",
+    "c4",
+    "c2",
+    "c1",
+    "c6",
+    "c5",
+    "p1"
+   ],
+   "videos": [],
+   "voices": [
+    "c3",
+    "c4",
+    "c2"
+   ],
+   "positions": "Valdir and Cleide stand at the ring's fence below the bleachers; Rosa stands in the ring with Estrela; the auctioneer stands behind the pulpit; Bruna and Dr. Pelicioni come through the black iron gate",
+   "stateIn": "Valdir stands at the fence; Cleide stands at the fence; Rosa stands in the ring holding the rope; Bruna stands at the gate; the auctioneer stands behind the pulpit",
+   "stateOut": "Dr. Pelicioni stands beside Rosa in the ring; the auctioneer stands in the ring holding Estrela's rope, Estrela turned with her clean hip to the bleachers; Cleide stands at the fence"
+  },
+  {
+   "id": "k5",
+   "start": 60,
+   "end": 78,
+   "location": "l1",
+   "make": "fresh",
+   "images": [
+    "frame:k1@0.5",
+    "l1",
+    "c4",
+    "c2",
+    "c3",
+    "c1",
+    "c6",
+    "p1"
+   ],
+   "videos": [],
+   "voices": [
+    "c4",
+    "c2"
+   ],
+   "positions": "Dr. Pelicioni stands beside Rosa in the ring facing the fence; Cleide and Valdir stand at the fence; the auctioneer stands in the ring beside Estrela",
+   "stateIn": "Dr. Pelicioni stands beside Rosa in the ring; the auctioneer stands in the ring beside Estrela; Cleide stands at the fence; Valdir stands at the fence",
+   "stateOut": "Cleide and Valdir gone through the gate; the auctioneer stands behind the pulpit; Rosa stands beside Estrela holding the rope; Dr. Pelicioni stands beside her"
+  }
+ ],
+ "lines": [
+  {
+   "clip": "k1",
+   "speaker": "c2",
+   "to": "c1",
+   "startSeconds": 2.8,
+   "delivery": "husky and sharp, accusing, her register kept low",
+   "text": "Essa vaca é roubada! É minha!",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k1",
+   "speaker": "c1",
+   "to": "c2",
+   "startSeconds": 5.8,
+   "delivery": "warm and low, steady",
+   "text": "É a Estrela. Criei na mamadeira.",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k1",
+   "speaker": "c3",
+   "to": "c1",
+   "startSeconds": 8.2,
+   "delivery": "deep and gravelly, with a short mocking laugh",
+   "text": "Pobre assim, com vaca de doze mil?",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k2",
+   "speaker": "c1",
+   "to": "c6",
+   "startSeconds": 16.8,
+   "delivery": "warm and quiet, asking",
+   "text": "Doze mil ajuda no depósito da terra.",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k2",
+   "speaker": "c2",
+   "to": "g1",
+   "startSeconds": 19.9,
+   "delivery": "husky, sweetly mocking, to the crowd",
+   "text": "Essa aí não tem onde cair morta.",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k2",
+   "speaker": "c6",
+   "to": "c1",
+   "startSeconds": 22.8,
+   "delivery": "dry and flat, a baritone",
+   "text": "Dona Rosa, com acusação eu tiro o lote.",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k3",
+   "speaker": "c2",
+   "to": "c1",
+   "startSeconds": 31.8,
+   "delivery": "husky, challenging",
+   "text": "Cadê a nota dela? Cadê o papel?",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k3",
+   "speaker": "c1",
+   "to": "c2",
+   "startSeconds": 35.0,
+   "delivery": "warm, the voice catching",
+   "text": "O papel ficou em casa. Deus sabe.",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k3",
+   "speaker": "c3",
+   "to": "g1",
+   "startSeconds": 38.2,
+   "delivery": "deep and gravelly, scornful",
+   "text": "Roça de pobre não cria vaca assim.",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k4",
+   "speaker": "c3",
+   "to": "c6",
+   "startSeconds": 45.8,
+   "delivery": "deep and gravelly, threatening",
+   "text": "Chama a polícia. Ladra não sai daqui.",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k4",
+   "speaker": "c4",
+   "to": "c2",
+   "startSeconds": 50.4,
+   "delivery": "calm and low, unhurried",
+   "text": "Ela vai dizer que marcou na anca.",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k4",
+   "speaker": "c2",
+   "to": "c4",
+   "startSeconds": 53.4,
+   "delivery": "husky, certain of herself",
+   "text": "Marquei na anca, sim! Pode olhar!",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k5",
+   "speaker": "c4",
+   "to": "c2",
+   "startSeconds": 63.0,
+   "delivery": "calm and low, like reading the law",
+   "text": "Na anca, a lei não deixa marcar.",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k5",
+   "speaker": "c4",
+   "to": "c2",
+   "startSeconds": 66.0,
+   "delivery": "calm and low, after a breath",
+   "text": "E ladra, na frente de todos, é calúnia.",
+   "kind": "dialogue"
+  },
+  {
+   "clip": "k5",
+   "speaker": "c2",
+   "to": "c1",
+   "startSeconds": 69.4,
+   "delivery": "husky, sweet and poisonous",
+   "text": "Vende a vaca. O pasto é nosso.",
+   "kind": "dialogue"
+  }
+ ],
+ "voicesNote": "every speaker's voice is a fixed Higgsfield voice (ELENCO_FIXO.md), sent as a 3-10 s seed_audio sample in every clip they speak in"
+}

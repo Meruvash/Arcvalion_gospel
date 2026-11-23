@@ -22,3 +22,4 @@ docs/video/novela/elenco/folhas/*.png
 docs/video/novela/producao_v*/voz/
 docs/video/novela/producao_v*/lipsync/
 docs/video/novela/producao_v2c/planos/
+.claude/settings.local.json
