@@ -1,0 +1,27 @@
+{
+ "id": "c11_lei_preferencia",
+ "duracao": 8,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "terreiro",
+ "personagens": [
+  "Dr. Pelicioni"
+ ],
+ "voz": "Dr. Pelicioni",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 8,
+   "quadro": "close-up",
+   "camera": "static",
+   "quem": "Dr. Pelicioni",
+   "acao": "holds the old leather book open in his hands, looks up at Valdir off camera and speaks",
+   "expressao": "calm, firm",
+   "fala": true
+  }
+ ],
+ "fala": {
+  "texto": "É sua. Mas herança não dividida: irmão tem preferência. Pelo mesmo preço, a parte fica com a família.",
+  "emocao": "calm, low, precise",
+  "inicio": 0.5
+ }
+}

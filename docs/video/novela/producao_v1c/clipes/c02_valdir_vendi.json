@@ -1,0 +1,27 @@
+{
+ "id": "c02_valdir_vendi",
+ "duracao": 5,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "terreiro",
+ "personagens": [
+  "Valdir"
+ ],
+ "voz": "Valdir",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 5,
+   "quadro": "close-up",
+   "camera": "static, slightly low angle",
+   "quem": "Valdir",
+   "acao": "waves a signed sheet of paper toward Rosa off camera and speaks",
+   "expressao": "arrogant",
+   "fala": true
+  }
+ ],
+ "fala": {
+  "texto": "Minha parte já tá vendida. Dois milhões, à vista.",
+  "emocao": "arrogant, loud",
+  "inicio": 0.5
+ }
+}

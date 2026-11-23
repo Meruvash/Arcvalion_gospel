@@ -1,7 +1,7 @@
 {
- "id": "k08_previsao",
+ "id": "c09_previsao",
  "duracao": 8,
- "modelo": "seedance_2_0_mini",
+ "modelo": "seedance_2_5",
  "cenario": "terreiro",
  "personagens": [
   "Dr. Pelicioni"
@@ -14,7 +14,8 @@
    "quadro": "close-up",
    "camera": "static, eye level",
    "quem": "Dr. Pelicioni",
-   "acao": "stands still facing Valdir off camera, calm, a faint half smile",
+   "acao": "stands still facing Valdir off camera and speaks",
+   "expressao": "calm, a faint half smile",
    "fala": true
   }
  ],

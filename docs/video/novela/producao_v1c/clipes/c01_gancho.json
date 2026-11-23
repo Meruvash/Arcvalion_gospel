@@ -1,0 +1,36 @@
+{
+ "id": "c01_gancho",
+ "duracao": 6,
+ "modelo": "seedance_2_5",
+ "cenario": "terreiro",
+ "personagens": [
+  "Cleide",
+  "Rosa"
+ ],
+ "voz": "Cleide",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 2,
+   "quadro": "medium shot",
+   "camera": "static, eye level",
+   "quem": "Cleide",
+   "acao": "stands facing Rosa in the farmyard, both faces visible, and lets an old brown leather book drop from her hand onto the red dirt at Rosa's feet; Rosa flinches"
+  },
+  {
+   "de": 2,
+   "ate": 6,
+   "quadro": "close-up",
+   "camera": "slow push in",
+   "quem": "Cleide",
+   "acao": "looks down at Rosa and speaks",
+   "expressao": "fake sweet smile, cold eyes",
+   "fala": true
+  }
+ ],
+ "fala": {
+  "texto": "Isso aqui não vale nada, Rosinha.",
+  "emocao": "sweet, mocking, slow",
+  "inicio": 2.2
+ }
+}

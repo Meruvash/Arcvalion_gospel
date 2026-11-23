@@ -1,0 +1,330 @@
+{
+ "requests": [
+  {
+   "index": 1,
+   "params": {
+    "model": "seedance_2_5",
+    "duration": 6,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "90e1b266-648d-4701-8938-e8acec031cc5"
+     },
+     {
+      "role": "image_references",
+      "value": "1b9f5233-6de4-4dfc-81da-b48b5b73fd37"
+     },
+     {
+      "role": "audio_references",
+      "value": "dd293dac-8917-4da8-8f4f-2df5f4ddfab5"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Cleide: the woman of her reference sheet, bleached blonde blow-dried hair, long red nails, leopard-print blouse, big gold earrings. @Image2 is Rosa: the woman of her reference sheet, mid-fifties, grey-streaked hair tied back, floral cotton blouse in soft pink and green.\n@Audio1 is the voice of @Image1, Cleide: every line Cleide speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-2 s: medium shot, static, eye level. @Image1 Cleide stands facing Rosa in the farmyard, both faces visible, and lets an old brown leather book drop from her hand onto the red dirt at Rosa's feet; Rosa flinches.\n2-6 s: close-up, slow push in. @Image1 Cleide looks down at Rosa and speaks, fake sweet smile, cold eyes.\n\n@Image1 Cleide says in Brazilian Portuguese (sweet, mocking, slow): \"Isso aqui não vale nada, Rosinha.\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic.",
+    "mode": "omni_reference"
+   }
+  },
+  {
+   "index": 2,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "3caeac03-3db3-488a-9096-0f39ddc48c35"
+     },
+     {
+      "role": "audio_references",
+      "value": "e4a9eb0c-ebd6-4f48-aee8-4a89b2b1191d"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Valdir: the heavy-set man of his reference sheet, grey mustache, white cowboy hat, red plaid shirt, gold chain.\n@Audio1 is the voice of @Image1, Valdir: every line Valdir speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-5 s: close-up, static, slightly low angle. @Image1 Valdir waves a signed sheet of paper toward Rosa off camera and speaks, arrogant.\n\n@Image1 Valdir says in Brazilian Portuguese (arrogant, loud): \"Vendi minha parte. Dois milhões, à vista.\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  },
+  {
+   "index": 3,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "604943b0-3062-4f38-aa77-9dd88c885fa7"
+     },
+     {
+      "role": "audio_references",
+      "value": "dfae4089-4e32-48a4-84d2-f9b650cced61"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Tavares: the man of his reference sheet, slicked-back hair, tight shiny grey suit without tie, mirrored sunglasses.\n@Audio1 is the voice of @Image1, Tavares: every line Tavares speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-5 s: medium shot, static. @Image1 Tavares leans on a dusty pickup truck spinning a car key on his finger and speaks, smug.\n\n@Image1 Tavares says in Brazilian Portuguese (smooth, smug): \"Segunda-feira eu chego com o trator, dona Rosa.\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  },
+  {
+   "index": 4,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 8,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "1b9f5233-6de4-4dfc-81da-b48b5b73fd37"
+     },
+     {
+      "role": "audio_references",
+      "value": "7a6de1e6-a1e0-4ddc-9bb8-7c02a1ec60cf"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Rosa: the woman of her reference sheet, mid-fifties, grey-streaked hair tied back, floral cotton blouse in soft pink and green.\n@Audio1 is the voice of @Image1, Rosa: every line Rosa speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-2.5 s: medium shot, static. @Image1 Rosa crouches and picks up the old leather book from the red dirt, wiping the cover with her sleeve, hurt.\n2.5-8 s: close-up, slow push in. @Image1 Rosa stands holding the book against her chest and speaks, her voice cracking, eyes wet, holding back tears.\n\n@Image1 Rosa says in Brazilian Portuguese (hurt, voice cracking, firm): \"Esse livro era do nosso pai, Valdir. Tá tudo escrito aqui.\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  },
+  {
+   "index": 5,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "90e1b266-648d-4701-8938-e8acec031cc5"
+     },
+     {
+      "role": "audio_references",
+      "value": "dd293dac-8917-4da8-8f4f-2df5f4ddfab5"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Cleide: the woman of her reference sheet, bleached blonde blow-dried hair, long red nails, leopard-print blouse, big gold earrings.\n@Audio1 is the voice of @Image1, Cleide: every line Cleide speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-5 s: close-up, static. @Image1 Cleide holds her phone up filming Rosa off camera, the screen facing away from the camera, and speaks, mocking laugh.\n\n@Image1 Cleide says in Brazilian Portuguese (mocking, sweet poison): \"Para de inventar lei, Rosinha. Ninguém vai te ajudar.\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  },
+  {
+   "index": 6,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 7,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "62dd2abd-b4b4-4712-ad6a-b1e84cc891ec"
+     },
+     {
+      "role": "audio_references",
+      "value": "7a47634d-7650-4822-8d47-1b281f8cc4c1"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Bruna: the young woman of her reference sheet, loose curly hair, freckles, plain t-shirt and denim jacket.\n@Audio1 is the voice of @Image1, Bruna: every line Bruna speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-2 s: medium shot, static. @Image1 Bruna steps into the frame between the camera and the farmhouse and slides her phone into her denim jacket pocket, determined.\n2-7 s: close-up, static, eye level. @Image1 Bruna looks at her mother off camera and speaks, determined, calm.\n\n@Image1 Bruna says in Brazilian Portuguese (firm, protective): \"Mãe, não discute com eles. Eu já chamei quem entende.\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  },
+  {
+   "index": 7,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "3caeac03-3db3-488a-9096-0f39ddc48c35"
+     },
+     {
+      "role": "image_references",
+      "value": "1b9f5233-6de4-4dfc-81da-b48b5b73fd37"
+     },
+     {
+      "role": "audio_references",
+      "value": "e4a9eb0c-ebd6-4f48-aee8-4a89b2b1191d"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Valdir: the heavy-set man of his reference sheet, grey mustache, white cowboy hat, red plaid shirt, gold chain. @Image2 is Rosa: the woman of her reference sheet, mid-fifties, grey-streaked hair tied back, floral cotton blouse in soft pink and green.\n@Audio1 is the voice of @Image1, Valdir: every line Valdir speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-3 s: close-up, static. @Image1 Valdir laughs and speaks, mocking.\n3-5 s: close-up, static. @Image2 Rosa clutches the old book against her chest in silence, eyes wet.\n\n@Image1 Valdir says in Brazilian Portuguese (mocking laugh): \"Chamou quem? O padre?\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nEvery shot after the line is in silence.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  },
+  {
+   "index": 8,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 6,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "0641cec1-9680-412a-881e-7bc8825916ee"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Dr. Pelicioni: the man of his reference sheet, short dark hair, trimmed beard, dark-rimmed glasses with clear transparent lenses, navy blue blazer with a blue polka-dot pocket square, light-blue open-collar shirt, grey trousers.\n\nSetting: a wooden farm gate on a red dirt road, pasture behind, golden hour.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-2.5 s: wide shot, static, low angle. a dark sedan rolls up to the wooden gate and stops, raising red dust.\n2.5-4 s: close-up on the ground, static. @Image1 Dr. Pelicioni steps out of the car, only his polished brown shoe touches the red dirt, face not visible.\n4-6 s: medium shot from behind, slow push in. @Image1 Dr. Pelicioni stands seen from behind at three-quarters, adjusts his pocket square and walks toward the farmyard.\n\nNobody speaks in this clip.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  },
+  {
+   "index": 9,
+   "params": {
+    "model": "seedance_2_5",
+    "duration": 8,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "0641cec1-9680-412a-881e-7bc8825916ee"
+     },
+     {
+      "role": "audio_references",
+      "value": "54c5e122-672b-4bc2-851f-057d5c195630"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Dr. Pelicioni: the man of his reference sheet, short dark hair, trimmed beard, dark-rimmed glasses with clear transparent lenses, navy blue blazer with a blue polka-dot pocket square, light-blue open-collar shirt, grey trousers.\n@Audio1 is the voice of @Image1, Dr. Pelicioni: every line Dr. Pelicioni speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-8 s: close-up, static, eye level. @Image1 Dr. Pelicioni stands still facing Valdir off camera and speaks, calm, a faint half smile.\n\n@Image1 Dr. Pelicioni says in Brazilian Portuguese (calm, low, slow): \"Boa tarde. O seu Valdir vai dizer que a parte é dele e vende pra quem quiser.\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic.",
+    "mode": "omni_reference"
+   }
+  },
+  {
+   "index": 10,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "3caeac03-3db3-488a-9096-0f39ddc48c35"
+     },
+     {
+      "role": "audio_references",
+      "value": "e4a9eb0c-ebd6-4f48-aee8-4a89b2b1191d"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Valdir: the heavy-set man of his reference sheet, grey mustache, white cowboy hat, red plaid shirt, gold chain.\n@Audio1 is the voice of @Image1, Valdir: every line Valdir speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-3 s: close-up, static, slightly low angle. @Image1 Valdir puffs out his chest, points at his own chest and speaks, arrogant.\n3-5 s: close-up, slow push in. @Image1 Valdir freezes as he realizes he said exactly what was predicted, smile fading into shock.\n\n@Image1 Valdir says in Brazilian Portuguese (loud, arrogant): \"A parte é minha. Vendo pra quem quiser!\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nEvery shot after the line is in silence.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  },
+  {
+   "index": 11,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 8,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "0641cec1-9680-412a-881e-7bc8825916ee"
+     },
+     {
+      "role": "audio_references",
+      "value": "54c5e122-672b-4bc2-851f-057d5c195630"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Dr. Pelicioni: the man of his reference sheet, short dark hair, trimmed beard, dark-rimmed glasses with clear transparent lenses, navy blue blazer with a blue polka-dot pocket square, light-blue open-collar shirt, grey trousers.\n@Audio1 is the voice of @Image1, Dr. Pelicioni: every line Dr. Pelicioni speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-8 s: close-up, static. @Image1 Dr. Pelicioni holds the old leather book open in his hands, looks up at Valdir off camera and speaks, calm, firm.\n\n@Image1 Dr. Pelicioni says in Brazilian Portuguese (calm, low, precise): \"É sua. Mas herança não dividida: irmão tem preferência. Pelo mesmo preço, a parte fica com a família.\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  },
+  {
+   "index": 12,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 7,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "0641cec1-9680-412a-881e-7bc8825916ee"
+     },
+     {
+      "role": "audio_references",
+      "value": "54c5e122-672b-4bc2-851f-057d5c195630"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Dr. Pelicioni: the man of his reference sheet, short dark hair, trimmed beard, dark-rimmed glasses with clear transparent lenses, navy blue blazer with a blue polka-dot pocket square, light-blue open-collar shirt, grey trousers.\n@Audio1 is the voice of @Image1, Dr. Pelicioni: every line Dr. Pelicioni speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-7 s: close-up, static. @Image1 Dr. Pelicioni turns his head toward Tavares off camera and speaks without raising his voice, calm.\n\n@Image1 Dr. Pelicioni says in Brazilian Portuguese (calm, low): \"E ninguém avisou a dona Rosa. Cento e oitenta dias pra ela depositar o preço.\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  },
+  {
+   "index": 13,
+   "params": {
+    "model": "seedance_2_5",
+    "duration": 6,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "604943b0-3062-4f38-aa77-9dd88c885fa7"
+     },
+     {
+      "role": "image_references",
+      "value": "3caeac03-3db3-488a-9096-0f39ddc48c35"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Tavares: the man of his reference sheet, slicked-back hair, tight shiny grey suit without tie, mirrored sunglasses. @Image2 is Valdir: the heavy-set man of his reference sheet, grey mustache, white cowboy hat, red plaid shirt, gold chain.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-3 s: medium shot, static. @Image1 Tavares takes off his mirrored sunglasses, puts the contract into his inside jacket pocket and steps back toward the pickup truck, smile gone.\n3-6 s: close-up, slow push in. @Image2 Valdir looks down; the signed sheet of paper slips from his hand and falls to the ground, defeated.\n\nNobody speaks in this clip.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic.",
+    "mode": "omni_reference"
+   }
+  },
+  {
+   "index": 14,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 6,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "0641cec1-9680-412a-881e-7bc8825916ee"
+     },
+     {
+      "role": "image_references",
+      "value": "1b9f5233-6de4-4dfc-81da-b48b5b73fd37"
+     },
+     {
+      "role": "audio_references",
+      "value": "54c5e122-672b-4bc2-851f-057d5c195630"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Dr. Pelicioni: the man of his reference sheet, short dark hair, trimmed beard, dark-rimmed glasses with clear transparent lenses, navy blue blazer with a blue polka-dot pocket square, light-blue open-collar shirt, grey trousers. @Image2 is Rosa: the woman of her reference sheet, mid-fifties, grey-streaked hair tied back, floral cotton blouse in soft pink and green.\n@Audio1 is the voice of @Image1, Dr. Pelicioni: every line Dr. Pelicioni speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-3.5 s: close-up, static. @Image1 Dr. Pelicioni looks at Rosa off camera and speaks gently, warm, calm.\n3.5-6 s: close-up, static. @Image2 Rosa holds the old book against her chest in silence, tearful smile.\n\n@Image1 Dr. Pelicioni says in Brazilian Portuguese (warm, low, slow): \"Dona Rosa, a senhora não está sozinha.\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nEvery shot after the line is in silence.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  },
+  {
+   "index": 15,
+   "params": {
+    "model": "seedance_2_0_mini",
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "medias": [
+     {
+      "role": "image_references",
+      "value": "90e1b266-648d-4701-8938-e8acec031cc5"
+     },
+     {
+      "role": "audio_references",
+      "value": "dd293dac-8917-4da8-8f4f-2df5f4ddfab5"
+     }
+    ],
+    "prompt": "Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.\n\n@Image1 is Cleide: the woman of her reference sheet, bleached blonde blow-dried hair, long red nails, leopard-print blouse, big gold earrings.\n@Audio1 is the voice of @Image1, Cleide: every line Cleide speaks is in this voice.\n\nSetting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.\nEvery shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.\n\n0-5 s: medium close-up, slow push in. @Image1 Cleide stands alone by the dusty pickup truck with her phone to her ear, looking at Rosa in the distance, and whispers, cold, scheming.\n\n@Image1 Cleide says in Brazilian Portuguese (whisper, cold): \"Calma, Valdir. Eu ainda tenho outro plano.\"\nThe line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\nNo background music. Only natural ambient sound of the place.\nEvery character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic."
+   }
+  }
+ ]
+}

@@ -33,7 +33,7 @@
    "tipo": "HUMILHACAO",
    "quem": "Valdir",
    "modo": "video",
-   "fala": "Vendi minha parte. Dois milhões, à vista.",
+   "fala": "Minha parte já tá vendida. Dois milhões, à vista.",
    "tela": "Close Valdir, chapéu branco, corrente de ouro, balança um papel assinado na cara da Rosa.",
    "marcas": [
     "dinheiro",
@@ -163,7 +163,7 @@
    "tipo": "LEI",
    "quem": "Dr. Pelicioni",
    "modo": "video",
-   "fala": "E ninguém avisou a dona Rosa. Cento e oitenta dias pra ela depositar o preço.",
+   "fala": "E ninguém contou pra dona Rosa. Cento e oitenta dias pra ela depositar o preço.",
    "tela": "Ele se vira para o Tavares, sem levantar a voz. Inserto: cartão CC art. 1.795, literal, com a fonte.",
    "marcas": [
     "dinheiro"

@@ -1,0 +1,15 @@
+Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.
+
+@Image1 is Dr. Pelicioni: the man of his reference sheet, short dark hair, trimmed beard, dark-rimmed glasses with clear transparent lenses, navy blue blazer with a blue polka-dot pocket square, light-blue open-collar shirt, grey trousers.
+@Audio1 is the voice of @Image1, Dr. Pelicioni: every line Dr. Pelicioni speaks is in this voice.
+
+Setting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.
+Every shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.
+
+0-8 s: close-up, static, eye level. @Image1 Dr. Pelicioni stands still facing Valdir off camera and speaks, calm, a faint half smile.
+
+@Image1 Dr. Pelicioni says in Brazilian Portuguese (calm, low, slow): "Boa tarde. O seu Valdir vai dizer que a parte é dele e vende pra quem quiser."
+The line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.
+Every spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.
+No background music. Only natural ambient sound of the place.
+Every character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic.

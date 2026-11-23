@@ -1,0 +1,36 @@
+{
+ "id": "c06_bruna_chamei",
+ "duracao": 7,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "terreiro",
+ "personagens": [
+  "Bruna"
+ ],
+ "voz": "Bruna",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 2,
+   "quadro": "medium shot",
+   "camera": "static",
+   "quem": "Bruna",
+   "acao": "steps into the frame between the camera and the farmhouse and slides her phone into her denim jacket pocket",
+   "expressao": "determined"
+  },
+  {
+   "de": 2,
+   "ate": 7,
+   "quadro": "close-up",
+   "camera": "static, eye level",
+   "quem": "Bruna",
+   "acao": "looks at her mother off camera and speaks",
+   "expressao": "determined, calm",
+   "fala": true
+  }
+ ],
+ "fala": {
+  "texto": "Mãe, não discute com eles. Eu já chamei quem entende.",
+  "emocao": "firm, protective",
+  "inicio": 2.2
+ }
+}

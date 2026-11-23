@@ -1,14 +1,15 @@
 Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.
 
-@Image1 is Dr. Pelicioni: the man of his reference sheet, short dark hair, trimmed beard, dark-rimmed glasses with clear transparent lenses, navy blue blazer with a blue polka-dot pocket square, light-blue open-collar shirt, grey trousers.
-@Audio1 is the voice of @Image1, Dr. Pelicioni: every line Dr. Pelicioni speaks is in this voice.
+@Image1 is Cleide: the woman of her reference sheet, bleached blonde blow-dried hair, long red nails, leopard-print blouse, big gold earrings. @Image2 is Rosa: the woman of her reference sheet, mid-fifties, grey-streaked hair tied back, floral cotton blouse in soft pink and green.
+@Audio1 is the voice of @Image1, Cleide: every line Cleide speaks is in this voice.
 
 Setting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.
 Every shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.
 
-0-8 s: close-up, static, eye level. @Image1 Dr. Pelicioni stands still facing Valdir off camera, calm, a faint half smile.
+0-2 s: medium shot, static, eye level. @Image1 Cleide stands facing Rosa in the farmyard, both faces visible, and lets an old brown leather book drop from her hand onto the red dirt at Rosa's feet; Rosa flinches.
+2-6 s: close-up, slow push in. @Image1 Cleide looks down at Rosa and speaks, fake sweet smile, cold eyes.
 
-@Image1 Dr. Pelicioni says in Brazilian Portuguese (calm, low, slow): "Boa tarde. O seu Valdir vai dizer que a parte é dele e vende pra quem quiser."
+@Image1 Cleide says in Brazilian Portuguese (sweet, mocking, slow): "Isso aqui não vale nada, Rosinha."
 The line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.
 Every spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.
 No background music. Only natural ambient sound of the place.

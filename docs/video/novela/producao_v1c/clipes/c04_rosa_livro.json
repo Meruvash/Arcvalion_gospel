@@ -1,0 +1,36 @@
+{
+ "id": "c04_rosa_livro",
+ "duracao": 8,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "terreiro",
+ "personagens": [
+  "Rosa"
+ ],
+ "voz": "Rosa",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 2.5,
+   "quadro": "medium shot",
+   "camera": "static",
+   "quem": "Rosa",
+   "acao": "crouches and picks up the old leather book from the red dirt, wiping the cover with her sleeve",
+   "expressao": "hurt"
+  },
+  {
+   "de": 2.5,
+   "ate": 8,
+   "quadro": "close-up",
+   "camera": "slow push in",
+   "quem": "Rosa",
+   "acao": "stands holding the book against her chest and speaks, her voice cracking",
+   "expressao": "eyes wet, holding back tears",
+   "fala": true
+  }
+ ],
+ "fala": {
+  "texto": "Esse livro era do nosso pai, Valdir. Tá tudo escrito aqui.",
+  "emocao": "hurt, voice cracking, firm",
+  "inicio": 2.7
+ }
+}

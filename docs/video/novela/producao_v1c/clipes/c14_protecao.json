@@ -1,0 +1,37 @@
+{
+ "id": "c14_protecao",
+ "duracao": 6,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "terreiro",
+ "personagens": [
+  "Dr. Pelicioni",
+  "Rosa"
+ ],
+ "voz": "Dr. Pelicioni",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 3.5,
+   "quadro": "close-up",
+   "camera": "static",
+   "quem": "Dr. Pelicioni",
+   "acao": "looks at Rosa off camera and speaks gently",
+   "expressao": "warm, calm",
+   "fala": true
+  },
+  {
+   "de": 3.5,
+   "ate": 6,
+   "quadro": "close-up",
+   "camera": "static",
+   "quem": "Rosa",
+   "acao": "holds the old book against her chest in silence",
+   "expressao": "tearful smile"
+  }
+ ],
+ "fala": {
+  "texto": "Dona Rosa, a senhora não está sozinha.",
+  "emocao": "warm, low, slow",
+  "inicio": 0.5
+ }
+}

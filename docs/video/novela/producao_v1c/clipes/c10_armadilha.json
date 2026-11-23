@@ -1,5 +1,5 @@
 {
- "id": "k09_armadilha",
+ "id": "c10_armadilha",
  "duracao": 5,
  "modelo": "seedance_2_0_mini",
  "cenario": "terreiro",
@@ -14,7 +14,7 @@
    "quadro": "close-up",
    "camera": "static, slightly low angle",
    "quem": "Valdir",
-   "acao": "puffs out his chest, points at his own chest",
+   "acao": "puffs out his chest, points at his own chest and speaks",
    "expressao": "arrogant",
    "fala": true
   },

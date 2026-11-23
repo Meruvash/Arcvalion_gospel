@@ -1,0 +1,31 @@
+{
+ "id": "c13_queda",
+ "duracao": 6,
+ "modelo": "seedance_2_5",
+ "cenario": "terreiro",
+ "personagens": [
+  "Tavares",
+  "Valdir"
+ ],
+ "voz": null,
+ "planos": [
+  {
+   "de": 0,
+   "ate": 3,
+   "quadro": "medium shot",
+   "camera": "static",
+   "quem": "Tavares",
+   "acao": "takes off his mirrored sunglasses, puts the contract into his inside jacket pocket and steps back toward the pickup truck",
+   "expressao": "smile gone"
+  },
+  {
+   "de": 3,
+   "ate": 6,
+   "quadro": "close-up",
+   "camera": "slow push in",
+   "quem": "Valdir",
+   "acao": "looks down; the signed sheet of paper slips from his hand and falls to the ground",
+   "expressao": "defeated"
+  }
+ ]
+}

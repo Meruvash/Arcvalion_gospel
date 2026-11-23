@@ -1,0 +1,27 @@
+{
+ "id": "c03_tavares_trator",
+ "duracao": 5,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "terreiro",
+ "personagens": [
+  "Tavares"
+ ],
+ "voz": "Tavares",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 5,
+   "quadro": "medium shot",
+   "camera": "static",
+   "quem": "Tavares",
+   "acao": "leans on a dusty pickup truck spinning a car key on his finger and speaks",
+   "expressao": "smug",
+   "fala": true
+  }
+ ],
+ "fala": {
+  "texto": "Segunda-feira eu chego com o trator, dona Rosa.",
+  "emocao": "smooth, smug",
+  "inicio": 0.5
+ }
+}

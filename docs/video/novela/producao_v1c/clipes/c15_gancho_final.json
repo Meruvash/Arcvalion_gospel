@@ -1,0 +1,27 @@
+{
+ "id": "c15_gancho_final",
+ "duracao": 5,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "terreiro",
+ "personagens": [
+  "Cleide"
+ ],
+ "voz": "Cleide",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 5,
+   "quadro": "medium close-up",
+   "camera": "slow push in",
+   "quem": "Cleide",
+   "acao": "stands alone by the dusty pickup truck with her phone to her ear, looking at Rosa in the distance, and whispers",
+   "expressao": "cold, scheming",
+   "fala": true
+  }
+ ],
+ "fala": {
+  "texto": "Calma, Valdir. Eu ainda tenho outro plano.",
+  "emocao": "whisper, cold",
+  "inicio": 0.5
+ }
+}
