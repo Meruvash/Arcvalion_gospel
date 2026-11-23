@@ -1,0 +1,228 @@
+{
+  "corpus": {
+    "falas_brutas": 1998,
+    "falas_limpas": 1839,
+    "removidas": {
+      "progressiva": 21,
+      "duplicada": 22,
+      "lixo": 116
+    },
+    "palavras": 11274,
+    "duracao_s": 5028,
+    "palavras_por_minuto": 134.5,
+    "palavras_por_fala": {
+      "n": 1839,
+      "min": 1,
+      "mediana": 6,
+      "media": 6.1,
+      "max": 15
+    },
+    "vocabulario_distinto": 1828
+  },
+  "conferencia_codificacao": {
+    "batidas": 71,
+    "achadas": 71,
+    "taxa": 1.0,
+    "falhas": []
+  },
+  "batidas_por_tipo": {
+    "PREMISSA": 1,
+    "PLANTIO": 5,
+    "REVELACAO": 11,
+    "AFETO": 10,
+    "GANCHO": 4,
+    "HUMILHACAO": 14,
+    "ESCALADA": 6,
+    "CHEGADA": 9,
+    "PUNICAO": 8,
+    "PAGAMENTO": 3
+  },
+  "ciclos": {
+    "total": 11,
+    "tapa_na_cara": 8,
+    "humilhacao_ate_chegada_s": {
+      "n": 7,
+      "min": 49.6,
+      "mediana": 189.2,
+      "media": 217.9,
+      "max": 410.8
+    },
+    "chegada_ate_revelacao_s": {
+      "n": 4,
+      "min": 29.1,
+      "mediana": 97.2,
+      "media": 92.5,
+      "max": 146.7
+    },
+    "humilhacao_ate_punicao_s": {
+      "n": 8,
+      "min": 68.6,
+      "mediana": 241.8,
+      "media": 268.4,
+      "max": 555.9
+    },
+    "duracao_ciclo_s": {
+      "n": 8,
+      "min": 155.0,
+      "mediana": 311.7,
+      "media": 371.4,
+      "max": 665.3
+    },
+    "intervalo_entre_punicoes_s": {
+      "n": 7,
+      "min": 213.7,
+      "mediana": 580.5,
+      "media": 630.7,
+      "max": 1433.4
+    }
+  },
+  "plantio_pagamento": [
+    {
+      "plantio": "não lembra do protetor (00:35)",
+      "pagamento": "menino de 8 anos (83:15)",
+      "distancia_s": 4960
+    },
+    {
+      "plantio": "abóboras para a velha pobre (12:12)",
+      "pagamento": "a avó cita as abóboras ao pedir a mão (74:02)",
+      "distancia_s": 3710
+    },
+    {
+      "plantio": "anel 'barato' escolhido (16:24)",
+      "pagamento": "é o anel do poder (26:09 / 28:05)",
+      "distancia_s": 585
+    },
+    {
+      "plantio": "convite da câmara (52:46)",
+      "pagamento": "a diretora da câmara é a avó (56:37)",
+      "distancia_s": 231
+    }
+  ],
+  "lexico": {
+    "status_baixo_por_mil_palavras": {
+      "dentro_humilhacao": 14.81,
+      "fora": 5.03,
+      "razao": 2.94,
+      "p_permutacao_blocos_60s": 0.0005
+    },
+    "status_alto_total": 144,
+    "status_baixo_total": 97
+  },
+  "formulas_verbais_falas": {
+    "how dare you": 9,
+    "do you know who": 2,
+    "(you) don't (even) deserve": 4,
+    "impossible / can't be": 10,
+    "spare me / I was wrong": 7,
+    "you're dead": 3,
+    "get out / get lost": 7,
+    "my wife": 4,
+    "terminated / fired": 7,
+    "stop pretending": 4,
+    "security": 4,
+    "what (isolado)": 11
+  },
+  "formulas_verbais_exemplos_mmss": {
+    "how dare you": [
+      "17:57",
+      "27:05",
+      "33:42",
+      "49:36",
+      "51:28",
+      "53:49"
+    ],
+    "do you know who": [
+      "36:49",
+      "54:50"
+    ],
+    "(you) don't (even) deserve": [
+      "05:18",
+      "31:16",
+      "44:10",
+      "76:52"
+    ],
+    "impossible / can't be": [
+      "14:57",
+      "20:09",
+      "26:16",
+      "28:03",
+      "37:11",
+      "37:32"
+    ],
+    "spare me / I was wrong": [
+      "23:20",
+      "24:40",
+      "37:52",
+      "37:54",
+      "38:59",
+      "59:02"
+    ],
+    "you're dead": [
+      "23:04",
+      "54:10",
+      "81:56"
+    ],
+    "get out / get lost": [
+      "03:39",
+      "14:23",
+      "14:44",
+      "40:03",
+      "40:14",
+      "44:42"
+    ],
+    "my wife": [
+      "35:30",
+      "47:20",
+      "47:29",
+      "82:30"
+    ],
+    "terminated / fired": [
+      "07:50",
+      "22:35",
+      "24:38",
+      "49:46",
+      "50:52",
+      "55:14"
+    ],
+    "stop pretending": [
+      "34:02",
+      "35:05",
+      "41:10",
+      "79:39"
+    ],
+    "security": [
+      "13:41",
+      "27:04",
+      "36:03",
+      "49:09"
+    ],
+    "what (isolado)": [
+      "01:58",
+      "04:02",
+      "07:40",
+      "09:46",
+      "14:54",
+      "49:49"
+    ]
+  },
+  "nomes_mencoes": {
+    "mia": 123,
+    "alexander": 63,
+    "kane": 146,
+    "sophie": 22,
+    "tom": 43,
+    "grandma": 24,
+    "tiffany": 4,
+    "chloe": 11,
+    "lila": 3,
+    "ethan": 4,
+    "daniel": 3,
+    "collins": 20
+  },
+  "pontuacao_trecho_final": {
+    "falas": 688,
+    "perguntas": 99,
+    "exclamacoes": 21,
+    "frac_perguntas": 0.144
+  }
+}
