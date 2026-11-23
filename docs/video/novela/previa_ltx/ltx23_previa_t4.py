@@ -22,11 +22,45 @@ def baixar(f, *a, **k):
         except Exception as e:
             log("falhou", a, i, repr(e)[:300]); os.environ["HF_HUB_ENABLE_HF_TRANSFER"]="0"; time.sleep(20)
     raise SystemExit("download falhou")
-CK=baixar(hf_hub_download,"Lightricks/LTX-2.3","ltx-2.3-22b-dev.safetensors",local_dir=M)
-LO=baixar(hf_hub_download,"Lightricks/LTX-2.3","ltx-2.3-22b-distilled-lora-384-1.1.safetensors",local_dir=M)
-UP=baixar(hf_hub_download,"Lightricks/LTX-2.3","ltx-2.3-spatial-upscaler-x2-1.1.safetensors",local_dir=M)
+# O disco temporário da sessão grátis tem limite (~55 GB): o checkpoint de 46 GB é convertido para fp8 DURANTE o download
+# (só as Linears que o próprio --quantization fp8-cast converteria), sem nunca gravar a versão bf16.
+import json, struct, requests, torch
+SUF=(".to_q",".to_k",".to_v",".to_out.0","ff.net.0.proj","ff.net.2")
+def vira_fp8(k, dt):
+    return dt=="BF16" and "transformer_blocks." in k and any(k.endswith(sf+p) for sf in SUF for p in (".weight",".bias"))
+def baixar_fp8(repo, arq, dest):
+    url=f"https://huggingface.co/{repo}/resolve/main/{arq}"
+    n=struct.unpack("<Q", requests.get(url, headers={"Range":"bytes=0-7"}, timeout=120).content)[0]
+    hdr=json.loads(requests.get(url, headers={"Range":f"bytes=8-{7+n}"}, timeout=120).content)
+    meta=hdr.pop("__metadata__", None); itens=sorted(hdr.items(), key=lambda kv: kv[1]["data_offsets"][0])
+    novo={}; off=0; plano=[]
+    for k,v in itens:
+        a,b=v["data_offsets"]; conv=vira_fp8(k, v["dtype"]); tam=(b-a)//2 if conv else (b-a)
+        novo[k]={"dtype":"F8_E4M3" if conv else v["dtype"],"shape":v["shape"],"data_offsets":[off,off+tam]}; plano.append((k,a,b,conv)); off+=tam
+    if meta is not None: novo={"__metadata__":meta, **novo}
+    hj=json.dumps(novo, separators=(",",":")).encode(); hj+=b" "*((8-len(hj)%8)%8)
+    r=requests.get(url, headers={"Range":f"bytes={8+n}-"}, stream=True, timeout=300); r.raise_for_status(); raw=r.raw
+    pos=0; nconv=0
+    with open(dest,"wb") as f:
+        f.write(struct.pack("<Q",len(hj))); f.write(hj)
+        for k,a,b,conv in plano:
+            if a>pos: raw.read(a-pos)
+            buf=bytearray(); falta=b-a
+            while falta:
+                c=raw.read(min(falta, 64<<20))
+                if not c: raise IOError("stream terminou cedo em "+k)
+                buf+=c; falta-=len(c)
+            pos=b
+            if conv:
+                t=torch.frombuffer(buf, dtype=torch.bfloat16).to(torch.float8_e4m3fn); f.write(t.view(torch.uint8).numpy().tobytes()); nconv+=1
+            else: f.write(buf)
+    log("fp8:", nconv, "tensores convertidos; arquivo", round(os.path.getsize(dest)/1e9,1), "GB")
+    return dest
+CK=baixar(baixar_fp8,"Lightricks/LTX-2.3","ltx-2.3-22b-dev.safetensors",f"{M}/ltx-2.3-22b-dev-fp8cast.safetensors")
+LO=baixar(hf_hub_download,"Lightricks/LTX-2.3","ltx-2.3-22b-distilled-lora-384-1.1.safetensors",local_dir=f"{W}/m")
+UP=baixar(hf_hub_download,"Lightricks/LTX-2.3","ltx-2.3-spatial-upscaler-x2-1.1.safetensors",local_dir=f"{W}/m")
 G=baixar(snapshot_download,"Lightricks/LTX-2",local_dir=f"{M}/gemma",allow_patterns=["text_encoder/model-*","text_encoder/model.safetensors.index.json","text_encoder/config.json","text_encoder/generation_config.json","tokenizer/*"])
-log("downloads",round(time.time()-t),"s"); sh(f"du -sh {M}/*")
+log("downloads",round(time.time()-t),"s"); sh(f"du -sh {M}/* {W}/m/*", tol=True)
 os.environ["PYTORCH_CUDA_ALLOC_CONF"]="expandable_segments:True"
 COMUM=f"--checkpoint-path {CK} --distilled-lora {LO} 0.8 --spatial-upsampler-path {UP} --gemma-root {G} --quantization fp8-cast --offload cpu --frame-rate 24"
 P1=("A Brazilian lawyer in his forties with short dark hair, a trimmed beard and dark-rimmed glasses, wearing a navy blazer and a light blue open-collar shirt, "
@@ -46,4 +80,4 @@ if rc==0:
     rodar("A2V editor 8s", f'python -m ltx_pipelines.a2vid_two_stage {COMUM} --prompt "{P1}" --image {M}/foto.jpg 0 1.0 --audio-path {M}/voz.mp3 --audio-max-duration 8 --height 704 --width 384 --seed 7 --output-path {W}/previa_editor_a2v.mp4')
 # 3) cena da V1 com gente (texto para vídeo), 10 s
 rodar("T2V Rosa 10s", f'python -m ltx_pipelines.ti2vid_two_stages {COMUM} --prompt "{P2}" --num-frames 241 --height 704 --width 384 --seed 11 --output-path {W}/previa_rosa_t2v.mp4')
-log("fim"); sh(f"ls -la {W}", tol=True)
+log("fim"); sh(f"rm -rf {W}/m; ls -la {W}", tol=True)
