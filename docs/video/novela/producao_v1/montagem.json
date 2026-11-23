@@ -1,5 +1,5 @@
 {
- "duracao": 77.55,
+ "duracao": 80.65,
  "segmentos": [
   {
    "t": 0,
@@ -178,30 +178,31 @@
   },
   {
    "t": 57.05,
-   "fim": 64.05,
+   "fim": 65.1,
    "legendas": [
     {
      "txt": "E como ninguém avisou a dona Rosa,",
      "de": 0.3,
-     "ate": 2.94,
+     "ate": 3.37,
      "y": 1230
     },
     {
      "txt": "ela tem cento e oitenta dias pra depositar o preço.",
-     "de": 2.94,
-     "ate": 6.7,
+     "de": 3.37,
+     "ate": 7.75,
      "y": 1230
     }
    ],
-   "foto": "../personagem/foto_oficial.jpg",
+   "fundo": "planos/dr55.mp4",
+   "ini": 0,
    "lei": {
     "png": "telas/t55.png",
     "de": 0.6
    }
   },
   {
-   "t": 64.05,
-   "fim": 68.05,
+   "t": 65.1,
+   "fim": 69.1,
    "fundo": "planos/f4.mp4",
    "ini": 4,
    "borrar": true,
@@ -213,27 +214,28 @@
    ]
   },
   {
-   "t": 68.05,
-   "fim": 71.05,
+   "t": 69.1,
+   "fim": 74.15,
    "legendas": [
     {
      "txt": "Dona Rosa, a senhora não está sozinha.",
      "de": 0.3,
-     "ate": 2.7,
+     "ate": 4.75,
      "y": 1230
     }
    ],
-   "foto": "../personagem/foto_oficial.jpg"
+   "fundo": "planos/dr66.mp4",
+   "ini": 0
   },
   {
-   "t": 71.05,
-   "fim": 73.55,
+   "t": 74.15,
+   "fim": 76.65,
    "fundo": "planos/f5.mp4",
    "ini": 5.0
   },
   {
-   "t": 73.55,
-   "fim": 77.55,
+   "t": 76.65,
+   "fim": 80.65,
    "fundo": "planos/f1.mp4",
    "ini": 3,
    "borrar": true,
@@ -263,12 +265,12 @@
    "t": 46
   },
   {
-   "arq": "voz/fala55.mp3",
-   "t": 57.449999999999996
+   "arq": "planos/dr55.wav",
+   "t": 57.05
   },
   {
-   "arq": "voz/fala66.mp3",
-   "t": 68.45
+   "arq": "planos/dr66.wav",
+   "t": 69.1
   }
  ],
  "blips": [
@@ -281,7 +283,7 @@
   32.2,
   38.2,
   43.1,
-  64.25,
-  73.75
+  65.3,
+  76.85
  ]
 }
