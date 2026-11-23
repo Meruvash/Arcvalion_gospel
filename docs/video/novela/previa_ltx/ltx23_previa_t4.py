@@ -33,10 +33,10 @@ def rodar(nome, cmd):
     sh("nvidia-smi --query-gpu=memory.used --format=csv", tol=True)
     return rc
 # 1) ensaio curto (2 s) para medir velocidade e memória
-rc=rodar("A2V ensaio 2s", f'python -m ltx_pipelines.a2vid_two_stage {COMUM} --prompt "{P1}" --image {M}/foto.jpg 0 1.0 --audio-path {M}/voz.mp3 --audio-max-duration 2 --height 672 --width 384 --output-path {W}/ensaio_a2v.mp4')
+rc=rodar("A2V ensaio 2s", f'python -m ltx_pipelines.a2vid_two_stage {COMUM} --prompt "{P1}" --image {M}/foto.jpg 0 1.0 --audio-path {M}/voz.mp3 --audio-max-duration 2 --height 704 --width 384 --output-path {W}/ensaio_a2v.mp4')
 # 2) prévia de 8 s (a fala inteira) com o editor
 if rc==0:
-    rodar("A2V editor 8s", f'python -m ltx_pipelines.a2vid_two_stage {COMUM} --prompt "{P1}" --image {M}/foto.jpg 0 1.0 --audio-path {M}/voz.mp3 --audio-max-duration 8 --height 672 --width 384 --seed 7 --output-path {W}/previa_editor_a2v.mp4')
+    rodar("A2V editor 8s", f'python -m ltx_pipelines.a2vid_two_stage {COMUM} --prompt "{P1}" --image {M}/foto.jpg 0 1.0 --audio-path {M}/voz.mp3 --audio-max-duration 8 --height 704 --width 384 --seed 7 --output-path {W}/previa_editor_a2v.mp4')
 # 3) cena da V1 com gente (texto para vídeo), 10 s
-rodar("T2V Rosa 10s", f'python -m ltx_pipelines.ti2vid_two_stages {COMUM} --prompt "{P2}" --num-frames 241 --height 672 --width 384 --seed 11 --output-path {W}/previa_rosa_t2v.mp4')
+rodar("T2V Rosa 10s", f'python -m ltx_pipelines.ti2vid_two_stages {COMUM} --prompt "{P2}" --num-frames 241 --height 704 --width 384 --seed 11 --output-path {W}/previa_rosa_t2v.mp4')
 log("fim"); sh(f"ls -la {W}", tol=True)
