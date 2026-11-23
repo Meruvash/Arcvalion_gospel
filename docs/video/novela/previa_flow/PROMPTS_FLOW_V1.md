@@ -25,6 +25,21 @@ clipe Veo 3.1 Lite). Com refações, são 2 a 3 dias.
 **Rosa (texto fixo de todos os planos):** `a Brazilian woman in her mid-fifties, tanned skin, shoulder-length
 dark hair with grey strands tied back, simple floral cotton blouse`
 
+## Passo 0: folha da Rosa no Gemini (grátis), antes do Flow
+Abra gemini.google.com com a mesma conta Google e peça a imagem com este texto:
+
+`Create a character reference sheet of one fictional woman (not resembling any real person or actress): a Brazilian woman in her mid-fifties, tanned skin, shoulder-length dark hair with grey strands tied back, kind tired eyes, simple floral cotton blouse in soft pink and green. Five views on a plain light grey background, same person, same clothes: front, three-quarter left, three-quarter right, profile, close-up of the face. Even soft studio light, photorealistic, natural skin texture, no text.`
+
+- **Conferência:** o rosto tem que ser o mesmo nas 5 vistas, sem mão deformada. Se não estiver, peça de novo.
+- **Arquivo:** salve a melhor imagem como `rosa_folha.png`.
+- **No Flow:** nos planos f1, f2 e f5, use o modo de vídeo a partir de imagem (*Frames to video* ou *Ingredients to
+  video*). Envie a vista de frente da Rosa e cole o prompt do plano. Assim o rosto fica igual em todos os planos.
+- **Planos sem gente:** f3 e f4 vão só com o texto.
+
+## Como me entregar os arquivos
+Crie no Google Drive uma pasta chamada `Novela V1` e coloque lá a `rosa_folha.png` e os vídeos `f1.mp4` a `f5.mp4`.
+Eu leio direto do Drive pelo conector desta sessão. Se preferir, mande os arquivos aqui na conversa.
+
 ## Os 5 planos
 
 | Plano | Momento do roteiro | Prompt (colar no Flow) |
