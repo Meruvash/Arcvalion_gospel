@@ -1,0 +1,147 @@
+{
+ "titulo": "Terra Arrendada · V3 «O arrendatário que era dono da vez» (premissa: o humilde tem o poder, ciclos C4/C9 do modelo)",
+ "duracao_s": 70,
+ "aviso_dramatizacao": true,
+ "batidas": [
+  {
+   "t": 0,
+   "fim": 3,
+   "tipo": "GANCHO",
+   "quem": "Marcos",
+   "modo": "texto",
+   "fala": "Comprei a fazenda. O senhor tem até a colheita pra sumir daqui.",
+   "tela": "Grupo «Comunidade Córrego Fundo 🌽». Etiqueta MARCOS · o novo dono",
+   "marcas": [
+    "ataque",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 3,
+   "fim": 9,
+   "tipo": "HUMILHACAO",
+   "quem": "Marcos",
+   "modo": "audio",
+   "fala": "Arrendatário não é dono de nada, seu Antônio. O senhor só planta no que é meu.",
+   "tela": "Balão de áudio do Marcos; vizinhos visualizam",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 9,
+   "fim": 15,
+   "tipo": "HUMILHACAO",
+   "quem": "Marcos",
+   "modo": "texto",
+   "fala": "Paguei um milhão e duzentos à vista. Já pode ir encaixotando.",
+   "tela": "Foto da placa «VENDIDO» pregada na porteira (IA, sem gente)",
+   "marcas": [
+    "dinheiro",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 15,
+   "fim": 21,
+   "tipo": "PROVA_DESPREZADA",
+   "quem": "Marcos",
+   "modo": "audio",
+   "fala": "Contrato de arrendamento? Isso é papel de pão. Ninguém avisa arrendatário.",
+   "tela": "Antônio mandou foto do contrato de arrendamento dele, com carimbo e assinatura (objeto fictício, sem gente)",
+   "marcas": [
+    "objeto:contrato",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 21,
+   "fim": 27,
+   "tipo": "DESCRENCA",
+   "quem": "Vizinho Jair",
+   "modo": "texto",
+   "fala": "Seu Antônio agora inventou de ser advogado 😂",
+   "tela": "Duas reações 😂 de vizinhos",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 27,
+   "fim": 34,
+   "tipo": "TRANSICAO",
+   "quem": "Antônio",
+   "modo": "texto",
+   "fala": "Quarenta anos plantando aqui.",
+   "tela": "Lavoura de milho ao entardecer e contrato na mesa da varanda com café (IA, sem gente)",
+   "marcas": []
+  },
+  {
+   "t": 34,
+   "fim": 42,
+   "tipo": "REVELACAO",
+   "quem": "Antônio",
+   "modo": "audio",
+   "fala": "Quem arrenda tem preferência pra comprar. O dono tinha que me avisar e me dar trinta dias.",
+   "tela": "Cartão 1: Decreto 59.566/1966, art. 45 (texto literal), sobre o contrato",
+   "marcas": [
+    "objeto:contrato",
+    "poder_escondido"
+   ]
+  },
+  {
+   "t": 42,
+   "fim": 50,
+   "tipo": "LEI",
+   "quem": "Antônio",
+   "modo": "audio",
+   "fala": "Não me avisaram. Então eu deposito o mesmo preço e a terra fica comigo. Tenho seis meses do registro.",
+   "tela": "Cartão 2: art. 47 (texto literal)",
+   "marcas": [
+    "objeto:contrato"
+   ],
+   "fonte": "https://www.planalto.gov.br/ccivil_03/decreto/antigos/d59566.htm"
+  },
+  {
+   "t": 50,
+   "fim": 55,
+   "tipo": "QUEDA",
+   "quem": "Marcos",
+   "modo": "texto",
+   "fala": "Seu Antônio, vamos conversar com calma?",
+   "tela": "Marcos «digitando…» e apaga a foto da placa; o antigo dono sai do grupo",
+   "marcas": []
+  },
+  {
+   "t": 55,
+   "fim": 60,
+   "tipo": "RECOMPENSA",
+   "quem": "Vizinhos",
+   "modo": "texto",
+   "fala": "Isso aí, seu Antônio! 👏",
+   "tela": "Jair apaga o 😂; chovem 👏",
+   "marcas": []
+  },
+  {
+   "t": 60,
+   "fim": 66,
+   "tipo": "LEI",
+   "quem": "Dr. Pelicioni",
+   "modo": "narracao",
+   "fala": "Arrendatário tem preferência na venda da terra. Sem aviso, pode depositar o preço e ficar com ela.",
+   "tela": "Cartela escura: Decreto 59.566/1966, arts. 45 e 47 · link da fonte",
+   "marcas": [],
+   "fonte": "https://www.planalto.gov.br/ccivil_03/decreto/antigos/d59566.htm"
+  },
+  {
+   "t": 66,
+   "fim": 70,
+   "tipo": "GANCHO_FINAL",
+   "quem": "Marcos",
+   "modo": "texto",
+   "fala": "Confere a data do teu contrato, seu Antônio. Venceu ontem.",
+   "tela": "Tela congela; letreiro «PARTE 2»",
+   "marcas": []
+  }
+ ]
+}
