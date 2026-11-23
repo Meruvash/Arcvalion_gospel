@@ -15,10 +15,17 @@ sh('pip install -q "git+https://github.com/Lightricks/LTX-2.git#subdirectory=pac
 os.environ["HF_HUB_ENABLE_HF_TRANSFER"]="1"
 from huggingface_hub import hf_hub_download, snapshot_download
 t=time.time()
-CK=hf_hub_download("Lightricks/LTX-2.3","ltx-2.3-22b-dev.safetensors",local_dir=M)
-LO=hf_hub_download("Lightricks/LTX-2.3","ltx-2.3-22b-distilled-lora-384-1.1.safetensors",local_dir=M)
-UP=hf_hub_download("Lightricks/LTX-2.3","ltx-2.3-spatial-upscaler-x2-1.1.safetensors",local_dir=M)
-G=snapshot_download("Lightricks/LTX-2",local_dir=f"{M}/gemma",allow_patterns=["text_encoder/model-*","text_encoder/model.safetensors.index.json","text_encoder/config.json","text_encoder/generation_config.json","tokenizer/*"])
+def baixar(f, *a, **k):
+    for i in range(4):
+        try:
+            r=f(*a, **k); log("ok", a, round(time.time()-t),"s"); sh("free -g; df -h /tmp | tail -1", tol=True); return r
+        except Exception as e:
+            log("falhou", a, i, repr(e)[:300]); os.environ["HF_HUB_ENABLE_HF_TRANSFER"]="0"; time.sleep(20)
+    raise SystemExit("download falhou")
+CK=baixar(hf_hub_download,"Lightricks/LTX-2.3","ltx-2.3-22b-dev.safetensors",local_dir=M)
+LO=baixar(hf_hub_download,"Lightricks/LTX-2.3","ltx-2.3-22b-distilled-lora-384-1.1.safetensors",local_dir=M)
+UP=baixar(hf_hub_download,"Lightricks/LTX-2.3","ltx-2.3-spatial-upscaler-x2-1.1.safetensors",local_dir=M)
+G=baixar(snapshot_download,"Lightricks/LTX-2",local_dir=f"{M}/gemma",allow_patterns=["text_encoder/model-*","text_encoder/model.safetensors.index.json","text_encoder/config.json","text_encoder/generation_config.json","tokenizer/*"])
 log("downloads",round(time.time()-t),"s"); sh(f"du -sh {M}/*")
 os.environ["PYTORCH_CUDA_ALLOC_CONF"]="expandable_segments:True"
 COMUM=f"--checkpoint-path {CK} --distilled-lora {LO} 0.8 --spatial-upsampler-path {UP} --gemma-root {G} --quantization fp8-cast --offload cpu --frame-rate 24"
