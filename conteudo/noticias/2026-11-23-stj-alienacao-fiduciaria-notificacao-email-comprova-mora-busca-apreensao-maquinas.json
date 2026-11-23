@@ -1,0 +1,191 @@
+{
+ "slug": "stj-alienacao-fiduciaria-notificacao-email-comprova-mora-busca-apreensao-maquinas",
+ "data": "2026-11-23",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "STJ: e-mail aceito pelo servidor basta para banco pedir busca e apreensão de bem financiado",
+ "lide": "A Segunda Seção do STJ fixou, em decisão publicada nesta segunda-feira (23), que a notificação por e-mail comprova a mora do devedor na alienação fiduciária quando o sistema de destino aceita a mensagem, sem prova de leitura. A tese é precedente qualificado e vale para quem financiou trator, colheitadeira ou caminhonete dando o próprio bem em garantia.",
+ "por_que_importa": "Com a mora comprovada, o banco pode pedir à Justiça a busca e apreensão do bem. O e-mail que o produtor informou no contrato vira o canal oficial de cobrança: mensagem na caixa de spam ou nunca aberta não impede a retomada da máquina.",
+ "numeros": [
+  [
+   "23/11",
+   "foi a publicação da decisão da Segunda Seção, julgada em 11 de novembro",
+   "STJ, REsp 2.185.076/AL"
+  ],
+  [
+   "3",
+   "pontos tem a tese fixada para todos os tribunais, pelo art. 927 do Código de Processo Civil",
+   "STJ, REsp 2.185.076/AL"
+  ],
+  [
+   "Tema 1.132",
+   "é o repetitivo do STJ que já dispensava a ciência pessoal na notificação por carta",
+   "STJ"
+  ]
+ ],
+ "corpo": [
+  "Pela tese, o envio é efetivo quando há registro técnico verificável de que a mensagem foi aceita pelo sistema responsável pelo endereço indicado pelo devedor no contrato ou em atualização cadastral feita por ele. Depois disso, não leitura, classificação como spam ou falta de acesso não afastam a mora, salvo falha imputável ao credor.",
+  "Sem a resposta de aceitação do sistema de destino, não há envio efetivo. Demonstrado o envio, cabe ao devedor alegar e provar vício concreto. O relator foi o ministro João Otávio de Noronha, e o caso foi julgado com os REsps 2.162.311/AL e 2.190.406/AL."
+ ],
+ "no_brasil": "No regime do Decreto-Lei 911/1969, a mora decorre do simples vencimento, e a notificação só a comprova, como registra a ementa. O STJ já admitia carta enviada ao endereço do contrato, mesmo devolvida com \"ausente\" ou \"mudou-se\"; agora estende a lógica ao e-mail, no mesmo sentido do Tema 1.315.",
+ "critica": [
+  {
+   "fonte": "STJ, Segunda Seção, tese do REsp 2.185.076/AL",
+   "texto": "A notificação extrajudicial por meio eletrônico é apta a comprovar a mora do devedor fiduciante, nos termos do art. 2º, § 2º, do Decreto-Lei n. 911/1969, desde que demonstrado o envio efetivo ao endereço eletrônico indicado pelo próprio devedor no contrato ou em atualização cadastral por ele promovida, dispensada a prova da ciência pessoal e da leitura",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2185076&O=JT"
+  },
+  {
+   "fonte": "STJ, Segunda Seção, ressalva da mesma tese",
+   "texto": "Cabe ao devedor alegar e demonstrar vício concreto no envio ou no registro apresentado",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2185076&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor com máquina ou veículo em alienação fiduciária: mantenha ativo o e-mail que está no contrato, ou atualize o cadastro no banco já",
+  "Quem trocou de e-mail: comunique o banco por escrito e guarde o comprovante, porque a notificação vai para o endereço do contrato",
+  "Quem recebeu notificação: a mora fica comprovada mesmo sem ler a mensagem; procure o banco logo para negociar"
+ ],
+ "nao_e_para": [
+  "A tese não trata de cédula rural com penhor ou hipoteca, só de alienação fiduciária regida pelo Decreto-Lei 911/1969",
+  "Falha imputável ao banco continua afastando a comprovação da mora",
+  "O caso julgado é de Alagoas e a ementa não diz qual bem foi financiado"
+ ],
+ "veredito": "A gente entende a lógica do STJ, mas o recado ao produtor é prático: o e-mail do contrato agora vale como endereço de cobrança. Caixa abandonada ou e-mail do antigo gerente da fazenda pode custar a máquina na entressafra.",
+ "fontes": [
+  {
+   "nome": "STJ: ProRQF no REsp 2.185.076/AL, Segunda Seção, relator Ministro João Otávio de Noronha",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2185076&O=JT",
+   "data": "23/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Decreto-Lei 911/1969 (alienação fiduciária), art. 2º, § 2º",
+   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0911.htm",
+   "data": "01/10/1969",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 66,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Retomada de máquinas e veículos do produtor financiados com alienação fiduciária"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2185076&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 18,
+    "porque": "Precedente qualificado, obrigatório para todos os tribunais, em todo financiamento com alienação fiduciária"
+   },
+   "afinidade": {
+    "pontos": 12,
+    "porque": "Toca o produtor que financia máquinas e veículos com essa garantia, embora não seja regra só do agro"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Acórdão da Segunda Seção publicado no DJEN desta segunda-feira, 23/11, com tese obrigatória a partir de agora"
+   },
+   "comprovacao": {
+    "pontos": 14,
+    "porque": "Ementa e tese lidas na base do STJ"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Traduzimos a tese para quem financia máquina no campo"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 8,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: Segunda Seção do STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: manter o e-mail do contrato ativo (2)",
+    "Efeito obrigatório para todos os tribunais (3)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "ProRQF no REsp 2.185.076/AL",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Garantias e execução",
+  "coleta": "2026-11-23",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa e tese conferidas na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "bem financiado no caso concreto"
+  },
+  "duplicidade": {
+   "grupo": "Alienação fiduciária",
+   "itens": [
+    "REsp 2.185.076",
+    "REsp 2.162.311",
+    "REsp 2.190.406"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber se notificação por e-mail vale para busca e apreensão",
+   "entidades": [
+    "STJ",
+    "alienação fiduciária",
+    "busca e apreensão",
+    "Decreto-Lei 911/1969",
+    "Tema 1.132"
+   ],
+   "termos": [
+    "notificação por e-mail alienação fiduciária",
+    "busca e apreensão trator e-mail",
+    "STJ e-mail comprova mora"
+   ],
+   "atualizacao": "acompanhar aplicação da tese nos tribunais"
+  },
+  "agro": {
+   "demanda": "Produtores com máquinas e veículos em alienação fiduciária que podem ter a mora comprovada por e-mail não lido e sofrer busca e apreensão",
+   "prazo": "a partir da notificação aceita pelo servidor de e-mail",
+   "quem": "Produtores e empresas rurais com bens financiados em alienação fiduciária"
+  }
+ },
+ "descricao_seo": "STJ fixa tese: notificação por e-mail aceita pelo servidor comprova a mora na alienação fiduciária, sem prova de leitura. Vale para máquinas financiadas.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura da ementa e da tese, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: tese e fundamentos citados literalmente da ementa; a nota diz que a regra não é só do agro e que não alcança penhor e hipoteca da cédula rural. Não nomeia partes. O conselho prático decorre da própria tese. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-alienacao-fiduciaria-notificacao-email-comprova-mora-busca-apreensao-maquinas.jpg",
+  "credito": "Foto: Arquivo/Agência Brasil",
+  "alt": "Colheitadeira descarrega grãos em caminhão na lavoura (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/9Nal3CMNcpeZXWeH3MMR8pbScZo=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/graos_editada.jpg?itok=lw4hP_3n",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2017-01/aumento-da-produtividade-deve-elevar-em-153-colheita-de-graos-na-proxima"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-23T15:32:17-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-23T15:32:17-03:00"
+}
