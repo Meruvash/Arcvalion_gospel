@@ -1,7 +1,8 @@
 {
- "titulo": "Herança do Pai · V1 «O livro do pai» (premissa: objeto desprezado é o poder, ciclo C6 do modelo)",
- "duracao_s": 70,
+ "duracao_s": 75,
  "aviso_dramatizacao": true,
+ "protagonista": "Dr. Pelicioni",
+ "titulo": "Herança do Pai · V1 «O livro do pai» (objeto desprezado, C6) · protagonista Dr. Pelicioni",
  "batidas": [
   {
    "t": 0,
@@ -10,7 +11,7 @@
    "quem": "Valdir",
    "modo": "texto",
    "fala": "Vendi minha parte da fazenda. Não adianta chorar.",
-   "tela": "Grupo «Herança do Pai 🌾» (Valdir, Rosa, Zé, primas Lúcia e Neide). Etiqueta VALDIR · o irmão mais velho",
+   "tela": "Grupo «Herança do Pai 🌾». Etiqueta VALDIR · o irmão mais velho",
    "marcas": [
     "ataque",
     "testemunhas"
@@ -23,7 +24,7 @@
    "quem": "Valdir",
    "modo": "audio",
    "fala": "Você nunca teve dinheiro nem pra adubo, Rosa. Agora quem manda lá é o doutor Tavares.",
-   "tela": "Balão de áudio do Valdir no grupo; «Lúcia está digitando…»",
+   "tela": "Balão de áudio; «Lúcia está digitando…»",
    "marcas": [
     "testemunhas"
    ]
@@ -35,7 +36,7 @@
    "quem": "Tavares",
    "modo": "audio",
    "fala": "Dona Rosa, segunda eu chego com o trator. Paguei dois milhões à vista.",
-   "tela": "Conversa nova «Dr. Tavares (Goiânia)»; ele manda foto da porteira da fazenda (IA, sem gente)",
+   "tela": "Conversa «Tavares (Goiânia)»; foto da porteira (IA, sem gente)",
    "marcas": [
     "dinheiro"
    ]
@@ -47,7 +48,7 @@
    "quem": "Valdir",
    "modo": "audio",
    "fala": "Livro velho do pai? Isso não vale nada. Joga no lixo.",
-   "tela": "Rosa mandou no grupo a foto do Código Civil antigo do pai, capa gasta (objeto, sem gente)",
+   "tela": "Rosa mandou no grupo a foto do Código Civil antigo do pai (objeto, sem gente)",
    "marcas": [
     "objeto:livro_do_pai",
     "testemunhas"
@@ -59,90 +60,110 @@
    "tipo": "DESCRENCA",
    "quem": "Valdir",
    "modo": "texto",
-   "fala": "Para de inventar lei, Rosa. Quem tem dinheiro compra. Quem não tem, chora 😂",
-   "tela": "Lúcia reage 😂 na mensagem; Neide fica em silêncio",
+   "fala": "Para de inventar lei, Rosa. Chama quem você quiser. Ninguém vai te ajudar 😂",
+   "tela": "Lúcia reage 😂",
    "marcas": [
     "testemunhas"
    ]
   },
   {
    "t": 27,
-   "fim": 35,
+   "fim": 32,
    "tipo": "TRANSICAO",
-   "quem": "Zé",
+   "quem": "Rosa",
    "modo": "texto",
-   "fala": "Rosa… a gente vai perder a terra do pai?",
-   "tela": "Mesa da cozinha: café frio, retrato antigo do pai em moldura e o livro aberto numa página com marca-texto (IA, sem gente), câmera aproximando da página",
+   "fala": "Doutor, vão tomar a terra do meu pai.",
+   "tela": "Conversa com «Dr. Pelicioni ✔» (foto real dele no perfil): ✓✓ azul, «digitando…»",
    "marcas": []
   },
   {
-   "t": 35,
+   "t": 32,
+   "fim": 38,
+   "tipo": "TRANSICAO",
+   "quem": "Sistema",
+   "modo": "tela",
+   "fala": "Rosa adicionou Dr. Pelicioni.",
+   "tela": "Aviso de sistema no grupo; Valdir «digitando…»; o grupo fica em silêncio",
+   "marcas": []
+  },
+  {
+   "t": 38,
    "fim": 43,
    "tipo": "REVELACAO",
-   "quem": "Rosa",
-   "modo": "audio",
-   "fala": "Tanto por tanto, Valdir. Pelo mesmo preço que o doutor pagou, a tua parte fica comigo.",
-   "tela": "Foto da página do livro do pai: art. 1.794 grifado em amarelo (cartão 1, texto literal)",
+   "quem": "Dr. Pelicioni",
+   "modo": "texto",
+   "fala": "Boa tarde. Valdir, a sua próxima mensagem vai ser: quem é esse aí?",
+   "tela": "Mensagem dele no grupo, com a foto real no perfil",
    "marcas": [
-    "objeto:livro_do_pai",
+    "previsao",
     "poder_escondido"
    ]
   },
   {
    "t": 43,
-   "fim": 51,
+   "fim": 46,
+   "tipo": "TRANSICAO",
+   "quem": "Valdir",
+   "modo": "texto",
+   "fala": "Quem é esse aí?",
+   "tela": "Chega exatamente a mensagem prevista; Lúcia: 😳",
+   "marcas": [
+    "previsao_cumprida"
+   ]
+  },
+  {
+   "t": 46,
+   "fim": 55,
    "tipo": "LEI",
-   "quem": "Rosa",
-   "modo": "audio",
-   "fala": "Ninguém me avisou. Então a lei me dá cento e oitenta dias pra depositar o preço e ficar com a parte.",
-   "tela": "Cartão 2: art. 1.795 (texto literal) sobre a mesma página do livro",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Herança ainda não dividida: irmão tem preferência. Pelo mesmo preço, a parte fica com a família. Está no livro do seu pai.",
+   "tela": "Chamada de vídeo real do editor; cartão 1 (CC art. 1.794, literal) sobre a página do livro do pai",
    "marcas": [
     "objeto:livro_do_pai"
    ],
    "fonte": "https://legis.senado.leg.br/norma/552282/publicacao/15676634"
   },
   {
-   "t": 51,
-   "fim": 56,
-   "tipo": "QUEDA",
-   "quem": "Valdir / Tavares",
-   "modo": "texto",
-   "fala": "Esta mensagem foi apagada. Dona Rosa, podemos conversar com calma?",
-   "tela": "Valdir «digitando…» três vezes e depois «🚫 Esta mensagem foi apagada»; notificação do Tavares",
-   "marcas": []
-  },
-  {
-   "t": 56,
-   "fim": 60,
-   "tipo": "PROTECAO",
-   "quem": "Zé",
-   "modo": "texto",
-   "fala": "Eu entro com você no depósito, Rosa.",
-   "tela": "Zé no grupo; Neide manda 🙏",
-   "marcas": []
-  },
-  {
-   "t": 60,
-   "fim": 66,
+   "t": 55,
+   "fim": 62,
    "tipo": "LEI",
    "quem": "Dr. Pelicioni",
-   "modo": "narracao",
-   "fala": "Herança ainda não dividida: irmão tem preferência sobre comprador de fora. Prazo de cento e oitenta dias.",
-   "tela": "Cartela escura: CC arts. 1.794 e 1.795 · link da fonte",
+   "modo": "video",
+   "fala": "E como ninguém avisou a dona Rosa, ela tem cento e oitenta dias pra depositar o preço.",
+   "tela": "Vídeo real; cartão 2 (CC art. 1.795, literal)",
    "marcas": [],
    "fonte": "https://legis.senado.leg.br/norma/552282/publicacao/15676634"
   },
   {
+   "t": 62,
+   "fim": 66,
+   "tipo": "QUEDA",
+   "quem": "Valdir / Tavares / Dr. Pelicioni",
+   "modo": "texto",
+   "fala": "Esta mensagem foi apagada. — Doutor, podemos conversar? — Podemos. Com calma.",
+   "tela": "Valdir apaga; Tavares escreve ao doutor; resposta curta dele",
+   "marcas": []
+  },
+  {
    "t": 66,
-   "fim": 70,
+   "fim": 71,
+   "tipo": "PROTECAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Dona Rosa, a senhora não está sozinha.",
+   "tela": "Close real no rosto dele, meio sorriso; Rosa: «Obrigada, doutor 🙏»",
+   "marcas": []
+  },
+  {
+   "t": 71,
+   "fim": 75,
    "tipo": "GANCHO_FINAL",
    "quem": "Tavares",
    "modo": "texto",
-   "fala": "A senhora tem os dois milhões, dona Rosa? O prazo já começou a correr.",
-   "tela": "Tela congela; letreiro «PARTE 2»",
-   "marcas": [
-    "dinheiro"
-   ]
+   "fala": "Doutor, o senhor ainda não viu o que tem nesse contrato.",
+   "tela": "Tela congela; «PARTE 2»",
+   "marcas": []
   }
  ]
 }

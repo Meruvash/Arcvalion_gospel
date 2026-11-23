@@ -30,6 +30,18 @@ class TestAuditarNovela(unittest.TestCase):
         self.assertFalse(a["aprovado"])
         self.assertLess(a["nota_formula"], 0.85)
 
+    def test_protagonista_antes_da_virada_reprova(self):
+        r = copy.deepcopy(self.carregar("novela_v1_livro_do_pai.json"))
+        r["batidas"][1]["quem"] = "Dr. Pelicioni"
+        self.assertFalse(auditar(r)["aprovado"])
+
+    def test_promessa_de_resultado_reprova(self):
+        r = copy.deepcopy(self.carregar("novela_v1_livro_do_pai.json"))
+        for b in r["batidas"]:
+            if b["tipo"] == "PROTECAO":
+                b["fala"] = "Eu garanto que a senhora vai ganhar."
+        self.assertFalse(auditar(r)["aprovado"])
+
 
 if __name__ == "__main__":
     unittest.main()

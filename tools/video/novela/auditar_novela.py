@@ -6,7 +6,7 @@ Uso: python3 tools/video/novela/auditar_novela.py roteiro.json [--json]
 As fórmulas, os números e o modo de medir estão em docs/video/novela/FORMULAS_NOVELA.md.
 
 Duas camadas de regras:
-1. Obrigatórias (O1 a O7): nossas regras e o que o formato exige. Se uma falha, o roteiro reprova, qualquer que seja
+1. Obrigatórias (O1 a O9; O8 e O9 só quando o roteiro tem "protagonista"): nossas regras e o que o formato exige. Se uma falha, o roteiro reprova, qualquer que seja
    a nota.
 2. Fórmula do modelo (F1 a F10): cada item vale o peso medido nos 6 ciclos-pilar do modelo (a fração de pilares em
    que ele aparece). Aprovação com nota igual ou maior que 0,85.
@@ -15,7 +15,7 @@ Formato do roteiro.json:
 {
   "titulo": "...", "duracao_s": 70, "aviso_dramatizacao": true,
   "batidas": [
-    {"t": 0, "fim": 3, "tipo": "GANCHO", "quem": "Valdir", "modo": "texto|audio|tela|cartao|narracao",
+    {"t": 0, "fim": 3, "tipo": "GANCHO", "quem": "Valdir", "modo": "texto|audio|video|tela|cartao|narracao",
      "fala": "...", "tela": "...", "marcas": ["dinheiro", "testemunhas", "objeto:papel"], "fonte": "url (só LEI)"}
   ]
 }
@@ -69,7 +69,7 @@ def auditar(r):
     apertos = []
     for x in b:
         w, d = palavras(x.get("fala")), max(0.1, x["fim"] - x["t"])
-        teto = PALAVRAS_POR_S_AUDIO if x["modo"] in ("audio", "narracao") else PALAVRAS_POR_S_LEITURA
+        teto = PALAVRAS_POR_S_AUDIO if x["modo"] in ("audio", "narracao", "video") else PALAVRAS_POR_S_LEITURA
         if w / d > teto:
             apertos.append(f"{x['t']}s ({w} palavras em {d:.0f} s)")
     item("O5_falas_cabem", not apertos, f"apertadas: {apertos or 'nenhuma'}")
@@ -77,6 +77,24 @@ def auditar(r):
     buracos = [f"{b[i]['fim']}→{b[i+1]['t']}" for i in range(len(b) - 1) if abs(b[i + 1]["t"] - b[i]["fim"]) > 0.01]
     item("O7_linha_do_tempo", not buracos and abs(b[-1]["fim"] - dur) < 0.01,
          f"buracos ou sobreposições: {buracos or 'nenhum'}; fim {b[-1]['fim']} de {dur}")
+
+    # Protagonista (docs/video/novela/PERSONAGEM_DR_PELICIONI.md)
+    prot = r.get("protagonista")
+    if prot:
+        rev0 = next((x for x in b if x["tipo"] == "REVELACAO"), None)
+        dele = [x for x in b if prot.lower() in x["quem"].lower()]
+        antes_dele = [x for x in dele if rev0 and x["t"] < rev0["t"]]
+        leis_dele = [x for x in dele if x["tipo"] == "LEI"]
+        prev = [x for x in dele if "previsao" in x.get("marcas", [])]
+        cumpre = [x for x in b if "previsao_cumprida" in x.get("marcas", [])]
+        item("O8_protagonista_resolve",
+             bool(rev0) and prot.lower() in rev0["quem"].lower() and not antes_dele and leis_dele and prev
+             and cumpre and cumpre[0]["t"] > prev[0]["t"],
+             f"{prot}: entra na virada={bool(rev0) and prot.lower() in rev0['quem'].lower()}, aparece antes={len(antes_dele)}, "
+             f"falas de lei={len(leis_dele)}, previsão={len(prev)} cumprida={len(cumpre)}")
+        proib = r"garant|vai ganhar|com certeza|me contrat|contrat[ea] |consulta gr[aá]tis|honor[aá]ri|!"
+        ruins = [x["fala"] for x in dele if re.search(proib, x.get("fala", ""), re.I)]
+        item("O9_sem_promessa_nem_captacao", not ruins, f"falas vetadas: {ruins or 'nenhuma'}")
 
     # Fórmula do modelo
     rev = [x for x in b if x["tipo"] == "REVELACAO"]

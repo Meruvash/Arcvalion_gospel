@@ -1,7 +1,8 @@
 {
- "titulo": "Herança do Pai · V2 «O doutor que não era doutor» (premissa: falso poderoso desmascarado, ciclo C7 do modelo)",
- "duracao_s": 70,
+ "duracao_s": 75,
  "aviso_dramatizacao": true,
+ "protagonista": "Dr. Pelicioni",
+ "titulo": "Herança do Pai · V2 «O doutor de verdade» (falso poderoso, C7) · protagonista Dr. Pelicioni",
  "batidas": [
   {
    "t": 0,
@@ -10,7 +11,7 @@
    "quem": "Tavares",
    "modo": "texto",
    "fala": "Sou advogado. A parte do Valdir agora é minha. Assunto encerrado.",
-   "tela": "Grupo «Herança do Pai 🌾»: «Valdir adicionou Dr. Tavares». Etiqueta O COMPRADOR",
+   "tela": "Grupo «Herança do Pai 🌾»: «Valdir adicionou Tavares». Etiqueta O COMPRADOR",
    "marcas": [
     "ataque",
     "testemunhas"
@@ -23,7 +24,7 @@
    "quem": "Valdir",
    "modo": "audio",
    "fala": "Viu, Rosa? É doutor. Você vai discutir lei com advogado de Goiânia?",
-   "tela": "Balão de áudio do Valdir",
+   "tela": "Balão de áudio",
    "marcas": [
     "testemunhas"
    ]
@@ -35,7 +36,7 @@
    "quem": "Tavares",
    "modo": "audio",
    "fala": "Minha senhora, herdeiro vende pra quem quiser. Paguei oitocentos mil e está tudo assinado.",
-   "tela": "Balão de áudio do Tavares; foto de um maço de papéis sobre a mesa do carro (IA, sem gente)",
+   "tela": "Balão de áudio; maço de papéis no banco do carro (IA, sem gente)",
    "marcas": [
     "dinheiro",
     "testemunhas"
@@ -48,7 +49,7 @@
    "quem": "Lúcia",
    "modo": "texto",
    "fala": "Rosa, deixa disso. Ele é doutor, e você só estudou até a quarta série.",
-   "tela": "Prima Lúcia no grupo; 3 reações 😂",
+   "tela": "3 reações 😂",
    "marcas": [
     "testemunhas"
    ]
@@ -59,8 +60,8 @@
    "tipo": "PROVA_DESPREZADA",
    "quem": "Rosa / Tavares",
    "modo": "texto",
-   "fala": "Doutor, o cartão que o senhor deixou aqui diz corretor. — Detalhe. Roceira não entende de papel.",
-   "tela": "Rosa manda foto do cartão de visita dele: «TAVARES NEGÓCIOS · corretor» (objeto fictício, sem gente)",
+   "fala": "O cartão que o senhor deixou aqui diz corretor. — Detalhe. Roceira não entende de papel.",
+   "tela": "Foto do cartão de visita «TAVARES NEGÓCIOS · corretor» (objeto fictício)",
    "marcas": [
     "objeto:cartao",
     "testemunhas"
@@ -68,81 +69,105 @@
   },
   {
    "t": 27,
-   "fim": 34,
+   "fim": 32,
    "tipo": "HUMILHACAO",
    "quem": "Tavares",
    "modo": "audio",
-   "fala": "Escuta aqui: segunda-feira eu entro com o trator, com ou sem a senhora.",
-   "tela": "Foto da porteira fechada com corrente (IA, sem gente)",
+   "fala": "Pode chamar quem quiser. Segunda eu entro com o trator.",
+   "tela": "Foto da porteira com corrente (IA, sem gente)",
    "marcas": [
     "testemunhas"
    ]
   },
   {
-   "t": 34,
-   "fim": 42,
+   "t": 32,
+   "fim": 37,
+   "tipo": "TRANSICAO",
+   "quem": "Sistema",
+   "modo": "tela",
+   "fala": "Rosa adicionou Dr. Pelicioni.",
+   "tela": "Aviso de sistema; Tavares «digitando…» e para",
+   "marcas": []
+  },
+  {
+   "t": 37,
+   "fim": 43,
    "tipo": "REVELACAO",
-   "quem": "Rosa",
-   "modo": "audio",
-   "fala": "Herdeiro não vende pra estranho se outro herdeiro quiser pagar o mesmo preço. Está no Código Civil, doutor.",
-   "tela": "Cartão 1: art. 1.794 (texto literal), com o cartão de visita «corretor» ao lado",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Boa tarde, Tavares. Ou devo dizer corretor Tavares? Está no cartão que o senhor deixou.",
+   "tela": "Chamada de vídeo real do editor; ao lado, o cartão de visita «corretor»",
    "marcas": [
     "objeto:cartao",
     "poder_escondido"
    ]
   },
   {
-   "t": 42,
-   "fim": 50,
+   "t": 43,
+   "fim": 52,
    "tipo": "LEI",
-   "quem": "Rosa",
-   "modo": "audio",
-   "fala": "E como ninguém me avisou, eu tenho cento e oitenta dias pra depositar os oitocentos mil e ficar com a parte.",
-   "tela": "Cartão 2: art. 1.795 (texto literal)",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Herdeiro não vende pra pessoa de fora se outro herdeiro quiser pagar o mesmo preço. Artigo 1.794 do Código Civil.",
+   "tela": "Vídeo real; cartão 1 (CC art. 1.794, literal)",
+   "marcas": [],
+   "fonte": "https://legis.senado.leg.br/norma/552282/publicacao/15676634"
+  },
+  {
+   "t": 52,
+   "fim": 58,
+   "tipo": "LEI",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Sem aviso, a dona Rosa tem cento e oitenta dias pra depositar os oitocentos mil.",
+   "tela": "Vídeo real; cartão 2 (CC art. 1.795, literal)",
    "marcas": [
     "dinheiro"
    ],
    "fonte": "https://legis.senado.leg.br/norma/552282/publicacao/15676634"
   },
   {
-   "t": 50,
-   "fim": 55,
-   "tipo": "QUEDA",
-   "quem": "Tavares / Valdir",
-   "modo": "texto",
-   "fala": "Tavares saiu do grupo. — Rosa… a gente pode conversar?",
-   "tela": "Aviso de sistema «Tavares saiu»; Valdir escreve baixinho",
-   "marcas": []
-  },
-  {
-   "t": 55,
-   "fim": 60,
-   "tipo": "RECOMPENSA",
-   "quem": "Lúcia",
-   "modo": "texto",
-   "fala": "Desculpa, Rosa. Você estava certa o tempo todo.",
-   "tela": "Lúcia apaga o 😂 e manda 🙏",
-   "marcas": []
-  },
-  {
-   "t": 60,
-   "fim": 66,
-   "tipo": "LEI",
+   "t": 58,
+   "fim": 62,
+   "tipo": "TRANSICAO",
    "quem": "Dr. Pelicioni",
-   "modo": "narracao",
-   "fala": "Herança ainda não dividida: irmão tem preferência sobre comprador de fora. Prazo de cento e oitenta dias.",
-   "tela": "Cartela escura: CC arts. 1.794 e 1.795 · link da fonte",
-   "marcas": [],
-   "fonte": "https://legis.senado.leg.br/norma/552282/publicacao/15676634"
+   "modo": "texto",
+   "fala": "Agora o senhor vai sair do grupo.",
+   "tela": "Mensagem dele, sem ponto de exclamação",
+   "marcas": [
+    "previsao"
+   ]
   },
   {
-   "t": 66,
+   "t": 62,
+   "fim": 65,
+   "tipo": "QUEDA",
+   "quem": "Sistema",
+   "modo": "tela",
+   "fala": "Tavares saiu do grupo.",
+   "tela": "Aviso de sistema, exatamente como ele previu",
+   "marcas": [
+    "previsao_cumprida"
+   ]
+  },
+  {
+   "t": 65,
    "fim": 70,
+   "tipo": "RECOMPENSA",
+   "quem": "Lúcia / Rosa",
+   "modo": "texto",
+   "fala": "Desculpa, Rosa. Você estava certa. — Obrigada, doutor.",
+   "tela": "Lúcia apaga o 😂; Rosa manda 🙏",
+   "marcas": []
+  },
+  {
+   "t": 70,
+   "fim": 75,
    "tipo": "GANCHO_FINAL",
    "quem": "Número desconhecido",
    "modo": "texto",
-   "fala": "Dona Rosa, aqui é o advogado de verdade do comprador. Precisamos conversar.",
-   "tela": "Notificação de número desconhecido; letreiro «PARTE 2»",
+   "fala": "Doutor Pelicioni? Aqui é o advogado de verdade do Tavares. Vamos conversar.",
+   "tela": "Notificação; «PARTE 2»",
    "marcas": []
   }
  ]

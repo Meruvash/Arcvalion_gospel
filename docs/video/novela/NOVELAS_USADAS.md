@@ -2,8 +2,8 @@
 
 Todo roteiro novo confere esta tabela: não repetir objeto-prova, gancho final nem frase de impacto.
 
-| Roteiro | Status | Premissa (ciclo do modelo) | Objeto-prova | Frase de impacto | Gancho final |
-|---|---|---|---|---|---|
-| V1 «O livro do pai» | proposta (23/11/2026) | objeto desprezado (C6) | Código Civil antigo do pai | "Tanto por tanto, Valdir." | "A senhora tem os dois milhões?" |
-| V2 «O doutor que não era doutor» | proposta (23/11/2026) | falso poderoso (C7) | cartão de visita «corretor» | "Está no Código Civil, doutor." | "Aqui é o advogado de verdade do comprador." |
-| V3 «O arrendatário» | proposta (23/11/2026) | humilde tem o poder (C4/C9) | contrato de arrendamento | "O dono tinha que me avisar." | "Confere a data do teu contrato. Venceu ontem." |
+| Roteiro | Status | Premissa (ciclo do modelo) | Objeto-prova | Frase de impacto | Previsão do Dr. Pelicioni | Gancho final |
+|---|---|---|---|---|---|---|
+| V1 «O livro do pai» | proposta (23/11/2026) | objeto desprezado (C6) | Código Civil antigo do pai | "Está no livro do seu pai." | "A sua próxima mensagem vai ser: quem é esse aí?" | "O senhor ainda não viu o que tem nesse contrato." |
+| V2 «O doutor que não era doutor» | proposta (23/11/2026) | falso poderoso (C7) | cartão de visita «corretor» | "Ou devo dizer corretor Tavares?" | "Agora o senhor vai sair do grupo." | "Aqui é o advogado de verdade do Tavares." |
+| V3 «O arrendatário» | proposta (23/11/2026) | humilde tem o poder (C4/C9) | contrato de arrendamento | "Agora quem conversa é a lei." | "Daqui a pouco ele vai perguntar se dá pra conversar com calma." | "Confere a data do teu contrato. Venceu ontem." |

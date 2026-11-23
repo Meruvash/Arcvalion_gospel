@@ -108,7 +108,14 @@ ou mais.
 **Para gerar variações:** escolha 1 premissa, troque o objeto e o vilão, e use só fato de lei já lido na fonte. Cada
 roteiro novo usa objeto, gancho final e frase de impacto diferentes dos anteriores, registrados em `NOVELAS_USADAS.md`.
 
-## 5. O que o verificador não vê
+## 5. Protagonista: Dr. Pelicioni (desde 23/11/2026)
+O lugar do "poderoso que chega na virada" do modelo (o "Who dares touch her?") é sempre do **Dr. Pelicioni**. Ficha e
+limites estão em `PERSONAGEM_DR_PELICIONI.md`. Com `"protagonista": "Dr. Pelicioni"` no JSON, o verificador exige:
+- **O8:** ele não aparece antes da virada, entra na batida de REVELAÇÃO, tem fala de LEI e faz uma previsão
+  (`previsao`) que se cumpre depois (`previsao_cumprida`);
+- **O9:** nenhuma promessa de resultado, pedido de contratação ou ponto de exclamação nas falas dele.
+
+## 6. O que o verificador não vê
 O verificador confere a estrutura a partir das marcas que o roteirista declara (tipos e `marcas`). Ele **não julga** se a
 humilhação dói, se a fala soa natural ou se a lei está certa. Isso continua sendo leitura humana, como a parte de
 julgamento da auditoria do agro.

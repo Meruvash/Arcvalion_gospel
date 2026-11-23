@@ -1,7 +1,8 @@
 {
- "titulo": "Terra Arrendada · V3 «O arrendatário que era dono da vez» (premissa: o humilde tem o poder, ciclos C4/C9 do modelo)",
- "duracao_s": 70,
+ "duracao_s": 75,
  "aviso_dramatizacao": true,
+ "protagonista": "Dr. Pelicioni",
+ "titulo": "Terra Arrendada · V3 «Quem conversa é a lei» (humilde tem o poder, C4/C9) · protagonista Dr. Pelicioni",
  "batidas": [
   {
    "t": 0,
@@ -23,7 +24,7 @@
    "quem": "Marcos",
    "modo": "audio",
    "fala": "Arrendatário não é dono de nada, seu Antônio. O senhor só planta no que é meu.",
-   "tela": "Balão de áudio do Marcos; vizinhos visualizam",
+   "tela": "Balão de áudio; vizinhos visualizam",
    "marcas": [
     "testemunhas"
    ]
@@ -35,7 +36,7 @@
    "quem": "Marcos",
    "modo": "texto",
    "fala": "Paguei um milhão e duzentos à vista. Já pode ir encaixotando.",
-   "tela": "Foto da placa «VENDIDO» pregada na porteira (IA, sem gente)",
+   "tela": "Foto da placa «VENDIDO» na porteira (IA, sem gente)",
    "marcas": [
     "dinheiro",
     "testemunhas"
@@ -48,7 +49,7 @@
    "quem": "Marcos",
    "modo": "audio",
    "fala": "Contrato de arrendamento? Isso é papel de pão. Ninguém avisa arrendatário.",
-   "tela": "Antônio mandou foto do contrato de arrendamento dele, com carimbo e assinatura (objeto fictício, sem gente)",
+   "tela": "Antônio mandou foto do contrato dele, com carimbo (objeto fictício)",
    "marcas": [
     "objeto:contrato",
     "testemunhas"
@@ -61,86 +62,100 @@
    "quem": "Vizinho Jair",
    "modo": "texto",
    "fala": "Seu Antônio agora inventou de ser advogado 😂",
-   "tela": "Duas reações 😂 de vizinhos",
+   "tela": "Duas reações 😂",
    "marcas": [
     "testemunhas"
    ]
   },
   {
    "t": 27,
-   "fim": 34,
+   "fim": 33,
    "tipo": "TRANSICAO",
    "quem": "Antônio",
-   "modo": "texto",
-   "fala": "Quarenta anos plantando aqui.",
-   "tela": "Lavoura de milho ao entardecer e contrato na mesa da varanda com café (IA, sem gente)",
+   "modo": "audio",
+   "fala": "Doutor, são quarenta anos plantando aqui. Vou ter que sair?",
+   "tela": "Lavoura de milho ao entardecer (IA, sem gente); áudio enviado a «Dr. Pelicioni ✔»",
    "marcas": []
   },
   {
-   "t": 34,
-   "fim": 42,
+   "t": 33,
+   "fim": 38,
+   "tipo": "TRANSICAO",
+   "quem": "Sistema",
+   "modo": "tela",
+   "fala": "Chamada de vídeo de Dr. Pelicioni.",
+   "tela": "Tela de chamada recebida, com a foto real dele",
+   "marcas": []
+  },
+  {
+   "t": 38,
+   "fim": 46,
    "tipo": "REVELACAO",
-   "quem": "Antônio",
-   "modo": "audio",
-   "fala": "Quem arrenda tem preferência pra comprar. O dono tinha que me avisar e me dar trinta dias.",
-   "tela": "Cartão 1: Decreto 59.566/1966, art. 45 (texto literal), sobre o contrato",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Seu Antônio, o senhor tem preferência pra comprar. O dono tinha que lhe avisar e dar trinta dias.",
+   "tela": "Vídeo real; cartão 1 (Decreto 59.566/1966, art. 45, literal) sobre o contrato",
    "marcas": [
     "objeto:contrato",
     "poder_escondido"
-   ]
+   ],
+   "fonte": "https://www.planalto.gov.br/ccivil_03/decreto/antigos/d59566.htm"
   },
   {
-   "t": 42,
-   "fim": 50,
+   "t": 46,
+   "fim": 54,
    "tipo": "LEI",
-   "quem": "Antônio",
-   "modo": "audio",
-   "fala": "Não me avisaram. Então eu deposito o mesmo preço e a terra fica comigo. Tenho seis meses do registro.",
-   "tela": "Cartão 2: art. 47 (texto literal)",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Ninguém avisou. Então o senhor deposita o mesmo preço e a terra fica com o senhor. Prazo: seis meses do registro.",
+   "tela": "Vídeo real; cartão 2 (art. 47, literal)",
    "marcas": [
     "objeto:contrato"
    ],
    "fonte": "https://www.planalto.gov.br/ccivil_03/decreto/antigos/d59566.htm"
   },
   {
-   "t": 50,
-   "fim": 55,
+   "t": 54,
+   "fim": 59,
+   "tipo": "TRANSICAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Daqui a pouco o Marcos vai lhe perguntar se dá pra conversar com calma.",
+   "tela": "Vídeo real, fala baixa e pausada",
+   "marcas": [
+    "previsao"
+   ]
+  },
+  {
+   "t": 59,
+   "fim": 63,
    "tipo": "QUEDA",
    "quem": "Marcos",
    "modo": "texto",
    "fala": "Seu Antônio, vamos conversar com calma?",
-   "tela": "Marcos «digitando…» e apaga a foto da placa; o antigo dono sai do grupo",
-   "marcas": []
+   "tela": "Chega exatamente a mensagem prevista",
+   "marcas": [
+    "previsao_cumprida"
+   ]
   },
   {
-   "t": 55,
-   "fim": 60,
-   "tipo": "RECOMPENSA",
-   "quem": "Vizinhos",
-   "modo": "texto",
-   "fala": "Isso aí, seu Antônio! 👏",
-   "tela": "Jair apaga o 😂; chovem 👏",
-   "marcas": []
-  },
-  {
-   "t": 60,
-   "fim": 66,
-   "tipo": "LEI",
-   "quem": "Dr. Pelicioni",
-   "modo": "narracao",
-   "fala": "Arrendatário tem preferência na venda da terra. Sem aviso, pode depositar o preço e ficar com ela.",
-   "tela": "Cartela escura: Decreto 59.566/1966, arts. 45 e 47 · link da fonte",
-   "marcas": [],
-   "fonte": "https://www.planalto.gov.br/ccivil_03/decreto/antigos/d59566.htm"
-  },
-  {
-   "t": 66,
+   "t": 63,
    "fim": 70,
+   "tipo": "PROTECAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Pode responder que sim, seu Antônio. Agora quem conversa é a lei.",
+   "tela": "Close real; no grupo, Jair apaga o 😂 e chovem 👏",
+   "marcas": []
+  },
+  {
+   "t": 70,
+   "fim": 75,
    "tipo": "GANCHO_FINAL",
    "quem": "Marcos",
    "modo": "texto",
    "fala": "Confere a data do teu contrato, seu Antônio. Venceu ontem.",
-   "tela": "Tela congela; letreiro «PARTE 2»",
+   "tela": "Tela congela; «PARTE 2»",
    "marcas": []
   }
  ]
