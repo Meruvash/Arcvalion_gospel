@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Envia um script ao Kaggle (GPU grátis) e acompanha. O proxy do ambiente injeta a credencial do Kaggle.
-Uso: python3 kaggle.py push <script.py> <slug> [--maquina NvidiaTeslaT4]
+Uso: python3 kaggle.py push <script.py> <slug> [--maquina NvidiaTeslaT4] [--dataset dono/slug]
      python3 kaggle.py status <slug> | python3 kaggle.py saida <slug> <pasta>"""
 import json, sys, os, urllib.request
 API = "https://www.kaggle.com/api/v1"; USER = "basedevalores"
@@ -13,7 +13,8 @@ if cmd == "push":
     maq = sys.argv[sys.argv.index("--maquina") + 1] if "--maquina" in sys.argv else "NvidiaTeslaT4"
     print(req("/kernels/push", {"slug": f"{USER}/{sys.argv[3]}", "newTitle": sys.argv[3], "text": open(sys.argv[2]).read(),
           "language": "python", "kernelType": "script", "isPrivate": True, "enableGpu": True, "enableInternet": True,
-          "machineShape": maq}))
+          "machineShape": maq,
+          "datasetDataSources": [sys.argv[sys.argv.index("--dataset") + 1]] if "--dataset" in sys.argv else []}))
 elif cmd == "status":
     print(req(f"/kernels/status?userName={USER}&kernelSlug={sys.argv[2]}"))
 elif cmd == "saida":

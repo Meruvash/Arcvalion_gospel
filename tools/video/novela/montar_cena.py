@@ -123,6 +123,10 @@ def segmento(c, base, tmp, i, faixa):
 def main():
     mj = os.path.abspath(sys.argv[1]); base = os.path.dirname(mj); m = json.load(open(mj, encoding="utf-8"))
     saida = os.path.abspath(sys.argv[2])
+    if m.get("exigir_sincronia"):
+        sem = [c["arq"] for c in m["clipes"] if not c.get("sincronia_ok")]
+        if sem:
+            sys.exit("cenas sem sincronia aprovada (garantir_sincronia.py): " + ", ".join(sem))
     with tempfile.TemporaryDirectory() as tmp:
         faixa = os.path.join(tmp, "faixa.png"); faixa_drama(faixa)
         segs = [segmento(c, base, tmp, i, faixa) for i, c in enumerate(m["clipes"])]
