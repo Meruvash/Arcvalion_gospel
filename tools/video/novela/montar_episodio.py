@@ -79,6 +79,10 @@ def segmento(s, base, tmp, i):
         de = s["lei"]["de"]
         filt.append(f"[{atual}][{n}]overlay=x=0:y='1420+max(0\\,({de}+0.3-t))*1600':enable='gte(t,{de})'[v{n}]")
         atual = f"v{n}"; n += 1
+    if s.get("cartoes") or s.get("foto"):
+        # zoom lento contínuo: nenhuma tela de conversa fica parada (auditoria V5); a legenda entra depois, sem zoom
+        filt.append(f"[{atual}]scale=w='trunc({W}*(1+0.012*t)/2)*2':h=-2:eval=frame,crop={W}:{H},setsar=1[vz]")
+        atual = "vz"
     for k, lg in enumerate(s.get("legendas", [])):
         lp = os.path.join(tmp, f"leg{i}_{k}.png"); alt = legenda_png(lg["txt"], lp)
         ins += ["-loop", "1", "-i", lp]
