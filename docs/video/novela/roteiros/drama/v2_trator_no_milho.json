@@ -1,0 +1,60 @@
+{
+  "title": "O trator no milho",
+  "logline": "O Valdir passa o trator por cima do milho que o Seu Antônio vai colher em 15 dias, e o Dr. Pelicioni prevê o argumento dele e o transforma em prova gravada no celular da própria Cleide.",
+  "serie": {"parte": 2, "handoff_anterior": "V1 «O livro do pai»: o Valdir quer a terra do pai; a Cleide, sozinha, prometeu outro plano.", "conta_paga": "o celular da Cleide, que filma tudo, vira prova contra eles"},
+  "padrao_caseiro": {
+    "duvida_que_o_produtor_busca": "arrendamento sem contrato escrito vale? o dono pode tirar antes da colheita?",
+    "mito_desfeito": "sem papel assinado, o arrendatário não tem direito nenhum",
+    "o_que_esta_em_risco": "a lavoura de um ano inteiro, a 15 dias da colheita"
+  },
+  "template": "live-action",
+  "format": "dialogue",
+  "style": "live-action, cinematic Brazilian telenovela, golden late-afternoon sun over a ripe cornfield, shallow depth of field, handheld close-ups",
+  "durationSeconds": 60,
+  "aspectRatio": "9:16",
+  "resolution": "720p",
+  "asked": {"from": "Editor: novela em português do Brasil, interior paulista, elenco fixo e vozes fixas (ELENCO_FIXO.md)", "language": "pt-BR"},
+  "leis": [
+    {"texto": "Art 11. Os contratos de arrendamento e de parceria poderão ser escritos ou verbais.", "fonte": "Decreto 59.566/1966, art. 11, https://www.planalto.gov.br/ccivil_03/decreto/antigos/d59566.htm (lido em 23/11/2026)"},
+    {"texto": "Art. 92. A posse ou uso temporário da terra serão exercidos em virtude de contrato expresso ou tácito […].", "fonte": "Lei 4.504/1964 (Estatuto da Terra), art. 92, https://www.planalto.gov.br/ccivil_03/leis/l4504.htm (lido em 23/11/2026)"},
+    {"texto": "Art. 95. […] I - os prazos de arrendamento terminarão sempre depois de ultimada a colheita […].", "fonte": "Lei 4.504/1964, art. 95, I, mesma fonte"}
+  ],
+  "previsao": {
+    "fala": "Ele vai pedir o seu contrato. Deixa ele pedir.",
+    "por_que_e_inteligente": "o doutor prevê o argumento do vilão (\"sem papel não vale\") e deixa ele falar: ao pedir o contrato, o Valdir diz em voz alta que o Seu Antônio planta ali há trinta anos, e a Cleide está gravando. O argumento do vilão vira a prova do contrato tácito."
+  },
+  "screenplay": "TITLE: O TRATOR NO MILHO\nRuntime: ~60 s | Locations: roça de milho do Seu Antônio | Cast: Seu Antônio (arrendatário), Valdir (antagonista), Cleide (vilã), Bruna (aliada), Dr. Pelicioni (protagonista) + dois trabalhadores na cerca\n\n— CLIP k1 (0:00–0:15) — l1 —\n\nHOOK (0:00)\nUm trator vermelho velho avança sobre a roça de milho maduro, e o Seu Antônio, de chapéu de palha, entra na frente dele de braços abertos. O Valdir, no banco do trator, acelera, e a fumaça preta sobe.\n\nVALDIR\nSai da frente, véio! A terra agora é minha.\n\nFRICTION (0:08)\nNa cerca, a Cleide filma tudo com o celular erguido e sorri. O chapéu treme na mão do Seu Antônio, e a voz dele quebra.\n\nSEU ANTÔNIO\nFalta quinze dias pra colher, seu Valdir. Quinze dias.\n\n— CLIP k2 (0:15–0:30) — l1 —\n\nJOLT 1 (0:16)\nO Valdir puxa a alavanca, e o trator dá um tranco para a frente. Os primeiros pés de milho deitam diante da roda, e o Seu Antônio recua um passo.\n\nCLEIDE\nCalma, amor. Tô gravando tudo pro juiz.\n\nJOLT 2 (0:20)\nA Bruna chega correndo pela estrada de terra, e atrás dela vem o Dr. Pelicioni, de terno escuro, a passo firme. Ele para ao lado do Seu Antônio, sem olhar para o trator, e fala baixo.\n\nDR. PELICIONI\nEle vai pedir o seu contrato. Deixa ele pedir.\n\nDois trabalhadores param na cerca e olham.\n\n— CLIP k3 (0:30–0:45) — l1 —\n\nO Valdir desce do trator, bate a porta da cabine e aponta o dedo para o Seu Antônio.\n\nVALDIR\nCadê o contrato? Trinta anos aqui e nenhum papel!\n\nO Dr. Pelicioni vira a cabeça devagar na direção da Cleide e do celular dela.\n\nDR. PELICIONI\nTrinta anos. E a sua mulher gravou o senhor dizendo.\n\nSPIKE (0:40)\nTodos se viram para a Cleide. Ela esconde o celular atrás das costas, depressa, e o sorriso some. Os trabalhadores na cerca riem.\n\n[INSERT: a tela do celular da Cleide ainda gravando, o ponto vermelho piscando.]\n\n— CLIP k4 (0:45–1:00) — l1 —\n\nDR. PELICIONI\nContrato de boca vale. E só acaba depois da colheita.\n\nENDING (0:50)\nO Seu Antônio põe o chapéu de volta na cabeça e encara o Valdir.\n\nSEU ANTÔNIO\nTerra tem memória, seu Valdir.\n\nO Valdir sobe no trator e dá ré para fora do milho, os pés deitados ficando para trás. A Bruna estende a mão aberta para a Cleide pedindo o celular, e a Cleide aperta o celular contra o peito.\n\nCUT TO BLACK.",
+  "locations": [
+    {"id": "l1", "description": "roça de milho maduro de um sítio do interior paulista nos dias de hoje: fileiras altas de milho com espigas secas, estrada de terra vermelha na beira, cerca de arame com mourões de madeira, uma casinha simples de alvenaria ao fundo", "light": "sol baixo do fim da tarde, dourado, vindo de lado, poeira no ar", "anchor": "o trator vermelho velho, sem marca, parado na entrada da roça"}
+  ],
+  "cast": [
+    {"id": "c1", "kind": "human", "name": "Seu Antônio", "age": 72, "gender": "man", "role": "vítima — arrendatário que planta ali há 30 anos, por acordo de boca com o pai da Rosa", "appearance": "brasileiro, pele morena marcada de sol, barba branca rala, rosto enrugado, mãos grossas", "wardrobe": "camisa de botão bege gasta, calça de brim azul desbotada, botina, chapéu de palha", "voice": "idoso, caloroso (ElevenLabs zoe2cQFqDDW4DteHDEWI)", "faceImage": "elenco/folhas/antonio.jpg (folha nova, a fazer)"},
+    {"id": "c2", "kind": "human", "name": "Valdir", "age": 59, "gender": "man", "role": "antagonista — irmão da Rosa, quer a terra do pai livre", "appearance": "brasileiro, pele vermelha de sol, bigode grisalho, barriga", "wardrobe": "camisa xadrez marrom para dentro da calça, cinto de fivela grande dourada, chapéu branco, corrente de ouro", "voice": "grave, decidido (ElevenLabs rnJZLKxtlBZt77uIED10)", "faceImage": "elenco/folhas/valdir.jpg"},
+    {"id": "c3", "kind": "human", "name": "Cleide", "age": 50, "gender": "woman", "role": "vilã — mulher do Valdir, filma tudo", "appearance": "brasileira, pele clara, cabelo loiro tingido e escovado, unhas longas vermelhas", "wardrobe": "blusa de oncinha, calça preta, brincos grandes dourados", "voice": "rouca, com malícia (ElevenLabs HReOQZPV9tH5iTEnSbGo)", "faceImage": "elenco/folhas/cleide.jpg"},
+    {"id": "c4", "kind": "human", "name": "Bruna", "age": 27, "gender": "woman", "role": "aliada — sobrinha do Valdir, chamou o doutor", "appearance": "brasileira, pele parda, cabelo cacheado solto, sardas", "wardrobe": "camiseta amarela lisa, jaqueta jeans, tênis", "voice": "jovem, enérgica (ElevenLabs GDzHdQOi6jjf8zaXhCYD)", "faceImage": "elenco/folhas/bruna.jpg"},
+    {"id": "c5", "kind": "human", "name": "Dr. Pelicioni", "age": 45, "gender": "man", "role": "protagonista — advogado que a Bruna chamou", "appearance": "como na foto oficial do editor (personagem/foto_oficial.jpg)", "wardrobe": "terno escuro bem cortado, camisa branca, sem gravata", "voice": "voz clonada do editor, gerada por voz_editor_s_neutro.py (amostra fala46)", "faceImage": "elenco/folhas/dr_pelicioni.jpg"}
+  ],
+  "groups": [
+    {"id": "g1", "name": "trabalhadores na cerca", "kind": "group", "size": 2, "description": "dois homens de uns 30 e 50 anos, camiseta suja de terra, boné, encostados na cerca de arame"}
+  ],
+  "props": [
+    {"id": "p1", "name": "celular da Cleide", "description": "celular de capa dourada, erguido gravando; no fim, apertado contra o peito da Cleide", "holder": "c3", "sheetFrom": null},
+    {"id": "p2", "name": "chapéu de palha do Seu Antônio", "description": "chapéu de palha gasto; começa na mão dele, tremendo; no fim, de volta na cabeça", "holder": "c1", "sheetFrom": null}
+  ],
+  "clips": [
+    {"id": "k1", "start": 0, "end": 15, "location": "l1", "make": "fresh", "images": ["l1", "c1", "c2", "c3"], "videos": [], "voices": ["c2", "c1"], "positions": "trator na entrada da roça virado para o milho; Seu Antônio entre o trator e o milho; Cleide na cerca, à direita", "stateIn": "Valdir no banco do trator; Seu Antônio com o chapéu na mão", "stateOut": "trator parado diante dele; Cleide filmando"},
+    {"id": "k2", "start": 15, "end": 30, "location": "l1", "make": "fresh", "images": ["l1", "c2", "c3", "c4", "c5", "c1"], "videos": [], "voices": ["c3", "c5"], "positions": "trator um metro mais à frente, com pés de milho deitados; Seu Antônio um passo atrás; Bruna e o doutor chegam pela estrada", "stateIn": "trator parado diante do Seu Antônio", "stateOut": "Dr. Pelicioni de pé ao lado do Seu Antônio; trabalhadores na cerca"},
+    {"id": "k3", "start": 30, "end": 45, "location": "l1", "make": "fresh", "images": ["l1", "c2", "c5", "c3"], "videos": [], "voices": ["c2", "c5"], "positions": "Valdir no chão, ao lado do trator, de frente para o Seu Antônio e o doutor; Cleide na cerca", "stateIn": "Valdir já desceu do trator", "stateOut": "Cleide com o celular atrás das costas"},
+    {"id": "k4", "start": 45, "end": 60, "location": "l1", "make": "fresh", "images": ["l1", "c5", "c1", "c2", "c4", "c3"], "videos": [], "voices": ["c5", "c1"], "positions": "doutor e Seu Antônio lado a lado; Valdir junto ao trator; Bruna diante da Cleide na cerca", "stateIn": "Cleide com o celular escondido", "stateOut": "trator de ré fora do milho; Seu Antônio de chapéu; Cleide apertando o celular contra o peito"}
+  ],
+  "lines": [
+    {"clip": "k1", "speaker": "c2", "to": "c1", "startSeconds": 1.8, "delivery": "gritando por cima do motor", "text": "Sai da frente, véio! A terra agora é minha.", "kind": "dialogue"},
+    {"clip": "k1", "speaker": "c1", "to": "c2", "startSeconds": 7.0, "delivery": "a voz quebra, pedindo", "text": "Falta quinze dias pra colher, seu Valdir. Quinze dias.", "kind": "dialogue"},
+    {"clip": "k2", "speaker": "c3", "to": "c2", "startSeconds": 16.5, "delivery": "doce, sorrindo para a câmera do celular", "text": "Calma, amor. Tô gravando tudo pro juiz.", "kind": "dialogue"},
+    {"clip": "k2", "speaker": "c5", "to": "c1", "startSeconds": 21.5, "delivery": "baixo, só para o Seu Antônio ouvir", "text": "Ele vai pedir o seu contrato. Deixa ele pedir.", "kind": "dialogue"},
+    {"clip": "k3", "speaker": "c2", "to": "c1", "startSeconds": 31.5, "delivery": "triunfante, apontando o dedo", "text": "Cadê o contrato? Trinta anos aqui e nenhum papel!", "kind": "dialogue"},
+    {"clip": "k3", "speaker": "c5", "to": "c2", "startSeconds": 35.8, "delivery": "calmo, quase gentil", "text": "Trinta anos. E a sua mulher gravou o senhor dizendo.", "kind": "dialogue"},
+    {"clip": "k4", "speaker": "c5", "to": "c2", "startSeconds": 46.0, "delivery": "sereno, como quem lê a lei", "text": "Contrato de boca vale. E só acaba depois da colheita.", "kind": "dialogue"},
+    {"clip": "k4", "speaker": "c1", "to": "c2", "startSeconds": 51.0, "delivery": "firme, devagar, olho no olho", "text": "Terra tem memória, seu Valdir.", "kind": "dialogue"}
+  ]
+}
