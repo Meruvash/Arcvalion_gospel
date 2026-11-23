@@ -1,0 +1,194 @@
+{
+ "titulo": "Herança do Pai · V1 cinema «O livro do pai» (cena atuada) · protagonista Dr. Pelicioni",
+ "duracao_s": 78,
+ "aviso_dramatizacao": true,
+ "protagonista": "Dr. Pelicioni",
+ "formato": "cena atuada (Seedance 2.5, vozes por amostra)",
+ "elenco": [
+  "Dr. Pelicioni",
+  "Rosa",
+  "Valdir",
+  "Cleide",
+  "Tavares",
+  "Bruna"
+ ],
+ "batidas": [
+  {
+   "t": 0,
+   "fim": 3,
+   "tipo": "GANCHO",
+   "quem": "Cleide",
+   "modo": "video",
+   "fala": "Isso aqui não vale nada, Rosinha.",
+   "tela": "CENA 1 · terreiro da fazenda, tarde. Close: a mão de unha vermelha da Cleide solta o livro de couro do pai na terra, aos pés da Rosa. Valdir e Tavares atrás, rindo.",
+   "marcas": [
+    "ataque",
+    "testemunhas",
+    "objeto:livro_do_pai"
+   ]
+  },
+  {
+   "t": 3,
+   "fim": 8,
+   "tipo": "HUMILHACAO",
+   "quem": "Valdir",
+   "modo": "video",
+   "fala": "Vendi minha parte. Dois milhões, à vista.",
+   "tela": "Close Valdir, chapéu branco, corrente de ouro, balança um papel assinado na cara da Rosa.",
+   "marcas": [
+    "dinheiro",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 8,
+   "fim": 12,
+   "tipo": "HUMILHACAO",
+   "quem": "Tavares",
+   "modo": "video",
+   "fala": "Segunda-feira eu chego com o trator, dona Rosa.",
+   "tela": "Tavares encostado na caminhonete, óculos espelhados, gira a chave no dedo.",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 12,
+   "fim": 18,
+   "tipo": "PROVA_DESPREZADA",
+   "quem": "Rosa",
+   "modo": "video",
+   "fala": "Esse livro era do nosso pai, Valdir. Tá tudo escrito aqui.",
+   "tela": "Rosa se abaixa, pega o livro, limpa a terra da capa. A voz falha (fissura). Close das mãos dela no livro (inserto).",
+   "marcas": [
+    "objeto:livro_do_pai",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 18,
+   "fim": 23,
+   "tipo": "DESCRENCA",
+   "quem": "Cleide",
+   "modo": "video",
+   "fala": "Para de inventar lei, Rosinha. Ninguém vai te ajudar.",
+   "tela": "Cleide filma a Rosa com o celular, rindo. Valdir dá um passo para dentro do espaço da Rosa.",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 23,
+   "fim": 29,
+   "tipo": "TRANSICAO",
+   "quem": "Bruna",
+   "modo": "video",
+   "fala": "Mãe, não discute com eles. Eu já chamei quem entende.",
+   "tela": "Bruna, 27, entra entre a mãe e o tio e guarda o celular no bolso (plante: ela ligou para alguém).",
+   "marcas": []
+  },
+  {
+   "t": 29,
+   "fim": 34,
+   "tipo": "HUMILHACAO",
+   "quem": "Valdir",
+   "modo": "video",
+   "fala": "Chamou quem? O padre?",
+   "tela": "Valdir e Tavares gargalham. Close da Rosa apertando o livro contra o peito.",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 34,
+   "fim": 38,
+   "tipo": "TRANSICAO",
+   "quem": "Sistema",
+   "modo": "video",
+   "fala": "",
+   "tela": "Ronco de motor. Um carro escuro levanta poeira e para na porteira. Todos se viram; o Tavares para de girar a chave. Sem fala.",
+   "marcas": []
+  },
+  {
+   "t": 38,
+   "fim": 44,
+   "tipo": "REVELACAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Boa tarde. Seu Valdir, agora o senhor vai perguntar: quem é esse aí?",
+   "tela": "O Dr. Pelicioni desce do carro, blazer azul-marinho, ajeita o lenço do bolso e caminha devagar até o grupo. Silêncio.",
+   "marcas": [
+    "previsao",
+    "poder_escondido"
+   ]
+  },
+  {
+   "t": 44,
+   "fim": 47,
+   "tipo": "TRANSICAO",
+   "quem": "Valdir",
+   "modo": "video",
+   "fala": "Quem é esse aí?",
+   "tela": "Close do Valdir, que fala exatamente a frase prevista e percebe. Cleide baixa o celular.",
+   "marcas": [
+    "previsao_cumprida"
+   ]
+  },
+  {
+   "t": 47,
+   "fim": 55,
+   "tipo": "LEI",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Herança ainda não dividida: irmão tem preferência. Pelo mesmo preço, a parte fica com a família.",
+   "tela": "Dr. Pelicioni estende a mão; a Rosa entrega o livro do pai. Ele abre o livro, calmo. Inserto: cartão CC art. 1.794, literal, com a fonte.",
+   "marcas": [
+    "objeto:livro_do_pai"
+   ],
+   "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm"
+  },
+  {
+   "t": 55,
+   "fim": 62,
+   "tipo": "LEI",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "E ninguém avisou a dona Rosa. Ela tem cento e oitenta dias pra depositar o preço.",
+   "tela": "Ele se vira para o Tavares, sem levantar a voz. Inserto: cartão CC art. 1.795, literal, com a fonte.",
+   "marcas": [
+    "dinheiro"
+   ],
+   "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm"
+  },
+  {
+   "t": 62,
+   "fim": 66,
+   "tipo": "QUEDA",
+   "quem": "Tavares / Valdir",
+   "modo": "video",
+   "fala": "",
+   "tela": "Tavares tira os óculos, dobra o contrato, enfia no bolso e recua até a caminhonete. Valdir olha para o chão. O papel assinado cai da mão dele.",
+   "marcas": []
+  },
+  {
+   "t": 66,
+   "fim": 72,
+   "tipo": "PROTECAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Dona Rosa, a senhora não está sozinha.",
+   "tela": "Ele devolve o livro à Rosa. Close: ela segura o livro e sorri com os olhos molhados. Bruna abraça a mãe pelo ombro.",
+   "marcas": []
+  },
+  {
+   "t": 72,
+   "fim": 78,
+   "tipo": "GANCHO_FINAL",
+   "quem": "Cleide",
+   "modo": "video",
+   "fala": "Calma, Valdir. Eu ainda tenho outro plano.",
+   "tela": "Cleide, sozinha junto à caminhonete, cochicha ao celular olhando para a Rosa de longe. Corta. «PARTE 2».",
+   "marcas": []
+  }
+ ]
+}
