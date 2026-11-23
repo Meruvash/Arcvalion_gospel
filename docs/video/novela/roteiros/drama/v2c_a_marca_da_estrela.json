@@ -18,11 +18,28 @@
     "misterio_longo": "'O pasto é nosso': a briga pela terra do pai continua"
   },
   "posicoes_medidas": {
-    "inicio_ciclo_s": 0.8, "punicao_s": 67.2,
-    "escalada": {"t": 45.6, "pos": 0.67, "alvo": "0,69 (0,65 a 0,78)"},
-    "chegada": {"t": 48.6, "pos": 0.72, "alvo": "0,73"},
-    "revelacao": {"t": 56.5, "pos": 0.84, "alvo": "0,90 (revelação visual no rabo de 4 s do clipe k4)"},
-    "punicao": {"t": 64.0, "pos": 0.95, "alvo": "1,0"}
+    "inicio_ciclo_s": 0.8,
+    "punicao_s": 67.2,
+    "escalada": {
+      "t": 45.6,
+      "pos": 0.67,
+      "alvo": "0,69 (0,65 a 0,78)"
+    },
+    "chegada": {
+      "t": 48.6,
+      "pos": 0.72,
+      "alvo": "0,73"
+    },
+    "revelacao": {
+      "t": 56.5,
+      "pos": 0.84,
+      "alvo": "0,90 (revelação visual no rabo de 4 s do clipe k4)"
+    },
+    "punicao": {
+      "t": 64.0,
+      "pos": 0.95,
+      "alvo": "1,0"
+    }
   },
   "desvios_do_padrao": [
     "15 falas e 105 palavras em 75 s (84 palavras por minuto), e não 22 falas a 134 ppm: o Drama do Higgsfield só aceita até 110 ppm e fala terminando 4 s antes do fim de cada clipe de 15 s.",
@@ -35,11 +52,24 @@
   "durationSeconds": 75,
   "aspectRatio": "9:16",
   "resolution": "720p",
-  "asked": {"from": "Editor: novela em português do Brasil, interior paulista, elenco fixo e vozes fixas (ELENCO_FIXO.md), regras do REEL_NOVELA_ROTEIRO_PADRAO.md, teto de 700 créditos", "language": "pt-BR"},
+  "asked": {
+    "from": "Editor: novela em português do Brasil, interior paulista, elenco fixo e vozes fixas (ELENCO_FIXO.md), regras do REEL_NOVELA_ROTEIRO_PADRAO.md, teto de 700 créditos",
+    "language": "pt-BR"
+  },
   "leis": [
-    {"texto": "Lei 4.714/1965, art. 1º: o gado bovino só poderá ser marcado a ferro candente na cara, no pescoço e nas regiões abaixo da linha imaginária que liga as articulações, para proteger o grupon (a parte mais útil do couro). A anca fica no grupon.", "literal_curto": "O gado bovino só poderá ser marcado a ferro candente na cara, no pescoço", "fonte": "https://www.planalto.gov.br/ccivil_03/leis/1950-1969/l4714.htm (lido em 23/11/2026; sem revogação indicada na página)"},
-    {"texto": "Art. 138 - Caluniar alguém, imputando-lhe falsamente fato definido como crime: Pena - detenção, de seis meses a dois anos, e multa.", "fonte": "Código Penal, art. 138, https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm (lido em 23/11/2026)"},
-    {"texto": "Art. 141 - As penas cominadas neste Capítulo aumentam-se de um terço, se qualquer dos crimes é cometido: […] III - na presença de várias pessoas, ou por meio que facilite a divulgação da calúnia, da difamação ou da injúria.", "fonte": "Código Penal, art. 141, III, mesma fonte"}
+    {
+      "texto": "Lei 4.714/1965, art. 1º: o gado bovino só poderá ser marcado a ferro candente na cara, no pescoço e nas regiões abaixo da linha imaginária que liga as articulações, para proteger o grupon (a parte mais útil do couro). A anca fica no grupon.",
+      "literal_curto": "O gado bovino só poderá ser marcado a ferro candente na cara, no pescoço",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/1950-1969/l4714.htm (lido em 23/11/2026; sem revogação indicada na página)"
+    },
+    {
+      "texto": "Art. 138 - Caluniar alguém, imputando-lhe falsamente fato definido como crime: Pena - detenção, de seis meses a dois anos, e multa.",
+      "fonte": "Código Penal, art. 138, https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm (lido em 23/11/2026)"
+    },
+    {
+      "texto": "Art. 141 - As penas cominadas neste Capítulo aumentam-se de um terço, se qualquer dos crimes é cometido: […] III - na presença de várias pessoas, ou por meio que facilite a divulgação da calúnia, da difamação ou da injúria.",
+      "fonte": "Código Penal, art. 141, III, mesma fonte"
+    }
   ],
   "previsao": {
     "fala": "Ela vai dizer que marcou na anca.",
@@ -51,48 +81,392 @@
     }
   },
   "teste_do_mudo": "abertura: mulher simples puxa uma novilha pela corda para a pista; loira de oncinha se levanta na arquibancada e aponta o dedo gritando. Sem som, já se entende a acusação.",
-  "screenplay": "TITLE: A MARCA DA ESTRELA\nRuntime: ~75 s | Location: recinto de leilão de gado no interior paulista | Cast: Rosa (heroína), Cleide (vilã), Valdir (antagonista), Dr. Pelicioni (protetor), Bruna (aliada, sem fala), Leiloeiro + compradores na arquibancada\n\n— CLIP k1 (0:00–0:15) —\n\nHOOK (0:00)\nClose: uma marquinha de ferro em forma de R, pequena, no pescoço de uma novilha malhada. A Rosa puxa a novilha pela corda para dentro da pista de areia. Na arquibancada, a Cleide se levanta de um salto e aponta o dedo.\n\nCLEIDE\nEssa novilha é roubada! É minha!\n\nOs compradores se viram. A Rosa para, a corda na mão.\n\nROSA\nÉ a Estrela, Cleide. Criei na mamadeira.\n\nVALDIR (sentado ao lado da Cleide, rindo)\nPobre assim, com novilha de doze mil?\n\n— CLIP k2 (0:15–0:30) —\n\nA Rosa olha para o leiloeiro no púlpito de madeira.\n\nROSA (baixo)\nDoze mil paga o depósito da terra.\n\nCLEIDE (para a arquibancada, sorrindo)\nEssa aí não tem onde cair morta.\n\nRisos espalhados. O leiloeiro abaixa o microfone.\n\nLEILOEIRO\nDona Rosa, com acusação eu tiro o lote.\n\n— CLIP k3 (0:30–0:45) —\n\nCLEIDE (descendo dois degraus)\nCadê a nota dela? Cadê o papel?\n\nROSA (a voz quebra)\nO papel ficou em casa. Deus sabe.\n\nVALDIR\nRoça de pobre não cria novilha assim.\n\nA Rosa abaixa a cabeça. A novilha encosta o focinho no braço dela. No portão do recinto, a Bruna aparece correndo.\n\n— CLIP k4 (0:45–1:00) —\n\nVALDIR (de pé, mão no celular)\nChama a polícia. Ladra não sai daqui.\n\nCHEGADA (0:48)\nAtrás da Bruna, o Dr. Pelicioni entra na pista, passo calmo. Os compradores abrem caminho. Ele para ao lado da Rosa, olha só para a Cleide.\n\nDR. PELICIONI\nEla vai dizer que marcou na anca.\n\nCLEIDE (convicta)\nMarquei na anca, sim! Pode olhar!\n\nREVELAÇÃO (0:56)\nO leiloeiro desce e vira a novilha. A anca está limpa. A câmera sobe para o pescoço: o R pequeno. A Cleide perde o sorriso.\n\n— CLIP k5 (1:00–1:15) —\n\nDR. PELICIONI (calmo, para a Cleide)\nNa anca, a lei não deixa marcar.\n\n[INSERT: cartão da Lei 4.714/1965, art. 1º]\n\nDR. PELICIONI\nE ladra, na frente de todos, é calúnia.\n\n[INSERT: cartão do Código Penal, art. 138 e art. 141, III]\n\nPUNIÇÃO (1:07)\nO leiloeiro aponta o portão para o Valdir e a Cleide. Os dois descem a arquibancada debaixo do olhar de todos.\n\nCLEIDE (no portão, virando-se, doce)\nVende a novilha, Rosa. O pasto é nosso.\n\nAFETO E GANCHO (1:11)\nO martelo do leiloeiro bate. A Rosa alisa o pescoço da Estrela, sobre o R. O Dr. Pelicioni, ao lado dela, olha para o portão por onde a Cleide saiu.\n\nCUT TO BLACK. PARTE 2.",
+  "screenplay": "TITLE: A MARCA DA ESTRELA\nRuntime: ~75 s | Location: recinto de leilão de gado no interior paulista | Cast: Rosa (heroína), Cleide (vilã), Valdir (antagonista), Dr. Pelicioni (protetor), Bruna (aliada, sem fala), Leiloeiro + compradores na arquibancada\n\n— CLIP k1 (0:00–0:15) —\n\nHOOK (0:00)\nClose: uma marquinha de ferro em forma de R, pequena, no pescoço de uma novilha malhada. A Rosa puxa a novilha pela corda para dentro da pista de areia. Na arquibancada, a Cleide se levanta de um salto e aponta o dedo.\n\nCLEIDE\nEssa vaca é roubada! É minha!\n\nOs compradores se viram. A Rosa para, a corda na mão.\n\nROSA\nÉ a Estrela, Cleide. Criei na mamadeira.\n\nVALDIR (sentado ao lado da Cleide, rindo)\nPobre assim, com vaca de doze mil?\n\n— CLIP k2 (0:15–0:30) —\n\nA Rosa olha para o leiloeiro no púlpito de madeira.\n\nROSA (baixo)\nDoze mil paga o depósito da terra.\n\nCLEIDE (para a arquibancada, sorrindo)\nEssa aí não tem onde cair morta.\n\nRisos espalhados. O leiloeiro abaixa o microfone.\n\nLEILOEIRO\nDona Rosa, com acusação eu tiro o lote.\n\n— CLIP k3 (0:30–0:45) —\n\nCLEIDE (descendo dois degraus)\nCadê a nota dela? Cadê o papel?\n\nROSA (a voz quebra)\nO papel ficou em casa. Deus sabe.\n\nVALDIR\nRoça de pobre não cria vaca assim.\n\nA Rosa abaixa a cabeça. A novilha encosta o focinho no braço dela. No portão do recinto, a Bruna aparece correndo.\n\n— CLIP k4 (0:45–1:00) —\n\nVALDIR (de pé, mão no celular)\nChama a polícia. Ladra não sai daqui.\n\nCHEGADA (0:48)\nAtrás da Bruna, o Dr. Pelicioni entra na pista, passo calmo. Os compradores abrem caminho. Ele para ao lado da Rosa, olha só para a Cleide.\n\nDR. PELICIONI\nEla vai dizer que marcou na anca.\n\nCLEIDE (convicta)\nMarquei na anca, sim! Pode olhar!\n\nREVELAÇÃO (0:56)\nO leiloeiro desce e vira a novilha. A anca está limpa. A câmera sobe para o pescoço: o R pequeno. A Cleide perde o sorriso.\n\n— CLIP k5 (1:00–1:15) —\n\nDR. PELICIONI (calmo, para a Cleide)\nNa anca, a lei não deixa marcar.\n\n[INSERT: cartão da Lei 4.714/1965, art. 1º]\n\nDR. PELICIONI\nE ladra, na frente de todos, é calúnia.\n\n[INSERT: cartão do Código Penal, art. 138 e art. 141, III]\n\nPUNIÇÃO (1:07)\nO leiloeiro aponta o portão para o Valdir e a Cleide. Os dois descem a arquibancada debaixo do olhar de todos.\n\nCLEIDE (no portão, virando-se, doce)\nVende a vaca, Rosa. O pasto é nosso.\n\nAFETO E GANCHO (1:11)\nO martelo do leiloeiro bate. A Rosa alisa o pescoço da Estrela, sobre o R. O Dr. Pelicioni, ao lado dela, olha para o portão por onde a Cleide saiu.\n\nCUT TO BLACK. PARTE 2.",
   "locations": [
-    {"id": "l1", "description": "recinto de leilão de gado de uma cidade do interior paulista nos dias de hoje: pista redonda de areia cercada de tábuas, arquibancada de madeira em semicírculo, púlpito de madeira do leiloeiro com microfone, portão de ferro na entrada, telhado de zinco", "light": "fim da tarde, luz dourada entrando de lado pelas frestas do telhado, poeira no ar", "anchor": "o púlpito de madeira do leiloeiro com o martelo"}
+    {
+      "id": "l1",
+      "description": "recinto de leilão de gado de uma cidade do interior paulista nos dias de hoje: pista redonda de areia cercada de tábuas, arquibancada de madeira em semicírculo, púlpito de madeira do leiloeiro com microfone, portão de ferro na entrada, telhado de zinco",
+      "light": "fim da tarde, luz dourada entrando de lado pelas frestas do telhado, poeira no ar",
+      "anchor": "o púlpito de madeira do leiloeiro com o martelo"
+    }
   ],
   "cast": [
-    {"id": "c1", "kind": "human", "name": "Rosa", "age": 56, "gender": "woman", "role": "heroína: vende a novilha para pagar o depósito da terra do pai", "appearance": "brasileira, pele morena de sol, cabelo escuro com fios brancos, preso", "wardrobe": "blusa de algodão florida rosa-claro e verde, calça simples, botina", "voice": "rosa_interior (ElevenLabs CS2gH5fPqUCmkVNpHsy4)", "faceImage": "elenco/folhas/rosa_folha.jpg"},
-    {"id": "c2", "kind": "human", "name": "Cleide", "age": 50, "gender": "woman", "role": "vilã: acusa a Rosa de roubo para barrar a venda", "appearance": "brasileira, pele clara, cabelo loiro tingido e escovado, unhas longas vermelhas", "wardrobe": "blusa de oncinha, brincos grandes dourados, celular na mão", "voice": "cleide_bianca (ElevenLabs HReOQZPV9tH5iTEnSbGo)", "faceImage": "elenco/folhas/cleide_folha.jpg"},
-    {"id": "c3", "kind": "human", "name": "Valdir", "age": 59, "gender": "man", "role": "antagonista: irmão da Rosa, ri e ameaça", "appearance": "brasileiro, pele vermelha de sol, bigode grisalho, barriga", "wardrobe": "camisa xadrez marrom para dentro da calça, cinto de fivela grande dourada, chapéu branco, corrente de ouro", "voice": "valdir_sergio (ElevenLabs rnJZLKxtlBZt77uIED10)", "faceImage": "elenco/folhas/valdir_folha.jpg"},
-    {"id": "c4", "kind": "human", "name": "Dr. Pelicioni", "age": 45, "gender": "man", "role": "protetor: chega na virada, prevê a mentira, resolve com a lei", "appearance": "como na foto oficial do editor (personagem/foto_oficial.jpg)", "wardrobe": "blazer azul-marinho, lenço de bolso com bolinhas, camisa azul-clara", "voice": "voz clonada do editor, só por voz_editor_s_neutro.py (eleven_multilingual_v2, style 0)", "faceImage": "elenco/folhas/dr_pelicioni_folha.jpg"},
-    {"id": "c5", "kind": "human", "name": "Bruna", "age": 27, "gender": "woman", "role": "aliada: filha da Rosa, traz o doutor; sem fala", "appearance": "brasileira, pele parda, cabelo cacheado solto, sardas", "wardrobe": "camiseta amarela lisa, jaqueta jeans", "voice": null, "faceImage": "elenco/folhas/bruna_folha.jpg"},
-    {"id": "c6", "kind": "human", "name": "Leiloeiro", "age": 55, "gender": "man", "role": "autoridade da pista; personagem de apoio, fora do elenco fixo", "appearance": "brasileiro, pele morena clara, cabelo grisalho curto, bigode aparado", "wardrobe": "camisa social branca de manga comprida, colete de couro marrom, microfone de mão", "voice": "voz fixa a escolher no ElevenLabs (homem de 55 anos, interior paulista)", "faceImage": "folha nova (Seedream, ~3,5 créditos)"}
+    {
+      "id": "c1",
+      "kind": "human",
+      "name": "Rosa",
+      "age": 56,
+      "gender": "woman",
+      "role": "heroína: vende a novilha para pagar o depósito da terra do pai",
+      "appearance": "brasileira, pele morena de sol, cabelo escuro com fios brancos, preso",
+      "wardrobe": "blusa de algodão florida rosa-claro e verde, calça simples, botina",
+      "voice": "rosa_interior (ElevenLabs CS2gH5fPqUCmkVNpHsy4)",
+      "faceImage": "elenco/folhas/rosa_folha.jpg"
+    },
+    {
+      "id": "c2",
+      "kind": "human",
+      "name": "Cleide",
+      "age": 50,
+      "gender": "woman",
+      "role": "vilã: acusa a Rosa de roubo para barrar a venda",
+      "appearance": "brasileira, pele clara, cabelo loiro tingido e escovado, unhas longas vermelhas",
+      "wardrobe": "blusa de oncinha, brincos grandes dourados, celular na mão",
+      "voice": "cleide_bianca (ElevenLabs HReOQZPV9tH5iTEnSbGo)",
+      "faceImage": "elenco/folhas/cleide_folha.jpg"
+    },
+    {
+      "id": "c3",
+      "kind": "human",
+      "name": "Valdir",
+      "age": 59,
+      "gender": "man",
+      "role": "antagonista: irmão da Rosa, ri e ameaça",
+      "appearance": "brasileiro, pele vermelha de sol, bigode grisalho, barriga",
+      "wardrobe": "camisa xadrez marrom para dentro da calça, cinto de fivela grande dourada, chapéu branco, corrente de ouro",
+      "voice": "valdir_sergio (ElevenLabs rnJZLKxtlBZt77uIED10)",
+      "faceImage": "elenco/folhas/valdir_folha.jpg"
+    },
+    {
+      "id": "c4",
+      "kind": "human",
+      "name": "Dr. Pelicioni",
+      "age": 45,
+      "gender": "man",
+      "role": "protetor: chega na virada, prevê a mentira, resolve com a lei",
+      "appearance": "como na foto oficial do editor (personagem/foto_oficial.jpg)",
+      "wardrobe": "blazer azul-marinho, lenço de bolso com bolinhas, camisa azul-clara",
+      "voice": "voz clonada do editor, só por voz_editor_s_neutro.py (eleven_multilingual_v2, style 0)",
+      "faceImage": "elenco/folhas/dr_pelicioni_folha.jpg"
+    },
+    {
+      "id": "c5",
+      "kind": "human",
+      "name": "Bruna",
+      "age": 27,
+      "gender": "woman",
+      "role": "aliada: filha da Rosa, traz o doutor; sem fala",
+      "appearance": "brasileira, pele parda, cabelo cacheado solto, sardas",
+      "wardrobe": "camiseta amarela lisa, jaqueta jeans",
+      "voice": null,
+      "faceImage": "elenco/folhas/bruna_folha.jpg"
+    },
+    {
+      "id": "c6",
+      "kind": "human",
+      "name": "Leiloeiro",
+      "age": 55,
+      "gender": "man",
+      "role": "autoridade da pista; personagem de apoio, fora do elenco fixo",
+      "appearance": "brasileiro, pele morena clara, cabelo grisalho curto, bigode aparado",
+      "wardrobe": "camisa social branca de manga comprida, colete de couro marrom, microfone de mão",
+      "voice": "voz fixa a escolher no ElevenLabs (homem de 55 anos, interior paulista)",
+      "faceImage": "folha nova (Seedream, ~3,5 créditos)"
+    }
   ],
   "groups": [
-    {"id": "g1", "name": "compradores na arquibancada", "kind": "group", "size": 8, "description": "homens e mulheres do campo, chapéus, camisas xadrez e bonés, sentados na arquibancada de madeira"}
+    {
+      "id": "g1",
+      "name": "compradores na arquibancada",
+      "kind": "group",
+      "size": 8,
+      "description": "homens e mulheres do campo, chapéus, camisas xadrez e bonés, sentados na arquibancada de madeira"
+    }
   ],
   "props": [
-    {"id": "p1", "name": "a novilha Estrela", "description": "novilha malhada de branco e vermelho, mansa, com uma marquinha de ferro pequena em forma de R no lado esquerdo do pescoço; a anca limpa, sem marca", "holder": "c1", "sheetFrom": "folha nova (Seedream, ~3,5 créditos)"},
-    {"id": "p2", "name": "corda da novilha", "description": "corda de sisal grossa, na mão da Rosa o tempo todo", "holder": "c1", "sheetFrom": null},
-    {"id": "p3", "name": "martelo do leiloeiro", "description": "martelo de madeira escura sobre o púlpito", "holder": "c6", "sheetFrom": null}
+    {
+      "id": "p1",
+      "name": "a novilha Estrela",
+      "description": "novilha malhada de branco e vermelho, mansa, com uma marquinha de ferro pequena em forma de R no lado esquerdo do pescoço; a anca limpa, sem marca",
+      "holder": "c1",
+      "sheetFrom": "folha nova (Seedream, ~3,5 créditos)"
+    },
+    {
+      "id": "p2",
+      "name": "corda da novilha",
+      "description": "corda de sisal grossa, na mão da Rosa o tempo todo",
+      "holder": "c1",
+      "sheetFrom": null
+    },
+    {
+      "id": "p3",
+      "name": "martelo do leiloeiro",
+      "description": "martelo de madeira escura sobre o púlpito",
+      "holder": "c6",
+      "sheetFrom": null
+    }
   ],
   "clips": [
-    {"id": "k1", "start": 0, "end": 15, "location": "l1", "make": "fresh", "images": ["l1", "p1", "c1", "c2", "c3"], "voices": ["c2", "c1", "c3"], "positions": "Rosa e a novilha na pista; Cleide e Valdir na 2ª fila da arquibancada, à direita", "stateIn": "Rosa entrando com a novilha pela corda", "stateOut": "Rosa parada no meio da pista; Cleide de pé apontando"},
-    {"id": "k2", "start": 15, "end": 30, "location": "l1", "make": "fresh", "images": ["l1", "c1", "c2", "c6", "p1"], "voices": ["c1", "c2", "c6"], "positions": "Rosa e a novilha no meio da pista; leiloeiro no púlpito à esquerda; Cleide de pé na arquibancada", "stateIn": "Cleide de pé", "stateOut": "leiloeiro com o microfone abaixado"},
-    {"id": "k3", "start": 30, "end": 45, "location": "l1", "make": "fresh", "images": ["l1", "c2", "c1", "c3", "c5", "p1"], "voices": ["c2", "c1", "c3"], "positions": "Cleide dois degraus abaixo, junto à cerca da pista; Valdir atrás dela; Rosa e a novilha no centro; portão ao fundo", "stateIn": "leiloeiro calado", "stateOut": "Bruna no portão"},
-    {"id": "k4", "start": 45, "end": 60, "location": "l1", "make": "fresh", "images": ["l1", "c3", "c4", "c2", "c1", "c6", "p1"], "voices": ["c3", "c4", "c2"], "positions": "Valdir de pé na cerca; Dr. Pelicioni entra pelo portão e para ao lado da Rosa; Cleide na cerca de frente para ele", "stateIn": "Bruna no portão", "stateOut": "novilha virada: anca limpa à mostra, R no pescoço; Cleide sem sorriso"},
-    {"id": "k5", "start": 60, "end": 75, "location": "l1", "make": "fresh", "images": ["l1", "c4", "c2", "c3", "c1", "c6", "p1"], "voices": ["c4", "c2"], "positions": "Dr. Pelicioni e Rosa lado a lado com a novilha; Cleide e Valdir saindo pelo portão; leiloeiro no púlpito", "stateIn": "novilha virada", "stateOut": "martelo batido; Rosa alisando o pescoço da novilha; Cleide fora, no portão"}
+    {
+      "id": "k1",
+      "start": 0,
+      "end": 15,
+      "location": "l1",
+      "make": "fresh",
+      "images": [
+        "l1",
+        "p1",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "voices": [
+        "c2",
+        "c1",
+        "c3"
+      ],
+      "positions": "Rosa e a novilha na pista; Cleide e Valdir na 2ª fila da arquibancada, à direita",
+      "stateIn": "Rosa entrando com a novilha pela corda",
+      "stateOut": "Rosa parada no meio da pista; Cleide de pé apontando"
+    },
+    {
+      "id": "k2",
+      "start": 15,
+      "end": 30,
+      "location": "l1",
+      "make": "fresh",
+      "images": [
+        "l1",
+        "c1",
+        "c2",
+        "c6",
+        "p1"
+      ],
+      "voices": [
+        "c1",
+        "c2",
+        "c6"
+      ],
+      "positions": "Rosa e a novilha no meio da pista; leiloeiro no púlpito à esquerda; Cleide de pé na arquibancada",
+      "stateIn": "Cleide de pé",
+      "stateOut": "leiloeiro com o microfone abaixado"
+    },
+    {
+      "id": "k3",
+      "start": 30,
+      "end": 45,
+      "location": "l1",
+      "make": "fresh",
+      "images": [
+        "l1",
+        "c2",
+        "c1",
+        "c3",
+        "c5",
+        "p1"
+      ],
+      "voices": [
+        "c2",
+        "c1",
+        "c3"
+      ],
+      "positions": "Cleide dois degraus abaixo, junto à cerca da pista; Valdir atrás dela; Rosa e a novilha no centro; portão ao fundo",
+      "stateIn": "leiloeiro calado",
+      "stateOut": "Bruna no portão"
+    },
+    {
+      "id": "k4",
+      "start": 45,
+      "end": 60,
+      "location": "l1",
+      "make": "fresh",
+      "images": [
+        "l1",
+        "c3",
+        "c4",
+        "c2",
+        "c1",
+        "c6",
+        "p1"
+      ],
+      "voices": [
+        "c3",
+        "c4",
+        "c2"
+      ],
+      "positions": "Valdir de pé na cerca; Dr. Pelicioni entra pelo portão e para ao lado da Rosa; Cleide na cerca de frente para ele",
+      "stateIn": "Bruna no portão",
+      "stateOut": "novilha virada: anca limpa à mostra, R no pescoço; Cleide sem sorriso"
+    },
+    {
+      "id": "k5",
+      "start": 60,
+      "end": 75,
+      "location": "l1",
+      "make": "fresh",
+      "images": [
+        "l1",
+        "c4",
+        "c2",
+        "c3",
+        "c1",
+        "c6",
+        "p1"
+      ],
+      "voices": [
+        "c4",
+        "c2"
+      ],
+      "positions": "Dr. Pelicioni e Rosa lado a lado com a novilha; Cleide e Valdir saindo pelo portão; leiloeiro no púlpito",
+      "stateIn": "novilha virada",
+      "stateOut": "martelo batido; Rosa alisando o pescoço da novilha; Cleide fora, no portão"
+    }
   ],
   "lines": [
-    {"clip": "k1", "speaker": "c2", "to": "c1", "startSeconds": 0.8, "delivery": "gritando, de pé, apontando", "text": "Essa novilha é roubada! É minha!", "batida": "humilhação (acusação falsa)", "kind": "dialogue"},
-    {"clip": "k1", "speaker": "c1", "to": "c2", "startSeconds": 3.8, "delivery": "firme e baixo, a corda na mão", "text": "É a Estrela, Cleide. Criei na mamadeira.", "batida": "humilhação (a verdade da heroína)", "kind": "dialogue"},
-    {"clip": "k1", "speaker": "c3", "to": "c1", "startSeconds": 7.2, "delivery": "rindo, debochado", "text": "Pobre assim, com novilha de doze mil?", "batida": "humilhação de classe (pergunta)", "kind": "dialogue"},
-    {"clip": "k2", "speaker": "c1", "to": "c6", "startSeconds": 15.8, "delivery": "baixo, pedindo", "text": "Doze mil paga o depósito da terra.", "batida": "necessidade com número (paga a conta da V1)", "kind": "dialogue"},
-    {"clip": "k2", "speaker": "c2", "to": "g1", "startSeconds": 19.2, "delivery": "sorrindo para a arquibancada", "text": "Essa aí não tem onde cair morta.", "batida": "humilhação na frente de testemunhas", "kind": "dialogue"},
-    {"clip": "k2", "speaker": "c6", "to": "c1", "startSeconds": 22.6, "delivery": "seco, abaixando o microfone", "text": "Dona Rosa, com acusação eu tiro o lote.", "batida": "humilhação (perda à vista)", "kind": "dialogue"},
-    {"clip": "k3", "speaker": "c2", "to": "c1", "startSeconds": 30.8, "delivery": "descendo os degraus, desafiando", "text": "Cadê a nota dela? Cadê o papel?", "batida": "humilhação (pergunta de desafio)", "kind": "dialogue"},
-    {"clip": "k3", "speaker": "c1", "to": "c2", "startSeconds": 34.2, "delivery": "a voz quebra", "text": "O papel ficou em casa. Deus sabe.", "batida": "fundo do poço da heroína", "kind": "dialogue"},
-    {"clip": "k3", "speaker": "c3", "to": "g1", "startSeconds": 37.6, "delivery": "alto, para todos", "text": "Roça de pobre não cria novilha assim.", "batida": "humilhação de classe", "kind": "dialogue"},
-    {"clip": "k4", "speaker": "c3", "to": "c6", "startSeconds": 45.6, "delivery": "de pé, ameaçando", "text": "Chama a polícia. Ladra não sai daqui.", "batida": "escalada (0,67)", "kind": "dialogue"},
-    {"clip": "k4", "speaker": "c4", "to": "c2", "startSeconds": 49.6, "delivery": "baixo, calmo, olhando só para a Cleide", "text": "Ela vai dizer que marcou na anca.", "batida": "chegada + previsão (0,72)", "kind": "dialogue"},
-    {"clip": "k4", "speaker": "c2", "to": "c4", "startSeconds": 53.0, "delivery": "convicta, sem perceber", "text": "Marquei na anca, sim! Pode olhar!", "batida": "o vilão cai na armadilha", "kind": "dialogue"},
-    {"clip": "k5", "speaker": "c4", "to": "c2", "startSeconds": 60.6, "delivery": "sereno, como quem lê a lei", "text": "Na anca, a lei não deixa marcar.", "batida": "revelação (inversão verdadeiro/falso)", "kind": "dialogue"},
-    {"clip": "k5", "speaker": "c4", "to": "c2", "startSeconds": 64.0, "delivery": "pausa de 1 s antes, voz baixa", "text": "E ladra, na frente de todos, é calúnia.", "batida": "punição (lei)", "kind": "dialogue"},
-    {"clip": "k5", "speaker": "c2", "to": "c1", "startSeconds": 67.6, "delivery": "doce e venenosa, no portão", "text": "Vende a novilha, Rosa. O pasto é nosso.", "batida": "gancho (mistério longo)", "kind": "dialogue"}
-  ]
+    {
+      "clip": "k1",
+      "speaker": "c2",
+      "to": "c1",
+      "startSeconds": 0.8,
+      "delivery": "gritando, de pé, apontando",
+      "text": "Essa vaca é roubada! É minha!",
+      "batida": "humilhação (acusação falsa)",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k1",
+      "speaker": "c1",
+      "to": "c2",
+      "startSeconds": 3.8,
+      "delivery": "firme e baixo, a corda na mão",
+      "text": "É a Estrela, Cleide. Criei na mamadeira.",
+      "batida": "humilhação (a verdade da heroína)",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k1",
+      "speaker": "c3",
+      "to": "c1",
+      "startSeconds": 7.2,
+      "delivery": "rindo, debochado",
+      "text": "Pobre assim, com vaca de doze mil?",
+      "batida": "humilhação de classe (pergunta)",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k2",
+      "speaker": "c1",
+      "to": "c6",
+      "startSeconds": 15.8,
+      "delivery": "baixo, pedindo",
+      "text": "Doze mil paga o depósito da terra.",
+      "batida": "necessidade com número (paga a conta da V1)",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k2",
+      "speaker": "c2",
+      "to": "g1",
+      "startSeconds": 19.2,
+      "delivery": "sorrindo para a arquibancada",
+      "text": "Essa aí não tem onde cair morta.",
+      "batida": "humilhação na frente de testemunhas",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k2",
+      "speaker": "c6",
+      "to": "c1",
+      "startSeconds": 22.6,
+      "delivery": "seco, abaixando o microfone",
+      "text": "Dona Rosa, com acusação eu tiro o lote.",
+      "batida": "humilhação (perda à vista)",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k3",
+      "speaker": "c2",
+      "to": "c1",
+      "startSeconds": 30.8,
+      "delivery": "descendo os degraus, desafiando",
+      "text": "Cadê a nota dela? Cadê o papel?",
+      "batida": "humilhação (pergunta de desafio)",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k3",
+      "speaker": "c1",
+      "to": "c2",
+      "startSeconds": 34.2,
+      "delivery": "a voz quebra",
+      "text": "O papel ficou em casa. Deus sabe.",
+      "batida": "fundo do poço da heroína",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k3",
+      "speaker": "c3",
+      "to": "g1",
+      "startSeconds": 37.6,
+      "delivery": "alto, para todos",
+      "text": "Roça de pobre não cria vaca assim.",
+      "batida": "humilhação de classe",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k4",
+      "speaker": "c3",
+      "to": "c6",
+      "startSeconds": 45.6,
+      "delivery": "de pé, ameaçando",
+      "text": "Chama a polícia. Ladra não sai daqui.",
+      "batida": "escalada (0,67)",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k4",
+      "speaker": "c4",
+      "to": "c2",
+      "startSeconds": 49.6,
+      "delivery": "baixo, calmo, olhando só para a Cleide",
+      "text": "Ela vai dizer que marcou na anca.",
+      "batida": "chegada + previsão (0,72)",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k4",
+      "speaker": "c2",
+      "to": "c4",
+      "startSeconds": 53.0,
+      "delivery": "convicta, sem perceber",
+      "text": "Marquei na anca, sim! Pode olhar!",
+      "batida": "o vilão cai na armadilha",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k5",
+      "speaker": "c4",
+      "to": "c2",
+      "startSeconds": 60.6,
+      "delivery": "sereno, como quem lê a lei",
+      "text": "Na anca, a lei não deixa marcar.",
+      "batida": "revelação (inversão verdadeiro/falso)",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k5",
+      "speaker": "c4",
+      "to": "c2",
+      "startSeconds": 64.0,
+      "delivery": "pausa de 1 s antes, voz baixa",
+      "text": "E ladra, na frente de todos, é calúnia.",
+      "batida": "punição (lei)",
+      "kind": "dialogue"
+    },
+    {
+      "clip": "k5",
+      "speaker": "c2",
+      "to": "c1",
+      "startSeconds": 67.6,
+      "delivery": "doce e venenosa, no portão",
+      "text": "Vende a vaca, Rosa. O pasto é nosso.",
+      "batida": "gancho (mistério longo)",
+      "kind": "dialogue"
+    }
+  ],
+  "pronuncia": {
+    "motivo": "no teste da cena 1 (480p, 23/11/2026) o Seedance leu 'novilha' como 'novela' em todas as falas; o editor riu e pediu conserto",
+    "decisao": "nas falas, 'novilha' vira 'vaca' (palavra curta que o modelo não troca); a descrição da cena continua chamando o animal de novilha",
+    "cleide": "o modelo disse 'Cledi'; o prompt passa a trazer a pronúncia do nome"
+  }
 }
