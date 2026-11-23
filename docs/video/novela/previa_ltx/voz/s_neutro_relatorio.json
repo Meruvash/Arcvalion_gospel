@@ -1,0 +1,193 @@
+{
+ "1": {
+  "escolhida": 1,
+  "candidatas": [
+   {
+    "cand": 0,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.65,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1000,
+    "transcricao": "Dona Rosa, a senhora não fica sozinha. Herança ainda não dividida. Irmão tem preferência. Pelo preço igual, a parte fica com a família",
+    "confere": true,
+    "media_s": 0.6559762917506972,
+    "notas_s": [
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 1.8137479187489913
+     },
+     {
+      "palavra": "senhora(início)",
+      "razao": 0.23951514901134952
+     },
+     {
+      "palavra": "sozinha.(início)",
+      "razao": 1.051746142439223
+     }
+    ],
+    "arquivo": "voz/cand/fala1_c0.mp3"
+   },
+   {
+    "cand": 1,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.6,
+      "style": 0.0,
+      "use_speaker_boost": false
+     }
+    },
+    "seed": 1037,
+    "transcricao": "Dona Rosa, a senhora não fica sozinha. Herança ainda não dividida. Irmão tem preferência. Pelo preço igual, a parte fica com a família",
+    "confere": true,
+    "media_s": 1.392796713659468,
+    "notas_s": [
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 5.139307596586199
+     },
+     {
+      "palavra": "senhora(início)",
+      "razao": 5.636880846891487
+     },
+     {
+      "palavra": "sozinha.(início)",
+      "razao": 0.6016527635614255
+     }
+    ],
+    "arquivo": "voz/cand/fala1_c1.mp3"
+   },
+   {
+    "cand": 2,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1074,
+    "transcricao": "Dona Rosa, a senhora não fica sozinha. Herança ainda não dividida. Irmão tem preferência. Pelo preço igual, a parte fica com a família",
+    "confere": true,
+    "media_s": 0.8862238607362153,
+    "notas_s": [
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 3.0068217934086747
+     },
+     {
+      "palavra": "senhora(início)",
+      "razao": 0.6019368504985706
+     },
+     {
+      "palavra": "sozinha.(início)",
+      "razao": 1.2243390085138552
+     }
+    ],
+    "arquivo": "voz/cand/fala1_c2.mp3"
+   },
+   {
+    "cand": 3,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.65,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1111,
+    "transcricao": "Dona Rosa, a senhora não fica sozinha. Herança ainda não dividida. Irmão tem preferência. Pelo preço igual, a parte fica com a família",
+    "confere": true,
+    "media_s": 1.2974456666986365,
+    "notas_s": [
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 24.20439499863271
+     },
+     {
+      "palavra": "senhora(início)",
+      "razao": 0.3395260797384595
+     },
+     {
+      "palavra": "sozinha.(início)",
+      "razao": 0.45208831347920936
+     }
+    ],
+    "arquivo": "voz/cand/fala1_c3.mp3"
+   },
+   {
+    "cand": 4,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.6,
+      "style": 0.0,
+      "use_speaker_boost": false
+     }
+    },
+    "seed": 1148,
+    "transcricao": "Dona Rosa, a senhora não fica sozinha. Herança ainda não dividida. Irmão tem preferência. Pelo preço igual, a parte fica com a família",
+    "confere": true,
+    "media_s": 1.1852403961892395,
+    "notas_s": [
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 14.424715140797524
+     },
+     {
+      "palavra": "senhora(início)",
+      "razao": 0.30522206670823254
+     },
+     {
+      "palavra": "sozinha.(início)",
+      "razao": 0.7391159231480441
+     }
+    ],
+    "arquivo": "voz/cand/fala1_c4.mp3"
+   },
+   {
+    "cand": 5,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1185,
+    "transcricao": "Dona Rosa, a senhora não fica sozinha. Herança ainda não dividida. Irmão tem preferência. Pelo preço igual, a parte fica com a família",
+    "confere": true,
+    "media_s": 0.7223442113271249,
+    "notas_s": [
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 2.934312424663359
+     },
+     {
+      "palavra": "senhora(início)",
+      "razao": 0.44917245595935296
+     },
+     {
+      "palavra": "sozinha.(início)",
+      "razao": 0.5315860418673136
+     }
+    ],
+    "arquivo": "voz/cand/fala1_c5.mp3"
+   }
+  ]
+ }
+}
