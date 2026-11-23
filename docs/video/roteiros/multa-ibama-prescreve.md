@@ -1,4 +1,4 @@
-# "Multa do Ibama prescreve?": prescrição da multa ambiental — roteiro v2 (23/11/2026), aguardando aprovação
+# "Multa do Ibama prescreve?": prescrição da multa ambiental — aprovado e entregue (23/11/2026)
 
 ## Pesquisa
 - **Origem:** pesquisa ampla de 20/11/2026 (pedido do editor: "os assuntos estão ficando repetitivos"). É a 3ª da ordem
@@ -101,3 +101,83 @@
 ## Prévia realista (IA gratuita)
 - Wan 2.2 no Kaggle (job `wan-agro-previa-ibama`): cena 1, o pecuarista na varanda com a notificação antiga e a gaveta de
   papéis; cena 2, dois vizinhos conversando na cerca de arame com a carta. Seeds 11 e 23.
+
+## Fontes conferidas antes do render (23/11/2026, texto compilado no Planalto)
+- **Decreto 6.514/2008:**
+  - art. 21, caput: "Prescreve em cinco anos a ação da administração objetivando apurar a prática de infrações contra o
+    meio ambiente, contada da data da prática do ato, ou, no caso de infração permanente ou continuada, do dia em que esta
+    tiver cessado.";
+  - § 2º: "Incide a prescrição no procedimento de apuração do auto de infração paralisado por mais de três anos, pendente
+    de julgamento ou despacho, cujos autos serão arquivados de ofício ou mediante requerimento da parte interessada, sem
+    prejuízo da apuração da responsabilidade funcional decorrente da paralisação." (redação do Decreto 6.686/2008);
+  - § 4º: "A prescrição da pretensão punitiva da administração não elide a obrigação de reparar o dano ambiental."
+    (incluído pelo Decreto 6.686/2008);
+  - art. 22: interrompem a prescrição o recebimento do auto de infração ou a cientificação do infrator, qualquer ato
+    inequívoco da administração que importe apuração do fato e a decisão condenatória recorrível.
+- **Lei 9.873/1999:**
+  - art. 1º, caput: cinco anos, "contados da data da prática do ato ou, no caso de infração permanente ou continuada, do dia
+    em que tiver cessado";
+  - § 1º: três anos de processo parado;
+  - art. 1º-A: cinco anos para a execução depois de constituído o crédito;
+  - art. 2º, I a IV: as causas de interrupção.
+- Nada mudou desde 2008: os arts. 21 e 22 não têm alteração posterior.
+
+## Entrega (23/11/2026)
+- **Vídeo:** `multa-ambiental-prescreve.mp4`, 1080×1080, 57,4 s, áudio em 48 kHz.
+- **Capa no quadro 0:** "A MULTA PRESCREVE?". Capas do Instagram em 9:16 e 4:5: "A MULTA DO IBAMA PRESCREVE?", com o
+  carimbo "PRESCREVEU?" no céu.
+- **Montagem:** `tools/video/agro-arte/montar_exemplo_multa_ibama.py`. **Cenas:** `cenas/ib_scenes.js` e `cenas/eras_ib.js`.
+- **Higgsfield (Seedance 2.0 Mini, 1:1, 5 s, 5 créditos por clipe):** 1º vídeo do agro com cenas de gente geradas no
+  Higgsfield.
+  - Clipes usados: produtor de costas na varanda abrindo o envelope; dois vizinhos na cerca, de longe; caminhonete branca
+    na porteira, sem gente.
+  - O 1º pedido da varanda foi recusado pelo filtro de direitos autorais e reenviado com outro texto.
+  - Gasto total: 20 créditos.
+- **Imagem:** 72% de pintura animada (Menzel em 3 trechos, Inness, Whistler, Durand), 28% de Higgsfield e 3 cartões.
+- **Voz:** narrador ElevenLabs. Editor pelo `voz_editor_s_neutro.py`, candidata 5, com nota de "S" 1,13.
+- **Trilha:** agronejo (o vídeo anterior era catira), 0 palavras no STT, −30 LUFS.
+- **`auditar_video.py`:** 7/7.
+
+### Crivo de qualidade (`crivo_qualidade.py`, 15 folhas revistas; clipes do Higgsfield conferidos antes, a cada 0,6 s)
+| Item | Resultado | Observação |
+|---|---|---|
+| H1 Rostos | aprovado | O produtor aparece de costas ou de perfil, e os vizinhos de longe. Nenhum rosto deformado. |
+| H2 Mãos | aprovado | As mãos do produtor no envelope foram conferidas em 2×: dedos no lugar. O gesto do vizinho é natural. |
+| H3 Corpo | aprovado | Corpo e chapéu no lugar. |
+| H4 Movimento | aprovado | O rosto e a mão não mudam de forma nos 5 s. |
+| H5 Figuras pintadas | aprovado | Sem gente nas pinturas. |
+| H6 Nitidez | aprovado | Um único aviso de nitidez, na cartela escura. |
+| H7 Tela | aprovado | Na revisão, o letreiro "+5 ANOS PRA COBRAR" atravessava as cenas seguintes (trilha repetida e duração negativa); foi corrigido. Crédito de IA em todas as cenas do Higgsfield. |
+
+## Publicação
+**Título do YouTube:**
+> Multa ambiental prescreve? O prazo que corre contra o Ibama e a favor do produtor
+
+Alternativas:
+- Multa do Ibama parada há 3 anos: pode ter prescrito
+- Multa ambiental antiga na gaveta? Veja se ela já prescreveu
+
+**Descrição do YouTube:**
+```
+A multa ambiental federal prescreve. O órgão tem cinco anos, contados da infração, para apurar e multar. Se a infração é permanente ou continuada, os cinco anos contam do dia em que ela cessou (Lei 9.873/1999, art. 1º; Decreto 6.514/2008, art. 21). Se o processo fica parado mais de três anos esperando julgamento ou despacho, ele prescreve e deve ser arquivado (Decreto 6.514/2008, art. 21, § 2º). Depois que a multa fica definitiva, o órgão tem cinco anos para cobrar na Justiça (Lei 9.873/1999, art. 1º-A).
+
+Atenção: a notificação, os atos de apuração e a decisão condenatória interrompem a prescrição (Decreto 6.514/2008, art. 22). Se o fato também é crime, vale o prazo da lei penal. E a prescrição da multa não apaga o dever de reparar o dano ambiental (art. 21, § 4º). Multas de órgãos estaduais seguem a lei de cada estado.
+
+Fontes: Lei 9.873/1999 e Decreto 6.514/2008 (Planalto).
+Pinturas feitas em código à maneira de Adolph Menzel, George Inness, James Whistler e Asher Durand. Cenas realistas geradas por IA (Higgsfield), ilustrativas: não mostram pessoas nem lugares reais. Trilha original.
+
+#multaambiental #ibama #produtorrural #agro #Shorts
+```
+
+**Legenda do Instagram:**
+```
+Multa ambiental prescreve? Prescreve. E muito produtor guarda na gaveta uma multa que já morreu. 📂🐂
+
+O órgão tem 5 anos pra apurar e multar. Se o processo ficou parado mais de 3 anos esperando decisão, a lei manda arquivar.
+
+Mas atenção: notificação e ato de investigação zeram o prazo, e a multa prescrita não apaga o dever de reparar o dano.
+
+Na sua fazenda, tem multa ambiental antiga esperando na gaveta? Conta aqui 👇
+
+#multaambiental #ibama #produtorrural #agro #direitorural
+```
