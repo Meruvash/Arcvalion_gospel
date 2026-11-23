@@ -11,4 +11,6 @@ Vídeo conferido: `planos/marca_da_estrela_v2c.mp4` (75 s). Os tempos são do fi
 
 | 4 | ~0:35, Valdir: "Roça de pobre não cria vaca assim." | "roça" saiu com a pronúncia errada; precisa da força e do som aberto no O | k3 | no prompt, escrever a palavra com acento como guia de pronúncia ("Róça", ó aberto e tônico, RÓ-ssa) e refazer o plano do Valdir |
 
+| 5 | ~0:48 Dr.: "Ela vai dizer que marcou na anca."; ~0:50 Cleide: "Marquei na anca, sim! Pode olhar!"; ~0:57 Dr.: "Na anca, a lei não deixa marcar." | "anca" saiu como "ança" (som de S no lugar do K) nas três falas | k4 e k5 | no prompt, guia de pronúncia "anca = ÂN-ka, with a hard K sound, never 'ança'"; refazer os três planos |
+
 (O editor ainda está passando os outros pontos.)
