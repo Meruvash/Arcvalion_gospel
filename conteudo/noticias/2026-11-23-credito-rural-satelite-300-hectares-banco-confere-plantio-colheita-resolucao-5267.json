@@ -1,0 +1,189 @@
+{
+ "slug": "credito-rural-satelite-300-hectares-banco-confere-plantio-colheita-resolucao-5267",
+ "data": "2026-11-23",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Crédito rural acima de 300 hectares: banco confere plantio e colheita por satélite",
+ "lide": "Com o plantio da safra de verão em curso, quem financiou custeio ou investimento contratado desde 1º de março em área acima de 300 hectares tem a lavoura acompanhada por satélite pelo banco, pela Resolução CMN 5.267. A imagem confere se o plantio e a colheita saíram nas datas informadas e se a área financiada é a que foi de fato plantada.",
+ "por_que_importa": "A data e a área que o produtor informa ao banco na contratação viram prova contra ele se o satélite mostrar outra coisa. Divergência pode levar à desclassificação da operação como crédito rural e à cobrança de despesas de fiscalização extraordinária.",
+ "numeros": [
+  [
+   "300 hectares",
+   "é a área total a partir da qual o monitoramento por satélite é obrigatório",
+   "Resolução CMN 5.267"
+  ],
+  [
+   "1º/3/2026",
+   "é a data de contratação a partir da qual a regra vale",
+   "Resolução CMN 5.267"
+  ],
+  [
+   "60 dias",
+   "é o prazo para a fiscalização de máquinas e equipamentos financiados, contado da liberação do crédito",
+   "Resolução CMN 5.267"
+  ]
+ ],
+ "corpo": [
+  "Antes de liberar o dinheiro, o banco usa as imagens para checar a aptidão da área, sinais de crédito em duplicidade e a presença de vegetação nativa. Durante a operação, verifica se a atividade financiada é a que ocorre em toda a área, as datas de plantio e colheita, a coincidência entre área financiada e área emergida e a manutenção da vegetação nativa.",
+  "Na pecuária, as verificações valem no que couber, com checagem de pastagem e instalações, e a contagem de animais por satélite é facultada. Quando a imagem não é conclusiva, o banco deve recorrer à análise documental ou à visita ao local."
+ ],
+ "no_brasil": "A norma permite ao banco orientar o produtor a corrigir a área informada no sistema do crédito rural (Sicor) quando a área plantada for diferente. O mutuário pode ser cobrado pelas despesas de fiscalização frustrada por culpa dele ou feita por irregularidade de sua conduta, e o banco deve desclassificar ou reclassificar operações irregulares.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.267/2025, Manual de Crédito Rural 2-7-7",
+   "texto": "se foram observados os períodos para plantio e colheita, conforme informados na contratação, com base nas respectivas datas indicadas pelo sensoriamento remoto",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5267"
+  },
+  {
+   "fonte": "Resolução CMN 5.267/2025, Manual de Crédito Rural 2-7-7",
+   "texto": "inclusive para orientar o produtor sobre eventual necessidade de alteração da área informada no Sistema de Operações do Crédito Rural e do Proagro",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5267"
+  }
+ ],
+ "para_quem": [
+  "Produtor com área acima de 300 hectares: informe ao banco datas de plantio realistas e avise logo se o plantio atrasar ou mudar de área",
+  "Quem plantou área diferente da financiada: peça ao banco a correção no Sicor antes da fiscalização",
+  "Pecuarista financiado: a checagem de pasto e instalações também pode ser feita por imagem"
+ ],
+ "nao_e_para": [
+  "Operações contratadas antes de 1º de março de 2026 seguem as regras anteriores de fiscalização",
+  "Abaixo de 300 hectares, o satélite não é obrigatório, mas o banco pode usá-lo",
+  "As restrições ambientais ao crédito, como as do Prodes, são de outra norma, explicada pelo portal em 15 de novembro"
+ ],
+ "veredito": "A gente recomenda tratar a ficha do banco como documento, não como formalidade: o satélite vê a lavoura que foi plantada, não a que foi prometida. Avisar a mudança antes custa um telefonema; explicar depois pode custar a taxa do crédito rural.",
+ "fontes": [
+  {
+   "nome": "Banco Central: Resolução CMN 5.267, de 28 de novembro de 2025 (monitoramento e fiscalização do crédito rural)",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5267",
+   "data": "28/11/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Ministério da Agricultura: Crédito rural para a agricultura empresarial soma R$ 149,1 bilhões nos quatro primeiros meses da safra 2026/2027",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/2026/credito-rural-para-a-agricultura-empresarial-soma-r-149-1-bilhoes-nos-quatro-primeiros-meses-da-safra-2026-2027",
+   "data": "13/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 53,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Fiscalização do crédito rural por satélite e obrigações do produtor"
+  },
+  "origem": {
+   "nome": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5267"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Vale para todo custeio e investimento em área acima de 300 hectares contratado desde março"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Crédito rural e fiscalização do produtor, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Norma em vigor desde março, com gancho no plantio da safra de verão apontado pelo Mapa em 13/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Texto integral da resolução lido no Banco Central"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Explicamos as verificações concretas do satélite, item por item, para o produtor"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: resolução do CMN (2)",
+    "Ato de quem tem poder: Conselho Monetário Nacional (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que informar ao banco (2)",
+    "Duas fontes oficiais: Banco Central e Ministério da Agricultura (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN 5.267/2025",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Crédito rural e fiscalização",
+  "coleta": "2026-11-23",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "resolução lida na íntegra no Banco Central",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "quantas operações já foram desclassificadas"
+  },
+  "duplicidade": {
+   "grupo": "Crédito rural e fiscalização",
+   "itens": [
+    "Resolução CMN 5.267"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-15-credito-rural-prodes-desmatamento-2019-bloqueio-janeiro-2027-cmn"
+  },
+  "seo": {
+   "intencao": "saber como o banco fiscaliza o crédito rural por satélite",
+   "entidades": [
+    "Resolução CMN 5.267",
+    "sensoriamento remoto",
+    "crédito rural",
+    "Sicor",
+    "Banco Central"
+   ],
+   "termos": [
+    "crédito rural satélite 300 hectares",
+    "fiscalização crédito rural sensoriamento remoto",
+    "Resolução CMN 5267"
+   ],
+   "atualizacao": "acompanhar mudanças na fiscalização do crédito rural"
+  },
+  "agro": {
+   "demanda": "Produtores com área acima de 300 hectares cujas datas e áreas informadas ao banco podem divergir das imagens, com risco de desclassificação da operação",
+   "prazo": "operações contratadas desde 1º/3/2026",
+   "quem": "Produtores com custeio ou investimento em área total acima de 300 hectares"
+  }
+ },
+ "descricao_seo": "Resolução CMN 5.267: custeio e investimento acima de 300 hectares têm lavoura acompanhada por satélite pelo banco, que confere plantio, colheita e área.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da resolução no Banco Central, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regras tiradas do texto integral da Resolução CMN 5.267, com citação literal; não acusa produtores nem bancos. As consequências (desclassificação, ressarcimento de despesas) estão nos itens 18 e 19 da norma. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/credito-rural-satelite-300-hectares-banco-confere-plantio-colheita-resolucao-5267.jpg",
+  "credito": "Foto: Fernando Frazão/Agência Brasil",
+  "alt": "Vista aérea de floresta cortada por um rio (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/17Gr9w6Halr_xS-APd26UAq8SK8=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/06/18/dji_0104.jpg?itok=dAKF4H43",
+  "pagina": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/desmatamento-caiu-418-na-amazonia-e-238-no-cerrado-em-um-ano"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-23T14:52:41-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-23T14:52:41-03:00"
+}
