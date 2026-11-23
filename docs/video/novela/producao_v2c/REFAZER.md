@@ -13,4 +13,9 @@ Vídeo conferido: `planos/marca_da_estrela_v2c.mp4` (75 s). Os tempos são do fi
 
 | 5 | ~0:48 Dr.: "Ela vai dizer que marcou na anca."; ~0:50 Cleide: "Marquei na anca, sim! Pode olhar!"; ~0:57 Dr.: "Na anca, a lei não deixa marcar." | "anca" saiu como "ança" (som de S no lugar do K) nas três falas | k4 e k5 | no prompt, guia de pronúncia "anca = ÂN-ka, with a hard K sound, never 'ança'"; refazer os três planos |
 
-(O editor ainda está passando os outros pontos.)
+## Refação feita (23/11/2026)
+
+- Planos refeitos no Seedance 2.5 (720p, 210 créditos, prompts com guia de pronúncia): `r1` Rosa "mamadeira", `r2` Valdir "Róça", `r3` previsão do Dr. + Cleide "anca", `r4` Dr. "Na anca, a lei não deixa marcar." O transcritor confirma as palavras certas.
+- Voz do Dr.: voice change do Higgsfield com o clone `95b656d3…` só nos trechos em que só o Dr. fala (r3 0–3,78 s; r4 0–4,25 s), 1 crédito cada. O tempo das palavras não mudou (boca sincronizada).
+- Nova montagem: `montagem/montagem.json` (a anterior ficou em `montagem_v1.json`). Filme: `planos/marca_da_estrela_v2c_r2.mp4`, 68,2 s, −18,1 LUFS, 14 falas completas no transcritor.
+- Gasto da refação: 212 créditos.

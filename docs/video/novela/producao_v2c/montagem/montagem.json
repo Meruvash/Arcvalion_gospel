@@ -5,8 +5,20 @@
   {
    "arq": "../planos/k1_720.mp4",
    "ini": 2.5,
+   "fim": 8.875,
+   "fala": "Essa vaca é roubada! É minha!"
+  },
+  {
+   "arq": "../planos/r1_720.mp4",
+   "ini": 0.85,
+   "fim": 4.6,
+   "fala": "É a Estrela. Criei na mamadeira."
+  },
+  {
+   "arq": "../planos/k1_720.mp4",
+   "ini": 11.58,
    "fim": 15.05,
-   "fala": "Essa vaca é roubada! É minha! É a Estrela. Criei na mamadeira. Pobre assim, com vaca de doze mil?"
+   "fala": "Pobre assim, com vaca de doze mil?"
   },
   {
    "arq": "../planos/k2_720.mp4",
@@ -17,23 +29,50 @@
   {
    "arq": "../planos/k3_720.mp4",
    "ini": 0.8,
-   "fim": 14.6,
-   "fala": "Cadê a nota dela? Cadê o papel? O papel ficou em casa. Deus sabe. Roça de pobre não cria vaca assim."
+   "fim": 8.45,
+   "fala": "Cadê a nota dela? Cadê o papel? O papel ficou em casa. Deus sabe."
+  },
+  {
+   "arq": "../planos/r2_720.mp4",
+   "ini": 0.9,
+   "fim": 3.3,
+   "fala": "Roça de pobre não cria vaca assim."
+  },
+  {
+   "arq": "../planos/k3_720.mp4",
+   "ini": 11.0,
+   "fim": 14.6
   },
   {
    "arq": "../planos/k4_720.mp4",
    "ini": 0.0,
-   "fim": 15.05,
-   "fala": "Chama a polícia. Ladra não sai daqui. Ela vai dizer que marcou na anca. Marquei na anca, sim! Pode olhar!"
+   "fim": 6.75,
+   "fala": "Chama a polícia. Ladra não sai daqui."
+  },
+  {
+   "arq": "../planos/r3_final.mp4",
+   "ini": 2.3,
+   "fim": 6.9,
+   "fala": "Ela vai dizer que marcou na anca. Marquei na anca, sim! Pode olhar!"
+  },
+  {
+   "arq": "../planos/k4_720.mp4",
+   "ini": 12.29,
+   "fim": 15.05
   },
   {
    "arq": "../planos/k5_720.mp4",
    "ini": 0.0,
-   "fim": 6.04,
+   "fim": 2.25
+  },
+  {
+   "arq": "../planos/r4_final.mp4",
+   "ini": 1.5,
+   "fim": 6.3,
    "fala": "Na anca, a lei não deixa marcar.",
    "lei": {
     "png": "cartao_4714.png",
-    "de": 2.4
+    "de": 0.6
    }
   },
   {
