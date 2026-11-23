@@ -33,3 +33,13 @@ Com rascunho e refação, a conta fica entre **700 e 1.200 créditos por episód
 2. **Dois personagens falando no mesmo plano:** a boca troca de dono. Cada plano tem um só falante.
 3. **Contato físico e mudança de estado** (empurrão, papel rasgando) quebram na geração. O roteiro usa ações simples:
    soltar, pegar, entregar, recuar.
+
+## Teste da cena de chegada (23/11/2026, Seedance 2.5, 15 s, rascunho 480p, 45 créditos)
+- **Entrada:** folhas de personagem do Dr. Pelicioni, do Valdir e da Rosa; amostras de voz do editor (clone) e do Valdir
+  (Sergio), ligadas por "@AudioN is the voice of @ImageN".
+- **Português:** a transcrição (scribe_v1) bateu palavra por palavra com o roteiro ("Boa tarde. Seu Valdir, agora o senhor
+  vai perguntar: quem é esse aí?" / "Quem é esse aí?"). A fala do Dr. começou aos 8,4 s, e o roteiro pedia 7,5 s.
+- **Imagem:** rostos e roupas fiéis às folhas nos 6 planos; mãos normais no gesto de ajeitar o lenço; sem música, como foi
+  pedido.
+- **Pendente:** o "S" da fala do editor é gerado pelo Seedance a partir da amostra. Ele não sai do
+  `voz_editor_s_neutro.py`, então a nota de chiado precisa ser medida na versão final.
