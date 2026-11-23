@@ -42,6 +42,13 @@ assiste tem que terminar pensando: "se acontecer comigo, é ele que eu chamo".
 - Na novela, ele entra por **chamada de vídeo** ou **áudio com foto de perfil**.
 - Lista de tomadas: ver a mensagem de 23/11/2026, registrada no fim deste arquivo.
 
+## Figurino e cenário oficiais (da foto enviada pelo editor, 23/11/2026)
+- **Arquivos:** `personagem/foto_oficial.jpg` (900×1600) e `personagem/avatar_whatsapp.jpg` (recorte de 640×640 para a
+  foto de perfil).
+- **Figurino:** blazer azul-marinho, lenço de bolso azul com bolinhas, camisa azul-clara de colarinho aberto (sem
+  gravata), calça cinza, cinto marrom, relógio de mostrador escuro e óculos de armação escura.
+- **Cenário:** fundo preto, luz lateral suave. É o visual Corleone: sóbrio, poder sem anúncio.
+
 ## Lista de tomadas para o editor gravar
 **Formato:**
 - celular em pé, 1080p ou 4K, 30 quadros por segundo;
