@@ -1,0 +1,36 @@
+{
+ "id": "k09_armadilha",
+ "duracao": 5,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "terreiro",
+ "personagens": [
+  "Valdir"
+ ],
+ "voz": "Valdir",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 3,
+   "quadro": "close-up",
+   "camera": "static, slightly low angle",
+   "quem": "Valdir",
+   "acao": "puffs out his chest, points at his own chest",
+   "expressao": "arrogant",
+   "fala": true
+  },
+  {
+   "de": 3,
+   "ate": 5,
+   "quadro": "close-up",
+   "camera": "slow push in",
+   "quem": "Valdir",
+   "acao": "freezes as he realizes he said exactly what was predicted",
+   "expressao": "smile fading into shock"
+  }
+ ],
+ "fala": {
+  "texto": "A parte é minha. Vendo pra quem quiser!",
+  "emocao": "loud, arrogant",
+  "inicio": 0.3
+ }
+}

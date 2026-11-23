@@ -42,6 +42,25 @@ class TestAuditarNovela(unittest.TestCase):
                 b["fala"] = "Eu garanto que a senhora vai ganhar."
         self.assertFalse(auditar(r)["aprovado"])
 
+class TestSerieEAvisos(unittest.TestCase):
+    def _v1(self):
+        import json, os
+        p = os.path.join(os.path.dirname(__file__), "..", "docs", "video", "novela", "roteiros", "novela_v1c_livro_do_pai_cinema.json")
+        return json.load(open(p, encoding="utf-8"))
+
+    def test_parte2_exige_continuidade(self):
+        r = self._v1(); r["parte"] = 2
+        self.assertFalse(auditar(r)["aprovado"])
+        r["handoff_anterior"] = {"objeto": "livro com a Rosa"}; r["batidas"][0]["reprise"] = True
+        self.assertTrue(auditar(r)["aprovado"])
+
+    def test_aviso_porque(self):
+        r = self._v1()
+        self.assertEqual(auditar(r)["avisos"], [])
+        for b in r["batidas"]:
+            b.pop("porque", None)
+        self.assertTrue(any(a.startswith("A2") for a in auditar(r)["avisos"]))
+
 
 if __name__ == "__main__":
     unittest.main()

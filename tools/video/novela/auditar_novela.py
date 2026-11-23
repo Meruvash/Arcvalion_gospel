@@ -6,8 +6,9 @@ Uso: python3 tools/video/novela/auditar_novela.py roteiro.json [--json]
 As fórmulas, os números e o modo de medir estão em docs/video/novela/FORMULAS_NOVELA.md.
 
 Duas camadas de regras:
-1. Obrigatórias (O1 a O9; O8 e O9 só quando o roteiro tem "protagonista"): nossas regras e o que o formato exige. Se uma falha, o roteiro reprova, qualquer que seja
+1. Obrigatórias (O1 a O10; O8 e O9 só quando o roteiro tem "protagonista", O10 só na parte 2 em diante): nossas regras e o que o formato exige. Se uma falha, o roteiro reprova, qualquer que seja
    a nota.
+Avisos (A1 a A4, não reprovam): docs/video/novela/REGRAS_ROTEIRO.md.
 2. Fórmula do modelo (F1 a F10): cada item vale o peso medido nos 6 ciclos-pilar do modelo (a fração de pilares em
    que ele aparece). Aprovação com nota igual ou maior que 0,85.
 
@@ -132,12 +133,34 @@ def auditar(r):
     item("F10_identidade_ou_poder_escondido", any("poder_escondido" in x.get("marcas", []) for x in b),
          "o poder do humilhado existia antes e só é revelado", PESOS["F10_identidade_ou_poder_escondido"])
 
+    # Série (REGRAS_ROTEIRO.md §5): a parte 2 em diante retoma o estado de passagem e repete a última batida anterior.
+    if int(r.get("parte", 1)) > 1:
+        item("O10_continuidade_da_serie", bool(r.get("handoff_anterior")) and b[0].get("reprise") is True,
+             "parte > 1: precisa de 'handoff_anterior' e da 1ª batida com 'reprise': true")
+
+    # Avisos (heurísticos, não reprovam): REGRAS_ROTEIRO.md
+    avisos = []
+    tensao = [x["t"] for x in b if x["tipo"] in ("GANCHO", "ATAQUE", "HUMILHACAO", "PROVA_DESPREZADA", "DESCRENCA",
+                                                  "REVELACAO", "LEI", "QUEDA", "GANCHO_FINAL")]
+    gaps = [round(tensao[i + 1] - tensao[i], 1) for i in range(len(tensao) - 1)]
+    if gaps and max(gaps) > 15:
+        avisos.append(f"A1 escada: {max(gaps)} s sem ponto de tensão (máx. 15 s)")
+    sem_porque = [x["t"] for x in b[1:] if not x.get("porque")]
+    if sem_porque:
+        avisos.append(f"A2 'então/mas': {len(sem_porque)} batida(s) sem o campo 'porque' ({sem_porque[:5]}…)")
+    fim = (b[-1].get("fala") or "").strip()
+    if re.search(r"(\.\.\.|…|—|-)$", fim) and "consequencia" not in b[-1].get("marcas", []):
+        avisos.append("A3 gancho final cortado no meio da frase sem marca 'consequencia'")
+    fisicas = [x for x in antes if x["tipo"] in ("HUMILHACAO", "ATAQUE") and not x.get("modo") in ("texto", "tela")]
+    if len(hum) >= 2 and not fisicas:
+        avisos.append("A4 escada só de palavras: nenhuma humilhação encenada antes da virada")
+
     obrig_ok = all(x["ok"] for x in res if x["item"].startswith("O"))
     tot = sum(x["peso"] for x in res if x["peso"])
     got = sum(x["peso"] for x in res if x["peso"] and x["ok"])
     nota = got / tot
     return {"titulo": r.get("titulo"), "itens": res, "obrigatorias_ok": obrig_ok, "nota_formula": round(nota, 3),
-            "aprovado": obrig_ok and nota >= 0.85}
+            "aprovado": obrig_ok and nota >= 0.85, "avisos": avisos}
 
 
 def main():
@@ -150,6 +173,8 @@ def main():
         for x in a["itens"]:
             p = f" (peso {x['peso']:.2f})" if x["peso"] else ""
             print(f"{'✅' if x['ok'] else '❌'} {x['item']}{p}: {x['nota']}")
+        for av in a.get("avisos", []):
+            print(f"⚠️ {av}")
         print(f"\nObrigatórias: {'ok' if a['obrigatorias_ok'] else 'FALHOU'} · nota da fórmula: {a['nota_formula']:.2f} "
               f"(mín. 0,85) · {'APROVADO' if a['aprovado'] else 'REPROVADO'}")
     sys.exit(0 if a["aprovado"] else 1)

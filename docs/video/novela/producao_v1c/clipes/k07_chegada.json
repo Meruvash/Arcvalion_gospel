@@ -1,0 +1,36 @@
+{
+ "id": "k07_chegada",
+ "duracao": 6,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "porteira",
+ "personagens": [
+  "Dr. Pelicioni"
+ ],
+ "voz": null,
+ "planos": [
+  {
+   "de": 0,
+   "ate": 2.5,
+   "quadro": "wide shot",
+   "camera": "static, low angle",
+   "quem": "a dark sedan",
+   "acao": "rolls up to the wooden gate and stops, raising red dust"
+  },
+  {
+   "de": 2.5,
+   "ate": 4,
+   "quadro": "close-up on the ground",
+   "camera": "static",
+   "quem": "Dr. Pelicioni",
+   "acao": "steps out of the car, only his polished brown shoe touches the red dirt, face not visible"
+  },
+  {
+   "de": 4,
+   "ate": 6,
+   "quadro": "medium shot from behind",
+   "camera": "slow push in",
+   "quem": "Dr. Pelicioni",
+   "acao": "stands seen from behind at three-quarters, adjusts his pocket square and walks toward the farmyard"
+  }
+ ]
+}

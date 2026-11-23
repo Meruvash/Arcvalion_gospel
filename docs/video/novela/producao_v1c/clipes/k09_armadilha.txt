@@ -1,0 +1,17 @@
+Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.
+
+@Image1 is Valdir: the heavy-set man of his reference sheet, grey mustache, white cowboy hat, red plaid shirt, gold chain.
+@Audio1 is the voice of @Image1, Valdir: every line Valdir speaks is in this voice.
+
+Setting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.
+Every shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.
+
+0-3 s: close-up, static, slightly low angle. @Image1 Valdir puffs out his chest, points at his own chest, arrogant.
+3-5 s: close-up, slow push in. @Image1 Valdir freezes as he realizes he said exactly what was predicted, smile fading into shock.
+
+@Image1 Valdir says in Brazilian Portuguese (loud, arrogant): "A parte é minha. Vendo pra quem quiser!"
+The line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.
+Every spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.
+Every shot after the line is in silence.
+No background music. Only natural ambient sound of the place.
+Every character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic.
