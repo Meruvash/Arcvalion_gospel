@@ -1,0 +1,202 @@
+{
+ "slug": "faixa-de-fronteira-imoveis-rurais-ratificacao-prazo-20-anos-comissao-camara-pl-674",
+ "data": "2026-11-23",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Imóvel rural em faixa de fronteira: comissão da Câmara aprova 20 anos para ratificar registro",
+ "lide": "A Comissão de Relações Exteriores da Câmara aprovou projeto que dá 20 anos, contados de 2015, para o dono de imóvel rural em faixa de fronteira pedir a ratificação do registro, com georreferenciamento certificado e cadastro rural atualizado, informou a Agência Câmara nesta segunda-feira (23). O texto também derruba a trava para quando órgão federal questiona o domínio.",
+ "por_que_importa": "Sem a ratificação, o título de terra devoluta expedido pelo estado em faixa de fronteira fica exposto: o Senado registrou, ao pedir urgência para outro projeto em 2025, o risco de reversão dos imóveis para o patrimônio da União. Para o produtor, é a diferença entre título firme e terra contestada, inclusive na hora de dar garantia ao banco.",
+ "numeros": [
+  [
+   "20 anos",
+   "da publicação da Lei 13.178/2015 é o novo prazo proposto pelo substitutivo aprovado na comissão",
+   "Agência Câmara"
+  ],
+  [
+   "15 anos",
+   "era o prazo previsto no PL 1.532/2025 do Senado, que virou a Lei 15.206/2025",
+   "Senado Federal"
+  ],
+  [
+   "2",
+   "comissões ainda analisam o projeto na Câmara, em caráter conclusivo: Agricultura e Constituição e Justiça",
+   "Agência Câmara"
+  ]
+ ],
+ "corpo": [
+  "O texto aprovado é o substitutivo do relator, deputado Evair Vieira de Melo (Republicanos-ES), ao PL 674/2021, do falecido deputado Schiavinato (PR), com três propostas apensadas. Segundo o relator, a mudança atende à segurança jurídica e à boa-fé dos ocupantes.",
+  "A notícia da Câmara descreve a ampliação como de 10 para 20 anos, mas o prazo já foi mexido em 2025: o Senado registra que o PL 1.532/2025, do senador Nelsinho Trad, que previa 15 anos contados da publicação da lei, virou a Lei 15.206, de 12 de setembro de 2025."
+ ],
+ "no_brasil": "A Lei 13.178/2015 trata da ratificação de registros de imóveis rurais com origem em títulos de alienação ou concessão de terras devolutas expedidos pelos estados em faixa de fronteira. Em 2025, o pedido de urgência no Senado lembrava que o prazo então vigente terminava em 23 de outubro de 2025. Para virar lei, o novo projeto ainda passa pela Câmara e pelo Senado.",
+ "critica": [
+  {
+   "fonte": "Deputado Evair Vieira de Melo (Republicanos-ES), relator, no parecer aprovado, segundo a Agência Câmara",
+   "texto": "O substitutivo atualiza os prazos e as condições para ratificação dos registros, em benefício da segurança jurídica, da boa-fé dos ocupantes e do interesse estratégico nacional",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1321700-comissao-aprova-ampliacao-de-prazo-para-regularizacao-de-imoveis-em-faixa-de-fronteira"
+  },
+  {
+   "fonte": "Requerimento de urgência ao PL 1.532/2025 no Senado (2025)",
+   "texto": "sob pena de perda do direito à ratificação e possível reversão dos imóveis para o patrimônio da União",
+   "citacao": true,
+   "url": "https://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/c446b33c-e868-40aa-a920-8dae79e06f17"
+  }
+ ],
+ "para_quem": [
+  "Dono de imóvel rural com título estadual em faixa de fronteira: confira no Incra se a certificação do georreferenciamento e o cadastro rural estão em dia; o prazo é o da lei em vigor até o projeto virar lei",
+  "Quem tem o domínio questionado por órgão federal: o texto aprovado revoga a regra que impede a ratificação nesse caso, mas ainda não é lei",
+  "Cartórios e bancos: o registro ratificado pesa na aceitação do imóvel como garantia"
+ ],
+ "nao_e_para": [
+  "O projeto ainda não é lei: falta passar por duas comissões da Câmara e pelo Senado",
+  "A nota não confirma o texto final da Lei 15.206/2025, só o do projeto que a originou e o registro do Senado",
+  "A ratificação não vale para qualquer imóvel: trata de títulos de terras devolutas expedidos pelos estados em faixa de fronteira"
+ ],
+ "veredito": "A gente apoia dar prazo e segurança a quem ocupa de boa-fé e produz na fronteira. Mas um prazo esticado em 2021, de novo em 2025 e agora outra vez mostra que o gargalo está na certificação, e é ela que o Congresso também precisa cobrar.",
+ "fontes": [
+  {
+   "nome": "Agência Câmara: Comissão aprova ampliação de prazo para regularização de imóveis em faixa de fronteira (23/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1321700-comissao-aprova-ampliacao-de-prazo-para-regularizacao-de-imoveis-em-faixa-de-fronteira",
+   "data": "23/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: tramitação do PL 674/2021",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2271903",
+   "data": "23/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal: PL 1.532/2025, texto apresentado (prazo de 15 anos)",
+   "url": "https://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/2825f347-62c1-4bd8-b805-7f502c023041",
+   "data": "08/04/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal: requerimento de urgência ao PL 1.532/2025",
+   "url": "https://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/c446b33c-e868-40aa-a920-8dae79e06f17",
+   "data": "2025",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 64,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Regularização do título de imóvel rural em faixa de fronteira"
+  },
+  "origem": {
+   "nome": "Agência Câmara de Notícias",
+   "url": "https://www.camara.leg.br/noticias/1321700-comissao-aprova-ampliacao-de-prazo-para-regularizacao-de-imoveis-em-faixa-de-fronteira"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 12,
+    "porque": "Atinge produtores com títulos estaduais em toda a faixa de fronteira, sob risco de perder a ratificação"
+   },
+   "afinidade": {
+    "pontos": 18,
+    "porque": "Segurança do título da terra, base do crédito e da produção rural"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação na comissão divulgada pela Agência Câmara nesta segunda-feira, 23/11"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Agência Câmara e documentos do Senado sobre a lei de 2025; texto final da Lei 15.206 não lido"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Acrescentamos a Lei 15.206/2025, que a notícia oficial da Câmara não menciona"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 8,
+    "viral": 2,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: Agência Câmara e Senado (2)",
+    "Ato de quem tem poder: comissão da Câmara (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que conferir no Incra (2)",
+    "Contexto que a fonte oficial omite: Lei 15.206/2025 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Comissão aprova ampliação de prazo para regularização de imóveis em faixa de fronteira",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Terra e registro",
+  "coleta": "2026-11-23",
+  "verificacao": {
+   "grau_de_confianca": "médio-alto",
+   "status": "aprovação na comissão pela Agência Câmara; PL 1.532/2025 e transformação em Lei 15.206 conferidos nos dados abertos do Senado",
+   "contradicoes": "a Agência Câmara fala em ampliação de 10 para 20 anos, mas a Lei 15.206/2025 já mudou o prazo",
+   "sem_confirmacao": "redação final da Lei 15.206/2025"
+  },
+  "duplicidade": {
+   "grupo": "Faixa de fronteira",
+   "itens": [
+    "PL 674/2021",
+    "PL 1.532/2025"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber o prazo para ratificar registro de imóvel rural em faixa de fronteira",
+   "entidades": [
+    "Lei 13.178/2015",
+    "Lei 15.206/2025",
+    "faixa de fronteira",
+    "Incra",
+    "PL 674/2021"
+   ],
+   "termos": [
+    "ratificação registro faixa de fronteira prazo",
+    "imóvel rural faixa de fronteira 20 anos",
+    "Lei 13.178 prazo"
+   ],
+   "atualizacao": "acompanhar o PL 674/2021 nas comissões de Agricultura e CCJ"
+  },
+  "agro": {
+   "demanda": "Produtores com títulos estaduais em faixa de fronteira que ainda não ratificaram o registro e correm risco de perder o imóvel para a União",
+   "prazo": "prazo da Lei 15.206/2025 em vigor; projeto propõe 20 anos da Lei 13.178/2015",
+   "quem": "Proprietários rurais com títulos de terras devolutas estaduais na faixa de fronteira"
+  }
+ },
+ "descricao_seo": "Comissão da Câmara aprova 20 anos para ratificar registro de imóvel rural em faixa de fronteira; prazo já tinha mudado em 2025 com a Lei 15.206.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Agência Câmara de Notícias",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura das fontes da Câmara e do Senado, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos atribuídos à Agência Câmara e aos documentos do Senado, com citações literais; a divergência de prazos é apresentada como fato documentado, sem acusar a Câmara de erro intencional. A crítica do veredito mira a estrutura de certificação, não pessoas. Não afirma o texto final da Lei 15.206. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/faixa-de-fronteira-imoveis-rurais-ratificacao-prazo-20-anos-comissao-camara-pl-674.jpg",
+  "credito": "Foto: Arquivo/Agência Brasil",
+  "alt": "Agricultor trabalha a terra entre fileiras de palma e outras culturas no semiárido (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/H7xfTNlhXRLPe3A-hvV39EkW3Mk=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/produtor_rural_no_semiarido.jpg?itok=NkiSAqaV",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-10/cmn-simplifica-credito-rural-populacoes-tradicionais-e-extrativistas"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-23T14:58:01-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-23T14:58:01-03:00"
+}
