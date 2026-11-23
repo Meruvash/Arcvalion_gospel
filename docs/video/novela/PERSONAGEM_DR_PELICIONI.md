@@ -14,10 +14,18 @@ assiste tem que terminar pensando: "se acontecer comigo, é ele que eu chamo".
 1. **Ele não aparece antes da virada.** Antes, só é chamado, com o nome na lista de contatos ou "digitando…". Ele entra
    exatamente na virada.
 2. **O golpe de previsão (estilo Joseph):** em toda novela, ele prevê uma fala ou ação do vilão, e ela acontece. A
-   frase muda a cada episódio e é registrada em `NOVELAS_USADAS.md`. Exemplos de forma:
-   - "Agora ele vai dizer…";
-   - "Daqui a pouco ele sai do grupo.";
-   - "A próxima mensagem dele vai ser…".
+   frase muda a cada episódio e é registrada em `NOVELAS_USADAS.md`.
+   **Previsão inteligente (correção do editor, 23/11/2026):** "Agora o senhor vai perguntar: quem é esse aí?" foi
+   reprovada, porque qualquer um diria isso. A previsão precisa passar nos quatro testes abaixo.
+   1. **Não é óbvia:** prevê o **argumento** ou a **jogada** do vilão (a defesa que ele acha que tem), nunca uma reação
+      que qualquer pessoa teria.
+   2. **Vira armadilha:** quando o vilão diz a frase prevista, a resposta do Dr. Pelicioni já está pronta e é a lei. A
+      frase do vilão é o erro jurídico do caso. Exemplo da V1: "O seu Valdir vai dizer que a parte é dele e vende pra quem
+      quiser." Valdir: "A parte é minha. Vendo pra quem quiser!" Dr.: "É sua. Mas herança não dividida: irmão tem
+      preferência."
+   3. **Mostra que ele leu a pessoa e o caso:** a frase prevista é a do tipo de vilão que ele já conhece, nunca adivinhação
+      mágica.
+   4. **É curta e calma:** dita sem pressa, olhando só para o vilão. O vilão diz a frase com convicção e só percebe depois.
 3. **A calma do padrinho (estilo Corleone):**
    - frases curtas e voz baixa;
    - pausa de 1 s antes da frase final;

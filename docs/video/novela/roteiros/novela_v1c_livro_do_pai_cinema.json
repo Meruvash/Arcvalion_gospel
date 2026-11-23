@@ -115,8 +115,8 @@
    "tipo": "REVELACAO",
    "quem": "Dr. Pelicioni",
    "modo": "video",
-   "fala": "Boa tarde. Seu Valdir, agora o senhor vai perguntar: quem é esse aí?",
-   "tela": "O Dr. Pelicioni desce do carro, blazer azul-marinho, ajeita o lenço do bolso e caminha devagar até o grupo. Silêncio.",
+   "fala": "Boa tarde. O seu Valdir vai dizer que a parte é dele e vende pra quem quiser.",
+   "tela": "O Dr. Pelicioni desce do carro, blazer azul-marinho, ajeita o lenço do bolso e para diante do Valdir, sem pressa. Olha para ele, não para os outros.",
    "marcas": [
     "previsao",
     "poder_escondido"
@@ -128,8 +128,8 @@
    "tipo": "TRANSICAO",
    "quem": "Valdir",
    "modo": "video",
-   "fala": "Quem é esse aí?",
-   "tela": "Close do Valdir, que fala exatamente a frase prevista e percebe. Cleide baixa o celular.",
+   "fala": "A parte é minha. Vendo pra quem quiser!",
+   "tela": "Close do Valdir, estufando o peito, que diz exatamente a frase prevista e só depois percebe. Cleide baixa o celular; Tavares para de girar a chave.",
    "marcas": [
     "previsao_cumprida"
    ]
@@ -140,7 +140,7 @@
    "tipo": "LEI",
    "quem": "Dr. Pelicioni",
    "modo": "video",
-   "fala": "Herança ainda não dividida: irmão tem preferência. Pelo mesmo preço, a parte fica com a família.",
+   "fala": "É sua. Mas herança não dividida: irmão tem preferência. Pelo mesmo preço, a parte fica com a família.",
    "tela": "Dr. Pelicioni estende a mão; a Rosa entrega o livro do pai. Ele abre o livro, calmo. Inserto: cartão CC art. 1.794, literal, com a fonte.",
    "marcas": [
     "objeto:livro_do_pai"
@@ -153,7 +153,7 @@
    "tipo": "LEI",
    "quem": "Dr. Pelicioni",
    "modo": "video",
-   "fala": "E ninguém avisou a dona Rosa. Ela tem cento e oitenta dias pra depositar o preço.",
+   "fala": "E ninguém avisou a dona Rosa. Cento e oitenta dias pra ela depositar o preço.",
    "tela": "Ele se vira para o Tavares, sem levantar a voz. Inserto: cartão CC art. 1.795, literal, com a fonte.",
    "marcas": [
     "dinheiro"
