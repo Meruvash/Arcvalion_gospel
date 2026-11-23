@@ -29,7 +29,7 @@
  "corpo": [
   "No discurso, registrado nos dados abertos da Câmara, Van Hattem disse que um policial federal \"fez vários relatórios absolutamente fraudulentos contra pessoas inocentes, inclusive contra Filipe Martins\". A PF o indiciou por calúnia e difamação em novembro de 2024, e a PGR apresentou a denúncia em abril, entendendo que ele passou dos limites da imunidade.",
   "Nesta fase, a Turma só decide se há elementos para abrir ação penal, não se o deputado é culpado. A defesa, do advogado Alexandre Wunderlich, pediu que o caso vá ao plenário presencial, com sustentação oral; o relator é Flávio Dino.",
-  "Atualização (21/11): o julgamento começou na sexta-feira (20) e o relator, Flávio Dino, votou pelo recebimento da denúncia. Faltam os votos de Alexandre de Moraes, Cármen Lúcia e Cristiano Zanin, até 30/11. Van Hattem chamou o julgamento virtual de \"justiçamento\", segundo o portal Claudio Dantas."
+  "Atualização (23/11): Dino votou pelo recebimento da denúncia na sexta (20), e Alexandre de Moraes o acompanhou; para ele, o deputado \"extrapolou de sua imunidade parlamentar\", segundo o portal Claudio Dantas. Faltam Cármen Lúcia e Zanin, até 30/11."
  ],
  "no_brasil": "Quando o indiciamento saiu, em novembro de 2024, o então presidente da Câmara, Arthur Lira, criticou em plenário investigações de parlamentares por discursos na tribuna, segundo a Agência Câmara. O delegado citado conduziu o inquérito que levou à condenação de Jair Bolsonaro e hoje assessora o ministro Alexandre de Moraes, informou o Estado de Minas.",
  "critica": [
@@ -91,6 +91,12 @@
    "nome": "Claudio Dantas: Van Hattem acusa STF de justiçamento após Dino votar para torná-lo réu (20/11/2026)",
    "url": "https://claudiodantas.com.br/van-hattem-acusa-stf-de-justicamento-apos-dino-votar-para-torna-lo-reu/",
    "data": "20/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Claudio Dantas: Moraes condena Van Hattem, enquanto emprega delegado que o processa (22/11/2026)",
+   "url": "https://claudiodantas.com.br/moraes-condena-van-hattem-enquanto-emprega-delegado-que-o-processa/",
+   "data": "22/11/2026",
    "tipo": "secundaria"
   }
  ],
@@ -206,9 +212,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-21T02:29:47-03:00",
+  "data": "2026-11-23T02:27:16-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-20T02:35:44-03:00",
- "atualizado_em": "2026-11-21T02:29:47-03:00"
+ "atualizado_em": "2026-11-23T02:27:16-03:00"
 }
