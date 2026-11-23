@@ -103,3 +103,17 @@ marca**, para ser reconhecido em 1 segundo, mesmo pela foto de perfil do WhatsAp
 - **V2, "O doutor falso":** o Tavares é o falso doutor, e quem o contratou é a Cleide.
 - **V3, "O arrendatário":** o Marcos sai. O comprador que quer tirar Seu Antônio é o Valdir, com a Cleide por trás.
 - **Gancho fixo de série:** a Cleide nunca é presa nem some. Ela perde e jura voltar, como nas novelas de vilã forte.
+
+### Vozes no Higgsfield (decisão do editor, 23/11/2026)
+Para as cenas geradas com fala (fluxo Drama, Seedance 2.5), a voz de cada personagem entra como amostra de 3 a 10 s gerada
+no Higgsfield (`seed_audio`) com a voz abaixo. Conferência em português (scribe_v1): 99% em todas.
+
+| Personagem | Voz no Higgsfield | voice_type | voice_id |
+|---|---|---|---|
+| Dr. Pelicioni | clone da gravação real do editor | element | `95b656d3-17a2-4e00-aead-31e43fd9aeda` |
+| Rosa | clone feito da voz `rosa_interior` | element | `241f8d23-0c5b-4241-b8ed-b520d777ff32` |
+| Valdir | clone feito da voz `valdir_sergio` | element | `9168ddfd-c4d0-43e8-9bfd-7ad2e700c5a6` |
+| Cleide | Roxie (pronta) | preset | `f6448975-768e-4327-b932-1b7c973d58e9` |
+| Leiloeiro | Gideon (pronta) | preset | `1ad38ba4-9cc4-4f2f-9fde-b0fefdf67ae5` |
+
+Das vozes prontas, as de mulher madura (Helena, Marisol, Elena) saíram com sotaque, e as de homem grave (Marcus, Andre) falaram espanhol.
