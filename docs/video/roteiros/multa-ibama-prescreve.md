@@ -123,7 +123,7 @@
 - Nada mudou desde 2008: os arts. 21 e 22 não têm alteração posterior.
 
 ## Entrega (23/11/2026)
-- **Vídeo:** `multa-ambiental-prescreve.mp4`, 1080×1080, 57,4 s, áudio em 48 kHz.
+- **Vídeo:** `multa-ambiental-prescreve.mp4`, 1080×1080, 57,2 s, áudio em 48 kHz.
 - **Capa no quadro 0:** "A MULTA PRESCREVE?". Capas do Instagram em 9:16 e 4:5: "A MULTA DO IBAMA PRESCREVE?", com o
   carimbo "PRESCREVEU?" no céu.
 - **Montagem:** `tools/video/agro-arte/montar_exemplo_multa_ibama.py`. **Cenas:** `cenas/ib_scenes.js` e `cenas/eras_ib.js`.
