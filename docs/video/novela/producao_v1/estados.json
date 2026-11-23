@@ -44,7 +44,8 @@
     "sem_nome": true,
     "tipo": "foto",
     "rotulo": "[entra a imagem do plano f4: a porteira]",
-    "hora": "14:03"
+    "hora": "14:03",
+    "img": "planos/f4_foto.jpg"
    },
    {
     "quem": "Tavares",
@@ -77,7 +78,8 @@
     "tipo": "foto",
     "rotulo": "[entra a imagem do plano f3: o livro do pai]",
     "legenda": "O pai deixou isso aqui. Tá escrito.",
-    "hora": "14:05"
+    "hora": "14:05",
+    "img": "planos/f3_foto.jpg"
    },
    {
     "quem": "Cleide",
@@ -104,7 +106,8 @@
     "tipo": "foto",
     "rotulo": "[entra a imagem do plano f3: o livro do pai]",
     "legenda": "O pai deixou isso aqui. Tá escrito.",
-    "hora": "14:05"
+    "hora": "14:05",
+    "img": "planos/f3_foto.jpg"
    },
    {
     "quem": "Cleide",

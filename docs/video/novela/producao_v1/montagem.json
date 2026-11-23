@@ -1,0 +1,287 @@
+{
+ "duracao": 77.55,
+ "segmentos": [
+  {
+   "t": 0,
+   "fim": 9,
+   "fundo": "planos/f1.mp4",
+   "ini": 0,
+   "vel": 0.89,
+   "cartoes": [
+    {
+     "png": "telas/t00.png",
+     "de": 0.3,
+     "ate": 3
+    },
+    {
+     "png": "telas/t03.png",
+     "de": 3,
+     "ate": 9,
+     "entra": false
+    }
+   ],
+   "legendas": [
+    {
+     "txt": "Valdir: Você nunca teve dinheiro nem pra adubo, Rosa.",
+     "de": 3.0,
+     "ate": 5.9
+    },
+    {
+     "txt": "Agora quem manda lá é o doutor Tavares.",
+     "de": 5.9,
+     "ate": 9
+    }
+   ]
+  },
+  {
+   "t": 9,
+   "fim": 15,
+   "fundo": "planos/f4.mp4",
+   "ini": 0,
+   "cartoes": [
+    {
+     "png": "telas/t09.png",
+     "de": 0.3
+    }
+   ],
+   "legendas": [
+    {
+     "txt": "Tavares: Dona Rosa, segunda eu chego com o trator.",
+     "de": 0.2,
+     "ate": 2.9
+    },
+    {
+     "txt": "Paguei dois milhões à vista.",
+     "de": 2.9,
+     "ate": 6
+    }
+   ]
+  },
+  {
+   "t": 15,
+   "fim": 21,
+   "fundo": "planos/f3.mp4",
+   "ini": 0,
+   "cartoes": [
+    {
+     "png": "telas/t15.png",
+     "de": 1.0
+    }
+   ],
+   "legendas": [
+    {
+     "txt": "Cleide: Livro velho do seu pai, Rosinha?",
+     "de": 0.2,
+     "ate": 2.4
+    },
+    {
+     "txt": "Isso não vale nada, querida. Joga no lixo.",
+     "de": 2.4,
+     "ate": 6
+    }
+   ]
+  },
+  {
+   "t": 21,
+   "fim": 27,
+   "fundo": "planos/f2.mp4",
+   "ini": 0,
+   "cartoes": [
+    {
+     "png": "telas/t21.png",
+     "de": 1.2
+    }
+   ]
+  },
+  {
+   "t": 27,
+   "fim": 32,
+   "fundo": "planos/f2.mp4",
+   "ini": 4,
+   "vel": 0.8,
+   "borrar": true,
+   "cartoes": [
+    {
+     "png": "telas/t27.png",
+     "de": 0.2
+    }
+   ]
+  },
+  {
+   "t": 32,
+   "fim": 38,
+   "fundo": "planos/f3.mp4",
+   "ini": 2,
+   "borrar": true,
+   "cartoes": [
+    {
+     "png": "telas/t32.png",
+     "de": 0.2
+    }
+   ]
+  },
+  {
+   "t": 38,
+   "fim": 43,
+   "fundo": "planos/f4.mp4",
+   "ini": 3,
+   "borrar": true,
+   "cartoes": [
+    {
+     "png": "telas/t38.png",
+     "de": 0.2
+    }
+   ]
+  },
+  {
+   "t": 43,
+   "fim": 46,
+   "fundo": "planos/f1.mp4",
+   "ini": 5,
+   "borrar": true,
+   "cartoes": [
+    {
+     "png": "telas/t43.png",
+     "de": 0.1
+    }
+   ]
+  },
+  {
+   "t": 46,
+   "fim": 57.05,
+   "legendas": [
+    {
+     "txt": "Herança ainda não dividida: irmão tem preferência.",
+     "de": 0.3,
+     "ate": 3.62,
+     "y": 1230
+    },
+    {
+     "txt": "Pelo mesmo preço, a parte fica com a família.",
+     "de": 3.62,
+     "ate": 7.9,
+     "y": 1230
+    },
+    {
+     "txt": "Está no livro do seu pai.",
+     "de": 7.9,
+     "ate": 10.75,
+     "y": 1230
+    }
+   ],
+   "fundo": "planos/dr46.mp4",
+   "ini": 0,
+   "lei": {
+    "png": "telas/t46.png",
+    "de": 1.0
+   }
+  },
+  {
+   "t": 57.05,
+   "fim": 64.05,
+   "legendas": [
+    {
+     "txt": "E como ninguém avisou a dona Rosa,",
+     "de": 0.3,
+     "ate": 2.94,
+     "y": 1230
+    },
+    {
+     "txt": "ela tem cento e oitenta dias pra depositar o preço.",
+     "de": 2.94,
+     "ate": 6.7,
+     "y": 1230
+    }
+   ],
+   "foto": "../personagem/foto_oficial.jpg",
+   "lei": {
+    "png": "telas/t55.png",
+    "de": 0.6
+   }
+  },
+  {
+   "t": 64.05,
+   "fim": 68.05,
+   "fundo": "planos/f4.mp4",
+   "ini": 4,
+   "borrar": true,
+   "cartoes": [
+    {
+     "png": "telas/t62.png",
+     "de": 0.2
+    }
+   ]
+  },
+  {
+   "t": 68.05,
+   "fim": 71.05,
+   "legendas": [
+    {
+     "txt": "Dona Rosa, a senhora não está sozinha.",
+     "de": 0.3,
+     "ate": 2.7,
+     "y": 1230
+    }
+   ],
+   "foto": "../personagem/foto_oficial.jpg"
+  },
+  {
+   "t": 71.05,
+   "fim": 73.55,
+   "fundo": "planos/f5.mp4",
+   "ini": 5.0
+  },
+  {
+   "t": 73.55,
+   "fim": 77.55,
+   "fundo": "planos/f1.mp4",
+   "ini": 3,
+   "borrar": true,
+   "cartoes": [
+    {
+     "png": "telas/t71.png",
+     "de": 0.2
+    }
+   ]
+  }
+ ],
+ "audios": [
+  {
+   "arq": "voz/03_valdir.mp3",
+   "t": 3.0
+  },
+  {
+   "arq": "voz/09_tavares.mp3",
+   "t": 9.2
+  },
+  {
+   "arq": "voz/15_cleide.mp3",
+   "t": 15.2
+  },
+  {
+   "arq": "planos/dr46.wav",
+   "t": 46
+  },
+  {
+   "arq": "voz/fala55.mp3",
+   "t": 57.449999999999996
+  },
+  {
+   "arq": "voz/fala66.mp3",
+   "t": 68.45
+  }
+ ],
+ "blips": [
+  0.3,
+  3.0,
+  9.3,
+  16.0,
+  22.2,
+  27.2,
+  32.2,
+  38.2,
+  43.1,
+  64.25,
+  73.75
+ ]
+}

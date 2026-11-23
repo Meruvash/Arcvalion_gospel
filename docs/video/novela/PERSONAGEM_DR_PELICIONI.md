@@ -37,7 +37,14 @@ assiste tem que terminar pensando: "se acontecer comigo, é ele que eu chamo".
 - **Conferência:** o editor confere as regras de publicidade da OAB (Provimento 205/2021).
 
 ## Imagem
-- Só **vídeo e foto reais** do editor, nunca rosto gerado por IA.
+- **Mudança de 23/11/2026, a pedido expresso do editor ("não esquece de gerar meu personagem"):** o personagem pode
+  ser gerado por IA, sempre a partir da foto oficial dele.
+  - **Folha de personagem:** `elenco/folhas/dr_pelicioni_folha.jpg` (original em PNG no Drive), Higgsfield (Nano Banana Pro), com a foto como
+    referência.
+  - **Fala:** Higgsfield Intone, com a foto oficial e a voz clonada dele (`voz_editor_s_neutro.py`).
+  - **Conferência:** todo plano com o rosto dele passa pelo crivo H1 a H7 e pela aprovação dele antes de publicar.
+  - **Preferência:** o vídeo real continua preferido quando existir.
+- Antes dessa mudança, a regra era só **vídeo e foto reais** do editor, nunca rosto gerado por IA.
 - Mesmo figurino e mesmo fundo em todos os episódios.
 - Na novela, ele entra por **chamada de vídeo** ou **áudio com foto de perfil**.
 - Lista de tomadas: ver a mensagem de 23/11/2026, registrada no fim deste arquivo.

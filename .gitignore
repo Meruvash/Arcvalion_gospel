@@ -13,3 +13,9 @@ node_modules/
 .dev.vars
 worker/.wrangler/
 _site/
+
+# Novela: vídeos e áudios gerados ficam fora do git (guardados no Google Drive, pasta "Novela V1")
+docs/video/novela/producao_v*/planos/*.mp4
+docs/video/novela/producao_v*/planos/*.wav
+docs/video/novela/producao_v*/novela_v*_previa*.mp4
+docs/video/novela/elenco/folhas/*.png
