@@ -62,12 +62,14 @@ description: Produz um episódio da novelinha do outro Instagram do editor (Reel
    - sem texto na tela e sem música.
 
    Destino de cada clipe: manter, cortar, corrigir na montagem ou refazer. Refaça mudando uma variável por vez.
+   Use `python3 tools/video/novela/triagem_clipe.py <pasta> idx=url ...`. Se a palavra continuar errada depois de uma
+   refação, **duble só esse clipe** com a voz do personagem no ElevenLabs, alinhada ao início da fala (`FORMATO_CENA.md`).
 
 8. **Trilha.** ElevenLabs Music, instrumental, na duração do episódio mais 5 s, em trechos que seguem a fórmula: tensão,
    suspense antes da virada, virada ascendente e acorde de suspense no gancho final. Descreva o som; nunca cite
    compositor, obra ou artista. O plano pago tem uso comercial online (termos de 09/10/2026).
 
-9. **Montagem** com `tools/video/novela/montar_episodio.py`:
+9. **Montagem** com `tools/video/novela/montar_cena.py montagem.json ep.mp4`:
    - cortes de 0,25 s antes a 0,4 s depois da fala;
    - fala perto de -19 LUFS, com a trilha por baixo;
    - legenda amarela;

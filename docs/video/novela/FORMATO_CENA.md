@@ -53,3 +53,29 @@ Com rascunho e refação, a conta fica entre **700 e 1.200 créditos por episód
   trilha, legenda, cartão de lei). Cada clipe passa pela transcrição; se faltar palavra, refaz só aquele clipe.
 - **Custo:** o Mini custa 1 crédito por segundo em 720p, já com fala. O Seedance 2.5 custa 7 por segundo em 720p e 3 em
   480p. O Seedance 2.5 fica só para plano que o Mini não resolver.
+
+
+## Produção da V1 em cena (23/11/2026): o que aprendemos
+- **Créditos:** 250, no teto aprovado.
+  - 3 folhas novas;
+  - 15 clipes: 3 no Seedance 2.5 em 720p (gancho, previsão, queda) e 12 no Mini em 720p;
+  - 5 refações no Mini.
+- **Duração:** 88,9 s.
+- **Conferências:** abertura e ritmo 5/5; -18,4 LUFS; transcrição de todas as falas conferida.
+- **Pronúncia:** o Mini errou palavras difíceis do português. Exemplos: "milhones", "preferente", "alisou" no lugar de
+  "avisou", "deposicar", "con-contou".
+  - Pedir "perfect diction" no prompt resolveu um caso ("preferência"), mas não os outros.
+  - Reescrever a frase evitando a palavra também não resolveu "milhões".
+- **Saída sem crédito:** dublar só o clipe com erro.
+  - A voz é gerada no ElevenLabs: a do personagem, ou a do editor por `voz_editor_s_neutro.py`.
+  - O áudio é alinhado ao início da fala do modelo e ajustado com atempo de 0,8 a 1,25. A boca continua batendo porque
+    as sílabas são quase iguais.
+  - Foi feito nos clipes c02 e c12.
+- **"S" do editor nas falas geradas pelo Seedance:** medido com o `voz_editor_s_neutro.py` e tão neutro quanto o do
+  ElevenLabs, ou mais ("está" 89 contra 25; "mesmo" 3,5 contra 0,8 a 2,2).
+- **Lente dos óculos:** o Seedance 2.5 ainda escurece a lente dos óculos do editor. O Mini respeitou "clear transparent
+  lenses".
+- **Ferramentas:**
+  - `tools/video/novela/triagem_clipe.py`: baixa, transcreve, compara com a fala e monta a folha de quadros;
+  - `tools/video/novela/montar_cena.py`: montagem com legenda no tempo das palavras, cartão da lei, trilha que abaixa
+    sob a fala e cartão final "PARTE 2".

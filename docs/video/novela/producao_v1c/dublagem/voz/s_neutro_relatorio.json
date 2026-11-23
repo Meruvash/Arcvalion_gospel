@@ -1,0 +1,100 @@
+{
+ "12": {
+  "escolhida": 1,
+  "candidatas": [
+   {
+    "cand": 0,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.65,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1000,
+    "transcricao": "E ninguém contou pra dona Rosa. 180 dias pra ela depositar o preço",
+    "confere": false,
+    "media_s": 0.3802501207896382,
+    "notas_s": [
+     {
+      "palavra": "Rosa.(início)",
+      "razao": 0.5991224689003459
+     },
+     {
+      "palavra": "dias",
+      "razao": 0.3714336146290307
+     },
+     {
+      "palavra": "depositar(início)",
+      "razao": 0.5217062037901726
+     }
+    ],
+    "arquivo": "voz/cand/fala12_c0.mp3"
+   },
+   {
+    "cand": 1,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.6,
+      "style": 0.0,
+      "use_speaker_boost": false
+     }
+    },
+    "seed": 1037,
+    "transcricao": "E ninguém contou pra dona Rosa. 180 dias pra ela depositar o preço",
+    "confere": false,
+    "media_s": 1.0927381090668769,
+    "notas_s": [
+     {
+      "palavra": "Rosa.(início)",
+      "razao": 8.103494798111043
+     },
+     {
+      "palavra": "dias",
+      "razao": 0.84414149007531
+     },
+     {
+      "palavra": "depositar(início)",
+      "razao": 1.5555471472704965
+     }
+    ],
+    "arquivo": "voz/cand/fala12_c1.mp3"
+   },
+   {
+    "cand": 2,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1074,
+    "transcricao": "E ninguém contou pra dona Rosa. 180 dias pra ela depositar o preço",
+    "confere": false,
+    "media_s": 0.9228094522031546,
+    "notas_s": [
+     {
+      "palavra": "Rosa.(início)",
+      "razao": 4.738534212589673
+     },
+     {
+      "palavra": "dias",
+      "razao": 0.8872133229793033
+     },
+     {
+      "palavra": "depositar(início)",
+      "razao": 0.9617391029911667
+     }
+    ],
+    "arquivo": "voz/cand/fala12_c2.mp3"
+   }
+  ]
+ }
+}
