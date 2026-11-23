@@ -112,7 +112,7 @@ def segmento(c, base, tmp, i, faixa):
         ins += ["-loop", "1", "-i", p]
         y = 1120 if c.get("lei") else 1560
         filt.append(f"[{at}][{n}]overlay=x=0:y={y}:enable='between(t,{lg['de']:.2f},{lg['ate']:.2f})'[v{n}]"); at = f"v{n}"; n += 1
-    filt.append(f"[0:a]aresample=44100,loudnorm=I=-19:TP=-2:LRA=9,aformat=channel_layouts=stereo[a]")
+    filt.append(f"[0:a]aresample=44100,loudnorm=I=-19:TP=-2:LRA=9,aresample=44100,aformat=channel_layouts=stereo,apad=whole_dur={d},atrim=0:{d},asetpts=N/SR/TB[a]")
     out = os.path.join(tmp, f"s{i:02d}.mp4")
     sh("ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(filt), "-map", f"[{at}]", "-map", "[a]",
        "-t", str(d), "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
@@ -127,9 +127,13 @@ def main():
         faixa = os.path.join(tmp, "faixa.png"); faixa_drama(faixa)
         segs = [segmento(c, base, tmp, i, faixa) for i, c in enumerate(m["clipes"])]
         tot = sum(d for _, d in segs)
-        lst = os.path.join(tmp, "l.txt"); open(lst, "w").write("".join(f"file '{p}'\n" for p, _ in segs))
+        # Emenda com recodificação (filtro concat): áudio e vídeo de cada clipe têm a mesma duração, sem deriva acumulada
         cena = os.path.join(tmp, "cena.mp4")
-        sh("ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", cena)
+        ins_c = sum([["-i", p] for p, _ in segs], [])
+        fc = "".join(f"[{k}:v][{k}:a]" for k in range(len(segs))) + f"concat=n={len(segs)}:v=1:a=1[v][a]"
+        sh("ffmpeg", "-v", "error", "-y", *ins_c, "-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-c:v", "libx264",
+           "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "pcm_s16le", cena.replace(".mp4", ".mov"))
+        cena = cena.replace(".mp4", ".mov")
         ins = ["-i", cena, "-i", os.path.join(base, m["trilha"])]
         fl = [f"[1:a]atrim=0:{tot},volume={m.get('trilha_db', -14)}dB,afade=t=out:st={tot - 1.5}:d=1.5[mus]",
               "[0:a]asplit=2[fala][sc]",
