@@ -1,0 +1,189 @@
+{
+ "slug": "proagro-bloqueio-municipios-orcamento-80-por-cento-resolucao-cmn-5275",
+ "data": "2026-11-23",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Proagro pode travar novos contratos por município quando o orçamento aperta; entenda a regra",
+ "lide": "Com o PLP 299, o ajuste fiscal que mexe no seguro rural, na pauta da Câmara nesta segunda-feira (23), vale conhecer outra trava: desde janeiro, o Proagro pode deixar de aceitar novos contratos nos municípios com mais risco quando as perdas e riscos assumidos passam de 80% do orçamento do programa, pela Resolução CMN 5.275.",
+ "por_que_importa": "O Manual de Crédito Rural torna obrigatório o enquadramento no Proagro em parte do custeio agrícola. Se o município entra no bloqueio, o produtor pode ficar sem a garantia do programa justamente na hora de financiar a safra, e a dispensa fica a critério do banco.",
+ "numeros": [
+  [
+   "80%",
+   "é o patamar de comprometimento do orçamento a partir do qual começam os bloqueios por município",
+   "Resolução CMN 5.275"
+  ],
+  [
+   "15 dias",
+   "é o intervalo máximo para o Banco Central atualizar o cálculo do patamar",
+   "Resolução CMN 5.275"
+  ],
+  [
+   "100%",
+   "acima desse patamar, nenhum empreendimento novo é enquadrado no Proagro",
+   "Resolução CMN 5.275"
+  ]
+ ],
+ "corpo": [
+  "A conta soma o risco já assumido e ainda não vencido das lavouras enquadradas com as indenizações estimadas para perdas já comunicadas e ainda não julgadas, e divide pelo orçamento disponível. Acima de 80%, ficam bloqueados os municípios que somam 25% desse valor; acima de 90%, os que somam 50%; acima de 100%, todo novo enquadramento.",
+  "Antes de qualquer bloqueio, o Banco Central passa os dados aos ministérios da Fazenda, do Planejamento e da política agrícola, para que avaliem aporte de recursos. O município bloqueado volta ao programa quando deixa de estar nas faixas de bloqueio."
+ ],
+ "no_brasil": "Quando o empreendimento fica impedido de entrar no Proagro por causa do bloqueio, a resolução permite ao banco dispensar a exigência de enquadramento no custeio agrícola, a critério do agente e observadas condições do Manual de Crédito Rural. A regra vale para enquadramentos feitos desde 1º de janeiro de 2026.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.275/2025, Manual de Crédito Rural 12-13-1",
+   "texto": "aplicável na hipótese de as despesas previstas excederem o valor do orçamento acrescido da expectativa de receita com o adicional para o exercício de competência",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5275"
+  },
+  {
+   "fonte": "Resolução CMN 5.275/2025, Manual de Crédito Rural 12-13-8",
+   "texto": "Os municípios bloqueados poderão tornar a ter empreendimentos enquadrados no Proagro quando deixarem de estar abrangidos pelas hipóteses",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5275"
+  }
+ ],
+ "para_quem": [
+  "Produtor que vai contratar custeio com Proagro: pergunte ao banco se o seu município está com enquadramento bloqueado antes de fechar a operação",
+  "Quem tem perda a comunicar: as perdas comunicadas entram na conta do bloqueio, mas o direito de comunicar não muda",
+  "Sem Proagro por bloqueio: o banco pode dispensar a exigência; avalie o seguro rural privado como alternativa"
+ ],
+ "nao_e_para": [
+  "Não encontramos divulgação oficial de bloqueio já aplicado em 2026",
+  "Os percentuais valem sobre o orçamento disponível do ano, que muda com suplementações e aportes do Tesouro",
+  "A nota não trata do seguro rural privado, que tem regras próprias"
+ ],
+ "veredito": "A gente acha que o produtor tem o direito de saber, antes de plantar, se o seu município está na lista. Uma regra que pode tirar a garantia do custeio no meio da safra precisa de divulgação clara e pública, e não só de um cálculo quinzenal interno.",
+ "fontes": [
+  {
+   "nome": "Banco Central: Resolução CMN 5.275, de 18 de dezembro de 2025 (bloqueio dinâmico ao enquadramento no Proagro)",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5275",
+   "data": "18/12/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: pauta da sessão deliberativa extraordinária de 23/11/2026 (PLP 299/2026)",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419/pauta",
+   "data": "23/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 54,
+  "trilha": "atemporal",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Regra do CMN que pode bloquear o Proagro por município"
+  },
+  "origem": {
+   "nome": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5275"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 11,
+    "porque": "Atinge qualquer produtor com custeio que dependa do Proagro em municípios de maior risco"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Proagro e crédito rural, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 5,
+    "porque": "Norma de dezembro de 2025, com gancho na votação do PLP 299 na Câmara em 23/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Texto da resolução lido no Banco Central, inclusive as faixas em imagem; pauta da Câmara nos dados abertos"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Regra pouco explicada ao produtor, sem cobertura recente"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: resolução do CMN (2)",
+    "Ato de quem tem poder: Conselho Monetário Nacional (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que perguntar ao banco antes do custeio (2)",
+    "Duas fontes oficiais: Banco Central e Câmara (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN 5.275/2025",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Proagro",
+  "coleta": "2026-11-23",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "resolução lida no Banco Central; faixas conferidas nas imagens do texto oficial",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "se algum bloqueio já foi aplicado em 2026"
+  },
+  "duplicidade": {
+   "grupo": "Proagro",
+   "itens": [
+    "Resolução CMN 5.275"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-22-temporal-rs-proagro-vistoria-fotos-localizacao-produtor-lavoura-perdas"
+  },
+  "seo": {
+   "intencao": "saber se o Proagro pode ser bloqueado no município",
+   "entidades": [
+    "Proagro",
+    "Conselho Monetário Nacional",
+    "Banco Central",
+    "Resolução CMN 5.275",
+    "Manual de Crédito Rural"
+   ],
+   "termos": [
+    "Proagro bloqueio município",
+    "Proagro orçamento 80%",
+    "Resolução CMN 5275"
+   ],
+   "atualizacao": "acompanhar divulgação de bloqueios e aportes ao Proagro"
+  },
+  "agro": {
+   "demanda": "Produtores em municípios de maior risco que podem ficar sem enquadramento no Proagro e precisam de alternativa de garantia para o custeio",
+   "prazo": "verificação quinzenal pelo Banco Central; vale para enquadramentos desde 1º/1/2026",
+   "quem": "Produtores com custeio agrícola sujeito ao Proagro e Proagro Mais"
+  }
+ },
+ "descricao_seo": "Resolução CMN 5.275: Proagro pode bloquear novos contratos por município quando perdas e riscos passam de 80% do orçamento. Entenda a regra.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da resolução no Banco Central, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regras tiradas do texto da Resolução CMN 5.275, com citação literal; as faixas de 80%, 90% e 100% foram conferidas nas imagens do texto oficial. A nota diz que não encontrou bloqueio aplicado, sem afirmar que houve. A crítica do veredito mira a transparência da regra, não pessoas. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/proagro-bloqueio-municipios-orcamento-80-por-cento-resolucao-cmn-5275.jpg",
+  "credito": "Foto: Antonio Cruz/Agência Brasil",
+  "alt": "Produtos da agricultura familiar: bananas, abóboras, mandioca, frutas e sementes (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/3xYpExiTVPptwdJdpMSwlXxmru8=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/agricultura_familiar.jpg?itok=684QNCH4",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-07/emprestimo-do-bndes-para-o-plano-safra-sera-recorde-de-r-70-bilhoes"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-23T14:51:02-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-23T14:51:02-03:00"
+}
