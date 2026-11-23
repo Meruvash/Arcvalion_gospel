@@ -1,0 +1,433 @@
+[
+ {
+  "video": "planos/c01.mp4",
+  "fps": 24.0,
+  "duracao": 6.04,
+  "texto": "Isso aqui não vale nada, Rosinha",
+  "boca_falando": [
+   [
+    3.58,
+    5.67
+   ]
+  ],
+  "voz": [
+   [
+    3.7,
+    5.6
+   ]
+  ],
+  "boca_sem_voz_s": 0.21,
+  "voz_sem_boca_s": 0.0,
+  "atraso_ms": 83,
+  "aprovado": true,
+  "rosto_pct": 72
+ },
+ {
+  "video": "planos/c02.mp4",
+  "fps": 24.0,
+  "duracao": 5.04,
+  "texto": "Minha parte já tá vendida. Dois milhones à vista",
+  "boca_falando": [
+   [
+    1.25,
+    4.92
+   ]
+  ],
+  "voz": [
+   [
+    1.18,
+    2.52
+   ],
+   [
+    3.06,
+    3.96
+   ],
+   [
+    4.36,
+    4.9
+   ]
+  ],
+  "boca_sem_voz_s": 0.88,
+  "voz_sem_boca_s": 0.08,
+  "atraso_ms": -375,
+  "aprovado": false,
+  "rosto_pct": 100
+ },
+ {
+  "video": "planos/c03.mp4",
+  "fps": 24.0,
+  "duracao": 5.04,
+  "texto": "Segunda-feira eu chego com o trator, dona Rosa",
+  "boca_falando": [
+   [
+    0.88,
+    3.04
+   ],
+   [
+    3.92,
+    4.54
+   ]
+  ],
+  "voz": [
+   [
+    1.94,
+    4.48
+   ]
+  ],
+  "boca_sem_voz_s": 1.08,
+  "voz_sem_boca_s": 0.88,
+  "atraso_ms": 292,
+  "aprovado": false,
+  "rosto_pct": 100
+ },
+ {
+  "video": "planos/c04.mp4",
+  "fps": 24.0,
+  "duracao": 8.04,
+  "texto": "Esse livro era do nosso pai, Valdir. Tá tudo escrito aqui",
+  "boca_falando": [
+   [
+    3.33,
+    6.08
+   ],
+   [
+    7.0,
+    7.96
+   ]
+  ],
+  "voz": [
+   [
+    4.06,
+    5.98
+   ],
+   [
+    6.68,
+    7.8
+   ]
+  ],
+  "boca_sem_voz_s": 1.0,
+  "voz_sem_boca_s": 0.33,
+  "atraso_ms": 42,
+  "aprovado": false,
+  "rosto_pct": 100
+ },
+ {
+  "video": "planos/c05.mp4",
+  "fps": 24.0,
+  "duracao": 5.04,
+  "texto": "[riso] Para de inventar lei, Rosinha. Ninguém vai te ajudar",
+  "boca_falando": [
+   [
+    0.33,
+    3.42
+   ],
+   [
+    3.71,
+    4.71
+   ]
+  ],
+  "voz": [
+   [
+    1.66,
+    4.76
+   ]
+  ],
+  "boca_sem_voz_s": 1.33,
+  "voz_sem_boca_s": 0.29,
+  "atraso_ms": 42,
+  "aprovado": false,
+  "rosto_pct": 100
+ },
+ {
+  "video": "planos/c06.mp4",
+  "fps": 24.0,
+  "duracao": 7.04,
+  "texto": "Mãe, não discute com eles. Eu já chamei quem entende",
+  "boca_falando": [
+   [
+    2.54,
+    4.83
+   ],
+   [
+    5.5,
+    6.88
+   ]
+  ],
+  "voz": [
+   [
+    3.1,
+    4.78
+   ],
+   [
+    5.68,
+    6.88
+   ]
+  ],
+  "boca_sem_voz_s": 0.79,
+  "voz_sem_boca_s": 0.0,
+  "atraso_ms": 42,
+  "aprovado": false,
+  "rosto_pct": 92
+ },
+ {
+  "video": "planos/c07.mp4",
+  "fps": 24.0,
+  "duracao": 5.04,
+  "texto": "[riso] Chamou quem? O padre?",
+  "boca_falando": [
+   [
+    0.0,
+    1.92
+   ],
+   [
+    2.25,
+    3.25
+   ]
+  ],
+  "voz": [
+   [
+    1.02,
+    1.58
+   ],
+   [
+    2.1,
+    2.7
+   ]
+  ],
+  "boca_sem_voz_s": 1.96,
+  "voz_sem_boca_s": 0.17,
+  "atraso_ms": -167,
+  "aprovado": false,
+  "rosto_pct": 100
+ },
+ {
+  "video": "planos/c09.mp4",
+  "fps": 24.0,
+  "duracao": 8.04,
+  "texto": "Boa tarde. O seu Valdir vai dizer que a parte é dele e vende pra quem quiser",
+  "boca_falando": [
+   [
+    1.88,
+    2.33
+   ],
+   [
+    2.71,
+    3.46
+   ],
+   [
+    3.71,
+    4.29
+   ],
+   [
+    5.08,
+    7.62
+   ]
+  ],
+  "voz": [
+   [
+    1.78,
+    2.36
+   ],
+   [
+    3.62,
+    4.3
+   ],
+   [
+    5.06,
+    6.22
+   ],
+   [
+    6.68,
+    7.62
+   ]
+  ],
+  "boca_sem_voz_s": 1.21,
+  "voz_sem_boca_s": 0.33,
+  "atraso_ms": -42,
+  "aprovado": false,
+  "rosto_pct": 100
+ },
+ {
+  "video": "planos/c10.mp4",
+  "fps": 24.0,
+  "duracao": 5.04,
+  "texto": "A parte é minha. Vendo pra quem quiser",
+  "boca_falando": [
+   [
+    0.0,
+    0.71
+   ],
+   [
+    1.0,
+    2.5
+   ]
+  ],
+  "voz": [
+   [
+    0.12,
+    2.42
+   ]
+  ],
+  "boca_sem_voz_s": 0.17,
+  "voz_sem_boca_s": 0.25,
+  "atraso_ms": 83,
+  "aprovado": true,
+  "rosto_pct": 100
+ },
+ {
+  "video": "planos/c11.mp4",
+  "fps": 24.0,
+  "duracao": 8.04,
+  "texto": "É sua, mas herança não dividida. Irmão tem preferência. Pelo mesmo preço, a parte fica com a família",
+  "boca_falando": [
+   [
+    0.04,
+    0.58
+   ],
+   [
+    1.42,
+    3.92
+   ],
+   [
+    4.21,
+    5.92
+   ],
+   [
+    6.21,
+    7.33
+   ],
+   [
+    7.62,
+    7.83
+   ]
+  ],
+  "voz": [
+   [
+    0.44,
+    0.9
+   ],
+   [
+    1.66,
+    2.94
+   ],
+   [
+    3.46,
+    4.74
+   ],
+   [
+    5.24,
+    6.08
+   ],
+   [
+    6.46,
+    7.86
+   ]
+  ],
+  "boca_sem_voz_s": 1.83,
+  "voz_sem_boca_s": 1.0,
+  "atraso_ms": 250,
+  "aprovado": false,
+  "rosto_pct": 100
+ },
+ {
+  "video": "planos/c12.mp4",
+  "fps": 24.0,
+  "duracao": 7.04,
+  "texto": "E ninguém con-contou pra dona Rosa. Cento e oitenta dias pra ela depositar o preço",
+  "boca_falando": [
+   [
+    0.25,
+    1.88
+   ],
+   [
+    2.38,
+    2.92
+   ],
+   [
+    3.62,
+    6.58
+   ]
+  ],
+  "voz": [
+   [
+    1.1,
+    2.94
+   ],
+   [
+    4.14,
+    6.68
+   ]
+  ],
+  "boca_sem_voz_s": 1.38,
+  "voz_sem_boca_s": 0.58,
+  "atraso_ms": 500,
+  "aprovado": false,
+  "rosto_pct": 100
+ },
+ {
+  "video": "planos/c14.mp4",
+  "fps": 24.0,
+  "duracao": 6.04,
+  "texto": "Dona Rosa, a senhora não está sozinha.",
+  "boca_falando": [
+   [
+    0.0,
+    2.79
+   ]
+  ],
+  "voz": [
+   [
+    0.24,
+    0.86
+   ],
+   [
+    1.34,
+    2.82
+   ]
+  ],
+  "boca_sem_voz_s": 0.67,
+  "voz_sem_boca_s": 0.04,
+  "atraso_ms": 208,
+  "aprovado": false,
+  "rosto_pct": 100
+ },
+ {
+  "video": "planos/c15.mp4",
+  "fps": 24.0,
+  "duracao": 5.04,
+  "texto": "Calma, Valdir. Eu ainda tenho outro plano",
+  "boca_falando": [
+   [
+    0.71,
+    1.33
+   ],
+   [
+    1.58,
+    2.21
+   ],
+   [
+    2.71,
+    3.58
+   ],
+   [
+    4.0,
+    4.21
+   ]
+  ],
+  "voz": [
+   [
+    1.14,
+    2.12
+   ],
+   [
+    2.96,
+    4.32
+   ]
+  ],
+  "boca_sem_voz_s": 0.79,
+  "voz_sem_boca_s": 0.71,
+  "atraso_ms": 208,
+  "aprovado": false,
+  "rosto_pct": 100
+ }
+]
