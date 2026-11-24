@@ -19,3 +19,13 @@ Vídeo conferido: `planos/marca_da_estrela_v2c.mp4` (75 s). Os tempos são do fi
 - Voz do Dr.: voice change do Higgsfield com o clone `95b656d3…` só nos trechos em que só o Dr. fala (r3 0–3,78 s; r4 0–4,25 s), 1 crédito cada. O tempo das palavras não mudou (boca sincronizada).
 - Nova montagem: `montagem/montagem.json` (a anterior ficou em `montagem_v1.json`). Filme: `planos/marca_da_estrela_v2c_r2.mp4`, 68,2 s, −18,1 LUFS, 14 falas completas no transcritor.
 - Gasto da refação: 212 créditos.
+
+## Reescrita com as cenas que faltavam (24/11/2026)
+
+Depois da avaliação do editor ("não tem história"), o roteiro foi reescrito (`roteiros/drama/v2c_reescrita.md`) e
+aprovado. Geradas 4 cenas (Dr. arma a armadilha, anca limpa, leiloeiro expulsa, Cleide no portão com o celular) e 3
+falas só de voz; prompts e jobs em `drama/prompts_cenas_novas.md`. Trilha nova no ElevenLabs alinhada às viradas
+(`trilha/plano_trilha_v3.json`). Montagem em `montagem/montagem.json` (a anterior em `montagem_v2.json`).
+Filme: `planos/marca_da_estrela_v2c_r3.mp4`, 85,5 s, −17,3 LUFS, todas as falas certas no transcritor.
+Gasto: 134,1 créditos (cotação 131,6 + 0,2 da fala refeita + 1 da troca de voz + diferença de arredondamento).
+Corrigido em `montar_cena.py`: duas legendas apareciam no mesmo quadro na troca de bloco.

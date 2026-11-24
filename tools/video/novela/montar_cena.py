@@ -86,7 +86,8 @@ def legendas(texto, palavras, max_pal=6):
         ia = min(m - 1, round(a * m / n)); iz = min(m - 1, max(ia, round(z * m / n) - 1))
         out.append({"txt": " ".join(toks[a:z]), "de": ditas[ia]["start"], "ate": ditas[iz]["end"] + 0.25})
     for k in range(len(out) - 1):
-        out[k]["ate"] = min(out[k]["ate"], out[k + 1]["de"])
+        # termina um pouco antes da próxima: between() inclui as duas pontas e mostraria duas legendas no mesmo quadro
+        out[k]["ate"] = min(out[k]["ate"], out[k + 1]["de"] - 0.05)
     return out
 
 

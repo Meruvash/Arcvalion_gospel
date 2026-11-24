@@ -1,5 +1,5 @@
 {
- "trilha": "trilha_v2c_alinhada.mp3",
+ "trilha": "trilha_v3.mp3",
  "trilha_db": -16,
  "clipes": [
   {
@@ -23,7 +23,7 @@
   {
    "arq": "../planos/k2_720.mp4",
    "ini": 0.8,
-   "fim": 14.0,
+   "fim": 11.25,
    "fala": "Doze mil ajuda no depósito da terra. Essa aí não tem onde cair morta. Dona Rosa, com acusação eu tiro o lote."
   },
   {
@@ -33,10 +33,10 @@
    "fala": "Cadê a nota dela? Cadê o papel? O papel ficou em casa. Deus sabe."
   },
   {
-   "arq": "../planos/r2_720.mp4",
-   "ini": 0.9,
-   "fim": 3.3,
-   "fala": "Roça de pobre não cria vaca assim."
+   "arq": "../planos/novas/c_rmarca.mp4",
+   "ini": 0,
+   "fim": 5.3,
+   "fala": "Essa marca é minha. No pescoço, como meu pai ensinou."
   },
   {
    "arq": "../planos/k3_720.mp4",
@@ -50,36 +50,70 @@
    "fala": "Chama a polícia. Ladra não sai daqui."
   },
   {
+   "arq": "../planos/novas/n1_final.mp4",
+   "ini": 0.2,
+   "fim": 4.6,
+   "fala": "Antes de olhar a vaca, pergunta onde ela marcou."
+  },
+  {
    "arq": "../planos/r3_final.mp4",
    "ini": 2.3,
+   "fim": 3.78,
+   "fala": "Ela vai dizer que marcou na anca."
+  },
+  {
+   "arq": "../planos/novas/c_pergunta.mp4",
+   "ini": 0,
+   "fim": 3.75,
+   "fala": "Dona Cleide, onde fica a sua marca?"
+  },
+  {
+   "arq": "../planos/r3_final.mp4",
+   "ini": 3.79,
    "fim": 6.9,
-   "fala": "Ela vai dizer que marcou na anca. Marquei na anca, sim! Pode olhar!"
+   "fala": "Marquei na anca, sim! Pode olhar!"
   },
   {
-   "arq": "../planos/k4_720.mp4",
-   "ini": 12.29,
-   "fim": 15.05
-  },
-  {
-   "arq": "../planos/k5_720.mp4",
-   "ini": 0.0,
-   "fim": 2.25
-  },
-  {
-   "arq": "../planos/r4_final.mp4",
-   "ini": 1.5,
-   "fim": 6.3,
+   "arq": "../planos/novas/c_revela.mp4",
+   "ini": 0,
+   "fim": 7.84,
    "fala": "Na anca, a lei não deixa marcar.",
    "lei": {
     "png": "cartao_4714.png",
-    "de": 0.6
+    "de": 3.0
    }
   },
   {
+   "arq": "../planos/novas/n2_leiloeiro_fora.mp4",
+   "ini": 0.3,
+   "fim": 6.05,
+   "fala": "A senhora acusou sem prova. Fora do meu leilão!",
+   "lei": {
+    "png": "cartao_138.png",
+    "de": 2.6
+   }
+  },
+  {
+   "arq": "../planos/novas/c_saida.mp4",
+   "ini": 0,
+   "fim": 1.83
+  },
+  {
+   "arq": "../planos/novas/c_martelo.mp4",
+   "ini": 0,
+   "fim": 2.95,
+   "fala": "Doze mil. Vendida!"
+  },
+  {
    "arq": "../planos/k5_720.mp4",
-   "ini": 11.42,
-   "fim": 18.05,
-   "fala": "Vende a vaca. O pasto é nosso."
+   "ini": 15.42,
+   "fim": 18.05
+  },
+  {
+   "arq": "../planos/novas/n3_cleide_gancho.mp4",
+   "ini": 1.6,
+   "fim": 6.05,
+   "fala": "Doze mil não apaga o que eu gravei."
   }
  ],
  "parte2": true
