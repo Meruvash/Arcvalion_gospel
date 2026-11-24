@@ -1,0 +1,189 @@
+{
+ "slug": "stj-imovel-hipotecado-cedula-rural-penhoravel-contrato-vencido-cpr-soja",
+ "data": "2026-11-24",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Terra hipotecada em cédula rural pode ser penhorada por outro credor depois do vencimento, mantém STJ",
+ "lide": "O STJ manteve, em decisão publicada na segunda-feira (23), a penhora de um imóvel de Minas Gerais hipotecado em cédula de crédito rural, numa execução de CPR de 183,6 toneladas de soja. A proteção contra penhora por outras dívidas, do Decreto-Lei 167/1967, foi considerada relativa porque o contrato hipotecário já tinha vencido e o credor da hipoteca ficou inerte.",
+ "por_que_importa": "A hipoteca da cédula rural protege a terra de outros credores, mas a decisão mostra que essa proteção tem prazo: vencida a cédula e parado o banco, o imóvel pode ser penhorado por quem cobra a soja de uma CPR.",
+ "numeros": [
+  [
+   "183,6 t",
+   "de soja era a entrega prevista na CPR executada no caso",
+   "STJ, AgInt no AREsp 2.975.449/MG"
+  ],
+  [
+   "Art. 69",
+   "do Decreto-Lei 167/1967 é a regra que protege da penhora os bens dados em garantia na cédula rural",
+   "STJ, AgInt no AREsp 2.975.449/MG"
+  ],
+  [
+   "23/11",
+   "foi a publicação da decisão da Quarta Turma, julgada em 17 de novembro",
+   "STJ"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, a execução era para entrega de coisa incerta, fundada na Cédula de Produto Rural, e o tribunal de Minas negou o agravo do devedor, reconhecendo a relativização da impenhorabilidade diante do vencimento do contrato hipotecário e da inércia do credor. O recurso discutia ainda a falta de anuência expressa do banco e o risco de esvaziar a garantia.",
+  "O relator, ministro João Otávio de Noronha, afirmou que a decisão de Minas está em harmonia com a orientação do STJ sobre a impenhorabilidade relativa do artigo 69 depois do fim da vigência do contrato. Rever o vencimento e a inércia do credor exigiria reexaminar provas."
+ ],
+ "no_brasil": "O caso junta dois instrumentos comuns no campo: a cédula de crédito rural com hipoteca, dada ao banco, e a CPR, que paga a compra antecipada de soja. Quando os dois credores disputam a mesma terra, a decisão indica que a proteção da hipoteca não dura para sempre se o banco não age depois do vencimento.",
+ "critica": [
+  {
+   "fonte": "STJ, Quarta Turma, AgInt no AREsp 2.975.449/MG",
+   "texto": "O acórdão recorrido está em harmonia com a orientação do STJ quanto à impenhorabilidade relativa do art. 69 do Decreto-Lei n. 167/1967 após o término da vigência do contrato",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2975449&O=JT"
+  },
+  {
+   "fonte": "Argumento do recorrente, segundo a ementa",
+   "texto": "saber se a impenhorabilidade do art. 69 do Decreto-Lei n. 167/1967 pode ser afastada pelo vencimento do contrato e pela falta de anuência expressa do credor, inclusive quanto ao risco de esvaziamento da garantia",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2975449&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor com terra hipotecada em cédula rural e CPR em aberto: a hipoteca vencida pode não segurar a penhora pedida pelo comprador da soja",
+  "Comprador de grãos que executa CPR: imóvel com hipoteca cedular vencida pode responder pela dívida",
+  "Bancos com cédula vencida: a inércia depois do vencimento pesou contra a proteção da garantia"
+ ],
+ "nao_e_para": [
+  "O STJ não reexaminou os fatos; manteve a decisão de Minas por ela seguir a orientação do tribunal",
+  "Enquanto a cédula está vigente, a proteção do art. 69 continua valendo",
+  "A ementa não informa o valor da dívida nem o tamanho do imóvel"
+ ],
+ "veredito": "A gente vê aqui um alerta para quem empilha garantias: hipoteca de cédula rural não é cofre eterno. Vencida a cédula, a terra volta a ficar exposta a outros credores, e a CPR em atraso costuma ser o primeiro a bater na porta.",
+ "fontes": [
+  {
+   "nome": "STJ: AgInt no AREsp 2.975.449/MG, Quarta Turma, relator Ministro João Otávio de Noronha",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2975449&O=JT",
+   "data": "23/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Decreto-Lei 167/1967 (títulos de crédito rural), art. 69",
+   "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0167.htm",
+   "data": "14/02/1967",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 64,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Penhora de imóvel rural hipotecado em cédula rural em execução de CPR"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2975449&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Atinge produtores com cédula hipotecária vencida e CPR em aberto, combinação comum no crédito rural"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Cédula rural, CPR e penhora de terra, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 16,
+    "porque": "Acórdão da Quarta Turma publicado no DJEN de 23/11, ontem"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa lida na base do STJ"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Acórdão de 23/11 sem cobertura na imprensa, explicado com o choque entre cédula hipotecária e CPR"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: limite da proteção da hipoteca (2)",
+    "Lei citada: Decreto-Lei 167/1967 (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "AgInt no AREsp 2.975.449/MG",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Garantias e execução",
+  "coleta": "2026-11-24",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa conferida na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "valores e área do imóvel"
+  },
+  "duplicidade": {
+   "grupo": "Penhora de imóvel rural",
+   "itens": [
+    "AREsp 2.975.449"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-20-stj-pequena-propriedade-rural-penhora-onus-prova-familia-prazo-arrematacao"
+  },
+  "seo": {
+   "intencao": "saber se imóvel hipotecado em cédula rural pode ser penhorado",
+   "entidades": [
+    "STJ",
+    "cédula de crédito rural",
+    "hipoteca",
+    "CPR",
+    "Decreto-Lei 167/1967"
+   ],
+   "termos": [
+    "imóvel hipotecado cédula rural penhora",
+    "art. 69 Decreto-Lei 167 impenhorabilidade",
+    "CPR penhora imóvel hipotecado"
+   ],
+   "atualizacao": "acompanhar julgados sobre o art. 69 do DL 167/1967"
+  },
+  "agro": {
+   "demanda": "Produtores com cédula hipotecária vencida e CPR em atraso, expostos à penhora do imóvel por outros credores",
+   "prazo": "vencimento da cédula hipotecária",
+   "quem": "Produtores emitentes de cédula rural hipotecária e de CPR; compradores de grãos credores de CPR"
+  }
+ },
+ "descricao_seo": "STJ mantém penhora de imóvel rural hipotecado em cédula rural depois do vencimento do contrato, em execução de CPR de 183,6 toneladas de soja.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura da ementa, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos e fundamentos da ementa, citada literalmente; a nota não transcreve o art. 69 (só descreve seu efeito, como a ementa) e deixa claro que a proteção vale durante a vigência. Não nomeia partes. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-imovel-hipotecado-cedula-rural-penhoravel-contrato-vencido-cpr-soja.jpg",
+  "credito": "Foto: Elza Fiúza/Agência Brasil",
+  "alt": "Canavial ao lado de estrada de terra vermelha (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/3BDjtuu-js7lHN7HzwrCUHlpc60=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/cana-de-acucar.jpg?itok=fYql51JV",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-04/conab-estima-producao-de-6634-milhoes-de-toneladas-de-cana"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-24T02:29:37-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-24T02:29:37-03:00"
+}
