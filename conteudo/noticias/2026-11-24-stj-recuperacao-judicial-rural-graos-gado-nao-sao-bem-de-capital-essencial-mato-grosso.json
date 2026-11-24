@@ -4,11 +4,11 @@
  "categoria": "chamada-agro",
  "status": "publicado",
  "manchete": false,
- "opiniao_forte": false,
+ "opiniao_forte": true,
  "selo": "Vale acompanhar",
  "titulo": "Recuperação judicial no campo: STJ confirma que grãos e gado para venda não são bem essencial",
  "lide": "O STJ rejeitou, em decisão publicada na segunda-feira (23), recurso de produtores em recuperação judicial em Mato Grosso que queriam tratar grãos e semoventes como bens de capital essenciais. A Terceira Turma manteve o entendimento de que bem essencial é o usado no processo produtivo, e não o produto final destinado à venda.",
- "por_que_importa": "Na recuperação judicial, o bem de capital essencial à atividade não pode ser retirado pelo credor com garantia fiduciária durante o período de proteção. Se a soja colhida e o gado de corte ficam fora desse conceito, o credor pode buscá-los mesmo com a recuperação em curso.",
+ "por_que_importa": "O que move a fazenda é protegido; o que a fazenda vende, não. Na recuperação judicial, o bem de capital essencial não pode ser retirado pelo credor fiduciário durante o período de proteção, mas soja colhida e gado de corte ficam fora desse conceito, e o credor pode buscá-los com a recuperação em curso.",
  "numeros": [
   [
    "Art. 49, § 3º",
@@ -55,7 +55,7 @@
   "A decisão não diz que nenhum bem rural é essencial; máquinas e insumos podem ser",
   "É um caso concreto, sem efeito vinculante, e a ementa não informa valores"
  ],
- "veredito": "A gente vê uma linha clara do STJ: o que move a fazenda é protegido, o que a fazenda vende não. Quem entra em recuperação contando com a safra estocada como escudo precisa rever a estratégia antes de pedir.",
+ "veredito": "A gente concorda com a linha do STJ: recuperação judicial existe para salvar a atividade, não para congelar a safra destinada ao mercado. Quem entra em recuperação contando com a soja estocada como escudo precisa rever a estratégia antes de pedir.",
  "fontes": [
   {
    "nome": "STJ: EDcl no AREsp 2.889.651/MT, Terceira Turma, relator Ministro Moura Ribeiro",
@@ -182,8 +182,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-24T02:31:14-03:00",
+  "data": "2026-11-24T02:35:43-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-24T02:31:14-03:00"
+ "publicado_em": "2026-11-24T02:31:14-03:00",
+ "atualizado_em": "2026-11-24T02:35:43-03:00"
 }
