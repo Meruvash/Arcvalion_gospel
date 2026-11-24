@@ -1,0 +1,189 @@
+{
+ "slug": "stj-recuperacao-judicial-produtor-divida-cooperativa-ato-cooperativo-fica-fora",
+ "data": "2026-11-24",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Dívida com a cooperativa fica fora da recuperação judicial quando é ato cooperativo, mantém STJ",
+ "lide": "O STJ rejeitou, em decisão publicada na segunda-feira (23), os embargos de recuperandos de São Paulo que tentavam incluir na recuperação judicial créditos de uma cooperativa. A Justiça paulista classificou as operações como atos cooperativos, com finalidade de fomento da atividade rural, e o STJ manteve os créditos como extraconcursais, fora dos efeitos da recuperação.",
+ "por_que_importa": "Crédito extraconcursal não entra no plano de recuperação: o credor pode cobrar fora dele. Para o produtor cooperado, isso significa que a dívida com a cooperativa, quando é ato cooperativo, segue exigível mesmo com a recuperação aprovada.",
+ "numeros": [
+  [
+   "Art. 6º, § 13",
+   "da Lei de Recuperação e Falências exclui os atos cooperativos dos efeitos da recuperação judicial",
+   "STJ, REsp 2.216.909/SP"
+  ],
+  [
+   "Art. 79",
+   "da Lei 5.764/1971, das cooperativas, define o ato cooperativo",
+   "STJ, REsp 2.216.909/SP"
+  ],
+  [
+   "23/11",
+   "foi a publicação da decisão nos embargos, julgados em 17 de novembro",
+   "STJ, EDcl no REsp 2.216.909/SP"
+  ]
+ ],
+ "corpo": [
+  "No recurso especial, julgado em setembro, o relator, ministro Moura Ribeiro, registrou que a classificação das operações como atos cooperativos se baseou no estatuto social, nos instrumentos e na finalidade de fomento da atividade rural, e que revê-la exigiria reexaminar fatos e cláusulas.",
+  "Nos embargos, os recuperandos sustentaram que o contrato era de compra e venda. A turma respondeu que não era preciso voltar ao rótulo do contrato quando o conjunto de fatos e o estatuto indicam integração funcional aos objetivos da cooperativa."
+ ],
+ "no_brasil": "A distinção entre ato cooperativo e operação comum decide se a dívida com a cooperativa entra ou não na recuperação. Segundo a ementa, o que pesou foi o conjunto do estatuto, dos contratos e da finalidade das operações, e não o nome dado ao contrato.",
+ "critica": [
+  {
+   "fonte": "STJ, Terceira Turma, EDcl no REsp 2.216.909/SP",
+   "texto": "sendo desnecessário retorno específico ao rótulo contratual de compra e venda quando o conjunto fático e estatutário indica integração funcional aos objetivos sociais",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2216909&O=JT"
+  },
+  {
+   "fonte": "STJ, Terceira Turma, REsp 2.216.909/SP",
+   "texto": "A classificação, na origem, das operações como atos cooperativos, com base em estatuto social, instrumentos e finalidade de fomento da atividade rural, impede a revisão em sede especial",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2216909&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor cooperado que pensa em recuperação judicial: a dívida com a cooperativa pode ficar fora do plano; a discussão se resolve com o estatuto e os contratos já na primeira instância",
+  "Cooperativas agropecuárias: estatuto e contratos que mostram a finalidade de fomento sustentam a cobrança fora da recuperação",
+  "Quem compra insumos da cooperativa: o nome \"compra e venda\" no contrato não basta para levar a dívida ao plano"
+ ],
+ "nao_e_para": [
+  "O STJ não reexaminou fatos; manteve a classificação feita pela Justiça de São Paulo",
+  "Operação da cooperativa que não seja ato cooperativo pode entrar na recuperação",
+  "A ementa não informa o tipo de produção nem os valores"
+ ],
+ "veredito": "A gente vê um recado duplo: para a cooperativa, estatuto bem feito protege o crédito; para o cooperado, a recuperação judicial não apaga o compromisso assumido com a própria cooperativa. Quem planeja o pedido precisa contar com essa conta fora do plano.",
+ "fontes": [
+  {
+   "nome": "STJ: EDcl no REsp 2.216.909/SP, Terceira Turma, relator Ministro Moura Ribeiro",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2216909&O=JT",
+   "data": "23/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: REsp 2.216.909/SP, Terceira Turma, relator Ministro Moura Ribeiro",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2216909&O=JT",
+   "data": "17/09/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 56,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Recuperação judicial do produtor e créditos de cooperativa com fomento da atividade rural"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2216909&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 9,
+    "porque": "Orienta cooperados e cooperativas do agro em recuperações judiciais"
+   },
+   "afinidade": {
+    "pontos": 17,
+    "porque": "Recuperação judicial e cooperativismo rural: crédito de cooperativa com finalidade de fomento da atividade rural"
+   },
+   "atualidade": {
+    "pontos": 12,
+    "porque": "Embargos rejeitados em acórdão publicado em 23/11; mérito de setembro"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementas do recurso e dos embargos lidas na base do STJ"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Reunimos as duas decisões do caso, sem cobertura na imprensa"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdãos do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que fica fora do plano (2)",
+    "Leis citadas: LRF e Lei das Cooperativas (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "EDcl no REsp 2.216.909/SP",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Recuperação judicial",
+  "coleta": "2026-11-24",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementas conferidas na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "atividade e valores do caso"
+  },
+  "duplicidade": {
+   "grupo": "Recuperação judicial do produtor",
+   "itens": [
+    "REsp 2.216.909"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-24-stj-recuperacao-judicial-rural-graos-gado-nao-sao-bem-de-capital-essencial-mato-grosso"
+  },
+  "seo": {
+   "intencao": "saber se dívida com cooperativa entra na recuperação judicial",
+   "entidades": [
+    "STJ",
+    "recuperação judicial",
+    "ato cooperativo",
+    "cooperativa",
+    "Lei 5.764/1971"
+   ],
+   "termos": [
+    "dívida cooperativa recuperação judicial",
+    "ato cooperativo extraconcursal",
+    "produtor rural cooperativa recuperação"
+   ],
+   "atualizacao": "acompanhar julgados sobre ato cooperativo na recuperação judicial"
+  },
+  "agro": {
+   "demanda": "Produtores cooperados em recuperação judicial cujas dívidas com a cooperativa ficam fora do plano",
+   "prazo": "impugnação de crédito na recuperação judicial",
+   "quem": "Produtores cooperados e cooperativas agropecuárias"
+  }
+ },
+ "descricao_seo": "STJ mantém fora da recuperação judicial créditos de cooperativa classificados como atos cooperativos de fomento da atividade rural.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura das ementas, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fundamentos citados literalmente das ementas; a nota não afirma que os recuperandos são produtores rurais pessoas físicas, só que as operações tinham finalidade de fomento da atividade rural. Não nomeia partes. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-recuperacao-judicial-produtor-divida-cooperativa-ato-cooperativo-fica-fora.jpg",
+  "credito": "Foto: Tomaz Silva/Agência Brasil",
+  "alt": "Agricultor colhe batata-doce em lavoura cercada de montanhas (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/b_QHYEj5wiWHk-NQK0mx9jhZlc0=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/905656-batata_biofortificada_-4137.jpg?itok=m6Lgt-XS",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-10/bndes-vai-liberar-r-12-bi-para-produtores-rurais-com-perdas-de-safra"
+ },
+ "publicado_em": "2026-11-24T02:32:37-03:00",
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-24T02:32:37-03:00",
+  "modo": "automatica"
+ }
+}
