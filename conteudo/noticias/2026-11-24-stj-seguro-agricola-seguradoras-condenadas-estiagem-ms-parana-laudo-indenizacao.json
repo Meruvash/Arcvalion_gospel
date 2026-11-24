@@ -1,0 +1,190 @@
+{
+ "slug": "stj-seguro-agricola-seguradoras-condenadas-estiagem-ms-parana-laudo-indenizacao",
+ "data": "2026-11-24",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Seguro agrícola: STJ rejeita últimos recursos e mantém indenizações a produtores de MS e do PR",
+ "lide": "O STJ rejeitou, em decisões publicadas na segunda-feira (23), os embargos em dois processos de seguro agrícola e manteve as condenações de seguradoras. Em Mato Grosso do Sul, a cobrança era de indenização por estiagem; no Paraná, a Justiça considerou suficiente um laudo técnico e dispensou perícia agronômica para reconhecer a cobertura.",
+ "por_que_importa": "Nos dois casos, a seguradora tentou rediscutir no STJ se o evento estava coberto pela apólice, e perdeu porque isso depende de cláusulas e provas que o tribunal não reexamina. Para o produtor, o jogo do seguro se decide na primeira e na segunda instância.",
+ "numeros": [
+  [
+   "2",
+   "processos de seguro agrícola tiveram embargos rejeitados pela Quarta Turma em decisões publicadas em 23 de novembro",
+   "STJ"
+  ],
+  [
+   "0,25%",
+   "ao mês foram os juros de mora fixados na sentença do caso do Paraná, desde a citação",
+   "STJ, AREsp 3.134.382/PR"
+  ],
+  [
+   "Custo efetivo",
+   "de produção foi o limite aplicado à indenização no caso do Paraná, com abatimento do que já tinha sido pago",
+   "STJ, AREsp 3.134.382/PR"
+  ]
+ ],
+ "corpo": [
+  "No caso do Paraná, a sentença mandou pagar a cobertura em liquidação por arbitramento, com correção desde a contratação, aplicação da cláusula 22 da apólice e limite ao custo efetivo de produção. A seguradora alegava risco excluído e cerceamento de defesa pela recusa de perícia agronômica e prova oral; o STJ manteve a suficiência do laudo técnico.",
+  "No caso de Mato Grosso do Sul, a ação cobrava indenização de seguro agrícola por estiagem. O tribunal local só ajustou os juros ao pactuado, e o STJ, nos embargos, rejeitou o pedido de multa por recurso protelatório. Os dois casos foram relatados pelo ministro João Otávio de Noronha."
+ ],
+ "no_brasil": "Em ambos, o STJ aplicou as Súmulas 5 e 7, que impedem reinterpretar cláusulas de contrato e reexaminar provas. Isso torna decisivos o laudo de perda, a apólice e as provas produzidas nas instâncias locais, tanto para o produtor quanto para a seguradora.",
+ "critica": [
+  {
+   "fonte": "STJ, Quarta Turma, AREsp 3.134.382/PR",
+   "texto": "A revisão das premissas sobre o evento possuir cobertura securitária demandaria reexame de cláusulas contratuais e do conjunto fático-probatório",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3134382&O=JT"
+  },
+  {
+   "fonte": "Tese da seguradora no caso do Paraná, segundo a ementa",
+   "texto": "saber se houve violação ao art. 757 do CC por imposição de cobertura para risco excluído",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3134382&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor com sinistro negado: reúna laudo técnico da perda e a apólice já na primeira instância, porque o STJ não reavalia essa prova",
+  "Quem aciona o seguro por estiagem: guarde registros da data e da extensão da perda; o prazo de aviso é o da apólice",
+  "Cooperativas e sindicatos: os dois casos mostram que laudo técnico bem feito pode dispensar perícia judicial"
+ ],
+ "nao_e_para": [
+  "As decisões não fixam tese geral sobre cobertura de seguro agrícola; mantêm o que os tribunais locais decidiram",
+  "As ementas não informam valores, culturas nem as seguradoras envolvidas",
+  "Seguro privado não se confunde com o Proagro, que tem regras do Manual de Crédito Rural"
+ ],
+ "veredito": "A gente vê nos dois casos uma regra de ouro do seguro agrícola: quem prova bem na origem ganha no fim. Laudo técnico sólido e apólice guardada valem mais do que recurso em Brasília.",
+ "fontes": [
+  {
+   "nome": "STJ: EDcl no AREsp 3.134.382/PR e AREsp 3.134.382/PR, Quarta Turma, relator Ministro João Otávio de Noronha",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3134382&O=JT",
+   "data": "23/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: EDcl no AgInt no AREsp 3.006.582/MS e AgInt no AREsp 3.006.582/MS, Quarta Turma, relator Ministro João Otávio de Noronha",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3006582&O=JT",
+   "data": "23/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 57,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Seguro agrícola e indenização ao produtor por perda de safra"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3134382&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 8,
+    "porque": "Dois casos concretos, com lição para produtores que acionam seguro agrícola"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Seguro agrícola, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 12,
+    "porque": "Embargos rejeitados em acórdãos publicados em 23/11; mérito de setembro"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Quatro ementas lidas na base do STJ"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Reunimos dois processos de estados diferentes sem cobertura na imprensa"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdãos do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: prova do sinistro (2)",
+    "Duas fontes independentes: dois processos (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "EDcl no AREsp 3.134.382/PR; EDcl no AgInt no AREsp 3.006.582/MS",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Seguro rural",
+  "coleta": "2026-11-24",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementas conferidas na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "valores, culturas e seguradoras"
+  },
+  "duplicidade": {
+   "grupo": "Seguro agrícola na Justiça",
+   "itens": [
+    "AREsp 3.134.382",
+    "AREsp 3.006.582"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-22-temporal-rs-proagro-vistoria-fotos-localizacao-produtor-lavoura-perdas"
+  },
+  "seo": {
+   "intencao": "saber como o STJ trata ações de seguro agrícola",
+   "entidades": [
+    "STJ",
+    "seguro agrícola",
+    "estiagem",
+    "laudo técnico",
+    "Súmula 7"
+   ],
+   "termos": [
+    "seguro agrícola STJ indenização",
+    "seguradora condenada estiagem",
+    "perícia agronômica seguro agrícola"
+   ],
+   "atualizacao": "acompanhar julgados de seguro agrícola"
+  },
+  "agro": {
+   "demanda": "Produtores com sinistro de seguro agrícola negado ou pago a menor que precisam provar a perda na Justiça",
+   "prazo": "prazo de aviso de sinistro da apólice e prazo prescricional do seguro",
+   "quem": "Produtores com seguro agrícola privado"
+  }
+ },
+ "descricao_seo": "STJ rejeita embargos de seguradoras e mantém indenizações de seguro agrícola a produtores de MS (estiagem) e do PR (laudo técnico).",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura das ementas, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos e fundamentos das ementas, com citação literal; a nota não nomeia seguradoras nem produtores e diz que as decisões não fixam tese geral. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-seguro-agricola-seguradoras-condenadas-estiagem-ms-parana-laudo-indenizacao.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Represa com nível baixo e árvores secas durante estiagem (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/iRknFxLGrMetlzZPoc_ymgiOXOI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/1091400-mcamgo_abr_1309173365.jpg?itok=4F9i835f",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2022-01/estiagem-causa-prejuizos-agricultura-e-ameaca-o-abastecimento"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-24T02:34:54-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-24T02:34:54-03:00"
+}
