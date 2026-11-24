@@ -29,7 +29,7 @@
  "corpo": [
   "O texto limita a 2% acima da inflação o crescimento das despesas nos anos de contenção fiscal, permite bloquear gastos para buscar o centro da meta, restringe o uso de créditos tributários e tira da meta de 2026 até R$ 10,5 bilhões do subsídio ao diesel. Ficam fora do corte benefícios da folha, da tecnologia da informação, dos semicondutores e a isenção de veículos para pessoas com deficiência e autistas.",
   "O líder da oposição, Rogério Marinho (PL-RN), disse que o projeto transfere o custo do ajuste para estados e setor produtivo sem conter as despesas e que a oposição tinha alternativa de R$ 75 bilhões sem aumento de impostos. O senador Marcos Pontes (PL-SP) estimou perdas de cerca de R$ 2,5 bilhões para São Paulo e Mato Grosso, cada um, entre 2027 e 2030.",
-  "Atualização (23/11): o Senado concluiu a votação em 18/11, por 69 a 2, e enviou o texto à Câmara. O PLP 299/2026 está na pauta da sessão deliberativa do Plenário da Câmara desta segunda-feira (23), às 18h, segundo os dados abertos da Câmara."
+  "Atualização (24/11): depois do Senado (69 a 2, em 18/11), a Câmara aprovou o PLP 299/2026 sem alterações na segunda-feira (23); o texto-base teve 353 votos a 128. O projeto segue para sanção presidencial, informou a Agência Câmara."
  ],
  "no_brasil": "O projeto também dá 120 dias para o Congresso regulamentar os supersalários no serviço público. Segundo a Agência Senado, o relator acatou 21 das 74 emendas; a Agência Brasil fala em cerca de 50 emendas incorporadas durante a elaboração do parecer.",
  "critica": [
@@ -103,6 +103,18 @@
    "url": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419/pauta",
    "data": "23/11/2026",
    "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Câmara aprova ajuste fiscal sem alterações; projeto segue para sanção presidencial (23/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1322152-camara-aprova-ajuste-fiscal-sem-alteracoes-projeto-segue-para-sancao-presidencial",
+   "data": "23/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Câmara aprova texto-base do projeto de ajuste fiscal (23/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/camara-aprova-texto-base-do-projeto-de-ajuste-fiscal",
+   "data": "23/11/2026",
+   "tipo": "secundaria"
   }
  ],
  "crivo": {
@@ -217,9 +229,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-23T02:29:05-03:00",
+  "data": "2026-11-24T02:26:38-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-13T02:33:04-03:00",
- "atualizado_em": "2026-11-23T02:29:05-03:00"
+ "atualizado_em": "2026-11-24T02:26:38-03:00"
 }
