@@ -27,3 +27,28 @@ Fonte: Lei 4.714, de 29/6/1965, arts. 1º e 2º (planalto.gov.br). Dramatizaçã
 ```
 
 Ao publicar: marcar o rótulo de IA do Instagram ("Feito com IA").
+
+## Versão sem entregar a trama (pedido do editor, 24/11/2026)
+
+Contextualiza e prende, mas não conta a armadilha, a anca limpa, a venda nem o celular do final.
+
+```
+Ela criou essa vaca na mamadeira. E foi acusada de roubar a Estrela no meio do leilão, na frente da cidade inteira. 😳🐄
+
+A Rosa precisava dos doze mil da venda pra não perder a terra. A Cleide sabia disso. E escolheu a hora certa pra gritar "ladra".
+
+Sem papel na mão, a Rosa só tinha uma coisa a seu favor: a marca na Estrela.
+
+O Dr. Pelicioni chegou com uma pergunta só. E ela mudou o leilão inteiro. 👀
+
+Você sabe onde a lei manda marcar o gado a ferro? A resposta está no vídeo. ⚖️
+
+💬 Já viu acusarem alguém sem prova na frente de todo mundo? Conta aqui.
+📲 Manda pra quem cria gado ou vai em leilão.
+
+E presta atenção no final. A história não acabou. Me segue pra ver a parte 2. Dúvida? Direct aberto.
+
+Fonte: Lei 4.714, de 29/6/1965 (planalto.gov.br). Dramatização com personagens fictícios, feita com inteligência artificial. Trilha original.
+
+#novela #gado #pecuaria #leilaodegado #agro #produtorrural #fazenda #roca #direitoagrario #historiasdaroca
+```
