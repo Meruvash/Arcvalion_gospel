@@ -1,0 +1,194 @@
+{
+ "slug": "projeto-proibe-destruicao-lavouras-maquinas-fiscalizacao-rural-pl-3539",
+ "data": "2026-11-24",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Projeto na Câmara proíbe agente público de destruir lavoura, gado ou máquina em fiscalização rural",
+ "lide": "O PL 3539/2026, do deputado Pezenti (MDB-SC), proíbe agentes públicos de destruir lavouras, pastagens, rebanhos, insumos e máquinas durante fiscalizações em propriedades rurais, informou a Agência Câmara nesta terça-feira (24). Irregularidades continuariam punidas com multa, notificação, embargo e interdição, e o poder público teria de indenizar danos causados fora dessas regras.",
+ "por_que_importa": "Destruição de bem na fiscalização é a medida que não tem volta: a lavoura perdida não se recupera com recurso administrativo. O projeto troca essa possibilidade pelas sanções que já existem e obriga relatório com fotos ou vídeo de toda diligência, o que dá ao produtor prova para se defender.",
+ "numeros": [
+  [
+   "5",
+   "itens obrigatórios no relatório de toda fiscalização: agentes, fundamento legal, irregularidades, medidas adotadas e registro em foto ou vídeo",
+   "PL 3539/2026"
+  ],
+  [
+   "3",
+   "comissões analisam o projeto em caráter conclusivo: Agricultura, Administração e Serviço Público e Constituição e Justiça",
+   "Agência Câmara"
+  ],
+  [
+   "7/7/2026",
+   "é a data de apresentação do projeto, que ainda aguarda relator",
+   "Câmara dos Deputados"
+  ]
+ ],
+ "corpo": [
+  "Pelo texto, o agente deve adotar a medida menos gravosa necessária e preservar a atividade produtiva. A proibição alcança lavouras em qualquer estágio, pastagens, rebanhos, insumos, máquinas, equipamentos e benfeitorias necessárias à produção, e a constatação de irregularidade deve virar as medidas administrativas previstas em lei.",
+  "O ente público responde pela reparação integral dos prejuízos causados em desacordo com a lei, sem prejuízo da responsabilização administrativa, civil e penal do agente. Na justificativa, o autor diz que o projeto não restringe o poder de fiscalização nem impede as sanções da legislação."
+ ],
+ "no_brasil": "O texto não cita nem revoga expressamente outras leis de fiscalização, como as ambientais e sanitárias, o que deve ser discutido nas comissões. Apresentado em julho, o projeto ainda não tem relator designado e, por tramitar em caráter conclusivo, pode seguir ao Senado sem passar pelo Plenário da Câmara.",
+ "critica": [
+  {
+   "fonte": "Deputado Pezenti (MDB-SC), autor, na justificativa do projeto",
+   "texto": "A destruição de lavouras, plantações, culturas agrícolas, insumos, máquinas e demais bens utilizados na produção representa medida extremamente gravosa",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3158402"
+  },
+  {
+   "fonte": "Justificativa do mesmo projeto, sobre o alcance da proposta",
+   "texto": "A iniciativa não restringe o poder de fiscalização do Estado nem impede a aplicação das sanções previstas na legislação",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3158402"
+  }
+ ],
+ "para_quem": [
+  "Produtor rural: o projeto ainda não é lei; hoje valem as regras de cada órgão fiscalizador",
+  "Quem passou por fiscalização: guarde o auto, fotos e documentos da diligência, que já servem de prova em qualquer recurso",
+  "Sindicatos e associações: o momento de influir é a Comissão de Agricultura, que ainda vai designar relator"
+ ],
+ "nao_e_para": [
+  "O projeto não acaba com multas, embargos ou interdições",
+  "Ainda depende de três comissões da Câmara e do Senado",
+  "A matéria da Câmara não traz posição de órgãos fiscalizadores sobre o texto"
+ ],
+ "veredito": "A gente apoia o princípio: punir a irregularidade, sim; destruir o que alimenta a família do produtor, só em último caso e com prova. Relatório com foto e vídeo deveria ser regra em qualquer fiscalização, no campo ou na cidade.",
+ "fontes": [
+  {
+   "nome": "Agência Câmara: Projeto proíbe destruição de bens e lavouras em fiscalização rural (24/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1313861-projeto-proibe-destruicao-de-bens-e-lavouras-em-fiscalizacao-rural",
+   "data": "24/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: inteiro teor do PL 3539/2026",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3158402",
+   "data": "07/07/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: tramitação do PL 3539/2026",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637836",
+   "data": "24/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 54,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Limites à fiscalização em propriedades rurais e proteção de lavouras e máquinas"
+  },
+  "origem": {
+   "nome": "Agência Câmara de Notícias",
+   "url": "https://www.camara.leg.br/noticias/1313861-projeto-proibe-destruicao-de-bens-e-lavouras-em-fiscalizacao-rural"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Alcança qualquer propriedade rural fiscalizada, mas é projeto sem relator"
+   },
+   "afinidade": {
+    "pontos": 17,
+    "porque": "Direito de propriedade e atividade do produtor rural"
+   },
+   "atualidade": {
+    "pontos": 10,
+    "porque": "Divulgado pela Agência Câmara em 24/11; projeto apresentado em julho"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Inteiro teor lido na Câmara e tramitação nos dados abertos"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Acrescentamos o que o texto não diz sobre as leis de fiscalização existentes"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: inteiro teor do projeto (2)",
+    "Ato de quem tem poder: deputado federal (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que guardar numa fiscalização (2)",
+    "Duas fontes oficiais: Agência Câmara e dados abertos (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Projeto proíbe destruição de bens e lavouras em fiscalização rural",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Propriedade e fiscalização",
+  "coleta": "2026-11-24",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "inteiro teor lido; tramitação conferida nos dados abertos",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "posição de órgãos fiscalizadores"
+  },
+  "duplicidade": {
+   "grupo": "Fiscalização rural",
+   "itens": [
+    "PL 3539/2026"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber se fiscalização pode destruir lavoura ou máquina",
+   "entidades": [
+    "PL 3539/2026",
+    "Pezenti",
+    "fiscalização rural",
+    "Câmara dos Deputados"
+   ],
+   "termos": [
+    "projeto proíbe destruição lavoura fiscalização",
+    "fiscalização rural destruição máquinas",
+    "PL 3539/2026"
+   ],
+   "atualizacao": "acompanhar designação de relator na Comissão de Agricultura"
+  },
+  "agro": {
+   "demanda": "Produtores que sofrem fiscalização com risco de destruição de lavouras, rebanhos ou máquinas e precisam de prova da diligência",
+   "prazo": "sem prazo; projeto aguarda relator",
+   "quem": "Proprietários e possuidores de imóveis rurais fiscalizados"
+  }
+ },
+ "descricao_seo": "PL 3539/2026 proíbe agentes públicos de destruir lavouras, rebanhos e máquinas em fiscalização rural e exige relatório com fotos ou vídeo.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Agência Câmara de Notícias",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura do inteiro teor e da notícia da Câmara, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: conteúdo do projeto citado literalmente do inteiro teor; a nota não acusa nenhum órgão ou agente de abuso, não cita casos concretos e registra que o projeto mantém as sanções. O ponto sobre outras leis é descrição do texto, não juízo sobre órgãos. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/projeto-proibe-destruicao-lavouras-maquinas-fiscalizacao-rural-pl-3539.jpg",
+  "credito": "Foto: Valter Campanato/Agência Brasil",
+  "alt": "Plantação de feijão com folhas verdes (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/qGE41gbj3oGnEZBvutgHQrPljpY=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/plantacao_feijao_0030.jpg?itok=t8On8nfW",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2020-07/estudo-projeta-reducao-de-areas-de-producao-de-arroz-e-feijao"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-24T14:51:08-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-24T14:51:08-03:00"
+}
