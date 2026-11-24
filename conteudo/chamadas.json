@@ -598,5 +598,21 @@
  "stj-alienacao-fiduciaria-notificacao-email-comprova-mora-busca-apreensao-maquinas": {
   "chamada": "Agro: trator ou caminhonete em alienação fiduciária? Para o STJ, e-mail aceito pelo servidor já comprova a mora, mesmo sem leitura 📧🚜",
   "pergunta": "O e-mail do seu contrato ainda é o que você usa?"
+ },
+ "stj-imovel-hipotecado-cedula-rural-penhoravel-contrato-vencido-cpr-soja": {
+  "chamada": "Agro: hipoteca de cédula rural não é cofre eterno. Vencida a cédula, a terra pode ser penhorada pelo comprador da soja 🏡⚖️",
+  "pergunta": "Sua cédula hipotecária ainda está em dia?"
+ },
+ "stj-recuperacao-judicial-rural-graos-gado-nao-sao-bem-de-capital-essencial-mato-grosso": {
+  "chamada": "Agro: na recuperação judicial, o que move a fazenda é protegido; o que ela vende, não. Grãos e gado ficam de fora 🐂🌾",
+  "pergunta": "Você conhece alguém do campo em recuperação judicial?"
+ },
+ "stj-recuperacao-judicial-produtor-divida-cooperativa-ato-cooperativo-fica-fora": {
+  "chamada": "Agro: dívida com a cooperativa, quando é ato cooperativo, fica fora da recuperação judicial 🤝",
+  "pergunta": "Você compra insumos pela cooperativa?"
+ },
+ "stj-seguro-agricola-seguradoras-condenadas-estiagem-ms-parana-laudo-indenizacao": {
+  "chamada": "Agro: seguradoras perdem no STJ e produtores de MS e do PR mantêm indenizações de seguro agrícola ☔🌱",
+  "pergunta": "Seu seguro agrícola já pagou um sinistro?"
  }
 }
