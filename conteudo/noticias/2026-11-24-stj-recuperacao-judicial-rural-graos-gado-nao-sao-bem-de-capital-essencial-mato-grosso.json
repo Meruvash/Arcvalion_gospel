@@ -1,0 +1,189 @@
+{
+ "slug": "stj-recuperacao-judicial-rural-graos-gado-nao-sao-bem-de-capital-essencial-mato-grosso",
+ "data": "2026-11-24",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Recuperação judicial no campo: STJ confirma que grãos e gado para venda não são bem essencial",
+ "lide": "O STJ rejeitou, em decisão publicada na segunda-feira (23), recurso de produtores em recuperação judicial em Mato Grosso que queriam tratar grãos e semoventes como bens de capital essenciais. A Terceira Turma manteve o entendimento de que bem essencial é o usado no processo produtivo, e não o produto final destinado à venda.",
+ "por_que_importa": "Na recuperação judicial, o bem de capital essencial à atividade não pode ser retirado pelo credor com garantia fiduciária durante o período de proteção. Se a soja colhida e o gado de corte ficam fora desse conceito, o credor pode buscá-los mesmo com a recuperação em curso.",
+ "numeros": [
+  [
+   "Art. 49, § 3º",
+   "da Lei de Recuperação e Falências é a regra que protege os bens de capital essenciais durante o período de suspensão",
+   "STJ, AREsp 2.889.651/MT"
+  ],
+  [
+   "23/11",
+   "foi a publicação da decisão nos embargos, julgados em 17 de novembro",
+   "STJ, EDcl no AREsp 2.889.651/MT"
+  ],
+  [
+   "21/8/2025",
+   "foi a publicação do acórdão original, que os embargos agora mantiveram",
+   "STJ, AREsp 2.889.651/MT"
+  ]
+ ],
+ "corpo": [
+  "No acórdão de 2025, o relator, ministro Moura Ribeiro, registrou que a jurisprudência considera essencial o bem empregado no processo de transformação, que não se confunde com o produto final a ser comercializado. A conclusão veio do Tribunal de Justiça de Mato Grosso, a partir da análise da cadeia de produção.",
+  "Nos embargos, os recuperandos pediam flexibilizar o conceito na atividade rural. A turma respondeu que o acórdão já tinha enfrentado a tese, distinguindo bem de capital de produto final, insumos de bens para comercialização e considerando a possibilidade de restituição depois do período de suspensão."
+ ],
+ "no_brasil": "Desde 2020, o produtor rural pessoa física pode pedir recuperação judicial, e a discussão sobre o que é bem essencial no campo tem chegado ao STJ. O caso de Mato Grosso mostra que a resposta depende das provas sobre a cadeia produtiva, examinadas nas instâncias locais.",
+ "critica": [
+  {
+   "fonte": "STJ, Terceira Turma, AREsp 2.889.651/MT (2025)",
+   "texto": "A jurisprudência desta Corte Superior considera como bem essencial para o efeito do art. 49, § 3º, da LRF aquele empregado no respectivo processo de transformação, que não se confunde com o produto final da cadeia de industrialização a ser comercializado pelo empresário",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2889651&O=JT"
+  },
+  {
+   "fonte": "Tese dos recuperandos, segundo a ementa dos embargos",
+   "texto": "a tese de flexibilização do conceito de bem de capital essencial na atividade rural",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2889651&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor em recuperação judicial: soja colhida e gado para venda dados em garantia fiduciária tendem a ficar fora da proteção; a discussão se resolve com prova da cadeia produtiva já na primeira instância",
+  "Credor com garantia fiduciária sobre a safra: a decisão favorece a retomada do produto final",
+  "Quem planeja recuperação: separar o que é insumo do processo e o que é produto para venda ajuda na defesa"
+ ],
+ "nao_e_para": [
+  "O STJ não reexaminou os fatos; manteve a conclusão do tribunal de Mato Grosso",
+  "A decisão não diz que nenhum bem rural é essencial; máquinas e insumos podem ser",
+  "É um caso concreto, sem efeito vinculante, e a ementa não informa valores"
+ ],
+ "veredito": "A gente vê uma linha clara do STJ: o que move a fazenda é protegido, o que a fazenda vende não. Quem entra em recuperação contando com a safra estocada como escudo precisa rever a estratégia antes de pedir.",
+ "fontes": [
+  {
+   "nome": "STJ: EDcl no AREsp 2.889.651/MT, Terceira Turma, relator Ministro Moura Ribeiro",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2889651&O=JT",
+   "data": "23/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: AREsp 2.889.651/MT, Terceira Turma, relator Ministro Moura Ribeiro",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2889651&O=JT",
+   "data": "21/08/2025",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 58,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Recuperação judicial do produtor e proteção de grãos e gado"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2889651&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 9,
+    "porque": "Orienta produtores em recuperação judicial com safra e rebanho dados em garantia"
+   },
+   "afinidade": {
+    "pontos": 18,
+    "porque": "Recuperação judicial e garantias do produtor, tema jurídico do agro"
+   },
+   "atualidade": {
+    "pontos": 13,
+    "porque": "Embargos rejeitados em acórdão publicado em 23/11; mérito é de 2025"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementas do acórdão e dos embargos lidas na base do STJ"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Reunimos as duas decisões do caso, sem cobertura na imprensa"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdãos do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que entra como bem essencial (2)",
+    "Lei citada: Lei de Recuperação e Falências (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "EDcl no AREsp 2.889.651/MT",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Recuperação judicial",
+  "coleta": "2026-11-24",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementas conferidas na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "valores e quantidades de grãos e animais"
+  },
+  "duplicidade": {
+   "grupo": "Recuperação judicial do produtor",
+   "itens": [
+    "AREsp 2.889.651"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber se grãos e gado são bem essencial na recuperação judicial",
+   "entidades": [
+    "STJ",
+    "recuperação judicial",
+    "bem de capital essencial",
+    "Lei 11.101/2005",
+    "produtor rural"
+   ],
+   "termos": [
+    "recuperação judicial produtor rural grãos bem essencial",
+    "gado bem de capital essencial recuperação",
+    "art. 49 § 3º LRF safra"
+   ],
+   "atualizacao": "acompanhar julgados sobre recuperação judicial rural"
+  },
+  "agro": {
+   "demanda": "Produtores em recuperação judicial com grãos e gado em garantia fiduciária, sujeitos à retomada pelo credor",
+   "prazo": "período de suspensão da recuperação judicial",
+   "quem": "Produtores rurais em recuperação judicial e credores fiduciários"
+  }
+ },
+ "descricao_seo": "STJ mantém: na recuperação judicial do produtor, grãos e gado para venda não são bem de capital essencial; protegido é o que entra no processo produtivo.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura das ementas, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: os fundamentos vêm das ementas, citadas literalmente; a nota explica que o STJ não reexaminou fatos e que máquinas e insumos podem ser essenciais. A referência à recuperação judicial do produtor desde 2020 é genérica. Não nomeia partes. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-recuperacao-judicial-rural-graos-gado-nao-sao-bem-de-capital-essencial-mato-grosso.jpg",
+  "credito": "Foto: Arquivo/Agência Brasil",
+  "alt": "Gado nelore se alimenta de capim seco (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/yDvEC6pQpGl8MHDw8B8LZ6FsYAY=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/gado.jpg?itok=qOyQKZDn",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/carne-brasileira-vai-pagar-tarifa-de-67-para-entrar-na-china"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-24T02:31:14-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-24T02:31:14-03:00"
+}
