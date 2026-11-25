@@ -44,7 +44,7 @@ ela **reprova: nota 0,61 e obrigatórias falhando**.
 | A1, A5 a A7 | 34 s sem tensão, sem ruptura, sem riso e sem confissão | celular vibrando, chapéu do Valdir, confissão "Errei" |
 | Lógica | uma escrevente que "vamos ouvir" um vídeo como renúncia parece incompetente; e por que a Cleide estaria no cartório? | a cena tem motivo legal: o Valdir quer passar a escritura da parte dele (art. 1.793), a Marta pergunta da preferência da irmã (arts. 1.794 e 1.795), e o vídeo é a resposta da Cleide |
 | Lógica | por que o Valdir deixou a mulher passar vergonha? | ele tinha vendido o trator escondido dela; a confissão explica e abre a conta da parte 3 |
-| Gancho | "Em casa a gente conversa" é piada, não abre conta (§5.1) | a Cleide vira a lei contra a Rosa: "A parte custa dois milhões. Tem, Rosinha?", e o quadro congela no envelope dos doze mil (ver §4-A) |
+| Gancho | "Em casa a gente conversa" é piada, não abre conta (§5.1) | a Marta acha no livro um testamento do pai, e só a Cleide sorri (ver §4-A) |
 
 **Mantido da v3** (o editor já tinha aprovado): o cartório, a Marta, a previsão, a fala da lei, o recibo do trator, o
 Valdir debochando, a Marta dando razão ao Dr., "grave o vídeo inteiro" e "A senhora não está sozinha".
@@ -56,8 +56,8 @@ Valdir debochando, a Marta dando razão ao Dr., "grave o vídeo inteiro" e "A se
 2. **Meio:** o Dr. entra e prevê que a Cleide vai dizer que o vídeo vale como assinatura. Ela diz, ele responde com o art.
    1.806 e a Marta fecha o livro: a escritura não sai.
 3. **Fim:** ele vai além e limpa o nome da Rosa. O barulho era de trator, e a data do vídeo é a da venda do trator do pai.
-   O Valdir confessa que sabia e o Dr. protege a Rosa. Mas, na porta, a Cleide vira a lei contra ela: preferência é pelo
-   mesmo preço, dois milhões, e a Rosa só tem os doze mil do envelope.
+   O Valdir confessa que sabia e o Dr. protege a Rosa. Mas, ao arquivar a ficha, a Marta acha no livro um testamento do
+   pai, e a única que sorri é a Cleide.
 
 ## 4. Roteiro (plano a plano)
 
@@ -82,8 +82,8 @@ Valdir debochando, a Marta dando razão ao Dr., "grave o vídeo inteiro" e "A se
 | 17 | 1:04,5–1:10 | **AURA 4:** em silêncio, ele põe o recibo dobrado no balcão (desfocado) e ergue os olhos para o Valdir | DR.: "Barulho de trator, seu Valdir. Vendido em doze de março." | 2.5 · 5,5 s · 42 |
 | 18 | 1:10–1:16 | Valdir calado sob a voz da Rosa; depois abaixa os olhos e tira o chapéu, agora de propósito | ROSA (fora, só voz): "O trator do pai." · VALDIR: "Eu sabia que era o trator. Errei." | 2.5 · 6 s · 42 + 0,2 |
 | 19 | 1:16–1:23 | **AURA 5:** o Dr. à Cleide; pausa de 1 s; depois baixo, à Rosa | DR.: "Da próxima vez, grave o vídeo inteiro." … "A senhora não está sozinha." | 2.5 · 7 s · 49 |
-| 20 | 1:23–1:27,5 | **Gancho:** na porta de vidro, a Cleide para, se vira e recupera a máscara; olha o envelope pardo nas mãos da Rosa, sorriso doce e gelado | CLEIDE: "A parte custa dois milhões. Tem, Rosinha?" | 2.5 · 5 s · 35 |
-| 21 | 1:27,5–1:29 | **Congela:** a Rosa baixa os olhos para o envelope dos doze mil; o Dr., ao lado, calado, também olha o envelope. O quadro para antes de qualquer reação. "CONTINUA" | — | Mini · 4 s · 4 |
+| 20 | 1:23–1:27,5 | **Gancho:** todos se viram para sair; a Marta reabre o livro preto para arquivar a ficha, o dedo para numa página e ela ergue os olhos | MARTA: "Dona Rosa, seu pai deixou testamento." | 2.5 · 5 s · 35 |
+| 21 | 1:27,5–1:29 | **Congela:** na porta, todos chocados, menos a Cleide, que abre um sorriso lento e verdadeiro. O quadro para no sorriso. "CONTINUA" | — | Mini · 4 s · 4 |
 
 Posições fixas (as da v3):
 - balcão ao fundo, com a Marta atrás;
@@ -99,37 +99,44 @@ Posições fixas (as da v3):
   - art. 1.794: a irmã tem preferência, tanto por tanto;
   - art. 1.795: depósito do preço em até 180 dias.
 
-## 4-A. O gancho final (replanejado a pedido do editor, 25/11/2026)
+## 4-A. O gancho final (segunda versão, 25/11/2026)
 
-**Por que o anterior não servia:** "Em casa você me conta do dinheiro, Valdir." é uma briga de casal. Não ameaça a Rosa
-nem deixa uma pergunta que faça o público voltar.
+**Por que as duas tentativas anteriores falharam:**
+- "Em casa você me conta do dinheiro" era uma briga de casal.
+- "A parte custa dois milhões" era conta de matemática dita por quem perdeu.
 
-**O gancho novo:**
-- **Fala da Cleide:** "A parte custa dois milhões. Tem, Rosinha?"
-- **Imagem:** o quadro congela na Rosa olhando o envelope dos doze mil, com o Dr. calado ao lado.
+As duas são **falas**, não **acontecimentos**, e nenhuma muda a pergunta da série.
 
-**Por que agora é gancho:**
-1. **Nasce da virada** (`REGRAS_ROTEIRO.md` §5.1). O Dr. salvou a preferência da Rosa, e a Cleide mostra o preço dela:
-   preferência é "tanto por tanto" (CC art. 1.794, lido no planalto em 25/11/2026). Para ficar com a parte, a Rosa tem
-   que pagar o mesmo que o comprador. A vilã usa a lei verdadeira contra a heroína: é a "faca" do §2.1, e é o argumento
-   mais forte que a Cleide já teve.
-2. **Ameaça concreta, com número dito:** dois milhões contra doze mil.
-3. **Foi plantado:**
-   - na V1: "Dois milhões, à vista" e o prazo de 180 dias;
-   - na V2c: os doze mil da Estrela;
-   - no plano 2: "Dois milhões, à vista";
-   - no plano 7: o envelope pardo na mão da Rosa.
-   Quem acompanha "devia ter previsto".
-4. **A vilã perde e volta na mesma cena:** a Cleide nunca some (`ELENCO_FIXO.md`).
-5. **Congela antes do efeito, no rosto de quem reage** (padrão ouro, João Emanuel Carneiro). Ficam duas perguntas:
-   **onde a Rosa vai achar dois milhões?** e **o que o Dr. vai fazer?** O Dr. olhando o envelope, calado, deixa o
-   público querendo ver a próxima virada, sem nenhuma promessa na boca dele (OAB).
+**O gancho novo é um acontecimento:**
+1. **Plano 20.** Todos já se viram para sair. A Marta reabre o livro preto para arquivar a ficha da Rosa, e o dedo para
+   numa página. Ela ergue os olhos e diz, baixo: **"Dona Rosa, seu pai deixou testamento."** A sala para.
+2. **Plano 21.** Corte para a porta. Todo mundo está chocado, menos a Cleide, que abre um sorriso lento, o primeiro
+   sorriso verdadeiro dela no episódio. **Congela no sorriso.** "CONTINUA".
 
-**O que mudou para caber:**
-- o fecho do Dr. passou de 8 para 7 s;
-- a dedução passou de 6 para 5,5 s;
-- o vídeo continua com 89 s, a virada aos 48,3% e o auditor em 1,00;
-- o custo cai 3 créditos: o fecho custa 7 a menos e o quadro congelado custa 4 no Mini.
+**Por que agora prende:**
+- **Muda a pergunta da série.** Deixa de ser "a Rosa ganha?" e passa a ser "o que o pai fez, e por que a Cleide já
+  sabia?". Mistério de família puxa mais que conta de dinheiro.
+- **É o segredo-mestre previsto no padrão ouro** (`PADRAO_OURO_NOVELA.md`, segredos em três camadas): o testamento do
+  pai, plantado cedo e aberto só no fim da temporada. Aqui só aparece que ele existe; o que ele diz fica guardado.
+- **Nasce da vitória.** É por registrar a Rosa como herdeira que a Marta abre o livro.
+- **Foi plantado.** O livro preto está no balcão desde o plano 3 e a Marta o fecha no plano 16. "A terra do meu pai" e
+  "o trator do pai" mantêm o pai na conversa.
+- **É verdade jurídica.** O testamento público é escrito pelo tabelião no próprio livro de notas, diante de duas
+  testemunhas (CC art. 1.864, I e II, lido no planalto em 25/11/2026). O cartório é o lugar onde ele seria encontrado.
+- **Congela antes do efeito, no rosto de quem reage.** Quem reage ao contrário (sorrindo) é a vilã. A Cleide perde o
+  caso e mesmo assim sai por cima.
+- **Abre uma pista fácil para a parte 3.** A Cleide sorri porque já sabia: será que ela foi uma das duas testemunhas?
+  E o Dr. tem a virada pronta, também lida na fonte: havendo herdeiros necessários, o testador só dispõe da metade da
+  herança (CC art. 1.789). A Rosa não perde tudo, e o Dr. ganha outra entrada de aura.
+- **Aura do Dr. preservada.** Ele não é pego de surpresa em close; o choque fica com a Rosa e a sala.
+
+**Opções reservas,** se o editor preferir outro caminho:
+- **O Tavares entra pela porta:** "Trouxe o dinheiro do trator, seu Valdir." O trator do pai teria ido para o comprador
+  dos dois milhões.
+- **A Bruna acha um segundo vídeo** gravado no mesmo dia. Tem risco: a tela do celular precisa aparecer.
+
+**Tempo e custo:** igual à versão anterior. O vídeo tem 89 s, a virada cai aos 48,3% e o auditor dá 1,00. São cerca de
+560 créditos. A Marta usa um plano de 5 s no 2.5 (35 créditos), e o sorriso congelado um plano no Mini (4).
 
 ## 5. Auditor (`auditar_novela.py`)
 Obrigatórias O1 a O10 ok · F1 a F10 todos ok · **nota 1,00 · APROVADO**. Resta só o aviso **A8** (nenhuma fala longa):
@@ -142,7 +149,7 @@ o F4 cai. O auditor roda de novo com os tempos reais.
 ## 6. Passe de julgamento (`REGRAS_ROTEIRO.md` §9)
 1. **Cada fala tem uma ação por baixo?** Sim. Exemplos: pressionando (Valdir, plano 2), barrando (Marta), golpeando
    (Cleide, plano 4), desacreditando (planos 8 e 9), armando (previsão), desarmando (lei), virando a palavra dele
-   (plano 17), confessando (Valdir), protegendo (Dr.) e encurralando (gancho).
+   (plano 17), confessando (Valdir), protegendo (Dr.) e revelando (Marta, no gancho).
 2. **Tapando os nomes, dá para saber quem fala?** Sim. O Valdir fala de dinheiro, a Cleide fala doce com veneno ("Deus é
    mais, né, amor?"), a Rosa fala do pai, o Dr. fala curto e com a lei, a Marta fala de procedimento.
 3. **Exposição?** Não. A data é dita porque a escrevente registra a prova; a preferência é perguntada, não explicada.
@@ -153,8 +160,8 @@ o F4 cai. O auditor roda de novo com os tempos reais.
 7. **Não fazer nada seria saída para a Rosa?** Não. Sem reagir, perde a preferência e a terra do pai hoje.
 8. **O argumento da vilã é plausível e a previsão passa nos 4 testes?** Sim. "Falou, tá falado" é o senso comum que a lei
    derruba; os 4 testes estão no JSON.
-9. **O gancho nasce da virada e foi plantado?** Sim. A preferência que o Dr. salvou tem preço: tanto por tanto, dois
-   milhões. Foi plantado na V1, na V2c e nos planos 2 e 7.
+9. **O gancho nasce da virada e foi plantado?** Sim. É por registrar a Rosa como herdeira que a Marta abre o livro.
+   O livro preto está no balcão desde o plano 3.
 
 ## 7. Teste da história (`REGRAS_ROTEIRO.md` §10)
 1. **Faz sentido em 3 frases?** Sim (§3).
@@ -205,14 +212,15 @@ o F4 cai. O auditor roda de novo com os tempos reais.
 - **Objeto-prova:** o ronco do trator no vídeo, mais o recibo da venda.
 - **Frase de impacto:** "Barulho de trator, seu Valdir."
 - **Previsão:** "Ela vai dizer que o vídeo vale como assinatura."
-- **Gancho:** "A parte custa dois milhões. Tem, Rosinha?", congelado no envelope dos doze mil.
+- **Gancho:** "Dona Rosa, seu pai deixou testamento.", congelado no sorriso da Cleide.
 - **Estado de passagem:**
   - a escritura não saiu;
   - a Rosa continua herdeira, com preferência;
   - o Valdir confessou na frente da mulher;
-  - a Cleide cobrou o preço da preferência: dois milhões.
+  - a Marta achou o testamento público do pai no livro do cartório; a Cleide já sabia.
 - **Contas abertas para a parte 3:**
-  - **principal: como a Rosa paga dois milhões com doze mil** (o Dr. tem a próxima virada);
+  - **principal: o que diz o testamento e por que a Cleide sabia** (testemunha? art. 1.864, II; limite da metade, art. 1.789);
+  - como a Rosa paga dois milhões com doze mil (tanto por tanto, art. 1.794);
   - o dinheiro do trator do pai, que o Valdir escondeu da Cleide (inclusive a metade da Rosa);
   - o prazo de 180 dias;
   - a autojustificação da Cleide (a fala longa, A8).

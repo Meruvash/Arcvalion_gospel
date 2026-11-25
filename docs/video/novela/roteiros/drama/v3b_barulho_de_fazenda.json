@@ -18,7 +18,7 @@
   "historia_em_3_frases": [
     "Começo: no cartório, o Valdir quer passar a escritura da parte dele por dois milhões; a escrevente pergunta se a irmã, que tem preferência, foi avisada, e a Cleide toca um vídeo da Rosa dizendo 'Pode vender, Valdir. Eu assino.', com um motor roncando ao fundo que o Valdir despreza como 'barulho de fazenda'.",
     "Meio: o Dr. Pelicioni entra, prevê que a Cleide vai dizer que o vídeo vale como assinatura, ela diz, e ele derruba com a lei (abrir mão de herança só em escritura ou com juiz, CC art. 1.806); a escrevente fecha o livro.",
-    "Fim: ele vai além e limpa o nome da Rosa: o barulho era de trator, e a data do vídeo é a da venda do trator do pai; o Valdir confessa que sabia, o Dr. protege a Rosa, mas na porta a Cleide vira a lei contra ela: preferência é pelo mesmo preço, dois milhões, e a Rosa só tem os doze mil do envelope."
+    "Fim: ele vai além e limpa o nome da Rosa: o barulho era de trator, e a data do vídeo é a da venda do trator do pai; o Valdir confessa que sabia, o Dr. protege a Rosa. Mas, ao arquivar a ficha, a Marta encontra no livro um testamento do pai, e a única que sorri é a Cleide."
   ],
   "leis": [
     {
@@ -342,29 +342,46 @@
     },
     {
       "t": 83,
-      "fim": 89,
-      "tipo": "GANCHO_FINAL",
-      "quem": "Cleide (e a Rosa, congelada)",
+      "fim": 87.5,
+      "tipo": "REVELACAO",
+      "quem": "Marta",
       "modo": "video",
-      "fala": "A parte custa dois milhões. Tem, Rosinha?",
-      "tela": "Na porta de vidro, a Cleide para, se vira e recupera a máscara: sorriso doce e gelado, olhando o envelope pardo nas mãos da Rosa. Corte para a Rosa: ela baixa os olhos para o envelope dos doze mil; o Dr., ao lado dela, calado, também olha o envelope. CONGELA nesse quadro, antes de qualquer reação. 'CONTINUA'.",
+      "fala": "Dona Rosa, seu pai deixou testamento.",
+      "tela": "Todos se virando para sair. Atrás do balcão, a Marta reabre o livro preto para arquivar a ficha da Rosa; o dedo para numa página; ela ergue os olhos devagar por cima dos óculos e fala baixo, séria. A sala inteira para.",
       "marcas": [
-        "dinheiro",
+        "testemunhas",
         "consequencia"
       ],
-      "porque": "mas: a vitória do Dr. mantém a preferência da Rosa, e preferência é 'tanto por tanto' (CC art. 1.794): para ficar com a parte, ela precisa pagar o mesmo preço; a Cleide transforma a derrota numa conta que a Rosa não tem como pagar",
-      "producao": "Cleide: Seedance 2.5, 5 s, usar 4,5 s, fala aos 0,7 s; guias 'milhões' (mi-LHÕES) e 'Rosinha' (ro-ZI-nha). Quadro final da Rosa com o Dr. calado: Seedance 2.0 Mini, 4 s, usar 1,5 s, congelado no último quadro"
+      "porque": "mas: ao registrar a Rosa como herdeira, a escrevente encontra no próprio livro de notas um testamento público do pai (CC art. 1.864, I: o testamento público é escrito pelo tabelião no livro de notas)",
+      "producao": "Seedance 2.5, 5 s, usar 4,5 s, fala aos 0,8 s; câmera parada, empurra devagar no rosto"
+    },
+    {
+      "t": 87.5,
+      "fim": 89,
+      "tipo": "GANCHO_FINAL",
+      "quem": "Cleide",
+      "modo": "video",
+      "fala": "",
+      "tela": "Corte para a porta de vidro: todos estão chocados, menos a Cleide. Ela não se assusta: um sorriso lento, o primeiro sorriso verdadeiro do episódio, sem doçura. CONGELA no sorriso. 'CONTINUA'.",
+      "marcas": [
+        "consequencia"
+      ],
+      "porque": "mas: a única pessoa que não se surpreende é a vilã; ela já sabia do testamento",
+      "producao": "Seedance 2.0 Mini, 4 s, usar 1,5 s; congelar no último quadro; acorde suspenso da trilha"
     }
   ],
   "gancho_final": {
-    "pergunta_que_fica": "Onde a Rosa vai achar dois milhões, se só tem doze mil? E o que o Dr. vai fazer?",
+    "pergunta_que_fica": "O que o pai da Rosa deixou no testamento? E por que a Cleide já sabia?",
+    "segredo_mestre": "o testamento do pai (PADRAO_OURO_NOVELA.md, máquina de novela: segredo-mestre plantado cedo e aberto só no fim da temporada)",
     "plantado_em": [
-      "V1: 'Dois milhões, à vista' e os 180 dias",
-      "V2c: os doze mil da Estrela 'ajudam no depósito'",
-      "plano 2: 'Dois milhões, à vista'",
-      "plano 7: o envelope pardo na mão da Rosa"
+      "o livro preto do cartório, no balcão desde o plano 3 e fechado pela Marta no plano 16",
+      "'a terra do meu pai' (plano 7) e 'o trator do pai' (plano 18)"
     ],
-    "por_que_e_gancho": "nasce da virada (a preferência que o Dr. salvou tem preço), é ameaça concreta com valor dito, a vilã perde e volta na mesma cena, e o corte congela antes do efeito, no rosto de quem reage (REGRAS_ROTEIRO §5.1; PADRAO_OURO, gancho congelado)",
-    "lei": "CC art. 1.794, 'tanto por tanto' (lido no planalto em 25/11/2026)"
+    "por_que_e_gancho": "nasce da vitória (registrar a Rosa como herdeira faz a Marta abrir o livro); é um evento e não uma fala de ameaça; vira a pergunta da série de 'a Rosa ganha?' para 'o que o pai fez?'; congela antes do efeito, no rosto de quem reage, e quem reage ao contrário (sorrindo) é a vilã (REGRAS_ROTEIRO §5.1; PADRAO_OURO, gancho congelado e segredos em três camadas)",
+    "lei": "CC art. 1.864, I (testamento público escrito pelo tabelião em seu livro de notas, com duas testemunhas, inciso II); limite na parte 3: art. 1.789 (havendo herdeiros necessários, o testador só dispõe da metade). Lidos no planalto em 25/11/2026.",
+    "opcoes_reservas": [
+      "Tavares entra pela porta com a pasta: 'Trouxe o dinheiro do trator, seu Valdir.' (o trator do pai teria ido para o comprador dos dois milhões; o Tavares da V1 já falava em 'chegar com o trator')",
+      "Bruna, mexendo no vídeo da Cleide, acha um segundo arquivo gravado no mesmo dia e arregala os olhos (exige mostrar tela; risco de texto)"
+    ]
   }
 }
