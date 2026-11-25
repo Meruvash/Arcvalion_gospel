@@ -33,7 +33,7 @@
  "corpo": [
   "Segundo a Consultoria de Orçamentos, o artigo 8º do texto aprovado faz o próprio ajuste fiscal servir de compensação para as medidas da Lei do Seguro Rural aprovadas até sua publicação e afasta a vedação da LDO 2026 a novas despesas obrigatórias. Com isso, a subvenção obrigatória ao prêmio do seguro rural pode ser executada sem outra medida compensatória.",
   "O artigo 6º-D permite ao Executivo contingenciar despesas obrigatórias cujo pagamento é limitado à dotação, ressalvadas as obrigações constitucionais, o serviço da dívida, o FNDCT e o que a LDO ressalvar. A nota lembra que a Lei 15.526 excluiu expressamente o seguro rural da limitação de empenho, mas que o texto aprovado não trata de forma explícita da relação entre as duas normas. Emenda da senadora Tereza Cristina (PP-MS) foi acolhida para restringir esse artigo.",
-  "Atualização (24/11): a Câmara aprovou o PLP 299/2026 sem alterações na noite de segunda-feira (23), por 353 votos a 128 no texto-base, e o projeto segue para sanção. Com isso, os dois artigos sobre o seguro rural vão à sanção como saíram do Senado; a dúvida apontada pela Consultoria fica para a regulamentação e a LDO 2027."
+  "Atualização (24/11): a Câmara aprovou o PLP 299/2026 sem alterações, e o presidente Lula sancionou a lei na terça-feira (24), segundo a Agência Brasil; a Canção Nova Notícias informou que a sanção foi sem vetos. Com isso, os dois artigos sobre o seguro rural valem como saíram do Senado."
  ],
  "no_brasil": "O projeto vai à Câmara, onde Hugo Motta prevê sessão extraordinária na segunda-feira (23), segundo a Agência Câmara. No Senado, o relator Eduardo Braga (MDB-AM) mudou o repasse da Lei Kandir, que compensa estados pela isenção de ICMS das exportações: o piso sobe para R$ 2 bilhões por ano, e a diferença será compensada de 2028 a 2030, segundo a Agência Senado.",
  "critica": [
@@ -96,6 +96,18 @@
    "nome": "Agência Brasil: Câmara aprova texto-base do projeto de ajuste fiscal (23/11/2026)",
    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/camara-aprova-texto-base-do-projeto-de-ajuste-fiscal",
    "data": "23/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Brasil: Lula sanciona ajuste fiscal aprovado no Congresso (24/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-ajuste-fiscal-aprovado-no-congresso",
+   "data": "24/11/2026",
+   "tipo": "secundaria"
+  },
+  {
+   "nome": "Canção Nova Notícias: Câmara aprova ajuste fiscal, e Lula sanciona sem vetos o projeto (24/11/2026)",
+   "url": "https://noticias.cancaonova.com/brasil/camara-aprova-ajuste-fiscal-e-lula-sanciona-sem-vetos-o-projeto/",
+   "data": "24/11/2026",
    "tipo": "secundaria"
   }
  ],
@@ -217,8 +229,8 @@
  "publicado_em": "2026-11-18T02:36:08-03:00",
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-24T02:25:54-03:00",
+  "data": "2026-11-25T02:26:14-03:00",
   "modo": "automatica"
  },
- "atualizado_em": "2026-11-24T02:25:54-03:00"
+ "atualizado_em": "2026-11-25T02:26:14-03:00"
 }
