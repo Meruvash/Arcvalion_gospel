@@ -1,0 +1,125 @@
+{
+ "drama_ads_id": "6a548052-726d-4157-a3bd-2a68a38f6762",
+ "film_quote_720p": 556.5,
+ "spent_stage": [
+  {
+   "what": "sheets c6,p1",
+   "credits": 7
+  },
+  {
+   "what": "voice samples c4,c6",
+   "credits": 0.6
+  },
+  {
+   "what": "clip k1 720p",
+   "credits": 105
+  },
+  {
+   "what": "plate k1@0.5",
+   "credits": 3.5
+  },
+  {
+   "what": "clips k2-k5 720p",
+   "credits": 441
+  }
+ ],
+ "refs": {
+  "location:l1": {
+   "job": "0dc112fe-2509-4425-8662-e43af14aa357",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FrwcvamXiMgBXlk30xVjONWQnK/hf_20261123_203038_0dc112fe-2509-4425-8662-e43af14aa357.png"
+  },
+  "character:c1": {
+   "media": "210cf905-ecfb-46d4-8b5c-c7e21a833e74"
+  },
+  "character:c2": {
+   "media": "eab5fde7-a9a6-4c68-bb76-74e59ee8fe63"
+  },
+  "character:c3": {
+   "media": "731e554b-c8f2-4635-ae34-df2978269def"
+  },
+  "voice:c1": {
+   "media": "6279f862-17dc-4c3e-a8a8-cbc0219c5467",
+   "voice_id": "241f8d23-0c5b-4241-b8ed-b520d777ff32",
+   "voice_type": "element"
+  },
+  "voice:c2": {
+   "media": "e79b4fd2-b6ca-4e69-924f-e02985bdde05",
+   "voice_id": "f6448975-768e-4327-b932-1b7c973d58e9",
+   "voice_type": "preset"
+  },
+  "voice:c3": {
+   "media": "ab13ff0c-5471-4d79-abd1-d01c449a4c09",
+   "voice_id": "9168ddfd-c4d0-43e8-9bfd-7ad2e700c5a6",
+   "voice_type": "element"
+  },
+  "voice:c4": {
+   "voice_id": "95b656d3-17a2-4e00-aead-31e43fd9aeda",
+   "voice_type": "element",
+   "media": "c260b885-8639-4c4f-851a-79082f03a1bb"
+  },
+  "voice:c6": {
+   "voice_id": "1ad38ba4-9cc4-4f2f-9fde-b0fefdf67ae5",
+   "voice_type": "preset",
+   "media": "f63b90cb-6944-4b4e-adac-9058332f3c03"
+  },
+  "character:c6": {
+   "job": "4d3fe191-e934-470e-9b63-faa40c6ad378",
+   "prompt_sha256": "f99e885ddee7750171764bbc0e58284fe29a5f8a2582d54347c69d5e7a98a16a"
+  },
+  "prop:p1": {
+   "job": "6c16267d-23fc-4a85-82b2-0d80ea98d4c5",
+   "prompt_sha256": "98289a3fc62bf20f113fe067303e6accf7cb89185f42717c81baab43cfb6d2cf"
+  },
+  "character:c4": {
+   "media": "9bed35b9-220b-4e47-9903-21aa4c37d6b2"
+  },
+  "character:c5": {
+   "media": "b42d33ea-da57-44f2-972d-59f94afd4135"
+  }
+ },
+ "clip:k1": {
+  "job": "bc333da7-8703-46da-917c-8920320cd026",
+  "prompt_sha256": "f3a5e377c35e33fa210c53a49db2278a2a5a905b148e8ed75f9f9d6828d0e598",
+  "quote": 105,
+  "kept": [
+   2.5,
+   15.05
+  ],
+  "cuts": [
+   5.75,
+   8.875,
+   11.583,
+   14.083
+  ]
+ },
+ "plate:k1@0.5": {
+  "job": "50f9076d-b63d-4cac-9de1-8b55b5a5d885",
+  "frame_media": "6412c962-2d02-459f-bfce-0bfbd2ad9441"
+ },
+ "clip:k2": {
+  "job": "08a0af65-686b-49eb-b32e-87e0f7594922",
+  "prompt_sha256_prefix": "cb09a447"
+ },
+ "clip:k3": {
+  "job": "8a1e5c8b-39e9-42ab-815c-2e9be07d1efc",
+  "prompt_sha256_prefix": "812d0f23"
+ },
+ "clip:k4": {
+  "job": "d6a9d6d9-1b8a-4e19-a657-8bbfe4b62800",
+  "prompt_sha256_prefix": "8e710d7d"
+ },
+ "clip:k5": {
+  "job": "614578dd-0b5f-421d-9311-ca7b939222b3",
+  "prompt_sha256_prefix": "a8c995ed"
+ },
+ "novas_24_11": {
+  "n1_dr_armadilha": "59c419d0-588f-4dbb-bf7c-a5be5d9ed402",
+  "n2_leiloeiro_fora": "3a7d2d0e-1dbe-46c0-8b1e-afad4281337c",
+  "n3_cleide_gancho": "092211b2-34a6-4d3b-89c8-b5764cf3e6cc",
+  "n4_anca_limpa": "e8ede485-7a84-42a8-bc38-a160757b2139",
+  "a1_rosa_marca": "0cc44fe9-6ec6-43f3-aef1-4fb6757baf63",
+  "a2_leiloeiro_pergunta": "7135745f-e918-45a1-82e7-cc3f1032ab86",
+  "a3_leiloeiro_vendida": "3a8c0d30-547e-4051-8f9c-3dacb1fe76a8",
+  "quote": 131.6
+ }
+}
