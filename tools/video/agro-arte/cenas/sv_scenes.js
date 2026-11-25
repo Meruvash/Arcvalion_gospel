@@ -3,6 +3,9 @@
 //   sv_parreiras — à maneira de Antônio Parreiras (1860–1937), paisagista brasileiro (estrutura de "Paisagem", c. 1900:
 //                  estrada que entra pela esquerda em curva, árvore-moldura no lado oposto, serra azul e céu largo).
 //                  Foco: a porteira de madeira trancada com corrente e cadeado, sobre a estrada de terra vermelha.
+//   sv_mapa      — o mesmo campo visto de cima, como mapa pintado (relevo sombreado pela mesma luz de fim de tarde, paleta
+//                  do Parreiras). Função (DIRECAO_MOTION.md): LOCALIZAR + CAUSA E EFEITO — a fazenda presa no vale, sem
+//                  saída para a estrada pública; o caminho pela terra do vizinho acende em amarelo.
 (() => {
   const W = 1920, H = 1080, { clamp, lerp, rng } = U, P = PAINT, M = MEDIUM, TAU = Math.PI * 2;
   const X0 = 420;                                   // borda esquerda do recorte quadrado
@@ -160,6 +163,73 @@
       // vinheta suave para segurar o olho no centro
       const vg = c.createRadialGradient(960, 600, 300, 960, 600, 900); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(30,20,10,.35)'); c.fillStyle = vg; c.fillRect(0, 0, W, H);
       tela(c, 'canvas_sv', '#efe2c8');
+    }
+    return { draw };
+  })();
+  SCENES['sv_mapa'] = (() => {
+    let base, built = false;
+    const SF = [940, 740];                                   // a sua fazenda, no fundo do vale
+    // relevo: anel de morros em volta do vale (a fazenda fica presa), serra mais alta ao sul, planalto liso ao norte
+    const alt = (x, y) => { const rx = (x - SF[0]) / 260, ry = (y - SF[1]) / 200, r = Math.hypot(rx, ry);
+      const anel = Math.exp(-((r - 1.25) ** 2) / .18) * (1 - .55 * Math.exp(-(((x - 1150) / 90) ** 2 + ((y - 470) / 140) ** 2)));   // brecha suave no morro a nordeste: por onde a passagem sobe
+      return .9 * anel + .12 * P.fbm(x * .004, y * .004, 3) + .25 * clamp((y - 820) / 300, 0, 1) - .1 * clamp((360 - y) / 300, 0, 1); };
+    // divisas (polígonos simples)
+    const SUA = [[760, 640], [860, 590], [1030, 600], [1120, 690], [1090, 840], [950, 900], [800, 850], [740, 740]];
+    const DIV = [[[420, 300], [760, 300], [760, 640], [740, 740], [800, 850], [700, 1080], [420, 1080]],
+                 [[760, 300], [1500, 300], [1500, 560], [1120, 690], [1030, 600], [860, 590], [760, 640]],
+                 [[1500, 560], [1500, 1080], [700, 1080], [800, 850], [950, 900], [1090, 840], [1120, 690]]];
+    const dentro = (pt, pol) => { let c = false; for (let i = 0, j = pol.length - 1; i < pol.length; j = i++) { const [xi, yi] = pol[i], [xj, yj] = pol[j]; if (((yi > pt[1]) !== (yj > pt[1])) && (pt[0] < (xj - xi) * (pt[1] - yi) / (yj - yi) + xi)) c = !c; } return c; };
+    const CORES = [[150, 156, 96], [176, 160, 104], [128, 146, 82]];
+    // a passagem: curva suave da sede, pela brecha do morro, até a estrada
+    const bez = (u) => { const p0 = [945, 720], p1 = [1050, 640], p2 = [1110, 470], p3 = [1200, 300]; const v = 1 - u; return [v * v * v * p0[0] + 3 * v * v * u * p1[0] + 3 * v * u * u * p2[0] + u * u * u * p3[0], v * v * v * p0[1] + 3 * v * v * u * p1[1] + 3 * v * u * u * p2[1] + u * u * u * p3[1]]; };
+    const estradaY = (x) => 300 + 18 * Math.sin(x * .004);
+    function build() {
+      base = P.canvas(); const g = base.getContext('2d');
+      const im = g.createImageData(W, H), d = im.data, Lx = -.62, Ly = -.6, Lz = .5;
+      for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+        const h = alt(x, y), hx = alt(x + 3, y) - h, hy = alt(x, y + 3) - h, nx = -hx * 90, ny = -hy * 90, nl = Math.hypot(nx, ny, 1), sh = clamp((nx * Lx + ny * Ly + Lz) / nl, 0, 1);
+        let c;
+        if (dentro([x, y], SUA)) { c = [196, 176, 96]; if (Math.sin((x * .7 + y) * .22) > .55) c = [150, 150, 70]; }                 // a sua lavoura, dourada, em linhas
+        else { const k = DIV.findIndex(pol => dentro([x, y], pol)); c = k >= 0 ? CORES[k].slice() : [150, 156, 96]; c = mix(c, [176, 170, 130], .25); }  // vizinhos, mais apagados
+        if (h > .62) c = mix(c, mix([44, 70, 42], [72, 96, 56], clamp(P.fbm(x * .02, y * .02, 3) + .5, 0, 1)), clamp((h - .62) * 5, 0, 1));   // mata nos morros do anel
+        if (y < estradaY(x) - 14) c = mix(c, [168, 170, 140], .35);                                                                  // além da estrada, planalto claro
+        c = mix(mix(c, [70, 66, 70], .42), mix(c, [255, 226, 170], .3), sh);
+        const i = (y * W + x) * 4; d[i] = c[0]; d[i + 1] = c[1]; d[i + 2] = c[2]; d[i + 3] = 255;
+      }
+      g.putImageData(im, 0, 0);
+      g.strokeStyle = 'rgba(110,146,168,.95)'; g.lineWidth = 10; g.lineCap = 'round'; g.beginPath();            // o rio, a oeste
+      for (let y = 120; y <= 1080; y += 6) { const x = 540 + 70 * Math.sin(y * .012) + 30 * P.noise(y * .01, 4); y === 120 ? g.moveTo(x, y) : g.lineTo(x, y); } g.stroke();
+      g.strokeStyle = 'rgba(220,236,244,.4)'; g.lineWidth = 3; g.stroke();
+      g.strokeStyle = '#6e5e4e'; g.lineWidth = 18; g.beginPath(); for (let x = 380; x <= 1540; x += 10) { x === 380 ? g.moveTo(x, estradaY(x)) : g.lineTo(x, estradaY(x)); } g.stroke();   // a estrada pública
+      const r = rng(3); for (let i = 0; i < 14; i++) { const a = r() * TAU, rr = r() * 80; ell(g, SF[0] - 60 + Math.cos(a) * rr, SF[1] + 70 + Math.sin(a) * rr * .5, 12, 12, 0, 'rgba(50,80,44,.9)'); }   // pomar da sede
+      base = M.broken(base, { cell: 5, len: 11, wid: 6, passes: 3, angle: (x, y) => .3 + P.noise(x * .006, y * .006) * .6, seed: 2301, jit: 7, skip: 0.02, sat: 1.0, warm: [255, 222, 165], cool: [80, 96, 130] });
+      // por cima da pincelada, nítidos: divisas, sede, faixa da estrada
+      { const g = base.getContext('2d');
+      g.save(); g.strokeStyle = 'rgba(60,36,20,.75)'; g.lineWidth = 2.5; g.setLineDash([10, 7]);
+      for (const pol of [SUA, ...DIV]) { g.beginPath(); pol.forEach(([x, y], i) => i ? g.lineTo(x, y) : g.moveTo(x, y)); g.closePath(); g.stroke(); } g.restore();
+      g.strokeStyle = 'rgba(232,220,190,.9)'; g.lineWidth = 2; g.setLineDash([18, 14]); g.beginPath(); for (let x = 380; x <= 1540; x += 10) { x === 380 ? g.moveTo(x, estradaY(x)) : g.lineTo(x, estradaY(x)); } g.stroke(); g.setLineDash([]);
+      g.save(); g.translate(SF[0], SF[1] - 18); g.rotate(-.12); g.fillStyle = 'rgba(40,20,10,.35)'; g.fillRect(-30, -14, 66, 38); g.fillStyle = '#b8643a'; g.fillRect(-34, -20, 66, 36); g.fillStyle = '#d88a5a'; g.fillRect(-34, -20, 66, 16); g.restore();   // a casa: telhado em duas águas
+      g.fillStyle = '#efe2c4'; g.fillRect(SF[0] + 46, SF[1] - 6, 30, 22); g.strokeStyle = '#5a3e22'; g.lineWidth = 2; g.strokeRect(SF[0] - 100, SF[1] - 4, 44, 30); }
+    }
+    const rot = (c, txt, x, y, tam, cor, a = 1) => { if (a <= 0) return; c.save(); c.globalAlpha = a; c.font = `italic 700 ${tam}px Georgia, serif`; c.textAlign = 'center'; c.lineWidth = 7; c.strokeStyle = 'rgba(250,240,215,.92)'; c.strokeText(txt, x, y); c.fillStyle = cor; c.fillText(txt, x, y); c.restore(); };
+    function draw(c, lt) {
+      if (!built) { build(); built = true; }
+      const t = Math.max(0, lt), ez = u => u < .5 ? 2 * u * u : 1 - Math.pow(-2 * u + 2, 2) / 2;
+      c.drawImage(base, 0, 0);
+      c.save(); c.globalCompositeOperation = 'screen'; const gr = c.createRadialGradient(SF[0], SF[1], 20, SF[0], SF[1], 230); gr.addColorStop(0, `rgba(255,224,150,${.26 + .05 * Math.sin(t * 1.2)})`); gr.addColorStop(1, 'rgba(255,224,150,0)'); c.fillStyle = gr; c.fillRect(0, 0, W, H); c.restore();
+      c.save(); c.globalCompositeOperation = 'multiply'; for (let i = 0; i < 2; i++) { const x = ((t * 20 + i * 900) % 2200) - 200, y = 380 + i * 420; const s2 = c.createRadialGradient(x, y, 10, x, y, 240); s2.addColorStop(0, 'rgba(70,80,110,.28)'); s2.addColorStop(1, 'rgba(70,80,110,0)'); c.fillStyle = s2; c.fillRect(0, 0, W, H); } c.restore();
+      const u = ez(clamp((t - 1.6) / 2.4, 0, 1));
+      if (u > 0) { c.save(); c.lineCap = 'round';
+        for (const [w, cor] of [[30, 'rgba(255,214,80,.22)'], [12, 'rgba(255,196,36,.96)'], [4, 'rgba(255,250,210,.95)']]) { c.strokeStyle = cor; c.lineWidth = w; c.beginPath(); for (let k = 0; k <= 80 * u; k++) { const [x, y] = bez(k / 80); k ? c.lineTo(x, y) : c.moveTo(x, y); } c.stroke(); }
+        const [hx, hy] = bez(u); ell(c, hx, hy, 11, 11, 0, 'rgba(255,252,225,.98)'); c.restore(); }
+      rot(c, 'ESTRADA PÚBLICA', 760, 268, 34, '#3e3024', clamp((t - .3) * 2, 0, 1));
+      rot(c, 'SUA FAZENDA', SF[0] - 20, SF[1] + 120, 42, '#6a2a14', clamp((t - .6) * 2, 0, 1));
+      rot(c, 'VIZINHO', 1330, 400, 30, '#3a3a2a', clamp((t - 1.0) * 2, 0, 1)); rot(c, 'VIZINHO', 610, 560, 30, '#3a3a2a', clamp((t - 1.0) * 2, 0, 1)); rot(c, 'VIZINHO', 1290, 960, 30, '#3a3a2a', clamp((t - 1.0) * 2, 0, 1));
+      rot(c, 'PASSAGEM', 1215, 520, 32, '#7a4a00', clamp((t - 3.8) * 2, 0, 1));
+      c.save(); c.translate(1420, 1000); c.globalAlpha = .9; c.fillStyle = '#5a3e26'; for (let k = 0; k < 4; k++) { c.beginPath(); c.moveTo(0, -38); c.lineTo(7, 0); c.lineTo(-7, 0); c.closePath(); c.fill(); c.rotate(Math.PI / 2); }
+      c.font = 'italic 700 22px Georgia, serif'; c.textAlign = 'center'; c.fillText('N', 0, -44); c.restore();
+      const vg = c.createRadialGradient(960, 600, 320, 960, 600, 860); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(40,24,10,.36)'); c.fillStyle = vg; c.fillRect(0, 0, W, H);
+      tela(c, 'canvas_svm', '#efe2c8');
     }
     return { draw };
   })();
