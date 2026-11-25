@@ -1,0 +1,190 @@
+{
+ "slug": "stj-icms-base-contribuicao-previdenciaria-agroindustria-senar-tema-1048",
+ "data": "2026-11-25",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "STJ: ICMS entra na base da contribuição previdenciária da agroindústria e do Senar",
+ "lide": "A Segunda Turma do STJ decidiu, por unanimidade, em acórdão publicado na terça-feira (24), que o ICMS integra a base de cálculo da contribuição previdenciária substitutiva da agroindústria e da contribuição ao Senar, ambas sobre a receita bruta da comercialização da produção rural. O tribunal aplicou a tese do STF sobre a contribuição sobre receita bruta, a CPRB.",
+ "por_que_importa": "Para a agroindústria, a tese de tirar o ICMS da base da contribuição sobre a receita bruta perdeu força: o STJ diz que o entendimento já é consolidado nas duas turmas de direito público. Quem tem ação parecida em curso tende a ter o mesmo resultado.",
+ "numeros": [
+  [
+   "Tema 1.048",
+   "do STF fixou que é constitucional incluir o ICMS na base da contribuição previdenciária sobre a receita bruta",
+   "STJ, AgInt no AREsp 3.198.983/SP"
+  ],
+  [
+   "Art. 22-A",
+   "da Lei 8.212/1991 cria a contribuição da agroindústria sobre a receita bruta da produção, no lugar da folha",
+   "STJ, AgInt no AREsp 3.198.983/SP"
+  ],
+  [
+   "5 a 0",
+   "foi o placar na Segunda Turma, em sessão virtual de 12 a 19 de novembro",
+   "STJ"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, as duas contribuições formam um regime setorial favorecido, que substitui a contribuição sobre a folha de salários, e excluir o ICMS da base seria ampliar indevidamente um benefício fiscal. O relator, ministro Marco Aurélio Bellizze, afastou a aplicação do Tema 69 do STF, que tirou o ICMS da base do PIS e da Cofins.",
+  "A turma também disse que a obrigatoriedade do regime da Lei 10.256/2001 não muda a natureza da contribuição nem autoriza excluir o imposto estadual. O caso veio de São Paulo, em mandado de segurança contra a cobrança."
+ ],
+ "no_brasil": "A contribuição da agroindústria é uma das versões do chamado Funrural, cobrada sobre a receita da produção em vez da folha. A decisão não trata do produtor rural pessoa física, mas mostra como o STJ tem aplicado ao setor as teses do STF sobre receita bruta.",
+ "critica": [
+  {
+   "fonte": "STJ, Segunda Turma, AgInt no AREsp 3.198.983/SP",
+   "texto": "ambas incidem sobre o valor da receita bruta proveniente da comercialização da produção rural, caracterizando verdadeiro regime setorial favorecido de índole substitutiva da folha de salários",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3198983&O=JT"
+  },
+  {
+   "fonte": "Tese da empresa, rebatida na mesma ementa",
+   "texto": "Resta expressamente afastada a incidência da tese do Tema 69/STF e a alegada violação ao art. 110 do Código Tributário Nacional",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3198983&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Agroindústrias com ação para excluir o ICMS dessa base: o STJ indica que o pedido não prospera; avalie os riscos com o histórico de decisões",
+  "Cooperativas e frigoríficos no regime do art. 22-A: a base segue a receita bruta com o ICMS dentro",
+  "Produtor pessoa física: a decisão não trata da sua contribuição"
+ ],
+ "nao_e_para": [
+  "Não é decisão sobre o Funrural do produtor pessoa física",
+  "O STJ aplicou tese do STF; mudança só viria do próprio STF",
+  "A ementa não informa a empresa nem os valores discutidos"
+ ],
+ "veredito": "A gente lembra que o regime da agroindústria nasceu como alívio na folha; o STJ deixa claro que alívio não vira desconto em cascata. Para o setor, a disputa sobre essa base parece encerrada no tribunal.",
+ "fontes": [
+  {
+   "nome": "STJ: AgInt no AREsp 3.198.983/SP, Segunda Turma, relator Ministro Marco Aurélio Bellizze",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3198983&O=JT",
+   "data": "24/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Lei 8.212/1991 (custeio da Previdência), art. 22-A",
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+   "data": "24/07/1991",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 57,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Contribuição previdenciária da agroindústria e contribuição ao Senar"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3198983&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 10,
+    "porque": "Alcança agroindústrias no regime do art. 22-A e o financiamento do Senar"
+   },
+   "afinidade": {
+    "pontos": 13,
+    "porque": "Tributo do setor agroindustrial ligado ao Funrural, mas não ao produtor pessoa física"
+   },
+   "atualidade": {
+    "pontos": 16,
+    "porque": "Acórdão publicado no DJEN de 24/11, ontem"
+   },
+   "comprovacao": {
+    "pontos": 14,
+    "porque": "Ementa integral lida na base do STJ"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Acórdão de 24/11 sem cobertura na imprensa, explicado com a ligação entre o art. 22-A e o Funrural"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 8,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: base de cálculo da contribuição (2)",
+    "Lei citada: Lei 8.212/1991 (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "AgInt no AREsp 3.198.983/SP",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Tributos e Funrural",
+  "coleta": "2026-11-25",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa conferida na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "empresa e valores"
+  },
+  "duplicidade": {
+   "grupo": "Funrural e contribuições",
+   "itens": [
+    "AREsp 3.198.983"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-14-funrural-stf-inconstitucional-antes-2018-produtor-o-que-muda"
+  },
+  "seo": {
+   "intencao": "saber se o ICMS entra na base da contribuição da agroindústria",
+   "entidades": [
+    "STJ",
+    "agroindústria",
+    "Senar",
+    "ICMS",
+    "Tema 1.048",
+    "art. 22-A Lei 8.212"
+   ],
+   "termos": [
+    "ICMS base contribuição agroindústria",
+    "Senar base de cálculo ICMS",
+    "art. 22-A Lei 8.212 ICMS"
+   ],
+   "atualizacao": "acompanhar o tema no STF"
+  },
+  "agro": {
+   "demanda": "Agroindústrias e cooperativas que discutem a exclusão do ICMS da base da contribuição sobre a receita bruta",
+   "prazo": "sem prazo",
+   "quem": "Agroindústrias, cooperativas e frigoríficos no regime do art. 22-A"
+  }
+ },
+ "descricao_seo": "STJ decide que o ICMS integra a base da contribuição previdenciária da agroindústria (art. 22-A) e do Senar, pela tese do Tema 1.048 do STF.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura da ementa, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fundamentos citados literalmente da ementa; a nota não nomeia a empresa e deixa claro que não trata do produtor pessoa física. A referência ao Funrural é contextual. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-icms-base-contribuicao-previdenciaria-agroindustria-senar-tema-1048.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Ordenha manual de vaca em estábulo, com bezerro ao fundo (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/AtbX9gcG0Y50ezGXtPOGuL-G8TU=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/1400mc0227_0.jpg?itok=gsqZJ4xt",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2021-03/cmn-limita-6-ao-ano-taxa-de-financiamento-produtores-de-leite"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-25T02:32:01-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-25T02:32:01-03:00"
+}
