@@ -44,7 +44,7 @@ ela **reprova: nota 0,61 e obrigatórias falhando**.
 | A1, A5 a A7 | 34 s sem tensão, sem ruptura, sem riso e sem confissão | celular vibrando, chapéu do Valdir, confissão "Errei" |
 | Lógica | uma escrevente que "vamos ouvir" um vídeo como renúncia parece incompetente; e por que a Cleide estaria no cartório? | a cena tem motivo legal: o Valdir quer passar a escritura da parte dele (art. 1.793), a Marta pergunta da preferência da irmã (arts. 1.794 e 1.795), e o vídeo é a resposta da Cleide |
 | Lógica | por que o Valdir deixou a mulher passar vergonha? | ele tinha vendido o trator escondido dela; a confissão explica e abre a conta da parte 3 |
-| Gancho | "Em casa a gente conversa" é piada, não abre conta (§5.1) | "Em casa você me conta do dinheiro, Valdir.": a mesma ironia, agora com a pergunta da próxima parte |
+| Gancho | "Em casa a gente conversa" é piada, não abre conta (§5.1) | a Cleide vira a lei contra a Rosa: "A parte custa dois milhões. Tem, Rosinha?", e o quadro congela no envelope dos doze mil (ver §4-A) |
 
 **Mantido da v3** (o editor já tinha aprovado): o cartório, a Marta, a previsão, a fala da lei, o recibo do trator, o
 Valdir debochando, a Marta dando razão ao Dr., "grave o vídeo inteiro" e "A senhora não está sozinha".
@@ -56,7 +56,8 @@ Valdir debochando, a Marta dando razão ao Dr., "grave o vídeo inteiro" e "A se
 2. **Meio:** o Dr. entra e prevê que a Cleide vai dizer que o vídeo vale como assinatura. Ela diz, ele responde com o art.
    1.806 e a Marta fecha o livro: a escritura não sai.
 3. **Fim:** ele vai além e limpa o nome da Rosa. O barulho era de trator, e a data do vídeo é a da venda do trator do pai.
-   O Valdir confessa que sabia, o Dr. protege a Rosa, e a Cleide sai cobrando do marido o dinheiro do trator.
+   O Valdir confessa que sabia e o Dr. protege a Rosa. Mas, na porta, a Cleide vira a lei contra ela: preferência é pelo
+   mesmo preço, dois milhões, e a Rosa só tem os doze mil do envelope.
 
 ## 4. Roteiro (plano a plano)
 
@@ -78,10 +79,11 @@ Valdir debochando, a Marta dando razão ao Dr., "grave o vídeo inteiro" e "A se
 | 14 | 0:52,5–0:56,5 | Cleide ergue o queixo e aperta o celular contra o peito | CLEIDE: "Vale sim. Falou, tá falado." | 2.5 · 4 s · 28 |
 | 15 | 0:56,5–1:02,5 | **AURA 3:** o Dr. calmo, mãos juntas. **Cartão CC art. 1.806** | DR.: "Abrir mão de herança, só em escritura ou com juiz." | 2.5 · 6 s · 42 |
 | 16 | 1:02,5–1:04,5 | A Marta concorda com a cabeça, tira os óculos e **fecha o livro** | — | Mini · 4 s · 4 |
-| 17 | 1:04,5–1:10,5 | **AURA 4:** em silêncio, ele põe o recibo dobrado no balcão (desfocado) e ergue os olhos para o Valdir | DR.: "Barulho de trator, seu Valdir. Vendido em doze de março." | 2.5 · 6 s · 42 |
-| 18 | 1:10,5–1:16,5 | Valdir calado sob a voz da Rosa; depois abaixa os olhos e tira o chapéu, agora de propósito | ROSA (fora, só voz): "O trator do pai." · VALDIR: "Eu sabia que era o trator. Errei." | 2.5 · 6 s · 42 + 0,2 |
-| 19 | 1:16,5–1:24,5 | **AURA 5:** o Dr. à Cleide; pausa de 1 s; depois baixo, à Rosa | DR.: "Da próxima vez, grave o vídeo inteiro." … "A senhora não está sozinha." | 2.5 · 8 s · 56 |
-| 20 | 1:24,5–1:29 | Na porta de vidro, a Cleide se vira, doce e gelada. Congela no rosto do Valdir. "CONTINUA" | CLEIDE: "Em casa você me conta do dinheiro, Valdir." | 2.5 · 5 s · 35 |
+| 17 | 1:04,5–1:10 | **AURA 4:** em silêncio, ele põe o recibo dobrado no balcão (desfocado) e ergue os olhos para o Valdir | DR.: "Barulho de trator, seu Valdir. Vendido em doze de março." | 2.5 · 5,5 s · 42 |
+| 18 | 1:10–1:16 | Valdir calado sob a voz da Rosa; depois abaixa os olhos e tira o chapéu, agora de propósito | ROSA (fora, só voz): "O trator do pai." · VALDIR: "Eu sabia que era o trator. Errei." | 2.5 · 6 s · 42 + 0,2 |
+| 19 | 1:16–1:23 | **AURA 5:** o Dr. à Cleide; pausa de 1 s; depois baixo, à Rosa | DR.: "Da próxima vez, grave o vídeo inteiro." … "A senhora não está sozinha." | 2.5 · 7 s · 49 |
+| 20 | 1:23–1:27,5 | **Gancho:** na porta de vidro, a Cleide para, se vira e recupera a máscara; olha o envelope pardo nas mãos da Rosa, sorriso doce e gelado | CLEIDE: "A parte custa dois milhões. Tem, Rosinha?" | 2.5 · 5 s · 35 |
+| 21 | 1:27,5–1:29 | **Congela:** a Rosa baixa os olhos para o envelope dos doze mil; o Dr., ao lado, calado, também olha o envelope. O quadro para antes de qualquer reação. "CONTINUA" | — | Mini · 4 s · 4 |
 
 Posições fixas (as da v3):
 - balcão ao fundo, com a Marta atrás;
@@ -97,6 +99,38 @@ Posições fixas (as da v3):
   - art. 1.794: a irmã tem preferência, tanto por tanto;
   - art. 1.795: depósito do preço em até 180 dias.
 
+## 4-A. O gancho final (replanejado a pedido do editor, 25/11/2026)
+
+**Por que o anterior não servia:** "Em casa você me conta do dinheiro, Valdir." é uma briga de casal. Não ameaça a Rosa
+nem deixa uma pergunta que faça o público voltar.
+
+**O gancho novo:**
+- **Fala da Cleide:** "A parte custa dois milhões. Tem, Rosinha?"
+- **Imagem:** o quadro congela na Rosa olhando o envelope dos doze mil, com o Dr. calado ao lado.
+
+**Por que agora é gancho:**
+1. **Nasce da virada** (`REGRAS_ROTEIRO.md` §5.1). O Dr. salvou a preferência da Rosa, e a Cleide mostra o preço dela:
+   preferência é "tanto por tanto" (CC art. 1.794, lido no planalto em 25/11/2026). Para ficar com a parte, a Rosa tem
+   que pagar o mesmo que o comprador. A vilã usa a lei verdadeira contra a heroína: é a "faca" do §2.1, e é o argumento
+   mais forte que a Cleide já teve.
+2. **Ameaça concreta, com número dito:** dois milhões contra doze mil.
+3. **Foi plantado:**
+   - na V1: "Dois milhões, à vista" e o prazo de 180 dias;
+   - na V2c: os doze mil da Estrela;
+   - no plano 2: "Dois milhões, à vista";
+   - no plano 7: o envelope pardo na mão da Rosa.
+   Quem acompanha "devia ter previsto".
+4. **A vilã perde e volta na mesma cena:** a Cleide nunca some (`ELENCO_FIXO.md`).
+5. **Congela antes do efeito, no rosto de quem reage** (padrão ouro, João Emanuel Carneiro). Ficam duas perguntas:
+   **onde a Rosa vai achar dois milhões?** e **o que o Dr. vai fazer?** O Dr. olhando o envelope, calado, deixa o
+   público querendo ver a próxima virada, sem nenhuma promessa na boca dele (OAB).
+
+**O que mudou para caber:**
+- o fecho do Dr. passou de 8 para 7 s;
+- a dedução passou de 6 para 5,5 s;
+- o vídeo continua com 89 s, a virada aos 48,3% e o auditor em 1,00;
+- o custo cai 3 créditos: o fecho custa 7 a menos e o quadro congelado custa 4 no Mini.
+
 ## 5. Auditor (`auditar_novela.py`)
 Obrigatórias O1 a O10 ok · F1 a F10 todos ok · **nota 1,00 · APROVADO**. Resta só o aviso **A8** (nenhuma fala longa):
 a regra de no máximo 10 palavras por plano, que fez a V2c sair certa, briga com a fala longa do padrão ouro. Fica para a
@@ -108,7 +142,7 @@ o F4 cai. O auditor roda de novo com os tempos reais.
 ## 6. Passe de julgamento (`REGRAS_ROTEIRO.md` §9)
 1. **Cada fala tem uma ação por baixo?** Sim. Exemplos: pressionando (Valdir, plano 2), barrando (Marta), golpeando
    (Cleide, plano 4), desacreditando (planos 8 e 9), armando (previsão), desarmando (lei), virando a palavra dele
-   (plano 17), confessando (Valdir), protegendo (Dr.) e cobrando (gancho).
+   (plano 17), confessando (Valdir), protegendo (Dr.) e encurralando (gancho).
 2. **Tapando os nomes, dá para saber quem fala?** Sim. O Valdir fala de dinheiro, a Cleide fala doce com veneno ("Deus é
    mais, né, amor?"), a Rosa fala do pai, o Dr. fala curto e com a lei, a Marta fala de procedimento.
 3. **Exposição?** Não. A data é dita porque a escrevente registra a prova; a preferência é perguntada, não explicada.
@@ -119,8 +153,8 @@ o F4 cai. O auditor roda de novo com os tempos reais.
 7. **Não fazer nada seria saída para a Rosa?** Não. Sem reagir, perde a preferência e a terra do pai hoje.
 8. **O argumento da vilã é plausível e a previsão passa nos 4 testes?** Sim. "Falou, tá falado" é o senso comum que a lei
    derruba; os 4 testes estão no JSON.
-9. **O gancho nasce da virada e foi plantado?** Sim. A confissão revela o trator vendido escondido; a pergunta "e o
-   dinheiro?" nasce dali.
+9. **O gancho nasce da virada e foi plantado?** Sim. A preferência que o Dr. salvou tem preço: tanto por tanto, dois
+   milhões. Foi plantado na V1, na V2c e nos planos 2 e 7.
 
 ## 7. Teste da história (`REGRAS_ROTEIRO.md` §10)
 1. **Faz sentido em 3 frases?** Sim (§3).
@@ -133,7 +167,7 @@ o F4 cai. O auditor roda de novo com os tempos reais.
 5. **O final responde ao começo?** Sim: a escritura não sai, e a Cleide paga na tela (vergonha diante da escrevente e do
    marido) antes do gancho.
 6. **Cenas mínimas?** Todas presentes: o que está em jogo (plano 2), o plantio (5, 6 e 8), a acusação (4 e 9), a virada
-   (11 a 15), a consequência (16 a 18) e o fecho com gancho (19 e 20).
+   (11 a 15), a consequência (16 a 18) e o fecho com gancho (19 a 21).
 7. **Depois de corte:** refazer este teste. Os planos 6 e 8 são o plantio: não podem sair.
 
 ## 8. Riscos de áudio e imagem
@@ -152,16 +186,16 @@ o F4 cai. O auditor roda de novo com os tempos reais.
 ## 9. Custo (preços desta semana: 2.5 a 7 créditos/s, Mini a 1 crédito/s)
 | Item | Créditos |
 |---|---|
-| 14 planos no Seedance 2.5 (76 s gerados) | 532 |
-| 4 insertos no Mini | 16 |
+| 14 planos no Seedance 2.5 (75 s gerados) | 525 |
+| 5 insertos no Mini | 20 |
 | Reprise do plano n3 da V2c | 0 |
 | Falas só de voz (Rosa ×2) | 0,4 |
 | Folha da Marta, folha do cartório e placa do quadro | 10,5 |
 | Amostra de voz da Marta | 0,2 |
 | Troca de voz do Dr. (4 trechos) | 4 |
-| **Total** | **cerca de 563** |
+| **Total** | **cerca de 560** |
 
-- **Comparação:** cerca de 46 a menos que a v3 (609) e dentro do teto já aprovado de **650**, com 87 de folga (dá para
+- **Comparação:** cerca de 49 a menos que a v3 (609) e dentro do teto já aprovado de **650**, com 90 de folga (dá para
   refazer dois planos).
 - **Corte possível:** sem o plano 9 (bordão da Cleide), economiza 35, mas a virada cai para 45% e reprova o F4. Não
   recomendo.
@@ -171,13 +205,14 @@ o F4 cai. O auditor roda de novo com os tempos reais.
 - **Objeto-prova:** o ronco do trator no vídeo, mais o recibo da venda.
 - **Frase de impacto:** "Barulho de trator, seu Valdir."
 - **Previsão:** "Ela vai dizer que o vídeo vale como assinatura."
-- **Gancho:** "Em casa você me conta do dinheiro, Valdir."
+- **Gancho:** "A parte custa dois milhões. Tem, Rosinha?", congelado no envelope dos doze mil.
 - **Estado de passagem:**
   - a escritura não saiu;
   - a Rosa continua herdeira, com preferência;
-  - o Valdir confessou na frente da mulher.
+  - o Valdir confessou na frente da mulher;
+  - a Cleide cobrou o preço da preferência: dois milhões.
 - **Contas abertas para a parte 3:**
-  - o dinheiro do trator do pai (inclusive a metade da Rosa);
-  - os dois milhões contra os doze mil da Rosa;
+  - **principal: como a Rosa paga dois milhões com doze mil** (o Dr. tem a próxima virada);
+  - o dinheiro do trator do pai, que o Valdir escondeu da Cleide (inclusive a metade da Rosa);
   - o prazo de 180 dias;
   - a autojustificação da Cleide (a fala longa, A8).
