@@ -10,6 +10,20 @@
 
 Este arquivo vale para toda cena de `tools/video/agro-arte/cenas/`. É lido junto com `DIRECAO_VIDEO_AGRO.md`.
 
+## 0. Código primeiro; IA só com pertinência (decisão do editor, 25/11/2026)
+> "Eu preferi as de código mesmo. As pinturas de IA todo mundo consegue fazer. Só vale a pena se for alguma coisa muito
+> detalhada que a gente precisa dizer e que tenha pertinência para o vídeo."
+
+- **A pintura em código é o padrão e a marca do canal.** O teste de 25/11/2026 deixou a pintura de IA mais detalhada, mas
+  genérica.
+- **Higgsfield só entra numa cena quando ela é necessária para a mensagem e exige uma precisão que o código não alcança:**
+  - gente em situação concreta;
+  - objeto ou documento muito específico;
+  - lugar real reconhecível.
+  O roteiro justifica cada cena de IA numa linha ("por que esta cena precisa ser da IA"). Sem justificativa, a cena é em
+  código.
+- Paisagem bonita, atmosfera e "cena de respiro" nunca justificam IA.
+
 ## 1. O que faz alguém parar para admirar um quadro (e o que copiamos disso)
 
 | Princípio | Na prática, em cada cena |
