@@ -1,0 +1,189 @@
+{
+ "slug": "stj-rondonia-multa-ambiental-reduzida-produtor-hipossuficiente-propriedade-rural",
+ "data": "2026-11-25",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Rondônia: STJ mantém redução de multas ambientais por hipossuficiência do produtor e tamanho da propriedade",
+ "lide": "O STJ manteve, em decisão publicada na terça-feira (24), a redução de multas ambientais aplicadas a um infrator em Rondônia. O tribunal de origem levou em conta a situação econômica do autuado, a dimensão da propriedade rural e a hipossuficiência comprovada, e a Segunda Turma recusou o pedido de restabelecer os valores originais fixados pela administração.",
+ "por_que_importa": "Multa ambiental tem de caber na realidade de quem é multado. A decisão confirma que a Justiça pode ajustar o valor quando a sanção ignora o porte da propriedade e a renda do produtor, desde que isso esteja provado no processo.",
+ "numeros": [
+  [
+   "24/11",
+   "foi a publicação da decisão da Segunda Turma, julgada em 19 de novembro",
+   "STJ, AgInt no REsp 2.248.105/RO"
+  ],
+  [
+   "3",
+   "fatores pesaram na redução: situação econômica do infrator, dimensão da propriedade rural e hipossuficiência",
+   "STJ, AgInt no REsp 2.248.105/RO"
+  ],
+  [
+   "Súmula 7",
+   "do STJ impediu rever as conclusões de fato que justificaram a redução",
+   "STJ"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, o tribunal de origem manteve a redução das multas depois de examinar as particularidades do caso e aplicou os princípios da razoabilidade e da proporcionalidade na gradação da sanção. Quem recorreu ao STJ, a parte autora das multas, queria restabelecer os valores fixados originalmente pela administração.",
+  "O relator, ministro Afrânio Vilela, afirmou que, embora o recurso alegasse questão só jurídica, restabelecer as multas exigiria afastar as conclusões de fato do tribunal local, o que a Súmula 7 veda. O agravo foi negado."
+ ],
+ "no_brasil": "A Lei 9.605/1998 manda considerar a situação econômica do infrator ao fixar a multa. A ementa não informa qual órgão aplicou as multas, a infração nem os valores; o caso mostra que porte da propriedade e capacidade econômica entram na proporcionalidade da sanção, se comprovados nas instâncias locais.",
+ "critica": [
+  {
+   "fonte": "STJ, Segunda Turma, AgInt no REsp 2.248.105/RO",
+   "texto": "notadamente a situação econômica do infrator, a dimensão da propriedade rural, a comprovada condição de hipossuficiência e a observância dos princípios da razoabilidade e da proporcionalidade na gradação da sanção",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2248105&O=JT"
+  },
+  {
+   "fonte": "Pretensão do recorrente, segundo a mesma ementa",
+   "texto": "a pretensão de restabelecer os valores originalmente fixados pela Administração pressupõe o afastamento das conclusões fáticas adotadas pela Corte de origem",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2248105&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Produtor autuado por infração ambiental: documente renda, tamanho da área e condição econômica já na defesa, porque é isso que sustenta pedido de redução",
+  "Pequeno produtor de Rondônia: a proporcionalidade da multa pode ser discutida na Justiça, além da própria infração",
+  "Sindicatos rurais: a prova da hipossuficiência precisa estar no processo desde a primeira instância"
+ ],
+ "nao_e_para": [
+  "A decisão não anula a infração; mantém só a redução do valor das multas",
+  "A ementa não diz qual foi a infração, o órgão autuante nem os valores",
+  "É caso concreto, sem efeito vinculante"
+ ],
+ "veredito": "A gente defende a proteção ambiental e também a proporção na punição. Multa que quebra o pequeno produtor não recupera floresta; ajustar o valor à realidade de quem foi autuado é justiça, não leniência.",
+ "fontes": [
+  {
+   "nome": "STJ: AgInt no REsp 2.248.105/RO, Segunda Turma, relator Ministro Afrânio Vilela",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2248105&O=JT",
+   "data": "24/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Lei 9.605/1998 (crimes e infrações ambientais), art. 6º, inciso III (situação econômica do infrator na fixação da multa)",
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm",
+   "data": "12/02/1998",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 60,
+  "trilha": "quente",
+  "abrangencia": "rondonia",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Multa ambiental aplicada a produtor rural em Rondônia e proporcionalidade da sanção"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2248105&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 8,
+    "porque": "Caso concreto de Rondônia, com efeito prático para produtores autuados"
+   },
+   "afinidade": {
+    "pontos": 17,
+    "porque": "Produtor rural de Rondônia e sanção ambiental sobre a propriedade"
+   },
+   "atualidade": {
+    "pontos": 16,
+    "porque": "Acórdão publicado no DJEN de 24/11, ontem"
+   },
+   "comprovacao": {
+    "pontos": 12,
+    "porque": "Ementa lida na base do STJ; detalhes do auto não constam da ementa"
+   },
+   "originalidade": {
+    "pontos": 7,
+    "porque": "Decisão de Rondônia sem cobertura na imprensa local"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 8,
+    "viral": 2,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: Rondônia (3)",
+    "Utilidade: o que provar para reduzir multa (2)",
+    "Tema que divide opiniões (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "AgInt no REsp 2.248.105/RO",
+  "nucleo": "B - Rondônia",
+  "categoria": "Agro / Ambiental e sanções",
+  "coleta": "2026-11-25",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa conferida na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "órgão autuante, infração e valores"
+  },
+  "duplicidade": {
+   "grupo": "Multa ambiental no campo",
+   "itens": [
+    "REsp 2.248.105"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber se a Justiça pode reduzir multa ambiental de produtor",
+   "entidades": [
+    "STJ",
+    "multa ambiental",
+    "Rondônia",
+    "hipossuficiência",
+    "proporcionalidade"
+   ],
+   "termos": [
+    "redução multa ambiental produtor rural",
+    "multa ambiental hipossuficiência STJ",
+    "multa ambiental Rondônia STJ"
+   ],
+   "atualizacao": "acompanhar julgados sobre multa ambiental rural"
+  },
+  "agro": {
+   "demanda": "Produtores autuados por infração ambiental com multas desproporcionais ao porte da propriedade e à renda",
+   "prazo": "prazo de defesa administrativa e de ação judicial contra o auto",
+   "quem": "Pequenos e médios produtores rurais autuados"
+  }
+ },
+ "descricao_seo": "STJ mantém redução de multas ambientais em Rondônia por hipossuficiência do autuado e dimensão da propriedade rural.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura da ementa, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos da ementa, citada literalmente; a nota não nomeia o autuado nem o órgão autuante, não descreve a infração e registra que a infração não foi anulada. A opinião defende a proporcionalidade sem atacar órgãos ambientais. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-rondonia-multa-ambiental-reduzida-produtor-hipossuficiente-propriedade-rural.jpg",
+  "credito": "Foto: Tomaz Silva/Agência Brasil",
+  "alt": "Agricultor trabalha entre plantas em área de cultivo com vegetação (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/WKocPO3YzA0X-KBQICHfIPz_FyI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/_dsc7867_0.jpg?itok=SOFazXd5",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/edital-seleciona-36-projetos-para-fortalecer-agricultura-familiar"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-25T02:28:57-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-25T02:28:57-03:00"
+}
