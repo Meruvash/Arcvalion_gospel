@@ -29,7 +29,7 @@
  "corpo": [
   "No discurso, registrado nos dados abertos da Câmara, Van Hattem disse que um policial federal \"fez vários relatórios absolutamente fraudulentos contra pessoas inocentes, inclusive contra Filipe Martins\". A PF o indiciou por calúnia e difamação em novembro de 2024, e a PGR apresentou a denúncia em abril, entendendo que ele passou dos limites da imunidade.",
   "Nesta fase, a Turma só decide se há elementos para abrir ação penal, não se o deputado é culpado. A defesa, do advogado Alexandre Wunderlich, pediu que o caso vá ao plenário presencial, com sustentação oral; o relator é Flávio Dino.",
-  "Atualização (23/11): Dino votou pelo recebimento da denúncia na sexta (20), e Alexandre de Moraes o acompanhou; para ele, o deputado \"extrapolou de sua imunidade parlamentar\", segundo o portal Claudio Dantas. Faltam Cármen Lúcia e Zanin, até 30/11."
+  "Atualização (25/11): Dino e Moraes votaram por receber a denúncia, mas Zanin pediu destaque e o caso irá a sessão presencial. Na terça (24), Davi Alcolumbre autorizou a Advocacia do Senado a atuar no STF em defesa da imunidade, a pedido de Rogerio Marinho, informou a Agência Senado."
  ],
  "no_brasil": "Quando o indiciamento saiu, em novembro de 2024, o então presidente da Câmara, Arthur Lira, criticou em plenário investigações de parlamentares por discursos na tribuna, segundo a Agência Câmara. O delegado citado conduziu o inquérito que levou à condenação de Jair Bolsonaro e hoje assessora o ministro Alexandre de Moraes, informou o Estado de Minas.",
  "critica": [
@@ -53,7 +53,7 @@
  ],
  "nao_e_para": [
   "Não é condenação: a Turma decide só se recebe a denúncia",
-  "Não é decisão final sobre a imunidade parlamentar: pode haver destaque e julgamento presencial",
+  "Não é decisão final: com o destaque de Zanin, o julgamento recomeça em sessão presencial",
   "Não é prisão imediata: mesmo réu, o deputado teria ação penal com direito de defesa"
  ],
  "veredito": "A tribuna existe para o parlamentar falar sem medo, inclusive contra autoridades. Exageros se respondem no Conselho de Ética e no debate, não com processo criminal. O STF deveria levar o caso ao plenário presencial e respeitar a imunidade que a Constituição garante.",
@@ -98,6 +98,12 @@
    "url": "https://claudiodantas.com.br/moraes-condena-van-hattem-enquanto-emprega-delegado-que-o-processa/",
    "data": "22/11/2026",
    "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Senado: Davi autoriza atuação da Advocacia do Senado em prol da imunidade parlamentar (24/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/24/davi-autoriza-atuacao-da-advocacia-do-senado-em-prol-da-imunidade-parlamentar",
+   "data": "24/11/2026",
+   "tipo": "primaria"
   }
  ],
  "crivo": {
@@ -212,9 +218,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-23T02:27:16-03:00",
+  "data": "2026-11-25T02:29:13-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-20T02:35:44-03:00",
- "atualizado_em": "2026-11-23T02:27:16-03:00"
+ "atualizado_em": "2026-11-25T02:29:13-03:00"
 }

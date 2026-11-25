@@ -29,7 +29,7 @@
  "corpo": [
   "O texto limita a 2% acima da inflação o crescimento das despesas nos anos de contenção fiscal, permite bloquear gastos para buscar o centro da meta, restringe o uso de créditos tributários e tira da meta de 2026 até R$ 10,5 bilhões do subsídio ao diesel. Ficam fora do corte benefícios da folha, da tecnologia da informação, dos semicondutores e a isenção de veículos para pessoas com deficiência e autistas.",
   "O líder da oposição, Rogério Marinho (PL-RN), disse que o projeto transfere o custo do ajuste para estados e setor produtivo sem conter as despesas e que a oposição tinha alternativa de R$ 75 bilhões sem aumento de impostos. O senador Marcos Pontes (PL-SP) estimou perdas de cerca de R$ 2,5 bilhões para São Paulo e Mato Grosso, cada um, entre 2027 e 2030.",
-  "Atualização (24/11): depois do Senado (69 a 2, em 18/11), a Câmara aprovou o PLP 299/2026 sem alterações na segunda-feira (23); o texto-base teve 353 votos a 128. O projeto segue para sanção presidencial, informou a Agência Câmara."
+  "Atualização (25/11): depois do Senado (69 a 2) e da Câmara (texto-base por 353 a 128, sem alterações), Lula sancionou o projeto sem vetos, e a lei foi publicada em edição extra do Diário Oficial na terça (24), já valendo, informou a Agência Senado."
  ],
  "no_brasil": "O projeto também dá 120 dias para o Congresso regulamentar os supersalários no serviço público. Segundo a Agência Senado, o relator acatou 21 das 74 emendas; a Agência Brasil fala em cerca de 50 emendas incorporadas durante a elaboração do parecer.",
  "critica": [
@@ -115,6 +115,12 @@
    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/camara-aprova-texto-base-do-projeto-de-ajuste-fiscal",
    "data": "23/11/2026",
    "tipo": "secundaria"
+  },
+  {
+   "nome": "Agência Senado: Lei do ajuste fiscal é publicada e já está valendo (24/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/24/lei-do-ajuste-fiscal-e-publicada-e-ja-esta-valendo",
+   "data": "24/11/2026",
+   "tipo": "primaria"
   }
  ],
  "crivo": {
@@ -229,9 +235,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-24T02:26:38-03:00",
+  "data": "2026-11-25T02:29:14-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-13T02:33:04-03:00",
- "atualizado_em": "2026-11-24T02:26:38-03:00"
+ "atualizado_em": "2026-11-25T02:29:14-03:00"
 }
