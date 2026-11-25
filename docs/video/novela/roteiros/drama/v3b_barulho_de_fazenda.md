@@ -84,6 +84,7 @@ Valdir debochando, a Marta dando razão ao Dr., "grave o vídeo inteiro" e "A se
 | 19 | 1:16–1:23 | **AURA 5:** o Dr. à Cleide; pausa de 1 s; depois baixo, à Rosa | DR.: "Da próxima vez, grave o vídeo inteiro." … "A senhora não está sozinha." | 2.5 · 7 s · 49 |
 | 20 | 1:23–1:27,5 | **Gancho:** todos se viram para sair; a Marta reabre o livro preto para arquivar a ficha, o dedo para numa página e ela ergue os olhos | MARTA: "Dona Rosa, seu pai deixou testamento." | 2.5 · 5 s · 35 |
 | 21 | 1:27,5–1:29 | **Congela:** na porta, todos chocados, menos a Cleide, que abre um sorriso lento e verdadeiro. O quadro para no sorriso. "CONTINUA" | — | Mini · 4 s · 4 |
+| 22 | 1:29–1:34 | **Encerramento, na voz do editor:** o sorriso congelado escurece um pouco; entram em amarelo "PARTE 3 EM BREVE" e os ícones de seguir e compartilhar; a trilha segura o acorde suspenso | DR. PELICIONI (só voz, fora da cena): "Quer saber o resto da história? Me segue e manda pros seus amigos." | só voz · clone do editor · 0,2 |
 
 Posições fixas (as da v3):
 - balcão ao fundo, com a Marta atrás;
@@ -134,6 +135,19 @@ As duas são **falas**, não **acontecimentos**, e nenhuma muda a pergunta da s�
 - **O Tavares entra pela porta:** "Trouxe o dinheiro do trator, seu Valdir." O trator do pai teria ido para o comprador
   dos dois milhões.
 - **A Bruna acha um segundo vídeo** gravado no mesmo dia. Tem risco: a tela do celular precisa aparecer.
+
+**Pedido para seguir e compartilhar** (pedido do editor, 25/11/2026):
+- **Fala:** depois do quadro congelado, a voz do editor diz "Quer saber o resto da história? Me segue e manda pros seus
+  amigos."
+- **Voz:** o clone dele no Higgsfield, como fala só de voz (cerca de 0,2 crédito). Confiro a transcrição e o "S" antes
+  de montar.
+- **Tela:** a cartela "PARTE 3 EM BREVE" em amarelo, com os ícones de seguir e compartilhar.
+- **Limites da OAB:** pede para seguir e compartilhar a história, nunca serviço, consulta ou contratação, e não tem
+  ponto de exclamação.
+- **Fora do auditor:** é encerramento, não cena, por isso fica fora da linha do tempo do auditor. A parte dramática
+  continua terminando aos 89 s, com a virada aos 48,3% e nota 1,00.
+- **Duração:** o vídeo inteiro passa a ter **94 s**, 4 s acima do teto de 90 s da skill. Para voltar aos 90 s, dá para
+  falar o pedido por cima dos 1,5 s do quadro congelado e segurar o quadro só mais 2,5 s.
 
 **Tempo e custo:** igual à versão anterior. O vídeo tem 89 s, a virada cai aos 48,3% e o auditor dá 1,00. São cerca de
 560 créditos. A Marta usa um plano de 5 s no 2.5 (35 créditos), e o sorriso congelado um plano no Mini (4).
@@ -196,11 +210,11 @@ o F4 cai. O auditor roda de novo com os tempos reais.
 | 14 planos no Seedance 2.5 (75 s gerados) | 525 |
 | 5 insertos no Mini | 20 |
 | Reprise do plano n3 da V2c | 0 |
-| Falas só de voz (Rosa ×2) | 0,4 |
+| Falas só de voz (Rosa ×2 e pedido final na voz do editor) | 0,6 |
 | Folha da Marta, folha do cartório e placa do quadro | 10,5 |
 | Amostra de voz da Marta | 0,2 |
 | Troca de voz do Dr. (4 trechos) | 4 |
-| **Total** | **cerca de 560** |
+| **Total** | **cerca de 560** (560,3) |
 
 - **Comparação:** cerca de 49 a menos que a v3 (609) e dentro do teto já aprovado de **650**, com 90 de folga (dá para
   refazer dois planos).

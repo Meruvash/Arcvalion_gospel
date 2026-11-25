@@ -383,5 +383,16 @@
       "Tavares entra pela porta com a pasta: 'Trouxe o dinheiro do trator, seu Valdir.' (o trator do pai teria ido para o comprador dos dois milhões; o Tavares da V1 já falava em 'chegar com o trator')",
       "Bruna, mexendo no vídeo da Cleide, acha um segundo arquivo gravado no mesmo dia e arregala os olhos (exige mostrar tela; risco de texto)"
     ]
+  },
+  "encerramento": {
+    "t": 89,
+    "fim": 94,
+    "quem": "Dr. Pelicioni (voz do editor, só voz, fora da cena)",
+    "modo": "narracao",
+    "fala": "Quer saber o resto da história? Me segue e manda pros seus amigos.",
+    "tela": "O quadro do sorriso da Cleide continua congelado e escurece um pouco; entram, em amarelo, 'PARTE 3 EM BREVE' e, embaixo, os ícones de seguir e de compartilhar. A trilha segura o acorde suspenso.",
+    "producao": "seed_audio no Higgsfield com o clone do editor (95b656d3-17a2-4e00-aead-31e43fd9aeda, element), cerca de 0,2 crédito; conferir a transcrição e o 'S'; sem ponto de exclamação; nada de advocacia, consulta ou contratação (Provimento 205/2021)",
+    "auditor": "fica fora da linha do tempo do auditor: é cartela de encerramento depois do gancho congelado, não cena; a parte dramática termina aos 89 s",
+    "palavras": 13
   }
 }
