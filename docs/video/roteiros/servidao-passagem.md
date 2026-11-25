@@ -64,18 +64,36 @@ O único ponto perdido é o A3 (um "estranho" em contraste), que não cabe aqui.
   decisão lida na fonte; fica para a descrição só se for conferida.
 - **Lado do produtor:** quem assiste é o produtor que perdeu o acesso. O vídeo não ensina a fechar a estrada de ninguém.
 
-## Plano de imagem (direção artística, 100% pintura, sem gente)
-Mestres brasileiros em domínio público, com cenas completas, foco nos terços, 4 planos, luz de hora dourada e paleta
-harmônica.
+## Plano de imagem v2 (critérios de `DIRECAO_MOTION.md`, 25/11/2026)
+- **Linguagem única:** pintura em código à maneira de Antônio Parreiras, com luz de fim de tarde e paleta de verde, ocre,
+  vermelho da terra e azul da serra.
+- **O 3D só entra onde a mensagem é espacial:** a fazenda sem saída. Ele aparece como **mapa pintado na mesma paleta**,
+  não como cenário.
 
-| Falas | Cena | Mestre | Foco | Movimento |
+| Falas | Cena | Função | Movimento | Por que este movimento |
 |---|---|---|---|---|
-| 1–2 | `sv_parreiras` (**prévia pronta**) | Antônio Parreiras (1860–1937) | A porteira trancada com corrente e cadeado, no fim da estrada vermelha em S | Ipê balançando e soltando flores, nuvens, capim ao vento, poeira dourada, pássaros |
-| 3–5 | `sv_facchinetti` | Nicola Facchinetti (1824–1900), o mais detalhista | A ponte de tábuas sobre o riacho na estrada cascalhada antiga (a "marca visível") | Água correndo, reflexos, folhas, garças passando |
-| 6–7 | `sv_batista` | João Batista da Costa (1865–1926) | A fazenda pequena encravada no vale, cercada de morros; uma só trilha sobe pela terra do vizinho | Névoa da manhã escorrendo no vale, fumaça da chaminé |
-| 8 | `sv_weingartner` | Pedro Weingärtner (1853–1929) | A mesma porteira, agora aberta, ao amanhecer, com o gado passando ao longe | Luz nascendo, porteira balançando, poeira |
-| 9 | `sv_parreiras`, outro enquadramento | Parreiras | Aproximação lenta da porteira trancada | — |
+| 1 | Porteira trancada (Parreiras, prévia pronta) | REVELAR | Câmera parada até "fechou"; daí aproximação lenta da corrente e do cadeado | A notícia é a porteira fechada: o olho chega nela junto com a fala |
+| 2 | Mesma pintura | ENFATIZAR | Câmera parada; o letreiro "SERVIDÃO" entra fora do foco, com assentamento | Palavra-chave do vídeo; nada mais se mexe para ela reinar |
+| 3 | Estrada cascalhada com a ponte (Facchinetti) | REVELAR | Panorâmica lenta seguindo a estrada até a ponte, que chega na palavra "ponte" | A ponte é a "marca visível" que a fala cita |
+| 4 | Mesma, cartão do art. 1.383 | ENFATIZAR | Câmera parada; o cartão entra no céu, sem tapar a ponte | Prova literal da lei |
+| 5 | Mesma estrada | MEDIR | Uma régua pintada corre ao longo da estrada: "10 ANOS" com documento, e ela continua até "20 ANOS" sem documento | Transforma o prazo em distância visível |
+| 6 | **Mapa pintado em 3D** (vista de cima) | LOCALIZAR + TRANSFORMAR | A câmera **sobe da pintura** até a vista de cima: a fazenda aparece cercada de outras, e a estrada pública fica longe | Só o mapa mostra que a terra está "sem saída" |
+| 7 | Mesmo mapa | CAUSA E EFEITO + MEDIR | O caminho pela terra do vizinho acende em amarelo; na palavra "indenização", a faixa do caminho é marcada | Mostra o direito de passar e o preço dele no mesmo desenho |
+| 8 | Porteira aberta ao amanhecer (mesmo ponto de vista da cena 1) | COMPARAR | A câmera **desce do mapa** de volta para o chão, no mesmo enquadramento da abertura, agora com a porteira aberta e a luz da manhã | O antes e o depois no mesmo quadro é a promessa do vídeo |
+| 9 | Mesma porteira aberta | ENFATIZAR (pergunta) | Câmera parada; o letreiro "NA SUA REGIÃO?" | Pergunta ao público; a imagem descansa |
+| 10 | Cartela do editor | — | — | Padrão do canal |
 
-- **Cartões (3):** art. 1.383, art. 1.379 e art. 1.285. A Súmula 415 vai no rodapé.
-- **Letreiros:** só fora do ponto focal, e cada pintura entra limpa por 1,5 s.
-- **Crivo artístico A1–A10 em cada cena** antes da montagem.
+**Curva de intensidade:**
+- **Falas 1 e 2:** alta. Contraste da corrente e do cadeado contra o céu claro, letreiro batendo.
+- **Falas 3 a 5:** média-baixa. Afinidade: horizontais da estrada, câmera lenta.
+- **Falas 6 e 7:** a virada espacial. A cor muda para o mapa e entra o amarelo de destaque.
+- **Falas 8 e 9:** baixa. Luz da manhã, quente e calma.
+
+**Quadros de estilo para aprovar:**
+1. A porteira trancada (feito).
+2. O mapa pintado visto de cima, com a fazenda sem saída e o caminho em amarelo (a fazer).
+
+Eles mostram as duas linguagens do vídeo antes da produção.
+
+Cartões: arts. 1.383, 1.379 e 1.285 do Código Civil; a Súmula 415 do STF vai no rodapé. Crivo artístico A1–A10 e crivo de
+motion M1–M8 antes da entrega.

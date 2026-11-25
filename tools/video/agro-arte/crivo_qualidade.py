@@ -91,6 +91,11 @@ def main():
     for it in ["A1 Cena completa", "A2 Ponto focal", "A3 Linhas que conduzem", "A4 4 planos e moldura", "A5 Luz e sombras",
                "A6 Paleta harmônica", "A7 Detalhe no foco", "A8 Movimento sutil", "A9 Funciona como pôster", "A10 Foco livre de texto"]:
         L.append(f"| {it} | ☐ aprovado ☐ reprovado | |")
+    L += ["", "## Crivo de motion (docs/video/DIRECAO_MOTION.md)", "", "| Item | Resultado | Observação |", "|---|---|---|"]
+    for it in ["M1 Função de cada cena no plano", "M2 3D só com espaço/geografia", "M3 Câmera motivada e na palavra certa",
+               "M4 Uma coisa importante por vez", "M5 Curva de intensidade", "M6 Easing, antecipação, assentamento",
+               "M7 Transições com continuidade", "M8 Linguagem visual única"]:
+        L.append(f"| {it} | ☐ aprovado ☐ reprovado | |")
     open(os.path.join(saida, "crivo.md"), "w", encoding="utf-8").write("\n".join(L) + "\n")
     print("\n".join(L[:6 + len(folhas) + 4 + max(1, len(baixos))]))
     print(f"\n-> {os.path.join(saida, 'crivo.md')}")
