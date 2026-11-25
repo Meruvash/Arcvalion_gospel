@@ -1,0 +1,188 @@
+{
+ "slug": "stj-garantidor-hipotecario-contrato-soja-limite-responsabilidade-coisa-julgada-parana",
+ "data": "2026-11-25",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Contrato de soja: hipotecante não pode limitar a responsabilidade só na execução, indica STJ",
+ "lide": "O STJ rejeitou, em decisão publicada na terça-feira (24), os embargos de intervenientes hipotecantes num contrato de compra e venda de soja do Paraná. Eles queriam limitar, já na fase de cumprimento de sentença, a própria responsabilidade ao bem dado em garantia; o tribunal disse que a coisa julgada impede reabrir essa discussão na execução.",
+ "por_que_importa": "Quem assina como interveniente hipotecante num negócio de grãos empresta a própria terra como garantia. Se a dúvida sobre até onde vai essa responsabilidade não for levantada no processo principal, ela pode ficar fechada pela sentença e não voltar na hora da cobrança.",
+ "numeros": [
+  [
+   "Art. 508",
+   "do Código de Processo Civil, sobre a eficácia preclusiva da coisa julgada, foi a base para barrar a discussão na execução",
+   "STJ, EDcl no AgInt no AREsp 3.174.219/PR"
+  ],
+  [
+   "24/11",
+   "foi a publicação da decisão da Terceira Turma, julgada em 17 de novembro",
+   "STJ"
+  ],
+  [
+   "Súmula 7",
+   "do STJ impediu reinterpretar o título executivo e os fatos",
+   "STJ"
+  ]
+ ],
+ "corpo": [
+  "Segundo a ementa, o processo nasceu de uma ação de resolução contratual por inadimplemento de compra e venda de soja. Na fase de cumprimento de sentença, os intervenientes hipotecantes sustentaram que deveriam responder só até o valor do bem hipotecado.",
+  "O relator, ministro Moura Ribeiro, registrou que limitar essa responsabilidade exigiria substituir premissas de fato e reinterpretar o título, o que a Súmula 7 veda, e que o tribunal do Paraná não se pronunciou sobre os artigos invocados. O pedido de multa por recurso protelatório foi negado."
+ ],
+ "no_brasil": "A decisão mostra o peso do momento processual para quem garante negócio de grãos com a própria terra: a defesa sobre o alcance da garantia precisa ser feita na fase de conhecimento, antes de a sentença transitar em julgado, porque depois a coisa julgada fecha a discussão.",
+ "critica": [
+  {
+   "fonte": "STJ, Terceira Turma, EDcl no AgInt no AREsp 3.174.219/PR",
+   "texto": "inclusive a respeito da vedação de reabrir a discussão sobre a extensão da responsabilidade na fase executiva em razão da eficácia preclusiva da coisa julgada",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3174219&O=JT"
+  },
+  {
+   "fonte": "Tese dos intervenientes, segundo a mesma ementa",
+   "texto": "A tese de limitar a responsabilidade dos intervenientes hipotecantes ao bem dado em garantia demanda substituir premissas fáticas firmadas e reinterpretar o título executivo",
+   "citacao": true,
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3174219&O=JT"
+  }
+ ],
+ "para_quem": [
+  "Quem dá a própria terra em garantia de contrato de grãos de outra pessoa: leia o contrato e, se houver processo, discuta o limite da garantia desde a contestação",
+  "Produtor que pede a um parente que hipoteque a terra: explique o risco por escrito antes de assinar",
+  "Compradores de grãos: a sentença bem delimitada facilita a cobrança dos garantidores"
+ ],
+ "nao_e_para": [
+  "O STJ não decidiu se a responsabilidade do hipotecante é limitada ao bem; disse que a questão não podia ser reaberta na execução",
+  "A ementa não informa valores, áreas nem as partes",
+  "É caso concreto, sem efeito vinculante"
+ ],
+ "veredito": "A gente vê aqui um alerta para quem empresta a terra como garantia de negócio alheio: o momento de discutir até onde vai a garantia é no começo do processo. Depois da sentença, pode ser tarde demais.",
+ "fontes": [
+  {
+   "nome": "STJ: EDcl no AgInt no AREsp 3.174.219/PR, Terceira Turma, relator Ministro Moura Ribeiro",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3174219&O=JT",
+   "data": "24/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Código de Processo Civil (Lei 13.105/2015), art. 508",
+   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+   "data": "16/03/2015",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 52,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Garantia hipotecária de terceiros em contrato de compra e venda de soja"
+  },
+  "origem": {
+   "nome": "Superior Tribunal de Justiça",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3174219&O=JT"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 7,
+    "porque": "Caso concreto, com lição para garantidores em contratos de grãos"
+   },
+   "afinidade": {
+    "pontos": 17,
+    "porque": "Contrato de soja e garantia sobre terra do produtor"
+   },
+   "atualidade": {
+    "pontos": 15,
+    "porque": "Acórdão publicado no DJEN de 24/11, ontem"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Ementa lida na base do STJ"
+   },
+   "originalidade": {
+    "pontos": 0,
+    "porque": "Decisão processual, sem tese nova, explicada como alerta prático"
+   }
+  },
+  "publico": {
+   "pontos": 8,
+   "eixos": {
+    "valor": 7,
+    "viral": 1,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: acórdão do STJ (2)",
+    "Ato de quem tem poder: STJ (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: quando discutir a garantia (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "EDcl no AgInt no AREsp 3.174.219/PR",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Garantias e execução",
+  "coleta": "2026-11-25",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "ementa conferida na base do STJ",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "valores e partes"
+  },
+  "duplicidade": {
+   "grupo": "Garantias em contratos de grãos",
+   "itens": [
+    "AREsp 3.174.219"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-24-stj-imovel-hipotecado-cedula-rural-penhoravel-contrato-vencido-cpr-soja"
+  },
+  "seo": {
+   "intencao": "saber se interveniente hipotecante responde além do bem",
+   "entidades": [
+    "STJ",
+    "interveniente hipotecante",
+    "compra e venda de soja",
+    "coisa julgada",
+    "art. 508 CPC"
+   ],
+   "termos": [
+    "interveniente hipotecante responsabilidade",
+    "contrato de soja garantia hipotecária",
+    "limite responsabilidade hipotecante execução"
+   ],
+   "atualizacao": "acompanhar julgados sobre garantidores em contratos de grãos"
+  },
+  "agro": {
+   "demanda": "Produtores e parentes que deram terra em garantia de contratos de grãos e são cobrados na execução",
+   "prazo": "fase de conhecimento do processo, antes do trânsito em julgado",
+   "quem": "Intervenientes hipotecantes em contratos de compra e venda de grãos"
+  }
+ },
+ "descricao_seo": "STJ: hipotecante em contrato de soja não pode reabrir na execução o limite da sua responsabilidade; a coisa julgada fecha a discussão.",
+ "instituicao": "Superior Tribunal de Justiça",
+ "editora": "Superior Tribunal de Justiça",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "pesquisa na base de jurisprudência, leitura da ementa, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos da ementa, citada literalmente; a nota deixa claro que o STJ não decidiu o mérito do limite da garantia. Não nomeia partes. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/stj-garantidor-hipotecario-contrato-soja-limite-responsabilidade-coisa-julgada-parana.jpg",
+  "credito": "Foto: Marcello Casal Jr/Agência Brasil",
+  "alt": "Grãos de arroz em close (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/NFnLbsMOOPVXMonVh0nyKqNLTnY=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/arroz_1009201525.jpg?itok=AV_e-YBN",
+  "pagina": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-08/terremoto-brasil-doara-10-toneladas-de-arroz-colombia"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-25T02:33:37-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-25T02:33:37-03:00"
+}
