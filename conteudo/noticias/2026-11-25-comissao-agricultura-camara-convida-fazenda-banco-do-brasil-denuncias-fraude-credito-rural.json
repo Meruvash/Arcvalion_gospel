@@ -1,0 +1,197 @@
+{
+ "slug": "comissao-agricultura-camara-convida-fazenda-banco-do-brasil-denuncias-fraude-credito-rural",
+ "data": "2026-11-25",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Câmara: comissão chama Fazenda e Banco do Brasil para explicar denúncias de fraude no crédito rural",
+ "lide": "A Comissão de Agricultura da Câmara aprovou nesta quarta-feira (25) convites ao ministro da Fazenda, Dario Durigan, e à presidente do Banco do Brasil, Tarciana Medeiros, para explicar denúncias de fraude no crédito rural com imóveis fictícios. Também aprovou pedidos de informação à Fazenda e ao TCU, uma indicação à PGR e audiência sobre endividamento rural.",
+ "por_que_importa": "O crédito rural com juros equalizados usa dinheiro do Tesouro. Se houver fraude com fazendas que não existem, quem paga a conta é o contribuinte e o produtor honesto, que enfrenta mais exigências para conseguir o mesmo financiamento. A apuração interessa a quem produz de verdade.",
+ "numeros": [
+  [
+   "9",
+   "requerimentos sobre crédito rural e Banco do Brasil foram aprovados na reunião da Comissão de Agricultura de 25 de novembro",
+   "Câmara dos Deputados, dados abertos"
+  ],
+  [
+   "2",
+   "pedidos de convocação do ministro da Fazenda foram aprovados como convite, o que dispensa a presença obrigatória",
+   "Câmara dos Deputados, dados abertos"
+  ],
+  [
+   "R$ 8,5 milhões",
+   "é o valor das operações investigadas pela Polícia Federal no DF e em Goiás, envolvendo a Caixa, segundo a Agência Estado",
+   "A Crítica, com Agência Estado"
+  ]
+ ],
+ "corpo": [
+  "Os requerimentos falam em denúncias de financiamentos com imóveis fictícios, registros fundiários fraudulentos, CPFs inválidos e garantias inconsistentes, e pedem apurar responsáveis e falhas de fiscalização. Cinco deles são do deputado Evair Vieira de Melo; os demais, de Domingos Sávio, Daniela Reinehr e Alceu Moreira. Na mesma manhã, a Comissão de Finanças aprovou o pedido para ouvir a presidente do BB sobre a fala a respeito da inadimplência no agro.",
+  "Os pedidos de convocação de Durigan foram transformados em convite, com subscrição dos deputados Padre João e Welter. As datas das audiências ainda não foram marcadas."
+ ],
+ "no_brasil": "Em nota de 16 de novembro, o Banco do Brasil negou ter concedido crédito a \"fazendas fantasmas\" e disse seguir as normas do Manual de Crédito Rural, com análise documental, vistorias e sensoriamento remoto. Segundo a Agência Estado, a investigação da Polícia Federal que deu origem ao tema envolve operações da Caixa, não do BB.",
+ "critica": [
+  {
+   "fonte": "REQ 117/2026 da Comissão de Agricultura, do deputado Evair Vieira de Melo",
+   "texto": "para prestar esclarecimentos acerca das denúncias de fraudes na concessão de financiamentos rurais mediante utilização de imóveis fictícios e registros fundiários fraudulentos",
+   "citacao": true,
+   "url": "https://dadosabertos.camara.leg.br/api/v2/eventos/83395/pauta"
+  },
+  {
+   "fonte": "Banco do Brasil, em nota de 16/11/2026, segundo A Crítica com Agência Estado",
+   "texto": "caso fantasioso de fraude generalizada no crédito rural",
+   "citacao": true,
+   "url": "https://acritica.net/economia/banco-do-brasil-nega-credito-rural-fazendas-fantasmas/"
+  }
+ ],
+ "para_quem": [
+  "Produtor que recebeu exigências extras do banco: as audiências serão o espaço para levar o problema à comissão; acompanhe as datas na pauta da Câmara",
+  "Sindicatos e cooperativas: os pedidos de informação ao TCU e à Fazenda podem trazer dados sobre fiscalização do crédito rural",
+  "Quem tem dívida no BB: a audiência sobre endividamento e renegociação foi aprovada na mesma reunião"
+ ],
+ "nao_e_para": [
+  "Os requerimentos não comprovam fraude; pedem explicações e apuração",
+  "O Banco do Brasil nega que suas operações envolvam fazendas fantasmas",
+  "Convite não obriga o ministro a comparecer; datas ainda não foram marcadas"
+ ],
+ "veredito": "A gente apoia a apuração, com uma ressalva: denúncia não é condenação, e o produtor que toma crédito dentro da lei não pode virar suspeito. Que a comissão separe o joio do trigo e traga números oficiais, não boatos de rede social.",
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados: pauta e resultado da reunião deliberativa da Comissão de Agricultura (CAPADR) de 25/11/2026",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/eventos/83395/pauta",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: pauta e resultado da reunião deliberativa da Comissão de Finanças e Tributação de 25/11/2026",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/eventos/83359/pauta",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "A Crítica: Banco do Brasil nega que crédito rural tenha sido concedido a 'fazendas fantasmas' (com Agência Estado)",
+   "url": "https://acritica.net/economia/banco-do-brasil-nega-credito-rural-fazendas-fantasmas/",
+   "data": "16/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 66,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Fiscalização do crédito rural e denúncias de fraude com recursos públicos"
+  },
+  "origem": {
+   "nome": "Câmara dos Deputados, dados abertos",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/eventos/83395/pauta"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 12,
+    "porque": "Pedidos de apuração sobre o crédito rural com recursos equalizados, com convite ao ministro da Fazenda"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Crédito rural e Banco do Brasil, centro da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 18,
+    "porque": "Requerimentos aprovados na reunião da Comissão de Agricultura desta quarta-feira, 25/11"
+   },
+   "comprovacao": {
+    "pontos": 12,
+    "porque": "Resultado oficial nos dados abertos da Câmara; negativa do BB por veículo secundário"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Reunimos os oito requerimentos e a decisão da Comissão de Finanças, com o outro lado"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 8,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: resultado da reunião nos dados abertos (2)",
+    "Ato de quem tem poder: comissões da Câmara (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: onde acompanhar (2)",
+    "Tema de grande repercussão nas redes (3)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Reunião deliberativa da CAPADR de 25/11/2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Crédito rural e fiscalização",
+  "coleta": "2026-11-25",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "resultado conferido nos dados abertos da Câmara; autores conferidos",
+   "contradicoes": "BB nega as denúncias",
+   "sem_confirmacao": "existência de fraudes no BB; datas das audiências"
+  },
+  "duplicidade": {
+   "grupo": "Banco do Brasil e crédito rural",
+   "itens": [
+    "REQ 116 a 118 e 120 a 125/2026 CAPADR",
+    "REQ 64/2026 CFT"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-13-banco-do-brasil-acusa-produtores-recusa-renegociar-aprosoja-rebate"
+  },
+  "seo": {
+   "intencao": "saber o que a Câmara fez sobre denúncias de fraude no crédito rural",
+   "entidades": [
+    "Comissão de Agricultura",
+    "Banco do Brasil",
+    "Dario Durigan",
+    "Tarciana Medeiros",
+    "TCU",
+    "PGR"
+   ],
+   "termos": [
+    "fraude crédito rural Câmara",
+    "fazendas fantasmas Banco do Brasil Câmara",
+    "Durigan convite Comissão de Agricultura"
+   ],
+   "atualizacao": "acompanhar datas das audiências e respostas da Fazenda e do TCU"
+  },
+  "agro": {
+   "demanda": "Produtores afetados por exigências maiores no crédito rural e pela insegurança sobre fiscalização dos bancos públicos",
+   "prazo": "audiências a marcar; prazo de resposta aos pedidos de informação",
+   "quem": "Produtores que tomam crédito rural em bancos públicos"
+  }
+ },
+ "descricao_seo": "Comissão de Agricultura da Câmara aprova convites a Durigan e à presidente do BB, pedidos ao TCU e à PGR sobre denúncias de fraude no crédito rural.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura dos dados abertos da Câmara, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: a nota não afirma que houve fraude no BB nem acusa pessoa identificável; usa o termo 'denúncias', como os requerimentos, e dá destaque à negativa do banco e à informação de que a investigação da PF envolve a Caixa. Citações literais dos requerimentos e da nota do BB. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/comissao-agricultura-camara-convida-fazenda-banco-do-brasil-denuncias-fraude-credito-rural.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Fachada de agência do Banco do Brasil (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/ONJb3KACevCPR0ammbSofBCotcU=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/agencia-bb.jpg?itok=xsinkvyX",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/banco-do-brasil-lanca-novo-aplicativo-com-foco-em-ia-e-personalizacao"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-25T14:48:51-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-25T14:48:51-03:00"
+}
