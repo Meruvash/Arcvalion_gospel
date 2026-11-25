@@ -1,0 +1,196 @@
+{
+ "slug": "comissao-agricultura-aprova-proibicao-venda-casada-credito-rural-pl-523",
+ "data": "2026-11-25",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Comissão da Câmara aprova projeto que proíbe venda casada no crédito rural",
+ "lide": "A Comissão de Agricultura da Câmara aprovou nesta quarta-feira (25) o PL 523/2026, do deputado Pezenti (MDB-SC), que proíbe bancos de condicionar a concessão, renovação ou prorrogação do crédito rural à compra de seguros alheios ao risco financiado, títulos de capitalização, aplicações ou pacotes de serviços. Cláusulas assim seriam nulas, com devolução em dobro do cobrado.",
+ "por_que_importa": "A exigência de produto extra para liberar o custeio encarece o crédito subsidiado e desvia a finalidade do dinheiro público do Plano Safra. O projeto transforma em lei uma vedação clara, com punição concreta, e dá ao produtor base para pedir a anulação da cláusula e o dinheiro de volta.",
+ "numeros": [
+  [
+   "Em dobro",
+   "seria a devolução dos valores cobrados indevidamente e do prêmio de seguro imposto, pelo texto",
+   "PL 523/2026"
+  ],
+  [
+   "1% a 20%",
+   "do faturamento bruto das operações ligadas à prática seria a condenação por dano social, em ação civil pública",
+   "PL 523/2026"
+  ],
+  [
+   "3",
+   "comissões analisam o projeto em caráter conclusivo: Agricultura, Finanças e Tributação, e Constituição e Justiça",
+   "Parecer do relator"
+  ]
+ ],
+ "corpo": [
+  "O texto altera a lei do crédito rural (Lei 4.829/1965) e também considera abusivas a exigência de seguro com cobertura muito acima do risco, garantias múltiplas sem justificativa técnica e condicionantes que encareçam artificialmente a operação. Orientar o produtor a comprar com o dinheiro do crédito bens fora do projeto técnico também caracterizaria venda casada.",
+  "O relator, deputado Alceu Moreira (MDB-RS), votou pela aprovação sem mudanças. Segundo a justificativa, o projeto nasceu de audiência pública da própria comissão em que produtores relataram condicionantes alheias à operação principal na contratação do crédito."
+ ],
+ "no_brasil": "O projeto tramita em caráter conclusivo e ainda passa pelas comissões de Finanças e Tributação e de Constituição e Justiça antes de seguir ao Senado. Hoje, a lei do crédito rural já trata da liberdade de escolha da seguradora; o texto amplia a proteção e cria sanções específicas para o descumprimento.",
+ "critica": [
+  {
+   "fonte": "PL 523/2026, novo § 4º do art. 25 da Lei 4.829/1965",
+   "texto": "É vedado às instituições financeiras condicionar, direta ou indiretamente, a concessão, a renovação, a prorrogação ou a liberação de crédito rural à contratação de produtos ou serviços estranhos à operação principal",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3082400"
+  },
+  {
+   "fonte": "Deputado Alceu Moreira (MDB-RS), relator, no parecer",
+   "texto": "protege o produtor contra práticas abusivas, preserva a finalidade da política pública",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3142964"
+  }
+ ],
+ "para_quem": [
+  "Produtor que foi obrigado a comprar seguro, capitalização ou pacote para liberar o custeio: guarde contrato e comprovantes; o projeto ainda não é lei, mas a prova será necessária",
+  "Quem vai renovar o crédito: pergunte por escrito ao banco se algum produto é condição para a liberação",
+  "Sindicatos e cooperativas: o texto ainda passa por Finanças e CCJ, onde pode mudar"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: faltam duas comissões da Câmara e o Senado",
+  "O projeto não proíbe o seguro ligado ao risco da atividade financiada",
+  "A nota não traz posição dos bancos sobre o texto"
+ ],
+ "veredito": "A gente apoia: crédito rural subsidiado é para a lavoura, não para engordar a meta de venda do banco. Vedar a venda casada com devolução em dobro é o tipo de regra simples que protege o produtor sem custar um centavo ao Tesouro.",
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados: resultado da reunião da Comissão de Agricultura de 25/11/2026 (PL 523/2026, parecer aprovado)",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/eventos/83395/pauta",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: inteiro teor do PL 523/2026",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3082400",
+   "data": "11/02/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: parecer do relator, deputado Alceu Moreira, ao PL 523/2026",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3142964",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 68,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Venda casada e práticas abusivas na contratação de crédito rural"
+  },
+  "origem": {
+   "nome": "Câmara dos Deputados",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/eventos/83395/pauta"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 14,
+    "porque": "Alcançaria toda contratação de crédito rural, mas ainda faltam duas comissões e o Senado"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Crédito rural e relação do produtor com o banco, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Parecer aprovado na Comissão de Agricultura nesta quarta-feira, 25/11"
+   },
+   "comprovacao": {
+    "pontos": 14,
+    "porque": "Inteiro teor e parecer lidos na Câmara; resultado nos dados abertos"
+   },
+   "originalidade": {
+    "pontos": 3,
+    "porque": "Detalhamos as sanções do texto, que a cobertura não trouxe"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 8,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: inteiro teor e parecer (2)",
+    "Ato de quem tem poder: comissão da Câmara (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que guardar e perguntar ao banco (2)",
+    "Tema que toca o bolso de todo produtor (3)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "PL 523/2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Crédito rural",
+  "coleta": "2026-11-25",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "texto, parecer e resultado conferidos na Câmara",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "posição dos bancos"
+  },
+  "duplicidade": {
+   "grupo": "Crédito rural e bancos",
+   "itens": [
+    "PL 523/2026"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-25-comissao-agricultura-camara-convida-fazenda-banco-do-brasil-denuncias-fraude-credito-rural"
+  },
+  "seo": {
+   "intencao": "saber se banco pode exigir seguro ou produto para liberar crédito rural",
+   "entidades": [
+    "PL 523/2026",
+    "venda casada",
+    "crédito rural",
+    "Lei 4.829/1965",
+    "Pezenti",
+    "Alceu Moreira"
+   ],
+   "termos": [
+    "venda casada crédito rural",
+    "banco exige seguro crédito rural",
+    "PL 523/2026"
+   ],
+   "atualizacao": "acompanhar o projeto na Comissão de Finanças e na CCJ"
+  },
+  "agro": {
+   "demanda": "Produtores obrigados a contratar seguros, capitalização ou pacotes para obter ou renovar crédito rural",
+   "prazo": "tramitação nas comissões de Finanças e CCJ",
+   "quem": "Produtores que tomam crédito rural em bancos e cooperativas"
+  }
+ },
+ "descricao_seo": "Comissão de Agricultura aprova o PL 523/2026, que proíbe venda casada no crédito rural, anula a cláusula e prevê devolução em dobro do cobrado.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura do projeto, do parecer e dos dados abertos, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: conteúdo do projeto e do parecer citado literalmente; a nota não acusa banco específico de venda casada e deixa claro que o texto ainda não é lei. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/comissao-agricultura-aprova-proibicao-venda-casada-credito-rural-pl-523.jpg",
+  "credito": "Foto: José Cruz/Agência Brasil",
+  "alt": "Mãos contam cédulas de cem reais (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/Mi5rc12DrPsPjas08Do4bMH40kc=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moedadinheiro_jfcrz_abr_1701220042_1.jpg?itok=yiqyIHGI",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/caixa-e-bb-liberam-abono-salarial-para-nascidos-em-marco-e-abril"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-25T14:55:43-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-25T14:55:43-03:00"
+}
