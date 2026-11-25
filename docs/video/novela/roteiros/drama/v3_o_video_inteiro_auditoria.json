@@ -1,0 +1,21 @@
+{"titulo":"v3 «O vídeo inteiro» (aprovado em 25/11) convertido só para auditoria","duracao_s":87,"aviso_dramatizacao":true,
+ "protagonista":"Dr. Pelicioni","parte":2,"handoff_anterior":"V2c: Cleide no portão com o celular",
+ "batidas":[
+ {"t":0,"fim":5,"tipo":"GANCHO","quem":"Cleide","modo":"video","fala":"A Rosa abriu mão da herança. Tá gravado.","marcas":["ataque","testemunhas"]},
+ {"t":5,"fim":9,"tipo":"TRANSICAO","quem":"Marta","modo":"video","fala":"Então vamos ouvir, dona Cleide.","porque":"então"},
+ {"t":9,"fim":13,"tipo":"TRANSICAO","quem":"Rosa (celular)","modo":"audio","fala":"Pode vender, Valdir. Eu assino.","porque":"então"},
+ {"t":13,"fim":18,"tipo":"TRANSICAO","quem":"Rosa","modo":"video","fala":"Eu nunca abri mão da terra do meu pai.","porque":"mas"},
+ {"t":18,"fim":23,"tipo":"DESCRENCA","quem":"Valdir","modo":"video","fala":"A voz é sua, Rosinha. Não adianta chorar.","marcas":["testemunhas"],"porque":"mas"},
+ {"t":23,"fim":31,"tipo":"REVELACAO","quem":"Dr. Pelicioni","modo":"video","fala":"Ela vai dizer que o vídeo vale como assinatura.","marcas":["previsao"],"porque":"mas"},
+ {"t":31,"fim":36,"tipo":"TRANSICAO","quem":"Cleide","modo":"video","fala":"Vale sim. Falou, tá falado. Pode registrar.","marcas":["previsao_cumprida"],"porque":"então"},
+ {"t":36,"fim":42,"tipo":"LEI","quem":"Dr. Pelicioni","modo":"video","fala":"Abrir mão de herança, só em escritura ou com juiz.","fonte":"https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm","marcas":["poder_escondido"],"porque":"mas"},
+ {"t":42,"fim":46,"tipo":"TRANSICAO","quem":"Marta","modo":"video","fala":"É isso. Vídeo não é escritura.","porque":"então"},
+ {"t":46,"fim":50,"tipo":"TRANSICAO","quem":"Cleide","modo":"video","fala":"Mas ela disse. Todo mundo ouviu.","porque":"mas"},
+ {"t":50,"fim":55,"tipo":"TRANSICAO","quem":"Dr. Pelicioni","modo":"video","fala":"Ela disse, sim. Dona Marta, que dia foi gravado?","porque":"então"},
+ {"t":55,"fim":59,"tipo":"TRANSICAO","quem":"Marta","modo":"video","fala":"Doze de março.","porque":"então"},
+ {"t":59,"fim":65,"tipo":"TRANSICAO","quem":"Dr. Pelicioni","modo":"video","fala":"Doze de março, ela assinou a venda do trator.","marcas":["objeto:recibo"],"porque":"então"},
+ {"t":65,"fim":70,"tipo":"TRANSICAO","quem":"Rosa","modo":"video","fala":"O trator! O Valdir me pediu pra vender.","porque":"então"},
+ {"t":70,"fim":74,"tipo":"QUEDA","quem":"Marta","modo":"video","fala":"Aqui não se registra nada, dona Cleide.","porque":"então"},
+ {"t":74,"fim":82,"tipo":"PROTECAO","quem":"Dr. Pelicioni","modo":"video","fala":"Da próxima vez, dona Cleide, grave o vídeo inteiro. A senhora não está sozinha.","porque":"então"},
+ {"t":82,"fim":87,"tipo":"GANCHO_FINAL","quem":"Cleide","modo":"video","fala":"Em casa a gente conversa, Valdir.","porque":"então"}
+]}
