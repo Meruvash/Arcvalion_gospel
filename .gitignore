@@ -21,3 +21,7 @@ docs/video/novela/producao_v*/novela_v*_previa*.mp4
 docs/video/novela/elenco/folhas/*.png
 docs/video/novela/producao_v*/voz/
 docs/video/novela/producao_v*/lipsync/
+docs/video/novela/producao_v2c/planos/
+.claude/settings.local.json
+docs/video/novela/producao_v2c/montagem/*.mp3
+docs/video/novela/producao_v2c/trilha/*.mp3

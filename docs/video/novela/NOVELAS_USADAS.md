@@ -25,3 +25,14 @@ Todo roteiro novo confere esta tabela: não repetir objeto-prova, gancho final n
 - **Plantado e não pago:** o vídeo que a Cleide gravou da Rosa no celular. Pode virar prova contra a própria Cleide.
 
 | V2b «O trator no milho» | roteiro no formato Drama, aguardando o editor (23/11/2026) | humilde tem o poder (C4/C9) + Padrão Caseiro | celular da Cleide gravando | "Trinta anos. E a sua mulher gravou o senhor dizendo." | "Ele vai pedir o seu contrato. Deixa ele pedir." (o argumento do vilão vira prova gravada) | a Bruna pede o celular e a Cleide aperta o aparelho contra o peito |
+| V2c «A marca da Estrela» | Drama do Higgsfield (Seedance 2.5, 720p), reescrito em 24/11/2026 com as cenas que faltavam; filme `marca_da_estrela_v2c_r3.mp4` com 85,5 s; voz do Dr. clonada por voice change | inversão verdadeiro/falso (ciclo do tapa na cara) | vaca leiteira prenhe com a marca R no pescoço | "Na anca, a lei não deixa marcar." (Lei 4.714/1965) | "Ela vai dizer que marcou na anca." (a mentira da Cleide vira a prova) | a Cleide, expulsa, ergue o celular no portão: "Doze mil não apaga o que eu gravei." (paga o vídeo plantado na V1) |
+
+### V2c «A marca da Estrela»: avaliação do editor (24/11/2026)
+"Ficou muito ruim": falta de coerência, final sem interesse, o Dr. não parece fazer nada, a história da anca sem sentido,
+faltam cenas. Causas e regra nova em `REGRAS_ROTEIRO.md` §10 (teste da história). Gasto total do episódio: cerca de
+840 créditos. O editor decidiu parar a novela por enquanto.
+
+### V2c reescrita (24/11/2026)
+- **Estado de passagem:** a Estrela foi vendida por R$ 12 mil (o dinheiro do depósito da terra); a Cleide foi expulsa
+  do leilão por acusar sem prova; o Dr. Pelicioni está ao lado da Rosa.
+- **contas abertas, que a próxima parte paga:** o que a Cleide gravou no celular; o prazo do depósito; 12 mil bastam?

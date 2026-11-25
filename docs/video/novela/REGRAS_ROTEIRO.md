@@ -120,3 +120,18 @@ Responda sim ou não, com uma linha de justificativa, e reescreva o que falhar:
 7. "Não fazer nada" seria uma saída viável para a Rosa? Se sim, a aposta está fraca.
 8. O argumento do vilão é plausível, e a previsão do doutor passa nos 4 testes?
 9. O gancho final nasce da virada e foi plantado ("devia ter previsto")?
+
+## 10. Teste da história (lição da V2c, avaliação do editor em 24/11/2026)
+«A marca da Estrela» passou no verificador e no passe de julgamento, mas o editor viu que **não tinha história**: faltou
+coerência, o final não interessava, o Dr. aparecia sem fazer nada e a "anca" não fazia sentido. O verificador mede forma
+(tempos, palavras, posições), não lógica. Por isso, antes de mostrar o roteiro, responda também:
+1. **Contado em 3 frases** a quem não viu (problema, virada, fim), a história faz sentido sozinha?
+2. **A prova prova mesmo?** A virada tem que decidir a dúvida do começo. Na V2c, a lei diz *onde* se pode marcar o gado,
+   mas não diz *de quem* é a vaca: a lei sobrava, e a prova de verdade (a anca limpa, o R da Rosa) não foi mostrada.
+3. **O público viu antes** tudo o que precisa para entender a virada (o R da Rosa, a regra, o que está em jogo)?
+4. **O Dr. muda a situação** com um gesto ou uma decisão que tem consequência na tela, e não só com uma fala?
+5. **O final responde à pergunta do começo** (a venda acontece? a terra se salva?), e o vilão paga na tela antes do gancho?
+6. **Cenas mínimas:** o que está em jogo, o plantio da prova, a acusação, a virada, a consequência e o fecho com o gancho.
+   Se não couber em 60 a 90 s, divida em partes; nunca comprima a história em falas de 10 palavras.
+7. **Depois de qualquer corte** (do editor ou da montagem), refaça este teste antes de gerar ou montar: cortar a fala da
+   calúnia tirou da V2c a única ação do Dr., e ninguém reconstruiu a cena.

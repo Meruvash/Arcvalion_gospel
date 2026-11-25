@@ -1,0 +1,82 @@
+{
+ "positive_global_styles": [
+  "instrumental Brazilian rural drama underscore",
+  "cinematic",
+  "acoustic",
+  "warm low strings",
+  "no vocals"
+ ],
+ "negative_global_styles": [
+  "vocals",
+  "singing",
+  "choir",
+  "drums kit",
+  "electronic",
+  "EDM",
+  "rock"
+ ],
+ "sections": [
+  {
+   "section_name": "Tensão",
+   "positive_local_styles": [
+    "slow tense pulse",
+    "low cello and double bass ostinato",
+    "muted steel-string guitar plucks",
+    "minor key",
+    "sparse, leaves room for dialogue"
+   ],
+   "negative_local_styles": [
+    "loud",
+    "busy melody"
+   ],
+   "duration_ms": 44000,
+   "lines": []
+  },
+  {
+   "section_name": "Suspense antes da virada",
+   "positive_local_styles": [
+    "thinning texture",
+    "high violin tremolo",
+    "held low drone",
+    "breath of silence",
+    "rising uncertainty"
+   ],
+   "negative_local_styles": [
+    "percussion",
+    "resolution"
+   ],
+   "duration_ms": 12000,
+   "lines": []
+  },
+  {
+   "section_name": "Virada",
+   "positive_local_styles": [
+    "rising strings into major key",
+    "soft warm french horns",
+    "hopeful, dignified",
+    "gentle swell"
+   ],
+   "negative_local_styles": [
+    "triumphant fanfare",
+    "loud drums"
+   ],
+   "duration_ms": 16000,
+   "lines": []
+  },
+  {
+   "section_name": "Gancho final",
+   "positive_local_styles": [
+    "sudden hush",
+    "one suspended unresolved chord",
+    "low strings and a single viola sustain",
+    "ringing out"
+   ],
+   "negative_local_styles": [
+    "resolved cadence",
+    "melody"
+   ],
+   "duration_ms": 13000,
+   "lines": []
+  }
+ ]
+}

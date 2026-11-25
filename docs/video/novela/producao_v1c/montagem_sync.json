@@ -1,0 +1,106 @@
+{
+ "trilha": "trilha/trilha_v1.mp3",
+ "trilha_db": -15,
+ "clipes": [
+  {
+   "arq": "planos/c01_sync.mp4",
+   "ini": 0,
+   "fim": 6,
+   "fala": "Isso aqui não vale nada, Rosinha.",
+   "sincronia_ok": true
+  },
+  {
+   "arq": "planos/c02_sync.mp4",
+   "ini": 0,
+   "fim": 5,
+   "fala": "Minha parte já tá vendida. Dois milhões, à vista.",
+   "sincronia_ok": true
+  },
+  {
+   "arq": "planos/c03.mp4",
+   "ini": 0,
+   "fim": 4.9,
+   "fala": "Segunda-feira eu chego com o trator, dona Rosa."
+  },
+  {
+   "arq": "planos/c04.mp4",
+   "ini": 0.6,
+   "fim": 8.1,
+   "fala": "Esse livro era do nosso pai, Valdir. Tá tudo escrito aqui."
+  },
+  {
+   "arq": "planos/c05.mp4",
+   "ini": 0,
+   "fim": 4.9,
+   "fala": "Para de inventar lei, Rosinha. Ninguém vai te ajudar."
+  },
+  {
+   "arq": "planos/c06.mp4",
+   "ini": 0.5,
+   "fim": 7.1,
+   "fala": "Mãe, não discute com eles. Eu já chamei quem entende."
+  },
+  {
+   "arq": "planos/c07.mp4",
+   "ini": 0,
+   "fim": 4.9,
+   "fala": "Chamou quem? O padre?"
+  },
+  {
+   "arq": "planos/c08.mp4",
+   "ini": 0,
+   "fim": 5.6
+  },
+  {
+   "arq": "planos/c09.mp4",
+   "ini": 0,
+   "fim": 8.0,
+   "fala": "Boa tarde. O seu Valdir vai dizer que a parte é dele e vende pra quem quiser."
+  },
+  {
+   "arq": "planos/c10.mp4",
+   "ini": 0,
+   "fim": 4.6,
+   "fala": "A parte é minha. Vendo pra quem quiser!"
+  },
+  {
+   "arq": "planos/c11.mp4",
+   "ini": 0,
+   "fim": 8.1,
+   "fala": "É sua. Mas herança não dividida: irmão tem preferência. Pelo mesmo preço, a parte fica com a família.",
+   "lei": {
+    "png": "cartao_1794.png",
+    "de": 1.0
+   }
+  },
+  {
+   "arq": "planos/c12.mp4",
+   "ini": 0,
+   "fim": 7.1,
+   "fala": "E ninguém contou pra dona Rosa. Cento e oitenta dias pra ela depositar o preço.",
+   "lei": {
+    "png": "cartao_1795.png",
+    "de": 0.8
+   }
+  },
+  {
+   "arq": "planos/c13.mp4",
+   "ini": 0,
+   "fim": 5.2
+  },
+  {
+   "arq": "planos/c14.mp4",
+   "ini": 0,
+   "fim": 5.5,
+   "fala": "Dona Rosa, a senhora não está sozinha."
+  },
+  {
+   "arq": "planos/c15.mp4",
+   "ini": 0,
+   "fim": 5.0,
+   "fala": "Calma, Valdir. Eu ainda tenho outro plano."
+  }
+ ],
+ "parte2": true,
+ "exigir_sincronia": true
+}

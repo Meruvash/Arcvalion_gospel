@@ -65,8 +65,23 @@ description: Produz um episódio da novelinha do outro Instagram do editor (Reel
    - sem texto na tela e sem música.
 
    Destino de cada clipe: manter, cortar, corrigir na montagem ou refazer. Refaça mudando uma variável por vez.
-   Use `python3 tools/video/novela/triagem_clipe.py <pasta> idx=url ...`. Se a palavra continuar errada depois de uma
-   refação, **duble só esse clipe** com a voz do personagem no ElevenLabs, alinhada ao início da fala (`FORMATO_CENA.md`).
+   Use `python3 tools/video/novela/triagem_clipe.py <pasta> idx=url ...`.
+
+   **Palavra errada: conserte o áudio primeiro, não regere o plano** (regra do editor, 23/11/2026, depois de 210
+   créditos gastos para refazer 4 planos por causa de 4 palavras):
+   1. **Conserto só do áudio** (cerca de 0 a 1 crédito por palavra): gere a palavra, ou a frase curta, na voz do personagem
+      (o clone ou a voz do `ELENCO_FIXO.md`; para o Dr., o clone do editor), com o guia de pronúncia, e cole no lugar
+      exato da palavra errada, casando volume, ambiente e tempo pelas marcas de palavra da transcrição. Confira:
+      - transcrição do trecho;
+      - escuta da emenda, sem salto de timbre nem de ambiente;
+      - boca: o movimento tem que servir (troca de som parecido, como "anca/ança", "roça/Róça", sílaba trocada).
+   2. **Se não convencer:** mostre ao editor o custo de regerar o plano (cotação na hora) e **espere o OK** antes de gastar.
+   3. **Regerar o plano** só quando a boca mostrar o erro (palavra de outra forma ou tamanho) ou a fala inteira estiver
+      ruim. Nesse caso, gere só o plano com a palavra, na menor duração que o modelo aceitar, com o guia de pronúncia no
+      prompt.
+
+   Voz do Dr. que não saiu como o clone: `voice_change` do Higgsfield (clone `95b656d3…`, `voice_type: "element"`) só no
+   trecho em que só ele fala (1 crédito por trecho; mantém o tempo das sílabas e a boca).
 
 8. **Trilha.** ElevenLabs Music, instrumental, na duração do episódio mais 5 s, em trechos que seguem a fórmula: tensão,
    suspense antes da virada, virada ascendente e acorde de suspense no gancho final. Descreva o som; nunca cite
@@ -97,6 +112,8 @@ description: Produz um episódio da novelinha do outro Instagram do editor (Reel
 
 ## Nunca
 - Nunca gere vídeo antes de o editor aprovar o roteiro, nem passe do teto de créditos aprovado.
+- Nunca regere um plano inteiro por causa de uma palavra sem antes tentar o conserto só do áudio e sem o OK do editor
+  para o gasto.
 - Nunca ponha dois falantes num clipe.
 - Nunca use contato físico entre corpos nem mudança de estado dentro de um plano.
 - Nunca deixe o Dr. Pelicioni prometer resultado ou pedir contratação. Nas falas dele: nada de ponto de exclamação,
