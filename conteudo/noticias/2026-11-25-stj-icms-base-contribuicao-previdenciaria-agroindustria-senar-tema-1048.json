@@ -4,11 +4,11 @@
  "categoria": "chamada-agro",
  "status": "publicado",
  "manchete": false,
- "opiniao_forte": false,
+ "opiniao_forte": true,
  "selo": "Vale acompanhar",
  "titulo": "STJ: ICMS entra na base da contribuição previdenciária da agroindústria e do Senar",
  "lide": "A Segunda Turma do STJ decidiu, por unanimidade, em acórdão publicado na terça-feira (24), que o ICMS integra a base de cálculo da contribuição previdenciária substitutiva da agroindústria e da contribuição ao Senar, ambas sobre a receita bruta da comercialização da produção rural. O tribunal aplicou a tese do STF sobre a contribuição sobre receita bruta, a CPRB.",
- "por_que_importa": "Para a agroindústria, a tese de tirar o ICMS da base da contribuição sobre a receita bruta perdeu força: o STJ diz que o entendimento já é consolidado nas duas turmas de direito público. Quem tem ação parecida em curso tende a ter o mesmo resultado.",
+ "por_que_importa": "Regime favorecido não vira desconto em cascata. Para a agroindústria, a tese de tirar o ICMS da base da contribuição sobre a receita bruta perdeu força: o STJ diz que o entendimento já é consolidado nas duas turmas de direito público, e quem tem ação parecida tende a ter o mesmo resultado.",
  "numeros": [
   [
    "Tema 1.048",
@@ -183,8 +183,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-25T02:32:01-03:00",
+  "data": "2026-11-25T02:34:14-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-25T02:32:01-03:00"
+ "publicado_em": "2026-11-25T02:32:01-03:00",
+ "atualizado_em": "2026-11-25T02:34:14-03:00"
 }

@@ -4,11 +4,11 @@
  "categoria": "chamada-agro",
  "status": "publicado",
  "manchete": false,
- "opiniao_forte": false,
+ "opiniao_forte": true,
  "selo": "Vale acompanhar",
  "titulo": "Rondônia: STJ mantém redução de multas ambientais por hipossuficiência do produtor e tamanho da propriedade",
  "lide": "O STJ manteve, em decisão publicada na terça-feira (24), a redução de multas ambientais aplicadas a um infrator em Rondônia. O tribunal de origem levou em conta a situação econômica do autuado, a dimensão da propriedade rural e a hipossuficiência comprovada, e a Segunda Turma recusou o pedido de restabelecer os valores originais fixados pela administração.",
- "por_que_importa": "Multa ambiental tem de caber na realidade de quem é multado. A decisão confirma que a Justiça pode ajustar o valor quando a sanção ignora o porte da propriedade e a renda do produtor, desde que isso esteja provado no processo.",
+ "por_que_importa": "Multa que quebra o pequeno produtor não recupera floresta. A decisão confirma que a Justiça pode ajustar o valor quando a sanção ignora o porte da propriedade e a renda de quem foi autuado, desde que isso esteja provado no processo.",
  "numeros": [
   [
    "24/11",
@@ -182,8 +182,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-25T02:28:57-03:00",
+  "data": "2026-11-25T02:34:14-03:00",
   "modo": "automatica"
  },
- "publicado_em": "2026-11-25T02:28:57-03:00"
+ "publicado_em": "2026-11-25T02:28:57-03:00",
+ "atualizado_em": "2026-11-25T02:34:14-03:00"
 }
