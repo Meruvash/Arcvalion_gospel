@@ -87,6 +87,10 @@ def main():
     for it in ["H1 Rostos", "H2 Mãos", "H3 Corpo", "H4 Movimento (cenas de IA animadas)", "H5 Figuras pintadas",
                "H6 Nitidez das cenas de gente", "H7 Tela (legenda, cartão, carimbo, crédito de IA)"]:
         L.append(f"| {it} | ☐ aprovado ☐ reprovado | |")
+    L += ["", "## Crivo artístico (docs/video/DIRECAO_ARTISTICA.md, cada pintura num quadro parado)", "", "| Item | Resultado | Cena / observação |", "|---|---|---|"]
+    for it in ["A1 Cena completa", "A2 Ponto focal", "A3 Linhas que conduzem", "A4 4 planos e moldura", "A5 Luz e sombras",
+               "A6 Paleta harmônica", "A7 Detalhe no foco", "A8 Movimento sutil", "A9 Funciona como pôster", "A10 Foco livre de texto"]:
+        L.append(f"| {it} | ☐ aprovado ☐ reprovado | |")
     open(os.path.join(saida, "crivo.md"), "w", encoding="utf-8").write("\n".join(L) + "\n")
     print("\n".join(L[:6 + len(folhas) + 4 + max(1, len(baixos))]))
     print(f"\n-> {os.path.join(saida, 'crivo.md')}")

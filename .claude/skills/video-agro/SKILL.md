@@ -9,6 +9,8 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 0. `docs/video/PADRAO_CASEIRO.md`: o padrão que fez "O caseiro vira dono" passar de 2.200 visualizações. Vale
    acima dos outros arquivos: fala 1 com personagem + "sua" terra/família + mito desfeito e ameaça na mesma frase;
    palavra-chave na fala 2; pergunta final sobre a vida de quem assiste; 50 a 62 s; Crivo do Caseiro de 12/16 ou mais.
+0b. `docs/video/DIRECAO_ARTISTICA.md` (25/11/2026): a pintura animada é a estrela; cada cena é um quadro completo, com
+   direção artística de obra de arte, e passa pelo crivo artístico A1–A10.
 1. `docs/video/DIRECAO_VIDEO_AGRO.md`: imagem, voz e proporção. É o padrão atual, com **mais
    animação e menos documento**.
 2. `docs/video/PROMPT_VIDEO_AGRO.md`: estrutura do roteiro ("Você sabia", 10 batidas) e regras do
