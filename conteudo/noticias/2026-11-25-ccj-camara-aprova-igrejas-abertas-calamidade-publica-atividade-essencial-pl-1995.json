@@ -1,0 +1,191 @@
+{
+ "slug": "ccj-camara-aprova-igrejas-abertas-calamidade-publica-atividade-essencial-pl-1995",
+ "data": "2026-11-25",
+ "categoria": "noticias-gospel",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "CCJ da Câmara aprova projeto que proíbe fechar igrejas em calamidade pública",
+ "lide": "A Comissão de Constituição e Justiça da Câmara aprovou na terça-feira (24) o PL 1.995/2020, que reconhece como essenciais, em períodos de calamidade pública, as atividades religiosas em igrejas, templos e comunidades missionárias e proíbe o fechamento desses locais. O texto segue para o Senado, a menos que haja recurso para votação no Plenário da Câmara, informou a Agência Câmara.",
+ "por_que_importa": "Na pandemia, templos ficaram fechados por decretos enquanto outras atividades seguiam abertas, e muita gente ficou sem amparo espiritual na hora mais difícil. O projeto põe em lei que o culto é atividade essencial e que, mesmo com restrições, o atendimento presencial ao fiel continua.",
+ "numeros": [
+  [
+   "1.995/2020",
+   "é o número do projeto, apresentado ainda no primeiro ano da pandemia",
+   "Câmara dos Deputados, dados abertos"
+  ],
+  [
+   "24/11",
+   "é a data da aprovação na CCJ, em caráter conclusivo",
+   "Agência Câmara, 24/11/2026"
+  ],
+  [
+   "60 dias",
+   "de prazo para o Executivo regulamentar foram retirados pela relatora, por inconstitucionalidade",
+   "Agência Câmara, 24/11/2026"
+  ]
+ ],
+ "corpo": [
+  "A relatora, deputada Bia Kicis (PL-DF), deu parecer favorável ao substitutivo da antiga Comissão de Seguridade Social e Família ao projeto da deputada Rosangela Gomes (Republicanos-RJ). Pelo texto, os templos ficam abertos, mas cumprindo as medidas legais de segurança, ordem e saúde; limitações não podem impedir o atendimento presencial.",
+  "Segundo a relatora, em calamidade as atividades coletivas poderão ser suspensas, mas o templo poderá manter atendimento individual ou em pequenos grupos, como aconselhamento, assistência espiritual e oração, com distanciamento. A proposta tramita em caráter conclusivo nas comissões, segundo os dados abertos da Câmara."
+ ],
+ "no_brasil": "Para virar lei, o texto ainda precisa passar pelo Senado e ser sancionado. A regra vale para templos de qualquer religião, inclusive comunidades missionárias e centros religiosos, e a autora citou a procura por ajuda nas igrejas durante a pandemia de Covid-19.",
+ "critica": [
+  {
+   "fonte": "Deputada Bia Kicis (PL-DF), relatora, segundo a Agência Câmara",
+   "texto": "Templos religiosos fechados, as pessoas carentes ansiando por uma palavra amiga, um conforto daquela pessoa que representa um líder espiritual, um padre, um pastor.",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1322460-comissao-aprova-projeto-que-permite-abertura-de-igrejas-em-periodos-de-calamidade-publica"
+  },
+  {
+   "fonte": "Limite previsto no próprio texto aprovado, segundo a Agência Câmara",
+   "texto": "Os locais de culto ficam abertos, mas devem cumprir as medidas previstas em lei para proteger a segurança, a ordem, a saúde e os direitos e liberdades das demais pessoas.",
+   "citacao": false,
+   "url": "https://www.camara.leg.br/noticias/1322460-comissao-aprova-projeto-que-permite-abertura-de-igrejas-em-periodos-de-calamidade-publica"
+  }
+ ],
+ "para_quem": [
+  "Pastores, padres e líderes de igrejas e comunidades",
+  "Fiéis que dependem do templo para apoio espiritual e social",
+  "Prefeitos e governadores que editam decretos em emergências"
+ ],
+ "nao_e_para": [
+  "Não é lei ainda: falta o Senado e a sanção",
+  "Não libera aglomeração sem regra: medidas de saúde e segurança continuam valendo",
+  "Não vale só para igrejas cristãs: abrange templos de qualquer culto"
+ ],
+ "veredito": "Projeto certo. Na pandemia, fechar igrejas enquanto outros serviços abriam foi um erro que feriu a liberdade de culto e deixou gente sem socorro espiritual. A igreja é serviço essencial. O Senado deve aprovar o texto e encerrar esse capítulo.",
+ "versiculo": {
+  "texto": "não deixando a nossa congregação, como é costume de alguns; antes, admoestando-nos uns aos outros",
+  "referencia": "Hebreus 10.25",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Câmara: Comissão aprova projeto que permite abertura de igrejas em períodos de calamidade pública (24/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1322460-comissao-aprova-projeto-que-permite-abertura-de-igrejas-em-periodos-de-calamidade-publica",
+   "data": "24/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: PL 1.995/2020",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2249922",
+   "data": "24/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 63,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "liberdade",
+   "porque": "Liberdade de culto: templos como atividade essencial em calamidade pública"
+  },
+  "origem": {
+   "nome": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1322460-comissao-aprova-projeto-que-permite-abertura-de-igrejas-em-periodos-de-calamidade-publica"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Projeto aprovado na CCJ; ainda depende do Senado e de sanção"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Igreja e liberdade religiosa no Brasil, com efeito direto em templos e fiéis"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação na CCJ na terça-feira, 24/11, dentro de 48 horas"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Matéria oficial da Câmara e aprovação conferida nos dados abertos"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Explica o que o templo pode manter aberto em calamidade e o que continua limitado"
+   }
+  },
+  "publico": {
+   "pontos": 17,
+   "eixos": {
+    "valor": 6,
+    "viral": 6,
+    "cristao": 5
+   },
+   "criterios": [
+    "Documento primário: dados abertos da Câmara (2)",
+    "Proximidade: nacional (2)",
+    "Personagens com nome: Bia Kicis, Rosangela Gomes (1)",
+    "Tema que já mobiliza o público: igrejas fechadas na pandemia (2)",
+    "Conflito claro: Estado e liberdade de culto (2)",
+    "Utilidade: o que muda para templos e fiéis (2)",
+    "Passagem bíblica que um pastor usaria: Hebreus 10.25 (2)",
+    "Gancho cristão direto: culto e congregação (4)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Comissão aprova projeto que permite abertura de igrejas em períodos de calamidade pública",
+  "nucleo": "A - Brasil",
+  "categoria": "Igreja / liberdade religiosa",
+  "coleta": "2026-11-25",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na Agência Câmara e nos dados abertos",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "eventual recurso para votação no Plenário"
+  },
+  "duplicidade": {
+   "grupo": "PL 1.995/2020",
+   "itens": [
+    "Agência Câmara 24/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se igrejas podem ser fechadas em calamidade pública",
+   "entidades": [
+    "PL 1.995/2020",
+    "CCJ da Câmara",
+    "Bia Kicis",
+    "Rosangela Gomes",
+    "liberdade religiosa"
+   ],
+   "termos": [
+    "igreja atividade essencial lei",
+    "fechar igrejas calamidade pública",
+    "pl 1995/2020"
+   ],
+   "atualizacao": "chegada e votação no Senado"
+  }
+ },
+ "descricao_seo": "CCJ da Câmara aprova o PL 1.995/2020: igrejas e templos viram atividade essencial e não podem ser fechados em calamidade pública.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da matéria oficial e dos dados abertos da Câmara, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: texto deixa claro que é projeto e que medidas sanitárias continuam valendo; citações literais conferidas na fonte; opinião sobre decretos da pandemia sem acusar autoridade nomeada. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/ccj-camara-aprova-igrejas-abertas-calamidade-publica-atividade-essencial-pl-1995.jpg",
+  "credito": "Foto: Vinicius Loures/Câmara dos Deputados",
+  "alt": "Deputada Bia Kicis fala ao microfone no plenário da Câmara",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/11/img20261123224831453-1.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1322460-comissao-aprova-projeto-que-permite-abertura-de-igrejas-em-periodos-de-calamidade-publica"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-25T02:27:33-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-25T02:27:33-03:00"
+}
