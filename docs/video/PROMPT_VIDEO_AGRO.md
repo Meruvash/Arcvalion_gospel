@@ -8,6 +8,10 @@ de Itaubal (AP) e o Bolsa Família. Analisei a transcrição palavra por palavra
 > **não são mais assinatura**. Cada vídeo usa palavras próprias e nunca repete fórmula de vídeo anterior. A **segunda
 > voz é opcional**, só quando realmente necessária, e o padrão é não ter. Ver `docs/video/DIRECAO_VIDEO_AGRO.md`, seção 1.
 
+> **Atualização de 17/11/2026, que vale acima deste arquivo:** o roteiro segue o `docs/video/PADRAO_CASEIRO.md`
+> (o que fez "O caseiro vira dono" passar de 2.200 visualizações). Ali estão as regras das falas 1, 2 e 9, da capa e
+> do título, e o Crivo do Caseiro. A duração-alvo passa a ser de 50 a 62 s.
+
 ## O que a referência faz (medido)
 
 - **Duração e fala:** 51 s, 157 palavras, ~3,1 palavras/s. As frases são longas e encadeadas ("porque…", "e não só…,
@@ -100,7 +104,7 @@ Lista F base do alongamento rural (lida nas fontes oficiais em 10/11/2026):
    informativa, sem promessa de resultado, sem preço, sem "contrate"/"garanta", sem comparação com colegas, sem símbolo
    da OAB. Na tela: "Dr. Pelicioni" (sem número da OAB, por decisão do editor em 10/11/2026). Voz: clone da voz do editor na
    ElevenLabs, feito a partir de amostra enviada por ele, ou voz sintética, conforme ele escolher.
-4. **Nenhuma imagem gerada por IA.** As imagens são: (a) prints que nós mesmos fazemos das páginas oficiais (BCB, STJ,
+4. **IA só se for de graça** (editor, 20/11/2026; ver `DIRECAO_VIDEO_AGRO.md`, seção 2.9). As outras imagens são: (a) prints que nós mesmos fazemos das páginas oficiais (BCB, STJ,
    Diário Oficial), com o trecho realçado; (b) fotos com licença conferida e crédito na tela (ex.: Agência Brasil,
    CC BY 4.0); (c) objetos ou cenas desenhados em código. Licença e crédito registrados antes do render.
 5. **Fonte na tela** sempre que o número ou a citação aparecer (rodapé pequeno: "Fonte: Res. CMN 5.314/2026").
@@ -110,7 +114,7 @@ Lista F base do alongamento rural (lida nas fontes oficiais em 10/11/2026):
 - **Base: colagem Vox desenhada em código** (skill `vox-director`, tema `newsprint-editorial` sobre o azul do portal):
   recortes de papel com borda rasgada, fita nos cantos, retícula, sombra de papel, títulos recortados em caixa-alta;
   movimentos de câmera variados entre planos vizinhos (aproxima, afasta, desliza, profundidade; parado só na recompensa)
-  e entradas dos recortes `fly_in` / `slap` / `drop` / `pop_settle`. Nenhuma imagem de IA.
+  e entradas dos recortes `fly_in` / `slap` / `drop` / `pop_settle`. IA só por caminho gratuito (direção, seção 2.9).
 - **Prints onde couber**: sempre que a fala cita norma, súmula ou número oficial, o print real da página oficial entra
   na colagem como um RECORTE de papel (borda rasgada, preso com fita), com o realce amarelo no instante da fala.
 - **Segunda voz**: moldura de TV antiga recortada em papel, com a onda do áudio.

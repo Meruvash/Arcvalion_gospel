@@ -1,0 +1,162 @@
+[
+ {
+  "nome": "r1_rosa_mamadeira",
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "omni_reference",
+   "generate_audio": true,
+   "resolution": "720p",
+   "aspect_ratio": "9:16",
+   "duration": 6,
+   "use_unlim": false,
+   "drama_ads_id": "6a548052-726d-4157-a3bd-2a68a38f6762",
+   "medias": [
+    {
+     "value": "50f9076d-b63d-4cac-9de1-8b55b5a5d885",
+     "role": "image_references"
+    },
+    {
+     "value": "0dc112fe-2509-4425-8662-e43af14aa357",
+     "role": "image_references"
+    },
+    {
+     "value": "210cf905-ecfb-46d4-8b5c-c7e21a833e74",
+     "role": "image_references"
+    },
+    {
+     "value": "6c16267d-23fc-4a85-82b2-0d80ea98d4c5",
+     "role": "image_references"
+    },
+    {
+     "value": "6279f862-17dc-4c3e-a8a8-cbc0219c5467",
+     "role": "audio_references"
+    }
+   ],
+   "prompt": "Cinematic live action, camera-ready faces in soft, bright, flattering light from the scene's own sources, natural colour.\n\nShot like a feature film: close shots at eye level with shallow depth of field, the speaking face sharp and the room behind it soft; camera-ready faces, real skin under everyday makeup; every face fully lit and easy to read in soft, bright light from the scene's own source, the shadows open, a catchlight in the eyes; natural colour, skin warm, whites clean; in a single the face turns three-quarter, the eyes to one side of the lens; the camera locked off or pushing in slowly, moving only with someone who walks; the actors play small and real, their eyes on each other. Clean, close, quiet voices over the room's own sound; the place makes its own sounds as they happen. No music and no score. No subtitles or on-screen text.\n\n@Image1 is the same cattle auction ring seen from the sand toward the wooden bleachers, a frame of this film: the bleachers, the ring fence, the buyers seated in the rows and the golden light exactly as they are. @Image2 is a small-town cattle auction ring in the São Paulo countryside: its left panel faces the wooden bleachers, its right panel faces back across the sand ring to the Auctioneer's wooden pulpit with its gavel and the black iron gate beside it. @Image3 is Rosa, one woman of 56, shown from several angles, always in her pale cream blouse with a small pink-and-green floral print, dark hair with grey strands tied back in a low bun. @Image4 is Estrela, one red-and-white spotted dairy heifer with short pale horns and a thin sisal rope halter, always with one small R-shaped hot-iron brand on the left side of her neck, the size of a palm, an old healed burn scar with rough paler hair along the letter; her hip clean spotted coat.\n\n@Audio1 is the voice of @Image3, Rosa: a warm, gentle countrywoman's alto; every line she speaks is in this voice.\n\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\n\n0-6 s: Medium close-up of Rosa standing in the sand ring, the sisal rope in her right hand at her waist, Estrela's white face soft at the edge of the frame on her right; her face turned three-quarter toward the bleachers on her left, eyes to that side of the lens; chin up, brows drawn together, lips steady. At 1 s she says, in her warm, gentle voice, low, firm and clear: \"É a Estrela. Criei na mamadeira.\" She pronounces \"mamadeira\" as four clear syllables, ma-ma-DEI-ra, in Brazilian Portuguese. Then, in silence, she presses her lips together and holds her look to the last frame.\n"
+  },
+  "prompt_file": "r1_rosa_mamadeira.txt",
+  "sha": "c5e9043d9f9e981d448edf3d7210b384291989438cc5f490dc6b104c88dcfb1a"
+ },
+ {
+  "nome": "r2_valdir_roca",
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "omni_reference",
+   "generate_audio": true,
+   "resolution": "720p",
+   "aspect_ratio": "9:16",
+   "duration": 6,
+   "use_unlim": false,
+   "drama_ads_id": "6a548052-726d-4157-a3bd-2a68a38f6762",
+   "medias": [
+    {
+     "value": "50f9076d-b63d-4cac-9de1-8b55b5a5d885",
+     "role": "image_references"
+    },
+    {
+     "value": "0dc112fe-2509-4425-8662-e43af14aa357",
+     "role": "image_references"
+    },
+    {
+     "value": "731e554b-c8f2-4635-ae34-df2978269def",
+     "role": "image_references"
+    },
+    {
+     "value": "eab5fde7-a9a6-4c68-bb76-74e59ee8fe63",
+     "role": "image_references"
+    },
+    {
+     "value": "ab13ff0c-5471-4d79-abd1-d01c449a4c09",
+     "role": "audio_references"
+    }
+   ],
+   "prompt": "Cinematic live action, camera-ready faces in soft, bright, flattering light from the scene's own sources, natural colour.\n\nShot like a feature film: close shots at eye level with shallow depth of field, the speaking face sharp and the room behind it soft; camera-ready faces, real skin under everyday makeup; every face fully lit and easy to read in soft, bright light from the scene's own source, the shadows open, a catchlight in the eyes; natural colour, skin warm, whites clean; in a single the face turns three-quarter, the eyes to one side of the lens; the camera locked off or pushing in slowly, moving only with someone who walks; the actors play small and real, their eyes on each other. Clean, close, quiet voices over the room's own sound; the place makes its own sounds as they happen. No music and no score. No subtitles or on-screen text.\n\n@Image1 is the same cattle auction ring seen from the sand toward the wooden bleachers, a frame of this film: the bleachers, the ring fence, the buyers seated in the rows and the golden light exactly as they are. @Image2 is a small-town cattle auction ring in the São Paulo countryside: its left panel faces the wooden bleachers, its right panel faces back across the sand ring to the Auctioneer's wooden pulpit with its gavel and the black iron gate beside it. @Image3 is Valdir, one man of 59, shown from several angles, always in his red-and-navy plaid flannel shirt, big silver belt buckle, white cowboy hat, thick grey moustache. @Image4 is Cleide, one woman of 50, shown from several angles, always in her leopard-print satin blouse and big gold hoop earrings, platinum-blonde blow-dried hair, long red nails.\n\n@Audio1 is the voice of @Image3, Valdir: a deep, gravelly bass; every line he speaks is in this voice.\n\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\n\n0-6 s: Medium shot of Valdir standing at the wooden ring fence below the bleachers, the view of @Image1, Cleide's leopard-print shoulder soft at the left edge of the frame; his face turned three-quarter toward the buyers, a scornful sneer under his grey moustache, one hand waving at the ring. At 1 s he says, in his deep, gravelly voice, scornful and clear: \"Róça de pobre não cria vaca assim.\" He pronounces \"Róça\" with a stressed, open O, RÓ-ssa, the Brazilian Portuguese word for a small farm. Then, in silence, he stands at the fence with a smug grin to the last frame.\n"
+  },
+  "prompt_file": "r2_valdir_roca.txt",
+  "sha": "87452588b74abcc0143a34951fd85ddf549b93b2126753d44aec4171b88c72db"
+ },
+ {
+  "nome": "r3_previsao_anca",
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "omni_reference",
+   "generate_audio": true,
+   "resolution": "720p",
+   "aspect_ratio": "9:16",
+   "duration": 10,
+   "use_unlim": false,
+   "drama_ads_id": "6a548052-726d-4157-a3bd-2a68a38f6762",
+   "medias": [
+    {
+     "value": "50f9076d-b63d-4cac-9de1-8b55b5a5d885",
+     "role": "image_references"
+    },
+    {
+     "value": "0dc112fe-2509-4425-8662-e43af14aa357",
+     "role": "image_references"
+    },
+    {
+     "value": "9bed35b9-220b-4e47-9903-21aa4c37d6b2",
+     "role": "image_references"
+    },
+    {
+     "value": "210cf905-ecfb-46d4-8b5c-c7e21a833e74",
+     "role": "image_references"
+    },
+    {
+     "value": "eab5fde7-a9a6-4c68-bb76-74e59ee8fe63",
+     "role": "image_references"
+    },
+    {
+     "value": "c260b885-8639-4c4f-851a-79082f03a1bb",
+     "role": "audio_references"
+    },
+    {
+     "value": "e79b4fd2-b6ca-4e69-924f-e02985bdde05",
+     "role": "audio_references"
+    }
+   ],
+   "prompt": "Cinematic live action, camera-ready faces in soft, bright, flattering light from the scene's own sources, natural colour.\n\nShot like a feature film: close shots at eye level with shallow depth of field, the speaking face sharp and the room behind it soft; camera-ready faces, real skin under everyday makeup; every face fully lit and easy to read in soft, bright light from the scene's own source, the shadows open, a catchlight in the eyes; natural colour, skin warm, whites clean; in a single the face turns three-quarter, the eyes to one side of the lens; the camera locked off or pushing in slowly, moving only with someone who walks; the actors play small and real, their eyes on each other. Clean, close, quiet voices over the room's own sound; the place makes its own sounds as they happen. No music and no score. No subtitles or on-screen text.\n\n@Image1 is the same cattle auction ring seen from the sand toward the wooden bleachers, a frame of this film: the bleachers, the ring fence, the buyers seated in the rows and the golden light exactly as they are. @Image2 is a small-town cattle auction ring in the São Paulo countryside: its left panel faces the wooden bleachers, its right panel faces back across the sand ring to the Auctioneer's wooden pulpit with its gavel and the black iron gate beside it. @Image3 is Doutor Pelicioni, one man of 45, shown from several angles, always in his navy blazer with a navy pocket square with small white dots, light blue open-collar shirt, dark rectangular glasses, short dark beard with grey. @Image4 is Rosa, one woman of 56, shown from several angles, always in her pale cream blouse with a small pink-and-green floral print, dark hair with grey strands tied back in a low bun. @Image5 is Cleide, one woman of 50, shown from several angles, always in her leopard-print satin blouse and big gold hoop earrings, platinum-blonde blow-dried hair, long red nails.\n\n@Audio1 is the voice of @Image3, Doutor Pelicioni: a calm, low baritone; every line he speaks is in this voice. @Audio2 is the voice of @Image5, Cleide: a husky, sly woman's voice, low register; every line she speaks is in this voice.\n\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\n\n0-4.4 s: Close-up, head and shoulders, of Doutor Pelicioni, who stands in the sand ring beside Rosa, Rosa's floral shoulder soft at the right edge of the frame; his face turned three-quarter toward the fence on his left, eyes on Cleide past the lens, brows level, the faint start of a smile. At 0.8 s he says, in his calm, low baritone, unhurried and clear: \"Ela vai dizer que marcou na anca.\" He pronounces \"anca\" as ÂN-ka, with a hard K sound, never \"ança\".\n\n4.4-7.6 s: Cut to a medium close-up of Cleide standing at the wooden ring fence, the view of @Image1, her face turned three-quarter toward the ring on her right, chin raised, eyes narrowed, a confident smirk. She says, in her husky, sly voice, sure of herself: \"Marquei na anca, sim! Pode olhar!\" She pronounces \"anca\" as ÂN-ka, with a hard K sound, never \"ança\".\n\n7.6-10 s: In silence, Cleide stands at the fence, arms crossed, the smirk held, to the last frame.\n"
+  },
+  "prompt_file": "r3_previsao_anca.txt",
+  "sha": "deaced73178509c9f018586253cd2e07e53e45d19ff5878c8318878460a24bcd"
+ },
+ {
+  "nome": "r4_lei_anca",
+  "params": {
+   "model": "seedance_2_5",
+   "mode": "omni_reference",
+   "generate_audio": true,
+   "resolution": "720p",
+   "aspect_ratio": "9:16",
+   "duration": 8,
+   "use_unlim": false,
+   "drama_ads_id": "6a548052-726d-4157-a3bd-2a68a38f6762",
+   "medias": [
+    {
+     "value": "50f9076d-b63d-4cac-9de1-8b55b5a5d885",
+     "role": "image_references"
+    },
+    {
+     "value": "0dc112fe-2509-4425-8662-e43af14aa357",
+     "role": "image_references"
+    },
+    {
+     "value": "9bed35b9-220b-4e47-9903-21aa4c37d6b2",
+     "role": "image_references"
+    },
+    {
+     "value": "eab5fde7-a9a6-4c68-bb76-74e59ee8fe63",
+     "role": "image_references"
+    },
+    {
+     "value": "c260b885-8639-4c4f-851a-79082f03a1bb",
+     "role": "audio_references"
+    }
+   ],
+   "prompt": "Cinematic live action, camera-ready faces in soft, bright, flattering light from the scene's own sources, natural colour.\n\nShot like a feature film: close shots at eye level with shallow depth of field, the speaking face sharp and the room behind it soft; camera-ready faces, real skin under everyday makeup; every face fully lit and easy to read in soft, bright light from the scene's own source, the shadows open, a catchlight in the eyes; natural colour, skin warm, whites clean; in a single the face turns three-quarter, the eyes to one side of the lens; the camera locked off or pushing in slowly, moving only with someone who walks; the actors play small and real, their eyes on each other. Clean, close, quiet voices over the room's own sound; the place makes its own sounds as they happen. No music and no score. No subtitles or on-screen text.\n\n@Image1 is the same cattle auction ring seen from the sand toward the wooden bleachers, a frame of this film: the bleachers, the ring fence, the buyers seated in the rows and the golden light exactly as they are. @Image2 is a small-town cattle auction ring in the São Paulo countryside: its left panel faces the wooden bleachers, its right panel faces back across the sand ring to the Auctioneer's wooden pulpit with its gavel and the black iron gate beside it. @Image3 is Doutor Pelicioni, one man of 45, shown from several angles, always in his navy blazer with a navy pocket square with small white dots, light blue open-collar shirt, dark rectangular glasses, short dark beard with grey. @Image4 is Cleide, one woman of 50, shown from several angles, always in her leopard-print satin blouse and big gold hoop earrings, platinum-blonde blow-dried hair, long red nails.\n\n@Audio1 is the voice of @Image3, Doutor Pelicioni: a calm, low baritone; every line he speaks is in this voice.\n\nEvery spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.\n\n0-4.4 s: Medium close-up of Doutor Pelicioni standing in the sand ring, his face turned three-quarter toward the fence on his left, eyes on Cleide past the lens, calm, brows level, hands loose at his sides. At 0.8 s he says, in his calm, low baritone, like reading the law, clear: \"Na anca, a lei não deixa marcar.\" He pronounces \"anca\" as ÂN-ka, with a hard K sound, never \"ança\".\n\n4.4-8 s: In silence, a close-up, head and shoulders, of Cleide standing at the wooden ring fence, the view of @Image1, the bleachers behind her filled with buyers, soft and out of focus; her smirk drops, her lips part, her eyes dart down and back up; she stays standing at the fence to the last frame.\n"
+  },
+  "prompt_file": "r4_lei_anca.txt",
+  "sha": "9e179a50815c8d9da69dd5d0936d2dc7d614fa53b40d61584974b2a4108f4e4d"
+ }
+]

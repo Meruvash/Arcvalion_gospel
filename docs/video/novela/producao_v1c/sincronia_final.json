@@ -1,0 +1,425 @@
+[
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c01_sync.mp4",
+  "fps": 25.0,
+  "duracao": 6.12,
+  "texto": "Isso aqui não vale nada, Rosinha",
+  "boca_falando": [
+   [
+    3.6,
+    5.68
+   ]
+  ],
+  "voz": [
+   [
+    3.72,
+    5.44
+   ]
+  ],
+  "boca_sem_voz_s": 0.36,
+  "voz_sem_boca_s": 0.0,
+  "atraso_ms": 80,
+  "aprovado": true,
+  "rosto_pct": 72,
+  "clipe": "c01",
+  "janela_montagem": [
+   0,
+   6
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c02_sync.mp4",
+  "fps": 25.0,
+  "duracao": 5.16,
+  "texto": "Minha parte já tá vendida. Dois milhões à vista",
+  "boca_falando": [
+   [
+    1.4,
+    4.36
+   ]
+  ],
+  "voz": [
+   [
+    1.28,
+    2.78
+   ],
+   [
+    3.1,
+    4.32
+   ]
+  ],
+  "boca_sem_voz_s": 0.32,
+  "voz_sem_boca_s": 0.12,
+  "atraso_ms": 0,
+  "aprovado": true,
+  "rosto_pct": 100,
+  "clipe": "c02",
+  "janela_montagem": [
+   0,
+   5
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c03_sync.mp4",
+  "fps": 25.0,
+  "duracao": 5.16,
+  "texto": "Segunda-feira eu chego com o trator, dona Rosa.",
+  "boca_falando": [
+   [
+    0.88,
+    4.48
+   ]
+  ],
+  "voz": [
+   [
+    1.98,
+    3.84
+   ]
+  ],
+  "boca_sem_voz_s": 1.72,
+  "voz_sem_boca_s": 0.0,
+  "atraso_ms": 600,
+  "aprovado": false,
+  "rosto_pct": 100,
+  "clipe": "c03",
+  "janela_montagem": [
+   0,
+   4.9
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c04_sync.mp4",
+  "fps": 25.0,
+  "duracao": 8.16,
+  "texto": "Esse livro era do nosso pai, Valdir. Tá tudo escrito aqui",
+  "boca_falando": [
+   [
+    3.36,
+    8.16
+   ]
+  ],
+  "voz": [
+   [
+    3.48,
+    6.04
+   ],
+   [
+    6.46,
+    7.56
+   ]
+  ],
+  "boca_sem_voz_s": 1.04,
+  "voz_sem_boca_s": 0.0,
+  "atraso_ms": 40,
+  "aprovado": false,
+  "rosto_pct": 100,
+  "clipe": "c04",
+  "janela_montagem": [
+   0.6,
+   8.1
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c05_sync.mp4",
+  "fps": 25.0,
+  "duracao": 5.16,
+  "texto": "Para de inventar lei, Rosinha. Ninguém vai te ajudar",
+  "boca_falando": [
+   [
+    0.28,
+    1.36
+   ],
+   [
+    1.68,
+    4.72
+   ]
+  ],
+  "voz": [
+   [
+    1.66,
+    4.42
+   ]
+  ],
+  "boca_sem_voz_s": 1.44,
+  "voz_sem_boca_s": 0.04,
+  "atraso_ms": -40,
+  "aprovado": false,
+  "rosto_pct": 100,
+  "clipe": "c05",
+  "janela_montagem": [
+   0,
+   4.9
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c07_sync.mp4",
+  "fps": 25.0,
+  "duracao": 5.16,
+  "texto": "Chamou quem? O padre?",
+  "boca_falando": [
+   [
+    0.0,
+    1.92
+   ],
+   [
+    2.2,
+    2.48
+   ]
+  ],
+  "voz": [
+   [
+    1.04,
+    1.64
+   ],
+   [
+    2.04,
+    2.44
+   ]
+  ],
+  "boca_sem_voz_s": 1.36,
+  "voz_sem_boca_s": 0.16,
+  "atraso_ms": 600,
+  "aprovado": false,
+  "rosto_pct": 100,
+  "clipe": "c07",
+  "janela_montagem": [
+   0,
+   4.9
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c09_sync.mp4",
+  "fps": 25.0,
+  "duracao": 8.12,
+  "texto": "Boa tarde. O seu Valdir vai dizer que a parte é dele e vende pra quem quiser.",
+  "boca_falando": [
+   [
+    1.88,
+    2.52
+   ],
+   [
+    3.16,
+    6.68
+   ],
+   [
+    7.04,
+    7.68
+   ]
+  ],
+  "voz": [
+   [
+    1.82,
+    2.36
+   ],
+   [
+    2.68,
+    5.72
+   ]
+  ],
+  "boca_sem_voz_s": 1.8,
+  "voz_sem_boca_s": 0.56,
+  "atraso_ms": -120,
+  "aprovado": false,
+  "rosto_pct": 100,
+  "clipe": "c09",
+  "janela_montagem": [
+   0,
+   8.0
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c10_sync.mp4",
+  "fps": 25.0,
+  "duracao": 5.16,
+  "texto": "A parte é minha, vendo pra quem quiser",
+  "boca_falando": [
+   [
+    0.6,
+    2.52
+   ]
+  ],
+  "voz": [
+   [
+    0.16,
+    1.04
+   ],
+   [
+    1.36,
+    2.34
+   ]
+  ],
+  "boca_sem_voz_s": 0.48,
+  "voz_sem_boca_s": 0.44,
+  "atraso_ms": -240,
+  "aprovado": false,
+  "rosto_pct": 100,
+  "clipe": "c10",
+  "janela_montagem": [
+   0,
+   4.6
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c11_sync.mp4",
+  "fps": 25.0,
+  "duracao": 8.16,
+  "texto": "É sua, mas herança não dividida. Irmão tem preferência. Pelo mesmo preço, a parte fica com a família.",
+  "boca_falando": [
+   [
+    0.08,
+    4.56
+   ],
+   [
+    4.84,
+    6.72
+   ]
+  ],
+  "voz": [
+   [
+    0.48,
+    1.0
+   ],
+   [
+    1.32,
+    6.6
+   ]
+  ],
+  "boca_sem_voz_s": 0.8,
+  "voz_sem_boca_s": 0.28,
+  "atraso_ms": 240,
+  "aprovado": false,
+  "rosto_pct": 100,
+  "clipe": "c11",
+  "janela_montagem": [
+   0,
+   8.1
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c12_sync.mp4",
+  "fps": 25.0,
+  "duracao": 7.16,
+  "texto": "E ninguém contou pra Dona Rosa. Cento e oitenta dias pra ela depositar o preço.",
+  "boca_falando": [
+   [
+    0.36,
+    2.92
+   ],
+   [
+    3.48,
+    5.76
+   ]
+  ],
+  "voz": [
+   [
+    1.12,
+    2.46
+   ],
+   [
+    2.8,
+    5.2
+   ]
+  ],
+  "boca_sem_voz_s": 1.64,
+  "voz_sem_boca_s": 0.52,
+  "atraso_ms": 600,
+  "aprovado": false,
+  "rosto_pct": 100,
+  "clipe": "c12",
+  "janela_montagem": [
+   0,
+   7.1
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c13_sync.mp4",
+  "fps": 25.0,
+  "duracao": 6.12,
+  "texto": "",
+  "boca_falando": [
+   [
+    0.08,
+    0.36
+   ],
+   [
+    1.6,
+    2.68
+   ]
+  ],
+  "voz": [],
+  "boca_sem_voz_s": 1.4,
+  "voz_sem_boca_s": 0.0,
+  "atraso_ms": -600,
+  "aprovado": false,
+  "rosto_pct": 86,
+  "clipe": "c13",
+  "janela_montagem": [
+   0,
+   5.2
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c14_sync.mp4",
+  "fps": 25.0,
+  "duracao": 6.16,
+  "texto": "Dona Rosa, a senhora não está sozinha",
+  "boca_falando": [
+   [
+    0.0,
+    2.68
+   ]
+  ],
+  "voz": [
+   [
+    0.24,
+    1.92
+   ]
+  ],
+  "boca_sem_voz_s": 1.0,
+  "voz_sem_boca_s": 0.0,
+  "atraso_ms": -80,
+  "aprovado": false,
+  "rosto_pct": 100,
+  "clipe": "c14",
+  "janela_montagem": [
+   0,
+   5.5
+  ]
+ },
+ {
+  "video": "/home/user/Arcvalion_gospel/docs/video/novela/producao_v1c/planos/c15_sync.mp4",
+  "fps": 25.0,
+  "duracao": 5.16,
+  "texto": "Calma, Valdir, eu ainda tenho outro plano",
+  "boca_falando": [
+   [
+    0.68,
+    1.32
+   ],
+   [
+    1.6,
+    2.6
+   ],
+   [
+    3.08,
+    3.36
+   ]
+  ],
+  "voz": [
+   [
+    1.16,
+    3.3
+   ]
+  ],
+  "boca_sem_voz_s": 0.52,
+  "voz_sem_boca_s": 0.68,
+  "atraso_ms": 440,
+  "aprovado": false,
+  "rosto_pct": 100,
+  "clipe": "c15",
+  "janela_montagem": [
+   0,
+   5.0
+  ]
+ }
+]

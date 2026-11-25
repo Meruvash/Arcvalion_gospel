@@ -4,6 +4,26 @@ Pedido do editor (12/11/2026), depois de quatro roteiros seguidos sobre dívida 
 tratando do mesmo assunto em todos os vídeos". Esta política vale **antes** de qualquer roteiro da skill `video-agro` e
 está acima do hábito de procurar "o assunto da semana no crédito rural".
 
+## 0. Foco do editor (decisão de 17/11/2026, acima do resto deste arquivo)
+
+O editor trabalha com **direito do agronegócio de alto valor (high ticket)**. Os vídeos tratam só de:
+- **A. Dívida e crédito rural:** prorrogação, alongamento, renegociação, recuperação judicial do produtor, garantias;
+- **B. Terra e regularização fundiária:** georreferenciamento, CAR, CCIR, usucapião rural, posse, escritura, Incra.
+
+O que fica de fora:
+- **Direito previdenciário:** "não me interessa nem um pouco". A pauta da aposentadoria rural foi recusada.
+- **Outros eixos (C a I):** só entram quando o assunto tocar diretamente dívida ou terra, como herança de fazenda ou
+  conflito de divisa.
+
+**Rodízio:** alternar A e B. Nunca dois vídeos seguidos com a mesma norma ou o mesmo ângulo. Por esta decisão, deixa de
+valer o limite de "1 em cada 4" do eixo A.
+
+## 0. Lado do produtor (decisão do editor, 23/11/2026)
+O portal é **a favor do produtor rural**. A pauta defende o produtor: o que ele ganha, como se protege, o prazo que corre a
+favor dele. Não entra pauta que ensine empregado, caseiro, peão, arrendatário ou fiscal a cobrar o produtor, mesmo
+quando o aviso parece servir ao dono. Recusada nessa linha: "A casa do peão vira salário?" (23/11/2026). Quando o
+personagem for alguém próximo (vizinho, irmão, comprador), o produtor é quem assiste e é quem sai protegido.
+
 ## 1. Eixos de pauta (rodízio obrigatório)
 
 | Eixo | Exemplos de assunto |
@@ -16,6 +36,7 @@ está acima do hábito de procurar "o assunto da semana no crédito rural".
 | **F. Família, sucessão e contratos** | herança de fazenda, holding, arrendamento, parceria, Estatuto da Terra |
 | **G. Trabalho e segurança** | NR-31, trabalhador rural, aposentadoria rural, acidentes, roubo de gado e defensivos |
 | **H. Meio ambiente e licenças** | Código Florestal, outorga de água, licenciamento, multas ambientais |
+| **I. Histórias e curiosidades do campo** | casos reais e lugares curiosos do agro, "existe um lugar onde…", história de uma lavoura, de uma cidade ou de uma família |
 
 - **Rodízio:** nunca dois vídeos seguidos no mesmo eixo.
 - **Limite do eixo A:** no máximo **1 vídeo em cada 4**, porque é o eixo do público endividado e o mais fácil de repetir.
@@ -40,6 +61,33 @@ tipos de fonte:
 3. **Imprensa do agro:** Canal Rural, Globo Rural, Notícias Agrícolas, Agência Senado/Câmara e portais regionais. Use para
    achar a pauta, nunca como prova final.
 
+## 2.1 Aprendizado de desempenho (16/11/2026)
+"A porta e o porteiro" (acordo Mercosul–UE + EUDR) **praticamente não teve visualização**. Era um assunto institucional e
+macroeconômico, com dado positivo de mercado e sem conflito nem dinheiro do espectador em jogo.
+
+Os vídeos de agro que mais viralizaram no Brasil entre agosto e novembro de 2026 (pesquisa no Virlo, 16/11/2026) têm três
+coisas em comum:
+- **Lacuna de curiosidade logo na 1ª frase:** "Existe uma cidade aqui do lado de Mossoró que foi construída do zero…",
+  "poucas pessoas sabem disso, mas existe…".
+- **História com conflito:** herança dividida entre irmãos, patrão e trabalhador, quem fica com a fazenda.
+- **Algo do espectador em jogo:** a terra dele, o dinheiro dele, a família dele. Exemplo: "Você financiou um carro de 50
+  mil… vai pagar 100 mil?".
+
+Nos vídeos de direito, o que mais roda é o mito × verdade sobre um direito que a pessoa acha que não tem.
+
+**Regras daí em diante:**
+- **Evite:** pauta institucional, macroeconômica ou de "boa notícia do setor" sem algo do espectador em jogo.
+- **Prefira:** pergunta que o produtor faria no balcão do sindicato ("o vizinho pode me cobrar a cerca?", "o caseiro pode
+  ficar com a fazenda?").
+- **Use o Virlo** (`find_videos`, `search_hooks`) na pesquisa de demanda, sempre que estiver disponível.
+
+**Resultado (16 e 17/11/2026):** "O caseiro e o vizinho" (mito × verdade sobre a terra de quem assiste) fez 150 visualizações
+em minutos e passou de **2.200** no dia seguinte. A análise dos motivos e as regras que saíram dela estão em
+`docs/video/PADRAO_CASEIRO.md`; o **Crivo do Caseiro** (seção 4 de lá) é aplicado a toda candidata antes da seção 3. O editor confirmou que o sistema vale assim:
+- **Estrutura de 10 batidas do `PROMPT_VIDEO_AGRO.md`**, sem trocar por formato novo.
+- **Tema** que gera curiosidade e põe em jogo a terra, o dinheiro ou a família de quem assiste, de preferência ligado a
+  uma tendência da semana.
+
 ## 3. Critérios de escolha (nota de 1 a 5 em cada um)
 
 | Critério | Pergunta |
@@ -49,6 +97,8 @@ tipos de fonte:
 | Utilidade | O produtor faz algo diferente depois de ver? |
 | Prova | Há documento oficial para mostrar e citar? |
 | Gancho | Cabe numa frase de "Você sabia…" que surpreende? |
+| **Curiosidade (peso 2)** | A primeira frase abre uma pergunta que a pessoa precisa ver respondida? |
+| **Em jogo para o espectador (peso 2)** | Mexe com a terra, o dinheiro ou a família de quem assiste? |
 | Originalidade | Eixo, ângulo e fonte são diferentes dos últimos vídeos (§ 4)? |
 
 Apresente ao editor as **3 melhores**, com a nota de cada uma e uma linha de justificativa, mais a recomendação. Só depois

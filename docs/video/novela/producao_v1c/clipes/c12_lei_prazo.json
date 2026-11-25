@@ -1,0 +1,27 @@
+{
+ "id": "c12_lei_prazo",
+ "duracao": 7,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "terreiro",
+ "personagens": [
+  "Dr. Pelicioni"
+ ],
+ "voz": "Dr. Pelicioni",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 7,
+   "quadro": "close-up",
+   "camera": "static",
+   "quem": "Dr. Pelicioni",
+   "acao": "turns his head toward Tavares off camera and speaks without raising his voice",
+   "expressao": "calm",
+   "fala": true
+  }
+ ],
+ "fala": {
+  "texto": "E ninguém contou pra dona Rosa. Cento e oitenta dias pra ela depositar o preço.",
+  "emocao": "calm, low",
+  "inicio": 0.5
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "duracao_s": 75,
+ "aviso_dramatizacao": true,
+ "protagonista": "Dr. Pelicioni",
+ "titulo": "Herança do Pai · V1 «O livro do pai» (objeto desprezado, C6) · protagonista Dr. Pelicioni",
+ "batidas": [
+  {
+   "t": 0,
+   "fim": 3,
+   "tipo": "GANCHO",
+   "quem": "Valdir",
+   "modo": "texto",
+   "fala": "Vendi minha parte da fazenda. Não adianta chorar.",
+   "tela": "Grupo «Herança do Pai 🌾». Etiqueta VALDIR · o irmão mais velho",
+   "marcas": [
+    "ataque",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 3,
+   "fim": 9,
+   "tipo": "HUMILHACAO",
+   "quem": "Valdir",
+   "modo": "audio",
+   "fala": "Você nunca teve dinheiro nem pra adubo, Rosa. Agora quem manda lá é o doutor Tavares.",
+   "tela": "Balão de áudio; «Cleide está digitando…»",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 9,
+   "fim": 15,
+   "tipo": "HUMILHACAO",
+   "quem": "Tavares",
+   "modo": "audio",
+   "fala": "Dona Rosa, segunda eu chego com o trator. Paguei dois milhões à vista.",
+   "tela": "Conversa «Tavares (Goiânia)»; foto da porteira (IA, sem gente)",
+   "marcas": [
+    "dinheiro"
+   ]
+  },
+  {
+   "t": 15,
+   "fim": 21,
+   "tipo": "PROVA_DESPREZADA",
+   "quem": "Cleide",
+   "modo": "audio",
+   "fala": "Livro velho do seu pai, Rosinha? Isso não vale nada, querida. Joga no lixo.",
+   "tela": "Rosa mandou no grupo a foto do Código Civil antigo do pai (objeto, sem gente); áudio da Cleide",
+   "marcas": [
+    "objeto:livro_do_pai",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 21,
+   "fim": 27,
+   "tipo": "DESCRENCA",
+   "quem": "Valdir",
+   "modo": "texto",
+   "fala": "Para de inventar lei, Rosa. Chama quem você quiser. Ninguém vai te ajudar 😂",
+   "tela": "Cleide reage 😂",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 27,
+   "fim": 32,
+   "tipo": "TRANSICAO",
+   "quem": "Bruna",
+   "modo": "texto",
+   "fala": "Doutor, sou a Bruna, filha da dona Rosa. Vão tomar a terra do meu avô.",
+   "tela": "Bruna escreve a «Dr. Pelicioni ✔» (foto real dele no perfil): ✓✓ azul, «digitando…»",
+   "marcas": []
+  },
+  {
+   "t": 32,
+   "fim": 38,
+   "tipo": "TRANSICAO",
+   "quem": "Sistema",
+   "modo": "tela",
+   "fala": "Bruna adicionou Dr. Pelicioni.",
+   "tela": "Aviso de sistema no grupo; Valdir «digitando…»; o grupo fica em silêncio",
+   "marcas": []
+  },
+  {
+   "t": 38,
+   "fim": 43,
+   "tipo": "REVELACAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "texto",
+   "fala": "Boa tarde. Valdir, a sua próxima mensagem vai ser: quem é esse aí?",
+   "tela": "Mensagem dele no grupo, com a foto real no perfil",
+   "marcas": [
+    "previsao",
+    "poder_escondido"
+   ]
+  },
+  {
+   "t": 43,
+   "fim": 46,
+   "tipo": "TRANSICAO",
+   "quem": "Valdir",
+   "modo": "texto",
+   "fala": "Quem é esse aí?",
+   "tela": "Chega exatamente a mensagem prevista; Cleide: 😳",
+   "marcas": [
+    "previsao_cumprida"
+   ]
+  },
+  {
+   "t": 46,
+   "fim": 55,
+   "tipo": "LEI",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Herança ainda não dividida: irmão tem preferência. Pelo mesmo preço, a parte fica com a família. Está no livro do seu pai.",
+   "tela": "Chamada de vídeo real do editor; cartão 1 (CC art. 1.794, literal) sobre a página do livro do pai",
+   "marcas": [
+    "objeto:livro_do_pai"
+   ],
+   "fonte": "https://legis.senado.leg.br/norma/552282/publicacao/15676634"
+  },
+  {
+   "t": 55,
+   "fim": 62,
+   "tipo": "LEI",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "E como ninguém avisou a dona Rosa, ela tem cento e oitenta dias pra depositar o preço.",
+   "tela": "Vídeo real; cartão 2 (CC art. 1.795, literal)",
+   "marcas": [],
+   "fonte": "https://legis.senado.leg.br/norma/552282/publicacao/15676634"
+  },
+  {
+   "t": 62,
+   "fim": 66,
+   "tipo": "QUEDA",
+   "quem": "Valdir / Tavares / Dr. Pelicioni",
+   "modo": "texto",
+   "fala": "Esta mensagem foi apagada. — Doutor, podemos conversar? — Podemos. Com calma.",
+   "tela": "Valdir apaga; Tavares escreve ao doutor; resposta curta dele",
+   "marcas": []
+  },
+  {
+   "t": 66,
+   "fim": 71,
+   "tipo": "PROTECAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Dona Rosa, a senhora não está sozinha.",
+   "tela": "Close real no rosto dele, meio sorriso; Rosa: «Obrigada, doutor 🙏»; Bruna: ❤️",
+   "marcas": []
+  },
+  {
+   "t": 71,
+   "fim": 75,
+   "tipo": "GANCHO_FINAL",
+   "quem": "Tavares",
+   "modo": "texto",
+   "fala": "Doutor, o senhor ainda não viu o que tem nesse contrato.",
+   "tela": "Tela congela; «PARTE 2»",
+   "marcas": []
+  }
+ ],
+ "elenco": [
+  "Dr. Pelicioni",
+  "Rosa",
+  "Valdir",
+  "Cleide",
+  "Tavares",
+  "Bruna"
+ ]
+}

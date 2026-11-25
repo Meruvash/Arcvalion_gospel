@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Divisa vista de cima · gado do vizinho</title>
+<style>
+@font-face{font-family:'Caveat';src:url(caveat-700.woff2) format('woff2');font-weight:700}
+html,body{margin:0;width:1080px;height:1080px;overflow:hidden;background:#f3ead8}
+#c{position:absolute;left:0;top:0;z-index:1}
+#labels{position:absolute;inset:0;z-index:5;font-family:'Caveat';color:#2b211a}
+.t{position:absolute;opacity:0;white-space:nowrap;font:700 60px/1 'Caveat'}
+</style></head><body>
+<div id="labels"></div>
+<script src="brush.js"></script>
+<script>
+// A divisa entre o pasto do vizinho e a sua roça, vista de cima, em aquarela e lápis (p5.brush). Mapa ilustrativo.
+// Parte A (τ 0 a 6,2; fala 5): a porteira abre, a trilha do gado entra na roça, um trecho da cerca é derrubado.
+// Parte B (τ 6,2 em diante; fala 7): a cerca refeita é dos dois; metade de cada lado, "50% · 50%".
+const S = 1080; brush.createCanvas(S, S, { id: 'c' }); brush.scaleBrushes(1.4);
+const ease = x => x <= 0 ? 0 : x >= 1 ? 1 : x * x * (3 - 2 * x), ramp = (t, a, d) => ease((t - a) / d);
+const q = new URLSearchParams(location.search), T = k => +(q.get(k) ?? ({ porteira: 2.0, cerca: 3.8, B: 6.2, divisa: 6.9, dois: 8.8, iguais: 10.9 })[k]);
+const L = document.getElementById('labels');
+const add = (html, x, y, rot = -3, extra = '') => { const d = document.createElement('div'); d.className = 't'; d.innerHTML = html; d.style.left = x + 'px'; d.style.top = y + 'px'; d.style.transform = `rotate(${rot}deg)`; d.style.cssText += extra; L.appendChild(d); return d; };
+const poly = (pts, cor, op, bleed = .15) => { brush.noStroke(); brush.fill(cor, op); brush.fillBleed(bleed, 'out'); brush.fillTexture(.55, .35); brush.beginShape(); pts.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(true); brush.noFill(); };
+const pencil = (pts, peso = 1.6, cor = '#3a3026', close = false) => { brush.set('2B', cor, peso); brush.beginShape(); pts.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(close); };
+const DX = 540, GY0 = 330, GY1 = 430, CY0 = 600, CY1 = 700;          // divisa em x=540; porteira entre GY0 e GY1; trecho derrubado entre CY0 e CY1
+const lViz = add('pasto do vizinho', 70, 110, -4), lRoca = add('sua roça', 700, 110, 3);
+const lPort = add('porteira aberta', 610, 236, -4, 'color:#8a2a18;background:rgba(243,234,216,.8);padding:2px 10px');
+const lCerca = add('cerca derrubada', 590, 640, -3, 'color:#8a2a18;background:rgba(243,234,216,.8);padding:2px 10px');
+const lDiv = add('a cerca da divisa', 300, 14, -2, 'font-size:66px');
+const lDois = add('é dos dois', 590, 470, -4, 'font-size:64px;color:#1e4a14;background:rgba(243,234,216,.85);padding:2px 12px');
+const l50a = add('50%', 300, 520, -6, 'font-size:96px;color:#8a5a10'), l50b = add('50%', 640, 600, 4, 'font-size:96px;color:#1e4a14');
+draw = (t) => {
+  brush.seed(91); brush.noiseSeed(91); brush.clear('#f3ead8'); brush.push(); brush.translate(-S / 2, -S / 2);
+  const B = t >= T('B'), base = B ? 1 : ramp(t, 0, .8);
+  poly([[60, 180], [DX, 180], [DX, 1000], [60, 1000]], '#c8d470', 200 * base);            // pasto do vizinho
+  poly([[DX, 180], [1020, 180], [1020, 1000], [DX, 1000]], '#6cb84a', 210 * base);         // sua roça
+  for (let k = 0; k < 12; k++) pencil([[DX + 30, 210 + k * 66], [1000, 214 + k * 66]], 1.3 * base + .05, '#2e6a1e');   // fileiras de milho
+  if (!B) {
+    // cerca com a porteira e o trecho que vai cair
+    const kc = ramp(t, T('cerca'), .8);
+    pencil([[DX, 180], [DX, GY0]], 5, '#5a3a20'); pencil([[DX, GY1], [DX, CY0]], 5, '#5a3a20'); pencil([[DX, CY1], [DX, 1000]], 5, '#5a3a20');
+    for (let y = 200; y < 1000; y += 70) if ((y < GY0 || y > GY1) && (y < CY0 || y > CY1)) pencil([[DX - 12, y], [DX + 12, y]], 4, '#5a3a20');
+    if (kc < 1) pencil([[DX, CY0], [DX + 70 * kc, CY0 + 100 - 30 * kc]], 5, '#5a3a20'); else pencil([[DX + 10, CY0 + 20], [DX + 80, CY0 + 90]], 5, '#5a3a20');
+    if (kc > 0) { pencil([[DX - 24, CY0 + 30], [DX + 24, CY0 + 70]], 3.4 * kc + .05, '#8a2a18'); pencil([[DX + 24, CY0 + 30], [DX - 24, CY0 + 70]], 3.4 * kc + .05, '#8a2a18'); }
+    const kp = ramp(t, T('porteira'), .7), ang = kp * 1.2;                                     // porteira gira para o lado da roça
+    pencil([[DX, GY0], [DX + Math.sin(ang) * 100, GY0 + Math.cos(ang) * 100]], 7, '#5a3a20');
+    // trilha do gado: pegadas do pasto até o meio do milho, pela porteira
+    const kt = ramp(t, T('porteira') + .4, 2.4), n = Math.round(14 * kt);
+    for (let i = 0; i < n; i++) { const u = i / 14, x = 180 + u * 640, y = 520 - Math.sin(u * Math.PI) * 140 + (u > .55 ? (u - .55) * 260 : 0);
+      { poly([[x - 13, y - 9], [x - 2, y - 9], [x - 2, y + 9], [x - 13, y + 9]], '#5a4026', 235, .05); poly([[x + 2, y - 9], [x + 13, y - 9], [x + 13, y + 9], [x + 2, y + 9]], '#5a4026', 235, .05); } }
+    const kq = ramp(t, T('cerca') + .3, 1.2), m = Math.round(8 * kq);                         // segunda trilha pelo trecho caído
+    for (let i = 0; i < m; i++) { const u = i / 8, x = 300 + u * 520, y = 760 - u * 90; { poly([[x - 13, y - 9], [x - 2, y - 9], [x - 2, y + 9], [x - 13, y + 9]], '#5a4026', 235, .05); poly([[x + 2, y - 9], [x + 13, y - 9], [x + 13, y + 9], [x + 2, y + 9]], '#5a4026', 235, .05); } }
+  } else {
+    // parte B: cerca refeita inteira, metade de cada cor
+    const kd = ramp(t, T('divisa'), .9);
+    pencil([[DX, 180], [DX, 1000]], 5, '#5a3a20'); for (let y = 200; y < 1000; y += 70) pencil([[DX - 12, y], [DX + 12, y]], 4, '#5a3a20');
+    if (kd > 0) { pencil([[DX - 9, 180], [DX - 9, 180 + 820 * kd]], 6, '#d89a20'); pencil([[DX + 9, 180], [DX + 9, 180 + 820 * kd]], 6, '#2e8a2e'); }
+  }
+  brush.pop(); brush.render();
+  for (const l of [lViz, lRoca]) l.style.opacity = B ? 1 : ramp(t, .3, .6);
+  lPort.style.opacity = B ? 0 : ramp(t, T('porteira') + .2, .5); lCerca.style.opacity = B ? 0 : ramp(t, T('cerca') + .4, .5);
+  lDiv.style.opacity = B ? ramp(t, T('divisa'), .5) : 0; lDois.style.opacity = B ? ramp(t, T('dois'), .5) : 0;
+  l50a.style.opacity = l50b.style.opacity = B ? ramp(t, T('iguais') - .2, .5) : 0;
+};
+window.drawFrame = t => draw(t);
+window.READY = document.fonts.ready.then(() => true);
+</script></body></html>

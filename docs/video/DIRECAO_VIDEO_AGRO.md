@@ -73,6 +73,16 @@ no feed parado e na miniatura do YouTube.
 - **Entrega:** exporte também a capa como `capa.jpg` (quadro 0) e mande junto com o vídeo. Ela serve de capa do Reels e
   de miniatura do YouTube.
 
+Regras de texto da capa e do título do YouTube no padrão vencedor: `docs/video/PADRAO_CASEIRO.md`, seção 3 (pergunta
+com personagem + verbo de perda ou ganho; nunca número, sigla ou órgão sozinhos).
+
+### 2.1.2 Os 3 primeiros segundos (retenção; pedido do editor, 17/11/2026)
+- **Imagem:** a mais chamativa do vídeo, em **tela cheia** (não em moldura), já em movimento: aproximação lenta.
+  Prefira imagem real de impacto, com crédito e "IMAGEM ILUSTRATIVA" quando for de terceiros.
+- **Quebra de padrão:** aos 0,3 a 0,5 s, batida sonora grave com tranco e clarão rápidos.
+- **Pergunta da capa:** na tela até cerca de 2 s, enquanto o narrador já começa o "Você sabia…".
+- **Exemplo:** `docs/video/roteiros/fazenda-leilao-sem-juiz.md`.
+
 ### 2.1.1 Imagens inéditas em cada vídeo (pedido do editor, 11/11/2026)
 **Nenhuma imagem se repete entre vídeos**: pintura, mapa, gráfico ou foto. A tabela abaixo mostra estilos e cenas já
 feitos como referência de linguagem, não como estoque para reaproveitar. Antes de produzir, confira
@@ -115,7 +125,7 @@ o código desenha rosto mal, e foi o que derrubou a cena do Almeida Júnior.
 - Tinta azul-marinho `#13233F`, papel `#EEE8DC`, acento vermelho `#C23B22`, realce `#f0c24b`.
 - Crédito honesto na tela: "PINTURA FEITA EM CÓDIGO, À MANEIRA DE …". Cartela final com as fontes e
   os pintores.
-- Nenhuma imagem gerada por IA. Foto real só com licença conferida e crédito.
+- **IA liberada nos vídeos quando não custa nada (decisão do editor, 20/11/2026): a proibição existia só por causa de custo. Imagem e movimento gerados por IA podem entrar, desde que por caminho gratuito (modelo aberto rodando em GPU gratuita, cota grátis); serviço pago continua vetado sem aprovação. Continuam valendo: nada que se passe por fato, documento, pessoa ou lugar reais; aviso de conteúdo sintético no YouTube quando a cena for realista; crédito "IMAGEM GERADA POR IA" na tela.** Foto real só com licença conferida e crédito. Ver a seção 2.9.
 
 
 ### 2.6 Mapas e dados em aquarela (p5.brush, desde 11/11/2026)
@@ -133,7 +143,229 @@ o código desenha rosto mal, e foi o que derrubou a cena do Almeida Júnior.
 - Geometria dos estados: Natural Earth 1:10m admin-1 (domínio público) ou malha do IBGE, com a fonte
   no rodapé.
 
+### 2.7 Imagens reais (teste pedido pelo editor em 17/11/2026)
+
+O editor pediu um teste com **imagens reais de alta qualidade** de fazendas e lugares do agro, deixando a imagem feita em
+código só para o que não tiver imagem real boa. O teste começa no vídeo da aposentadoria rural.
+
+**Fontes permitidas, nesta ordem:**
+1. Vídeo ou foto do próprio editor, ou de quem autorizar **por escrito** (mensagem guardada). Para um vídeo do TikTok
+   ou do Instagram de outro criador, este é o único caminho: pedir autorização e dar crédito.
+2. Bancos com licença de uso comercial e sem pagamento, conferida na página da licença no dia do download e registrada
+   (link, autor, licença e data), como Pexels e Pixabay. Os dois sites barram acesso automático; o caminho é a API
+   oficial, com a chave do editor guardada como credencial do ambiente.
+3. Wikimedia Commons, só com licença CC BY, CC BY-SA, CC0 ou domínio público, e crédito na tela como a licença pede.
+4. Imagem pública oficial só quando a política do órgão permitir. A Agência Brasil, por exemplo, autoriza reprodução
+   para "veículos de comunicação com fins jornalísticos", mas manda pedir licença para "produções audiovisuais, redes
+   sociais aliadas a produtos" (política de reprodução lida em 17/11/2026). Por isso, ela não entra sem licença.
+
+**Não usar:** trecho de vídeo do TikTok, do Instagram ou do YouTube de terceiros sem autorização escrita. Os motivos:
+- No Brasil não existe "fair use". A Lei 9.610/1998, art. 46, traz uma lista fechada de usos livres:
+  - a citação "para fins de estudo, crítica ou polêmica, na medida justificada" (inciso III);
+  - os "pequenos trechos" de outra obra, quando "a reprodução em si não seja o objetivo principal da obra nova" e não
+    prejudique "a exploração normal da obra reproduzida" (inciso VIII).
+  - Usar o vídeo alheio como fundo de um vídeo nosso não é crítica da obra. É a própria imagem fazendo o papel principal
+    da cena.
+- Os termos das plataformas proíbem baixar e reutilizar o conteúdo de outro usuário.
+- O risco cai no perfil do editor: denúncia, remoção do vídeo e bloqueio da conta.
+- A regra do projeto já exige licença conferida e crédito (`PROMPT_VIDEO_AGRO.md`, regras do portal, item 4).
+
+**Formato react (decisão do editor, 17/11/2026):** o vídeo de outro criador, de qualquer país, pode entrar quando for
+**o objeto do comentário**, e não imagem de fundo:
+- trecho curto, só o necessário para o comentário;
+- nome do criador e origem na tela o tempo todo, com o link na legenda;
+- a narração comenta o que o criador diz;
+- o arquivo vem do editor (gravação de tela ou botão do app), nunca de raspagem.
+
+**O react é com IMAGENS, não com pessoas** (pedido do editor, 17/11/2026): imagens bonitas do assunto (lavoura,
+colheita, drone, gado, clima, porteira), que o editor usa como referência e às quais reage. Nada de vídeo de gente
+falando nem comentário sobre pessoas. As imagens saem do TikTok pela `tools/video/tiktok_baixar/baixar_tiktok.cjs`, na
+maior resolução, com o crédito do perfil na tela.
+
+**No react, a estrutura validada continua** (Padrão Caseiro e as 10 batidas), e **quem reage é o editor, com a voz
+clonada dele** (pedido de 17/11/2026). O narrador fica com o gancho, a chave, a prova e a pergunta. Na tela da reação,
+a etiqueta "DR. PELICIONI" sobre o trecho congelado, sem TV nem onda de áudio.
+
+A base é a citação do art. 46, III da Lei 9.610/1998 e, no caso de criador americano, também o fair use (comentário e
+crítica). Exemplo: `docs/video/roteiros/aposentadoria-rural-roca.md`, v2.
+
+**Resultado do teste com imagens reais (18/11/2026):**
+- "O banco leiloa a sua fazenda sem juiz?" é o único vídeo com trechos de terceiros: ~25 s de TikTok, inclusive a
+  abertura, e uma das gravações é repostagem com marca d'água de outra editora.
+- **Foi o único que o YouTube Shorts não distribuiu.** Os outros vídeos, 100% pintura e animação em código, foram bem.
+- **Hipótese principal:** conteúdo reutilizado ou reivindicação de direitos (Content ID), o que limita a distribuição.
+  A confirmar no YouTube Studio, nas restrições e direitos autorais do vídeo e na origem do tráfego ("Feed de Shorts").
+- **Regra daqui em diante:** vídeo do YouTube é 100% imagem própria (pintura e animação em código). Trecho de terceiros
+  só em react, curto, citado e com crédito, e nunca na abertura.
+
+**Espelhar ou inverter vídeo de terceiros para escapar da detecção das plataformas: não se faz** (pedido do editor em
+18/11/2026, recusado). Os motivos:
+- é técnica para esconder a reutilização dos sistemas que detectam conteúdo copiado (Content ID e afins);
+- contradiz o crédito na tela e a base legal da citação (art. 46, III, da Lei 9.610/1998 exige indicar a origem);
+- trocar o padrão de alcance pelo padrão de denúncia expõe o perfil do editor.
+
+Quando precisar de alcance, a saída é a imagem própria: animação e pintura em código, que é a base do formato.
+
+**Metadados: arquivo igual ao do ouro, sem limpeza** (decisão do editor, 19/11/2026, substitui a regra de 17/11).
+- O MP4 sai como o do caseiro e o do irmão: com a etiqueta padrão do ffmpeg e sem `-map_metadata -1`, `-fflags +bitexact`
+  nem remoção do `encoder`.
+- **Por quê:** a limpeza só tirava o nome do ffmpeg; o ouro nunca teve dado de câmera nem de data. Ela entrou junto com o
+  áudio em 96 kHz nos três vídeos que travaram, e não dá para separar as duas mudanças. Voltar ao arquivo que funcionou
+  tira as duas da conta.
+- **Arquivo de trabalho:** o arquivo continua sem caminhos ou nomes pessoais, porque nada disso entra no MP4 pelo ffmpeg.
+
+**Pessoas:** de costas, de longe ou com autorização. Nunca um rosto identificável de alguém que não autorizou.
+**Crédito:** rodapé no padrão "FOTO/VÍDEO: autor · banco · licença".
+**Registro:** cada imagem real usada entra no `CENAS_USADAS.md`, com link e licença.
+
+### 2.8 Editor no canto (formato aprovado pelo editor em 18/11/2026)
+Estreou em "Comprou a terra e não é dono?". Nas falas do editor, no lugar do clone:
+
+**Gravação**
+- O editor grava cada frase no celular, na vertical, do peito para cima, com o rosto bem iluminado.
+- O fundo pode ser qualquer um, mas sem gente atrás.
+- O roteiro manda a ele as frases num bloco de copiar e colar.
+
+**Corte**
+- Transcrever a gravação com tempo por palavra.
+- Cortar só a frase, sem as pausas.
+- O texto da fala passa a ser o que ele disse de fato. No `falas.json`, a fala leva `"origem": "gravacao_do_editor"`.
+
+**Som**
+- Filtro: `highpass=f=80,afftdn=nf=-25,acompressor=threshold=-20dB:ratio=2.5,loudnorm=I=-18:TP=-2:LRA=7`.
+- Mono, 48 kHz.
+- A voz real dele não passa pelo seletor de S, que vale só para o clone.
+
+**Fundo removido**
+- Comando: `tools/video/agro-arte/recortar_apresentador.py gravacao.mp4 INICIO FIM saida.webm`.
+- Usa o MediaPipe com o modelo selfie_multiclass (Apache-2.0).
+- Faz média entre quadros e esfuma a borda.
+- Sai WebM VP9 com transparência.
+- Não é inteligência artificial que gera imagem: é recorte da gravação real.
+
+**Na tela** (`montar_exemplo_escritura.py`, função `pres`)
+- **Posição:** canto inferior direito, 420×747 px, sobre um brilho amarelo radial.
+- **Bordas:** esfumadas à esquerda e embaixo (`mask-image`).
+- **Animação:** entra subindo 80 px e sai em fade.
+- **Legenda:** vai para a esquerda (`.capL`).
+- **Etiqueta:** "DR. PELICIONI" fica no peito, nunca sobre o rosto.
+- **Pintura:** continua ocupando o quadro; ele não cobre a pintura.
+
+**Antes do vídeo completo**
+- Prévia curta só com o trecho das falas dele, para aprovação.
+- Conferir no celular o contorno do cabelo e dos óculos.
+
+**Se faltar alguma gravação**, aquela fala fica no clone (seção 3) e o editor é avisado.
+
+### 2.9 IA gratuita na imagem (desde 20/11/2026)
+
+**Decisão do editor:** "A nossa regra que proíbe IA só existe por causa de custo. Desde que não tenha custo, pode usar IA à
+vontade."
+
+**O que entra:**
+- **Animar as nossas pinturas** (imagem → vídeo). É o uso preferido, porque a arte continua nossa e só o movimento é de IA.
+- **Cenas geradas do zero**, quando a pintura em código não alcança. Exemplos: multidão, gado andando, chuva caindo na lavoura.
+
+**Caminhos gratuitos, por ordem:**
+1. **Hugging Face Spaces (ZeroGPU):**
+   - a cota grátis é pequena (cerca de 5 min de GPU por dia na conta gratuita, e menos sem conta);
+   - serve para 1 ou 2 clipes curtos por dia.
+2. **Kaggle:**
+   - cerca de 30 h de GPU por semana, segundo fontes de terceiros;
+   - roda o Wan 2.2 (Apache 2.0) num notebook;
+   - precisa de uma conta gratuita do editor, com a chave salva nas configurações do ambiente, nunca no chat.
+3. **O computador do editor,** se tiver placa NVIDIA com 8 GB ou mais: Wan2GP, sem limite.
+
+**Primeiro teste real (20/11/2026, Kaggle, conta gratuita do editor):**
+- **Script:** `tools/video/agro-arte/ia_kaggle/wan22_ti2v_t4.py`. Ele é enviado pela API do Kaggle, com o segredo salvo no
+  ambiente, e roda privado na T4 grátis.
+- **Resultado:** a pintura da sede virou 2,5 s de clipe em 576×576, ampliado depois para 1080.
+  - O modelo leva cerca de 5 min para carregar e cerca de 41 min para gerar.
+  - Na cota de cerca de 30 h por semana, isso dá em torno de 40 clipes.
+- **Para a T4 aguentar** (16 GB de vídeo e 29 GB de RAM), foram precisos quatro ajustes:
+  - o texto é codificado primeiro e o codificador sai da memória;
+  - o modelo é descarregado em blocos (`block_level`, sem `use_stream`);
+  - a resolução fica em 576;
+  - o clipe tem 61 quadros.
+- **O que ainda precisa ajustar:**
+  - o modelo inventou um homem em primeiro plano e deslocou a mangueira;
+  - o prompt deve pedir só movimento sutil (vento, nuvem, luz), sem descrever pessoas fazendo ações, e usar guidance
+    mais baixo.
+
+**Sem custo também na ferramenta:**
+- nada de MuAPI, nem de créditos pagos da Higgsfield, nem de qualquer serviço cobrado;
+- se aparecer cobrança, a geração para.
+
+**O que continua valendo:**
+- **Nada se passa por real:** nada de documento, decisão, pessoa, lugar ou acontecimento real inventado. Fato só com fonte.
+- **Crédito na tela:** "IMAGEM GERADA POR IA", ou "PINTURA FEITA EM CÓDIGO, ANIMADA POR IA".
+- **Aviso no YouTube:** marcar "conteúdo alterado ou sintético" quando a cena for realista.
+- **Licença:** o modelo precisa de licença que permita uso comercial (Wan e Apache 2.0 permitem). Licenças lidas
+  na íntegra em 22/11/2026:
+  - **LTX-2** (LTX-2 Community License, 05/01/2026, https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2):
+    - pode, para qualquer fim, sem pagar (item 2);
+    - só paga licença comercial quem fatura US$ 10 milhões por ano ou mais (item 2);
+    - o vídeo gerado é nosso (item 5);
+    - é obrigatório avisar que o conteúdo é gerado por máquina (Anexo A, item 5);
+    - é proibido fazer deepfake de pessoa real (Anexo A, item 7).
+  - **HunyuanVideo 1.5** (Tencent Hunyuan Community License, https://huggingface.co/tencent/HunyuanVideo-1.5/blob/main/LICENSE):
+    - vale no mundo todo, menos União Europeia, Reino Unido e Coreia do Sul, e o Brasil está dentro (itens 1.l e 2);
+    - só pede licença à Tencent quem tem mais de 100 milhões de usuários por mês (item 4);
+    - o vídeo gerado é nosso (item 6.d);
+    - é obrigatório identificar o conteúdo como gerado por máquina (Anexo A, item 12);
+    - é proibido se passar por outra pessoa (Anexo A, item 13).
+  - Nas duas licenças, o aviso "IMAGEM GERADA POR IA" na tela cumpre a exigência.
+  - Licenças lidas no Hugging Face em 22/11/2026, todas Apache 2.0: **Z-Image-Turbo**, **FLUX.2 klein 4B**,
+    **Wan 2.2**.
+  - Lidas e reprovadas para o nosso uso: **FLUX.2 klein 9B** e **FLUX.2 dev** (não comerciais); **Qwen-Image-2.1**
+    (só pesquisa).
+- **Registro:** cada clipe entra no `CENAS_USADAS.md`, com o modelo e o caminho gratuito usado.
+
+**Crivo de qualidade da imagem (pedido do editor, 21/11/2026, depois de gente deformada no vídeo do CCIR):**
+- **Nada vai ao editor sem crivo:** vídeo, prévia e capa passam por `tools/video/agro-arte/crivo_qualidade.py`, e quem
+  produz abre todas as folhas e marca os itens H1 a H7 (rostos, mãos, corpo, movimento, figuras pintadas, nitidez,
+  tela). A tabela preenchida vai no roteiro, na seção "Entrega". Um item reprovado faz a cena ser refeita ou trocada.
+- **Fonte de IA com gente:** antes de entrar no vídeo, a imagem passa pelo crivo em modo imagem (recortes ampliados
+  2×). Rosto torto ou mão estranha reprova a imagem, mesmo que o resto esteja bonito.
+- **Gente da IA não se anima:** o Wan em 576 px, ampliado para 1080, derreteu rosto e mão no vídeo do CCIR. Cena de
+  IA com pessoa entra como foto parada, na resolução em que foi gerada (960 px ou mais), com movimento de câmera.
+  Animação por IA só em cena sem gente (paisagem, gado, lavoura, objetos).
+- **Cena de IA sem gente é preferível:** quando a fala pede um lugar (cartório, banco, porteira), gere o lugar e os
+  objetos sem pessoas ("no people, no hands" no pedido e "person, hands, face" no negativo).
+- **Figura pintada:** ou tem forma humana completa (cabeça com rosto, braços e mãos), ou não aparece. O boneco
+  geométrico sem braço e sem rosto está aposentado.
+
+****Foco em animação e paisagem, sem gente gerada** (pedido do editor, 22/11/2026: "evite gerar humanos porque eles
+ficam distorcidos"):
+- O padrão passa a ser pintura animada em código, paisagem e objeto. Nenhuma pessoa gerada por IA, nem como foto parada.
+- O personagem da fala 1 aparece pela palavra, pelos letreiros e pelos objetos dele (porteira, enxada, chapéu, caixa de
+  correio), nunca pelo corpo.
+- Exceção, só com o editor pedindo: foto parada de longe, conferida no crivo.
+
+Prévia realista sem virar ilustração (aprendido em 20/11/2026):** cena noturna com abajur ("night", "warm lamp light")
+fez o Wan 2.2 sair do realismo e desenhar, com corpos deformados. O pedido corrigido funcionou:
+- abrir com "RAW photo, DSLR photograph, real people";
+- usar "evening", "dusk" e "tungsten ceiling bulb" em vez de noite fechada;
+- fechar com "film grain, natural skin texture, documentary photojournalism";
+- somar ao negativo "flat illustration, vector art, drawing, stylized".
+
 ## 3. Voz e som
+
+**Voz do editor sem "S" chiado (pedido do editor, 17/11/2026).** Gerado com as configurações antigas (style 0,25,
+similarity 0,85), o clone puxava o "S" carioca no fim de sílaba: "desses", "resto", "juiz".
+- **Medição:** razão entre a energia de 5 a 11 kHz (o "s" neutro) e a de 2 a 4,5 kHz (o chiado), no trecho de cada
+  "s" marcado pela transcrição com tempo por letra.
+- **Antes da correção:** de 0,15 a 0,65 nas três palavras.
+- **Depois da correção:** de 4,8 a 20,9.
+- **Regra para o editor:**
+  - sempre `tools/video/agro-arte/voz_editor_s_neutro.py`;
+  - modelo eleven_multilingual_v2, style 0, stability de 0,65 a 0,80, similarity de 0,60 a 0,70;
+  - de 6 a 8 candidatas, fica a de maior nota com a transcrição conferida;
+  - o eleven_turbo_v2_5 chiou mais que todos e fica fora;
+  - o relatório (`voz/s_neutro_relatorio.json`) vai junto com a pasta do vídeo.
+- **Ao escrever a fala do editor:** evitar o S antes de consoante quando houver sinônimo natural ("papel" no lugar de
+  "escritura", "o restante" no lugar de "o resto"). O "es-" inicial ("escritura", "está") é onde o clone mais chia.
+- **Narrador:** a regra não muda. O "S" dele já é neutro: nota 544 na mesma medida.
 - Narrador "Marcio - Viral Hook Narrator" (ElevenLabs `plASsyS7JE6GCAvx9uIc`). **Desde 11/11/2026, gravar todas as falas no
   `eleven_multilingual_v2`** (`tools/video/agro-arte/gerar_vozes_v2.py`): o `eleven_v3` puxou sotaque de Portugal.
   - **Se uma fala sair com sotaque de Portugal**, regerar com `eleven_multilingual_v2` na mesma voz.
@@ -157,6 +389,14 @@ o código desenha rosto mal, e foi o que derrubou a cena do Almeida Júnior.
   - **Conferência:** a transcrição do arquivo final precisa trazer a narração inteira.
   - Efeitos de papel, carimbo e whoosh nas entradas.
   - Entrega a −14,5 LUFS e −1,5 dBTP.
+  - **Áudio do arquivo final sempre em 48 kHz** (a taxa que o YouTube recomenda; correção de 19/11/2026).
+    - O `loudnorm` sobe a taxa internamente. Sem `-ar 48000` na saída, o AAC sai em 96 kHz.
+    - Foi o que aconteceu, por erro, nos vídeos da escritura, da pequena propriedade e do herdeiro; o caseiro e o irmão
+      estavam em 48 kHz.
+    - Comando completo da entrega (padrão desde 19/11/2026, igual ao do ouro):
+      `ffmpeg -i render.mp4 -af "loudnorm=I=-14.5:TP=-2:LRA=11,alimiter=limit=0.83:level=disabled,aresample=48000" -ar 48000 -c:v libx264 -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k -movflags +faststart final.mp4`
+      (sem limpeza de metadados).
+    - Conferir antes de entregar: `ffprobe -select_streams a -show_entries stream=sample_rate` precisa dar 48000.
 
 ## 4. Entrega
 Mandar sempre junto com o vídeo:

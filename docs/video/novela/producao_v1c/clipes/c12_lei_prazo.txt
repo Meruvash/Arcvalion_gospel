@@ -1,0 +1,15 @@
+Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.
+
+@Image1 is Dr. Pelicioni: the man of his reference sheet, short dark hair, trimmed beard, dark-rimmed glasses with clear transparent lenses, navy blue blazer with a blue polka-dot pocket square, light-blue open-collar shirt, grey trousers.
+@Audio1 is the voice of @Image1, Dr. Pelicioni: every line Dr. Pelicioni speaks is in this voice.
+
+Setting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.
+Every shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.
+
+0-7 s: close-up, static. @Image1 Dr. Pelicioni turns his head toward Tavares off camera and speaks without raising his voice, calm.
+
+@Image1 Dr. Pelicioni says in Brazilian Portuguese (calm, low): "E ninguém contou pra dona Rosa. Cento e oitenta dias pra ela depositar o preço."
+The line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.
+Every spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.
+No background music. Only natural ambient sound of the place.
+Every character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic.

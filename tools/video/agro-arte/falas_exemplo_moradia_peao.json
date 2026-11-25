@@ -1,0 +1,12 @@
+[
+  {"id": 1, "quem": "narrador", "texto": "O peão que mora de graça na sua fazenda está ganhando um favor? Pode estar ganhando salário, e a conta cai no seu bolso."},
+  {"id": 2, "quem": "narrador", "texto": "A explicação está em duas palavras: contrato escrito."},
+  {"id": 3, "quem": "narrador", "texto": "Pela lei do trabalho rural, a casa cedida ao peão só fica fora do salário se isso estiver num contrato escrito."},
+  {"id": 4, "quem": "narrador", "texto": "A lei diz que esse contrato precisa de testemunhas e de aviso obrigatório ao sindicato dos trabalhadores rurais."},
+  {"id": 5, "quem": "narrador", "texto": "Sem esse papel, a casa pode ser somada ao salário e entrar na conta das férias, do décimo terceiro e do fundo de garantia."},
+  {"id": 6, "quem": "narrador", "texto": "E ele pode cobrar isso na Justiça até dois anos depois de sair da fazenda."},
+  {"id": 7, "quem": "narrador", "texto": "Agora, cuidado: tem juiz que dispensa o contrato quando morar ali é indispensável pro trabalho, como quem vigia o gado de noite."},
+  {"id": 8, "quem": "narrador", "texto": "Mas cada tribunal decide de um jeito, e só o papel assinado evita a briga antes que ela comece."},
+  {"id": 9, "quem": "narrador", "texto": "Na sua fazenda, alguém mora na casa que você cedeu sem nada assinado?"},
+  {"id": 10, "quem": "editor", "texto": "Eu sou o Dr. Pelicioni, advogado. Na casa do peão, o que não está no papel vira conta. Me segue pra proteger a sua terra."}
+]

@@ -1,0 +1,168 @@
+{
+ "duracao_s": 75,
+ "aviso_dramatizacao": true,
+ "protagonista": "Dr. Pelicioni",
+ "titulo": "Terra Arrendada · V3 «Quem conversa é a lei» (humilde tem o poder, C4/C9) · protagonista Dr. Pelicioni",
+ "batidas": [
+  {
+   "t": 0,
+   "fim": 3,
+   "tipo": "GANCHO",
+   "quem": "Valdir",
+   "modo": "texto",
+   "fala": "Comprei a fazenda. O senhor tem até a colheita pra sumir daqui.",
+   "tela": "Grupo «Vila do Jatobá 🌽». Etiqueta VALDIR · o novo dono",
+   "marcas": [
+    "ataque",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 3,
+   "fim": 9,
+   "tipo": "HUMILHACAO",
+   "quem": "Valdir",
+   "modo": "audio",
+   "fala": "Arrendatário não é dono de nada, seu Antônio. O senhor só planta no que é meu.",
+   "tela": "Balão de áudio; vizinhos visualizam",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 9,
+   "fim": 15,
+   "tipo": "HUMILHACAO",
+   "quem": "Valdir",
+   "modo": "texto",
+   "fala": "Paguei um milhão e duzentos à vista, com o dinheiro da herança. Pode ir encaixotando.",
+   "tela": "Foto da placa «VENDIDO» na porteira (IA, sem gente)",
+   "marcas": [
+    "dinheiro",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 15,
+   "fim": 21,
+   "tipo": "PROVA_DESPREZADA",
+   "quem": "Valdir",
+   "modo": "audio",
+   "fala": "Contrato de arrendamento? Isso é papel de pão. Ninguém avisa arrendatário.",
+   "tela": "Antônio mandou foto do contrato dele, com carimbo (objeto fictício)",
+   "marcas": [
+    "objeto:contrato",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 21,
+   "fim": 27,
+   "tipo": "DESCRENCA",
+   "quem": "Cleide",
+   "modo": "texto",
+   "fala": "Seu Antônio agora inventou de ser advogado 😂",
+   "tela": "Duas reações 😂",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 27,
+   "fim": 33,
+   "tipo": "TRANSICAO",
+   "quem": "Antônio",
+   "modo": "audio",
+   "fala": "Doutor, são quarenta anos plantando aqui. Vou ter que sair?",
+   "tela": "Lavoura de milho ao entardecer (IA, sem gente); áudio enviado a «Dr. Pelicioni ✔»",
+   "marcas": []
+  },
+  {
+   "t": 33,
+   "fim": 38,
+   "tipo": "TRANSICAO",
+   "quem": "Sistema",
+   "modo": "tela",
+   "fala": "Chamada de vídeo de Dr. Pelicioni.",
+   "tela": "Tela de chamada recebida, com a foto real dele",
+   "marcas": []
+  },
+  {
+   "t": 38,
+   "fim": 46,
+   "tipo": "REVELACAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Seu Antônio, o senhor tem preferência pra comprar. O dono tinha que lhe avisar e dar trinta dias.",
+   "tela": "Vídeo real; cartão 1 (Decreto 59.566/1966, art. 45, literal) sobre o contrato",
+   "marcas": [
+    "objeto:contrato",
+    "poder_escondido"
+   ],
+   "fonte": "https://www.planalto.gov.br/ccivil_03/decreto/antigos/d59566.htm"
+  },
+  {
+   "t": 46,
+   "fim": 54,
+   "tipo": "LEI",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Ninguém avisou. Então o senhor deposita o mesmo preço e a terra fica com o senhor. Prazo: seis meses do registro.",
+   "tela": "Vídeo real; cartão 2 (art. 47, literal)",
+   "marcas": [
+    "objeto:contrato"
+   ],
+   "fonte": "https://www.planalto.gov.br/ccivil_03/decreto/antigos/d59566.htm"
+  },
+  {
+   "t": 54,
+   "fim": 59,
+   "tipo": "TRANSICAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Daqui a pouco o Valdir vai lhe perguntar se dá pra conversar com calma.",
+   "tela": "Vídeo real, fala baixa e pausada",
+   "marcas": [
+    "previsao"
+   ]
+  },
+  {
+   "t": 59,
+   "fim": 63,
+   "tipo": "QUEDA",
+   "quem": "Valdir",
+   "modo": "texto",
+   "fala": "Seu Antônio, vamos conversar com calma?",
+   "tela": "Chega exatamente a mensagem prevista",
+   "marcas": [
+    "previsao_cumprida"
+   ]
+  },
+  {
+   "t": 63,
+   "fim": 70,
+   "tipo": "PROTECAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Pode responder que sim, seu Antônio. Agora quem conversa é a lei.",
+   "tela": "Close real; no grupo, Cleide apaga o 😂 e chovem 👏",
+   "marcas": []
+  },
+  {
+   "t": 70,
+   "fim": 75,
+   "tipo": "GANCHO_FINAL",
+   "quem": "Cleide",
+   "modo": "texto",
+   "fala": "Confere a data do teu contrato, seu Antônio. Venceu ontem.",
+   "tela": "Tela congela; «PARTE 2»",
+   "marcas": []
+  }
+ ],
+ "elenco": [
+  "Dr. Pelicioni",
+  "Antônio",
+  "Valdir",
+  "Cleide"
+ ]
+}

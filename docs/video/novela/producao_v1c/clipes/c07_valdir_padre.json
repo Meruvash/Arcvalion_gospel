@@ -1,0 +1,37 @@
+{
+ "id": "c07_valdir_padre",
+ "duracao": 5,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "terreiro",
+ "personagens": [
+  "Valdir",
+  "Rosa"
+ ],
+ "voz": "Valdir",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 3,
+   "quadro": "close-up",
+   "camera": "static",
+   "quem": "Valdir",
+   "acao": "laughs and speaks",
+   "expressao": "mocking",
+   "fala": true
+  },
+  {
+   "de": 3,
+   "ate": 5,
+   "quadro": "close-up",
+   "camera": "static",
+   "quem": "Rosa",
+   "acao": "clutches the old book against her chest in silence",
+   "expressao": "eyes wet"
+  }
+ ],
+ "fala": {
+  "texto": "Chamou quem? O padre?",
+  "emocao": "mocking laugh",
+  "inicio": 0.4
+ }
+}

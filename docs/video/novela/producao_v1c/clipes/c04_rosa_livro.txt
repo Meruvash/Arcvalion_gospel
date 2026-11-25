@@ -1,0 +1,16 @@
+Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.
+
+@Image1 is Rosa: the woman of her reference sheet, mid-fifties, grey-streaked hair tied back, floral cotton blouse in soft pink and green.
+@Audio1 is the voice of @Image1, Rosa: every line Rosa speaks is in this voice.
+
+Setting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.
+Every shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.
+
+0-2.5 s: medium shot, static. @Image1 Rosa crouches and picks up the old leather book from the red dirt, wiping the cover with her sleeve, hurt.
+2.5-8 s: close-up, slow push in. @Image1 Rosa stands holding the book against her chest and speaks, her voice cracking, eyes wet, holding back tears.
+
+@Image1 Rosa says in Brazilian Portuguese (hurt, voice cracking, firm): "Esse livro era do nosso pai, Valdir. Tá tudo escrito aqui."
+The line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.
+Every spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.
+No background music. Only natural ambient sound of the place.
+Every character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic.

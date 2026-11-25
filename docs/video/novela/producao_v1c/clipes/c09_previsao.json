@@ -1,0 +1,27 @@
+{
+ "id": "c09_previsao",
+ "duracao": 8,
+ "modelo": "seedance_2_5",
+ "cenario": "terreiro",
+ "personagens": [
+  "Dr. Pelicioni"
+ ],
+ "voz": "Dr. Pelicioni",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 8,
+   "quadro": "close-up",
+   "camera": "static, eye level",
+   "quem": "Dr. Pelicioni",
+   "acao": "stands still facing Valdir off camera and speaks",
+   "expressao": "calm, a faint half smile",
+   "fala": true
+  }
+ ],
+ "fala": {
+  "texto": "Boa tarde. O seu Valdir vai dizer que a parte é dele e vende pra quem quiser.",
+  "emocao": "calm, low, slow",
+  "inicio": 0.5
+ }
+}

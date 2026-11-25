@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Dois compradores, um registro</title>
+<style>
+@font-face{font-family:'Caveat';src:url(caveat-700.woff2) format('woff2');font-weight:700}
+html,body{margin:0;width:1080px;height:1080px;overflow:hidden;background:#f3ead8}
+#c{position:absolute;left:0;top:0;z-index:1}
+#labels{position:absolute;inset:0;z-index:5;font-family:'Caveat';color:#2b211a}
+.t{position:absolute;opacity:0;white-space:nowrap;font:700 58px/1 'Caveat'}
+.selo{position:absolute;opacity:0;font:900 44px/1 Georgia,serif;letter-spacing:.06em;padding:10px 18px;border:6px solid;border-radius:10px;transform-origin:center}
+</style></head><body>
+<div id="labels"></div>
+<script src="brush.js"></script>
+<script>
+// Mapa ilustrativo em aquarela e lápis (p5.brush). Fala 5: a mesma terra vendida duas vezes; o carimbo do registro vai para o
+// segundo comprador e a terra muda de cor. Fala 6: o protocolo do cartório. Fala 7: o caminho até o cartório de imóveis da região.
+const S = 1080; brush.createCanvas(S, S, { id: 'c' }); brush.scaleBrushes(1.4);
+const ease = x => x <= 0 ? 0 : x >= 1 ? 1 : x * x * (3 - 2 * x), ramp = (t, a, d) => ease((t - a) / d);
+const q = new URLSearchParams(location.search), T = k => +(q.get(k) ?? ({ outro: 1.6, registrar: 3.0, muda: 3.6, protocolo: 6.3, entrada: 9.2, regiao: 12.9 })[k]);
+const L = document.getElementById('labels');
+const add = (html, x, y, rot = -3, extra = '', cls = 't') => { const d = document.createElement('div'); d.className = cls; d.innerHTML = html; d.style.left = x + 'px'; d.style.top = y + 'px'; d.style.transform = `rotate(${rot}deg)`; d.style.cssText += extra; L.appendChild(d); return d; };
+const poly = (pts, cor, op, bleed = .15) => { brush.noStroke(); brush.fill(cor, op); brush.fillBleed(bleed, 'out'); brush.fillTexture(.55, .35); brush.beginShape(); pts.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(true); brush.noFill(); };
+const pencil = (pts, peso = 1.6, cor = '#3a3026', close = false) => { brush.set('2B', cor, peso); brush.beginShape(); pts.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(close); };
+const TERRA = [[140, 200], [700, 170], [760, 520], [640, 760], [180, 720], [110, 450]];
+const lTit = add('a mesma terra', 300, 50, -2, 'font-size:68px');
+const lVoce = add('você · escritura', 190, 330, -5, 'color:#1e4a8a');
+const lOutro = add('outro comprador · escritura', 230, 470, -4, 'color:#8a2a18');
+const sReg = add('REGISTRADO', 560, 560, -12, 'color:#b0281a;border-color:#b0281a;background:rgba(243,234,216,.85)', 'selo');
+const lProt = add('protocolo do cartório<br>vale desde a entrada', 700, 680, -3, 'font-size:44px;line-height:1.05');
+const lCart = add('cartório de imóveis<br>da região', 745, 335, 3, 'font-size:44px;line-height:1.05;color:#1e4a14');
+draw = (t) => {
+  brush.seed(23); brush.noiseSeed(23); brush.clear('#f3ead8'); brush.push(); brush.translate(-S / 2, -S / 2);
+  const base = ramp(t, 0, .8), km = ramp(t, T('muda'), 1.2);
+  if (base > 0) {
+    poly(TERRA, km < .5 ? '#86bc56' : '#d8845a', (200 - 60 * Math.min(km, .5) * 2 + (km > .5 ? 60 * (km - .5) * 2 : 0)) * base);
+    pencil([...TERRA, TERRA[0]], 2.4 * base + .05, '#5a3a20');
+    poly([[360, 560], [430, 560], [430, 610], [360, 610]], '#fff6dc', 255 * base, .04); poly([[350, 562], [395, 530], [440, 562]], '#8a2a18', 255 * base, .04);   // casa
+    for (let k = 0; k < 5; k++) pencil([[190, 250 + k * 40], [600, 230 + k * 40]], 1.2 * base + .05, '#3a6a24');
+  }
+  const kv = ramp(t, T('muda') + .6, .8);                                   // o nome de "você" é riscado
+  if (kv > 0) pencil([[180, 360], [180 + 330 * kv, 345]], 4, '#2b211a');
+  const kc = ramp(t, T('regiao') - .3, 2.0);                                // caminho até o cartório da região
+  if (kc > 0) { const pts = [[730, 360], [800, 330], [860, 300], [920, 270], [960, 250]]; const n = Math.max(2, Math.round(pts.length * kc));
+    pencil(pts.slice(0, n), 3, '#1e4a14');
+    if (kc > .95) { poly([[940, 200], [1030, 200], [1030, 270], [940, 270]], '#e8e0cc', 255, .04); poly([[930, 202], [985, 164], [1040, 202]], '#4a5a6a', 255, .04); pencil([[940, 200], [1030, 200], [1030, 270], [940, 270]], 2, '#2b211a', true); } }
+  brush.pop(); brush.render();
+  lTit.style.opacity = ramp(t, .3, .6); lVoce.style.opacity = ramp(t, .5, .6) * (1 - .5 * kv);
+  lOutro.style.opacity = ramp(t, T('outro'), .6);
+  const ks = ramp(t, T('registrar') - .05, .25); sReg.style.opacity = ks; sReg.style.transform = `rotate(-12deg) scale(${1.8 - .8 * ks})`;
+  lProt.style.opacity = ramp(t, T('protocolo'), .5) * (1 - ramp(t, T('regiao') - .6, .4));
+  lCart.style.opacity = ramp(t, T('regiao') + 1.2, .5);
+};
+window.drawFrame = t => draw(t);
+window.READY = document.fonts.ready.then(() => true);
+</script></body></html>

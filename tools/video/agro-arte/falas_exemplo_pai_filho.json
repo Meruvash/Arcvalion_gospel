@@ -1,0 +1,62 @@
+[
+ {
+  "id": 1,
+  "quem": "narrador",
+  "texto": "Você sabia que o seu pai pode vender a fazenda pra um estranho sem te perguntar nada, mas, se vender pra um irmão seu, precisa da sua assinatura?",
+  "fala": "Você sabia que o seu pai pode vender a fazenda pra um estranho sem te perguntar nada, mas, se vender pra um irmão seu, precisa da sua assinatura?"
+ },
+ {
+  "id": 2,
+  "quem": "narrador",
+  "texto": "A explicação está numa palavra: anuência.",
+  "fala": "A explicação está numa palavra: anuência."
+ },
+ {
+  "id": 3,
+  "quem": "narrador",
+  "texto": "Quando o pai vende pra um filho, os outros irmãos e a esposa dele precisam concordar, por escrito.",
+  "fala": "Quando o pai vende pra um filho, os outros irmãos e a esposa dele precisam concordar, por escrito."
+ },
+ {
+  "id": 4,
+  "quem": "narrador",
+  "texto": "O Código Civil diz que, sem esse consentimento, a venda pode ser anulada.",
+  "fala": "O Código Civil diz que, sem esse consentimento, a venda pode ser anulada."
+ },
+ {
+  "id": 5,
+  "quem": "narrador",
+  "texto": "É a proteção pra que um filho não leve a fazenda por preço de amigo e os outros fiquem sem a parte deles.",
+  "fala": "É a proteção pra que um filho não leve a fazenda por preço de amigo e os outros fiquem sem a parte deles."
+ },
+ {
+  "id": 6,
+  "quem": "narrador",
+  "texto": "Agora, o prazo é curto: são dois anos, contados do registro da venda no cartório.",
+  "fala": "Agora, o prazo é curto: são dois anos, contados do registro da venda no cartório."
+ },
+ {
+  "id": 7,
+  "quem": "narrador",
+  "texto": "Passou disso, mesmo sem a sua assinatura, a venda fica valendo.",
+  "fala": "Passou disso, mesmo sem a sua assinatura, a venda fica valendo."
+ },
+ {
+  "id": 8,
+  "quem": "narrador",
+  "texto": "Já a doação pra um filho não precisa da sua assinatura, mas conta como adiantamento da herança dele.",
+  "fala": "Já a doação pra um filho não precisa da sua assinatura, mas conta como adiantamento da herança dele."
+ },
+ {
+  "id": 9,
+  "quem": "narrador",
+  "texto": "Alguém da sua família comprou terra do pai sem os outros irmãos assinarem?",
+  "fala": "Alguém da sua família comprou terra do pai sem os outros irmãos assinarem?"
+ },
+ {
+  "id": 10,
+  "quem": "editor",
+  "texto": "Eu sou o Dr. Pelicioni, advogado. Na venda de pai pra filho, quem deixa o prazo passar perde a chance de anular. Me segue pra proteger a herança da sua família.",
+  "fala": "Eu sou o Dr. Pelicioni, advogado. Na venda de pai pra filho, quem deixa o prazo passar perde a chance de anular. Me segue pra proteger a herança da sua família."
+ }
+]

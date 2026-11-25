@@ -1,0 +1,27 @@
+{
+ "id": "c05_cleide_ninguem",
+ "duracao": 5,
+ "modelo": "seedance_2_0_mini",
+ "cenario": "terreiro",
+ "personagens": [
+  "Cleide"
+ ],
+ "voz": "Cleide",
+ "planos": [
+  {
+   "de": 0,
+   "ate": 5,
+   "quadro": "close-up",
+   "camera": "static",
+   "quem": "Cleide",
+   "acao": "holds her phone up filming Rosa off camera, the screen facing away from the camera, and speaks",
+   "expressao": "mocking laugh",
+   "fala": true
+  }
+ ],
+ "fala": {
+  "texto": "Para de inventar lei, Rosinha. Ninguém vai te ajudar.",
+  "emocao": "mocking, sweet poison",
+  "inicio": 0.5
+ }
+}

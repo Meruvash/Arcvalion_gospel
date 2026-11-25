@@ -1,0 +1,56 @@
+[
+ {
+  "id": 1,
+  "quem": "narrador",
+  "texto": "Você sabia que, se a sua fazenda está em alienação fiduciária, o banco pode tomá-la e leiloar sem passar por juiz, e, se o leilão não pagar tudo, você continua devendo?",
+  "fala": "Você sabia que, se a sua fazenda está em alienação fiduciária, o banco pode tomá-la e leiloar sem passar por juiz, e, se o leilão não pagar tudo, você continua devendo?"
+ },
+ {
+  "id": 2,
+  "quem": "narrador",
+  "texto": "O nome disso é alienação fiduciária: no papel, a fazenda passa para o banco até você quitar.",
+  "fala": "O nome disso é... alienação fiduciária: no papel, a fazenda passa para o banco até você quitar."
+ },
+ {
+  "id": 3,
+  "quem": "editor",
+  "texto": "Olha só essa fazenda. Num contrato desses, quem atrasa a parcela recebe a intimação do cartório, não do juiz.",
+  "fala": "Olha só essa fazenda. Num contrato desses, quem atrasa a parcela recebe a intimação do cartório, não do juiz."
+ },
+ {
+  "id": 4,
+  "quem": "narrador",
+  "texto": "A lei diz: o cartório intima você a pagar em 15 dias. Se não pagar, a fazenda passa para o nome do banco.",
+  "fala": "A lei diz: o cartório intima você a pagar em quinze dias. Se não pagar, a fazenda passa para o nome do banco."
+ },
+ {
+  "id": 5,
+  "quem": "narrador",
+  "texto": "Depois vêm dois leilões. No segundo, se ninguém cobrir a dívida, o banco pode aceitar metade da avaliação.",
+  "fala": "Depois vêm dois leilões. No segundo, se ninguém cobrir a dívida, o banco pode aceitar metade da avaliação."
+ },
+ {
+  "id": 6,
+  "quem": "editor",
+  "texto": "E o pior: se o leilão não cobrir a dívida, você continua devendo o resto.",
+  "fala": "E o pior: se o leilão não cobrir a dívida, você continua devendo o resto."
+ },
+ {
+  "id": 7,
+  "quem": "narrador",
+  "texto": "Até o segundo leilão, você ainda pode recomprar a fazenda pelo valor da dívida e das despesas.",
+  "fala": "Até o segundo leilão, você ainda pode recomprar a fazenda pelo valor da dívida e das despesas."
+ },
+ {
+  "id": 8,
+  "quem": "narrador",
+  "texto": "A sua fazenda está em alienação fiduciária, e você sabe o que diz o seu contrato?",
+  "fala": "A sua fazenda está em alienação fiduciária, e você sabe o que diz o seu contrato?"
+ },
+ {
+  "id": 9,
+  "quem": "editor",
+  "texto": "Eu sou o Dr. Pelicioni, advogado. Na alienação fiduciária, o prazo corre no cartório. Me segue pra proteger a sua fazenda.",
+  "fala": "Eu sou o Dr. Pelicioni, advogado. Na alienação fiduciária, o prazo corre no cartório. Me segue pra proteger a sua fazenda."
+ }
+]

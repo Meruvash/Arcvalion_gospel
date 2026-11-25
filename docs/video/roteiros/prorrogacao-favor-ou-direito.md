@@ -1,0 +1,163 @@
+# "Prorrogar a dívida rural é favor do banco?" — roteiro v1 (17/11/2026)
+
+- **Pauta:** eixo A (dívida e crédito rural), na nova linha do editor (17/11/2026): só dívida rural e regularização
+  fundiária. É a pauta "Cinco palavras", que tinha sido adiada pelo rodízio e agora volta no Padrão Caseiro.
+- **Demanda:** o Google sugere "prorrogação de dívida rural **2026**", "…**jurisprudência**", "…**mcr**", "**ação de**
+  prorrogação de dívida rural" e "alongamento de dívida rural **vencida**" (consulta de 17/11/2026).
+- **Crivo do Caseiro:** 14/16.
+  - Notas 2: personagem (o gerente do banco), dívida e safra de quem assiste, mito × ameaça, palavra-chave, prova
+    oficial e pergunta final.
+  - Nota 1: autocomplete parecido, mas não igual; validade, porque o STJ ainda pode decidir.
+- **Formato:** 1080×1080, cerca de 58 s.
+  - Narrador e editor: o editor fala nas reações e na conclusão.
+  - Trilha agronejo.
+  - Espaço para **react**, se aparecer um vídeo bom (ver "React" abaixo).
+- **Capa (quadro 0):** etiqueta "DÍVIDA RURAL", título gigante "PRORROGAR É FAVOR DO BANCO?" e a linha "o STJ diz que não.
+  Mas tem uma regra nova".
+
+| # | Batida | Quem | Fala | Imagem |
+|---|---|---|---|---|
+| 1 | Gancho (mito × ameaça) | Narrador | "Você sabia que, quando o gerente diz que prorrogar a sua dívida rural é favor do banco, o STJ diz o contrário, mas, desde julho, uma regra nova escreveu o que o banco queria?" | Capa; lavoura com a colheita atrasada, céu pesado |
+| 2 | Chave | Narrador | "Tudo está em cinco palavras: por sua conveniência e decisão." | As cinco palavras a espátula |
+| 3 | A regra nova | Narrador | "Desde julho, o Manual de Crédito Rural diz que o banco está autorizado a prorrogar por sua conveniência e decisão, e que ele mesmo atesta se você pode pagar." | **Cartão 1:** Res. CMN 5.314/2026 (MCR 2-6-4), com as cinco palavras realçadas |
+| 4 | Antes | Narrador | "Antes, o texto dizia só que o banco estava autorizado a prorrogar." | Os dois textos lado a lado; as cinco palavras entrando |
+| 5 | Reação 1 | **Editor** | "Só que o Superior Tribunal de Justiça tem uma súmula sobre isso há mais de vinte anos." | **Cartão 2:** Súmula 298 do STJ ("não constitui faculdade da instituição financeira, mas, direito do devedor") |
+| 6 | As situações | Narrador | "E a prorrogação depende de um motivo: dificuldade de vender, frustração de safra ou outro problema que prejudique a lavoura." | Seca, granizo e armazém cheio, em pintura |
+| 7 | Reação 2 (virada) | **Editor** | "Agora, a briga que ainda não acabou: vale a súmula ou a resolução? Nenhum tribunal superior decidiu isso até agora." | Balança pintada: súmula × resolução |
+| 8 | Pergunta | Narrador | "O seu banco já te negou uma prorrogação dizendo que era favor?" | Agência de banco na cidade do interior, ao fim do dia |
+| 9 | Conclusão | Editor | "Eu sou o Dr. Pelicioni, advogado. Na dívida rural, o não do gerente não é a última palavra. Me segue pra defender a sua safra." | Cartela |
+
+## Fatos
+- **Res. CMN 5.314, de 25/6/2026 (MCR 2-6-4)**, relida no BCB em 17/11/2026:
+  - endereço: https://www.bcb.gov.br/api/conteudo/app/normativos/exibenormativo?p1=Resolução%20CMN&p2=5314
+  - texto: "Fica a instituição financeira autorizada, por sua conveniência e decisão, mediante solicitação do mutuário, a
+    prorrogar a dívida […] desde que o mutuário comprove a dificuldade temporária para reembolso do crédito em razão de
+    uma ou mais entre as situações abaixo e que a instituição financeira ateste a necessidade de prorrogação e demonstre
+    a capacidade de pagamento do mutuário".
+- **Texto anterior (Res. CMN 4.905/2021)**, lido em 10/11/2026: "Fica a instituição financeira autorizada a prorrogar a
+  dívida…", sem "por sua conveniência e decisão" (`PROMPT_VIDEO_AGRO.md`, F3).
+- **As situações do MCR 2-6-4** (Res. CMN 4.883/2020, mantidas): "a) dificuldade de comercialização dos produtos;
+  b) frustração de safras, por fatores adversos; c) eventuais ocorrências prejudiciais ao desenvolvimento das
+  explorações" (F2).
+- **Súmula 298 do STJ** (2ª Seção, 18/10/2004, DJ 22/11/2004): "O alongamento de dívida originada de crédito rural não
+  constitui faculdade da instituição financeira, mas, direito do devedor nos termos da lei" (F4).
+
+## Cuidados
+- **"Nenhum tribunal superior decidiu" (fala 7)** foi checado em 10/11/2026. É preciso conferir de novo no STJ e no STF
+  antes do render. Se houver decisão, a fala muda.
+- **Os dois lados:** a fala 7 deixa a disputa aberta, sem dizer quem vence (regra do portal sobre pontos em disputa).
+- **"O não do gerente não é a última palavra" (fala 9)** é informação, não promessa de resultado (Provimento 205/2021).
+- **Imagens:** pintura em código e, se houver react, o trecho do criador com crédito o tempo todo (direção, seção 2.7).
+
+## React (opcional)
+A biblioteca do Virlo tem poucos vídeos sobre prorrogação de dívida rural (busca de 17/11/2026). Há duas saídas:
+- uma pesquisa nova no Virlo, que custa US$ 0,50 e só começa com o "sim" do editor;
+- um vídeo que o próprio editor indicar.
+
+O trecho entra entre as falas 1 e 5 e é comentado pelo editor na reação 1.
+
+---
+
+# Roteiro v2 (17/11/2026): com react de reportagem do Canal do Boi
+
+## O vídeo comentado (achado no YouTube em 17/11/2026; transcrição pelo Virlo)
+- **Reportagem:** "Farsul alerta produtores do RS sobre novas regras para alongamento de dívidas rurais", Canal do Boi
+  (oficial), de cerca de 4 meses atrás, com 1.564 visualizações.
+  - Endereço: https://www.youtube.com/watch?v=JRYKhPZGAPU
+  - É uma reportagem, não vídeo de colega advogado: evita a questão de ética de comentar outro advogado.
+- **Trecho A (cerca de 27,4 s a 40 s), fala da repórter:** "A partir de agora, as instituições financeiras passam a avaliar
+  cada pedido de alongamento dos contratos considerando a situação do produtor e a capacidade de pagamento."
+- **Trecho B (cerca de 175,8 s a 189,8 s), opcional:** "A Farsul alerta ainda que o decreto de situação de emergência do
+  município, sozinho, não garante direito à prorrogação […]"
+- **Antes do render:** conferir os dois trechos pela nossa transcrição do arquivo baixado.
+
+## Estrutura (cerca de 60 s)
+
+| # | Quem | Fala ou trecho |
+|---|---|---|
+| 1 | Narrador | "Você sabia que, quando o gerente diz que prorrogar a sua dívida rural é favor do banco, o STJ diz o contrário, mas, desde julho, uma regra nova escreveu o que o banco queria?" |
+| 2 | Narrador | "Tudo está em cinco palavras: por sua conveniência e decisão." |
+| 3 | **Trecho A** | Repórter do Canal do Boi: "A partir de agora, as instituições financeiras passam a avaliar cada pedido…" (moldura com "Canal do Boi · YouTube") |
+| 4 | **Editor (reação 1)** | "Avaliar, sim. Mas o Superior Tribunal de Justiça tem súmula há mais de vinte anos: prorrogar não é favor, é direito do devedor." (Cartão: Súmula 298) |
+| 5 | Narrador | "A resolução diz que o banco está autorizado a prorrogar por sua conveniência e decisão, e que ele mesmo atesta se você pode pagar." (Cartão: Res. CMN 5.314) |
+| 6 | Narrador | "E o pedido depende de um motivo: dificuldade de vender, frustração de safra ou outro problema que prejudique a lavoura." |
+| 7 | **Editor (reação 2, virada)** | "E a briga ainda não acabou: vale a súmula ou a resolução? Nenhum tribunal superior decidiu isso até agora." |
+| 8 | Narrador | "O seu banco já te negou uma prorrogação dizendo que era favor?" |
+| 9 | Editor | "Eu sou o Dr. Pelicioni, advogado. Na dívida rural, o não do gerente não é a última palavra. Me segue pra defender a sua safra." |
+
+---
+
+# Roteiro v3 (17/11/2026): react de vídeo do TikTok
+
+Pedido do editor (17/11/2026): buscar os vídeos no TikTok e extrair os trechos. O YouTube exige login e fica para depois.
+
+## O vídeo comentado (baixado da página pública e transcrito pela ElevenLabs em 17/11/2026)
+- **João Domingos Advogados** (@joaodomingosadvogados, 191 mil seguidores), corte do podcast Agro em Debate, publicado em
+  8/4/2023.
+  - Endereço: https://www.tiktok.com/@joaodomingosadvogados/video/7219717228873256197
+  - Números da página em 17/11/2026: 106,9 mil visualizações, 1.016 curtidas e 335 compartilhamentos.
+- **Trechos** (na pasta de trabalho, `react/trecho_a|b|c.mp4`):
+  - **A (10,30 s a 14,30 s):** "Cê chegou no banco, cê pede pra prorrogar, ele vai prorrogar se ele quiser, se ele não
+    quiser, não prorroga."
+  - **B (15,12 s a 18,10 s):** "Agora o crédito rural, esse que é subsidiado ali, é diferente."
+  - **C (25,80 s a 26,70 s):** "o banco é obrigado."
+- **Por que este vídeo:**
+  - em 2023, ele diz que no crédito rural o banco é obrigado a prorrogar, ao contrário do empréstimo comum, em que o
+    banco prorroga "se ele quiser";
+  - em julho de 2026, o MCR passou a dizer "por sua conveniência e decisão";
+  - o react **atualiza** a informação, sem desmentir o colega: a Súmula 298 continua dizendo o que ele disse.
+  - Como ele é advogado, o editor confere antes o que o Código de Ética permite.
+
+## Estrutura (cerca de 60 s)
+
+| # | Quem | Fala ou trecho | Imagem |
+|---|---|---|---|
+| 1 | Narrador | "Você sabia que, quando o gerente diz que prorrogar a sua dívida rural é favor do banco, o STJ diz o contrário, mas, desde julho, uma regra nova escreveu o que o banco queria?" | Capa "PRORROGAR É FAVOR DO BANCO?"; lavoura com a colheita atrasada |
+| 2 | **Trechos A + B + C** (cerca de 8 s) | Advogado no podcast, de 2023 | Moldura com "@joaodomingosadvogados · TikTok · 2023" o tempo todo |
+| 3 | **Editor (reação 1)** | "Em 2023, era isso mesmo. Mas, em julho deste ano, o Manual de Crédito Rural ganhou cinco palavras: por sua conveniência e decisão." | Trecho congelado; etiqueta "DR. PELICIONI"; as cinco palavras a espátula |
+| 4 | Narrador | "Agora o texto diz que o banco está autorizado a prorrogar por sua conveniência e decisão, e que ele mesmo atesta se você pode pagar." | **Cartão 1:** Res. CMN 5.314/2026 (MCR 2-6-4) |
+| 5 | **Editor (reação 2)** | "Só que a Súmula 298 do STJ continua dizendo: prorrogar não é faculdade do banco, é direito do devedor." | **Cartão 2:** Súmula 298 |
+| 6 | Narrador | "E o pedido depende de um motivo: dificuldade de vender, frustração de safra ou outro problema que prejudique a lavoura." | Seca, granizo e armazém cheio, em pintura |
+| 7 | **Editor (virada)** | "A briga ainda não acabou: vale a súmula ou a resolução? Nenhum tribunal superior decidiu isso até agora." | Balança pintada: súmula × resolução |
+| 8 | Narrador | "O seu banco já te negou uma prorrogação dizendo que era favor?" | Agência no interior ao fim do dia |
+| 9 | Editor | "Eu sou o Dr. Pelicioni, advogado. Na dívida rural, o não do gerente não é a última palavra. Me segue pra defender a sua safra." | Cartela |
+
+**Antes do render:** conferir no STJ e no STF se algum tribunal superior já decidiu (fala 7).
+
+---
+
+# Roteiro v4 (17/11/2026): react com IMAGENS
+
+Pedido do editor (17/11/2026): "React com imagens. Eu não quero ficar falando sobre pessoas, comentando sobre as pessoas.
+Eu quero imagens de ilustração que eu possa falar sobre o assunto, utilizar como referência e reagir a essas imagens,
+que sejam imagens bonitas." O vídeo do advogado da v3 sai.
+
+## As imagens (TikTok, baixadas na maior resolução e verificadas, `tools/video/tiktok_baixar/`)
+
+| Imagem | Origem | Arquivo | Uso |
+|---|---|---|---|
+| Orquestra de colheitadeiras do Grupo Horita no oeste da Bahia, vista de drone, com "HORITA 2025" desenhado na lavoura | @miqueiasdoagro, 28/3/2025 (repostagem; marca d'água "Consagrado Editora") | 1080×1920 HEVC, 54,9 s; a imagem útil é uma faixa 16:9 | Abertura e reação 1 |
+| Chuva de granizo cobrindo o gramado e a varanda, "Granizo em Tatuí S.P. 27/01/2024" | @galera_do_agro_brasil, 28/1/2024 | 720×1284, 70,8 s | Reação 2: frustração de safra |
+| Colheitadeira John Deere S790 colhendo soja no meio da poeira | @hohljd, 29/4/2024 | 576×1024, 24,6 s | Fala 7 |
+
+Na tela, cada imagem fica numa moldura, com o crédito "IMAGENS: @perfil · TikTok" o tempo todo.
+
+## Estrutura (cerca de 61 s; 73 palavras do narrador e 96 do editor)
+
+| # | Quem | Fala | Imagem |
+|---|---|---|---|
+| 1 | Narrador | "Você sabia que, quando o gerente diz que prorrogar a sua dívida rural é favor do banco, o STJ diz o contrário, mas, desde julho, uma regra nova escreveu o que o banco queria?" | Capa "PRORROGAR É FAVOR DO BANCO?" sobre a orquestra de colheitadeiras |
+| 2 | **Editor (reação)** | "Olha o tamanho dessa colheita. Agora imagina essa safra frustrada, com a parcela do banco vencendo." | A orquestra de colheitadeiras, com o "HORITA 2025" aparecendo na lavoura |
+| 3 | Narrador | "Tudo está em cinco palavras: por sua conveniência e decisão." | As cinco palavras a espátula |
+| 4 | Narrador | "Desde julho, o Manual de Crédito Rural diz que o banco prorroga por sua conveniência e decisão." | **Cartão 1:** Res. CMN 5.314/2026 |
+| 5 | **Editor** | "Só que a Súmula 298 do STJ diz: prorrogar não é faculdade do banco, é direito do devedor." | **Cartão 2:** Súmula 298 |
+| 6 | **Editor (reação)** | "Um granizo desses acaba com a lavoura em minutos. É isso que a lei chama de frustração de safra." | O granizo de Tatuí |
+| 7 | **Editor (virada)** | "A briga ainda não acabou: vale a súmula ou a resolução? Nenhum tribunal superior decidiu isso até agora." | A colheitadeira na poeira, com a balança pintada "súmula × resolução" por cima |
+| 8 | Narrador | "O seu banco já te negou uma prorrogação dizendo que era favor?" | Lavoura ao fim do dia (Opuscar) |
+| 9 | Editor | "Eu sou o Dr. Pelicioni, advogado. Na dívida rural, o não do gerente não é a última palavra. Me segue pra defender a sua safra." | Cartela |
+
+## Cuidados
+- **Fala 6:** o MCR 2-6-4 fala em "frustração de safras, por fatores adversos". O granizo é exemplo de fator adverso. O vídeo
+  é de Tatuí (SP), em 27/1/2024, como diz a legenda da própria gravação, e a fala não afirma nada sobre aquela lavoura.
+- **Fala 2:** a colheita do Grupo Horita é só imagem de referência. Não dizemos nada sobre a situação financeira da empresa.
+- **Antes do render:** conferir no STJ e no STF se algum tribunal superior já decidiu (fala 7).

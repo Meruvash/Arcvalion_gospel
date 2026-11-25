@@ -1,0 +1,62 @@
+[
+ {
+  "id": 1,
+  "quem": "narrador",
+  "texto": "Você sabia que o vizinho pode até querer comprar a sua fazenda, mas, com um papel do Incra atrasado, essa venda pode ser anulada?",
+  "fala": "Você sabia que o vizinho pode até querer comprar a sua fazenda, mas, com um papel do Incra atrasado, essa venda pode ser anulada?"
+ },
+ {
+  "id": 2,
+  "quem": "narrador",
+  "texto": "A explicação está em duas palavras: cadastro rural.",
+  "fala": "A explicação está em duas palavras: cadastro rural."
+ },
+ {
+  "id": 3,
+  "quem": "narrador",
+  "texto": "Pra vender pro vizinho, arrendar ou dar a terra em garantia, a lei exige o certificado do cadastro rural, o CCIR.",
+  "fala": "Pra vender pro vizinho, arrendar ou dar a terra em garantia, a lei exige o certificado do cadastro rural, o CCIR."
+ },
+ {
+  "id": 4,
+  "quem": "narrador",
+  "texto": "A lei diz que, sem ele, a venda, o arrendamento e a hipoteca da fazenda são nulos.",
+  "fala": "A lei diz que, sem ele, a venda, o arrendamento e a hipoteca da fazenda são nulos."
+ },
+ {
+  "id": 5,
+  "quem": "narrador",
+  "texto": "E o certificado só vale junto com o imposto da terra dos últimos cinco anos pago.",
+  "fala": "E o certificado só vale junto com o imposto da terra dos últimos cinco anos pago."
+ },
+ {
+  "id": 6,
+  "quem": "narrador",
+  "texto": "Agora, tem mais: sem o certificado, nenhuma partilha de herança é homologada, e os seus filhos ficam travados.",
+  "fala": "Agora, tem mais: sem o certificado, nenhuma partilha de herança é homologada, e os seus filhos ficam travados."
+ },
+ {
+  "id": 7,
+  "quem": "narrador",
+  "texto": "E pra pegar crédito rural no banco público, ele também é exigido.",
+  "fala": "E pra pegar crédito rural no banco público, ele também é exigido."
+ },
+ {
+  "id": 8,
+  "quem": "narrador",
+  "texto": "O certificado é renovado todo ano e só sai com a taxa do Incra paga.",
+  "fala": "O certificado é renovado todo ano e só sai com a taxa do Incra paga."
+ },
+ {
+  "id": 9,
+  "quem": "narrador",
+  "texto": "O CCIR da sua fazenda está em dia, ou você só vai descobrir quando alguém quiser comprar?",
+  "fala": "O CCIR da sua fazenda está em dia, ou você só vai descobrir quando alguém quiser comprar?"
+ },
+ {
+  "id": 10,
+  "quem": "editor",
+  "texto": "Eu sou o Dr. Pelicioni, advogado. Na terra, papel atrasado é venda perdida. Me segue pra proteger a sua fazenda.",
+  "fala": "Eu sou o Dr. Pelicioni, advogado. Na terra, papel atrasado é venda perdida. Me segue pra proteger a sua fazenda."
+ }
+]

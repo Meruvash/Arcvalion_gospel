@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>A balança do Supremo e os quatro módulos</title>
+<style>
+@font-face{font-family:'Caveat';src:url(caveat-700.woff2) format('woff2');font-weight:700}
+html,body{margin:0;width:1080px;height:1080px;overflow:hidden;background:#f3ead8}
+#c{position:absolute;left:0;top:0;z-index:1}
+#labels{position:absolute;inset:0;z-index:5;font-family:'Caveat';color:#2b211a}
+.t{position:absolute;opacity:0;white-space:nowrap;font:700 54px/1 'Caveat'}
+.selo{position:absolute;opacity:0;font:900 40px/1 Georgia,serif;letter-spacing:.05em;padding:10px 18px;border:6px solid;border-radius:10px;transform-origin:center}
+</style></head><body>
+<div id="labels"></div>
+<script src="brush.js"></script>
+<script>
+// Aquarela e lápis (p5.brush), ilustrativo. Falas 4 e 5: a balança do Supremo — de um lado o sítio da família, do outro o saco
+// da empresa de insumos com o papel da garantia; no "perdeu", a balança pende para o sítio e bate o selo IMPENHORÁVEL.
+// Fala 6: dois terrenos vizinhos se somam e a régua mede "até 4 módulos fiscais".
+const S = 1080; brush.createCanvas(S, S, { id: 'c' }); brush.scaleBrushes(1.4);
+const ease = x => x <= 0 ? 0 : x >= 1 ? 1 : x * x * (3 - 2 * x), ramp = (t, a, d) => ease((t - a) / d);
+const q = new URLSearchParams(location.search), T = k => +(q.get(k) ?? ({ insumos: .8, garantia: 3.4, perdeu: 4.35, mapa: 7.9, quatro: 9.1, vizinhos: 11.0, somada: 12.2 })[k]);
+const L = document.getElementById('labels');
+const add = (html, x, y, rot = -3, extra = '', cls = 't') => { const d = document.createElement('div'); d.className = cls; d.innerHTML = html; d.style.left = x + 'px'; d.style.top = y + 'px'; d.style.transform = `rotate(${rot}deg)`; d.style.cssText += extra; L.appendChild(d); return d; };
+const poly = (pts, cor, op, bleed = .15) => { brush.noStroke(); brush.fill(cor, op); brush.fillBleed(bleed, 'out'); brush.fillTexture(.55, .35); brush.beginShape(); pts.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(true); brush.noFill(); };
+const pencil = (pts, peso = 1.6, cor = '#3a3026', close = false) => { brush.set('2B', cor, peso); brush.beginShape(); pts.forEach(([x, y]) => brush.vertex(x, y)); brush.endShape(close); };
+const rot = (x, y, cx, cy, a) => [cx + (x - cx) * Math.cos(a) - (y - cy) * Math.sin(a), cy + (x - cx) * Math.sin(a) + (y - cy) * Math.cos(a)];
+const lSup = add('o Supremo', 420, 250, -2, 'font-size:64px');
+const lSitio = add('o sítio da família', 90, 740, -3, 'color:#1e5a24');
+const lEmp = add('empresa de insumos<br><span style="font-size:40px">“estava em garantia”</span>', 640, 740, 3, 'color:#7a2a18;line-height:1.05');
+const sImp = add('IMPENHORÁVEL', 60, 430, -10, 'color:#8a6a10;border-color:#c09a20;background:rgba(255,246,210,.9)', 'selo');
+const lTit = add('pequena propriedade', 300, 170, -2, 'font-size:64px');
+const lQ = add('até 4 módulos fiscais', 330, 780, -2, 'font-size:66px;color:#1e4a8a');
+const lViz = add('terrenos vizinhos: a área soma', 250, 250, -3, 'color:#3a5a1a');
+draw = (t) => {
+  brush.seed(31); brush.noiseSeed(31); brush.clear('#f3ead8'); brush.push(); brush.translate(-S / 2, -S / 2);
+  const fadeA = 1 - ramp(t, T('mapa') - .3, .5), ap = ramp(t, 0, .8);
+  if (fadeA > 0) {                                                            // a balança
+    const tilt = 0.16 - 0.34 * ramp(t, T('perdeu'), .9) + Math.sin(t * 2.2) * .012 * (1 - ramp(t, T('perdeu'), .9));   // pende para a empresa e depois para o sítio
+    const cx = 540, cy = 440, a = tilt;
+    pencil([[540, 440], [540, 700]], 5 * ap * fadeA + .05, '#5a4a2a'); poly([[470, 700], [610, 700], [580, 680], [500, 680]], '#8a6a3a', 220 * ap * fadeA, .04);   // coluna e base
+    const [lx, ly] = rot(260, 440, cx, cy, a), [rx, ry] = rot(820, 440, cx, cy, a);
+    pencil([[lx, ly], [rx, ry]], 6 * ap * fadeA + .05, '#5a4a2a');
+    [[lx, ly], [rx, ry]].forEach(([x, y], k) => { pencil([[x, y], [x - 90, y + 150]], 1.6 * ap * fadeA + .05); pencil([[x, y], [x + 90, y + 150]], 1.6 * ap * fadeA + .05);
+      poly([[x - 120, y + 150], [x + 120, y + 150], [x + 90, y + 180], [x - 90, y + 180]], '#c8a050', 210 * ap * fadeA, .05);
+      if (k === 0) { poly([[x - 90, y + 150], [x + 90, y + 150], [x + 70, y + 90], [x - 80, y + 100]], '#6ab048', 220 * ap * fadeA);        // o sítio no prato
+        poly([[x - 20, y + 110], [x + 30, y + 110], [x + 30, y + 145], [x - 20, y + 145]], '#fff6dc', 255 * ap * fadeA, .04); poly([[x - 28, y + 112], [x + 5, y + 88], [x + 38, y + 112]], '#c0502a', 255 * ap * fadeA, .04); }
+      else { poly([[x - 70, y + 150], [x + 70, y + 150], [x + 50, y + 60], [x - 50, y + 60]], '#b89a6a', 230 * ap * fadeA);              // o saco de insumos
+        poly([[x - 30, y + 90], [x + 40, y + 84], [x + 44, y + 130], [x - 26, y + 136]], '#fffaf0', 255 * ramp(t, T('garantia'), .4) * fadeA, .03); } });
+  }
+  const fB = ramp(t, T('mapa'), .6);
+  if (fB > 0) {                                                               // os dois terrenos vizinhos
+    const A = [[160, 330], [520, 300], [540, 700], [180, 680]], B = [[520, 300], [900, 320], [880, 710], [540, 700]];
+    const m = ramp(t, T('vizinhos'), 1.0);
+    poly(A, '#86bc56', 200 * fB); poly(B, m > .5 ? '#86bc56' : '#c8b850', 200 * fB);
+    pencil([...A, A[0]], 2.2 * fB + .05, '#5a3a20'); pencil([...B, B[0]], 2.2 * fB + .05, '#5a3a20');
+    if (m > 0) pencil([[530, 310], [540, 690]], 6 * m, '#f3ead8');            // a divisa some: a área é uma só
+    const r = ramp(t, T('quatro'), 1.2);                                      // a régua dos 4 módulos
+    if (r > 0) { pencil([[170, 750], [170 + 720 * r, 750]], 3, '#1e4a8a'); for (let k = 0; k <= 4; k++) if (k / 4 <= r) pencil([[170 + 180 * k, 732], [170 + 180 * k, 768]], 3, '#1e4a8a'); }
+  }
+  brush.pop(); brush.render();
+  lSup.style.opacity = ramp(t, .6, .5) * fadeA; lSitio.style.opacity = ramp(t, 1.0, .5) * fadeA; lEmp.style.opacity = ramp(t, T('insumos'), .5) * fadeA;
+  const ks = ramp(t, T('perdeu') + .25, .2); sImp.style.opacity = ks * fadeA; sImp.style.transform = `rotate(-10deg) scale(${1.8 - .8 * ks})`;
+  lTit.style.opacity = ramp(t, T('mapa') + .3, .5); lQ.style.opacity = ramp(t, T('quatro') + .4, .5); lViz.style.opacity = ramp(t, T('vizinhos') + .3, .5);
+};
+window.drawFrame = t => draw(t);
+window.READY = document.fonts.ready.then(() => true);
+</script></body></html>

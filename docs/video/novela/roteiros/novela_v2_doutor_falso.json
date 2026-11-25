@@ -1,0 +1,182 @@
+{
+ "duracao_s": 75,
+ "aviso_dramatizacao": true,
+ "protagonista": "Dr. Pelicioni",
+ "titulo": "Herança do Pai · V2 «O doutor de verdade» (falso poderoso, C7) · protagonista Dr. Pelicioni",
+ "batidas": [
+  {
+   "t": 0,
+   "fim": 3,
+   "tipo": "GANCHO",
+   "quem": "Tavares",
+   "modo": "texto",
+   "fala": "Sou advogado. A parte do Valdir agora é minha. Assunto encerrado.",
+   "tela": "Grupo «Herança do Pai 🌾»: «Cleide adicionou Tavares». Etiqueta O COMPRADOR",
+   "marcas": [
+    "ataque",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 3,
+   "fim": 9,
+   "tipo": "HUMILHACAO",
+   "quem": "Valdir",
+   "modo": "audio",
+   "fala": "Viu, Rosa? É doutor. Você vai discutir lei com advogado de Goiânia?",
+   "tela": "Balão de áudio",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 9,
+   "fim": 15,
+   "tipo": "HUMILHACAO",
+   "quem": "Tavares",
+   "modo": "audio",
+   "fala": "Minha senhora, herdeiro vende pra quem quiser. Paguei oitocentos mil e está tudo assinado.",
+   "tela": "Balão de áudio; maço de papéis no banco do carro (IA, sem gente)",
+   "marcas": [
+    "dinheiro",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 15,
+   "fim": 21,
+   "tipo": "DESCRENCA",
+   "quem": "Cleide",
+   "modo": "texto",
+   "fala": "Rosinha, deixa disso. Ele é doutor, e você só estudou até a quarta série.",
+   "tela": "3 reações 😂",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 21,
+   "fim": 27,
+   "tipo": "PROVA_DESPREZADA",
+   "quem": "Rosa / Tavares",
+   "modo": "texto",
+   "fala": "O cartão que o senhor deixou aqui diz corretor. — Detalhe. Roceira não entende de papel.",
+   "tela": "Foto do cartão de visita «TAVARES NEGÓCIOS · corretor» (objeto fictício)",
+   "marcas": [
+    "objeto:cartao",
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 27,
+   "fim": 32,
+   "tipo": "HUMILHACAO",
+   "quem": "Tavares",
+   "modo": "audio",
+   "fala": "Pode chamar quem quiser. Segunda eu entro com o trator.",
+   "tela": "Foto da porteira com corrente (IA, sem gente)",
+   "marcas": [
+    "testemunhas"
+   ]
+  },
+  {
+   "t": 32,
+   "fim": 37,
+   "tipo": "TRANSICAO",
+   "quem": "Sistema",
+   "modo": "tela",
+   "fala": "Rosa adicionou Dr. Pelicioni.",
+   "tela": "Aviso de sistema; Tavares «digitando…» e para",
+   "marcas": []
+  },
+  {
+   "t": 37,
+   "fim": 43,
+   "tipo": "REVELACAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Boa tarde, Tavares. Ou devo dizer corretor Tavares? Está no cartão que o senhor deixou.",
+   "tela": "Chamada de vídeo real do editor; ao lado, o cartão de visita «corretor»",
+   "marcas": [
+    "objeto:cartao",
+    "poder_escondido"
+   ]
+  },
+  {
+   "t": 43,
+   "fim": 52,
+   "tipo": "LEI",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Herdeiro não vende pra pessoa de fora se outro herdeiro quiser pagar o mesmo preço. Artigo 1.794 do Código Civil.",
+   "tela": "Vídeo real; cartão 1 (CC art. 1.794, literal)",
+   "marcas": [],
+   "fonte": "https://legis.senado.leg.br/norma/552282/publicacao/15676634"
+  },
+  {
+   "t": 52,
+   "fim": 58,
+   "tipo": "LEI",
+   "quem": "Dr. Pelicioni",
+   "modo": "video",
+   "fala": "Sem aviso, a dona Rosa tem cento e oitenta dias pra depositar os oitocentos mil.",
+   "tela": "Vídeo real; cartão 2 (CC art. 1.795, literal)",
+   "marcas": [
+    "dinheiro"
+   ],
+   "fonte": "https://legis.senado.leg.br/norma/552282/publicacao/15676634"
+  },
+  {
+   "t": 58,
+   "fim": 62,
+   "tipo": "TRANSICAO",
+   "quem": "Dr. Pelicioni",
+   "modo": "texto",
+   "fala": "Agora o senhor vai sair do grupo.",
+   "tela": "Mensagem dele, sem ponto de exclamação",
+   "marcas": [
+    "previsao"
+   ]
+  },
+  {
+   "t": 62,
+   "fim": 65,
+   "tipo": "QUEDA",
+   "quem": "Sistema",
+   "modo": "tela",
+   "fala": "Tavares saiu do grupo.",
+   "tela": "Aviso de sistema, exatamente como ele previu",
+   "marcas": [
+    "previsao_cumprida"
+   ]
+  },
+  {
+   "t": 65,
+   "fim": 70,
+   "tipo": "RECOMPENSA",
+   "quem": "Bruna / Rosa",
+   "modo": "texto",
+   "fala": "Viu, mãe? A senhora estava certa. — Obrigada, doutor.",
+   "tela": "Cleide apaga o 😂; Rosa manda 🙏",
+   "marcas": []
+  },
+  {
+   "t": 70,
+   "fim": 75,
+   "tipo": "GANCHO_FINAL",
+   "quem": "Cleide",
+   "modo": "texto",
+   "fala": "Calma, Valdir. Eu ainda tenho outro plano.",
+   "tela": "Conversa privada «Valdir ❤️»; tela congela; «PARTE 2»",
+   "marcas": []
+  }
+ ],
+ "elenco": [
+  "Dr. Pelicioni",
+  "Rosa",
+  "Valdir",
+  "Cleide",
+  "Tavares",
+  "Bruna"
+ ]
+}

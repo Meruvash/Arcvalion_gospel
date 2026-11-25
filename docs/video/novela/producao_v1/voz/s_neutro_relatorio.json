@@ -1,0 +1,320 @@
+{
+ "46": {
+  "escolhida": 2,
+  "candidatas": [
+   {
+    "cand": 0,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.65,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1000,
+    "transcricao": "Herança ainda não dividida. Irmão tem preferência. Pelo mesmo preço, a parte fica com a família. Está no livro do seu pai",
+    "confere": true,
+    "media_s": 1.6643876945121832,
+    "notas_s": [
+     {
+      "palavra": "mesmo",
+      "razao": 0.8427352726933806
+     },
+     {
+      "palavra": "Está",
+      "razao": 30.67634830096471
+     },
+     {
+      "palavra": "seu(início)",
+      "razao": 0.20719058626954032
+     }
+    ],
+    "arquivo": "voz/cand/fala46_c0.mp3"
+   },
+   {
+    "cand": 1,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.6,
+      "style": 0.0,
+      "use_speaker_boost": false
+     }
+    },
+    "seed": 1037,
+    "transcricao": "Herança ainda não dividida. Irmão tem preferência. Pelo mesmo preço, a parte fica com a família. Está no livro do seu pai",
+    "confere": true,
+    "media_s": 1.6411181227098215,
+    "notas_s": [
+     {
+      "palavra": "mesmo",
+      "razao": 1.1038347351965907
+     },
+     {
+      "palavra": "Está",
+      "razao": 24.854359485331138
+     },
+     {
+      "palavra": "seu(início)",
+      "razao": 0.23751911447709861
+     }
+    ],
+    "arquivo": "voz/cand/fala46_c1.mp3"
+   },
+   {
+    "cand": 2,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1074,
+    "transcricao": "Herança ainda não dividida. Irmão tem preferência. Pelo mesmo preço, a parte fica com a família. Está no livro do seu pai",
+    "confere": true,
+    "media_s": 2.070274480391654,
+    "notas_s": [
+     {
+      "palavra": "mesmo",
+      "razao": 2.171687065535719
+     },
+     {
+      "palavra": "Está",
+      "razao": 48.43467685835254
+     },
+     {
+      "palavra": "seu(início)",
+      "razao": 0.2732094484111088
+     }
+    ],
+    "arquivo": "voz/cand/fala46_c2.mp3"
+   }
+  ]
+ },
+ "55": {
+  "escolhida": 2,
+  "candidatas": [
+   {
+    "cand": 0,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.65,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1000,
+    "transcricao": "E como ninguém avisou a dona Rosa, ela tem 180 dias pra depositar o preço",
+    "confere": false,
+    "media_s": 0.8537483830110082,
+    "notas_s": [
+     {
+      "palavra": "avisou(início)",
+      "razao": 2.6812702213052253
+     },
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 3.632428763765963
+     },
+     {
+      "palavra": "dias",
+      "razao": 0.7545482231928147
+     },
+     {
+      "palavra": "depositar(início)",
+      "razao": 0.36067370693559503
+     }
+    ],
+    "arquivo": "voz/cand/fala55_c0.mp3"
+   },
+   {
+    "cand": 1,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.6,
+      "style": 0.0,
+      "use_speaker_boost": false
+     }
+    },
+    "seed": 1037,
+    "transcricao": "E como ninguém avisou a Dona Rosa, ela tem 180 dias pra depositar o preço",
+    "confere": false,
+    "media_s": 1.157859390063967,
+    "notas_s": [
+     {
+      "palavra": "avisou(início)",
+      "razao": 2.183945119814183
+     },
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 10.245929745862693
+     },
+     {
+      "palavra": "dias",
+      "razao": 1.0024370916904342
+     },
+     {
+      "palavra": "depositar(início)",
+      "razao": 1.2760459084818732
+     }
+    ],
+    "arquivo": "voz/cand/fala55_c1.mp3"
+   },
+   {
+    "cand": 2,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1074,
+    "transcricao": "E como ninguém avisou a dona Rosa, ela tem 180 dias pra depositar o preço",
+    "confere": false,
+    "media_s": 1.1858403155047808,
+    "notas_s": [
+     {
+      "palavra": "avisou(início)",
+      "razao": 2.126205533288712
+     },
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 19.8674859805053
+     },
+     {
+      "palavra": "dias",
+      "razao": 0.6756281133404165
+     },
+     {
+      "palavra": "depositar(início)",
+      "razao": 1.0519963921949718
+     }
+    ],
+    "arquivo": "voz/cand/fala55_c2.mp3"
+   }
+  ]
+ },
+ "66": {
+  "escolhida": 0,
+  "candidatas": [
+   {
+    "cand": 0,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.65,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1000,
+    "transcricao": "Dona Rosa, a senhora não está sozinha",
+    "confere": true,
+    "media_s": 1.7770516197005655,
+    "notas_s": [
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 4.173854134559441
+     },
+     {
+      "palavra": "senhora(início)",
+      "razao": 0.27899612220889597
+     },
+     {
+      "palavra": "está",
+      "razao": 25.030547874252445
+     },
+     {
+      "palavra": "sozinha(início)",
+      "razao": 0.6112707981507133
+     }
+    ],
+    "arquivo": "voz/cand/fala66_c0.mp3"
+   },
+   {
+    "cand": 1,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.6,
+      "style": 0.0,
+      "use_speaker_boost": false
+     }
+    },
+    "seed": 1037,
+    "transcricao": "Dona Rosa, a senhora não está sozinha",
+    "confere": true,
+    "media_s": 1.7259645913213795,
+    "notas_s": [
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 12.133750680640917
+     },
+     {
+      "palavra": "senhora(início)",
+      "razao": 0.23166507059508246
+     },
+     {
+      "palavra": "está",
+      "razao": 13.774307956605291
+     },
+     {
+      "palavra": "sozinha(início)",
+      "razao": 0.5848523289291298
+     }
+    ],
+    "arquivo": "voz/cand/fala66_c1.mp3"
+   },
+   {
+    "cand": 2,
+    "ajuste": {
+     "model_id": "eleven_multilingual_v2",
+     "voice_settings": {
+      "stability": 0.8,
+      "similarity_boost": 0.7,
+      "style": 0.0,
+      "use_speaker_boost": true
+     }
+    },
+    "seed": 1074,
+    "transcricao": "Dona Rosa, a senhora não está sozinha",
+    "confere": true,
+    "media_s": 0.8642964895989828,
+    "notas_s": [
+     {
+      "palavra": "Rosa,(início)",
+      "razao": 6.736109042065752
+     },
+     {
+      "palavra": "senhora(início)",
+      "razao": 0.22510113946206833
+     },
+     {
+      "palavra": "está",
+      "razao": 1.3805137020460383
+     },
+     {
+      "palavra": "sozinha(início)",
+      "razao": 0.4020389639886138
+     }
+    ],
+    "arquivo": "voz/cand/fala66_c2.mp3"
+   }
+  ]
+ }
+}

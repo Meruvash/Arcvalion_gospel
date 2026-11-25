@@ -1,0 +1,16 @@
+Live-action cinematic Brazilian telenovela, vertical 9:16, realistic skin and fabric, shallow depth of field, subtle handheld camera.
+
+@Image1 is Bruna: the young woman of her reference sheet, loose curly hair, freckles, plain t-shirt and denim jacket.
+@Audio1 is the voice of @Image1, Bruna: every line Bruna speaks is in this voice.
+
+Setting: the dirt farmyard in front of a simple white farmhouse with a wooden gate, late-afternoon golden light.
+Every shot is one full frame: no split screen, no panels, no subtitles, no on-screen text, no speech bubbles, no watermark. The reference images never appear inside the frame.
+
+0-2 s: medium shot, static. @Image1 Bruna steps into the frame between the camera and the farmhouse and slides her phone into her denim jacket pocket, determined.
+2-7 s: close-up, static, eye level. @Image1 Bruna looks at her mother off camera and speaks, determined, calm.
+
+@Image1 Bruna says in Brazilian Portuguese (firm, protective): "Mãe, não discute com eles. Eu já chamei quem entende."
+The line starts directly on its first word, with no breath or noise before it, and is spoken once, complete.
+Every spoken line is in Brazilian Portuguese, exactly the words in quotes; nobody speaks any other language.
+No background music. Only natural ambient sound of the place.
+Every character keeps the face, hair and clothes of their reference sheet in close-up and in motion; the place and the light stay photographic and realistic.

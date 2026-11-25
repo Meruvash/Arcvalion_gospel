@@ -1,0 +1,289 @@
+[
+ {
+  "id": "t00",
+  "tipo": "chat",
+  "titulo": "Herança do Pai 🌾",
+  "sub": "Valdir, Cleide, Bruna, você",
+  "msgs": [
+   {
+    "quem": "Valdir",
+    "texto": "Vendi minha parte da fazenda. Não adianta chorar.",
+    "hora": "14:02"
+   }
+  ]
+ },
+ {
+  "id": "t03",
+  "tipo": "chat",
+  "titulo": "Herança do Pai 🌾",
+  "sub": "Valdir, Cleide, Bruna, você",
+  "msgs": [
+   {
+    "quem": "Valdir",
+    "texto": "Vendi minha parte da fazenda. Não adianta chorar.",
+    "hora": "14:02"
+   },
+   {
+    "quem": "Valdir",
+    "tipo": "audio",
+    "seg": 6,
+    "hora": "14:02"
+   }
+  ],
+  "digitando": "Cleide está digitando…"
+ },
+ {
+  "id": "t09",
+  "tipo": "chat",
+  "titulo": "Tavares (Goiânia)",
+  "sub": "online",
+  "contato_av": "Tavares",
+  "msgs": [
+   {
+    "quem": "Tavares",
+    "sem_nome": true,
+    "tipo": "foto",
+    "rotulo": "[entra a imagem do plano f4: a porteira]",
+    "hora": "14:03",
+    "img": "planos/f4_foto.jpg"
+   },
+   {
+    "quem": "Tavares",
+    "sem_nome": true,
+    "tipo": "audio",
+    "seg": 5,
+    "hora": "14:03"
+   }
+  ]
+ },
+ {
+  "id": "t15",
+  "tipo": "chat",
+  "titulo": "Herança do Pai 🌾",
+  "sub": "Valdir, Cleide, Bruna, você",
+  "msgs": [
+   {
+    "quem": "Valdir",
+    "texto": "Vendi minha parte da fazenda. Não adianta chorar.",
+    "hora": "14:02"
+   },
+   {
+    "quem": "Valdir",
+    "tipo": "audio",
+    "seg": 6,
+    "hora": "14:02"
+   },
+   {
+    "eu": true,
+    "tipo": "foto",
+    "rotulo": "[entra a imagem do plano f3: o livro do pai]",
+    "legenda": "O pai deixou isso aqui. Tá escrito.",
+    "hora": "14:05",
+    "img": "planos/f3_foto.jpg"
+   },
+   {
+    "quem": "Cleide",
+    "tipo": "audio",
+    "seg": 6,
+    "hora": "14:05"
+   }
+  ]
+ },
+ {
+  "id": "t21",
+  "tipo": "chat",
+  "titulo": "Herança do Pai 🌾",
+  "sub": "Valdir, Cleide, Bruna, você",
+  "msgs": [
+   {
+    "quem": "Valdir",
+    "tipo": "audio",
+    "seg": 6,
+    "hora": "14:02"
+   },
+   {
+    "eu": true,
+    "tipo": "foto",
+    "rotulo": "[entra a imagem do plano f3: o livro do pai]",
+    "legenda": "O pai deixou isso aqui. Tá escrito.",
+    "hora": "14:05",
+    "img": "planos/f3_foto.jpg"
+   },
+   {
+    "quem": "Cleide",
+    "tipo": "audio",
+    "seg": 6,
+    "hora": "14:05"
+   },
+   {
+    "quem": "Valdir",
+    "texto": "Para de inventar lei, Rosa. Chama quem você quiser. Ninguém vai te ajudar 😂",
+    "hora": "14:06",
+    "reacao": "😂"
+   }
+  ]
+ },
+ {
+  "id": "t27",
+  "tipo": "chat",
+  "titulo": "Dr. Pelicioni ✔",
+  "sub": "no celular da Bruna",
+  "contato_av": "Dr. Pelicioni",
+  "msgs": [
+   {
+    "eu": true,
+    "texto": "Doutor, sou a Bruna, filha da dona Rosa. Vão tomar a terra do meu avô.",
+    "hora": "14:08"
+   }
+  ],
+  "digitando": "Dr. Pelicioni está digitando…"
+ },
+ {
+  "id": "t32",
+  "tipo": "chat",
+  "titulo": "Herança do Pai 🌾",
+  "sub": "Valdir, Cleide, Bruna, Dr. Pelicioni, você",
+  "msgs": [
+   {
+    "quem": "Cleide",
+    "tipo": "audio",
+    "seg": 6,
+    "hora": "14:05"
+   },
+   {
+    "quem": "Valdir",
+    "texto": "Para de inventar lei, Rosa. Chama quem você quiser. Ninguém vai te ajudar 😂",
+    "hora": "14:06",
+    "reacao": "😂"
+   },
+   {
+    "tipo": "sistema",
+    "texto": "Bruna adicionou Dr. Pelicioni."
+   }
+  ],
+  "digitando": "Valdir está digitando…"
+ },
+ {
+  "id": "t38",
+  "tipo": "chat",
+  "titulo": "Herança do Pai 🌾",
+  "sub": "Valdir, Cleide, Bruna, Dr. Pelicioni, você",
+  "msgs": [
+   {
+    "quem": "Valdir",
+    "texto": "Para de inventar lei, Rosa. Chama quem você quiser. Ninguém vai te ajudar 😂",
+    "hora": "14:06",
+    "reacao": "😂"
+   },
+   {
+    "tipo": "sistema",
+    "texto": "Bruna adicionou Dr. Pelicioni."
+   },
+   {
+    "quem": "Dr. Pelicioni",
+    "texto": "Boa tarde. Valdir, a sua próxima mensagem vai ser: quem é esse aí?",
+    "hora": "14:11"
+   }
+  ]
+ },
+ {
+  "id": "t43",
+  "tipo": "chat",
+  "titulo": "Herança do Pai 🌾",
+  "sub": "Valdir, Cleide, Bruna, Dr. Pelicioni, você",
+  "msgs": [
+   {
+    "quem": "Valdir",
+    "texto": "Para de inventar lei, Rosa. Chama quem você quiser. Ninguém vai te ajudar 😂",
+    "hora": "14:06",
+    "reacao": "😂"
+   },
+   {
+    "tipo": "sistema",
+    "texto": "Bruna adicionou Dr. Pelicioni."
+   },
+   {
+    "quem": "Dr. Pelicioni",
+    "texto": "Boa tarde. Valdir, a sua próxima mensagem vai ser: quem é esse aí?",
+    "hora": "14:11"
+   },
+   {
+    "quem": "Valdir",
+    "texto": "Quem é esse aí?",
+    "hora": "14:11",
+    "reacao": "😳"
+   }
+  ]
+ },
+ {
+  "id": "t46",
+  "tipo": "chamada",
+  "tempo": "00:04",
+  "lei": "CÓDIGO CIVIL · ART. 1.794",
+  "texto_lei": "O co-herdeiro não poderá ceder a sua quota hereditária a pessoa estranha à sucessão, se outro co-herdeiro a quiser, tanto por tanto.",
+  "fonte": "Código Civil (Lei 10.406/2002) · planalto.gov.br · lido em 23/11/2026"
+ },
+ {
+  "id": "t55",
+  "tipo": "chamada",
+  "tempo": "00:13",
+  "lei": "CÓDIGO CIVIL · ART. 1.795",
+  "texto_lei": "O co-herdeiro, a quem não se der conhecimento da cessão, poderá, depositado o preço, haver para si a quota cedida a estranho, se o requerer até cento e oitenta dias após a transmissão.",
+  "fonte": "Código Civil (Lei 10.406/2002) · planalto.gov.br · lido em 23/11/2026"
+ },
+ {
+  "id": "t62",
+  "tipo": "chat",
+  "titulo": "Herança do Pai 🌾",
+  "sub": "Valdir, Cleide, Bruna, Dr. Pelicioni, você",
+  "msgs": [
+   {
+    "quem": "Dr. Pelicioni",
+    "texto": "Boa tarde. Valdir, a sua próxima mensagem vai ser: quem é esse aí?",
+    "hora": "14:11"
+   },
+   {
+    "quem": "Valdir",
+    "texto": "Quem é esse aí?",
+    "hora": "14:11",
+    "reacao": "😳"
+   },
+   {
+    "quem": "Valdir",
+    "tipo": "apagada",
+    "hora": "14:14"
+   },
+   {
+    "quem": "Tavares",
+    "texto": "Doutor, podemos conversar?",
+    "hora": "14:15"
+   },
+   {
+    "quem": "Dr. Pelicioni",
+    "texto": "Podemos. Com calma.",
+    "hora": "14:15"
+   }
+  ]
+ },
+ {
+  "id": "t66",
+  "tipo": "chamada",
+  "tempo": "00:21"
+ },
+ {
+  "id": "t71",
+  "tipo": "chat",
+  "titulo": "Tavares (Goiânia)",
+  "sub": "no celular do Dr. Pelicioni",
+  "contato_av": "Tavares",
+  "parte2": true,
+  "msgs": [
+   {
+    "quem": "Tavares",
+    "sem_nome": true,
+    "texto": "Doutor, o senhor ainda não viu o que tem nesse contrato.",
+    "hora": "14:20"
+   }
+  ]
+ }
+]

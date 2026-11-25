@@ -1,0 +1,12 @@
+[
+ {"id":1,"quem":"narrador","texto":"Você sabia que o caseiro que mora há vinte anos na sua fazenda não pode ficar com ela, mas um estranho que entra num pedaço dela pode?","fala":"Você sabia que o caseiro que mora há vinte anos na sua fazenda não pode ficar com ela, mas um estranho que entra num pedaço dela pode?"},
+ {"id":2,"quem":"narrador","texto":"A explicação está numa palavra: posse.","fala":"A explicação está numa palavra: posse."},
+ {"id":3,"quem":"narrador","texto":"O caseiro cuida da terra em nome do patrão. Pra lei, ele é detentor, não possuidor.","fala":"O caseiro cuida da terra em nome do patrão. Pra lei, ele é detentor, não possuidor."},
+ {"id":4,"quem":"narrador","texto":"O Código Civil diz que detentor é quem conserva a posse em nome de outro, cumprindo ordens dele. E só quem possui como dono pode pedir usucapião.","fala":"O Código Civil diz que detentor é quem conserva a posse em nome de outro, cumprindo ordens dele. E só quem possui como dono pode pedir usucapião."},
+ {"id":5,"quem":"narrador","texto":"O mesmo vale pra quem usa a sua terra por favor seu: permissão e tolerância não geram posse.","fala":"O mesmo vale pra quem usa a sua terra por favor seu: permissão e tolerância não geram posse."},
+ {"id":6,"quem":"narrador","texto":"Agora, quem entra num pedaço da sua terra, cerca, planta e age como dono, sem ninguém se opor, começa a contar tempo pra virar dono.","fala":"Agora, quem entra num pedaço da sua terra, cerca, planta e age como dono, sem ninguém se opor, começa a contar tempo pra virar dono."},
+ {"id":7,"quem":"narrador","texto":"São quinze anos, ou dez se ele morar ali ou produzir.","fala":"São quinze anos, ou dez se ele morar ali ou produzir."},
+ {"id":8,"quem":"narrador","texto":"E se ele não tiver outro imóvel, morar e produzir numa área de até cinquenta hectares, bastam cinco anos.","fala":"E se ele não tiver outro imóvel, morar e produzir numa área de até cinquenta hectares, bastam cinco anos."},
+ {"id":9,"quem":"narrador","texto":"Tem alguém usando um pedaço da sua terra sem você dizer nada?","fala":"Tem alguém usando um pedaço da sua terra sem você dizer nada?"},
+ {"id":10,"quem":"editor","texto":"Eu sou o Dr. Pelicioni, advogado. Na usucapião, ficar calado conta tempo contra você. Me segue pra proteger o que é seu.","fala":"Eu sou o Dr. Pelicioni, advogado. Na usucapião, ficar calado conta tempo contra você. Me segue pra proteger o que é seu."}
+]
