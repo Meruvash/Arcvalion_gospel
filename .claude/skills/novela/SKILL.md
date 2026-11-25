@@ -17,6 +17,9 @@ description: Produz um episódio da novelinha do outro Instagram do editor (Reel
    assinatura sensorial, bordão, fala longa com brecha, confissão entre 70% e 88%, segredos em três camadas e gancho
    congelado. Resolva os avisos A5 a A8.
 7. `docs/video/novela/NOVELAS_USADAS.md`: o que já foi usado (objeto, previsão, gancho) e as contas abertas da temporada.
+8. `docs/video/novela/AUDITORIA_V2C.md`: o que fez «A marca da Estrela» dar certo (método Drama, voz, pronúncia,
+   conserto pelo áudio, falas só de voz, montagem e entrega) e a lista de conferência do próximo episódio. Gerador de
+   prompts e IDs do elenco: `tools/video/novela/drama_prompt.py`.
 
 ## Fluxo
 
