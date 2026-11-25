@@ -1,4 +1,4 @@
-# "O vizinho fechou a estrada?": servidão de passagem (roteiro v1, 25/11/2026, aguardando aprovação)
+# "O vizinho fechou a estrada?": servidão de passagem (aprovado e entregue, 25/11/2026)
 
 **1º roteiro no padrão de `docs/video/DIRECAO_ARTISTICA.md`:** 100% pintura animada, cada cena um quadro completo. Não há
 cena com gente, então não entra Higgsfield.
@@ -97,3 +97,67 @@ Eles mostram as duas linguagens do vídeo antes da produção.
 
 Cartões: arts. 1.383, 1.379 e 1.285 do Código Civil; a Súmula 415 do STF vai no rodapé. Crivo artístico A1–A10 e crivo de
 motion M1–M8 antes da entrega.
+
+## Entrega (25/11/2026)
+- **Vídeo:** `servidao-passagem.mp4`, 1080×1080, 58,7 s, áudio de 48 kHz. Fica fora do repositório
+  (`/home/user/webdoc-research/roteiros/`).
+- **Capa:** "O VIZINHO FECHOU A ESTRADA?" sobre a porteira trancada. Capas do Instagram em 9:16 e 4:5, com o carimbo
+  "TRANCOU?".
+- **Imagem:** 100% pintura em código, sem IA. Quatro cenas em `cenas/sv_scenes.js`: `sv_parreiras`, `sv_facchinetti`,
+  `sv_mapa` e `sv_weingartner`. Montagem em `montar_exemplo_servidao.py`.
+- **Voz:** narrador ElevenLabs; editor pelo `voz_editor_s_neutro.py`, candidata 7, nota de "S" 1,48.
+- **Trilha:** catira (alternando com o agronejo da multa), 0 palavras na transcrição, −30 LUFS.
+
+### Crivo de qualidade, artístico e de motion
+- **Qualidade (H1–H7):** aprovado. Não há gente.
+- **H7 (tela), A10 (foco livre) e A7 (detalhe no foco):** problemas achados e corrigidos na revisão das folhas:
+  - o rótulo "SUA FAZENDA" do mapa caía sobre a legenda;
+  - a régua dos anos ficava fora do quadro e o "10 ANOS" tapava a ponte;
+  - a folha da porteira aberta embolava com o ipê e foi redesenhada para o outro lado;
+  - as etiquetas "CAMINHO REABERTO" tapavam a porteira e foram para a direita.
+- **Crivo artístico (A1–A10):** cada cena é um quadro completo, com foco nos terços e linhas que conduzem: a estrada em S
+  até a porteira e a estrada cascalhada até a ponte. A luz de fim de tarde nas três cenas da tarde muda para a manhã na
+  porteira aberta.
+- **Crivo de motion (M1–M8):** aprovado.
+  - Cada movimento tem a função do plano e começa na palavra que o motiva: aproximação em "fechou", panorâmica até a
+    "ponte", régua em "dez" e "vinte", subida para o mapa na fala 6, descida para a porteira aberta na fala 8.
+  - O único "3D" é o mapa, que mostra espaço.
+  - Uma coisa importante se move por vez.
+- **`auditar_video.py`:** 6/7. O item S2 ("a imagem muda em toda fala") marca as falas 2, 5, 7 e 9. Nelas a mudança é
+  um letreiro ou a régua entrando com suavidade, abaixo do limiar de salto da ferramenta. É escolha da direção de motion
+  (câmera parada quando a informação não muda), não falta de mudança.
+
+## Publicação
+**Título do YouTube:**
+> O vizinho fechou a estrada que você usa há anos? A lei da servidão de passagem pode estar do seu lado
+
+Alternativas:
+- Estrada rural pode ser fechada pelo vizinho? O que diz o Código Civil
+- Fazenda sem saída: o vizinho é obrigado a deixar você passar
+
+**Descrição do YouTube:**
+```
+O vizinho fechou o caminho que você usa há anos para chegar na sua fazenda? Antes de arrebentar a porteira, saiba que a lei pode estar do seu lado.
+
+O dono do terreno por onde passa a servidão "não poderá embaraçar de modo algum o exercício legítimo da servidão" (Código Civil, art. 1.383). O caminho usado sem contestação e com marca visível pode ser registrado em nome de quem passa: 10 anos com justo título e boa-fé, 20 anos sem título (art. 1.379). Mesmo sem registro, a servidão de trânsito tornada permanente, sobretudo pelas obras feitas, é aparente e tem proteção possessória (Súmula 415 do STF).
+
+E se a sua fazenda não tem nenhuma saída para a via pública, o vizinho é obrigado a dar passagem, mediante pagamento de indenização cabal (Código Civil, art. 1.285).
+
+Cada caso depende das provas de uso e do tempo. Fontes: Código Civil, arts. 1.285, 1.379 e 1.383 (texto compilado, Planalto); STF, Súmula 415.
+Pinturas e mapa feitos em código à maneira de Antônio Parreiras, Nicola Facchinetti e Pedro Weingärtner. Trilha original.
+
+#servidaodepassagem #direitorural #produtorrural #agro #Shorts
+```
+
+**Legenda do Instagram:**
+```
+O vizinho fechou a estrada que você usa há anos pra chegar na sua fazenda? 🚜🔒 Não arrebenta a porteira: a lei pode estar do seu lado.
+
+Se o caminho é usado há muito tempo e tem marca visível, como cascalho ou ponte, o dono do terreno não pode atrapalhar a servidão. Com 10 anos de uso (com documento) ou 20 (sem), dá pra registrar o direito de passar.
+
+Fazenda sem nenhuma saída pra estrada? O vizinho é obrigado a deixar passar, mediante indenização.
+
+Na sua região, alguém já teve a passagem fechada pelo vizinho de uma hora pra outra? Conta aqui 👇
+
+#servidaodepassagem #direitorural #produtorrural #agro #terra
+```

@@ -3,6 +3,10 @@
 //   sv_parreiras — à maneira de Antônio Parreiras (1860–1937), paisagista brasileiro (estrutura de "Paisagem", c. 1900:
 //                  estrada que entra pela esquerda em curva, árvore-moldura no lado oposto, serra azul e céu largo).
 //                  Foco: a porteira de madeira trancada com corrente e cadeado, sobre a estrada de terra vermelha.
+//   sv_weingartner — à maneira de Pedro Weingärtner (1853–1929): o MESMO enquadramento da porteira (COMPARAR), agora
+//                  aberta, de manhã, com a corrente solta e o gado ao longe.
+//   sv_facchinetti — à maneira de Nicola Facchinetti (1824–1900), o mais minucioso: a estrada cascalhada antiga e a ponte
+//                  de tábuas sobre o riacho (a "marca visível" da servidão); foco na ponte, no terço esquerdo.
 //   sv_mapa      — o mesmo campo visto de cima, como mapa pintado (relevo sombreado pela mesma luz de fim de tarde, paleta
 //                  do Parreiras). Função (DIRECAO_MOTION.md): LOCALIZAR + CAUSA E EFEITO — a fazenda presa no vale, sem
 //                  saída para a estrada pública; o caminho pela terra do vizinho acende em amarelo.
@@ -40,9 +44,9 @@
       g.beginPath(); g.moveTo(x, y); g.quadraticCurveTo(x + Math.cos(a) * l * .5, y + Math.sin(a) * l * .6, x + Math.cos(a) * l + (r() - .5) * 14, y + Math.sin(a) * l); g.stroke(); }
   }
 
-  SCENES['sv_parreiras'] = (() => {
+  const porteira = (O) => (() => {
     let ceu, terra, frente, built = false;
-    const SOL = [610, 300];
+    const SOL = O.manha ? [1180, 380] : [610, 300];
     const curva = t => {                              // a estrada em S: da base do quadro até a porteira e além, rumo ao horizonte
       const p0 = [640, 1120], p1 = [1180, 900], p2 = [620, 760], p3 = [905, 668];
       const u = 1 - t; return [u * u * u * p0[0] + 3 * u * u * t * p1[0] + 3 * u * t * t * p2[0] + t * t * t * p3[0], u * u * u * p0[1] + 3 * u * u * t * p1[1] + 3 * u * t * t * p2[1] + t * t * t * p3[1]];
@@ -51,7 +55,7 @@
     function build() {
       // ---------- céu ----------
       ceu = P.canvas(); let g = ceu.getContext('2d');
-      g.fillStyle = grad(g, 0, 0, 0, 640, [[0, '#5f7fa8'], [.45, '#a9b9c8'], [.78, '#f1d9a8'], [1, '#f6c98a']]); g.fillRect(0, 0, W, 640);
+      g.fillStyle = grad(g, 0, 0, 0, 640, O.manha ? [[0, '#7d9cc4'], [.45, '#c9d2de'], [.78, '#f6dcc6'], [1, '#fbe6c0']] : [[0, '#5f7fa8'], [.45, '#a9b9c8'], [.78, '#f1d9a8'], [1, '#f6c98a']]); g.fillRect(0, 0, W, 640);
       const halo = g.createRadialGradient(SOL[0], SOL[1], 10, SOL[0], SOL[1], 520); halo.addColorStop(0, 'rgba(255,244,214,.95)'); halo.addColorStop(.15, 'rgba(255,226,170,.55)'); halo.addColorStop(1, 'rgba(255,210,150,0)');
       g.fillStyle = halo; g.fillRect(0, 0, W, 700);
       [[200, 150, 1.0, 1], [760, 110, 1.25, 2], [1300, 170, 1.0, 3], [1780, 120, 1.1, 4], [1080, 330, .62, 5], [470, 380, .5, 6]].forEach(([x, y, s, k]) => nuvem(g, x, y, s, 400 + k));
@@ -97,12 +101,23 @@
       const R_ = (x, y, w, h, c) => { g.fillStyle = c; g.fillRect(PX + x * S, PY + y * S, w * S, h * S); };
       R_(-72, -96, 15, 102, '#3a2716'); R_(58, -96, 15, 102, '#3a2716');                                   // mourões
       R_(-72, -96, 4, 102, 'rgba(255,214,150,.6)'); R_(58, -96, 4, 102, 'rgba(255,214,150,.6)');
-      for (let k = 0; k < 5; k++) { const y = -82 + k * 15; R_(-57, y, 115, 8, k % 2 ? '#866444' : '#9b7650'); R_(-57, y, 115, 2, 'rgba(255,232,186,.5)'); R_(-57, y + 6, 115, 2, 'rgba(40,24,12,.35)'); }
-      g.strokeStyle = '#6a4c2e'; g.lineWidth = 6 * S; g.beginPath(); g.moveTo(PX - 54 * S, PY - 18 * S); g.lineTo(PX + 56 * S, PY - 80 * S); g.stroke();
-      g.strokeStyle = 'rgba(255,226,176,.45)'; g.lineWidth = 2 * S; g.beginPath(); g.moveTo(PX - 54 * S, PY - 21 * S); g.lineTo(PX + 56 * S, PY - 83 * S); g.stroke();
-      for (let k = 0; k < 7; k++) { g.strokeStyle = k % 2 ? '#9a968c' : '#cfcac0'; g.lineWidth = 2.4; g.beginPath(); g.ellipse(PX + (50 + k * 3.2) * S, PY + (-56 + k * 3) * S, 4, 2.6, k % 2 ? .9 : -.4, 0, TAU); g.stroke(); }   // corrente
-      R_(68, -36, 13, 13, '#c89a30'); R_(68, -36, 13, 3, '#f0cc60'); g.strokeStyle = '#7a6018'; g.lineWidth = 3; g.beginPath(); g.arc(PX + 74.5 * S, PY - 37 * S, 4.5 * S, Math.PI, 0); g.stroke();   // cadeado
-      ell(g, PX + 70 * S, PY + 8, 140 * S, 10 * S, 0, 'rgba(60,28,16,.38)');                                     // sombra longa
+      if (!O.aberta) {
+        for (let k = 0; k < 5; k++) { const y = -82 + k * 15; R_(-57, y, 115, 8, k % 2 ? '#866444' : '#9b7650'); R_(-57, y, 115, 2, 'rgba(255,232,186,.5)'); R_(-57, y + 6, 115, 2, 'rgba(40,24,12,.35)'); }
+        g.strokeStyle = '#6a4c2e'; g.lineWidth = 6 * S; g.beginPath(); g.moveTo(PX - 54 * S, PY - 18 * S); g.lineTo(PX + 56 * S, PY - 80 * S); g.stroke();
+        g.strokeStyle = 'rgba(255,226,176,.45)'; g.lineWidth = 2 * S; g.beginPath(); g.moveTo(PX - 54 * S, PY - 21 * S); g.lineTo(PX + 56 * S, PY - 83 * S); g.stroke();
+        for (let k = 0; k < 7; k++) { g.strokeStyle = k % 2 ? '#9a968c' : '#cfcac0'; g.lineWidth = 2.4; g.beginPath(); g.ellipse(PX + (50 + k * 3.2) * S, PY + (-56 + k * 3) * S, 4, 2.6, k % 2 ? .9 : -.4, 0, TAU); g.stroke(); }   // corrente
+        R_(68, -36, 13, 13, '#c89a30'); R_(68, -36, 13, 3, '#f0cc60'); g.strokeStyle = '#7a6018'; g.lineWidth = 3; g.beginPath(); g.arc(PX + 74.5 * S, PY - 37 * S, 4.5 * S, Math.PI, 0); g.stroke();   // cadeado
+        ell(g, PX + 70 * S, PY + 8, 140 * S, 10 * S, 0, 'rgba(60,28,16,.38)');                                     // sombra longa
+      } else {                                                                                                // a porteira aberta, girada para fora da estrada
+        const hx = PX - 72 * S, quad = (y0, y1, c) => { g.fillStyle = c; poly(g, [[hx, PY + y0 * S], [hx - 100 * S, PY + (y0 + 30) * S], [hx - 100 * S, PY + (y1 + 30) * S], [hx, PY + y1 * S]]); g.fill(); };
+        for (let k = 0; k < 5; k++) { const y = -82 + k * 15; quad(y, y + 8, k % 2 ? '#866444' : '#9b7650'); quad(y, y + 2, 'rgba(255,232,186,.5)'); quad(y + 6, y + 8, 'rgba(40,24,12,.35)'); }
+        g.fillStyle = '#5a4026'; poly(g, [[hx - 100 * S, PY - 54 * S], [hx - 94 * S, PY - 56 * S], [hx - 94 * S, PY + 38 * S], [hx - 100 * S, PY + 36 * S]]); g.fill();   // a ponta da folha
+        g.strokeStyle = '#6a4c2e'; g.lineWidth = 5 * S; g.beginPath(); g.moveTo(hx, PY - 16 * S); g.lineTo(hx - 100 * S, PY - 50 * S + 30 * S); g.stroke();
+        for (let k = 0; k < 6; k++) { g.strokeStyle = k % 2 ? '#9a968c' : '#cfcac0'; g.lineWidth = 2.4; g.beginPath(); g.ellipse(PX + 64 * S, PY + (-60 + k * 6) * S, 2.6, 4, 0, 0, TAU); g.stroke(); }   // a corrente solta, pendurada no mourão
+        ell(g, PX - 120 * S, PY + 40, 120 * S, 9 * S, 0, 'rgba(60,28,16,.3)');                                // sombra da folha aberta, para a esquerda (sol da manhã à direita)
+        for (const [x, y, s2] of [[1150, 700, 1], [1210, 706, .9], [1290, 702, 1.1], [700, 712, .8], [760, 716, .9]]) {   // gado ao longe, no pasto
+          ell(g, x, y, 16 * s2, 8 * s2, 0, '#efe8dc'); ell(g, x + 15 * s2, y - 5 * s2, 6 * s2, 5 * s2, 0, '#e4dccc'); g.fillStyle = '#5a5048'; g.fillRect(x - 10 * s2, y + 5 * s2, 3, 8 * s2); g.fillRect(x + 8 * s2, y + 5 * s2, 3, 8 * s2); }
+      }
       // a estrada continua depois da porteira até sumir no morro
       g.strokeStyle = 'rgba(214,140,92,.9)'; g.lineWidth = 10; g.beginPath(); g.moveTo(PX + 4, PY - 4); g.bezierCurveTo(PX + 60, PY - 30, PX + 150, PY - 36, PX + 230, PY - 52); g.stroke();
       // ---------- moldura escura do primeiro plano (esquerda) ----------
@@ -162,7 +177,84 @@
         c.beginPath(); c.moveTo(x - 9, y - w); c.quadraticCurveTo(x - 4, y - 5, x, y); c.quadraticCurveTo(x + 4, y - 5, x + 9, y - w); c.stroke(); } c.restore();
       // vinheta suave para segurar o olho no centro
       const vg = c.createRadialGradient(960, 600, 300, 960, 600, 900); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(30,20,10,.35)'); c.fillStyle = vg; c.fillRect(0, 0, W, H);
-      tela(c, 'canvas_sv', '#efe2c8');
+      tela(c, O.manha ? 'canvas_svw' : 'canvas_sv', '#efe2c8');
+    }
+    return { draw };
+  })();
+  SCENES['sv_parreiras'] = porteira({});
+  SCENES['sv_weingartner'] = porteira({ aberta: true, manha: true });
+  SCENES['sv_facchinetti'] = (() => {
+    let ceu, terra, built = false;
+    const SOL = [560, 330];
+    const road = u => { const p0 = [620, 1130], p1 = [680, 920], p2 = [900, 800], p3 = [1120, 640]; const v = 1 - u; return [v * v * v * p0[0] + 3 * v * v * u * p1[0] + 3 * v * u * u * p2[0] + u * u * u * p3[0], v * v * v * p0[1] + 3 * v * v * u * p1[1] + 3 * v * u * u * p2[1] + u * u * u * p3[1]]; };
+    const rw = u => lerp(240, 50, Math.pow(u, .85));
+    const rio = y => 700 + (y - 640) * 0.0 ; // marcador
+    const rioY = (x) => 660 + (x - 420) * .19 + 10 * Math.sin(x * .02), rioW = (x) => 24 + (x - 420) * .085;   // o riacho atravessa o quadro na diagonal, alargando para a frente
+    function build() {
+      ceu = P.canvas(); let g = ceu.getContext('2d');
+      g.fillStyle = grad(g, 0, 0, 0, 640, [[0, '#6684ae'], [.5, '#b3c0cc'], [.85, '#f0dab0'], [1, '#f4cf98']]); g.fillRect(0, 0, W, 640);
+      const halo = g.createRadialGradient(SOL[0], SOL[1], 10, SOL[0], SOL[1], 480); halo.addColorStop(0, 'rgba(255,240,210,.9)'); halo.addColorStop(1, 'rgba(255,210,150,0)'); g.fillStyle = halo; g.fillRect(0, 0, W, 700);
+      [[300, 160, .9, 11], [880, 120, 1.15, 12], [1420, 180, 1.0, 13], [1150, 330, .55, 14]].forEach(([x, y, s, k]) => nuvem(g, x, y, s, 500 + k));
+      ceu = M.broken(ceu, { cell: 7, len: 18, wid: 9, passes: 3, angle: (x, y) => .08 + P.noise(x * .004, y * .004) * .5, seed: 2401, jit: 9, skip: 0.02, sat: 1.02, warm: [255, 228, 180], cool: [100, 120, 170] });
+      terra = P.canvas(); g = terra.getContext('2d');
+      serra(g, 575, 110, .0018, 31, '#9aa8be'); serra(g, 610, 70, .0028, 37, '#7e90a2');
+      // pasto e mata de galeria nas duas margens
+      const im = g.getImageData(0, 0, W, H), d = im.data;
+      for (let y = 600; y < H; y++) for (let x = 0; x < W; x++) { const hz = 640 - 30 * P.fbm(x * .003 + 37, 4.1, 5); if (y < hz) continue;
+        const i = (y * W + x) * 4, k = (y - hz) / (H - hz), n = P.fbm(x * .005, y * .014, 4);
+        let c = mix([156, 162, 96], [74, 98, 46], Math.pow(k, .7)); c = mix(c, [198, 172, 96], clamp(.3 + n, 0, 1) * (1 - k) * .6);
+        c = mix(c, [255, 214, 140], clamp(1 - Math.hypot(x - SOL[0], (y - 640) * 2.4) / 1300, 0, 1) * .26); d[i] = c[0]; d[i + 1] = c[1]; d[i + 2] = c[2]; d[i + 3] = 255; }
+      g.putImageData(im, 0, 0);
+      // o riacho com margens de pedra
+      for (let x = 380; x < 1560; x += 2) { const y = rioY(x), w = rioW(x); g.fillStyle = rgba(mix([156, 180, 190], [100, 130, 142], (x - 380) / 1180), 1); g.fillRect(x, y - w / 2, 3, w);
+        g.fillStyle = 'rgba(255,236,200,.2)'; g.fillRect(x, y - w / 2, 3, w * .25); }
+      const rp = rng(61); for (let i = 0; i < 220; i++) { const x = 400 + rp() * 1150, side = rp() < .5 ? -1 : 1, y = rioY(x) + side * rioW(x) * (.5 + rp() * .12), s2 = lerp(3, 12, (x - 400) / 1150);
+        ell(g, x, y, s2 * 1.4, s2, 0, rgba(mix([120, 112, 100], [176, 166, 150], rp()), 1)); ell(g, x - s2 * .3, y - s2 * .3, s2 * .6, s2 * .4, 0, 'rgba(255,240,210,.35)'); }
+      // mata de galeria: massas de copa com luz de borda, mais escuras perto do riacho
+      const rm = rng(71); for (let i = 0; i < 420; i++) { const x = 380 + rm() * 1180, y = 600 + rm() * 70 - (x > 900 ? 20 : 0), s2 = 14 + rm() * 26;
+        if (Math.abs(x - 1120) < 90) continue;
+        ell(g, x, y, s2 * 1.3, s2, 0, rgba(mix([34, 56, 36], [78, 100, 58], rm()), .95)); ell(g, x - s2 * .4, y - s2 * .45, s2 * .7, s2 * .45, 0, 'rgba(255,214,150,.22)'); }
+      for (const [x, y] of [[640, 470], [1210, 500], [1330, 520]]) {   // palmeiras (macaúba) altas, contra o céu
+        g.strokeStyle = '#4a3a2a'; g.lineWidth = 9; g.beginPath(); g.moveTo(x, 700); g.quadraticCurveTo(x + 10, 600, x, y); g.stroke();
+        for (let k = 0; k < 11; k++) { const a = -Math.PI + k * (Math.PI / 10), l = 70 + (k % 3) * 12; g.strokeStyle = 'rgba(52,80,44,.95)'; g.lineWidth = 5; g.beginPath(); g.moveTo(x, y); g.quadraticCurveTo(x + Math.cos(a) * l * .6, y + Math.sin(a) * l * .3 - 20, x + Math.cos(a) * l, y + Math.sin(a) * l * .5 + 18); g.stroke(); } }
+      // a estrada cascalhada: base ocre e centenas de pedrinhas
+      for (let u = 0; u <= 1.0001; u += .002) { const [x, y] = road(u), w = rw(u); g.fillStyle = rgba(mix([168, 140, 104], [196, 172, 136], u * .7 + .15 * P.noise(u * 50, 2)), 1); g.fillRect(x - w / 2, y - 3, w, 6); }
+      const rc = rng(81); for (let i = 0; i < 2600; i++) { const u = rc(), [x, y] = road(u), w = rw(u), s2 = lerp(3.2, .9, u);
+        ell(g, x + (rc() - .5) * w * .95, y + (rc() - .5) * 6, s2 * 1.3, s2, rc() * 3, rgba(mix([110, 100, 88], [226, 214, 190], rc()), .95)); }
+      for (const side of [-1, 1]) { const rt = rng(side + 90); for (let u = 0; u < .97; u += .01) { const [x, y] = road(u), w = rw(u); tufo(g, x + side * w * .52, y, 10 + 30 * (1 - u), rgba(mix([92, 110, 50], [170, 150, 80], rt()), .9), rt, 5); } }
+      // moldura de primeiro plano: touceira escura à esquerda
+      const rf = rng(17); g.fillStyle = grad(g, 0, 900, 0, H, [[0, 'rgba(36,46,24,0)'], [1, 'rgba(30,38,20,.8)']]); g.fillRect(0, 900, W, 180);
+      for (let i = 0; i < 60; i++) tufo(g, X0 - 20 + rf() * 240, 1080 - rf() * 50, 70 + rf() * 80, rgba(mix([40, 56, 28], [96, 104, 46], rf()), .95), rf, 8);
+      terra = M.broken(terra, { cell: 5, len: 11, wid: 6, passes: 3, angle: (x, y) => (y < 640 ? 0 : -0.3 + P.noise(x * .01, y * .01) * .6), seed: 2501, jit: 8, skip: 0.02, sat: 1.04, warm: [255, 220, 160], cool: [80, 96, 130] });
+      { const g = terra.getContext('2d');
+      // a ponte de tábuas (o foco): o tabuleiro segue a estrada e atravessa o riacho; guarda-corpo dos dois lados
+      { let uc = 0, best = 1e9; for (let u = 0; u <= 1; u += .002) { const [x, y] = road(u), e = Math.abs(y - rioY(x)); if (e < best) { best = e; uc = u; } }
+        const u0 = uc - .09, u1 = uc + .07, N = 22, [ax, ay] = road(u0), [bx, by] = road(u1);
+        const dx = bx - ax, dy = by - ay, L = Math.hypot(dx, dy), nx = -dy / L, ny = dx / L;
+        const pt = (u, s2) => { const [x, y] = road(lerp(u0, u1, u)), w = rw(lerp(u0, u1, u)) * .55; return [x + nx * w * s2, y + ny * w * s2]; };
+        g.fillStyle = 'rgba(30,34,44,.32)'; poly(g, [pt(.2, -1), pt(.8, -1), pt(.8, 1), pt(.2, 1)].map(([x, y]) => [x + 6, y + 12])); g.fill();   // sombra na água
+        for (let k = 0; k < N; k++) { const u = k / N, v = (k + .85) / N; g.fillStyle = k % 2 ? '#7a5a3a' : '#906c48'; poly(g, [pt(u, -1), pt(v, -1), pt(v, 1), pt(u, 1)]); g.fill(); }
+        for (const s2 of [-1, 1]) { g.strokeStyle = '#4a3420'; g.lineWidth = 6; g.beginPath(); const [x0, y0] = pt(0, s2), [x1, y1] = pt(1, s2); g.moveTo(x0, y0 - 30); g.lineTo(x1, y1 - 18); g.stroke();
+          for (let k = 0; k <= 6; k++) { const [x, y] = pt(k / 6, s2); g.lineWidth = 5; g.beginPath(); g.moveTo(x, y); g.lineTo(x, y - lerp(30, 18, k / 6)); g.stroke(); }
+          g.strokeStyle = 'rgba(255,228,176,.55)'; g.lineWidth = 2; g.beginPath(); g.moveTo(x0, y0 - 32); g.lineTo(x1, y1 - 20); g.stroke(); } }
+      }
+    }
+    function draw(c, lt) {
+      if (!built) { build(); built = true; }
+      const t = Math.max(0, lt);
+      c.save(); c.translate(-t * 3, 0); c.scale(1.04, 1.04); c.drawImage(ceu, 0, 0); c.restore();
+      c.drawImage(terra, 0, 0);
+      // brilhos da água correndo
+      const rr = rng(5); c.save(); c.strokeStyle = 'rgba(245,250,255,.6)'; c.lineWidth = 2;
+      for (let i = 0; i < 40; i++) { const p = (rr() + t * .08) % 1, x = lerp(700, 1500, p), y = rioY(x) + (rr() - .5) * rioW(x) * .7, l = lerp(6, 26, p); c.beginPath(); c.moveTo(x - l / 2, y - l * .1); c.lineTo(x + l / 2, y + l * .1); c.stroke(); }
+      c.restore();
+      // garças cruzando devagar
+      c.save(); c.fillStyle = 'rgba(250,250,245,.95)'; for (let i = 0; i < 2; i++) { const x = 1500 - ((t * 38 + i * 140) % 1200), y = 380 + i * 30 + Math.sin(t * 1.5 + i) * 6, w = Math.sin(t * 5 + i) * 10;
+        c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(x + 14, y - 8 - w, x + 30, y - 2 - w); c.quadraticCurveTo(x + 14, y + 2, x, y); c.fill(); c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(x - 14, y - 8 - w, x - 30, y - 2 - w); c.quadraticCurveTo(x - 14, y + 2, x, y); c.fill(); } c.restore();
+      const rv = rng(23); c.save(); c.lineCap = 'round'; for (let i = 0; i < 100; i++) { const x = X0 - 10 + rv() * 1100, y = 1085, l = 40 + rv() * 60, sw = Math.sin(t * 1.3 + x * .01) * 9;
+        c.strokeStyle = rgba(mix([60, 76, 34], [180, 160, 80], rv()), .85); c.lineWidth = 2 + rv() * 2; c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(x + sw * .4, y - l * .6, x + sw, y - l); c.stroke(); } c.restore();
+      const vg = c.createRadialGradient(900, 620, 300, 900, 620, 900); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(30,20,10,.34)'); c.fillStyle = vg; c.fillRect(0, 0, W, H);
+      tela(c, 'canvas_svf', '#efe2c8');
     }
     return { draw };
   })();
@@ -223,7 +315,7 @@
         for (const [w, cor] of [[30, 'rgba(255,214,80,.22)'], [12, 'rgba(255,196,36,.96)'], [4, 'rgba(255,250,210,.95)']]) { c.strokeStyle = cor; c.lineWidth = w; c.beginPath(); for (let k = 0; k <= 80 * u; k++) { const [x, y] = bez(k / 80); k ? c.lineTo(x, y) : c.moveTo(x, y); } c.stroke(); }
         const [hx, hy] = bez(u); ell(c, hx, hy, 11, 11, 0, 'rgba(255,252,225,.98)'); c.restore(); }
       rot(c, 'ESTRADA PÚBLICA', 760, 268, 34, '#3e3024', clamp((t - .3) * 2, 0, 1));
-      rot(c, 'SUA FAZENDA', SF[0] - 20, SF[1] + 120, 42, '#6a2a14', clamp((t - .6) * 2, 0, 1));
+      rot(c, 'SUA FAZENDA', SF[0] - 150, SF[1] - 70, 42, '#6a2a14', clamp((t - .6) * 2, 0, 1));
       rot(c, 'VIZINHO', 1330, 400, 30, '#3a3a2a', clamp((t - 1.0) * 2, 0, 1)); rot(c, 'VIZINHO', 610, 560, 30, '#3a3a2a', clamp((t - 1.0) * 2, 0, 1)); rot(c, 'VIZINHO', 1290, 960, 30, '#3a3a2a', clamp((t - 1.0) * 2, 0, 1));
       rot(c, 'PASSAGEM', 1215, 520, 32, '#7a4a00', clamp((t - 3.8) * 2, 0, 1));
       c.save(); c.translate(1420, 1000); c.globalAlpha = .9; c.fillStyle = '#5a3e26'; for (let k = 0; k < 4; k++) { c.beginPath(); c.moveTo(0, -38); c.lineTo(7, 0); c.lineTo(-7, 0); c.closePath(); c.fill(); c.rotate(Math.PI / 2); }
