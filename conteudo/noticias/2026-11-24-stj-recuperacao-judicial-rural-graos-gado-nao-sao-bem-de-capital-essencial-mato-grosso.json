@@ -28,7 +28,7 @@
  ],
  "corpo": [
   "No acórdão de 2025, o relator, ministro Moura Ribeiro, registrou que a jurisprudência considera essencial o bem empregado no processo de transformação, que não se confunde com o produto final a ser comercializado. A conclusão veio do Tribunal de Justiça de Mato Grosso, a partir da análise da cadeia de produção.",
-  "Nos embargos, os recuperandos pediam flexibilizar o conceito na atividade rural. A turma respondeu que o acórdão já tinha enfrentado a tese, distinguindo bem de capital de produto final, insumos de bens para comercialização e considerando a possibilidade de restituição depois do período de suspensão."
+  "Nos embargos, os recuperandos pediam flexibilizar o conceito na atividade rural. A turma respondeu que o acórdão já tinha enfrentado a tese, distinguindo bem de capital de produto final, insumos de bens para comercialização e considerando a possibilidade de restituição depois do período de suspensão. Atualização (25/11): em outro caso de Mato Grosso, publicado na terça-feira (24), a Terceira Turma reafirmou que grãos colhidos e semoventes são resultado final da atividade e não bens de capital, entendimento que chamou de consolidado."
  ],
  "no_brasil": "Desde 2020, o produtor rural pessoa física pode pedir recuperação judicial, e a discussão sobre o que é bem essencial no campo tem chegado ao STJ. O caso de Mato Grosso mostra que a resposta depende das provas sobre a cadeia produtiva, examinadas nas instâncias locais.",
  "critica": [
@@ -67,6 +67,12 @@
    "nome": "STJ: AREsp 2.889.651/MT, Terceira Turma, relator Ministro Moura Ribeiro",
    "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=2889651&O=JT",
    "data": "21/08/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STJ: AREsp 3.316.668/MT, Terceira Turma, relator Ministro Moura Ribeiro",
+   "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&livre=3316668&O=JT",
+   "data": "24/11/2026",
    "tipo": "primaria"
   }
  ],
@@ -182,9 +188,9 @@
  },
  "revisao": {
   "revisor": "anderson-pelicioni-de-castro",
-  "data": "2026-11-24T02:35:43-03:00",
+  "data": "2026-11-25T02:30:26-03:00",
   "modo": "automatica"
  },
  "publicado_em": "2026-11-24T02:31:14-03:00",
- "atualizado_em": "2026-11-24T02:35:43-03:00"
+ "atualizado_em": "2026-11-25T02:30:26-03:00"
 }
