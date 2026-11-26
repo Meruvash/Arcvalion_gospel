@@ -1,0 +1,189 @@
+{
+ "slug": "senado-cra-aprova-saneamento-rural-fundo-fiis-3-por-cento-agricultura-familiar-pl-1087",
+ "data": "2026-11-26",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Senado aprova até 3% de fundo federal para água e esgoto no campo",
+ "lide": "A Comissão de Agricultura do Senado aprovou por unanimidade nesta quarta-feira (25), em decisão terminativa, substitutivo do senador Sérgio Petecão (PSD-AC) ao PL 1.087/2024 que permite usar até 3% da verba anual do Fundo de Investimento em Infraestrutura Social (FIIS) em saneamento rural, com prioridade para a agricultura familiar e pequenas propriedades.",
+ "por_que_importa": "No campo, só 32,3% dos domicílios tinham rede geral de água em 2023, contra 93,4% nas cidades, segundo dados do IBGE citados no parecer. O dinheiro do FIIS é não reembolsável: a obra não vira dívida para o produtor nem para o município.",
+ "numeros": [
+  [
+   "32,3%",
+   "dos domicílios rurais tinham acesso à rede geral de água em 2023; nas áreas urbanas, 93,4%",
+   "PNAD Contínua/IBGE, citada no parecer"
+  ],
+  [
+   "9,6%",
+   "dos domicílios rurais escoavam o esgoto pela rede geral ou por fossa ligada a ela; nas cidades, 78%",
+   "PNAD Contínua/IBGE, citada no parecer"
+  ],
+  [
+   "Até 3%",
+   "da dotação anual do FIIS poderia ir para saneamento rural, sem obrigação de aplicação",
+   "Substitutivo aprovado na CRA"
+  ]
+ ],
+ "corpo": [
+  "O projeto original, do ex-senador Mecias de Jesus, reservava pelo menos 3% do dinheiro do FAT repassado ao BNDES. Petecão trocou a fonte pelo FIIS, que apoia projetos sem exigir devolução, e transformou o piso em teto. A comissão rejeitou emenda da CAE que mantinha o FAT.",
+  "As ações terão de integrar o Plano Nacional de Saneamento Básico e passar pelo comitê gestor do fundo. O Ministério das Cidades poderá executá-las ou repassar por convênio. Emendas parlamentares ao FIIS deverão priorizar o saneamento rural. O parecer foi lido pela senadora Tereza Cristina (PP-MS)."
+ ],
+ "no_brasil": "Como a decisão foi terminativa, o projeto segue direto para a Câmara dos Deputados se não houver recurso para votação no Plenário do Senado. A prioridade alcança a agricultura familiar, as pequenas propriedades definidas na Lei 8.629/1993 e os povos e comunidades tradicionais.",
+ "critica": [
+  {
+   "fonte": "Substitutivo aprovado na CRA, novo § 6º do art. 4º da Lei 14.947/2024",
+   "texto": "O montante equivalente a até 3% (três por cento) da dotação anual autorizada para o FIIS na lei orçamentária anual poderá ser destinado para os programas específicos para ações de saneamento básico em áreas rurais",
+   "citacao": true,
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/445d54fb-83cf-4fa9-9457-baf1ec366dcc"
+  }
+ ],
+ "para_quem": [
+  "Comunidades rurais e associações de produtores sem água encanada: o texto abre uma fonte de dinheiro a fundo perdido; acompanhe a tramitação na Câmara",
+  "Prefeituras de municípios rurais: os projetos terão de estar ligados ao Plano Nacional de Saneamento Básico",
+  "Agricultor familiar e pequeno proprietário: vocês estão na lista de prioridade"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: falta a Câmara e a sanção",
+  "O texto não obriga a aplicar os 3%; é um limite máximo",
+  "A nota não traz o valor anual do FIIS no Orçamento"
+ ],
+ "veredito": "Água e esgoto são a infraestrutura mais esquecida do campo, e a troca do FAT pelo FIIS foi acertada: obra de saneamento rural raramente paga empréstimo. Mas um teto sem piso pode virar letra morta; a Câmara deveria garantir um mínimo.",
+ "fontes": [
+  {
+   "nome": "Senado Federal: tramitação do PL 1.087/2024 (aprovado em decisão terminativa na CRA em 25/11/2026)",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/8641781",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal: pauta da 25ª reunião da CRA, com o parecer do senador Sérgio Petecão e o substitutivo",
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/445d54fb-83cf-4fa9-9457-baf1ec366dcc",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: CRA aprova destinar verba de fundo federal para saneamento no campo",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/cra-aprova-destinar-verba-de-fundo-federal-para-saneamento-no-campo",
+   "data": "25/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 53,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Infraestrutura de água e esgoto nas propriedades e comunidades rurais"
+  },
+  "origem": {
+   "nome": "Senado Federal",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/8641781"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 11,
+    "porque": "Abre fonte não reembolsável para saneamento rural no país, mas sem piso obrigatório e ainda sem passar pela Câmara"
+   },
+   "afinidade": {
+    "pontos": 13,
+    "porque": "Infraestrutura da propriedade rural e da agricultura familiar"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovado em decisão terminativa na CRA nesta quarta-feira, 25/11"
+   },
+   "comprovacao": {
+    "pontos": 10,
+    "porque": "Parecer, substitutivo e tramitação lidos no Senado"
+   },
+   "originalidade": {
+    "pontos": 2,
+    "porque": "Mostramos que o piso virou teto e o efeito disso"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 6,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: parecer e substitutivo (2)",
+    "Ato de quem tem poder: comissão do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Dado que impressiona: 9,6% com esgoto no campo (3)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "PL 1.087/2024",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Infraestrutura rural",
+  "coleta": "2026-11-26",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "parecer, substitutivo e tramitação conferidos no Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "valor anual do FIIS"
+  },
+  "duplicidade": {
+   "grupo": "Saneamento rural",
+   "itens": [
+    "PL 1.087/2024"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber se há verba federal para água e esgoto na zona rural",
+   "entidades": [
+    "PL 1.087/2024",
+    "FIIS",
+    "Lei 14.947/2024",
+    "Sérgio Petecão",
+    "Tereza Cristina",
+    "Plano Nacional de Saneamento Básico"
+   ],
+   "termos": [
+    "saneamento rural verba federal",
+    "FIIS saneamento rural",
+    "PL 1087/2024"
+   ],
+   "atualizacao": "acompanhar prazo de recurso e a chegada à Câmara"
+  },
+  "agro": {
+   "demanda": "Comunidades rurais e agricultores familiares sem rede de água e esgoto",
+   "prazo": "prazo de recurso no Senado; depois, Câmara",
+   "quem": "Agricultores familiares, pequenos proprietários e comunidades tradicionais"
+  }
+ },
+ "descricao_seo": "CRA do Senado aprova até 3% do fundo FIIS para água e esgoto no campo, com prioridade para agricultura familiar (PL 1.087/2024).",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura do parecer, do substitutivo e da tramitação, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: percentuais, fonte de recursos e dados do IBGE conferidos no parecer; trecho citado literalmente; a nota deixa claro que o texto ainda não é lei. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/senado-cra-aprova-saneamento-rural-fundo-fiis-3-por-cento-agricultura-familiar-pl-1087.jpg",
+  "credito": "Foto: Tomaz Silva/Agência Brasil",
+  "alt": "Moradoras de comunidade rural preparam bananas no quintal (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/J56vs2gUm-DXlnBb9vQ4gXSE14M=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/_dsc7807_0.jpg?itok=1g-2JtFS",
+  "pagina": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2025-05/seis-em-cada-dez-quilombolas-vivem-em-area-rural-revela-censo-do-ibge"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-26T02:35:02-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-26T02:35:02-03:00"
+}
