@@ -1,0 +1,190 @@
+{
+ "slug": "camara-aprova-marco-educacao-tempo-integral-sete-horas-diarias-pl-479",
+ "data": "2026-11-26",
+ "categoria": "familia-e-valores",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Câmara aprova marco da escola em tempo integral com mínimo de sete horas por dia",
+ "lide": "A Câmara dos Deputados aprovou na quarta-feira (25) o PL 479/2015, que cria o marco regulatório da educação integral em tempo integral na rede pública. O aluno nessa modalidade terá de ficar ao menos sete horas por dia ou 35 horas semanais em atividades escolares, e o texto segue para o Senado, informou a Agência Câmara.",
+ "por_que_importa": "Muitas redes chamam de tempo integral o simples contraturno. A lei define o que conta como escola integral e o que a rede precisa oferecer, como alimentação, transporte e estrutura, o que muda a rotina de milhões de famílias que dependem da escola pública.",
+ "numeros": [
+  [
+   "7 horas",
+   "por dia ou 35 por semana é a jornada mínima do aluno em tempo integral",
+   "Agência Câmara, 25/11/2026"
+  ],
+  [
+   "2015",
+   "é o ano em que o projeto foi apresentado, pelo deputado João Daniel (PT-SE)",
+   "Câmara dos Deputados, dados abertos"
+  ],
+  [
+   "7",
+   "projetos apensados foram desapensados após a aprovação",
+   "Câmara dos Deputados, dados abertos"
+  ]
+ ],
+ "corpo": [
+  "O texto aprovado é o substitutivo do relator, deputado Thiago de Joaldo (Republicanos-SE). A oferta dependerá de projeto político-pedagógico com currículo integrado, e a simples ampliação de turnos ou atividades só no contraturno não caracteriza tempo integral. A modalidade não cria, por si só, novas disciplinas obrigatórias.",
+  "As redes terão de garantir equipe compatível com a jornada, alimentação, transporte quando necessário, espaços para estudo, esporte, descanso e convivência, e gestão com participação da comunidade escolar. A votação no Plenário e o envio ao Senado constam dos dados abertos da Câmara."
+ ],
+ "no_brasil": "O projeto ainda precisa ser aprovado pelo Senado e sancionado. A escola poderá usar outros espaços, como museus, desde que as atividades tenham objetivos definidos no projeto pedagógico, segundo a Agência Câmara.",
+ "critica": [
+  {
+   "fonte": "Deputado João Daniel (PT-SE), autor, segundo a Agência Câmara",
+   "texto": "É fundamental, no mínimo, sete horas por dia de escola",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1322878-camara-aprova-marco-regulatorio-da-educacao-em-tempo-integral"
+  },
+  {
+   "fonte": "Limite previsto no texto, segundo a Agência Câmara",
+   "texto": "A oferta da modalidade não implica, por si só, a criação de novas atividades curriculares obrigatórias.",
+   "citacao": false,
+   "url": "https://www.camara.leg.br/noticias/1322878-camara-aprova-marco-regulatorio-da-educacao-em-tempo-integral"
+  }
+ ],
+ "para_quem": [
+  "Pais de alunos da rede pública",
+  "Professores, diretores e secretarias de educação",
+  "Igrejas e projetos sociais que atendem crianças no contraturno"
+ ],
+ "nao_e_para": [
+  "Não é lei ainda: falta o Senado e a sanção",
+  "Não obriga toda escola a ser integral: define as regras para quem oferecer a modalidade",
+  "Não vale para escolas particulares"
+ ],
+ "veredito": "Mais tempo na escola só vale se for tempo bem usado. A lei acerta ao exigir estrutura e currículo, não só turno extra. Mas a escola não substitui a família: os pais precisam acompanhar o que os filhos fazem nessas sete horas e participar da gestão escolar.",
+ "versiculo": {
+  "texto": "Instrui o menino no caminho em que deve andar, e, até quando envelhecer, não se desviará dele.",
+  "referencia": "Provérbios 22.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Câmara: Câmara aprova marco regulatório da educação em tempo integral (25/11/2026)",
+   "url": "https://www.camara.leg.br/noticias/1322878-camara-aprova-marco-regulatorio-da-educacao-em-tempo-integral",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados, Dados Abertos: tramitação do PL 479/2015",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/949156/tramitacoes",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 51,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "educacao",
+   "porque": "Educação dos filhos na rede pública: regras para a escola em tempo integral"
+  },
+  "origem": {
+   "nome": "Agência Câmara",
+   "url": "https://www.camara.leg.br/noticias/1322878-camara-aprova-marco-regulatorio-da-educacao-em-tempo-integral"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Aprovado na Câmara; ainda depende do Senado e de sanção"
+   },
+   "afinidade": {
+    "pontos": 10,
+    "porque": "Educação dos filhos com efeito indireto: política pública para redes de ensino"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação no Plenário na quarta-feira, 25/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Matéria oficial da Câmara e votação conferida nos dados abertos"
+   },
+   "originalidade": {
+    "pontos": 6,
+    "porque": "Explica o que passa a contar como tempo integral e o que a rede precisa garantir"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 2
+   },
+   "criterios": [
+    "Documento primário: dados abertos da Câmara (2)",
+    "Proximidade: nacional (2)",
+    "Personagens com nome: João Daniel, Thiago de Joaldo (1)",
+    "Número forte: sete horas (2)",
+    "Utilidade: o que muda para os pais (2)",
+    "Tema que já mobiliza o público: escola (1)",
+    "Passagem bíblica sobre educação de filhos (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Câmara aprova marco regulatório da educação em tempo integral",
+  "nucleo": "A - Brasil",
+  "categoria": "Família / educação",
+  "coleta": "2026-11-26",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na Agência Câmara e nos dados abertos",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "custos para as redes e prazo de adaptação"
+  },
+  "duplicidade": {
+   "grupo": "PL 479/2015",
+   "itens": [
+    "Agência Câmara 25/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que é a escola em tempo integral pela nova regra",
+   "entidades": [
+    "PL 479/2015",
+    "educação em tempo integral",
+    "Câmara dos Deputados",
+    "Thiago de Joaldo",
+    "João Daniel"
+   ],
+   "termos": [
+    "escola tempo integral sete horas lei",
+    "marco educação integral",
+    "pl 479/2015"
+   ],
+   "atualizacao": "votação no Senado"
+  }
+ },
+ "descricao_seo": "Câmara aprova o PL 479/2015: escola pública em tempo integral terá de garantir ao menos 7 horas diárias, com estrutura; texto vai ao Senado.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da matéria oficial e dos dados abertos da Câmara, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: deixa claro que é projeto aprovado na Câmara e pendente no Senado; citação literal conferida; nenhuma pessoa acusada. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/camara-aprova-marco-educacao-tempo-integral-sete-horas-diarias-pl-479.jpg",
+  "credito": "Foto: Thiago Cristino/Câmara dos Deputados",
+  "alt": "Deputado discursa na tribuna do plenário da Câmara, entre bandeiras do Brasil",
+  "licenca": "Uso livre e gratuito com crédito no formato Nome do Fotógrafo/Câmara dos Deputados",
+  "origem": "https://www.camara.leg.br/midias/image/2026/11/img20261125163718406.jpg",
+  "pagina": "https://www.camara.leg.br/noticias/1322878-camara-aprova-marco-regulatorio-da-educacao-em-tempo-integral"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-26T02:30:34-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-26T02:30:34-03:00"
+}
