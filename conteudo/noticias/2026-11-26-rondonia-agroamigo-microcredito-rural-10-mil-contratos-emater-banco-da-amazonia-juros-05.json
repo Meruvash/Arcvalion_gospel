@@ -1,0 +1,183 @@
+{
+ "slug": "rondonia-agroamigo-microcredito-rural-10-mil-contratos-emater-banco-da-amazonia-juros-05",
+ "data": "2026-11-26",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Informativo",
+ "titulo": "Microcrédito rural com juros de 0,5% ao ano passa de 10 mil contratos em Rondônia",
+ "lide": "A parceria entre a Emater-RO e o Banco da Amazônia no Agroamigo, o microcrédito para agricultores familiares de menor renda, formalizou 10.238 projetos e cerca de R$ 150,7 milhões em crédito rural desde maio, nos 52 municípios de Rondônia, informou o governo do estado nesta quinta-feira (26). Só em novembro, até o dia 24, foram 2.361 contratos.",
+ "por_que_importa": "É um dos créditos mais baratos ao alcance do pequeno produtor de Rondônia: juros de 0,5% ao ano, prazo de até três anos e bônus para quem paga em dia. O extensionista da Emater vai à propriedade e monta o projeto, o que tira do caminho a burocracia que costuma afastar a família do banco.",
+ "numeros": [
+  [
+   "10.238",
+   "projetos formalizados desde maio de 2026, somando cerca de R$ 150,7 milhões",
+   "Governo de Rondônia"
+  ],
+  [
+   "R$ 50 mil",
+   "é a renda bruta anual máxima da família para entrar no Agroamigo",
+   "Governo de Rondônia"
+  ],
+  [
+   "54,8%",
+   "do valor contratado foi para mulheres, cerca de R$ 83 milhões",
+   "Governo de Rondônia"
+  ]
+ ],
+ "corpo": [
+  "Segundo o governo, os limites chegam a R$ 15 mil para mulheres, R$ 12 mil para homens e R$ 8 mil no Agroamigo Jovem, para quem tem de 18 a 29 anos. Por família, o teto pode chegar a R$ 35 mil, desde que cada integrante esteja no Cadastro Nacional da Agricultura Familiar (CAF).",
+  "O dinheiro vem do Fundo Constitucional de Financiamento do Norte (FNO). A linha também atende pescadores artesanais, indígenas, quilombolas, extrativistas, assentados e ribeirinhos. A Emater-RO orienta o projeto e acompanha a aplicação; o Banco da Amazônia analisa e contrata."
+ ],
+ "no_brasil": "O Agroamigo é a forma de operar o microcrédito do Pronaf. Na página do Pronaf B, o Banco da Amazônia confirma juros de até 0,5% ao ano e prazo de até três anos, mas ainda mostra limite de R$ 4 mil e condições da safra 2024/25, abaixo dos valores divulgados agora pelo governo do estado.",
+ "critica": [
+  {
+   "fonte": "Alessandro Pedralli da Silva, diretor-presidente da Emater-RO, ao governo do estado",
+   "texto": "Essa parceria fortalece nosso trabalho e permite que o financiamento chegue acompanhado de assistência técnica",
+   "citacao": true,
+   "url": "https://rondonia.ro.gov.br/parceria-beneficia-agricultura-familiar-com-mais-de-10-mil-projetos-de-microcredito-rural/"
+  }
+ ],
+ "para_quem": [
+  "Agricultor familiar de Rondônia com renda bruta de até R$ 50 mil por ano: procure o escritório local da Emater-RO no seu município",
+  "Leve o CAF em dia; sem ele, cada integrante da família fica fora do limite familiar",
+  "Antes de assinar, confira no contrato do banco o limite, os juros e o bônus de adimplência, porque a página do Banco da Amazônia ainda traz valores antigos"
+ ],
+ "nao_e_para": [
+  "Não é para quem tem renda bruta familiar acima de R$ 50 mil por ano",
+  "Os números são do governo do estado e não foram confirmados pelo Banco da Amazônia",
+  "A nota não traz dados de inadimplência da linha"
+ ],
+ "veredito": "Crédito pequeno, barato e com técnico na porteira é o que mais faz diferença para a família do sítio. Falta o Banco da Amazônia atualizar a própria página: produtor não pode descobrir o limite real só na agência.",
+ "fontes": [
+  {
+   "nome": "Governo de Rondônia/Emater-RO: Parceria beneficia agricultura familiar com mais de 10 mil projetos de microcrédito rural",
+   "url": "https://rondonia.ro.gov.br/parceria-beneficia-agricultura-familiar-com-mais-de-10-mil-projetos-de-microcredito-rural/",
+   "data": "26/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Banco da Amazônia: Pronaf B, condições da linha",
+   "url": "https://www.bancoamazonia.com.br/pronaf/pronaf-b",
+   "data": "26/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 56,
+  "trilha": "quente",
+  "abrangencia": "rondonia",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Crédito rural para a agricultura familiar de Rondônia e como acessá-lo"
+  },
+  "origem": {
+   "nome": "Governo de Rondônia",
+   "url": "https://rondonia.ro.gov.br/parceria-beneficia-agricultura-familiar-com-mais-de-10-mil-projetos-de-microcredito-rural/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 11,
+    "porque": "Mais de 10 mil famílias de Rondônia já contrataram; linha aberta a outras milhares"
+   },
+   "afinidade": {
+    "pontos": 16,
+    "porque": "Crédito rural do Pronaf para o pequeno produtor, com prioridade para Rondônia"
+   },
+   "atualidade": {
+    "pontos": 16,
+    "porque": "Balanço do governo do estado divulgado nesta quinta-feira, 26/11, com contratos de novembro"
+   },
+   "comprovacao": {
+    "pontos": 10,
+    "porque": "Números do governo do estado; juros e prazo conferidos no Banco da Amazônia"
+   },
+   "originalidade": {
+    "pontos": 3,
+    "porque": "Apontamos que a página do banco traz limite desatualizado"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: governo e banco (2)",
+    "Proximidade: Rondônia (3)",
+    "Utilidade: como pedir o crédito (3)",
+    "Tema que toca o bolso do pequeno produtor (3)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Parceria beneficia agricultura familiar com mais de 10 mil projetos de microcrédito rural",
+  "nucleo": "B - Rondônia",
+  "categoria": "Agro / Crédito rural",
+  "coleta": "2026-11-26",
+  "verificacao": {
+   "grau_de_confianca": "médio",
+   "status": "números do governo do estado; juros e prazo conferidos no Banco da Amazônia",
+   "contradicoes": "a página do Pronaf B do Banco da Amazônia mostra limite de R$ 4 mil e condições de 2024/25",
+   "sem_confirmacao": "limites atuais confirmados pelo banco e inadimplência"
+  },
+  "duplicidade": {
+   "grupo": "Microcrédito rural",
+   "itens": [
+    "Agroamigo Rondônia"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber como pegar microcrédito rural Agroamigo em Rondônia",
+   "entidades": [
+    "Agroamigo",
+    "Emater-RO",
+    "Banco da Amazônia",
+    "FNO",
+    "Pronaf B",
+    "CAF"
+   ],
+   "termos": [
+    "Agroamigo Rondônia",
+    "microcrédito rural Rondônia",
+    "Pronaf B Banco da Amazônia"
+   ],
+   "atualizacao": "acompanhar novo balanço e atualização das condições pelo banco"
+  },
+  "agro": {
+   "demanda": "Agricultores familiares de menor renda em Rondônia que precisam de crédito para investir na propriedade",
+   "prazo": "linha em operação contínua",
+   "quem": "Famílias com renda bruta anual de até R$ 50 mil, inscritas no CAF"
+  }
+ },
+ "descricao_seo": "Agroamigo em Rondônia passa de 10 mil contratos com juros de 0,5% ao ano; veja limites, quem pode pedir e onde procurar a Emater-RO.",
+ "instituicao": "Governo de Rondônia",
+ "editora": "Governo de Rondônia",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura do balanço do governo e da página do banco, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: números atribuídos ao governo do estado; juros e prazo conferidos no banco; divergência de limite apontada sem acusar o banco de irregularidade; citação literal do dirigente da Emater-RO. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/rondonia-agroamigo-microcredito-rural-10-mil-contratos-emater-banco-da-amazonia-juros-05.jpg",
+  "credito": "Foto: Marcelo Camargo/Agência Brasil",
+  "alt": "Canteiro de alfaces em horta de agricultura familiar (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/3hYQsQ3vRHp66MvJnmH6cjQ3RqM=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/07/20/latinidades-quilombo-mesquita_mcamgo_abr_20072024-4.jpg?itok=vByMUZxR",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/parceria-destina-r-299-milhoes-para-agricultura-familiar-na-bahia"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-26T14:47:22-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-26T14:47:22-03:00"
+}
