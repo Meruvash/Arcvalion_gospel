@@ -1,0 +1,191 @@
+{
+ "slug": "senado-cra-aprova-bonus-merenda-municipio-compra-agricultura-familiar-45-por-cento-pl-1-2024",
+ "data": "2026-11-26",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Prefeitura que comprar 45% da merenda da agricultura familiar pode ganhar bônus de 5%",
+ "lide": "A Comissão de Agricultura do Senado aprovou nesta quarta-feira (25) substitutivo ao PL 1/2024, do senador Laércio Oliveira (PP-SE), que dá ao município bônus de até 5% sobre os repasses da merenda escolar no ano seguinte, se comprovar que gastou ao menos 45% do dinheiro comprando direto da agricultura familiar. O texto segue para a Comissão de Educação.",
+ "por_que_importa": "A lei já manda destinar 45% do Pnae à agricultura familiar, mas cumprir depende de a prefeitura organizar a compra. O bônus cria um incentivo em dinheiro para quem cumpre e abre mais espaço de venda para o pequeno produtor, o assentado e as cooperativas da região.",
+ "numeros": [
+  [
+   "45%",
+   "é o mínimo dos repasses do Pnae que deve ir para compra direta da agricultura familiar, fixado pela Lei 15.226/2025",
+   "Parecer e Agência Senado"
+  ],
+  [
+   "Até 5%",
+   "seria o bônus sobre os repasses no ano seguinte, para o município que comprovar o percentual",
+   "Substitutivo aprovado na CRA"
+  ],
+  [
+   "R$ 2,47 bilhões",
+   "seriam destinados à agricultura familiar em 2025 se os 45% de R$ 5,5 bilhões fossem cumpridos à risca, segundo o parecer",
+   "Parecer da relatora"
+  ]
+ ],
+ "corpo": [
+  "Pelo texto, todos os entes que recebem o Pnae terão de comprovar o percentual ao FNDE. O bônus depende de orçamento e de regulamento, só pode ser gasto em alimentos e tem prestação de contas como o resto do programa. Quem não cumprir pode pedir assistência técnica à União.",
+  "A compra pode ser feita por chamada pública, com preço compatível com o mercado local. A prioridade vai para assentados da reforma agrária, pescadores artesanais, indígenas, quilombolas e grupos de mulheres. O parecer, da senadora Professora Dorinha Seabra (União-TO), foi lido pelo senador Luis Carlos Heinze."
+ ],
+ "no_brasil": "A dispensa do percentual quando há dificuldade comprovada de fornecimento regular continua valendo, segundo a relatora. O projeto ainda passa pela Comissão de Educação, que dá a palavra final no Senado, e depois pela Câmara antes de virar lei.",
+ "critica": [
+  {
+   "fonte": "Substitutivo aprovado na CRA, novo § 6º do art. 14 da Lei 11.947/2009",
+   "texto": "O Município que comprovar o cumprimento do percentual mínimo previsto no caput poderá receber, no exercício subsequente, bônus de até 5% (cinco por cento) sobre o valor dos recursos repassados no âmbito do PNAE",
+   "citacao": true,
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/445d54fb-83cf-4fa9-9457-baf1ec366dcc"
+  }
+ ],
+ "para_quem": [
+  "Agricultor familiar e cooperativa: acompanhe as chamadas públicas da merenda no seu município; elas já são obrigatórias para cumprir os 45%",
+  "Assentados, pescadores artesanais e grupos de mulheres: o texto reforça a prioridade de vocês na compra",
+  "Prefeituras: o bônus ainda depende de aprovação final e de regulamento"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: faltam a Comissão de Educação do Senado e a Câmara",
+  "O bônus não é automático: depende de orçamento e de regulamento",
+  "A nota não traz dados de quantos municípios cumprem hoje os 45%"
+ ],
+ "veredito": "Incentivo bem desenhado: premia quem cumpre a lei em vez de só punir quem falha, e o dinheiro volta para o prato do aluno. O teste real será o regulamento e o orçamento para pagar o bônus.",
+ "fontes": [
+  {
+   "nome": "Senado Federal: tramitação do PL 1/2024 (parecer aprovado na CRA em 25/11/2026)",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/8614284",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal: pauta da 25ª reunião da CRA, com o parecer e o substitutivo ao PL 1/2024",
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/445d54fb-83cf-4fa9-9457-baf1ec366dcc",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: Municípios que comprarem da agricultura familiar podem ter bônus para merenda",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/municipios-que-comprarem-da-agricultura-familiar-podem-ter-bonus-para-merenda",
+   "data": "25/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 56,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Venda da agricultura familiar para a merenda escolar e renda do pequeno produtor"
+  },
+  "origem": {
+   "nome": "Senado Federal",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/8614284"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 11,
+    "porque": "Mexe com um mercado de bilhões para o pequeno produtor, mas ainda falta Comissão de Educação e Câmara"
+   },
+   "afinidade": {
+    "pontos": 15,
+    "porque": "Agricultura familiar e venda ao poder público, tema da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Substitutivo aprovado na CRA nesta quarta-feira, 25/11"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Parecer, substitutivo e tramitação lidos no Senado"
+   },
+   "originalidade": {
+    "pontos": 2,
+    "porque": "Trazemos o valor estimado no parecer e a dispensa que segue valendo"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: parecer e substitutivo (2)",
+    "Ato de quem tem poder: comissão do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: onde vender para a merenda (2)",
+    "Tema que toca o pequeno produtor (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "PL 1/2024",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Agricultura familiar",
+  "coleta": "2026-11-26",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "parecer, substitutivo e tramitação conferidos no Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "quantos municípios cumprem hoje os 45%"
+  },
+  "duplicidade": {
+   "grupo": "Pnae e agricultura familiar",
+   "itens": [
+    "PL 1/2024"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber como a agricultura familiar vende para a merenda escolar e o que muda com o PL 1/2024",
+   "entidades": [
+    "PL 1/2024",
+    "Pnae",
+    "FNDE",
+    "Lei 11.947/2009",
+    "Lei 15.226/2025",
+    "Professora Dorinha Seabra",
+    "Laércio Oliveira"
+   ],
+   "termos": [
+    "bônus merenda agricultura familiar",
+    "Pnae 45% agricultura familiar",
+    "PL 1/2024"
+   ],
+   "atualizacao": "acompanhar a votação na Comissão de Educação"
+  },
+  "agro": {
+   "demanda": "Agricultores familiares, assentados e cooperativas que vendem ou querem vender para a merenda escolar",
+   "prazo": "votação na Comissão de Educação do Senado, ainda sem data",
+   "quem": "Pequenos produtores e organizações da agricultura familiar"
+  }
+ },
+ "descricao_seo": "CRA do Senado aprova bônus de até 5% no Pnae para o município que comprar 45% da merenda direto da agricultura familiar (PL 1/2024).",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura do parecer, do substitutivo e da tramitação, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: percentuais e regras conferidos no substitutivo; trecho citado literalmente; a nota deixa claro que o texto ainda não é lei e que o bônus depende de regulamento. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/senado-cra-aprova-bonus-merenda-municipio-compra-agricultura-familiar-45-por-cento-pl-1-2024.jpg",
+  "credito": "Foto: Fabio Rodrigues-Pozzebom/Agência Brasil",
+  "alt": "Caixas com abóboras, verduras e legumes (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/nTY3C671yDXWtYGD3tDvVCC4aEA=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/15/pzzb7591.jpg?itok=RCaKb6ad",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/seguranca-alimentar-exige-esforco-coletivo-e-articulacao"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-26T02:33:58-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-26T02:33:58-03:00"
+}
