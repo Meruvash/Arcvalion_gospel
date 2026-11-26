@@ -76,6 +76,8 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
    Kaggle (`tools/video/agro-arte/ia_kaggle/wan22_previa_t4.py`), e mandar ao editor junto com o roteiro.
 
 ## Entrega técnica
+- **Qualidade do arquivo (26/11/2026):** render com `--video-frame-format png --video-bitrate 16M --max-bitrate 24M` e master com
+  `-c:v copy`, recomprimindo só o áudio. Alvo: 10 Mbps ou mais (60 a 100 MB por minuto). Nunca recomprimir o vídeo no master.
 - Áudio final em **48 kHz** (`-ar 48000` depois do `loudnorm`). Confira com `ffprobe` antes de entregar. Ver a direção, seção 3.
 - **Sem limpeza de metadados** (decisão do editor, 19/11/2026): o arquivo sai igual ao do caseiro e do irmão, com a etiqueta padrão do ffmpeg. Nada de `-map_metadata -1`, `-fflags +bitexact` ou remoção de `encoder`.
 

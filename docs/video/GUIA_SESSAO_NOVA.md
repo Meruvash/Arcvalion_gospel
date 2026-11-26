@@ -109,8 +109,11 @@ Os números e as análises completas estão em `PADRAO_CASEIRO.md`, seções 1 e
    - Pinturas: copiar `*_scenes.js` e `eras_*.js` para o motor e renderizar com `render_local.py --film X --solo id`.
      Recortar `crop=1080:1080:420:0`.
    - Montagem: `python3 montar.py`, `npx hyperframes check`, snapshots dos momentos-chave e `render --quality high`.
-   - Master: `ffmpeg -af "loudnorm=I=-14.5:TP=-2:LRA=11,alimiter=limit=0.83:level=disabled,aresample=48000" -ar 48000
-     -c:v libx264 -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k -movflags +faststart`.
+   - **Render em alta qualidade** (pedido do editor, 26/11/2026: "o vídeo está muito compactado"):
+     `npx hyperframes render --quality high --video-frame-format png --video-bitrate 16M --max-bitrate 24M -o render.mp4`.
+   - **Master só no áudio, sem recomprimir o vídeo:** `ffmpeg -i render.mp4 -c:v copy -af "loudnorm=I=-14.5:TP=-2:LRA=11,alimiter=limit=0.83:level=disabled,aresample=48000"
+     -ar 48000 -c:a aac -b:a 192k -movflags +faststart final.mp4`. Confira com `ffprobe` se a taxa ficou em 10 Mbps ou mais
+     (de 60 a 100 MB por minuto).
 8. **Crivos.**
    - Rodar `crivo_qualidade.py` e abrir **todas** as folhas: H1–H7, A1–A10, M1–M8.
    - Rodar `auditar_video.py`.
@@ -177,6 +180,9 @@ Os números e as análises completas estão em `PADRAO_CASEIRO.md`, seções 1 e
   (cruzamento da estrada com o rio, direção da estrada) em vez de chutar coordenadas.
 - **Pauta contra o produtor** (moradia do peão): recusada. Sempre a favor do produtor.
 - **Gancho repetido** ("Você sabia" todo dia): alternar os 5 moldes.
+- **Vídeo compactado demais** (até o poço, 26/11/2026): a montagem saía com cerca de 3 Mbps e era recomprimida no master
+  (CRF 18), terminando em 1,8 Mbps. A pincelada e o céu degradê perdiam textura antes mesmo da recompressão do Instagram e
+  do YouTube. Agora o render sai a 16 Mbps e o master copia o vídeo sem recomprimir (seção 4, passo 7).
 - **Item S2 do `auditar_video.py`:** marca falas em que só entra um letreiro suave. É aceitável pela direção de motion,
   mas avise o editor.
 

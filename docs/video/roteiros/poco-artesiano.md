@@ -100,7 +100,8 @@ Não há gente, então não entra Higgsfield. O único elemento "técnico" é o 
 a água), como pede a direção de motion.
 
 ## Entrega (26/11/2026)
-- **Vídeo:** `poco-artesiano.mp4`, 1080×1080, 59,1 s, áudio em 48 kHz.
+- **Vídeo:** `poco-artesiano.mp4`, 1080×1080, 59,1 s, áudio em 48 kHz. **Reexportado em alta qualidade:** 12,8 Mbps e
+  96 MB, contra 1,8 Mbps e 15 MB da 1ª versão, a pedido do editor.
 - **Capa:** "POÇO ARTESIANO É CRIME?" sobre o cata-vento. Capas do Instagram em 9:16 e 4:5, com o carimbo "MULTA?" no céu.
 - **Imagem:** 100% pintura em código, sem IA. Cenas `pc_grimm`, `pc_corte` e `pc_calixto` em `cenas/pc_scenes.js`;
   montagem em `montar_exemplo_poco.py`.
