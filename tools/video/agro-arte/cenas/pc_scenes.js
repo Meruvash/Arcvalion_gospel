@@ -1,6 +1,8 @@
 // Cenas do vídeo "Poço artesiano é crime?". Padrão de DIRECAO_ARTISTICA.md e DIRECAO_MOTION.md (26/11/2026).
 //   pc_grimm — à maneira de Georg Grimm (1846–1887), paisagista do Brasil: o cerrado no fim da tarde, o cata-vento de ferro
 //              sobre o poço e a caixa d'água de madeira (foco no terço direito), trilha que leva até eles, veredas com buritis.
+//   pc_calixto — à maneira de Benedito Calixto (1853–1927): o poço antigo de alvenaria com sarilho e balde, à sombra de uma
+//              mangueira grande, a casa branca da fazenda ao fundo; foco no poço (terço direito). Função: COMPARAR (o poço velho).
 //   pc_corte — prancha de geologia do séc. XIX (gravura aquarelada): corte do terreno mostrando o poço descendo pelas
 //              camadas até o aquífero. Função (DIRECAO_MOTION.md): LOCALIZAR + REVELAR — a água de debaixo da terra.
 (() => {
@@ -113,6 +115,76 @@
     return { draw };
   })();
 
+  SCENES['pc_calixto'] = (() => {
+    let ceu, terra, frente, built = false;
+    const SOL = [1350, 300], WX = 1150, WY = 820;                     // o poço (foco)
+    function build() {
+      ceu = P.canvas(); let g = ceu.getContext('2d');
+      g.fillStyle = grad(g, 0, 0, 0, 620, [[0, '#6a88b0'], [.55, '#bcc6ce'], [.85, '#f2d8a6'], [1, '#f5c88c']]); g.fillRect(0, 0, W, 620);
+      [[1100, 140, 1.0, 31], [1600, 200, .9, 32], [800, 230, .6, 33]].forEach(([x, y, s, k]) => nuvem(g, x, y, s, 700 + k));
+      ceu = M.broken(ceu, { cell: 7, len: 18, wid: 9, passes: 3, angle: (x, y) => .08 + P.noise(x * .004, y * .004) * .5, seed: 2901, jit: 9, skip: 0.02, sat: 1.02, warm: [255, 228, 180], cool: [100, 120, 170] });
+      terra = P.canvas(); g = terra.getContext('2d');
+      serra(g, 590, 50, .002, 53, '#94a2b0');
+      const im = g.getImageData(0, 0, W, H), d = im.data;
+      for (let y = 590; y < H; y++) for (let x = 0; x < W; x++) { const hz = 616 - 14 * P.fbm(x * .003 + 53, 5.3, 5); if (y < hz) continue;
+        const i = (y * W + x) * 4, k = (y - hz) / (H - hz), n = P.fbm(x * .006, y * .016, 4);
+        let c = mix([170, 160, 100], [96, 104, 54], Math.pow(k, .8)); c = mix(c, [206, 176, 104], clamp(.3 + n, 0, 1) * (1 - k) * .6);
+        c = mix(c, [255, 214, 140], clamp(1 - Math.hypot(x - SOL[0], (y - 640) * 2.4) / 1300, 0, 1) * .3); d[i] = c[0]; d[i + 1] = c[1]; d[i + 2] = c[2]; d[i + 3] = 255; }
+      g.putImageData(im, 0, 0);
+      // a casa branca da fazenda ao fundo, com alpendre e telhado de barro
+      g.fillStyle = '#efe6d2'; g.fillRect(1290, 560, 190, 70); g.fillStyle = 'rgba(120,90,60,.35)'; g.fillRect(1290, 600, 190, 30);
+      g.fillStyle = '#a84a2a'; poly(g, [[1278, 566], [1385, 520], [1492, 566]]); g.fill(); g.fillStyle = '#5a6a7a'; for (const x of [1310, 1350, 1430]) g.fillRect(x, 578, 18, 26);
+      // caminho de terra até o poço
+      g.fillStyle = '#c4946a'; poly(g, [[880, 1080], [1060, 1080], [WX - 20, WY + 60], [WX - 90, WY + 50]]); g.fill();
+      // o poço: parede redonda de tijolo e pedra, em perspectiva
+      const RX = 120, RY = 34, HW = 120;
+      g.fillStyle = '#8a6e56'; g.fillRect(WX - RX, WY - HW, RX * 2, HW); ell(g, WX, WY, RX, RY, 0, '#7a604a');
+      const rb = rng(57); for (let row = 0; row < 7; row++) for (let k = 0; k < 9; k++) { const x = WX - RX + k * 27 + (row % 2) * 13, y = WY - HW + row * 17 + 2; if (x > WX + RX - 20) continue;
+        g.fillStyle = rgba(mix([150, 104, 76], [200, 160, 120], rb()), 1); g.fillRect(x, y, 24, 14); g.fillStyle = 'rgba(255,226,180,.25)'; g.fillRect(x, y, 24, 3); }
+      g.fillStyle = 'rgba(40,24,14,.35)'; g.fillRect(WX + 40, WY - HW, RX - 40, HW);   // lado na sombra (sol à direita-fundo, contraluz suave)
+      ell(g, WX, WY - HW, RX, RY, 0, '#b8a084'); ell(g, WX, WY - HW + 4, RX - 16, RY - 8, 0, '#1e2428');   // a boca do poço, escura
+      ell(g, WX + 30, WY + 18, 170, 16, 0, 'rgba(40,30,20,.32)');
+      // o sarilho: dois esteios, travessa, manivela
+      g.fillStyle = '#5a4026'; g.fillRect(WX - RX + 6, WY - HW - 170, 16, 175); g.fillRect(WX + RX - 22, WY - HW - 170, 16, 175);
+      g.fillStyle = '#7a5838'; g.fillRect(WX - RX + 4, WY - HW - 172, RX * 2 - 8, 14);
+      g.fillStyle = '#6a4a2c'; g.fillRect(WX - RX + 20, WY - HW - 130, RX * 2 - 40, 26); for (let k = 0; k < 8; k++) { g.fillStyle = 'rgba(200,170,120,.6)'; g.fillRect(WX - RX + 26 + k * 24, WY - HW - 130, 3, 26); }   // o rolo com a corda enrolada
+      g.strokeStyle = '#3a3634'; g.lineWidth = 6; g.beginPath(); g.moveTo(WX + RX - 6, WY - HW - 118); g.lineTo(WX + RX + 30, WY - HW - 118); g.lineTo(WX + RX + 30, WY - HW - 84); g.stroke();
+      // tufos e flores no primeiro plano
+      const rf = rng(59); for (let i = 0; i < 70; i++) tufo(g, X0 - 20 + rf() * 1120, 1080 - rf() * 50, 50 + rf() * 70, rgba(mix([60, 70, 34], [150, 140, 64], rf()), .95), rf, 7);
+      for (let i = 0; i < 40; i++) ell(g, X0 + 20 + rf() * 600, 1000 + rf() * 70, 4, 4, 0, rf() < .5 ? 'rgba(240,236,220,.9)' : 'rgba(230,180,60,.9)');
+      terra = M.broken(terra, { cell: 6, len: 12, wid: 7, passes: 3, angle: (x, y) => (y < 620 ? 0 : -0.2 + P.noise(x * .01, y * .01) * .6), seed: 3001, jit: 8, skip: 0.03, sat: 1.04, warm: [255, 220, 160], cool: [80, 96, 130] });
+      // a mangueira: tronco grosso à esquerda e copa escura que emoldura o alto do quadro
+      frente = P.canvas(); g = frente.getContext('2d');
+      g.fillStyle = '#3a2a1c'; poly(g, [[470, 1080], [560, 1080], [600, 700], [660, 420], [610, 410], [530, 700]]); g.fill();
+      g.fillStyle = 'rgba(255,214,150,.18)'; poly(g, [[540, 1080], [560, 1080], [600, 700], [585, 700]]); g.fill();
+      g.strokeStyle = '#3a2a1c'; g.lineCap = 'round'; g.lineWidth = 26; g.beginPath(); g.moveTo(640, 470); g.quadraticCurveTo(820, 330, 1040, 250); g.stroke(); g.lineWidth = 16; g.beginPath(); g.moveTo(620, 520); g.quadraticCurveTo(500, 380, 440, 260); g.stroke();
+      const rm = rng(61); for (let i = 0; i < 900; i++) { const x = 380 + rm() * 820, y = 0 + rm() * 360 + Math.max(0, (x - 900) * .35) * rm(); if (y > 300 + (x - 380) * .1 && x > 1000) continue;
+        const luz = clamp((x - 600) / 700 + (300 - y) / 400, 0, 1) * .6;
+        ell(g, x, y, 16 + rm() * 14, 9 + rm() * 7, rm() * 3, rgba(mix(mix([24, 40, 24], [56, 82, 40], rm()), [150, 160, 80], luz), .96)); }
+      frente = M.broken(frente, { cell: 5, len: 10, wid: 6, passes: 2, angle: () => -0.3, seed: 3101, jit: 8, skip: 0.02, sat: 1.04, warm: [255, 220, 150], cool: [60, 80, 70], base: false });
+    }
+    function draw(c, lt) {
+      if (!built) { build(); built = true; }
+      const t = Math.max(0, lt);
+      c.save(); c.translate(-t * 3, 0); c.scale(1.04, 1.04); c.drawImage(ceu, 0, 0); c.restore();
+      c.drawImage(terra, 0, 0);
+      // a corda e o balde pendurados, balançando de leve
+      const sw = Math.sin(t * 1.2) * 4, bx = WX - 10 + sw, by = WY - 120 - 40;
+      c.strokeStyle = '#c8b48a'; c.lineWidth = 3; c.beginPath(); c.moveTo(WX - 10, WY - 120 - 104); c.lineTo(bx, by); c.stroke();
+      c.fillStyle = '#8a8680'; poly(c, [[bx - 20, by], [bx + 20, by], [bx + 15, by + 36], [bx - 15, by + 36]]); c.fill(); c.fillStyle = 'rgba(255,240,210,.4)'; c.fillRect(bx - 18, by + 2, 5, 32);
+      c.strokeStyle = '#5a5650'; c.lineWidth = 2; c.beginPath(); c.arc(bx, by, 20, Math.PI, 0); c.stroke();
+      // luz manchada sob a mangueira (folhas mexendo)
+      c.save(); c.globalCompositeOperation = 'screen'; const rr = rng(65); for (let i = 0; i < 26; i++) { const x = 600 + rr() * 500 + Math.sin(t * .8 + i) * 8, y = 860 + rr() * 200;
+        c.fillStyle = `rgba(255,226,170,${.08 + .06 * Math.abs(Math.sin(t * .9 + i))})`; c.beginPath(); c.ellipse(x, y, 30, 9, 0, 0, TAU); c.fill(); } c.restore();
+      c.save(); c.translate(500, 1080); c.rotate(Math.sin(t * .7) * .004); c.translate(-500, -1080); c.drawImage(frente, 0, 0); c.restore();
+      // borboletas amarelas
+      c.save(); for (let i = 0; i < 2; i++) { const x = 820 + ((t * 30 + i * 200) % 600), y = 760 + Math.sin(t * 2 + i * 3) * 40, w = Math.abs(Math.sin(t * 12 + i)) * 7;
+        c.fillStyle = 'rgba(255,210,60,.95)'; c.beginPath(); c.ellipse(x - 4, y, 6, w + 1, -.4, 0, TAU); c.fill(); c.beginPath(); c.ellipse(x + 4, y, 6, w + 1, .4, 0, TAU); c.fill(); } c.restore();
+      const vg = c.createRadialGradient(1100, 700, 300, 1100, 700, 900); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(30,20,10,.36)'); c.fillStyle = vg; c.fillRect(0, 0, W, H);
+      tela(c, 'canvas_pcc', '#efe2c8');
+    }
+    return { draw };
+  })();
   // ---------------------------------------------------------------- Prancha de geologia: o poço até o aquífero
   SCENES['pc_corte'] = (() => {
     let base, built = false;

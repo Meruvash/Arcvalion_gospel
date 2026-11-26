@@ -1,4 +1,4 @@
-# "Poço artesiano é crime?": outorga e uso insignificante (roteiro v1, 26/11/2026, aguardando aprovação)
+# "Poço artesiano é crime?": outorga e uso insignificante (aprovado e entregue, 26/11/2026)
 
 O pedido do editor foi "mesma pegada" de "O vizinho fechou a estrada?", que foi um sucesso. Por isso a fórmula se repete:
 - dúvida que o produtor digita no Google;
@@ -98,3 +98,61 @@ mesma paleta.
 
 Não há gente, então não entra Higgsfield. O único elemento "técnico" é o corte do terreno, que mostra espaço (onde está
 a água), como pede a direção de motion.
+
+## Entrega (26/11/2026)
+- **Vídeo:** `poco-artesiano.mp4`, 1080×1080, 59,1 s, áudio em 48 kHz.
+- **Capa:** "POÇO ARTESIANO É CRIME?" sobre o cata-vento. Capas do Instagram em 9:16 e 4:5, com o carimbo "MULTA?" no céu.
+- **Imagem:** 100% pintura em código, sem IA. Cenas `pc_grimm`, `pc_corte` e `pc_calixto` em `cenas/pc_scenes.js`;
+  montagem em `montar_exemplo_poco.py`.
+- **Movimentos com função:**
+  - aproximação do cata-vento na palavra "poço";
+  - a câmera desce para dentro da terra e vira o corte do terreno;
+  - a água sobe pelo tubo em "permite";
+  - o balde mostra o "uso pequeno";
+  - o aquífero acende em "debaixo da terra" (ÁGUA DO ESTADO);
+  - novo enquadramento do cata-vento no cadastro;
+  - a plaquinha REGULARIZADO cai no poço antigo.
+- **Voz:** narrador; editor com a candidata 4, nota de "S" 1,27.
+- **Trilha:** agronejo (o vídeo anterior era catira), 0 palavras na transcrição.
+
+### Crivos
+- **Qualidade H1–H7:** aprovado, sem gente.
+- **Artístico A1–A10 e motion M1–M8:** aprovados depois de três correções na revisão:
+  - o balde estava escondido atrás da etiqueta;
+  - o novo enquadramento do cata-vento não aplicava;
+  - as camadas do corte estavam fora do lugar no quadro de estilo.
+- **`auditar_video.py`:** 6/7. O S2 marca as falas 2 e 9, onde a mudança é um letreiro entrando com suavidade, como na
+  servidão.
+
+## Publicação
+**Título do YouTube:**
+> Poço artesiano é crime? O que a lei das águas diz sobre o poço da sua fazenda
+
+Alternativas:
+- Poço artesiano precisa de outorga? O uso pequeno que dispensa autorização
+- Poço artesiano sem papel dá multa? Como regularizar o poço da fazenda
+
+**Descrição do YouTube:**
+```
+Ter poço artesiano não é crime. A Lei das Águas (Lei 9.433/1997) exige a outorga, que é a autorização para usar a água de aquífero subterrâneo (art. 12, II), e trata como infração perfurar ou operar poço sem autorização (art. 49, V). As penalidades vão de advertência a multa de R$ 100 a R$ 50 milhões, conforme a gravidade, e embargo, que pode incluir tamponar o poço (art. 50, com a redação da Lei 14.066/2020).
+
+A boa notícia: o uso considerado insignificante independe de outorga (art. 12, § 1º). Quem define o limite é o órgão de águas do estado, porque as águas subterrâneas são bens dos Estados (Constituição, art. 26, I). Em Minas Gerais, por exemplo, o IGAM faz o cadastro de uso insignificante pela internet (sistema SOUT), e o poço tubular entra como insignificante até 14 m³ por dia (DN CERH 76/2022). Poço antigo, aberto sem autorização, pode ser regularizado.
+
+Fontes: Lei 9.433/1997 e Constituição Federal (Planalto); IGAM-MG, cadastro de uso insignificante (atualizado em 25/06/2026). Confira as regras do órgão de águas do seu estado.
+Pinturas feitas em código à maneira de Georg Grimm e Benedito Calixto. Trilha original.
+
+#pocoartesiano #outorga #produtorrural #agro #Shorts
+```
+
+**Legenda do Instagram:**
+```
+Poço artesiano é crime? Não é. Mas o poço da sua fazenda pode render multa se faltar um papel. 💧🚜
+
+A Lei das Águas pede a outorga, que é a autorização pra usar a água. Perfurar ou usar poço sem ela é infração: advertência, multa e até embargo.
+
+A boa notícia: o uso pequeno, que a lei chama de insignificante, não precisa de outorga. Quem define o limite é o órgão de águas do seu estado, e em muitos estados basta um cadastro simples. Poço antigo também dá pra regularizar.
+
+Na sua região, alguém já levou multa por causa de poço artesiano? Conta aqui 👇
+
+#pocoartesiano #outorga #produtorrural #agro #direitorural
+```
