@@ -1,0 +1,189 @@
+{
+ "slug": "mp-1384-el-nino-925-milhoes-estoques-arroz-milho-conab-vence-10-dezembro-senado",
+ "data": "2026-11-26",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "MP de R$ 925 milhões para estoques de arroz e milho vence em 10 de dezembro",
+ "lide": "A Medida Provisória 1.384/2026, que abre crédito extraordinário de R$ 924,98 milhões para enfrentar o El Niño, aguarda leitura no Senado desde 18 de novembro, depois de aprovada pela Câmara. O prazo para o Congresso votar termina em 10 de dezembro. Cerca de R$ 850 milhões vão para a formação de estoques públicos de arroz e milho.",
+ "por_que_importa": "A compra pública de arroz e milho mexe com o preço que o produtor recebe e com o abastecimento num ano em que o governo projeta perda de safra pelo El Niño. Saber quanto o governo vai comprar e quando ajuda o produtor a planejar a comercialização.",
+ "numeros": [
+  [
+   "R$ 850 milhões",
+   "cerca disso vai ao Ministério do Desenvolvimento Agrário para estoques públicos de arroz e milho",
+   "Agência Câmara"
+  ],
+  [
+   "106%",
+   "seria o aumento do estoque público de arroz, hoje de 293,3 mil toneladas, segundo a Conab",
+   "Agência Câmara"
+  ],
+  [
+   "10/12/2026",
+   "é o fim do prazo de deliberação da MP no Congresso, já prorrogado",
+   "Congresso Nacional"
+  ]
+ ],
+ "corpo": [
+  "Os outros R$ 75 milhões vão ao Ministério do Desenvolvimento e Assistência Social para distribuir alimentos a povos tradicionais e famílias em insegurança alimentar. Segundo a Conab, o volume comprado equivale a cerca de 5,4% da produção nacional de arroz da safra 2025/26.",
+  "A comissão mista de Orçamento aprovou a MP em 10 de novembro sem mudança de mérito, com relatório lido pela senadora Tereza Cristina (PP-MS). Na mensagem ao Congresso, o governo justificou a pressa: não existe aquisição posterior que recomponha a área de arroz não semeada em outubro de 2026."
+ ],
+ "no_brasil": "A MP vale desde 13 de agosto e tranca a pauta em regime de urgência desde 27 de setembro, segundo o Congresso Nacional. A matéria está na fila do Senado, que ainda não marcou a votação. O texto não traz o preço nem o calendário das compras da Conab.",
+ "critica": [
+  {
+   "fonte": "Mensagem presidencial ao Congresso, citada pela Agência Câmara",
+   "texto": "Não existe aquisição posterior que recomponha a área de arroz não semeada em outubro de 2026, nem compra emergencial de milho em 2027",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1320284-camara-aprova-credito-de-r-925-milhoes-para-prevenir-efeitos-do-el-nino"
+  }
+ ],
+ "para_quem": [
+  "Orizicultor e produtor de milho: acompanhe os avisos de compra da Conab, que dirão volume, preço e regiões",
+  "Agricultor familiar que vende ao PAA: parte da ação é apoiada pelo programa, segundo o resumo oficial da MP",
+  "Cooperativas e cerealistas: a formação de estoque público pode influenciar o preço regional"
+ ],
+ "nao_e_para": [
+  "A nota não traz o preço nem o cronograma de compra da Conab",
+  "A nota não avalia o efeito da compra sobre o preço do arroz ao consumidor",
+  "Não sabemos se o Senado vai votar antes de 10 de dezembro"
+ ],
+ "veredito": "Comprar antes da quebra é mais barato que importar depois, e o argumento do governo faz sentido. O que falta é transparência: a Conab precisa dizer quanto, a que preço e de quem vai comprar.",
+ "fontes": [
+  {
+   "nome": "Congresso Nacional: Medida Provisória 1.384/2026, situação e prazos",
+   "url": "https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/175455",
+   "data": "26/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal: tramitação da MPV 1.384/2026",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9095696",
+   "data": "18/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Câmara aprova crédito de R$ 925 milhões para prevenir efeitos do El Niño",
+   "url": "https://www.camara.leg.br/noticias/1320284-camara-aprova-credito-de-r-925-milhoes-para-prevenir-efeitos-do-el-nino",
+   "data": "17/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 50,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Compra pública de arroz e milho pela Conab e efeito do El Niño sobre a safra"
+  },
+  "origem": {
+   "nome": "Congresso Nacional",
+   "url": "https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/175455"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 11,
+    "porque": "Quase R$ 1 bilhão em compra pública de grãos, com efeito sobre preço e abastecimento"
+   },
+   "afinidade": {
+    "pontos": 13,
+    "porque": "Comercialização de arroz e milho e política de estoques"
+   },
+   "atualidade": {
+    "pontos": 12,
+    "porque": "Prazo final em 10/12 e matéria parada no Senado desde 18/11"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Prazos e tramitação conferidos no Congresso e no Senado; números da Agência Câmara"
+   },
+   "originalidade": {
+    "pontos": 3,
+    "porque": "A cobertura não trouxe o prazo de vencimento da MP"
+   }
+  },
+  "publico": {
+   "pontos": 9,
+   "eixos": {
+    "valor": 6,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: tramitação oficial (2)",
+    "Ato de quem tem poder: Congresso e governo (2)",
+    "Proximidade: nacional (2)",
+    "Prazo concreto: 10 de dezembro (3)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "MPV 1.384/2026",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Abastecimento",
+  "coleta": "2026-11-26",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "prazos e tramitação conferidos no Congresso e no Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "preço e cronograma das compras da Conab"
+  },
+  "duplicidade": {
+   "grupo": "El Niño e estoques",
+   "itens": [
+    "MPV 1.384/2026"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber se o governo vai comprar arroz e milho por causa do El Niño",
+   "entidades": [
+    "MP 1.384/2026",
+    "El Niño",
+    "Conab",
+    "estoques públicos",
+    "arroz",
+    "milho"
+   ],
+   "termos": [
+    "MP 1384 El Niño",
+    "Conab compra arroz milho estoque",
+    "estoque público arroz 2026"
+   ],
+   "atualizacao": "acompanhar a votação no Senado até 10/12 e os avisos de compra da Conab"
+  },
+  "agro": {
+   "demanda": "Produtores de arroz e milho e agricultores familiares que vendem ao governo",
+   "prazo": "10/12/2026, fim do prazo de deliberação da MP",
+   "quem": "Orizicultores, produtores de milho, cooperativas e agricultores do PAA"
+  }
+ },
+ "descricao_seo": "MP 1.384, de R$ 925 milhões para estoques de arroz e milho contra o El Niño, aguarda o Senado e vence em 10 de dezembro.",
+ "instituicao": "Congresso Nacional",
+ "editora": "Congresso Nacional",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da tramitação e da cobertura oficial, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: valores e prazos conferidos no Congresso, no Senado e na Agência Câmara; frase da mensagem presidencial citada como reproduzida pela Agência Câmara; a nota não especula sobre o efeito do vencimento da MP. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/mp-1384-el-nino-925-milhoes-estoques-arroz-milho-conab-vence-10-dezembro-senado.jpg",
+  "credito": "Foto: Marcello Casal Jr/Agência Brasil",
+  "alt": "Grãos de arroz branco (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/7TBTTLKhUFXB6_tAd5c7AxZLSbA=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/arroz_1009201522.jpg?itok=8_8TcsnF",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2024-09/conab-vai-doar-sementes-de-arroz-para-agricultores-familiares-do-rs"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-26T02:40:39-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-26T02:40:39-03:00"
+}
