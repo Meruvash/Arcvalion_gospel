@@ -15,3 +15,13 @@ Como gerar (o exemplo é o vídeo do gado do vizinho):
 2. Copie os HTML de exemplo para a pasta do fundo, junto com a fonte `inter-latin-900-normal.woff2`. Troque a etiqueta,
    o título e a linha de baixo pelos da capa do vídeo.
 3. Tire o print com o Playwright (viewport 1080×1920 e 1080×1350) e exporte em JPG.
+
+
+## Modelo atual (25/11/2026): `modelo/`
+`v.html` (9:16) e `f.html` (4:5) com fundo desfocado (`bgb_v.jpg`, `bgb_f.jpg`), quadro (`quad.png`), chip, título, subtítulo e carimbo; `node shot.cjs` gera `capa-9x16.png` e `capa-4x5.png`. Preparar as imagens:
+```
+ffmpeg -ss 4 -i cena.mp4 -frames:v 1 quad.png
+ffmpeg -i quad.png -vf "scale=1920:1920,crop=1080:1920,boxblur=24" bgb_v.jpg
+ffmpeg -i quad.png -vf "scale=1350:1350,crop=1080:1350,boxblur=24" bgb_f.jpg
+```
+Copie a fonte `inter-latin-900-normal.woff2` para a mesma pasta. Troque chip, título, subtítulo e carimbo; o carimbo fica no céu (`top: calc(… + 40 a 150px)`), nunca sobre o foco.

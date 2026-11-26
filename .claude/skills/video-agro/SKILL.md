@@ -5,6 +5,8 @@ description: Produz vídeo curto de agronegócio (Reels quadrado, ~1 min) no pad
 
 # Vídeo do agro
 
+**Sessão nova? Leia primeiro `docs/video/GUIA_SESSAO_NOVA.md`** (o resumo de tudo, com o fluxo e as receitas).
+
 **Leia antes de qualquer coisa:**
 0. `docs/video/PADRAO_CASEIRO.md`: o padrão que fez "O caseiro vira dono" passar de 2.200 visualizações. Vale
    acima dos outros arquivos: fala 1 com personagem + "sua" terra/família + mito desfeito e ameaça na mesma frase;

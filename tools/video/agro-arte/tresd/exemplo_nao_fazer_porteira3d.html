@@ -1,0 +1,124 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Fazenda 3D</title>
+<style>html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style>
+<script src="three.min.js"></script></head><body>
+<script>
+// Diorama 3D em código (Three.js): estrada de terra vermelha em S até a porteira trancada, ipê-amarelo, cerca,
+// pasto com relevo, morros em camadas, céu de fim de tarde. Sem modelo externo: tudo é geometria gerada aqui.
+const S = 1080;
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1); renderer.setSize(S, S);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+const cam = new THREE.PerspectiveCamera(38, 1, 0.1, 2000);
+
+// ---------- ruído determinístico ----------
+let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+const perm = [...Array(512)].map((_, i) => i); for (let i = 255; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [perm[i], perm[j]] = [perm[j], perm[i]]; } for (let i = 0; i < 256; i++) perm[i + 256] = perm[i];
+const fade = t => t * t * t * (t * (t * 6 - 15) + 10), lerp = (a, b, t) => a + (b - a) * t;
+const grd = (h, x, y) => ((h & 1) ? x : -x) + ((h & 2) ? y : -y);
+function noise(x, y) { const X = Math.floor(x) & 255, Y = Math.floor(y) & 255; x -= Math.floor(x); y -= Math.floor(y); const u = fade(x), v = fade(y), a = perm[X] + Y, b = perm[X + 1] + Y;
+  return lerp(lerp(grd(perm[a], x, y), grd(perm[b], x - 1, y), u), lerp(grd(perm[a + 1], x, y - 1), grd(perm[b + 1], x - 1, y - 1), u), v); }
+const fbm = (x, y, o = 5) => { let s = 0, a = .5, f = 1; for (let i = 0; i < o; i++) { s += a * noise(x * f, y * f); a *= .5; f *= 2; } return s; };
+
+// ---------- céu: domo com gradiente e sol ----------
+const skyMat = new THREE.ShaderMaterial({ side: THREE.BackSide, depthWrite: false, uniforms: { sunDir: { value: new THREE.Vector3(-0.55, 0.16, -0.82).normalize() } },
+  vertexShader: `varying vec3 vP; void main(){ vP = normalize(position); gl_Position = projectionMatrix*modelViewMatrix*vec4(position,1.); }`,
+  fragmentShader: `varying vec3 vP; uniform vec3 sunDir;
+    void main(){ float h = clamp(vP.y,0.,1.); vec3 top = vec3(.30,.45,.70), mid = vec3(.80,.78,.78), hor = vec3(1.0,.78,.50);
+      vec3 c = mix(hor, mid, smoothstep(0.,.18,h)); c = mix(c, top, smoothstep(.18,.7,h));
+      float s = max(dot(vP, sunDir),0.); c += vec3(1.,.82,.55)*pow(s,8.)*.55 + vec3(1.,.95,.85)*pow(s,400.)*2.2;
+      gl_FragColor = vec4(c,1.); }` });
+scene.add(new THREE.Mesh(new THREE.SphereGeometry(900, 48, 24), skyMat));
+scene.fog = new THREE.Fog(0xf0cfa0, 160, 900);
+
+// ---------- luz ----------
+const sun = new THREE.DirectionalLight(0xffd29a, 3.4); sun.position.set(-160, 70, -230);
+sun.castShadow = true; sun.shadow.mapSize.set(4096, 4096); const sc = sun.shadow.camera; sc.left = -120; sc.right = 120; sc.top = 120; sc.bottom = -120; sc.near = 10; sc.far = 600; sun.shadow.bias = -0.0004; sun.shadow.radius = 4;
+scene.add(sun); scene.add(new THREE.HemisphereLight(0xbcd2ff, 0x6a5a2e, 0.9));
+
+// ---------- estrada (curva em S no plano) ----------
+const road = new THREE.CatmullRomCurve3([new THREE.Vector3(-6, 0, 60), new THREE.Vector3(10, 0, 38), new THREE.Vector3(-8, 0, 16), new THREE.Vector3(0, 0, 0), new THREE.Vector3(14, 0, -30), new THREE.Vector3(40, 0, -80)]);
+const roadPts = road.getSpacedPoints(400);
+const distRoad = (x, z) => { let m = 1e9; for (const p of roadPts) { const d = (p.x - x) ** 2 + (p.z - z) ** 2; if (d < m) m = d; } return Math.sqrt(m); };
+
+// ---------- terreno ----------
+const TS = 260, TN = 220; const tg = new THREE.PlaneGeometry(TS, TS, TN, TN); tg.rotateX(-Math.PI / 2);
+const tpos = tg.attributes.position, tcol = new Float32Array(tpos.count * 3);
+const hAt = (x, z) => { const d = distRoad(x, z), flat = Math.min(1, Math.max(0, (d - 3) / 6));
+  return (fbm(x * .02, z * .02) * 6 + Math.max(0, -z - 40) * .05 * (1 + fbm(x * .01, 3))) * flat - (d < 3.2 ? .12 : 0); };
+const C = (r, g, b) => new THREE.Color(r, g, b);
+for (let i = 0; i < tpos.count; i++) { const x = tpos.getX(i), z = tpos.getZ(i), y = hAt(x, z); tpos.setY(i, y);
+  const d = distRoad(x, z), n = fbm(x * .08, z * .08), n2 = fbm(x * .3, z * .3, 2);
+  let c = C(.30, .44, .16).lerp(C(.62, .58, .26), Math.max(0, Math.min(1, .5 + n * 1.4)));    // pasto verde com manchas secas
+  c.lerp(C(.20, .30, .10), Math.max(0, n2) * .5);
+  if (d < 3.4) { c = C(.66, .28, .13).lerp(C(.82, .44, .24), .5 + n2 * .8); if (Math.abs(d - 1.2) < .35) c.multiplyScalar(.78); }                       // terra vermelha
+  else if (d < 4.6) c.lerp(C(.55, .34, .16), (4.6 - d) / 1.2);                                  // borda da estrada
+  tcol[i * 3] = c.r; tcol[i * 3 + 1] = c.g; tcol[i * 3 + 2] = c.b; }
+tg.setAttribute('color', new THREE.BufferAttribute(tcol, 3)); tg.computeVertexNormals();
+const terrain = new THREE.Mesh(tg, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: .95 })); terrain.receiveShadow = true; scene.add(terrain);
+// ---------- morros distantes em camadas (perspectiva atmosférica pela neblina) ----------
+[[-420, .9, 0x5f7a6a], [-560, 1.4, 0x7d8ea6], [-700, 1.9, 0x9fabc2]].forEach(([z, s, col], k) => {
+  const g = new THREE.PlaneGeometry(1800, 200, 240, 1); const p = g.attributes.position;
+  for (let i = 0; i < p.count; i++) if (p.getY(i) > 0) p.setY(i, 30 + 70 * s * (.5 + fbm(p.getX(i) * .004 + k * 9, k)));
+  g.computeVertexNormals(); const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ color: col, roughness: 1 })); m.position.set(0, -40, z); scene.add(m); });
+
+// ---------- porteira trancada (foco) ----------
+const wood = (c) => new THREE.MeshStandardMaterial({ color: c, roughness: .85 });
+const box = (w, h, d, mat, x, y, z, ry = 0, rz = 0) => { const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), mat); m.position.set(x, y, z); m.rotation.set(0, ry, rz); m.castShadow = m.receiveShadow = true; return m; };
+const gate = new THREE.Group(); const gp = roadPts[160]; const gy = hAt(gp.x, gp.z);
+gate.add(box(.45, 3.2, .45, wood(0x3d2a1a), -3.6, 1.6, 0), box(.45, 3.2, .45, wood(0x3d2a1a), 3.6, 1.6, 0));
+for (let k = 0; k < 5; k++) gate.add(box(6.8, .26, .12, wood(k % 2 ? 0x8a6a46 : 0x9e7a52), 0, .55 + k * .5, 0));
+gate.add(box(7.4, .26, .12, wood(0x7a5a38), 0, 1.6, .02, 0, Math.atan2(2.0, 6.8)));
+for (let k = 0; k < 9; k++) { const l = new THREE.Mesh(new THREE.TorusGeometry(.09, .025, 6, 12), new THREE.MeshStandardMaterial({ color: 0xbfbab0, metalness: .9, roughness: .35 })); l.position.set(3.2 + (k % 2) * .05, 1.75 - k * .11, .12 + (k % 3) * .03); l.rotation.set(k % 2 ? Math.PI / 2 : 0, .4, 0); gate.add(l); }
+const lock = box(.3, .32, .14, new THREE.MeshStandardMaterial({ color: 0xc89a30, metalness: .8, roughness: .3 }), 3.25, .95, .2); gate.add(lock);
+gate.position.set(gp.x, gy, gp.z); gate.rotation.y = Math.atan2(roadPts[161].x - roadPts[159].x, roadPts[161].z - roadPts[159].z); scene.add(gate);
+
+// ---------- cerca de arame ----------
+const postMat = wood(0x4a3624); const fence = new THREE.Group();
+for (let i = -18; i <= 18; i++) { if (Math.abs(i) < 2) continue; const x = gp.x + i * 4.2, z = gp.z + i * .15; fence.add(box(.22, 2.2, .22, postMat, x, hAt(x, z) + 1.0, z)); }
+const wireMat = new THREE.LineBasicMaterial({ color: 0x5a524a });
+for (const hh of [.7, 1.3, 1.9]) for (const side of [-1, 1]) { const pts = []; for (let i = 2; i <= 18; i++) { const x = gp.x + side * i * 4.2, z = gp.z + side * i * .15; pts.push(new THREE.Vector3(x, hAt(x, z) + hh, z)); } fence.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts), wireMat)); }
+scene.add(fence);
+
+// ---------- árvores ----------
+function arvore(x, z, s, folhas, flor = false) {
+  const g = new THREE.Group(), y = hAt(x, z);
+  const galho = (p, dir, len, r, n) => { const q = p.clone().add(dir.clone().multiplyScalar(len)); const c = new THREE.CylinderGeometry(r * .7, r, len, 6);
+    const m = new THREE.Mesh(c, wood(0x3a2a1e)); m.position.copy(p.clone().add(q).multiplyScalar(.5)); m.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), dir.clone().normalize()); m.castShadow = true; g.add(m);
+    if (n === 0) { const nc = flor ? 26 : 14; for (let i = 0; i < nc; i++) { const b = new THREE.Mesh(new THREE.IcosahedronGeometry((flor ? .55 : .9) * s * (.6 + rnd() * .6), 1), folhas[Math.floor(rnd() * folhas.length)]);
+      b.position.copy(q).add(new THREE.Vector3((rnd() - .5) * 3.2 * s, (rnd() - .3) * 1.8 * s, (rnd() - .5) * 3.2 * s)); b.castShadow = true; g.add(b); } return; }
+    for (let k = 0; k < 3; k++) { const d = dir.clone().add(new THREE.Vector3((rnd() - .5) * 1.4, .55 + rnd() * .3, (rnd() - .5) * 1.4)).normalize(); galho(q, d, len * .72, r * .65, n - 1); } };
+  galho(new THREE.Vector3(x, y, z), new THREE.Vector3(0, 1, 0), 3.6 * s, .32 * s, 3); scene.add(g); }
+const ipe = [0xf2c21a, 0xffd84a, 0xd99a12, 0xffe47a].map(c => new THREE.MeshStandardMaterial({ color: c, roughness: .7, flatShading: true }));
+const verde = [0x3f5a2a, 0x4d6a30, 0x2f4a22, 0x5e7a38].map(c => new THREE.MeshStandardMaterial({ color: c, roughness: .9, flatShading: true }));
+arvore(gp.x - 11, gp.z - 7, 1.5, ipe, true);
+for (let i = 0; i < 40; i++) { const x = (rnd() - .5) * 220, z = -40 - rnd() * 90; if (distRoad(x, z) < 8) continue; arvore(x, z, .8 + rnd() * .8, verde); }
+for (let i = 0; i < 10; i++) { const x = (rnd() - .5) * 160, z = 10 + rnd() * 50; if (distRoad(x, z) < 22 || Math.abs(x) < 40) continue; arvore(x, z, .7 + rnd() * .5, rnd() < .25 ? ipe : verde, false); }
+// cupinzeiros
+for (let i = 0; i < 14; i++) { const x = (rnd() - .5) * 160, z = (rnd() - .5) * 120; if (distRoad(x, z) < 7) continue; const m = new THREE.Mesh(new THREE.ConeGeometry(.9, 2 + rnd(), 7), new THREE.MeshStandardMaterial({ color: 0xa65a34, roughness: 1 })); m.position.set(x, hAt(x, z) + 1, z); m.castShadow = true; scene.add(m); }
+// capim instanciado
+const blade = new THREE.ConeGeometry(.06, 1, 3); blade.translate(0, .5, 0);
+const grassMat = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 1, emissive: 0x2a2208 });
+const NG = 40000, grass = new THREE.InstancedMesh(blade, grassMat, NG); const dm = new THREE.Object3D(); const gcol = new THREE.Color(); let gi = 0; const grassBase = [];
+for (let i = 0; i < NG * 3 && gi < NG; i++) { const x = (rnd() - .5) * 120, z = -30 + rnd() * 100; if (distRoad(x, z) < 3.6) continue;
+  dm.position.set(x, hAt(x, z), z); dm.rotation.set((rnd() - .5) * .4, rnd() * 6, (rnd() - .5) * .4); const s = .3 + rnd() * .6; dm.scale.set(s, s * (.6 + rnd() * .7), s); dm.updateMatrix();
+  grass.setMatrixAt(gi, dm.matrix); grass.setColorAt(gi, gcol.setRGB(.55 + rnd() * .35, .58 + rnd() * .2, .22 + rnd() * .1)); grassBase.push([x, z, s]); gi++; }
+grass.count = gi; grass.receiveShadow = true; scene.add(grass);
+// flores de ipê caindo
+const petalG = new THREE.PlaneGeometry(.22, .14), petals = new THREE.InstancedMesh(petalG, new THREE.MeshStandardMaterial({ color: 0xffd23a, side: THREE.DoubleSide }), 160); scene.add(petals);
+const pData = [...Array(160)].map(() => [gp.x - 11 + (rnd() - .5) * 8, rnd() * 9, gp.z - 7 + (rnd() - .5) * 8, rnd() * 10]);
+
+// ---------- câmera e tempo ----------
+window.renderAt = (t) => {
+  const a = -0.42 + t * 0.03, r = 26 - t * .4;                       // órbita lenta e aproximação
+  cam.position.set(gp.x + Math.sin(a) * r, gy + 6 - t * .1, gp.z + Math.cos(a) * r);
+  cam.lookAt(gp.x + 3, gy + 3.2, gp.z - 8);
+  for (let i = 0; i < 160; i++) { const [x, y0, z, ph] = pData[i]; const y = 9 - ((y0 + t * .9 + ph) % 9); dm.position.set(x + Math.sin(t * 1.3 + ph) * .8 - (9 - y) * .5, hAt(x, z) + y, z); dm.rotation.set(t * 2 + ph, t + ph, 0); dm.scale.set(1, 1, 1); dm.updateMatrix(); petals.setMatrixAt(i, dm.matrix); }
+  petals.instanceMatrix.needsUpdate = true;
+  renderer.render(scene, cam); return true;
+};
+window.ready = true;
+</script></body></html>
