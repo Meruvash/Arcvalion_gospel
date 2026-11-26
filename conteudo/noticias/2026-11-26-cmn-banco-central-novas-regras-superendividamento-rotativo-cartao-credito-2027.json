@@ -1,0 +1,193 @@
+{
+ "slug": "cmn-banco-central-novas-regras-superendividamento-rotativo-cartao-credito-2027",
+ "data": "2026-11-26",
+ "categoria": "economia-e-negocios",
+ "status": "publicado",
+ "manchete": true,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "CMN e Banco Central aprovam regras contra o superendividamento e o uso frequente do rotativo",
+ "lide": "O Conselho Monetário Nacional e o Banco Central aprovaram na quarta-feira (25) um pacote para conter o endividamento das famílias. Bancos não poderão emprestar mais sem garantia a quem tem dívida atrasada há 90 dias ou mais, e terão de reduzir aos poucos o limite do cartão de quem recorre com frequência ao rotativo. A maior parte vale a partir de 1º de julho de 2027.",
+ "por_que_importa": "O número de superendividados cresceu 75% em cinco anos, segundo o BC. As regras mudam a forma como o banco oferece crédito a quem já está apertado e protegem o cliente quando a dívida é transferida a terceiros.",
+ "numeros": [
+  [
+   "90 dias",
+   "de atraso bloqueiam novos empréstimos sem garantia, mas permitem renegociar em condições melhores",
+   "Resolução CMN 5.350/2026"
+  ],
+  [
+   "3 faturas",
+   "pagas só em parte em seis meses levam à redução gradual do limite do cartão",
+   "Agência Brasil, 25/11/2026"
+  ],
+  [
+   "1º/7/2027",
+   "é quando a maior parte das novas regras entra em vigor",
+   "Resolução CMN 5.350/2026, art. 2º"
+  ]
+ ],
+ "corpo": [
+  "A Resolução CMN 5.350 proíbe ampliar empréstimos sem garantia para clientes com saldo vencido há 90 dias ou mais ou com sinal de que não conseguirão pagar; renegociação, portabilidade e troca por dívida mais barata continuam permitidas. A contratação terá de ser feita em canais seguros, como aplicativo oficial ou agência, com confirmação de identidade.",
+  "No cartão, o limite cai aos poucos para quem, em seis meses, pagar só parte de três ou mais faturas; a restrição acaba após seis faturas pagas inteiras ou a quitação do rotativo. A venda da dívida a fundos e securitizadoras não poderá reduzir os direitos do cliente, informou a Agência Brasil."
+ ],
+ "no_brasil": "As consultas públicas e a tomada de subsídios ficam abertas por 90 dias. As regras sobre venda de direitos creditórios valem a partir de 1º de novembro de 2027. O Banco Central marcou entrevista para esta quinta-feira (26) para explicar o pacote.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.350/2026",
+   "texto": "que possuam operação de crédito contratada com saldo devedor vencido por período igual ou superior a noventa dias",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5350"
+  },
+  {
+   "fonte": "Quem critica regras de crédito mais duras",
+   "texto": "Bancos e consumidores com renda instável podem ter menos acesso a crédito rápido; o próprio pacote abre consulta pública de 90 dias para ajustes antes da vigência.",
+   "citacao": false,
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias"
+  }
+ ],
+ "para_quem": [
+  "Famílias com dívidas atrasadas ou que usam o rotativo do cartão",
+  "Quem recebe ofertas de empréstimo por telefone ou mensagem",
+  "Igrejas e ministérios que fazem educação financeira com membros"
+ ],
+ "nao_e_para": [
+  "Não vale ainda: a maior parte das regras começa em 1º de julho de 2027",
+  "Não proíbe renegociar dívida atrasada: a renegociação em condições melhores continua permitida",
+  "Não corta o cartão de uma vez: a redução do limite é gradual e avisada antes"
+ ],
+ "veredito": "Medida necessária. Crédito fácil a quem já não consegue pagar é armadilha, e o rotativo é a dívida mais cara do mercado. A regra protege a família, mas não substitui disciplina: gastar menos do que ganha continua sendo o melhor remédio.",
+ "versiculo": {
+  "texto": "O rico domina sobre os pobres, e o que toma emprestado é servo do que empresta.",
+  "referencia": "Provérbios 22.7",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN nº 5.350, de 25 de novembro de 2026",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5350",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: CMN e BC anunciam novas regras para conter endividamento das famílias (25/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias",
+   "data": "25/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 72,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "Endividamento das famílias e proteção do orçamento doméstico contra crédito caro"
+  },
+  "origem": {
+   "nome": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Normas do CMN aprovadas que mudam o crédito de todos os bancos do país a partir de julho de 2027"
+   },
+   "afinidade": {
+    "pontos": 10,
+    "porque": "Família e orçamento doméstico, com efeito indireto: tema econômico"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação pelo CMN e BC na quarta, 25/11"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Resolução CMN 5.350 lida na fonte oficial do Banco Central; pacote descrito pela Agência Brasil"
+   },
+   "originalidade": {
+    "pontos": 7,
+    "porque": "Traduz o que muda para quem tem dívida atrasada e usa o rotativo, com datas de vigência"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 8,
+    "viral": 5,
+    "cristao": 2
+   },
+   "criterios": [
+    "Documento primário: resolução do CMN (2)",
+    "Proximidade: nacional (2)",
+    "Número forte: 90 dias e 3 faturas (2)",
+    "Utilidade: o que muda no cartão e no empréstimo (2)",
+    "Tema que já mobiliza o público: endividamento (2)",
+    "Gatilho no calendário: vigência em julho de 2027 (1)",
+    "Duas fontes (1)",
+    "Passagem bíblica sobre dívidas (2)",
+    "Personagem: Banco Central (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "CMN e BC anunciam novas regras para conter endividamento das famílias",
+  "nucleo": "A - Brasil",
+  "categoria": "Economia / família",
+  "coleta": "2026-11-26",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "regra dos 90 dias e vigência conferidas na Resolução CMN 5.350; demais pontos pela Agência Brasil",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "número da norma que trata do rotativo do cartão e da venda de dívidas (não localizada na consulta feita)"
+  },
+  "duplicidade": {
+   "grupo": "pacote contra superendividamento CMN/BC",
+   "itens": [
+    "Agência Brasil 25/11",
+    "Resoluções CMN 5.349 e 5.350"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que muda no cartão e no empréstimo com as novas regras do Banco Central",
+   "entidades": [
+    "Conselho Monetário Nacional",
+    "Banco Central",
+    "Resolução CMN 5.350",
+    "rotativo do cartão",
+    "superendividamento"
+   ],
+   "termos": [
+    "novas regras banco central endividamento",
+    "limite cartão rotativo regra 2027",
+    "resolução cmn 5350"
+   ],
+   "atualizacao": "entrevista do BC em 26/11 e textos finais após consulta pública"
+  }
+ },
+ "descricao_seo": "CMN e BC aprovam regras contra o superendividamento: sem crédito novo sem garantia após 90 dias de atraso e limite menor para quem usa o rotativo.",
+ "instituicao": "Banco Central do Brasil",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da resolução do CMN e da reportagem oficial, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: regra dos 90 dias citada literalmente da norma; pontos não lidos na norma atribuídos à Agência Brasil; datas de vigência explícitas; nenhuma instituição acusada. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/cmn-banco-central-novas-regras-superendividamento-rotativo-cartao-credito-2027.jpg",
+  "credito": "Foto: Marcello Casal Jr./Agência Brasil",
+  "alt": "Mãos contam notas de 50 reais (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/qv1-RBHp0M3IaFURJMkSMNEHorA=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moeda_dinheiro_mcajr_2904223667.jpg?itok=orCy-svv",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-26T02:27:27-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-26T02:27:27-03:00"
+}
