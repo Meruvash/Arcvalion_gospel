@@ -1,0 +1,196 @@
+{
+ "slug": "senado-cra-aprova-aquicultor-produtor-rural-credito-seguro-licenciamento-simplificado-pl-4162",
+ "data": "2026-11-26",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Criador de peixe passa a ser produtor rural para crédito e seguro, aprova comissão do Senado",
+ "lide": "A Comissão de Agricultura do Senado aprovou nesta quarta-feira (25) o PL 4.162/2024, do deputado Sergio Souza (MDB-PR), que separa a aquicultura da pesca extrativa, declara que o peixe em cultivo é propriedade do aquicultor e o equipara ao produtor rural para fins de política agrícola. O texto segue para o Plenário do Senado.",
+ "por_que_importa": "Equiparado ao produtor rural, o piscicultor ganha acesso mais claro ao crédito rural, ao seguro e aos demais instrumentos da política agrícola. O texto também livra empreendimentos pequenos, médios ou de baixo impacto do licenciamento comum, trocando-o por dispensa ou licença simplificada e autodeclarada.",
+ "numeros": [
+  [
+   "2",
+   "emendas aprovadas na comissão, ambas de redação, sem mudar o conteúdo vindo da Câmara",
+   "Agência Senado"
+  ],
+  [
+   "2009",
+   "é o ano da lei da pesca e da aquicultura (Lei 11.959) que o projeto altera",
+   "Parecer do relator"
+  ],
+  [
+   "Maio de 2026",
+   "foi quando a Câmara aprovou e enviou o texto ao Senado",
+   "Agência Senado"
+  ]
+ ],
+ "corpo": [
+  "O relator, senador Jorge Seif (PL-SC), teve o parecer lido por Hamilton Mourão (Republicanos-RS). Para ele, o setor convive com regras pensadas para a pesca de captura, que não refletem a natureza do cultivo. O texto também inclui a aquicultura familiar e a criação para recomposição ambiental entre as modalidades da atividade.",
+  "A dispensa ou simplificação do licenciamento não afasta a fiscalização: o empreendedor responde pelas informações que declarar e continua obrigado a respeitar as áreas de preservação permanente. O projeto ainda autoriza o cultivo comercial de espécies ornamentais ameaçadas, nas condições da lei."
+ ],
+ "no_brasil": "Como as emendas aprovadas são só de redação, o texto não precisa voltar à Câmara se o Plenário do Senado mantiver a versão da comissão, e pode seguir à sanção. O parecer compara a mudança à Lei Geral do Licenciamento Ambiental (Lei 15.190/2025), que já dispensou certas atividades agropecuárias.",
+ "critica": [
+  {
+   "fonte": "Senador Jorge Seif (PL-SC), relator, no parecer",
+   "texto": "a equiparação do aquicultor ao produtor rural (art. 27) viabiliza o acesso ao crédito rural, ao seguro e aos demais instrumentos da política agrícola",
+   "citacao": true,
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/445d54fb-83cf-4fa9-9457-baf1ec366dcc"
+  },
+  {
+   "fonte": "PL 4.162/2024, novo parágrafo único da Lei 11.959/2009",
+   "texto": "O estoque sob cultivo é propriedade do aquicultor, não é considerado recurso natural",
+   "citacao": true,
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/445d54fb-83cf-4fa9-9457-baf1ec366dcc"
+  }
+ ],
+ "para_quem": [
+  "Piscicultor e carcinicultor: se virar lei, o enquadramento como produtor rural reforça o pedido de crédito e seguro rural; guarde o registro da atividade",
+  "Pequeno criador em tanque escavado ou tanque-rede: a licença poderá ser simplificada e autodeclarada, mas a fiscalização continua",
+  "Quem cria em área de preservação permanente: as regras de proteção dessas áreas seguem valendo"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: falta o Plenário do Senado e a sanção",
+  "Os critérios de porte e impacto para a dispensa de licença dependem de regulamentação",
+  "A nota não traz posição de órgãos ambientais nem de entidades do setor sobre o texto"
+ ],
+ "veredito": "Peixe criado em tanque é lavoura de água, e tratar o piscicultor como pescador sempre travou crédito e licença. O texto corrige isso sem tirar a fiscalização, que passa a cobrar pelo que o criador declara.",
+ "fontes": [
+  {
+   "nome": "Senado Federal: tramitação do PL 4.162/2024 (parecer aprovado na CRA em 25/11/2026)",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9040225",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal: pauta da 25ª reunião da CRA, com o parecer do senador Jorge Seif e o texto da Câmara",
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/445d54fb-83cf-4fa9-9457-baf1ec366dcc",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: CRA aprova projeto que diferencia aquicultura da pesca extrativa",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/cra-aprova-projeto-que-diferencia-aquicultura-da-pesca-extrativa",
+   "data": "25/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 58,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Enquadramento do aquicultor como produtor rural, acesso a crédito e seguro e licenciamento da atividade"
+  },
+  "origem": {
+   "nome": "Senado Federal",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9040225"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 12,
+    "porque": "Mexe com crédito, seguro e licença de toda a aquicultura do país; falta Plenário e sanção"
+   },
+   "afinidade": {
+    "pontos": 15,
+    "porque": "Crédito rural, seguro e licenciamento de atividade agropecuária"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Parecer aprovado na CRA nesta quarta-feira, 25/11"
+   },
+   "comprovacao": {
+    "pontos": 12,
+    "porque": "Parecer, texto da Câmara e tramitação lidos no Senado"
+   },
+   "originalidade": {
+    "pontos": 2,
+    "porque": "Explicamos que o texto pode ir direto à sanção após o Plenário"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: parecer e texto (2)",
+    "Ato de quem tem poder: comissão do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que guardar para crédito e licença (2)",
+    "Tema que toca o bolso do piscicultor (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "PL 4.162/2024",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Aquicultura",
+  "coleta": "2026-11-26",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "parecer, texto e tramitação conferidos no Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "posição de órgãos ambientais e entidades do setor"
+  },
+  "duplicidade": {
+   "grupo": "Aquicultura",
+   "itens": [
+    "PL 4.162/2024"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber se piscicultor é produtor rural e pode ter crédito rural",
+   "entidades": [
+    "PL 4.162/2024",
+    "Lei 11.959/2009",
+    "aquicultura",
+    "Jorge Seif",
+    "Sergio Souza",
+    "CRA"
+   ],
+   "termos": [
+    "piscicultor produtor rural crédito",
+    "aquicultura licenciamento simplificado",
+    "PL 4162/2024"
+   ],
+   "atualizacao": "acompanhar a votação no Plenário do Senado e a sanção"
+  },
+  "agro": {
+   "demanda": "Piscicultores e aquicultores com dificuldade de acesso a crédito rural, seguro e licença ambiental",
+   "prazo": "votação no Plenário do Senado, ainda sem data",
+   "quem": "Criadores de peixes, camarões e outros organismos aquáticos"
+  }
+ },
+ "descricao_seo": "CRA do Senado aprova PL 4.162/2024: aquicultor vira produtor rural para crédito e seguro, e pequeno criador pode ter licença simplificada.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura do parecer, do texto da Câmara e da tramitação, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: equiparação, propriedade do estoque e regras de licença conferidas no parecer e no texto; trechos citados literalmente; a nota deixa claro que o texto ainda não é lei. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/senado-cra-aprova-aquicultor-produtor-rural-credito-seguro-licenciamento-simplificado-pl-4162.jpg",
+  "credito": "Foto: Fabio Rodrigues-Pozzebom/Agência Brasil",
+  "alt": "Peixes e camarões expostos no gelo em balcão de peixaria (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/SsH-1bvoZQ8D-BgvHl_I-n0S3Sk=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/03/30/pzzb4468.jpg?itok=p-cI6zpJ",
+  "pagina": "https://agenciabrasil.ebc.com.br/geral/noticia/2024-08/semana-do-pescado-pretende-aumentar-consumo-do-produto-em-30"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-26T02:38:09-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-26T02:38:09-03:00"
+}
