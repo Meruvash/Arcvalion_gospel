@@ -27,7 +27,7 @@ conflito, vale o `CLAUDE.md` e, depois, a regra com a data mais recente.
 | "A porta e o porteiro" (EUDR) | quase nada | Abrir com órgão, sigla, país ou percentual não funciona |
 | "Papel atrasado" (CCIR, v1) | reprovado pelo editor | Gente gerada por IA saiu deformada. Daí o **crivo de qualidade** e a regra de não gerar gente |
 | "Multa ambiental prescreve?" (23/11) | o editor notou que a **animação** atraiu mais que as imagens de IA | Daí a **direção artística** (pintura completa, de obra de arte) |
-| "O vizinho fechou a estrada?" (25/11) | 1º vídeo no padrão novo, 100% código | Modelo atual: cada movimento com função, mapa pintado só quando a mensagem é espacial |
+| "O vizinho fechou a estrada?" (25/11) | **sucesso** (editor, 26/11) | Modelo atual: dúvida do Google com o mito na boca do vizinho, lei a favor do produtor, 100% pintura em código, cada movimento com função e uma cena espacial (mapa) quando a mensagem pede |
 
 Os números e as análises completas estão em `PADRAO_CASEIRO.md`, seções 1 e 5.1.
 
