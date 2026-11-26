@@ -1,0 +1,195 @@
+{
+ "slug": "senado-cra-aprova-protecao-cultivares-25-anos-videiras-frutiferas-cana-pl-2143",
+ "data": "2026-11-26",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Comissão do Senado aprova 25 anos de proteção para cultivares de cana, uva e frutas",
+ "lide": "A Comissão de Agricultura do Senado aprovou nesta quarta-feira (25) o parecer do senador Luis Carlos Heinze (PP-RS) ao PL 2.143/2025, que amplia para 25 anos a proteção de novas cultivares de videiras, árvores frutíferas, florestais, plantas ornamentais e cana-de-açúcar. Soja, milho, arroz, feijão e algodão seguem com 15 anos. O texto vai ao Plenário.",
+ "por_que_importa": "Cultivar protegida é a variedade cujo dono cobra para que seja multiplicada. Até dez anos a mais de proteção significam mais tempo pagando pela muda ou pelo material de plantio de cana e frutas, em troca da promessa de mais pesquisa em espécies de ciclo longo. Quem planta grãos fica como está.",
+ "numeros": [
+  [
+   "25 anos",
+   "seria o novo prazo de proteção para videiras, árvores frutíferas e florestais, ornamentais e cana",
+   "PL 2.143/2025, parecer aprovado na CRA"
+  ],
+  [
+   "18 e 15 anos",
+   "são os prazos atuais de videiras e árvores e o da cana, segundo a Agência Senado",
+   "Agência Senado"
+  ],
+  [
+   "15 anos",
+   "segue sendo o prazo de soja, milho, arroz, feijão, algodão e demais culturas",
+   "Parecer do relator"
+  ]
+ ],
+ "corpo": [
+  "O projeto nasceu no Senado em 2018 (PLS 404/2018), que chegou a aprovar 20 anos como prazo geral. A Câmara rejeitou essa parte em julho e manteve os 15 anos. Heinze aceitou a mudança: segundo o parecer, não se demonstrou que o prazo atual seja insuficiente para culturas anuais.",
+  "O relator só rejeitou a retirada, feita pela Câmara, do dispositivo que exclui flores e plantas ornamentais de exceções da lei, como a reserva de material para uso próprio. Para ele, o argumento da segurança alimentar que justifica guardar semente não vale para um mercado de consumo não alimentar."
+ ],
+ "no_brasil": "Como o Senado é a Casa de origem, cabe ao Plenário decidir entre o texto dele e as mudanças da Câmara; depois, o projeto segue à sanção. O texto também fixa um critério de área para lavouras destinadas a processamento industrial: ao menos 4 módulos fiscais ou 150 hectares, o que for maior.",
+ "critica": [
+  {
+   "fonte": "Senador Luis Carlos Heinze (PP-RS), relator, no parecer",
+   "texto": "o prazo de quinze anos vigente desde 1997 tem-se revelado suficiente para assegurar o retorno do investimento em melhoramento genético",
+   "citacao": true,
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/445d54fb-83cf-4fa9-9457-baf1ec366dcc"
+  },
+  {
+   "fonte": "Senador Luis Carlos Heinze (PP-RS), relator, no parecer",
+   "texto": "não há alternativa viável que permita o progresso tecnológico sem a ampliação do prazo de proteção",
+   "citacao": true,
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/445d54fb-83cf-4fa9-9457-baf1ec366dcc"
+  }
+ ],
+ "para_quem": [
+  "Canavieiro: se o texto virar lei, variedades novas de cana ficam protegidas por até 25 anos; confira no contrato de compra de muda quem é o titular e o que é cobrado",
+  "Fruticultor e viticultor: o mesmo vale para mudas e porta-enxertos de cultivares lançadas daqui em diante",
+  "Produtor de grãos: o prazo de 15 anos não muda"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: falta o Plenário do Senado e a sanção",
+  "A nota não traz a posição das empresas de melhoramento nem de entidades de produtores sobre o texto",
+  "O efeito sobre cultivares já protegidas depende da redação final e não foi tratado no parecer"
+ ],
+ "veredito": "A gente vê com cautela. Ciclo longo de eucalipto e fruta justifica proteção maior, e o Senado fez bem em deixar os grãos fora. Mas 25 anos para a cana é muito tempo de royalty para o canavieiro, e o Plenário deveria ouvir quem paga a conta antes de votar.",
+ "fontes": [
+  {
+   "nome": "Senado Federal: tramitação do PL 2.143/2025 (parecer aprovado na CRA em 25/11/2026)",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9081532",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal: pauta da 25ª reunião da CRA, com o parecer do senador Luis Carlos Heinze e o texto da Câmara",
+   "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/445d54fb-83cf-4fa9-9457-baf1ec366dcc",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Senado: CRA aprova ampliação do prazo de proteção de novas variedades de plantas",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/cra-aprova-ampliacao-do-prazo-de-protecao-de-novas-variedades-de-plantas",
+   "data": "25/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 62,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Proteção de cultivares e custo de mudas e material de plantio para canavieiros e fruticultores"
+  },
+  "origem": {
+   "nome": "Senado Federal",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9081532"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 13,
+    "porque": "Mexe com o custo de muda de cana, uva, frutas e eucalipto em todo o país; falta Plenário e sanção"
+   },
+   "afinidade": {
+    "pontos": 17,
+    "porque": "Insumo do produtor e propriedade intelectual no campo, tema da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Parecer aprovado na CRA nesta quarta-feira, 25/11"
+   },
+   "comprovacao": {
+    "pontos": 12,
+    "porque": "Parecer, texto da Câmara e tramitação lidos no Senado"
+   },
+   "originalidade": {
+    "pontos": 3,
+    "porque": "Explicamos quem paga a conta e a regra de área para a cana"
+   }
+  },
+  "publico": {
+   "pontos": 11,
+   "eixos": {
+    "valor": 7,
+    "viral": 4,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: parecer e texto (2)",
+    "Ato de quem tem poder: comissão do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que conferir no contrato de muda (2)",
+    "Tema que toca canavieiros e fruticultores (3)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "PL 2.143/2025 (Substitutivo da Câmara ao PLS 404/2018)",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Insumos",
+  "coleta": "2026-11-26",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "parecer, texto da Câmara e tramitação conferidos no Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "posição de obtentores e entidades de produtores"
+  },
+  "duplicidade": {
+   "grupo": "Cultivares",
+   "itens": [
+    "PL 2.143/2025"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": ""
+  },
+  "seo": {
+   "intencao": "saber quanto tempo dura a proteção de cultivar e o que muda com o PL 2.143",
+   "entidades": [
+    "PL 2.143/2025",
+    "Lei de Proteção de Cultivares",
+    "Lei 9.456/1997",
+    "Luis Carlos Heinze",
+    "CRA"
+   ],
+   "termos": [
+    "proteção de cultivares 25 anos",
+    "lei de cultivares cana",
+    "PL 2143/2025"
+   ],
+   "atualizacao": "acompanhar a votação no Plenário do Senado e a sanção"
+  },
+  "agro": {
+   "demanda": "Canavieiros, fruticultores e viveiristas que compram ou multiplicam material de cultivares protegidas",
+   "prazo": "votação no Plenário do Senado, ainda sem data",
+   "quem": "Produtores de cana, uva, frutas, eucalipto e plantas ornamentais"
+  }
+ },
+ "descricao_seo": "CRA do Senado aprova o PL 2.143/2025, que dá 25 anos de proteção a cultivares de cana, uva, frutas e eucalipto; grãos seguem com 15 anos.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura do parecer, do texto da Câmara e da tramitação, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: prazos e mudanças conferidos no parecer e na Agência Senado; trechos do relator citados literalmente; a nota deixa claro que o texto ainda não é lei e não atribui posição a empresas ou entidades. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/senado-cra-aprova-protecao-cultivares-25-anos-videiras-frutiferas-cana-pl-2143.jpg",
+  "credito": "Foto: Daniel Isaia/Agência Brasil",
+  "alt": "Produtor confere parreiral na serra gaúcha (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/RQm-KiT1msE2_aQMz-PmPvVL5pU=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/safra_da_uva_19.jpg?itok=EvSTXy2O",
+  "pagina": "https://agenciabrasil.ebc.com.br/economia/noticia/2016-04/quebra-de-57-na-safra-da-uva-e-maior-ja-registrada-no-rio-grande-do-sul"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-26T02:31:24-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-26T02:31:24-03:00"
+}
