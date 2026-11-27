@@ -1,0 +1,205 @@
+{
+ "slug": "cmn-resolucao-5351-credito-fndct-finep-maquinas-agricolas-nacionais-10-bilhoes-2026",
+ "data": "2026-11-27",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "CMN reabre crédito da Finep para máquinas agrícolas nacionais, só até o fim de 2026",
+ "lide": "O Conselho Monetário Nacional aprovou nesta quinta-feira (26) a Resolução 5.351, que autoriza novas operações, ainda em 2026, da linha de crédito rural com dinheiro do FNDCT, operada pela Finep, para equipamentos agrícolas nacionais inovadores. As condições são as da Resolução 5.331, de julho: até R$ 30 milhões por produtor, cinco anos para pagar e juros de TR mais até 7,12% ao ano.",
+ "por_que_importa": "A linha de até R$ 10 bilhões estava presa à MP 1.374, que perdeu a eficácia em 29 de outubro. A nova regra a apoia na lei que converteu a MP, mas vale só para contratos deste exercício: quem quer modernizar a lavoura com máquina nacional tem um mês para fechar.",
+ "numeros": [
+  [
+   "R$ 10 bilhões",
+   "é o limite total da linha, com recursos do FNDCT repassados pela Finep",
+   "Resolução CMN 5.331"
+  ],
+  [
+   "R$ 30 milhões",
+   "é o teto por beneficiário, descontado o que ele já contratou em outras linhas da Finep no ano",
+   "Resolução CMN 5.331"
+  ],
+  [
+   "TR + até 7,12%",
+   "ao ano são os encargos: 3% da Finep e até 4% do banco, de forma composta",
+   "Resolução CMN 5.331"
+  ]
+ ],
+ "corpo": [
+  "Podem tomar o crédito produtores rurais, pessoas físicas ou jurídicas, e cooperativas de produção agropecuária. Só entram equipamentos da lista que a Finep publica em seu site. O prazo é de até cinco anos, sem carência, em parcelas anuais, e o risco é do banco credenciado pela Finep, que precisa operar crédito rural.",
+  "O contrato segue o Manual de Crédito Rural, mas a resolução de julho exclui essas operações das regras de renegociação do manual. Empresa com sede no exterior ou controlada por estrangeiros fica de fora. A linha foi criada pela MP 1.374 e mantida na Lei 15.528, sancionada em novembro."
+ ],
+ "no_brasil": "A Resolução 5.331 limitava a contratação ao período de vigência da MP 1.374, que perdeu a eficácia em 29 de outubro, segundo o Senado. A nova norma permite operações em 2026 com base na lei, dentro do orçamento disponível e do montante previsto nela.",
+ "critica": [
+  {
+   "fonte": "Resolução CMN 5.351, art. 1º",
+   "texto": "As novas operações de crédito realizadas, em caráter extraordinário, no exercício financeiro de 2026",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5351"
+  },
+  {
+   "fonte": "Resolução CMN 5.331, art. 4º, § 1º",
+   "texto": "As operações de que trata esta Resolução não estão sujeitas às regras de renegociação previstas no Manual de Crédito Rural",
+   "citacao": true,
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5331"
+  }
+ ],
+ "para_quem": [
+  "Produtor ou cooperativa que planeja comprar equipamento nacional inovador: confira se a máquina está na lista da Finep e procure um banco credenciado ainda em dezembro",
+  "Antes de assinar, leve em conta que a operação não entra nas renegociações do Manual de Crédito Rural em caso de quebra de safra",
+  "Compare o custo final: TR mais até 7,12% ao ano, sem carência"
+ ],
+ "nao_e_para": [
+  "Não financia máquina fora da lista da Finep nem equipamento importado",
+  "Não vale para empresa com sede no exterior ou de controle estrangeiro",
+  "A nota não traz quanto da linha já foi contratado nem quais bancos estão credenciados"
+ ],
+ "veredito": "Crédito para máquina nacional é bem-vindo, mas o desenho tem duas armadilhas. A janela até 31 de dezembro empurra o produtor a decidir correndo, e a exclusão das regras de renegociação deixa quem sofrer quebra de safra sem a proteção que o crédito rural costuma dar. Leia o contrato com atenção.",
+ "fontes": [
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN 5.351, de 26/11/2026",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5351",
+   "data": "26/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Banco Central do Brasil: Resolução CMN 5.331, de 23/07/2026",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5331",
+   "data": "23/07/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal: tramitação da MPV 1.374/2026 (sem eficácia desde 29/10/2026)",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo/9075607",
+   "data": "29/10/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Motta destaca sanção de lei que garante auxílio a produtores de cana-de-açúcar do Nordeste",
+   "url": "https://www.camara.leg.br/noticias/1318917-motta-destaca-sancao-de-lei-que-garante-auxilio-a-produtores-de-cana-de-acucar-do-nordeste",
+   "data": "12/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 66,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Linha de crédito rural do CMN para máquinas e equipamentos agrícolas nacionais"
+  },
+  "origem": {
+   "nome": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5351"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 14,
+    "porque": "Linha de até R$ 10 bilhões aberta a produtores e cooperativas de todo o país, com prazo até 31/12"
+   },
+   "afinidade": {
+    "pontos": 18,
+    "porque": "Norma do CMN sobre crédito rural, núcleo da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Resolução aprovada pelo CMN nesta quinta-feira, 26/11, e janela que fecha em dezembro"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Resoluções lidas no Banco Central e situação da MP conferida no Senado"
+   },
+   "originalidade": {
+    "pontos": 4,
+    "porque": "Explicamos o vácuo deixado pela MP e a exclusão das regras de renegociação"
+   }
+  },
+  "publico": {
+   "pontos": 12,
+   "eixos": {
+    "valor": 8,
+    "viral": 4,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: resoluções do CMN (2)",
+    "Ato de quem tem poder: Conselho Monetário Nacional (2)",
+    "Proximidade: nacional (2)",
+    "Prazo concreto: fim de 2026 (3)",
+    "Utilidade: o que conferir antes de assinar (3)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Resolução CMN 5.351",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Crédito rural",
+  "coleta": "2026-11-27",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "resoluções lidas na íntegra no Banco Central; situação da MP no Senado",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "volume já contratado e lista de bancos credenciados"
+  },
+  "duplicidade": {
+   "grupo": "Crédito FNDCT para máquinas agrícolas",
+   "itens": [
+    "Resolução CMN 5.351",
+    "Resolução CMN 5.331",
+    "Lei 15.528/2026"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-12-lei-15528-auxilio-produtores-cana-nordeste-sancionada"
+  },
+  "seo": {
+   "intencao": "saber como financiar máquina agrícola nacional com crédito da Finep e FNDCT",
+   "entidades": [
+    "Resolução CMN 5.351",
+    "Resolução CMN 5.331",
+    "FNDCT",
+    "Finep",
+    "Lei 15.528/2026",
+    "MP 1.374/2026",
+    "Manual de Crédito Rural"
+   ],
+   "termos": [
+    "crédito Finep máquinas agrícolas",
+    "FNDCT crédito rural",
+    "Resolução CMN 5351"
+   ],
+   "atualizacao": "acompanhar a lista da Finep e eventual prorrogação para 2027"
+  },
+  "agro": {
+   "demanda": "Produtores e cooperativas que querem financiar equipamentos agrícolas nacionais inovadores",
+   "prazo": "contratações no exercício de 2026, até 31/12",
+   "quem": "Produtores rurais pessoas físicas ou jurídicas e cooperativas de produção agropecuária"
+  }
+ },
+ "descricao_seo": "Resolução CMN 5.351 reabre em 2026 o crédito do FNDCT/Finep para máquinas agrícolas nacionais: até R$ 30 milhões, TR + até 7,12% ao ano.",
+ "instituicao": "Conselho Monetário Nacional",
+ "editora": "Banco Central do Brasil",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura das resoluções e da tramitação, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: condições conferidas no texto integral das Resoluções 5.331 e 5.351; trechos citados literalmente; a perda de eficácia da MP vem do Senado; o veredito é opinião sobre o desenho da norma e não acusa ninguém. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/cmn-resolucao-5351-credito-fndct-finep-maquinas-agricolas-nacionais-10-bilhoes-2026.jpg",
+  "credito": "Foto: Valter Campanato/Agência Brasil",
+  "alt": "Amostras de insumo agrícola em laboratório de pesquisa da Embrapa (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/HgoCgTOaPJ__jqGortrKFUDJRrQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/27/0d7a4313_0.jpg?itok=F5Z5xaxt",
+  "pagina": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-05/embrapa-cria-calcario-mais-nutritivo-resistente-umidade-e-ao-vento"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-27T02:28:20-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-27T02:28:20-03:00"
+}
