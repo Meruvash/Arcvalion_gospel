@@ -1,0 +1,192 @@
+{
+ "slug": "cdh-senado-aprova-pl-654-familia-ou-filho-com-vitima-nao-afasta-pena-estupro-de-vulneravel",
+ "data": "2026-11-27",
+ "categoria": "noticias-gospel",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "Comissão do Senado aprova projeto: casar ou ter filho com vítima não livra estuprador",
+ "lide": "A Comissão de Direitos Humanos do Senado aprovou na quarta-feira (25) o PL 654/2026, da senadora Damares Alves (Republicanos-DF), que impede afastar a pena do estupro de vulnerável quando o réu forma família ou tem filho com a vítima menor de 14 anos. O texto segue para a Comissão de Constituição e Justiça, informou a Agência Senado.",
+ "por_que_importa": "Mesmo com a lei dizendo que a vulnerabilidade de quem tem menos de 14 anos é absoluta, decisões judiciais já deixaram de aplicar a pena porque o acusado passou a viver com a vítima ou teve um filho com ela. O projeto fecha essa porta por escrito no Código Penal.",
+ "numeros": [
+  [
+   "654/2026",
+   "é o número do projeto, apresentado em 23 de fevereiro",
+   "Senado Federal, dados abertos"
+  ],
+  [
+   "10 a 18 anos",
+   "de reclusão é a pena do estupro de vulnerável",
+   "Agência Senado, 25/11/2026"
+  ],
+  [
+   "14 anos",
+   "é a idade abaixo da qual a lei presume a vulnerabilidade da vítima",
+   "Agência Senado, 25/11/2026"
+  ]
+ ],
+ "corpo": [
+  "O relator, senador Marcio Bittar (PL-AC), apresentou um substitutivo. Considerou prejudicada a parte do texto que a lei já cobre, como o suposto consentimento da vítima, a experiência sexual anterior e a gravidez, e também o trecho sobre desconhecimento da ilegalidade, que o Código Penal já trata.",
+  "Ficou no texto a regra de que a constituição de família, a existência de filho ou a alegação de que a conduta não causou dano não podem servir para afastar a pena. Na justificativa, Damares diz que, apesar do entendimento dos tribunais superiores, decisões flexibilizaram as penas, e que o objetivo é reforçar a segurança jurídica."
+ ],
+ "no_brasil": "O projeto ainda precisa passar pela CCJ do Senado, depois pela Câmara, e ser sancionado. Até lá vale o Código Penal atual, que já presume a vulnerabilidade de quem tem menos de 14 anos. O STF também julga, no Tema 1485, se não saber a idade da vítima absolve o réu.",
+ "critica": [
+  {
+   "fonte": "Senadora Damares Alves (Republicanos-DF), autora, segundo a Agência Senado",
+   "texto": "reforçar a segurança jurídica",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/cdh-vinculo-posterior-entre-reu-e-vitima-de-estupro-de-vulneravel-nao-afasta-pena"
+  },
+  {
+   "fonte": "Parecer do relator, senador Marcio Bittar (PL-AC), segundo a Agência Senado",
+   "texto": "Boa parte da proposta original já está na lei; por isso o substitutivo manteve só as hipóteses que ainda não estavam expressas no Código Penal.",
+   "citacao": false,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/cdh-vinculo-posterior-entre-reu-e-vitima-de-estupro-de-vulneravel-nao-afasta-pena"
+  }
+ ],
+ "para_quem": [
+  "Pais e mães de crianças e adolescentes",
+  "Conselheiros tutelares, professores e líderes de igreja que recebem denúncias",
+  "Juízes, promotores e defensores que atuam em crimes sexuais"
+ ],
+ "nao_e_para": [
+  "Não é lei ainda: falta a CCJ, a Câmara e a sanção",
+  "Não muda a pena, que continua de 10 a 18 anos",
+  "Não trata de relações entre adultos"
+ ],
+ "veredito": "Projeto necessário. Criança não casa, é protegida. Quando um juiz deixa de punir porque o abusador passou a morar com a vítima, o crime vira arranjo de família. O Senado deve aprovar o texto rápido e deixar claro que filho de abuso não é atenuante.",
+ "versiculo": {
+  "texto": "Eis que os filhos são herança do Senhor, e o fruto do ventre, o seu galardão.",
+  "referencia": "Salmos 127.3",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: CDH: vínculo posterior entre réu e vítima de estupro de vulnerável não afasta pena (25/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/cdh-vinculo-posterior-entre-reu-e-vitima-de-estupro-de-vulneravel-nao-afasta-pena",
+   "data": "25/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: PL 654/2026",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo?codigoMateria=172741",
+   "data": "26/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 63,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "familia",
+   "porque": "Proteção de crianças menores de 14 anos contra abuso sexual e impunidade"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/cdh-vinculo-posterior-entre-reu-e-vitima-de-estupro-de-vulneravel-nao-afasta-pena"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 5,
+    "porque": "Projeto aprovado na CDH; ainda depende da CCJ, da Câmara e de sanção"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Proteção da criança e da família contra abuso sexual, tema central do público"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Aprovação na CDH na quarta-feira, 25/11, dentro de 48 horas"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Matéria oficial do Senado e situação conferida nos dados abertos"
+   },
+   "originalidade": {
+    "pontos": 8,
+    "porque": "Explica o que a lei já proíbe e o que o projeto acrescenta"
+   }
+  },
+  "publico": {
+   "pontos": 18,
+   "eixos": {
+    "valor": 7,
+    "viral": 6,
+    "cristao": 5
+   },
+   "criterios": [
+    "Documento primário: dados abertos do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Personagens com nome: Damares Alves, Marcio Bittar (1)",
+    "Utilidade: o que muda no Código Penal (2)",
+    "Tema que já mobiliza o público: abuso de crianças (3)",
+    "Conflito claro: impunidade e proteção da vítima (3)",
+    "Passagem bíblica que um pastor usaria: Salmos 127.3 (2)",
+    "Gancho cristão direto: proteção dos filhos (3)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "CDH: vínculo posterior entre réu e vítima de estupro de vulnerável não afasta pena",
+  "nucleo": "A - Brasil",
+  "categoria": "Família / proteção da criança",
+  "coleta": "2026-11-27",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na Agência Senado e nos dados abertos",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "data de votação na CCJ"
+  },
+  "duplicidade": {
+   "grupo": "PL 654/2026",
+   "itens": [
+    "Agência Senado 25/11",
+    "Agência Senado áudio 26/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber se casar ou ter filho com a vítima afasta a pena de estupro de vulnerável",
+   "entidades": [
+    "PL 654/2026",
+    "CDH do Senado",
+    "Damares Alves",
+    "Marcio Bittar",
+    "estupro de vulnerável"
+   ],
+   "termos": [
+    "estupro de vulnerável relativização",
+    "pl 654/2026",
+    "casar com a vítima afasta pena"
+   ],
+   "atualizacao": "votação na CCJ do Senado"
+  }
+ },
+ "descricao_seo": "CDH do Senado aprova o PL 654/2026: formar família ou ter filho com vítima menor de 14 anos não afasta a pena do estupro de vulnerável.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da matéria oficial e dos dados abertos do Senado, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: texto deixa claro que é projeto e que a lei atual já presume a vulnerabilidade; citação literal conferida na fonte; nenhum réu ou juiz nomeado. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/cdh-senado-aprova-pl-654-familia-ou-filho-com-vitima-nao-afasta-pena-estupro-de-vulneravel.jpg",
+  "credito": "Foto: Carolina Curi/Agência Senado",
+  "alt": "Senadora Damares Alves preside reunião da Comissão de Direitos Humanos do Senado",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/25/cdh-vinculo-posterior-entre-reu-e-vitima-de-estupro-de-vulneravel-nao-afasta-pena/20261125_01571cc.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/25/cdh-vinculo-posterior-entre-reu-e-vitima-de-estupro-de-vulneravel-nao-afasta-pena"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-27T02:30:15-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-27T02:30:15-03:00"
+}

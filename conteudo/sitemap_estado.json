@@ -572,8 +572,8 @@
   "lastmod": null
  },
  "https://opaladino.com.br/noticias/categoria/noticias-gospel/": {
-  "hash": "9477293962807714",
-  "lastmod": "2026-11-25T05:28:02+00:00"
+  "hash": "ec903e8a6d2ade0e",
+  "lastmod": "2026-11-27T05:31:08+00:00"
  },
  "https://opaladino.com.br/noticias/categoria/politica-e-sociedade/": {
   "hash": "3e0c8bd106d3c37b",
@@ -598,6 +598,10 @@
  "https://opaladino.com.br/noticias/cdh-senado-aprova-internacao-adolescentes-drogas-comunidades-terapeuticas/": {
   "hash": "a883ca33eac80774",
   "lastmod": "2026-11-06T02:38:17-03:00"
+ },
+ "https://opaladino.com.br/noticias/cdh-senado-aprova-pl-654-familia-ou-filho-com-vitima-nao-afasta-pena-estupro-de-vulneravel/": {
+  "hash": "f60342ef4d716a4d",
+  "lastmod": "2026-11-27T02:30:15-03:00"
  },
  "https://opaladino.com.br/noticias/cdh-senado-federalizacao-criancas-desaparecidas-bacabal-maranhao/": {
   "hash": "fcf1f2960d8d768a",
@@ -827,6 +831,10 @@
   "hash": "9867749ada3a1912",
   "lastmod": "2026-11-19T02:33:52-03:00"
  },
+ "https://opaladino.com.br/noticias/lula-escolhe-trabuco-bradesco-ministerio-da-fazenda-2027-davi-congresso-dialogo/": {
+  "hash": "388589b69630ff8f",
+  "lastmod": "2026-11-27T02:30:15-03:00"
+ },
  "https://opaladino.com.br/noticias/lula-sanciona-lei-enamed-obrigatorio-exercer-medicina/": {
   "hash": "75cff0f27ec65bb2",
   "lastmod": "2026-11-09T00:14:58+00:00"
@@ -868,24 +876,24 @@
   "lastmod": "2026-11-11T02:34:45-03:00"
  },
  "https://opaladino.com.br/noticias/pagina/2/": {
-  "hash": "8b93be29c1b396bd",
-  "lastmod": "2026-11-27T05:28:40+00:00"
+  "hash": "2bceaed8606a781d",
+  "lastmod": "2026-11-27T05:31:08+00:00"
  },
  "https://opaladino.com.br/noticias/pagina/3/": {
-  "hash": "bd847e3f8ed76e60",
-  "lastmod": "2026-11-27T05:28:40+00:00"
+  "hash": "013302ea9e66d15a",
+  "lastmod": "2026-11-27T05:31:08+00:00"
  },
  "https://opaladino.com.br/noticias/pagina/4/": {
-  "hash": "f8095679a86563c1",
-  "lastmod": "2026-11-27T05:28:40+00:00"
+  "hash": "0d904d7d6724f536",
+  "lastmod": "2026-11-27T05:31:08+00:00"
  },
  "https://opaladino.com.br/noticias/pagina/5/": {
-  "hash": "ac4d3c53bb33cd2a",
-  "lastmod": "2026-11-27T05:28:40+00:00"
+  "hash": "d11667441e7b4b88",
+  "lastmod": "2026-11-27T05:31:08+00:00"
  },
  "https://opaladino.com.br/noticias/pagina/6/": {
-  "hash": "12f7d0bef1ff3e2f",
-  "lastmod": "2026-11-27T05:28:40+00:00"
+  "hash": "605967d04c847c3a",
+  "lastmod": "2026-11-27T05:31:08+00:00"
  },
  "https://opaladino.com.br/noticias/pec-seguranca-votacao-senado-maioridade-penal/": {
   "hash": "fd88ce94bc6c1f13",

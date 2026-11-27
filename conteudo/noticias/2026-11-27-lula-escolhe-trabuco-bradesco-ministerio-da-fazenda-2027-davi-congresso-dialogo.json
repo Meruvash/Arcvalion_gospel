@@ -1,0 +1,191 @@
+{
+ "slug": "lula-escolhe-trabuco-bradesco-ministerio-da-fazenda-2027-davi-congresso-dialogo",
+ "data": "2026-11-27",
+ "categoria": "noticias-gospel",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Lula escolhe Luiz Carlos Trabuco, do Bradesco, para comandar a Fazenda a partir de janeiro",
+ "lide": "O Palácio do Planalto confirmou na quinta-feira (26) que o banqueiro Luiz Carlos Trabuco Cappi, de 75 anos, presidente do conselho do Bradesco, aceitou o convite do presidente Lula para comandar o Ministério da Fazenda no próximo mandato, informou a Agência Brasil. O presidente do Senado, Davi Alcolumbre, desejou a ele pleno êxito em nota.",
+ "por_que_importa": "O ministro da Fazenda decide sobre impostos, gastos e dívida do governo, e isso chega ao bolso de todos: juros, preço do dólar, inflação e emprego. A escolha de um executivo do mercado financeiro sinaliza o rumo da economia nos próximos anos.",
+ "numeros": [
+  [
+   "75 anos",
+   "é a idade de Trabuco, que começou no Bradesco aos 17, como escriturário",
+   "Agência Brasil, 26/11/2026"
+  ],
+  [
+   "6,07%",
+   "foi a alta do Ibovespa no dia da confirmação",
+   "Agência Brasil, 26/11/2026"
+  ],
+  [
+   "R$ 5,744",
+   "foi o dólar comercial no fechamento, queda de 1,25%",
+   "Agência Brasil, 26/11/2026"
+  ]
+ ],
+ "corpo": [
+  "A confirmação ocorreu numa reunião no Palácio da Alvorada, com a presença do atual ministro da Fazenda, Dario Durigan, e do ministro do Planejamento, Bruno Moretti. Trabuco foi presidente executivo do Bradesco de 2009 a 2018 e integra o Conselhão. Em 2014, recusou convite para a Fazenda no governo Dilma e indicou Joaquim Levy.",
+  "Em entrevistas recentes, segundo a Agência Brasil, defendeu o tripé macroeconômico (câmbio flutuante, metas de inflação e responsabilidade fiscal). Na nota, Davi disse que o Congresso mantém a disposição de interlocução permanente com a Fazenda e de cooperar em medidas que conciliem responsabilidade fiscal, crescimento e empregos."
+ ],
+ "no_brasil": "Trabuco assume em janeiro, no início do novo mandato de Lula. Até lá, a pasta segue com Dario Durigan. As primeiras decisões dele devem envolver o Orçamento de 2027, as metas fiscais e a relação com o Banco Central sobre os juros, temas que dependem também do Congresso.",
+ "critica": [
+  {
+   "fonte": "Davi Alcolumbre, presidente do Senado, em nota divulgada pela Agência Senado",
+   "texto": "O diálogo entre o Executivo e o Legislativo é fundamental para avançarmos em medidas que conciliem responsabilidade fiscal, crescimento econômico e geração de empregos.",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/26/davi-deseja-201cpleno-exito201d-a-luiz-carlos-trabuco-no-ministerio-da-fazenda"
+  },
+  {
+   "fonte": "Posição atribuída a Trabuco pela Agência Brasil",
+   "texto": "A política fiscal merece preocupação, mas não é problema de vida ou morte; o ajuste das contas não deve ser tratado isolado do crescimento e da redução das desigualdades.",
+   "citacao": false,
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/trabuco-aceita-convite-de-lula-para-comandar-fazenda-diz-planalto"
+  }
+ ],
+ "para_quem": [
+  "Famílias endividadas e quem acompanha juros e inflação",
+  "Empresários e produtores que dependem de crédito",
+  "Quem acompanha a relação entre governo e Congresso"
+ ],
+ "nao_e_para": [
+  "Não é posse: ele assume só em janeiro",
+  "Não muda nenhum imposto ou regra por enquanto",
+  "Não traz ainda plano econômico detalhado"
+ ],
+ "veredito": "Escolha que acalmou o mercado no primeiro dia. O teste real vem com o Orçamento e os gastos. Vale acompanhar se o discurso de responsabilidade fiscal vira corte de despesas ou mais imposto para quem trabalha.",
+ "versiculo": {
+  "texto": "Não havendo sábia direção, o povo cai, mas, na multidão de conselheiros, há segurança.",
+  "referencia": "Provérbios 11.14",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Davi deseja “pleno êxito” a Luiz Carlos Trabuco no Ministério da Fazenda (26/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/26/davi-deseja-201cpleno-exito201d-a-luiz-carlos-trabuco-no-ministerio-da-fazenda",
+   "data": "26/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: Trabuco aceita convite de Lula para comandar a Fazenda, diz Planalto (26/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/trabuco-aceita-convite-de-lula-para-comandar-fazenda-diz-planalto",
+   "data": "26/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 60,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "Escolha do ministro da Fazenda que vai conduzir impostos, gastos e dívida a partir de 2027"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/26/davi-deseja-201cpleno-exito201d-a-luiz-carlos-trabuco-no-ministerio-da-fazenda"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Nome confirmado pelo Planalto para a Fazenda, com efeito sobre juros, dólar e Orçamento"
+   },
+   "afinidade": {
+    "pontos": 10,
+    "porque": "Economia e governo afetam a família e o bolso do leitor de forma indireta"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Confirmação na quinta-feira, 26/11, dentro de 48 horas"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Nota do presidente do Senado e nota do Planalto relatada pela Agência Brasil"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Reúne trajetória, posição fiscal e reação do Congresso numa só nota"
+   }
+  },
+  "publico": {
+   "pontos": 13,
+   "eixos": {
+    "valor": 7,
+    "viral": 5,
+    "cristao": 1
+   },
+   "criterios": [
+    "Documento primário: nota do presidente do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Personagens com nome: Trabuco, Lula, Davi Alcolumbre (2)",
+    "Utilidade: efeito em juros e dólar (1)",
+    "Tema que já mobiliza o público: rumo da economia (3)",
+    "Conflito claro: mercado e política fiscal (2)",
+    "Passagem bíblica: Provérbios 11.14 (1)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Trabuco aceita convite de Lula para comandar a Fazenda, diz Planalto",
+  "nucleo": "A - Brasil",
+  "categoria": "Política / economia",
+  "coleta": "2026-11-27",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na Agência Senado e na Agência Brasil",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "data da posse e nomes da equipe"
+  },
+  "duplicidade": {
+   "grupo": "Trabuco na Fazenda",
+   "itens": [
+    "Agência Brasil 26/11",
+    "Agência Senado 26/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber quem será o novo ministro da Fazenda",
+   "entidades": [
+    "Luiz Carlos Trabuco",
+    "Ministério da Fazenda",
+    "Bradesco",
+    "Lula",
+    "Davi Alcolumbre"
+   ],
+   "termos": [
+    "novo ministro da fazenda",
+    "trabuco fazenda",
+    "quem é luiz carlos trabuco"
+   ],
+   "atualizacao": "posse e anúncio da equipe econômica"
+  }
+ },
+ "descricao_seo": "Planalto confirma Luiz Carlos Trabuco, do Bradesco, na Fazenda a partir de janeiro; Ibovespa sobe 6% e Davi defende diálogo com o Congresso.",
+ "instituicao": "Presidência da República",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura das matérias da Agência Senado e da Agência Brasil, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: fatos atribuídos às fontes; citação literal da nota de Davi conferida na página; posição de Trabuco em paráfrase atribuída. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/lula-escolhe-trabuco-bradesco-ministerio-da-fazenda-2027-davi-congresso-dialogo.jpg",
+  "credito": "Foto: Ton Molina/Agência Senado",
+  "alt": "Presidente do Senado, Davi Alcolumbre, conduz sessão no plenário",
+  "licenca": "Reprodução autorizada mediante citação da Agência Senado",
+  "origem": "https://www12.senado.leg.br/noticias/materias/2026/11/26/davi-deseja-201cpleno-exito201d-a-luiz-carlos-trabuco-no-ministerio-da-fazenda/55672291350_b5bca8d4d2_z.jpg",
+  "pagina": "https://www12.senado.leg.br/noticias/materias/2026/11/26/davi-deseja-201cpleno-exito201d-a-luiz-carlos-trabuco-no-ministerio-da-fazenda"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-27T02:30:15-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-27T02:30:15-03:00"
+}
