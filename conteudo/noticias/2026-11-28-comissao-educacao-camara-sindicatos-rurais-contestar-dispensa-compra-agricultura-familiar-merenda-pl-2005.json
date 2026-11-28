@@ -1,0 +1,195 @@
+{
+ "slug": "comissao-educacao-camara-sindicatos-rurais-contestar-dispensa-compra-agricultura-familiar-merenda-pl-2005",
+ "data": "2026-11-28",
+ "categoria": "chamada-agro",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Sindicato rural poderá contestar prefeitura que deixar de comprar merenda da agricultura familiar",
+ "lide": "A Comissão de Educação da Câmara aprovou o PL 2.005/2023, já aprovado no Senado, que obriga os executores locais do Pnae a avisar as entidades de representação dos trabalhadores rurais quando dispensarem o mínimo de compra da agricultura familiar na merenda. Essas entidades poderão contestar a dispensa e pedir que o gestor reconsidere.",
+ "por_que_importa": "A lei manda gastar ao menos 45% do Pnae com a agricultura familiar, mas permite dispensa por falta de nota fiscal, de fornecimento regular ou de condições sanitárias. Hoje o produtor muitas vezes nem fica sabendo. Com o aviso obrigatório, o sindicato pode provar que há oferta e recuperar a venda.",
+ "numeros": [
+  [
+   "45%",
+   "é o mínimo dos repasses do Pnae para compra direta da agricultura familiar, segundo a Agência Câmara",
+   "Agência Câmara"
+  ],
+  [
+   "3",
+   "são os motivos que hoje permitem dispensar o mínimo: falta de nota fiscal, de fornecimento regular ou de condições sanitárias",
+   "Agência Câmara"
+  ],
+  [
+   "2",
+   "parágrafos novos no art. 14 da Lei 11.947/2009: o aviso obrigatório e o direito de contestar",
+   "PL 2.005/2023"
+  ]
+ ],
+ "corpo": [
+  "O prazo para contestar será fixado pelo FNDE, de modo a não atrapalhar a compra e a distribuição dos alimentos. A relatora, deputada Maria do Rosário (PT-RS), votou pela aprovação com uma emenda só de técnica legislativa, sem mudar o conteúdo.",
+  "O parecer foi aprovado em 25 de novembro, e o projeto chegou à Comissão de Constituição e Justiça no dia 26, onde aguarda relator. A tramitação é conclusiva nas comissões, com regime de prioridade."
+ ],
+ "no_brasil": "O texto completa outro projeto sobre a merenda, o PL 1/2024, aprovado nesta semana na Comissão de Agricultura do Senado, que cria bônus para o município que cumprir os 45%. Juntos, um premia quem compra do pequeno produtor e o outro dá a ele meios de questionar quem deixa de comprar.",
+ "critica": [
+  {
+   "fonte": "PL 2.005/2023, novo § 5º do art. 14 da Lei 11.947/2009",
+   "texto": "as entidades referidas no § 4º poderão, nos termos de regulamento, contestar a decisão pela dispensa da aquisição de gêneros alimentícios junto aos agricultores familiares",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2869815"
+  },
+  {
+   "fonte": "Deputada Maria do Rosário (PT-RS), relatora, à Agência Câmara",
+   "texto": "São medidas que reafirmam a importância de que parte dos recursos do Pnae seja efetivamente empregada na aquisição de gêneros alimentícios da agricultura familiar",
+   "citacao": true,
+   "url": "https://www.camara.leg.br/noticias/1323754-comissao-aprova-direito-de-associacoes-rurais-contestarem-dispensa-de-compra-para-merenda"
+  }
+ ],
+ "para_quem": [
+  "Sindicatos e entidades de trabalhadores rurais: se virar lei, cobre da prefeitura o aviso de cada dispensa e guarde provas de que há produção e nota fiscal para vender",
+  "Agricultor familiar que vende ou quer vender para a merenda: procure o sindicato do município quando a chamada pública não sair",
+  "O prazo para contestar ainda depende do FNDE"
+ ],
+ "nao_e_para": [
+  "Ainda não é lei: falta a Comissão de Constituição e Justiça",
+  "O texto não acaba com as hipóteses de dispensa; só cria aviso e contestação",
+  "A contestação não obriga o gestor a mudar a decisão"
+ ],
+ "veredito": "Medida simples e justa: quem deixa de comprar do pequeno produtor precisa dizer por quê, e quem perdeu a venda precisa poder responder. Falta só um prazo de resposta curto, que o FNDE deveria fixar logo.",
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados: tramitação do PL 2.005/2023 (parecer aprovado na Comissão de Educação em 25/11/2026)",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2488007/tramitacoes",
+   "data": "26/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Câmara dos Deputados: inteiro teor do PL 2.005/2023, aprovado pelo Senado",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2869815",
+   "data": "19/03/2025",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Câmara: Comissão aprova direito de associações rurais contestarem dispensa de compra para merenda",
+   "url": "https://www.camara.leg.br/noticias/1323754-comissao-aprova-direito-de-associacoes-rurais-contestarem-dispensa-de-compra-para-merenda",
+   "data": "27/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 54,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "agro",
+   "porque": "Venda da agricultura familiar para a merenda escolar e direito do produtor de questionar a dispensa"
+  },
+  "origem": {
+   "nome": "Câmara dos Deputados",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2488007/tramitacoes"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 11,
+    "porque": "Mexe com a venda de agricultores familiares em todos os municípios; ainda falta a Comissão de Constituição e Justiça"
+   },
+   "afinidade": {
+    "pontos": 14,
+    "porque": "Agricultura familiar e venda ao poder público, dentro da aba Agro"
+   },
+   "atualidade": {
+    "pontos": 15,
+    "porque": "Parecer aprovado em 25/11 e divulgado pela Agência Câmara nesta sexta-feira, 27/11"
+   },
+   "comprovacao": {
+    "pontos": 11,
+    "porque": "Inteiro teor e tramitação lidos nos dados abertos da Câmara"
+   },
+   "originalidade": {
+    "pontos": 3,
+    "porque": "Ligamos o projeto ao bônus da merenda aprovado no Senado na mesma semana"
+   }
+  },
+  "publico": {
+   "pontos": 10,
+   "eixos": {
+    "valor": 7,
+    "viral": 3,
+    "cristao": 0
+   },
+   "criterios": [
+    "Documento primário: inteiro teor e tramitação (2)",
+    "Ato de quem tem poder: comissão da Câmara (2)",
+    "Proximidade: nacional (2)",
+    "Utilidade: o que o sindicato pode cobrar (2)",
+    "Tema que toca o pequeno produtor (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "PL 2.005/2023",
+  "nucleo": "A - Brasil",
+  "categoria": "Agro / Agricultura familiar",
+  "coleta": "2026-11-28",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "inteiro teor e tramitação conferidos na Câmara",
+   "contradicoes": "a Agência Câmara fala em associações; o texto diz entidades de representação legal dos trabalhadores rurais",
+   "sem_confirmacao": "quantas dispensas são feitas por ano"
+  },
+  "duplicidade": {
+   "grupo": "Pnae e agricultura familiar",
+   "itens": [
+    "PL 2.005/2023"
+   ],
+   "ja_publicado_por_nos": false,
+   "relacionada": "2026-11-26-senado-cra-aprova-bonus-merenda-municipio-compra-agricultura-familiar-45-por-cento-pl-1-2024"
+  },
+  "seo": {
+   "intencao": "saber como contestar prefeitura que não compra merenda da agricultura familiar",
+   "entidades": [
+    "PL 2.005/2023",
+    "Pnae",
+    "FNDE",
+    "Lei 11.947/2009",
+    "Maria do Rosário"
+   ],
+   "termos": [
+    "dispensa Pnae agricultura familiar",
+    "contestar dispensa merenda",
+    "PL 2005/2023"
+   ],
+   "atualizacao": "acompanhar a CCJ e o prazo que o FNDE fixar"
+  },
+  "agro": {
+   "demanda": "Agricultores familiares que perdem a venda para a merenda por dispensa do mínimo de 45%",
+   "prazo": "votação na CCJ da Câmara, sem data",
+   "quem": "Agricultores familiares e suas entidades de representação"
+  }
+ },
+ "descricao_seo": "PL 2.005/2023 aprovado na Comissão de Educação: entidades rurais poderão contestar a dispensa de compra da agricultura familiar no Pnae.",
+ "instituicao": "Câmara dos Deputados",
+ "editora": "Câmara dos Deputados",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura do projeto e da tramitação, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: conteúdo conferido no inteiro teor; trechos citados literalmente; a nota deixa claro que ainda não é lei e não acusa prefeitura alguma. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/comissao-educacao-camara-sindicatos-rurais-contestar-dispensa-compra-agricultura-familiar-merenda-pl-2005.jpg",
+  "credito": "Foto: Antônio Cruz/Agência Brasil",
+  "alt": "Merendeira prepara refeição em cozinha de escola pública (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/t63wMGdFDEqsu12E0Ess5xWCv0g=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/02/19/0d4a4635_0.jpg?itok=BkLGt13J",
+  "pagina": "https://agenciabrasil.ebc.com.br/educacao/noticia/2025-09/sem-reajustes-regulares-pnae-perde-poder-de-compra"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-28T02:26:53-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-28T02:26:53-03:00"
+}
