@@ -29,7 +29,7 @@
  "corpo": [
   "Os relatórios foram entregues na quarta-feira (18) pelo diretor-geral da PF, Andrei Rodrigues, em atenção a um ofício de Fachin de outubro, segundo o STF. Fachin arquivou os relatórios sobre Luiz Fux, Cármen Lúcia, Gilmar Mendes, Flávio Dino, Cristiano Zanin e ele próprio. A decisão está em segredo de Justiça e os motivos não foram divulgados.",
   "O teor dos relatórios é sigiloso. A Agência Brasil afirma que não é possível saber o contexto das citações nem o grau de relação dos ministros com Vorcaro, que está preso. Menção em conversa de terceiro não significa crime.",
-  "Atualização (21/11): a pedido de André Mendonça, Fachin retirou o sigilo do relatório sobre ele. A PF escreveu que não identificou \"registros que evidenciem diálogo direto\" entre Vorcaro e o ministro, informou a Agência Brasil. Os outros três relatórios seguem sob sigilo. Atualização (26/11): Fachin manteve a prisão preventiva de dois investigados apontados pela PF como integrantes do núcleo hacker do esquema, com base em parecer da PGR, e mandou à PGR o recurso do apontado como líder do grupo, informou o STF."
+  "Atualização (21/11): a pedido de André Mendonça, Fachin retirou o sigilo do relatório sobre ele. A PF escreveu que não identificou \"registros que evidenciem diálogo direto\" entre Vorcaro e o ministro, informou a Agência Brasil. Os outros três relatórios seguem sob sigilo. Atualização (26 e 27/11): Fachin manteve, com parecer da PGR, as prisões de dois investigados do núcleo hacker, do ex-presidente do BRB Paulo Henrique Costa e do advogado Daniel Monteiro, informou o STF."
  ],
  "no_brasil": "No Senado, a Comissão de Fiscalização e Controle aprovou em 18/11 proposta do senador Marcio Bittar (PL-AC) para fiscalizar, com ajuda do TCU, a atuação do Banco Central e da CVM antes da liquidação do Master, informou a Agência Senado.",
  "critica": [
@@ -97,6 +97,12 @@
    "nome": "STF: Caso Master: STF mantém prisão preventiva de investigados do núcleo hacker (26/11/2026)",
    "url": "https://noticias.stf.jus.br/postsnoticias/caso-master-stf-mantem-prisao-preventiva-de-investigados-do-nucleo-hacker/",
    "data": "26/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "STF: STF mantém prisões de ex-presidente do BRB e de advogado investigados no caso Master (27/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-mantem-prisoes-de-ex-presidente-do-brb-e-de-advogado-investigados-no-caso-master/",
+   "data": "27/11/2026",
    "tipo": "primaria"
   }
  ],
