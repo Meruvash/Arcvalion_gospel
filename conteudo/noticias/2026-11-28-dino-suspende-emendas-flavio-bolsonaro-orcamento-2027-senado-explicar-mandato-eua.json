@@ -1,0 +1,190 @@
+{
+ "slug": "dino-suspende-emendas-flavio-bolsonaro-orcamento-2027-senado-explicar-mandato-eua",
+ "data": "2026-11-28",
+ "categoria": "noticias-gospel",
+ "status": "publicado",
+ "manchete": true,
+ "opiniao_forte": false,
+ "selo": "Vale acompanhar",
+ "titulo": "Dino suspende emendas de Flávio Bolsonaro ao Orçamento de 2027 e cobra explicações do Senado",
+ "lide": "O ministro Flávio Dino, do STF, suspendeu na sexta-feira (27) a tramitação das 14 emendas individuais do senador Flávio Bolsonaro (PL-RJ) ao Orçamento de 2027, que somam R$ 79,3 milhões, e deu cinco dias para o Senado explicar em que condições o parlamentar exerce o mandato estando nos Estados Unidos, informou o STF.",
+ "por_que_importa": "Emenda individual é o dinheiro do Orçamento que cada parlamentar indica para obras e serviços na sua base. A decisão discute se um senador que mora fora do país pode continuar exercendo essa parte do mandato, e o resultado pode valer para outros casos.",
+ "numeros": [
+  [
+   "14",
+   "emendas individuais do senador tiveram a tramitação suspensa",
+   "STF, 27/11/2026"
+  ],
+  [
+   "R$ 79,3 milhões",
+   "é o valor somado dessas emendas ao Orçamento de 2027",
+   "STF, 27/11/2026"
+  ],
+  [
+   "5 dias",
+   "é o prazo para o Senado e o senador se manifestarem",
+   "STF, 27/11/2026"
+  ]
+ ],
+ "corpo": [
+  "A decisão é liminar e foi tomada na ação que acompanha a transparência das emendas parlamentares, a pedido do deputado Alencar Santana Braga (PT-SP). Dino comparou o caso ao de Eduardo Bolsonaro e Alexandre Ramagem, cujas emendas o Plenário do STF já havia bloqueado, e apontou como agravante a informação, nos autos, de que o senador estaria fora do país para não entregar os passaportes, conduta que, se confirmada, pode configurar quebra de decoro.",
+  "O Senado deve informar se houve autorização para a saída do país e enviar os registros de elaboração e envio das emendas. Segundo a Agência Brasil, a decisão final vem depois das manifestações e pode ir ao Plenário do STF. Flávio é investigado por lavagem de dinheiro e nega irregularidades."
+ ],
+ "no_brasil": "Enquanto a liminar valer, as emendas do senador ficam paradas na tramitação do Orçamento de 2027 no Congresso. O caso pode afetar municípios que contavam com esses recursos e abre discussão sobre o exercício do mandato a distância por parlamentares que estão fora do país.",
+ "critica": [
+  {
+   "fonte": "Ministro Flávio Dino, na decisão, segundo a Agência Brasil",
+   "texto": "determino, por cautela, a imediata suspensão da tramitação das emendas parlamentares individuais de autoria do Exmo. Senador Flávio Bolsonaro",
+   "citacao": true,
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/stf-dino-suspende-emendas-parlamentares-de-flavio-bolsonaro"
+  },
+  {
+   "fonte": "Senador Flávio Bolsonaro, segundo a Agência Brasil",
+   "texto": "O senador e o advogado investigado com ele no inquérito negam qualquer irregularidade; a decisão abriu prazo para que ele se manifeste sobre o pedido.",
+   "citacao": false,
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/stf-dino-suspende-emendas-parlamentares-de-flavio-bolsonaro"
+  }
+ ],
+ "para_quem": [
+  "Prefeitos e entidades que dependem de emendas parlamentares",
+  "Eleitores do Rio de Janeiro representados pelo senador",
+  "Quem acompanha a relação entre STF e Congresso"
+ ],
+ "nao_e_para": [
+  "Não é decisão final: é liminar e depende das explicações do Senado",
+  "Não cassa o mandato do senador",
+  "Não atinge emendas de outros parlamentares"
+ ],
+ "veredito": "Vale acompanhar a resposta do Senado. Cabe ao Congresso dizer as regras do mandato dos seus membros, e o caso testa até onde vai a atuação do STF sobre o Orçamento.",
+ "versiculo": {
+  "texto": "Quem é fiel no mínimo também é fiel no muito; quem é injusto no mínimo também é injusto no muito.",
+  "referencia": "Lucas 16.10",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "STF: Relator suspende tramitação de emendas parlamentares indicadas por Flávio Bolsonaro (27/11/2026)",
+   "url": "https://noticias.stf.jus.br/postsnoticias/relator-suspende-tramitacao-de-emendas-parlamentares-indicadas-por-flavio-bolsonaro/",
+   "data": "27/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Agência Brasil: STF: Dino suspende emendas parlamentares de Flávio Bolsonaro (27/11/2026)",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/stf-dino-suspende-emendas-parlamentares-de-flavio-bolsonaro",
+   "data": "27/11/2026",
+   "tipo": "secundaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 70,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "politica",
+   "porque": "Decisão do STF sobre as emendas de um senador que exerce o mandato morando nos Estados Unidos"
+  },
+  "origem": {
+   "nome": "STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/relator-suspende-tramitacao-de-emendas-parlamentares-indicadas-por-flavio-bolsonaro/"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 25,
+    "porque": "Liminar já em vigor que trava 14 emendas ao Orçamento de 2027"
+   },
+   "afinidade": {
+    "pontos": 10,
+    "porque": "Política nacional e limites entre Poderes, de efeito indireto para o leitor"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Decisão de sexta-feira, 27/11, dentro de 48 horas"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Notícia oficial do STF confirmada pela Agência Brasil com trecho da decisão"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Explica o que é emenda individual e o que a liminar trava"
+   }
+  },
+  "publico": {
+   "pontos": 15,
+   "eixos": {
+    "valor": 6,
+    "viral": 7,
+    "cristao": 2
+   },
+   "criterios": [
+    "Documento primário: notícia oficial do STF (2)",
+    "Proximidade: nacional (2)",
+    "Personagens com nome: Flávio Dino, Flávio Bolsonaro (2)",
+    "Tema que já mobiliza o público: senador nos Estados Unidos (4)",
+    "Conflito claro: STF e Senado (3)",
+    "Passagem bíblica que um pastor usaria: Lucas 16.10 (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Relator suspende tramitação de emendas parlamentares indicadas por Flávio Bolsonaro",
+  "nucleo": "A - Brasil",
+  "categoria": "Política / STF",
+  "coleta": "2026-11-28",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido no STF e na Agência Brasil",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "resposta do Senado e do senador"
+  },
+  "duplicidade": {
+   "grupo": "Flávio Bolsonaro no exterior",
+   "itens": [
+    "STF 27/11",
+    "Agência Brasil 27/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber por que o STF suspendeu as emendas de Flávio Bolsonaro",
+   "entidades": [
+    "Flávio Dino",
+    "Flávio Bolsonaro",
+    "STF",
+    "Orçamento de 2027",
+    "emendas parlamentares"
+   ],
+   "termos": [
+    "dino suspende emendas flávio bolsonaro",
+    "emendas flávio bolsonaro orçamento 2027",
+    "flávio bolsonaro mandato eua"
+   ],
+   "atualizacao": "resposta do Senado e decisão final"
+  }
+ },
+ "descricao_seo": "Flávio Dino suspende 14 emendas de Flávio Bolsonaro ao Orçamento de 2027, de R$ 79,3 milhões, e dá 5 dias para o Senado explicar o mandato.",
+ "instituicao": "Supremo Tribunal Federal",
+ "editora": "Supremo Tribunal Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da notícia oficial do STF e da Agência Brasil, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: decisão descrita como liminar; a suspeita de fuga dos passaportes aparece como afirmação condicional dos autos, nos termos do STF; negativa do senador registrada; citação literal conferida na Agência Brasil. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/dino-suspende-emendas-flavio-bolsonaro-orcamento-2027-senado-explicar-mandato-eua.jpg",
+  "credito": "Foto: Luiz Silveira/STF, via Agência Brasil",
+  "alt": "Ministro Flávio Dino fala durante sessão no plenário do STF (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/w4rPIWA4fdhmfrfcvs6EfaB_bPE=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/09/09/54776974910_27f774db1d_o.jpg?itok=duUdnejI",
+  "pagina": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/stf-dino-suspende-emendas-parlamentares-de-flavio-bolsonaro"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-28T02:28:24-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-28T02:28:24-03:00"
+}

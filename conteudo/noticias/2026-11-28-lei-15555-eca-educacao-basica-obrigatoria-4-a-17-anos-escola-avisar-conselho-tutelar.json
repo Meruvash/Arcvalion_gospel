@@ -1,0 +1,191 @@
+{
+ "slug": "lei-15555-eca-educacao-basica-obrigatoria-4-a-17-anos-escola-avisar-conselho-tutelar",
+ "data": "2026-11-28",
+ "categoria": "noticias-gospel",
+ "status": "publicado",
+ "manchete": false,
+ "opiniao_forte": true,
+ "selo": "Vale acompanhar",
+ "titulo": "ECA passa a prever escola obrigatória de 4 a 17 anos e aviso ao Conselho Tutelar",
+ "lide": "Já está em vigor a Lei 15.555/2026, sancionada pelo presidente Lula em 26 de novembro, que põe no Estatuto da Criança e do Adolescente a oferta obrigatória e gratuita da educação básica dos 4 aos 17 anos, da pré-escola ao ensino médio, informou a Agência Senado. Antes, o ECA falava só do ensino fundamental.",
+ "por_que_importa": "A lei obriga todas as escolas da educação básica, e não só as do fundamental, a avisar o Conselho Tutelar sobre maus-tratos, faltas frequentes sem justificativa, abandono e repetência alta. Isso alcança pais de crianças pequenas e de adolescentes do ensino médio.",
+ "numeros": [
+  [
+   "15.555",
+   "é o número da lei, de 26 de novembro de 2026",
+   "Senado Federal, dados abertos"
+  ],
+  [
+   "4 a 17 anos",
+   "é a faixa de idade da educação básica obrigatória e gratuita",
+   "Agência Senado, 27/11/2026"
+  ],
+  [
+   "2.234/2024",
+   "é o número do projeto que deu origem à lei",
+   "Senado Federal, dados abertos"
+  ]
+ ],
+ "corpo": [
+  "O texto adequa o ECA à Constituição e estende a todas as etapas da educação básica os programas de material escolar, transporte, alimentação e saúde. O poder público deve recensear os estudantes de 4 a 17 anos, chamá-los para a matrícula e acompanhar a frequência junto com os pais ou responsáveis.",
+  "O projeto é da deputada Laura Carneiro (PSD-RJ) e, no Senado, teve parecer favorável de Flávio Arns (PSB-PR) na Comissão de Educação e de Damares Alves (Republicanos-DF) na Comissão de Direitos Humanos. A lei também manda o poder público estimular novas propostas de calendário, currículo e métodos para trazer de volta quem está fora da escola."
+ ],
+ "no_brasil": "A regra já vale. Na prática, diretores de creches com pré-escola e de escolas de ensino médio passam a ter o mesmo dever de comunicar ao Conselho Tutelar que os do fundamental. Para as famílias, a matrícula a partir dos 4 anos continua obrigatória, como já previa a Constituição.",
+ "critica": [
+  {
+   "fonte": "Agência Senado, sobre o alcance da lei",
+   "texto": "A norma, que já está em vigor, adequa o estatuto à Constituição Federal.",
+   "citacao": true,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/27/sancionada-lei-que-atualiza-eca-para-garantir-educacao-basica-obrigatoria"
+  },
+  {
+   "fonte": "Leitura do texto descrito pela Agência Senado",
+   "texto": "A lei amplia deveres do poder público e das escolas; não cria punição nova para os pais nem muda o que se ensina em sala.",
+   "citacao": false,
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/27/sancionada-lei-que-atualiza-eca-para-garantir-educacao-basica-obrigatoria"
+  }
+ ],
+ "para_quem": [
+  "Pais e responsáveis por crianças de 4 a 17 anos",
+  "Diretores de escolas de educação infantil e de ensino médio",
+  "Conselheiros tutelares e secretarias de educação"
+ ],
+ "nao_e_para": [
+  "Não muda a idade da matrícula obrigatória, que a Constituição já fixava",
+  "Não cria multa nova para a família",
+  "Não altera currículo nem conteúdo das aulas"
+ ],
+ "veredito": "Lei correta, mas com um alerta. A escola tem de avisar quando a criança some ou sofre maus-tratos. Isso protege. A educação, porém, é primeiro dever da família: o aviso ao Conselho Tutelar deve servir para socorrer a criança, nunca para tirar dos pais a criação dos filhos.",
+ "versiculo": {
+  "texto": "Instrui o menino no caminho em que deve andar, e, até quando envelhecer, não se desviará dele.",
+  "referencia": "Provérbios 22.6",
+  "traducao": "ARC"
+ },
+ "fontes": [
+  {
+   "nome": "Agência Senado: Sancionada lei que atualiza ECA para garantir educação básica obrigatória (27/11/2026)",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/27/sancionada-lei-que-atualiza-eca-para-garantir-educacao-basica-obrigatoria",
+   "data": "27/11/2026",
+   "tipo": "primaria"
+  },
+  {
+   "nome": "Senado Federal, Dados Abertos: PL 2.234/2024, transformado na Lei 15.555/2026",
+   "url": "https://legis.senado.leg.br/dadosabertos/processo?codigoMateria=172593",
+   "data": "27/11/2026",
+   "tipo": "primaria"
+  }
+ ],
+ "crivo": {
+  "escala": 100,
+  "pontos": 70,
+  "trilha": "quente",
+  "abrangencia": "nacional",
+  "tema": {
+   "eixo": "educacao",
+   "porque": "Lei em vigor que muda deveres das escolas e do poder público na educação de crianças e adolescentes"
+  },
+  "origem": {
+   "nome": "Agência Senado",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/27/sancionada-lei-que-atualiza-eca-para-garantir-educacao-basica-obrigatoria"
+  },
+  "criterios": {
+   "impacto": {
+    "pontos": 15,
+    "porque": "Lei em vigor com efeito concreto sobre escolas de pré-escola e ensino médio; a obrigatoriedade já estava na Constituição"
+   },
+   "afinidade": {
+    "pontos": 20,
+    "porque": "Educação dos filhos e papel da família, tema central do público"
+   },
+   "atualidade": {
+    "pontos": 17,
+    "porque": "Lei sancionada em 26/11 e divulgada em 27/11, dentro de 48 horas"
+   },
+   "comprovacao": {
+    "pontos": 13,
+    "porque": "Matéria oficial do Senado e norma conferida nos dados abertos"
+   },
+   "originalidade": {
+    "pontos": 5,
+    "porque": "Mostra o que muda para escolas e famílias e o que não muda"
+   }
+  },
+  "publico": {
+   "pontos": 16,
+   "eixos": {
+    "valor": 7,
+    "viral": 5,
+    "cristao": 4
+   },
+   "criterios": [
+    "Documento primário: dados abertos do Senado (2)",
+    "Proximidade: nacional (2)",
+    "Personagens com nome: Laura Carneiro, Damares Alves, Flávio Arns (1)",
+    "Utilidade: o que muda para pais e escolas (2)",
+    "Tema que já mobiliza o público: escola e Conselho Tutelar (3)",
+    "Conflito claro: família e Estado na educação (2)",
+    "Passagem bíblica que um pastor usaria: Provérbios 22.6 (2)",
+    "Gancho cristão direto: criação dos filhos (2)"
+   ]
+  }
+ },
+ "curadoria": {
+  "titulo_original": "Sancionada lei que atualiza ECA para garantir educação básica obrigatória",
+  "nucleo": "A - Brasil",
+  "categoria": "Educação / família",
+  "coleta": "2026-11-28",
+  "verificacao": {
+   "grau_de_confianca": "alto",
+   "status": "conferido na Agência Senado e nos dados abertos",
+   "contradicoes": "nenhuma",
+   "sem_confirmacao": "texto integral no Diário Oficial não lido (Planalto bloqueia robô)"
+  },
+  "duplicidade": {
+   "grupo": "Lei 15.555/2026",
+   "itens": [
+    "Agência Senado 27/11"
+   ],
+   "ja_publicado_por_nos": false
+  },
+  "seo": {
+   "intencao": "saber o que muda no ECA com a educação básica obrigatória",
+   "entidades": [
+    "Lei 15.555/2026",
+    "ECA",
+    "Conselho Tutelar",
+    "educação básica",
+    "Laura Carneiro"
+   ],
+   "termos": [
+    "lei 15.555",
+    "eca educação básica obrigatória",
+    "escola avisar conselho tutelar faltas"
+   ],
+   "atualizacao": "regulamentação e efeitos nas redes de ensino"
+  }
+ },
+ "descricao_seo": "Lei 15.555/2026 põe no ECA a escola obrigatória e gratuita dos 4 aos 17 anos e obriga toda a educação básica a avisar o Conselho Tutelar.",
+ "instituicao": "Senado Federal",
+ "editora": "Senado Federal",
+ "estudos": [],
+ "jogos": [],
+ "ia": {
+  "usada": true,
+  "uso": "leitura da matéria oficial e dos dados abertos do Senado, organização dos fatos e primeira versão do texto"
+ },
+ "checagem_juridica": "Leitura hostil feita: deixa claro que a obrigatoriedade já estava na Constituição e que não há punição nova para pais; citação literal conferida na fonte; opinião sem acusar pessoa nomeada. Sem oferta de serviço nem menção à advocacia do editor.",
+ "imagem": {
+  "arquivo": "capas/lei-15555-eca-educacao-basica-obrigatoria-4-a-17-anos-escola-avisar-conselho-tutelar.jpg",
+  "credito": "Foto: Bruno Peres/Agência Brasil",
+  "alt": "Crianças em sala de aula de escola pública com a professora ao quadro (foto de arquivo)",
+  "licenca": "Reprodução autorizada para fins jornalísticos, com indicação da fonte",
+  "origem": "https://imagens.ebc.com.br/lYPe2sLBoae6JRag-_Yf55XHPv4=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/06/21/_mg_3680.jpg?itok=UzSR1wEt",
+  "pagina": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/mec-divulga-regras-para-distribuicao-de-verbas-adicionais-do-fundeb"
+ },
+ "revisao": {
+  "revisor": "anderson-pelicioni-de-castro",
+  "data": "2026-11-28T02:28:24-03:00",
+  "modo": "automatica"
+ },
+ "publicado_em": "2026-11-28T02:28:24-03:00"
+}
